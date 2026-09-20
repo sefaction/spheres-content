@@ -199,7 +199,7 @@
     "descriptionSha256": "a0750a5036d9758c7053ca99fdbee82f6677eec71a3e313cd9b0931706732ddb",
     "reviewed": "2026-09-20",
     "decision": "adapt",
-    "reason": "Reject the unrelated talent name match. Adapt PF1 11.11's native longsword profile, attack action and system artwork; apply the wiki's +3 enhancement, price, weight, caster level and Illusion aura. Keep glamered and the +3 Illusion implement role descriptive because no stable pf1spheres item field was found.",
+    "reason": "Reject the unrelated talent name match. Adapt PF1 11.11's native longsword profile, attack action and system artwork; apply the wiki's +3 enhancement, price, weight, caster level and Illusion aura. Implement the +3 Illusion implement bonus with pf1spheres 0.9.0's sphereclIllusion Change target and PF1's enhancement modifier. This is uncapped by Hit Dice and does not stack with another enhancement bonus to Illusion caster level. Keep glamered descriptive pending separate automation review.",
     "candidates": [
       {
         "name": "Hidden Blade",
@@ -249,7 +249,7 @@
       "file": "src/packs/items/implements/hidden-blade-8f74960ccb773c7e.json",
       "id": "8f74960ccb773c7e",
       "type": "weapon",
-      "sha256": "85f79e0fa87e9192bfa762fb5d8ba8dd37971387640b78bdaadf68f3d977794c",
+      "sha256": "3e55786d6276b309f0dc6949d74980d7074cde92a689d794b3ae57c3c51af2dc",
       "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.zWRlna42PMJVX6un"
     }
   },

@@ -72,10 +72,9 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
     /^[0-9a-f]{64}$/.test(meta.sourceSha256),
     "Missing source snapshot hash",
   );
-  assert.equal(
-    meta.automation,
-    "not-reviewed",
-    "Mechanics are deferred until the descriptive catalog is reviewed",
+  assert(
+    ["not-reviewed", "reviewed"].includes(meta.automation),
+    "Unknown automation review state",
   );
   assert(assets.has(doc.img), "Unregistered image");
   const s = doc.system;
@@ -85,7 +84,20 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
       s.description.value.length > 30,
     "Missing description",
   );
-  for (const name of ["changes", "contextNotes", "scriptCalls"])
+  if (meta.automation === "reviewed") {
+    assert(identity.changesSha256, "Reviewed Changes are not pinned");
+    assert.equal(
+      hash(JSON.stringify(s.changes)),
+      identity.changesSha256,
+      "Reviewed Changes changed",
+    );
+  } else
+    assert.deepEqual(
+      s.changes,
+      [],
+      "changes must remain empty during the descriptive phase",
+    );
+  for (const name of ["contextNotes", "scriptCalls"])
     assert.deepEqual(
       s[name],
       [],
@@ -248,6 +260,16 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
         s.actions[0].damage.parts[0].formula,
         "sizeRoll(1, 8, @size)",
       );
+      assert.deepEqual(s.changes, [
+        {
+          formula: "3",
+          operator: "add",
+          target: "sphereclIllusion",
+          priority: 0,
+          type: "enh",
+          _id: "1a4d7dc248628a3a",
+        },
+      ]);
     }
     assert(Number.isFinite(s.price) && s.price >= 0);
     assert(Number.isFinite(s.weight?.value) && s.weight.value >= 0);

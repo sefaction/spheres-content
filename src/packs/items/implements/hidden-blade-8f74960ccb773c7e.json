@@ -15,7 +15,7 @@
       "sourceSha256": "f43beedae4d13c401a55e4c9a04c8211105875d4d83394920f539ca12edf879b",
       "descriptionSha256": "a0750a5036d9758c7053ca99fdbee82f6677eec71a3e313cd9b0931706732ddb",
       "phase": "descriptive",
-      "automation": "not-reviewed",
+      "automation": "reviewed",
       "edition": "ultimate",
       "category": "New Implements",
       "nativeProfile": "hidden-blade-longsword",
@@ -27,7 +27,7 @@
       "audit": {
         "image": "implemented",
         "activation": "implemented",
-        "changes": "needs-review",
+        "changes": "implemented",
         "contextNotes": "needs-review",
         "usage": "implemented",
         "links": "implemented",
@@ -84,7 +84,16 @@
     },
     "broken": false,
     "hardness": 0,
-    "changes": [],
+    "changes": [
+      {
+        "formula": "3",
+        "operator": "add",
+        "target": "sphereclIllusion",
+        "priority": 0,
+        "type": "enh",
+        "_id": "1a4d7dc248628a3a"
+      }
+    ],
     "changeFlags": {
       "immuneToMorale": false,
       "loseDexToAC": false,

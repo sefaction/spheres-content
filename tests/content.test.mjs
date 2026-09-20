@@ -194,6 +194,20 @@ test("reviewed Hidden Blade and Trail Rations use pinned native PF1 profiles", a
     "sizeRoll(1, 8, @size)",
   );
   assert.match(hiddenBlade.system.description.value, /\+3 Illusion implement/);
+  assert.equal(
+    hiddenBlade.flags["additional-spheres-content"].automation,
+    "reviewed",
+  );
+  assert.deepEqual(hiddenBlade.system.changes, [
+    {
+      formula: "3",
+      operator: "add",
+      target: "sphereclIllusion",
+      priority: 0,
+      type: "enh",
+      _id: "1a4d7dc248628a3a",
+    },
+  ]);
 
   assert.equal(rations.type, "loot");
   assert.equal(rations.system.subType, "food");
@@ -211,4 +225,17 @@ test("reviewed Hidden Blade and Trail Rations use pinned native PF1 profiles", a
       /Unreviewed native actions/,
     );
   }
+
+  const changed = structuredClone(hiddenBlade);
+  changed.system.changes[0].formula = "4";
+  const hiddenBladeIdentity = identities.find(
+    (entry) => entry.id === hiddenBlade._id,
+  );
+  assert.throws(
+    () =>
+      validateEntity(changed, hiddenBladeIdentity, sources, assets, {
+        intakeSources,
+      }),
+    /Reviewed Changes changed/,
+  );
 });

@@ -25,9 +25,12 @@ is a reviewed subset, not a complete validator for every PF1 Item type.
   does not claim to HTTP-check every linked wiki page during CI.
 - UUID/compendium links remain blocked until a versioned resolution inventory is
   implemented. Do not invent upstream UUIDs.
-- Keep Changes, context notes, scripts and effects empty. Preserve only reviewed
-  native contained-item actions, pinned by hashes in `config/containers.json`. Reject passive
-  change flags and caster-progression automation until the later mechanics pass.
+- Keep context notes, scripts and effects empty until individually reviewed.
+  Changes may be enabled per entity only after the target and modifier are verified
+  against the installed integration; pin each reviewed Changes array in
+  `config/identities.json`. Hidden Blade establishes this path for sphere-specific
+  implement bonuses. Preserve reviewed native actions with pinned hashes. Reject
+  unreviewed passive change flags and caster-progression automation.
   Native class/item identity fields such as HD, BAB, saves, price and weight are
   included so the documents use the appropriate PF1 sheet and basic data model.
 - Folder references and automatic class associations are deferred; the pilot

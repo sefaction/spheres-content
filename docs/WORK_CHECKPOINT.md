@@ -10,9 +10,10 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
 - Branch `content/native-weapon-consumable-review`; issue #13. Alpha.6 preserves
   both stable identities. Hidden Blade is now a native +3 martial longsword with
   PF1 11.11's reviewed attack action, weapon categories and system artwork plus
-  the wiki's CL 10 and Illusion aura. Glamered and its +3 Illusion implement role
-  stay descriptive because pf1spheres 0.9.0 exposes no stable item field for the
-  implement bonus. Trail Rations is native food with PF1's single-use action and
+  the wiki's CL 10 and Illusion aura. Its +3 Illusion implement role now uses
+  pf1spheres 0.9.0's `sphereclIllusion` target with PF1's uncapped `enh`
+  modifier; the stable Change ID and array hash are pinned. Glamered remains descriptive.
+  Trail Rations is native food with PF1's single-use action and
   system artwork while retaining wiki text, price and weight.
 - Exact source UUIDs/hashes, adaptation decisions, output hashes and action-array
   hashes are pinned. The two PF1 images were visually inspected and are referenced
