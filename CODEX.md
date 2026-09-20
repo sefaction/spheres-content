@@ -124,8 +124,11 @@ Its equivalent profile is documented in `docs/REMOTE_TESTING.md` and
 `config/remote.example.json`; actual values live in ignored `.local/remote.json`.
 It uses the existing Windows SMB session without handling credentials. The
 dry run prints a logical target rather than a private address. Retention is
-bounded by refusing additional replacements at five backups, never by deleting
-backups without approval. A clean committed `npm.cmd run verify` is required
+bounded at ten module-only rollback copies. On 2026-09-20 the user explicitly
+authorized automatic deletion of the oldest excess copies after a replacement
+passes installed-byte verification and its deployment receipt is saved. Preserve
+the immediately previous build, validate exact backup paths and module identities,
+and never rotate world backups, unrelated directories or failed staging folders. A clean committed `npm.cmd run verify` is required
 immediately before deployment; a standalone build invalidates the verification receipt.
 
 `docs/REMOTE_TESTING.md` should describe the safe logical target without secrets: hosting model, whether the instance is disposable or shared, allowed module path, test-world purpose, how logs are viewed, whether a restart is permitted, and the rollback procedure.

@@ -7,7 +7,8 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
 - Active branch: content/systematic-intake. Draft PR #9:
   https://github.com/sefaction/spheres-content/pull/9, stacked on #4. Issue #8
   tracks the intake; #3 remains the broader catalog, #6 the native source labels.
-  No merge, release or retention-policy change has been authorized.
+  No merge or release is authorized. The user authorized ten rolling module
+  backups, deleting the oldest excess copies after verified deployments.
 - Runtime/source implementation commit: b9fabf7eb46a1aec01f33ab0e0c3b49a342e0c30.
   Documentation evidence follows it. Full clean verification passed on that commit:
   formatting, lint, 22 tests, source/reference validation, complete compiled-record
@@ -39,11 +40,13 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
 - Remote remains 80600de alpha.3 in Setup, confirmed by HTTP, installed manifest
   and browser. All five backups remain. The alpha.4 deployment dry run refused
   at the documented retention limit; no files were replaced and no restart ran.
-- Pending user question: retain all five backups and raise the bounded limit to
-  ten for this batch, or leave deployment pending. No answer received. Do not
-  bypass the limit or delete backups. This is a CODEX.md/helper restriction.
-- Next safe step after the retention decision: implement the approved bounded
-  policy, commit and verify the exact clean branch build, dry-run/deploy, then
+- 2026-09-20 retention update: implement ten rolling backups, prune only after
+  installed-byte verification and saved receipt, preserve the newest rollback
+  copy, and validate exact paths/identities/no nested links. Seven remote helper
+  tests pass, including real fixture pruning and failure guards. Current five
+  remote backups are untouched; the next deployment should retain six.
+- Next safe step: commit and verify the retention-enabled clean branch build,
+  dry-run/deploy, then
   test five packs and every native document type in the dedicated PF1 world.
   Return to Setup for strict semantic audit and update PR #9 with actual results.
   Reconcile any newer GitHub CI result before continuing; PRs #2/#4/#9 are unmerged.
