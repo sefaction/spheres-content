@@ -4,6 +4,7 @@ import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { load } from "cheerio";
 import { files, json, moduleId, safeRelative } from "./lib.mjs";
+import { validateReviewOutput } from "./reuse-review.mjs";
 
 const idPattern = /^[a-zA-Z0-9]{16}$/;
 export const stableId = (key) =>
@@ -47,6 +48,8 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
   );
   assert.equal(identity?.sourceKey, meta.sourceKey, "Source key changed");
   assert(sources.has(meta.collection), "Unreviewed source collection");
+  if (meta.reuse?.sourceUuid)
+    assert(sources.has(meta.reuse.collection), "Unreviewed reused collection");
   if (meta.collection === "wiki-intake-open-rules") {
     const page = new URL(meta.sourceUrl);
     page.hash = "";
@@ -193,12 +196,18 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
     if (doc.type === "consumable")
       assert(["misc", "potion"].includes(s.subType));
     if (doc.type === "equipment") {
-      assert.equal(
-        s.subType,
-        "wondrous",
+      assert(
+        ["wondrous", "clothing"].includes(s.subType),
         "Additional equipment profile needs review",
       );
       assert.equal(s.equipmentSubtype, "");
+      if (s.subType === "clothing") {
+        assert.equal(s.slot, "clothing");
+        assert.equal(s.armor.value, 0, "Mundane clothing must not grant armor");
+        assert.equal(s.armor.enh, 0);
+        assert.equal(s.armor.acp, 0);
+        assert.equal(s.spellFailure, 0);
+      }
     }
     if (doc.type === "weapon") {
       assert.equal(s.subType, "simple");
@@ -288,6 +297,7 @@ export async function validateContentCatalog() {
   const identities = await json("config/identities.json");
   const containers = await json("config/containers.json");
   const intakeSources = await json("config/intake-sources.json");
+  const physicalReviews = await json("config/physical-item-reviews.json");
   const sources = new Map();
   for (const source of catalog.sources) {
     assert(!sources.has(source.key), "Duplicate collection");
@@ -437,6 +447,8 @@ export async function validateContentCatalog() {
         containers,
         intakeSources,
       });
+      if (doc.flags[moduleId].reuse?.sourceUuid)
+        validateReviewOutput(physicalReviews[key], doc);
       registeredFiles.push(file);
       docs.push({ pack: pack.name, file, doc });
     }

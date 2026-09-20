@@ -1,0 +1,394 @@
+{
+  "wiki:adventuring-gear:current:item:adventurers-sash": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "f4a6b2d8343237c3ce6d1103c7e07f425c86e6e119127900480f3155c3dba041",
+    "reviewed": "2026-09-20",
+    "decision": "adapt",
+    "reason": "Reuse matching rules, physical values and bibliography; adapt loot to an empty native container. Sewn-in pouches and satchel are structural parts, not additional contents. Replace cloth-only art with generated sash.",
+    "candidates": [
+      {
+        "name": "Adventurer's sash",
+        "uuid": "Compendium.pf-content.pf-items.Item.Iy5NRarPV4AsyNKI",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "sha256": "717982bbfe916d7e45d8b887de6db454f5f765e36578d277f8e39b9bea730bdb",
+        "type": "loot",
+        "decision": "adapt",
+        "reason": "Reuse matching rules, physical values and bibliography; adapt loot to an empty native container. Sewn-in pouches and satchel are structural parts, not additional contents. Replace cloth-only art with generated sash.",
+        "descriptionFields": {
+          "value": 433,
+          "instructions": 0,
+          "unidentified": 0
+        },
+        "price": 20,
+        "weight": 3,
+        "img": "systems/pf1/icons/items/inventory/cloth-red.jpg",
+        "actions": 0,
+        "changes": 0,
+        "contextNotes": 0
+      },
+      {
+        "name": "Sash, Adventurer's",
+        "uuid": "Compendium.pf1.items.Item.rbstbtaujitvszmd",
+        "provider": "pf1",
+        "version": "11.11",
+        "sha256": "4d60d79dc66f11dc3527351fc78197b7ab91a039300c5f9c084330e2a918fe89",
+        "type": "loot",
+        "decision": "alternative-not-selected",
+        "reason": "Alternate record reviewed; selected candidate better fits the native profile and keeps descriptive mechanics scope. PF1 scarf/umbrella notes remain candidates for the later conditional review.",
+        "descriptionFields": {
+          "value": 466,
+          "instructions": 0,
+          "unidentified": 0
+        },
+        "price": 20,
+        "weight": 3,
+        "img": "systems/pf1/icons/items/inventory/dice.jpg",
+        "actions": 0,
+        "changes": 0,
+        "contextNotes": 0
+      }
+    ],
+    "output": {
+      "file": "src/packs/items/adventuring-gear/adventurers-sash-ef882e32e6e874ce.json",
+      "id": "ef882e32e6e874ce",
+      "type": "container",
+      "sha256": "5e6eb2dc432ae669ba876c07da0e987a9684612e7d86354046dfc7147b982cf7",
+      "sourceUuid": "Compendium.pf-content.pf-items.Item.Iy5NRarPV4AsyNKI"
+    }
+  },
+  "wiki:adventuring-gear:current:item:filter-scarf": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "8e1fced54a04dbd3211f1451bfd0b6a453fcaa8fa49ec955741a869bc4704804",
+    "reviewed": "2026-09-20",
+    "decision": "adapt",
+    "reason": "Reuse matching clothing record and suitable core scarf image. Clear obsolete lightArmor subtype for PF1 11.11 clothing; retain zero AC and the wiki size/description. Conditional resistance stays descriptive.",
+    "candidates": [
+      {
+        "name": "Filter scarf",
+        "uuid": "Compendium.pf-content.pf-items.Item.IZbg3QuLWKinf8ai",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "sha256": "1c3f87bbedbe1c13b2de273a0d5eefa751a954b089f176ae908a0d1304e543d9",
+        "type": "equipment",
+        "decision": "adapt",
+        "reason": "Reuse matching clothing record and suitable core scarf image. Clear obsolete lightArmor subtype for PF1 11.11 clothing; retain zero AC and the wiki size/description. Conditional resistance stays descriptive.",
+        "descriptionFields": {
+          "value": 277,
+          "instructions": 0,
+          "unidentified": 0
+        },
+        "price": 5,
+        "weight": 0,
+        "img": "icons/equipment/back/cloak-collared-teal.webp",
+        "actions": 0,
+        "changes": 0,
+        "contextNotes": 0
+      },
+      {
+        "name": "Scarf, Filter",
+        "uuid": "Compendium.pf1.items.Item.tvmotdyqsqpmfdsu",
+        "provider": "pf1",
+        "version": "11.11",
+        "sha256": "84c51b176626d3a3a56117ce8ec5c9f0f614319ca24faaff65a41f4248c6f05e",
+        "type": "loot",
+        "decision": "alternative-not-selected",
+        "reason": "Alternate record reviewed; selected candidate better fits the native profile and keeps descriptive mechanics scope. PF1 scarf/umbrella notes remain candidates for the later conditional review.",
+        "descriptionFields": {
+          "value": 346,
+          "instructions": 0,
+          "unidentified": 0
+        },
+        "price": 5,
+        "weight": 0,
+        "img": "systems/pf1/icons/items/inventory/dice.jpg",
+        "actions": 0,
+        "changes": 0,
+        "contextNotes": 1
+      }
+    ],
+    "output": {
+      "file": "src/packs/items/adventuring-gear/filter-scarf-0cba0b7e168525a3.json",
+      "id": "0cba0b7e168525a3",
+      "type": "equipment",
+      "sha256": "88eec20d86995e3cf8c60ab34727f3dde3d66913f27c1a5f292937d1d3870bb6",
+      "sourceUuid": "Compendium.pf-content.pf-items.Item.IZbg3QuLWKinf8ai"
+    }
+  },
+  "wiki:compounds:ultimate:item:seed-of-life": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "da640fd520e8a2e93f5c415333bb69412cf983beb4a532c30d16e9d3b6aa6f8f",
+    "reviewed": "2026-09-20",
+    "decision": "reject-matches",
+    "reason": "The matched monster ability heals and grants defenses; this is a resurrection seed item. Different rules object.",
+    "candidates": [
+      {
+        "name": "Seed of Life",
+        "uuid": "Compendium.pf-content.pf-universal-monster-rules.Item.oGq7Md8fhjiJVrrR",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "sha256": "013fdf96cceef33c3d73e332bea7e2288fe65b51703d9a1b05d7df122238a104",
+        "type": "feat",
+        "decision": "reject",
+        "reason": "The matched monster ability heals and grants defenses; this is a resurrection seed item. Different rules object.",
+        "descriptionFields": {
+          "value": 612,
+          "instructions": 0
+        },
+        "price": null,
+        "weight": null,
+        "img": "systems/pf1/icons/skills/green_24.jpg",
+        "actions": 1,
+        "changes": 0,
+        "contextNotes": 0
+      }
+    ]
+  },
+  "wiki:equipment:current:item:lightning-rod": {
+    "pageSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
+    "descriptionSha256": "33320d942f30b18465b845697fa87b3d325f66dc9392ddd339e6b6467bb415bb",
+    "reviewed": "2026-09-20",
+    "decision": "reject-matches",
+    "reason": "Both matches are supernatural class/talent powers, not the physical building lightning conductor.",
+    "candidates": [
+      {
+        "name": "Lightning Rod",
+        "uuid": "Compendium.pf1.class-abilities.Item.rRgDV4GMJf7BosAE",
+        "provider": "pf1",
+        "version": "11.11",
+        "sha256": "a57f9d2338986fa3299be112c80c3626ce686ec33c280ebda0318af3cf6b604d",
+        "type": "feat",
+        "decision": "reject",
+        "reason": "Both matches are supernatural class/talent powers, not the physical building lightning conductor.",
+        "descriptionFields": {
+          "value": 877,
+          "instructions": 0
+        },
+        "price": null,
+        "weight": null,
+        "img": "systems/pf1/icons/spells/lighting-fire-1.jpg",
+        "actions": 1,
+        "changes": 0,
+        "contextNotes": 0
+      },
+      {
+        "name": "Lightning Rod",
+        "uuid": "Compendium.pf1spheres.magic-talents.Item.gdOPE8thFlqdzsUp",
+        "provider": "pf1spheres",
+        "version": "0.9.0",
+        "sha256": "e5e2d4c19c05c18ceb3433150233702d22621e9176144d6e57241ee5c048e599",
+        "type": "feat",
+        "decision": "reject",
+        "reason": "Both matches are supernatural class/talent powers, not the physical building lightning conductor.",
+        "descriptionFields": {
+          "value": 535,
+          "instructions": 0,
+          "unidentified": 0
+        },
+        "price": null,
+        "weight": null,
+        "img": "modules/pf1spheres/assets/icons/spheres/weather.webp",
+        "actions": 0,
+        "changes": 0,
+        "contextNotes": 0
+      }
+    ]
+  },
+  "wiki:implements:ultimate:item:hidden-blade": {
+    "pageSha256": "f43beedae4d13c401a55e4c9a04c8211105875d4d83394920f539ca12edf879b",
+    "descriptionSha256": "a0750a5036d9758c7053ca99fdbee82f6677eec71a3e313cd9b0931706732ddb",
+    "reviewed": "2026-09-20",
+    "decision": "reject-matches",
+    "reason": "The combat talent conceals weapons; this item is a +3 glamered longsword and Illusion implement. A later native weapon-profile correction is required.",
+    "candidates": [
+      {
+        "name": "Hidden Blade",
+        "uuid": "Compendium.pf1spheres.combat-talents.Item.LE74SRenmB5gvtLE",
+        "provider": "pf1spheres",
+        "version": "0.9.0",
+        "sha256": "0b2dce121316a3f0ae0ade64d3450eb99377e6b18e2d67eb5b942c76648499a2",
+        "type": "feat",
+        "decision": "reject",
+        "reason": "The combat talent conceals weapons; this item is a +3 glamered longsword and Illusion implement. A later native weapon-profile correction is required.",
+        "descriptionFields": {
+          "value": 221,
+          "instructions": 0,
+          "unidentified": 0
+        },
+        "price": null,
+        "weight": null,
+        "img": "modules/pf1spheres/assets/icons/spheres/scoundrel.webp",
+        "actions": 0,
+        "changes": 0,
+        "contextNotes": 0
+      }
+    ]
+  },
+  "wiki:implements:ultimate:item:liquid-courage": {
+    "pageSha256": "f43beedae4d13c401a55e4c9a04c8211105875d4d83394920f539ca12edf879b",
+    "descriptionSha256": "ac02b37212942554832b96004ac6a896b23ee06915131dc3a59810ebe34975c2",
+    "reviewed": "2026-09-20",
+    "decision": "reject-matches",
+    "reason": "The tincture and barbarian rage power differ from the sealed Mind implement. Do not substitute the consumable or its mechanics.",
+    "candidates": [
+      {
+        "name": "Liquid Courage",
+        "uuid": "Compendium.pf-content.pf-items.Item.4KnPz7x4cvKV2m4G",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "sha256": "08eea2455fee45564e028ccd26186b349ae79a56dcc1dfecd5ad5f4e44dd7f41",
+        "type": "consumable",
+        "decision": "reject",
+        "reason": "The tincture and barbarian rage power differ from the sealed Mind implement. Do not substitute the consumable or its mechanics.",
+        "descriptionFields": {
+          "value": 427,
+          "instructions": 0,
+          "unidentified": 0
+        },
+        "price": 175,
+        "weight": 0,
+        "img": "systems/pf1/icons/items/potions/unique-10.jpg",
+        "actions": 0,
+        "changes": 0,
+        "contextNotes": 0
+      },
+      {
+        "name": "Liquid Courage",
+        "uuid": "Compendium.pf1.class-abilities.Item.apjBgVIX2FikhagC",
+        "provider": "pf1",
+        "version": "11.11",
+        "sha256": "59369af9f768ddadcef179e39f0195272298124b941393fe7b68ec85013ebbbb",
+        "type": "feat",
+        "decision": "reject",
+        "reason": "The tincture and barbarian rage power differ from the sealed Mind implement. Do not substitute the consumable or its mechanics.",
+        "descriptionFields": {
+          "value": 225,
+          "instructions": 0
+        },
+        "price": null,
+        "weight": null,
+        "img": "systems/pf1/icons/feats/deafening-critical.jpg",
+        "actions": 0,
+        "changes": 0,
+        "contextNotes": 0
+      }
+    ]
+  },
+  "wiki:marvelous-items:ultimate:item:bloody-mess": {
+    "pageSha256": "a971a10582e74c6796d182b7ebe64177d217ee68e8817f8018506a8a95474889",
+    "descriptionSha256": "406d4a9354da3bb363619905fd5f716b0d5971216545a1f6c0e7740c9104022e",
+    "reviewed": "2026-09-20",
+    "decision": "reject-matches",
+    "reason": "The matched Intimidate feat is unrelated to the Death-sphere magical item.",
+    "candidates": [
+      {
+        "name": "Bloody Mess",
+        "uuid": "Compendium.pf-content.pf-feats.Item.IOaZqFcfv14sU86S",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "sha256": "87ef5b33bf2e44e921ddfabf5630c8ed5e689a86e8d9d195f1ac964343853377",
+        "type": "feat",
+        "decision": "reject",
+        "reason": "The matched Intimidate feat is unrelated to the Death-sphere magical item.",
+        "descriptionFields": {
+          "value": 740,
+          "instructions": 0
+        },
+        "price": null,
+        "weight": null,
+        "img": "systems/pf1/icons/skills/blood_09.jpg",
+        "actions": 0,
+        "changes": 0,
+        "contextNotes": 0
+      }
+    ]
+  },
+  "wiki:mythos-magic-items-and-artifacts:current:item:brazen-head": {
+    "pageSha256": "40a03ba2a2ef4be1f4ed1d834902e87e22e537a9597a099a3a685c95e5c44cb2",
+    "descriptionSha256": "b8d2afd037fc0d2eb525914663b80e13a7db45def1e019e918ac63243d451fb9",
+    "reviewed": "2026-09-20",
+    "decision": "reject-matches",
+    "reason": "The Baphomet cult item has different abilities, cost and weight from the Mythos intelligent familiar. Placeholder artwork is also unsuitable.",
+    "candidates": [
+      {
+        "name": "Brazen Head",
+        "uuid": "Compendium.pf-content.pf-wondrous.Item.r2DKE57I1kwSt14T",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "sha256": "dcaeb61b5f5f58788256c9ba2719bcb734de014333eeed23cf892585d2d191a7",
+        "type": "equipment",
+        "decision": "reject",
+        "reason": "The Baphomet cult item has different abilities, cost and weight from the Mythos intelligent familiar. Placeholder artwork is also unsuitable.",
+        "descriptionFields": {
+          "value": 708,
+          "instructions": 0,
+          "unidentified": 0
+        },
+        "price": 6500,
+        "weight": 10,
+        "img": "icons/svg/item-bag.svg",
+        "actions": 0,
+        "changes": 0,
+        "contextNotes": 0
+      }
+    ]
+  },
+  "wiki:technological-gear:current:item:parasol-umbrella": {
+    "pageSha256": "b68a344fa8409c45a69d74a6c5e95278c1bc3043d632a0b263a4a539743ceb89",
+    "descriptionSha256": "1e21dc2325d3816a619d99defaba8df0ff6fa2e5ccb77058f26c30de4f772446",
+    "reviewed": "2026-09-20",
+    "decision": "adapt",
+    "reason": "Reuse physical record and Ultimate Equipment bibliography; retain complete wiki umbrella-only text and device schematic instead of common-parasol text. Normalize loot subtype and replace cloth-roll image with generated umbrella.",
+    "candidates": [
+      {
+        "name": "Parasol (umbrella)",
+        "uuid": "Compendium.pf-content.pf-items.Item.BW2xVLpny6o7QEuE",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "sha256": "399eb19ed1f29a3766de0f755d47955d6eb1ac3edc572c30cc5ccd8f768c275d",
+        "type": "loot",
+        "decision": "adapt",
+        "reason": "Reuse physical record and Ultimate Equipment bibliography; retain complete wiki umbrella-only text and device schematic instead of common-parasol text. Normalize loot subtype and replace cloth-roll image with generated umbrella.",
+        "descriptionFields": {
+          "value": 1134,
+          "instructions": 0,
+          "unidentified": 0
+        },
+        "price": 2,
+        "weight": 3,
+        "img": "icons/commodities/cloth/cloth-green-stripe.webp",
+        "actions": 0,
+        "changes": 0,
+        "contextNotes": 0
+      },
+      {
+        "name": "Parasol, umbrella",
+        "uuid": "Compendium.pf1.items.Item.Da02t5zctnX8VCuL",
+        "provider": "pf1",
+        "version": "11.11",
+        "sha256": "56f9aa0e2e40ddd3f59ece2049d63dbf7ec3c181bb641933bcc36ca541aae135",
+        "type": "loot",
+        "decision": "alternative-not-selected",
+        "reason": "Alternate record reviewed; selected candidate better fits the native profile and keeps descriptive mechanics scope. PF1 scarf/umbrella notes remain candidates for the later conditional review.",
+        "descriptionFields": {
+          "value": 253,
+          "instructions": 0,
+          "unidentified": 0
+        },
+        "price": 2,
+        "weight": 3,
+        "img": "icons/commodities/cloth/cloth-green-stripe.webp",
+        "actions": 0,
+        "changes": 0,
+        "contextNotes": 1
+      }
+    ],
+    "output": {
+      "file": "src/packs/items/technological-gear/parasol-umbrella-268bc2adc8df9bdd.json",
+      "id": "268bc2adc8df9bdd",
+      "type": "loot",
+      "sha256": "bf178c06a5c8c65196570673d96827add244d84bd81ee6a882818e14ef90b41d",
+      "sourceUuid": "Compendium.pf-content.pf-items.Item.BW2xVLpny6o7QEuE"
+    }
+  }
+}

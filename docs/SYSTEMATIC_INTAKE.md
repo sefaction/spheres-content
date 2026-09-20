@@ -48,6 +48,11 @@ A repeat import is safe: existing records stay unchanged. Review refreshed text,
 profile fixes and reuse candidates as explicit source changes. Do not replace
 canonical files with raw exports or regenerate IDs to accommodate parser changes.
 
+Physical-item suitability review has a separate report and decision inventory:
+`npm.cmd run audit:reuse -- --write --matched`. It supplements the exact-name
+intake list with reordered-name matches, marks changed source/candidate snapshots
+stale and keeps reasons for rejected namesakes. See [the review workflow](PHYSICAL_ITEM_REVIEW.md).
+
 ## Where to audit
 
 | File                                  | Purpose                                                   |

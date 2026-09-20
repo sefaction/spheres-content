@@ -92,3 +92,16 @@ Empty equipment/consumable/loot field profiles are derived from installed PF1
 11.11 template data. Preserve the existing upstream OGL/GPL notices for adapted
 record data; no upstream program code is copied. Human-reviewable physical item
 sources and the empty profiles accompany the installed module under `sources/`.
+
+## Reviewed mundane gear (alpha.5)
+
+The three selected PF1 Content 11.4.0 adaptations are individually documented in
+[the physical-item audit](PHYSICAL_ITEM_REVIEW.md) and
+`config/physical-item-reviews.json`. Their source UUIDs, hashes, book/page metadata
+and candidate decisions are retained. The source scope is registered separately
+as `pf1-reviewed-mundane-gear`; the primary wiki provenance remains unchanged.
+Existing full notices cover Adventurer's Armory 2, Adventurer's Guide and Ultimate
+Equipment. Retain OGL-1.0a and GPL-3.0 record-format notices and adapted JSON source.
+No named-setting material from rejected Brazen Head or other false matches is
+copied. The scarf references an inspected core image. Two original images are
+generated without source images and recorded under the existing scoped MIT terms.

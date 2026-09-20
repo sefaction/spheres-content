@@ -1,6 +1,6 @@
 {
   "_id": "0cba0b7e168525a3",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/back/cloak-collared-teal.webp",
   "name": "Filter Scarf",
   "system": {
     "description": {
@@ -9,14 +9,11 @@
       "unidentified": ""
     },
     "tags": [],
-    "actions": [],
-    "attackNotes": [],
-    "effectNotes": [],
     "quantity": 1,
     "weight": {
       "value": 0
     },
-    "equipped": true,
+    "equipped": false,
     "carried": true,
     "price": 5,
     "size": "med",
@@ -37,13 +34,6 @@
     "hp": {},
     "broken": false,
     "hardness": 0,
-    "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
-      "rechargeFormula": ""
-    },
     "changes": [],
     "changeFlags": {
       "immuneToMorale": false,
@@ -57,8 +47,19 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
     "links": {
-      "children": []
+      "children": [],
+      "charges": []
     },
     "tag": "",
     "flags": {
@@ -66,17 +67,52 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "subType": "gear",
-    "extraType": "",
-    "abundant": false,
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "clothing",
+    "slot": "clothing",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
     "sources": [
       {
         "title": "Spheres of Power Wiki",
         "url": "http://spheresofpower.wikidot.com/adventuring-gear#toc5"
+      },
+      {
+        "id": "PZO1140",
+        "pages": "243"
       }
     ]
   },
-  "type": "loot",
+  "type": "equipment",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -97,7 +133,7 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
+        "image": "implemented",
         "activation": "needs-review",
         "changes": "needs-review",
         "contextNotes": "needs-review",
@@ -106,9 +142,19 @@
         "advanced": "needs-review",
         "classFeatures": "not-applicable",
         "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "reuse": {
+        "sourceUuid": "Compendium.pf-content.pf-items.Item.IZbg3QuLWKinf8ai",
+        "sourcePackage": "pf-content",
+        "sourceVersion": "11.4.0",
+        "sourceSha256": "1c3f87bbedbe1c13b2de273a0d5eefa751a954b089f176ae908a0d1304e543d9",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-mundane-gear"
       }
     }
   },

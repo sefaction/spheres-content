@@ -43,7 +43,9 @@ export function reuseRecord(doc, { provider, version, pack }) {
     type: doc.type,
     subType: doc.system?.subType ?? null,
     img: doc.img ?? null,
-    hasDescription: (doc.system?.description?.value?.length ?? 0) > 30,
+    hasDescription: ["value", "unidentified"].some(
+      (field) => (doc.system?.description?.[field]?.length ?? 0) > 30,
+    ),
     placeholderImage: /mystery-man|item-bag|icons\/svg\/item-bag/i.test(
       doc.img ?? "",
     ),

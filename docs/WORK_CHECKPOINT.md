@@ -2,7 +2,28 @@
 
 Updated: 2026-09-20 (work began 2026-09-19 local time).
 
-## Current batch: systematic wiki intake
+## Current batch: physical-item reuse review
+
+- Branch content/physical-item-review, stacked on content/systematic-intake / PR
+  #9; issue #10. No merge or release approval. Starting commit 9679df0 was clean,
+  both CI jobs passed, and remote alpha.4 matches its deployment receipt identity.
+- Alpha.5 adapts three stable item identities: empty Adventurer's Sash container,
+  Filter Scarf clothing and umbrella physical record with retained wiki schematic.
+  Six unrelated namesakes are explicitly rejected. Native conditional modifiers
+  remain deferred. Two generated 256px WebP images total 11,308 bytes; the scarf
+  uses a visually inspected core reference. Full generated sources remain local.
+- New audit:reuse command covers 963 current physical candidates (including held
+  pages), finds 24 with name/reordered-name candidates, and records nine reviewed,
+  zero stale. Refreshed 56-pack / 37,708-record reuse index; Roll Bonuses pack with
+  lost directory remains unavailable. New match: Trail Rations; quantity/use
+  behavior should be reviewed in a follow-up. Hidden Blade still needs a native
+  weapon profile rather than generic equipment; tracked with issue #10 findings.
+- Source and targeted tests pass; full clean verify/deployment/UI acceptance are
+  pending. Remote remains fa07d6b alpha.4 in Setup; six backups. Next safe step:
+  finish documentation/provenance checks, commit, full verify and staged test
+  deployment, then actor container/equip checks and exact installed audit.
+
+## Prior completed batch: systematic wiki intake
 
 - Active branch: content/systematic-intake. Draft PR #9:
   https://github.com/sefaction/spheres-content/pull/9, stacked on #4. Issue #8

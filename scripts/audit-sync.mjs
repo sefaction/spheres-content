@@ -1,6 +1,8 @@
 import { readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { files, moduleId } from "./lib.mjs";
+import { applyReviews } from "./content-audit.mjs";
+const reviews = JSON.parse(await readFile("config/audit-reviews.json", "utf8"));
 const rows = (await readFile("research/intake/entities.jsonl", "utf8"))
   .trim()
   .split("\n")
@@ -62,6 +64,7 @@ for (const e of rows) {
         f.documents = f.candidates
           .filter((k) => byKey.has(k))
           .map((k) => ref(byKey.get(k)));
+  e.audit = applyReviews(e.audit, reviews[e.sourceKey], e.descriptionSha256);
 }
 await writeFile(
   "research/intake/entities.jsonl",

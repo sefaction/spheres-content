@@ -1,6 +1,6 @@
 {
   "_id": "268bc2adc8df9bdd",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/adventuring-gear/umbrella.webp",
   "name": "Parasol, Umbrella",
   "system": {
     "description": {
@@ -16,7 +16,7 @@
     "weight": {
       "value": 3
     },
-    "equipped": true,
+    "equipped": false,
     "carried": true,
     "price": 2,
     "size": "med",
@@ -73,6 +73,10 @@
       {
         "title": "Spheres of Power Wiki",
         "url": "http://spheresofpower.wikidot.com/technological-gear#toc10"
+      },
+      {
+        "id": "PZO1123",
+        "pages": "77"
       }
     ]
   },
@@ -97,7 +101,7 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
+        "image": "implemented",
         "activation": "needs-review",
         "changes": "needs-review",
         "contextNotes": "needs-review",
@@ -106,9 +110,19 @@
         "advanced": "needs-review",
         "classFeatures": "not-applicable",
         "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "reuse": {
+        "sourceUuid": "Compendium.pf-content.pf-items.Item.BW2xVLpny6o7QEuE",
+        "sourcePackage": "pf-content",
+        "sourceVersion": "11.4.0",
+        "sourceSha256": "399eb19ed1f29a3766de0f755d47955d6eb1ac3edc572c30cc5ccd8f768c275d",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-mundane-gear"
       }
     }
   },

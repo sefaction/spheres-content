@@ -26,7 +26,7 @@ test("pilot source, pack, provenance and image inventories agree", async () => {
   );
   const feat = docs.find(({ doc }) => doc._id === "54e7f57ef4ba6758").doc;
   assert.match(feat.system.description.value, /effects stack/);
-  const item = docs.find(({ doc }) => doc.type === "container").doc;
+  const item = docs.find(({ doc }) => doc._id === "5feccdaf3cbf89f1").doc;
   assert.deepEqual(containerTotals(item), { price: 80, weight: 4 });
   assert.equal(Object.keys(item.system.items).length, 4);
   // Foundry persisted these absent defaults during container intake. Keep them
@@ -122,7 +122,7 @@ test("descriptive-phase gate rejects premature mechanics, broken identity, unsaf
 
 test("container validation rejects missing contents, double counting, broken child identity and unreviewed actions", async () => {
   const { catalog, docs } = await validateContentCatalog();
-  const original = docs.find(({ doc }) => doc.type === "container").doc;
+  const original = docs.find(({ doc }) => doc._id === "5feccdaf3cbf89f1").doc;
   const identity = (await json("config/identities.json")).find(
     (i) => i.id === original._id,
   );
