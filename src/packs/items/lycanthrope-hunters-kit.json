@@ -28,7 +28,8 @@
   "system": {
     "description": {
       "value": "<p><strong>Price</strong> 80 gp; <strong>Weight</strong> 4 lbs.</p><p>This sturdy leather case straps to the waist or thigh, or can be slung over a shoulder. It consists of a leather pouch, 5 doses of wolfsbane, 5 doses of weapon blanche (silver), 1 dose of deodorizing agent, and an alchemical silver dagger.</p><hr><p><a href=\"http://spheresofpower.wikidot.com/equipment#toc2\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": ""
+      "instructions": "",
+      "unidentified": ""
     },
     "changes": [],
     "contextNotes": [],
@@ -535,6 +536,52 @@
       "gp": 0,
       "sp": 0,
       "cp": 0
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
     }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
   }
 }

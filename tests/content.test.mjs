@@ -23,6 +23,15 @@ test("pilot source, pack, provenance and image inventories agree", async () => {
   const item = docs.find(({ doc }) => doc.type === "container").doc;
   assert.deepEqual(containerTotals(item), { price: 80, weight: 4 });
   assert.equal(Object.keys(item.system.items).length, 4);
+  // Foundry persisted these absent defaults during container intake. Keep them
+  // explicit so opening/importing the pack does not cause semantic drift.
+  assert.equal(item.system.description.unidentified, "");
+  assert.deepEqual(item.system.unidentified, { price: 0, name: "" });
+  assert.deepEqual(item.system.hp, {});
+  assert.deepEqual(item.ownership, { default: 0 });
+  assert.equal(item._stats.coreVersion, "13.351");
+  for (const key of ["resizing", "timeworn", "artifact", "cursed", "broken"])
+    assert.equal(item.system[key], false);
   const cls = docs.find(({ doc }) => doc.type === "class").doc;
   assert.equal(cls.system.hd, 6);
   assert.equal(cls.system.skillsPerLevel, 4);
