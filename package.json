@@ -1,0 +1,30 @@
+{
+  "name": "additional-spheres-content",
+  "version": "0.1.0-alpha.1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <25"
+  },
+  "scripts": {
+    "clean": "node scripts/tasks.mjs clean",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "node scripts/tasks.mjs lint",
+    "test": "node --test",
+    "validate:manifest": "node scripts/tasks.mjs manifest",
+    "validate:content": "node scripts/tasks.mjs content",
+    "validate:references": "node scripts/tasks.mjs references",
+    "build:packs": "node scripts/tasks.mjs packs",
+    "build": "node scripts/tasks.mjs build",
+    "verify": "node scripts/tasks.mjs verify",
+    "deploy:remote": "node scripts/tasks.mjs deploy",
+    "smoke:remote": "node scripts/tasks.mjs smoke",
+    "release:check": "node scripts/tasks.mjs release"
+  },
+  "devDependencies": {
+    "@foundryvtt/foundryvtt-cli": "3.0.4",
+    "fflate": "0.8.3",
+    "prettier": "3.9.8"
+  }
+}
