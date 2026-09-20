@@ -9,11 +9,11 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   tracks the intake; #3 remains the broader catalog, #6 the native source labels.
   No merge or release is authorized. The user authorized ten rolling module
   backups, deleting the oldest excess copies after verified deployments.
-- Runtime/source implementation commit: b9fabf7eb46a1aec01f33ab0e0c3b49a342e0c30.
+- Runtime/source implementation commit: fa07d6bc62a329f4088585516af52db8136f8094.
   Documentation evidence follows it. Full clean verification passed on that commit:
-  formatting, lint, 22 tests, source/reference validation, complete compiled-record
+  formatting, lint, 24 tests, source/reference validation, complete compiled-record
   round trips and two identical 679-file archives. Review ZIP SHA-256:
-  4f704ac383f75b95ce162d889e46e66a994e08f0e621eb404860c59eea4b6dc6.
+  20d0d3b9e3666c93493e4582ccc1faabd66cde94ab80eda550a29ed2ca3b7070.
 - Full cached crawl: 2,652 pages, zero download errors; 11,019 candidates including
   duplicates/legacy. Page retrieval is complete for this snapshot; exhaustive
   entity extraction and semantic review remain explicitly incomplete.
@@ -37,19 +37,33 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
 - Narrow-sheet wrapping is out of scope. Optional integrations are versioned
   source research, not runtime compatibility certification. Native source labels
   are populated. No new compatibility claim or world migration is included.
-- Remote remains 80600de alpha.3 in Setup, confirmed by HTTP, installed manifest
-  and browser. All five backups remain. The alpha.4 deployment dry run refused
-  at the documented retention limit; no files were replaced and no restart ran.
+- Remote is fa07d6b alpha.4, deployed after clean verification and dry-run.
+  Installed bytes and eight external image hashes passed. Six backups remain;
+  none required pruning. No container/host restart occurred. Both CI jobs passed.
 - 2026-09-20 retention update: implement ten rolling backups, prune only after
   installed-byte verification and saved receipt, preserve the newest rollback
   copy, and validate exact paths/identities/no nested links. Seven remote helper
-  tests pass, including real fixture pruning and failure guards. Current five
-  remote backups are untouched; the next deployment should retain six.
-- Next safe step: commit and verify the retention-enabled clean branch build,
-  dry-run/deploy, then
-  test five packs and every native document type in the dedicated PF1 world.
-  Return to Setup for strict semantic audit and update PR #9 with actual results.
-  Reconcile any newer GitHub CI result before continuing; PRs #2/#4/#9 are unmerged.
+  tests pass, including real fixture pruning and failure guards.
+- Runtime acceptance: Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0, with only
+  ASC alpha.4 and the framework enabled. All five locked packs appear. Native
+  class, class-feature, feat, Guile talent, loot, equipment and consumable sheets
+  open with descriptions and source labels. Extra Magic Talent's WebP loads.
+  Native JSON import populated seven records on ASC Intake Acceptance in the
+  expected actor sections, inventory 5 lb / 3,570 gp. Initial class-derived
+  values were stale immediately after import; normal browser reload yielded
+  Blacksmith level 1, HP 10/10, BAB +1, Fort +2 / Ref +0 / Will +2. This is
+  native import acceptance; automated document drag remains unverified.
+- ASC Test Player can see all five packs, search and open Extra Magic Talent
+  with a read-only sheet, description, source and image. Browser error capture
+  is empty; PF1/framework deprecation warnings remain. Server daily debug log
+  through 10:56 local has 803 info records, zero warnings/errors; no daily error
+  file. Test world was deactivated through its native UI and returned to Setup.
+- Final installed semantic audit passed: all 6,788 pack documents match deployed
+  canonical sources exactly, non-pack bytes match the receipt, and all eight
+  external image hashes pass. Remote LevelDB was inspected through local copies.
+- Next safe step: review the intake coverage/hold and per-entity audit queues
+  with the user, then select a coherent artwork, reuse or semantic-review batch.
+  PRs #2/#4/#9 remain unmerged; no release or broader compatibility claim.
 
 ## Prior completed batch: packaged kit components
 

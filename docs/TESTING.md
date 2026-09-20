@@ -146,18 +146,37 @@ as acceptance of this content batch.
 
 ## Alpha.4 systematic intake acceptance
 
-Full clean local verification passed on b9fabf7 (22 tests). Gates cover all
+Full clean local verification passed on fa07d6b (24 tests). Gates cover all
 canonical records, asset encodings/size budgets, exact
 compiled round trips and deterministic archives. Parser regressions cover edition
 boundaries, nested text, sanitization, Unicode names/weights, kit/weapon holds,
-stale rights/reviews and progression-table grants. Two identical 679-file archives passed the rebuild check. Runtime acceptance
-is pending deployment of the authorized rolling-retention build. The previous
-dry run refused safely at the former five-backup limit.
-See draft PR #9 for current status.
+stale rights/reviews and progression-table grants. Two identical 679-file archives
+passed the rebuild check. Both Windows and Ubuntu CI passed. The authorized
+rolling-retention build deployed successfully, retaining six backups without
+deletion. Strict package hashes and eight external image hashes passed.
 
-Remote checks must cover all five packs and representative class, class-feature,
-feat, Guile talent, loot, consumable and wondrous-equipment sheets; verify native
-source labels, 256-pixel WebP images, search, import and new-pack discovery.
+Runtime checks passed on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0 with only
+ASC and the framework active. All five packs appeared without a container restart.
+Opened Blacksmith, Skilled Craftsman, Extra Magic Talent, Confident Craftsmanship,
+Catnip Hookah, Arcanis Venenum and Refinement Charm in their native sheets.
+Descriptions, source labels, search and the pilot WebP render correctly.
+
+Native JSON import placed seven canonical records on ASC Intake Acceptance in
+the expected class/feature/inventory sections. Physical totals are 5 lb / 3,570 gp.
+After browser reload, Blacksmith level 1 gives HP 10/10, BAB +1, Fort +2, Ref +0,
+Will +2. The initial post-import sheet had stale derived values; do not count
+that transient display as a class-data failure. This checks native actor import;
+automated document drag is still unverified for the new records.
+
+ASC Test Player sees all five locked packs and can search/open Extra Magic Talent
+with its read-only sheet, description, source link and WebP. Browser error capture
+is empty; existing PF1/framework deprecation warnings remain. Server daily debug
+log through 10:56 local contains 803 info records and zero warnings/errors, with
+no daily error file. Returned the dedicated world to Setup; the final exact
+installed semantic audit passed for all 6,788 documents, non-pack bytes and eight
+external image hashes. Only local copies of installed LevelDB were opened.
+See draft PR #9 for the evidence and remaining review scope.
+
 Class links, new actions and modifiers remain empty by design pending review.
 Optional-module contracts have only source review and require separate tests.
 
