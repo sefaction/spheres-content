@@ -1,1 +1,95 @@
-{}
+{
+  "wiki:adventuring-gear:current:item:adventurers-sash": {
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "f4a6b2d8343237c3ce6d1103c7e07f425c86e6e119127900480f3155c3dba041",
+      "reason": "Reuse matching rules, physical values and bibliography; adapt loot to an empty native container. Sewn-in pouches and satchel are structural parts, not additional contents. Replace cloth-only art with generated sash."
+    },
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "f4a6b2d8343237c3ce6d1103c7e07f425c86e6e119127900480f3155c3dba041",
+      "reason": "Existing artwork inspected; selected appropriate core scarf reference or generated subject-specific 256px WebP."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "f4a6b2d8343237c3ce6d1103c7e07f425c86e6e119127900480f3155c3dba041",
+      "reason": "Compared full matching rules, price/weight and wiki text; retained wiki-specific size and umbrella device schematic."
+    }
+  },
+  "wiki:adventuring-gear:current:item:filter-scarf": {
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "8e1fced54a04dbd3211f1451bfd0b6a453fcaa8fa49ec955741a869bc4704804",
+      "reason": "Reuse matching clothing record and suitable core scarf image. Clear obsolete lightArmor subtype for PF1 11.11 clothing; retain zero AC and the wiki size/description. Conditional resistance stays descriptive."
+    },
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "8e1fced54a04dbd3211f1451bfd0b6a453fcaa8fa49ec955741a869bc4704804",
+      "reason": "Existing artwork inspected; selected appropriate core scarf reference or generated subject-specific 256px WebP."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "8e1fced54a04dbd3211f1451bfd0b6a453fcaa8fa49ec955741a869bc4704804",
+      "reason": "Compared full matching rules, price/weight and wiki text; retained wiki-specific size and umbrella device schematic."
+    }
+  },
+  "wiki:compounds:ultimate:item:seed-of-life": {
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "da640fd520e8a2e93f5c415333bb69412cf983beb4a532c30d16e9d3b6aa6f8f",
+      "reason": "The matched monster ability heals and grants defenses; this is a resurrection seed item. Different rules object."
+    }
+  },
+  "wiki:equipment:current:item:lightning-rod": {
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "33320d942f30b18465b845697fa87b3d325f66dc9392ddd339e6b6467bb415bb",
+      "reason": "Both matches are supernatural class/talent powers, not the physical building lightning conductor."
+    }
+  },
+  "wiki:implements:ultimate:item:hidden-blade": {
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "a0750a5036d9758c7053ca99fdbee82f6677eec71a3e313cd9b0931706732ddb",
+      "reason": "The combat talent conceals weapons; this item is a +3 glamered longsword and Illusion implement. A later native weapon-profile correction is required."
+    }
+  },
+  "wiki:implements:ultimate:item:liquid-courage": {
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "ac02b37212942554832b96004ac6a896b23ee06915131dc3a59810ebe34975c2",
+      "reason": "The tincture and barbarian rage power differ from the sealed Mind implement. Do not substitute the consumable or its mechanics."
+    }
+  },
+  "wiki:marvelous-items:ultimate:item:bloody-mess": {
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "406d4a9354da3bb363619905fd5f716b0d5971216545a1f6c0e7740c9104022e",
+      "reason": "The matched Intimidate feat is unrelated to the Death-sphere magical item."
+    }
+  },
+  "wiki:mythos-magic-items-and-artifacts:current:item:brazen-head": {
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "b8d2afd037fc0d2eb525914663b80e13a7db45def1e019e918ac63243d451fb9",
+      "reason": "The Baphomet cult item has different abilities, cost and weight from the Mythos intelligent familiar. Placeholder artwork is also unsuitable."
+    }
+  },
+  "wiki:technological-gear:current:item:parasol-umbrella": {
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "1e21dc2325d3816a619d99defaba8df0ff6fa2e5ccb77058f26c30de4f772446",
+      "reason": "Reuse physical record and Ultimate Equipment bibliography; retain complete wiki umbrella-only text and device schematic instead of common-parasol text. Normalize loot subtype and replace cloth-roll image with generated umbrella."
+    },
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "1e21dc2325d3816a619d99defaba8df0ff6fa2e5ccb77058f26c30de4f772446",
+      "reason": "Existing artwork inspected; selected appropriate core scarf reference or generated subject-specific 256px WebP."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "1e21dc2325d3816a619d99defaba8df0ff6fa2e5ccb77058f26c30de4f772446",
+      "reason": "Compared full matching rules, price/weight and wiki text; retained wiki-specific size and umbrella device schematic."
+    }
+  }
+}

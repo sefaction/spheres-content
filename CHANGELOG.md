@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.1.0-alpha.5 - Unreleased
+
+- Add repeatable physical-item reuse reports with alternate word-order matching,
+  superficial-description detection and snapshot-bound review decisions.
+- Review nine imported candidates, rejecting unrelated namesakes; adapt three
+  existing identities into an empty sash container, wearable filter scarf and
+  an umbrella retaining its wiki device schematic and reviewed bibliography.
+- Add two compact WebP icons and reuse the inspected core scarf illustration.
+- Preserve source attribution and pack IDs. Existing world copies are unchanged;
+  new passive and conditional automation remains deferred.
+
 ## 0.1.0-alpha.4 - Unreleased
 
 - Add cached sitemap crawling, edition-aware extraction, explicit intake holds,

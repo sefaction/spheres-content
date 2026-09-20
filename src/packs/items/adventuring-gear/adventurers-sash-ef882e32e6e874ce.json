@@ -1,6 +1,6 @@
 {
   "_id": "ef882e32e6e874ce",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/adventuring-gear/adventurers-sash.webp",
   "name": "Adventurer’s Sash",
   "system": {
     "description": {
@@ -8,22 +8,50 @@
       "instructions": "",
       "unidentified": ""
     },
-    "tags": [],
+    "changes": [],
+    "contextNotes": [],
     "actions": [],
-    "attackNotes": [],
-    "effectNotes": [],
-    "quantity": 1,
-    "weight": {
-      "value": 3
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": []
     },
-    "equipped": true,
-    "carried": true,
+    "quantity": 1,
     "price": 20,
+    "weight": {
+      "value": 3,
+      "reduction": {
+        "value": 0,
+        "percent": 0
+      }
+    },
+    "carried": true,
+    "equipped": false,
+    "identified": true,
     "size": "med",
+    "items": {},
+    "maxWeight": null,
+    "sellMultiplier": 0.5,
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
     "resizing": false,
     "timeworn": false,
     "artifact": false,
-    "identified": true,
     "unidentified": {
       "price": 0,
       "name": ""
@@ -37,46 +65,23 @@
     "hp": {},
     "broken": false,
     "hardness": 0,
-    "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
-      "rechargeFormula": ""
-    },
-    "changes": [],
-    "changeFlags": {
-      "immuneToMorale": false,
-      "loseDexToAC": false,
-      "noMediumEncumbrance": false,
-      "noHeavyEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "lowLightVision": false,
-      "seeInvisibility": false,
-      "seeInDarkness": false
-    },
-    "contextNotes": [],
-    "links": {
-      "children": []
-    },
     "tag": "",
     "flags": {
       "boolean": {},
       "dictionary": {}
     },
-    "scriptCalls": [],
-    "subType": "gear",
-    "extraType": "",
-    "abundant": false,
     "sources": [
       {
         "title": "Spheres of Power Wiki",
         "url": "http://spheresofpower.wikidot.com/adventuring-gear#toc1"
+      },
+      {
+        "id": "PZO9481",
+        "pages": "12"
       }
     ]
   },
-  "type": "loot",
+  "type": "container",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -97,7 +102,7 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
+        "image": "implemented",
         "activation": "needs-review",
         "changes": "needs-review",
         "contextNotes": "needs-review",
@@ -106,9 +111,20 @@
         "advanced": "needs-review",
         "classFeatures": "not-applicable",
         "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "assembly": "adventurers-sash",
+      "reuse": {
+        "sourceUuid": "Compendium.pf-content.pf-items.Item.Iy5NRarPV4AsyNKI",
+        "sourcePackage": "pf-content",
+        "sourceVersion": "11.4.0",
+        "sourceSha256": "717982bbfe916d7e45d8b887de6db454f5f765e36578d277f8e39b9bea730bdb",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-mundane-gear"
       }
     }
   },

@@ -2,7 +2,51 @@
 
 Updated: 2026-09-20 (work began 2026-09-19 local time).
 
-## Current batch: systematic wiki intake
+## Current batch: physical-item reuse review
+
+- Branch content/physical-item-review, stacked on content/systematic-intake / PR
+  #9; issue #10. No merge or release approval. Starting commit 9679df0 was clean,
+  both CI jobs passed, and remote alpha.4 matches its deployment receipt identity.
+- Alpha.5 adapts three stable item identities: empty Adventurer's Sash container,
+  Filter Scarf clothing and umbrella physical record with retained wiki schematic.
+  Six unrelated namesakes are explicitly rejected. Native conditional modifiers
+  remain deferred. Two generated 256px WebP images total 11,308 bytes; the scarf
+  uses a visually inspected core reference. Full generated sources remain local.
+- New audit:reuse command covers 963 current physical candidates (including held
+  pages), finds 24 with name/reordered-name candidates, and records nine reviewed,
+  zero stale. Refreshed 56-pack / 37,708-record reuse index; Roll Bonuses pack with
+  lost directory remains unavailable. New match: Trail Rations; quantity/use
+  behavior should be reviewed in a follow-up. Hidden Blade still needs a native
+  weapon profile rather than generic equipment; tracked with issue #10 findings.
+- Runtime/source commit e3cd4c22e39aca685a128d9d2e39983dcffeaf5e is pushed.
+  Full clean verification passed 27 tests, complete 6,788-document compiled
+  round trips and two identical 682-file archives; review ZIP SHA-256 is
+  2eb96fd612190c73b725f2d020dc4320ca1f2bbe1a330b571e483502a6d36416.
+- Alpha.5 deployed through the staged helper. Seven backups remain and none were
+  deleted. Strict package and nine external-image hashes passed. No container or
+  host restart occurred.
+- Remote acceptance passed on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0 with
+  only ASC alpha.5 and the framework active. All five packs appear. Sash, scarf
+  and umbrella native sheets show the reviewed type, price, weight, description
+  and artwork. Native actor JSON import produced 6 lb / 27 gp: the umbrella began
+  inside the sash, native Take moved it to actor Gear while totals stayed fixed,
+  and the empty sash became 3 lb. The scarf equipped toggle works and adds no
+  authored modifier. Browser capture has no ASC errors; only existing PF1 and
+  framework deprecation warnings. Server records since deployment contain 152
+  info entries and one unrelated failed player-login warning followed by a
+  successful login; no daily error file exists.
+- The dedicated world is back in Setup. Final installed semantic audit passed:
+  all 6,788 pack documents match canonical sources at the deployed commit,
+  non-pack bytes match the deployment receipt, and all nine referenced image
+  hashes pass. Only local copies of installed LevelDB were opened.
+- Draft PR #11 is open against content/systematic-intake:
+  https://github.com/sefaction/spheres-content/pull/11. Its Windows and Ubuntu
+  validation jobs passed. No merge, release or world migration is authorized.
+  Next safe step after CI is to choose the next reviewed physical-item batch,
+  with Hidden Blade's weapon profile and Trail Rations' quantity/use behavior as
+  concrete candidates.
+
+## Prior completed batch: systematic wiki intake
 
 - Active branch: content/systematic-intake. Draft PR #9:
   https://github.com/sefaction/spheres-content/pull/9, stacked on #4. Issue #8

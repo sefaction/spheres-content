@@ -183,3 +183,37 @@ Optional-module contracts have only source review and require separate tests.
 Retention regression fixtures verify read-only previews, ten newest backups,
 protection of unrelated/staging folders, and refusal on failed installed hashes,
 wrong module identities or linked backup contents.
+
+## Alpha.5 physical-item review acceptance
+
+Full clean verification passed on `e3cd4c22e39aca685a128d9d2e39983dcffeaf5e`
+with 27 tests, exact compiled round trips for all 6,788 documents and two
+identical 682-file archives. The review ZIP SHA-256 is
+`2eb96fd612190c73b725f2d020dc4320ca1f2bbe1a330b571e483502a6d36416`.
+Staged deployment retained seven module-only backups and deleted none. Strict
+installed package hashes and nine referenced core/system image hashes passed.
+
+Runtime acceptance used Foundry 13.351, PF1 11.11 and pf1spheres 0.9.0 in the
+dedicated test world. ASC alpha.5 and pf1spheres were the only active modules.
+All five locked packs appeared. Adventurer's Sash opened as a native empty
+container at 20 gp / 3 lb, Filter Scarf as clothing at 5 gp / 0 lb, and Parasol,
+Umbrella as gear at 2 gp / 3 lb with the retained waterproof and crafting text.
+The two generated WebP icons and the reviewed core scarf image loaded visibly.
+
+Native JSON import loaded the three reviewed records into a fresh controlled
+actor. With the umbrella inside the sash, actor totals were 6 lb / 27 gp and the
+sash reported 3 lb / 2 gp of contents. Native Take moved the umbrella to the
+actor's Gear section; totals remained 6 lb / 27 gp and the empty sash returned
+to 3 lb. Toggling Filter Scarf to equipped changed its native state without
+changing actor calculations, as expected while authored mechanics remain
+deferred. This verifies import, container accounting and native transfer controls;
+it does not claim an automated drag gesture.
+
+Browser capture contains no ASC errors. Existing PF1 and pf1spheres Foundry 13
+deprecation warnings remain. Server records from deployment through the test
+contain 152 info entries and one unrelated failed `ASC Test Player` login warning,
+immediately followed by a successful login; there is no daily error file. The
+world was returned to Setup before the final exact installed semantic audit.
+That audit passed for all 6,788 pack documents against canonical sources at the
+deployed commit, all non-pack receipt bytes and all nine external image hashes.
+Only local copies of installed LevelDB were opened.

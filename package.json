@@ -1,6 +1,6 @@
 {
   "name": "additional-spheres-content",
-  "version": "0.1.0-alpha.4",
+  "version": "0.1.0-alpha.5",
   "private": true,
   "type": "module",
   "engines": {
@@ -28,7 +28,8 @@
     "plan:intake": "node scripts/wiki-promote.mjs --plan",
     "import:intake": "node scripts/wiki-promote.mjs --apply",
     "audit:content": "node scripts/audit-query.mjs",
-    "audit:sync": "node scripts/audit-sync.mjs"
+    "audit:sync": "node scripts/audit-sync.mjs",
+    "audit:reuse": "node scripts/reuse-review.mjs"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "3.0.4",
