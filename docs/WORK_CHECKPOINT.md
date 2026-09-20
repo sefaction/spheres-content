@@ -41,7 +41,7 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   hashes pass. Only local copies of installed LevelDB were opened.
 - Draft PR #11 is open against content/systematic-intake:
   https://github.com/sefaction/spheres-content/pull/11. Its Windows and Ubuntu
-  validation jobs are running. No merge, release or world migration is authorized.
+  validation jobs passed. No merge, release or world migration is authorized.
   Next safe step after CI is to choose the next reviewed physical-item batch,
   with Hidden Blade's weapon profile and Trail Rations' quantity/use behavior as
   concrete candidates.
