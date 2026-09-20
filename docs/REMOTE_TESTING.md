@@ -11,7 +11,7 @@ No module deployment has occurred.
 - Logical profile: `spheres-test`, pending configuration.
 - Created world: Additional Spheres Content Test (`additional-spheres-content-test`).
 - Module folder: `additional-spheres-content` only.
-- Exact Foundry user-data path and file-transfer access: unknown.
+- Container and host data-path mapping: supplied by the user, recorded in ignored local configuration. Corresponding Windows share was not accessible; credentials/export access still need establishing.
 - Private instance address: ignored local configuration only.
 - Host/service restart: not authorized.
 - Campaign world shutdown to reach Setup: ask before interrupting the active world.

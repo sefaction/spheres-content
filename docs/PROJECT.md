@@ -32,8 +32,8 @@ dedicated PF1 test world. Logical profile: `spheres-test` (not configured).
 World title: Additional Spheres Content Test; ID:
 `additional-spheres-content-test`. Created and confirmed in Setup on 2026-09-19.
 The host runs a campaign and is treated as shared. The private address belongs
-only in ignored local configuration. Exact data path, transfer method, backup
-procedure, and restart permission are unresolved.
+only in ignored local configuration. Host/container data mapping is recorded in ignored local configuration. File access,
+backup procedure, and restart permission remain unresolved.
 
 ## Current batch
 
