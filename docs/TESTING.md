@@ -58,12 +58,24 @@ deploying the reviewed commit; record evidence in the PR and checkpoint afterwar
 ## Descriptive pilot, 0.1.0-alpha.2 — integration pending
 
 Local source/asset/identity validation and complete compiler round trips pass for
-four records in four packs. Thirteen automated tests pass. Clean archive hashes
+four records in four packs. Fourteen automated tests pass, including a semantic
+pack audit that catches content drift without writing the source database. Clean archive hashes
 match after retaining diagnostic LevelDB logs outside the package. Native PF1
 fields were checked against the installed 11.11 template and configuration;
 Guile uses pf1spheres 0.9.0's skillTalent subtype and Artifice sphere flag.
 
-Still required: deployment and in-Foundry checks for the new dependency, four
+Commit `300a37551af0741f006b45ba3f2212ad36037aba` was deployed using the staged
+replacement helper; all 35 files matched the receipt. The designated container
+restart completed, and the idle automatically launched campaign was returned to
+Setup. A Setup-only semantic audit subsequently matched all four documents to
+that deployed commit and all non-pack bytes to its receipt. Both CI jobs passed.
+
+In-Foundry acceptance is pending: browser control reports a zero or very narrow
+viewport, preventing reliable test-world launch. The user was asked to restore
+the Chrome window. The instance remains in Setup. No content compatibility claim
+has been added.
+
+Still required: in-Foundry checks for the new dependency, four
 pack entries, rendered descriptions/images, actor drag/drop, non-GM visibility,
 and logs. Changes, conditional notes, effects, actions, scripted automation and
 caster progression remain empty/deferred. Do not treat old empty-shell acceptance

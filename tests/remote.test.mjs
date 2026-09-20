@@ -10,12 +10,51 @@ import {
 import path from "node:path";
 import os from "node:os";
 import { createServer } from "node:http";
+import { compilePack } from "@foundryvtt/foundryvtt-cli";
 import {
   resolveProfile,
   swapStaged,
   directoryHashes,
   checkSetup,
+  auditPackCopy,
 } from "../scripts/remote.mjs";
+
+test("semantic audit accepts LevelDB housekeeping but detects document drift without writing the source database", async () => {
+  const base = await realpath(
+    await mkdtemp(path.join(os.tmpdir(), "spheres-pack-audit-")),
+  );
+  const source = path.join(base, "source");
+  const database = path.join(base, "database");
+  await mkdir(source);
+  const doc = {
+    _id: "1234567890abcdef",
+    _key: "!items!1234567890abcdef",
+    name: "Test feat",
+    type: "feat",
+    effects: [],
+  };
+  await writeFile(path.join(source, "feat.json"), JSON.stringify(doc));
+  await compilePack(source, database);
+  await writeFile(path.join(database, "LOG"), "Operational timestamp changed");
+  const before = await directoryHashes(database);
+  await auditPackCopy(database, path.join(base, "valid"), {
+    "1234567890abcdef.json": doc,
+  });
+  assert.deepEqual(await directoryHashes(database), before);
+  await assert.rejects(
+    auditPackCopy(database, path.join(base, "drift"), {
+      "1234567890abcdef.json": { ...doc, name: "Changed feat" },
+    }),
+    /documents differ/,
+  );
+  await writeFile(path.join(database, "unexpected.js"), "unexpected");
+  await assert.rejects(
+    auditPackCopy(database, path.join(base, "unexpected"), {
+      "1234567890abcdef.json": doc,
+    }),
+    /Unexpected pack file/,
+  );
+});
 
 test("setup guard follows the authentication chain but rejects a running world and foreign redirects", async (context) => {
   let mode = "setup";

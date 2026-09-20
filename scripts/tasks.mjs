@@ -226,7 +226,7 @@ async function main() {
       await deployRemote(process.argv.includes("--dry-run"));
       break;
     case "smoke":
-      await smokeRemote();
+      await smokeRemote(process.argv.includes("--semantic"));
       break;
     case "release":
       await manifestCheck();

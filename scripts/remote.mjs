@@ -13,6 +13,7 @@ import {
 } from "node:fs/promises";
 import { execFileSync } from "node:child_process";
 import { createHash, randomUUID } from "node:crypto";
+import { extractPack } from "@foundryvtt/foundryvtt-cli";
 import {
   root,
   moduleId,
@@ -370,22 +371,122 @@ export async function deployRemote(dryRun = false) {
   }
 }
 
-export async function smokeRemote() {
+export async function auditPackCopy(source, workspace, expected) {
+  const before = await directoryHashes(source);
+  await mkdir(workspace, { recursive: true });
+  const snapshot = path.join(workspace, "database");
+  await mkdir(snapshot);
+  for (const name of Object.keys(before)) {
+    assert(
+      /^(?:[0-9]+\.(?:ldb|log)|CURRENT|MANIFEST-[0-9]+|LOG(?:\.old)?|LOCK)$/.test(
+        name,
+      ),
+      "Unexpected pack file",
+    );
+    await copyFile(path.join(source, name), path.join(snapshot, name));
+  }
+  assert.deepEqual(
+    await directoryHashes(snapshot),
+    before,
+    "Pack copy changed during transfer",
+  );
+  assert.deepEqual(
+    await directoryHashes(source),
+    before,
+    "Pack changed during audit; return to Setup and retry",
+  );
+  const output = path.join(workspace, "documents");
+  // Opening LevelDB can write operational metadata. Open only this local copy.
+  await extractPack(snapshot, output, {
+    transformName: (doc) => {
+      assert(/^[a-zA-Z0-9]{16}$/.test(doc._id), "Unsafe installed document ID");
+      return `${doc._id}.json`;
+    },
+  });
+  const actual = {};
+  for (const file of await files(output))
+    actual[path.basename(file)] = await json(file);
+  assert.deepEqual(
+    actual,
+    expected,
+    "Installed pack documents differ from deployed canonical sources",
+  );
+  assert.deepEqual(
+    await directoryHashes(source),
+    before,
+    "Pack changed during audit",
+  );
+}
+
+export async function smokeRemote(semantic = false) {
   const profile = await loadProfile();
   const receipt = await json(path.join(root, ".local/deployment.json"));
   assert.equal(receipt.profile, profile.profile);
-  const route = await checkSetup(profile.url, false);
-  assert.deepEqual(
-    await directoryHashes(profile.target),
-    receipt.files,
-    "Installed bytes differ from deployment receipt",
-  );
+  const route = await checkSetup(profile.url, semantic);
+  const installed = await directoryHashes(profile.target);
+  if (!semantic)
+    assert.deepEqual(
+      installed,
+      receipt.files,
+      "Installed bytes differ from deployment receipt; after Foundry opens packs, return to Setup and use --semantic",
+    );
+  else {
+    assert(/^[a-f0-9]{40}$/.test(receipt.commit), "Invalid receipt commit");
+    const manifestText = git("show", `${receipt.commit}:module.json`);
+    assert.equal(
+      digest(Buffer.from(manifestText + "\n")),
+      receipt.files["module.json"],
+      "Receipt manifest does not match deployed commit",
+    );
+    const manifest = JSON.parse(manifestText);
+    const isPack = (name) =>
+      manifest.packs.some((pack) => name.startsWith(`${pack.path}/`));
+    const nonPacks = (hashes) =>
+      Object.fromEntries(
+        Object.entries(hashes).filter(([name]) => !isPack(name)),
+      );
+    assert.deepEqual(
+      nonPacks(installed),
+      nonPacks(receipt.files),
+      "Installed non-pack bytes differ from receipt",
+    );
+    const auditRoot = path.join(root, ".local", "pack-audits", randomUUID());
+    for (const pack of manifest.packs) {
+      safeRelative(pack.path);
+      safeRelative(pack.name);
+      const sources = git(
+        "ls-tree",
+        "-r",
+        "--name-only",
+        receipt.commit,
+        `src/packs/${pack.name}`,
+      )
+        .split("\n")
+        .filter(Boolean);
+      const expected = {};
+      for (const file of sources) {
+        assert(file.endsWith(".json"), "Unexpected canonical source format");
+        const doc = JSON.parse(git("show", `${receipt.commit}:${file}`));
+        assert(!expected[`${doc._id}.json`], "Duplicate canonical ID");
+        expected[`${doc._id}.json`] = doc;
+      }
+      await auditPackCopy(
+        path.join(profile.target, pack.path),
+        path.join(auditRoot, pack.name),
+        expected,
+      );
+    }
+    await checkSetup(profile.url);
+    console.log(
+      "Pack documents match deployed canonical sources; operational LevelDB files were checked through local copies only.",
+    );
+  }
   assert.equal(
     (await json(path.join(profile.target, "module.json"))).id,
     moduleId,
   );
   console.log(
-    `Remote package hashes and PF1 test-world marker passed; route ${route}; commit ${receipt.commit}.`,
+    `Remote ${semantic ? "content audit" : "package hashes"} and PF1 test-world marker passed; route ${route}; commit ${receipt.commit}.`,
   );
   console.log(
     "Enable/disable/reload and console/log checks require Foundry UI acceptance.",
