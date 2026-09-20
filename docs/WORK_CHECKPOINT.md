@@ -4,8 +4,9 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
 
 ## Current batch: first 100 physical items
 
-- Branch `content/physical-items-batch-1`; issue #15:
-  https://github.com/sefaction/spheres-content/issues/15.
+- Branch `content/physical-items-batch-1`; issue #15 and draft PR #16:
+  https://github.com/sefaction/spheres-content/issues/15 and
+  https://github.com/sefaction/spheres-content/pull/16.
 - User priority is physical items, feats, base classes and class features, with
   Guile talents last. Guile remains in scope and in the existing pack/audit data.
 - The broad intake ledger has 940 appearances still reporting an image need;
