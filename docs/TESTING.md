@@ -83,7 +83,13 @@ imports to world Items using its native Import Entry command.
 Created the controlled PC `ASC Pilot Acceptance`. Automated drags from both
 compendium and world Items produced no actor import and no error. A manual drag
 was requested to separate browser-control failure from a document problem;
-its outcome is pending. Browser capture has zero errors and 74 warnings,
+the user confirmed Incanter opens the level-up dialog. Subsequent UI inspection
+shows level 1, 6 current/max HP, +0 BAB/Fortitude/Reflex, and +2 Will; the chat
+report confirms automatic 6 HP. All four entries also import into world Items.
+Manual drops for the other three are pending. A diagnostic window drag works,
+so the automation problem is specific to document transfer. Created a dedicated
+Player-role `ASC Test Player` for the remaining visibility check; not logged in yet.
+Browser capture has zero errors and 74 warnings,
 principally deprecated APIs plus a PF1 browser filter warning. Server debug
 records from 00:11:29 to 00:16:52 local time: 145 records, zero errors/warnings.
 Issue #6 records native source-label and narrow table presentation defects.
