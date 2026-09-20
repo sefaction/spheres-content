@@ -8,7 +8,7 @@
 - Repository: https://github.com/sefaction/spheres-content (public).
 - Primary source: http://spheresofpower.wikidot.com/.
 - Obsidian hub: vault `Foundry-AI`, `20 - Projects/Personal/Additional Spheres Content.md`.
-- Module version policy: semantic versioning; `0.1.0-alpha.2` is an unpublished descriptive pilot.
+- Module version policy: semantic versioning; `0.1.0-alpha.3` is an unpublished descriptive pilot.
 
 ## Compatibility
 
@@ -49,5 +49,5 @@ entries, descriptions, images and native behavior. Reuse reviewed entries and
 create or adapt missing variants. Kits must use native PF1 containers with
 usable contents and reconciled quantities, price and weight. The provisional
 hunter's kit still needs this correction; see [the reuse audit](KIT_REUSE_AUDIT.md).
-Delivery of reused optional-module content (packaged copies versus dependencies)
-is awaiting the user's preference.
+The user chose packaged reviewed copies, preserving attribution and permitted
+core/system artwork references. Optional source modules are not new dependencies.

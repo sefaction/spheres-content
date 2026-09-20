@@ -55,11 +55,16 @@ the user's direction when appropriate to closely related entities.
 The user requested existing compendium entries and artwork be evaluated before
 creating replacements. The [hunter's kit audit](KIT_REUSE_AUDIT.md) records
 candidate UUIDs, installed versions and snapshot hashes for PF1 11.11 and
-Pathfinder 1e Content 11.4.0. No candidate document text or upstream artwork has
-been added to canonical sources in this audit. Raw snapshots remain ignored.
+Pathfinder 1e Content 11.4.0. Four normalized component records are now contained in the kit source. Raw
+snapshots remain ignored; no upstream image bytes are distributed.
 
 Installed packages include GPL and OGL license texts. Review the selected
 record's applicable terms and attribution before packaging a copy; do not
 relicense it as original MIT work. Selected image paths point to core or PF1
 assets, which can be referenced separately from any proposal to redistribute
-their bytes. The optional-module delivery policy remains unresolved.
+their bytes. The user authorized reviewed packaged copies. PF1 game content is identified
+as OGL on its official package page (https://foundryvtt.com/packages/pf1).
+Selected equipment rules retain OGL notices from PF1 Content plus the existing
+wiki notice list, which includes Animal Archive. GPL-3.0 is retained for upstream
+record-format contributions; adapted human-reviewable kit JSON ships under
+`sources/items/` as corresponding source. No upstream program code is included.

@@ -20,3 +20,30 @@ endorsement is claimed. Other wiki collections remain subject to separate review
 Before importing material, record the collection's rights and required notices
 in `docs/CONTENT_PROVENANCE.md`, `config/content.json`, and `LICENSES/`.
 The original-tooling MIT license does not replace any source-content license.
+
+## Reused kit components (2026-09-20)
+
+Wolfsbane and the base dagger are adapted from the Pathfinder 1 system 11.11
+(https://gitlab.com/foundryvtt_pathfinder1e/foundryvtt-pathfinder1).
+Weapon Blanch (Silver) and Deodorizing Agent (Vial) are adapted from
+Pathfinder 1e Content 11.4.0
+(https://gitlab.com/foundryvtt_pathfinder1e/pf1-content), with credit to its
+maintainers and contributors. Original rules are by Paizo and the credited
+authors of Adventurer's Armory, Core Rulebook, Ultimate Equipment and Animal
+Archive. Source UUIDs, versions, book/page references and hashes accompany the
+contained records.
+
+The adapted rules remain Open Game Content under OGL-1.0a. Retain both
+`LICENSES/OGL-1.0a-PF1-Content.txt` and the wiki notices, including Animal Archive.
+The upstream GPL-3.0 notice is retained in `LICENSES/GPL-3.0.txt` for record-format
+contributions; these are not relicensed as original MIT work. The human-reviewable
+adapted kit JSON is included in the installable archive at `sources/items/`.
+
+Changes: normalized embedded identities and metadata, kit quantities, removed an
+orphan heading, adapted the dagger to alchemical silver, preserved native dagger
+actions and added attribution. The outer container uses the wiki description
+and project-generated art; its empty price/weight follow the audited waist-pouch
+interpretation. No upstream program code is copied.
+
+Contained artwork uses existing Foundry core or PF1 image paths. No upstream
+image bytes are redistributed, and their licenses are not changed.

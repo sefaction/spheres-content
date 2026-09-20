@@ -108,6 +108,10 @@ async function build() {
     await copyFile(file, target);
   }
   const { content } = await load();
+  // Human-reviewable corresponding source for adapted upstream record data.
+  const sourcePath = "src/packs/items/lycanthrope-hunters-kit.json";
+  await mkdir("dist/sources/items", { recursive: true });
+  await copyFile(sourcePath, "dist/sources/items/lycanthrope-hunters-kit.json");
   for (const asset of content.assets) {
     const target = path.join("dist", asset.path.slice("static/".length));
     await mkdir(path.dirname(target), { recursive: true });

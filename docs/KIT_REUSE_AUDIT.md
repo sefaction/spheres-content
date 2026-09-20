@@ -3,8 +3,9 @@
 Issue: https://github.com/sefaction/spheres-content/issues/7. Reviewed 2026-09-20
 against installed PF1 11.11 and Pathfinder 1e Content 11.4.0. Candidate UUIDs,
 package versions, hashes, search scope and decisions are recorded in
-`research/kit-reuse-audit.json`. This is metadata and an assembly proposal,
-not a new distributable container or blanket rights clearance.
+`research/kit-reuse-audit.json`. The user authorized reviewed packaged copies. The normalized kit source now
+implements this assembly; remote acceptance is recorded in the checkpoint.
+This is not blanket rights clearance for other records.
 
 ## Existing entries and proposed assembly
 
@@ -53,18 +54,17 @@ source records and asset paths need validation alongside the parent ID.
 
 ## Remaining work
 
-- Resolve the user's requested delivery preference: reviewed packaged copies
-  versus requiring and referencing optional source modules. No optional module
-  was enabled or added as a dependency during the audit.
+- Delivery resolved: reviewed packaged copies with attribution and core/system
+  artwork references. No optional source module dependency is added.
 - Review selected rule/record licenses and attribution before committing copies.
   PF1 and PF1 Content ship GPL and OGL texts; artwork requires separate attention.
   Referencing an installed core/system image and redistributing its bytes are
   different operations. Raw reference documents and images remain ignored.
-- Extend the source format and validators for containers, contained documents,
-  consumables, weapons, external assets and the chosen reference strategy.
+- Source validation now covers containers, contained documents, consumables,
+  weapons and registered external assets. Remote smoke checks image hashes.
   Reuse existing native item behavior where reviewed; defer newly authored
   passive and conditional modifiers as requested.
-- Replace the provisional flat loot source while preserving its ID/source key.
+- The flat loot source is replaced, preserving its ID/source key.
   Test full-kit totals, component quantities, contained sheets, item removal,
   consumable behavior and actor import. Previously imported test-world copies
   are not automatically migrated by a compendium update.

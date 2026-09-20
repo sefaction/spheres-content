@@ -7,7 +7,8 @@ scripts. `config/identities.json` fixes each source key, document ID and pack.
 image provenance. This initial pilot has four documents in four Item packs.
 
 The descriptive phase supports PF1 11.11 base classes, ordinary feats, gear,
-and pf1spheres 0.9.0 skill talents for its recognized Guile spheres. Other item
+containers with reviewed loot, consumable and weapon contents, and pf1spheres
+0.9.0 skill talents for its recognized Guile spheres. Other item
 subtypes need explicit schema extensions with their first content batch. This
 is a reviewed subset, not a complete validator for every PF1 Item type.
 
@@ -24,7 +25,8 @@ is a reviewed subset, not a complete validator for every PF1 Item type.
   does not claim to HTTP-check every linked wiki page during CI.
 - UUID/compendium links remain blocked until a versioned resolution inventory is
   implemented. Do not invent upstream UUIDs.
-- Keep Changes, context notes, actions, scripts and effects empty. Reject passive
+- Keep Changes, context notes, scripts and effects empty. Preserve only reviewed
+  native contained-item actions, pinned by hashes in `config/containers.json`. Reject passive
   change flags and caster-progression automation until the later mechanics pass.
   Native class/item identity fields such as HD, BAB, saves, price and weight are
   included so the documents use the appropriate PF1 sheet and basic data model.
@@ -68,8 +70,8 @@ modifier authoring remain deferred.
 
 The first hunter's-kit correction is tracked in issue #7 and
 [the reuse audit](KIT_REUSE_AUDIT.md). The current flat loot record is provisional;
-container/consumable/weapon validation and the selected reuse delivery policy must
-be implemented before its revised pack is accepted. Local reference exports are
+its replacement uses registered container/consumable/weapon validation and
+reviewed packaged component copies. Remote acceptance must verify that structure. Local reference exports are
 audit inputs only, never canonical content without normalization and review.
 
 Source discovery uses cached public pages under ignored `.local/wiki-catalog/`.

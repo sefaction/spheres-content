@@ -423,6 +423,28 @@ export async function smokeRemote(semantic = false) {
   const receipt = await json(path.join(root, ".local/deployment.json"));
   assert.equal(receipt.profile, profile.profile);
   const route = await checkSetup(profile.url, semantic);
+  const content = JSON.parse(
+    git("show", `${receipt.commit}:config/content.json`),
+  );
+  for (const asset of content.externalAssets ?? []) {
+    safeRelative(asset.path);
+    assert(
+      /^(icons\/|systems\/pf1\/icons\/)/.test(asset.path),
+      "Unreviewed external asset target",
+    );
+    const response = await fetch(new URL(asset.path, `${profile.url}/`), {
+      redirect: "error",
+    });
+    assert(
+      response.ok,
+      `Required core/system image unavailable: ${asset.path}`,
+    );
+    assert.equal(
+      digest(Buffer.from(await response.arrayBuffer())),
+      asset.sha256,
+      `Referenced image changed: ${asset.path}`,
+    );
+  }
   const installed = await directoryHashes(profile.target);
   if (!semantic)
     assert.deepEqual(

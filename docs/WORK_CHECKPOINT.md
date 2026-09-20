@@ -2,7 +2,27 @@
 
 Updated: 2026-09-20 (work began 2026-09-19 local time).
 
-## Current steering: compendium reuse and containers
+## Current batch: packaged kit components
+
+- User resolved delivery: package reviewed copies, preserving attribution and
+  permitted artwork references. No optional source-module dependency is added.
+- On `content/entity-catalog`, implementing issue #7 within draft PR #4.
+  Version `0.1.0-alpha.3`: kit keeps ID `5feccdaf3cbf89f1`, now a native container
+  with four stable child records (quantities 5/5/1/1); 0.5 gp / 0.5 lb empty,
+  80 gp / 4 lb full. Actions copied from the dagger remain hash-pinned;
+  passive/conditional authoring stays deferred.
+- Copied record provenance and OGL/GPL notices are retained. Referenced core/PF1
+  images were visually inspected and fetched successfully; raw artwork is not
+  redistributed. Corresponding adapted kit JSON is included in the archive.
+- Local full verification and new remote deployment/UI acceptance are pending
+  in this implementation checkpoint. The test world was returned to Setup to
+  permit safe pack replacement. The prior runtime remains `300a375` until the
+  deployment receipt confirms a replacement.
+- Next safe step: finish local checks, commit, verify the clean build, stage/swap
+  deploy, and exercise container sheets, quantities, totals and removal in the
+  dedicated test world. Do not migrate or overwrite old imported kit copies.
+
+## Prior reuse audit (superseded by the resolved delivery choice above)
 
 - User requires searching existing compendia for suitable names, descriptions,
   images and native item behavior before creating replacements. Kits must be

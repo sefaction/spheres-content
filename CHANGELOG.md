@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.1.0-alpha.3 — Unreleased
+
+- Replace the hunter's kit with a native PF1 container holding four reviewed
+  component stacks, preserving the kit's stable identity and 80 gp / 4 lb totals.
+- Package attributed component copies with existing core/PF1 artwork references;
+  no optional content-module dependency. Preserve native dagger actions.
+- Validate contained identities, quantities, totals, provenance and reviewed
+  actions; check referenced image hashes during remote smoke testing.
+- Existing imported world copies are not migrated. Newly authored passive and
+  conditional modifier automation remains deferred.
+
 ## 0.1.0-alpha.2 — Unreleased
 
 - Begin descriptive compendia with Incanter, Extra Magic Talent, Lycanthrope Hunter's Kit, and the Guile talent Favorite Tools.

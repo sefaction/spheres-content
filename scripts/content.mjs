@@ -10,12 +10,17 @@ export const stableId = (key) =>
   createHash("sha256").update(key).digest("hex").slice(0, 16);
 const hash = (data) => createHash("sha256").update(data).digest("hex");
 
-export function validateEntity(doc, identity, sources, assets) {
+export function validateEntity(doc, identity, sources, assets, options = {}) {
   assert(idPattern.test(doc._id), "Invalid document ID");
-  assert.equal(doc._key, `!items!${doc._id}`, "Compiler identity mismatch");
+  if (options.contained)
+    assert.equal(doc._key, undefined, "Contained compiler key");
+  else
+    assert.equal(doc._key, `!items!${doc._id}`, "Compiler identity mismatch");
   assert(doc.name?.trim(), "Missing name");
   assert(
-    ["feat", "class", "loot"].includes(doc.type),
+    ["feat", "class", "loot", "container", "consumable", "weapon"].includes(
+      doc.type,
+    ),
     "PF1 type needs a reviewed schema profile",
   );
   assert.equal(
@@ -36,10 +41,7 @@ export function validateEntity(doc, identity, sources, assets) {
   );
   assert.equal(identity?.sourceKey, meta.sourceKey, "Source key changed");
   assert(sources.has(meta.collection), "Unreviewed source collection");
-  assert(
-    meta.sourceUrl.startsWith("http://spheresofpower.wikidot.com/"),
-    "Missing wiki provenance",
-  );
+  assert(/^https?:\/\//.test(meta.sourceUrl), "Missing source provenance");
   assert(
     /^[0-9a-f]{64}$/.test(meta.sourceSha256),
     "Missing source snapshot hash",
@@ -57,11 +59,34 @@ export function validateEntity(doc, identity, sources, assets) {
       s.description.value.length > 30,
     "Missing description",
   );
-  for (const name of ["changes", "contextNotes", "scriptCalls", "actions"])
+  for (const name of ["changes", "contextNotes", "scriptCalls"])
     assert.deepEqual(
       s[name],
       [],
       `${name} must remain empty during the descriptive phase`,
+    );
+  if (options.contained) {
+    assert.equal(
+      hash(JSON.stringify(s.actions)),
+      identity.actionsSha256,
+      "Unreviewed native actions",
+    );
+    assert.equal(
+      meta.sourceUuid,
+      identity.sourceUuid,
+      "Reused source UUID changed",
+    );
+    assert.equal(
+      meta.sourceSha256,
+      identity.sourceSha256,
+      "Reused snapshot changed",
+    );
+    assert.equal(doc.type, identity.type, "Contained item type changed");
+  } else
+    assert.deepEqual(
+      s.actions,
+      [],
+      "actions must remain empty during the descriptive phase",
     );
   assert(
     !Object.values(s.changeFlags ?? {}).some(Boolean),
@@ -141,17 +166,96 @@ export function validateEntity(doc, identity, sources, assets) {
       "Automatic class associations are deferred",
     );
   } else {
-    assert.equal(s.subType, "gear");
+    if (doc.type === "loot") assert.equal(s.subType, "gear");
+    if (doc.type === "consumable")
+      assert(["misc", "potion"].includes(s.subType));
+    if (doc.type === "weapon") {
+      assert.equal(s.subType, "simple");
+      assert.equal(s.weaponSubtype, "light");
+      assert.deepEqual(s.material.addon, ["alchemicalSilver"]);
+    }
     assert(Number.isFinite(s.price) && s.price >= 0);
     assert(Number.isFinite(s.weight?.value) && s.weight.value >= 0);
-    assert.equal(s.quantity, 1);
+    assert(Number.isInteger(s.quantity) && s.quantity > 0);
+    if (doc.type === "container") {
+      assert(!options.contained, "Nested containers require review");
+      const assembly = options.containers?.[meta.assembly];
+      assert(
+        assembly && assembly.containerId === doc._id,
+        "Unregistered container assembly",
+      );
+      assert.equal(assembly.sourceKey, meta.sourceKey);
+      assert.equal(s.quantity, 1);
+      assert.equal(
+        s.price,
+        assembly.empty.price,
+        "Empty container price double-counts contents",
+      );
+      assert.equal(
+        s.weight.value,
+        assembly.empty.weight,
+        "Empty container weight double-counts contents",
+      );
+      assert.deepEqual(s.weight.reduction, { value: 0, percent: 0 });
+      assert.deepEqual(s.currency, { pp: 0, gp: 0, sp: 0, cp: 0 });
+      assert.equal(s.maxWeight, null, "Unreviewed capacity");
+      assert.deepEqual(
+        Object.keys(s.items).sort(),
+        assembly.contents.map((c) => c.id).sort(),
+        "Container contents mismatch",
+      );
+      const ids = new Set([doc._id]);
+      const keys = new Set([meta.sourceKey]);
+      for (const child of assembly.contents) {
+        assert(
+          !ids.has(child.id) && !keys.has(child.sourceKey),
+          "Duplicate contained identity",
+        );
+        ids.add(child.id);
+        keys.add(child.sourceKey);
+        const item = s.items[child.id];
+        validateEntity(item, child, sources, assets, { contained: true });
+        assert.equal(
+          item.system.quantity,
+          child.quantity,
+          "Contained quantity mismatch",
+        );
+        assert.equal(
+          item.system.price,
+          child.price,
+          "Contained price mismatch",
+        );
+        assert.equal(
+          item.system.weight.value,
+          child.weight,
+          "Contained weight mismatch",
+        );
+      }
+      assert.deepEqual(
+        containerTotals(doc),
+        assembly.totals,
+        "Container totals mismatch",
+      );
+    }
   }
+}
+
+export function containerTotals(doc) {
+  const s = doc.system;
+  return Object.values(s.items).reduce(
+    (total, { system: child }) => ({
+      price: total.price + child.price * child.quantity,
+      weight: total.weight + child.weight.value * child.quantity,
+    }),
+    { price: s.price, weight: s.weight.value },
+  );
 }
 
 export async function validateContentCatalog() {
   const catalog = await json("config/content.json");
   const manifest = await json("module.json");
   const identities = await json("config/identities.json");
+  const containers = await json("config/containers.json");
   const sources = new Map();
   for (const source of catalog.sources) {
     assert(!sources.has(source.key), "Duplicate collection");
@@ -197,6 +301,20 @@ export async function validateContentCatalog() {
     ...catalog.assets.map((a) => path.normalize(a.path)),
     path.normalize("static/README.md"),
   ].sort();
+  for (const asset of catalog.externalAssets ?? []) {
+    const assetPath = safeRelative(asset.path);
+    assert(
+      /^(icons\/|systems\/pf1\/icons\/)/.test(assetPath),
+      "Optional or unsafe asset dependency",
+    );
+    assert.equal(asset.kind, "reference");
+    assert(
+      asset.version && asset.review && /^[0-9a-f]{64}$/.test(asset.sha256),
+      "Unreviewed external asset",
+    );
+    assert(!assets.has(asset.path), "Duplicate external asset");
+    assets.set(asset.path, asset);
+  }
   assert.deepEqual(
     await files("static"),
     registeredAssets,
@@ -242,7 +360,7 @@ export async function validateContentCatalog() {
         pack.name,
         "Pack move requires reference review",
       );
-      validateEntity(doc, identity, sources, assets);
+      validateEntity(doc, identity, sources, assets, { containers });
       registeredFiles.push(file);
       docs.push({ pack: pack.name, file, doc });
     }
