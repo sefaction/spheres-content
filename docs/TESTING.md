@@ -146,10 +146,13 @@ as acceptance of this content batch.
 
 ## Alpha.4 systematic intake acceptance
 
-Local gates cover all canonical records, asset encodings/size budgets, exact
+Full clean local verification passed on b9fabf7 (22 tests). Gates cover all
+canonical records, asset encodings/size budgets, exact
 compiled round trips and deterministic archives. Parser regressions cover edition
 boundaries, nested text, sanitization, Unicode names/weights, kit/weapon holds,
-stale rights/reviews and progression-table grants. Runtime acceptance is pending.
+stale rights/reviews and progression-table grants. Two identical 679-file archives passed the rebuild check. Runtime acceptance
+is pending the five-backup retention decision; the dry run refused safely.
+See draft PR #9 for current status.
 
 Remote checks must cover all five packs and representative class, class-feature,
 feat, Guile talent, loot, consumable and wondrous-equipment sheets; verify native

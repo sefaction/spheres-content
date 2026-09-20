@@ -4,27 +4,49 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
 
 ## Current batch: systematic wiki intake
 
-- User redirected work to full sitemap extraction, programmatic organization and
-  per-entity auditing for art, activation, Changes/context notes, uses/charges,
-  links, advanced settings, class features by level and optional integrations.
-- Narrow-sheet wrapping is explicitly out of scope; issue #6 now covers only
-  native source labels. Older wrapping notes below are historical.
-- Active branch: content/systematic-intake, based on PR #4 at 7fe3cba. Issue #8
-  tracks this batch. No merge or release authorization.
-- Full cached crawl: 2,652 pages, zero download errors. Extraction: 11,019
-  candidates, including duplicates/legacy; extraction is explicitly incomplete.
+- Active branch: content/systematic-intake. Draft PR #9:
+  https://github.com/sefaction/spheres-content/pull/9, stacked on #4. Issue #8
+  tracks the intake; #3 remains the broader catalog, #6 the native source labels.
+  No merge, release or retention-policy change has been authorized.
+- Runtime/source implementation commit: b9fabf7eb46a1aec01f33ab0e0c3b49a342e0c30.
+  Documentation evidence follows it. Full clean verification passed on that commit:
+  formatting, lint, 22 tests, source/reference validation, complete compiled-record
+  round trips and two identical 679-file archives. Review ZIP SHA-256:
+  4f704ac383f75b95ce162d889e46e66a994e08f0e621eb404860c59eea4b6dc6.
+- Full cached crawl: 2,652 pages, zero download errors; 11,019 candidates including
+  duplicates/legacy. Page retrieval is complete for this snapshot; exhaustive
+  entity extraction and semantic review remain explicitly incomplete.
 - Canonical drafts: 6,788 (117 classes, 1,536 class features, 3,674 feats,
-  835 Guile talents, 626 items). Holds and unresolved grants remain in the ledger.
-- Reuse index: 37,708 records / 56 packs; one Roll Bonuses pack has an unexpected
-  lost directory and remains unavailable. No remote source packs were modified.
-- All 22 tests and the first 679-file build pass, including exact round trips
-  for every record. Full clean verification and remote alpha.4 acceptance are pending. Four icons are now 256-pixel WebP with
-  reduced PNG compatibility copies; new draft artwork remains explicitly needed.
-- Remote runtime remains 80600de alpha.3 in Setup; five backups retained. Review ZIP is built (10,582,256 bytes). An asynchronous question asks to retain
-  all five backups and raise the bounded limit to ten; no answer yet.
-- Next safe work: commit and run full clean verification, resolve the pending
-  retention decision, deploy for acceptance, then open a stacked PR.
-  Current worktree is intentionally dirty; no public release or merge authorized.
+  835 Guile talents, 626 items). Repeat promotion plan imports zero, preserves
+  6,788 identities, maps 986 duplicates and holds 3,245 candidates. See the tracked
+  research/intake ledger and docs/SYSTEMATIC_INTAKE.md for filters and hold reasons.
+- The official compiler only reads one directory; the build now stages all nested
+  canonical records under stable ID filenames before compilation. Native PF1
+  consumables omit changeFlags; tests distinguish that profile from feats.
+- Reuse index: 37,708 records / 56 packs. One Roll Bonuses pack has an unexpected
+  lost directory and remains unavailable. No source pack was modified. Existing
+  matches for 384 imported documents await full suitability review.
+- Class audit has 2,340 level rows across 117 classes. Native associations remain
+  empty pending grant review. New passive/conditional mechanics, actions, usage
+  settings and optional-module contracts remain in the audit queues.
+- Four generated icons now use 256-pixel WebP, 47,774 bytes combined. Visual
+  inspection passed at 64, 128 and 256 pixels. Small PNGs preserve organized and
+  flat historical paths; original hashes/settings/sizes remain registered. The
+  remaining 6,784 imported documents are explicitly marked as needing artwork.
+- Narrow-sheet wrapping is out of scope. Optional integrations are versioned
+  source research, not runtime compatibility certification. Native source labels
+  are populated. No new compatibility claim or world migration is included.
+- Remote remains 80600de alpha.3 in Setup, confirmed by HTTP, installed manifest
+  and browser. All five backups remain. The alpha.4 deployment dry run refused
+  at the documented retention limit; no files were replaced and no restart ran.
+- Pending user question: retain all five backups and raise the bounded limit to
+  ten for this batch, or leave deployment pending. No answer received. Do not
+  bypass the limit or delete backups. This is a CODEX.md/helper restriction.
+- Next safe step after the retention decision: implement the approved bounded
+  policy, commit and verify the exact clean branch build, dry-run/deploy, then
+  test five packs and every native document type in the dedicated PF1 world.
+  Return to Setup for strict semantic audit and update PR #9 with actual results.
+  Reconcile any newer GitHub CI result before continuing; PRs #2/#4/#9 are unmerged.
 
 ## Prior completed batch: packaged kit components
 
