@@ -48,6 +48,27 @@ Registered assets copy from `static/` into runtime-relative paths. The ZIP has
 `module.json` at its root. Two clean builds must produce identical archive hashes.
 `build:packs` runs the complete clean build to avoid stale pack output.
 
+### Icon organization
+
+Keep generated artwork in readable folders beneath `static/icons/`, mirrored
+inside the installed module's `icons/` directory:
+
+- `classes/incanter.png`
+- `feats/extra-magic-talent.png`
+- `items/kits/lycanthrope-hunters-kit.png`
+- `guile-talents/artifice/crafting-tools.png`
+
+Use lowercase descriptive names separated by hyphens. Group equipment by kind
+and talents by sphere when useful; name shared artwork for its subject rather
+than an arbitrary first user. Register paths, hashes and prompts in
+`config/content.json` and update canonical document references together.
+External PF1/core artwork keeps its original source path.
+
+The four former flat icon paths remain generated compatibility aliases via
+`legacyPaths`, so existing test-world copies keep their images. There is one
+canonical image per asset; the build produces the aliases. New entries use
+the organized paths. No world-data migration is performed.
+
 ## Intake and updates
 
 Before authoring any item or generating its image, search existing compendia for

@@ -113,9 +113,15 @@ async function build() {
   await mkdir("dist/sources/items", { recursive: true });
   await copyFile(sourcePath, "dist/sources/items/lycanthrope-hunters-kit.json");
   for (const asset of content.assets) {
-    const target = path.join("dist", asset.path.slice("static/".length));
-    await mkdir(path.dirname(target), { recursive: true });
-    await copyFile(asset.path, target);
+    for (const output of [
+      asset.path.slice("static/".length),
+      ...(asset.legacyPaths ?? []),
+    ]) {
+      safeRelative(output);
+      const target = path.join("dist", output);
+      await mkdir(path.dirname(target), { recursive: true });
+      await copyFile(asset.path, target);
+    }
   }
   await buildPacks();
   const expected = {};

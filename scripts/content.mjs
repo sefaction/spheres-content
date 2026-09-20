@@ -270,6 +270,7 @@ export async function validateContentCatalog() {
     sources.set(source.key, source);
   }
   const assets = new Map();
+  const packagedImagePaths = new Set();
   for (const asset of catalog.assets) {
     const file = safeRelative(asset.path);
     assert(
@@ -296,6 +297,20 @@ export async function validateContentCatalog() {
     const runtimePath = `modules/${moduleId}/${file.slice("static/".length)}`;
     assert(!assets.has(runtimePath), "Duplicate asset path");
     assets.set(runtimePath, asset);
+    for (const output of [
+      file.slice("static/".length),
+      ...(asset.legacyPaths ?? []),
+    ]) {
+      safeRelative(output);
+      assert(
+        /^icons\/(?:[a-z0-9-]+\/)+[a-z0-9-]+\.png$/.test(output) ||
+          ((asset.legacyPaths ?? []).includes(output) &&
+            /^icons\/[a-z0-9-]+\.png$/.test(output)),
+        "Icons need readable category folders; only legacy aliases may be flat",
+      );
+      assert(!packagedImagePaths.has(output), "Duplicate packaged image path");
+      packagedImagePaths.add(output);
+    }
   }
   const registeredAssets = [
     ...catalog.assets.map((a) => path.normalize(a.path)),

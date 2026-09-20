@@ -30,18 +30,41 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   coating/scent effect or silver damage adjustment is implemented.
 - Browser errors: zero. Server debug log through 2026-09-20 01:17:40 local
   contains 321 records, zero warnings/errors; no daily error file present.
-- Actor-level acceptance is pending. Created empty `ASC Container Acceptance`
-  (`HqItFa8lbVtZxfuM`) and prepared an ignored minimal actor JSON containing the
-  canonical kit. Native Import Data's file chooser was blocked by Chrome's
-  extension file-URL permission; no actor data was imported. Cancelled the
-  dialog. User was given the documented extension-setting instructions and
-  asked asynchronously to enable upload or manually drag the kit to the actor.
-  No answer yet. Actor inventory is open beside Items in browser tab 72099537;
-  actor still carries 0 lb / 0 gp. Reconcile before retrying or creating duplicates.
-- Next safe step: complete actor import, inventory totals and removal/transfer
-  once user assistance arrives. Then finish non-GM/lifecycle baseline checks and
-  return to Setup for the semantic audit. Keep PR #4 draft. Source reuse policy
-  is resolved; only this browser interaction is awaiting user assistance.
+- User enabled Chrome file-URL access and reopened the browser. Reconnected to
+  Chrome browser 3, tab 72099537. Native Import Data uploaded the prepared JSON
+  into the previously empty ASC Container Acceptance actor successfully.
+- Actor checks passed: complete kit appears as Container with total inventory
+  4 lb / 80 gp. Native Take withdrew the silver dagger into actor inventory;
+  kit became 3 lb with 57.5 gp contents and the actor remained 4 lb / 80 gp.
+  The withdrawn dagger (new actor item d9uB1c9ziBB8wEuZ) opened its action picker,
+  Melee roll dialog and produced a chat attack/damage roll. The silver damage
+  modifier remains deferred. Actor fixture retains the withdrawn dagger and
+  remaining kit contents; the separate world kit copy remains full.
+- Browser captured one pre-test startup viewport error at 13:43:34 UTC while
+  Chrome was 958px wide; later screenshots show 1920px. No new item/roll error
+  appeared. Do not describe the whole browser log as error-free.
+- Final semantic audit caught added parent container defaults on deployed
+  8736594; the four contained records matched exactly. Reviewed the complete
+  diff and normalized only the missing native parent defaults in canonical JSON,
+  including empty unidentified data, false flags, ownership and null stats.
+  No changes to item rules, IDs or children; exact audit comparison is preserved.
+- Correction 78a5570d64552dcd23088bbaf568dd72964c4266 passed clean full verification
+  (15 tests and deterministic archives), staged deployment with backup, strict
+  installed hashes and external image hashes. Repeat UI intake and semantic audit
+  completed for the container, which now matches exactly. The audit exposed the
+  same missing-default issue in the other three pilot entries; full reviewed
+  diffs contained additions only. Their native empty/false defaults are now
+  explicit in canonical sources too. No host restart or world migration performed.
+- User requested readable icon organization. Canonical icons now use classes,
+  feats, items/kits, and guile-talents/artifice folders. Four generated legacy
+  aliases preserve images in existing test-world copies. Source references,
+  asset registry, validation and packaging are updated together; no new artwork.
+- New full local verification passed 15 tests and deterministic 43-file archives.
+  Next safe step: commit, verify clean, deploy and repeat all-pack UI/semantic
+  checks. Four retained backups were present before this planned deployment.
+- No browser assistance remains pending.
+  General pilot feat/skill-talent actor checks and non-GM/lifecycle baseline
+  remain outside the completed container behavior checks.
 
 ## Prior reuse audit (superseded by the resolved delivery choice above)
 

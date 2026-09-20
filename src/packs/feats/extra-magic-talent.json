@@ -3,7 +3,7 @@
   "_key": "!items!54e7f57ef4ba6758",
   "name": "Extra Magic Talent",
   "type": "feat",
-  "img": "modules/additional-spheres-content/icons/extra-magic-talent.png",
+  "img": "modules/additional-spheres-content/icons/feats/extra-magic-talent.png",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -29,9 +29,66 @@
     "scriptCalls": [],
     "tags": [],
     "links": {
-      "children": []
+      "children": [],
+      "charges": []
     },
     "subType": "feat",
-    "disabled": false
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {}
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
   }
 }

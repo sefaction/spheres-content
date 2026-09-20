@@ -37,6 +37,25 @@ test("pilot source, pack, provenance and image inventories agree", async () => {
   assert.equal(cls.system.skillsPerLevel, 4);
   assert.match(cls.system.description.value, /Table: The Incanter/);
   assert(!cls.system.description.value.includes("<h1>Archetypes</h1>"));
+  // PF1 fills these native defaults when loading all four pilot packs.
+  for (const { doc } of docs) {
+    assert.deepEqual(doc.ownership, { default: 0 });
+    assert.equal(doc._stats.coreVersion, "13.351");
+    assert.equal(Object.keys(doc.system.changeFlags).length, 9);
+    assert(
+      Object.values(doc.system.changeFlags).every((value) => value === false),
+    );
+    if (doc.type === "feat") {
+      assert.equal(doc.system.abilityType, "na");
+      assert.equal(doc.system.uses.value, null);
+      assert.deepEqual(doc.system.links.charges, []);
+    }
+  }
+  assert.deepEqual(cls.system.fc, {
+    hp: { value: 0 },
+    skill: { value: 0 },
+    alt: { value: 0, notes: "" },
+  });
 });
 
 test("descriptive-phase gate rejects premature mechanics, broken identity, unsafe HTML and missing art", async () => {
