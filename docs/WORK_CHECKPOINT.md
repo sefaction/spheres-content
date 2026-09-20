@@ -19,23 +19,32 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   hashes are pinned. The two PF1 images were visually inspected and are referenced
   without redistributing bytes. The refreshed physical report has 963 entries,
   24 candidate-bearing entries, ten reviewed, zero stale and one unavailable pack.
-- Runtime/source commit `b16542c3abf12cae4e26d2609ee17ee12595bc56`
-  is pushed. Local verification passes 29 tests, source/reference validation,
+- Runtime/source commit `c9107729ce1a5e2189bcacff1d1a9d80efd996f0`
+  is deployed. Local verification passes 29 tests, source/reference validation,
   complete 6,788-document compiler round trips and two identical 682-file builds;
-  ZIP SHA-256 is `630112c064b543d5c8341601cd9d7da064e13ad8d7acc462564f232e379af578`.
-- Alpha.6 deployed through the staged helper. Eight backups remain and none were
+  ZIP SHA-256 is `9fe6c060ba778d9a6bee43b00192edcaa31a647cec23fbe5484c1e9efff49f3a`.
+- Alpha.6 deployed through the staged helper. Ten backups remain and none were
   deleted. Package and external-image hashes passed without a restart. Player UI
-  acceptance passed for both native sheets and actions. Actor import, weapon roll
-  and ration decrement remain untested because the old temporary GM password was
-  rejected. Server records contain 151 info entries and only that expected failed
-  GM-login warning.
+  acceptance passed for both native sheets and actions. Gamemaster actor tests
+  imported Hidden Blade and Rations, Trail. Hidden Blade produced its native
+  attack roll. On a level-1 actor with base Illusion CL 0, one equipped blade
+  produced Illusion CL 3, unequipping returned it to 0, re-equipping restored 3,
+  and two equipped copies remained at 3 through normal enhancement stacking.
+- Actor testing exposed that PF1 11.11 does not activate actions on loot records.
+  Rations, Trail now uses the activatable miscellaneous consumable type while
+  preserving its stable ID, wiki text, physical values, image and reviewed Use
+  action. A three-ration actor stack used one item, remained present at quantity
+  two, and produced the expected chat card. Existing actor-owned copies are not
+  migrated.
 - Draft PR #14 is open against `main`:
   https://github.com/sefaction/spheres-content/pull/14. The dedicated world is
   back in Setup. Final semantic audit matched all 6,788
   documents, non-pack receipt bytes and referenced images at the deployed commit.
-  No release, world migration or container restart is included. Both PR validation
-  jobs passed. GM actor checks can follow after the user signs in or supplies a
-  current temporary world password through the browser.
+  Browser acceptance recorded zero errors; 113 warnings are existing Foundry 13
+  deprecations from PF1/pf1spheres. The current server log contains zero errors
+  and only two earlier rejected-login warnings, with no new acceptance warning.
+  No release, world migration or container restart is included. Push the final
+  evidence commit, refresh PR #14 and issue #13, and leave the PR draft for review.
 
 ## Prior completed batch: systematic wiki intake
 
