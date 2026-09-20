@@ -43,8 +43,10 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   Browser acceptance recorded zero errors; 113 warnings are existing Foundry 13
   deprecations from PF1/pf1spheres. The current server log contains zero errors
   and only two earlier rejected-login warnings, with no new acceptance warning.
-  No release, world migration or container restart is included. Push the final
-  evidence commit, refresh PR #14 and issue #13, and leave the PR draft for review.
+  No release, world migration or container restart is included. Evidence commit
+  `dcc8f8d4885f8b145b7875a30b2f1b8f7488aa0e` and the refreshed PR #14/issue #13
+  text are pushed. CI is pending on the new head. The next safe step is to review
+  its results and leave the draft PR for the user's individual merge decision.
 
 ## Prior completed batch: systematic wiki intake
 
