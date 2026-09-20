@@ -1,0 +1,124 @@
+{
+  "_id": "95bd87a752f4e428",
+  "_key": "!items!95bd87a752f4e428",
+  "name": "Keep ‘Em Talking",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:communication:spheres-of-guile:guile-talent:keep-em-talking",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/communication#toc14",
+      "sourceSha256": "b5e574a0f0ac283ac666727aa0371c0597770e76fda9dc332a981db3d90c6c36",
+      "descriptionSha256": "bbc3ae0f9aa42e418061cb01026e7dafca583522f9666695808d9bf5f80e7cca",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Communication Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:communication:spheres-of-guile:guile-talent:keep-em-talking",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "communication"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can distract a creature with your words. The creature must be able to understand your words and be within 60 feet. You can choose either to fascinate the target or to distract the target from an ongoing effect you choose; you can only distract them from an auditory or visual mind-affecting effect that allowed a saving throw or required a skill check.</p>\n<p>If you attempt to fascinate a target, it can negate the effect with a successful Will saving throw. On a failure, it remains fascinated for 2 rounds per rank you possess in the associated skill or until you cease conversing with it as a move action each round, whichever comes first. Actions you spend keeping the target fascinated do not slow down your attempts to use skills over rounds or minutes.</p>\n<p>To distract the target from a mind-affecting effect, you must succeed at a skill check using your associated skill against the effect’s skill check result or save DC. If you succeed against a skill check, the effect ends. If you succeed against a save DC, the target attempts a new saving throw against the mind-affecting effect at the end of your turn each round with a +4 bonus, ending the effect on a success.</p>\n<p>You can also spend a standard action to fascinate or distract another target each round you maintain this talent, each time taking a cumulative –4 penalty on checks you make to use the talent and to your save DC for this talent and allowing currently fascinated opponents a new Will save to end the effect. When the fascinated condition ends on a target by any means, you cannot fascinate them with this talent again for 24 hours. When you possess 10 or more ranks in the associated skill, the foe takes a –10 penalty to all Perception checks while fascinated rather than the typical –4. This is a language-dependent effect.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/communication#toc14\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/communication#toc14"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

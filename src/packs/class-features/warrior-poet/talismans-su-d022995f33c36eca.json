@@ -1,0 +1,121 @@
+{
+  "_id": "d022995f33c36eca",
+  "_key": "!items!d022995f33c36eca",
+  "name": "Warrior Poet: Talismans (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:warrior-poet:current:class-feature:talismans-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/warrior-poet#toc9",
+      "sourceSha256": "697e33783b9a53a1f33fd3d245501d6bb4784eedaf5b1154079f74af0050473d",
+      "descriptionSha256": "2f7001ff766b966d0606cbb361893ac85b6ff70e3369c020163586a7e1415d49",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:warrior-poet:current:class-feature:talismans-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Practitioners of onmyōdō are known for their connection with the spirits that populate the world, and one of the most iconic interactions the material has with the spiritual is the manufacture of talismans fueled by the supernatural power of these spirits. Talismans are small tokens, usually made of cloth, paper, or wood, that have been decorated with glyphs showing the provenance of its source of power, and filled with one or more prayers that give that power direction.</p>\n<p>A warrior poet begins play with two prayers for which he meets all of the prerequisites. At 2nd level and every two warrior poet levels thereafter, he gains an additional prayer for which he meets all of the prerequisites.</p>\n<p>Talismans come in two flavors: ofuda and omamori. When placing a talisman (see the individual listings for ofuda and omamori talismans), the warrior poet selects a single prayer that he knows that is compatible with the chosen type of talisman. For its duration, the talisman elicits the chosen prayer's effect.</p>\n<p>To place a talisman, a warrior poet must have one hand free and a Wisdom score equal to at least 10 + 1/2 the effective minimum level of the prayer added to the talisman. For example, a prayer that requires 4 ranks in a skill effectively requires a minimum level of 4th. Each day, a warrior poet can place a number of talismans equal to his warrior poet level + hisWisdom modifier.</p>\n<p>Both ofuda and omamori talismans never allow saving throws. A talisman has hardness equal to the warrior poet’s Wisdom modifier and hit points equal to three times the warrior poet’s class level. Melee attacks made against an ofuda talisman are made automatically successful, while melee attacks made against an omamori talisman are automatically successful if the subject of the talisman is willing to have its talisman struck; otherwise, the attack is made against the touch AC of the subject +2. Ranged attacks are made against an AC of 9 if the target is an ofuda talisman or an omamori talisman worn by a willing subject, or made against the touch AC of the subject +2 if the subject is unwilling. If a talisman is reduced to 0 hit points, it is destroyed and its effects end immediately; otherwise, a talisman has a duration of 3 rounds + 1 round per warrior poet level.</p>\n<h4>Ofuda</h4>\n<p>Ofuda talismans were originally designed to ward entire households at once, keeping out evil spirits and bad luck, or promoting fortune and cheer within its boundaries. Taken out of its traditional home and made a tool for the adventuring practitioner of onmyōdo, ofuda talismans are the gold standard for area warding.</p>\n<p>When an ofuda talisman is placed on a solid surface in an unoccupied 5foot square the warrior poet threatens, a standard action, it affects a 10foot radius centered on the talisman. Once placed, an ofuda becomes affixed to that surface and cannot be moved unless it is destroyed.</p>\n<h4>Omamori</h4>\n<p>Omamori talismans were originally designed for personal protection, and this translates well to the adventuring profession. When an omamori talisman is placed on a creature occupying a square the warrior poet threatens, a standard action, it affects just that creature. If the creature is not a willing recipient, then the warrior poet must make a melee touch attack. If successful, the talisman is affixed to the subject and cannot be removed unless it is destroyed. A failed melee touch attack provokes attacks of opportunity, but does not consume a daily talisman use.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/warrior-poet#toc9\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/warrior-poet#toc9"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

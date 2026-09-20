@@ -1,0 +1,121 @@
+{
+  "_id": "8fd7434646cedf81",
+  "_key": "!items!8fd7434646cedf81",
+  "name": "Warpmaster: Pocket Universe (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:warpmaster:current:class-feature:pocket-universe-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/warpmaster#toc17",
+      "sourceSha256": "1e0e50e864116367a19331909351416dbe03f326c27f08e2b4ffe202fd92a396",
+      "descriptionSha256": "9992f65bfdf743819e774abd6f3282d90d09efd025d8ddb11f9fd8124cb50110",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:warpmaster:current:class-feature:pocket-universe-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level, as a move equivalent action, a warpmaster can slip into a pocket dimension. This functions as a create lesser demiplane (using his warpmaster level as his caster level) but it only functions/exists while the warpmaster is within it.</p>\n<p>The pocket dimension is created instantly in his square as he moves. Moving into (and thus creating) this pocket dimension is a move-equivalent action that ends the warpmaster’s turn.</p>\n<p>Moving out of a pocket dimension is also a move-equivalent action. Once a warpmaster leaves his pocket dimension, it ceases to exist. Anything still inside is expelled, left in the square it was made in. Each time a warpmaster moves into his pocket dimension, it is a new one. The pocket dimension resides on the ethereal plane, is filled with air, has borders that resemble a featureless void, and has a normal light condition.</p>\n<p>A warpmaster can only reside in his pocket dimension for a number of rounds per day equal to his Intelligence modifier + his warpmaster level. These rounds need not be consecutive. The round he enters his pocket dimension does not consume a round but opening a pocket dimension consumes one round (so the net effect is the same).</p>\n<p>Its size is 5 x5 for a medium or smaller creature or of a size appropriate to the area a larger creature takes up. It is just large enough for the creature to stand or sit comfortably. A warpmaster cannot bring other creatures into this pocket dimension.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/warpmaster#toc17\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/warpmaster#toc17"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

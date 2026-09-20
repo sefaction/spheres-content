@@ -1,0 +1,124 @@
+{
+  "_id": "ef1619d4c8bf5912",
+  "_key": "!items!ef1619d4c8bf5912",
+  "name": "Ascertain Activities (analyze)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:investigation:spheres-of-guile:guile-talent:ascertain-activities-analyze",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/investigation#toc22",
+      "sourceSha256": "812d14024b95c9efb75b3f1dd2dddad532833a150eb7f2d9da1a70b809836e0e",
+      "descriptionSha256": "8c92de6c2367e0347d5753fc381a4dbf41e6c245c87396517eebf39c2fcba6be",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Analyze Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:investigation:spheres-of-guile:guile-talent:ascertain-activities-analyze",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "investigation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Analyze Skills:</strong> Perception or Sense Motive;<br>\n<strong>Analyze DC:</strong> 15 + the target’s Bluff modifier or Hit Dice (whichever is higher).</p>\n<p>You analyze a creature’s entire demeanor, their clothes, and everything relevant that could be used to learn the creature’s actions made within the last 24 hours, or a specific segment of time of your choice such as an 8 hour period, or between 2pm and 2am, up to a minimum of 1 hour.</p>\n<p><strong>Simple:</strong> You gain a rough approximation of the target’s actions, learning in 6-hour (or four equal) increments the type of activities the creature undertook. If an increment of time would have varying kinds of activities, you learn each of them in order of intensity or how involved the activity was.. Types of activities include: busy, calming, difficult, mundane, sedentary, stressful, etc.</p>\n<p><strong>Detailed (+5 DC):</strong> As a simple analysis, but you learn the target’s actions within 4-hour (or six equal) increments, in addition to a more complex understanding of the target’s activities, such as ‘sitting in a library’, ‘working at a butcher’, ‘running in a dusty street’, etc. In general, the learned activity may not be exact, but should give you a rough idea as to the target’s actions. For example, someone who has blood on their clothes or fingers could gain the result of ‘working with dead meat’ or similar if they were involved in a murder.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/investigation#toc22\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/investigation#toc22"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

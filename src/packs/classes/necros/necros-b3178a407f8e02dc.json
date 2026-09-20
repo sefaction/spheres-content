@@ -1,0 +1,141 @@
+{
+  "_id": "b3178a407f8e02dc",
+  "_key": "!items!b3178a407f8e02dc",
+  "name": "Necros",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:necros:current:class:necros",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/necros",
+      "sourceSha256": "716e678fce476ece2ee1e4bf5ff6820b80b6651040e04f89edf3b52c937f60e0",
+      "descriptionSha256": "dfa11d5216e7ab741fd6a1d2261e044e10525afa3727d6a646cb9296b2d93221",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:necros:current:class:necros",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Wiki Note:</strong> This class is from Lost Spheres Publishing and is not official Spheres content.</p>\n<hr>\n<p>Wherever a necros travels, death follows. Creators of undead, necros consider themselves artisans using the most pure canvas they know; flesh. Admiring the unique features of skin and bone, necros focus their talents around the power of death, avid admirers of the power of unlife. Some consider necros in love with death, to which most necros would begrudgingly agree. The path of power for most necros often leads its practitioners into the gaping jaws of undeath, and master necros often end their journey as mighty liches. Serving as both puppet masters and warriors in their own right, necros can hold their own in combat, but their talents are better served ganging up on opponents with a swarm of undead, attacking as a part of their horde.</p>\n<p><strong>Role:</strong> For a necros, their role on the battlefield is tied to their control of the undead. Master of undeath, necros not only summon deathly servants, but also alter them in new and terrifying ways. Shaping the flesh and bone of the undead to fit their whims, necros control the field of combat with a variety of their own custom creations as well as their corpse puppet. A triumph of their research, a necros controls their corpse puppet with incredible finesse, leaving destruction and terror in their wake.</p>\n<p><strong>Alignment:</strong> Any. (Some GMs may wish to limit the necros to non-good alignments depending on the nature of necromancy in their games.)</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The necros’s class skills are Bluff (Cha), Craft (Int), Diplomacy (Cha), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (religion) (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), and Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n<h1>Class Abilities</h1>\n<strong>Table: Necros</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Reflex Save</th>\n<th>Will Save</th>\n<th>Special</th>\n<th>Combat &amp; Magic Talents</th>\n<th>Caster Level</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+2</td>\n<td>+0</td>\n<td>+2</td>\n<td>Casting, blended training, channel energy, corpse puppet, deathbound, spell pool</td>\n<td>1 (+2 magic)</td>\n<td>+0 (1)</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+3</td>\n<td>+0</td>\n<td>+3</td>\n<td>Rebuke undead, undead affinity</td>\n<td>2</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+2</td>\n<td>+3</td>\n<td>+1</td>\n<td>+3</td>\n<td>Fleshcraft</td>\n<td>3</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+3</td>\n<td>+4</td>\n<td>+1</td>\n<td>+4</td>\n<td>Decaying form, preserve flesh</td>\n<td>4</td>\n<td>+3</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+3</td>\n<td>+4</td>\n<td>+1</td>\n<td>+4</td>\n<td>Darkvision, flesh bond</td>\n<td>5</td>\n<td>+3</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+4</td>\n<td>+5</td>\n<td>+2</td>\n<td>+5</td>\n<td>Necrotic shield</td>\n<td>6</td>\n<td>+4</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+5</td>\n<td>+5</td>\n<td>+2</td>\n<td>+5</td>\n<td>Advanced fleshcraft, fleshcraft</td>\n<td>7</td>\n<td>+5</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+6/+1</td>\n<td>+6</td>\n<td>+2</td>\n<td>+6</td>\n<td>Decaying form, fear aura</td>\n<td>8</td>\n<td>+6</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+6/+1</td>\n<td>+6</td>\n<td>+3</td>\n<td>+6</td>\n<td>Undead rebirth</td>\n<td>9</td>\n<td>+6</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+7/+2</td>\n<td>+7</td>\n<td>+3</td>\n<td>+7</td>\n<td>Multicrafting</td>\n<td>10</td>\n<td>+7</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+8/+3</td>\n<td>+7</td>\n<td>+3</td>\n<td>+7</td>\n<td>Fleshcraft, greater flesh bond</td>\n<td>11</td>\n<td>+8</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+9/+4</td>\n<td>+8</td>\n<td>+4</td>\n<td>+8</td>\n<td>Decaying form, see in darkness</td>\n<td>12</td>\n<td>+9</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+9/+4</td>\n<td>+8</td>\n<td>+4</td>\n<td>+8</td>\n<td>Improved necrotic shield</td>\n<td>13</td>\n<td>+9</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+10/+5</td>\n<td>+9</td>\n<td>+4</td>\n<td>+9</td>\n<td>Fleshcrafting artisan</td>\n<td>14</td>\n<td>+10</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+11/+6/+1</td>\n<td>+9</td>\n<td>+5</td>\n<td>+9</td>\n<td>Fleshcraft</td>\n<td>15</td>\n<td>+11</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+12/+7/+2</td>\n<td>+10</td>\n<td>+5</td>\n<td>+10</td>\n<td>Dead skin, decaying form</td>\n<td>16</td>\n<td>+12</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+12/+7/+2</td>\n<td>+10</td>\n<td>+5</td>\n<td>+10</td>\n<td>Unholy revivification</td>\n<td>17</td>\n<td>+12</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+13/+8/+3</td>\n<td>+11</td>\n<td>+6</td>\n<td>+11</td>\n<td>Master multicrafting</td>\n<td>18</td>\n<td>+13</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+14/+9/+4</td>\n<td>+11</td>\n<td>+6</td>\n<td>+11</td>\n<td>Fleshcraft</td>\n<td>19</td>\n<td>+14</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+15/+10/+5</td>\n<td>+12</td>\n<td>+6</td>\n<td>+12</td>\n<td>Fleshcrafting master, lich form</td>\n<td>20</td>\n<td>+15</td>\n</tr>\n</tbody></table>\n<h2>Proficiencies</h2>\n<p>Necros’s are proficient with simple weapons, as well as light armor and bucklers. In addition, if this is this character’s first level in any class, they may select a martial tradition of their choice.</p>\n<h2>Casting</h2>\n<p>A necros may combine spheres and talents to create magical effects. A necros is considered a Mid-Caster. They may use either Intelligence or Charisma as their casting ability modifier and must make this choice at 1st level. (Note: all casters may select a casting tradition the first time they gain the casting class feature.)</p>\n<h2>Spell Pool</h2>\n<p>A necros gains a small reservoir of energy they can call on to create truly wondrous effects, called a spell pool. This pool contains a number of spell points equal to their level + their casting ability modifier (minimum: 1). This pool replenishes once per day after roughly 8 hours of rest.</p>\n<h2>Blended Training</h2>\n<p>A necros gains combat or magic talents according to Table: Necros, gaining their choice of combat or magic talents at each level they would gain a talent. Necros’s use their casting ability modifier as their practitioner modifier. (See Deathbound)</p>\n<h2>Channel Energy (Su)</h2>\n<p>At 1st level, a necros can channel negative energy as the Cleric class feature a total number of times per day equal to 3 + their casting ability modifier, using their casting ability modifier in place of Charisma when determining its associated saving throw.</p>\n<h2>Corpse Puppet (Ex)</h2>\n<p>At 1st level, a necros may create a corpse puppet (see below) from the corpse of a deceased Medium or Small humanoid or a four legged animal (other animal corpses may be allowed upon GM approval). A necros cannot have an animal companion, familiar, or drake companion as long as they possess a corpse puppet. Unlike most undead, this corpse puppet is not mindless, retaining a spark of its former intelligence. As such, they are not limited to basic orders. Corpse puppets are perfectly preserved at the point at which they are created, although they can be allowed to rot if the necros desires.</p>\n<p>A necros can break the connection between themselves and their corpse puppet as a full round action, causing it to revert to a normal corpse. To form a connection with a new corpse, they must spend 1 hour with the new corpse, causing it to gain hit dice equal to their old corpse puppet.</p>\n<h2>Deathbound</h2>\n<p>A necros must select the Death sphere as their 1st level talent and uses their class level as their caster level with the Death sphere. This stacks normally with caster levels gained from other sources.</p>\n<h2>Rebuke Undead (Ex)</h2>\n<p>At 2nd level, a necros gains the Command Undead feat.</p>\n<h2>Undead Affinity (Ex)</h2>\n<p>At 2nd level, a necros is treated as an undead creature for the purpose of how positive and negative energy affect them.</p>\n<h2>Fleshcraft (Ex)</h2>\n<p>At 3rd level, a necros can spend 1 spell point or use of channel energy to manipulate the flesh of any undead under their control including their corpse puppet (if the necros is undead, they cannot use this ability on themselves); this ability can be used when animating an undead with the reanimate ability of the Death sphere. This alteration of a creature lasts for 1 day. An undead creature’s flesh can be modified in the following ways (an ability can only be selected once unless otherwise stated):</p>\n<ul>\n<li><strong>Additional Limbs:</strong> The undead is granted an additional pair of arms, a head, legs, or a tail (selecting a tail also grants either a sting or tail slap natural attack); every pair of legs an undead gains increases it speed by 20 feet, and it it possesses 4 or more legs, it is treated as a quadruped for the purpose of how much it can carry (this ability can be selected multiple times).</li>\n<li><strong>Advanced Attacks:</strong> The undead gains the Improved Natural Attack feat for all of its natural attacks.</li>\n<li><strong>Combat Talent:</strong> The undead gains a combat sphere and a talent from that sphere (this ability can be selected multiple times, although each sphere can only be selected once). Mindless undead are innately aware of how to use these abilities, but can only select from the following spheres: <a href=\"http://spheresofpower.wikidot.com/athletics\">Athletics</a>, <a href=\"http://spheresofpower.wikidot.com/berserker\">Berserker</a>, <a href=\"http://spheresofpower.wikidot.com/brute\">Brute</a>, <a href=\"http://spheresofpower.wikidot.com/guardian\">Guardian</a>, <a href=\"http://spheresofpower.wikidot.com/wrestling\">Wrestling</a>. Undead use Strength as their practitioner modifier.</li>\n<li><strong>Improve Natural Armor:</strong> The undead gains a +2 bonus to its natural armor. For every 3 hit dice the undead possesses past its first, this bonus increases by +1.</li>\n<li><strong>Necrotic Bomb:</strong> The undead is filled with necrotic energy; whenever it would be destroyed, it deals negative energy damage equal to 1d6 + its hit dice to all creatures within 30 feet of itself. For every 3 hit dice it possesses beyond its first, this negative energy damage increases by +1d6. A necros can choose to destroy an undead with this ability as a swift action as long as it is within 60 feet of himself.</li>\n<li><strong>Negative Strikes:</strong> The undead’s natural attacks deal an additional +1d6 negative energy damage. For every 5 hit dice it possesses beyond its first, this negative energy damage increases by +1d6</li>\n<li><strong>Natural Attack:</strong> The undead is granted a natural attack from the following list which it does not currently possess: bite, claws, gore, hooves, pincers, slam, sting, tail slap, or wing buffet (this ability can be selected multiple times). The undead must have a corresponding limb if they select a natural attack which would require it (listed below), and a limb can only have a single natural attack</li>\n<li><strong>Skilled Corpse:</strong> The undead gains 2 additional skill points per hit dice, their placement being determined by the necros (this ability can be selected multiple times)</li>\n<li><strong>Versatile Attacks:</strong> The undead treats its natural weapons as though they were magic for the purpose of penetrating damage reduction. For every 5 hit dice the undead possesses past its first, the necros can select a material, treating the undead’s attacks as though they were that material.</li>\n</ul>\n<strong>Table: Natural Attacks</strong>\n<table>\n<tbody><tr>\n<th>Attack</th>\n<th>Primary or Secondary</th>\n<th>Limb Needed</th>\n<th>Damage</th>\n</tr>\n<tr>\n<td>Bite</td>\n<td>Primary</td>\n<td>Head</td>\n<td>1d6</td>\n</tr>\n<tr>\n<td>Claws</td>\n<td>Primary</td>\n<td>Arms or Legs<sup>1</sup></td>\n<td>1d4</td>\n</tr>\n<tr>\n<td>Gore</td>\n<td>Primary</td>\n<td>Head</td>\n<td>1d6</td>\n</tr>\n<tr>\n<td>Hooves</td>\n<td>Secondary</td>\n<td>Legs</td>\n<td>1d4</td>\n</tr>\n<tr>\n<td>Pincers</td>\n<td>Secondary</td>\n<td>Arms</td>\n<td>1d6</td>\n</tr>\n<tr>\n<td>Slam</td>\n<td>Primary</td>\n<td>Arms</td>\n<td>1d8</td>\n</tr>\n<tr>\n<td>Sting</td>\n<td>Primary</td>\n<td>Tail</td>\n<td>1d4</td>\n</tr>\n<tr>\n<td>Tail Slap</td>\n<td>Secondary</td>\n<td>Tail</td>\n<td>1d6</td>\n</tr>\n<tr>\n<td>Wing Buffet</td>\n<td>Secondary</td>\n<td>Wings</td>\n<td>1d4</td>\n</tr>\n</tbody></table>\n<p><sup>1: Only a single pair of legs can possess claws</sup></p>\n<p>At first, a necros only has the capability of applying a single ability to an undead. At 7th level and every four levels afterwards, a necros can apply an additional ability. Applying more than 1 ability from fleshcraft still only requires a single spell point or use of channel energy.</p>\n<h2>Decaying Form (Ex)</h2>\n<p>At 4th level, a necros’s body begins to become more akin to an undead’s, gaining DR 2/bludgeoning and magic. At 8th, 12th, and 16th level, this damage reduction increases by 2.</p>\n<h2>Preserve Flesh (Ex)</h2>\n<p>At 4th level, a necros can restore an undead creature they control to whatever state they wish, being able to alter it as though they were using the shapeshift ability of the Alteration sphere and being treated as though they had the perfect imitation talent. In addition, an undead controlled by the necros does not rot unless they desire.</p>\n<h2>Darkvision (Ex)</h2>\n<p>At 5th level, a necros gains darkvision 60 feet. If they already possess darkvision, it instead increases by 30 feet. At 12th level, the necros gains the see in darkness universal ability.</p>\n<h2>Flesh Bond (Su)</h2>\n<p>At 5th level, whenever a necros grants an undead a fleshcrafter ability, they become attuned to that creature. The necros knows the creature’s exact hit point total, and as a standard action can see through the undead’s eyes as though they were their own as long as the undead is on the same plane as him. Doing so leaves the necros helpless, although they can issue mental commands to the undead while using this ability. At 11th level, the necros can directly control an undead whose eyes they are seeing through.</p>\n<h2>Necrotic Shield (Su)</h2>\n<p>At 6th level, whenever a necros uses their fleshcrafter class feature on an undead, it gains temporary hit points equal to the necros’s class level + their casting ability modifier. These temporary hit points last until the fleshcrafting ends, and can be restored by the necros by expending 1 use of channel energy while within 60 feet of the undead.</p>\n<p>At 13th level, the amount of temporary hit points gained is doubled.</p>\n<h2>Advanced Fleshcraft (Ex)</h2>\n<p>At 7th level, a necros can also select an advanced fleshcraft to add to an undead in place of a normal fleshcrafting ability. An undead can only have a single ability from the advanced fleshcraft list:</p>\n<ul>\n<li><strong>Advanced Critical:</strong> All of the undead’s natural attacks increase their critical threat range by 1; this increase stacks with Improved Critical and the keen enhancement, but is applied last</li>\n<li><strong>Blindsense:</strong> The undead gains blindsense out to a range of 30 feet</li>\n<li><strong>Burrow:</strong> The undead gains a burrow speed equal to 1/2 its base speed</li>\n<li><strong>Grab:</strong> Pick bite, claw, pincers, slam, or tail slap attacks. Whenever the undead makes a successful attack of the selected type, it can attempt a free combat maneuver check. If successful, the undead grapples the target. This ability only works on creatures of a size equal to or smaller than the undead. Undead with this ability receive a +4 bonus on CMB checks made to grapple.</li>\n<li><strong>Growth:</strong> The undead’s size increases by 1 step (to a maximum of Gargantuan), gaining a +4 size bonus to Strength, a -2 penalty to Dexterity, and 2 additional hit points per hit die</li>\n<li><strong>Rend:</strong> Whenever the undead makes two successful claw attacks against the same target in 1 round, its claws latch onto the flesh and deal extra damage. This damage is equal to the damage dealt by one claw attack plus 1-1/2 times the undead’s Strength modifier. The undead must have a claw attack to select this ability</li>\n<li><strong>Trip:</strong> Whenever the undead makes a successful bite attack, it can attempt a free combat maneuver check. If successful, the target is knocked prone. If the check fails, the undead is not tripped in return. This ability only works on creatures of a size equal to or smaller than the undead. The undead must have a bite attack to select this ability</li>\n<li><strong>Wings:</strong> The undead grows a pair of wings, gaining a flight speed of 60 feet (good maneuverability)</li>\n</ul>\n<h2>Fear Aura (Su)</h2>\n<p>At 8th level, a necros radiates a 5-foot-radius fear aura as a free action. Enemies in the area must succeed on a Will save (DC 10 + 1/2 their class level + their casting ability modifier) or become shaken. A creature who successfully saves cannot be affected by that necros’s fear aura for 24 hours.</p>\n<h2>Undead Rebirth (Su)</h2>\n<p>At 9th level, a necros can spend 5 uses of channel energy to restore an undead creature to unlife. This works as the resuscitate talent from the Life sphere, healing 5d8+casting ability modifier to determine its effects.</p>\n<h2>Multicrafting (Ex)</h2>\n<p>At 10th level, whenever a necros uses their fleshcrafting ability, they can spend an additional spell point or use of channel energy to have it affect a number of creatures equal to their casting ability modifier. If they do so, none of the creatures can gain an ability from the advanced fleshcraft class feature.</p>\n<h2>Fleshcrafting Artisan (Ex)</h2>\n<p>At 14th level, a necros can apply two abilities from the advanced fleshcrafting ability to an undead.</p>\n<h2>Dead Skin (Ex)</h2>\n<p>At 16th level, a necros becomes immune to nonlethal damage.</p>\n<h2>Unholy Revivification (Ex)</h2>\n<p>At 17th level, a necros can use their undead rebirth ability on himself as a free action which can be taken at any time.</p>\n<h2>Master Multicrafting (Ex)</h2>\n<p>At 18th level, whenever a necros uses their multicrafting ability, they can apply a single advanced talent to all undead affected by it.</p>\n<h2>Fleshcrafting Master (Ex)</h2>\n<p>At 20th level, a necros can apply three abilities from the advanced fleshcrafting ability to an undead.</p>\n<h2>Lich Form (Ex)</h2>\n<p>At 20th level, a living necros gains the lich template (if they are an undead or construct, they gain the rejuvenation ability of the lich template), removing their Constitution score. In addition, their phylactery comes into existence instantly, requiring no effort or payment from the necros to do so.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/necros\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "high"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "alignment": "Any. (Some GMs may wish to limit the necros to non-good alignments depending on the nature of necromancy in their games.)",
+    "wealth": "3d6 * 10",
+    "classSkills": {
+      "blf": true,
+      "crf": true,
+      "dip": true,
+      "int": true,
+      "kar": true,
+      "kre": true,
+      "per": true,
+      "prf": true,
+      "pro": true,
+      "sen": true,
+      "spl": true,
+      "umd": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/necros"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

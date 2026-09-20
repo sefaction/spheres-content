@@ -1,0 +1,124 @@
+{
+  "_id": "db14637b467a07cc",
+  "_key": "!items!db14637b467a07cc",
+  "name": "Ailment (harvest)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:survivalism:spheres-of-guile:guile-talent:ailment-harvest",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/survivalism#toc27",
+      "sourceSha256": "f08a002395ddf0d614719b1c74bdfc78b77500e0a93ea395e3e0354dcf980820",
+      "descriptionSha256": "a8e4e9816876ae3d3659495c31adc74ca37a35556444d9dd7ca9e1da7f48e4a0",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Harvest Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:survivalism:spheres-of-guile:guile-talent:ailment-harvest",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "survivalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Refinement DC:</strong> 10 + the creature’s Hit Dice</p>\n<p>You harvest naturally toxic components from a creature, creating a basic ailment:</p>\n<p><strong>Basic Ailment:</strong> Poison—ingested or injury; <strong>save</strong> Fort (Survivalism DC); <strong>onset</strong> 1 round; <strong>frequency</strong> 1/round for 1 minute; <strong>effect</strong> sickened; <strong>cure</strong> 1 save.</p>\n<p>Alternatively, you can harvest a disease or poison from a creature that carries or can inflict such an affliction. This ailment functions identically to the harvested affliction, except that the save DC is equal to your Survivalism sphere DC.</p>\n<p>When you refine an ailment, you create a number of doses equal to your operative ability modifier (minimum 1), which you never risk exposing yourself to. An ailment is completely inert and has no monetary value, with a DC 10 Appraise check revealing its volatile nature.</p>\n<p><strong>Potency:</strong> You may decrease the onset of the ailment to be immediate, and the frequency reduced to 1/round. An ailment refined this way is treated as both a disease and a poison. A basic ailment requires 2 cure saves to remove its effects.</p>\n<p><strong>Talisman:</strong> The ailment talisman’s wearer causes creature’s of the component’s associated creature type to halve any bonuses to saving throws against disease or poison they possess against the wearer’s abilities; immunities to such effects are instead reduced to a +4 bonus to saving throws against such effects, and do not have these bonuses halved.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/survivalism#toc27\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/survivalism#toc27"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

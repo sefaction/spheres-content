@@ -1,0 +1,121 @@
+{
+  "_id": "3640fc5a93b71865",
+  "_key": "!items!3640fc5a93b71865",
+  "name": "Mastermind: Put Off-Guard (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mastermind:spheres-of-guile:class-feature:put-off-guard-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mastermind#toc11",
+      "sourceSha256": "f1d75219242ca0e4daa9d266cb1142020830136c555ebb336a3e2c1bfc3c9781",
+      "descriptionSha256": "f043c6bfeaf79f0c6e9db6e87f9b17b3eb2567c00f2926757db499d45e8298a0",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mastermind:spheres-of-guile:class-feature:put-off-guard-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Starting at 4th level, the mastermind can get around a target’s defenses when exposing its vulnerability. When they successfully expose vulnerability on a creature using a move, standard, or full-round action, the mastermind can choose one of the following options or an option granted by their conspiracy. The mastermind cannot put the same creature off-guard more than once per round. If the option allows a skill check, the mastermind can reuse the d20 roll from expose vulnerability.</p>\n<ul>\n<li><strong>Predictable (Knowledge):</strong> The mastermind uses the practical advice task and its bonus applies to all allies (including the mastermind) within 30 feet. Each ally can use the bonus only once and only before the end of the mastermind’s next turn. The bonus increases by 1 for the mastermind (not other allies) at 10th level and 16th level.</li>\n<li><strong>Uncertain (Sense Motive):</strong> The mastermind uses the assess tactics task and the target becomes uncertain until the end of the turn that the bonus is expended. The bonus from assess tactics increases by 2 at 10th level and 16th level.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/mastermind#toc11\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mastermind#toc11"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

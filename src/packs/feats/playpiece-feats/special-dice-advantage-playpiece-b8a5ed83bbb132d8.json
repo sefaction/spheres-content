@@ -1,0 +1,121 @@
+{
+  "_id": "b8a5ed83bbb132d8",
+  "_key": "!items!b8a5ed83bbb132d8",
+  "name": "Special Dice Advantage (Playpiece)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:playpiece-feats:barons-imposing-mausoleum:feat:special-dice-advantage-playpiece",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/playpiece-feats#toc3",
+      "sourceSha256": "5d614c135a0bb6ab0e6281ec42439ff9b6780fec32310422664027cb4422b72d",
+      "descriptionSha256": "a9f06d01b54f10569c9dc564aa518f4e0851cb97f24cbc39164608d64c8ae1a6",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "barons-imposing-mausoleum",
+      "category": "playpiece-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:playpiece-feats:barons-imposing-mausoleum:feat:special-dice-advantage-playpiece",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Benefit:</strong> Choose up to three specific dice in your possession and assign one of the following properties to each of them. You may assign the same property to multiple dice, but you may only use one die when using any of the abilities from this feat. No die can ever have more than one property from this feat.</p>\n<p><strong>Class Act:</strong> Select a class feature which requires you to roll one or more dice when used (such as channel energy, sneak attack, or inspiration). You may treat any 1 rolled using the chosen die as part of that class feature as instead rolling a 2.<br>\n<strong>Cut, Color, and Die:</strong> Choose a color, material, and shape. For the purpose of feats, the chosen die counts as the chosen color, material, and shape in addition to its normal color, material, and shape.<br>\n<strong>Do or Die:</strong> Choose an ability score. In place of adding your relevant ability modifier to ability checks you make with that ability score, you may choose to instead roll the chosen die and add its result to your ability check. If you do, the check no longer counts as an ability check. The average expected result of the chosen die (rounded down) cannot exceed your normal ability score modifier.<br>\n<strong>Last Die-ing Breath:</strong> Whenever you fall below 0 hit points, you may roll your chosen die and gain a number of temporary hit points equal to the result. These temporary hit points last for 1 minute. The average expected result of the chosen die (rounded down) cannot exceed twice your character level.<br>\n<strong>The Die is Cast:</strong> Whenever you cast a spell or magic sphere effect that lasts for 3 or more rounds, you may roll your chosen die. The duration of the spell or effect is increased by a number of rounds equal to your chosen die’s result minus the chosen die’s average result (rounded down, minimum of 1 round). The average expected result of the chosen die (rounded down) cannot exceed twice your caster level.</p>\n<p><strong>Special:</strong> You may select this feat multiple times, each time selecting three different dice.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/playpiece-feats#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/playpiece-feats#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

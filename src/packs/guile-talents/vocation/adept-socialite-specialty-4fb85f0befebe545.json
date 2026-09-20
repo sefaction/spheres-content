@@ -1,0 +1,124 @@
+{
+  "_id": "4fb85f0befebe545",
+  "_key": "!items!4fb85f0befebe545",
+  "name": "Adept Socialite (specialty)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:vocation:spheres-of-guile:guile-talent:adept-socialite-specialty",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/vocation#toc30",
+      "sourceSha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "descriptionSha256": "27fc6f1ca400a1274c58898b11cd5bf4e27160675801ee382c6a38fee65fbddd",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Specialty Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:vocation:spheres-of-guile:guile-talent:adept-socialite-specialty",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "vocation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400\">Diamond Spheres: Hustle &amp; Bustle</a></sup></p>\n<p><strong>Specialty Skills:</strong> Profession (courtesan, innkeeper, gambler).</p>\n<p>You gain an ability depending on the chosen specialty skill:</p>\n<p><strong>Compelling Attraction—Profession (courtesan):</strong> You gain a +2 circumstance bonus to Charisma checks and Charisma-based skill checks made against an intelligent creature that could be attracted to you, and can use Profession (courtesan) in place of Bluff checks to lie and Diplomacy checks made against such creatures. This bonus increases to +4 if the creature is impressed or at least friendly towards you.</p>\n<p><strong>Gamble Earnings—Profession (gambler):</strong> Whenever you use Profession (gambler) to earn an income, you can choose to roll 1d% and add your associated ranks to the result. On a 1-50, you gain half as much as you normally would, whereas on a 51 or higher, you gain double the normal amount. This is applied after any other increases to the amount of wealth you would earn, but can only be done once per instance of earning income.</p>\n<p>Additionally, you gain a +2 bonus to any skill checks made within a game of chance, and temporarily unlock skill leverage in such skills. This bonus increases by 1 per 4 associated ranks you possess.</p>\n<p><strong>Luxury Treatment—Profession (innkeeper):</strong> You can spend 1 hour and 1 use of skill leverage providing services or advice to an inn, tavern, or similar establishment to ingratiate yourself with the business for 1 day. During this time, you and your close allies gain a 50% discount on any food, drink, or services provided by the business and if the business provides lodging, you and such allies receive free lodging of the highest quality that they can provide, functioning as the exceptional accommodations authorization use (as the Restful Refuge Faction sphere talent).</p>\n<p>You may receive other benefits depending on the business, such as ignoring minor infractions or granting access to certain people or areas, although this is up to the GMs discretion. Conversely, you may encounter limited benefits (or even no benefit) depending on the business and your actions and expertise, up to GMs discretion. For example, you may require a certain amount of ranks in Profession (innkeeper) before a lavish inn will provide the full extent of this talent’s abilities, or be completely unable to use this ability with an establishment that you have exploited in the past.</p>\n<p>You can take this talent multiple times—each time you do, choose another specialty skill.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/vocation#toc30\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/vocation#toc30"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

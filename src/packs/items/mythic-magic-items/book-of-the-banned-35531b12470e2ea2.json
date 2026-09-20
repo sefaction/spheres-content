@@ -1,0 +1,162 @@
+{
+  "_id": "35531b12470e2ea2",
+  "_key": "!items!35531b12470e2ea2",
+  "name": "Book of the Banned",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mythic-magic-items:current:item:book-of-the-banned",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mythic-magic-items#toc29",
+      "sourceSha256": "d2166034b8115af0affb42476c0b10b99d9ba026eacf68bc50777cfdfad8ddde",
+      "descriptionSha256": "b85a2939f334f4d620c8fa335a72f352ef895eb357a68d2e7227d157c54bd4e6",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Mythic Magic Items > Mythic Wonderous Items",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mythic-magic-items:current:item:book-of-the-banned",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Price</strong> 14,000 gp<br>\n<strong>Slot</strong> none; <strong>CL</strong> 5th; <strong>Weight</strong> 3 lbs.<br>\n<strong>Aura</strong> faint illusion and transmutation</p>\n<p>This spellbook is coated in iridescent leather that changes color depending on the direction from which it is seen. A book of the banned can be commanded to create a secret page once per day by a character who knows the proper command word. A second command word can alter the book’s appearance, similar to a suit of armor with the glamered property, though the book must always appear as some sort of written work and its actual size and weight do not change.</p>\n<p>When a mythic wizard uses the book’s secret page power, he can inscribe a spell that belongs to one of his opposition schools by expending one use of mythic power per level of the spell. Such a spell takes up a number of pages equal to twice its level (1 page for 0-level spells). Once the spell has been so inscribed, any wizard who can read the secret page can prepare the spell within as if it were not part of his opposition school.</p>\n<p><strong>Construction Requirements</strong><br>\n<strong>Cost</strong> 7,000 gp; Craft Wondrous Item, Mythic Crafter, disguise self, secret page</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mythic-magic-items#toc29\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 3
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 14000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mythic-magic-items#toc29"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

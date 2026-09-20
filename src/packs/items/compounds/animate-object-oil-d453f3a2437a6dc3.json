@@ -1,0 +1,162 @@
+{
+  "_id": "d453f3a2437a6dc3",
+  "_key": "!items!d453f3a2437a6dc3",
+  "name": "Animate Object Oil",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:compounds:ultimate:item:animate-object-oil",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/compounds#toc8",
+      "sourceSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "ba15119179eeee4eae712d21583d8fcc08dab112a92acf84a39dfb78c5cd2bd3",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Compounds",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:compounds:ultimate:item:animate-object-oil",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint Enhancement; <strong>CL</strong> 2nd (very weak), 4th (weak), 6th (mild), 8th (mediocre), 12th (strong), 16th (very strong), 22th (perfect)<br>\n<strong>Slot</strong> none; <strong>Price</strong> 300 gp (very weak), 600 gp (weak), 900 gp (mild), 1,200 gp (mediocre), 1,800 gp (strong), 2,400 gp (very strong), 3,200 gp (perfect); <strong>Weight</strong> 0.1 lbs.</p>\n<p><strong>Description</strong><br>\nRubbing this oil into an object for 1 minute will animate it, creating a construct under your control for an amount of time.</p>\n<strong>Table: Animate Object Oil</strong>\n<table>\n<tbody><tr>\n<th>Potion Quality</th>\n<th>Maximum Object Size</th>\n<th>Armor Class</th>\n<th>Hardness</th>\n<th>Hit Points</th>\n<th>Attack (Damage)</th>\n<th>Duration</th>\n</tr>\n<tr>\n<td>Very Weak</td>\n<td>Tiny</td>\n<td>18</td>\n<td>5</td>\n<td>5</td>\n<td>Slam +1 (1d2-2)</td>\n<td>20 minutes</td>\n</tr>\n<tr>\n<td>Weak</td>\n<td>Small</td>\n<td>16</td>\n<td>5</td>\n<td>21</td>\n<td>Slam +3 (1d3)</td>\n<td>40 minutes</td>\n</tr>\n<tr>\n<td>Mild</td>\n<td>Medium</td>\n<td>14</td>\n<td>5</td>\n<td>36</td>\n<td>Slam +5 (1d6+3)</td>\n<td>1 hour</td>\n</tr>\n<tr>\n<td>Mediocre</td>\n<td>Large</td>\n<td>14</td>\n<td>5</td>\n<td>52</td>\n<td>Slam +9 (1d6+9)</td>\n<td>1 hour, 20 minutes</td>\n</tr>\n<tr>\n<td>Strong</td>\n<td>Huge</td>\n<td>15</td>\n<td>5</td>\n<td>78</td>\n<td>Slam +15 (1d8+15)</td>\n<td>2 hours</td>\n</tr>\n<tr>\n<td>Very Strong</td>\n<td>Gargantuan</td>\n<td>17</td>\n<td>5</td>\n<td>115</td>\n<td>Slam +20 (2d6+21)</td>\n<td>2 hours, 40 minutes</td>\n</tr>\n<tr>\n<td>Perfect</td>\n<td>Colossal</td>\n<td>18</td>\n<td>5</td>\n<td>151</td>\n<td>Slam +23 (2d8+27)</td>\n<td>3 hours, 40 minutes</td>\n</tr>\n</tbody></table>\n<p><strong>Construction Requirements</strong><br>\nDistill Compound, Enhancement sphere (Animate Object (enhance)); <strong>Cost</strong> 150 gp (very weak), 300 gp (weak), 450 gp (mild), 600 gp (mediocre), 900 gp (strong), 1,200 gp (very strong), 1,600 gp (perfect)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/compounds#toc8\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0.1
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 300,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/compounds#toc8"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

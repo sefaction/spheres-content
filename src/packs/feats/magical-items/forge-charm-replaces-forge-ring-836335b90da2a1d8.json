@@ -1,0 +1,121 @@
+{
+  "_id": "836335b90da2a1d8",
+  "_key": "!items!836335b90da2a1d8",
+  "name": "Forge Charm (replaces Forge Ring)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:magical-items:ultimate:feat:forge-charm-replaces-forge-ring",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/magical-items#toc123",
+      "sourceSha256": "9e3bad81c4aa8d3628397f328acc1783c8be9440c797ab6e490efa84de18206b",
+      "descriptionSha256": "b3bf134dbc17945c71446cb0d058dfaa1cdbc453010395c4f30289a7eb9c9431",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "New Crafting Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:magical-items:ultimate:feat:forge-charm-replaces-forge-ring",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Magic skill bonus +1.</p>\n<p><strong>Benefits:</strong> A creature with the Forge Charm feat knows how to add permanent enhancements and effects to an item, such that whoever wears or uses that item gains that bonus for as long as they are wearing or using that item.</p>\n<p>When forging a charm, the crafter must possess the base sphere associated with the charm to be made. The base cost of a charm, as well as the minimum magic skill bonus required, vary depending on the type of charm being made. As always, crafting a charm costs 1/2 the base cost.</p>\n<p>A charm uses the crafter’s MSB rather than their caster level when determining the maximum caster level charm they can create. The item’s minimum caster level is determined by the charm being created, as detailed below. If the item possess multiple charms or other enchantments, use the higher caster level of all included enchantments.</p>\n<strong>Table: Charm Bonuses</strong>\n<table>\n<tbody><tr>\n<th>Charm</th>\n<th>Minimum Caster Level</th>\n<th>Required Base Sphere</th>\n<th>Maximum Bonus</th>\n<th>Base Cost</th>\n</tr>\n<tr>\n<td>Grant an enhancement bonus to an ability score</td>\n<td>2x enhancement bonus</td>\n<td>Enhancement</td>\n<td>+6</td>\n<td>Bonus squared x 1,000 gp</td>\n</tr>\n<tr>\n<td>AC bonus (deflection)</td>\n<td>3x bonus</td>\n<td>Protection</td>\n<td>+5</td>\n<td>Bonus squared x 2,000 gp</td>\n</tr>\n<tr>\n<td>AC bonus (natural armor)</td>\n<td>3x bonus</td>\n<td>Alteration</td>\n<td>+5</td>\n<td>Bonus squared x 2,000 gp</td>\n</tr>\n<tr>\n<td>AC bonus (other)</td>\n<td>3x bonus</td>\n<td>Various<sup>1</sup></td>\n<td>+3</td>\n<td>Bonus squared x 2,500 gp</td>\n</tr>\n<tr>\n<td>Energy Resistance</td>\n<td>1/2 granted resistance</td>\n<td>Protection</td>\n<td>+30</td>\n<td>1,600 x resistance -4,000, resistance 5 minimum</td>\n</tr>\n<tr>\n<td>Save bonus (resistance)</td>\n<td>3x bonus</td>\n<td>Protection</td>\n<td>+5</td>\n<td>Bonus squared x 1,000 gp</td>\n</tr>\n<tr>\n<td>Save bonus (other)</td>\n<td>3x bonus</td>\n<td>Various<sup>1</sup></td>\n<td>+3</td>\n<td>Bonus squared x 2,000 gp</td>\n</tr>\n<tr>\n<td>Skill bonus (competence)</td>\n<td>1x competence bonus</td>\n<td>Mind</td>\n<td>+20</td>\n<td>Bonus squared x 100 gp</td>\n</tr>\n<tr>\n<td>Spell resistance</td>\n<td>1/2 granted resistance</td>\n<td>Protection</td>\n<td>-</td>\n<td>10,000 gp per point over SR 12, SR 13 minimum</td>\n</tr>\n<tr>\n<td>CMB/CMD (competence, one combat maneuver)</td>\n<td>3x bonus</td>\n<td>Enhancement</td>\n<td>+5</td>\n<td>Bonus squared x 1,000 gp</td>\n</tr>\n</tbody></table>\n<p><sup>1: While uncommon, it is possible to have magic items that grant luck, insight, profane, or sacred bonuses to AC or saving throws, morale bonuses to saving throws, or other bonuses. When applying such benefits through a charm, morale bonuses have Mind as a base sphere, insight bonuses have Divination as a base sphere, and luck, profane, and sacred bonuses have Fate as a base sphere.</sup></p>\n<p><a href=\"http://spheresofpower.wikidot.com/magical-items#toc123\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/magical-items#toc123"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

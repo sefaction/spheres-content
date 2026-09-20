@@ -1,0 +1,121 @@
+{
+  "_id": "4b3723e7650ab9da",
+  "_key": "!items!4b3723e7650ab9da",
+  "name": "Craft Marvelous Item (replaces Craft Wondrous Item)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:magical-items:ultimate:feat:craft-marvelous-item-replaces-craft-wondrous-item",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/magical-items#toc118",
+      "sourceSha256": "9e3bad81c4aa8d3628397f328acc1783c8be9440c797ab6e490efa84de18206b",
+      "descriptionSha256": "cb0c6407be2494750a531102ede498c1f2cd89b5d01f544081fdd9b30fb064a8",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "New Crafting Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:magical-items:ultimate:feat:craft-marvelous-item-replaces-craft-wondrous-item",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Caster level 1st.</p>\n<p><strong>Benefits:</strong> A marvelous item is a device that produces a magical effect that must be activated (usually activated as a standard action) often through the touch of a button, the speaking of a command word, or some other action such as striking the item against the ground, holding it against the intended target, throwing the item through the air. Marvelous items use the talent-based method of magic item creation. If a wondrous item’s effect requires a saving throw from any creature, the DC is equal to 10 + 1/2 the item’s caster level.</p>\n<p>A marvelous item can be used once per day by default, and costs 400 gp x caster level x complexity. Additionally, a marvelous item can possess the following custom multipliers.</p>\n<p><strong>Multiple Uses:</strong> If a marvelous item can be used multiple times per day, multiply the cost by the number of daily uses. If its uses per day is increased to 5, it becomes usable an unlimited number of times per day.</p>\n<p><strong>Limited Uses:</strong> If a marvelous item can be used at will but only a maximum of 50 times before it loses all of its magic, multiply its cost by 2.5.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/magical-items#toc118\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/magical-items#toc118"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

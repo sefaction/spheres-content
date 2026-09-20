@@ -1,0 +1,121 @@
+{
+  "_id": "051d06bd6016f4cf",
+  "_key": "!items!051d06bd6016f4cf",
+  "name": "Ensouled Vision",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:divination:ultimate:feat:ensouled-vision",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/divination#toc112",
+      "sourceSha256": "d2b433e11e953901b06d2e3401cc06f3a649f752f1f3eecc20bde3a260c46b46",
+      "descriptionSha256": "83d645fbfddd1b49c3bde9fa55b598b7e2a61c1f230fa1d7af30021e26ac88fe",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Divination Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:divination:ultimate:feat:ensouled-vision",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Divination sphere, bound nexus class feature.</p>\n<p><strong>Benefit:</strong> You can share perception with your souls, allowing you to see, smell, hear, etc. as though you were in that soul’s space.</p>\n<p>Whenever you divine to gain information in an area (such as with the base Divination sphere effect, alternate divinations, or the Detect Spellcaster or Detect Thoughts talents but not the Augury or Divine Future talents), you may expend a soul to instead create a bound sensor, attaching the divine effect to the bound sensor. A bound sensor is a soul which constantly divines the area around it in a close range, informing you of anything that would be detected by it. The bound sensor lasts 10 minutes per level in the class that grants you the bound nexus class feature. The bound sensor can move as if it were a soul but, unlike a regular soul, can be given a route or area to patrol, allowing you to sleep or rest without needing to direct the soul to move each round.</p>\n<p>If you possess the Divination sphere Alarm talent, the bound sensor instead lasts for 1 hour per level and can be augmented as though it were created with the Alarm talent, allowing you to set an audible or mental alarm or a password. In addition, you may change the attached divine effect on the bound sensor by divining again.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/divination#toc112\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/divination#toc112"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

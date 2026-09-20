@@ -1,0 +1,121 @@
+{
+  "_id": "617888f02bb0ab5e",
+  "_key": "!items!617888f02bb0ab5e",
+  "name": "Bumbler: Catastrophe (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:bumbler:current:class-feature:catastrophe-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/bumbler#toc6",
+      "sourceSha256": "322bd93b9abc3a4daf7887344c3d59d5e4915f0121a05905d8451eba0968de4c",
+      "descriptionSha256": "bb6368a091f2e4d5e35ef6a44f1ca1b40bbf61fc23767a44549e1cb844d23a9a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:bumbler:current:class-feature:catastrophe-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Standing next to a bumbler is almost never a good idea. Bad events turn worse, and the bumbler acts like a cosmic lightning rod attracting the worst situations possible. Whenever the bumbler or an enemy affected by their aura of misfortune fails on a roll (via the expanded range) the bumbler may choose to inflict a “catastrophe” on them (or themselves). The choice to trigger a catastrophe can be made as a free action. This only works on critically failed attack rolls and skill checks, not saving throws. The effect is always centered on the creature who critically failed the roll.</p>\n<p>This may be done only once per turn at 1st level but may be done one additional time per round at 3rd level and every 3 levels thereafter as shown on Table: The Bumbler.</p>\n<p>At 1st level, the bumbler knows the pinpoint disaster catastrophe and one other 1st level catastrophe of their choice. At 3rd level, and every odd level after that, the bumbler gains access to a new catastrophe.</p>\n<h5>Deeper Rules</h5>\n<ul>\n<li>This may not be done more than once per creature per failure.</li>\n<li>The bumbler must adequately explain how the events come to pass (to the GM’s satisfaction) or have the effect fail.</li>\n<li>Certain catastrophes have requirements to what can trigger them.</li>\n</ul>\n<p>At 1st level, the bumbler can learn catastrophes from the following list:</p>\n<ul>\n<li><strong>Butterfingers (Ex):</strong> The triggering creature and all creatures within a 10 foot radius drop anything held in their hands. A Reflex save (DC 10 + 1/2 bumbler level + Wisdom modifier) resists the effect.</li>\n<li><strong>Drag Down (Ex):</strong> The triggering creature and all adjacent creatures fall prone. A Reflex save (DC 10 + 1/2 bumbler level + Wisdom modifier) resists the effect.</li>\n<li><strong>Dropped Guard:</strong> The triggering creature provokes an attack of opportunity from all adjacent enemies. A Reflex save (DC 10 + 1/2 bumbler level + Wisdom modifier) prevents this effect.</li>\n<li><strong>Pinpoint Disaster:</strong> The triggering creature somehow creates a small painful mess that spills over to those around them. The triggering creature and all adjacent creatures take 1d6 + the bumbler’s class level in damage. The damage may be bludgeoning, piercing, or slashing damage (chosen by the bumbler before damage is rolled). A Reflex save (DC 10 + 1/2 bumbler level + Wisdom modifier) halves the damage.</li>\n<li><strong>Smokescreen:</strong> The triggering creature kicks up a thick cloud of smoke, dust, sand, or the like. This functions as a mundane obscuring mist effect (using the bumbler’s level as their caster level) centered on the triggering creature that lasts for 1 minute.</li>\n<li><strong>Wild Flailing (Ex):</strong> The triggering creature swings wildly, attacking anyone within reach. The triggering creature makes a single attack against each adjacent creature, at highest BAB, as if they had the Whirlwind Attack feat. This may only be triggered by an attack roll or physical ability-based skill check.</li>\n</ul>\n<p>Starting at 5th level, the bumbler may also choose from the following catastrophes:</p>\n<ul>\n<li><strong>Construction Fault:</strong> The triggering creature and adjacent creature each have a single wielded weapon of the bumbler’s choice take damage equal to the bumbler’s class level, ignoring hardness. If the wielder has a magic weapon, they get a Will save to halve the damage against any magic weapon they wield (normal weapons still take full damage). This can also affect wielded items like holy symbols, shields, or even potions. This may only be triggered by an attack roll.</li>\n<li><strong>Explosion:</strong> The triggering creature somehow triggers a small explosion. The triggering creature and all creatures within a 15 foot radius take 1d6 damage per bumbler level. The damage may be acid, cold, electrical, or fire (chosen by the bumbler before damage is rolled). A Reflex save (DC 10 + 1/2 bumbler level + Wisdom modifier) halves the damage.</li>\n<li><strong>Hopeless:</strong> The triggering creature and all creatures within 15 feet lose any morale bonuses. A Will save (DC 10 + 1/2 bumbler level + Wisdom modifier) negates this effect.</li>\n<li><strong>Painful Lesson:</strong> The triggering creature and all adjacent creatures take a penalty on all d20 rolls equal to 1/4 the bumblers class level. A Fortitude save (DC 10 + 1/2 bumbler level + Wisdom modifier) resists the effect. This penalty lasts for 1d6 rounds and is a pain effect UM.</li>\n<li><strong>Wrong Target (Ex):</strong> The attack becomes a critical threat, and redirects to a random allied creature that the triggering creature could hit (roll to determine which creature is struck). This may only be triggered by an attack roll.</li>\n</ul>\n<p>Starting at 11th level, the bumbler may also choose from the following catastrophes:</p>\n<ul>\n<li><strong>Bounce Back:</strong> The triggering creature automatically strikes themselves with their weapon, without needing an attack roll. They deal damage to themselves equal their weapon damage + their Strength modifier. This may only be triggered by an attack roll.</li>\n<li><strong>Mad Magic:</strong> The triggering creature rolls d% as if they had activated a rod of wonder (Pathfinder Ultimate Equipment). The triggering creature is considered both the wielder and the target.</li>\n<li><strong>Reverse Polarity:</strong> This may only be triggered by an attack roll with a spell. The caster of the triggering spell suffers the effects of the spell as if they had also cast it upon themselves.</li>\n</ul>\n<h5>Cause and Effect</h5>\n<p>Many of the early effects of the catastrophe class feature are the bumblers presence making a bad situation worse. A missed attack now swings madly into a friend. The bumbler sneezes so loudly while giving a speech that they kick up a dust cloud. However, later effects reflect a growing implausibility inherent in the bumblers world; things don’t always work the rules say they should around the bumbler.</p>\n<p>These effects aren’t always the direct result of a failure, but may be the cause of the failure (construction fault) or things just go wrong unexpectedly (reverse polarity).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/bumbler#toc6\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/bumbler#toc6"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

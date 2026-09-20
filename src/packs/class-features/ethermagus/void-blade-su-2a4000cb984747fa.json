@@ -1,0 +1,121 @@
+{
+  "_id": "2a4000cb984747fa",
+  "_key": "!items!2a4000cb984747fa",
+  "name": "Ethermagus: Void Blade (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:ethermagus:current:class-feature:void-blade-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/ethermagus#toc8",
+      "sourceSha256": "1b323c053f1c1116bbd202d36f4e31757a6b20e2505064c4764fc418c7cccca6",
+      "descriptionSha256": "e28515c27d0e11e38b33aff383bf055f08a27817a152c2e3b700ed233deb47a4",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:ethermagus:current:class-feature:void-blade-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Starting at 1st level, an ethermagus can reach into the ether as a standard action and pull out a weapon condensed from the vast pressures exerted by the multiverse. When the ethermagus creates a void blade, he selects whether or not the weapon is a light weapon and whether the weapon deals piercing or slashing damage. All void blades are one-handed weapons. A void blade has hardness 10 and 10 hit points, modified by its enhancement bonus in the same manner as a magic weapon. A void blade has a duration of 1 minute per ethermagus level and may be dismissed as a move action. An ethermagus cannot have more than one void blade at any one time.</p>\n<p>At 11th and 20th level, the base damage die of a void blade increases by one step as though it had increases in size. Starting at 4th level, all void blades made by the ethermagus have a +1 enhancement bonus. Every four levels beyond 4th, this enhancement bonus increases by +1, to a maximum of +5 at 20th level.</p>\n<strong>Table: Ethermagus Void Blade</strong>\n<table>\n<tbody><tr>\n<th>Void Blade</th>\n<th>Dmg (S)</th>\n<th>Dmg (M)</th>\n<th>Critical</th>\n<th>Range</th>\n<th>Weight</th>\n<th>Type (chosen when created)</th>\n</tr>\n<tr>\n<td>Light</td>\n<td>1d4</td>\n<td>1d6</td>\n<td>19-20/x2</td>\n<td>-</td>\n<td>2 lbs.</td>\n<td>P or S</td>\n</tr>\n<tr>\n<td>One-Handed</td>\n<td>1d6</td>\n<td>1d8</td>\n<td>19-20/x2</td>\n<td>-</td>\n<td>4 lbs.</td>\n<td>P or S</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/ethermagus#toc8\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/ethermagus#toc8"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -3,22 +3,27 @@
     {
       "name": "items",
       "label": "Additional Spheres: Items",
-      "count": 1
+      "count": 626
     },
     {
       "name": "feats",
       "label": "Additional Spheres: Feats",
-      "count": 1
+      "count": 3674
     },
     {
       "name": "classes",
       "label": "Additional Spheres: Base Classes",
-      "count": 1
+      "count": 117
     },
     {
       "name": "guile-talents",
       "label": "Additional Spheres: Guile Talents",
-      "count": 1
+      "count": 835
+    },
+    {
+      "name": "class-features",
+      "label": "Additional Spheres: Class Features",
+      "count": 1536
     }
   ],
   "sources": [
@@ -41,44 +46,178 @@
       "evidenceUrl": "https://foundryvtt.com/packages/pf1",
       "scope": "Only four contained records registered in config/containers.json. Rules from Adventurer’s Armory, Ultimate Equipment, Animal Archive and Core Rulebook. Not artwork or software.",
       "review": "Selected mundane equipment rules and native rules data are Open Game Content. Preserve PF1 Content OGL notices together with wiki notices (including Animal Archive). Retain upstream GPL notice for record-format contributions, and ship the human-reviewable adapted kit JSON as corresponding source. No upstream program code or image bytes copied."
+    },
+    {
+      "key": "wiki-intake-open-rules",
+      "status": "reviewed",
+      "license": "OGL-1.0a",
+      "licensePath": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "licenseSha256": "658f6e815934bc4fb776178fc7ccd31b70e6a35d04d43e6c262d799bd939232f",
+      "evidenceUrl": "http://spheresofpower.wikidot.com/legal:start",
+      "scope": "Only rule sections and entity kinds from the exact page snapshots in config/intake-sources.json. Excludes artwork, navigation, ads, non-target narrative and unreviewed page changes.",
+      "review": "Selected feats, base-class mechanics/class features, Guile talent rules and price/weight-bearing equipment sections are game rules covered by the wiki OGL declaration. Preserve full wiki OGL notices and exact source URLs/hashes; native content-source labels name the wiki without fabricated book or publisher details. Descriptive draft and mechanics review are separate from this rights scope."
     }
   ],
   "assets": [
     {
-      "path": "static/icons/feats/extra-magic-talent.png",
-      "sha256": "d9c8ee7590ecc8afed3490f97b992df95322d832162ba68a56d85da971ab5c64",
+      "path": "static/icons/feats/extra-magic-talent.webp",
+      "sha256": "a87de18c0c2290e10ae8f7126fbbfed63f762fe6caa3ef4a7ce1a966edf4a19a",
       "kind": "generated",
       "license": "MIT",
       "tool": "image_gen",
       "prompt": "Use case: stylized-concept. Asset type: square Foundry VTT fantasy feat icon, Extra Magic Talent. Primary request: original painted game icon conveying gaining a new magical talent. Subject: a single open spellbook with one luminous magical sphere rising above its pages, a subtle second ring of arcane light representing expanded knowledge. Composition: one clear central silhouette, close framing with comfortable edge padding, immediately readable at 64px; no people. Style: polished hand-painted fantasy RPG inventory art, textured brushwork, restrained detail, warm parchment against a dark blue background, concentrated cyan-gold magical light. Constraints: square image, no lettering, no readable runes, no labels, no logos, no watermark, no ornate frame; do not imitate existing wiki art.",
-      "legacyPaths": ["icons/extra-magic-talent.png"]
+      "encoding": {
+        "sourceSha256": "d9c8ee7590ecc8afed3490f97b992df95322d832162ba68a56d85da971ab5c64",
+        "sourceBytes": 2194217,
+        "encoder": "Pillow 12.1.1",
+        "resampling": "LANCZOS",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 12540
+      }
     },
     {
-      "path": "static/icons/items/kits/lycanthrope-hunters-kit.png",
-      "sha256": "93afc9bcae4017e499cffcc86461426229c238712185914038ab999374676b98",
+      "path": "static/icons/feats/extra-magic-talent.png",
+      "sha256": "f9a763495b3c25eeb592d1bdf75cca1a13a7b8f458b5f3be8d0a1b16be396e18",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "prompt": "Use case: stylized-concept. Asset type: square Foundry VTT fantasy feat icon, Extra Magic Talent. Primary request: original painted game icon conveying gaining a new magical talent. Subject: a single open spellbook with one luminous magical sphere rising above its pages, a subtle second ring of arcane light representing expanded knowledge. Composition: one clear central silhouette, close framing with comfortable edge padding, immediately readable at 64px; no people. Style: polished hand-painted fantasy RPG inventory art, textured brushwork, restrained detail, warm parchment against a dark blue background, concentrated cyan-gold magical light. Constraints: square image, no lettering, no readable runes, no labels, no logos, no watermark, no ornate frame; do not imitate existing wiki art.",
+      "legacyPaths": ["icons/extra-magic-talent.png"],
+      "compatibilityOnly": true,
+      "encoding": {
+        "sourceSha256": "d9c8ee7590ecc8afed3490f97b992df95322d832162ba68a56d85da971ab5c64",
+        "sourceBytes": 2194217,
+        "encoder": "Pillow 12.1.1",
+        "resampling": "LANCZOS",
+        "width": 256,
+        "height": 256,
+        "format": "png",
+        "bytes": 116951
+      }
+    },
+    {
+      "path": "static/icons/items/kits/lycanthrope-hunters-kit.webp",
+      "sha256": "0eacb1881a424e7dcb0750d8cfb4f1bc2fc3e54954b060f847a431d50d0d8f4c",
       "kind": "generated",
       "license": "MIT",
       "tool": "image_gen",
       "prompt": "Use case: stylized-concept. Asset type: square Foundry VTT equipment icon for a Lycanthrope Hunter's Kit. Original painted fantasy inventory art, no characters: a sturdy open brown leather hunter's case with a short silver dagger, small stoppered vials and a sprig of purple wolfsbane neatly arranged inside. The pouch has a simple shoulder strap. Clear central silhouette, close view with edge padding, immediately readable at 64px. Textured painterly style, warm leather and pale silver with small violet accents against a dark navy background, restrained detail, dramatic soft illumination. No labels, letters, logos, watermark or ornate frame. Do not copy existing wiki art.",
-      "legacyPaths": ["icons/lycanthrope-hunters-kit.png"]
+      "encoding": {
+        "sourceSha256": "93afc9bcae4017e499cffcc86461426229c238712185914038ab999374676b98",
+        "sourceBytes": 2370776,
+        "encoder": "Pillow 12.1.1",
+        "resampling": "LANCZOS",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 12770
+      }
     },
     {
-      "path": "static/icons/classes/incanter.png",
-      "sha256": "debb42c3561af1b70b3c875ba47814f8e18a3df904e74d4dd59e8506ff6e4289",
+      "path": "static/icons/items/kits/lycanthrope-hunters-kit.png",
+      "sha256": "89923812e89db1e28f5886060b64837cecd0a3d5961a0a27d442f2e3fbf0971e",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "prompt": "Use case: stylized-concept. Asset type: square Foundry VTT equipment icon for a Lycanthrope Hunter's Kit. Original painted fantasy inventory art, no characters: a sturdy open brown leather hunter's case with a short silver dagger, small stoppered vials and a sprig of purple wolfsbane neatly arranged inside. The pouch has a simple shoulder strap. Clear central silhouette, close view with edge padding, immediately readable at 64px. Textured painterly style, warm leather and pale silver with small violet accents against a dark navy background, restrained detail, dramatic soft illumination. No labels, letters, logos, watermark or ornate frame. Do not copy existing wiki art.",
+      "legacyPaths": ["icons/lycanthrope-hunters-kit.png"],
+      "compatibilityOnly": true,
+      "encoding": {
+        "sourceSha256": "93afc9bcae4017e499cffcc86461426229c238712185914038ab999374676b98",
+        "sourceBytes": 2370776,
+        "encoder": "Pillow 12.1.1",
+        "resampling": "LANCZOS",
+        "width": 256,
+        "height": 256,
+        "format": "png",
+        "bytes": 116677
+      }
+    },
+    {
+      "path": "static/icons/classes/incanter.webp",
+      "sha256": "b38099f4292c8959de6da74d554230dcc4214b89b0cfb738e3d4b0e15252fb65",
       "kind": "generated",
       "license": "MIT",
       "tool": "image_gen",
       "prompt": "Use case: stylized-concept. Asset type: square Foundry VTT Incanter base-class icon. Original hand-painted fantasy RPG inventory illustration: a contemplative adult scholar-mage shown chest-up in a simple dark blue robe, one hand holding an open parchment spellbook and the other directing a single luminous arcane sphere. Focus on arcane study and flexible magic rather than combat. Painterly textures, warm parchment and gold highlights, cyan magical light against a dark navy background. A strong centered silhouette with generous edge padding readable at small icon size. No lettering, readable runes, logos, watermarks, ornate frame, or copied existing character designs. Match a cohesive polished painted inventory icon collection.",
-      "legacyPaths": ["icons/incanter.png"]
+      "encoding": {
+        "sourceSha256": "debb42c3561af1b70b3c875ba47814f8e18a3df904e74d4dd59e8506ff6e4289",
+        "sourceBytes": 2816515,
+        "encoder": "Pillow 12.1.1",
+        "resampling": "LANCZOS",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 11384
+      }
     },
     {
-      "path": "static/icons/guile-talents/artifice/crafting-tools.png",
-      "sha256": "0115c413bf9c7b51d92d6be3138a70c57d5d3696870107c502050a5372b25b2c",
+      "path": "static/icons/classes/incanter.png",
+      "sha256": "196826631de42598dd7a8b56ada5199cbc72d85e3b95cd20132bc68003de9095",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "prompt": "Use case: stylized-concept. Asset type: square Foundry VTT Incanter base-class icon. Original hand-painted fantasy RPG inventory illustration: a contemplative adult scholar-mage shown chest-up in a simple dark blue robe, one hand holding an open parchment spellbook and the other directing a single luminous arcane sphere. Focus on arcane study and flexible magic rather than combat. Painterly textures, warm parchment and gold highlights, cyan magical light against a dark navy background. A strong centered silhouette with generous edge padding readable at small icon size. No lettering, readable runes, logos, watermarks, ornate frame, or copied existing character designs. Match a cohesive polished painted inventory icon collection.",
+      "legacyPaths": ["icons/incanter.png"],
+      "compatibilityOnly": true,
+      "encoding": {
+        "sourceSha256": "debb42c3561af1b70b3c875ba47814f8e18a3df904e74d4dd59e8506ff6e4289",
+        "sourceBytes": 2816515,
+        "encoder": "Pillow 12.1.1",
+        "resampling": "LANCZOS",
+        "width": 256,
+        "height": 256,
+        "format": "png",
+        "bytes": 113116
+      }
+    },
+    {
+      "path": "static/icons/guile-talents/artifice/crafting-tools.webp",
+      "sha256": "b433d444b0583d3f9a506228fdb47b6029802af0ffb56a8fab3225d43bade9d3",
       "kind": "generated",
       "license": "MIT",
       "tool": "image_gen",
       "prompt": "Use case: stylized-concept. Asset type: square Foundry VTT icon for crafting-related skill talents, beginning with Favorite Tools. Original painted fantasy inventory art: a well-used wooden-handled craftsman?s hammer and polished steel precision pliers resting across a compact brown leather tool roll. A small wood shaving suggests skilled workmanship. No person. Close framing, strong simple centered silhouette, comfortable edge padding, readable at 64px. Hand-painted textured fantasy RPG icon, warm leather and wood, cool silver metal, restrained golden highlights on a dark navy background, matching a cohesive painted inventory collection. No lettering, labels, readable runes, logos, watermark, ornate frame or copied existing art.",
-      "legacyPaths": ["icons/crafting-tools.png"]
+      "encoding": {
+        "sourceSha256": "0115c413bf9c7b51d92d6be3138a70c57d5d3696870107c502050a5372b25b2c",
+        "sourceBytes": 2328087,
+        "encoder": "Pillow 12.1.1",
+        "resampling": "LANCZOS",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 11080
+      }
+    },
+    {
+      "path": "static/icons/guile-talents/artifice/crafting-tools.png",
+      "sha256": "2e4df6c85e8113ca1d1573639b312dbf56b4998c7023ab14e9c5b2b8e647854f",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "prompt": "Use case: stylized-concept. Asset type: square Foundry VTT icon for crafting-related skill talents, beginning with Favorite Tools. Original painted fantasy inventory art: a well-used wooden-handled craftsman?s hammer and polished steel precision pliers resting across a compact brown leather tool roll. A small wood shaving suggests skilled workmanship. No person. Close framing, strong simple centered silhouette, comfortable edge padding, readable at 64px. Hand-painted textured fantasy RPG icon, warm leather and wood, cool silver metal, restrained golden highlights on a dark navy background, matching a cohesive painted inventory collection. No lettering, labels, readable runes, logos, watermark, ornate frame or copied existing art.",
+      "legacyPaths": ["icons/crafting-tools.png"],
+      "compatibilityOnly": true,
+      "encoding": {
+        "sourceSha256": "0115c413bf9c7b51d92d6be3138a70c57d5d3696870107c502050a5372b25b2c",
+        "sourceBytes": 2328087,
+        "encoder": "Pillow 12.1.1",
+        "resampling": "LANCZOS",
+        "width": 256,
+        "height": 256,
+        "format": "png",
+        "bytes": 110353
+      }
     }
   ],
   "externalAssets": [
@@ -113,6 +252,38 @@
       "version": "11.11",
       "sha256": "88f74d6930a3f99abd70b461311597c33709b415022792f0943ea5c365a673b8",
       "review": "Existing core/system asset reference only; visually inspected 2026-09-20. No image bytes redistributed."
+    },
+    {
+      "path": "icons/svg/book.svg",
+      "kind": "reference",
+      "provider": "foundry",
+      "version": "13.351",
+      "sha256": "6bcbd6788dbb0348cd6209ace2a8af2eec2d104a5aea2e09b83de9c9ca1e870b",
+      "review": "Core placeholder reference for explicitly unfinished artwork. No image bytes redistributed; needs-picture audit remains open."
+    },
+    {
+      "path": "icons/svg/item-bag.svg",
+      "kind": "reference",
+      "provider": "foundry",
+      "version": "13.351",
+      "sha256": "f408ab4e09a8961f34ad99a9488d4912a01ff44b53917c13775d93c28b650ff9",
+      "review": "Core placeholder reference for explicitly unfinished artwork. No image bytes redistributed; needs-picture audit remains open."
+    },
+    {
+      "path": "icons/svg/sword.svg",
+      "kind": "reference",
+      "provider": "foundry",
+      "version": "13.351",
+      "sha256": "961dca2d95678a1ae9c98a0e49fd8100cd391ac58cd0237947a381e88eaa3f56",
+      "review": "Core placeholder reference for explicitly unfinished artwork. No image bytes redistributed; needs-picture audit remains open."
+    },
+    {
+      "path": "icons/svg/mystery-man.svg",
+      "kind": "reference",
+      "provider": "foundry",
+      "version": "13.351",
+      "sha256": "acd598e6444d8fa86a05649c6de6f27381cf6b033310f92b9fb29c52c20da184",
+      "review": "Core placeholder reference for explicitly unfinished artwork. No image bytes redistributed; needs-picture audit remains open."
     }
   ]
 }

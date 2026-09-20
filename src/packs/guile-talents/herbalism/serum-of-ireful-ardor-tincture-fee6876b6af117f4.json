@@ -1,0 +1,124 @@
+{
+  "_id": "fee6876b6af117f4",
+  "_key": "!items!fee6876b6af117f4",
+  "name": "Serum Of Ireful Ardor (tincture)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:serum-of-ireful-ardor-tincture",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc31",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "d9e2882a7ea688107d84c88c0d0f20c4e9988461c987228c8f4188526dc59d92",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Concoction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:serum-of-ireful-ardor-tincture",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Cost:</strong> 3 herbs or 2 spicy herbs</p>\n<p>This tincture grants the imbiber a +2 alchemical bonus to Strength-based ability checks and skill checks, increasing by +2 for every 5 ranks you possess in the associated skill. Additionally, the imbiber reduces any self-imposed penalties to their attack rolls or AC (such as when charging, raging, or using the Power Attack feat) by 1, +1 per 10 ranks in the associated skill you possess. This tincture lasts for 1 round per rank you possess in the associated skill</p>\n<p><strong>Twists</strong></p>\n<ul>\n<li><strong>1 bland herb:</strong> The first time the imbiber suffers damage after imbibing this tincture, they gain a number of temporary hit points equal to your ranks in the associated skill + your operative ability modifier (minimum 1). These temporary hit points are gained before the damage is dealt and disappear at the end of their next turn.</li>\n<li><strong>1 bitter herb:</strong> The imbiber ignores any ability damage or drain affecting their physical ability scores, in addition to the penalties associated with any negative levels they are suffering from for the tincture's duration.</li>\n<li><strong>1 intense herb:</strong> For 1 + 1 round per 4 associated ranks, the imbiber can make an additional attack at their highest base attack bonus when making a full attack, and can make an additional attack of opportunity per round. This additional attack is not cumulative with similar effects (such as haste or a speed weapon).</li>\n<li><strong>1 savory herb:</strong> The duration of the tincture is tripled. Additionally, the temporary hit points granted by the savory herb are replenished whenever the imbiber successfully reduces a creature to 0 or fewer hit points.</li>\n<li><strong>1 spicy herb:</strong> The imbiber gains a +2 morale bonus to weapon damage rolls, which increases by 1 per 5 ranks in the associated skill you possess.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc31\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc31"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

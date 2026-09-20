@@ -1,13 +1,13 @@
 {
   "id": "additional-spheres-content",
   "title": "Additional Spheres Content",
-  "description": "Pathfinder 1e descriptive compendia from the Spheres of Power Wiki. Initial four-entry pilot with original generated art; full catalog and modifier review are in progress.",
+  "description": "Pathfinder 1e descriptive compendia from the Spheres of Power Wiki, with systematic intake and per-entity audit tracking. Artwork and mechanics review are in progress.",
   "authors": [
     {
       "name": "sefaction"
     }
   ],
-  "version": "0.1.0-alpha.3",
+  "version": "0.1.0-alpha.4",
   "compatibility": {},
   "relationships": {
     "systems": [
@@ -69,6 +69,18 @@
       "type": "Item",
       "system": "pf1",
       "path": "packs/guile-talents",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "class-features",
+      "label": "Additional Spheres: Class Features",
+      "type": "Item",
+      "system": "pf1",
+      "path": "packs/class-features",
       "ownership": {
         "PLAYER": "OBSERVER",
         "TRUSTED": "OBSERVER",

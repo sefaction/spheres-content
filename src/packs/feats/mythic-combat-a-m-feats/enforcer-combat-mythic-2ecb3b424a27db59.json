@@ -1,0 +1,121 @@
+{
+  "_id": "2ecb3b424a27db59",
+  "_key": "!items!2ecb3b424a27db59",
+  "name": "Enforcer (Combat, Mythic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mythic-combat-a-m-feats:current:feat:enforcer-combat-mythic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mythic-combat-a-m-feats#toc107",
+      "sourceSha256": "27202cddceea6635cc97ad778a56953118986500d95a9bdd81e808f1525c2d92",
+      "descriptionSha256": "676d59ce9c9375db33204c248e94b509538f5e26d66a592684c6385867926a13",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "mythic-combat-a-m-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mythic-combat-a-m-feats:current:feat:enforcer-combat-mythic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Foes flee from your mythic presence.</p>\n<p><strong>Prerequisite:</strong> Enforcer<sup>APG</sup></p>\n<p><strong>Benefit:</strong> If the target of your attack is a non-mythic creature, it is frightened for 1 round and then shaken as normal for this feat if your Intimidate check succeeds. If you confirm a critical hit and succeed on your Intimidate check, the target is frightened for an additional number of rounds equal to onehalf your mythic tier (minimum 1) before being shaken for a number of rounds equal to the damage dealt; a non-mythic creature is panicked for 1 round, then frightened and shaken as above. You cannot frighten or panic a creature whose CR or mythic rank or tier exceeds yours.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mythic-combat-a-m-feats#toc107\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mythic-combat-a-m-feats#toc107"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

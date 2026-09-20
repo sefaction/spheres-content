@@ -1,0 +1,121 @@
+{
+  "_id": "7e302c693f0a0d4b",
+  "_key": "!items!7e302c693f0a0d4b",
+  "name": "Elemental Blood",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:blood:ultimate:feat:elemental-blood",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/blood#toc68",
+      "sourceSha256": "ab11eec09b47ca3302d0e9943147e77509a758f7a988b7828b4dd8372ccc3fb7",
+      "descriptionSha256": "97e494769c82100728c1bde2f277deefc3879b492ce32fe515858f513701358f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Blood Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:blood:ultimate:feat:elemental-blood",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Blood sphere; ability to cast any sphere effect, spell, or spell-like ability with the acid, cold, electricity, or fire descriptor.</p>\n<p><strong>Benefit:</strong> When you gain this feat, choose an energy type (acid, cold, electricity, or fire) which you have the ability to cast as a sphere effect, spell, or spell-like ability. Once an energy type is chosen, it cannot be changed. Your blood courses with that element, and applies various effects to creatures who touch your blood.</p>\n<p>Any creature that confirms a critical hit against you with a piercing or slashing melee weapon is sprayed with your blood, suffering 1 point of damage of the chosen energy type per Hit Die you possess. A successful Reflex save with a DC equal to your Blood sphere DC negates this damage. Melee weapons with reach do not endanger their users in this way. Hemokinesis using your blood adds 1 point of damage of the chosen energy type per Hit Die you possess to any creature struck by a touch attack or subject to a successful combat maneuver made as part of that ability.</p>\n<p>Additionally, you can apply your elemental blood to your weapons or natural attacks by coating it in your own blood. As a swift action, you may suffer blood loss, as though casting a blood art, to coat a weapon or natural attack in your own blood. If you are suffering from an ongoing bleed effect, or are below 1/2 your maximum hit points, you do not need to suffer blood loss when coating your weapon this way. The coated weapon gains an elemental special ability for a number of rounds equal to 1/2 your Blood sphere caster level + your Constitution modifier. At 10 Hit Dice, this improves to an elemental burst special ability.</p>\n<p>When creating a weapon with the Gory Armaments talent, you can have the weapon gain an elemental special ability. At 10 Hit Dice, this improves to an elemental burst special ability.</p>\n<strong>Table: Elemental Blood Weapon Elemental Special Abilities</strong>\n<table>\n<tbody><tr>\n<th>Chosen Element</th>\n<th>Elemental Special Ability</th>\n<th>Elemental Burst Special Ability</th>\n</tr>\n<tr>\n<td>Acid</td>\n<td>corrosive</td>\n<td>corrosive burst</td>\n</tr>\n<tr>\n<td>Cold</td>\n<td>frost</td>\n<td>icy burst</td>\n</tr>\n<tr>\n<td>Electricity</td>\n<td>shocking</td>\n<td>shocking burst</td>\n</tr>\n<tr>\n<td>Fire</td>\n<td>flaming</td>\n<td>flaming burst</td>\n</tr>\n</tbody></table>\n<p><strong>Special:</strong> This feat replaces the Acid Blood and Burning Blood feats.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/blood#toc68\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/blood#toc68"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

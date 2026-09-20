@@ -1,0 +1,124 @@
+{
+  "_id": "07cff4a551fb05ba",
+  "_key": "!items!07cff4a551fb05ba",
+  "name": "Subvert Information (hack)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spellhacking:spheres-of-guile:guile-talent:subvert-information-hack",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spellhacking#toc48",
+      "sourceSha256": "ff5395bb19ac2b67c42bb66b158929891d1c2ab9f8401273b50df23faa41f51b",
+      "descriptionSha256": "1870b2286650eae83e39e5ffb1728643cc9f90ddb10b768d3d46f2fad3d3f35e",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Hack Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spellhacking:spheres-of-guile:guile-talent:subvert-information-hack",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "spellhacking"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Target:</strong> A magic item or magical effect that stores information (such as a trigger or bypass condition) or that passes information to its caster or another creature</p>\n<p>You tap into the information stored or transmitted by the target, learning and potentially altering it. When the target transmits information, such as the results of a divination effect or the mental alarm from an alarm spell, you learn all that information as long as this (hack) talent remains applied to the effect. When you hack magic or as a standard action while the effect is in hack magic range, you can choose one of the following ways to tamper with the magical effect.</p>\n<ul>\n<li>Alter or replace the next piece of information the item or effect sends or receives. (Changes also alter the copy you receive.) If the information is sent continuously or covers more than 1 minute of information, as in the case of a prolonged telepathic message, scrying, or prying eyes, you alter up to 1 minute of information per associated skill rank. Altering text requires a Linguistics check as if making a forgery. Altering a creature’s or object’s appearance requires a Disguise check opposed by Perception. Altering spoken or signed words requires a Bluff check opposed by Sense Motive. Altering other information (such as the nature of an aura) gives the caster a Spellcraft check to notice your tampering (as described in hack magic) if they otherwise would not get one.</li>\n<li>Attempt to learn information stored in the magical effect or item. You must attempt a check using the associated skill against DC 15 + 150% caster level. If you succeed, you learn one piece of stored information, such as one way an alarm can be bypassed, the way a contingency is triggered, the message stored in a magic mouth, a command word for a magic item, or the alignment a forbiddance is keyed to. If you fail, you cannot attempt this skill check against that magical effect again for 24 hours.</li>\n</ul>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/spellhacking#toc48\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spellhacking#toc48"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

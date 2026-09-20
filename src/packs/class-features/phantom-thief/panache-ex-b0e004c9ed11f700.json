@@ -1,0 +1,121 @@
+{
+  "_id": "b0e004c9ed11f700",
+  "_key": "!items!b0e004c9ed11f700",
+  "name": "Phantom Thief: Panache (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:phantom-thief:current:class-feature:panache-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/phantom-thief#toc3",
+      "sourceSha256": "99d93c973f1d15a82005d356e6c1c808587497ac96f7e1ee00871ce7d53a0b25",
+      "descriptionSha256": "9170023dc4c7ebc2a61010fa664d1558c72d2f4bdc401691227c8ea89ebd904f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:phantom-thief:current:class-feature:panache-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, a phantom thief gains a pool of panache; a fluctuating measure of his ability to pull off daring capers and amazing feats. At the start of each day, a phantom thief gains a number of panache points equal to his Charisma modifier (minimum 1). His panache goes up or down throughout the day, but usually cannot go higher than his Charisma modifier (minimum 1), though feats and magic items can affect this maximum. A phantom thief spends panache to accomplish tricks (see below), and regains panache in the following ways.</p>\n<ul>\n<li><strong>Critical Hit Against A Fascinated Or Flat-Footed Foe:</strong> Each time the phantom thief confirms a critical hit against a creature that is fascinated when the phantom thief makes an attack roll or a flat footed creature, he regains 1 panache point. Confirming a critical hit on a creature that has fewer Hit Dice than half the phantom thief’s character level doesn’t restore panache.</li>\n<li><strong>Stealing From A Creature:</strong> When the phantom thief performs a steal combat maneuver or a Sleight of Hand check to lift an object from a creature that has at least half the phantom thief’s character level in Hit Dice, he regains one point of panache. He may only regain panche once from a given creature in a 24 hour period in this manner. The phantom thief may also gain panache in a method akin to the gunslingers daring act rule.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/phantom-thief#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/phantom-thief#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "0bd7f876af97c315",
+  "_key": "!items!0bd7f876af97c315",
+  "name": "Eliciter: Hypnotism (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:eliciter:ultimate:class-feature:hypnotism-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/eliciter#toc7",
+      "sourceSha256": "0cf076b987abafe6af278a8a992b3695cfc8b99dd1dbb52cc85c8d2629652d23",
+      "descriptionSha256": "90c96b0942a5aa734bdf9774e5f87b27523c504f3f9a698da4add82fda1f134e",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:eliciter:ultimate:class-feature:hypnotism-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>An eliciter may manipulate another with little more than a look and a word. The eliciter targets a single creature, which must be within close range and able to see and hear the eliciter. Hypnotizing a target is a standard action. The eliciter may use hypnotism a number of times per day equal to 3 + 1/2 his eliciter level.</p>\n<p>When hypnotizing a target, the eliciter chooses one effect available to him from the list below. If this ability calls for a saving throw, the DC is equal to 10 + 1/2 his eliciter level + his Charisma modifier + his Persuasive bonus. Hypnotism is a mind-affecting ability. An eliciter may target himself with his own hypnotism, even if he cannot see or hear himself.</p>\n<p><strong>Fascinate</strong><br>\nThe eliciter causes the target to become fascinated with him for 1 round per eliciter level (Will negates). While fascinated, a target takes no action except to stand or sit quietly and watch the eliciter. The target takes a –4 penalty on skill checks made as reactions, such as Perception checks. Any potential threat to the target allows the target to attempt a new saving throw to end the fascination effect. Any obvious threat, such as someone drawing a weapon, casting a spell, or aiming a weapon at the target, automatically breaks the effect.</p>\n<p><strong>Liberate</strong><br>\nAt 4th level, the eliciter may use hypnotism to free a target’s mind of harmful effects. The target may reroll a Will save (using the eliciter’s bonus if it is higher) against each harmful mind-affecting effect they are suffering from. The eliciter may also allow the target to reroll a Will save made to disbelieve an illusion, but this may only be used against an illusion that the eliciter has already successfully disbelieved.</p>\n<p><strong>Terrorize</strong><br>\nAt 7th level, the eliciter may demolish the target’s mind, granting the target a penalty to their Will saving throws equal to his Persuasive bonus (no save). This lasts a number of rounds equal to his casting ability modifier. While a target is affected in this manner, the eliciter does not gain his Persuasive bonus to eliciter abilities and Mind sphere effects against that target.</p>\n<p><strong>Inspire Greatness</strong><br>\nAt 10th level, the eliciter may use hypnotism to instill the target with the effects of the inspire greatness bardic performance for a number of rounds equal to his casting ability modifier.</p>\n<p><strong>Insanity</strong><br>\nAt 13th level, the eliciter may plant compulsions into the target’s mind to distract them. For a number of rounds equal to the eliciter’s casting ability modifier, the target must succeed at a Will save each round or suffer one of the following effects (roll a d6 to determine the effect):<br>\n1. take no action but to babble incoherently,<br>\n2. run away from the eliciter at top speed,<br>\n3. fall prone,<br>\n4. drop all held items and be unable to pick them back up,<br>\n5. deal 1d8 + Strength modifier damage to self with whatever is in hand as a standard action,<br>\n6. attack nearest creature.</p>\n<p>Each effect lasts 1 round.</p>\n<p><strong>Inspire Heroics</strong><br>\nAt 16th level, the eliciter may grant the target the benefit of the inspire heroics bardic performance for a number of rounds equal to his Charisma modifier.</p>\n<p><strong>Reverence</strong><br>\nAt 19th level, the eliciter may cause the target to fall before him in reverence (Will negates). On a failed saving throw, the target falls prone and is considered helpless for 1 round per level. A flying creature incapable of hovering must land immediately in order to prostrate itself. Each round on its turn, the target may attempt a new saving throw as a full-round action to end the effect early. This does not provoke an attack of opportunity. If a creature succeeds its initial saving throw against this ability, it is staggered for 1 round and may not be targeted again with this ability until the following day.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/eliciter#toc7\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/eliciter#toc7"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

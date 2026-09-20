@@ -1,0 +1,121 @@
+{
+  "_id": "704135a06f57b4ef",
+  "_key": "!items!704135a06f57b4ef",
+  "name": "Contingency",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:general-feats:ultimate:feat:contingency",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/general-feats#toc16",
+      "sourceSha256": "48651b23fba04d66e434158ecf04f76da4e7874b49cfcbf4f4308c02df11a374",
+      "descriptionSha256": "923a5d9e4ac125390994d5d9eeca1a0f6803893562eb2464fd7377427ce7558c",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "general-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:general-feats:ultimate:feat:contingency",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Casting class feature, caster level 10th.</p>\n<p><strong>Benefit:</strong> You may spend a spell point and ten minutes of preparation to use a sphere effect in such a way that it comes into effect under some later condition you have previously dictated. You must pay any spell point costs associated with the desired effect and must place the effect on yourself or onto a creature or location within close range. The creature or area selected must be the target of the sphere effect.</p>\n<p>The conditions needed to activate the effect must be clear, but they can be general. (If the caster is dropped below half hit points, if an elf enters the room, or if Madame Deflour comes within close range are all examples of contingency conditions.)</p>\n<p>In all cases, the contingency causes the sphere effect to manifest instantly when the prescribed circumstances occur. If complicated or convoluted conditions are prescribed, the effect may fail when triggered. The effect occurs based solely on the stated conditions, regardless of whether you want it to. You may only have one contingency active at a time; any previous unused contingency effect is dispelled when a new one is created.</p>\n<p>A caster always knows when their contingency is triggered, even if they are not present. If a contingency is placed on a creature or location, it can be detected and dispelled like any other sphere effect. For this purpose, a contingency is considered a magic trap with a Perception and Disable Device DC equal to 25 + 1/2 the caster level.</p>\n<p>If a contingency remains unused when a caster rests to regain spell points, they may choose to dispel the contingency or sustain it, in which case they do not recover the spell points used to create the contingency.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/general-feats#toc16\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/general-feats#toc16"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

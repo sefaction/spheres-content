@@ -1,0 +1,121 @@
+{
+  "_id": "a67cea8fb1cf0c85",
+  "_key": "!items!a67cea8fb1cf0c85",
+  "name": "Mage Of Ice And Rime",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:nature:ultimate:feat:mage-of-ice-and-rime",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/nature#toc87",
+      "sourceSha256": "43a0d4dc05c4d4fc9d1b491e9860cea3a1e8f6949d6c5a5a1ad0e7231d3c84e0",
+      "descriptionSha256": "5e2d29c727c350db1ced54c98e20ecf02d7f26bcc46820d16f271ce737602a2f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Nature Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:nature:ultimate:feat:mage-of-ice-and-rime",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Nature sphere ((water) package, Water Mastery).</p>\n<p><strong>Benefit:</strong> You gain resistance to cold equal to 1/2 your MSB (rounded down, this stacks with any other cold resistance you have). If you are immune to cold damage, you may spend a spell point whenever your immunity prevents you from taking cold damage. If you do, you heal a number of hit points equal to the damage you would have taken from the effect if you were not immune, to a maximum of 5 hit points healed per Hit Dice you possess.</p>\n<p>In addition, you gain the following benefits to the corresponding Nature sphere talents. Sphere effects you create using this feat gain the cold descriptor:</p>\n<ul>\n<li><strong>Nature’s Carapace:</strong> Instead of the Nature’s Carapace (water) package effect, you may cloak yourself with a coat of frost. You gain a number of temporary hit points equal to 1/2 your caster level plus your casting ability modifier. You always lose these temporary hit points first, even before other temporary hit points. If an attack deals less damage than the current temporary hit points from this sphere effect, it still reduces those temporary hit points but otherwise counts as a miss for the purposes of abilities that trigger on a hit or a miss. Temporary hit points from this sphere effect regenerate at a rate of 1 per round. You may spend a move action when near a source of water (such as rain, mist, or at least 5 cubic feet of water) within your geomancing range to restore all the temporary hit points from this sphere effect.</li>\n<li><strong>Nature’s Movement:</strong> While under the effects of the Nature’s Movement (water) package effect, you suffer no penalty to speed or on Acrobatics, Climb, or Stealth checks in snowy or icy terrain or snowy weather conditions.</li>\n<li><strong>Nature’s Weapon:</strong> When using the Nature’s Weapon (water) package effect, you may create any weapon you are proficient with instead of creating a dagger. Weapons which use ammunition (e.g. bows, firearms, or slings) are created with basic ammunition ready to be fired by the weapon, and basic ammunition may be summoned and automatically loaded into the weapon as a free action. This ability cannot be used to summon siege weapons or technological items, subject to GM permission.</li>\n<li><strong>Nature Sight:</strong> While under the effects of the Nature Sight (water) package effect, you may treat snow and ice as though it were a body of water, allowing you to detect anything in contact with the same body of snow or ice as you, and may see normally in natural or magical rain, sleet, hail, fog, snowstorms, blizzards, and other similar weather conditions.</li>\n<li><strong>Wreath Of Elements:</strong> Instead of the Wreath Of Elements (water) package effect, you assault a creature with a frozen gale. A target within your reach takes a penalty on their next attack roll, Perception check, or concentration check equal to -2 plus an additional -1 per 5 caster levels (Fortitude negates).</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/nature#toc87\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/nature#toc87"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

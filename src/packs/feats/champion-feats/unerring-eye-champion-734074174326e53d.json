@@ -1,0 +1,121 @@
+{
+  "_id": "734074174326e53d",
+  "_key": "!items!734074174326e53d",
+  "name": "Unerring Eye (Champion)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:champion-feats:current:feat:unerring-eye-champion",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/champion-feats#toc111",
+      "sourceSha256": "ebaf5901af64f25a2ba1fcec58cda3bfddace06fab20921fddcf3e21096f40af",
+      "descriptionSha256": "6ec79f9e90531df45c9ea9baec6fb87bc42a20cfb64a9664697fbfe7ef857494",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Champion Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:champion-feats:current:feat:unerring-eye-champion",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Sense Motive ranks 3, Investigation sphere; either the Divination sphere or Scout sphere.</p>\n<p><strong>Benefit:</strong> You gain the following benefits, depending on the spheres you possess:</p>\n<ul>\n<li><strong>Seer (Divination sphere, Investigation sphere):</strong> Whenever you spend a standard action or longer to analyze, you can spend a spell point to also gain information from the target as if they were targeted by a Divination sphere divine option that you possess (as long as the divine option gathers information about a creature, such as the base option to detect magical auras on the creature, or (divine) talents such as Detect Spellcaster or Detect Thoughts). Additionally, whenever you would expend an Investigation sphere application for a benefit, you can dismiss a Divination sphere sense instead.</li>\n<li><strong>Reliable Analysis (Investigation sphere, Scout sphere):</strong> When you analyze a creature, you can also scout them as if you had spent the same action to scout the creature. If a target is both scrutinized and scouted, you can treat any roll of a 6 or lower on checks benefiting from scrutinize as if you had rolled a 7 instead; both of these values increase by 1 for every 6 ranks in Sense Motive you possess (e.g. at 12 ranks, you treat rolls of an 8 or lower as if it were a 9 instead).</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/champion-feats#toc111\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/champion-feats#toc111"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

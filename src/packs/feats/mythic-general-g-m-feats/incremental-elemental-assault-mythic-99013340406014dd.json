@@ -1,0 +1,121 @@
+{
+  "_id": "99013340406014dd",
+  "_key": "!items!99013340406014dd",
+  "name": "Incremental Elemental Assault (Mythic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mythic-general-g-m-feats:current:feat:incremental-elemental-assault-mythic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mythic-general-g-m-feats#toc50",
+      "sourceSha256": "be448ce57aaf582d881dca7285efd1e1844a8c015233efa8d68db1d78fde500a",
+      "descriptionSha256": "146f2c26e8d9628fae05a505e137b07eef9d9450c63add60732db0d7e6473b18",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "mythic-general-g-m-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mythic-general-g-m-feats:current:feat:incremental-elemental-assault-mythic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You may activate multiple elements simultaneously, or increase the damage of one type.</p>\n<p><strong>Prerequisite:</strong> Incremental Elemental Assault<sup>ARG</sup></p>\n<p><strong>Benefit:</strong> When you use your elemental assault ability, you may choose to sheathe each arm in a separate energy type, such as fire on one arm and ice on the other, dealing damage as appropriate. If you choose a single energy type for both arms, your elemental damage is increased by an amount equal to one-half your mythic tier (minimum 1). If you spend one use of your mythic power, targets damaged by your elemental assault also suffer the following effect(s) based on the type of energy you use. The save DC for these secondary effects is 10 + 1/2 your level + your Constitution modifier.</p>\n<ul>\n<li><strong>Acid:</strong> Target must succeed at a Fort save or be sickened for one round.</li>\n<li><strong>Cold:</strong> Target must succeed at a Fort save or be staggered for one round.</li>\n<li><strong>Electricity:</strong> Target must succeed at a Reflex save or be dazed for one round.</li>\n<li><strong>Fire:</strong> Target must succeed at a Reflex save or catch fire (1d6 damage)</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/mythic-general-g-m-feats#toc50\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mythic-general-g-m-feats#toc50"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

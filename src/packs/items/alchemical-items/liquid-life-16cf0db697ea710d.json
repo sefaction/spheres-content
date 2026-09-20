@@ -1,0 +1,120 @@
+{
+  "_id": "16cf0db697ea710d",
+  "_key": "!items!16cf0db697ea710d",
+  "name": "Liquid Life",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:alchemical-items:current:item:liquid-life",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/alchemical-items#toc10",
+      "sourceSha256": "d6829196fa853eb27d6cbeb4f5c15e5cc5af7f2c6855cf328dc3f5154b24af9c",
+      "descriptionSha256": "21324f21042e066484c8b2655177e819b54b44b3f9a776ba7897fd96df45f847",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "alchemical-items",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:alchemical-items:current:item:liquid-life",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Price</strong> 20 gp; <strong>Weight</strong> —<br>\nThe greatest invention of the alchemical world since transmuted bread, liquid life has what you need to perk yourself up when you’re knocked low. Liquid life gives the drinker 3d6 temporary hit points to the drinker and removes the fatigued condition. Liquid life can not grant more temporary hit points than the drinker currently has in damage. Temporary hit points granted by liquid life disappear after 1 hour. Some have reported mild addiction after prolonged use, or at least an inability to get out of bed in the morning without it.</p>\n<p><strong>Alchemical Recipe</strong><br>\n<strong>Recipe</strong> (1 Keif + 2 Mugwort Extract + 5 Realgar)/Filtration<br>\n<strong>Craft</strong> DC 20<br>\n<strong>Time</strong> 10 minutes<br>\n<strong>Tools</strong> coffee pot, sieve, or filter<br>\n<strong>Type</strong> drug (coffee)<br>\n<em>Spontaneous Alchemy:</em> Those utilizing the spontaneous alchemy variant crafting system may utilize the recipe and crafting time listed above. Players otherwise craft Liquid Life using the crafting rules found in the Core Rulebook pg 91-93.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/alchemical-items#toc10\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 20,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": "",
+      "pricePerUse": 0
+    },
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "misc",
+    "showInQuickbar": false,
+    "changes": [],
+    "contextNotes": [],
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/alchemical-items#toc10"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

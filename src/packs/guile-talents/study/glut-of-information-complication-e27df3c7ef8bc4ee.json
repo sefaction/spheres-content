@@ -1,0 +1,124 @@
+{
+  "_id": "e27df3c7ef8bc4ee",
+  "_key": "!items!e27df3c7ef8bc4ee",
+  "name": "Glut Of Information (complication)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:study:spheres-of-guile:guile-talent:glut-of-information-complication",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/study#toc23",
+      "sourceSha256": "e8d569974189b26fc9f4d0950aa7e6c4ed942b36666113be9fc161ec1efd21fb",
+      "descriptionSha256": "095d975d4dcf7a70cd384361b747fae7c1a4a4955f8e6fcfdbb408ab31da287c",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Complication Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:study:spheres-of-guile:guile-talent:glut-of-information-complication",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "study"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can apply this complication to a plan that reveals information. If the plan calls for a skill check to learn or access information (whether because the plan normally involves a Knowledge check, or because your use of the plan is improbable enough to require a Knowledge check to see if you prepared for it), increase the DC by 5. If the plan would not otherwise call for a check, you must attempt a Knowledge check for this application with a DC of 20 + the CR of the most dangerous relevant creature or hazard, using a Knowledge or Lore skill suitable for the situation.</p>\n<p>Regardless of the result, you learn two additional pieces of information of the same kind; if you succeed, one of them is irrelevant or slightly misleading.</p>\n<p>If you fail, you still learn the information you originally intended, but both additional pieces of information are false or badly misleading.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/study#toc23\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/study#toc23"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

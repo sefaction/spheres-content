@@ -1,0 +1,152 @@
+{
+  "_id": "7d69c465f0de7eca",
+  "_key": "!items!7d69c465f0de7eca",
+  "name": "Raveler",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:raveler-class:current:class:raveler",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/raveler-class",
+      "sourceSha256": "c4b0ccc7e4317c264d841c9c1a5597fad3550dccf6d2837d879a7684fcba734f",
+      "descriptionSha256": "237ae0f139692df14a56d9ca7fa120c4a70ccfba60f40fdf69fa6aef213dd5e6",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:raveler-class:current:class:raveler",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>\nThese skilled casters and combatants weave lingering magic energy into supernatural forces known as ravels, granting themselves permanent boons which can be unwoven to briefly empower their magic and combat abilities.\n</p>\n<p><strong>Role:</strong> The raveler’s role is primarily determined by the talents they choose to learn and the ravels they choose to weave. They can adequately perform many combat roles, from a more martial-focused caster, to a ranged support, to battlefield controller.</p>\n<p><strong>Alignment:</strong> Any.</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 4d6 x 10 gp (average 140 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The raveler’s class skills are Appraise (Int), Acrobatics (Dex), Climb (Str), Craft (Int), Diplomacy (Cha), Fly (Dex), Knowledge (all) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Sense Motive (Wis), Spellcraft (Int), Swim (Str), and Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n<h1>Class Abilities</h1>\n<strong>Table: Raveler</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Reflex Save</th>\n<th>Will Save</th>\n<th>Special</th>\n<th>Ravels</th>\n<th>Blended Training Talents</th>\n<th>Caster Level</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+0</td>\n<td>+2</td>\n<td>+2</td>\n<td>Casting, Limited Pool, Ravels, Magicweaving (1), Mightweaving (1)</td>\n<td>2</td>\n<td>1 (+2 magic)</td>\n<td>0 (1)</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+0</td>\n<td>+3</td>\n<td>+3</td>\n<td>Bonus Talent</td>\n<td>2</td>\n<td>2</td>\n<td>1</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+2</td>\n<td>+1</td>\n<td>+3</td>\n<td>+3</td>\n<td>Combat casting</td>\n<td>2</td>\n<td>3</td>\n<td>2</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+3</td>\n<td>+1</td>\n<td>+4</td>\n<td>+4</td>\n<td>Bonus Talent</td>\n<td>2</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+3</td>\n<td>+1</td>\n<td>+4</td>\n<td>+4</td>\n<td>Metaweaving, Bonus Feat, Mightweaving (2)</td>\n<td>3</td>\n<td>5</td>\n<td>3</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+4</td>\n<td>+2</td>\n<td>+5</td>\n<td>+5</td>\n<td>Bonus Talent</td>\n<td>3</td>\n<td>6</td>\n<td>4</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+5</td>\n<td>+2</td>\n<td>+5</td>\n<td>+5</td>\n<td>Magicweaving (2)</td>\n<td>3</td>\n<td>7</td>\n<td>5</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+6/+1</td>\n<td>+2</td>\n<td>+6</td>\n<td>+6</td>\n<td>Bonus Talent</td>\n<td>3</td>\n<td>8</td>\n<td>6</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+6/+1</td>\n<td>+3</td>\n<td>+6</td>\n<td>+6</td>\n<td>Improved combat casting, Mightweaving (3)</td>\n<td>4</td>\n<td>9</td>\n<td>6</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+7/+2</td>\n<td>+3</td>\n<td>+7</td>\n<td>+7</td>\n<td>Bonus Talent</td>\n<td>4</td>\n<td>10</td>\n<td>7</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+8/+3</td>\n<td>+3</td>\n<td>+7</td>\n<td>+7</td>\n<td>Bonus Feat</td>\n<td>4</td>\n<td>11</td>\n<td>8</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+9/+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>+8</td>\n<td>Bonus Talent</td>\n<td>4</td>\n<td>12</td>\n<td>9</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+9/+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>+8</td>\n<td>Magicweaving (3), Mightweaving (4)</td>\n<td>5</td>\n<td>13</td>\n<td>9</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+10/+5</td>\n<td>+4</td>\n<td>+9</td>\n<td>+9</td>\n<td>Bonus Talent</td>\n<td>5</td>\n<td>14</td>\n<td>10</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+11/+6/+1</td>\n<td>+5</td>\n<td>+9</td>\n<td>+9</td>\n<td>Greater combat casting</td>\n<td>5</td>\n<td>15</td>\n<td>11</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+12/+7/+2</td>\n<td>+5</td>\n<td>+10</td>\n<td>+10</td>\n<td>Bonus Talent</td>\n<td>5</td>\n<td>16</td>\n<td>12</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+12/+7/+2</td>\n<td>+5</td>\n<td>+10</td>\n<td>+10</td>\n<td>Bonus Feat, Mightweaving (5)</td>\n<td>6</td>\n<td>17</td>\n<td>12</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+13/+8/+3</td>\n<td>+6</td>\n<td>+11</td>\n<td>+11</td>\n<td>Bonus Talent</td>\n<td>6</td>\n<td>18</td>\n<td>13</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+14/+9/+4</td>\n<td>+6</td>\n<td>+11</td>\n<td>+11</td>\n<td>Magicweaving (4)</td>\n<td>6</td>\n<td>19</td>\n<td>14</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+15/+10/+5</td>\n<td>+6</td>\n<td>+12</td>\n<td>+12</td>\n<td>Raveler's Ascendance, Bonus Talent</td>\n<td>6</td>\n<td>20</td>\n<td>15</td>\n</tr>\n</tbody></table>\n<h2>Class Proficiencies</h2>\n<p>A raveler is proficient with simple weapons, as well as light armor and bucklers. In addition, if this is this character’s first level in any class, they may select a martial tradition of their choice.</p>\n<h2>Casting</h2>\n<p>A raveler may combine spheres and talents to create magical effects. A raveler is considered a Mid-Caster. (Note: All casters gain 2 bonus talents and a casting tradition the first time they gain the casting class feature.)</p>\n<h2>Blended Training</h2>\n<p>A raveler gains a combat or magic talent every time they gain a class level. They also gain an additional bonus combat or magic talent at 2nd level, and every 2 levels thereafter. Ravelers use their casting ability modifier as their practitioner modifier.</p>\n<h2>Limited Pool</h2>\n<p>Unlike other spherecasters, a raveler does not innately gain a pool of spell points based on their class level and CAM. They can still gain spell points from other sources, as normal. If they take levels in another class that grants a spell pool, they add their CAM to their spell pool as normal. They can still gain spell points through other means, such as by taking drawbacks, and count as having a spell pool for the purposes of prerequisites, such as the Extra Spell Points feat.</p>\n<h2>Ravels (Su)</h2>\n<p>At 1st level, the raveler learns to weave the ambient forces of magic into a power known as ravels that grant them unique abilities or enhance them in a variety of ways. At 1st level, the raveler gains two ravels of their choice. At 5th level, and every 4 levels thereafter, the raveler gains 1 additional ravel of their choice.</p>\n<p>Whenever the raveler gains a level, they can change one of their chosen ravels for another. Ravels can also be retrained as if they were a feat.</p>\n<p>Ravels grant two different benefits that vary between constant effects to activated abilities known as woven effects and unwoven effects. By default, a ravel only grants its woven effect. When it is unwoven (usually by the raveler’s magicweaving or mightweaving class features), they instead gain the ravel’s unwoven effect. Ravels and the abilities they grant are supernatural effects unless described otherwise. The raveler uses their casting ability modifier to determine the effects of their ravels, known as their ravel modifier.</p>\n<p>For more information on how ravels work and the descriptions of each ravel, see the ravel chapter of this book.</p>\n<h2>Magicweaving (Su)</h2>\n<p>Ravelers utilize a unique method of casting their spells, known as magicweaving, that fuels their magical power by unweaving their ravels. Whenever the raveler would be able to spend spell points on an effect or ability, they can unweave one of their ravels to immediately gain 1 temporary spell point to spend on that effect or ability. This spell point must be used as part of that effect or ability, or it is immediately lost. At 7th level, and again at 13th and 19th level, the raveler gains 1 additional temporary spell point when unweaving a ravel in this way. If the raveler starts casting a spell with a casting time longer than one full round, the raveler may unweave a ravel as they start casting the spell and invest those spell points into the effect. If they stop casting the spell early, those spell points are lost immediately.</p>\n<p>If the raveler used these spell points to create an effect with a duration longer than instantaneous, that effect immediately ends if the ravel is no longer unwoven.</p>\n<h2>Mightweaving (Su)</h2>\n<p>Ravelers can also use the magical powers of their ravels to empower their martial abilities. Whenever the raveler uses an ability of a combat sphere, they can choose to unweave one of their ravels as part of using the effect. They can also unweave one of their ravels as a swift action to enhance the abilities of a continuous effect granted by a combat sphere. Unweaving one of their ravels briefly empowers that ability with their magic, allowing them to treat their Base Attack Bonus and skill ranks with that ability as 1 higher when determining the effects of that ability. This bonus further increases by 1 at 5th level, and every 4 levels thereafter.</p>\n<p>For abilities with a duration or for constant abilities, this bonus lasts for the duration of the ability, or until the ravel is no longer unwoven (whichever happens first). If an item or object is created in this way (such as a Trap sphere trap or Alchemy sphere formulae), that created item is considered to be supernatural and is destroyed if the ravel stops being unwoven. This ability cannot be used with any ability that grants the raveler a companion, such as the Tame ability of the Beastmastery sphere.</p>\n<p>For instantaneous abilities, this bonus applies every time that ability is used for as long as the ravel is unwoven, but no more than once each round.</p>\n<p>If attacks are made as part of an ability affected by mightweaving, those attacks are not made using this increased base attack bonus (or increase in skill ranks, if the ability allows skill ranks to be used in place of base attack bonus). If skill checks are made as part of an ability affected by mightweaving, those skill checks are not made using this increase in effective skill ranks.</p>\n<h2>Combat Casting</h2>\n<p>At 3rd level, the raveler gains Combat Casting as a bonus feat. If they already have this feat, they gain a bonus feat of their choice instead.</p>\n<h2>Metaweaving</h2>\n<p>At 5th level, whenever the raveler casts a sphere effect using spell points gained from their magicweaving ability, any metamagic they apply to that sphere effect does not increase its casting time.</p>\n<h2>Bonus Feats</h2>\n<p>At 5th level, and again at 11th and 17th level, the raveler gains a bonus feat. Using these bonus feats may select combat feats, teamwork feats, ravel feats, Extra Magic Talent, drawback, proxy, and theurge feats, or any feat which has casting, a magic sphere, or a magic talent as a prerequisite (item creation feats, metamagic feats, Sphere Focus, Circle Casting, etc). They must still meet the prerequisites for these feats as normal.</p>\n<h2>Improved Combat Casting</h2>\n<p>At 9th level, the raveler increases the bonus provided by their Combat Casting feat by +4.</p>\n<h2>Greater Combat Casting</h2>\n<p>At 15th level, the raveler can choose to take 10 on concentration checks made to cast a spell or use a spell-like ability when casting defensively or while grappled.</p>\n<h2>Raveler’s Ascendance</h2>\n<p>At 20th level, the raveler’s mastery has reached its peak. Whenever one of their ravels is unweaved as part of their magicweaving or mightweaving abilities, the raveler maintains that ravel’s woven effect for the duration it is unweaved in addition to gaining its unwoven effect. It is still considered to be unwoven, and cannot be unweaved again until it has been recovered.</p>\n<p>Additionally, ravels recover 1 minute after being unweaved instead of after 10 minutes. The raveler can still choose to extend this duration beyond 1 minute if they wish to continue the effects of an ongoing sphere effects cast using spell points gained from unweaving their ravel.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/raveler-class\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "low"
+      },
+      "ref": {
+        "value": "high"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "alignment": "Any.",
+    "wealth": "4d6 * 10",
+    "classSkills": {
+      "acr": true,
+      "apr": true,
+      "clm": true,
+      "crf": true,
+      "dip": true,
+      "fly": true,
+      "kar": true,
+      "kdu": true,
+      "ken": true,
+      "kge": true,
+      "khi": true,
+      "klo": true,
+      "kna": true,
+      "kno": true,
+      "kpl": true,
+      "kre": true,
+      "per": true,
+      "pro": true,
+      "rid": true,
+      "sen": true,
+      "spl": true,
+      "swm": true,
+      "umd": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/raveler-class"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

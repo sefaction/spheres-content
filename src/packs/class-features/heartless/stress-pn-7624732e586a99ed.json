@@ -1,0 +1,121 @@
+{
+  "_id": "7624732e586a99ed",
+  "_key": "!items!7624732e586a99ed",
+  "name": "Heartless: Stress (Pn)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:heartless:current:class-feature:stress-pn",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/heartless#toc3",
+      "sourceSha256": "a3c651ff1d883fd3f516e0ec0c222603ec86ee327fe5426605e95700c33062e2",
+      "descriptionSha256": "53da6338104b0e329bfdcda55988866db8e26503bc6f770be64b0c407cc58a1a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:heartless:current:class-feature:stress-pn",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>While it does sustain them, the inhuman power contained within the heart core means that it can overwhelm the heartless at times, unless they bleed the power off slowly. At 1st level, the heartless gains a pool of stress that reflects their ability to resist the breakdown of their heart core. The heartless can store 3 + their Constitution modifier in stress at 1st level. Every level after that, the heartless can store an additional 2 stress. At the start of each round while in combat (or in other stressful situations, such as a crucial skill check), the heartless gains 1 stress. All accumulated stress is lost after 8 hours of rest.</p>\n<p>If the stress pool becomes full, the heartless immediately suffers a meltdown; a catastrophic eruption of their heart core. The heartless become nauseated for 1 round, trigger their heart core’s meltdown effect, and finally reset their stress 0. A Fortitude save (DC 10 + total amount of stress) reduces the nauseated condition to sickened.</p>\n<h5>Sidebar: Dispelled Hearts</h5>\n<p>As magical creations, heart cores are vulnerable to antimagic effects like dispel magic. The heart core is treated as a magic item with a caster level equal to the heartless’ class level. If the heart core is dispelled, the heartless immediately suffers a meltdown. The heartless still receives a save to reduce the effect of the meltdown.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/heartless#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/heartless#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

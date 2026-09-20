@@ -1,0 +1,124 @@
+{
+  "_id": "e52305e13b320408",
+  "_key": "!items!e52305e13b320408",
+  "name": "Energizer (tincture)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:energizer-tincture",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc24",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "7ce1273dac794fc9331b6c93735b2fc4cae75be356eb6147f40331a43783d671",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Concoction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:energizer-tincture",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Cost:</strong> 2 herbs or 1 intense herb</p>\n<p>When imbibed, this tincture grants a +1 alchemical bonus to initiative checks to the imbiber for 10 minutes; this bonus increases by +1 per 6 associated ranks. During this time, if the imbiber becomes fatigued or exhausted (or is already), the condition is removed–this can only occur once during the duration, and excludes effects that would bypass an immunity to such conditions.</p>\n<p>The imbiber also gains the benefits of resting for 8 hours without requiring sleep–any vigorous activity such as fighting, traveling, or similar during this time ends this effect, requiring the imbiber to sleep for the remaining hours or imbibe another Energizer to avoid fatigue and to gain the benefits of a full night’s rest.</p>\n<p><strong>Twists</strong></p>\n<ul>\n<li><strong>1 bitter herb:</strong> The imbiber can have the fatigued or exhausted condition removed from them a second time during the duration.</li>\n<li><strong>1 cool herb:</strong> The imbiber cannot be flat-footed, and does not lose their Dexterity bonus to AC against invisible creatures. They still lose their Dexterity bonus to AC if immobilized or feinted. If the imbiber has the uncanny dodge ability, they instead gain the improved uncanny dodge ability.</li>\n<li><strong>1 intense herb:</strong> For 3 rounds, the imbiber gains a +10-foot alchemical bonus to all speeds they possess, +5 feet per 6 associated ranks. Additionally, the imbiber can move 10 feet instead of 5 feet whenever they make a 5-foot step.</li>\n<li><strong>1 savory herb:</strong> The duration of the tincture increases to 1 hour. Additionally, whenever the imbiber would fall asleep due to an effect (such as sleep or a dose of drow poison), the imbiber is instead staggered for as long as they would normally be asleep.</li>\n<li><strong>1 spicy herb:</strong> The imbiber can take a full-round worth of actions during a surprise round. Additionally, the imbiber ignores the first time they are interrupted during a rest due to vigorous activity, as long as such an interruption lasts no longer than 15 minutes.</li>\n<li><strong>1 tainted herb:</strong> The imbiber becomes fatigued (or exhausted if they are already fatigued) for 10 minutes.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc24\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc24"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

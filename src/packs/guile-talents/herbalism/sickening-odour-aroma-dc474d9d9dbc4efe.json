@@ -1,0 +1,124 @@
+{
+  "_id": "dc474d9d9dbc4efe",
+  "_key": "!items!dc474d9d9dbc4efe",
+  "name": "Sickening Odour (aroma)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:sickening-odour-aroma",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc32",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "51de33c797732b2c103726ac539843fb8a4dce3234df1aaea32e6b06d0343498",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Concoction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:sickening-odour-aroma",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p><strong>Cost:</strong> 2 herbs or 1 tainted or sour herb.</p>\n<p>All creatures that can smell the aroma must succeed at a Fortitude saving throw or become sickened for as long as they remain within the area, plus 1 minute after. A creature that succeeds against this aroma becomes immune to its effects for 24 hours. This aroma lasts 1 minute. This is a poison effect.</p>\n<p><strong>Twists</strong></p>\n<ul>\n<li><strong>1 bitter herb:</strong> A creature that succeeds the saving throw against this aroma instead becomes sickened for 1 round, and does not become immune to its effects for 24 hours on a successful save. If the creature remains within the area, they must attempt a new saving throw against the aroma each round they remain within the area.</li>\n<li><strong>1 esoteric herb:</strong> This aroma’s effects bypass any immunities that a creature may possess–including those granted by a creature type (such as undead or constructs).</li>\n<li><strong>1 intense herb:</strong> If a creature fails their initial saving throw against this aroma (not subsequent saving throws such as from the bitter herb twist), they are nauseated for 1 round, and then sickened for the remaining duration.</li>\n<li><strong>1 sour herb:</strong> A creature that is made sickened by this aroma treats every square as being difficult terrain for as long as they remain sickened.</li>\n<li><strong>1 spicy herb:</strong> A creature that is made sickened by this aroma treats all creatures as if they had concealment (20% miss chance) for as long as they remain sickened.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc32\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc32"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

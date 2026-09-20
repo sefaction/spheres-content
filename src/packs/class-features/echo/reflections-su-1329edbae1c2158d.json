@@ -1,0 +1,121 @@
+{
+  "_id": "1329edbae1c2158d",
+  "_key": "!items!1329edbae1c2158d",
+  "name": "Echo: Reflections (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:echo:current:class-feature:reflections-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/echo#toc2",
+      "sourceSha256": "7e4fbcb1c751c10841749081554bac714552402272b3187adb77188d1473547b",
+      "descriptionSha256": "be0c6230d2a59ffe4a30f6b9a73537ddba737b3ea22d938db58c633d647e55d4",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:echo:current:class-feature:reflections-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Each day, an echo has a pool of reflections equal to three plus their class level. As long as the echo has at least one reflection remaining in their pool, they may maintain a psionic focus (if psionics are available in your game) as though they had a power point reserve. Reflections are replenished after 8 hours of rest. Normally only one reflection can be used in a round. As a free action, an echo may expend a reflection to do one of the following things:</p>\n<h4>Echo Feat</h4>\n<p>For one round exchange a feat the echo currently possesses for another feat they have seen used within a number of rounds equal to their Charisma modifier.</p>\n<h4>Echo Familiarity</h4>\n<p>For one round the echo gains a circumstance bonus of +2 to a skill check the echo has witnessed used within a number of rounds equal to their Charisma modifier. If the echo uses this ability to replicate a skill they do not have a class skill bonus in, they may also add their Charisma modifier to the roll. Untrained skills targeted by this ability may be used as if they were trained.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/echo#toc2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/echo#toc2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

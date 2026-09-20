@@ -1,0 +1,121 @@
+{
+  "_id": "f63dcd601c6870fd",
+  "_key": "!items!f63dcd601c6870fd",
+  "name": "Craft Widgets And Gizmos (item creation)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:tech:current:feat:craft-widgets-and-gizmos-item-creation",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/tech#toc172",
+      "sourceSha256": "77cdf3390da14019a07f63aa2c6d5cc2ae6f485bd1bbc57241bdc216a0fd6dfb",
+      "descriptionSha256": "7ced0bf83dd9a8ab724da42084e70cadad9078d7891d00113014c960c51aec4d",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Expanded Crafting Rules > Item Base Creation > New Crafting Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:tech:current:feat:craft-widgets-and-gizmos-item-creation",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Tech sphere, Craft (mechanical) 1 ranks.</p>\n<p><strong>Benefit:</strong> A character who possesses this feat can create widgets and gizmos. Widgets and gizmos cannot be recharged and become permanently inoperable once they run out of charges. If a widget or gizmo does not use charges, it instead becomes useless after they are used a number of times equal to 1/4 the number of ranks used in their creation (minimum 1 use). If a gadget does not state how long an activation usually lasts, then an activation lasts for 4 hours.</p>\n<p>Gizmos do not require activation checks to use. Widgets require an activation check to use by anybody except their creator.</p>\n<p>A gizmo’s cost of creation is 20 gp x the creator’s ranks in Craft (mechanical) x the complexity.</p>\n<p>A widget’s cost of creation is 10 gp x the creator’s ranks in Craft (mechanical) x the complexity.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/tech#toc172\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/tech#toc172"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

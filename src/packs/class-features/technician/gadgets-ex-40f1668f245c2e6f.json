@@ -1,0 +1,121 @@
+{
+  "_id": "40f1668f245c2e6f",
+  "_key": "!items!40f1668f245c2e6f",
+  "name": "Technician: Gadgets (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:technician:current:class-feature:gadgets-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/technician#toc2",
+      "sourceSha256": "98fa0ecbbfe6d3748c6e17e0d0734f20483a024dae89d683e6f4647c613105d8",
+      "descriptionSha256": "276cca5f0442b7c10c2a1ea0425106496e644192824ce5b05490359ad7546952",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Abilities",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:technician:current:class-feature:gadgets-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Technicians are experts at building things, be they improvised tools or unique mechanical marvels. These items, called gadgets, are built out of components the technician has prepared in his spare time out of commonly-found items; so long as the technician has access to a trap bag, he is assumed to have access to all the parts he needs to build his gadgets, and to have already prepared components beforehand to quickly create whatever gadget he needs.</p>\n<p>Creating and activating a gadget is a standard action, but may be reduced to a move action by expending martial focus.</p>\n<p>A technician can create a total number of gadgets in a day equal to 1/2 his technician level + his Intelligence modifier (minimum: 1). If a gadget calls for a saving throw, that saving throw’s DC is equal to 10 + 1/2 his technician level + his Intelligence modifier. A gadget must be used the round it is created, or fall apart back into its component parts, which does not expend the gadget.</p>\n<h4>Improvised Tools</h4>\n<p>By expending one use of his gadgets, the technician can make any skill check that requires having tools and requires less than 1 hour to make as if he possessed the necessary tools. The technician does not suffer the usual penalties for using improvised tools. If the technician already possesses the necessary tools, the technician can expend a gadget to treat those tools as masterwork for one skill check. The technician can create improvised tools that function as masterwork tools for one skill check, but doing so expends 2 gadgets.</p>\n<h4>Constructed Weapons</h4>\n<p>The technician can expend a gadget to allow an improvised weapon to function as a simple melee weapon of his choice for 1 minute.</p>\n<h4>Detonator</h4>\n<p>The technician may create a gadget that explodes in 1 round, at the end of his turn. As part of the standard action used to create this detonator, he may throw the detonator (with a range increment of 10 ft.), place it, or hide it in a space within his natural reach. After one round (at the end of his turn), the detonator explodes, dealing 1d6 damage per technician level to everything within 5 ft. of the square in which the detonator sits, half fire damage and half bludgeoning/piercing/slashing damage. Targets within this area may make a Reflex save for half damage.</p>\n<p>A detonator counts as a trap from the Trap sphere for the purpose of determining its hardness, armor class, hit points, Disable Device DC, and its Perception DC if hidden, as well as for things such as the Opportunist or Trapper’s Recovery talents. A detonator cannot be placed in the same space as a trap, or another detonator.</p>\n<p>If a detonator is destroyed (including by another detonator), it does not explode. If two detonators explode at the exact same time, creatures in the overlapped area suffer diminished results from every detonator but 1, suffering instead 1d6, +1d6 per 5 technician levels for each overlapping detonator after the first.</p>\n<h4>Hook and Pulley</h4>\n<p>The technician may create a gadget that allows him to manipulate objects from a distance. This gadget counts as a thrown weapon with a range increment of 20 ft. Make a ranged touch attack against an unattended object that he could hold in one hand. If successful, he may move that object to his hand as a free action. Targets whose natural reach includes the path that object must take (i.e., are within the line of effect) can make a Reflex save as an immediate action to attempt to grab the object as it flies by.</p>\n<p>Alternately, the technician may use this gadget to attempt a drag, trip, disarm, or steal combat maneuver at a distance. Performing a maneuver from a distance in this fashion does not provoke an attack of opportunity (except as normal when making a ranged attack), but requires the technician to succeed on a ranged touch attack against the target first before the maneuver may be attempted.</p>\n<h4>Launcher</h4>\n<p>The technician can create a gadget to allow him to throw an object. The object can travel 10 ft. + 5 ft. per technician level before the technician begins adding range penalties or calculating its maximum range.</p>\n<p>This gadget can be used at the same time as another gadget to hurl that first gadget a greater distance. This expends a gadget for the launcher as well as for the hurled gadget. The technician cannot attach more than one launcher to a device or object.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/technician#toc2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/technician#toc2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

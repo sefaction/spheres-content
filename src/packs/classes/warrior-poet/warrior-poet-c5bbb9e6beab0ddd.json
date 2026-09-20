@@ -1,0 +1,145 @@
+{
+  "_id": "c5bbb9e6beab0ddd",
+  "_key": "!items!c5bbb9e6beab0ddd",
+  "name": "Warrior Poet",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:warrior-poet:current:class:warrior-poet",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/warrior-poet",
+      "sourceSha256": "697e33783b9a53a1f33fd3d245501d6bb4784eedaf5b1154079f74af0050473d",
+      "descriptionSha256": "f5e7755ffdd85eed95bc85182a09e4b9f133a599c5146151a1a805a0c1373b60",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:warrior-poet:current:class:warrior-poet",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>All but the most barbaric of warriors are thinking men, even if the information they process is far different than that of the wizard, tinker, or priest. The aforementioned, cerebral professions would be wont to call the majority of warriors unrefined, even coarse, but it is not as though being a frontline combatant precludes one from taking up the arts. Combining calligraphy pen and blade, song and sword, the warrior poet is onmyōdō's answer to the bard, a lyrical combatant with an innate connection to the spirit world rather than to the magic of the heart.</p>\n<p><strong>Role:</strong> The warrior poet is a beacon in the storm, capable of layering multiple area wards over a battlefield in rapid succession using talismans and custom haiku, while his proficiency with blade and armor allow him to capitalize upon the effects present the area thus claimed.</p>\n<p><strong>Alignment:</strong> Any. Though the discipline needed to bottle emotion and unleash it in a controlled fashion tends to cause warrior poets to lean away from the Chaotic, there are absolute madcaps out there who assure their peers that said discipline is strictly optional should sufficient passion be available.</p>\n<p><strong>Class Skills:</strong> The warrior poet's class skills are Acrobatics (Dex), Bluff (Cha), Craft (any) (Int), Diplomacy (Cha), Intimidate (Cha), Linguistics (Int), Knowledge (history) (Int), Knowledge (nature) (Int), Knowledge (nobility) (Int), Knowledge (planes) (Int), Knowledge (religion) (Int), Perform (oratory) (Cha), Profession (Wis), Ride (Str), Sense Motive (Wis), and Survival (Wis).</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp.) In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Skill Ranks Per Level:</strong> 6 + Int modifier</p>\n<h1>Class Features</h1>\n<strong>The Warrior Poet</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Ref Save</th>\n<th>Will Save</th>\n<th>Special</th>\n<th>Number of Haiku</th>\n<th>\"On\" per Subject</th>\n<th>Prayers Known</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+0</td>\n<td>+2</td>\n<td>+2</td>\n<td>Haiku, insightful performance, orate haiku, talismans</td>\n<td>2 (+1/3 Starting Wis Mod)</td>\n<td>1</td>\n<td>2</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+0</td>\n<td>+3</td>\n<td>+3</td>\n<td>Alternate inflection - 2/day</td>\n<td>2</td>\n<td>1</td>\n<td>3</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+2</td>\n<td>+1</td>\n<td>+3</td>\n<td>+3</td>\n<td>-</td>\n<td>2</td>\n<td>2</td>\n<td>3</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+3</td>\n<td>+1</td>\n<td>+4</td>\n<td>+4</td>\n<td>Omamori edge</td>\n<td>2</td>\n<td>2</td>\n<td>4</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+3</td>\n<td>+1</td>\n<td>+4</td>\n<td>+4</td>\n<td>Cutting blade - +1d2</td>\n<td>3</td>\n<td>2</td>\n<td>4</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+4</td>\n<td>+2</td>\n<td>+5</td>\n<td>+5</td>\n<td>Alternate inflection - 3/day</td>\n<td>3</td>\n<td>2</td>\n<td>5</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+5</td>\n<td>+2</td>\n<td>+5</td>\n<td>+5</td>\n<td>-</td>\n<td>3</td>\n<td>2</td>\n<td>5</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+6/+1</td>\n<td>+2</td>\n<td>+6</td>\n<td>+6</td>\n<td>Accurate omamori - +1</td>\n<td>3</td>\n<td>3</td>\n<td>6</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+6/+1</td>\n<td>+3</td>\n<td>+6</td>\n<td>+6</td>\n<td>Cutting blade - +1d4</td>\n<td>3</td>\n<td>3</td>\n<td>6</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+7/+2</td>\n<td>+3</td>\n<td>+7</td>\n<td>+7</td>\n<td>Alternate inflection - 4/day</td>\n<td>3</td>\n<td>3</td>\n<td>7</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+8/+3</td>\n<td>+3</td>\n<td>+7</td>\n<td>+7</td>\n<td>-</td>\n<td>4</td>\n<td>3</td>\n<td>7</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+9/+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>+8</td>\n<td>Accurate omamori - +2</td>\n<td>4</td>\n<td>3</td>\n<td>8</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+9/+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>+8</td>\n<td>Cutting blade - +2d2</td>\n<td>4</td>\n<td>4</td>\n<td>8</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+10/+5</td>\n<td>+4</td>\n<td>+9</td>\n<td>+9</td>\n<td>Alternate inflection - 5/day</td>\n<td>4</td>\n<td>4</td>\n<td>9</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+11/+6</td>\n<td>+5</td>\n<td>+9</td>\n<td>+9</td>\n<td>-</td>\n<td>4</td>\n<td>4</td>\n<td>9</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+12/+7</td>\n<td>+5</td>\n<td>+10</td>\n<td>+10</td>\n<td>Accurate omamori - +3</td>\n<td>4</td>\n<td>4</td>\n<td>10</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+12/+7</td>\n<td>+5</td>\n<td>+10</td>\n<td>+10</td>\n<td>Cutting blade - +2d4</td>\n<td>5</td>\n<td>4</td>\n<td>10</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+13/+8</td>\n<td>+6</td>\n<td>+11</td>\n<td>+11</td>\n<td>Alternate inflection - 6/day</td>\n<td>5</td>\n<td>5</td>\n<td>11</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+14/+9</td>\n<td>+6</td>\n<td>+11</td>\n<td>+11</td>\n<td>-</td>\n<td>5</td>\n<td>5</td>\n<td>11</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+15/+10</td>\n<td>+6</td>\n<td>+12</td>\n<td>+12</td>\n<td>O-fudamori</td>\n<td>5</td>\n<td>5</td>\n<td>12</td>\n</tr>\n</tbody></table>\n<p>The following are all class features of the warrior poet.</p>\n<h2>Weapon Proficiency</h2>\n<p>The warrior poet is proficient with simple and martial weapons.</p>\n<h2>Armor and Shield Proficiency</h2>\n<p>The warrior poet is proficient with light armor, as well as shields, but not tower shields. A warrior poet who is wearing armor or wielding a shield with which he is not proficient cannot orate haiku, and any ongoing haiku ends immediately.</p>\n<h2>Haiku</h2>\n<p>A warrior poet's primary source of power stems from his understanding of the juxtaposition inherent in haiku poetry. In its traditional form, the haiku compares two quantities, or subjects, found in nature, then uses one of seventeen kireji, or cutting words, to execute the juxtaposition in a specific way.</p>\n<p>For our purposes, a haiku is a piece of poetry containing two subjects to be compared and a kireji to direct the comparison. Subjects are themselves made up of topics, which are individual ideas found in nature, like a frog, the noonday sun, or the way a boar glares right before it makes somebody’s life miserable. Topics and kirejis are drawn from the warrior poet’s poetry book. A warrior poet begins play with two haiku, plus additional haiku equal to his Wisdom modifier / 3 (rounded down, minimum +0). Each subject in a haiku has an allowance of 1 “on”, or syllable, which dictates how many topics each subject can accept. A haiku must contain exactly two subjects and one kireji. At 3rd level and every five levels thereafter, a warrior poet's increasing mastery over poetry increases the “on” allowance of each of his subjects by +1 (max 5 at 18th level), thus allowing him to add additional topics to each of his subjects. At 5th level and every 6 levels thereafter, a warrior poet receives an additional haiku, for a total of 5 haiku at 17th level.</p>\n<p>To prepare or use a haiku, a warrior poet must have a Wisdom score equal to at least 12 + the “on” allowance of his subjects. The Difficulty Class (DC) for a saving throw against a warrior poet's haiku is 10 + 1/2 the warrior poet's class level + the warrior poet's Wisdom modifier.</p>\n<h4>Composition</h4>\n<p>A warrior poet must get 8 hours of sleep and study his poetry book for 1 hour in order to change his haiku. A warrior poet does not need to study his poetry book each day to refresh his daily uses of the orate haiku class feature (see below). Rather, in order to refresh his daily uses of the orate haiku class feature, a warrior poet need only get 8 hours of sleep each night. In essence, a warrior poet need not study his poetry book at all if he is happy with his current haiku selection. Further, if separated from his poetry book, a warrior poet can continue to use the haiku he has already prepared until he is reunited with it.</p>\n<p>A warrior poet begins play with a poetry book containing 3 kireji. Further, his poetry book also begins play with topics equal to 2 + the warrior poet's Wisdom modifier, minimum 2. At each new warrior poet level, a warrior poet gains two of any combination of topics or kireji for which he meets all of the prerequisites. See <a href=\"http://spheresofpower.wikidot.com/poetry-book\">Poetry Book</a> for a listing of available subjects and kireji.</p>\n<p>At any time, a warrior poet may copy topics and kireji, found in other poetry books to his own. Given the nature of a warrior poet’s art, special inks and paper are required. The special paper is, luckily, identical to that found in wizard spellbooks, thus allowing a warrior poet to buy a spellbook and scrawl poetry book on the front cover. Further, any magic items designed to record wizard spells can record kireji and topics without a problem. The ink cost to record a kireji or topic is equal to 100 gp times the effective minimum level of what is being recorded. For example, a kireji that requires 4 ranks in a skill effectively requires a minimum level of 4th and costs 400 gp to record. Kireji and topics take up a single page each in the poetry book.</p>\n<p>Specialty stores are known to carry kireji and topics in convenient folios. Given the high cost of copying these to a primary poetry book after purchase, many experienced warrior poets are known to have a small library on their person. The market price of these folios is 150 gp times the effective minimum level of the kireji or topic. A folio of effective minimum level 10 or under weighs 1 pound, while a folio of effective minimum level 11 and above weighs 2 pounds.</p>\n<h2>Insightful Performance (Ex)</h2>\n<p>At 1st level, a warrior poet has learned to approach poetry from both an intellectual standpoint and an emotional standpoint. If a warrior priest's Wisdom modifier is greater than his Charisma modifier, he adds his Wisdom modifier to his ranks in the Perform (oratory) skill to calculate his skill modifier. If done, this replaces the addition of his Charisma modifier to calculate his Perform skill modifier.</p>\n<h2>Orate Haiku (Su)</h2>\n<p>At 1st level, a warrior poet has learned how to orate his haiku in such a way that he unleashes the magic inherent in their juxtaposition. Each individual haiku can be orated for a number of rounds per day equal to a warrior poet's ranks in the Perform (oratory) skill + his Wisdom modifier.</p>\n<h4>Haiku Performance and Maintenance</h4>\n<p>Starting to orate a haiku is a move action, but it can be maintained each round as a free action. When a warrior poet starts to orate a haiku, he chooses one of the haiku’s two subjects to orate first. The effects of that subject’s topics start immediately and persist for the duration of the oration, or until the warrior poet executes the haiku’s kireji.</p>\n<p>A warrior poet can end a performance in one of two ways. He can simply stop orating as a free action, or, when performing a kireji, he may choose to stop orating.</p>\n<p>Orating a haiku cannot be disrupted, but it ends immediately if the warrior poet is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a free action to maintain it each round. A warrior poet cannot have more than one haiku in effect at one time.</p>\n<h4>The Kireji</h4>\n<p>Whenever the warrior poet makes a full-attack action or an attack action (but not an attack of opportunity), he may declare any of those attacks to be the literal cut in his cutting word, his kireji. The declared attack gains the benefits of his currently-orated haiku’s kareji, which may empower the poet, empower the attack itself, or produce an entirely unrelated effect.</p>\n<p>When the warrior poet executes his kireji, all of the effects of the haiku’s currently-orated subject stop immediately, and the effects of the other subject’s topics begin and persist for the duration of the oration, or until he uses his kireji again. In this way, the warrior poet uses his cutting words to flip back and forth between his subjects, drawing power from the juxtaposition between them.</p>\n<p>A warrior poet may only execute a single kireji per round.</p>\n<h2>Talismans (Su)</h2>\n<p>Practitioners of onmyōdō are known for their connection with the spirits that populate the world, and one of the most iconic interactions the material has with the spiritual is the manufacture of talismans fueled by the supernatural power of these spirits. Talismans are small tokens, usually made of cloth, paper, or wood, that have been decorated with glyphs showing the provenance of its source of power, and filled with one or more prayers that give that power direction.</p>\n<p>A warrior poet begins play with two prayers for which he meets all of the prerequisites. At 2nd level and every two warrior poet levels thereafter, he gains an additional prayer for which he meets all of the prerequisites.</p>\n<p>Talismans come in two flavors: ofuda and omamori. When placing a talisman (see the individual listings for ofuda and omamori talismans), the warrior poet selects a single prayer that he knows that is compatible with the chosen type of talisman. For its duration, the talisman elicits the chosen prayer's effect.</p>\n<p>To place a talisman, a warrior poet must have one hand free and a Wisdom score equal to at least 10 + 1/2 the effective minimum level of the prayer added to the talisman. For example, a prayer that requires 4 ranks in a skill effectively requires a minimum level of 4th. Each day, a warrior poet can place a number of talismans equal to his warrior poet level + hisWisdom modifier.</p>\n<p>Both ofuda and omamori talismans never allow saving throws. A talisman has hardness equal to the warrior poet’s Wisdom modifier and hit points equal to three times the warrior poet’s class level. Melee attacks made against an ofuda talisman are made automatically successful, while melee attacks made against an omamori talisman are automatically successful if the subject of the talisman is willing to have its talisman struck; otherwise, the attack is made against the touch AC of the subject +2. Ranged attacks are made against an AC of 9 if the target is an ofuda talisman or an omamori talisman worn by a willing subject, or made against the touch AC of the subject +2 if the subject is unwilling. If a talisman is reduced to 0 hit points, it is destroyed and its effects end immediately; otherwise, a talisman has a duration of 3 rounds + 1 round per warrior poet level.</p>\n<h4>Ofuda</h4>\n<p>Ofuda talismans were originally designed to ward entire households at once, keeping out evil spirits and bad luck, or promoting fortune and cheer within its boundaries. Taken out of its traditional home and made a tool for the adventuring practitioner of onmyōdo, ofuda talismans are the gold standard for area warding.</p>\n<p>When an ofuda talisman is placed on a solid surface in an unoccupied 5foot square the warrior poet threatens, a standard action, it affects a 10foot radius centered on the talisman. Once placed, an ofuda becomes affixed to that surface and cannot be moved unless it is destroyed.</p>\n<h4>Omamori</h4>\n<p>Omamori talismans were originally designed for personal protection, and this translates well to the adventuring profession. When an omamori talisman is placed on a creature occupying a square the warrior poet threatens, a standard action, it affects just that creature. If the creature is not a willing recipient, then the warrior poet must make a melee touch attack. If successful, the talisman is affixed to the subject and cannot be removed unless it is destroyed. A failed melee touch attack provokes attacks of opportunity, but does not consume a daily talisman use.</p>\n<h2>Alternate Inflection (Su)</h2>\n<p>At 2nd level, the warrior poet learns how to twist the meaning of his poetry by interjecting a different kireji at the last moment. He gains an inflection. An inflection is like a haiku, except that it has a kireji and no subjects. Whenever the warrior poet would execute a kireji, he may use the kireji native to the haiku he is orating, or he may execute the kireji prepared in his inflection.</p>\n<p>The warrior poet may execute his inflection up to twice per day, plus an additional time per day at 6th level and every four warrior poet levels thereafter (max 6 uses at 18th level).</p>\n<h2>Omamori Edge (Ex)</h2>\n<p>Starting at 4th level, the warrior poet gains the ability to place an omamori talisman onto a weapon as though it were a willing creature. This is a standard action that consumes one of the warrior poet’s daily uses of the talisman class feature; however, the placed talisman is inactive. While inactive, it elicits no effect and does not consume its limited duration. A weapon may only have a single omamori talisman placed upon it in this manner at any one time.</p>\n<p>As a swift action, the warrior poet may attack with a weapon upon which he has placed an inactive omamori talisman. On a successful hit, the inactive talisman is placed upon the struck creature and activates. On a failed attack, if the attack was a melee attack, the talisman remains inactive on the weapon; however, if the failed attack was a ranged attack, the inactive talisman launches with the ammunition and must be retrieved if a second attempt to activate it is desired. If the fired ammunition is destroyed on impact, then the talisman is also lost.</p>\n<p>Only attacks made using omamori edge can move the placement of an inactive talisman from a weapon to a creature. If the warrior poet attacks a willing creature with omamori edge (perhaps in an attempt to place a talisman quickly), he may withhold his weapon’s enhancement bonus to damage, as well as any positive ability modifiers to his damage roll.</p>\n<h2>Cutting Blade (Ex)</h2>\n<p>Starting at 5th level, the base damage dice of any weapon the warrior poet wields while orating increases by +1d2. For example, a dagger becomes 1d4+1d2, a greatsword becomes 2d6+1d2, and so on. This increases to +1d4 at 9th level, +2d2 at 13th level, and +2d4 at 17th level. As base damage dice, they are multiplied on critical hits, have their damage type(s) determined by the damage type(s) of the weapon wielded, and are subject to damage reduction.</p>\n<h2>Accurate Omamori (Ex)</h2>\n<p>Starting at 8th level, the warrior poet gains a +1 bonus to attack rolls made to deliver a talisman using the omamori edge class feature. This increases by +1 at 12th level and 16th level, to a maximum of a +3 bonus.</p>\n<h2>Ofudamori (Su)</h2>\n<p>At 20th level, whenever the warrior poet places an ofuda talisman, he may treat it as an omamori talisman for the purpose of its prayer. In all other respects, it is still an ofuda talisman. In essence, this means that the warrior poet's o-fudamori talisman has the area of effect of an ofuda and the raw power of an omamori.</p>\n<p>This ability may be used three times per day, and can only be used if the ofuda's prayer is compatible with both ofuda and omamori talismans.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/warrior-poet\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 6,
+    "savingThrows": {
+      "fort": {
+        "value": "low"
+      },
+      "ref": {
+        "value": "high"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "alignment": "Any. Though the discipline needed to bottle emotion and unleash it in a controlled fashion tends to cause warrior poets to lean away from the Chaotic, there are absolute madcaps out there who assure their peers that said discipline is strictly optional should sufficient passion be available.",
+    "wealth": "3d6 * 10",
+    "classSkills": {
+      "acr": true,
+      "blf": true,
+      "crf": true,
+      "dip": true,
+      "int": true,
+      "khi": true,
+      "kna": true,
+      "kno": true,
+      "kpl": true,
+      "kre": true,
+      "lin": true,
+      "prf": true,
+      "pro": true,
+      "rid": true,
+      "sen": true,
+      "sur": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/warrior-poet"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

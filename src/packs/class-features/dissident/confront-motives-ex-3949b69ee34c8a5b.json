@@ -1,0 +1,121 @@
+{
+  "_id": "3949b69ee34c8a5b",
+  "_key": "!items!3949b69ee34c8a5b",
+  "name": "Dissident: Confront Motives (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:dissident:spheres-of-guile:class-feature:confront-motives-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/dissident#toc21",
+      "sourceSha256": "626be1b7398242ba3e0b08f70e805e39abc0faad11336cb9c07e55518e6f2ce6",
+      "descriptionSha256": "a77cec0198f1ab677ed3e0babe7ffb368d6fdf2062503ef1b2b0c6586250f60b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:dissident:spheres-of-guile:class-feature:confront-motives-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>The dissident has come to terms with her struggle in a way that offers her unique insights into the ordeals of others.</em></p>\n<p>At 8th level, the dissident can invoke a creature’s motivation as a standard action to either reinforce or undermine it.</p>\n<ul>\n<li><strong>Reinforce:</strong> For 1 minute, the creature gains a +2 morale bonus to all saving throws and skill checks, in addition to a number of temporary hit points equal to the dissident's class level.</li>\n<li><strong>Undermine:</strong> The creature must attempt a Will saving throw (DC 10 + 1/2 her dissident level + her operative modifier). On a failed save, the creature becomes shaken, livid, or shocked (chosen when she uses this ability), and takes a -2 penalty to saving throws against (and to the skill check DC of) any ability that invokes one of their motivations for 10 minutes. Additionally, the next time that the undermined motivation is invoked during this time, it is treated as though it were a major motivation (if it was a minor motivation); if it was already a major motivation, the creature becomes shaken, livid, or shocked for the remaining duration (chosen by the creature invoking the motivation). On a successful save, the creature instead becomes shaken, livid, or shocked for 1 round.</li>\n</ul>\n<p>Once a creature is affected by this ability, they become immune to its effects for 24 hours; the dissident can spend 1 spell point when using this ability to ignore this restriction.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/dissident#toc21\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/dissident#toc21"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "_id": "0aac76650356b271",
+  "_key": "!items!0aac76650356b271",
+  "name": "Wunderkind",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:wunderkind:current:class:wunderkind",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/wunderkind",
+      "sourceSha256": "8320ca50a806511bbe06ebf440a5bbe414240e021264815d1f6905707926af73",
+      "descriptionSha256": "5e71fe8ce443628794f0bcb34ca81e6deaf2404fde6de201c8c0968a78ad384e",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:wunderkind:current:class:wunderkind",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Wiki Note:</strong> This archetype is from Worlds of Power, and is not part of the normal options available to Spherecasters. Some of its formatting has been updated for consistency. In addition, it is different enough from the base version that it is effectively an Alternate Class, rather than an Archetype, so GMs are encouraged to thoroughly read it and ensure they know how it works prior to permitting it in their games.</p>\n<hr>\n<p>The Wunderkind are even closer to the fey realm than most of their kind - although whether this is a blessing or a curse depends on who you ask…</p>\n<h1>Class Features</h1>\n<strong>Table: The Wunderkind</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Ref Save</th>\n<th>Will Save</th>\n<th>Special</th>\n<th>Base Caster Level</th>\n<th>Talents</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+0</td>\n<td>+0</td>\n<td>+2</td>\n<td>Casting, Spell pool, Emotive Magic, Fey Aura, Persistent Illusions</td>\n<td>+1</td>\n<td>1 (+2)</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+0</td>\n<td>+0</td>\n<td>+3</td>\n<td>Fey Will</td>\n<td>+2</td>\n<td>2</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+1</td>\n<td>+1</td>\n<td>+1</td>\n<td>+3</td>\n<td>Emotion</td>\n<td>+3</td>\n<td>3</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+2</td>\n<td>+1</td>\n<td>+1</td>\n<td>+4</td>\n<td>The Sight (1/day)</td>\n<td>+4</td>\n<td>4</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+2</td>\n<td>+1</td>\n<td>+1</td>\n<td>+4</td>\n<td>Emotion</td>\n<td>+5</td>\n<td>5</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+3</td>\n<td>+2</td>\n<td>+2</td>\n<td>+5</td>\n<td>Mingling Realities</td>\n<td>+6</td>\n<td>6</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+3</td>\n<td>+2</td>\n<td>+2</td>\n<td>+5</td>\n<td>Emotion</td>\n<td>+7</td>\n<td>7</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+4</td>\n<td>+2</td>\n<td>+2</td>\n<td>+6</td>\n<td>The Sight (2/day)</td>\n<td>+8</td>\n<td>8</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+4</td>\n<td>+3</td>\n<td>+3</td>\n<td>+6</td>\n<td>Emotion</td>\n<td>+9</td>\n<td>9</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+5</td>\n<td>+3</td>\n<td>+3</td>\n<td>+7</td>\n<td>Fey Step</td>\n<td>+10</td>\n<td>10</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+5</td>\n<td>+3</td>\n<td>+3</td>\n<td>+7</td>\n<td>Emotion</td>\n<td>+11</td>\n<td>11</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+6/1</td>\n<td>+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>Mingling Realities (improved), The Sight (3/day)</td>\n<td>+12</td>\n<td>12</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+6/1</td>\n<td>+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>Emotion</td>\n<td>+13</td>\n<td>13</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+7/2</td>\n<td>+4</td>\n<td>+4</td>\n<td>+9</td>\n<td>Fey Resistance</td>\n<td>+14</td>\n<td>14</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+7/2</td>\n<td>+5</td>\n<td>+5</td>\n<td>+9</td>\n<td>Emotion</td>\n<td>+15</td>\n<td>15</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+8/3</td>\n<td>+5</td>\n<td>+5</td>\n<td>+10</td>\n<td>The Sight (4/day)</td>\n<td>+16</td>\n<td>16</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+8/3</td>\n<td>+5</td>\n<td>+5</td>\n<td>+10</td>\n<td>Emotion</td>\n<td>+17</td>\n<td>17</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+9/4</td>\n<td>+6</td>\n<td>+6</td>\n<td>+11</td>\n<td>Mingling Realities (improved)</td>\n<td>+18</td>\n<td>18</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+9/4</td>\n<td>+6</td>\n<td>+6</td>\n<td>+11</td>\n<td>Master of Emotion</td>\n<td>+19</td>\n<td>19</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+10/5</td>\n<td>+6</td>\n<td>+6</td>\n<td>+12</td>\n<td>Taken by the Fey, Permanent Illusions, The Sight 5/day</td>\n<td>+20</td>\n<td>20</td>\n</tr>\n</tbody></table>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (Average 105 gp) In addition, each character begins with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The wunderkind’s class skills are Bluff (Cha), Craft (Int), Diplomacy (Cha), Disguise (Cha), Fly (Dex), Intimidate (Cha), Knowledge (Arcana; Int), Knowledge (Geography; Int), Knowledge (Local; Int), Knowledge (Nature; Int), Knowledge (Nobility; Int), Perform (Cha), Profession (Wis), Sense Motive (Wis), and Spellcraft (Int).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier</p>\n<p><strong>Weapon and Armor Proficiency:</strong> The wunderkinder is proficient with simple weapons and light armor.</p>\n<h2>Casting (Su)</h2>\n<p>A wunderkind may combine spheres and talents to create magical effects. A wunderkind is considered a High-Caster, and uses Charisma as her casting ability modifier. (Note: all casters gain 2 bonus talents and may refine their tradition the first time they gain the casting class feature. Wunderkinder begin with the Wild Magic and Magical Signs drawbacks (as described in her ability descriptions), as well as the Easy Focus boon.</p>\n<h2>Spell Pool</h2>\n<p>A wunderkind gains a small reservoir of energy she can call on to create truly wondrous effects, called a spell pool. This pool contains a number of spell points equal to her level + her Charisma modifier (minimum 1). This pool replenishes once per day after roughly 8 hours of rest.</p>\n<h2>Magic Talents</h2>\n<p>A wunderkind gains a magic talent every level, according to Table: The Wunderkind.</p>\n<h2>Emotive Magic</h2>\n<p>A wunderkind’s connection to the Fey Realm comes from her emotions. This manifests in the form of a single powerful emotion that dominates all others. For example, the wunderkind’s first exposure to her powers was likely when she was exceptionally angry, sad, or joyful. Notwithstanding it being the source of her power, a wunderkind’s dominant emotion also stands to throw her magic into chaos if she ever loses control.</p>\n<p>At character creation, the wunderkind chooses a dominant emotion: Serenity, Courage, Enmity, Fear, Grief, Joy, Love, or Rage. This decision must be made at character creation and cannot be changed. Each time the wunderkind spends a spell point, there is a 10% chance that wild magic manifests. If it does, she must roll on Table: Wild Magic Effects for her dominant emotion. As wild magic effects occur when the wunderkind uses a spell point, the wild magic takes effect prior to any other effects (each treated separately). Wild magic does not interrupt or prevent any other effects that might occur due to the spell point being spent, but it might make things easier or harder, depending on the emotion!</p>\n<p>Creatures within the wunderkind’s Fey Aura are allowed a Will save to ignore her wild magic effects. The DC for this save is equal to 10 + 1/2 the wunderkind’s level + the wunderkind’s Charisma modifier. A wunderkind is never subjected to the effects of her own wild magic.</p>\n<strong>Table: Wild Magic Effects</strong>\n<table>\n<tbody><tr>\n<th>Serenity Wild Magic Effect</th>\n</tr>\n<tr>\n<td>1–25% All in your Fey Aura are stunned for 1 round</td>\n</tr>\n<tr>\n<td>26–50% All in your Fey Aura are dazed for 1 round</td>\n</tr>\n<tr>\n<td>51–75% All in your Fey Aura are staggered for 1 round</td>\n</tr>\n<tr>\n<td>76–100%+ All foes in your Fey Aura are stunned for 1 round</td>\n</tr>\n<tr>\n<th>Courage Wild Magic Effect</th>\n</tr>\n<tr>\n<td>1–25% All in your Fey Aura get +3 atk and saves vs. fear for 1 round</td>\n</tr>\n<tr>\n<td>26–50% All in your Fey Aura get +2 atk and saves vs. fear for 1 round</td>\n</tr>\n<tr>\n<td>51–75% All in your Fey Aura get +1 atk and saves vs. fear for 1 round</td>\n</tr>\n<tr>\n<td>76–100%+ All allies in your Fey Aura get +3 atk and saves vs. fear for 1 round</td>\n</tr>\n<tr>\n<th>Enmity Wild Magic Effect</th>\n</tr>\n<tr>\n<td>1–25% All in your Fey Aura treat others at -3 attitude for 1 round</td>\n</tr>\n<tr>\n<td>26–50% All in your Fey Aura treat treat others at -2 attitude for 1 round</td>\n</tr>\n<tr>\n<td>51–75% All in your Fey Aura treat treat others at -1 attitude for 1 round</td>\n</tr>\n<tr>\n<td>76–100%+ All foes in your Fey Aura treat others at -3 attitude for 1 round</td>\n</tr>\n<tr>\n<th>Fear Wild Magic Effect</th>\n</tr>\n<tr>\n<td>1–25% All in your Fey Aura are panicked for 1 round</td>\n</tr>\n<tr>\n<td>26–50% All in your Fey Aura are frightened for 1 round</td>\n</tr>\n<tr>\n<td>51–75% All in your Fey Aura are shaken for 1 round</td>\n</tr>\n<tr>\n<td>76–100%+ All foes in your Fey Aura cower for 1 round</td>\n</tr>\n<tr>\n<th>Grief Wild Magic Effect</th>\n</tr>\n<tr>\n<td>1–25% All in your Fey Aura fall prone from overwhelming sadness</td>\n</tr>\n<tr>\n<td>26–50% All in your Fey Aura are nauseated for 1 round</td>\n</tr>\n<tr>\n<td>51–75% All in your Fey Aura are sickened for 1 round</td>\n</tr>\n<tr>\n<td>76–100%+ All foes in your Fey Aura fall prone from overwhelming sadness</td>\n</tr>\n<tr>\n<th>Joy Wild Magic Effect</th>\n</tr>\n<tr>\n<td>1–25% All in your Fey Aura get +3 to next d20 roll for 1 round</td>\n</tr>\n<tr>\n<td>26–50% All in your Fey Aura get +2 to next d20 roll for 1 round</td>\n</tr>\n<tr>\n<td>51–75% All in your Fey Aura get +1 to next d20 roll for 1 round</td>\n</tr>\n<tr>\n<td>76–100%+ All allies in your Fey Aura get +3 to next d20 roll for 1 round</td>\n</tr>\n<tr>\n<th>Love Wild Magic Effect</th>\n</tr>\n<tr>\n<td>1–25% All in your Fey Aura treat others at +3 attitude for 1 round</td>\n</tr>\n<tr>\n<td>26–50% All in your Fey Aura treat others at +2 attitude for 1 round</td>\n</tr>\n<tr>\n<td>51–75% All in your Fey Aura treat others at +1 attitude for 1 round</td>\n</tr>\n<tr>\n<td>76–100%+ All foes in your Fey Aura treat you at +3 attitude for 1 round</td>\n</tr>\n<tr>\n<th>Rage Wild Magic Effect</th>\n</tr>\n<tr>\n<td>1–25% All in your Fey Aura rage and attack an ally for 1 round</td>\n</tr>\n<tr>\n<td>26–50% All in your Fey Aura are confused and rage for 1 round</td>\n</tr>\n<tr>\n<td>51–75% All in your Fey Aura are confused for 1 round</td>\n</tr>\n<tr>\n<td>76–100%+ All foes in your Fey Aura rage and attack an ally for 1 round</td>\n</tr>\n</tbody></table>\n<h2>Fey Aura</h2>\n<p>A wunderkind acts as a conduit through which the Fey Realm can influence the Material Plane. At 1st level the wunderkind gains the Illusion sphere as a bonus magic talent and an aura of Fey influence with a radius of 30 feet, centered on her. In its most harmless manifestations, this aura creates glimpses of the Fey Realm as colored by the wunderkind’s present mood. At its strongest, the wunderkind’s merest whim becomes reality.</p>\n<p>A wunderkind’s Fey Aura constantly manifests a shifting reality around her, creating random effects—as per the trick ability from the Illusion sphere—as appropriate for the wunderkind’s personality and mood (determined by the GM). Thus, when enjoying a pleasant day a wunderkind’s Fey Aura might manifest shining fairy lights, the smell of freshly-baked muffins, or sounds of a babbling brook. When grieved it might instead cause her to appear emaciated, smell like rotting meat, or be haunted by the sound of distant pained wails. These signs intensify when the wunderkind uses magic, becoming easily noticeable to anyone within her Fey Aura.</p>\n<p>A wunderkind’s Fey Aura can be detected by the base divine talent from the Divination sphere. Wunderkinder cannot naturally suppress this aura, but it can be hidden or altered by Manipulate Aura (Illusion).</p>\n<h2>Persistent Illusions</h2>\n<p>Whenever the wunderkind ceases to concentrate on an illusion she is maintaining through concentration, or if she decides not to maintain an illusion at all after its creation, it remains for a number of rounds equal to 1/2 her wunderkind level (minimum 1) before disappearing.</p>\n<h2>Fey Will</h2>\n<p>A wunderkinder bows to no will but her own. At 2nd level, the wunderkind gains a +2 bonus on Will saving throws to resist talents from the Mind sphere. In addition, if she fails such a save, she receives another save 1 round later to prematurely end the effect (assuming it has a duration greater than 1 round). This second save is made at the same DC as the first. If the wunderkind has a similar ability from another source (such as a rogue’s slippery mind class feature or the stubborn racial trait), she can only use one of these abilities per round, but can try the other on the next round if the previous reroll ability fails.</p>\n<h2>Emotion</h2>\n<p>At 3rd level, the wunderkind begins to affect the very fabric of the Material Plane through sheer force of will. She gains a pool of reality points equal to her Charisma modifier + 1/2 her wunderkind level. The wunderkind chooses an emotion from those listed in the eliciter class description from Spheres of Power, gaining the minor power associated with that emotion. Any emotion power with ‘touch’ in the name costs 1 reality point to activate. Whenever you activate a lesser emotion power you may spend up to 3 reality points to increase the range; one reality point increases the range from touch to close, two increases it from close to medium, and 3 increases it from medium to long.</p>\n<p>At 5th level and every odd level thereafter, the wunderkind may choose to gain the minor power of a new emotion, or gain access to the next level of an emotion she already possesses (lesser, greater, and master). A wunderkind cannot gain a lesser power before 5th level, a greater power before 7th level, or a master power before 9th level. All emotions are mind-affecting effects. If an emotion calls for a saving throw, the DC is equal to 10 + 1/2 the wunderkind’s level + the wunderkind’s Charisma modifier.</p>\n<p>Each time the wunderkind gains a power from her dominant emotion, the chance that wild magic manifests when she spends a spell point permanently increases by 5%. This stacks with itself and represents the wunderkind’s indulgence in the uncontrollable side of her magic.</p>\n<p>Each time the wunderkind gains a power from her tempering emotion (see below), she gains a permanent +5% bonus to all rolls on Table: Wild Magic Effects (maximum 100). This bonus stacks with itself and represents the emotional training the wunderkind has done to keep herself in control of her magic. For the purposes of this effect, serenity tempers rage, courage tempers fear, enmity tempers love, and grief tempers joy (and vice versa).</p>\n<p>The wunderkind can choose from any emotion listed in the eliciter class, using her wunderkind level as her eliciter level for this purpose.</p>\n<h2>The Sight</h2>\n<p>Once per day at 4th level a wunderkind may grant herself the ability to see all things as they truly are to a range of 120 feet for 1 round per level. The wunderkind sees through magical darkness, notices secret doors hidden by magic, sees the exact locations of creatures or objects under blur or displacement effects, sees invisible creatures or objects normally, succeeds at all saving throws against illusions and sees through them naturally, and sees the true form of polymorphed, changed, or transmuted things. The wunderkind may use this ability an additional time per day for every 4 levels beyond 4th, to a maximum of 5 times at 20th level.</p>\n<p>This does not allow the wunderkind to see through mundane disguises, non-magical means of hiding things, fog, or other such effects. This cannot be combined with other magic that enhances the senses, such as a crystal ball.</p>\n<h2>Mingling Realities</h2>\n<p>At 6th level, a wunderkind may spend a reality point in conjunction with one of her Illusion talents to will a part of the illusion into being, effectively permitting a portion of the Fey Realm to cross over into the Material Plane for a brief time. This functions as the Create Reality ability from the fey adept class from Spheres of Power, and improves at 12th and 18th levels, as normal.</p>\n<h2>Fey Step</h2>\n<p>At 10th level, the wunderkind may step into a pocket of the Fey Realm as per the Extradimensional Room talent from the Warp sphere, except that while she is there the trick effects of her Fey Aura fill the extradimensional space (regardless of the Aura’s normal radius). As a standard action, and without spending a spell point, she may allow the space to remain for up to 1 round per caster level regardless of whether or not she is inside it. 1d4 nights after using this ability, a 5 ft. diameter ring of red toadstools appears on the ground where this ability was used.</p>\n<h2>Fey Resistance</h2>\n<p>At 14th level, the wunderkind has been in contact with the Fey Realm for so long that she gains DR 5/cold iron and a +1 luck bonus on all saving throws.</p>\n<h2>Master of Emotion</h2>\n<p>At 19th level, the wunderkind has developed such mastery over her emotions that she is no longer affected by mind-affecting effects, and she never rolls for wild magic when she spends a spell point. Instead, the wunderkind may choose which wild magic effect from her dominant emotion occurs, or none at all. If she chooses, she may also be affected by her own wild magic.</p>\n<h2>Taken by the Fey</h2>\n<p>At 20th level, a wunderkind is treated as a fey rather than as a humanoid (or whatever the wunderkind’s creature type was) for the purpose of spells and magical effects. She also gains DR 10/cold iron, and a +2 luck bonus on all saving throws.</p>\n<h2>Permanent Illusions</h2>\n<p>At 20th level, the wunderkind can make one of her illusions permanent. Only one illusion may be made permanent in this way at one time. If another illusion is designated as permanent, the previous permanent illusion ends. In addition, as long as the wunderkind maintains an illusion as permanent her Fey Aura never manifests trick effects.</p>\n<hr>\n<p><sup><strong>U:</strong> Part of Ultimate Spheres of Power and does not need to be bought separately from that book</sup></p>\n<p><a href=\"http://spheresofpower.wikidot.com/wunderkind\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "low",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "low"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "alignment": "Any",
+    "wealth": "3d6 * 10",
+    "classSkills": {
+      "blf": true,
+      "crf": true,
+      "dip": true,
+      "dis": true,
+      "fly": true,
+      "int": true,
+      "prf": true,
+      "pro": true,
+      "sen": true,
+      "spl": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/wunderkind"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

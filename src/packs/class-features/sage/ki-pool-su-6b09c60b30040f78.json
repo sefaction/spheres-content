@@ -1,0 +1,121 @@
+{
+  "_id": "6b09c60b30040f78",
+  "_key": "!items!6b09c60b30040f78",
+  "name": "Sage: Ki Pool (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:sage:current:class-feature:ki-pool-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/sage#toc12",
+      "sourceSha256": "5d23618ff2365a1dc4977d679c08f59ce0ab589391c29325e4557542fffbab57",
+      "descriptionSha256": "45317f995d939811590d89fb2128f8d9dc14e8bdfb94894c4e8bfa19b3f9df5a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:sage:current:class-feature:ki-pool-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, a sage gains a pool of ki points, supernatural energy he can use to accomplish amazing feats. The number of points in a sage’s ki pool is equal to his sage level + his Wisdom modifier. By spending 1 point from his ki pool, a sage can increase his speed by 20 ft. for 1 round. Alternatively, he can spend 1 point from his ki pool to give himself a +4 dodge bonus to AC for 1 round. Each of these powers is activated as a swift action.</p>\n<p>Many esoteries and esoteric training packages require the sage to spend ki points to modify an effect; unless specifically stated otherwise, the sage cannot spend more ki points on an esotery or esoteric training ability than 1 + 1 per 5 class levels he possesses.</p>\n<p>The ki pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive.</p>\n<p><strong>Errata:</strong> This counts as both the casting and spell pool class features; a sage who gains a spell pool from another source calculates their total from both sources into a single pool as normal for a multiclass sphere caster. Sages gain two bonus talents if this is their first level in a casting class and qualify for a unified tradition, applying any appropriate casting limitations to their ki powers (so a sage with a casting tradition that includes the Verbal Casting drawback would apply that limitation to all of their ki powers, not just those that use magic talents).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/sage#toc12\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/sage#toc12"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

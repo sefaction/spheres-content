@@ -68,3 +68,27 @@ Selected equipment rules retain OGL notices from PF1 Content plus the existing
 wiki notice list, which includes Animal Archive. GPL-3.0 is retained for upstream
 record-format contributions; adapted human-reviewable kit JSON ships under
 `sources/items/` as corresponding source. No upstream program code is included.
+
+## Systematic descriptive intake (alpha.4)
+
+`config/intake-sources.json` scopes exact cached page hashes and permitted entity
+kinds for the bulk rules intake. These are selected PF1 rule sections under the
+wiki declaration of applicable non-Product-Identity Open Game Content, not
+permission to republish whole pages or artwork. The existing complete wiki OGL
+notice list is retained. Pages or changed snapshots outside that inventory are
+held for rights review. Legacy, ambiguous and unsupported entries have additional
+independent intake holds. Book and publisher citations are not invented: native
+`system.sources` names the wiki and the specific source link.
+
+Every new entry is a descriptive draft whose extraction and mechanics still
+need auditing. A rights-scope decision does not mark its image, settings, links
+or rules interpretation complete. Generated pilot artwork is preserved. New
+entries use explicitly unfinished core icon references until artwork/reuse
+review; no wiki artwork bytes are copied. Existing compendium matches remain
+recorded for full suitability review before replacing the draft with a reviewed
+copy. No optional module artwork is redistributed.
+
+Empty equipment/consumable/loot field profiles are derived from installed PF1
+11.11 template data. Preserve the existing upstream OGL/GPL notices for adapted
+record data; no upstream program code is copied. Human-reviewable physical item
+sources and the empty profiles accompany the installed module under `sources/`.

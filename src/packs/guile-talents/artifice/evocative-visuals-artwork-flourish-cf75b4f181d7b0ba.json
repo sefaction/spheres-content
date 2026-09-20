@@ -1,0 +1,124 @@
+{
+  "_id": "cf75b4f181d7b0ba",
+  "_key": "!items!cf75b4f181d7b0ba",
+  "name": "Evocative Visuals (artwork, flourish)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:artifice:spheres-of-guile:guile-talent:evocative-visuals-artwork-flourish",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/artifice#toc38",
+      "sourceSha256": "a3a666f8e0af8307f0024100a1bdb6c458a7d34b1b4c37af5a6d0057bdfc9aa7",
+      "descriptionSha256": "53a6e012602bd3cecf5033e045a984ce68d982d2b1dbbd37219b7cf04527faec",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Flourish Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:artifice:spheres-of-guile:guile-talent:evocative-visuals-artwork-flourish",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "artifice"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can create an artwork with any of the following additions:</p>\n<ul>\n<li>Creatures become fascinated and distracted with the artwork for as long as they engage with it.</li>\n<li>The artwork has a ‘trigger’, such as a specific creature, faction, symbol, etc. When a creature engages with this artwork, for the next 24 hours, its effects (including duration) only start when they perceive the chosen trigger.</li>\n</ul>\n<p>Additionally, you gain the following artwork:</p>\n<p><strong>Articulating:</strong> When you create this artwork, choose a single skill use that involves talking with a creature (such as demoralize, insult, perplex, etc) and would take up to the same amount of time as engaging with the artwork. Whenever a creature engages with an artwork, they are subject to the chosen skill use–if it requires a skill check, its check result is equal to 10 + this package’s associated skill modifier (or the skill modifier of the chosen skill, whichever is higher).</p>\n<p><em>Special:</em> If you possess the Bluster or Performance sphere, you can choose a (lyric) or (quip) instead of a skill use. The talent cannot have any costs associated with it, and makes the ability instead rely on the same components as the artwork (usually visual). If the chosen ability requires a saving throw, you can use your Artifice sphere DC or the sphere DC of the chosen talent.</p>\n<p>If you have the Tug The Heartstrings feat, creatures that engage with the artwork are treated as though the chosen motivation were invoked for the purposes of determining the effects of the chosen skill use or sphere ability.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/artifice#toc38\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/artifice#toc38"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

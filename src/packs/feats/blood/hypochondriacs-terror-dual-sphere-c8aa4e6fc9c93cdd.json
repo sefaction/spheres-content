@@ -1,0 +1,121 @@
+{
+  "_id": "c8aa4e6fc9c93cdd",
+  "_key": "!items!c8aa4e6fc9c93cdd",
+  "name": "Hypochondriac’s Terror (Dual Sphere)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:blood:ultimate:feat:hypochondriacs-terror-dual-sphere",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/blood#toc72",
+      "sourceSha256": "ab11eec09b47ca3302d0e9943147e77509a758f7a988b7828b4dd8372ccc3fb7",
+      "descriptionSha256": "58075b8b2e8893753debc981dddca530a1e44e984d9a2f9723159d129c217470",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Blood Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:blood:ultimate:feat:hypochondriacs-terror-dual-sphere",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>When you take over a creature’s bodily functions, you may also blend in your mental manipulation to torture them from the inside out.</p>\n<p><strong>Prerequisites:</strong> Blood sphere, Mind sphere, caster level 5th.</p>\n<p><strong>Benefit:</strong> When you successfully establish blood control on a target, you may spend a spell point as a swift action to manipulate their mind, granting them a Will save against your Mind sphere DC. On failure, their body’s response system is under your control for the duration of the blood control. If used alongside Mass Blood Magic, you may affect any amount of creatures with this feat, but must pay the additional spell point per creature you affect.</p>\n<p>When the creature fails their Will save against this feat, you select an ailment for the creature to suffer from, chosen from the following:</p>\n<ul>\n<li><strong>Fight or Flight:</strong> The target is shaken until the start of their next turn.</li>\n<li><strong>Hallucination:</strong> If you possess the Visions talent, you may cause the creature to suffer as if they failed a save against the Vision lesser charm, but the effects only persist for one round.</li>\n<li><strong>Pustule Burst:</strong> The target suffers nonlethal damage equal to 1d4 + half your caster level with the Blood sphere.</li>\n<li><strong>Queasy:</strong> The target is sickened until the start of their next turn.</li>\n<li><strong>Spasm:</strong> The target moves 5 feet in any direction you choose. You cannot move the target into a square that is intrinsically dangerous or into an obstacle, and the target may still take a 5-foot step afterwards.</li>\n<li><strong>Twitches:</strong> If you possess the Gestures talent, you may cause the creature to suffer as if they failed a save against the Gestures lesser charm, but the effects only persist for one round.</li>\n</ul>\n<p>The target suffers from that ailment at the beginning of each of its turns. You may change the ailment as a free action. Additionally, whenever you successfully use a (still) or (quicken) ability on the target, you may cause them to suffer from an additional ailment for one round.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/blood#toc72\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/blood#toc72"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

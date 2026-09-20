@@ -1,0 +1,121 @@
+{
+  "_id": "34ec82042f3b73c1",
+  "_key": "!items!34ec82042f3b73c1",
+  "name": "Metarcane Pool (Arcana, Metamagic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:jade-feats:current:feat:metarcane-pool-arcana-metamagic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/jade-feats#toc10",
+      "sourceSha256": "4751a841892485d6d59394862dc96c59f92a999d9a9b2c2b817cde23bc457334",
+      "descriptionSha256": "cfb5d01ab1d8caa43b26b1f43fb9e30649a256afd2ca4fce0e70fe9643e4b8ef",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Arcana Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:jade-feats:current:feat:metarcane-pool-arcana-metamagic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can draw power from your arcane pool to empower your spells with metamagic.</p>\n<p><strong>Prerequisites:</strong> One metamagic feat.</p>\n<p><strong>Benefit:</strong> To use this feat, you must expend your arcane focus. As a swift action, you can add the effects an metamagic feat to a spell you are about to cast by spending points from your arcane pool equal to the number of spell levels added by the metamagic feat plus one. For example, if you want to augment a spell with the Maximize Spell feat you must spend 4 points from your arcane pool, but if you want to augment a spell with the Silent Spell feat you only need to spend 2 points. You may use this ability whether you have to prepare spells every day or cast spells spontaneously.</p>\n<p>When augmenting a spell with this feat, you do not raise its effective spell level or DC to resist. You can only augment a spell with one metamagic feat at a time.</p>\n<p>You add 1 point to your arcane pool.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/jade-feats#toc10\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/jade-feats#toc10"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

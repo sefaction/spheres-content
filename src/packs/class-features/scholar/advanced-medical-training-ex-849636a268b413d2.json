@@ -1,0 +1,121 @@
+{
+  "_id": "849636a268b413d2",
+  "_key": "!items!849636a268b413d2",
+  "name": "Scholar: Advanced Medical Training (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:scholar:current:class-feature:advanced-medical-training-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/scholar#toc61",
+      "sourceSha256": "9bb91d76a750a5b15bf9aa5d9cd79857d975095937e57a06ad66c7e37327ff2a",
+      "descriptionSha256": "8f1b400a2f3490e78e03cacd7be696c4299d822faf9f49cb08eb914f119bf3ec",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Abilities",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:scholar:current:class-feature:advanced-medical-training-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>From 5th level on, the scholar’s research has taught her advanced medical techniques for treating certain ailments; the scholar may expend 5 uses of a healer’s kit as a standard action that provokes attacks of opportunity and make a DC 20 Heal check to cure any one of the following conditions affecting a creature: blindness, deafness, paralysis, or poison. For each 10 points by which the scholar exceeds the DC of this check, she may cure an additional condition from the list that the target is suffering as part of the same check. If the scholar has at least 8 ranks in the Heal skill, she may instead use this ability to restore 1 point of ability drain +1 point for every 5 points by which she exceeds this ability’s DC.</p>\n<p>The scholar can only attempt to heal a particular creature with this ability a number of times per day equal to her Intelligence bonus (minimum 1). Attempting to heal a creature but failing to meet the DC of this ability still counts towards this daily total. In addition, the scholar increases healing done by the hit point healing option of the medical training class feature to 2 hit points +2 for each point by which the scholar exceeds the DC, and may activate it as a move action.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/scholar#toc61\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/scholar#toc61"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

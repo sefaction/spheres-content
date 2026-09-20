@@ -1,0 +1,124 @@
+{
+  "_id": "6a062c589c47a8e2",
+  "_key": "!items!6a062c589c47a8e2",
+  "name": "Compound Creation (flourish)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:artifice:spheres-of-guile:guile-talent:compound-creation-flourish",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/artifice#toc35",
+      "sourceSha256": "a3a666f8e0af8307f0024100a1bdb6c458a7d34b1b4c37af5a6d0057bdfc9aa7",
+      "descriptionSha256": "f35d8128421856e4c4543fd7d320fcaef9aef589f86ef9e95d66c5f204fe66a1",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Flourish Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:artifice:spheres-of-guile:guile-talent:compound-creation-flourish",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "artifice"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>When you apply this flourish to an object, you incorporate an additional object + 1 object per 6 ranks in the package’s associated skill to it. All objects must be within three size categories of each other, and cannot be a trinket. Each incorporated object is treated as an individual object for all purposes (except that no other objects can have this flourish), including magic item creation (requiring individual magical weapons to be enchanted separately, as though ends of a double weapon). An object with this flourish weighs as much as the heaviest object incorporated within it. If a shield and weapon are wielded in the same hand, the wielder loses the shield bonus to AC when attacking with this weapon unless the possess Improved Shield Bash or a similar ability.</p>\n<p>The user can spend a move action to switch to a different incorporated object—or as part of the same action to draw a weapon if you possess at least 5 ranks in a package’s associated skill.</p>\n<p>If this flourish is applied to a trinket, the trinket can have +1 function, +1 function per 6 ranks in the package’s associated skill you possess.</p>\n<p>If this flourish receives special maintenance, you can choose to combine two incorporated objects into one to allow both objects to be used concurrently. The two objects generally must have a similar method of use (such as being a held item; a longsword and flute could be combined, but not a set of full plate and a guitar); up to GMs discretion. The combined object combines its total and current hit points, and uses the better of any other statistics the object may possess (such as hardness); when the objects are no longer combined, any damage is split equally between both objects.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/artifice#toc35\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/artifice#toc35"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

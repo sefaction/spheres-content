@@ -1,0 +1,124 @@
+{
+  "_id": "ecdf99fab3209bb3",
+  "_key": "!items!ecdf99fab3209bb3",
+  "name": "Soliloquy Of Rusted Masks (act) (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:performance:spheres-of-guile:guile-talent:soliloquy-of-rusted-masks-act-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/performance#toc69",
+      "sourceSha256": "e87c472686da47048b3d9fcee074982f8ef19002718047ad36360dcfbd01dd3b",
+      "descriptionSha256": "ece8c2acc86f4942dea469b32e44a7c3318bd9c71e5056a6f5c602b9a6121410",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:performance:spheres-of-guile:guile-talent:soliloquy-of-rusted-masks-act-su",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "performance"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Associated skill 8 ranks, Performance sphere ((act) package).</p>\n<p>You recount a tale of a lone and recluse individual, learning to open themselves up to others and the trials and tribulations they endured to remain empathetic.</p>\n<p><strong>Broken Walls (approach):</strong> Allies within the act’s area suffer a -4 penalty to saving throws against emotion effects, but gain an amount of temporary hit points equal to 1/2 your ranks in this package’s associated Perform skill plus your operative ability modifier as long as they can perceive an ally within your act’s area.</p>\n<p><strong>Breaking Point (scene, 1 immediate action):</strong> This scene can only be used whenever an ally within your act’s area would attempt a saving throw. The creature activating this scene grants the chosen ally a morale bonus to the saving throw equal to your operative ability modifier (minimum +2). If the ally still fails the saving throw, this scene is not yet completed but can be performed again.</p>\n<p><strong>Catharsis (scene, 1 swift action):</strong> Whenever an ally succeeds a saving throw against an emotion effect, the temporary hit points granted by this act’s approach are replenished. If the temporary hit points are already full, they instead gain a +4 morale bonus to saving throws against emotion effects for 1 round. If an ally fails a saving throw against an emotion effect, they can choose to become staggered for 1 round to replenish their temporary hit points (but do not gain the alternate effect if the temporary hit points are already full).</p>\n<p><strong>Realiation (finale, 1 standard action):</strong> All enemies within the act’s area gain vulnerability to all damage types for 1 round; a successful Will saving throw reduces this to just one damage type, chosen when you complete this finale (applying to all creatures who fail). All allies within the act’s area gain immunity to mind-affecting effects for a number of rounds equal to your operative ability modifier (minimum 1).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/performance#toc69\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/performance#toc69"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

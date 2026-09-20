@@ -1,0 +1,121 @@
+{
+  "_id": "78d8f989ef5fb7be",
+  "_key": "!items!78d8f989ef5fb7be",
+  "name": "Versatile Feeding",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:death:ultimate:feat:versatile-feeding",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/death#toc112",
+      "sourceSha256": "d09bba312380117c6b4fbdeba031d71e8ce26d0ec8570d3020f098b428d924dd",
+      "descriptionSha256": "9547d5236f3cae8119397512e1d6091dbbcecfaeabbc5eff12da234d5df06a3f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Death Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:death:ultimate:feat:versatile-feeding",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You have learned the art of funneling necromantic power between yourself and your minions.</p>\n<p><strong>Prerequisites:</strong> Death sphere (Necrotic Feeding (ghost strike)).</p>\n<p><strong>Benefit:</strong> Whenever you use your Necrotic Feeding ghost strike, you may make either or both of the following choices:</p>\n<ul>\n<li>You may use Necrotic Feeding to consume a mindless undead you reanimated and control (regardless of its actual hit points); if you do, it automatically fails its saving throw.</li>\n<li>You may grant the bonuses gained from your Necrotic Feeding to an undead you control within your dominion range.</li>\n</ul>\n<p>Only one creature can benefit from your Necrotic Feeding bonuses at a time, and additional uses of Necrotic Feeding overlap (do not stack).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/death#toc112\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/death#toc112"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "049f3c932d21d36e",
+  "_key": "!items!049f3c932d21d36e",
+  "name": "Warrior-Disciple (Combat)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:combat-feats:ultimate:feat:warrior-disciple-combat",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/combat-feats#toc91",
+      "sourceSha256": "12c9e3fe24d343b609d627315d6ac27a31c82b50e38bb90a5cd0dc568a895e22",
+      "descriptionSha256": "ce3f9a2f1ef0b46fec7ba25f898ee53d6e536378f61447d874c5b220c36888ba",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "combat-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:combat-feats:ultimate:feat:warrior-disciple-combat",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>In spite of your diverse magical training, your armed discipline still remains.</p>\n<p><strong>Prerequisites:</strong> Base attack bonus +3; ability to cast 2nd-level spells, manifest 2nd-level powers, or spherecaster level 3rd.</p>\n<p><strong>Benefits:</strong> At every level that a prestige class advances spellcasting, manifesting, or spherecasting from one of your classes, you may choose to have it also advance as if the prestige class had the same Hit Dice, base attack bonus, and caster level progression of the class whose spellcasting it advances.</p>\n<p>For example, a mageknight 10/forest lord 3 could take this feat choosing mageknight as its advanced casting class at its forest lord levels, causing the forest lord Hit Dice to become d10s, for the forest lord to grant full base attack bonus progression rather than normal 1/2 base attack bonus progression, and for the forest lord’s caster level progression to advance at 1/2 class level as per a mageknight.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/combat-feats#toc91\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/combat-feats#toc91"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

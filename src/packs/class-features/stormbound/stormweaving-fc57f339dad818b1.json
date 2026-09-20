@@ -1,0 +1,121 @@
+{
+  "_id": "fc57f339dad818b1",
+  "_key": "!items!fc57f339dad818b1",
+  "name": "Stormbound: Stormweaving",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:stormbound:current:class-feature:stormweaving",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/stormbound#toc3",
+      "sourceSha256": "c465e1b542de7e4cf3683b4d4248ddfcfac2ae41df06ce4b04fd65b64af634e5",
+      "descriptionSha256": "cc93958a720a52e346352f6fcdef45e606beda5c7d56363dab2bd5aa791ec4b8",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:stormbound:current:class-feature:stormweaving",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The stormbound gains access to a unique veil slot: the Storm slot. The stormbound gains an additional shaped veil each day that must be used to shape a Storm veil (as denoted by the “+1” under Veils on Table: Stormbound). Storm veils have unique properties that they all share, which are detailed in depth in the Veilweaving section, on page 13. Unlike normal veils, the stormbound cannot normally allocate essence to or from a Storm veil. At the beginning of each of her turns while in combat, the stormbound gains a single point of temporary essence, which can only be allocated to a Storm veil. This temporary essence can be allocated as a free action as soon as it is gained and lasts until combat ends, and then for 1 minute afterward. If she enters combat again before this minute has passed, the duration of the temporary essence is reset. If she chooses not to invest this essence when she gains it, or if she has no Storm veils that are valid sources to allocate it, that point of essence is immediately lost. While not in combat, the stormbound can meditate as a full-round action to draw the powers of the storm out, treating each round she meditates in this way as a round of combat. However, she can only generate a number of temporary essence in this way up to half of her maximum essence capacity, rounded up (minimum 1).</p>\n<p>If the stormbound has multiple Storm veils shaped or other receptacles that can accept this special essence, she can reallocate this essence normally between them as part of reallocating her essence normally. If the stormbound suffers from Essence Burn, temporary essence gained from this ability is burned after any other temporary essence she possesses, as well as after any other essence in her essence pool.</p>\n<p>If the stormbound suffers from Essence Burn, temporary essence gained from this ability is burned after any other temporary essence she possesses, as well as after any other essence in her essence pool.</p>\n<h4>What Counts As Combat?</h4>\n<p>In regards to her essence gained as part of her Stormweaving ability, combat counts as any situation where the stormbound finds themselves in serious peril, such as a fight, or in a particularly threatening and energetic situation where they might have something to lose, like a chase scene. A stormbound can never create “fake” combats, like pretending to fight their friend, to maintain their potential. A stormbound only gains essence as part of her Stormweaving ability in particularly dangerous or exciting situations.</p>\n<p>Ultimately, what is defined as a “combat” outside of a fight with monsters is up to the GM.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/stormbound#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/stormbound#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

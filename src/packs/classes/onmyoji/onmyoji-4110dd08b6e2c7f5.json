@@ -1,0 +1,143 @@
+{
+  "_id": "4110dd08b6e2c7f5",
+  "_key": "!items!4110dd08b6e2c7f5",
+  "name": "Onmyoji",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:onmyoji:current:class:onmyoji",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/onmyoji",
+      "sourceSha256": "6079b536c1d471610784a75c7e27605e4097d68db2686cdda72810101d9be515",
+      "descriptionSha256": "d9ef0412af1e06827b897f6bd9b7e1c4553caff55723b587cd7fcde48445d478",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:onmyoji:current:class:onmyoji",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Onmyōdō can be best described as an occult tradition grounded in the natural world. To the onmyōji, practitioners of onmyōdō, the world is awash in spirits, some the souls of the ancestors, others spirits who tend to and guide the development of the natural world.</p>\n<p>Onmyōji are uniquely suited to act as an emissary to this world of spirits, taking their advice and applying it to the mortal world. This makes the onmyōji a powerful diviner, and having the favor of mighty spirits is itself a valuable asset when danger rears its ugly head.</p>\n<p><strong>Role:</strong> Through a personal bond with the spirits of the world, an onmyōji and his shikigami minion offer powerful area support through the use of special talismans, as well as the ability to petition for the aid of powerful spirits.</p>\n<p><strong>Alignment:</strong> Any.</p>\n<p><strong>Hit Die:</strong> d6</p>\n<p><strong>Starting Wealth:</strong> 2d6 x 10 gp (average 70 gp.) In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The onmyōji's class skills are Bluff (Cha), Craft (any) (Int) Diplomacy (Cha), Heal (Wis), Linguistics (Int), Knowledge (arcana) (Int), Knowledge (nature) (Int), Knowledge (planes) (Int), Knowledge (religion) (Int), Profession (Wis), Ride (Str), Sense Motive (Wis), Survival (Wis), and Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks per Level:</strong> 4 + Int modifier.</p>\n<h1>Class Features</h1>\n<strong>Table: The Onmyōji</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Ref Save</th>\n<th>Will Save</th>\n<th>Special</th>\n<th>Spirit Pool Size</th>\n<th>Prayers Known</th>\n<th>Petitions Known</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+0</td>\n<td>+0</td>\n<td>+2</td>\n<td>Aid of the minor kami, lingering blessing, reach of the spirits, shikigami, spirit pool, talismans</td>\n<td>Cha Mod</td>\n<td>2</td>\n<td>0</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+0</td>\n<td>+0</td>\n<td>+3</td>\n<td>Petition spirits</td>\n<td>Cha Mod</td>\n<td>2</td>\n<td>1</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+1</td>\n<td>+1</td>\n<td>+1</td>\n<td>+3</td>\n<td>-</td>\n<td>2 + Cha Mod</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+2</td>\n<td>+1</td>\n<td>+1</td>\n<td>+4</td>\n<td>-</td>\n<td>2 + Cha Mod</td>\n<td>3</td>\n<td>2</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+2</td>\n<td>+1</td>\n<td>+1</td>\n<td>+4</td>\n<td>Iron Talismans</td>\n<td>2 + Cha Mod</td>\n<td>4</td>\n<td>2</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+3</td>\n<td>+2</td>\n<td>+2</td>\n<td>+5</td>\n<td>-</td>\n<td>4 + Cha Mod</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+3</td>\n<td>+2</td>\n<td>+2</td>\n<td>+5</td>\n<td>Spiritual Beacon</td>\n<td>4 + Cha Mod</td>\n<td>5</td>\n<td>3</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+4</td>\n<td>+2</td>\n<td>+2</td>\n<td>+6</td>\n<td>-</td>\n<td>4 + Cha Mod</td>\n<td>5</td>\n<td>4</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+4</td>\n<td>+3</td>\n<td>+3</td>\n<td>+6</td>\n<td>-</td>\n<td>6 + Cha Mod</td>\n<td>6</td>\n<td>4</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+5</td>\n<td>+3</td>\n<td>+3</td>\n<td>+7</td>\n<td>-</td>\n<td>6 + Cha Mod</td>\n<td>6</td>\n<td>5</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+5</td>\n<td>+3</td>\n<td>+3</td>\n<td>+7</td>\n<td>Buffering talisman, spiritual beacon (greater)</td>\n<td>6 + Cha Mod</td>\n<td>7</td>\n<td>5</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+6/+1</td>\n<td>+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>-</td>\n<td>8 + Cha Mod</td>\n<td>7</td>\n<td>6</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+6/+1</td>\n<td>+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>Lingering blessing (mass)</td>\n<td>8 + Cha Mod</td>\n<td>8</td>\n<td>6</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+7/+2</td>\n<td>+4</td>\n<td>+4</td>\n<td>+9</td>\n<td>-</td>\n<td>8 + Cha Mod</td>\n<td>8</td>\n<td>7</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+7/+2</td>\n<td>+5</td>\n<td>+5</td>\n<td>+9</td>\n<td>-</td>\n<td>10 + Cha Mod</td>\n<td>9</td>\n<td>7</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+8/+3</td>\n<td>+5</td>\n<td>+5</td>\n<td>+10</td>\n<td>-</td>\n<td>10 + Cha Mod</td>\n<td>9</td>\n<td>8</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+8/+3</td>\n<td>+5</td>\n<td>+5</td>\n<td>+10</td>\n<td>Spiritual talisman</td>\n<td>10 + Cha Mod</td>\n<td>10</td>\n<td>8</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+9/+4</td>\n<td>+6</td>\n<td>+6</td>\n<td>+11</td>\n<td>-</td>\n<td>12 + Cha Mod</td>\n<td>10</td>\n<td>9</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+9/+4</td>\n<td>+6</td>\n<td>+6</td>\n<td>+11</td>\n<td>-</td>\n<td>12 + Cha Mod</td>\n<td>11</td>\n<td>9</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+10/+5</td>\n<td>+6</td>\n<td>+6</td>\n<td>+12</td>\n<td>O-fudamori</td>\n<td>12 + Cha Mod</td>\n<td>11</td>\n<td>10</td>\n</tr>\n</tbody></table>\n<p>The following are all class features of the onmyōji.</p>\n<h3>Weapon Proficiency</h3>\n<p>The onmyōji is proficient with all simple weapons, the kukri, the double chicken saber, the tonfa, the monk’s spade, and the naginata.</p>\n<h3>Armor and Shield Proficiency</h3>\n<p>Onmyōji are not proficient with any kind of armor, but are proficient with shields, but not tower shields. If wearing armor or using a shield with which he is not proficient, the spirit point cost of the onmyōji’s petitions increases by +1 and the duration of his talismans is reduced by half.</p>\n<h3>Aid of the Minor Kami (Sp)</h3>\n<p>Just as an onmyōji is the spirit world's envoy to the realm of mortals, the onmyōji uses his shikigami's connections with the minor spirits of the spirit world to receive their aid without the need to petition them formally. Each morning when he replenishes his spirit pool, the onmyōji selects two wizard cantrips and two cleric orisons. He retains knowledge of the chosen spells until the next time he uses this ability, at which point he promptly forgets them before choosing a new set of orisons and cantrips. If the onmyōji is within 20 feet of his shikigami, he may cast any of the chosen spells at will with a caster level equal to his onmyōji level and Wisdom as his key ability.</p>\n<p>The range of this ability will scale with the Hit Dice of the shikigami, much like the \"connection\" abilities on the pet itself.</p>\n<h3>Shikigami</h3>\n<p>An onmyōji begins play with a shikigami, a kami that has been bound to his service that resides in an origami paper vessel. Full details for the onmyōji's shikigami are found below.</p>\n<p>If a shikigami is dismissed, lost, or dies, it can be replaced 1 week later through a specialized ritual that costs 200 gp per onmyōji level. The ritual takes 8 hours to complete.</p>\n<h3>Spirit Pool (Su)</h3>\n<p>At 1st level, an onmyōji gains a pool of spirit points, a measure of his ability to petition the spirit realm for aid. The number of points in an onmyōji's spirit pool is equal to his Charisma modifier, plus an additional 2 for every three onmyōji levels he possesses.</p>\n<p>The spirit pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive.</p>\n<p>By spending <strong>1 point</strong> from his spirit pool, an onmyōji can do one of the following:</p>\n<h4>Reach of the Spirits</h4>\n<p>As a swift action, the onmyōji may increase his reach by 5 feet per onmyōji level for the purpose of placing talismans. This effect lasts for 1 round.</p>\n<h4>Lingering Blessing</h4>\n<p>As a swift action, the onmyōji may increase the remaining duration of a single talisman within 60 feet by 5 rounds. There is no limit to how high the remaining duration of a talisman can go in this fashion.</p>\n<h4>Iron Talismans</h4>\n<p>As a swift action, the onmyōji may increase the hardness of all active talismans within 60 feet by an amount equal to his Wisdom modifier. This is an enhancement bonus. This effect lasts for 1 round. An onmyōji must be at least 5th level to use this ability.</p>\n<h4>Spiritual Beacon</h4>\n<p>As a swift action, the onmyōji may increase the radius of a single ofuda talisman within 60 feet by 5 feet. This is an enhancement bonus. This effect lasts for the duration of the talisman.</p>\n<p>An onmyōji must be at least 7th level to use this ability. If the onmyōji is at least 14th level, he may increase the radius of two ofuda talismans within 60 feet instead.</p>\n<h4>Buffered Talisman</h4>\n<p>As an immediate action, the onmyōji may grant a single active talisman temporary hit points equal to three times his Wisdom modifier. This effect lasts for the duration of the talisman. An onmyōji must be at least 11th level to use this ability.</p>\n<p>By spending <strong>2 points</strong> from his spirit pool, an onmyōji can do one of the following:</p>\n<h4>Spiritual Beacon, Greater</h4>\n<p>As a swift action, the onmyōji may increase the radius of a single ofuda talisman within 60 feet by 10 feet. This is an enhancement bonus. This effect lasts for the duration of the talisman.</p>\n<p>An onmyōji must be at least 11th level to use this ability. If the onmyōji is at least 16th level, he may increase the radius of two ofuda talismans within 60 feet instead.</p>\n<h4>Lingering Blessing, Mass</h4>\n<p>As a swift action, the onmyōji may increase the remaining duration of all active talismans within 60 feet by 5 rounds. There is no limit to how high the remaining duration of a talisman can go in this fashion.</p>\n<p>An onmyōji must be at least 13th level to use this ability.</p>\n<h4>Spiritual Talisman</h4>\n<p>As a swift action, the next talisman the onmyōji places this round does not deduct from his daily uses of the talismans class feature.</p>\n<p>An onmyōji must be at least 17th level to use this ability.</p>\n<h4>Ofudamori</h4>\n<p>When placing an ofuda talisman, the onmyōji may treat it as an omamori talisman for the purpose of its prayer. In all other respects, it is still an ofuda talisman. In essence, this means that the onmyōji's ofudamori talisman has the area of effect of an ofuda and the raw power of an omamori. This ability can only be used if the ofuda's prayer is compatible with both ofuda and omamori talismans.</p>\n<p>An onmyōji must be at least 20th level to use this ability.</p>\n<h3>Talismans (Su)</h3>\n<p>Onmyōji are known for their connection with the spirits that populate the world, and one of the most iconic interactions between these two parties is the manufacture of talismans fueled by the supernatural power of the spirit world. Talismans are small tokens, usually made of cloth, paper, or wood, that have been decorated with glyphs showing the provenance of their source of power, and then filled with one or more prayers that give that power direction.</p>\n<p>An onmyōji begins play with two prayers for which he meets all of the prerequisites. (See Section: Talisman List) At 3rd level and every two onmyōji levels thereafter, he gains an additional prayer for which he meets all of the prerequisites.</p>\n<p>Talismans come in two flavors: ofuda and omamori. When placing a talisman (see the individual listings for ofuda and omamori talismans), the onmyōji selects a single prayer that he knows that is compatible with the chosen type of talisman. Most prayers are compatible with both types of talisman; however, some prayers have effects that really only work in an area-of-effect or single-target manner, thus necessitating compatibility with only one type of talisman. For its duration, the talisman elicits the chosen prayer's effect.</p>\n<p>To place a talisman, an onmyōji must have one hand free and a Wisdom score equal to at least 10 + 1/2 the minimum level of the prayer added to the talisman. The onmyōji has a petitioner level equal to his onmyōji level for the purpose of determining the magnitude of effect of a talisman he places. Each day, an onmyōji can place a number of talismans equal to his onmyōji level + his Wisdom modifier.</p>\n<p>Both ofuda and omamori talismans never allow saving throws. A talisman of any kind has hardness equal to the onmyōji's Wisdom modifier and hit points equal to three times the onmyōji's class level. Melee attacks made against an ofuda talisman are automatically successful, while melee attacks made against an omamori talisman are automatically successful if the subject of the talisman is willing to have its talisman struck; otherwise, the attack is made against an AC of the touch AC of the subject +2. Ranged attacks are made against an AC of 9 if the target is an ofuda talisman or an omamori talisman worn by a willing subject, or made against an AC of the touch AC of the subject +2 if the subject is unwilling.</p>\n<p>Ofuda talismans take damage from area of effect abilities, such as the fireball spell, as normal, and automatically fail their saving throws against such effects, while omamori talismans only take damage from area of effect abilities if the subject either rolls a natural “1” on his saving throw or intentionally fails its saving throw.</p>\n<p>If a talisman is reduced to 0 hit points, it is destroyed and its effects end immediately; otherwise, a talisman has a duration of 3 rounds + 1 round per onmyōji level.</p>\n<h4>Ofuda</h4>\n<p>Ofuda talismans were originally designed to ward entire households at once, keeping out evil spirits and bad luck, or promoting fortune and cheer within its boundaries. Taken out of its traditional home and made a tool for the adventuring onmyōji, ofuda talismans are the gold standard for area warding. When an ofuda talisman is placed on a solid surface in an unoccupied 5-foot square within reach, a standard action, it affects a 10-foot radius centered on the talisman. Once placed, an ofuda becomes affixed to that surface and cannot be moved unless it is destroyed or its duration ends.</p>\n<h4>Omamori</h4>\n<p>Omamori talismans were originally designed for personal protection, and this translates well to the adventuring profession. When an omamori talisman is placed on a creature occupying a square within reach, a standard action, it affects just that creature. If the creature is not a willing recipient, then the onmyōji must make a melee touch attack. If successful, the talisman is affixed to the subject and cannot be removed unless it is destroyed or its duration ends. A failed melee touch attack provokes attacks of opportunity, but does not consume a daily talisman use.</p>\n<h3>Petition Spirits (Su)</h3>\n<p>An onmyōji enjoys a solid rapport with the spirit world. The various kami know the onmyōji's name, and many are willing to render assistance when asked respectfully and with appropriate ritual. At 2nd level and every two onmyōji levels thereafter, the onmyōji selects one petition for which he meets all the prerequisites. Unless stated otherwise, an onmyōji cannot select an individual petition more than once.</p>\n<p>To use a petition, an onmyōji must have a Charisma score equal to at least 10 + 1/2 minimum level of that petition. For the purpose of his petitions, an onmyōji has a petitioner level equal to his onmyōji level.</p>\n<p>The Difficulty Class (DC) for a saving throw against an onmyōji’s petition is 10 + 1/2 the onmyōji’s class level + the onmyōji’s Charisma modifier.</p>\n<hr>\n<h1>Shikigami</h1>\n<p>A shikigami is a kami, usually summoned by and bound to an onmyōji, inhabiting lavishlyfolded origami paper as an anchor to the physical world. Though a spirit, a shikigami's paper vessel is what allows it to interact with the world at large. As a result, it is considered to be a Construct for the purpose of effects that depend on its type. A shikigami's Hit Dice, base attack bonus, and base save bonuses are dependent upon its master's onmyōji level, and the progression of these quantities as it relates to its master's onmyōji level is given on Table: The Shikigami.</p>\n<p>A shikigami is a Tiny Construct with a Strength score of 6, a Dexterity score as listed on the table below, no Constitution score, and a score of 10 in Intelligence, Wisdom, and Charisma. It has a base land speed of 20 feet, a fly speed of 30 feet with perfect maneuverability, and a natural slam attack. A Shikigami speaks all languages its master speaks, with a voice like an echo on the wind. A shikigami cannot also function as a familiar. Levels of different classes that are entitled to shikigamis stack for the purpose of determining any shikigami abilities that depend on the master's level.</p>\n<p>If a shikigami is dismissed, lost, or dies, it can be replaced 1 week later through a specialized ritual that costs 100 gp per onmyōji level. The ritual takes 8 hours to complete.</p>\n<strong>Table: The Shikigami</strong>\n<table>\n<tbody><tr>\n<th>Master's Class Level</th>\n<th>HD</th>\n<th>BAB</th>\n<th>Fort Save</th>\n<th>Reflex Save</th>\n<th>Will Save</th>\n<th>Skills</th>\n<th>Feats</th>\n<th>Dex</th>\n<th>Special</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>1</td>\n<td>+1</td>\n<td>+0</td>\n<td>+0</td>\n<td>+0</td>\n<td>2</td>\n<td>1</td>\n<td>14</td>\n<td>Linked endurance, origami form, share talismans, speak with master, spirit pool</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>1</td>\n<td>+1</td>\n<td>+0</td>\n<td>+0</td>\n<td>+0</td>\n<td>2</td>\n<td>1</td>\n<td>14</td>\n<td>Powerful bond</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>2</td>\n<td>+2</td>\n<td>+0</td>\n<td>+0</td>\n<td>+0</td>\n<td>4</td>\n<td>1</td>\n<td>14</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>2</td>\n<td>+2</td>\n<td>+0</td>\n<td>+0</td>\n<td>+0</td>\n<td>4</td>\n<td>1</td>\n<td>14</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>3</td>\n<td>+3</td>\n<td>+1</td>\n<td>+1</td>\n<td>+1</td>\n<td>6</td>\n<td>2</td>\n<td>14</td>\n<td>Improved evasion</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>3</td>\n<td>+3</td>\n<td>+1</td>\n<td>+1</td>\n<td>+1</td>\n<td>6</td>\n<td>2</td>\n<td>14</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>4</td>\n<td>+4</td>\n<td>+1</td>\n<td>+1</td>\n<td>+1</td>\n<td>8</td>\n<td>2</td>\n<td>15</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>4</td>\n<td>+4</td>\n<td>+1</td>\n<td>+1</td>\n<td>+1</td>\n<td>8</td>\n<td>2</td>\n<td>15</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>5</td>\n<td>+5</td>\n<td>+1</td>\n<td>+1</td>\n<td>+1</td>\n<td>10</td>\n<td>3</td>\n<td>15</td>\n<td>Bulky spirit +1</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>5</td>\n<td>+5</td>\n<td>+1</td>\n<td>+1</td>\n<td>+1</td>\n<td>10</td>\n<td>3</td>\n<td>15</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>6</td>\n<td>+6/+1</td>\n<td>+2</td>\n<td>+2</td>\n<td>+2</td>\n<td>12</td>\n<td>3</td>\n<td>15</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>6</td>\n<td>+6/+1</td>\n<td>+2</td>\n<td>+2</td>\n<td>+2</td>\n<td>12</td>\n<td>3</td>\n<td>15</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>7</td>\n<td>+7/+2</td>\n<td>+2</td>\n<td>+2</td>\n<td>+2</td>\n<td>14</td>\n<td>4</td>\n<td>15</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>7</td>\n<td>+7/+2</td>\n<td>+2</td>\n<td>+2</td>\n<td>+2</td>\n<td>14</td>\n<td>4</td>\n<td>15</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>8</td>\n<td>+8/+3</td>\n<td>+2</td>\n<td>+2</td>\n<td>+2</td>\n<td>16</td>\n<td>4</td>\n<td>16</td>\n<td>Bulky spirit +2</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>8</td>\n<td>+8/+3</td>\n<td>+2</td>\n<td>+2</td>\n<td>+2</td>\n<td>16</td>\n<td>4</td>\n<td>16</td>\n<td>-</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>9</td>\n<td>+9/+4</td>\n<td>+3</td>\n<td>+3</td>\n<td>+3</td>\n<td>18</td>\n<td>5</td>\n<td>16</td>\n<td>-</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>9</td>\n<td>+9/+4</td>\n<td>+3</td>\n<td>+3</td>\n<td>+3</td>\n<td>18</td>\n<td>5</td>\n<td>16</td>\n<td>-</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>10</td>\n<td>+10/+5</td>\n<td>+3</td>\n<td>+3</td>\n<td>+3</td>\n<td>20</td>\n<td>5</td>\n<td>16</td>\n<td>-</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>10</td>\n<td>+10/+5</td>\n<td>+3</td>\n<td>+3</td>\n<td>+3</td>\n<td>20</td>\n<td>5</td>\n<td>16</td>\n<td>-</td>\n</tr>\n</tbody></table>\n<p><strong>Master's Class Level:</strong> This is the character's onmyōji level.</p>\n<p><strong>HD:</strong> This is the total number of 10sided (d10) Hit Dice the shikigami possesses. As a shikigami is a Construct, it does not gain a Constitution modifier.</p>\n<p><strong>BAB:</strong> This is the shikigami’s base attack bonus. A shikigami’s base attack bonus is equal to its Hit Dice. Shikigami do not gain additional attacks using their natural weapons for a high base attack bonus.</p>\n<p><strong>Fort Save:</strong> This is the shikigami's base Fortitude saving throw modifier.</p>\n<p><strong>Reflex Save:</strong> This is the shikigami's base Reflex saving throw modifier.</p>\n<p><strong>Will Save:</strong> This is the shikigami's base Will saving throw modifier.</p>\n<p><strong>Skills:</strong> This lists the shikigami’s total skill ranks. A shikigami can assign skill ranks to any skill, but it may not have the necessary appendages to use some skills. A shikigami receives a number of skill ranks equal to 2 + its Intelligence modifier per HD. A shikigami cannot have more ranks in a skill than it has Hit Dice.</p>\n<p>Shikigami skill ranks are set once chosen, but can be resassigned if a shikigami is lost or dismissed and a new one is bound to the onmyōji.</p>\n<p>The shikigami's class skills are Escape Artist (Dex), Fly (Dex), Knowledge (nature) (Int), Knowledge (planes) (Int), Knowledge (religion), (Int), Perception (Wis), and Stealth (Dex).</p>\n<p><strong>Feats:</strong> This is the total number of feats possessed by a shikigami. Shikigami can select any feat that they qualify for, but they must possess the appropriate appendages to use some feats. Shikigami feats are set once chosen, but can be reassigned if a shikigami is lost or dismissed and a new one is bound to the onmyōji.</p>\n<p><strong>Dex:</strong> This is the shikigami's Dexterity score.</p>\n<p><strong>Special:</strong> This includes a number of abilities gained by all shikigami as they increase in power. Each of these bonuses is described below.</p>\n<h3>Linked Endurance (Su)</h3>\n<p>If within 20 feet of its master, a shikigami gains hardness equal to its master's Wisdom modifier.</p>\n<h3>Origami Form (Ex)</h3>\n<p>A shikigami is held in an origami shell that is made to look like a type of familiar. A shikigami can be made to look like any kind of familiar, but is always Tiny regardless of the size of the thing it is made to look like. If within 20 feet of its master, a shikigami grants its master the same bonus a wizard gets for having a familiar of that type. In addition, the shikigami has the natural attacks of the creature into whose shape it is folded.</p>\n<h3>Share Talismans (Su)</h3>\n<p>If within 20 feet of its master, a shikigami may place talismans, using any prayer that its master knows. Talismans placed in this fashion deduct from the onmyōji's daily allotment. Further, their duration is based on the shikigami's Hit Dice rather than the onmyōji's class level; all other effects are based on the onmyōji's class level.</p>\n<h3>Speak with Master (Ex)</h3>\n<p>A shikigami and the master can communicate verbally as if they were using a common language. Other creatures do not understand the communication without magical help.</p>\n<h3>Spirit Pool (Su)</h3>\n<p>Itself a spiritual being, a shikigami has a pool of spirit points, a measure of its ability to influence the world in strange and miraculous ways. The number of points in a shikigami's spirit pool is equal to the number of Hit Dice it possesses.</p>\n<p>A shikigami may use any spirit pool ability, such as iron talismans, that its master knows, but can only affect talismans it has placed itself. It may also cast any petition its master knows with a petitioner level equal to its Hit Dice.</p>\n<p>The shikigami's spirit pool is replenished whenever its master's spirit pool is replenished.</p>\n<h3>Powerful Bond (Ex)</h3>\n<p>If the master is 2nd level or higher, the range of the shikigami's linked endurance, origami form, and share talisman abilities, as well as its master's aid of the minor kami class feature, increases by +5 feet for every Hit Die the shikigami possesses beyond the first.</p>\n<h3>Improved Evasion (Ex)</h3>\n<p>If the master is 5th level or higher, when subjected to an attack that normally allows a Reflex saving throw for half damage, a shikigami takes no damage if it makes a successful saving throw and half damage even if the saving throw fails.</p>\n<h3>Bulky Spirit (Ex)</h3>\n<p>If the master is 9th level or higher, treat the shikigami as though it were one size category larger for the purpose of bonus hit points granted to a construct based on its size. If the master is 15th level or higher, treat the shikigami as though it were two size categories larger instead.</p>\n<strong>Table: Construct Bonus Hit Points By Size</strong>\n<table>\n<tbody><tr>\n<th>Construct Size</th>\n<th>Bonus Hit Points</th>\n</tr>\n<tr>\n<td>Small</td>\n<td>10</td>\n</tr>\n<tr>\n<td>Medium</td>\n<td>20</td>\n</tr>\n<tr>\n<td>Large</td>\n<td>30</td>\n</tr>\n<tr>\n<td>Huge</td>\n<td>40</td>\n</tr>\n<tr>\n<td>Gargantuan</td>\n<td>60</td>\n</tr>\n<tr>\n<td>Colossal</td>\n<td>80</td>\n</tr>\n</tbody></table>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/onmyoji\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 6,
+    "hp": 6,
+    "bab": "low",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "low"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "alignment": "Any.",
+    "wealth": "2d6 * 10",
+    "classSkills": {
+      "blf": true,
+      "crf": true,
+      "dip": true,
+      "hea": true,
+      "kar": true,
+      "kna": true,
+      "kpl": true,
+      "kre": true,
+      "lin": true,
+      "pro": true,
+      "rid": true,
+      "sen": true,
+      "sur": true,
+      "umd": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/onmyoji"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

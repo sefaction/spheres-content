@@ -1,0 +1,121 @@
+{
+  "_id": "ee1d39ac60fcc99a",
+  "_key": "!items!ee1d39ac60fcc99a",
+  "name": "Fane of Power (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:occultism:spheres-of-guile:feat:fane-of-power-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/occultism#toc46",
+      "sourceSha256": "3eea4e2eab46e6def51952b1c49b38fe8eab119d51e79e05017e23d105dd4488",
+      "descriptionSha256": "e99a46221e22f172cd227c507606b29b9255b25fef684df321e46f2d80db47ad",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Occultism Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:occultism:spheres-of-guile:feat:fane-of-power-su",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites</strong>: Occultism sphere, associated skill 5 ranks.</p>\n<p><strong>Benefit</strong>: Whenever you perform a rite with unused ritual power, you can spend the remaining ritual power as a swift action to create a fane of power in the square(s) you occupy. A fane of power lasts for a number of rounds equal to the amount of unused ritual power spent to create it.</p>\n<p>While you are within your fane of power, you gain the following benefits:</p>\n<ul>\n<li>When you roll an empowerment check, you can choose to record the d20 roll result. On subsequent empowerment checks, before the roll you can choose to use the recorded d20 roll or roll normally.</li>\n<li>You treat your associated ranks as being 1 higher for determining the effects of your rites, +1 per 10 associated ranks you possess.</li>\n<li>You gain a +1 sacred (if good) or profane (if evil) bonus to saving throws and AC against any attacks or effects originating outside of your fane of power. If you are neutral, choose which bonus type to use; this decision cannot be changed unless your alignment shifts.</li>\n</ul>\n<p>You can only have one fane of power active at a time; if you attempt to create a second fane, choose which one to dismiss. However, if you use this ability again while already within your fane, you can increase its radius by 5 feet and duration by 1 round. A fane can only last for a maximum of 1 minute.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/occultism#toc46\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/occultism#toc46"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

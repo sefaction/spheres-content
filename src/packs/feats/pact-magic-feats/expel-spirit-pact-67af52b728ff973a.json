@@ -1,0 +1,121 @@
+{
+  "_id": "67af52b728ff973a",
+  "_key": "!items!67af52b728ff973a",
+  "name": "Expel Spirit (Pact)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:pact-magic-feats:current:feat:expel-spirit-pact",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/pact-magic-feats#toc43",
+      "sourceSha256": "f426cf60998d2b60d857a9763435fa7c8f07407526bbde0ca33e429130d832d2",
+      "descriptionSha256": "2aee00f014fb5f4085d41dab6723b1839172aff10b0d433e786d71d7f256b17f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Pact Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:pact-magic-feats:current:feat:expel-spirit-pact",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can forcefully eject a spirit from your body, ending the pact early.</p>\n<p><strong>Prerequisite:</strong> Bind spirit class feature.</p>\n<p><strong>Benefit:</strong> As a full-round action, you can attempt to end a pact before it would normally expire. In order to expel a spirit, make a binding check against the spirit’s binding DC as part of a ritual. This ritual is identical to the one used to summon the spirit, as outlined in Performing a Pact Ritual and you can rush this ritual.</p>\n<p>If your binding check succeeds, the spirit is forced from your body, manifesting around you angrily. This causes you to lose all benefits and penalties associated with the pact. You can immediately begin a new pact with a different spirit, but you cannot seal a pact with a spirit that you have expelled using Expel Spirit for 24 hours. Additionally, you suffer a –10 penalty on all binding checks made for 24 hours. This penalty stacks.</p>\n<p><strong>Normal:</strong> Once you forge a pact with a spirit, the pact lasts for 24 hours.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/pact-magic-feats#toc43\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/pact-magic-feats#toc43"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

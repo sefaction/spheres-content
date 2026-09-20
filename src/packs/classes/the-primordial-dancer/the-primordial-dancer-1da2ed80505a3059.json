@@ -1,0 +1,143 @@
+{
+  "_id": "1da2ed80505a3059",
+  "_key": "!items!1da2ed80505a3059",
+  "name": "The Primordial Dancer",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:the-primordial-dancer:current:class:the-primordial-dancer",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/the-primordial-dancer",
+      "sourceSha256": "e92f1119ca6e56c5c5ca682b858050df9b9072bce0a41bce2b819eda17a4dfe4",
+      "descriptionSha256": "1242320ec783e1a1637b1a8344f99b52c0723e5dcbae8be7618e54fdc1e7b785",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:the-primordial-dancer:current:class:the-primordial-dancer",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Class Stats:</strong><br>\n<strong>Difficulty to Play (1-5):</strong> 3<br>\n<strong>Difficulty to Build (1-5):</strong> 2</p>\n<p><strong>Role:</strong> Primal magic bard</p>\n<p><strong>Playstyle:</strong> With less of a support role than the bard while inhabiting the same power level design space, the primordial dancer mixes six-level casting with combo play in the form of dances, which can eventually be combined.</p>\n<p><strong>Primordial Dancer:</strong><br>\nFrom the ground upon which we walk and the air we breathe to the creatures that vie with us for control of the world's resources, the nature we know, the nature to which druids and shamans dedicate their lives, is, strictly speaking, a derived quantity. Largely associated with the elements, these most primal of forces are that from which all of creation is woven. In their native form, they are shapeless masses of pure energy. Those druids and shamans who know of their world's derivative nature know that it is doubly nonsensical to attempt to communicate with such entities, for there is no mind, no consciousness out to which they can reach.</p>\n<p>Primordial dancers take a different path to understanding the elemental nature of the universe. As everything is woven from the primal forces of the universe, the method to the madness is in the motion of the making. By mimicking the multitude of ways these primal forces wrap about each other, a primordial dancer is capable of duplicating, in a comparatively microscopic scale, just about any function that creation itself can manage. These dances are rarely aesthetically pleasing, and sometimes they can look outright horrific, but aesthetics mean nothing to a mindless audience.</p>\n<p><strong>Role:</strong> Swift and agile thanks to their particular form of magical expression, primordial dancers are most effective between the front and the back lines, darting in with the power of creation when it is most advantageous to do so, then fading back to where blades cannot reach. Alignment: Any. The art of the primordial dancer is a universal art in every sense of the word, and those from any walk of life can be inducted into its study.</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 2d6 x 10 gp (average 70 gp.) In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The primordial dancer's class skills are Acrobatics (Dex), Climb (Dex), Craft (any) (Int), Escape Artist (Dex), Fly (Dex), Heal (Wis), Knowledge (arcana) (Int), Knowledge (nature) (Int), Perform (dance) (Cha), Profession (Wis), Sleight of Hand (Dex), Spellcraft (Int), Stealth (Dex), and Swim (Str).</p>\n<p><strong>Skill Ranks per Level:</strong> 4 + Int modifier</p>\n<h1>Class Features</h1>\n<strong>Table: The Primordial Dancer</strong>\n<table>\n<tbody><tr>\n<th colspan=\"6\"></th>\n<th colspan=\"6\">Spells Per Day</th>\n</tr>\n<tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Ref Save</th>\n<th>Will Save</th>\n<th>Special</th>\n<th>1st</th>\n<th>2nd</th>\n<th>3rd</th>\n<th>4th</th>\n<th>5th</th>\n<th>6th</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+0</td>\n<td>+2</td>\n<td>+0</td>\n<td>2 dances</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+0</td>\n<td>+3</td>\n<td>+0</td>\n<td>Dance</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+2</td>\n<td>+1</td>\n<td>+3</td>\n<td>+1</td>\n<td>Dance</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+3</td>\n<td>+1</td>\n<td>+4</td>\n<td>+1</td>\n<td>From sea to mountain - 1</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+3</td>\n<td>+1</td>\n<td>+4</td>\n<td>+1</td>\n<td>Dances - 2 simultaneous</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+4</td>\n<td>+2</td>\n<td>+5</td>\n<td>+2</td>\n<td>Dance</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+5</td>\n<td>+2</td>\n<td>+5</td>\n<td>+2</td>\n<td>-</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+6/+1</td>\n<td>+2</td>\n<td>+6</td>\n<td>+2</td>\n<td>Evasion</td>\n<td>4</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+6/+1</td>\n<td>+3</td>\n<td>+6</td>\n<td>+3</td>\n<td>Dance, from sea to mountain - 2</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+7/+2</td>\n<td>+3</td>\n<td>+7</td>\n<td>+3</td>\n<td>-</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+8/+3</td>\n<td>+3</td>\n<td>+7</td>\n<td>+3</td>\n<td>Dances - 3 simultaneous</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+9/+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>+4</td>\n<td>Dance</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+9/+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>+4</td>\n<td>-</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+10/+5</td>\n<td>+4</td>\n<td>+9</td>\n<td>+4</td>\n<td>From sea to mountain - 3</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+11/+6/+1</td>\n<td>+5</td>\n<td>+9</td>\n<td>+5</td>\n<td>Dance</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+12/+7/+2</td>\n<td>+5</td>\n<td>+10</td>\n<td>+5</td>\n<td>-</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+12/+7/+2</td>\n<td>+5</td>\n<td>+10</td>\n<td>+5</td>\n<td>Improved evasion</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>2</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+13/+8/+3</td>\n<td>+6</td>\n<td>+11</td>\n<td>+6</td>\n<td>Dance</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+14/+9/+4</td>\n<td>+6</td>\n<td>+11</td>\n<td>+6</td>\n<td>From sea to mountain - 4</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+15/+10/+5</td>\n<td>+6</td>\n<td>+12</td>\n<td>+6</td>\n<td>Primordial master</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n</tr>\n</tbody></table>\n<h2>Weapon Proficiency</h2>\n<p>Primordial dancers are proficient with simple weapons.</p>\n<h2>Armor and Shield Proficiency</h2>\n<p>Primordial dancers are proficient with light armor, but not shields. A Primordial dancer wearing armor or wielding a shield with which she is not proficient cannot perform dances.</p>\n<h2>Spells</h2>\n<p>A primordial dancer casts divine spells drawn from the druid spell list. She can cast any spell she knows without preparing it ahead of time. To learn or cast a spell, a primordial dancer must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class (DC) for a saving throw against a primordial dancer’s spell is 10 + the spell level + the primordial dancer’s Charisma modifier.</p>\n<p>Like other spellcasters, a primordial dancer can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table: The Primordial Dancer. In addition, she receives bonus spells per day if she has a high Charisma score.</p>\n<p>The primordial dancer’s selection of spells is extremely limited. She begins play knowing two 1st-level spells of her choice, but can only learn conjuration, divination, evocation, and transmutation spells. At each new primordial dancer level, she gains one or more new spells, as indicated on Table: Primordial Dancer Spells Known. (Unlike spells per day, the number of spells a primordial dancer knows is not affected by her Charisma score (See Table: Ability Modifiers and Bonus Spells).</p>\n<p>Upon reaching 5th level, and at every third primordial dancer level after that (8th, 11th, and so on), a primordial dancer can choose to learn a new spell in place of one she already knows. In effect, the primordial dancer “loses” the old spell in exchange for the new one. The new spell’s level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level primordial dancer spell the primordial dancer can cast. A primordial dancer may swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that she gains new spells known for the level.</p>\n<p>A primordial dancer need not prepare her spells in advance. She can cast any spell she knows at any time, assuming she has not yet used up her allotment of spells per day for the spell’s level.</p>\n<strong>Table: Primordial Dancer Spells Known</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>0th</th>\n<th>1st</th>\n<th>2nd</th>\n<th>3rd</th>\n<th>4th</th>\n<th>5th</th>\n<th>6th</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>5</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>6</td>\n<td>4</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>6</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>6</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>6</td>\n<td>4</td>\n<td>4</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>6</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>-</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>2</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>5</td>\n</tr>\n</tbody></table>\n<h2>Dances (Su)</h2>\n<p>In the parlance of the primordial dancers, a dance is a series of steps and motions that resonate with a particular facet of nature. Dances always have a passive component, as well as three active components that become available as a primordial dancer increases in power. As a move action, a primordial dancer begins to perform any one dance she knows, gaining that dance's passive bonus and granting her the ability to use that dance's active abilities, and she can maintain it each round as a free action. Passive bonuses are all considered to be supernatural. Each individual dance the primordial dancer knows may be performed for a number of rounds per day equal to her 3 + her Charisma modifier. At each level after 1st, a primordial dancer can perform each dance she knows for an additional round per day.</p>\n<p>A primordial dancer begins play with two dances. At 2nd level, 3rd level, and every three primordial dancer levels thereafter, she gains an additional dance. Dances have subtypes. For each dance of a particular subtype she knows beyond the first, all dances with that subtype may be performed for an additional round per day.</p>\n<p>At 1st level, a primordial dancer can only perform a single dance at a time, and must stop performing a dance (a free action) in order to begin performing a new one. If the primordial dancer falls unconscious, becomes paralyzed, or otherwise has her ability to move totally negated, her dances end immediately. Starting at 5th level, a primordial dancer can perform up to two dances at a time; starting at 11th level, she can perform up to three dances at a time.</p>\n<p>While performing a dance, the primordial dancer has the ability to perform that dance's active abilities. Active abilities power themselves with the remaining daily duration of that dance, consuming anywhere from 0 to 4 rounds of daily dance duration. The primordial dancer begins play with the ability to perform a single active ability per dance, and gains additional active abilities at 6th and 12th levels. To use a dance's active ability, the primordial dancer must have a Charisma score equal to at least 10 + 1/2 the minimum primordial dancer level required to use that active ability. The Difficulty Class (DC) against a primordial dancer's dance ability (passive or active) is 10 + the primordial dancer's class level + the primordial dancer's Charisma modifier.</p>\n<p>A primordial dancer must rest for 8 hours and spend 1 hour practicing her footwork to replenish her the daily duration of each of her dances. This 1 hour of practice may be simultaneous with the hour of study needed to replenish spells.</p>\n<h2>From Sea to Mountain (Su)</h2>\n<p>At 4th level, the primordial dancer gains the ability to express multiple dances at once. Once per day, she may activate the 1stlevel active abilities of two dances she is currently performing in a single action. The requisite action to do so is equal to the longer of their activation times. A listing of activation times from longest to shortest follows. (2 rounds &gt; 1 round &gt; full-round action &gt; standard action &gt; move action &gt; swift action &gt; immediate action &gt; free action) For example, if dance abilities activated by a move action and a standard action are combined, it requires a standard action to activate both abilities at once.</p>\n<p>At 9th level and every five primordial dancer levels thereafter, the primordial may use this ability an additional time per day, to a maximum of 4 times per day at 19th level.</p>\n<h2>Evasion (Ex)</h2>\n<p>At 8th level and higher, a primordial dancer can avoid even magical and unusual attacks with great agility. If she makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, she instead takes no damage. Evasion can be used only if the primordial dancer is wearing light armor or no armor. A helpless primordial dancer does not gain the benefit of evasion.</p>\n<h2>Improved Evasion (Ex)</h2>\n<p>At 17th level, a primordial dancer becomes even better at avoiding danger. This functions as evasion, and while the primordial dancer still takes no damage on a successful Reflex saving throw against an attack, she also takes only half damage on a failed save. A helpless primordial dancer does not gain the benefit of improved evasion.</p>\n<h2>Primordial Master (Su)</h2>\n<p>At 20th level, determine the subtype of dance from which the primordial dancer knows the most dances. If there is a tie, the primordial dancer chooses a subtype from among those that are tied. This subtype is now referred to as the favored subtype.</p>\n<p>The primordial dancer gains a primal pool, a measure of her ability to leverage her favored subtype at all times. The number of points in the primordial dancer's primal pool is equal to one half the sum of her Intelligence modifier, Wisdom modifier, and Charisma modifier, rounded down. Whenever the primordial dancer would expend a round of daily duration from a dance with her favored subtype, she may expend a point from this pool instead.</p>\n<p>The primal pool replenishes itself whenever the primordial dancer replenishes the daily duration of her dances.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/the-primordial-dancer\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "low"
+      },
+      "ref": {
+        "value": "high"
+      },
+      "will": {
+        "value": "low"
+      }
+    },
+    "alignment": "Any. The art of the primordial dancer is a universal art in every sense of the word, and those from any walk of life can be inducted into its study.",
+    "wealth": "2d6 * 10",
+    "classSkills": {
+      "acr": true,
+      "clm": true,
+      "crf": true,
+      "esc": true,
+      "fly": true,
+      "hea": true,
+      "kar": true,
+      "kna": true,
+      "prf": true,
+      "pro": true,
+      "slt": true,
+      "spl": true,
+      "ste": true,
+      "swm": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/the-primordial-dancer"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "9f8c2ac2a5d35d2d",
+  "_key": "!items!9f8c2ac2a5d35d2d",
+  "name": "The Assassin: Universal Techniques",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:the-assassin:current:class-feature:universal-techniques",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/the-assassin#toc9",
+      "sourceSha256": "a4689e93a90faf70896f1a34b95f4cbf283865377aca2022492d04137e61f6f7",
+      "descriptionSha256": "c1aff355a6899ec5edaeb516a32204dc2f46e3549f7d1ad12d254fb56105b94b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:the-assassin:current:class-feature:universal-techniques",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At the indicated levels, an assassin gains the following techniques as bonus techniques. These represent ubiquitous tricks of the trade.</p>\n<h4>Study Mark (Ex)</h4>\n<p><strong>Category:</strong> Universal<br>\n<strong>Pool Compatible:</strong> no<br>\n<strong>Range:</strong> 60 feet + 5 feet/level<br>\n<strong>Target:</strong> creature in range<br>\n<strong>Presence Source:</strong> targeted creature<br>\n<strong>Presence Required:</strong> 0, 1, 2, or 3<br>\n<strong>Presence Change:</strong> +1<br>\n<strong>Execution Time:</strong> 1 standard action OR an attack in a full-attack action<br>\n<strong>Duration:</strong> instantaneous<br>\n<strong>Requires:</strong> Assassin 1</p>\n<p>You study a creature within range.</p>\n<p>You may execute an additional technique this round, but only if its presence source is the same as this technique's target and its presence change is -1, -2, -3, or -4.</p>\n<p><strong>Note:</strong> This technique literally does nothing beyond producing presence. At higher levels, its ability to guarantee chained techniques can be useful if you desperately need to get something big off; however, its primary reason for existing is to ensure that people who didn't pick a technique with a +1 presence change have a way to gain presence.</p>\n<h4>Hot to Cold (Ex)</h4>\n<p><strong>Category:</strong> Universal<br>\n<strong>Pool Compatible:</strong> no<br>\n<strong>Range:</strong> 60 feet<br>\n<strong>Target:</strong> creature in range with 2 or more presence<br>\n<strong>Presence Source:</strong> targeted creature<br>\n<strong>Presence Required:</strong> 2, 3, or 4<br>\n<strong>Presence Change:</strong> 0<br>\n<strong>Execution Time:</strong> 1 swift action<br>\n<strong>Duration:</strong> instantaneous<br>\n<strong>Requires:</strong> Assassin 6</p>\n<p>This technique may only be executed if the number of Hit Dice the target possesses is at least half your assassin level. The presence of your target is set to 0, and you gain a temporary technique point. This temporary technique point persists for 1 hour. Starting at 18th level, temporary technique points granted by this technique stack, to a maximum of 2. You may execute an additional technique this round.</p>\n<h4>Instinctive Focus (Ex)</h4>\n<p><strong>Category:</strong> Universal<br>\n<strong>Requires:</strong> Assassin 8</p>\n<p>At the end of your turn, choose a creature within 30 feet that has a presence pool. If that creature has 0 presence, it gains 1 presence. Starting at 20th level, this technique affects all creatures within 30 feet that have a presence pool.</p>\n<h4>Switch Focus (Ex)</h4>\n<p><strong>Category:</strong> Universal<br>\n<strong>Pool Compatible:</strong> no<br>\n<strong>Range:</strong> 60 feet<br>\n<strong>Target:</strong> creature in range with 2 or more presence<br>\n<strong>Presence Source:</strong> another creature in range<br>\n<strong>Presence Required:</strong> 0, 1, 2, or 3<br>\n<strong>Presence Change:</strong> +1<br>\n<strong>Execution Time:</strong> 1 free action<br>\n<strong>Duration:</strong> instantaneous<br>\n<strong>Requires:</strong> Assassin 12</p>\n<p>The presence of your target is set to 0.</p>\n<p>You may execute an additional technique this round.</p>\n<h4>Fruits of Focus (Ex)</h4>\n<p><strong>Category:</strong> Universal<br>\n<strong>Requires:</strong> Assassin 14</p>\n<p>You have a +1 luck bonus to AC and saving throws against creatures with a presence pool containing 1 or more presence. This increases to a +2 bonus at 18th level.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/the-assassin#toc9\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/the-assassin#toc9"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

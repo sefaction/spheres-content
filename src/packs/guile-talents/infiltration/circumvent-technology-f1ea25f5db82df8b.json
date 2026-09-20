@@ -1,0 +1,124 @@
+{
+  "_id": "f1ea25f5db82df8b",
+  "_key": "!items!f1ea25f5db82df8b",
+  "name": "Circumvent Technology",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:infiltration:spheres-of-guile:guile-talent:circumvent-technology",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/infiltration#toc9",
+      "sourceSha256": "58ed5a81a47b83d364436f1d8eac245db0d53fc4fbcac22e0373513f5df330d7",
+      "descriptionSha256": "4ec6b4a3f088787fadd99bd595ad5d07cf1743e6ac4f3e8c18efd0921cdf2101",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Infiltration Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:infiltration:spheres-of-guile:guile-talent:circumvent-technology",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "infiltration"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Adopting this approach is a swift action. While you maintain this approach, you can use Disable Device to disarm technological devices (such as Tinker sphere gizmos, etc.) as if you had the Technologist feat. If a <em>detector</em> or similar effect would detect you or if your movement would trigger a technological trap (including Tinker sphere Countermeasures) and you were aware of the <em>detector</em> or trap, you can spend 1 use of skill leverage as an immediate action to attempt to avoid its notice.</p>\n<p>Avoiding notice this way means the <em>detector</em> yields results as if you were not present unless the technology succeeds at a gizmo penetration check (1d20 + its gizmo level) DC 11 + the number of ranks in Stealth you possess; if the technology does not have a gizmo level, substitute the technology’s CR (or appropriate statistic, by GM discretion). If you successfully avoid a <em>detector</em>, you remain unnoticed for 1 minute per rank in Stealth you possess. A technological trap does not trigger if you succeed at a Stealth check opposed by the trap’s Disable device DC. A technological trap can trigger again if you are still within its area or meet its trigger condition at the end of your turn.</p>\n<p><strong>Special - Circumvent Magic [approach]</strong>: If you could enter both this approach and the Circumvent Magic [approach], you may maintain both approaches simultaneously.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/infiltration#toc9\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["approach"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/infiltration#toc9"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

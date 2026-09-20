@@ -1,0 +1,124 @@
+{
+  "_id": "92dba48d75ebc4d4",
+  "_key": "!items!92dba48d75ebc4d4",
+  "name": "Social Clout",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:faction:spheres-of-guile:guile-talent:social-clout",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/faction#toc23",
+      "sourceSha256": "c0949a2288b14f9bce4a04a73230598f8b6178c048d9a36fc6899ead8b33b209",
+      "descriptionSha256": "ac333e6e88a0ea33fab4e2e904691691bf3bcb24f66f3164e95b842218b4734c",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Faction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:faction:spheres-of-guile:guile-talent:social-clout",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "faction"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your status in your faction also confers upon you clout in a wider community. Depending on your faction and title, you might be a councilor, a well-established trader, a courtier, a religious leader, or even a noble. Your social clout ensures you are recognized and respected in your community and the surrounding area. The community and area you have clout is determined by your position in your faction and circumstances, but as a rule of thumb, you have clout in an area determined on the table below by the number of ranks in the associated skill you possess. Your community could be the entire settlement, a rural region, or a part of a larger settlement. You must typically be publicly seen serving in your role at least weekly to maintain your clout.</p>\n<p>NPCs who belong to the community where you have clout have a starting attitude toward you that is one category better if they would otherwise have an indifferent or friendly attitude toward you and your faction. Outside the population center but within the nearby area, you can requisition in any settlement or public establishment. These effects are general guidelines and should sometimes vary. A newcomer might not have heard of you yet; someone closely tied to your requisition area might recognize your clout elsewhere.</p>\n<p>You can only maintain your clout in one area. Transferring your clout to a new area takes 2d4 days of public appearances for at least 2 hours each day. Reestablishing your clout in an area you previously had clout takes only 1d4 days.</p>\n<table>\n<tbody><tr>\n<th>Associated Skill Ranks</th>\n<th>Community</th>\n<th>Requisition Area</th>\n</tr>\n<tr>\n<td>Up to 2</td>\n<td>Up to 200 (village)</td>\n<td>Up to 5-mile radius, 90 square miles, or 1 hex (barony)</td>\n</tr>\n<tr>\n<td>3–4</td>\n<td>201–2,000 (small town)</td>\n<td>12-mile radius, 400 square miles, or 4 hexes (small county)</td>\n</tr>\n<tr>\n<td>5–6</td>\n<td>2,001–5,000 (large town)</td>\n<td>25-mile radius, 1,800 square miles, or 19 hexes (large county, small duchy, small march, or small principality)</td>\n</tr>\n<tr>\n<td>7–8</td>\n<td>5,001–10,000 (small city)</td>\n<td>48-mile radius, 7,200 square miles, or 75 hexes (large march, large duchy, or middling principality)</td>\n</tr>\n<tr>\n<td>9–10</td>\n<td>10,001–25,000 (large city)</td>\n<td>90-mile radius, 25,000 square miles, or 270 hexes (grand duchy, large principality, or minor kingdom)</td>\n</tr>\n<tr>\n<td>11–12</td>\n<td>One community of any size plus all of at least 25,001 in area</td>\n<td>150-mile radius or 70,000 square miles (small kingdom)</td>\n</tr>\n<tr>\n<td>13–14</td>\n<td>One community of any size plus all of at least 10,001 in area</td>\n<td>250-mile radius or 200,000 square miles (large kingdom, minor empire)</td>\n</tr>\n<tr>\n<td>15–16</td>\n<td>One community of any size plus all of at least 5,001 in area</td>\n<td>400-mile radius or 500,000 square miles (small empire)</td>\n</tr>\n<tr>\n<td>17–18</td>\n<td>One community of any size plus all of at least 2,001 in area</td>\n<td>800-mile radius or 2,000,000 square miles (large empire, subcontinent)</td>\n</tr>\n<tr>\n<td>19–20</td>\n<td>One community of any size plus all of at least 201 in area</td>\n<td>1,600-mile radius or 8,000,000 square miles (vast empire)</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/faction#toc23\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/faction#toc23"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

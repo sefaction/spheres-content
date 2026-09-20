@@ -1,0 +1,124 @@
+{
+  "_id": "8aae7b6407717d68",
+  "_key": "!items!8aae7b6407717d68",
+  "name": "Fortifying Mixture (tonic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:fortifying-mixture-tonic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc25",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "7312410d1dce9381b6c8f9424ef6546a0a69c6df37039000603a4e4d8706ece6",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Concoction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:fortifying-mixture-tonic",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Cost:</strong> 3 herbs or 2 dry herbs</p>\n<p>This tonic grants the imbiber a +1 resistance bonus to all saving throws, increasing by 1 per 5 ranks you possess in the sphere's associated skill.</p>\n<p><strong>Twists</strong></p>\n<ul>\n<li><strong>1 herb:</strong> The tonic also grants an alchemical bonus to saving throws against certain conditions or effects equal to +1 + 1 per 3 ranks you possess in the associated skill, depending on the herb used, according to the table below. You may add this twist multiple times, selecting a new herb each time.</li>\n<li><strong>1 esoteric herb:</strong> The tonic also grants spell resistance equal to 10 + your ranks in the sphere’s associated skill.</li>\n</ul>\n<table>\n<tbody><tr>\n<th>Herb</th>\n<th>Save Type</th>\n</tr>\n<tr>\n<td>Bitter</td>\n<td>Death effects, energy drain</td>\n</tr>\n<tr>\n<td>Bland</td>\n<td>Sickened, nauseated, ability damage</td>\n</tr>\n<tr>\n<td>Cool</td>\n<td>Charms, compulsions</td>\n</tr>\n<tr>\n<td>Dry</td>\n<td>Blinded, dazzled, deafened, entangled</td>\n</tr>\n<tr>\n<td>Intense</td>\n<td>Fear, confused, dazed, fascinated</td>\n</tr>\n<tr>\n<td>Savory</td>\n<td>Anger, illusion, language-dependent, sonic</td>\n</tr>\n<tr>\n<td>Sour</td>\n<td>Disorientation, paralyzed, staggered, stunned</td>\n</tr>\n<tr>\n<td>Spicy</td>\n<td>Fatigue, exhaustion, sleep, pain</td>\n</tr>\n<tr>\n<td>Sweet</td>\n<td>Disease, poison</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc25\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc25"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

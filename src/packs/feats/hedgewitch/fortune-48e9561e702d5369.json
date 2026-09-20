@@ -1,0 +1,121 @@
+{
+  "_id": "48e9561e702d5369",
+  "_key": "!items!48e9561e702d5369",
+  "name": "Fortune",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:hedgewitch:ultimate:feat:fortune",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/hedgewitch#toc31",
+      "sourceSha256": "46b77426fb25469921cc4c30b0354a67fc85317fe025f3dd942f4c3786d5ed99",
+      "descriptionSha256": "d87cf3bd8814646ef4404c01064994b7e825d2a83addecdb09c7c76c6f2b4ab6",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Class Features > List of Paths",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:hedgewitch:ultimate:feat:fortune",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> Expanded Spheres: Cardcaster's Gamble</sup></p>\n<p>The fortuneteller reads the strands of fates and understands how to twist them to their advantage in a variety of scenarios.</p>\n<p><strong>Class Skills:</strong> Knowledge (geography) (Int), Knowledge (religion) (Int), Perception (Wis)</p>\n<p><strong>Path Benefit:</strong> The fortuneteller gains the Fate sphere as a bonus magic talent.</p>\n<p><strong>Path Power:</strong> Whenever the fortuneteller rests to regain spell points, she may roll a number of d20s equal to 3 + 1/2 her hedgewitch level and save the results as fortune dice. Whenever the fortuneteller would roll a d20, she may instead choose to use a fortune die she rolled at the beginning of the day. She can only use each of these fortune dice once and any unused rolls are lost when the fortuneteller rests to regain spell points.</p>\n<p>At 5th level, the fortuneteller may choose to use one of her fortune dice in place of the d20 roll of a creature within close range of her as an immediate action. An unwilling creature is allowed a Will save (DC 10 + 1/2 her hedgewitch level + her casting ability modifier) to negate this effect. You cannot use fortune dice to replace rolls made to counteract another fortune die, and fortune dice are expended even when the target succeeds at their saving throw.</p>\n<p>At 9th level, the fortuneteller may choose to substitute a fortune die for the result of a d20 which has just been rolled as an immediate action. Unwilling creatures are allowed a Will save as normal to negate the effect.</p>\n<p>At 13th level, the fortuneteller may spend a spell point as part of applying a fortune die to gain a +2 luck bonus on the roll or impose a -2 penalty on the roll.</p>\n<p>At 17th level, the fortuneteller gains 4 additional fortune dice at the start of the day which she may choose to use in addition to those she rolls. Two of these fortune dice are 20s and two of these rolls are 1s.</p>\n<p><strong>Path Secrets:</strong> A hedgewitch with the fortune path adds the following secrets to those she may select:</p>\n<ul>\n<li><strong>Borrowed Fortune:</strong> By spending a spell point when she rolls a d20, the fortuneteller may roll twice and take the higher result. However, whenever the fortuneteller rolls a d20 before the end of her next turn, she rolls twice and takes the lower result.</li>\n<li><strong>Enchanted Harrow Deck:</strong> The fortuneteller gains the Deadly Dealer feat as a bonus feat, even if she does not meet the prerequisites. She gains the benefits of the Imbued Strike feat, but only for the purposes of using Deadly Dealer. When the fortuneteller uses the Deadly Dealer feat with a card from a harrow deck, the card is not destroyed.</li>\n<li><strong>Fortunate Revelations:</strong> The fortuneteller gains one oracle revelation from the divine numerologist, dual-cursed oracle, or seer oracle archetypes, using her hedgewitch level as her effective oracle level and her casting ability modifier in place of her Charisma modifier when meeting its prerequisites or determining its effects. The fortuneteller is not required to take specific revelations at specific levels. This secret can be selected multiple times.</li>\n<li><strong>Harrowed Thrower:</strong> (requires Enchanted Harrow Deck) When the fortuneteller uses the Deadly Dealer feat with a card from a harrow deck, the card gains the returning weapon special ability. In addition, the fortuneteller can deliver a touch spell with a thrown card. This uses the Deadly Dealer feat, except the attack is resolved as a ranged touch attack and the card deals no damage of its own.</li>\n</ul>\n<p><strong>Path Grand Secrets:</strong> A hedgewitch with the fortuneteller path adds the following grand secrets to those she may select:</p>\n<ul>\n<li><strong>Foreseen:</strong> The fortuneteller is never surprised and can always take a standard action during a surprise round.</li>\n</ul>\n<p><strong>Path Mastery:</strong> When selecting a fortune die with a roll result equal to or lower than her casting ability modifier to use on herself, the fortuneteller doesn’t expend that fortune die. In addition, any critical threats made against the hedgewitch only confirm if the second roll results in a natural 20 on the die.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/hedgewitch#toc31\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/hedgewitch#toc31"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

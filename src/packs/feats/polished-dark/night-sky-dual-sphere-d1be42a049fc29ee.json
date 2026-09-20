@@ -1,0 +1,121 @@
+{
+  "_id": "d1be42a049fc29ee",
+  "_key": "!items!d1be42a049fc29ee",
+  "name": "Night Sky (Dual Sphere)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:polished-dark:polished-dark:feat:night-sky-dual-sphere",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/polished-dark#toc147",
+      "sourceSha256": "f633d89225f52142d1bb225ddfdfa8e0ef5dcc54cccb6249cb2c34a31e4998e2",
+      "descriptionSha256": "3d343f6da12222a6b7ea3b6376d980a045cad146d5798e7310f9fee7214b3e60",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "polished-dark",
+      "category": "Dark (Polished) Sphere Feats > Dual Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:polished-dark:polished-dark:feat:night-sky-dual-sphere",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>Like rough gems strewn across the empty canvas, the night’s sky holds great wonders.</em><br>\n<strong>Prerequisites:</strong> Dark sphere, Light sphere.</p>\n<p><strong>Benefit:</strong> You gain the following abilities based on the Dark sphere and Light sphere talents you possess:</p>\n<ul>\n<li><strong>Dusk / Dawn:</strong> Whenever you grant a <em>lens</em> to a creature, you may spend 1 spell point to add a <em>cloak</em> modified with a (meld) to that <em>lens</em>, paying any additional spell point costs for the <em>cloak</em> or its options as appropriate.</li>\n<li><strong>Starlight Darkness:</strong> Whenever you create a <em>gloom</em>, instead of altering the light level, the <em>gloom</em> instead causes creatures to be dazzled (referred to by this ability as “starlight darkness”). The starlight darkness is no longer a conflicting effect with magical light. If the starlight darkness is modified with the true darkness option, instead of true darkness’s normal effects, the penalties of the dazzled condition become -2, +1 per 5 caster levels. If the starlight darkness is modified with the Absolute Darkness pitch black option, the penalties imposed by dazzled apply to all attack rolls (even if the creature does not rely on sight).</li>\n<li><strong>Sunrise / Sunset:</strong> When creating a starlight darkness, you may add a (light) option to a <em>gloom</em>, as though it were a (darkness). A (light) option used this way must be one that affects all creatures in the light’s radius (such as Disorienting Patterns, Searing Light), and has no additional effects against an individual target (even if attached to that target). You may spend a standard action to treat a starlight darkness granted a (light) option as an area of bright light (or as part of the action used to create the starlight darkness).</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/polished-dark#toc147\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/polished-dark#toc147"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

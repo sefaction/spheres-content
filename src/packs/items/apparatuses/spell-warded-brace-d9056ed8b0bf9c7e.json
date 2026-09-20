@@ -1,0 +1,162 @@
+{
+  "_id": "d9056ed8b0bf9c7e",
+  "_key": "!items!d9056ed8b0bf9c7e",
+  "name": "Spell Warded Brace",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:apparatuses:ultimate:item:spell-warded-brace",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/apparatuses#toc44",
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "5afb622a60141a8682804c57cc65c5d817e64b4bc5a32f8b84576233843b5c5b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "apparatuses",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:apparatuses:ultimate:item:spell-warded-brace",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> overwhelming Protection; <strong>CL</strong> 20th; <strong>Scaling</strong> wonder<br>\n<strong>Slot</strong> feet, neck, or wrists; <strong>Price</strong> 90 gp; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThis brace, while made primarily of adamantine, is also combined with a silver and cold iron alloy. If placed against a limb of a creature (a touch attack), the brace will go viscous and change size so to fit and latch onto that creature.</p>\n<p>The spell warded brace is considered a piece of cursed equipment, and may only be magically removed from a creature with a successful use of the Break Enchantment talent (or similar ability). Any spell or sphere ability attempting to remove the brace must succeed on a magic skill check beating a DC 20. The brace has no other effect unless it is attached to a creature of significant level or Hit Dice to unlock its other abilities.</p>\n<p>The brace, if brought into an antimagic field or similar effect, hardens and can then be removed by force or finesse. A successful Strength check DC 35 can break free (this does not damage the item), while a successful Escape Artist check DC 40 will allow the equipped creature to slip free of the brace.</p>\n<p><strong>4th level — 1,800 gp:</strong> Any creature attempting to use a magical ability while the spell warded brace is equipped, must first succeed on a magic skill check DC 17. Creatures without a magic skill bonus are considered to have a bonus of +0. Failing the check means the magical ability had no effect, wasting any used resources (such as spell points, slots, or daily uses as appropriate).<br>\n<strong>8th level — 9,900 gp:</strong> The magic skill check necessary to use magical abilities is increased to a DC 23.<br>\n<strong>12th level — 32,400 gp:</strong> The magic skill check necessary to use magical abilities is increased to a DC 29.<br>\n<strong>16th level — 94,500 gp:</strong> The magic skill check necessary to use magical abilities is increased to a DC 35.<br>\n<strong>20th level — 264,000 gp:</strong> The magic skill check necessary to use magical abilities is increased to a DC 41.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Protection sphere (Spell Ward), Counterspell; <strong>Cost</strong> 132,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc44\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 1
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 90,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "feet",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/apparatuses#toc44"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

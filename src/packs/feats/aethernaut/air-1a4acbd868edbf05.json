@@ -1,0 +1,121 @@
+{
+  "_id": "1a4acbd868edbf05",
+  "_key": "!items!1a4acbd868edbf05",
+  "name": "Air",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:aethernaut:current:feat:air",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/aethernaut#toc56",
+      "sourceSha256": "cd774d1a82f266aca5716be895c0f51e1e0bb4993ad8ac1c77eb98a14131138f",
+      "descriptionSha256": "97859bb47c4a144342450c37b6f0984d9517011126ae3093cf37f2c624830567",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features > Aethernaut Planar Masteries",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:aethernaut:current:feat:air",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> evocation or any that manipulates air or electricity</p>\n<p><strong>Planar Precision:</strong> If you have mastered this plane or are on this plane, you can use precision to affect the ranged attacks of any creature he can see or hear within 60 feet.</p>\n<p><strong>Rift Edges:</strong> Air phenomena blast with chilling or scorching winds and crackle with electricity.</p>\n<strong>Faint Rift edges</strong>\n<p> (Roll 1d4, on a 4 choose the result)</p>\n<table>\n<tbody><tr>\n<td>1</td>\n<td>5 points of electricity damage</td>\n</tr>\n<tr>\n<td>2</td>\n<td>trip combat maneuver with bonus equal to aethernaut level</td>\n</tr>\n<tr>\n<td>3</td>\n<td>deafened</td>\n</tr>\n</tbody></table>\n<strong>Moderate Rift edges</strong>\n<p> (Roll 1d4, on a 4 choose the result)</p>\n<table>\n<tbody><tr>\n<td>1</td>\n<td>15 points of electricity damage</td>\n</tr>\n<tr>\n<td>2</td>\n<td>treats all foes as having concealment</td>\n</tr>\n<tr>\n<td>3</td>\n<td>gust of wind</td>\n</tr>\n</tbody></table>\n<strong>Strong Rift edges</strong>\n<p> (Roll 1d4, on a 4 choose the result)</p>\n<table>\n<tbody><tr>\n<td>1</td>\n<td>45 points of electricity damage</td>\n</tr>\n<tr>\n<td>2</td>\n<td>air geyser<sup>ACG</sup></td>\n</tr>\n<tr>\n<td>3</td>\n<td>shout (20-foot cone)</td>\n</tr>\n</tbody></table>\n<p><strong>Rift Wards</strong></p>\n<ul>\n<li><strong>Faint Rift Ward:</strong> resist acid 10 (20 at 9th level or 30 at 15th level)</li>\n<li><strong>Moderate Rift Ward:</strong> entropic shield and air bubble<sup>APG</sup></li>\n<li><strong>Strong Rift Ward:</strong> Any creature that attacks you in melee takes 1d6 + your aethernaut level points of electricity damage</li>\n</ul>\n<p><strong>Mastery Benefit:</strong> You also gain resist electricity 10 (20 at 9th level, 30 at 15th level).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/aethernaut#toc56\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/aethernaut#toc56"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

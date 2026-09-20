@@ -1,0 +1,124 @@
+{
+  "_id": "dea634f809b81321",
+  "_key": "!items!dea634f809b81321",
+  "name": "Soul (harvest) (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:survivalism:spheres-of-guile:guile-talent:soul-harvest-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/survivalism#toc66",
+      "sourceSha256": "f08a002395ddf0d614719b1c74bdfc78b77500e0a93ea395e3e0354dcf980820",
+      "descriptionSha256": "cac581ae5942c0cece07a8e86f2472e68a2239e410fa2c1ae1c5e9cd2f82d444",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:survivalism:spheres-of-guile:guile-talent:soul-harvest-su",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "survivalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p><strong>Prerequisites:</strong> Survivalism sphere ((harvest) package), associated skill 15 ranks.</p>\n<p><strong>Refinement DC:</strong> 25</p>\n<p>You can harvest the soul of a creature that has died no longer than a day ago by spending 1 use of skill leverage and containing it within a gemstone worth at least 1,000 gp per Hit Die of the creature to contain the soul within, unless you have the Astral Preparation talent. The creature receives a Will saving throw to negate the harvest attempt–on a success, you cannot harvest the same creature’s soul again for 24 hours. On a failed save, the creature’s soul is trapped, foiling any attempts to resurrect or summon their spirit unless the caster holds the gemstone. If the gemstone is destroyed, the soul is released.</p>\n<p>A refined soul can be temporarily called upon as a standard action by spending 1 use of skill leverage, summoning its spirit to ask up to 1 question per 2 associated ranks. The spirit’s knowledge is limited to what it knew in life (including language), and depending on the spirit’s disposition towards you, their answers may be brief, cryptic, or deceitful.</p>\n<p>Unlike a normal component, a refined soul persists indefinitely without intervention.</p>\n<p><strong>Potency:</strong> Whenever the refined soul is called upon to ask questions, it can never refuse to answer a question or answer deceitfully (although it can remain evasive or cryptic). Additionally, the refined soul can be called upon to fight. A spirit called upon this way persists for 1 minute, and fights any creatures that are hostile towards the creature that called upon it. Such a spirit functions as though affected by a Death sphere reanimate, with your choice of the skeletal champion, zombie lord, or ghost template (chosen when summoned); if you choose the ghost template, it does not gain the listed special attacks or the rejuvenation ability. The spirit retains any damage it suffers across multiple instances of calling it until 24 hours have passed, in which case it is restored to full hit points.</p>\n<p><strong>Talisman:</strong> A soul talisman reinforces the wearer’s vitality. The wearer adds your associated ranks to their Constitution score for determining when their negative hit point total would kill them. Additionally, once per day whenever the soul talisman’s wearer would be killed, they are restored to life at 1 hit point.</p>\n<p><strong>Potency:</strong> The soul talisman’s wearer instead adds twice your associated ranks to their Constitution score for determining when their negative hit point total would kill them. Additionally, when they are restored to life with the soul talisman, they are restored to 10% of their hit point maximum.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/survivalism#toc66\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/survivalism#toc66"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

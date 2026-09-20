@@ -1,0 +1,138 @@
+{
+  "_id": "b059c74d6636f55b",
+  "_key": "!items!b059c74d6636f55b",
+  "name": "Multiple Master",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:multiple-master:current:class:multiple-master",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/multiple-master",
+      "sourceSha256": "7313d69708fa812c752b10e876dd92941d604e4f6b4a2adcd72558487f8e514b",
+      "descriptionSha256": "0da8cdc3863576406c24946012bcddf1259cbf58e8ee465383f8aadb5280717a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:multiple-master:current:class:multiple-master",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The multiple master is a combination of warrior and stage magician, creating temporary duplicates of himself and using numbers to turn the tide to his advantage.</p>\n<p><strong>Hit Dice:</strong> d8.</p>\n<p><strong>Role:</strong> Multiple masters are martial characters who specialize in battlefield control and locking down their opponents. A multiple master’s clones are easily dispatched, though he may use them as powerful pawns to conquer the entire chessboard.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Starting Wealth:</strong> 3d6 × 10 gp (average 105 gp.). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The multiple master’s class skills are Climb (Str), Acrobatics (Dex), Bluff (Cha), Handle Animal (Cha) Intimidate (Cha), Perception (Wis), Sense Motive (Wis), Stealth (Dex), and Swim (Str).</p>\n<p><strong>Skill Ranks Per Level:</strong> 2 + Int Modifier</p>\n<h1>Class Features</h1>\n<strong>Table: The Multiple Master</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Ref Save</th>\n<th>Will Save</th>\n<th>Special</th>\n<th>Max Clones Out At A Time</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+0</td>\n<td>+2</td>\n<td>+0</td>\n<td>Clones</td>\n<td>1</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+0</td>\n<td>+3</td>\n<td>+0</td>\n<td>Brothers, unity talent</td>\n<td>1</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+2</td>\n<td>+1</td>\n<td>+3</td>\n<td>+1</td>\n<td>Combat clones, teamwork feat</td>\n<td>1</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+3</td>\n<td>+1</td>\n<td>+4</td>\n<td>+1</td>\n<td>Mirror manipulation</td>\n<td>1</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+3</td>\n<td>+1</td>\n<td>+4</td>\n<td>+1</td>\n<td>Reinforcements</td>\n<td>1</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+4</td>\n<td>+2</td>\n<td>+5</td>\n<td>+2</td>\n<td>Combat clones, unity talent</td>\n<td>2</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+5</td>\n<td>+2</td>\n<td>+5</td>\n<td>+2</td>\n<td>Teamwork feat</td>\n<td>2</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+6/+1</td>\n<td>+2</td>\n<td>+6</td>\n<td>+2</td>\n<td>Mirror manipulation</td>\n<td>2</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+6/+1</td>\n<td>+3</td>\n<td>+6</td>\n<td>+3</td>\n<td>Combat clones, clone army</td>\n<td>2</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+7/+2</td>\n<td>+3</td>\n<td>+7</td>\n<td>+3</td>\n<td>Unity talent</td>\n<td>2</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+8/+3</td>\n<td>+3</td>\n<td>+7</td>\n<td>+3</td>\n<td>Teamwork feat</td>\n<td>3</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+9/+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>+4</td>\n<td>Mirror manipulation</td>\n<td>3</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+9/+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>+4</td>\n<td>Instant clone</td>\n<td>3</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+10/+5</td>\n<td>+4</td>\n<td>+9</td>\n<td>+4</td>\n<td>Unity talent</td>\n<td>3</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+11/+6/+1</td>\n<td>+5</td>\n<td>+9</td>\n<td>+5</td>\n<td>Teamwork feat</td>\n<td>3</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+12/+7/+2</td>\n<td>+5</td>\n<td>+10</td>\n<td>+5</td>\n<td>Mirror manipulation</td>\n<td>4</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+12/+7/+2</td>\n<td>+5</td>\n<td>+10</td>\n<td>+5</td>\n<td>Sacrificial clone</td>\n<td>4</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+13/+8/+3</td>\n<td>+6</td>\n<td>+11</td>\n<td>+6</td>\n<td>Unity talent</td>\n<td>4</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+14/+9/+4</td>\n<td>+6</td>\n<td>+11</td>\n<td>+6</td>\n<td>Teamwork feat</td>\n<td>4</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+15/+10/+5</td>\n<td>+6</td>\n<td>+12</td>\n<td>+6</td>\n<td>Clone-storm, mirror manipulation</td>\n<td>4</td>\n</tr>\n</tbody></table>\n<h2>Weapon and Armor Proficiency</h2>\n<p>The multiple master is proficient with all simple and martial weapons and with all armor (heavy, light, and medium) and shields (excluding tower shields).</p>\n<h2>Clones (Su)</h2>\n<p>At 1st level, the multiple master can create a duplicate of himself as a swift action 4 times per day. He can make 1 additional clone per day for every level of multiple master he has beyond 1st. At 1st level he may only have 1 clone out at a time - he may have 1 additional clone out at the same time at 6th level and one additional clone every 5 levels thereafter.</p>\n<p>This clone lasts for a number of rounds equal to his multiple master level (minimum 3). The multiple master who makes a clone is henceforth referred to as the “prime” multiple master.</p>\n<p><strong>Creating:</strong> When clones are created they occupy an adjacent square to the prime multiple master. If no adjacent squares are available, a clone cannot be created. Creating a clone does not provoke an attack of opportunity.</p>\n<p><strong>Actions:</strong> Clones can only take one action per turn. It must be of one of the following kinds:</p>\n<ul>\n<li><strong>Attack:</strong> The clone may make a single attack (not a full attack action) at the clone’s highest BAB, each attack made by the prime multiple master or any of his other clones imposes a -5 penalty on any attacks that the prime multiple master or any of his other clones make until the end of his turn, this penalty stacks with itself.</li>\n<li><strong>Move:</strong> Move up to its maximum movement using any method of movement it has at its disposal.</li>\n<li><strong>Use Item:</strong> Use an item located in its inventory. This includes reloading a weapon.</li>\n<li><strong>Spells, Spell-Like Abilities &amp; Spell Completion Items:</strong> Only a single spell, spell-like ability, or spell completion item may be completed or activated per round. It may originate from the prime multiple master or one of his clones (see Collective Resources, below).</li>\n</ul>\n<p><strong>Additional Actions:</strong></p>\n<ul>\n<li><strong>5-Foot Step:</strong> A clone who does not take a move action may make a 5-foot step in addition to any other action it takes.</li>\n<li><strong>Drawing / Reloading Weapons:</strong> As part of an attack or move action a clone may draw or reload a weapon as a swift action at the beginning of its turn. They may only reload if the action to do so is a swift or free action (otherwise it must be done as a separate fullround action). If a clone has Quick Draw, they may draw their weapon as a free action.</li>\n</ul>\n<p><strong>Restricted Actions:</strong></p>\n<ul>\n<li><strong>Immediate Actions:</strong> Clones cannot take immediate actions; that is a privilege reserved only for the prime multiple master.</li>\n<li><strong>Attacks of Opportunity:</strong> Clones and the prime multiple master share a total number of attacks of opportunities per round. This does not count against their action for the turn.</li>\n<li><strong>Charge Attacks:</strong> Clones cannot take charge attacks.</li>\n</ul>\n<p><strong>Dice Rolling:</strong> With the GM’s approval on a case-by-case basis, a player may make a single d20 roll to determine the effect of multiple attacks from the prime multiple master and his clones if they all have the same bonus.</p>\n<p><strong>Detecting the Prime Multiple Master:</strong> The prime multiple master always moves a fraction of a second ahead of any of his clones (though this has no in-game effect) and creatures may attempt a Perception check (DC 10 + 1/2 multiple master level + Dexterity modifier) to separate him from his clones.</p>\n<p><strong>Clone HP:</strong> Clones are magical in nature and are destroyed if they suffer at least 1 point of damage or are the subject of a successful combat maneuver against them. Clones can be dispelled via dispel magic or similar effects. The prime multiple master is assumed to have created the clone using a caster level equal to his multiple master level.</p>\n<p><strong>Memories:</strong> The clones and the multiple master share the same consciousness, the prime multiple master knows everything his clones knows and vice-versa.</p>\n<p><strong>Clone Abilities:</strong> Clones have all the statistics, skills, equipment, spells, and feats of a multiple master but none of the multiple master class features (except for bonus feats, the clone still retains access to those). The clones and the prime multiple master do not share any sort of empathic or mental connection so orders need to be conveyed in a conventional fashion.</p>\n<p><strong>Collective Pool of Resources:</strong> Any expended uses of anything in the possession or repertoire of the prime multiple master (feats, spells per day, class features, wands, magic items, single use items like potions, etc) detract from a collective pool rather than from each individual.</p>\n<p><strong>Equipment:</strong> Any object that leaves the grasp of a clone dissipates (though ranged weapons can be used and they dissipate immediately afterwards).</p>\n<ul>\n<li><strong>Example:</strong> If the prime multiple master had a wand of cure light wounds with 10 charges, so do his clones. If a clone used a charge of that wand, all the clones’ (and the prime multiple master’s) wand would now only have 9 charges.</li>\n</ul>\n<p>An object that leaves the possession of the prime multiple master does not influence his clones. Likewise, any new objects or equipment he gains (for example, if the multiple master picks up a tree-branch) do not suddenly appear on his clones. However, if a clone has an object with a limited number of uses that the prime multiple master no longer possesses or has fully expended (such as a used-up wand of cure light wounds or passed-off flask of alchemist’s fire) it becomes inert.</p>\n<ul>\n<li><strong>Example:</strong> If the prime multiple master gets disarmed, all of his clones would not lose access to that weapon but any new clones created after that would not have it.</li>\n<li><strong>Example:</strong> If the prime multiple master hands his wand of cure light wounds to an ally, all of his clones’ wands of cure light wounds would not function until his ally gave him the wand back.</li>\n</ul>\n<h2>Brothers (Ex)</h2>\n<p>At 2nd level all clones produced by the multiple master gain a +4 insight bonus on aid another checks when aiding the prime multiple master or one of his clones.</p>\n<h2>Unity Talents</h2>\n<p>At 2nd level and every 4 levels thereafter, a multiple master gains a new way to coordinate his clones to work together or deploy them.</p>\n<h4>Battlefield Orchestra (Ex)</h4>\n<p>The prime multiple master can grant any one of his teamwork feats to all allies who can hear him for a number of rounds equal to his Intelligence modifier once per day for every 4 levels of multiple master he possesses.</p>\n<h4>Exploding Clone (Su)</h4>\n<p>A multiple master can cause one of his clones to explode as a swift action. This causes 1d6 fire damage for each round (including this one) that the clone has remaining in its duration to the square the clone occupies and all adjacent squares. Creatures targeted by this may make a Reflex save (DC 10 + 1/2 level + Intelligence modifier) for half damage. If this damage destroys any other of the multiple master’s clones- they too explode in this fashion (causing 1d6 damage). Other effects that trigger on the destruction of a clone, such as mirror trap, do not trigger with exploding clone.</p>\n<h4>Overwhelm (Ex)</h4>\n<p>If a clone or the prime multiple master scores a critical hit against a creature, all other clones and the prime multiple master gain a +2 insight bonus on attack rolls against that creature until the end of their next turn.</p>\n<h4>Project</h4>\n<p>When a clone is made, it may be created in any open square within 100 feet of the prime multiple master that he can draw line of effect.</p>\n<h4>Repeat (Su)</h4>\n<p>As a swift action a multiple master can expend one use of his clone class feature to recreate a clone that was destroyed last round. The clone has its full normal duration but is summoned anew.</p>\n<h4>Sacrificial Lamb (Su)</h4>\n<p>The prime multiple master may destroy one of his clones who is within 30 feet of him a swift action to recover some of his own health. This restores an amount of hit points equal to 1d6 + 1/2 his multiple master level (minimum +2).</p>\n<h4>Swarming (Ex)</h4>\n<p>Clones and the prime multiple master are accustomed to fighting amongst each other. Up to two multimen (clones or the prime) can share the same square at the same time. If two multimen in the same square attack the same adjacent foe, they are considered to be flanking that foe as if they were in two opposite squares.</p>\n<h4>Switch (Sp)</h4>\n<p>The prime multiple master may switch places with one of his clones as a swift action as if by king’s castle APG, using his multiple master level as his caster level (as with <em>dimensional door</em>, this ends his turn).</p>\n<hr>\n<h2>Combat Clones</h2>\n<p>As the multiple master progresses in his mastery over his clones, he learns to make them more suited to combat.</p>\n<p>At 3rd level, each clone produced by the multiple master have a total HP value equal to his multiple master level.</p>\n<p>At 6th level, each clone produced by the multiple master gain DR / - equal to 1/5th the multiple master’s level.</p>\n<p>At 9th level, each clone produced by the multiple master have a total HP value equal to twice his multiple master level.</p>\n<h2>Teamwork Feat</h2>\n<p>At 3rd level and every 4 levels thereafter, the multiple master gains a bonus feat in addition to those gained from normal advancement. These bonus feats must be selected from those listed as teamwork feats. Of particular note, clones count as separate characters who possess the same teamwork feat for the purpose of activating the benefits of the feats.</p>\n<h2>Mirror Manipulations</h2>\n<p>At 4th level and every 4 levels thereafter, the multiple master devises new ways to make his clones appear. This allows him to make atypical clones with unique powers. These clones are clearly different from the prime multiple master and are easily identifiable as such (DC 5 Perception check). Some of these mirror manipulations require multiple uses of the clone class feature to create. Such options have the number of uses of the clones class feature required to utilize them listed after the name of the mirror manipulation Only one mirror manipulation may be added to a given clone.</p>\n<h4>Clone Other (2)</h4>\n<p>The clone you make mimics a willing ally within 30 feet of you who you are intimately familiar with. The clone is under your control but draws its equipment, abilities, skills, feats, spells (etc) from your ally. Your ally may dismiss the clone as a free action at any point if they so choose. The clones expend resources from a pool shared with the ally they were created from (a clone of a barbarian deducts his rounds of rage from the same pool as the original barbarian). The clone acts under the control of the multiple master and otherwise acts as a normal clone.</p>\n<h4>Fast Clone (2)</h4>\n<p>This type of clone adds +40 feet to its base movement speed for the duration of its existence. A fast clone has the ability to charge, as opposed to a normal clone (allowing them to move and attack in the same action, but only as a charge). This clone appears as a sleek, skinny, vibrating, hyperactive, spiky-haired, spasmodic version of the prime multiple master and chatters incessantly.</p>\n<h4>Flying Clone (2)</h4>\n<p>This clone gains a fly speed equal to the prime multiple master’s base move speed with average maneuverability. This clone has great fleshy wings and a sleeker appearance.</p>\n<h4>Invisible Clone (2)</h4>\n<p>The clone created with this mirror manipulation is invisible (as if it was under the effect of an invisibility spell). Actions that would normally dispel invisibility instead suppress it until the start of the clone’s next turn. The clone resembles a plain, color-drained version of the prime multiple master when visible.</p>\n<h4>Mirror Trap (2)</h4>\n<p>If this clone is destroyed it explodes and deals 1d6 damage for every 2 class levels the multiple master possesses to all creature within 30 feet of it. Creatures may attempt a Reflex save (DC 10 + 1/2 multiple master level + prime multiple master’s Intelligence modifier) to reduce the damage to minimum damage. The damage dealt may be acid or fire but this distinction must be made when the clone is created. The prime multiple master can trigger the explosion of this clone as a free action. The clone resembles an extremely bloated, shaking, spasmodic version of the prime multiple master. If acid is selected, he has great boils and exposed wounds. If fire is selected the clone has glowing orange eyes and fiery red skin.</p>\n<h4>Super Clone (3)</h4>\n<p>The clone created with this mirror manipulation is a larger size (as if enlarge person was cast on him) version of the multiple master - it gains a morale bonus on all damage rolls equal to 1/4th the multiple master’s class level. This clone has an amount of HP equal to half the total HP value of the prime multiple master (unless the value provided by the combat clone class feature would be higher). The clone physically resembles a monstrous, hairy, bestial version of the prime multiple master.</p>\n<h4>Time Clone (2)</h4>\n<p>This clone lasts for a number of hours equal to your Intelligence modifier. For abilities that function off number of remaining rounds on a clone this clone is assumed to always have a number of rounds remaining equal to half your multiple master level. This clone appears as an aged version of the prime multiple master but remains as spry and physically able as his younger counterparts.</p>\n<hr>\n<h2>Reinforcements (Su)</h2>\n<p>At 5th level, when using the clone ability, a multiple master can create up to the maximum number of clones that he may have out at a time at once. These still subtract from the total number of clones he can make per day. He must still have enough adjacent squares to house all the new clones.</p>\n<h2>Clone Army</h2>\n<p>At 9th level, a multiple master can make a maximum number of clones per day equal to 4 + twice his multiple master level. This replaces the restriction imposed on him in his clones class feature.</p>\n<h2>Instant Clone</h2>\n<p>At 13th level, a multiple master can make clones as a free action rather than a swift. His clones no longer need to appear adjacent to him, but rather must appear adjacent to the multiple master or another clone created as part of the same action.</p>\n<h2>Sacrificial Clone (Su)</h2>\n<p>At 17th level, if the prime multiple master would be reduced to 0 or fewer hit points by an attack or spell, he may swap places with an active clone, destroying the clone. The prime multiple master still suffers any additional effects, such as stunned or poisoned. This does not trigger any abilities of the clone’s that trigger when it is killed.</p>\n<h2>Clone Storm (Su)</h2>\n<p>At 20th level, any time a multiple master summons a clone he may chose to summon a second copy of that clone for free. If summoning multiple clones at once, each individual clone receives a copy. “This ability must still abide by the maximum derived from the multiple master’s Clone Army class feature.</p>\n<hr>\n<h1>Bookkeeping and Turn Time</h1>\n<p>You are require to keep track of how long each clone is in play for, how many clones you can make per day, which clone has what equipment, how much HP they have (in a few specific instances), and what clone has what mirror manipulation active upon them. Players should be aware of this when taking the class and take steps to keep this data organized. Multiple masters can slow down combat if you are not careful. They have a lot of opportunities to make attacks of opportunities, deliver multiple attacks per round, and require a lot of time to move about the board. Be wary of this and make sure you plan your moves ahead or it will slow your game down a great deal. It may be advantageous to resolve all your attack and damage rolls with a single dice roll for all your clones (if your GM allows).</p>\n<hr>\n<h1>A Player’s Guide to the Multiple Master</h1>\n<p>When a player first looks at the multiple master they tend to expect an excellent damage dealer when in reality they are much more a technical battlefield controller (remember, their base attack bonus is only that of a cleric’s) that augments that roll with a secondary focus on damage output. A multiple master’s player really needs to learn how to position their clones to maximum effectiveness. This can be for area denial (“the enemy can’t move here because my clone is there”), keeping enemies away from vital targets by surrounding them, or for provoking attacks of opportunity. Vital strike is an almost essential feat for most builds as it increases your clones’ (who can’t make multiple attacks) ability to deal more damage.</p>\n<p>Two builds that tend to be particularly effective are the “firing line” multiple master and the “guardian” build. The firing line multiple master uses firearms and concentrates on shooting their guns as many times as possible. With that build you will want to focus on numbers and getting out as many clones as quickly as possible so you can shoot as many guns per round as possible. Due to the fact that firearms target touch AC, your clones have a great chance to hit and, since they are likely at a distance from foes you have to worry less about them being targeted or getting hit. Take your standard ranged fighter feats (Weapon Focus, Deadly Aim, Precise Shot, Rapid Reload, etc) and make sure you have the Dexterity to back it up! For unity talents swarming can be useful, overwhelm is also great if you can score a critical hit, and you may want to grab project if you don’t grab swarming (keeping clones too close together makes for a big target). Don’t underestimate the value of a few flying clones with guns in a fight where the enemy can’t fly and can’t use ranged weapons.</p>\n<p>The second build, the guardian, focuses more on the tactical battlefield control aspect. When using it, summon and position your clones so you can make the maximum number of attacks of opportunity and slow the enemy down. It’s fine to lose a clone (heck - explode it when it does!). For this build you will need to equip your multiple master with a reach weapon, take feats to augment your attacks of opportunities for the round (Combat Reflexes is an essential feat) while forsaking feats that drop your bonus to hit (like Power Attack), and you’ll want unity talents like project and switch. This is a Strength and Dexterity build mostly as you need enough Dexterity to make a large number of attacks of opportunity per round and enough Strength to actually cause damage. You might want to pick up the super clone or fast clone mirror manipulations in case you need a clone that can fight a little better, but honestly you probably want to learn how to explode your clones once they are less useful so something like mirror trap clone is good.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/multiple-master\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 2,
+    "savingThrows": {
+      "fort": {
+        "value": "low"
+      },
+      "ref": {
+        "value": "high"
+      },
+      "will": {
+        "value": "low"
+      }
+    },
+    "alignment": "Any",
+    "wealth": "3d6 * 10",
+    "classSkills": {
+      "acr": true,
+      "blf": true,
+      "clm": true,
+      "han": true,
+      "int": true,
+      "per": true,
+      "sen": true,
+      "ste": true,
+      "swm": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/multiple-master"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

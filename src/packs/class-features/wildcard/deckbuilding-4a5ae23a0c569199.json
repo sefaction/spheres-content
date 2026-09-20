@@ -1,0 +1,121 @@
+{
+  "_id": "4a5ae23a0c569199",
+  "_key": "!items!4a5ae23a0c569199",
+  "name": "Wildcard: Deckbuilding",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:wildcard:current:class-feature:deckbuilding",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/wildcard#toc5",
+      "sourceSha256": "20221fac27d8611d184fe297487329dc8f4a77cdb96ee11ef29bae57306bf096",
+      "descriptionSha256": "9c136b96e4b1f3b08bea02a420c9878d7e2566699bc609ae971ab5cf21d50a58",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:wildcard:current:class-feature:deckbuilding",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A wildcard does not use his entire card collection at once. Instead, he constructs an \"active deck\" that is a subset of this collection. When setting the composition of his active deck, a wildcard must fulfill the following criteria. If a character has two or more classes that grant active decks, each class maintains separate active decks and separate effective cartomancer levels.</p>\n<ul>\n<li>No duplicate portents are allowed in an active deck. Starting at 11th level, a wildcard may include up to two copies of least portents in his active deck, but can never have duplicate lesser or greater portents in his active deck.</li>\n<li>The active deck must include a number of least portents equal to 2 + the wildcard's class level.</li>\n<li>The active deck must include 1 lesser portent, plus an additional lesser portent for every two wildcard levels beyond 1st.</li>\n<li>Starting at 4th level, the active deck must include 1 greater portent, plus an additional greater portent for every five wildcard levels beyond 4th.</li>\n</ul>\n<p>A wildcard has a maximum hand size of 2. This increases by +1 at 5th level and every five levels beyond 5th, to a maximum hand size of 6 at 20th level.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/wildcard#toc5\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/wildcard#toc5"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

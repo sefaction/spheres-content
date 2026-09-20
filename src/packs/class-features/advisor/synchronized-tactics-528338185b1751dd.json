@@ -1,0 +1,121 @@
+{
+  "_id": "528338185b1751dd",
+  "_key": "!items!528338185b1751dd",
+  "name": "Advisor: Synchronized Tactics",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:advisor:spheres-of-guile:class-feature:synchronized-tactics",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/advisor#toc6",
+      "sourceSha256": "4b4b19ba93b33f27d281e8af3fa6890cbaa681cdc0cc4a4190b37ac3f693008c",
+      "descriptionSha256": "3b0d58393e85d1bb4e752adff9193c053b45e844e221faae6d2720e73f4c9d16",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:advisor:spheres-of-guile:class-feature:synchronized-tactics",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The advisor’s coordination does not end with simple drills and routines; he trains them in ways of acting in pure sync with one another. At 1st level, allies who are synergised with one another can take a ‘synergised action’ from the list below, acting as a culmination of their teamwork so far. A synergised action allows both allies to take an action at the same time; the ally not acting at the time cannot take the same type of action on their next turn (unless it requires an immediate action). The advisor can choose to lose the same type of action on their next turn instead of the other ally.</p>\n<ul>\n<li><em>Careful Regroup:</em> As a synergized move action, both allies can move up to their speed (which does not provoke attacks of opportunity), and can either choose to regain their martial focus (if they can achieve it) or gain a +2 morale bonus to their AC and to all saving throws for 2 rounds.</li>\n</ul>\n<ul>\n<li><em>Desperate Inspiration:</em> As a synergized immediate action, both allies can reroll a concentration check, Reflex or Will save (even after the results have been determined), with the new roll being treated as if the other ally had aided the saving throw attempt (usually gaining a +2 bonus). The second roll must be taken, even if it is worse. If either ally attempts a saving throw against the same effect within the next minute, they can roll twice, taking the highest result.</li>\n</ul>\n<ul>\n<li><em>Tandem Assault:</em> As a synergised standard action, both allies can attempt an attack action or combat maneuver against the same target–both attack rolls made this way are treated as an aid another attempt for one another. A successful attack action used this way deals an additional amount of damage equal to the advisor’s class level, or twice his advisor level if the advisor is rolling for damage.<br>\nIf both allies make an attack action, the damage is treated as one source for the purposes of resistances and vulnerabilities.<br>\nIf both allies attempt a combat maneuver, they’re treated as being one size category larger for the purposes of the size of creature the maneuver can affect.<br>\nThis synergized action can instead be performed as a synergised full-round action, allowing the allies to move up to their speed or charge before the attack (as long as the movement allows both allies to be within range of the same creature).</li>\n</ul>\n<p>Once a synergised action has been used, the synergy between the allies is expended. At 13th level, synergized allies retain their synergy when they first use a synergized action, and is only expended after the second synergized action they use. At 19th level, it is only expended after the third.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/advisor#toc6\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/advisor#toc6"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "ae0e8cf409e8b7cc",
+  "_key": "!items!ae0e8cf409e8b7cc",
+  "name": "Cursed Effigy (harvest) (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:survivalism:spheres-of-guile:guile-talent:cursed-effigy-harvest-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/survivalism#toc59",
+      "sourceSha256": "f08a002395ddf0d614719b1c74bdfc78b77500e0a93ea395e3e0354dcf980820",
+      "descriptionSha256": "f8500424fd2d2f1f832f26262870cc366ee4dc7d0d6aadeefc79b9632f34546e",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:survivalism:spheres-of-guile:guile-talent:cursed-effigy-harvest-su",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "survivalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Survival ranks 7, Survivalism sphere ((harvest) package).</p>\n<p><strong>Refinement DC:</strong> 25</p>\n<p>You refine the ‘naturally’ cursed or esoteric components from a creature and bind a basic curse to an object, creating a cursed effigy. You can release the refined curse upon a creature within 30 feet as a standard action that provokes attacks of opportunity; they must succeed at a Will saving throw or suffer a -2 penalty to attack rolls, saving throws, ability checks and skill checks for 1 minute. This is a curse effect.</p>\n<p>Alternatively, you can harvest and refine the curse from a creature that can inflict curses and create a cursed effigy in the same way. The chosen curse functions identically to the curse from the creature they were harvested from, except that the save DC is equal to your Survivalism sphere DC.</p>\n<p>A curse inflicted on a creature using this talent cannot be harvested and refined again.</p>\n<p><strong>Potency:</strong> You may release a refined curse to a creature within 60 feet, and the cursed effigy gains an additional use.</p>\n<p><strong>Talisman:</strong> The cursed talisman’s wearer gains a +4 luck bonus to saving throws against curses; if the saving throw would already benefit from the base talisman, the wearer can instead roll twice and take the highest result. Additionally, the talisman functions as a cursed effigy as above but has a number of uses equal to your operative modifier. Whenever the wearer would be damaged by an attack and the attacker is within 30 feet, they can expend one the uses from the talisman to expose it to the attacker (Will negates).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/survivalism#toc59\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/survivalism#toc59"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "4fabd21709b07f0d",
+  "_key": "!items!4fabd21709b07f0d",
+  "name": "Stirring Vapors (aroma)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:stirring-vapors-aroma",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc35",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "b00acc0d409e422d6021b66bf319e5291bf3e2c29450e23336aee077f2d90c67",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Concoction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:stirring-vapors-aroma",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p><strong>Cost:</strong> 2 herbs or 1 intense herb.</p>\n<p>All creatures that can smell the aroma gain a +2 alchemical bonus to Strength- and Wisdom-based ability checks and skill checks, increasing by +1 per 5 associated ranks you possess. Additionally, such creatures roll saving throws against effects that would decrease their degree of alertness (including sleep effects) twice, taking the highest result. If an affected creature is already asleep when they smell the aroma, they immediately bolt awake. This aroma lasts 10 minutes.</p>\n<p><strong>Twists</strong></p>\n<ul>\n<li><strong>1 sour herb:</strong> Undead creatures within the area of the aroma (regardless of if they can smell it or not) must succeed at a Will saving throw or become fascinated with the bearer of the aroma and staggered for a number of rounds equal to your operative modifier (minimum 1). For each twist this aroma possesses, undead creatures suffer a -1 penalty to this save.</li>\n<li><strong>1 spicy herb:</strong> Whenever an affected creature would be denied their Dexterity bonus to AC (including being flat-footed), they can retain 1 point of their Dexterity bonus to their AC, plus 1 per 4 associated ranks you possess. The creature is still considered flat-footed or denied their Dexterity to AC.</li>\n<li><strong>1 sweet herb:</strong> Affected creatures gain a number of temporary hit points equal to your operative modifier (minimum 1), which last for as long as the creature can smell the aroma, plus 1 round after. These temporary hit points are refreshed if they begin their turn within the aroma.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc35\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc35"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

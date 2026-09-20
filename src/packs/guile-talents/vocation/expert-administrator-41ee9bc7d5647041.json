@@ -1,0 +1,124 @@
+{
+  "_id": "41ee9bc7d5647041",
+  "_key": "!items!41ee9bc7d5647041",
+  "name": "Expert Administrator",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:vocation:spheres-of-guile:guile-talent:expert-administrator",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/vocation#toc127",
+      "sourceSha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "descriptionSha256": "a61fb9e00f697e8ddc7b9cb7a93fe624754c79326659e3a7ca799bb0be616090",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:vocation:spheres-of-guile:guile-talent:expert-administrator",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "vocation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400\">Diamond Spheres: Hustle &amp; Bustle</a></sup></p>\n<p><strong>Prerequisites:</strong> Vocation sphere (Adept Administrator (specialty)), Profession (barrister, clerk, scribe, or librarian) 5 ranks.</p>\n<p>You gain an ability depending on the specialty skill(s) chosen with the Adept Administrator talent:</p>\n<p><strong>Crime Sense [approach] (Su)—Profession (barrister):</strong> You can adopt this approach as a standard action. While maintaining this approach, you can touch a creature as a standard action, learning whether or not they are guilty or innocent—if you have a specific crime in mind, you can specify when touching the creature. This sense is vague and broad, and if a crime is not specified, it encompasses acts within the last 10 years (although particularly horrendous acts may ignore this limit).</p>\n<p>If your own personal morals and the morals of the most relevant settlement would differ enough to have different results, you gain both results and are aware of their distinct nature (for example, “You would find them guilty, but this city would find them innocent”).<br>\nIf you know a major motivation from the touched creature, you also learn if they feel that they are guilty or innocent, as well as any complex emotions they may feel surrounding this personal verdict (such as feeling justified, harrowed, or regretful).</p>\n<p>If the creature is unwilling, you must succeed at a melee touch attack to touch the creature, and even on a successful hit they gain a Will save to negate its effects. Once you use this ability on a creature (regardless of the result), they are immune to its effects for 1 week, although you can spend 1 use of skill leverage when attempting to use this ability to ignore this immunity.</p>\n<p><strong>Page Whisperer [approach] (Su)—Profession (clerk, librarian, or scribe):</strong> You can adopt this approach as a standard action. While maintaining this approach, you can communicate telepathically with books, texts, and similar repositories of information that you are touching. The text understands and speaks the language that it is written in—if you do not share a language, the book can still ‘communicate’ with you, but it is often fragmented and simple. Generally, a text only knows what is contained within it (but can summarize or contextualize such information), as well as what has touched it, passed by it, what is covered or concealed underneath it, etc., although a particularly esoteric or complex text may have a keener eye for details. Conversely, a particularly dogmatic text may be difficult, belligerent, or even malicious. A severely damaged or magically obstructed text may be aware of its lost knowledge, but is unable to recall such information.</p>\n<p>When used passively, this grants you a +4 circumstance bonus to Knowledge checks made with a book or library (or similar repository of knowledge), and halves the time required to perform such checks.</p>\n<p>Additionally, you can spend 1 use of skill leverage as a standard action and touch a damaged or obfuscated book (or similar text) to restore it to its true, original state for 1 minute. This cannot return any magical knowledge the text possessed (such as from a scroll), and if the writing was removed or obfuscated by a magical effect (such as the erase spell), you must succeed at an associated skill check (DC 15 + twice the effect’s caster level) to restore such text.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/vocation#toc127\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/vocation#toc127"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

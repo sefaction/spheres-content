@@ -6,7 +6,7 @@ notes where appropriate.
 
 ## Status
 
-Initial descriptive pilot: four entries in Items, Feats, Base Classes, and Guile Talents, with generated images and source descriptions. The full catalog is in progress. Requires Pathfinder 1e and Spheres for Pathfinder 1e (`pf1spheres` 0.9.0 or newer). The target test combination is Foundry 13.351, PF1 11.11 and pf1spheres 0.9.0. New content integration acceptance is pending; the old empty-shell smoke result does not establish content compatibility. This is not a published release.
+The unpublished alpha.4 intake contains 6,788 descriptive drafts in Items, Feats, Base Classes, Guile Talents and Class Features. The crawler cached 2,652 pages; extraction and entity review remain incomplete. Separate audit queues track artwork, native settings, reuse, links and class grants. Requires Pathfinder 1e and Spheres for Pathfinder 1e (`pf1spheres` 0.9.0 or newer). The test target is Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0. Bulk runtime acceptance is pending; optional integrations are research, not compatibility claims. This is not a published release.
 
 ## Development
 
@@ -30,6 +30,8 @@ See [remote testing](docs/REMOTE_TESTING.md) for configuration and rollback.
 ## Project documentation
 
 - [Project decisions](docs/PROJECT.md)
+- [Systematic intake and audit commands](docs/SYSTEMATIC_INTAKE.md)
+- [Optional integrations](docs/OPTIONAL_INTEGRATIONS.md)
 - [Content pipeline](docs/CONTENT_PIPELINE.md)
 - [Provenance](docs/CONTENT_PROVENANCE.md)
 - [Testing](docs/TESTING.md)

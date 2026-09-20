@@ -1,0 +1,124 @@
+{
+  "_id": "36387d60fbb94c24",
+  "_key": "!items!36387d60fbb94c24",
+  "name": "Minor Thaumaturgy (hack)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spellhacking:spheres-of-guile:guile-talent:minor-thaumaturgy-hack",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spellhacking#toc35",
+      "sourceSha256": "ff5395bb19ac2b67c42bb66b158929891d1c2ab9f8401273b50df23faa41f51b",
+      "descriptionSha256": "b7ee9a6dcf9607aaf3d2a20ae94c6d26d10a153c27a7909b2688ea575caad41b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Hack Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spellhacking:spheres-of-guile:guile-talent:minor-thaumaturgy-hack",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "spellhacking"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/480696/Diamond-Spheres-Thaumic-Potential?affiliate_id=3028400\">Diamond Spheres: Thaumic Potential</a></sup></p>\n<p><strong>Target:</strong> A magic item.</p>\n<p>You provide minor adjustments to the target object, making them easier or more convenient to use. The object gains any number of the listed options of your choice when it is hacked (which can be changed as a standard action while the object remains within range).</p>\n<ul>\n<li><strong>Adaptive:</strong> The item instantly shrinks or grows to suit the size of a creature that picks it up (unless it is already attended by another creature). The item reverts to its original size 1 round after it leaves the creature’s possession.</li>\n<li><strong>Alter Illumination:</strong> The wielder can spend a swift action to cause the object to shed light as a torch (shedding normal light in a 20-foot radius, and increasing the light level for an additional 20 feet by one step (maximum normal light).</li>\n</ul>\n<p>The wielder can spend a free action to have the object cease shedding light–this includes any other light-based properties that the object may normally produce (such as the magical illumination shed by magical weapons, or weapon qualities such as brilliant energy and flaming), and does not compromise such properties (but may change in appearance).</p>\n<p>If you possess the Shift Enchantment talent, you gain the following option when using this (hack) talent on a double weapon:</p>\n<ul>\n<li><strong>Swap Enchantment:</strong> You change how any enhancement bonuses or special weapon qualities are distributed between each end of the weapon–this change must still follow the same restrictions as normal (such as a special quality requiring an item to have a +1 enhancement bonus to be applied). For example, you have a quarterstaff: one end is a +2 flaming and the other is a +1 corrosive. You could choose to make one end +2 corrosive flaming, and the other end just the +1 bonus.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/spellhacking#toc35\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spellhacking#toc35"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

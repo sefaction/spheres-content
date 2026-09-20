@@ -1,0 +1,124 @@
+{
+  "_id": "2ef949be2a001ed7",
+  "_key": "!items!2ef949be2a001ed7",
+  "name": "A Gilded Tower (act)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:performance:spheres-of-guile:guile-talent:a-gilded-tower-act",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/performance#toc21",
+      "sourceSha256": "e87c472686da47048b3d9fcee074982f8ef19002718047ad36360dcfbd01dd3b",
+      "descriptionSha256": "ba84ee28773477b1139780832456255195e3591decfe358c7f188e4fe5cc242d",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Act Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:performance:spheres-of-guile:guile-talent:a-gilded-tower-act",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "performance"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You present an individual who always naturally attracts the spotlight, and quickly begins to love the position they are in… until people learn who they truly are.</p>\n<p><strong>Eye-Catching (approach):</strong> When you begin this act, choose a single ally in the area, becoming the focus of the act. If the chosen ally leaves the area, this act ceases to function until a new ally is chosen as a swift action.</p>\n<p>The chosen creature can attempt to create a diversion as a move action, and they receive a +2 morale bonus to Bluff checks to lie, create a diversion or feign a condition, and to Perform checks, increasing by 1 per 5 ranks in this package’s associated skill you possess.</p>\n<p><strong>All Eyes on You (scene, standard action):</strong> Whenever the chosen creature creates a diversion and they are the chosen diversion, any affected observers become oblivious (instead of distracted). Additionally, the chosen creature can spend an immediate action whenever an action or noise would make an observer more alert to attempt another Bluff check opposed by the observer’s Sense Motive. On a successful Bluff check, the noise or action is simply interpreted to be part of the performance, and observers who fail remain oblivious.</p>\n<p><strong>Glimmer of Doubt (scene, move action):</strong> All creatures that are distracted (or oblivious) by the chosen creature become uncertain for the rest of the act’s duration.</p>\n<p><strong>Sudden Reveal (finale, immediate action):</strong> All creatures that are distracted (or oblivious) by the chosen creature become shocked for 1 round, and must succeed at a Will saving throw or become either enraged toward or frightened of the chosen creature (your choice when you perform the finale) for a number of rounds equal to your operative ability modifier (minimum 1). A frightened creature’s condition improves to shaken when they can no longer see the chosen creature. Creatures that are currently oblivious to all but the chosen creature suffer a -2 penalty to this saving throw.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/performance#toc21\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/performance#toc21"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

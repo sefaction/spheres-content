@@ -1,0 +1,162 @@
+{
+  "_id": "50273a8947f88e32",
+  "_key": "!items!50273a8947f88e32",
+  "name": "Bracers of Elemental Conversion",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:kineticist-magical-items:current:item:bracers-of-elemental-conversion",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/kineticist-magical-items#toc24",
+      "sourceSha256": "3f8530f047b1622a418f8b8c224e1b20c5afaa6bcab3e8f9173048f70eb7964c",
+      "descriptionSha256": "0c04fb84b57047aff185600d90c50b15202e1333270960b7d3e84118966edd1b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Wrists Slot",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:kineticist-magical-items:current:item:bracers-of-elemental-conversion",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> moderate transmutation; <strong>CL</strong> 10th<br>\n<strong>Slot</strong> wrists; <strong>Price</strong> 12,000 gp; <strong>Weight</strong> 2 lbs</p>\n<p><strong>Description</strong><br>\nThese bracers appear to be tarnished silver until activated, each one glowing a different color once activated mirroring the converted elements. If the wearer has both the burn and kinetic blast class feature, they can accept 1 point of burn to convert any simple energy blast they possess into another energy type (acid, cold, electric, fire, negative, or sonic) for 10 minutes, although the damage of their blast is reduced by 1 step (2 steps if they choose sonic). While converted, the wearer cannot apply non-universal substance infusions to their blast. The wearer can still use any composite blast they possess, although the damage from it will match their new energy type (if the wearer possessed the fire blast and converted it into cold energy, their magma blast would deal half cold, half bludgeoning). The wearer can suppress this effect as a free action, although time that the bracers are suppressed still counts against their duration.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Wondrous Item, creator must be a 10th level kineticist, any simple energy blast; <strong>Cost</strong> 6,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/kineticist-magical-items#toc24\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 2
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 12000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "wrists",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/kineticist-magical-items#toc24"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

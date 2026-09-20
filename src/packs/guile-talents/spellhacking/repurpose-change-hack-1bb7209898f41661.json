@@ -1,0 +1,124 @@
+{
+  "_id": "1bb7209898f41661",
+  "_key": "!items!1bb7209898f41661",
+  "name": "Repurpose Change (hack)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spellhacking:spheres-of-guile:guile-talent:repurpose-change-hack",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spellhacking#toc40",
+      "sourceSha256": "ff5395bb19ac2b67c42bb66b158929891d1c2ab9f8401273b50df23faa41f51b",
+      "descriptionSha256": "d998899dd4fbc32019f0639531c7d1d24a03531dc629c2785db1d3388a99bdd1",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Hack Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spellhacking:spheres-of-guile:guile-talent:repurpose-change-hack",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "spellhacking"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Target:</strong> A magic item or magical effect with caster level no greater than the ranks in the associated skill you possess which physically changes a creature</p>\n<p>You change the magic into a different one for 1 round per rank in the associated skill you possess. The effect changes to granting the target one of the following benefits of your choice:</p>\n<ul>\n<li>A +20-foot enhancement bonus to one of the following speeds: climb speed, land speed, or swim speed. If the creature did not already have the chosen speed, they gain it with a base speed of 0 feet (which is then increased by the enhancement bonus). For every 3 the caster level exceeds the minimum, increase the speed bonus by 5 feet.</li>\n<li>Claw natural weapons on up to two of the target’s arms with 1d4 base damage for a Medium target.</li>\n</ul>\n<p>If you have at least 5 ranks in the associated skill and the effect’s caster level is at least 5th, you can instead choose two of the above options (if you gain a speed bonus again, choose a different speed each time) or one of the following advanced options:</p>\n<ul>\n<li>The creature gains the ability to breathe air as well as water.</li>\n<li>A bite (1d6), horn (1d6), or tail (1d8) natural weapon.</li>\n</ul>\n<p>If you have at least 10 ranks in the associated skill and the effect’s caster level is at least 10th, you can instead choose any three options (if you choose a natural weapon multiple times, choose a different natural weapon each time). With 15 ranks and caster level 15th, you can choose any four options.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/spellhacking#toc40\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spellhacking#toc40"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

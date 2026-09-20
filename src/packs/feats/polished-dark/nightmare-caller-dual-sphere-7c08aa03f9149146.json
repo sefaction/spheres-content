@@ -1,0 +1,121 @@
+{
+  "_id": "7c08aa03f9149146",
+  "_key": "!items!7c08aa03f9149146",
+  "name": "Nightmare Caller (Dual Sphere)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:polished-dark:polished-dark:feat:nightmare-caller-dual-sphere",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/polished-dark#toc148",
+      "sourceSha256": "f633d89225f52142d1bb225ddfdfa8e0ef5dcc54cccb6249cb2c34a31e4998e2",
+      "descriptionSha256": "14cd9c2a56cd5108eb472cf272b5c05998c55f21d5295bee46047bbbe7f77b00",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "polished-dark",
+      "category": "Dark (Polished) Sphere Feats > Dual Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:polished-dark:polished-dark:feat:nightmare-caller-dual-sphere",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>Give form to the eyes and teeth which curl inside of the darkness.</em><br>\n<strong>Prerequisites:</strong> Conjuration sphere, Dark sphere.</p>\n<p><strong>Benefit:</strong> You gain the following abilities based on the Conjuration sphere and Dark sphere talents you possess:</p>\n<ul>\n<li><strong>Born From Darkness:</strong> Whenever you <em>summon</em> a companion within a <em>gloom</em> you created, that companion may immediately make a Stealth check to hide, even if they do not have cover or concealment. The companion may remain hidden this way until the end of its next turn.</li>\n<li><strong>Cloaked Entry:</strong> Whenever you <em>summon</em> a companion, you may spend 1 spell point to also grant that companion a <em>cloak</em> for the <em>summon</em>’s duration, paying any additional spell point costs for the <em>cloak</em> or its options as appropriate. A companion granted a <em>cloak</em> this way also gains the benefits of the Deeper Darkness clearsight option, even if you did not grant the companion the darkvision (meld).</li>\n<li><strong>Darkveil:</strong> You gain the <em>darkveil</em> sphere ability (detailed below). The <em>darkveil</em> sphere ability uses either your Conjuration sphere or Dark sphere caster level when determining variables (such as range, etc.), whichever is higher.</li>\n</ul>\n<h5><strong>Darkveil</strong></h5>\n<p><strong>Descriptor(s):</strong> darkness<br>\n<strong>Action:</strong> immediate action<br>\n<strong>Range:</strong> close (25 + 5 ft./2 caster levels)<br>\n<strong>Duration:</strong> 1 turn (see text)<br>\n<strong>Target / Area:</strong> 1 Conjuration companion or called creature<br>\n<strong>Cost:</strong> 1 sp</p>\n<p><strong>Effect</strong>: The target creature gains total concealment (50% miss chance) until the end of the current turn in initiative; this concealment may be granted in response to an attack roll which has been rolled, but before its results are revealed. If an attack misses the target creature because of the granted concealment, at the end of the current turn, the creature may make a Stealth check to hide, even if they do not have cover or concealment. The creature may remain hidden this way until the end of its next turn. If the target creature is not in an area of darkness, the creature instead gains concealment (20% miss chance).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/polished-dark#toc148\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/polished-dark#toc148"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

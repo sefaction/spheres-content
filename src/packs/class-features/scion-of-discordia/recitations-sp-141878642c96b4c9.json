@@ -1,0 +1,121 @@
+{
+  "_id": "141878642c96b4c9",
+  "_key": "!items!141878642c96b4c9",
+  "name": "Scion Of Discordia: Recitations (Sp)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:scion-of-discordia:current:class-feature:recitations-sp",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/scion-of-discordia#toc8",
+      "sourceSha256": "14ddda860745fa492700a0d4d431a892ae5af2c2587b5328d6d763ac57285f55",
+      "descriptionSha256": "4da3a5e1cf889d94147d8226d014a9a7c21e965b63f24e33c53e827c26da73cf",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:scion-of-discordia:current:class-feature:recitations-sp",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A scion of discordia can recite a recitation as a standard action that provokes attacks of opportunity. In order for her recitation to be successful, she must succeed on a DC 7 + 3 x the recitation's recitation level truenaming check. (See <strong>Table: Truenaming DCs by Recitation Level</strong>) To make a truenaming check, roll 1d20 + the scion of discordia's class level + the scion of discordia's Intelligence modifier. On a failed truenaming check, the recitation is not recited, the scion of discordia's action is wasted, and she incurs the penalties described by the Law of Croaking Failure.</p>\n<p>A scion of discordia can choose to recite \"on the defensive\". When reciting on the defensive, the scion of discordia does not provoke an attack of opportunity, but the truenaming DC is increased by +5 to reflect the enhanced difficulty of the task. (See <strong>Table: Truenaming DCs by Recitation Level</strong>) On a failed truenaming check, the recitation is not recited, the scion of discordia's action is wasted, she incurs the penalties described in the Law of Croaking Failure, and she provokes an attack of opportunity.</p>\n<p>All recitations have verbal components. To learn or recite a recitation, a scion of discordia must have an Intelligence score equal to at least 10 + the recitation level. The Difficulty Class (DC) for a saving throw against a scion of discordia's recitation is 10 + the recitation level + the scion of discordia's Intelligence modifier.</p>\n<p>All recitations have a recitation level, which represents just how accomplished a scion of discordia must be to have the vocabulary to use it in the first place. A scion of discordia begins play able to recite 1stlevel recitations.</p>\n<p>At 4th level, a scion of discordia can recite 2nd-level recitations. At 7th level she can recite 3rd-level recitations. For every three scion of discordia levels beyond 7th, the highest recitation level she can recite increases by +1, to a maximum of 6th-level recitations at 16th level.</p>\n<p>As pedestrian magic is a subset of truemagic, the proper application of pedestrian magic can counter a recitation. Each recitation has a \"similar school\" listing. Any spell of that school whose spell level is greater than or equal to the recitation level of the attempted recitation can be used to counterspell that recitation. This can be particularly devastating for the scion of discordia, as counterspelling triggers The Law of Flowing Rhetoric. Treat the scion's class level as her caster level for the purpose of dispel magic and other such effects. Similarly, spells, feats, and abilities that interact with the school of magic listed in a recitation's similar school listing affect that recitation as though it were a spell. For example, a scion of discordia can take the Spell Focus (evocation) feat and have it apply to all of her recitations that have evocation listed as the similar school.</p>\n<p>If a spell or ability affecting the scion of discordia increases concentration DCs, then her truenaming DCs increase by half that amount. Further, spells and abilities that trigger when a spell is cast, such as the Spellbreaker feat, trigger when a recitation is recited. When dealt damage before a recitation is completed, the truenaming DC increases by the amount of damage taken. A scion of discordia's recitations have a 20% failure chance when she is deafened, but other situations that require concentration checks of standard spellcasters do not affect a scion of discordia. Unlike truenamers, scions of discordia never retrain recitations. There's simply too much work invested in learning the proper insults for each one. Recitations follow four universal laws.</p>\n<h3>The Law of Croaking Failure</h3>\n<p>The Law of Croaking Failure is the backlash of the universe upon those who draw its attention, then fail to clearly state what it is they want. Whenever the reciter fails a truenaming check, she takes a penalty to truenaming checks equal to the level of the recitation failed for 5 rounds. This penalty does not stack. While afflicted in this manner, the reciter cannot speak above a whisper.</p>\n<h3>The Law of Familiar Phrases</h3>\n<p>The Law of Familiar Phrases is one of the primary reasons why attempting to learn small fragments of such a complex language is viable at all. Whenever the reciter recites a recitation whose recitation level is at least one lower than the highest recitation level she can recite, the reciter can take 10 on her truenaming check.</p>\n<h3>The Law of Flowing Rhetoric</h3>\n<p>The Law of Flowing Rhetoric forbids a scion of discordia from having two instances of a particular recitation in effect at one time. In other words, if the scion of discordia recites alter blade, which has a duration of 5 rounds, she cannot recite alter blade again until those 5 rounds have passed. If a recitation is negated by a saving throw, counterspelled, or dispelled by any means, the scion of discordia still cannot attempt to recite the recitation again until a period of time equal to the recitation's duration has elapsed between attempts. If a recitation is not successfully recited, the Law of Flowing Rhetoric is not triggered.</p>\n<h3>The Law of Finite Malleability</h3>\n<p>The Law of Finite Malleability is a measure of the patience of the universe. As a scion of discordia runs around demanding the same thing of the universe over and over, it tends to get a bit fed up with her. Each time the scion of discordia successfully recites a recitation, the truenaming DC of that recitation increases by +2. The scion of discordia may spend an hour apologizing to the universe each morning, much like how typical spellcasters study their spellbooks, in order to reset the Law of Finite Malleability to its starting state, +0.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/scion-of-discordia#toc8\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/scion-of-discordia#toc8"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "9b6341b1fc4e628c",
+  "_key": "!items!9b6341b1fc4e628c",
+  "name": "Adept Trader (specialty)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:vocation:spheres-of-guile:guile-talent:adept-trader-specialty",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/vocation#toc31",
+      "sourceSha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "descriptionSha256": "f175e14cded72b2993de216dbd8af8634a4dfc06299b351d04857719498610c4",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Specialty Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:vocation:spheres-of-guile:guile-talent:adept-trader-specialty",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "vocation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Specialty Skills:</strong> Profession (driver, merchant, pilot, porter, sailor)</p>\n<p>You gain an ability depending on the chosen specialty skill:</p>\n<p><strong>Driving Ace [utility]—Profession (driver, pilot, or sailor):</strong> You may use Profession (driver, pilot, or sailor) for any driving check, and may make an accelerate, decelerate, or turn action as a move action instead of a standard action. Additionally, when turning a vehicle, you reduce the DC required to do so by 5. Lastly, when stopping a vehicle, it moves 10 feet less from inertia (minimum 0 feet).</p>\n<p><strong>Reserved Inventory—Profession (merchant):</strong> You treat settlements as being 1 size larger for the purposes of determining available magic items, as well as increasing their base value and purchase limit by 30%. Also, whenever you purchase an item that costs 250 gp or less, you can buy it at 90% of the market price. At 4 ranks in Profession (merchant), this increases to 500 gp; this gp limit is multiplied by four for every 4 ranks thereafter (2,000 gp at 8 ranks, 8,000 gp at 12 ranks, and so on).</p>\n<p><strong>Strong Back [utility]—Profession (porter):</strong> You add 1/2 your ranks in Profession (porter) to your Strength score when determining your carrying capacity. Additionally, whenever you are carrying a medium or heavy load, you reduce the check penalty (and increase the maximum Dexterity bonus allowed) by 2, and may move at your normal speed while carrying a medium load.</p>\n<p>You can take this talent multiple times—each time you do, choose another specialty skill.</p>\n<p><strong>Associated Feat:</strong> Expert Driver (<em>Ultimate Combat</em>).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/vocation#toc31\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/vocation#toc31"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "_id": "12f207bbdd808dd8",
+  "_key": "!items!12f207bbdd808dd8",
+  "name": "Ethanol",
+  "type": "consumable",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:alchemical-items:current:item:ethanol",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/alchemical-items#toc5",
+      "sourceSha256": "d6829196fa853eb27d6cbeb4f5c15e5cc5af7f2c6855cf328dc3f5154b24af9c",
+      "descriptionSha256": "ef9d3e9dfc42f69b113abfe9d7cce5cd7e2138a1a4b3975ce8dcf266e6a60d47",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "alchemical-items",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:alchemical-items:current:item:ethanol",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Price</strong> 25 gp; <strong>Weight</strong> 1lb<br>\nA highly flammable substance often used as a propellent. May also be used as a very expensive alternative to oil as a fuel source for lanterns.</p>\n<p><strong>Alchemical Recipe</strong><br>\n<strong>Recipe</strong> (40 Spirit of Wine) / Distillation<br>\n<strong>Craft DC</strong> 12<br>\n<strong>Time</strong> 1 day<br>\n<strong>Tools</strong> Retort<br>\n<strong>Type</strong> fuel (alcohol)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/alchemical-items#toc5\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 1
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 25,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": "",
+      "pricePerUse": 0
+    },
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "misc",
+    "showInQuickbar": false,
+    "changes": [],
+    "contextNotes": [],
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/alchemical-items#toc5"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

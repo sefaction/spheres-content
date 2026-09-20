@@ -1,0 +1,121 @@
+{
+  "_id": "7d2db9ad9fccdc69",
+  "_key": "!items!7d2db9ad9fccdc69",
+  "name": "Technician: Trapmaster (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:technician:current:class-feature:trapmaster-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/technician#toc15",
+      "sourceSha256": "98fa0ecbbfe6d3748c6e17e0d0734f20483a024dae89d683e6f4647c613105d8",
+      "descriptionSha256": "568eae8b483bc6cd04aeedec9dbbfd153074038f3770a2d48a2302a98c248770",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Abilities",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:technician:current:class-feature:trapmaster-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 7th level, all uses of the Disable Device skill have their required time decreased by 2 steps instead of 1.</p>\n<p>When a technician disarms a trap through the Disable Device skill and beats the trap’s DC by 10 or more, in addition to being able to pass by the trap without activating it, he gains one of the following benefits as well:</p>\n<ul>\n<li><strong>Trap Sphere:</strong> If the technician beats the DC by 10 of a trap from the Trap sphere, he may take control of that trap. The trap’s previous owner is no longer able to pass through the trap’s space unharmed, although any creatures who knew where the trap was placed still gain the usual bonuses against activating the trap. Additionally, the technician may upgrade the trap if it is inferior to his own and it is a trap he is able to create, changing its variables such as damage, and saving throws, to become as if he had been the one to place the trap.</li>\n<li><strong>Magical Trap:</strong> When disarming a magic trap that allows specific creatures to pass without danger and beating the trap’s DC by 10 or more, the technician can modify which creatures are allowed to pass, such as adding his allies or restricting his enemies if he desires.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/technician#toc15\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/technician#toc15"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

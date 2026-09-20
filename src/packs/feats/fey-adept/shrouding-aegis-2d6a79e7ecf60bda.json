@@ -1,0 +1,121 @@
+{
+  "_id": "2d6a79e7ecf60bda",
+  "_key": "!items!2d6a79e7ecf60bda",
+  "name": "Shrouding Aegis",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:fey-adept:ultimate:feat:shrouding-aegis",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/fey-adept#toc41",
+      "sourceSha256": "a5223da35b1765327ad58fd7caf42ca22e34c57b9911976f07ae342d4da5ca09",
+      "descriptionSha256": "aee05c54a62487ad1d04df2c69efc8f1c88fd0894d7d46f62512113784858fb6",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Fey Adept Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:fey-adept:ultimate:feat:shrouding-aegis",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Protection sphere, shadowstuff class feature.</p>\n<p><strong>Benefit:</strong> You may spend a point of shadowstuff to create a shrouding aegis. A shrouding aegis protects its bearer through the use of illusion by either obscuring their image, making them appear in a slightly different location, or disguising their movements.</p>\n<p>The illusions act intelligently and are constantly shifting, causing the creature to have a somewhat ‘unreal’ appearance. Creatures attacking anyone with a shrouding aegis must attempt a Will save against a DC equal to 10 + 1/2 your Protection caster level + your casting ability modifier to determine if they can see properly through the shrouding aegis. Those who fail this saving throw can not take attacks of opportunity against the shrouded creature, can not benefit from or participate in flanking it, and can not deal any precision-based damage to the shrouded creature. Critical hits work normally, however.</p>\n<p>Those who succeed at the save or are immune to illusions are not affected by the shroud. Once a creature succeeds at their saving throw, they do not need to attempt any additional saving throws against that shroud. The shroud is considered an illusion, and benefits from your abilities that enhance illusions.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/fey-adept#toc41\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/fey-adept#toc41"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

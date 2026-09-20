@@ -1,0 +1,124 @@
+{
+  "_id": "af9b0959ad4c229a",
+  "_key": "!items!af9b0959ad4c229a",
+  "name": "The Patient Protector (act)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:performance:spheres-of-guile:guile-talent:the-patient-protector-act",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/performance#toc29",
+      "sourceSha256": "e87c472686da47048b3d9fcee074982f8ef19002718047ad36360dcfbd01dd3b",
+      "descriptionSha256": "434f965eaaec14e40499754dfd63a2f5232ac8ad68199167bd3aa53463f92eb0",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Act Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:performance:spheres-of-guile:guile-talent:the-patient-protector-act",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "performance"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your performance depicts the ever-patient protector of a simple group of travelers, and the benefits of waiting for the right moment to react to something.</p>\n<p><strong>Patience (approach):</strong> All allies in the area can ready multiple actions on their turn by spending an action of the same kind, instead of just any one action as a standard action (so they could ready a swift action as a swift action, a move action as a move action, etc.). The ally must specify the action they will take with each action, and each action requires its own trigger (which must differ from each other). Their initiative count is moved each time they take a triggered action.</p>\n<p><strong>Watch (scene, swift action):</strong> All allies in the area increase the DC to affect them with Charisma- and Dexterity-based skill checks by 4, and gain a +2 morale bonus to opposed skill checks, attacks of opportunities, and to skill checks attempted in reaction to something (such as a Spellcraft check attempted to identify a spell as it is being cast). These bonuses increase by 1 per 5 ranks in this package’s associated Perform skill you possess.</p>\n<p><strong>React (finale, full-round action):</strong> For 1 minute, whenever an ally in the area triggers a readied action to attack, the target is denied its Dexterity modifier to AC against the attack. Additionally, the ally’s threatened area is treated as being 5 feet larger for determining when a readied action could be triggered; if such an action would require them to be within reach of a creature, they can spend an immediate action to move 5 feet towards the creature so that the triggering action can be resolved. If it cannot be resolved, the readied action is wasted.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/performance#toc29\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/performance#toc29"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

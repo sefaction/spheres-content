@@ -1,0 +1,121 @@
+{
+  "_id": "e786d33a1c881b49",
+  "_key": "!items!e786d33a1c881b49",
+  "name": "Envoy: Influence (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:envoy:spheres-of-guile:class-feature:influence-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/envoy#toc6",
+      "sourceSha256": "2e0861229e5843a34fbe96552a4f1a5f06d47a27c497d670f7cc32f173d88130",
+      "descriptionSha256": "258f8418e06113595745460eba052804fd39af27c3d56c33c196bc0729af7088",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:envoy:spheres-of-guile:class-feature:influence-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The envoy can be a formidable force of personality, gaining leverage over people through careful conversation.</p>\n<p>The envoy can spend 1 hour (or 10 minutes by spending 1 use of skill leverage) in conversation with a single creature to gain influence over them for 3 days. The time taken to gain influence over a creature is not interrupted by simple breaks in conversation, but any major disturbances or breaks (such as combat) may delay or halt such attempts.</p>\n<p>If the creature is unfriendly or hostile towards the envoy, he can outwit them as a standard action (that provokes attacks of opportunity) by using his forte sphere’s associated skill, gaining influence over them for 1 minute on a success. The DC of the check is equal to 15 + the creature’s ranks in Sense Motive + their Wisdom modifier, or 15 + the creature’s Will save modifier (whichever is higher). Creatures that the envoy has influenced this way are no longer influenced if the envoy becomes dumbfounded or shocked.</p>\n<p>The envoy can spend influence in the following ways:</p>\n<ul>\n<li><strong>Deep Discouragement:</strong> If the envoy has influence over a creature, he may choose two ability scores instead of one when using his dispiriting words ability on them. Alternatively, he can expend his influence over a creature to affect all ability scores.</li>\n<li><strong>Gossip:</strong> The envoy can spend 1 minute and expend his influence over a creature to have them reveal a secret they know of - either accidentally or purposefully - that generally fits the theme of conversation (generally decided when the envoy uses this ability). As a general rule of thumb, the quality of the secret is dependent on the attitude and relationship the envoy has with the creature: an unfriendly creature may cut themselves off midsentence, whereas a helpful creature may provide intricate details.</li>\n<li><strong>Trusted Words:</strong> As a standard action, the envoy can expend his influence over a creature to immediately alter their attitude towards himself or another creature by one step in either direction for 8 hours. If the envoy invokes a motivation when expending influence in this way, the creature’s attitude instead changes by two steps for the duration, or by one step and the attitude adjustment becomes permanent. A successful Will saving throw negates this attitude adjustment. If the starting attitude was indifferent, this saving throw is attempted with a -4 penalty.</li>\n</ul>\n<h4>Sidebar: Depicting Influence</h4>\n<p>The envoy’s influence ability does not solely represent supporting and creating a positive connection with a creature, and should depict someone’s ability to affect and ‘influence’ a creature for a large period of time, which can include negative associations as well. An envoy can gain influence through care, respect, and genuine connection as much as they can gain influence through insults, deception, and manipulation.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/envoy#toc6\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/envoy#toc6"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

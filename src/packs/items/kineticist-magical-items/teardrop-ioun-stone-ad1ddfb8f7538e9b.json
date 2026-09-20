@@ -1,0 +1,162 @@
+{
+  "_id": "ad1ddfb8f7538e9b",
+  "_key": "!items!ad1ddfb8f7538e9b",
+  "name": "Teardrop Ioun Stone",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:kineticist-magical-items:current:item:teardrop-ioun-stone",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/kineticist-magical-items#toc33",
+      "sourceSha256": "3f8530f047b1622a418f8b8c224e1b20c5afaa6bcab3e8f9173048f70eb7964c",
+      "descriptionSha256": "bb7cce8ec4f8cd0373a0513c0d445adee772f7b05142a33cd7ce7b1dcaf46166",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Slotless",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:kineticist-magical-items:current:item:teardrop-ioun-stone",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> strong evocation; <strong>CL</strong> 12th<br>\n<strong>Slot</strong> none; <strong>Cost</strong> 280 gp (cracked), 7500 gp (flawed), 10,400 gp (normal); <strong>Weight</strong> —</p>\n<p><strong>Description</strong><br>\nThis stone is capable of increasing the damage dealt by a kineticist’s kinetic blast wild talents, with the enhanced element depending upon the color as noted below. The normal variant treats the kineticist as two levels higher for the purpose of using kinetic blasts of the stone’s associated element, stacking with other effects that would increase effective kineticist levels for this purpose.</p>\n<p>Flawed variants act like normal variants, but also double the burn cost to use the kinetic blast, including the cost of infusions and metakinesis, or increase it to 1 when using a kinetic blast that normally would cost 0 burn.</p>\n<p>Cracked variants instead increase the damage dealt by kinetic blasts associated with them by +1 so long as the blast would normally receive a bonus from the elemental overflow class feature. Composite blasts associated with more than one element can only benefit from one teardrop ioun stone at a time.</p>\n<p>\nThe colors of teardrop ioun stones associated with each element are as follows:</p>\n<table>\n<tbody><tr>\n<th>Element</th>\n<th>Color</th>\n</tr>\n<tr>\n<td>Aether</td>\n<td>Clear</td>\n</tr>\n<tr>\n<td>Air</td>\n<td>White</td>\n</tr>\n<tr>\n<td>Earth</td>\n<td>Green</td>\n</tr>\n<tr>\n<td>Fire</td>\n<td>Red</td>\n</tr>\n<tr>\n<td>Light</td>\n<td>Gold</td>\n</tr>\n<tr>\n<td>Poison</td>\n<td>Purple</td>\n</tr>\n<tr>\n<td>Sound</td>\n<td>Iridescent</td>\n</tr>\n<tr>\n<td>Time</td>\n<td>Silver</td>\n</tr>\n<tr>\n<td>Water</td>\n<td>Blue</td>\n</tr>\n<tr>\n<td>Wood</td>\n<td>Brown</td>\n</tr>\n<tr>\n<td>Viscera</td>\n<td>Pink</td>\n</tr>\n<tr>\n<td>Void</td>\n<td>Black</td>\n</tr>\n</tbody></table>\n<p><strong>Resonance</strong> +1 circumstance bonus to DC for wild talents of the associated element</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Wondrous item, kinetic blast; <strong>Cost</strong> 140 gp (cracked), 3750 gp (flawed), 5200 gp (normal)</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/kineticist-magical-items#toc33\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 280,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/kineticist-magical-items#toc33"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

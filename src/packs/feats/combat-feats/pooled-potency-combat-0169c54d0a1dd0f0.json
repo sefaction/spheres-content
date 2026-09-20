@@ -1,0 +1,121 @@
+{
+  "_id": "0169c54d0a1dd0f0",
+  "_key": "!items!0169c54d0a1dd0f0",
+  "name": "Pooled Potency (Combat)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:combat-feats:ultimate:feat:pooled-potency-combat",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/combat-feats#toc51",
+      "sourceSha256": "12c9e3fe24d343b609d627315d6ac27a31c82b50e38bb90a5cd0dc568a895e22",
+      "descriptionSha256": "6e0cd2f5c7772ea313f7ed5de0ec37cf0f58a1b949e73d85ea3a1ea3eb41272a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "combat-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:combat-feats:ultimate:feat:pooled-potency-combat",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Benefits:</strong> Whenever you would roll a d20 with any sort of bonus you may reduce the bonus by the listed amount to add a bonus to the result equal to the corresponding die on the Added Die column of Table: Pooled Potency Die or replace the d20 with the corresponding die on the Altered Die column. You may not reduce the total of bonuses below 0, but may apply multiple penalties or multiple instances of the same penalty to apply up to two dice to the roll. Using a larger die does not change the weapon’s critical threat range (it does not threaten a critical hit on a 21 or any other number higher than 20)</p>\n<p><strong>Special:</strong> You may take this feat multiple times. Each time, you may apply two additional dice to the roll.</p>\n<p><sup><strong>Source:</strong> Card Casting 3: Volatile Variance</sup></p>\n<strong>Table: Pooled Potency Die</strong>\n<table>\n<tbody><tr>\n<th>Penalty</th>\n<th>Added Die</th>\n<th>Altered Die</th>\n</tr>\n<tr>\n<td>-2</td>\n<td>1d4</td>\n<td>1d24</td>\n</tr>\n<tr>\n<td>-3</td>\n<td>1d6</td>\n<td>-</td>\n</tr>\n<tr>\n<td>-4</td>\n<td>1d8</td>\n<td>-</td>\n</tr>\n<tr>\n<td>-5</td>\n<td>1d10</td>\n<td>1d30</td>\n</tr>\n<tr>\n<td>-6</td>\n<td>1d12</td>\n<td>-</td>\n</tr>\n<tr>\n<td>-7</td>\n<td>1d14</td>\n<td>-</td>\n</tr>\n<tr>\n<td>-8</td>\n<td>1d16</td>\n<td>-</td>\n</tr>\n<tr>\n<td>-10</td>\n<td>1d20</td>\n<td>-</td>\n</tr>\n<tr>\n<td>-12</td>\n<td>1d24</td>\n<td>-</td>\n</tr>\n<tr>\n<td>-15</td>\n<td>1d30</td>\n<td>-</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/combat-feats#toc51\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/combat-feats#toc51"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

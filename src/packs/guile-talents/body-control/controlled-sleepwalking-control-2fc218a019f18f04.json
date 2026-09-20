@@ -1,0 +1,124 @@
+{
+  "_id": "2fc218a019f18f04",
+  "_key": "!items!2fc218a019f18f04",
+  "name": "Controlled Sleepwalking (control)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:body-control:spheres-of-guile:guile-talent:controlled-sleepwalking-control",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/body-control#toc27",
+      "sourceSha256": "ec7aa97e088675a010d37041d0a1d93fbcb23b1ec3b52a8948ffa9dd9985fbff",
+      "descriptionSha256": "8fa2327946131eb5fbe6e072d23cdacfb569eda6f971e329c53f2a439b9f0763",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Clarity, Contemplation, and Control Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:body-control:spheres-of-guile:guile-talent:controlled-sleepwalking-control",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "bodyControl"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can maintain your meditate approach even after you fall asleep (the only time this talent functions). You are not immobilized while you sleep and can take one planned, methodical physical activity during sleep while still getting the benefits of rest as long as you meditate. You cannot react to unexpected problems, or interact with other creatures beyond simply keeping a casual pace behind someone, or use most Charisma-, Dexterity-, or Intelligence-based skills (other than taking 10 or making prolonged use of Craft, Disable Device, Perform, or Profession you planned out while awake). You could perform simple labor or travel a safe route you are familiar with.</p>\n<p>While sleepwalking, you are effectively oblivious (see alertness rules)—you can pay attention only to things you have right at hand involved in performing your action. You can perform a controlled sleepwalk for no more than 1 hour of your sleep time, plus another 1 hour per 5 ranks you possess in the associated skill. You choose before you go to sleep what the activity is and cannot change the choice once you begin. If the activity becomes infeasible, you mime an approximation for the rest of the period you intended to sleepwalk, and become no more alert than you would otherwise be while asleep. You can endure a failed Perception check while sleepwalking, or any other skill check or saving throw that would prevent you from waking up.</p>\n<p>If you have the Physiological Mastery talent, your effective level of alertness is raised to distracted, and you can sleepwalk for the entirety of your sleep duration. While sleepwalking for the entire duration of your sleep this way, skill uses which are measured in days or weeks such as Craft and Profession can be counted as progressing twice as fast if you dedicate the normal amount of effort during waking hours and the entirety of your sleepwalking.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/body-control#toc27\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/body-control#toc27"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

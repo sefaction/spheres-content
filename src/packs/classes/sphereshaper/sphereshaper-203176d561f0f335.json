@@ -1,0 +1,140 @@
+{
+  "_id": "203176d561f0f335",
+  "_key": "!items!203176d561f0f335",
+  "name": "Sphereshaper",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:sphereshaper:current:class:sphereshaper",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/sphereshaper",
+      "sourceSha256": "c23a646cde8b595cbe6b0453c314bcf89c367047eaad208fb674b6f9e40b8179",
+      "descriptionSha256": "503b4e69079f9accd0a641982114d2458aa8937e3bbb0b5535396cf382f71b18",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:sphereshaper:current:class:sphereshaper",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>\nThose who practice the path of akashic mastery are a diverse and powerful lot, and few more so than the sphereshapers. Where traditional viziers specialize drawing external sources of essence from the arcane realm and planes beyond, these specialists focus on achieving mnemonic resonance and spiritual compatibility with collections of spiritual energies belonging to warriors and mages of past ages and perhaps even those who have yet to live.\n</p>\n<p><strong>Role:</strong> The sphereshaper’s role can vary greatly dependent on the veils and mnemonic insights they develop with each expertise they unlock and suites of magical resonance. Sphereshapers most often discover the most glaring weakness of their group or the most pressing need of the situation and shape veils accordingly.</p>\n<p><strong>Alignment:</strong> Any.</p>\n<p><strong>Starting Wealth:</strong> 2d6 × 10 gp (average 70 gp.) In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Hit Die:</strong> d6.</p>\n<p><strong>Class Skills:</strong> The sphereshaper’s class skills are Appraise (Int), Bluff (Cha), Craft (Int), Diplomacy (Cha), Disguise (Cha), Knowledge (any) (Int), Linguistics (Int), Perception (Wis), Profession (Wis), Ride (Dex), Sense Motive (Wis), and Spellcraft (Int).</p>\n<p><strong>Skill Ranks per Level:</strong> 2 + Int modifier.</p>\n<h1>Class Features</h1>\n<strong>Table: The Sphereshaper</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Reflex Save</th>\n<th>Will Save</th>\n<th>Special</th>\n<th>Veils</th>\n<th>Essence</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+2</td>\n<td>+0</td>\n<td>+2</td>\n<td>Akashic affinity, mnemonic insight, sphereshaper’s might</td>\n<td>2</td>\n<td>1</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+3</td>\n<td>+0</td>\n<td>+3</td>\n<td>Chakra bind (Hands), sphereshaper’s talents</td>\n<td>2</td>\n<td>2</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+1</td>\n<td>+3</td>\n<td>+1</td>\n<td>+3</td>\n<td>Improved essence capacity +1, veilshifting</td>\n<td>2</td>\n<td>3</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+2</td>\n<td>+4</td>\n<td>+1</td>\n<td>+4</td>\n<td>Chakra bind (Feet), Sphereshaper’s Talent</td>\n<td>2</td>\n<td>4</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+2</td>\n<td>+4</td>\n<td>+1</td>\n<td>+4</td>\n<td>Akashic affinity</td>\n<td>3</td>\n<td>5</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+3</td>\n<td>+5</td>\n<td>+2</td>\n<td>+5</td>\n<td>Chakra bind (Head), Sphereshaper’s Talent</td>\n<td>3</td>\n<td>6</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+3</td>\n<td>+5</td>\n<td>+2</td>\n<td>+5</td>\n<td>Veilshifting</td>\n<td>3</td>\n<td>7</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+4</td>\n<td>+6</td>\n<td>+2</td>\n<td>+6</td>\n<td>Chakra bind (Wrists), Sphereshaper’s Talent</td>\n<td>3</td>\n<td>8</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+4</td>\n<td>+6</td>\n<td>+3</td>\n<td>+6</td>\n<td>Akashic affinity, Improved essence capacity +2</td>\n<td>4</td>\n<td>9</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+5</td>\n<td>+7</td>\n<td>+3</td>\n<td>+7</td>\n<td>Chakra bind (Shoulders), Sphereshaper’s Talent</td>\n<td>4</td>\n<td>10</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+5</td>\n<td>+7</td>\n<td>+3</td>\n<td>+7</td>\n<td>Veilshifting</td>\n<td>4</td>\n<td>12</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+6/+1</td>\n<td>+8</td>\n<td>+4</td>\n<td>+8</td>\n<td>Chakra bind (Headband), Sphereshaper’s Talent</td>\n<td>4</td>\n<td>14</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+6/+1</td>\n<td>+8</td>\n<td>+4</td>\n<td>+8</td>\n<td>Akashic affinity</td>\n<td>5</td>\n<td>16</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+7/+2</td>\n<td>+9</td>\n<td>+4</td>\n<td>+9</td>\n<td>Chakra bind (Neck), Sphereshaper’s Talent</td>\n<td>5</td>\n<td>18</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+7/+2</td>\n<td>+9</td>\n<td>+5</td>\n<td>+9</td>\n<td>Veilshifting</td>\n<td>5</td>\n<td>20</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+8/+3</td>\n<td>+10</td>\n<td>+5</td>\n<td>+10</td>\n<td>Chakra bind (Belts), Sphereshaper’s Talent</td>\n<td>5</td>\n<td>22</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+8/+3</td>\n<td>+10</td>\n<td>+5</td>\n<td>+10</td>\n<td>Akashic affinity</td>\n<td>6</td>\n<td>24</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+9/+4</td>\n<td>+11</td>\n<td>+6</td>\n<td>+11</td>\n<td>Chakra bind (Chest), Sphereshaper’s Talent</td>\n<td>6</td>\n<td>26</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+9/+4</td>\n<td>+11</td>\n<td>+6</td>\n<td>+11</td>\n<td>Improved essence capacity +3, veilshifting</td>\n<td>6</td>\n<td>28</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+10/+5</td>\n<td>+12</td>\n<td>+6</td>\n<td>+12</td>\n<td>Blooming insights, chakra bind (Body), Sphereshaper’s Talent</td>\n<td>6</td>\n<td>30</td>\n</tr>\n</tbody></table>\n<p>The following are the class features of the sphereshaper.</p>\n<h2>Weapon and Armor Proficiency</h2>\n<p>Sphereshapers are proficient with all simple weapons and are proficient with light armor and bucklers.</p>\n<h2>Veilweaving</h2>\n<p>A sphereshaper’s primary ability is shaping the magical essence known as akasha into powerful veils, which are drawn from the sphereshaper veil list. The sphereshaper knows and can shape any veil from this list. The DC for a saving throw against a veil’s abilities is 10 + the number of points of essence invested in the veil + their Intelligence modifier. They can only shape a certain number of veils per day (see veilweaving table below). Veils are constructs of pure magic and, as such, are suppressed while in the area of an antimagic field or similar phenomena.</p>\n<p>At 1st level they also gains access to a personal pool of essence, which can be invested into veils to increase their power. The amount of available essence is listed in the table below; the sphereshaper’s character level determines the maximum quantity of essence they can invest in any single veil or other receptacle. As a swift action, the sphereshaper can reallocate their essence investments into their veils every round. A sphereshaper must have at least 8 hours rest or meditation to achieve a clear and focused state, and must meditate for one hour to shape their veils for the day. During this time they unshape any previously formed veils and constructs the ones chosen. At the end of the hour, all effects of unshaped veils end and the effects of all newly formed veils take effect.</p>\n<h2>Akashic Affinity</h2>\n<p>At 1st level, the sphereshaper selects a specific affinity in the nature of their mnemonic channeling known as their akashic adaptation. The available abilities are:</p>\n<ul>\n<li><strong>Attuned Affinity:</strong> The sphereshaper can select one mystic attunement from those available to viziers. The sphereshaper’s abilities to control external essence increase at 5th, 9th, 13th, and 17th level.</li>\n<li><strong>Diversified Affinities:</strong> At 1st level, the sphereshaper chooses a single veilweaving list besides sphereshaper and adds a veil from that list to their veil list. At 5th, 9th, 13th, and 17th level the sphereshaper adds an additional veil from the chosen class’s veil list to their own veil list.</li>\n<li><strong>Manabond Affinity:</strong> At 1st level, the sphereshaper gains a +1 competence bonus to their MSB when making concentration and spell penetration checks and to their MSD. This bonus increases by an additional +1 at 5th, 9th, 13th, and 17th level. The sphereshaper may invest this ability with essence, for each point invested in this ability the sphereshaper may select an ally within 60’. Each ally selected gains the benefits of this ability as well. Additionally, each of ally of your caster level or higher may, as an immediate action, sacrifice a spell point, prepared spell, or spell slot to grant the sphereshaper a temporary spell point for 1 minute per sphereshaper level. Sacrificed prepared spells and spell slots must be of a spell level equal to half your veilweaving level – 1 to grant a spell point. At 13th level spells above half your veilweaving level grant 2 spell points. The sphereshaper may use these spell points to cast talents from sphereshaper veils they currently have access to instead of essence binding.</li>\n</ul>\n<h2>Mnemonic Insight</h2>\n<p>At 1st level the sphereshaper begins to accrue lasting insights from the manifest memories they channel over time. Each sphereshaper displays one of the following aptitudes for recollection, chosen at 1st level.</p>\n<ul>\n<li><strong>Arcane Insight:</strong> A sphereshaper with this insight gains the abilities of the vizier’s eldritch insight class feature.</li>\n<li><strong>Martial Insight:</strong> A sphereshaper with this insight counts their total sphereshaper levels as fighter levels for feats. They also count a fighter for feats and magic items that have different effects based on whether the character has levels in that class. Each time they shape their veils, the sphereshaper gains Weapon Focus as a bonus feat in the weapon of their choice. Any other feats or Martial Talent the sphereshaper has requiring the choice of a specific weapon may also be changed to the selection for Weapon Focus at this time if it would be a valid selection. The sphereshaper may invest essence into a weapon benefiting from a combat feat or Martial Talent they possess, for each point of essence they gain a +1 insight bonus to damage with that weapon.</li>\n<li><strong>Spiritual Insight:</strong> A sphereshaper with this insight has gained a measure of the faith of those who whose memories they channel. They gain the powers and abilities associated with one cleric domain of their choice, using their sphereshaper level as their cleric level. This stacks with levels from other classes that grant domains, but only if the domains chosen by both classes are the same. This does not grant domain spells. They use their veilweaving ability modifier in place of Wisdom when determining the power of their domain, and they may choose a subdomain. The sphereshaper may invest essence in this insight. For each point of essence they invest, spell-like abilities or powers of the domain gain one of the following: a +2 insight bonus to damage dealt, a +1 to a bonus granted, or a round of extended duration per use.</li>\n</ul>\n<h2>Sphereshaper’s Might</h2>\n<p>When using combat spheres and talents granted by a sphereshaper veil, the sphereshaper may use his veilweaving modifier in place of his Strength or Dexterity when making attacks and combat maneuvers and when determining his damage using that sphere or talent.</p>\n<p>They may also use the higher or their base attack bonus or their sphereshaper level when using those spheres or talents, including attack rolls made as part of using a sphere effect.</p>\n<h2>Sphereshaper’s Talents</h2>\n<p>At 2nd level, the sphereshaper gains Sphereshaper’s Talent as a bonus feat. They gain this feat an additional time at 4th level, and every 2 levels thereafter.</p>\n<h2>Chakra Binds</h2>\n<p>At 2nd level and every 2 levels thereafter, the sphereshaper unlocks chakra binds in the following order: Hands, Feet, Head, Wrist, Shoulders, Headband, Neck, Belt, Chest, and Body. Once a sphereshaper has unlocked a chakra bind, they may choose to bind a veil to that slot when shaping it to unlock its corresponding bind abilities.</p>\n<h2>Improved Essence Capacity</h2>\n<p>The sphereshaper is particularly talented at investing essence. At 3rd, 9th, and 15th level the essence capacity of all the sphereshaper’s essence receptacles increases by one. In addition, the DC for any of their veil abilities increases by +1 each time they gain this ability.</p>\n<h2>Veilshifting</h2>\n<p>As the sphereshaper’s ability to control the flow of magical essence throughout their body and equipment grows, they gains the ability to shape a small number of veils instantly. At 3rd level, the sphereshaper may use a move action which provokes attacks of opportunity once per day to unshape one of their existing veils and instantly reshape the released energy into a new veil. The veil that they shape using this ability cannot be bound to a chakra until they have spent one hour in meditation, even if the veil replaced this way was already bound. The sphereshaper can use this ability one additional time per day for every four levels beyond 3rd. Each time they gains an additional use of this ability, the number of veils that they can reshape with a single use of this ability increases by one (for example, at 11th level the sphereshaper can reshape up to three veils each time they use this ability).</p>\n<h2>Blooming Insights</h2>\n<p>At 20th level the sphereshaper gains the ability three times a day to realign their akashic affinity and mnemonic insight selections as a full-round action.</p>\n<p>This ability also instantly reshapes all of their veils, reforging themselves into an avatar made of new collective experiences. This ability doesn’t provoke attacks of opportunity; any veil shaped this way can be bound to an associated chakra as part of this process. Whenever they use this ability they gain a temporary pool of essence in addition to their normal pool equal to 3 + their Intelligence modifier; this essence lasts for 3 rounds and can only be used to power the veils they formed using their veilshifting ability.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/sphereshaper\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 6,
+    "hp": 6,
+    "bab": "low",
+    "skillsPerLevel": 2,
+    "savingThrows": {
+      "fort": {
+        "value": "high"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "alignment": "Any.",
+    "wealth": "2d6 * 10",
+    "classSkills": {
+      "apr": true,
+      "blf": true,
+      "crf": true,
+      "dip": true,
+      "dis": true,
+      "lin": true,
+      "per": true,
+      "pro": true,
+      "rid": true,
+      "sen": true,
+      "spl": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/sphereshaper"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

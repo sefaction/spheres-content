@@ -1,0 +1,121 @@
+{
+  "_id": "1982b6600809c4dd",
+  "_key": "!items!1982b6600809c4dd",
+  "name": "Chessmaster: Talent",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:chessmaster-gonzo:current:class-feature:talent",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/chessmaster-gonzo#toc33",
+      "sourceSha256": "b2c30b31159015b5dd77af99bca67286cface13b2373c3f23d053b95d7cb7c2e",
+      "descriptionSha256": "5439067ff7a886c24d4ace73894046dfdd171d5138b67583fc0ed49533bba9bf",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:chessmaster-gonzo:current:class-feature:talent",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level and every 4 levels thereafter a chessmaster gains a talent from the list below.</p>\n<h4>Black King/Queen (Ex)</h4>\n<p>The chessmaster can chose to automatically go second in the initiative order if one of his allies is the first. This can only be done once initiative has been rolled.</p>\n<h4>Canny Defender (Ex)</h4>\n<p>While the chessmaster has at least one point of edge, is wearing light or no armor, and is not using a shield, he adds 1 point of Intelligence bonus per chessmaster level as a dodge bonus to his Armor Class. If he is caught fat-footed or otherwise denied his Dexterity bonus, he also loses this bonus.</p>\n<h4>Epic Mind Games (Ex)</h4>\n<p>The chessmaster may, when using his mind games ability, force the opponent to make a Will save (DC 10+1⁄2 chessmaster level + his Intelligence modifier) - if the target fails then the chessmaster dictates whether or not the target takes the suggested action. This is a mind affecting-effect. The chessmaster must have the mind games ability to select this talent.</p>\n<h4>Extra Gambits</h4>\n<p>The chessmaster gains 2 additional gambits.</p>\n<h4>Favorite Gambit</h4>\n<p>Select a gambit with an edge cost greater than 1 and reduce it by 1. This does not impact the edge cost for upgrades on that gambit. This talent may be taken multiple times, each time it applies to a different gambit. This cannot be used on gambits with a base cost of “see text”.</p>\n<h4>Favorite Upgrade</h4>\n<p>Select an upgrade on a gambit that you have taken the favorite gambit talent for with an edge cost greater than 1 and reduce it by 1. If the cost of the upgrade is 4 or greater- reduce it by 2 instead. This talent may be taken multiple times, each time it applies to a different upgrade. This cannot be used on upgrades with a base cost of “see text”.</p>\n<h4>Foresight (Sp)</h4>\n<p>A number of times per day equal to his Intelligence modifier, the chessmaster can use augury as a spell-like ability using his chessmaster level as his effective caster level.</p>\n<h4>Instant Assessment (Ex)</h4>\n<p>The chessmaster may use his plot class feature as part of an initiative check.</p>\n<h4>Keep the Momentum (Ex)</h4>\n<p>When an ally within 30 feet of the chessmaster confirms a critical hit all allies within 30 feet of that ally gain a +4 morale bonus on critical confirmation rolls until an ally with that bonus confirms a critical or the battle ends.</p>\n<h4>Sicilian Defense (Ex)</h4>\n<p>When rolling initiative, the chessmaster may select one ally. That ally gains a +2 bonus to the initiative check after all creatures have rolled. Once this has been done, the GM should reevaluate the initiative order. A chessmaster may not use it on himself. This stacks with other sources that boost a character’s initiative (such as Improved Initiative).</p>\n<h4>Tactical Versatility (Ex)</h4>\n<p>The chessmaster may use gambits that he does not know, so long as he meets the prerequisites for them. Each time he does so he must lower the maximum amount of edge he can hold for the day by half that gambit’s cost.</p>\n<h4>Trickster (Ex)</h4>\n<p>The chessmaster gains the Improved Dirty Trick feat as a bonus feat. However, rather than the +2 the feat normally gives, the chessmaster gains a +1/3rd level (minimum +2) bonus on dirty trick rolls and as a bonus against dirty tricks. Finally, a chessmaster may expend 1 edge point to extend the duration of his dirty trick by one round. This must be declared before making the combat maneuver roll.</p>\n<h4>Two Moves Ahead (Ex)</h4>\n<p>By spending 4 edge at the start of the round as a free action the chessmaster may act in any position in the initiative order he’d like and return to his previous spot in the initiative order on the following round. He may spend an additional 2 edge to gain the effects of a haste spell for the duration of the round.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/chessmaster-gonzo#toc33\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/chessmaster-gonzo#toc33"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

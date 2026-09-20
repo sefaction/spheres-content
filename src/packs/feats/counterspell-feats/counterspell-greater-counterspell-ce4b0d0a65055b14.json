@@ -1,0 +1,121 @@
+{
+  "_id": "ce4b0d0a65055b14",
+  "_key": "!items!ce4b0d0a65055b14",
+  "name": "Counterspell, Greater (Counterspell)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:counterspell-feats:ultimate:feat:counterspell-greater-counterspell",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/counterspell-feats#toc4",
+      "sourceSha256": "629762ebe9d255d2092edc89690ef74806c95a5ca21612b1a175b4b7c0f59eba",
+      "descriptionSha256": "a66c71d9778c74b83fcf244f13e549c7515223260f2a053e08173fa5b0b8ac44",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "counterspell-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:counterspell-feats:ultimate:feat:counterspell-greater-counterspell",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Casting class feature, Counterspell, Improved Counterspell, magic skill bonus +15.</p>\n<p><strong>Benefit:</strong> When using the Counterspell feat, you may spend 2 additional spell points to target all magic within a 40-foot radius burst, whether it be magical effects or magic items. If your check succeeds against a magic item, that item’s magic is suppressed for 1 minute per caster level. If your check succeeds against a magical effect, the effect is destroyed. You also have a 1% chance per caster level of destroying an antimagic field. If the antimagic field survives the greater counterspell, no items within it are affected.</p>\n<p>You may also spend the 2 additional spell points, but only target a single item. You attempt your magical skill check with a +5 bonus against this item. If you succeed, the item is permanently destroyed. Even artifacts are subject to this effect, though there is only a 1% chance per caster level of actually affecting such powerful items. If successful, the artifact’s power unravels, and it is destroyed. If an artifact is destroyed, you must succeed at a DC 25 Will save or permanently lose all spellcasting abilities. These abilities cannot be recovered by mortal magic, not even miracle or wish. Destroying artifacts is a dangerous business, and it is 95% likely to attract the attention of some powerful being who has an interest in or connection with the device.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/counterspell-feats#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/counterspell-feats#toc4"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

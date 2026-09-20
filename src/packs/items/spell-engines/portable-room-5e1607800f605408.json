@@ -1,0 +1,162 @@
+{
+  "_id": "5e1607800f605408",
+  "_key": "!items!5e1607800f605408",
+  "name": "Portable Room",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spell-engines:ultimate:item:portable-room",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spell-engines#toc12",
+      "sourceSha256": "f98f5856ec556f138235795825cfff8bd2aa38e0f93afb47ffe8116a4708d757",
+      "descriptionSha256": "2ebe1cf28a0839a96797b18d3cc93ff6e78275626120d5ef1a5465370d49708f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "spell-engines",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spell-engines:ultimate:item:portable-room",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> moderate Warp; <strong>CL</strong> 6th; <strong>SP</strong> 1<br>\n<strong>Slot</strong> none; <strong>Price</strong> 9,000 gp; <strong>Weight</strong> 2 lbs.<br>\n<strong>Size</strong> six 10-ft. cubes, <strong>DC</strong> 13</p>\n<p>Portable rooms are attuned to objects known as keys, though these keys can take any form and paranoid crafters often make them from items nobody else would think of checking. When these keys are activated, they create a door beyond which is an interior made of six 10-foot cubes (usually in a 3x2 grid, although other formations exist, with the design chosen when the portable room is made), and the room remains without the need for concentration as long as the key bearer holds the key and remains inside the room. The key bearer may also spend a spell point to make it last for 6 rounds without concentration. Unlike their more-famous hole-shaped cousins, portable rooms do not continue holding items once finished, but enterprising owners often pair them with pocket dimensions that can hold bedrolls, food, and other supplies. Owners who have access to Extradimensional Storage (often through said pocket dimensions) may withdraw any number of items from that Extradimensional Storage and place them on any stable surface in the room when it is created, and may return those items to the Extradimensional Storage when the room expires or is dispelled. Finally, portable rooms produce enough air and water to support the creatures inside, and can maintain one tiny-sized fire without fuel. Waste material (such as wastewater from bathing or smoke from cooking) dissipates through the sides of the portable room to maintain a safe environment.</p>\n<p>Wealthy adventurers often purchase keyhomes instead, which are noticeably more expensive but also larger than portable rooms (and do not need attached pocket dimensions).</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Spell Engine, World In Miniature, Nature sphere (Limited Nature drawback), Warp sphere (Extradimensional Room (space) x2, Bender drawback); <strong>Cost</strong> 4,500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/spell-engines#toc12\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 2
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 9000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spell-engines#toc12"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

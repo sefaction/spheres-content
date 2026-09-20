@@ -1,0 +1,162 @@
+{
+  "_id": "0827aad3fe3ca71e",
+  "_key": "!items!0827aad3fe3ca71e",
+  "name": "Firekeys",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:gonzo-wondrous-items:current:item:firekeys",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/gonzo-wondrous-items#toc3",
+      "sourceSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+      "descriptionSha256": "ff7780f652d738a5f4a2cb3d9051fb61d6f34d8fa8c5d3a45c3e824e9f6c5abb",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "gonzo-wondrous-items",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:gonzo-wondrous-items:current:item:firekeys",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>AURA</strong> moderate evocation; <strong>CL</strong> 9th; <strong>SLOT</strong> none; <strong>PRICE</strong> 60,000 gp; <strong>WEIGHT</strong> 8 lbs.</p>\n<p><strong>DESCRIPTION</strong><br>\nThe wielder of this +3 flaming burst Keytar<sup>GNZ1</sup> may, as move action, have it take the form of pure fire. This deals no damage to the wielder, however all damage the keytar deals is fire damage when used in this manner. Regardless of its form the wielder may, as a standard action attempt a DC 18 Perform (keyboard instruments) check. If successful then he may shoot a gout of fire in a 30 foot line, this line deals 5d6 points of fire damage. A Reflex save (DC 10 + wielders ranks in Perform (keyboard instruments)) halves this damage. For every 4 by which the user exceeds the Perform check he may select one of the following bonuses, he may select these bonuses multiple times, their effects stack:</p>\n<ul>\n<li>+10 feet to the length of the line.</li>\n<li>+1d6 fire damage</li>\n</ul>\n<p>Each time he uses the firekeys axes ability to shoot gouts of fire the DC of the check to do so increases by 4, these increases to the DC are temporary and reset at the start of the next day.</p>\n<p><strong>CONSTRUCTION REQUIREMENTS</strong><br>\nCraft Magic Arms and Armor, scorching ray; <strong>COST</strong> 30,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/gonzo-wondrous-items#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 8
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 60000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/gonzo-wondrous-items#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

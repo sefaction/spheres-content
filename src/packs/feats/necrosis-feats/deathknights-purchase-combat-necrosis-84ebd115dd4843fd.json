@@ -1,0 +1,121 @@
+{
+  "_id": "84ebd115dd4843fd",
+  "_key": "!items!84ebd115dd4843fd",
+  "name": "Deathknight’s Purchase (Combat, Necrosis)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:necrosis-feats:ultimate:feat:deathknights-purchase-combat-necrosis",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/necrosis-feats#toc4",
+      "sourceSha256": "39e71bd6bc7d529b8800e9916797ae74ff1a6e98b551e46e7631e46123c6404b",
+      "descriptionSha256": "4e4865beb07dac6561310bf93c4f0e2294d025b5e08c51dcd15a6cf28b46e875",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "necrosis-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:necrosis-feats:ultimate:feat:deathknights-purchase-combat-necrosis",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Their suffering is your salvation. Break their souls across the iron that is your will.</p>\n<p><strong>Prerequisite:</strong> Death sphere.</p>\n<p><strong>Benefit:</strong> You gain +1 spell point. You can spend a spell point as an immediate action whenever another creature within close range fails a saving throw against a death or negative energy effect to infuse yourself with their shredded life force, gaining a number of temporary hit points equal to 1/2 your character level plus 1d6 per necrosis feat you possess. These temporary hit points last for 1 minute per necrosis feat you possess. You cannot use this feat if the affected creature has fewer Hit Dice than half your character level.</p>\n<p><strong>Four Necrosis Feats:</strong> You no longer need to spend a spell point when using this feat to gain temporary hit points. You may spend a spell point as a free action to dismiss the temporary hit points from this feat, healing for that same amount. Treat this healing as a negative energy effect, healing normally even if you could not heal from negative energy.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/necrosis-feats#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/necrosis-feats#toc4"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

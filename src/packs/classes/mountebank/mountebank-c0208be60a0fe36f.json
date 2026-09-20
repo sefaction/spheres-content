@@ -1,0 +1,152 @@
+{
+  "_id": "c0208be60a0fe36f",
+  "_key": "!items!c0208be60a0fe36f",
+  "name": "Mountebank",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mountebank:current:class:mountebank",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mountebank",
+      "sourceSha256": "d46dfcdf793fca4c283e621ad75c5a4dcd9f9b030ef9199043541c738d5a5938",
+      "descriptionSha256": "c7e3253daeb44d2a307ed8029f23cd91eff6f81b6df581c2fc8d69939fbe6c0d",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mountebank:current:class:mountebank",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Wiki Note:</strong> This class is from Lost Spheres Publishing and is not official Spheres content.</p>\n<hr>\n<p>Charlatans. Cads. Ne’er-do-wells.</p>\n<p>These are all names given to mountebanks. Masters of stealth and guile, mountebanks exist in a world which is theirs for the taking, weaving powerful illusions and fooling even the most perceptive people into seeing things their way. Often living life on the silver piece of others, mountebanks thrive in social settings, using their innate charm and talents to ingratiate themselves to royalty and influential social figures. Never without a quick jab or witty retort, dueling a mountebank in either blades or words often ends in humiliation. The greatest of mountebanks find themselves the true power behind thrones or leading scores of fawning adorers, dozens who no doubt have no idea how much they truly know about their charismatic leader. Able to blend into locations at the drop of a hat, finding a mountebank can be nearly impossible (unless they want to be found).</p>\n<p><strong>Role:</strong> Consummate adventurers, mountebanks can serve a great many roles in a party, although they tend to focus on distraction and illusions. Helping to beguile an enemy into being entirely ineffectual, mountebanks thrive on the challenge of fooling anyone and everyone they meet, always having the proper skills for any situation. With their wide variety of both mundane and magical solutions, mountebanks can fight on the frontlines with others or take solace in the back row of combat, although they lack the ability to take hits as well as their more martially inclined brethren.</p>\n<p><strong>Alignment:</strong> Any.</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The mountebank’s class skills are Acrobatics (Dex), Appraise (Int), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Disable Device (Dex), Disguise (Cha), Escape Artist (Dex), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (dungeoneer) (Int), Knowledge (local) (Int), Knowledge (nobility) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Sleight of Hand (Dex), Spellcraft (Int), Stealth (Dex), Swim (Str), and Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks Per Level:</strong> 6 + Int modifier.</p>\n<h1>Class Abilities</h1>\n<strong>Table: The Mountebank</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Reflex Save</th>\n<th>Will Save</th>\n<th>Special</th>\n<th>Combat &amp; Magic Talents</th>\n<th>Caster Level</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+0</td>\n<td>+2</td>\n<td>+2</td>\n<td>Casting, blended training, natural scoundrel, spell pool, thief's mark +1, trickster training</td>\n<td>1 (+2 magic)</td>\n<td>+0 (1)</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+0</td>\n<td>+3</td>\n<td>+3</td>\n<td>Creative strike, social talent, veiled magic</td>\n<td>2</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+2</td>\n<td>+1</td>\n<td>+3</td>\n<td>+3</td>\n<td>Trick casting</td>\n<td>3</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+3</td>\n<td>+1</td>\n<td>+4</td>\n<td>+4</td>\n<td>Social talent</td>\n<td>4</td>\n<td>+3</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+3</td>\n<td>+1</td>\n<td>+4</td>\n<td>+4</td>\n<td>Skill breaker, thief's mark +2</td>\n<td>5</td>\n<td>+3</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+4</td>\n<td>+2</td>\n<td>+5</td>\n<td>+5</td>\n<td>Secretive spell +1, social talent</td>\n<td>6</td>\n<td>+4</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+5</td>\n<td>+2</td>\n<td>+5</td>\n<td>+5</td>\n<td>Swift veil</td>\n<td>7</td>\n<td>+5</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+6/+1</td>\n<td>+2</td>\n<td>+6</td>\n<td>+6</td>\n<td>Social talent</td>\n<td>8</td>\n<td>+6</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+6/+1</td>\n<td>+3</td>\n<td>+6</td>\n<td>+6</td>\n<td>Advanced trickery, Thief's mark +3</td>\n<td>9</td>\n<td>+6</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+7/+2</td>\n<td>+3</td>\n<td>+7</td>\n<td>+7</td>\n<td>Skill breaker, social talent</td>\n<td>10</td>\n<td>+7</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+8/+3</td>\n<td>+3</td>\n<td>+7</td>\n<td>+7</td>\n<td>Shade Stepper</td>\n<td>11</td>\n<td>+8</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+9/+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>+8</td>\n<td>Secretive spell +2, social talent</td>\n<td>12</td>\n<td>+9</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+9/+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>+8</td>\n<td>Master trickster, thief's mark +4</td>\n<td>13</td>\n<td>+9</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+10/+5</td>\n<td>+4</td>\n<td>+9</td>\n<td>+9</td>\n<td>Social talent</td>\n<td>14</td>\n<td>+10</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+11/+6/+1</td>\n<td>+5</td>\n<td>+9</td>\n<td>+9</td>\n<td>Skill breaker</td>\n<td>15</td>\n<td>+11</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+12/+7/+2</td>\n<td>+5</td>\n<td>+10</td>\n<td>+10</td>\n<td>Social talent</td>\n<td>16</td>\n<td>+12</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+12/+7/+2</td>\n<td>+5</td>\n<td>+10</td>\n<td>+10</td>\n<td>Thief's mark +5</td>\n<td>17</td>\n<td>+12</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+13/+8/+3</td>\n<td>+6</td>\n<td>+11</td>\n<td>+11</td>\n<td>Secretive spell +3, social talent</td>\n<td>18</td>\n<td>+13</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+14/+9/+4</td>\n<td>+6</td>\n<td>+11</td>\n<td>+11</td>\n<td>Lord of shade</td>\n<td>19</td>\n<td>+14</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+15/+10/+5</td>\n<td>+6</td>\n<td>+12</td>\n<td>+12</td>\n<td>Skill breaker, skill mastery, social talent</td>\n<td>20</td>\n<td>+15</td>\n</tr>\n</tbody></table>\n<h2>Proficiencies</h2>\n<p>Mountebanks are proficient with simple weapons, as well as light armor and bucklers. In addition, if this is this character’s first level in any class, they may select a martial tradition of their choice.</p>\n<h2>Casting</h2>\n<p>A mountebank may combine spheres and talents to create magical effects. A mountebank is considered a Mid-Caster. She may use either Intelligence or Charisma as her casting ability modifier and must make this choice at 1st level. (Note: all casters may select a casting tradition the first time they gain the casting class feature.)</p>\n<h2>Spell Pool</h2>\n<p>A mountebank gains a small reservoir of energy she can call on to create truly wondrous effects, called a spell pool. This pool contains a number of spell points equal to her level + her casting ability modifier (minimum: 1). This pool replenishes once per day after roughly 8 hours of rest.</p>\n<h2>Blended Training</h2>\n<p>A mountebank gains combat or magic talents according to Table: Mountebank, gaining her choice of combat or magic talents at each level she would gain a talent. Mountebanks use their casting ability modifier as their practitioner modifier. (See Natural Scoundrel)</p>\n<h2>Trickster Training</h2>\n<p>A mountebank gains the Illusion sphere as a bonus magic talent and uses her class level as her caster level with the Illusion sphere. This stacks normally with caster levels gained from other sources.</p>\n<h2>Natural Scoundrel</h2>\n<p>A mountebank must select the Scoundrel sphere with the first talent they gain from this class and cannot select the natural rogue drawback when gaining this talent.</p>\n<h2>Thief’s Mark (Ex)</h2>\n<p>At 1st level, whenever a mountebank successfully uses her ‘marked target’ sphere ability from the Scoundrel sphere against a creature, she gains a +1 circumstance bonus to attack and damage rolls against the marked creature for 1 minute. A mountebank can only use this ability against a creature a number of times equal to her casting ability modifier every 24 hours. At 5th level and every four levels afterwards, this bonus increases by +1 (to a maximum of +5 at 17th level).</p>\n<h2>Creative Strike (Ex)</h2>\n<p>At 2nd level, whenever a mountebank makes a successful attack with a light, finessable, or ranged weapon, she may choose not to add her Strength modifier (or any other ability modifier she would add) to the damage roll. If she does, she gains a circumstance bonus on that damage roll equal to her casting ability modifier; this bonus cannot exceed her class level. If any effect would prevent the mountebank from adding her Strength modifier to the damage roll (or if she would normally be unable to, such as with crossbows), she cannot use this ability.</p>\n<h2>Social Talent (Ex)</h2>\n<p>Starting at 2nd level, and every two levels thereafter, a mountebank gains a social talent as per the vigilante class feature. A mountebank treats her class level as her vigilante level for the purpose of meeting prerequisites, and is always treated as though she was in her social identity for the purpose of the effects of social talents.</p>\n<p>If a mountebank later gains a vigilante identity, she determines the effect of these talents by which identity she is currently in.</p>\n<h2>Veiled Magic (Ex)</h2>\n<p>At 2nd level, once per round a mountebank can decide to attempt to hide her spell’s manifestations from others, making it appear as though she is doing nothing at all. The attempt to hide the spell slows her casting slightly, such that spells that normally take a swift action now take a move action, spells that take a move action now take a standard action, and spells that take a standard action now take a full-round action, and spells that normally take longer than a standard action take twice as long (free action spells still take a free action).</p>\n<p>To discover the mountebank’s ruse, a creature must succeed at a Perception or Spellcraft check (the creature receives an automatic check with whichever of those skills has the highest bonus) against a DC equal to 15 + the mountebank’s number of ranks in Stealth + her casting ability modifier. If the mountebank has a drawback which has an obvious visual or auditory display such as somatic casting or verbal casting, this DC is reduced by 5 for each such drawback, to a minimum of DC 0 (this ability does not hide the visual or auditory display, but rather causes those who see the mountebank casting and fail this check to not notice the display is due to spellcasting). If the mountebank has the virtuoso boon, the DC increases by 5 (the skilled caster drawback does not add to the DC in this circumstance).</p>\n<p>If an opponent fails its check, the mountebank’s casting also does not provoke attacks of opportunity, and an opponent that fails its check can’t use readied actions that depend on realizing that the mountebank is casting a spell, or readied actions such as counterspelling that require identifying the spell the mountebank is casting. Spells such as those from the Destruction sphere that create an additional obvious effect (aside from the manifestation of casting that all spells share) still create that effect, though it might not be obvious who cast the spell unless it emanates from the mountebank.</p>\n<p>If a character interacts with the mountebank long enough to attempt a Sense Motive check without realizing she have been casting spells, that character can use Sense Motive to gain a hunch that she’s behaving unusually.</p>\n<h2>Trick Casting (Ex)</h2>\n<p>At 3rd level, whenever a mountebank has hidden her spellcasting with her veiled casting ability, once per round as a free action, she can expend her martial focus to attempt to feint against a creature within 30 ft. of herself. This feint attempt resolves before the spell, and the creature is unaware of the feint being used against them.</p>\n<h2>Skill Breaker (Ex)</h2>\n<p>At 5th level, a mountebank has mastered a single skill beyond that skill’s normal boundaries, gaining results that others can only dream about. She gains the skill unlock powers for that skill as appropriate for her number of ranks in that skill. At 10th level and every five levels thereafter, she chooses an additional skill and gains skill unlock powers for that skill as well.</p>\n<h2>Secretive Spell (Ex)</h2>\n<p>At 6th level, a mountebank gains a +1 bonus to the spell’s save DC when she casts a spell that affects any foe who would be denied a Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not). This bonus increases by +1 at 12th and 18th level.</p>\n<h2>Swift Veil (Ex)</h2>\n<p>At 7th level, the mountebank no longer increases the casting time needed while using her veiled magic class feature.</p>\n<h2>Advanced Trickery (Ex)</h2>\n<p>At 9th level, a mountebank no longer has to expend her martial focus when using her trick casting class feature.</p>\n<h2>Shade Stepper (Ex)</h2>\n<p>At 11th level, as long as a mountebank has her martial focus, she can use the Stealth skill to hide, even while being observed.</p>\n<h2>Master Trickster (Ex)</h2>\n<p>At 13th level, whenever a mountebank successfully feint against a creature with her trick casting class feature, that creature remains flat footed for an additional round.</p>\n<h2>Lord of Shade (Su)</h2>\n<p>At 19th level, a mountebank can expend her martial focus as a swift action. If she does, she can choose to become invisible for a number of rounds equal to her casting modifier. While invisible, she cannot be detected by blindsense, tremorsense, life sense, telepathy, blindsight, or other similar abilities.</p>\n<h2>Skill Mastery (Ex)</h2>\n<p>At 20th level, a mountebank unlocks all skills in which she has at least 5 or more ranks. In addition, she permanently increases her Intelligence and Charisma scores by 2.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/mountebank\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 6,
+    "savingThrows": {
+      "fort": {
+        "value": "low"
+      },
+      "ref": {
+        "value": "high"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "alignment": "Any.",
+    "wealth": "3d6 * 10",
+    "classSkills": {
+      "acr": true,
+      "apr": true,
+      "blf": true,
+      "clm": true,
+      "crf": true,
+      "dip": true,
+      "dev": true,
+      "dis": true,
+      "esc": true,
+      "int": true,
+      "kar": true,
+      "klo": true,
+      "kno": true,
+      "lin": true,
+      "per": true,
+      "prf": true,
+      "pro": true,
+      "sen": true,
+      "slt": true,
+      "spl": true,
+      "ste": true,
+      "swm": true,
+      "umd": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mountebank"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

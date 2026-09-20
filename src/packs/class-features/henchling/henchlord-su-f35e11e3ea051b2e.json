@@ -1,0 +1,121 @@
+{
+  "_id": "f35e11e3ea051b2e",
+  "_key": "!items!f35e11e3ea051b2e",
+  "name": "Henchling: Henchlord (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:henchling:current:class-feature:henchlord-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/henchling#toc25",
+      "sourceSha256": "6f639ff8bb7256ca1272905cf0c8abcd990ac9b7fa6fd5120bcb94cd2b882efd",
+      "descriptionSha256": "6fdc66a3e21afb218f8138e2128d11895e9e702488ad2636118792b7c5e8749e",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:henchling:current:class-feature:henchlord-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 20th level, a henchling becomes a living legend - renowned the world over for his ability to survive any task thrown at him. The maximum amount of weight he can carry doubles and he can call upon henchmen from far and wide with his mighty battle cry.</p>\n<p>This battle cry - a standard action that may be used once per day - enables him to summon henchmen, as per the summon universal monster rule (and, by the token, the summon monster spell). Roll 1d6 and consult Table 10-4 Henchlord Henchmen. When henchmen are summoned in this fashion, they are required to be paid a small fee of 500 gp. If this fee cannot be paid from the pockets of the henchling, no henchmen are summoned. These henchmen vanish, returning to their point of origin, after 5 rounds. A henchling may pay twice the amount their fees to have them remain for 1 minute per henchling level instead.</p>\n<strong>Table: Henchlord</strong>\n<table>\n<tbody><tr>\n<th>Number Rolled</th>\n<th>Henchmen Summoned</th>\n</tr>\n<tr>\n<td>1</td>\n<td>100&nbsp;1st level commoners</td>\n</tr>\n<tr>\n<td>2</td>\n<td>20&nbsp;4th level warriors</td>\n</tr>\n<tr>\n<td>3</td>\n<td>10&nbsp;8th level adepts</td>\n</tr>\n<tr>\n<td>4</td>\n<td>5&nbsp;12th level experts</td>\n</tr>\n<tr>\n<td>5</td>\n<td>2&nbsp;16th adepts</td>\n</tr>\n<tr>\n<td>6</td>\n<td>1&nbsp;18th level warrior</td>\n</tr>\n</tbody></table>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/henchling#toc25\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/henchling#toc25"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

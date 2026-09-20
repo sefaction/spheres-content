@@ -1,0 +1,121 @@
+{
+  "_id": "04e715503b60c53a",
+  "_key": "!items!04e715503b60c53a",
+  "name": "Truenamer: Inflections",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:truenamer:current:class-feature:inflections",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/truenamer#toc15",
+      "sourceSha256": "97b41ff7931c44570142bbadc41d042a2a7ce7dcb09a819d7e2534c853f1a400",
+      "descriptionSha256": "ee9a65d636c0802f7c9510b4767d08e21246ba4c937a31690785366b658912de",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:truenamer:current:class-feature:inflections",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Starting at 3rd level, a truenamer gains the ability to stress the syllables of a recitation in a specific manner. This is known as inflecting. Doing so increases the recital time of the recitation to a fullround action that provokes attacks of opportunity, but adds an effect to that recitation depending on the inflection used. A truenamer may only apply a single inflection to any individual recitation.</p>\n<p>Select an inflection from the list below. At 6th level and every three levels thereafter, the truenamer selects an additional inflection from this list.</p>\n<p>Not all inflections are created equal. Some inflections are simply harder for a truenamer to perform than others, if only because of the particular way the vocal cords must be used. Each inflection has a line labeled \"Truenaming DC Modifier\", which states the amount by which the truenaming DC of a recitation increases when that inflection is applied.</p>\n<p>Most inflections are frowned upon by the universe itself, if only because the universe gets annoyed when somebody demands something that specific of it. Each inflection has a line labeled \"Malleability DC Modifier\". This value is applied to the Law of Finite Malleability. For example, as the DC of a recitation normally increases by +2 every time it is successfully recited, an inflection with a Malleability DC Modifier of +2 would make the DC of the recitation increase by a total of +4 (2 + 2) after being successfully recited.</p>\n<h3>Amplified</h3>\n<p><strong>Truenaming DC Modifier:</strong> +2<br>\n<strong>Malleability DC Modifier:</strong> +2</p>\n<p>A recitation with this inflection is treated as though all variable, numeric effects are increased by half, including bonuses to those dice rolls.</p>\n<h3>Booming</h3>\n<p><strong>Truenaming DC Modifier:</strong> +2<br>\n<strong>Malleability DC Modifier:</strong> +0</p>\n<p>A recitation with this inflection has its range increased by +30 feet.</p>\n<h3>Caterwauling</h3>\n<p><strong>Truenaming DC Modifier:</strong> +3<br>\n<strong>Malleability DC Modifier:</strong> +3</p>\n<p>A recitation with this inflection is treated as though all variable, numeric effects are maximized. Saving throws and opposed rolls are not affected, nor are recitations without random variables. A truenamer must be at least 9th level to select this inflection.</p>\n<h3>Cheery</h3>\n<p><strong>Truenaming DC Modifier:</strong> +0<br>\n<strong>Malleability DC Modifier:</strong> +1</p>\n<p>A recitation with this inflection dazzles those it targets for 1d4 rounds with no saving throw allowed. The recitation must normally affect a single creature or object, not an area, in order for this inflection to have any effect, and even then most objects can't be dazzled.</p>\n<h3>Complementary</h3>\n<p><strong>Truenaming DC Modifier:</strong> +2<br>\n<strong>Malleability DC Modifier:</strong> +1</p>\n<p>A recitation with this inflection increases the remaining duration of the reciter's other ongoing recitations that were recited with this inflection applied by +1 round.</p>\n<h3>Disruptive</h3>\n<p><strong>Truenaming DC Modifier:</strong> +2<br>\n<strong>Malleability DC Modifier:</strong> +1</p>\n<p>A recitation with this inflection reduces the remaining duration of the reciter's other ongoing recitations that were recited with this inflection applied by 1 round.</p>\n<h3>Echoing</h3>\n<p><strong>Truenaming DC Modifier:</strong> +6<br>\n<strong>Malleability DC Modifier:</strong> +2</p>\n<p>A recitation with this inflection takes a -2 penalty to the Difficulty Class of any saving throw it calls for, but affected creatures must roll twice and take the worse result. A truenamer must be at least 12th level to select this inflection.</p>\n<h3>Kinetic</h3>\n<p><strong>Truenaming DC Modifier:</strong> +2<br>\n<strong>Malleability DC Modifier:</strong> +2</p>\n<p>When selecting this inflection, choose one of the family of inflections listed below. A recitation with the chosen inflection that normally deals acid, cold, electric, fire, or sonic damage deals damage of the chosen inflection's type instead.</p>\n<p>This inflection can be taken multiple times. Each time, choose a different member of the family of inflections.</p>\n<ul>\n<li>Acid = Oxykinetic</li>\n<li>Cold = Cryokinetic</li>\n<li>Electric = Electrokinetic</li>\n<li>Fire = Pyrokinetic</li>\n<li>Sonic = Sonukinetic</li>\n</ul>\n<h3>Menacing</h3>\n<p><strong>Truenaming DC Modifier:</strong> +4<br>\n<strong>Malleability DC Modifier:</strong> +0</p>\n<p>A recitation with this inflection deals 1d6 points of damage per recitation level to the subject if the subject succeeds on its saving throw. This is a force effect. Only recitations whose effects are totally negated on a successful saving throw can use this inflection.</p>\n<h3>Muffled</h3>\n<p><strong>Truenaming DC Modifier:</strong> +2<br>\n<strong>Malleability DC Modifier:</strong> +2</p>\n<p>A recitation with this inflection can only be countered by a spell whose spell level is at least two greater than the recitation's recitation level. A truenamer must be at least 12th level to select this inflection.</p>\n<h3>Omnipresent</h3>\n<p><strong>Truenaming DC Modifier:</strong> +4<br>\n<strong>Malleability DC Modifier:</strong> +3</p>\n<p>A recitation with this inflection affects any three valid targets within range. If combined with the stereo inflection using overtone chanting, they affect a total of four valid targets within range. A truenamer must be at least 12th level to select this inflection.</p>\n<h3>Penetrating</h3>\n<p><strong>Truenaming DC Modifier:</strong> +0<br>\n<strong>Malleability DC Modifier:</strong> +0</p>\n<p>A recitation with this inflection gets a +2 bonus to caster level checks made to penetrate spell resistance and other effects that negate magic on a failed caster level check, such as a clay golem's cursed wound ability; however, the Difficulty Class of any saving throw called for by a recitation with this inflection takes a 2 penalty.</p>\n<h3>Resonant</h3>\n<p><strong>Truenaming DC Modifier:</strong> +4<br>\n<strong>Malleability DC Modifier:</strong> +2</p>\n<p>A recitation with this inflection affects all valid targets within 10 feet of a primary target. The recitation must normally affect a single creature or object, not an area, in order for this inflection to have any effect. A truenamer must be at least 6th level to select this inflection.</p>\n<h3>Stereo</h3>\n<p><strong>Truenaming DC Modifier:</strong> +2<br>\n<strong>Malleability DC Modifier:</strong> +2</p>\n<p>A recitation with this inflection affects any two valid targets within range. If combined with the omnipresent inflection using overtone chanting, they affect a total of four valid targets within range.</p>\n<h3>Terse</h3>\n<p><strong>Truenaming DC Modifier:</strong> +6<br>\n<strong>Malleability DC Modifier:</strong> +4</p>\n<p>A recitation with this inflection is not recited as a full-round action. Instead, it is recited as a swift action. This inflection cannot be used with the overtone chanting class feature. A truenamer must be at least 12th level to select this inflection.</p>\n<h3>Trailing</h3>\n<p><strong>Truenaming DC Modifier:</strong> +2<br>\n<strong>Malleability DC Modifier:</strong> +2</p>\n<p>The duration of a recitation with this inflection is doubled.</p>\n<h3>Truncated</h3>\n<p><strong>Truenaming DC Modifier:</strong> +4<br>\n<strong>Malleability DC Modifier:</strong> +0</p>\n<p>Only recitations that have no effect until their duration ends can use this inflection. A recitation with this inflection has a duration of instantaneous; however, once recited in this fashion, a corollary of the Law of Flowing Rhetoric makes it so that recitation cannot be recited again for 1 minute. A truenamer must be at least 6th level to select this inflection.</p>\n<h3>Vengeful</h3>\n<p><strong>Truenaming DC Modifier:</strong> +4<br>\n<strong>Malleability DC Modifier:</strong> +0</p>\n<p>If the target of a recitation with this inflection makes its saving throw against the recitation, then the target takes a -2 penalty to its next saving throw against a recitation. This effect lasts for 5 rounds or until used.</p>\n<h3>Whispering</h3>\n<p><strong>Truenaming DC Modifier:</strong> +2<br>\n<strong>Malleability DC Modifier:</strong> +0</p>\n<p>A recitation with this inflection has its range reduced by 30 feet, but the Difficulty Class of any saving throw called for by the recitation is increased by +2.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/truenamer#toc15\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/truenamer#toc15"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

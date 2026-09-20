@@ -1,0 +1,121 @@
+{
+  "_id": "c64fa8a1c18739d6",
+  "_key": "!items!c64fa8a1c18739d6",
+  "name": "Sacred Summons (Mythic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mythic-general-n-s-feats:current:feat:sacred-summons-mythic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mythic-general-n-s-feats#toc35",
+      "sourceSha256": "cdacf645049e927aa73d8f936e734548cd6dccd86d06dd85401504effe935a5e",
+      "descriptionSha256": "0384c93d2342ad8859790a08fabeb0558102aea43bc4c1665ca2e98695995613",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "mythic-general-n-s-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mythic-general-n-s-feats:current:feat:sacred-summons-mythic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The scions of your patron alignment heed your call with dispatch.</p>\n<p><strong>Prerequisites:</strong> Sacred Summons<sup>UM</sup></p>\n<p><strong>Benefit:</strong> You may summon creatures whose alignment matches your aura, as well as those whose alignment subtype matches your aura, as a standard action. In addition, any creatures you summon gain the benefits of protection from chaos, protection from evil, protection from good, or protection from law, whichever is the opposite of their own alignment subtype, for as long as they are summoned. If a summoned creature has more than one subtype, you must choose one of the above spells to provide to them. When summoning a creature whose alignment subtype(s) match yours, you may spend one use of your mythic power to double the duration of the summoning effect.</p>\n<p>This does not stack with the Extend Spell feat.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mythic-general-n-s-feats#toc35\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mythic-general-n-s-feats#toc35"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

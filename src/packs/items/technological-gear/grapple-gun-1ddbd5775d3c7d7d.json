@@ -1,0 +1,130 @@
+{
+  "_id": "1ddbd5775d3c7d7d",
+  "img": "icons/svg/item-bag.svg",
+  "name": "Grapple Gun",
+  "system": {
+    "description": {
+      "value": "<p><strong>Price</strong> 50 gp; <strong>Weight</strong> 12 lbs.</p>\n<p>Instead of regular ammunition, this two-handed simple technological firearm fires only rope and grappling hooks, making it valuable tool to adventurers and vigilantes. If you attack and hit a creature whose size category is equal to or smaller than yourself, you may as a free action make a drag combat maneuver at range without provoking an attack of opportunity. You needn’t move with the target. The target cannot move further away than the length of the rope without first breaking it, or making a drag combat maneuver against you, pulling you along.</p>\n<p>If you attack and hit a creature whose size category is larger than yourself, or if you attack a wall, floor, or ceiling, you move to that spot, provoking attacks of opportunity as normal, except for the space which you began your movement. If you end your movement in the air such as dangling from a wall or ceiling, you may end your turn hanging in place, or may grab a ledge or even let go and fall to the ground. You cannot remain hanging in the air for more than 1 round, after which the grapple gives way and you fall. Dangling from the grapple gun counts as climbing a rope for all purposes.</p>\n<p><strong>Device Schematic</strong><br>\n<strong>Diagram</strong> (1 Clamp + 10 Cogs + 2 Levers + 1 Screw + 1 Spring + 2 Tubings + 3 Wheels)<br>\n<strong>Craft DC</strong> 20<br>\n<strong>Time</strong> 1 day<br>\n<strong>Tools</strong> gunsmith’s kit<br>\n<strong>Type</strong> weapon (firearm)</p>\n<table>\n<tbody><tr>\n<th>Weapon</th>\n<th>Dmg (S)</th>\n<th>Dmg (M)</th>\n<th>Critical</th>\n<th>Range</th>\n<th>Misfire</th>\n<th>Capacity</th>\n<th>Weight</th>\n<th>Type</th>\n<th>Special</th>\n</tr>\n<tr>\n<td>Grapple Gun</td>\n<td>1d4</td>\n<td>1d6</td>\n<td>x2</td>\n<td>50 ft.</td>\n<td>1-2</td>\n<td>1</td>\n<td>12 lbs.</td>\n<td>P</td>\n<td>-</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/technological-gear#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "quantity": 1,
+    "weight": {
+      "value": 12
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 50,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "gear",
+    "extraType": "",
+    "abundant": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/technological-gear#toc4"
+      }
+    ]
+  },
+  "type": "loot",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:technological-gear:current:item:grapple-gun",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/technological-gear#toc4",
+      "sourceSha256": "b68a344fa8409c45a69d74a6c5e95278c1bc3043d632a0b263a4a539743ceb89",
+      "descriptionSha256": "9506ed9ce76f3d232ee7e7122deed9dfbbcaa1c554b44726b8aa0331ec8d45f7",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "technological-gear",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:technological-gear:current:item:grapple-gun",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "_key": "!items!1ddbd5775d3c7d7d",
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "bb59dc48240e61f3",
+  "_key": "!items!bb59dc48240e61f3",
+  "name": "Forgery",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:artifice:spheres-of-guile:guile-talent:forgery",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/artifice#toc18",
+      "sourceSha256": "a3a666f8e0af8307f0024100a1bdb6c458a7d34b1b4c37af5a6d0057bdfc9aa7",
+      "descriptionSha256": "ddf160f02ccf41838da2ce4114f1737be0a57265324a7ec370bb3bce97b13cfe",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Artifice Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:artifice:spheres-of-guile:guile-talent:forgery",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "artifice"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Whenever you disguise an object as an object (new skill use), you disguise it in the least time possible (usually to 10 minutes), or as part of creating a trinket. Whenever you disguise an object, using it does not automatically spoil the disguise, instead only allowing observers a new chance to attempt a Perception check against the disguise; if the discrepancy is minor, observers do not receive a chance to perceive the disguise.</p>\n<p>You can also use an appropriate Artistry skill to forge documents in place of Linguistics.</p>\n<p>Additionally, you can spend 10 minutes (or reveal as a plan) to attempt to create a copy of a key, although you must have some level of familiarity with the original key or lock to do so. Attempt a Craft check against the lock's Disable Device DC; on a success, the key functions as the original (bar any exceptional qualities it may possess). The Craft check may suffer a penalty due to how familiar you are with the key or lock.</p>\n<table>\n<tbody><tr>\n<th>Familiarity</th>\n<th>DC Penalty</th>\n</tr>\n<tr>\n<td>Have only description or have seen illustration</td>\n<td>-16</td>\n</tr>\n<tr>\n<td>Seen once or have illustration</td>\n<td>-12</td>\n</tr>\n<tr>\n<td>Seen repeatedly or handled</td>\n<td>-8</td>\n</tr>\n<tr>\n<td>Studied carefully</td>\n<td>-4</td>\n</tr>\n<tr>\n<td>Intimately familiar with</td>\n<td>+0</td>\n</tr>\n</tbody></table>\n<p>You can reveal a plan as a standard action to treat your familiarity with an object as being one higher for an attempt.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/artifice#toc18\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["plan", "utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/artifice#toc18"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

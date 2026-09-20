@@ -1,0 +1,124 @@
+{
+  "_id": "fb6cb77682f3f7f9",
+  "_key": "!items!fb6cb77682f3f7f9",
+  "name": "Swiftwind Philter (tincture)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:swiftwind-philter-tincture",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc36",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "e3cdd05ee0c06848f643e4004580dbcb4543257de934d1535b214aa005d28ee3",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Concoction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:swiftwind-philter-tincture",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Cost:</strong> 2 herbs</p>\n<p>This tincture grants the imbiber a +3 alchemical bonus to Acrobatics checks made to balance, jump, soften a fall, or wall hop, in addition to always being treated as having a running start for Acrobatics checks, and their jump distance can exceed their base speed. This bonus increases by 1 per 4 ranks in the associated skill you possess. This tincture lasts for 10 minutes.</p>\n<p><strong>Twists</strong></p>\n<ul>\n<li><strong>1 spicy herb:</strong> The alchemical bonus applies to Fly checks, and the imbiber increases the maneuverability of any fly speed they possess by one step, in addition to treating their size category as being one higher when determining whether or not they would be checked or blown away.</li>\n<li><strong>1 cool herb:</strong> The alchemical bonus applies to Sleight of Hand checks. Additionally, it does not take twice as much time to take a subtle action, and the imbiber no longer takes the -20 penalty for attempting a Sleight of Hand check as a move action.</li>\n<li><strong>1 bland herb:</strong> The alchemical bonus applies to Disable Device checks. The DC to fast disable using Disable Device is halved to -4 (instead of -8) per step.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc36\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc36"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

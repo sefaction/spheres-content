@@ -1,0 +1,121 @@
+{
+  "_id": "6337c472f0b5a861",
+  "_key": "!items!6337c472f0b5a861",
+  "name": "Stellar Evoker",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:destruction:ultimate:feat:stellar-evoker",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/destruction#toc145",
+      "sourceSha256": "87f38a4d1182120298d1b24f8748ffd25e9d5bd3a9e618a3917b6c090024d6d7",
+      "descriptionSha256": "96dac0ed4220153e023be924e989727717192d8b1ab2af0f4753d79c56830b6b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Destruction Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:destruction:ultimate:feat:stellar-evoker",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your magics orbit you creating an orrery of color and power around your person.</p>\n<p><strong>Prerequisites:</strong> Destruction sphere (Energy Satellite (blast shape)).</p>\n<p><strong>Benefit:</strong> The maximum number of satellites you may maintain at one time increases by +1. In addition, whenever you could discharge a satellite as an immediate action, you may instead expend an attack of opportunity. You may not target the same creature with a satellite more than once per round.</p>\n<p>Whenever a destructive blast unaltered by a (blast shape) talent misses its target, you may spend one spell point as an immediate action to form a satellite as though you cast that destructive blast with the Energy Satellite (blast shape). A satellite created this way cannot be discharged the round it is created and lasts for 1 round per caster level, instead of 1 minute per caster level. A destructive blast whose damage was increased by spending an additional spell point does not deal increased damage when reformed into a satellite with this feat.</p>\n<p><strong>Example:</strong> An evoker spends 1 spell point to cast destructive blast augmented with the Static Blast (blast type). This destructive blast misses its target, so the evoker spends 1 spell point as an immediate action to “recapture” this effect as a satellite created with the Energy Satellite (blast shape) with the same (blast type).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/destruction#toc145\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/destruction#toc145"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

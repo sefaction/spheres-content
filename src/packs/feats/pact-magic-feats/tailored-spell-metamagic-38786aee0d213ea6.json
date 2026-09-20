@@ -1,0 +1,121 @@
+{
+  "_id": "38786aee0d213ea6",
+  "_key": "!items!38786aee0d213ea6",
+  "name": "Tailored Spell (Metamagic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:pact-magic-feats:current:feat:tailored-spell-metamagic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/pact-magic-feats#toc33",
+      "sourceSha256": "f426cf60998d2b60d857a9763435fa7c8f07407526bbde0ca33e429130d832d2",
+      "descriptionSha256": "f225f7897217804ff9204c1b76b713e4802ffb52e6b2dffbac262a71d5c8ef80",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Metamagic Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:pact-magic-feats:current:feat:tailored-spell-metamagic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You precisely choose the finest details regarding your spells.</p>\n<p><strong>Benefit:</strong> When you cast a spell that alters the target’s size category, age category, or both, you may choose its adjusted form’s exact height, weight, and age. The chosen measurements must be appropriate for the adjusted creature’s new age category or size category. For example, when using flames of youth to transform an Adult human into a Youth, you may choose the creature’s age from between the Youth category’s minimum age (8 years for a human) and maximum age (14 years for a human). Spells that do not alter a creature’s age category or size category are not affected by this feat.</p>\n<p><strong>Level Increase:</strong> None (a tailored spell does not use up a higher-level spell slot than the spell’s actual level).</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/pact-magic-feats#toc33\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/pact-magic-feats#toc33"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

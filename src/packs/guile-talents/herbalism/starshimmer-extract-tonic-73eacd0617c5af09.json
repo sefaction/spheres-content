@@ -1,0 +1,124 @@
+{
+  "_id": "73eacd0617c5af09",
+  "_key": "!items!73eacd0617c5af09",
+  "name": "Starshimmer Extract (tonic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:starshimmer-extract-tonic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc58",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "ecfda8b6308d69fb4055af0b4ae98e76534cbb973bb5606ab836255a2f97df61",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:starshimmer-extract-tonic",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Associated skill 5 ranks, Herbalism sphere.</p>\n<p><strong>Cost:</strong> 2 herbs</p>\n<p>This tonic causes the imbiber to increase the level of illumination within a 15-foot radius around them by one step to a maximum of dim light, increasing by 5 feet per 4 ranks in the associated skill.</p>\n<p><strong>Twists</strong></p>\n<ul>\n<li><strong>1 bland herb:</strong> The imbiber can survive without air, making them immune to effects that require breathing, and allowing them to survive underwater or even within a vacuum. Additionally, all creatures within the dim light produced by this tonic gain a 20-foot fly speed (clumsy maneuverability) for as long as they remain within the area. This fly speed increases by 10 feet for every 5 ranks in the associated skill you possess.</li>\n<li><strong>1 cool herb:</strong> Allies within the area of dim light created by this tonic gain cold resistance equal to the number of ranks you possess in the associated skill.</li>\n<li><strong>1 dry herb:</strong> The maximum light level that this tonic creates is increased to normal light, but is still only increased by one step. Additionally, creatures outside of this area cannot see the change in light level that the tonic causes.</li>\n<li><strong>1 spicy herb:</strong> Creatures within the area of dim light created by this tonic also become dazzled for as long as they remain within the area. Whenever a creature becomes dazzled within this dim light, the penalties of the dazzled condition increase by 1, plus 1 per 5 ranks in the associated skill you possess. Additionally, the imbiber becomes immune to the dazzled condition.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc58\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc58"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

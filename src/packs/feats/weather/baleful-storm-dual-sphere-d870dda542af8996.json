@@ -1,0 +1,121 @@
+{
+  "_id": "d870dda542af8996",
+  "_key": "!items!d870dda542af8996",
+  "name": "Baleful Storm (Dual Sphere)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:weather:ultimate:feat:baleful-storm-dual-sphere",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/weather#toc100",
+      "sourceSha256": "5d9689f88a68b1b36124cbe0cbd8414f3b38af043794ee79ff663344611971e0",
+      "descriptionSha256": "472b77d0b2a6aef043aeed0e457fed431a35cd05aac7968d9c6a738389ea3f06",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Weather Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:weather:ultimate:feat:baleful-storm-dual-sphere",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>When thunder rolls and lightning cracks, your minions rise.</p>\n<p><strong>Prerequisites:</strong> Death sphere (Mass Reanimate), Weather sphere (Rain Lord).</p>\n<p><strong>Benefit:</strong> When you use control weather to create or control Precipitation of severity 4 or more, you may choose to spend 2 additional spell points. If you do, you may reanimate any number of corpses within the area of controlled weather each round as a move action without paying the base ability spell point cost. Your Hit Dice limits apply to the total number you may reanimate with this ability, and the reanimated undead only last as long as your control weather is creating or controlling Precipitation of at least severity level 4.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/weather#toc100\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/weather#toc100"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

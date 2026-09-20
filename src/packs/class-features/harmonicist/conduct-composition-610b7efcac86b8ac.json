@@ -1,0 +1,121 @@
+{
+  "_id": "610b7efcac86b8ac",
+  "_key": "!items!610b7efcac86b8ac",
+  "name": "Harmonicist: Conduct Composition",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:harmonicist:current:class-feature:conduct-composition",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/harmonicist#toc5",
+      "sourceSha256": "f716352932d92352fc31a5f65260523a0b1e21cebde7057dd9280abbe02a9e3e",
+      "descriptionSha256": "7b9ac36e934388d5263af10440afd5fa9446969e5b794b3ce01b666a32606dbd",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:harmonicist:current:class-feature:conduct-composition",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, a harmonicist learns how to conduct his scores in such a way that he controls the nature of sound itself. Each individual score can be conducted for a number of rounds per day equal to half the harmonicist's ranks in the Perform (conducting) skill, rounded down, minimum 1, + his Intelligence modifier.</p>\n<p>Starting to conduct a score is a standard action that provokes attacks of opportunity, but it can be maintained each round as a free action. When a harmonicist starts to conduct a score, the intro effect chosen for that score happens immediately, while all melody effects start immediately and persist for as long as the score is conducted. A harmonicist can end a performance in one of two ways. He can simply stop conducting as a free action; however, the score's outro effect does not happen in this case. He can also end with a flourish as a standard action that provokes attacks of opportunity. If he does so, the score's outro effect is triggered. If a harmonicist stops conducting as a free action, he cannot start conducting another score that round.</p>\n<p>Other practitioners of musical composition produce ghostly music that seemingly emanates from nowhere when they conduct. This is not so with a harmonicist. Instead, a harmonicist induces vibration within the body of a single creature within close (25 ft. + 5 ft./2 composer levels) range. The radius of a score's intro or outro effect, if any, is centered upon the subject rather than the composer, while all melodies affect the subject and the subject alone. Further, all melodies that normally grant the composer an activated ability for the duration of the performance, such as the thunderstruck melody, grant that ability to the score's subject instead. Should the subject of the score move out of range of the harmonicist, the score ends immediately without triggering the outro effect.</p>\n<p>Conducting a score cannot be disrupted, but it ends immediately if the harmonicist is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a free action to maintain it each round. A harmonicist begins play with the ability to have one harmonicist score in effect at once time. For every six harmonicist levels he possesses, he can maintain an additional score, to a maximum of four simultaneous harmonicist scores at 18th level. A harmonicist may never begin to perform a score if he is already performing it, and any individual creature cannot be the subject of more than one of the harmonicist's scores at any one time. A harmonicist cannot conduct a harmonicist score and a score from another composition class at the same time.</p>\n<p>As the harmonicist's unique usage of the composition book changes the behavior of most compositions he knows, all compositions that a harmonicist can know have separate effect language for how they behave when added to a harmonicist's score as opposed to any other composing class' score, if needed.</p>\n<p>The intros and outros of scores a harmonicist conducts rely on audible components. The melodies do not.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/harmonicist#toc5\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/harmonicist#toc5"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

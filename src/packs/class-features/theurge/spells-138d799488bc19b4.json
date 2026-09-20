@@ -1,0 +1,121 @@
+{
+  "_id": "138d799488bc19b4",
+  "_key": "!items!138d799488bc19b4",
+  "name": "Theurge: Spells",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:theurge:current:class-feature:spells",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/theurge#toc2",
+      "sourceSha256": "d50568cbd5c4fa21ff3203912389f01c6e0036c4efa2de0ae232359ac6364e8f",
+      "descriptionSha256": "bfc8e27be5e34a5eb8b6686f4321987c94386c349c33430c85b726618fe77d54",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:theurge:current:class-feature:spells",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A theurge casts divine spells drawn from the cleric spell list and arcane spells drawn from the sorcerer/wizard spell list. A theurge must choose and prepare his spells in advance. To prepare or cast an arcane spell, a theurge must have an Intelligence score equal to at least 10 + the spell level. The DC for a saving throw against a theurge’s arcane spell is 10 + the spell level + the theurge’s Intelligence modifier. To prepare or cast a divine spell, a theurge must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a theurge’s divine spell is 10 + the spell level + the theurge’s Wisdom modifier. A theurge can cast only a certain number of arcane spells and divine spells of each spell level per day. His base daily spell allotment is given on Table: The Theurge. In addition, he receives bonus spells per day if he has a high Intelligence or Wisdom score. A theurge receives bonus arcane spells for a high Intelligence score and bonus divine spells for a high Wisdom score. A theurge does not know all divine spells of a given level, as a cleric does. Instead, he prepares divine spells from his prayer book, which contains his collection of written divine spells. A theurge must choose and prepare his spells ahead of time by getting 8 hours of sleep and spending 1 hour studying his spellbook (for arcane spells) and his prayer book (for divine spells) and deciding which spells to prepare.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/theurge#toc2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/theurge#toc2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

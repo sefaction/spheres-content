@@ -1,0 +1,121 @@
+{
+  "_id": "c165dc7bd7feae3d",
+  "_key": "!items!c165dc7bd7feae3d",
+  "name": "Raveler: Magicweaving (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:raveler-class:current:class-feature:magicweaving-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/raveler-class#toc6",
+      "sourceSha256": "c4b0ccc7e4317c264d841c9c1a5597fad3550dccf6d2837d879a7684fcba734f",
+      "descriptionSha256": "27d02950833c988a9df2bbceae32f6b4e34f3c2313a385bdafc09e491eba92f2",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Abilities",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:raveler-class:current:class-feature:magicweaving-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Ravelers utilize a unique method of casting their spells, known as magicweaving, that fuels their magical power by unweaving their ravels. Whenever the raveler would be able to spend spell points on an effect or ability, they can unweave one of their ravels to immediately gain 1 temporary spell point to spend on that effect or ability. This spell point must be used as part of that effect or ability, or it is immediately lost. At 7th level, and again at 13th and 19th level, the raveler gains 1 additional temporary spell point when unweaving a ravel in this way. If the raveler starts casting a spell with a casting time longer than one full round, the raveler may unweave a ravel as they start casting the spell and invest those spell points into the effect. If they stop casting the spell early, those spell points are lost immediately.</p>\n<p>If the raveler used these spell points to create an effect with a duration longer than instantaneous, that effect immediately ends if the ravel is no longer unwoven.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/raveler-class#toc6\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/raveler-class#toc6"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

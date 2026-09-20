@@ -1,0 +1,121 @@
+{
+  "_id": "56ab91989c6e41e1",
+  "_key": "!items!56ab91989c6e41e1",
+  "name": "Echo: Mirror Power (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:echo:current:class-feature:mirror-power-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/echo#toc5",
+      "sourceSha256": "7e4fbcb1c751c10841749081554bac714552402272b3187adb77188d1473547b",
+      "descriptionSha256": "b99276a8923ac10433557100801d5ae6e1a1e8b95f16f5ee650381f329ceb177",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:echo:current:class-feature:mirror-power-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, an echo gains the ability to mirror power. The echo must select one source of power (arcane, divine, entropic, temporal, psionic, primal) to learn. For one reflection, the echo can replicate a single spell or power with that source they witnessed within the past round. Activating this ability is a Standard Action that requires an echo to spend a reflection point.</p>\n<p>The spell or power must have an effective spell level equal to no more than half the echo’s level rounded up. mirror power copied effects are resolved as a spell-like or psi-like ability at the effective caster or manifester level of the original effect’s creator or the echo’s own effective level, whichever is lower. The DCs of the effect are equal to the original source or the 10+ the effect level + the Charisma modifier of the echo, whichever is lower. Mirrored effects that require a component valued more than 100 gp in value are not subject to this ability.</p>\n<h4>Sources of Power</h4>\n<p>Some products make references to magic systems that draw on specific sources of power. GMs have the final say on what power source an effect comes from in their campaign. For purposes of this section, six major sources of power are referenced:</p>\n<ul>\n<li><strong>Arcane:</strong> The power of the universe drawn through the innate gifts of sorcerers and studied in the tomes of wizards.</li>\n<li><strong>Divine:</strong> The power of the Gods, drawn through creation and returned to their mortal vessels. Clerics, oracles and druids use this power source.</li>\n<li><strong>Entropic:</strong> The power of system failures in the universe and broken entities of great power. The umbral source is considered entropic for the echo, though some GMs may wish to make it a separate Source if they have higher instances of both.</li>\n<li><strong>Mental:</strong> The power of the mind unlocked through self-awareness or rigorous study. Psions, wilders and similar classes fit this power source.</li>\n<li><strong>Primal:</strong> The raw power of the cosmos and the natural energies of the world. (Some GMs may wish to reassign Druids this power source.)</li>\n<li><strong>Temporal:</strong> The power of the flow of time. Exploited by Time Thieves, Time Reavers and Time Wardens alike to alter the course of reality.</li>\n</ul>\n<p><strong>Role-Playing Note:</strong> GMs should consider the gaming group they play with when determining if an Echo character is appropriate. Some players may not appreciate a character that can do what their character can do under the best of circumstances. GMs are advised to ask if their group would mind an Echo player character in a party.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/echo#toc5\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/echo#toc5"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

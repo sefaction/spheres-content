@@ -18,9 +18,15 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
     assert.equal(doc._key, `!items!${doc._id}`, "Compiler identity mismatch");
   assert(doc.name?.trim(), "Missing name");
   assert(
-    ["feat", "class", "loot", "container", "consumable", "weapon"].includes(
-      doc.type,
-    ),
+    [
+      "feat",
+      "class",
+      "loot",
+      "container",
+      "consumable",
+      "weapon",
+      "equipment",
+    ].includes(doc.type),
     "PF1 type needs a reviewed schema profile",
   );
   assert.equal(
@@ -41,6 +47,23 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
   );
   assert.equal(identity?.sourceKey, meta.sourceKey, "Source key changed");
   assert(sources.has(meta.collection), "Unreviewed source collection");
+  if (meta.collection === "wiki-intake-open-rules") {
+    const page = new URL(meta.sourceUrl);
+    page.hash = "";
+    const approval = options.intakeSources?.pages?.[page.href];
+    assert(
+      approval?.sha256 === meta.sourceSha256,
+      "Unreviewed intake snapshot",
+    );
+    assert(
+      approval.kinds.includes(meta.intake?.kind),
+      "Unreviewed intake kind",
+    );
+    assert(
+      meta.intake?.status === "draft" && meta.audit,
+      "Missing intake audit status",
+    );
+  }
   assert(/^https?:\/\//.test(meta.sourceUrl), "Missing source provenance");
   assert(
     /^[0-9a-f]{64}$/.test(meta.sourceSha256),
@@ -121,7 +144,7 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
   );
   if (doc.type === "feat") {
     assert(
-      ["feat", "skillTalent"].includes(s.subType),
+      ["feat", "skillTalent", "classFeat"].includes(s.subType),
       "Additional feat subtype needs a reviewed profile",
     );
     if (s.subType === "skillTalent")
@@ -169,6 +192,14 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
     if (doc.type === "loot") assert.equal(s.subType, "gear");
     if (doc.type === "consumable")
       assert(["misc", "potion"].includes(s.subType));
+    if (doc.type === "equipment") {
+      assert.equal(
+        s.subType,
+        "wondrous",
+        "Additional equipment profile needs review",
+      );
+      assert.equal(s.equipmentSubtype, "");
+    }
     if (doc.type === "weapon") {
       assert.equal(s.subType, "simple");
       assert.equal(s.weaponSubtype, "light");
@@ -256,6 +287,7 @@ export async function validateContentCatalog() {
   const manifest = await json("module.json");
   const identities = await json("config/identities.json");
   const containers = await json("config/containers.json");
+  const intakeSources = await json("config/intake-sources.json");
   const sources = new Map();
   for (const source of catalog.sources) {
     assert(!sources.has(source.key), "Duplicate collection");
@@ -274,7 +306,7 @@ export async function validateContentCatalog() {
   for (const asset of catalog.assets) {
     const file = safeRelative(asset.path);
     assert(
-      file.startsWith("static/icons/") && file.endsWith(".png"),
+      file.startsWith("static/icons/") && /\.(png|webp)$/.test(file),
       "Unexpected asset path",
     );
     assert.equal(asset.kind, "generated");
@@ -289,10 +321,36 @@ export async function validateContentCatalog() {
       asset.sha256,
       "Image bytes changed without provenance update",
     );
+    if (file.endsWith(".png")) {
+      assert.equal(
+        bytes.subarray(0, 8).toString("hex"),
+        "89504e470d0a1a0a",
+        "Invalid PNG",
+      );
+      assert.equal(bytes.readUInt32BE(16), asset.encoding.width);
+      assert.equal(bytes.readUInt32BE(20), asset.encoding.height);
+      assert.equal(
+        asset.compatibilityOnly,
+        true,
+        "New illustration icons should use WebP",
+      );
+    } else {
+      assert.equal(bytes.toString("ascii", 0, 4), "RIFF", "Invalid WebP");
+      assert.equal(bytes.toString("ascii", 8, 12), "WEBP", "Invalid WebP");
+      assert.equal(bytes.readUInt32LE(4) + 8, bytes.length, "Truncated WebP");
+    }
     assert.equal(
-      bytes.subarray(0, 8).toString("hex"),
-      "89504e470d0a1a0a",
-      "Invalid PNG",
+      bytes.length,
+      asset.encoding.bytes,
+      "Asset size inventory drift",
+    );
+    assert(
+      asset.encoding.width <= 256 && asset.encoding.height <= 256,
+      "Oversized icon",
+    );
+    assert(
+      bytes.length <= (file.endsWith(".webp") ? 32768 : 196608),
+      "Icon exceeds size budget",
     );
     const runtimePath = `modules/${moduleId}/${file.slice("static/".length)}`;
     assert(!assets.has(runtimePath), "Duplicate asset path");
@@ -303,7 +361,7 @@ export async function validateContentCatalog() {
     ]) {
       safeRelative(output);
       assert(
-        /^icons\/(?:[a-z0-9-]+\/)+[a-z0-9-]+\.png$/.test(output) ||
+        /^icons\/(?:[a-z0-9-]+\/)+[a-z0-9-]+\.(?:png|webp)$/.test(output) ||
           ((asset.legacyPaths ?? []).includes(output) &&
             /^icons\/[a-z0-9-]+\.png$/.test(output)),
         "Icons need readable category folders; only legacy aliases may be flat",
@@ -375,7 +433,10 @@ export async function validateContentCatalog() {
         pack.name,
         "Pack move requires reference review",
       );
-      validateEntity(doc, identity, sources, assets, { containers });
+      validateEntity(doc, identity, sources, assets, {
+        containers,
+        intakeSources,
+      });
       registeredFiles.push(file);
       docs.push({ pack: pack.name, file, doc });
     }

@@ -1,0 +1,121 @@
+{
+  "_id": "afbfe7823eea105f",
+  "_key": "!items!afbfe7823eea105f",
+  "name": "Fey",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:aethernaut:current:feat:fey",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/aethernaut#toc63",
+      "sourceSha256": "cd774d1a82f266aca5716be895c0f51e1e0bb4993ad8ac1c77eb98a14131138f",
+      "descriptionSha256": "24295224e9f01a1e0e6230bdd1fbce24e394a4a3e2ab2ff39ac962c742f166eb",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features > Aethernaut Planar Masteries",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:aethernaut:current:feat:fey",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> abjuration</p>\n<p><strong>Planar Precision:</strong> If you have mastered this plane or are on this plane, you can use precision to affect the skill check of any creature you can see or hear within 40 feet.</p>\n<p><strong>Rift Edges:</strong> Faerie phenomena evoke the resplendent life and whimsical magic of the fey realms.</p>\n<strong>Faint Rift edges</strong>\n<p> (Roll 1d4, on a 4 choose the result)</p>\n<table>\n<tbody><tr>\n<td>1</td>\n<td>5 points of piercing damage</td>\n</tr>\n<tr>\n<td>2</td>\n<td>entangle in target's space only</td>\n</tr>\n<tr>\n<td>3</td>\n<td>faerie fire and dazzled</td>\n</tr>\n</tbody></table>\n<strong>Moderate Rift edges</strong>\n<p> (Roll 1d4, on a 4 choose the result)</p>\n<table>\n<tbody><tr>\n<td>1</td>\n<td>15 points of piercing damage</td>\n</tr>\n<tr>\n<td>2</td>\n<td>fatigued for 1 hour</td>\n</tr>\n<tr>\n<td>3</td>\n<td>sickening entanglement<sup>ACG</sup></td>\n</tr>\n</tbody></table>\n<strong>Strong Rift edges</strong>\n<p> (Roll 1d4, on a 4 choose the result)</p>\n<table>\n<tbody><tr>\n<td>1</td>\n<td>45 points of piercing damage</td>\n</tr>\n<tr>\n<td>2</td>\n<td>synesthesia<sup>OA</sup></td>\n</tr>\n<tr>\n<td>3</td>\n<td>thorny entanglement<sup>ACG</sup> in target's space only</td>\n</tr>\n</tbody></table>\n<p><strong>Rift Wards:</strong></p>\n<ul>\n<li><strong>Faint Rift Ward:</strong> +1/2 level resistance bonus on saving throws against mind-affecting effects and negative energy</li>\n<li><strong>Moderate Rift Ward:</strong> Fast healing 5 (to a maximum of half; 10 at 18th level)</li>\n<li><strong>Strong Rift Ward:</strong> Spell resistance 5 + level; this interferes with allies' spells, but not your own. If you already have equal or higher spell resistance, instead increase it by 2</li>\n</ul>\n<p><strong>Mastery Benefit:</strong> You also gain spell resistance 5 + aethernaut level against unwanted spells.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/aethernaut#toc63\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/aethernaut#toc63"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

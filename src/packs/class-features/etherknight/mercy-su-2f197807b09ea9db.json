@@ -1,0 +1,121 @@
+{
+  "_id": "2f197807b09ea9db",
+  "_key": "!items!2f197807b09ea9db",
+  "name": "Etherknight: Mercy (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:etherknight:current:class-feature:mercy-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/etherknight#toc16",
+      "sourceSha256": "0a6950d0d983d837ee856984170e3d480631adf525d4c698dd189fac22102b4f",
+      "descriptionSha256": "c579219db9561ce64adf7b8d521930a22f19f7006465f9f2be97e6d43592c361",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:etherknight:current:class-feature:mercy-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 5th level, and every four levels thereafter, an etherknight can learn one mercy. Each mercy adds an effect to the ether knight's lay on hands ability. Whenever the etherknight uses lay on hands to heal damage to one target, the etherknight may choose to apply the benefits of a single mercy she possesses to that target. Mercies cost FP to add to lay on hands and can remove a condition caused by a curse, disease, or poison without curing the affliction. Such conditions return after 1 hour unless the mercy actually removes the affliction that causes the condition.</p>\n<p>At 5th level, the etherknight can learn from the following initial mercies. These mercies cost 0 FP to apply.</p>\n<ul>\n<li>Fatigued: The target is no longer fatigued.</li>\n<li>Shaken: The target is no longer shaken.</li>\n<li>Sickened: The target is no longer sickened.</li>\n</ul>\n<p>At 9th level, an etherknight adds the following mercies to the list of those that can be learned. These mercies cost 0 FP to apply.</p>\n<ul>\n<li>Dazed: The target is no longer dazed.</li>\n<li>Diseased: The ether knight's lay on hands ability also acts as remove disease, using the ether knight's level as the caster level.</li>\n<li>Staggered: The target is no longer staggered, unless the target is at exactly 0 hit points.</li>\n</ul>\n<p>At 13th level, an etherknight adds the following mercies to the list of those that can be learned. These mercies cost 1 FP to apply.</p>\n<ul>\n<li>Cursed: The ether knight's lay on hands ability also acts as remove curse, using the ether knight's level as the caster level.</li>\n<li>Exhausted: The target is no longer exhausted. The etherknight must have the fatigue mercy before selecting this mercy.</li>\n<li>Frightened: The target is no longer frightened. The etherknight must have the shaken mercy before selecting this mercy.</li>\n<li>Nauseated: The target is no longer nauseated. The etherknight must have the sickened mercy before selecting this mercy.</li>\n<li>Poisoned: The ether knight's lay on hands ability also acts as neutralize poison, using the etherfuser's level as the caster level.</li>\n</ul>\n<p>At 17th level, an etherknight adds the following mercies to the list of those that can be learned. These mercies cost 1 FP to apply.</p>\n<ul>\n<li>Blinded: The target is no longer blinded.</li>\n<li>Deafened: The target is no longer deafened.</li>\n<li>Paralyzed: The target is no longer paralyzed.</li>\n<li>Stunned: The target is no longer stunned.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/etherknight#toc16\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/etherknight#toc16"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

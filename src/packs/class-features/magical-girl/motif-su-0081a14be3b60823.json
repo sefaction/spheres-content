@@ -1,0 +1,121 @@
+{
+  "_id": "0081a14be3b60823",
+  "_key": "!items!0081a14be3b60823",
+  "name": "Magical Girl: Motif (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:magical-girl:current:class-feature:motif-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/magical-girl#toc7",
+      "sourceSha256": "defa1ff8bdc6c50e395280fd7296a6ebfd4e52ee759eb32b3b3fb918862d15b0",
+      "descriptionSha256": "b4232b724bb211ab32e2efdd8e9ee4a522b719a9144db3b124485bea6cc0a1f1",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:magical-girl:current:class-feature:motif-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A magical girl gains a henshin hero motif. The motif is selected at 1st level, and this choice cannot be changed. A magical girl’s effective henshin hero level for her motif abilities is equal to her magical girl level. In addition at 1st level, and every three levels thereafter, a magical girl gains an additional spell, derived from her motif. These spells are in addition to the number of spells given on Table: Magical Girl Spells Known. These spells cannot be exchanged for different spells at higher levels. If a spell requires a focus or divine focus she may use her transformation trinket in place of that focus.</p>\n<ul>\n<li><strong>Chaos:</strong> 1st — detect law, 2nd — shard of chaos, 3rd — magic circle against law, 4th — chaos hammer, 5th — dispel law, 6th — word of chaos</li>\n<li><strong>Dragon:</strong> 1st — shield , 2nd — resist energy, 3rd — fly, 4th — fear, 5th — spell resistance, 6th — form of the dragon I</li>\n<li><strong>Earth:</strong> 1st — stone fist, 2nd — stone call, 3rd — soften earth and stone, 4th — calcific touch<sup>APG</sup>, 5th — spike stones, 6th — reverse gravity</li>\n<li><strong>Endurance:</strong> 1st — endure elements, 2nd — bear’s endurance, 3rd — protection from energy, 4th — spell immunity, 5th — spell resistance, 6th — bear’s endurance, mass</li>\n<li><strong>Fiend:</strong> 1st — detect good, 2nd — dread bolt, 3rd — magic circle against good, 4th — unholy blight, 5th — dispel good, 6th — blasphemy</li>\n<li><strong>Fire:</strong> 1st — burning hands, 2nd — scorching ray, 3rd — fireball, 4th — wall of fire, 5th — fire snake<sup>APG</sup>, 6th — contagious flame<sup>APG</sup></li>\n<li><strong>Ice:</strong> 1st — frostbite<sup>UM</sup>, 2nd — frigid touch<sup>UM</sup>, 3rd — sleet storm, 4th — ice storm, 5th — cone of cold, 6th — cold ice strike<sup>UM</sup></li>\n<li><strong>Lightning:</strong> 1st — shocking grasp, 2nd — elemental touch<sup>APG</sup> (electricity only), 3rd — lightning bolt, 4th — ball lightning APG, 5th — lightning arc<sup>UM</sup>, 6th — chain lightning</li>\n<li><strong>Luck:</strong> 1st — true strike, 2nd — aid, 3rd — borrow fortune<sup>APG</sup>, 4th — freedom of movement, 5th — break enchantment, 6th — spell turning</li>\n<li><strong>Music:</strong> 1st — moment of greatness<sup>UC</sup>, 2nd — shatter, 3rd — thundering drums<sup>APG</sup>, 4th — dance of a hundred cuts<sup>UM</sup>, 5th — resonating word<sup>UM</sup>, 6th — dance of a thousand cuts<sup>UM</sup></li>\n<li><strong>Order:</strong> 1st — detect chaos, 2nd — arrow of law, 3rd — magic circle against chaos, 4th — order’s wrath, 5th — dispel chaos, 6th — dictum</li>\n<li><strong>Power:</strong> 1st — thunderstomp<sup>ACG</sup>, 2nd — bull’s strength, 3rd — thunderstomp, greater<sup>ACG</sup>, 4th — interposing hand, 5th — forceful hand, 6th — bull’s strength, mass</li>\n<li><strong>Radiance:</strong> 1st — color spray, 2nd — hypnotic pattern, 3rd — wrathful mantle, 4th — rainbow pattern, 5th — prismatic beam <sup>AP:M</sup>, 6th — prismatic spray</li>\n<li><strong>Saint:</strong> 1st — detect evil, 2nd — spear of purity, 3rd — magic circle against evil, 4th — holy smite, 5th — dispel evil, 6th — holy word</li>\n<li><strong>Shadow:</strong> 1st — ray of enfeeblement, 2nd — shadow anchor<sup>ARG</sup>, 3rd — deeper darkness, 4th — shadow conjuration, 5th — shadow evocation, 6th — shadow conjuration, greater</li>\n<li><strong>Space:</strong> 1st — mirror strike<sup>UC</sup>, 2nd — twisted space<sup>UC</sup>, 3rd — jester’s jaunt<sup>APG</sup>, 4th — dimension door, 5th — plane shift, 6th — greater teleport</li>\n<li><strong>Speed:</strong> 1st — expeditious retreat, 2nd — cat’s grace, 3rd — burst of speed<sup>UC</sup>, 4th — freedom of movement, 5th — wind walk, 6th — cat’s grace, mass</li>\n<li><strong>Wind:</strong> 1st — feather fall, 2nd — gust of wind, 3rd — cloak of winds<sup>APG</sup>, 4th — air walk, 5th — control winds, 6th — wind walk</li>\n<li><strong>Wood:</strong> 1st — entangle, 2nd — barkskin, 3rd — neutralize poison, 4th — arboreal hammer<sup>UM</sup>, 5th — commune with nature, 6th — animate plants</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/magical-girl#toc7\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/magical-girl#toc7"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

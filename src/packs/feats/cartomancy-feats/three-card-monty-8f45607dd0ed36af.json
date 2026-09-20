@@ -1,0 +1,121 @@
+{
+  "_id": "8f45607dd0ed36af",
+  "_key": "!items!8f45607dd0ed36af",
+  "name": "Three Card Monty",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:cartomancy-feats:current:feat:three-card-monty",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/cartomancy-feats#toc40",
+      "sourceSha256": "0a11655e807b17e80f9876731d623ce85e5cb749cfae786ffc9c83e1d696974e",
+      "descriptionSha256": "ed9bce280b5292c6ed3075f17262e694fe273e36f9cc3ff7b595ea382a90b0ce",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "cartomancy-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:cartomancy-feats:current:feat:three-card-monty",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>\"Heads, I win. Tails, you lose.\"</p>\n<p><strong>Prerequisite:</strong> Cartomancy class feature, ability to place a greater portent into your active deck</p>\n<p><strong>Benefit:</strong> You gain a Monty deck. A Monty deck is built from cards in your collection, much like your active deck, and can be altered whenever you alter your active deck. A Monty deck must contain two least portents and a lesser portent. All of these portents must be able to target individuals other than just you. Once per day as a standard action that provokes attacks of opportunity, spread the Monty deck face-down in front of the person who is playing a target creature within 30 feet. That person picks a card. If he picks the lesser portent, you cast it on the target as a free action. If he picks one of the least portents, reveal the rest of the cards and cast both of the least portents on the target as a free action. Once used, set the Monty set aside. It's its own separate thing. Do not put it in the discard pile.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/cartomancy-feats#toc40\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/cartomancy-feats#toc40"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

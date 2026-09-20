@@ -1,0 +1,124 @@
+{
+  "_id": "a6d4e93e9250ee19",
+  "_key": "!items!a6d4e93e9250ee19",
+  "name": "Determine Defenses (analyze)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:investigation:spheres-of-guile:guile-talent:determine-defenses-analyze",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/investigation#toc24",
+      "sourceSha256": "812d14024b95c9efb75b3f1dd2dddad532833a150eb7f2d9da1a70b809836e0e",
+      "descriptionSha256": "d8895088205c888bd7ee3106e739671a358aac6a0b7945f8f2c9f635c40101f1",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Analyze Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:investigation:spheres-of-guile:guile-talent:determine-defenses-analyze",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "investigation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Analyze Skills:</strong> Perception or Sense Motive;<br>\n<strong>Analyze DC:</strong> 10 + the target’s Bluff, Will save bonus, or base attack bonus, whichever is higher.</p>\n<p>You analyze the target’s movements, observing their armor, stance, and other weaknesses in their fighting style. You may analyze a target more than once with this talent, as long as you choose a different piece of information each time.</p>\n<p><strong>Simple:</strong> You may learn two of the following pieces of information:</p>\n<ul>\n<li>The target’s current AC and CMD, rounded to the nearest interval of 5.</li>\n<li>The existence of any energy resistances, vulnerabilities, energy immunities, spell resistance or damage reduction (but not the value).</li>\n<li>Whether or not the target’s Fortitude, Reflex, or Will save bonus (your choice) is higher, lower, or the same as yours.</li>\n<li>The existence of condition immunities or similar miscellaneous defenses, but not the value (such as possessing bonuses against certain conditions or effects).</li>\n</ul>\n<p><strong>Detailed (+5 DC):</strong> As a simple analysis, but you learn two of the following improved pieces of information:</p>\n<ul>\n<li>The target’s AC, flat-footed AC, touch AC, and CMD (and any temporary bonuses or penalties affecting them).</li>\n<li>The values of all energy resistances, spell resistance, and damage reduction (and what bypasses it) the target possesses.</li>\n<li>The target’s Fortitude, Reflex, and Will saving throw bonus.</li>\n<li>Any condition immunities or the value of similar miscellaneous effects.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/investigation#toc24\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/investigation#toc24"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

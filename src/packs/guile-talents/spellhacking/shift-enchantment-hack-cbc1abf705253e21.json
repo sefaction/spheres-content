@@ -1,0 +1,124 @@
+{
+  "_id": "cbc1abf705253e21",
+  "_key": "!items!cbc1abf705253e21",
+  "name": "Shift Enchantment (hack)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spellhacking:spheres-of-guile:guile-talent:shift-enchantment-hack",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spellhacking#toc46",
+      "sourceSha256": "ff5395bb19ac2b67c42bb66b158929891d1c2ab9f8401273b50df23faa41f51b",
+      "descriptionSha256": "0a0c29acb302fd5e7d787122c449e5412eab8d62d2dc18c7ef6e1b6c115cb648",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Hack Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spellhacking:spheres-of-guile:guile-talent:shift-enchantment-hack",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "spellhacking"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/480696/Diamond-Spheres-Thaumic-Potential?affiliate_id=3028400\">Diamond Spheres: Thaumic Potential</a></sup></p>\n<p><strong>Target:</strong> A magic set of armor, implement, shield, or weapon.</p>\n<p>You alter the way that the item’s enhancement bonuses are invested, choosing one of the following benefits to grant to the object.</p>\n<p><strong>Reconstitute Enchantment:</strong> You change a +1 enhancement bonus (or a +1 special quality) to a special quality from the following list:</p>\n<ul>\n<li><em>Armor:</em> balanced, light fortification, stanching, shadow.</li>\n<li><em>Weapon:</em> corrosive, distance, flaming, frost, ghost touch, keen, merciful, shock</li>\n<li><em>Shield:</em> bashing, blinding, clangorous, intercepting, mirrored, ramming.</li>\n<li><em>Implement:</em> aiming, aggressive, equitable.</li>\n</ul>\n<p>The target must still retain a +1 enhancement bonus for special qualities to be applied or altered this way.</p>\n<p>At 5 ranks in the associated skill, you can change an additional +1 enhancement bonus (or +1 special quality) this way, either to another special quality above, or you can change a +2 enhancement bonus (or +2 special quality) to a special quality from the following list:</p>\n<ul>\n<li><em>Armor or shield:</em> arrow deflection, spell dodging, spell resistance (13).</li>\n<li><em>Weapon:</em> corrosive burst, defiant, flaming burst, icy burst, shocking burst, negating.</li>\n<li><em>Implement:</em> capacitance, girding</li>\n</ul>\n<p><strong>Breakdown Enchantment:</strong> You choose a special quality that the item possesses, replacing it with an enhancement bonus equal to the cost of the special quality, as long as the item’s enhancement bonus does not exceed +5 (for example, with a +2 flaming keen longsword, you could remove flaming to instead make it a +3 keen longsword). Any unspent enhancement bonuses are wasted.</p>\n<p>At 5 ranks in the associated skill, you can replace a second special quality this way.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/spellhacking#toc46\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spellhacking#toc46"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "0d1057016a5c1232",
+  "_key": "!items!0d1057016a5c1232",
+  "name": "Ascertain Equipment (analyze)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:investigation:spheres-of-guile:guile-talent:ascertain-equipment-analyze",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/investigation#toc45",
+      "sourceSha256": "812d14024b95c9efb75b3f1dd2dddad532833a150eb7f2d9da1a70b809836e0e",
+      "descriptionSha256": "ab0907bf0822c473fcc645d2ae25bb736f77da32fbfc7d254be48bf39c995dba",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:investigation:spheres-of-guile:guile-talent:ascertain-equipment-analyze",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "investigation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Sense Motive 5 ranks, Investigation sphere.</p>\n<p><strong>Analyze Skills:</strong> Appraise, Perception, or Sense Motive;<br>\n<strong>Analyze DC:</strong> 10 + the target’s Bluff, Stealth, or Reflex save modifier (whichever is higher)</p>\n<p>You analyze a storage vessel, a 10-foot cube area, or a creature’s placement of various equipment and storage vessels they possess, such as bandoliers and bags, to learn what they may possess within them.</p>\n<p><strong>Simple:</strong> You learn what the target has visibly equipped themselves with, in addition to gaining a sensory clue for any items that the target has stored on themselves but that are not necessarily visible. This could include hearing the ‘clink’ of glass against glass (for potions or vials), a slosh of liquid within their ring, the crinkle of many sheets of parchment, etc.</p>\n<p><strong>Detailed (+5 DC):</strong> As a simple analysis, but you manage to extrapolate enough to successfully guess what items the target may possess, learning the exact items that the target has equipped and/or stored on themselves, including one of each of their functions, as long as the item has a caster level equal to or lower than your ranks in the associated skill. This could include hearing a batch of four healing potions, a single dose of poison within a ring, the crinkle of maps and important documents, or a +3 flaming longsword. This does not grant you insight into items contained within extradimensional storage.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/investigation#toc45\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/investigation#toc45"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "4ef74e77fb8a1d6d",
+  "_key": "!items!4ef74e77fb8a1d6d",
+  "name": "Triggerman: Focused Firearms (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:triggerman:current:class-feature:focused-firearms-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/triggerman#toc2",
+      "sourceSha256": "21b0defd8a1fe6757c9e2fe726e951c413bdbac0b77f25372a622b99ea54bdd0",
+      "descriptionSha256": "1b6500dedf111829ede78bcafa99a2dedc3dbe0a8852f5164cd171e2f3dbca44",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:triggerman:current:class-feature:focused-firearms-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Any firearm a triggerman wields spontaneously gains a focus pool, which represents the increasing familiarity that sense of being one with a gun that a triggerman gains with the weapon in the heat of combat. Upon creation, a focus pool contains 0 focus points, but has a maximum size of 4. A triggerman's techniques (see triggerman techniques, below) interact with this pool. Some techniques add focus points to a firearm's focus pool, while others draw from it. A triggerman may only interact with focus pools that he created himself, and not those of other triggermen.</p>\n<p>If a firearm has 0 focus points in its focus pool, then that firearm ceases to have a focus pool when it is no longer wielded; otherwise, a firearm retains its focus pool, and the points in its focus pool, when not wielded. If the number of focus points in a firearm's focus pool remains unaltered for 1 minute, then the number of focus points in its focus pool is set to 0.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/triggerman#toc2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/triggerman#toc2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

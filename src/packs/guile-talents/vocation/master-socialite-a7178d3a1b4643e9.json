@@ -1,0 +1,124 @@
+{
+  "_id": "a7178d3a1b4643e9",
+  "_key": "!items!a7178d3a1b4643e9",
+  "name": "Master Socialite",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:vocation:spheres-of-guile:guile-talent:master-socialite",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/vocation#toc139",
+      "sourceSha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "descriptionSha256": "a5ddb1e595b97e6833fe0ccb54a0d93d3b16a809ded6311bf42e0f4edb309f50",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:vocation:spheres-of-guile:guile-talent:master-socialite",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "vocation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400\">Diamond Spheres: Hustle &amp; Bustle</a></sup></p>\n<p><strong>Prerequisites:</strong> Vocation sphere (Adept Socialite (specialty), Expert Socialite), Profession (courtesan, innkeeper, or gambler) 10 ranks.</p>\n<p>You gain an ability depending on the specialty skill(s) chosen with the Adept Socialite talent:</p>\n<p><strong>Compelling Attraction (Su)—Profession (courtesan):</strong> Your compelling attraction ability becomes a gaze attack, subjecting all relevant creatures that can see you within close range to its effects. You can spend a free action to deactivate or activate this ability. Additionally, your compelling attraction ability works against creatures regardless of their attraction to you, although such creatures that fail their saving throw are only friendly towards you, not helpful.</p>\n<p><strong>Luck of the Dice (Su)—Profession (gambler):</strong> The first time you use this ability in a game of chance, it does not require spending a use of skill leverage. Additionally, subsequent uses of this ability used within the same game of chance does not increase its skill leverage cost.</p>\n<p><strong>Luxury Treatment—Profession (innkeeper):</strong> When you ingratiate yourself with a business, you are ingratiated with the business permanently. You can spend 10 minutes with a business you have ingratiated to gossip, yielding information on 1d3+1 topics of your choice as though your chest result was 20 + your associated skill modifier.</p>\n<p>Additionally, an ingratiated business will ignore and/or pardon majorly-impactful activity that you or your allies perform, such as gravely injuring a patron or destroying property less than 1,000 gp. An event that causes fatal injury or impacts the businesses public opinion greatly is out of the realm of possibility.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/vocation#toc139\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/vocation#toc139"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

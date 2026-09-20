@@ -1,0 +1,121 @@
+{
+  "_id": "0b15daaf4b3b6388",
+  "_key": "!items!0b15daaf4b3b6388",
+  "name": "Lifebound Auspician",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:death:ultimate:feat:lifebound-auspician",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/death#toc96",
+      "sourceSha256": "d09bba312380117c6b4fbdeba031d71e8ce26d0ec8570d3020f098b428d924dd",
+      "descriptionSha256": "fb1aa9fb8c4c88f6ea2b98f0a579a67ce0d2ebd86c325edb07b0795b06e7619f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Death Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:death:ultimate:feat:lifebound-auspician",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You bend the forces of the cosmos to the heartbeat of mortality.<br>\n<strong>Prerequisites:</strong> Fate sphere; Death sphere or Life sphere; caster level 3rd.</p>\n<p><strong>Benefits:</strong> Whenever a Fate sphere effect you create would use an alignment, you may instead choose living or undead. Living and undead are considered opposite alignments that are 3 steps away from each other and do not have an alignment aura (such as determining additional penalties to the saving throw associated with the Enmity (word) talent or the Reveal Alignment (consecration) revealing whether the creatures inside are living or dead).</p>\n<p>You must possess the Death sphere to choose living or the Life sphere to choose undead. You may treat yourself as either living or undead when creating a consecration to exclude yourself from its effects (as you would normally be your own alignment and unaffected).</p>\n<p>In addition, whenever you use the Serendipity consecration, you may modify it with one of the following:</p>\n<ul>\n<li><strong>Living Bastion (requires Life sphere):</strong> Instead of its regular effects, your Serendipity consecration bonus changes to sacred and only grants bonuses to living creatures (or penalizes undead creatures if you possess the Greater Serendipity talent), increasing by +1 for every 10 caster levels you possess. Any living creature healed by a magical effect inside this consecration heals up to an additional +1 hit point per Hit Dice they possess (to a maximum of the original amount healed).</li>\n<li><strong>Unliving Bastion (requires Death sphere):</strong> Instead of its regular effects, your Serendipity consecration bonus changes to profane and only grants bonuses to undead (or penalizes living creatures if you possess the Greater Serendipity talent), increasing by +1 for every 10 caster levels you possess. Any undead created inside this consecration gains an additional +1 hit points per Hit Dice they possess.</li>\n</ul>\n<p>Sphere effects modified with this feat are still treated as the original talent for all purposes, and as such, do not stack with those same talents unmodified by this feat. This prevents a character from benefiting from both the Hallow (word) against evil and the Hallow (word) against undead, as modified by this feat, against the same target or effect. Likewise, a regular Serendipity consecration and the Living Bastion-modified Serendipity consecration’s effects would not stack, despite granting different bonus types.</p>\n<p><strong>Note:</strong> For the purposes of this feat, a living creature is any creature with a Constitution score.</p>\n<p><strong>Example:</strong> A Fate sphere caster uses the Divine Force (consecration) talent. Instead of using the Fate sphere caster’s alignment, the caster chooses living and affects any undead, regardless of their alignment, and does not affect living creatures. That same caster uses the Enmity (word) talent, choosing undead and targeting a living creature. The living creature must succeed at a Will saving throw or be blinded as though their alignment were 3 steps away from the caster’s.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/death#toc96\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/death#toc96"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

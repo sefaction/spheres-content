@@ -1,0 +1,124 @@
+{
+  "_id": "a39177211b59701e",
+  "_key": "!items!a39177211b59701e",
+  "name": "Inkeye Elixir (tonic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:inkeye-elixir-tonic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc27",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "c9aae8172886eb62a9bbd314a7df110943e3bdcf29bd05a39e7c91b46faa4253",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Concoction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:inkeye-elixir-tonic",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Cost:</strong> 1 herb</p>\n<p>This tonic grants the imbiber low-light vision and darkvision 20 feet. Additionally, if the imbiber has light sensitivity or light blindness, they may ignore any penalties associated with harsh light that they would suffer.</p>\n<p><strong>Twists</strong></p>\n<ul>\n<li><strong>1 bland herb:</strong> The imbiber’s darkvision increases by 20 feet, plus 5 feet per 2 ranks you possess in the associated skill. Additionally, if the imbiber is within dim light, the miss chance associated with being in dim light increases by 10%.</li>\n<li><strong>1 cool herb:</strong> The imbiber may roll twice and take the highest result when attempting Perception checks made to notice a creature within an area of dim light or darkness. They also gain a +2 circumstance bonus to attack rolls made to confirm critical hits against creatures they have concealment against.</li>\n<li><strong>1 dry herb:</strong> The imbiber gains a +3 alchemical bonus to saving throws against the dazzled and blinded conditions, in addition to gaze attacks, patterns, and other vision-based effects. The bonus increases by 1 per 4 ranks you possess in the associated skill.</li>\n<li><strong>1 esoteric herb:</strong> The imbiber gains the see in darkness ability, allowing them to see perfectly in darkness of any kind, including that created by deeper darkness.</li>\n<li><strong>1 spicy herb:</strong> The imbiber’s coloration changes to match their environment. The imbiber gains a +2 circumstance bonus to Stealth checks, increasing by 1 per 4 ranks in the associated skill you possess.</li>\n<li><strong>1 tainted herb:</strong> The imbiber loses any darkvision or low-light vision they possess, and gains light sensitivity for 1 minute.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc27\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc27"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "61570316098ed556",
+  "_key": "!items!61570316098ed556",
+  "name": "Mastermind: Informed Prediction (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mastermind:spheres-of-guile:class-feature:informed-prediction-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mastermind#toc18",
+      "sourceSha256": "f1d75219242ca0e4daa9d266cb1142020830136c555ebb336a3e2c1bfc3c9781",
+      "descriptionSha256": "c1dc939e5ed20f67ca96d09c6cd96ad23469672dd340a750c72891eb64f51444",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mastermind:spheres-of-guile:class-feature:informed-prediction-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Starting at 12th level, the mastermind can more easily predict the tactics of opponents they know about. The more they know about the opponent’s motivations, the more advantages they gain.</p>\n<h4>Improved Uncanny Dodge (requires any motivation)</h4>\n<p>The opponent cannot flank the mastermind. This prevents sneak attack and similar forms of precision damage due to flanking except from an opponent with at least four more levels in classes that grant the damage than the mastermind’s level.</p>\n<h4>Gauge Focus (requires a major motivation)</h4>\n<p>The mastermind can predict the target’s roll for an upcoming attack of opportunity or opposed skill check as a free action once per turn. To do so, the mastermind must choose an action that would immediately provoke an attack of opportunity or opposed skill check from the opponent and spend 1 use of skill leverage. The opponent rolls the die in secret and the GM reveals only whether the d20 is low (1-7), medium (8-13), or high (14-20). The mastermind can then either take the chosen action, in which case the opponent uses that d20 roll, or take another action, in which case that d20 roll is discarded.</p>\n<h4>Utterly Predictable (requires three motivations)</h4>\n<p>The mastermind can spend 1 use of skill leverage to take 10 on any skill check that they have unlocked skill leverage for against the opponent.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mastermind#toc18\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mastermind#toc18"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

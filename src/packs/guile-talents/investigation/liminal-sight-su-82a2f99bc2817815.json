@@ -1,0 +1,124 @@
+{
+  "_id": "82a2f99bc2817815",
+  "_key": "!items!82a2f99bc2817815",
+  "name": "Liminal Sight (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:investigation:spheres-of-guile:guile-talent:liminal-sight-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/investigation#toc50",
+      "sourceSha256": "812d14024b95c9efb75b3f1dd2dddad532833a150eb7f2d9da1a70b809836e0e",
+      "descriptionSha256": "e5547189e8290547c9ce71da60db4d5ab7a31f3fe2404f656e36d77e494fd013",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:investigation:spheres-of-guile:guile-talent:liminal-sight-su",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "investigation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica\">Diamond Spheres: Erudition &amp; Esoterica</a></sup></p>\n<p><strong>Prerequisites</strong>: Sense Motive 5 ranks, Investigation sphere.</p>\n<p>Whenever you scrutinize, you gain incredible insight into even the smallest flux in the planes around the target, allowing you to see within and beyond the planes—to an extent—depending on the target of scrutinize:</p>\n<ul>\n<li><strong>Area:</strong> If the area contains a portal or extradimensional space (such as <em>rope trick</em> or the entrance to a <em>mage’s magnificent mansion</em>), you can visualize the space in its entirety.</li>\n<li><strong>Creature</strong>: You can visualize any extradimensional spaces that the creature has intrinsic, constant access to (like the space created by the Extradimensional Storage Warp sphere talent), and can perceive what is stored within as normal.</li>\n<li><strong>Object</strong>: As long as the object contains an extradimensional space (like a <em>bag of holding</em> or the entrance to a <em>mage’s magnificent mansion</em>), you can see what it contains.</li>\n</ul>\n<p>This is a divination effect. Generally, how this effect is visualized varies depending on the user, although it tends to be an ‘overlay’ or translucent, shifting image that you have a degree of control over. For example, you may be able to mentally ‘sort’ through the contents of a <em>bag of holding</em>, or control how clear (or otherwise) the visualization of the inside of a <em>mage’s magnificent mansion</em> is.</p>\n<p><strong>Special</strong>: If you gain a detailed analysis using the Ascertain Equipment talent—and the target is scrutinized—this talent allows you to gain insight into the items contained within any extradimensional storage that the creature possesses, such as a <em>bag of holding</em>.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/investigation#toc50\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/investigation#toc50"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

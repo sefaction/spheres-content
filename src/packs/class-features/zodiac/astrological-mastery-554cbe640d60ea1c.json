@@ -1,0 +1,121 @@
+{
+  "_id": "554cbe640d60ea1c",
+  "_key": "!items!554cbe640d60ea1c",
+  "name": "Zodiac: Astrological Mastery",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:zodiac:current:class-feature:astrological-mastery",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/zodiac#toc11",
+      "sourceSha256": "84f409a3235d5b8272780ec789e572b15e00bede48dcee7ca5801a1ec4bf2f15",
+      "descriptionSha256": "2780da109fcc567175d87018c7eef185806010c1226122f1552663565047a547",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:zodiac:current:class-feature:astrological-mastery",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 20th level, the zodiac’s mastery of the astrological powers unlocks a new ability, determined by his orbit.</p>\n<ul>\n<li><strong>Lunar:</strong> Upon reaching 20th level, the lunar zodiac gains the ability to bind veils to his Body slot. In addition, the zodiac’s mastery of both his own essence and the astrological energies of his constellations allows him to instantly mitigate wounds dealt to him or his constellations by sharing the damage. Whenever the zodiac takes hit point damage, he may choose to have half the damage dealt (rounded down) apply to any champion constellation he has manifested instead of himself (so a zodiac who took 47 points of damage could instead to choose to have 23 points of the damage apply to one of his champions and only take 24 points of damage himself). Whenever one of the zodiac’s champion constellations takes hit point damage, he may choose to have half the damage dealt (rounded down) apply to either himself or another of his currently manifested champions.</li>\n<li><strong>Solar:</strong> Solar zodiacs who reach 20th level are nearly unstoppable on the battlefield, overflowing with life energy and power. The zodiac becomes immune to death effects and ability drain, and recovers ability damage twice as fast. In addition, any weapon, armor, or equipment constellations the zodiac has manifested cannot be disarmed or sundered.</li>\n</ul>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/zodiac#toc11\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/zodiac#toc11"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

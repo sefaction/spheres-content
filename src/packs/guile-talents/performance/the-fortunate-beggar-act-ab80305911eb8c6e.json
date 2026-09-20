@@ -1,0 +1,124 @@
+{
+  "_id": "ab80305911eb8c6e",
+  "_key": "!items!ab80305911eb8c6e",
+  "name": "The Fortunate Beggar (act)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:performance:spheres-of-guile:guile-talent:the-fortunate-beggar-act",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/performance#toc26",
+      "sourceSha256": "e87c472686da47048b3d9fcee074982f8ef19002718047ad36360dcfbd01dd3b",
+      "descriptionSha256": "d6e452be3907ed33967d9670cd33e4debd434a37fd713ed2e04c0645b61771a3",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Act Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:performance:spheres-of-guile:guile-talent:the-fortunate-beggar-act",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "performance"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You depict a performance of a beggar that, despite their terrible standard of living, is able to turn their situation around with their incredible luck.</p>\n<p><strong>Humbling Charity (approach):</strong> All allies in the area may provide first aid as a move action or administer a potion to an ally as a standard action. Whenever an ally in the area successfully uses the aid another action, the ally gains a +2 morale bonus to saving throws until the end of their next turn; this bonus increases by 1 per 6 ranks in this package’s associated Perform skill you possess.</p>\n<p><strong>Optimistic View (scene, move action):</strong> The character takes the aid another action as part of performing this scene. Attack rolls by allies in the area do not automatically miss on a natural 1. This scene can be performed repeatedly.</p>\n<p><strong>A Second Chance (scene, standard action):</strong> The next skill check by the one who performed this scene is rolled twice and uses the higher result. Whenever an ally in the area rerolls a die and rolls lower than their original result, they can reroll the die again. This roll must be taken, even if it is lower than the previous roll.</p>\n<p><strong>Great Fortune (finale, standard action):</strong> The final act shows the rewarding nature of sharing what you have. Whenever an ally in the area would roll a natural 3 or below on a d20, the ally may choose to immediately reroll the attempt, taking the new result, even if it is worse. The benefits of this act may only be used once per round per ally, and lasts for 1 minute.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/performance#toc26\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/performance#toc26"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

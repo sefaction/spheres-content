@@ -1,0 +1,145 @@
+{
+  "_id": "bb9f44e864f70f10",
+  "_key": "!items!bb9f44e864f70f10",
+  "name": "The Assassin",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:the-assassin:current:class:the-assassin",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/the-assassin",
+      "sourceSha256": "a4689e93a90faf70896f1a34b95f4cbf283865377aca2022492d04137e61f6f7",
+      "descriptionSha256": "a920de6c4700f0129178d68f7d1ae01d888e55092b39863b2262eefc9696dfee",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:the-assassin:current:class:the-assassin",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Class Stats:</strong><br>\n<strong>Difficulty to Play (1-5):</strong> 3.5<br>\n<strong>Difficulty to Build (1-5):</strong> 3</p>\n<p><strong>Role:</strong> Versatile \"striker\" martial</p>\n<p><strong>Playstyle:</strong> Playstyle is very fluid given the class' design, but, generally, the sneaky sort that punishes being ignored in a fight</p>\n<p><strong>The Assassin</strong><br>\nThe common perception of the assassin is that of a coldblooded killer, one who commits murder on contract, or, worse, for whatever twisted pleasure the act gives him. While these individuals do exist, they are merely a minority whose actions and proclivities sullies the name of the profession as a whole. Hands-on detectives, bounty hunters, spies, and agents all fall under the umbrella of the assassin, and while being adept at planting a knife in the back is indeed a ubiquitous part of the profession, their differences are great enough that a table of assassins can all be special snowflakes.</p>\n<p><strong>Role:</strong> Thanks to their ability to sneak attack competently, assassins are typically found at or near the front lines of any combat, though their choice of techniques finetunes the exact positioning. Outside of combat, their ability to skulk about, brew poisons, and/or put two and two together still makes them a dangerous instrument.</p>\n<p><strong>Alignment:</strong> Any. Any moral code can cleave to killing, if done for the right reasons.</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp.) In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The assassin's class skills are Acrobatics (Dex), Bluff (Cha), Climb (Str), Craft (Int), Disguise (Cha), Escape Artist (Dex), Intimidate (Cha), Knowledge (local) (Int), Linguistics (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Sleight of Hand (Dex), Stealth (Dex), and Survival (Wis).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier</p>\n<h1>Class Features</h1>\n<strong>Table: The Assassin</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Ref Save</th>\n<th>Will Save</th>\n<th>Special</th>\n<th>Techniques Known</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+2</td>\n<td>+2</td>\n<td>+0</td>\n<td>Assassin techniques, presence, sneak attack 1d6, <em>study mark</em>, technique pool</td>\n<td>4</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+3</td>\n<td>+3</td>\n<td>+0</td>\n<td>Evasion</td>\n<td>5</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+2</td>\n<td>+3</td>\n<td>+3</td>\n<td>+1</td>\n<td>-</td>\n<td>6</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+3</td>\n<td>+4</td>\n<td>+4</td>\n<td>+1</td>\n<td>sneak attack 2d6</td>\n<td>7</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+3</td>\n<td>+4</td>\n<td>+4</td>\n<td>+1</td>\n<td>-</td>\n<td>8</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+4</td>\n<td>+5</td>\n<td>+5</td>\n<td>+2</td>\n<td><em>hot to cold</em></td>\n<td>9</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+5</td>\n<td>+5</td>\n<td>+5</td>\n<td>+2</td>\n<td>sneak attack 3d6</td>\n<td>10</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+6/+1</td>\n<td>+6</td>\n<td>+6</td>\n<td>+2</td>\n<td><em>instinctive focus</em></td>\n<td>11</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+6/+1</td>\n<td>+6</td>\n<td>+6</td>\n<td>+3</td>\n<td>-</td>\n<td>12</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+7/+2</td>\n<td>+7</td>\n<td>+7</td>\n<td>+3</td>\n<td>sneak attack 4d6</td>\n<td>13</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+8/+3</td>\n<td>+7</td>\n<td>+7</td>\n<td>+3</td>\n<td>-</td>\n<td>14</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+9/+4</td>\n<td>+8</td>\n<td>+8</td>\n<td>+4</td>\n<td><em>switch focus</em></td>\n<td>15</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+9/+4</td>\n<td>+8</td>\n<td>+8</td>\n<td>+4</td>\n<td>sneak attack 5d6</td>\n<td>16</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+10/+5</td>\n<td>+9</td>\n<td>+9</td>\n<td>+4</td>\n<td><em>fruits of focus +1</em></td>\n<td>17</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+11/+6/+1</td>\n<td>+9</td>\n<td>+9</td>\n<td>+5</td>\n<td>-</td>\n<td>18</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+12/+7/+2</td>\n<td>+10</td>\n<td>+10</td>\n<td>+5</td>\n<td>sneak attack 6d6</td>\n<td>19</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+12/+7/+2</td>\n<td>+10</td>\n<td>+10</td>\n<td>+5</td>\n<td>-</td>\n<td>20</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+13/+8/+3</td>\n<td>+11</td>\n<td>+11</td>\n<td>+6</td>\n<td><em>fruits of focus +2</em></td>\n<td>21</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+14/+9/+4</td>\n<td>+11</td>\n<td>+11</td>\n<td>+6</td>\n<td>sneak attack 7d6</td>\n<td>22</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+15/+10/+5</td>\n<td>+12</td>\n<td>+12</td>\n<td>+6</td>\n<td><em>instinctive focus - area</em></td>\n<td>23</td>\n</tr>\n</tbody></table>\n<h2>Weapon Proficiency</h2>\n<p>Assassins are proficient with all simple weapons, plus the blade boot, hand crossbow, katana, kukri, rapier, sap, scimitar, short sword, shortbow (and composite), shuriken, and wakizashi.</p>\n<h2>Armor Proficiency</h2>\n<p>Assassins are proficient with light armor.</p>\n<h2>Assassin Techniques</h2>\n<p>An assassin is a finely-honed weapon, though the precise shape of the weapon is dependent upon his particular education. This is represented by an assassin's known techniques and chosen technique specializations.</p>\n<p>At 1st level, an assassin chooses two categories of hot techniques and two categories of cold techniques from the lists below. These are known as his specializations. He begins play with one technique drawn from each of the technique lists of his four specializations, for a total of four techniques. At each new assassin level, he gains an additional technique drawn from any of his specialization categories. An assassin must meet the prerequisites of a technique in order to learn it. At 5th level, 10th level, and 15th level, the technique the assassin gains may be from any category, and not just from his specializations.</p>\n<p>Techniques drawn from outside one of his chosen specializations are known as cross-specialization techniques. An assassin treats his assassin level as though it were half its actual value, rounded up, for the purpose of the magnitude of effect and duration of cross-specialization techniques. He still treats his assassin level as its full value for all other purposes of that technique, such as save DC and meeting the technique's prerequisite</p>\n<p>The Difficulty Class (DC) for a saving throw against an assassin's technique is 10 + 1/2 the assassin's class level + the assassin's Intelligence modifier. Unless stated otherwise in a technique's entry, an assassin can only execute a single technique per round.</p>\n<p>\"Hot\" techniques interact with the presence pools an assassin grants to those near him (see the presence class feature, below), and each technique has three quantities that describe their particular interaction with it: presence source, presence required, and presence change. A technique is considered to be \"hot\" if it has a defined Presence Source.</p>\n<p><strong>Presence Source</strong> - Since an assassin can maintain a presence pool for each foe in range, a technique must tell which presence pool is affected by it, and the source chosen restricts targeting. When executing single-target techniques, the source is almost always the intended target. When executing area techniques, the source gets a bit murkier; read each individual entry.</p>\n<p><strong>Presence Required</strong> - In order to execute a hot technique, the presence source(s) must have an amount of presence that matches one of the numbers listed on this line. If this does not match, the technique cannot be executed using the chosen source. Find another source or pick another technique.</p>\n<p><strong>Presence Change</strong> - When a hot technique is executed, the chosen source's presence increases or decreases by an amount equal to the number listed on this line.</p>\n<p>A \"cold\" technique does NOT interact with presence pools, and interacts with the assassin's technique pool instead (see the technique pool class feature, below). \"Cold\" techniques ignore presence required and presence source rules, and treat the following two quantities differently.</p>\n<p><strong>Pool Compatibility</strong> - If a technique's pool compatibility is set to yes, then its cost can be paid from the technique pool. It is considered a \"cold\" technique.</p>\n<p><strong>Presence Change</strong> - When a cold technique is executed, the assassin expends points from his technique pool equal to its presence change. For example, a presence change of -2 means the assassin must expend 2 technique points.</p>\n<p>Some techniques have both a presence source AND are pool compatible. Such \"lukewarm\" techniques may be executed as either \"hot\" or \"cold\", as the situation dictates. Finally, some techniques don't have an activation cost at all. These techniques may be passive, or they may modify other techniques that they have as prerequisites.</p>\n<h4>Hot Technique Categories</h4>\n<p><strong>Acupressure</strong> - A poke in the right spot can kill a man, stun a man, force a man to drop his weapon, or just make a man take a nap.<br>\n<strong>Execution</strong> - When tricks simply won't do, assassins specializing in execution get stuck in and defeat their opponent with brutal attacks that wear even the most resilient foe down.<br>\n<strong>Initiation</strong> - Prolonged fights are for suckers. Masters of initiation know how to get the first blow in, and to make it count. As a result, quite a few of them are snipers.<br>\n<strong>Magehunting</strong> - Vampires are to blood as magehunters are to magic. Adept at dismantling the gift of magic at its source, the magehunter specializes in stealing magic from his victims and maintaining the ability to use it for hours after the mark's death. Magehunting assassins are held in very high regard by the Order of the Nullblades, and the organization is known to employ a significant number of them.</p>\n<h4>Cold Technique Categories</h4>\n<p><strong>Infiltration</strong> - It's not all about getting into places unseen. Sometimes, being seen is an asset. An assassin who specializes in infiltration gets where he needs to go and out again with his hide intact.<br>\n<strong>Intuition</strong> - All assassins have a sixth sense, but those who are attuned to their own intuition have a seventh, and an eighth, and a ninth…<br>\n<strong>Poison</strong> - Those assassins who dabble in the lost techniques of poison manufacture know how to produce deadly compounds from just about anything. Masters of the art, however, find that simply killing a man is the easy way out, and their cocktails begin to do very exotic things indeed.</p>\n<h2>Presence (Su)</h2>\n<p>An assassin begins play with the ability to weaponize the emotions and instinctive reflexes of others. Each non-ally creature that approaches to within 60 feet of the assassin gains a presence pool, a measure of the assassin's influence upon that creature's physiological state; if a victim-to-be believes, consciously or subconsciously, that the assassin is capable of something, then the assassin is indeed capable of doing it, assuming he knows the correct motions to use. The maximum number of points in a presence pool is equal to 4. Unlike most pools, however, the presence pool begins play empty and does not replenish itself after a period of time. Instead, whenever the assassin wishes to execute a technique with a listed Presence Source, the number of points in the source's presence pool increases or decreases by the amount listed by that technique's Presence Change. Some techniques demand that the presence source and target be the same creature, while others do not. See individual technique entries for details.</p>\n<p>The presence pool requires a very real risk of death to function properly. As a result, creatures that flee from the assassin lose their presence pools once out of range for minutes equal to his Charisma modifier (minimum 1).</p>\n<h2>Sneak Attack</h2>\n<p>If an assassin can catch an opponent when he is unable to defend himself effectively from his attack, he can strike a vital spot for extra damage.</p>\n<p>The assassin's attack deals extra damage anytime his target would be denied a Dexterity bonus to AC (whether the target actually has a Dexterity bonus or not), or when the assassin flanks his target. Techniques that do not apply weapon damage do not apply sneak attack damage. This extra damage is 1d6 at 1st level, and increases by 1d6 every three assassin levels thereafter. Should the assassin score a critical hit with a sneak attack, this extra damage is not multiplied. Ranged attacks can count as sneak attacks only if the target is within 30 feet.</p>\n<p>With a weapon that deals nonlethal damage (like a sap, whip, or an unarmed strike), an assassin can make a sneak attack that deals nonlethal damage instead of lethal damage. He cannot use a weapon that deals lethal damage to deal nonlethal damage in a sneak attack, not even with the usual –4 penalty.</p>\n<p>The assassin must be able to see the target well enough to pick out a vital spot and must be able to reach such a spot. An assassin cannot sneak attack while striking a creature with concealment.</p>\n<h2>Technique Pool (Su)</h2>\n<p>At 1st level, an assassin gains a technique pool, representing his ability to execute \"cold\" techniques. The number of points in an assassin's technique pool is equal to his assassin level + his Intelligence modifier. Technique points are used to pay the costs of techniques that are Pool Compatible, as detailed in assassin techniques, above.</p>\n<p>The technique pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive.</p>\n<h2>Universal Techniques</h2>\n<p>At the indicated levels, an assassin gains the following techniques as bonus techniques. These represent ubiquitous tricks of the trade.</p>\n<h4>Study Mark (Ex)</h4>\n<p><strong>Category:</strong> Universal<br>\n<strong>Pool Compatible:</strong> no<br>\n<strong>Range:</strong> 60 feet + 5 feet/level<br>\n<strong>Target:</strong> creature in range<br>\n<strong>Presence Source:</strong> targeted creature<br>\n<strong>Presence Required:</strong> 0, 1, 2, or 3<br>\n<strong>Presence Change:</strong> +1<br>\n<strong>Execution Time:</strong> 1 standard action OR an attack in a full-attack action<br>\n<strong>Duration:</strong> instantaneous<br>\n<strong>Requires:</strong> Assassin 1</p>\n<p>You study a creature within range.</p>\n<p>You may execute an additional technique this round, but only if its presence source is the same as this technique's target and its presence change is -1, -2, -3, or -4.</p>\n<p><strong>Note:</strong> This technique literally does nothing beyond producing presence. At higher levels, its ability to guarantee chained techniques can be useful if you desperately need to get something big off; however, its primary reason for existing is to ensure that people who didn't pick a technique with a +1 presence change have a way to gain presence.</p>\n<h4>Hot to Cold (Ex)</h4>\n<p><strong>Category:</strong> Universal<br>\n<strong>Pool Compatible:</strong> no<br>\n<strong>Range:</strong> 60 feet<br>\n<strong>Target:</strong> creature in range with 2 or more presence<br>\n<strong>Presence Source:</strong> targeted creature<br>\n<strong>Presence Required:</strong> 2, 3, or 4<br>\n<strong>Presence Change:</strong> 0<br>\n<strong>Execution Time:</strong> 1 swift action<br>\n<strong>Duration:</strong> instantaneous<br>\n<strong>Requires:</strong> Assassin 6</p>\n<p>This technique may only be executed if the number of Hit Dice the target possesses is at least half your assassin level. The presence of your target is set to 0, and you gain a temporary technique point. This temporary technique point persists for 1 hour. Starting at 18th level, temporary technique points granted by this technique stack, to a maximum of 2. You may execute an additional technique this round.</p>\n<h4>Instinctive Focus (Ex)</h4>\n<p><strong>Category:</strong> Universal<br>\n<strong>Requires:</strong> Assassin 8</p>\n<p>At the end of your turn, choose a creature within 30 feet that has a presence pool. If that creature has 0 presence, it gains 1 presence. Starting at 20th level, this technique affects all creatures within 30 feet that have a presence pool.</p>\n<h4>Switch Focus (Ex)</h4>\n<p><strong>Category:</strong> Universal<br>\n<strong>Pool Compatible:</strong> no<br>\n<strong>Range:</strong> 60 feet<br>\n<strong>Target:</strong> creature in range with 2 or more presence<br>\n<strong>Presence Source:</strong> another creature in range<br>\n<strong>Presence Required:</strong> 0, 1, 2, or 3<br>\n<strong>Presence Change:</strong> +1<br>\n<strong>Execution Time:</strong> 1 free action<br>\n<strong>Duration:</strong> instantaneous<br>\n<strong>Requires:</strong> Assassin 12</p>\n<p>The presence of your target is set to 0.</p>\n<p>You may execute an additional technique this round.</p>\n<h4>Fruits of Focus (Ex)</h4>\n<p><strong>Category:</strong> Universal<br>\n<strong>Requires:</strong> Assassin 14</p>\n<p>You have a +1 luck bonus to AC and saving throws against creatures with a presence pool containing 1 or more presence. This increases to a +2 bonus at 18th level.</p>\n<h2>Evasion (Ex)</h2>\n<p>At 2nd level and higher, an assassin can avoid even magical and unusual attacks with great agility. If he makes a successful Reflex saving throw against an attack that normally deals half damage on a successful save, he instead takes no damage. Evasion can be used only if the assassin is wearing light armor or no armor. A helpless assassin does not gain the benefit of evasion.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/the-assassin\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "high"
+      },
+      "ref": {
+        "value": "high"
+      },
+      "will": {
+        "value": "low"
+      }
+    },
+    "alignment": "Any. Any moral code can cleave to killing, if done for the right reasons.",
+    "wealth": "3d6 * 10",
+    "classSkills": {
+      "acr": true,
+      "blf": true,
+      "clm": true,
+      "crf": true,
+      "dis": true,
+      "esc": true,
+      "int": true,
+      "klo": true,
+      "lin": true,
+      "per": true,
+      "prf": true,
+      "pro": true,
+      "sen": true,
+      "slt": true,
+      "ste": true,
+      "sur": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/the-assassin"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

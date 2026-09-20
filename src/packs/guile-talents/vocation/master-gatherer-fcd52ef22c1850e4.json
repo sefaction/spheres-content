@@ -1,0 +1,124 @@
+{
+  "_id": "fcd52ef22c1850e4",
+  "_key": "!items!fcd52ef22c1850e4",
+  "name": "Master Gatherer",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:vocation:spheres-of-guile:guile-talent:master-gatherer",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/vocation#toc136",
+      "sourceSha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "descriptionSha256": "7514056a9865f6ef798c8aa67c66811928ffbd56676b663c6ecbd1d87f56ce6a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:vocation:spheres-of-guile:guile-talent:master-gatherer",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "vocation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400\">Diamond Spheres: Hustle &amp; Bustle</a></sup></p>\n<p><strong>Prerequisites:</strong> Vocation sphere (Adept Gatherer (specialty), Expert Gatherer), Profession (farmer, gardener, miner, tanner, woodcutter) 10 ranks.</p>\n<p>You gain an ability depending on the specialty skill(s) chosen with the Adept Gatherer talent:</p>\n<p><strong>Excavator—Profession (miner):</strong> The granted burrow speed increases to equal your land speed, and is no longer halved when burrowing through stone. Additionally, you gain the scent ability for up to 120 feet, except that it can only detect precious metals (copper, silver, gold, adamantine, etc.) and gemstones—this includes creatures primarily made of such materials. This scent bypasses stone, sand, dirt, and similar materials.</p>\n<p><strong>Flay Hide—Profession (tanner):</strong> Whenever you successfully confirm a critical hit against a creature, they immediately suffer the effects of the flay hide specialty ability. Additionally, the penalties from flay hide are permanent, and are only halved after receiving healing or first aid, and requires a second, separate application of healing or first aid to fully remove its effects.</p>\n<p><strong>Greenslayer—Profession (farmer, gardener, woodcutter):</strong> You roll any saving throws associated with ‘plant’ effects twice, taking the highest result. If such an effect would not normally grant a saving throw, you gain a Will saving throw to negate the effect, using the sphere DC that the sphere ability originates from (or if not applicable, the GM determines the DC, usually 10 + 1/2 the source’s HD + a relevant ability score modifier).</p>\n<p>If you succeed such a saving throw, it fails to function entirely (including if it affected other creatures or an area) as though it were subject to an antimagic field. Generally this turns such effects to ash or soil, depending on your disposition.</p>\n<p>You are also immune to difficult terrain caused by plant-life, and can cause such squares of difficult terrain you enter or leave to turn to ash, removing the difficult terrain—if it is magical, you must succeed at a dispel check to successfully destroy such terrain (using your associated ranks as your effective caster level).</p>\n<p><strong>Note</strong>—A ‘plant’ effect is any effect that involves plant-life, such as most Nature sphere effects from the (plant) package, the verdant step fey-blessing from the Mantle of Spring talent, etc.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/vocation#toc136\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/vocation#toc136"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

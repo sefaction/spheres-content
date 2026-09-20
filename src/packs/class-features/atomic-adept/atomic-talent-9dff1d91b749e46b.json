@@ -1,0 +1,121 @@
+{
+  "_id": "9dff1d91b749e46b",
+  "_key": "!items!9dff1d91b749e46b",
+  "name": "Atomic Adept: Atomic Talent",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:atomic-adept:current:class-feature:atomic-talent",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/atomic-adept#toc7",
+      "sourceSha256": "dedc9778d96661d855da3a24c5a24bba371e77084f72e3c88eb7136597d6dfc3",
+      "descriptionSha256": "9c4a8c6b440ea8522a8742a9881d78586ee2fbef67d0314a934a930835fcbf90",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:atomic-adept:current:class-feature:atomic-talent",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Starting at 2nd level and every even level thereafter, the atomic adept gains an atomic talent from those listed below:</p>\n<h4>Atomic Raiment (Su)</h4>\n<p>The atomic adept may, as a standard action, choose to wreath himself in flames of atomic energy. These flames cause any creature striking him with a non-reach melee weapon to take 1d6 points of negative energy damage that does not heal undead + 1 point per atomic adept level. The atomic adept and all creatures adjacent to him suffer 1&nbsp;rad per atomic adept level he possesses so long as he is using this ability.</p>\n<h4>Atomic Tinkering (Su)</h4>\n<p>The atomic adept may, as a swift action, spend 1 use of his nuclear strike class feature (or suffer an amount of rads equal to his level if he has no uses of this class feature remaining) to add a magic weapon special ability to the blade conjured by his sword of the atom class feature for 1 round per atomic adept level. This special ability can have a base price modifier no greater than 1/4th his atomic adept level. The atomic adept must be at least 10th level and have the sword of the atom ability to select this talent.</p>\n<h4>Collective Dose (Su)</h4>\n<p>The atomic adept can, as a standard action, consume an irradiated zone and release the stored energy in a maelstrom of atomic fury. The next time he uses an ability that inflicts rads on a creature he may choose to have the amount of rads he inflicts on that creature improve by an amount equal to the rads dealt by the irradiated zone he absorbed. If the atomic adept does not use this ability by the end of his next turn he adds 1/10 of the amount of rads that would be dealt by the irradiated zone he absorbed to his meltdown modifier.</p>\n<h4>Critical Meltdown (Su)</h4>\n<p>Whenever the atomic adept enters a meltdown he deals damage equal to that of his nuclear strike class feature to everything in a 20 foot radius. A Reflex save (DC 10 + ½ atomic adept level + his Intelligence modifier) halves this damage. In addition the atomic adept may make a Fortitude save to halve the damage dealt to him by his meltdown class feature.</p>\n<h4>Dirty Bomb (Su)</h4>\n<p>An atomic adept can expend a use of his nuclear strike class feature to blight an area with radiation. To do so the atomic adept selects 1 creature within 30 feet of him and makes a ranged touch attack. If successful the creature takes 1d6 + the atomic adept’s Intelligence modifier in negative energy damage and the creature gains 20 x the atomic adept’s level in rads. Regardless of whether or not he hits or misses, he creates an irradiated zone with a radius of 20 feet around that creature. Creatures who enter the irradiated zone gain 20 rads per round at the start of their turn. A zone remains irradiated for 2 hours per atomic adept level. An atomic adept may use this ability without targeting a creature, simply creating an irradiated zone. Using this class feature imparts x2 his level in rads to the atomic adept or x4 if he is out of uses of nuclear strike.</p>\n<h4>Doomsday Clock (Su)</h4>\n<p>Whenever the atomic adept would gain rads he may instead choose to add ¼th the amount of rads he would take to his meltdown modifier (minimum 1). If this would cause him to gain a meltdown modifier of 100 or greater he immediately enters meltdown.</p>\n<h4>Enriched Spell (Su)</h4>\n<p>The atomic adept gains a metamagic feat that he meets the prerequisites for as a bonus feat. He may apply any one metamagic feat he knows to his nuclear strike class feature by expending one additional use of his nuclear strike class feature (or by suffering an amount of rads equal to 20 times the metamagic feats’ level adjustment.) A nuclear strike modified by a metamagic feat deals 10 times its level adjustment to the atomic adept and to the target of the atomic blast.</p>\n<h4>Enriched Sword of the Atom (Su)</h4>\n<p>The weapon conjured by the atomic adept’s sword of the atom class feature deals 2d6 points of damage, in place of 1d8. The atomic adept may spend a use of his nuclear strike class feature (or suffer an amount of rads equal to twice his level if he has no uses remaining) to add his atomic adept level to the damage dealt by his sword of the atom class feature for 1 round. The atomic adept must be at least 8th level and have the sword of the atom atomic talent to select this ability.</p>\n<h4>Enrichment (Sp)</h4>\n<p>The atomic adept’s nuclear strike deals 1d6 points of damage per level, instead of 1d6 per 2 levels. Any creature reduced to 0 or fewer hit points by this spell is entirely disintegrated, leaving behind only a trace of fine glowing dust that emits 10 rads per round for 1d6 hours. A disintegrated creature’s equipment is unaffected by this effect. An atomic adept must be at least 4th level to select this talent.</p>\n<h4>Hazmat Suit</h4>\n<p>The atomic adept does not suffer arcane spell failure chance with medium armor. The atomic adept must be at least 6th level to select this talent. If the atomic adept is at least 14th level he may select this talent a second time and this time it applies to heavy armor in addition to medium armor.</p>\n<h4>Plutonium Vent (Sp)</h4>\n<p>The atomic adept may spend an additional use of his nuclear strike class feature (or suffer an additional amount of rads equal to twice his level if he has no uses of this ability left) to fire his nuclear strike as a 30ft cone instead of a ray. This automatically creates an irradiated zone with the same area as the cone. Creatures struck by the blast may make a Reflex save (DC 10+ 1/2 atomic adepts level + his Intelligence modifier) to halve the number of rads received from this attack.</p>\n<h4>Radioactive Inversion (Su)</h4>\n<p>As an immediate action, an atomic adept can draw strength from radiation around him. Until the start of his next turn after activating this ability, any time he receives rads he is also healed for an amount equal to the number of rads he gained. An atomic adept cannot be healed for more than x2 his level per turn by this class feature.</p>\n<h4>Sword of the Atom (Sp)</h4>\n<p>The atomic adept can, as a move action conjure a beam of white-hot atomic energy, which lasts for 1 minute per atomic adept level. Attacks with the blade are melee touch attacks. The blade deals 1d8 points of negative energy damage that does not heal undead, has a critical range of 20 and a critical modifier of x2. For every 2 atomic adept levels he possesses this blade deals 1 additional point of damage. Since the blade is intangible, his Strength modifier does not apply to the damage rolls for this ability. All creatures adjacent to the atomic adept (including himself) take an amount of rads equal to the atomic adept’s level. Using this ability costs 1 use of his nuclear strike class feature if he has it, if he doesn’t then all creatures adjacent to him take twice his caster level in rads. The atomic adept may only have one sword of the atom in existence at any given time.</p>\n<h4>Tactical Nuclear Strike (Sp)</h4>\n<p>The range of the atomic adepts nuclear strike class feature doubles. In addition he may spend 1 additional use of his nuclear strike class feature to outline foes struck with his blast as if by a faerie fire spell, using his atomic adept level as his caster level. Creatures outlined in this manner, as well as creatures adjacent to that creature, take 1&nbsp;rad per 2 atomic adept levels he possesses each round until the effect ends.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/atomic-adept#toc7\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/atomic-adept#toc7"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

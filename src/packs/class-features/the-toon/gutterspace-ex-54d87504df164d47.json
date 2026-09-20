@@ -1,0 +1,121 @@
+{
+  "_id": "54d87504df164d47",
+  "_key": "!items!54d87504df164d47",
+  "name": "The Toon: Gutterspace (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:the-toon:current:class-feature:gutterspace-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/the-toon#toc21",
+      "sourceSha256": "9d9447a18e163eb0297ae56bda5e6761468438d072abd1cda0e0f0a7d76d2395",
+      "descriptionSha256": "6949526368b3a5c2145144fec1470b27317581a003b814f5ac85883cc4a23829",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:the-toon:current:class-feature:gutterspace-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>There exists a space between dimensions where the collective trash and scum gather. These tiny pocket dimensions are ripe for the looting and only the unglued persona of a toon can access their odd placement (as they exist outside normal space/ time). At 6th level, by reaching into one of these innumerable pocket dimensions, collectively called gutterspace, the toon can subconsciously produce objects. He may only do it in moments of duress (in combat, during a skill check with potentially life threatening results, etc.) and only once per day.</p>\n<p>Reaching into gutterspace is treated as if the toon is drawing a weapon (it can be done as part of a move action, is effected by feats like Quick Draw, etc.). The toon states what he wants to draw out of gutterspace in specific terms (“a masterwork warhammer”); then the GM rolls 1d20 and consults the accompanying table (Table: Gutterspace Result) to see what the result is. The item should have relevance to the stressful situation the toon is in, cannot cost more than 500 gp per toon level, may never be an object he has requested in the past with this class feature<sup>1</sup>, may never be more than one object (such as ammo), and is sucked back into gutterspace in 1d6 + the toon’s level rounds. If the object is a consumable, he does not lose the benefit after the period of time elapses but any ongoing effects end immediately.</p>\n<p><sup>1 This is defined by the base object. For example, a toon could request a masterwork warhammer followed by a masterwork longsword and be fine. He could not, however, request a masterwork warhammer followed by another warhammer. A toon could request a potion of cure light wounds followed by a potion of cure moderate wounds and be fine, but he could not draw another potion of cure light wounds ever again.</sup></p>\n<strong>Table: Gutterspace Result</strong>\n<table>\n<tbody><tr>\n<th>Roll</th>\n<th>Result</th>\n</tr>\n<tr>\n<td>1</td>\n<td>The toon gets a useless novelty item or piece of scrap instead of what he wants.</td>\n</tr>\n<tr>\n<td>2-3</td>\n<td>The toon gets a completely different item, randomly decided by the GM, of similar value. There is a 50% chance this item will simply be unstable due to interdimensional travel and spontaneous combust dealing 1d6 damage in a 20 foot radius after 1d4 rounds. A Reflex save (DC 15) reduces this damage by half.</td>\n</tr>\n<tr>\n<td>4-20</td>\n<td>The toon gets the item he was seeking.</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/the-toon#toc21\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/the-toon#toc21"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

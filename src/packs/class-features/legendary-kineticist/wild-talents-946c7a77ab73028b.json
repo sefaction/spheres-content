@@ -1,0 +1,121 @@
+{
+  "_id": "946c7a77ab73028b",
+  "_key": "!items!946c7a77ab73028b",
+  "name": "Legendary Kineticist: Wild Talents",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:legendary-kineticist:current:class-feature:wild-talents",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/legendary-kineticist#toc3",
+      "sourceSha256": "f03f52ecb7ee249cf961f1aaa0996d578eae0d256f6a5beb32aa644bb1b5af43",
+      "descriptionSha256": "cebe531bc5157d3e0b8c939af0c3a5e02a478661ab7f6f551e9b71c8898687eb",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:legendary-kineticist:current:class-feature:wild-talents",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A kineticist can use wild talents — magical abilities similar to spells but drawn from the kineticist’s innate psychic talent and usable at will. Wild talents are typically spell-like abilities (though some are supernatural abilities), and take a standard action to use unless otherwise noted. A wild talent always has the elemental descriptor or descriptors (aether, air, earth, fire, or water) matching its element entry. A wild talent that can be used with any of several elements gains the appropriate elemental descriptor when used with an element. For example, the wall wild talent gains the earth descriptor when used by a geokineticist.</p>\n<p>Every wild talent has an effective spell level. A kineticist can always select 1st-level wild talents, but they can select a wild talent of a higher level only if their kineticist level is at least double the wild talent’s effective spell level. Wild talents are always considered to have an effective spell level equal to ½ the kineticist’s class level (to a maximum effective spell level of 9th at kineticist level 18th). Unless otherwise noted, the DC for a saving throw against a wild talent is equal to 10 + 1/2 the kineticist’s class level + the kineticist’s Constitution modifier. The kineticist uses their Constitution modifier on all concentration checks for wild talents.</p>\n<p>In addition to the wild talents they gain from their other class features, at 2nd level and every 2 levels thereafter, a kineticist selects a new utility wild talent from the list of options available to them. A kineticist can select only universal wild talents or those that match their element (see Elemental Focus above). At 6th level and every 4 levels afterwards, a kineticist can replace one of their utility wild talents with another wild talent of the same level or lower.</p>\n<p>They can’t replace a wild talent that they used to qualify for another of their wild talents.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/legendary-kineticist#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/legendary-kineticist#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

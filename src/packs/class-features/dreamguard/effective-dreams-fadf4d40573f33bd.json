@@ -1,0 +1,121 @@
+{
+  "_id": "fadf4d40573f33bd",
+  "_key": "!items!fadf4d40573f33bd",
+  "name": "Dreamguard: Effective Dreams",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:dreamguard:current:class-feature:effective-dreams",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/dreamguard#toc9",
+      "sourceSha256": "b55c2fd8e8a8a280843a1372f289ca008a3f67a3592563a9197a408ff422b939",
+      "descriptionSha256": "2e502c1ab78f2cc68ef1975b1c83ee0ee21cefc9f53dd468071d12350457d554",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:dreamguard:current:class-feature:effective-dreams",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Starting at 5th level, whenever a dreamguard puts a creature to sleep they may give that creature a specific kind of dream. Alternatively, the dreamguard may impart this with a swift action by touching a willing, sleeping, creature. Finally, a dreamguard may select one effective dream to give themselves while they sleep if they fall asleep naturally.</p>\n<p>The dreamguard learns their first these “effective dreams” at 5th level and learns one additional one at 9th level and every 4 levels thereafter. A creature can only have 1 effective dream active on them at a time. A new effective dream replaces any older one. If an effective dream has a save the DC is 10 + 1/2 dreamguard level + Charisma modifier.</p>\n<ul>\n<li><strong>Deep Sleep:</strong> The creature does not dream but instead has a comatose experience. The creature gains the deep sleep condition rather than the asleep condition. The dreamguard must be at least 9th level to select this effective dream.</li>\n<li><strong>Fitful Sleep:</strong> When the creature awakens they are fatigued for the same duration they were asleep.</li>\n<li><strong>Guarded Slumber:</strong> The creature gains the effect of an alarm spell centered on them while they sleep.</li>\n<li><strong>Hypnotic Dream:</strong> The dream has a hypno-induced command. This function as per the spell suggestion though it only begins after the creature awakens.</li>\n<li><strong>Message:</strong> The dreamguard imparts a message of their own design to the creature. This can include visuals, sounds, and even written text but the creature is fully aware that is is a dream.</li>\n<li><strong>Pleasant Dreams:</strong> The dreamguard imparts a pleasing vision, so that the creature awakens in a more pliable mood. Upon awakening, the creature becomes friendly to the first creature it sees, as if by charm person.</li>\n<li><strong>Restful Sleep:</strong> The creature gains regeneration equal to 1/2 the dreamguard’s level while asleep. A given creature cannot recover more than the dreamguard’s level in HP per day in this fashion from a given dreamguard.</li>\n<li><strong>Sleep Paralysis:</strong> The creature is paralyzed while sleeping.</li>\n<li><strong>Vanish:</strong> If placed on an outsider or summoned creature the dreamguard uses the power of the dreamforce to erode the connection between our world and an outer plane. The creature must make a save each round or be subject to a banishment spell.</li>\n<li><strong>Waking Dream:</strong> Creature continues to act as though not asleep but is confused (as per the confusion spell). The creature still counts as asleep, though not helpless, and will have no memory of their actions when they “awake”.</li>\n</ul>\n<h3>New Conditions: Drowsy, Asleep, &amp; Deep Sleep</h3>\n<p>Drowsy (New): A drowsy creature is shaken and has a -4 penalty on all saves against sleep effects.</p>\n<ul>\n<li><strong>Asleep (Clarification):</strong> According to the sleep spell: “Sleeping creatures are helpless. Slapping or wounding awakens an affected creature, but normal noise does not. Awakening a creature is a standard action (an application of the aid another action). Sleep does not target unconscious creatures, constructs, or undead creatures.” Additionally, the Perception skill implies that sleeping creatures have a -10 penalty on Perception checks.</li>\n<li><strong>Deep Sleep (New):</strong> A character who is deeply sleeping is asleep and cannot be awakened by any means until the end of the effect.</li>\n</ul>\n<p><strong>Sidebar: Why Would You Use Sleep Paralysis?</strong><br>\nUnchivalrous nightmareguards like to inflict that sort of effective dream before engaging in dreamscape dueling (see the dreamscape duel class feature).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/dreamguard#toc9\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/dreamguard#toc9"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

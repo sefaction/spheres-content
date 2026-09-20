@@ -1,0 +1,121 @@
+{
+  "_id": "0485ea5f93e29bc2",
+  "_key": "!items!0485ea5f93e29bc2",
+  "name": "Chessmaster: Gambits (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:chessmaster-gonzo:current:class-feature:gambits-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/chessmaster-gonzo#toc4",
+      "sourceSha256": "b2c30b31159015b5dd77af99bca67286cface13b2373c3f23d053b95d7cb7c2e",
+      "descriptionSha256": "2874e98211994ffc38692a499619253da4b817ba9ac0751f3b306f3709f656ab",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:chessmaster-gonzo:current:class-feature:gambits-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A chessmaster is a specialist in making genius tactical moves known as “gambits”. Gambits represent their ability to set up and execute booby-trap and shepherd enemies into unfavorable situations. Each gambit has a trigger, a set condition in which the gambit may occur, this is described in each gambit’s entry. A chessmaster may execute one gambit per round. At 4th level and every 4 levels thereafter they may execute one additional gambit per turn. Gambits are a free action that they may take even if it is not their turn and cost edge to execute, and consume even if they are unsuccessful.</p>\n<p>When triggered, a chessmaster must make a gambit check to effect unwilling creatures, rolling 1d20 and adding his chessmaster level + his Intelligence modifier against a DC of 10 + the triggering creature’s HD + the higher of creatures Wisdom or Intelligence modifier. Gambits always trigger after the action that triggered them has resolved (unless otherwise noted). Unless otherwise noted the same action cannot trigger multiple gambits, even from different chessmasters.</p>\n<p>Gambits require roleplaying however and fail if not described to the GM’s satisfaction. A chessmaster must adequately explain how the advice they gave their allies (or enemies) prior to using a gambit lead up to the gambit occurring. A chessmaster should strive to make a new explanation for each use of a gambit, though some repetition is allowed (after all, there are only so many ways to describe setting someone up).</p>\n<p><strong>Examples:</strong></p>\n<ul>\n<li>Set-Up: By moving Bill the Barbarian into flanking position, it distracted the wolf for just a second so I could score a telling blow.”</li>\n<li>Hinder: “What Bill the Barbarian didn’t know was that when I told him to run over there, I wasn’t trying to get him into place. I wanted him to run across those nuts on the ground from the tree above. His feet turned them into sharp little caltrops and I led the wolf right over them!”</li>\n<li>Backfire: “I noticed that when the elf casts a spell she makes rather large gestures with her arms. I placed Bill the Barbarian in front of her not only to put the pressure on her- but to trap her in the corner where she couldn’t make quite as large motions with her arms.”</li>\n<li>Doom: “The minotaur winced at fire earlier in the fight. I had Bill brandish his flaming greataxe at him not only in hopes of hitting him, but hopefully to cause him to have a lapse of his senses at a critical juncture.”</li>\n</ul>\n<p>Some gambits have upgraded forms and have an expanded effect if the chessmaster pays more edge. This must be decided upon before making the gambit check. If a particular gambit has more than one upgrade available, multiple upgrades may be applied to it (unless specifically noted in its entry) so long as the chessmaster meets the listed prerequisites.</p>\n<p>At 1st level the chessmaster gains the set-up gambit and 2 other gambits that he meets the prerequisites for. At 2nd level and every even level thereafter, a chessmaster gains one additional gambit.</p>\n<h3>1st Level Gambits</h3>\n<h4>Bait and Switch</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 1 <strong>Cost:</strong> 2 edge</li>\n<li><strong>Trigger:</strong> An ally or the chessmaster himself is successfully hit by an adjacent enemy. The ally (or chessmaster) and the enemy creature must be of the same size.</li>\n<li><strong>Effect:</strong> At the end of the enemy’s attack action, it is forced to switch places with the creature it struck. If it struck multiple creatures allied with the chessmaster (including the chessmaster himself) the chessmaster may select which ally it swaps places with. A creature who moves as part of their attack action (such as with Spring Attack or Flyby attack) and does not end their turn adjacent to an enemy they hit cannot be targeted with this gambit.\n<ul>\n<li><strong>Ambush (Chessmaster 8, +4 edge):</strong> When the enemy creature swaps places with the ally (or chessmaster) it provokes an attack of opportunity from all allies of the chessmaster who threaten the enemy creature’s new square.</li>\n</ul>\n</li>\n</ul>\n<h4>Doom</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 1 COST: 3 edge</li>\n<li><strong>Trigger:</strong> When an enemy successfully makes a save.</li>\n<li><strong>Effect:</strong> The creature must re-roll the save and take the new result. This may only be done to a given creature once per turn.\n<ul>\n<li><strong>Agony (+2 edge):</strong> The save is made at a -2 penalty.</li>\n<li><strong>Spirit Shake (Chessmaster 8 +1 edge):</strong> If the creature fails, they are shaken for 1d4 rounds. This is a mind affecting fear effect.</li>\n</ul>\n</li>\n</ul>\n<h4>Exploit</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 1 COST: 2 edge</li>\n<li><strong>Trigger:</strong> When an ally successfully hits an opponent with a melee or ranged attack.</li>\n<li><strong>Effect:</strong> The creature has its AC reduced by 2 until the end of it’s next turn.\n<ul>\n<li><strong>Game Breaker (+2 edge):</strong> The creature has its AC reduced by 4, rather than by 2, until the end of its next turn.</li>\n</ul>\n</li>\n</ul>\n<h4>Hinder</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 1 <strong>Cost:</strong> 2 edge</li>\n<li><strong>Trigger:</strong> When an enemy provokes an attack of opportunity from the chessmaster by moving.</li>\n<li><strong>Effect:</strong> If this gambit hits, the creature is forced to end its movement.\n<ul>\n<li><strong>Caltrop (+3 edge):</strong> The creature takes 1d4 points of piercing damage and its speed is cut in half for 24 hours (as if they had stepped on a caltrop).</li>\n</ul>\n</li>\n</ul>\n<h4>Misfire</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 1 <strong>Cost:</strong> see text</li>\n<li><strong>Trigger:</strong> An enemy within 60 feet misses an attack against an ally with a firearm.</li>\n<li><strong>Effect:</strong> If this gambit is successful the creature’s firearm has its misfire range increased by the amount of edge spent until the weapon misfires or 24 hours pass. (Example: If the chessmaster spends 4 edge, it increases the misfiring on a natural 1 to misfiring on a 1-5). This expanded misfire applies on the attack roll that triggered this gambit.</li>\n</ul>\n<h4>Sabotage</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 1 <strong>Cost:</strong> 4 edge</li>\n<li><strong>Trigger:</strong> An enemy within 30 feet misses an attack against an ally other than the chessmaster.</li>\n<li><strong>Effect:</strong> If this gambit is successful the creature’s weapon takes 3 points of damage per chessmaster level as if the weapon had been sundered. This damage does not bypass hardness.\n<ul>\n<li><strong>Critical Sabotage (see text):</strong> This damage bypasses 5 hardness per extra edge point spent on this gambit.</li>\n</ul>\n</li>\n</ul>\n<h4>Set-up</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 1 <strong>Cost:</strong> 2 edge</li>\n<li><strong>Trigger:</strong> An enemy makes a melee attack against the chessmaster.</li>\n<li><strong>Effect:</strong> The chessmaster can make an attack of opportunity against the creature who attacked him. This attack has an insight bonus to attack and damage rolls equal to the chessmaster’s Intelligence modifier. This may only be done once per round against a given creature.\n<ul>\n<li><strong>Intimidating Set-Up (Chessmaster 4, +1 edge):</strong> If the attack hits the chessmaster may make an Intimidate check as part of the attack, using his Intelligence bonus in place of his Charisma modifier.</li>\n<li><strong>Unexpected Set-Up (Chessmaster 8, +4 edge):</strong> If the attack hits the chessmaster may make a Bluff check to feint as part of the attack, using his Intelligence bonus in place of his Charisma modifier.</li>\n</ul>\n</li>\n</ul>\n<h4>Trojan Horse</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 1 <strong>Cost:</strong> 1 edge</li>\n<li><strong>Trigger:</strong> An enemy moves adjacent to the chessmaster or through square threatened by him.</li>\n<li><strong>Effect:</strong> The chessmaster may make a Sleight of Hand check, opposed by the creature’s Perception, as a free action to place a single palm-sized item from the chessmaster’s inventory into their target’s as their tage passes. If unsuccessful the item is not placed on the enemy but remains in the hand of the chessmaster. If caught the item is not placed on the enemy but remains in the hand of the chessmaster. The chessmaster must have at least 1 hand free to use this gambit.\n<ul>\n<li><strong>Retrospective Purchase (+2 edge):</strong> The item does not have to be from the chessmaster’s inventory. It can be any item (or items) whose (collective) value does not exceed 20 gp per chessmaster level. This item may be magical or mundane. The price of the item is deducted from the chessmaster’s own stores if he wishes to do this as it represents him retrospectively purchasing an item for just this purpose.</li>\n<li><strong>Riches (+2 edge):</strong> The max gold value for the retrospective purchase upgrade is increased to 100 gp per chessmasters level.</li>\n<li><strong>Trigger (+1 edge):</strong> The chessmaster may spend 1 edge point as an immediate action to cause an item to trigger as intended (grenades and alchemist fires explode, wands trigger, etc). The chessmaster must be within 30 feet of the target of this gambit to do so.</li>\n</ul>\n</li>\n</ul>\n<h4>Weak Point Strike</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 1 <strong>Cost:</strong> 1 edge</li>\n<li><strong>Trigger:</strong> A creature makes an attack.</li>\n<li><strong>Effect:</strong> The creature that hits with the attack that triggered this gambit gains a +2 bonus on that damage roll, this damage is precision damage and isn’t multiplied on a critical hit.\n<ul>\n<li><strong>Chessmaster’s Pawn (+1 edge):</strong> The damage dealt is instead equal to the chessmaster’s Intelligence modifier.</li>\n<li><strong>Retroactive Genius (Chessmaster 12, +0 edge):</strong> The chessmaster may now apply this gambit after the attack roll is made.</li>\n<li><strong>Critical Blow (Chessmaster 12, +2 edge):</strong> The attack gains the benefit of the Improved Critical Feat.</li>\n<li><strong>Felling Blow (Chessmaster 12, +2 edge):</strong> The attack increases the critical multiplier of the attack by 1.</li>\n<li><strong>Assured Critical (Chessmaster 16, +2 edge):</strong> If the attack threatens a critical hit then it automatically confirms.</li>\n</ul>\n</li>\n</ul>\n<hr>\n<h3>4th Level Gambits</h3>\n<h4>Backfire</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 4 <strong>Cost:</strong> 3 edge</li>\n<li><strong>Trigger:</strong> When an enemy tries to use a spell or spell-like ability within 60 feet of the chessmaster.</li>\n<li><strong>Effect:</strong> The creature must make a Concentration check as if they had just taken the chessmaster’s level in damage (this doesn’t deal any actual damage). Unlike other gambits, this gambit interrupts an action. Once the casting of the spell has been declared, the chessmaster should roll to see if his gambit affects the enemy.\n<ul>\n<li><strong>Spellforce (+2 edge):</strong> Add the chessmaster’s Intelligence modifier to the DC of the concentration check.</li>\n<li><strong>Critical Backfire (Chessmaster 16, +5 edge):</strong> If the spellcaster fails their concentration check, the spell still goes off but the chessmaster designates the targets of the spell.</li>\n</ul>\n</li>\n</ul>\n<h4>Critical Break</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 4 <strong>Cost:</strong> 2 edge</li>\n<li><strong>Trigger:</strong> An enemy confirms a critical hit against an ally within 30 feet of the chessmaster.</li>\n<li><strong>Effect:</strong> The attack is still a critical hit but the multiplier on the damage is reduced to x2 if it is higher. If it is x2 it is reduced to x1 (though is still a critical hit). Unlike other gambits, this ggambit affects the attack while in action. Once the critical hit has been confirmed, but before damage is rolled, the chessmaster should roll to see if his gambit affects the enemy. If so, it affects the damage of the critical hit.\n<ul>\n<li><strong>Critical Negation (+2 edge):</strong> The attack is not a critical hit.</li>\n<li><strong>Critical Reversal (Chessmaster 8 ,+4 edge):</strong> All allies within 30 feet of the chessmaster gain a +4 bonus to confirm critical hits against this enemy until the end of this next turn.</li>\n</ul>\n</li>\n</ul>\n<h4>Evasive Tactic</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 4 <strong>Cost:</strong> 2 edge</li>\n<li><strong>Trigger:</strong> An attack is made against a creature or the creature must make a Reflex save.</li>\n<li><strong>Effect:</strong> The creature being attacked gains a +2 dodge bonus to AC and Reflex saves against that effect, this bonus is increased by 1 per 4 levels the chessmaster possesses. This gambit is resolved before the attack is made.\n<ul>\n<li><strong>Emergency Evasion (+1 edge):</strong> The target creature gains the evasion ability (as per the rogue’s entry in Chapter 3 of the Pathfinder Core Rulebook) against the effect that triggered this ability.</li>\n<li><strong>Uncanny Advice (+2 edge):</strong> If the defender would be denied his Dexterity bonus to AC against that attack, he isn’t.</li>\n<li><strong>Opportune Strike (+4 edge):</strong> If the attack misses then the attacker provokes an attack of opportunity from one creature who threatens that creature other than the defender.</li>\n</ul>\n</li>\n</ul>\n<h4>Finisher</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 4 <strong>Cost:</strong> 1 edge</li>\n<li><strong>Trigger:</strong> When an enemy is reduced to its Hit Dice’s value or less in HP due to an ally’s attack. (A GM should let the chessmaster know when this is the case).</li>\n<li><strong>Effect:</strong> The creature is reduced to zero HP. This is death effect.</li>\n</ul>\n<h4>Ruse</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 4 <strong>Cost:</strong> 2 edge</li>\n<li><strong>Trigger:</strong> The chessmaster successfully makes a Bluff check to feint a creature.</li>\n<li><strong>Effect:</strong> The chessmaster may forgo the benefits of feinting his opponent to select one creature and render the target of his feint check flat footed against that creature’s next attack, so long as it is made within one round.\n<ul>\n<li><strong>And Eat It Too (Chessmaster 8, +2 Edge):</strong> The chessmaster retains all the benefits of feinting a creature.</li>\n</ul>\n</li>\n</ul>\n<h4>Seeing Eye Strategist</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 4 <strong>Cost:</strong> 1 edge</li>\n<li><strong>Trigger:</strong> An allied creature makes an attack.</li>\n<li><strong>Effect:</strong> The creature uses the chessmasters line of sight for determining concealment, rather than his own.</li>\n</ul>\n<hr>\n<h3>8th Level Gambits</h3>\n<h4>Decoy</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 8 <strong>Cost:</strong> 4 edge</li>\n<li><strong>Trigger:</strong> An enemy attacks an ally of the chessmaster (henceforth referred to as the “primary target”) who is adjacent to another ally (henceforth referred to as the “decoy”). The decoy ally must be a valid target for the enemy’s attack. The chessmaster himself may be a decoy or primary target but is not required to be either of them. Neither the primary target or the decoy need to be willing creatures.</li>\n<li><strong>Effect:</strong> The enemy is forced to retarget his attack action to the decoy if this gambit succeeds. This gambit may only be used on a given enemy creature once per combat.\n<ul>\n<li><strong>Vicious Decoy (Chessmaster 12, +5 edge):</strong> The decoy may be an enemy creature rather than an ally of the primary target. This gambit affects the attack while in action. Once the enemy designates the target of his attack action (and in what way he intends to attack, such as if he is employing Power Attack), the chessmaster should roll to see if his gambit affects the enemy. If so, it attack is retargeted to the decoy.</li>\n</ul>\n</li>\n</ul>\n<h4>Delay</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 8 <strong>Cost:</strong> 4 edge</li>\n<li><strong>Trigger:</strong> An enemy within 30 feet of the chessmaster readies an action, takes the delay action, or is knocked prone.</li>\n<li><strong>Effect:</strong> The creature is staggered for 3 rounds.\n<ul>\n<li><strong>Upgrade (Chessmaster 12, see text):</strong> The duration of the effect increases by 2 per additional point of edge spent as part of activating this gambit.</li>\n</ul>\n</li>\n</ul>\n<hr>\n<h3>12th Level Gambits</h3>\n<h4>Double Agent</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 12 <strong>Cost:</strong> 4 edge</li>\n<li><strong>Trigger:</strong> A creature is under the effect of a mind controlling ability</li>\n<li><strong>Effect:</strong> The creature immediately makes a new Will save against the ability. If successful the ability immediately ends with no lingering effects. If the ability never allowed for a save then the creature may make a Will save (DC 10+½ the creature’s HD + the creature’s Charisma modifier) to negate the effect.\n<ul>\n<li><strong>Personal Touch (+0 edge):</strong> If the chessmaster was the target of the mind-affecting effect he may activate this gambit, even if the mind controlling effect would otherwise prevent it.</li>\n<li><strong>Sanctity of Mind (+2 edge):</strong> This ability allows the target to rid themselves of any mind affecting effect.</li>\n<li><strong>Strength of Mind (+2 edge):</strong> The target receives a competence bonus on their Will save equal to the chessmaster’s Intelligence modifier.</li>\n</ul>\n</li>\n</ul>\n<h4>False Opportunity</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 12 <strong>Cost:</strong> 4 edge</li>\n<li><strong>Trigger:</strong> A creature makes a melee attack against an ally</li>\n<li><strong>Effect:</strong> The creature provokes an attack of opportunity from the target of its attack, this attack of opportunity resolves before the creature’s attack does.</li>\n</ul>\n<h4>Leading Blow</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 12 <strong>Cost:</strong> 4 edge</li>\n<li><strong>Trigger:</strong> The chessmaster misses with an attack.</li>\n<li><strong>Effect:</strong> One creature threatening the creature that the chessmaster missed, other than the chessmaster, may make an attack of opportunity against that creature.\n<ul>\n<li><strong>Blindspot (+2 edge):</strong> The target creature is flat footed against this attack of opportunity.</li>\n</ul>\n</li>\n</ul>\n<hr>\n<h3>16th Level Gambits</h3>\n<h4>Alacrity</h4>\n<ul>\n<li><strong>Prerequisite:</strong> Chessmaster 16 <strong>Cost:</strong> see text</li>\n<li><strong>Trigger:</strong> A creature’s turn starts.</li>\n<li><strong>Effect:</strong> This ability allows the chessmaster to increase or decrease the creature’s initiative score by an amount up to his Intelligence bonus for every 2 points of edge he spends on this gambit. Increases to a creature’s initiative score take effect on the start of the next round, decreases can put other creatures ahead of him in the initiative order, delaying his turn until those creatures have acted.\n<ul>\n<li><strong>Saw It Coming (+4 edge):</strong> If the chessmaster increases the target’s initiative then it gains an insight bonus to AC equal to ¼ his level against creatures that act after it in the initiative order.</li>\n<li><strong>Too Slow (+4 edge):</strong> If you decrease the target’s initiative then it takes a penalty to AC equal to ¼ your level against creatures that act before it in the initiative order.</li>\n</ul>\n</li>\n</ul>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/chessmaster-gonzo#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/chessmaster-gonzo#toc4"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

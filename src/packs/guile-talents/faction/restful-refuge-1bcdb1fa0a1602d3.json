@@ -1,0 +1,124 @@
+{
+  "_id": "1bcdb1fa0a1602d3",
+  "_key": "!items!1bcdb1fa0a1602d3",
+  "name": "Restful Refuge",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:faction:spheres-of-guile:guile-talent:restful-refuge",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/faction#toc21",
+      "sourceSha256": "c0949a2288b14f9bce4a04a73230598f8b6178c048d9a36fc6899ead8b33b209",
+      "descriptionSha256": "9665797477f2918623fcc1415168484a31b7dda5751dcaffebef744de0b5b0b8",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Faction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:faction:spheres-of-guile:guile-talent:restful-refuge",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "faction"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can requisition a calming environment (but not necessarily a secure one) for yourself and up to nine allies to rest and recuperate for up to 24 hours. You and your allies get a +2 morale bonus on saving throws against afflictions and conditions while resting in the refuge. The bonus increases by 1 for every 8 ranks in the associated skill you possess.</p>\n<p>When you use the refuge, you can spend authorizations in the following ways:</p>\n<ul>\n<li><strong>Exceptional Accommodations (1 Authorization):</strong> If your group spends 8 hours resting in the refuge, you each regain all your hit points, recover double the usual ability damage, and cease to be fatigued or exhausted in addition to the usual benefits. If your group spends the full 24 hours resting in the refuge, you each recover triple the usual ability damage instead of double.</li>\n<li><strong>Hireling Healer (1+ Authorization):</strong> The faction lends you money to pay for expensive spellcasting services costing up to your permanent resource budget times the number of authorizations you spend. The service must be removing an affliction, condition, spell, or other effect (even if they do not offer that service). You must repay the loan to regain the authorizations spent.</li>\n<li><strong>Remove Affliction (1 Authorization):</strong> The faction removes one affliction, condition, or spell on you. If doing so requires spellcasting services, the faction pays for it if it does not exceed your temporary resource budget (even if they lack that service).</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/faction#toc21\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/faction#toc21"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

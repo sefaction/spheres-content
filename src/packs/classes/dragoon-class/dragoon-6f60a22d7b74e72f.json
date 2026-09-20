@@ -1,0 +1,142 @@
+{
+  "_id": "6f60a22d7b74e72f",
+  "_key": "!items!6f60a22d7b74e72f",
+  "name": "Dragoon",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:dragoon-class:current:class:dragoon",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/dragoon-class",
+      "sourceSha256": "758e91df4269aa81c01c5f7e4caff562ca8a7adb5b1d3439efaf7e1e5739031f",
+      "descriptionSha256": "30bfe1bebf0ac814f3d2430d16825e3a0ea7f00abe96148fa45933f2c4e7d737",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:dragoon-class:current:class:dragoon",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Wiki Note:</strong> This class is from Lost Spheres Publishing and is not official Spheres content. For the Mageknight archetype, see <a href=\"http://spheresofpower.wikidot.com/dragoon\">Dragoon</a>.</p>\n<hr>\n<p>Known as masters of powers far beyond the control of others, dragoons are the product of fusing martial might with the magical strength of dragons. Blessed with the magical talents of dragons, dragoons are also given an incredible gift by their scaled patrons, a drake companion to assist them. This drake is a loyal (if at times self serving) partner to the dragoon. Some confuse the drake’s role, assuming it is a servant, but that is far from the truth. The two are partners in every sense of the word, although the drake is loyal beyond all else to its draconic liege. The one thing that all dragoons share is the ability to call on the power of their dragon, taking its form in a limited fashion. Considered beyond human by some, dragoons often take to the sky, their might raining down on those they would consider beneath them. Rightly feared by others, dragoons run the gamut from strategic generals to dangerous loners. Filled with the might of impossible creatures of scale and magic, dragoons stand as a testament to the awe inspiring might of dragons.</p>\n<p><strong>Role:</strong> Dragoons serve as shock troops in most engagements, their physical prowess being backed up by their incredible teamwork with their drakes. Able to wield considerable magical might, the true power of dragoons lay in their bonds with dragons, enhancing them beyond their normal forms. Mixing steel and magic, dragoons stand in the front lines of combat, using their bond with their drakes to survive any onslaught they could face.</p>\n<p><strong>Alignment:</strong> Any.</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The dragoon’s class skills are Acrobatics (Dex), Bluff (Cha), Climb (Str), Craft (Int), Diplomacy (Cha), Intimidate (Cha), Knowledge (local) (Int), Perception (Wis), Perform (Cha), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), and Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n<h1>Class Abilities</h1>\n<strong>Table: Dragoon</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Reflex Save</th>\n<th>Will Save</th>\n<th>Special</th>\n<th>Combat &amp; Magic Talents</th>\n<th>Caster Level</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+2</td>\n<td>+0</td>\n<td>+2</td>\n<td>Casting, blended training, spell pool, dragon bond, drake companion, brutal bond</td>\n<td>1 (+2 magic)</td>\n<td>+0 (1)</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+3</td>\n<td>+0</td>\n<td>+3</td>\n<td>Drake talent, share spells</td>\n<td>2</td>\n<td>+1</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+2</td>\n<td>+3</td>\n<td>+1</td>\n<td>+3</td>\n<td>Draconic might +1, dragon bond (bite)</td>\n<td>3</td>\n<td>+2</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+3</td>\n<td>+4</td>\n<td>+1</td>\n<td>+4</td>\n<td>Drake talent, shared vigor</td>\n<td>4</td>\n<td>+3</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+3</td>\n<td>+4</td>\n<td>+1</td>\n<td>+4</td>\n<td>Dragon caller (close)</td>\n<td>5</td>\n<td>+3</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+4</td>\n<td>+5</td>\n<td>+2</td>\n<td>+5</td>\n<td>Dragon bond (wings), drake talent</td>\n<td>6</td>\n<td>+4</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+5</td>\n<td>+5</td>\n<td>+2</td>\n<td>+5</td>\n<td>Draconic might +2</td>\n<td>7</td>\n<td>+5</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+6/+1</td>\n<td>+6</td>\n<td>+2</td>\n<td>+6</td>\n<td>Drake talent, improved dragon bond</td>\n<td>8</td>\n<td>+6</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+6/+1</td>\n<td>+6</td>\n<td>+3</td>\n<td>+6</td>\n<td>Dragon bond (hit points) dragon caller (medium)</td>\n<td>9</td>\n<td>+6</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+7/+2</td>\n<td>+7</td>\n<td>+3</td>\n<td>+7</td>\n<td>Drake talent</td>\n<td>10</td>\n<td>+7</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+8/+3</td>\n<td>+7</td>\n<td>+3</td>\n<td>+7</td>\n<td>Draconic might +3</td>\n<td>11</td>\n<td>+8</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+9/+4</td>\n<td>+8</td>\n<td>+4</td>\n<td>+8</td>\n<td>Dragon bond (bonded might), drake talent</td>\n<td>12</td>\n<td>+9</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+9/+4</td>\n<td>+8</td>\n<td>+4</td>\n<td>+8</td>\n<td>Deathless bond</td>\n<td>13</td>\n<td>+9</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+10/+5</td>\n<td>+9</td>\n<td>+4</td>\n<td>+9</td>\n<td>Drake talent</td>\n<td>14</td>\n<td>+10</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+11/+6/+1</td>\n<td>+9</td>\n<td>+5</td>\n<td>+9</td>\n<td>Draconic might +4, dragon bond (advanced bite)</td>\n<td>15</td>\n<td>+11</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+12/+7/+2</td>\n<td>+10</td>\n<td>+5</td>\n<td>+10</td>\n<td>Drake talent, greater dragon bond</td>\n<td>16</td>\n<td>+12</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+12/+7/+2</td>\n<td>+10</td>\n<td>+5</td>\n<td>+10</td>\n<td>United healing</td>\n<td>17</td>\n<td>+12</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+13/+8/+3</td>\n<td>+11</td>\n<td>+6</td>\n<td>+11</td>\n<td>Dragon bond (swift), drake talent</td>\n<td>18</td>\n<td>+13</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+14/+9/+4</td>\n<td>+11</td>\n<td>+6</td>\n<td>+11</td>\n<td>Draconic might +5</td>\n<td>19</td>\n<td>+14</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+15/+10/+5</td>\n<td>+12</td>\n<td>+6</td>\n<td>+12</td>\n<td>Dragon soul, drake talent</td>\n<td>20</td>\n<td>+15</td>\n</tr>\n</tbody></table>\n<h2>Proficiencies</h2>\n<p>Dragoons are proficient with simple weapons, as well as light armor and bucklers. In addition, if this is this character's first level in any class, they may select a martial tradition of their choice.</p>\n<h2>Casting</h2>\n<p>A dragoon may combine spheres and talents to create magical effects. A dragoon is considered a Mid-Caster. She may use either Wisdom or Charisma as her casting ability modifier and must make this choice at 1st level. (Note: all casters may select a casting tradition the first time they gain the casting class feature.)</p>\n<h2>Spell Pool</h2>\n<p>A dragoon gains a small reservoir of energy she can call on to create truly wondrous effects, called a spell pool. This pool contains a number of spell points equal to her level + her casting ability modifier (minimum: 1). This pool replenishes once per day after roughly 8 hours of rest.</p>\n<h2>Blended Training</h2>\n<p>A dragoon gains combat or magic talents according to Table: Dragoon, gaining her choice of combat or magic talents at each level she would gain a talent. Dragoons use their casting ability modifier as their practitioner modifier.</p>\n<h2>Dragon Bond (Su)</h2>\n<p>At 1st level, as long as a dragoon is adjacent to her drake companion, she can spend 1 spell point as a move action action to draw upon its draconic might to empower herself for 1 minute. If she does so, she gains a +2 bonus to either her Strength, Dexterity, or Charisma score and she gains temporary hit points equal to her class level + her casting modifier which last until this ability ends. She can expend her martial focus as a free action to refresh these temporary hit points. At 8th level and again at 16th level, these bonuses increases by +2 (to +4 at 8th level and +6 at 16th level).</p>\n<p>At 3rd level, she also gains a bite attack as a primary natural weapon which deals 1d6 natural damage. Due to the mystical nature of the transformation, the damage of this natural attack is unaffected by her size.</p>\n<p>At 6th level, she also grows a pair of wings which give her a flight speed of 60 feet (good maneuverability).</p>\n<p>At 9th level, whenever she uses her draconic bond, as long as her drake companion is within 60 feet of her when she does, it gains temporary hit points equal to her class level + her casting modifier for the duration of this ability. It can expend its martial focus as a free action to refresh these temporary hit points.</p>\n<p>At 12th level, whenever she uses her draconic bond, as long as her drake companion is with 60 feet of her, it gains the benefit of her draconic might class feature.</p>\n<p>At 15th level, her bite attack instead deals 1d10 damage and has its critical range increased to 19-20/x2.</p>\n<p>At 18th level, she can instead use this ability as a swift action.</p>\n<h2>Drake Companion</h2>\n<p>At 1st level, a dragoon forms a close bond. A dragoon gains a legendary drake companion (see below).</p>\n<h2>Brutal Bond</h2>\n<p>At 1st level, both the dragoon and her drake companion gain the Berserker sphere as a bonus talent. In addition, the dragoon uses her class level in place of her base attack bonus to determine the effects of Berserker sphere abilities.</p>\n<h2>Drake Talent (Ex)</h2>\n<p>At 2nd level and every even level thereafter, a dragoon’s drake companion gains a combat talent; although it may not select the beastmastery sphere or any other sphere talent which would grant it a familiar, animal companion, eidolon, or drake companion. A dragoon's drake uses Strength as its practitioner ability modifier.</p>\n<h2>Share Spells (Ex)</h2>\n<p>At 2nd level, a dragoon may use a magical sphere ability with a target of “You” on her drake companion (as a touch range spell) instead of on herself. A dragoon may use a magical sphere ability on her drake companion even if it would normally not affect creatures of the companion’s type (dragon).</p>\n<h2>Draconic Might (Ex)</h2>\n<p>At 3rd level, as long as a dragoon is within 60 feet of her drake companion, she treats her base attack bonus as 1 higher for the purpose of her combat maneuver bonus and the effects of combat talents which rely on her base attack bonus. At 7th level and every four levels afterwards, this increase to her base attack bonus increases by 1, to a maximum of 5 at 19th level (this does not allow her to treat her base attack bonus as though it was higher than her dragoon level).</p>\n<h2>Shared Vigor (Su)</h2>\n<p>At 4th level, as long as a dragoon's drake companion is within 60 feet of her, whenever the dragoon or her drake companion would take damage, they can choose to reduce the other’s temporary hit points instead of taking the damage themselves.</p>\n<h2>Dragon Caller (Su)</h2>\n<p>At 5th level, as a standard action, a dragoon can call her drake companion. This functions as teleport ability of the warp sphere, using the dragoon’s caster level. When used, the drake companion appears adjacent to the dragoon (or as close as possible if all adjacent spaces are occupied). If the drake companion is out of range, the ability is wasted. The dragoon can spend 1 spell point to increase the range of this ability to medium.</p>\n<p>At 9th level, this ability’s default range increases to medium, and the dragoon can spend 1 spell point to increase its range to long.</p>\n<h2>Deathless Bond (Su)</h2>\n<p>At 13th level, if a dragoon is reduced to 0 or fewer hit points (but is not dead) and her drake companion has 1 or more hit points, she gains the benefits of the Diehard and Deathless Initiate feats.</p>\n<h2>United Healing (Su)</h2>\n<p>At 17th level, as long as a dragoon is within 60 feet of her drake companion, if either herself or her drake companion would recover hit points, she may choose to allocate that healing to whomever she wishes.</p>\n<h2>Dragon Soul (Ex)</h2>\n<p>At 20th level, a dragoon changes her type to dragon (if it wasn’t already). Whenever she uses her draconic bond, she no longer has to select a single ability score, gaining the listed effects for all of the listed ability scores. In addition, she no longer needs to expend her martial focus to recover the temporary hit points gained from draconic bond, instead refreshing them instantly at the beginning of her turn.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/dragoon-class\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "high"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "alignment": "Any.",
+    "wealth": "3d6 * 10",
+    "classSkills": {
+      "acr": true,
+      "blf": true,
+      "clm": true,
+      "crf": true,
+      "dip": true,
+      "int": true,
+      "klo": true,
+      "per": true,
+      "prf": true,
+      "pro": true,
+      "sen": true,
+      "spl": true,
+      "umd": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/dragoon-class"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

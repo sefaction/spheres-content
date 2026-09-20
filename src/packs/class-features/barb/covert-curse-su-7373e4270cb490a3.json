@@ -1,0 +1,121 @@
+{
+  "_id": "7373e4270cb490a3",
+  "_key": "!items!7373e4270cb490a3",
+  "name": "Barb: Covert Curse (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:barb:current:class-feature:covert-curse-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/barb#toc2",
+      "sourceSha256": "1de47806e838b768017315a27807044f7a6b991b161a1789e6bd1f5c84fe5cee",
+      "descriptionSha256": "894569b52a53d462cdefd657ee86ec901d59813e367c533c631aa5a46d0f04a7",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:barb:current:class-feature:covert-curse-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, every time a good aligned ally has a run of bad luck, the barb gets a little more freedom from their divine spirit to give them a secret little helping hand. This comes in the form of a little curse, muttered under their breath in the true language of the universe; glossolalia (“speaking in tongues”), to help them along. It can be done at will as a free action, but only once per round and never more than once per die roll. The enemy takes a -1/4th barb level penalty to its AC, attack rolls, and saves on a single d20 roll (with minimum penalty of -1).</p>\n<p>The barb can only use this on the target of a good-aligned ally. That ally must have suffered one of the following things happen since the end of the barb’s last turn: they were hit by an attack, they failed on a d20 roll (attack roll, skill check, stabilization roll, etc), or a target succeeded on a save from them.</p>\n<p><strong>Deeper Rules</strong></p>\n<ul>\n<li>This action is a free action and thus can be used at any point during the round, even interrupting other actions.</li>\n<li>The enemy creature does not get a save.</li>\n<li>This is assigned as a penalty to the enemy so that the GM never has to state out loud that the player is getting a bonus from the barb.</li>\n<li>This must be declared/indicated prior to a dice roll.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/barb#toc2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/barb#toc2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

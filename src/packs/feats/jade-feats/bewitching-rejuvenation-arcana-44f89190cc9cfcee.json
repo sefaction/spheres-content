@@ -1,0 +1,121 @@
+{
+  "_id": "44f89190cc9cfcee",
+  "_key": "!items!44f89190cc9cfcee",
+  "name": "Bewitching Rejuvenation (Arcana)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:jade-feats:current:feat:bewitching-rejuvenation-arcana",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/jade-feats#toc9",
+      "sourceSha256": "4751a841892485d6d59394862dc96c59f92a999d9a9b2c2b817cde23bc457334",
+      "descriptionSha256": "87ac893a889d5076724cc82c16f3c5431389b13de6347a8b545b89d63b449e15",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Arcana Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:jade-feats:current:feat:bewitching-rejuvenation-arcana",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your power as a witch allows you to gain arcane focus in an instant.</p>\n<p><strong>Prerequisites:</strong> Witch level 1st.</p>\n<p><strong>Benefit:</strong> As a swift action, you can gain a second use of a hex that you normally can only use once per day (or that targets a specific creature once per day) by expending your arcane focus and spending points from your arcane pool based on how powerful the hex is (see table below).</p>\n<p>You add 1 point to your arcane pool.</p>\n<strong>Table: Bewitching Rejuvenation</strong>\n<table>\n<tbody><tr>\n<th>Hex Power Level</th>\n<th>Points Spent from Arcane Pool to Recover</th>\n</tr>\n<tr>\n<td>Hex</td>\n<td>3</td>\n</tr>\n<tr>\n<td>Major Hex</td>\n<td>5</td>\n</tr>\n<tr>\n<td>Grand Hex</td>\n<td>7</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/jade-feats#toc9\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/jade-feats#toc9"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

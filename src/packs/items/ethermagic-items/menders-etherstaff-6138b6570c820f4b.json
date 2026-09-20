@@ -1,0 +1,162 @@
+{
+  "_id": "6138b6570c820f4b",
+  "_key": "!items!6138b6570c820f4b",
+  "name": "Mender’s Etherstaff",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:ethermagic-items:current:item:menders-etherstaff",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/ethermagic-items#toc30",
+      "sourceSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+      "descriptionSha256": "f9725b6b21826f09a7a38a96cf072c90c79d8f2fc2231d9e7bfa51617726b224",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Etherstaves > Specific Etherstaves",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:ethermagic-items:current:item:menders-etherstaff",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> moderate conjuration; <strong>CL</strong> 8th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 47,000 gp; <strong>Weight</strong> 5 lbs.<br>\n<strong>Recharge Cost</strong> 2</p>\n<p><strong>Description</strong><br>\nThis fine mahogany staff is capped with what appears to be an oversized amethyst, when in reality that amethyst is a condensed chunk of void energy that is stable enough to be exposed to the elements. Such absolute mastery over the volatile nature of ether is the hallmark of the etherfuser, and such etherstaves allow use of the following manifestations:</p>\n<p><em>bestowed ablation</em> (2 charges)<br>\n<em>bestowed lensing</em> (2 charges)</p>\n<p><strong>Special:</strong> As a swift action, the wielder can expend 3 charges to gain 1 temporary fusion point. This temporary fusion point lasts for 1 round.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Staff, bestowed ablation, bestowed lensing, creator must be an etherfuser; <strong>Cost</strong> 23,500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/ethermagic-items#toc30\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 5
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 47000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/ethermagic-items#toc30"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

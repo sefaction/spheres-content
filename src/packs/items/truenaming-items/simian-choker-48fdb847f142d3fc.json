@@ -1,0 +1,162 @@
+{
+  "_id": "48fdb847f142d3fc",
+  "_key": "!items!48fdb847f142d3fc",
+  "name": "Simian Choker",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:truenaming-items:current:item:simian-choker",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/truenaming-items#toc30",
+      "sourceSha256": "27f2229079cfc88f64fa4b81410fd49144d347ae740dc859b1853830dae5defb",
+      "descriptionSha256": "856718d86c0e5176fb220eb039d0c91d031f969f306794a6ad6629b856896792",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Wondrous Items",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:truenaming-items:current:item:simian-choker",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> moderate evocation; <strong>CL</strong> 8th; <strong>Slot</strong> neck; <strong>Price</strong> 14,500 gp; <strong>Weight</strong> 1/2&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThree monkey charms, one bronze and covering its ears, one silver and covering its eyes, and one gold and covering its mouth, rest on a plain silver chain. When put on by a sapient creature (Int 3+), if the simian choker is currently unattuned, the three charms let out a raucous hooting and hollering, thereby attuning themselves to their new master. As soon as they attune, each monkey charm gains charges as detailed below.</p>\n<ul>\n<li>Bronze charm - 1d3 charges</li>\n<li>Silver charm - 1d3 charges</li>\n<li>Gold charm - 6 charges minus the sum of the number of charges gained by the bronze charm and the silver charm</li>\n</ul>\n<p>As a standard action that provokes attacks of opportunity, the attuned wearer may expend a charge from one of the charms to affect a creature within 60 feet with the corresponding effect. A DC 15 Fortitude save negates.</p>\n<ul>\n<li>Bronze charm - Deafen for 1 minute</li>\n<li>Silver charm - Blind for 2 rounds</li>\n<li>Gold charm - Render mute (unable to speak) for 1 round</li>\n</ul>\n<p>A simian choker's charges replenish themselves after eight hours of rest on the part of its master; these hours do not need to be consecutive, but such hours of rest only count if the choker is actually worn during that period of rest. If separated from its master for 24 hours, the simian choker becomes unattuned and loses all remaining charges.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Wondrous Item, shocking remarks; <strong>Cost</strong> 7,250 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/truenaming-items#toc30\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0.5
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 14500,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "neck",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/truenaming-items#toc30"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

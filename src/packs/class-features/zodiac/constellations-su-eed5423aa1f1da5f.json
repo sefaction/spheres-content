@@ -1,0 +1,121 @@
+{
+  "_id": "eed5423aa1f1da5f",
+  "_key": "!items!eed5423aa1f1da5f",
+  "name": "Zodiac: Constellations (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:zodiac:current:class-feature:constellations-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/zodiac#toc2",
+      "sourceSha256": "84f409a3235d5b8272780ec789e572b15e00bede48dcee7ca5801a1ec4bf2f15",
+      "descriptionSha256": "255b12f77514beb46ca76e9edddf718d1bf17ed9379d5227fa3354a9e3f05408",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:zodiac:current:class-feature:constellations-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>All zodiacs learn to call on the constellations for power starting at 1st level. Constellations may manifest as a weapon, piece of armor, or other equipment, or as powerful champions ready to fight at the zodiac’s side; the ways a given constellation can manifest are listed in the constellation’s entry. Constellations manifested as equipment are tangible items that occupy a slot just like a piece of magical equipment (so a constellation that manifests as a pair of boots cannot be worn with another pair of magical boots). Regardless of which manifestation option the zodiac chooses, a given constellation cannot be manifested more than once (for example, a zodiac who manifested the armor option of the Crab constellation could not also manifest the Crab’s champion option).</p>\n<p>Champion constellations can always understand the zodiac’s commands and do their best to carry out any orders they are given. In the event the zodiac is conscious but unable to give a command, the champion will use its best judgement to take whatever actions seem most beneficial to the zodiac. The zodiac always summons the same version of a champion after they have manifested them for the first time; any feats, skill points, or other variable options are fixed and cannot be changed once selected, though most champions can still gain levels or improve as animal companions based on the zodiac’s class level (treating the zodiac’s class levels as druid levels when determining animal companion advancement) and receive all appropriate benefits for doing so.</p>\n<p>Manifesting a constellation is a standard action that requires the zodiac to devote a portion of their life force to sustaining the constellation. When a zodiac manifests a constellation, they take an amount of essence burn equal to the constellation’s essence cost (described in the constellation’s entry). This essence burn cannot be healed or recovered in any way as long as the constellation is manifested, though it begins to recover normally once the constellation is dismissed (a free action). Constellations are automatically dismissed if the zodiac loses consciousness for any reason, or if the constellation’s hit points are reduced to zero, but otherwise remain indefinitely. A constellation that is reduced to zero or fewer hit points is automatically dismissed; if the constellation is manifested again before 24 hours have passed, it appears with only 1 hit point, though it can be healed or repaired normally.</p>\n<p>Constellations that are dismissed normally recover all of their hit points, any ability damage or drain, and are cured of all negative conditions as long as at least 1 hour passes between each manifestation; otherwise they appear with whatever injuries and conditions they had when they were dismissed. Constellations from opposing elements (as described in the constellations section) impose additional costs when manifesting them.</p>\n<p>Once a constellation has been manifested, it also acts as an essence receptacle and can be invested with essence just like a veil. The benefits for investing essence in a constellation are described in its entry, and the normal limitations for essence capacity apply.</p>\n<p>The list of constellations is included below.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/zodiac#toc2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/zodiac#toc2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

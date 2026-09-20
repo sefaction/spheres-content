@@ -1,0 +1,121 @@
+{
+  "_id": "e4d902e5ab85c4ee",
+  "_key": "!items!e4d902e5ab85c4ee",
+  "name": "Darkrider (Champion)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:champion-feats:current:feat:darkrider-champion",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/champion-feats#toc24",
+      "sourceSha256": "ebaf5901af64f25a2ba1fcec58cda3bfddace06fab20921fddcf3e21096f40af",
+      "descriptionSha256": "58a5027e5d60f416c79dce3213ffbaeafb1e6af2699788f12f979fcfb7186ca1",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Champion Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:champion-feats:current:feat:darkrider-champion",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Beastmastery sphere, Dark sphere.</p>\n<p><strong>Benefit:</strong> While mounted, your mount gains the benefits of each (meld) talent you are under the effects of, and you may include your mount when teleporting with the Step Through Darkness meld (allowing you to teleport with your mount).</p>\n<p>When creating a darkness, you may choose to attach the effect to an animal ally instead of centering it on a space. This causes the darkness to move with the animal ally, centered on the animal ally’s space. If the darkness moves and causes a creature to leave its area of effect, any ongoing effects the creature is under related to that area of darkness end immediately. If you move this darkness effect after attaching it to an animal ally, such as using the Rolling Blackout or Shifting Shadows talent, the darkness becomes unattached from that animal ally and remains in the spaces the darkness was moved into. Animal allies are still affected by your darkness unless they are under the effects of the Clearsight meld or another similar effect.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/champion-feats#toc24\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/champion-feats#toc24"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

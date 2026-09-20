@@ -1,0 +1,121 @@
+{
+  "_id": "5c1f8c3b19a0cda2",
+  "_key": "!items!5c1f8c3b19a0cda2",
+  "name": "Warpmaster: Warp Talents",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:warpmaster:current:class-feature:warp-talents",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/warpmaster#toc18",
+      "sourceSha256": "1e0e50e864116367a19331909351416dbe03f326c27f08e2b4ffe202fd92a396",
+      "descriptionSha256": "7b50ddb24f113bb289b20a0914456cce12697b2709e7ae53c48cf31bf1580649",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:warpmaster:current:class-feature:warp-talents",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level and every 3 levels thereafter, a warpmaster gains a warp talent from the list below. These are new ways in which the warpmaster’s unique relation to the space/time continuum can be expressed. Additional options become available at 6th and 9th levels.</p>\n<h4>Density Buster (Su)</h4>\n<p>“The only barrier to your blade is your own preconception.”</p>\n<p>As a free action a warpmaster can ignore 2 + his warpmaster level of DR and hardness with his nth-blade until the start of his next turn by spending 1 euclidean point. Once per day, a warpmaster can attempt an Intelligence check (DC 15) as part of this free action to grant himself a +5 on the amount of DR and hardness he can bypass.</p>\n<h4>Distort Distance (Su)</h4>\n<p>“In a two dimensional world depth is both infinite and null. In a three dimensional world one’s relative position on the plane of kata / ana is likewise infinite and null. So then, what is distance to one who moves in such directions?”</p>\n<p>When a creature within 30 feet of the warpmaster attempts to make a ranged attack, a warpmaster with this talent can spend 1 (or more) euclidean point to distort the distance between the attacker and his target as an immediate action. For every euclidean point he spends he adds 50 feet to the effective distance between the attacker and its target. If this distance would put the attack outside its maximum distance, the attack falls short. If it would still hit but it would impose penalties due to range increments, add those penalties to the attack roll.</p>\n<h4>Fill the Gaps</h4>\n<p>“The universe is filled with holes- gaps in reality where something needs to go.”</p>\n<p>The warpmaster gains 1 euclidean point whenever he confirms a critical hit with his nth-blade. In addition, the warpmaster gains a +2 insight bonus on confirmation rolls with his nth-blade.</p>\n<h4>Relativity (Su)</h4>\n<p>“All things are relative.”</p>\n<p>As part of an attack or full attack action a warpmaster can flex the relative distance between him and his target (compressing space from his perspective). This allows him to make melee attacks against any one creature within 30 feet of him until the end of the warpmaster’s turn. This costs 1 euclidean point per attack (this does not cost a move action). In addition, a warpmaster can expend euclidean points when making a ranged attack to reduce the distance between him and his target by 30 feet for every 1 point expended. This only reduces the distance for the purpose of determining the range increment and determining whether or not he can hit his target .</p>\n<h4>Spatial Soldier (Ex)</h4>\n<p>“Using no way as way, having no limitation as limitation.”</p>\n<p>A warpmaster’s unorthodox yet graceful combat style begins to manifest itself. The warpmaster gains the Weapon Finesse feat, but may only apply that feat’s benefit to his nth blade. He may apply the Weapon Finesse feat to his nth blade regardless of its handedness.</p>\n<h4>Strange Geometry (Su)</h4>\n<p>“The difference between very small things and very large things is simply a matter of where you are standing.”</p>\n<p>If the only movement taken by the warpmaster during their turn is a 5-foot step, they gain 1 point of euclidean energy.</p>\n<h4>Uncertainty Principle (Su)</h4>\n<p>“That which can be, may be.”</p>\n<p>A warpmaster deals in quantum mechanics and possibilities. By spending 1 euclidean point at the start of their turn as a free action, the warpmaster may take two turns by way of splitting himself. He may create a “possibility” (a second version of himself that is equally as real as he is) as a swift action. He may move each possibility independently and take both of their actions in any order he wishes. Each possibility is real until it or an object that was on its person comes into physical contact with another creature or if another creature makes contact with it (either with an appendage, hitting them with a ranged attack, or by giving them an item). Once one is declared as real, the other one ceases to exist. Regardless of interaction or lack thereof, he must select which possibility is real before the start of his turn. The declared “real” possibility does not have the memories or experience of the non-real one.</p>\n<h4>Warp Dance (Su)</h4>\n<p>“Speed is perception.”</p>\n<p>The warpmaster gains a +10 foot bonus to his base movement speed by taking advantage of tiny fluctuations in space/time. If the warpmaster is at least 9th level that bonus improves to a +15 bonus, if the warpmaster is at least 15th level it becomes a +20 foot bonus to this base movement speed.</p>\n<h3>6th level or higher</h3>\n<h4>Bend Light</h4>\n<p>“Perception is what we make of it.”</p>\n<p>By spending 1 euclidean point as a swift action the warpmaster becomes invisible (as per the spell invisibility) for a number of rounds equal to his Intelligence modifier.</p>\n<h4>Dimensional Slide (Su)</h4>\n<p>“Big and small, thick and thin- all things have their advantages and disadvantages.”</p>\n<p>By spending 1 euclidean point as a swift action the warpmaster can force his body and all of his equipment to become flat (nearly two-dimensional) for 1 minute. This grants him the ability to slip though cracks or other sorts of barriers with a width of less than 1 inch. While in this state he gains a +4 bonus on Stealth checks, +2 dodge bonus to his AC, and a -2 penalty on attack rolls. A warpmaster may end this prematurely as a swift action.</p>\n<h4>Escheresque (Su)</h4>\n<p>“What is up when down is right?”</p>\n<p>The warpmaster is treated as if he is constantly under the effects of a spider climb spell, unlike the spell he may have his hands free. He may suppress or reactivate this ability at will as a swift action.</p>\n<h4>Self-Tessellating Wormhole (Su)</h4>\n<p>“Space is like fabric. It may be rolled, bent, stitched, and torn.”</p>\n<p>After a successful bull rush or reposition combat maneuver that results in at least 5 feet of movement from the target, the warpmaster may spend 1 euclidean point as a free action to shove the creature into a tunnel of warped space. The creature falls 10d10 feet and is knocked prone if they do not make a Reflex save (DC 10 + 1/2 warpmaster level + Intelligence modifier). The creature takes falling damage but ends in the same square they were moved to. The warped tunnel appears as a tessellated image of the world around it, disorientingly spinning and shifting.</p>\n<h4>Unlogic Beam (Su)</h4>\n<p>“Logic, as understood by the uneducated, is a frail thing.”</p>\n<p>By spending 1 euclidean point as a swift action the warpmaster can fire a chaotic, bending, twisting, beam of energy that takes a random path to get to its target. To use this, the warpmaster makes a ranged touch attack against a target within 30 feet of him that ignores cover less than total cover. This beam deals 1d6 damage for every 2 levels of warpmaster. This damage is chaotically aligned and thus bypasses the corresponding damage reduction. It deals an extra 2d6 points of damage against all creatures of lawful alignment.</p>\n<h3>9th Level or higher</h3>\n<h4>God of Gravity (Su)</h4>\n<p>“Gravity is the kin of directionality and directionality is fluid when viewed from a non-euclidean view.”</p>\n<p>By spending 1 euclidean point as a swift action the warpmaster gains control over his own personal gravitational alignment for a number of rounds equal to his Intelligence modifier. This makes his personal gravity subjective to his will. This is similar to being on a plane with the subjective gravity trait. The warpmaster can move normally along a solid surface by imagining “down” near their feet. If suspended in midair, the warpmaster “flies” by merely choosing a “down” direction and “falling” that way. During such a procedure, a warpmaster “falls” 150 feet in the first round and 300 feet in each succeeding round. Movement is straight-line only. In order to stop, one has to slow one’s movement by changing the designated “down” direction (again, moving 150 feet in the new direction in the first round and 300 feet per round thereafter). It takes a DC 16 Wisdom check to set a new direction of gravity as a free action; this check can be made once per round. If the warpmaster fails this Wisdom check in successive rounds he receives a +6 bonus on subsequent checks until he succeeds.</p>\n<h4>Solidity (Su)</h4>\n<p>“Tangibility is only a problem for those who are so limited that they can only comprehend the concrete.”</p>\n<p>By spending 1 euclidean point as a swift action the warpmaster becomes incorporeal for a number of rounds equal to his Intelligence modifier.</p>\n<h4>Tesseract Breaker (Su)</h4>\n<p>“We mark ourselves with the tesseract to remind ourselves that, like us, it is a higher-dimensional shape given form on a plane lower than it.”</p>\n<p>A warpmaster can expend 1 euclidean point to gain the benefits of freedom of movement for a number of rounds equal to his Intelligence modifier and using his warpmaster level as his caster level.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/warpmaster#toc18\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/warpmaster#toc18"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

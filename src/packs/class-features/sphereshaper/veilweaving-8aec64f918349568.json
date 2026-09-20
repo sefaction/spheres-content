@@ -1,0 +1,121 @@
+{
+  "_id": "8aec64f918349568",
+  "_key": "!items!8aec64f918349568",
+  "name": "Sphereshaper: Veilweaving",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:sphereshaper:current:class-feature:veilweaving",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/sphereshaper#toc2",
+      "sourceSha256": "c23a646cde8b595cbe6b0453c314bcf89c367047eaad208fb674b6f9e40b8179",
+      "descriptionSha256": "c3886b0a0ac7747fe5d7c39224f9ff39425a3f39654a82551a69e165ded2ae16",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:sphereshaper:current:class-feature:veilweaving",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A sphereshaper’s primary ability is shaping the magical essence known as akasha into powerful veils, which are drawn from the sphereshaper veil list. The sphereshaper knows and can shape any veil from this list. The DC for a saving throw against a veil’s abilities is 10 + the number of points of essence invested in the veil + their Intelligence modifier. They can only shape a certain number of veils per day (see veilweaving table below). Veils are constructs of pure magic and, as such, are suppressed while in the area of an antimagic field or similar phenomena.</p>\n<p>At 1st level they also gains access to a personal pool of essence, which can be invested into veils to increase their power. The amount of available essence is listed in the table below; the sphereshaper’s character level determines the maximum quantity of essence they can invest in any single veil or other receptacle. As a swift action, the sphereshaper can reallocate their essence investments into their veils every round. A sphereshaper must have at least 8 hours rest or meditation to achieve a clear and focused state, and must meditate for one hour to shape their veils for the day. During this time they unshape any previously formed veils and constructs the ones chosen. At the end of the hour, all effects of unshaped veils end and the effects of all newly formed veils take effect.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/sphereshaper#toc2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/sphereshaper#toc2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

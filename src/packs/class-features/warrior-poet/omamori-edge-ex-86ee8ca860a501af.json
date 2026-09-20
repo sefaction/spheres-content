@@ -1,0 +1,121 @@
+{
+  "_id": "86ee8ca860a501af",
+  "_key": "!items!86ee8ca860a501af",
+  "name": "Warrior Poet: Omamori Edge (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:warrior-poet:current:class-feature:omamori-edge-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/warrior-poet#toc13",
+      "sourceSha256": "697e33783b9a53a1f33fd3d245501d6bb4784eedaf5b1154079f74af0050473d",
+      "descriptionSha256": "87d05265bc6993c7ed3d52b7bbc2bc22cda050f7de791440b3a8b426ac969ceb",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:warrior-poet:current:class-feature:omamori-edge-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Starting at 4th level, the warrior poet gains the ability to place an omamori talisman onto a weapon as though it were a willing creature. This is a standard action that consumes one of the warrior poet’s daily uses of the talisman class feature; however, the placed talisman is inactive. While inactive, it elicits no effect and does not consume its limited duration. A weapon may only have a single omamori talisman placed upon it in this manner at any one time.</p>\n<p>As a swift action, the warrior poet may attack with a weapon upon which he has placed an inactive omamori talisman. On a successful hit, the inactive talisman is placed upon the struck creature and activates. On a failed attack, if the attack was a melee attack, the talisman remains inactive on the weapon; however, if the failed attack was a ranged attack, the inactive talisman launches with the ammunition and must be retrieved if a second attempt to activate it is desired. If the fired ammunition is destroyed on impact, then the talisman is also lost.</p>\n<p>Only attacks made using omamori edge can move the placement of an inactive talisman from a weapon to a creature. If the warrior poet attacks a willing creature with omamori edge (perhaps in an attempt to place a talisman quickly), he may withhold his weapon’s enhancement bonus to damage, as well as any positive ability modifiers to his damage roll.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/warrior-poet#toc13\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/warrior-poet#toc13"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

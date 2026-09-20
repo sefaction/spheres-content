@@ -143,3 +143,16 @@ No content compatibility claim has been added.
 Changes, conditional notes, effects, actions, scripted automation and
 caster progression remain empty/deferred. Do not treat old empty-shell acceptance
 as acceptance of this content batch.
+
+## Alpha.4 systematic intake acceptance
+
+Local gates cover all canonical records, asset encodings/size budgets, exact
+compiled round trips and deterministic archives. Parser regressions cover edition
+boundaries, nested text, sanitization, Unicode names/weights, kit/weapon holds,
+stale rights/reviews and progression-table grants. Runtime acceptance is pending.
+
+Remote checks must cover all five packs and representative class, class-feature,
+feat, Guile talent, loot, consumable and wondrous-equipment sheets; verify native
+source labels, 256-pixel WebP images, search, import and new-pack discovery.
+Class links, new actions and modifiers remain empty by design pending review.
+Optional-module contracts have only source review and require separate tests.

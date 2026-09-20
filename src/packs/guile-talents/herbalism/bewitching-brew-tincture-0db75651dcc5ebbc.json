@@ -1,0 +1,124 @@
+{
+  "_id": "0db75651dcc5ebbc",
+  "_key": "!items!0db75651dcc5ebbc",
+  "name": "Bewitching Brew (tincture)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:bewitching-brew-tincture",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc21",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "dd01de081c8b9ce0ef4697a933e18516fa5acf4066d1aa61b5a8361213feff81",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Concoction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:bewitching-brew-tincture",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p><strong>Cost:</strong> 3 herbs or 1 esoteric herb.</p>\n<p>This tincture grants the imbiber a +1 alchemical bonus to Spellcraft and Use Magic Device checks for 10 minutes. This bonus increases by +1 for every 5 associated ranks you possess.</p>\n<p>Whenever the imbiber would lose spell points (or a spell slot) due to failing a concentration check, they can attempt a Will saving throw (DC equal to 15 + half the effect’s caster level). On a success, they retain the spell points (or spell slot) spent.</p>\n<p><strong>Twists</strong></p>\n<ul>\n<li><strong>1 bitter herb:</strong> The imbiber ignores the effects of any ability damage or drain affecting their mental ability scores.</li>\n<li><strong>1 dry herb:</strong> The alchemical bonus granted by this tincture also applies to saving throws made against magical effects (such as spells, spell-like abilities, magical sphere abilities, and supernatural effects).</li>\n<li><strong>1 intense herb:</strong> Once per hour, the imbiber can reduce the spell point cost of a magical sphere ability they cast by 1 (minimum 1 spell point).</li>\n<li><strong>1 savory herb:</strong> The duration of the tincture increases to 1 hour.</li>\n<li><strong>1 sweet herb:</strong> The imbiber does not need to attempt a Will save to retain lost spell points if the magical sphere effect only costs 1 spell point–if it requires more than 1 spell point, the imbiber retains 1 spell point even on a failed save.</li>\n<li><strong>1 tainted herb:</strong> Whenever the imbiber suffers damage, they must succeed at a Fortitude save or treat the damage as if it were continuous for the purposes of concentration checks for a number of rounds equal to your operative modifier (minimum 1). If the imbiber would suffer a greater amount of damage during this time, they must attempt another Fortitude save or have the concentration DC change to account for the new damage value.</li>\n</ul>\n<p><strong>Special:</strong> If you created this tincture with an esoteric herb, its duration is increased as though the esoteric herb were added to the tincture as a twist.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc21\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc21"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

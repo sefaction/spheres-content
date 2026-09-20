@@ -1,0 +1,121 @@
+{
+  "_id": "fa27706317e8c74d",
+  "_key": "!items!fa27706317e8c74d",
+  "name": "Shadow Weaver: Weave Reality (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:shadow-weaver:current:class-feature:weave-reality-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/shadow-weaver#toc24",
+      "sourceSha256": "eb1e6713bc5760294dd23f78342e230321fdd3a81f84ef1f016d25ed9a577b6d",
+      "descriptionSha256": "4eb97851582ba546196dc166dec294a53f16b9d81e1849db87dfacde6a9339c3",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:shadow-weaver:current:class-feature:weave-reality-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Starting at 2nd level, a shadow weaver learns to manipulate the boundaries between opposing aspects of reality with sheer force of will once per day. If a weave reality ability allows a saving throw, the DC is 10 + 1/2 shadow weaver level + shadow weaver's Wisdom modifier. At 5th level and every five levels thereafter, she can use this ability an additional time per day.</p>\n<h4>Overwhelm Disbelief</h4>\n<p>The shadow weaver can overwhelm another creature's willpower with her own belief in her shadow illusions. When a creature succeeds on a Will saving throw to disbelieve the shadow weaver's shadow illusion, the shadow weaver can make a Will saving throw as an immediate action if the shadow weaver is adjacent to the creature, if the creature is under an enchantment created by the shadow weaver, or if the creature is demoralized. If the shadow weaver's result is higher than the disbelieving creature's result, the shadow illusion has its full effect as if the creature had not disbelieved it. If multiple appropriate creatures disbelieve an illusion at the same instant (for example, if all are caught in the same false evocation I emulating burning hands), the shadow weaver can apply her single Will saving throw result against all the disbelieving creatures' Will saves with one immediate action.</p>\n<h4>Luminous Duality</h4>\n<p>At 3rd level, the shadow weaver can manipulate the duality between light and darkness as a standard action. The shadow weaver targets two areas within 30 feet, each of up to one 10-foot cube per caster level. The areas can be shaped and each cannot extend across multiple illumination levels. If one area is at least two steps brighter or dimmer than the other, one area becomes one step dimmer and the other becomes one step brighter. This change lasts for 1 round per caster level. This ability cannot result in supernatural darkness unless the shadow weaver is at least 6th level. This is neither a light effect nor a darkness effect.</p>\n<h4>Vital Duality</h4>\n<p>At 8th level, a shadow weaver can manipulate the duality between positive and negative energy as a standard action. The shadow weaver targets two living or undead creatures within 30 feet. If both targets are alive or both targets are undead, one of the shadow weaver's choice suffers 1d6 points of damage per two shadow weaver levels and the other is healed of half that amount. Any that would be healed in excess of a creature's maximum hit points are instead gained at temporary hit points that last for 1 hour. If one target is alive and the other is undead, both suffer damage in the full amount. Both targets may attempt a Will saving throw. If one succeeds, the amount of damage dealt or healed for both is reduced by half. The manipulation is negated if both targets succeed.</p>\n<h4>Energy Duality</h4>\n<p>At 10th level, a shadow weaver can create an echo of energy opposing an energy that she has recently witnessed. Within 1 round of being within 30 feet of an acid, cold, electricity, fire, negative energy, or positive energy effect, the shadow weaver can produce a 30-foot cone of energy as a standard action. The cone deals 1d4 points of damage per shadow weaver level of the opposite type from the following pairs: acid opposes electricity; cold opposes fire; negative energy opposes positive energy. Creatures caught in the cone can halve the damage with a successful Reflex saving throw.</p>\n<p>Positive energy heals living creatures instead of damaging them and negative energy heals undead creatures instead of damaging them. Constructs are unaffected by positive and negative energy.</p>\n<h4>Overrule Reality</h4>\n<p>At 16th level, a shadow weaver can infuse reality with shadowstuff that is fully subject to her will as a standard action. She can target one creature or one object of up to 10 feet per level in each dimension within 30 feet. That creature or object becomes quasireal.</p>\n<p>A creature or magic item can resist with a Will saving throw. A creature whose disbelief the shadow weaver overwhelmed with her overwhelm disbelief ability within the previous round does not receive a saving throw. An affected subject becomes only 60% real, as if a creature produced by greater shadow conjuration, although it is not itself magical and cannot be dispelled and its hit points are not affected. If the shadow weaver has an ongoing shadow illusion, she can choose one such illusion to gain the stolen reality, effectively becoming 20% more real (to a maximum of 100%). Overrule reality lasts for 1 round per shadow weaver level or until the shadow spell ends, whichever is longer.</p>\n<h4>Weave Matter</h4>\n<p>At 18th level, a shadow weaver can draw upon conflicting matter to combine it into a new whole as a standard action. She can target one creature or objects with total volume no greater than one 10-foot cube per shadow weaver level to modify as described in polymorph any object. The resulting form must be of the same size category.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/shadow-weaver#toc24\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/shadow-weaver#toc24"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "1009ba227ef6a6f9",
+  "_key": "!items!1009ba227ef6a6f9",
+  "name": "Warden: Guard (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:warden-class:ultimate:class-feature:guard-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/warden-class#toc8",
+      "sourceSha256": "5ec7a026bd34b0e498170154cf025cfa18b23f2164652510e86ad8275e481a78",
+      "descriptionSha256": "6261b4c53cf09d4d9afb731285116e32b16f7d7e9fb930fa19c5ca0910455054",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:warden-class:ultimate:class-feature:guard-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level, as a standard action (or as a swift action by spending a spell point), the warden can form a mystical bond with a single ally within 30 feet, making them the warden’s guarded ally. A guarded ally gains a +1 bonus to their AC. This bonus increases by 1 at 6th level and every four levels thereafter. The ally retains these benefits until the warden chooses a new guarded ally, or when he would fall unconscious or be killed.</p>\n<p>A creature can only benefit from one guard at a time. If a second guard would be established on the creature, the caster must attempt a magic skill check against the MSD of the original caster of guard. If the creature succeeds, the original guard is removed, and is no longer considered the guarded ally of the original warden. If the creature fails, their guard attempt has no effect.</p>\n<p>The bonus to AC granted by this ability is considered the warden’s guard bonus for the purpose of the warden’s class abilities.</p>\n<p><strong>Note:</strong> The range on this ability is for creating a guard. Once the guard is established, creatures benefiting from it can move beyond the creation range.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/warden-class#toc8\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/warden-class#toc8"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

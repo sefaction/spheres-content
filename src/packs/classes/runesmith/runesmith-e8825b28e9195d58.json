@@ -1,0 +1,140 @@
+{
+  "_id": "e8825b28e9195d58",
+  "_key": "!items!e8825b28e9195d58",
+  "name": "Runesmith",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:runesmith:current:class:runesmith",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/runesmith",
+      "sourceSha256": "83bfce5219d34ad82efc4d451184f1ede94ea72afe648f4d1f4e7781fb286047",
+      "descriptionSha256": "bea03121ccd30872ebf8deb005fb0d921e1d2e309a8028c0b2b022903af25702",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:runesmith:current:class:runesmith",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Role:</strong> Dependent as they are upon physical aids, runesmiths are, by necessity, proficient with a wide array of equipment. This makes them competent in a pitched battle, while also indispensable as arcane support.</p>\n<p><strong>Alignment:</strong> Any. Specialist arcane trades appeal to everyone from the righteous soul to the depraved lunatic.</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 4d6 × 10 gp (average 140 gp.) In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> Appraise (Int), Craft (any) (Int), Disable Device (Dex), Knowledge (arcana) (Int), Knowledge (engineering) (Int), Knowledge (planes) (Int), Linguistics (Int), Perception (Wis), Profession (Wis), Spellcraft (Int), and Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks per Level:</strong> 4 + Int modifier.</p>\n<h1>Class Features</h1>\n<strong>Table: The Runesmith</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Ref Save</th>\n<th>Will Save</th>\n<th>Special</th>\n<th>Least Insc. Slots</th>\n<th>Lesser Insc. Slots</th>\n<th>Greater Insc. Slots</th>\n<th>Grandmaster Insc. Slots</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+2</td>\n<td>+2</td>\n<td>+2</td>\n<td>Methodology, Runes</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+3</td>\n<td>+3</td>\n<td>+3</td>\n<td>Practiced Stribe</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+2</td>\n<td>+3</td>\n<td>+3</td>\n<td>+3</td>\n<td>Woven Magic +1</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+3</td>\n<td>+4</td>\n<td>+4</td>\n<td>+4</td>\n<td>Modify Runes (1/day)</td>\n<td>4</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+3</td>\n<td>+4</td>\n<td>+4</td>\n<td>+4</td>\n<td>-</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+4</td>\n<td>+5</td>\n<td>+5</td>\n<td>+5</td>\n<td>Compound Runes (1/day)</td>\n<td>4</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+5</td>\n<td>+5</td>\n<td>+5</td>\n<td>+5</td>\n<td>Woven Magic +2</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+6/+1</td>\n<td>+6</td>\n<td>+6</td>\n<td>+6</td>\n<td>Modify Runes (2/day)</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+6/+1</td>\n<td>+6</td>\n<td>+6</td>\n<td>+6</td>\n<td>Rune Mastery</td>\n<td>5</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+7/+2</td>\n<td>+7</td>\n<td>+7</td>\n<td>+7</td>\n<td>Compound Runes (2/day)</td>\n<td>5</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+8/+3</td>\n<td>+7</td>\n<td>+7</td>\n<td>+7</td>\n<td>Woven Magic +3</td>\n<td>5</td>\n<td>2</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+9/+4</td>\n<td>+8</td>\n<td>+8</td>\n<td>+8</td>\n<td>Modify Runes (3/day)</td>\n<td>6</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+9/+4</td>\n<td>+8</td>\n<td>+8</td>\n<td>+8</td>\n<td>Rune Mastery</td>\n<td>6</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+10/+5</td>\n<td>+9</td>\n<td>+9</td>\n<td>+9</td>\n<td>Advanced Compound Runes (1/day)</td>\n<td>6</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+11/+6/+1</td>\n<td>+9</td>\n<td>+9</td>\n<td>+9</td>\n<td>Woven Magic +4</td>\n<td>6</td>\n<td>3</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+12/+7/+2</td>\n<td>+10</td>\n<td>+10</td>\n<td>+10</td>\n<td>Modify Runes (4/day)</td>\n<td>6</td>\n<td>3</td>\n<td>3</td>\n<td>-</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+12/+7/+2</td>\n<td>+10</td>\n<td>+10</td>\n<td>+10</td>\n<td>-</td>\n<td>6</td>\n<td>4</td>\n<td>2</td>\n<td>1</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+13/+8/+3</td>\n<td>+11</td>\n<td>+11</td>\n<td>+11</td>\n<td>Compound Runes (3/day)</td>\n<td>6</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+14/+9/+4</td>\n<td>+11</td>\n<td>+11</td>\n<td>+11</td>\n<td>Woven Magic +5</td>\n<td>6</td>\n<td>4</td>\n<td>3</td>\n<td>2</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+15/+10/+5</td>\n<td>+12</td>\n<td>+12</td>\n<td>+12</td>\n<td>Modify Runes (5/day), Ur Rune</td>\n<td>6</td>\n<td>4</td>\n<td>3</td>\n<td>2</td>\n</tr>\n</tbody></table>\n<h2>Weapon Proficiency</h2>\n<p>Runesmiths are proficient with simple weapons.</p>\n<h2>Armor and Shield Proficiency</h2>\n<p>Runesmiths are proficient with light and medium armor, as well as shields, but not tower shields. A runesmith wielding a shield or wearing armor with which he is not proficient increases the inscription point cost of all rune activations (see below) by +1 inscription point.</p>\n<h2>Methodology (Ex)</h2>\n<p>At 1st level, choose one of the following methodologies, which represent the way the runesmith tends to prepare his runes. He gains the corresponding weapon proficiencies.</p>\n<ul>\n<li><strong>Calligraphy:</strong> The runesmith is proficient with the switchblade knife and the whip.</li>\n<li><strong>Chiseling:</strong> The runesmith is proficient with the light hammer, the warhammer, the lucerne hammer, and the maul.</li>\n<li><strong>Fingerpainting:</strong> The runesmith gains Improved Unarmed Strike as a bonus feat.</li>\n<li><strong>Gouging:</strong> The runesmith is proficient with light picks, heavy picks, and the pickaxe.</li>\n<li><strong>Painting:</strong> The runesmith is proficient with the starknife and the syringe spear.</li>\n</ul>\n<h2>Runes</h2>\n<p>A runesmith's primary source of power stems from his knowledge of transcribed magical glyphs, known within his profession as runes. Much like a wand that needs charged before each use, a rune acts as a magical capacitor and transformer of sorts, shaping raw magical energy to some specific purpose. To that end, a rune is of little use without a source of said raw magical energy generally a runesmith on hand to do the channeling, and few runes make their way to magical emporiums as a result.</p>\n<h3>Learning Runes</h3>\n<p>A runesmith knows runes drawn from the runesmith rune list. A runesmith begins play with three runes, and learns an additional rune at each new runesmith level. Of these known runes, he can inscribe a number per day as dictated by <strong>Table: The Runesmith</strong>.</p>\n<p>Runes come in two varieties: equipment and projection, and are further divided by power level, which in increasing order of relative power are Least, Lesser, Greater, and Grandmaster. Most runes are compatible with multiple power levels, and each individual power level is referred to as a variant. A runesmith must be able to inscribe runes of the lowest variant available to a particular rune in order to learn it. For example, as a rune of frost can be inscribed at any power level, a runesmith of any level may learn it; however, given temper can only be inscribed as a Lesser rune or a Greater rune, then a runesmith must be able to inscribe Lesser runes to learn it.</p>\n<h4>Equipment Runes</h4>\n<p>Equipment runes are inscribed upon gear, such as weapons, armor, and hats. Each individual rune indicates the type or types of equipment with which it is compatible. Only a single equipment rune can be present on an item at any one time, and most equipment runes grant a passive bonus to the wearer of that item. If the runesmith who inscribed the equipment rune is within Close range (25 feet + 5 feet/2 levels) of said rune, he may activate it (see below). Activation effects vary, but are generally short-lived, far-superior variants of the passive ability.</p>\n<p>Because runes of great power tend to interfere with extant magical fields, only Least equipment runes may be inscribed upon magic items. By the same token, equipment inscribed with a Lesser, Greater, or Grandmaster equipment rune gains no benefit from spells and spell-like abilities that grant a bonus, be it an enhancement bonus, a weapon special ability, or otherwise, to weapons.</p>\n<h4>Projection Runes</h4>\n<p>Unlike equipment runes, projection runes work regardless of the object on which they are inscribed. As such, runesmiths carry them about in sketch pads, on small pieces of stone, or other portable media. They grant no passive bonus, and are unusable by anyone other than the inscribing runesmith. When a projection rune is presented in one hand and activated (see below), it glows and shoots forth magical energy in a cone or burst. The radii of two projections with the same name cannot overlap. Though they have no passive effect, the latent magic of creation sets a projection's activation cost to 0 the first time it is activated each day.</p>\n<h3>Inscribing Runes</h3>\n<p>A runesmith begins play with the ability to inscribe Least runes. He gains the ability to inscribe Lesser runes at 5th level, the ability to inscribe Greater runes at 11th level, and the ability to inscribe Grandmaster runes at 17th level.</p>\n<p>The number of runes a runesmith can inscribe each day is based on his class level (see <strong>Table: The Runesmith</strong>). Each morning, a runesmith may spend 1 hour inscribing up to that many runes, a process which renders useless any runes he inscribed on previous days. Given the transient nature of inscribed runes, inscription tends not to be done with stone, hammer, and chisel, but rather with blood, ink, charcoal, paint, or some other, semipermanent means; that said, some staunch traditionalists still do chisel.</p>\n<p>An individual cannot gain benefit from runes that have been inscribed upon equipment with which he is not proficient.</p>\n<h3>Activating Runes</h3>\n<p>All runes have an activation time, as well as an activation cost. The activation cost of runes is paid with inscription points from the runesmith's inscription pool. Activation times of a swift action, immediate action, or free action do not provoke attacks of opportunity. All other activation times do. The Difficulty Class for any saving throw called for by a rune is equal to 10 + 1/2 the runesmith's class level + the runesmith's Intelligence modifier.</p>\n<h3>Counterspelling and Dispelling Runes</h3>\n<p>Equipment runes are treated as magic items for the purpose of interacting with effects that hinder magic, such as dispel magic or antimagic field. If an equipment rune is suppressed while an activation effect is ongoing, its duration continues to elapse while suppressed. The effective caster level of an item with an equipment rune is equal to the runesmith level of its inscriber.</p>\n<p>Projection runes are so similar to classical magic that they are treated as arcane spells, save that they are not subject to arcane spell failure. This means that projection runes can be cast on the defensive in order to avoid provoking attacks of opportunity, using the runesmith's class level as his caster level. Additionally, a runesmith who knows at least one projection rune is considered to be an arcane spellcaster. Each projection rune has a spell school, and can be counterspelled or dispelled just like any other arcane spell. See <strong>Table: Rune/Spell Equivalence</strong> (below) for a rune's spell level equivalent for the purpose of counterspelling, dispelling, and defensive casting. The caster level of a projection rune is equal to the runesmith level of its projector.</p>\n<h3>Runes and Meeting Feat and Archetype Requirements</h3>\n<p>For the purpose of meeting the prerequisites of feats and archetypes, a runesmith has a caster level equal to his runesmith level. In addition, for the purpose of the aforementioned prerequisites, a runesmith is considered to have equivalent spellcasting as detailed in <strong>Table: Rune/Spell Equivalence</strong> below. Note that since runesmiths don't cast actual spells, feats and prestige classes that grant arcane spell progression, additional spells known, or any other feature or ability linked to standard arcane magic doesn't grant a runesmith any benefit, with the exception of runesmiths who have gained standard arcane magic from another source.</p>\n<strong>Table: Rune/Spell Equivalence</strong>\n<table>\n<tbody><tr>\n<th>Variant</th>\n<th>Spell Level Equivalent</th>\n</tr>\n<tr>\n<td>Least</td>\n<td>1st</td>\n</tr>\n<tr>\n<td>Lesser</td>\n<td>3rd</td>\n</tr>\n<tr>\n<td>Greater</td>\n<td>6th</td>\n</tr>\n<tr>\n<td>Grandmaster</td>\n<td>8th</td>\n</tr>\n</tbody></table>\n<h2>Inscription Pool (Su)</h2>\n<p>At 1st level, a runesmith gains a pool of inscription points, literally a measure of his ability to pump raw magic into the runes he creates. The number of points in a runesmith's inscription pool is equal to twice his runesmith level + his Intelligence modifier. Inscription points are used to pay for the activation costs of the runesmith's runes.</p>\n<p>The inscription pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive.</p>\n<h2>Practiced Scribe (Ex)</h2>\n<p>At 2nd level, a runesmith gains a bonus equal to half his runesmith level, rounded down, to Linguistics and Profession (scribe) skill checks.</p>\n<h2>Woven Magic (Su)</h2>\n<p>Starting at 3rd level, a runesmith can apply Lesser, Greater, and Grandmaster equipment runes to magic weapons and armor with a +1 enhancement modifier. All special abilities present on weapons and armor to which a Lesser, Greater, or Grandmaster rune has been inscribed are suppressed for as long as that rune persists. At 7th level and every four runesmith levels thereafter, the maximum enhancement modifier of magic weapon or armor to which Lesser, Greater, and Grandmaster equipment runes may be added with no restriction increases by +1, to a maximum of +5 at 19th level.</p>\n<h2>Modify Runes (Sp)</h2>\n<p>Starting at 4th level, a runesmith may transform one of his inscribed runes within 30 feet to another rune of the same power level and type that he knows. This is a full-round action that provokes attacks of opportunity. For example, a Lesser projection rune must be changed into another Lesser projection rune. Compound runes and ur runes cannot be modified.</p>\n<p>A runesmith may use this ability once per day for every four runesmith levels he possesses.</p>\n<h2>Compound Runes</h2>\n<p>At 6th level, whenever a runesmith inscribes his runes for the day, he may inscribe two Least equipment runes on the same item as though they were a single Lesser rune. Similarly, he may inscribe two Least projection runes as though they were a single Lesser rune. Activating a combined rune activates both runes at once. The activation cost is equal to the greater of the activation costs of the two runes, and the activation time is equal to the greater of the activation times of the two runes.</p>\n<p>A runesmith may inscribe a single compound rune per day at 6th level, two per day at 10th level, and three per day at 18th level.</p>\n<h2>Rune Mastery (Ex)</h2>\n<p>At 9th level, the runesmith gains a +1 luck bonus to saving throws against spells and abilities with a writing motif, such as <em>symbol of death</em>, <em>symbol of insanity</em>, <em>sepia snake sigil</em>, and <em>explosive runes</em>. In addition, if a spell with a writing motif normally allows no saving throw, then the runesmith is entitled to a Will save to stare the spell down and negate it. If the runesmith is the only individual who would be affected by a spell that he negates in this manner, the spell retroactively fails to trigger, and cannot trigger upon the runesmith again for 24 hours. At 13th level, this luck bonus improves to +2.</p>\n<h2>Advanced Compound Rune</h2>\n<p>At 14th level, whenever a runesmith inscribes his runes for the day, he may inscribe two Lesser equipment runes on the same item as though they were a single Greater rune. Similarly, he may inscribe two Lesser projection runes as though they were a single Greater rune. This consumes a Greater inscription slot. Activating a combined rune activates both runes at once. The activation cost is equal to the greater of the activation costs of the two runes, and the activation time is equal to the greater of the activation times of the two runes.</p>\n<p>A runesmith may inscribe a single advanced compound rune per day.</p>\n<h2>Ur Rune</h2>\n<p>At 20th level, whenever a runesmith inscribes his runes for the day, he may inscribe a Least, a Lesser, and a Greater equipment rune on the same item as though they were a single Grandmaster rune. Similarly, he may inscribe a Least, a Lesser, and a Greater projection rune as though they were a single Grandmaster rune. This consumes a Grandmaster inscription slot. Activating an ur rune activates all three runes at once. The activation cost is equal to the greatest of the activation costs of the three runes, and the activation time is equal to the greatest of the activation times of the three runes.</p>\n<p>A runesmith may inscribe a single ur rune per day.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/runesmith\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "high"
+      },
+      "ref": {
+        "value": "high"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "alignment": "Any. Specialist arcane trades appeal to everyone from the righteous soul to the depraved lunatic.",
+    "wealth": "4d6 * 10",
+    "classSkills": {
+      "apr": true,
+      "crf": true,
+      "dev": true,
+      "kar": true,
+      "ken": true,
+      "kpl": true,
+      "lin": true,
+      "per": true,
+      "pro": true,
+      "spl": true,
+      "umd": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/runesmith"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

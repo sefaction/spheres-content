@@ -1,0 +1,121 @@
+{
+  "_id": "b67c41d5d606991f",
+  "_key": "!items!b67c41d5d606991f",
+  "name": "Gourmend: Culinary Bond (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:gourmend:current:class-feature:culinary-bond-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/gourmend#toc12",
+      "sourceSha256": "487c9fa5830ecdf4b248fa31cde3110849f5f37b0c3c2e09654b5a8c67186795",
+      "descriptionSha256": "9b7faeb736413bcbf01f7d7984bf5439e4149f577b2916d5afdabe98434f1832",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:gourmend:current:class-feature:culinary-bond-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level, a gourmend builds a familiar for herself out of foodstuffs. A gourmend's familiar follows the same rules as a wizard's familiar, with the exception that it uses the progression table shown below and that, should she lose her familiar, she can cook a new one in a process that requires 8 hours. The replacement cost for a gourmend's familiar is the same as the replacement cost for a wizard's familiar.</p>\n<strong>Table: The Culinary Familiar</strong>\n<table>\n<tbody><tr>\n<th>Master Class Level</th>\n<th>Natural Armor Adj.</th>\n<th>Intelligence</th>\n<th>Special</th>\n</tr>\n<tr>\n<td>1st-2nd</td>\n<td>+1</td>\n<td>6</td>\n<td>Empathic link, familiar construction, improved evasion</td>\n</tr>\n<tr>\n<td>3rd-4th</td>\n<td>+2</td>\n<td>7</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5th-6th</td>\n<td>+3</td>\n<td>8</td>\n<td>Speak with master</td>\n</tr>\n<tr>\n<td>7th-8th</td>\n<td>+4</td>\n<td>9</td>\n<td>Speak with animals of its kind, speak with constructs of its material</td>\n</tr>\n<tr>\n<td>9th-10th</td>\n<td>+5</td>\n<td>10</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11th-12th</td>\n<td>+6</td>\n<td>11</td>\n<td>Spell resistance</td>\n</tr>\n<tr>\n<td>13th-14th</td>\n<td>+7</td>\n<td>12</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15th-16th</td>\n<td>+8</td>\n<td>13</td>\n<td>-</td>\n</tr>\n<tr>\n<td>17th-18th</td>\n<td>+9</td>\n<td>14</td>\n<td>-</td>\n</tr>\n<tr>\n<td>19th-20th</td>\n<td>+10</td>\n<td>15</td>\n<td>-</td>\n</tr>\n</tbody></table>\n<h3>Familiar Construction</h3>\n<p>In order to create her familiar, a gourmend must first choose the means by which she will do so. The gourmend selects one of her known major culinary skillsets, granting the familiar the ability corresponding to that skillset, below.</p>\n<p>When making her familiar, the gourmend chooses the shape it will take. While within 1 mile of her familiar, she gains the special ability corresponding to that species of animal (<a href=\"http://www.d20pfsrd.com/bestiary/monster-listings/animals/familiar/\">see this table</a>). For example, the gourmend may choose to make a toad out of candy, thus gaining the special ability from having a toad familiar, as well as the benefits of having a familiar created with candymaking.</p>\n<p>Despite their artificial origins, gourmend familiars are treated as the creature type(s) of the creature in whose form they are shaped.</p>\n<ul>\n<li><strong>Baking:</strong> The familiar produces two doughballs for its master whenever she uses the find herbs class feature to find her herbalism plants for the day.</li>\n<li><strong>Candymaking:</strong> The familiar has a truffle socket on its body. Any truffle socketed into the familiar triggers on a successful natural attack.</li>\n<li><strong>Cheesemaking:</strong> Once per day, if the master is within reach, the familiar may feed its master a piece of its body as a standard action, healing her for 1d8 + the master's gourmend level points of damage. Starting at 11th level, the familiar may feed its master twice per day. Levels in other classes that grant the use of familiars stack for the purpose of this ability.</li>\n<li><strong>MEAT!:</strong> When making her familiar, the gourmend chooses a species of animal that can become a familiar. Her familiar is built out of meat from that species, granting the special ability corresponding to that species. For example, if the gourmend makes a familiar out of bat meat in the shape of a toad, then her familiar is treated as a toad that grants both the toad and bat species-defined special abilities. Familiar special abilities do not stack.</li>\n<li><strong>Preservation:</strong> The familiar contains a compartment that the master can use as though it were a cultivation pot that can hold a single 1point herbalism plant or plant product.</li>\n</ul>\n<h3>Familiar Basics</h3>\n<p>Use the basic statistics for a creature of the familiar’s kind, but with the following changes.</p>\n<p><strong>Hit Dice:</strong> For the purpose of effects related to number of Hit Dice, use the master’s character level or the familiar’s normal HD total, whichever is higher.</p>\n<p><strong>Hit Points:</strong> The familiar has half the master’s total hit points (not including temporary hit points), rounded down, regardless of its actual Hit Dice.</p>\n<p><strong>Attacks:</strong> Use the master’s base attack bonus, as calculated from all his classes. Use the familiar’s Dexterity or Strength modifier, whichever is greater, to calculate the familiar’s melee attack bonus with natural weapons. Damage equals that of a normal creature of the familiar’s kind.</p>\n<p><strong>Saving Throws:</strong> For each saving throw, use either the familiar’s base save bonus (Fortitude +2, Reflex +2, Will +0) or the master’s (as calculated from all her classes), whichever is better. The familiar uses its own ability modifiers to saves, and it doesn’t share any of the other bonuses that the master might have on saves.</p>\n<p><strong>Skills:</strong> For each skill in which either the master or the familiar has ranks, use either the normal skill ranks for an animal of that type or the master’s skill ranks, whichever is better. In either case, the familiar uses its own ability modifiers. Regardless of a familiar’s total skill modifiers, some skills may remain beyond the familiar’s ability to use. Familiars treat Acrobatics, Climb, Fly, Perception, Stealth, and Swim as class skills.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/gourmend#toc12\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/gourmend#toc12"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

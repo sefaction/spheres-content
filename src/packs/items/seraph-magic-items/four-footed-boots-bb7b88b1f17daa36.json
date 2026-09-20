@@ -1,0 +1,162 @@
+{
+  "_id": "bb7b88b1f17daa36",
+  "_key": "!items!bb7b88b1f17daa36",
+  "name": "Four-Footed Boots",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:seraph-magic-items:current:item:four-footed-boots",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/seraph-magic-items#toc7",
+      "sourceSha256": "994da972c7ab74d9069ebfee83aed99914a3216a9a3919c5de0bae8133f9be43",
+      "descriptionSha256": "3a7681cdaa5d3822d0645ffd12a076fc247d3f189ef8046b49a42db8d6f19ee9",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "seraph-magic-items",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:seraph-magic-items:current:item:four-footed-boots",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint transmutation (CL 5th); <strong>Cost</strong> 4,000 GP<br>\n<strong>Slot</strong> feet <strong>Weight</strong> 4 lbs.<br>\nThese sturdy leather boots have steel toes and reinforced heels. When the wearer speaks a command word, duplicate shins and feet sprout from the wearer’s knees, providing him with an awkward gait but the stability of having four feet. The wearer’s base land speed is reduced by 5 feet, to a minimum of 5 feet. The wearer is treated as a quadruped for determining carrying capacity and receives a +4 competence bonus on Acrobatics checks to keep his balance and a +4 competence bonus to his Combat Maneuver Defense when resisting a bull rush, reposition, or trip attempts while standing on the ground. The four-footed boots remain on the wearer’s original feet and, despite having an extra pair of feet, the wearer doesn’t gain another feet magic item slot. The wearer can remain in four-footed form for up to 5 hours per day. This duration need not be consecutive, but it must be used in 1-hour increments.<br>\n<strong>Construction Requirements</strong><br>\n2,000 gp; Craft Wondrous Item, beast shape I</p>\n<p><a href=\"http://spheresofpower.wikidot.com/seraph-magic-items#toc7\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 4
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 4000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "feet",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/seraph-magic-items#toc7"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

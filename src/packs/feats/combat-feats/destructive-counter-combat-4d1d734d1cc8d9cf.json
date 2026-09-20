@@ -1,0 +1,121 @@
+{
+  "_id": "4d1d734d1cc8d9cf",
+  "_key": "!items!4d1d734d1cc8d9cf",
+  "name": "Destructive Counter (Combat)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:combat-feats:ultimate:feat:destructive-counter-combat",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/combat-feats#toc15",
+      "sourceSha256": "12c9e3fe24d343b609d627315d6ac27a31c82b50e38bb90a5cd0dc568a895e22",
+      "descriptionSha256": "c54fc495092ad6d2273c2bf5403c9d588c5315c2cb4245fad613e88248185dbc",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "combat-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:combat-feats:ultimate:feat:destructive-counter-combat",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Creation sphere (any (material) talent).</p>\n<p><strong>Benefit:</strong> When targeted by a ranged attack or spell effect that originates from another square (such as a destructive blast but not a vortex from (water) geomancing), or being in a square that such an effect passes through (such as an Energy Sphere destructive blast), you may attempt to destroy the projectile or spell effect as an immediate action by spending 1 spell point (this spell point cost can not be reduced in any way). If the attack is a projectile, it functions as normal unless it loses half or more of its hit points and gains the broken condition, suffering the usual effects, or is destroyed at which point it deals no damage. If the target is a spell effect of a material you can affect with your alter ability (for example, a fire damage destructive blast with Plasma Production, or a dropped stone object with Expanded Materials) you may attempt to damage the spell effect.</p>\n<p>You must succeed at a magic skill check against the caster in question. If you succeed then the targeted effect is damaged. Reduce the damage the spell effect would deal by 1d6 per caster level (increasing to 1d8 per caster level plus your casting ability modifier if you possess Potent Alteration). If this would reduce the spell’s damage to 0, the effect ends when it reaches your square. If the targeted spell deals no damage, instead lower any save DC it might have by your casting ability modifier. If this would reduce the save DC to 9 or lower, the effect ends when it reaches your square. Any effect that would occur in or beyond your square is negated while any square the effect passed through prior to yours is affected normally.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/combat-feats#toc15\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/combat-feats#toc15"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

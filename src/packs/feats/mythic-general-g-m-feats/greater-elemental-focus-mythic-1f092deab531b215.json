@@ -1,0 +1,121 @@
+{
+  "_id": "1f092deab531b215",
+  "_key": "!items!1f092deab531b215",
+  "name": "Greater Elemental Focus (Mythic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mythic-general-g-m-feats:current:feat:greater-elemental-focus-mythic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mythic-general-g-m-feats#toc12",
+      "sourceSha256": "be448ce57aaf582d881dca7285efd1e1844a8c015233efa8d68db1d78fde500a",
+      "descriptionSha256": "399b5afe8281b225e7036e66c07d782523cd48e8f8de515c32f98f8c14ef9848",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "mythic-general-g-m-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mythic-general-g-m-feats:current:feat:greater-elemental-focus-mythic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your elemental spells create additional effects.</p>\n<p><strong>Prerequisites:</strong> Elemental Focus (mythic), Greater Elemental Focus<sup>APG</sup></p>\n<p><strong>Benefit:</strong> When you inflict points of damage to foes with a spell that deals damage of the elemental type you selected for Greater Elemental Focus, any foe that fails a save against the spell suffers an additional effect as well. These additional effects depend on the type of damage inflicted, as defined below.</p>\n<ul>\n<li><strong>Acid:</strong> Targets take an additional 1d6 points of acid damage per spell level the round after they are first damaged by the spell.</li>\n<li><strong>Cold:</strong> Targets are staggered for 1 round per 2 levels of the spell.</li>\n<li><strong>Electricity:</strong> Targets are fatigued for 1 round per 2 levels of the spell.</li>\n<li><strong>Fire:</strong> Targets catch on fire. Nonmagic means of extinguishing the fire are ineffectual for 1 round per 2 levels of the spell.</li>\n<li><strong>Sonic:</strong> Targets are deafened for 1 round per level of the spell.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/mythic-general-g-m-feats#toc12\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mythic-general-g-m-feats#toc12"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

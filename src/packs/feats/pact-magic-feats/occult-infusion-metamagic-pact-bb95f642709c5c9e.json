@@ -1,0 +1,121 @@
+{
+  "_id": "bb95f642709c5c9e",
+  "_key": "!items!bb95f642709c5c9e",
+  "name": "Occult Infusion (Metamagic, Pact)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:pact-magic-feats:current:feat:occult-infusion-metamagic-pact",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/pact-magic-feats#toc32",
+      "sourceSha256": "f426cf60998d2b60d857a9763435fa7c8f07407526bbde0ca33e429130d832d2",
+      "descriptionSha256": "0dc9171c03a4ca5cd9a5ad71441d64add530a8b04e0eb47fb98fdff9d90b1ffd",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Metamagic Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:pact-magic-feats:current:feat:occult-infusion-metamagic-pact",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can imbue your spellcasting with the power of the spirit world, making your magic difficult to predict.</p>\n<p><strong>Prerequisites:</strong> Bind spirit class feature, ability to cast 2nd-level spells.</p>\n<p><strong>Benefit:</strong> You infuse your spells with the touch of the occult, allowing the whisper of your bound spirits to guide you as you cast the spell. If you are bound to a spirit when you cast an occult infused spell, you automatically succeed at all concentration checks that you would make to avoid losing the spell.</p>\n<p><strong>Level Increase:</strong> +2 (an occult infused spell uses a spell slot two levels higher than the spell’s actual level).</p>\n<p><strong>Special:</strong> If you prepare spells in advance, you must be bound to a spirit in order to prepare an occult-infused spell.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/pact-magic-feats#toc32\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/pact-magic-feats#toc32"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

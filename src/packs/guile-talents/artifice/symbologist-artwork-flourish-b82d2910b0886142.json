@@ -1,0 +1,124 @@
+{
+  "_id": "b82d2910b0886142",
+  "_key": "!items!b82d2910b0886142",
+  "name": "Symbologist (artwork, flourish)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:artifice:spheres-of-guile:guile-talent:symbologist-artwork-flourish",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/artifice#toc76",
+      "sourceSha256": "a3a666f8e0af8307f0024100a1bdb6c458a7d34b1b4c37af5a6d0057bdfc9aa7",
+      "descriptionSha256": "e735c150541c1f21fa683713f256e15d85a4297a6e8426b9e0c6d9bc38c25ae5",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:artifice:spheres-of-guile:guile-talent:symbologist-artwork-flourish",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "artifice"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p><strong>Prerequisites:</strong> Artistry (literature) or Craft (books, calligraphy, or tattoos) 5 ranks, Artifice sphere.</p>\n<p>You unlock skill leverage with one of the skills listed below. Additionally, you gain the following benefits if you have unlocked skill leverage with the appropriate skill (as listed below):</p>\n<p><strong>Inkbound Arcana (Su) (Craft (tattoos)):</strong> As part of applying this artwork on a creature, you absorb the magic from a magical item and draw it into the artwork (as long as the item’s caster level does not exceed your ranks in Craft (tattoos) and is not an artifact). The magic item is destroyed and occupies the appropriate slot as normal (if it was a slotted item). If the item was a held item, it can be drawn from the tattoo as if retrieving a stored item (or in the case of a weapon, as though drawing a weapon), and can be stowed in the same way. Such an object is physical when drawn, but is obviously magical in nature; such an object retains any damage it suffers, but recovers an equal number of hit points when the creature rests (and can be repaired when drawn as normal). The tattoo otherwise functions akin to the absorbed magic item (and can still be dispelled as normal).</p>\n<p>This artwork can incorporate a number of magical tattoos equal to 1 + 1 per 5 Craft (tattoos) ranks you possess—adding or removing a magical tattoo takes the same amount of time to apply an artwork. If removed, the magic item corporealizes into its original form (although retains any damage it may have incurred).</p>\n<p><strong>Power Script (Artistry (literature) or Craft (books or calligraphy)):</strong> Whenever you create an artwork, you can have it appear as a complex symbol or script and choose any of the following triggers: reads the script, touches the script, passes over or under the script. Whenever a creature within 60 feet qualifies for one of the chosen triggers, they are immediately considered to have engaged with the artwork. Covering or hiding the script renders it suppressed until it is no longer so, and a touch-triggered script does not trigger if an object bearing its script is used to touch a creature (such as hitting a creature with a weapon with this script). You can set more unique triggers if you wish, and can specify creatures to be unable to trigger the script. This is considered a ‘symbol’-based effect</p>\n<p><a href=\"http://spheresofpower.wikidot.com/artifice#toc76\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/artifice#toc76"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

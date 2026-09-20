@@ -1,0 +1,121 @@
+{
+  "_id": "f7898e21636f637a",
+  "_key": "!items!f7898e21636f637a",
+  "name": "Maestro: Scores",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:maestro:current:class-feature:scores",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/maestro#toc3",
+      "sourceSha256": "1d25605dfaa1534f183501fff4f2258ae8ec806066636f91c8258c7690e44e79",
+      "descriptionSha256": "0837e20abbb0f65590e4d372d2227d3bb2a6efab6c6dc66df99c2bc19a825e59",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:maestro:current:class-feature:scores",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A maestro's primary source of power stems from an intellectual understanding of the music that more visceral practitioners, such as bards, take for granted and use without \"real\" effort.</p>\n<p>A score is a piece of music containing an intro, an outro, and a number of melodies. Intros, outros, and melodies are drawn from the maestro's composition book. A maestro begins play with two scores, plus additional scores equal to his Intelligence modifier / 3, rounded down, minimum 0. Each score must contain a single intro, a single outro, and a single melody. At 3rd level and every five levels thereafter, a maestro's mastery over music allows him to prepare scores with an additional melody, to a maximum of five melodies per score at 18th level. At 5th level and every six levels thereafter, a maestro receives an additional score, for a total of five scores at 17th level. A maestro's composer level is equal to his maestro class level.</p>\n<p>To prepare or use a score, a maestro must have an Intelligence score equal to at least 12 + the number of melodies in the score. The Difficulty Class (DC) for a saving throw against a maestro's score is 10 + 1/2 the maestro's class level + the maestro's Intelligence modifier.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/maestro#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/maestro#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

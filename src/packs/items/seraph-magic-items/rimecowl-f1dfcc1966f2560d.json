@@ -1,0 +1,162 @@
+{
+  "_id": "f1dfcc1966f2560d",
+  "_key": "!items!f1dfcc1966f2560d",
+  "name": "Rimecowl",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:seraph-magic-items:current:item:rimecowl",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/seraph-magic-items#toc16",
+      "sourceSha256": "994da972c7ab74d9069ebfee83aed99914a3216a9a3919c5de0bae8133f9be43",
+      "descriptionSha256": "1a07a5b2c4e64aa142dacb870d7d0b08fdb236ac0d6bfdb604f5c8a1248f6fd7",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "seraph-magic-items",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:seraph-magic-items:current:item:rimecowl",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> moderate necromancy <strong>CL</strong> 9th; <strong>Cost</strong> 16,200 GP<br>\n<strong>Slot</strong> head <strong>Weight</strong> 2 lbs.<br>\n<strong>Description</strong><br>\nGranted to middle and higher ranking members of the Frozen Graves, this cowl is made from coarse, pale blue fabric that covers one’s mouth when worn. The wearer’s breath emerges as an icy cloud regardless of prevailing temperatures.</p>\n<p>A rimecowl grants the wearer cold resistance 5 and protects them from cold environments, as endure elements.</p>\n<p>Additionally, the wearer can cast speak with dead three times per day on command. If the spell’s target creature is missing any parts necessary for speech, such as a jaw or tongue, the wearer’s icy breath coalesces to form frozen facsimiles of the missing parts; facsimiles last the duration of the spell, after which they sublimate into the surrounding air. The rimecowl does not grant speech to corpses that could not speak during life.</p>\n<p>Finally, once per week the wearer can cast an augmented version of the rimecowl’s speak with dead. This augmented spell does not allow a Will save for a dead creature with an alignment different from the caster’s, succeeds even if the target has been the subject of speak with dead within the last week, and grants both the wearer and the target the effects of comprehend languages.<br>\n<strong>Construction Requirements</strong><br>\n8,100 gp; Craft Wondrous Item, endure elements, speak with dead, Heighten Spell; must be created within an Icetomb or Graveberg</p>\n<p><a href=\"http://spheresofpower.wikidot.com/seraph-magic-items#toc16\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 2
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 16200,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "head",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/seraph-magic-items#toc16"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

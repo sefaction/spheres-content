@@ -1,0 +1,121 @@
+{
+  "_id": "7a231fd0d4263767",
+  "_key": "!items!7a231fd0d4263767",
+  "name": "Reservoir",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:blood:ultimate:feat:reservoir",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/blood#toc73",
+      "sourceSha256": "ab11eec09b47ca3302d0e9943147e77509a758f7a988b7828b4dd8372ccc3fb7",
+      "descriptionSha256": "50d94e825bb1c508ddcb32bf9959be7806f55ffbe2086bc74c7ebb25833422b6",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Blood Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:blood:ultimate:feat:reservoir",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Blood sphere.</p>\n<p><strong>Benefit:</strong> Whenever a creature with Hit Dice of at least 1/2 your character level is slain or destroyed while under the effects of your blood control or by the effects of a blood art you cast or by suffering blood loss you caused, you may spend a move action before the end of your next turn to absorb the creature’s blood, gaining 1 blood point. You may have a maximum number of blood points equal to your Constitution modifier (or Charisma modifier, if you lack a Constitution score; minimum 1). You may spend blood points any time you would take Constitution damage or bleed from a Blood sphere ability to reduce the damage or bleed by 1 per point spent. Reducing Constitution bleed in this way only reduces it for the current round. Alternatively, you may spend blood points any time you would suffer blood loss to reduce the damage taken by 3 per point spent. Blood points expire after 1 hour.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/blood#toc73\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/blood#toc73"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

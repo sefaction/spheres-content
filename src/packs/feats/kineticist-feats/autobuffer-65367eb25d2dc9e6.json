@@ -1,0 +1,121 @@
+{
+  "_id": "65367eb25d2dc9e6",
+  "_key": "!items!65367eb25d2dc9e6",
+  "name": "Autobuffer",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:kineticist-feats:current:feat:autobuffer",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/kineticist-feats#toc3",
+      "sourceSha256": "4215102ff719071e1ebb3364dd1b66ed97e575665db497040bec094ca2607f21",
+      "descriptionSha256": "ade616203441d678eefed8083cb3afbabef203fb49ea7f14170a13dfa6740b96",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "kineticist-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:kineticist-feats:current:feat:autobuffer",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>“All that extra energy has to go somewhere.”</p>\n<p><strong>Prerequisites:</strong> Burn and internal buffer class features.</p>\n<p><strong>Benefit:</strong> Whenever you accept burn on a wild talent, you have a 20% chance to gain a point in your internal buffer at the beginning of your next turn. Each time you fail at this chance, it increases by 20% the next time you accept burn on a wild talent, up to a maximum of 100%. If the chance succeeds, the success rate is reset to 20% for the next time you accept burn on a wild talent. This feat has no effect if you already possess the maximum number of points in your internal buffer, and can only add 1 point to your internal buffer per round.</p>\n<p><strong>Special:</strong> If you possess battle burn, this feat does not trigger when accepting points of battle burn.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/kineticist-feats#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/kineticist-feats#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

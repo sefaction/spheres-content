@@ -1,0 +1,124 @@
+{
+  "_id": "e1fe1aca488ca24f",
+  "_key": "!items!e1fe1aca488ca24f",
+  "name": "Intermediate Daredevil (specialty)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:vocation:spheres-of-guile:guile-talent:intermediate-daredevil-specialty",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/vocation#toc36",
+      "sourceSha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "descriptionSha256": "716d5a4ed47474d3f7a208d424018024b0c92e81cc3830c12edcb4915cccecf0",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Specialty Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:vocation:spheres-of-guile:guile-talent:intermediate-daredevil-specialty",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "vocation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400\">Diamond Spheres: Hustle &amp; Bustle</a></sup></p>\n<p><strong>Prerequisites:</strong> Profession (driver, gambler, pilot, sailor, or soldier) 5 ranks.</p>\n<p><strong>Specialty Skills:</strong> Profession (driver, gambler, pilot, sailor, soldier).</p>\n<p>You gain an ability depending on the chosen specialty skill:</p>\n<p><strong>Lucky Streak—Profession (gambler):</strong> Whenever you succeed at a saving throw or skill check, you can designate the specific saving throw or skill check as being ‘lucky’ for 1 hour. You gain a +1 luck bonus to a lucky saving throw or skill check, and whenever you succeed at such a roll, the bonus increases by +1 (to a maximum bonus equal to +2, +1 per 6 associated ranks). You can only have one type of roll designated as lucky at one time.</p>\n<p>Also, whenever you (or a creature attacking you) rolls a d% due to miss chance (or the d% roll associated with the the gamble earnings specialty ability), you can choose to subtract or add up to your operative modifier + your associated ranks to the result.</p>\n<p><strong>Stunt Driver—Profession (driver, pilot, or sailor):</strong> You are treated as though you possessed the Greater Bull Rush, Improved Overrun, Improved Bull Rush feats for the purposes of vehicular combat maneuvers. You also treat your vehicle as being one size larger for determining ramming damage. Lastly, if you would fall unconscious (but remain alive) while driving, you can attempt a Fortitude save each round to remain conscious enough to remain in control of the vehicle (although you cannot take any other actions). The DC of this save is equal to 10 + your negative hit point total (if any) + 1 per previous success.</p>\n<p><strong>Tactical Acumen—Profession (soldier):</strong> If you start your turn benefitting from cover, you gain temporary hit points equal to your associated ranks until the start of your next turn. Additionally, if you are benefitting from an attack bonus due to battlefield positioning (such as flanking or higher ground), you gain an equal bonus to damage rolls against the target(s) that the attack bonus is applied against (although this doesn’t stack with similar abilities that would grant a similar benefit).</p>\n<p>You can take this talent multiple times—each time you do, choose another specialty skill.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/vocation#toc36\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/vocation#toc36"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

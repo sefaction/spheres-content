@@ -1,0 +1,124 @@
+{
+  "_id": "0810afda78474ab2",
+  "_key": "!items!0810afda78474ab2",
+  "name": "Adept Hunter (specialty)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:vocation:spheres-of-guile:guile-talent:adept-hunter-specialty",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/vocation#toc28",
+      "sourceSha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "descriptionSha256": "2db03955733ad160f27eaa4021f3e97f70da590b2b1d7ff0636dbdcf99a7b345",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Specialty Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:vocation:spheres-of-guile:guile-talent:adept-hunter-specialty",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "vocation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Specialty Skills:</strong> Profession (butcher, fisherman, trapper)</p>\n<p>You gain an ability depending on the chosen specialty skill:</p>\n<p><strong>Angler’s Acumen—Profession (fisherman):</strong> You gain tremorsense, except only allowing you to detect anything in contact with the same body of water as you. The range is 10 feet, or 20 feet if you are holding a fishing pole or a weapon from the spears fighter weapon group and the object is touching the water. Also, you take no penalty to your speed or to Acrobatics or Stealth checks while within shallow water (generally 2 feet deep for Medium creatures), and you are not moved by flowing water unless you choose to be, in which case you can choose how much to be carried away by it; this does not include magically manipulated water.</p>\n<p><strong>Carver—Profession (butcher):</strong> You deal +1d6 precision damage against creatures you are inside of (such as being swallowed whole), that are helpless, or below 50% of their maximum hit point total. This increases by +1d6 per 6 associated ranks you possess. Additionally, once per round whenever you confirm a critical hit, the weapon damage of the attack (but no other damage dice rolled) is maximized, and the target suffers 1 point of bleed damage.</p>\n<p><strong>Refine Trap—Profession (trapper):</strong> You can spend 1 minute with a trap you have created or discovered (and can handle safely) to improve it, increasing the saving throw to avoid it by 2, and the DC to notice or disable the trap by an amount equal to 1/2 your ranks in Profession (trapper).</p>\n<p>You can take this talent multiple times—each time you do, choose another specialty skill.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/vocation#toc28\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/vocation#toc28"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "f0024164c03ce81c",
+  "_key": "!items!f0024164c03ce81c",
+  "name": "Enhancement Infuser",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:practitioner-magic-items:current:item:enhancement-infuser",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/practitioner-magic-items#toc3",
+      "sourceSha256": "0325ac233e0779990c811e12eacc73a684730176378e3134bb23fcfd94819461",
+      "descriptionSha256": "e91ecda7475af100ddb8bcd0ace9e06ebb4a054e4c5d438ead0d845a91f876bf",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Specific Magic Items",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:practitioner-magic-items:current:item:enhancement-infuser",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint enchantment; <strong>CL</strong> 5th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 200 gp (Weapon), 100 gp (Armor/Shield); <strong>Weight</strong> -</p>\n<p>This device takes many forms depending on the technology of the setting. But usually a small lightweight device that can be easily attached to any kind of gizmo.</p>\n<p>An enchantment infuser can be enhanced as if it were a single type of masterwork armor, shield, or weapon, chosen at the time of the device's creation.</p>\n<p>As a full-round action, this device can be attached/detached to an appropriate armor, shield, or weapon gizmo (as though attaching a modification gizmo). The attached armor, shield, or weapon gains the enchantment infuser’s magic item properties (enhancement value, special weapon or armor abilities, etc.).</p>\n<p>Equipment cannot gain properties that they could not normally gain using an enchantment infuser, such as impact on a ranged weapon, or brawling on medium or heavy armor. If the gizmo has its own enhancement bonus or has already been enhanced as a suit of armor, shield, or a weapon, the enhancement bonuses and special abilities provided by the enchantment infuser do not stack.</p>\n<p>When a user activates the gizmo, they may choose whether they use the gizmo's enchantment bonus and special abilities, or the bonuses provided by the enchantment infuser.</p>\n<p>If the gizmo the enchantment infuser attached to is destroyed, the infuser may be safely salvaged off the remains no worse for wear (excluding events such as being thrown together into a smelting furnace).<br>\n<strong>Construction Requirements</strong><br>\nSmith Magical Weapons And Armor, Enhancement sphere, Tinker sphere; <strong>Cost</strong> Weapon 100 gp; Armor/Shield 50 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/practitioner-magic-items#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 200,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/practitioner-magic-items#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

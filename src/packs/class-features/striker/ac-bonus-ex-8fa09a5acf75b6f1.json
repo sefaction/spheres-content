@@ -1,0 +1,121 @@
+{
+  "_id": "8fa09a5acf75b6f1",
+  "_key": "!items!8fa09a5acf75b6f1",
+  "name": "Striker: AC Bonus (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:striker:current:class-feature:ac-bonus-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/striker#toc2",
+      "sourceSha256": "d0332ca68c8d7387bec6e518a7d011441d0273f3d9d97afbf0cddbbd40edda68",
+      "descriptionSha256": "0a3cbf80b16556e3b102d44af72bf76628d59b83b3dc199f2aeb8134cb94a66a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Abilities",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:striker:current:class-feature:ac-bonus-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>When wearing light armor or no armor, not carrying a shield, and unencumbered, the striker adds her Constitution bonus (if any) to her AC and her CMD; this bonus cannot exceed her class level. (A 1st level striker with 16 Constitution still gains only a +1 bonus to her armor class from this class feature.) This AC bonus does not stack with any class features which share the same name as it.</p>\n<p>This bonus to AC applies even against touch attacks or when the striker is flat-footed. She loses these bonuses when she is immobilized or helpless, when she wears medium or heavy armor, uses a shield, or when she carries a medium or heavy load.</p>\n<p><sup><strong>Wiki Note:</strong> This stacks with the Equipment Sphere's Unarmored Training talent. You can also get Unarmored Training as a Striker Art. (<a href=\"http://www.giantitp.com/forums/showsinglepost.php?p=23312776&amp;postcount=308\">Source</a>)</sup></p>\n<p><a href=\"http://spheresofpower.wikidot.com/striker#toc2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/striker#toc2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

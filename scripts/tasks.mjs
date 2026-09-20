@@ -51,14 +51,20 @@ async function buildPacks() {
   for (const pack of manifest.packs) {
     safeRelative(pack.name);
     safeRelative(pack.path);
+    const expectedDocs = docs.filter((entry) => entry.pack === pack.name);
+    // The official compiler only reads the immediate input directory. Flatten
+    // readable page subdirectories into an ID-named, disposable staging input.
+    const input = path.join(".build/pack-input", pack.name);
+    await mkdir(input, { recursive: true });
+    for (const { doc } of expectedDocs)
+      await writeFile(path.join(input, `${doc._id}.json`), JSON.stringify(doc));
     const compiled = path.join(".build/compiled-packs", pack.name);
-    await compilePack(path.join("src/packs", pack.name), compiled);
+    await compilePack(input, compiled);
     const extracted = path.join(".build/roundtrip", pack.name);
     await extractPack(compiled, extracted, {
       transformName: (doc) => `${doc._id}.json`,
     });
     const recoveredFiles = await files(extracted);
-    const expectedDocs = docs.filter((entry) => entry.pack === pack.name);
     assert.equal(
       recoveredFiles.length,
       expectedDocs.length,
@@ -109,9 +115,18 @@ async function build() {
   }
   const { content } = await load();
   // Human-reviewable corresponding source for adapted upstream record data.
-  const sourcePath = "src/packs/items/lycanthrope-hunters-kit.json";
-  await mkdir("dist/sources/items", { recursive: true });
-  await copyFile(sourcePath, "dist/sources/items/lycanthrope-hunters-kit.json");
+  for (const sourcePath of await files("src/packs/items")) {
+    const target = path.join(
+      "dist/sources/items",
+      path.relative("src/packs/items", sourcePath),
+    );
+    await mkdir(path.dirname(target), { recursive: true });
+    await copyFile(sourcePath, target);
+  }
+  await copyFile(
+    "config/pf1-native-profiles.json",
+    "dist/sources/pf1-native-profiles.json",
+  );
   for (const asset of content.assets) {
     for (const output of [
       asset.path.slice("static/".length),

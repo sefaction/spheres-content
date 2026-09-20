@@ -1,0 +1,162 @@
+{
+  "_id": "3f377f57d43bcdff",
+  "_key": "!items!3f377f57d43bcdff",
+  "name": "Summoning Orb - Primal Bear",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:summoning-orbs:current:item:summoning-orb-primal-bear",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/summoning-orbs#toc9",
+      "sourceSha256": "16af993f1d59dd3a0b945a183c7844cf0c80aa9d2a52914a1b91244dafaf8d63",
+      "descriptionSha256": "4b314d8ad62cf78b2e8c57c11a7304f04a4f92a977e90c66e74dfbbc349219af",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Summoning Orbs (Scaling Magic Item) [Wiki]",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:summoning-orbs:current:item:summoning-orb-primal-bear",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Price</strong> 400 gp; <strong>Slot</strong> none; <strong>CL</strong> 5th; <strong>Weight</strong> 1&nbsp;lb.; <strong>Aura</strong> moderate Conjuration; <strong>Scaling</strong> wonder.</p>\n<p>This particular summoning orb is made of polished mahogany, and has carved upon its surface the image of a bear’s head surrounded in knotwork. While held, the orb grants a +2 competence bonus to Handle Animal checks made to Handle or “Push” ursine animals or magical beasts (bears, dire bears, owlbears, etc).</p>\n<h4>4th Level</h4>\n<p>2,000 gp: 1/day, you may activate the summoning orb to conjure forth a primal bear into an empty adjacent square, which remains for 5 rounds before disappearing. The bear is a Conjuration sphere summon possessing the Bestial and Martial Companion archetypes. Unless the summoner is under the effect of speak with animals (or similar ability), the primal bear must be handled or “pushed” with the Handle Animal skill, and qualifies as an animal ally for the Beastmastery sphere.</p>\n<p><strong>Primal Bear</strong><br>\nN Medium animal (extraplanar)<br>\n<strong>Init</strong> +2; <strong>Perception</strong> +0</p>\n<p><strong>Defense</strong><br>\n<strong>AC</strong> 16, <strong>touch</strong> 12, <strong>flat-footed</strong> 14 (+2 Dex, +4 natural)<br>\n<strong>hp</strong> 30 (4d10+8)<br>\n<strong>Fort</strong> +6, <strong>Ref</strong> +6, <strong>Will</strong> +1</p>\n<p><strong>Offense</strong><br>\n<strong>Speed</strong> 40 ft.<br>\n<strong>Melee</strong> 2 claws +6 (1d4+2), bite +6 (1d6+3)<br>\n<strong>Space</strong> 5 ft.; <strong>Reach</strong> 5 ft.</p>\n<p><strong>Martial</strong><br>\n<strong>Tradition</strong> None; <strong>PAM</strong> Wis<br>\n<strong>Wrestling Sphere</strong> - <strong>DC</strong> 12, <strong>Talents</strong> Powerslam<br>\n. powerslam (attack of opportunity action, expend martial focus to make a grapple check)<br>\n. snag +6 touch (swift action, battered)</p>\n<p><strong>Statistics</strong><br>\n<strong>Str</strong> 14, <strong>Dex</strong> 14, <strong>Con</strong> 14, <strong>Int</strong> 2, <strong>Wis</strong> 10, <strong>Cha</strong> 11<br>\n<strong>Base Atk</strong> +4; <strong>CMB</strong> +6; <strong>CMD</strong> 18 (22 vs trip)<br>\n<strong>Feats</strong> Endurance, Skill Focus (Survival); <strong>Associated Feats</strong> Improved Unarmed Strike<br>\n<strong>Skills</strong> Survival +7<br>\n<strong>Purpose:</strong> Guarding (attack, defend, down, and guard); <strong>Other Tricks</strong> come, perform</p>\n<h4>6th Level</h4>\n<p>5,600 gp: The summoned ursine is now a primal grizzly bear, and remains for 7 rounds before disappearing.</p>\n<p><strong>Primal Grizzly Bear</strong><br>\nN Large animal (extraplanar)<br>\n<strong>Init</strong> +1; <strong>Perception</strong> +0</p>\n<p><strong>Defense</strong><br>\n<strong>AC</strong> 15, <strong>touch</strong> 10, <strong>flat-footed</strong> 14 (+1 Dex, +5 natural, -1 size)<br>\n<strong>hp</strong> 51 (6d10+18)<br>\n<strong>Fort</strong> +8, <strong>Ref</strong> +6, <strong>Will</strong> +2</p>\n<p><strong>Offense</strong><br>\n<strong>Speed</strong> 40 ft.<br>\n<strong>Melee</strong> 2 claws +9 (1d6+4), bite +9 (1d8+6)<br>\n<strong>Space</strong> 10 ft.; <strong>Reach</strong> 10 ft.</p>\n<p><strong>Martial</strong><br>\n<strong>Tradition</strong> None; <strong>PAM</strong> Wis<br>\n<strong>Berserker Sphere</strong> - <strong>DC</strong> 13<br>\n. berserking (free action, -2 ac to gain 9 temp hp)<br>\n. brutal strike +9 (special attack action, battered, if expend martial focus +12 damage)<br>\n<strong>Wrestling Sphere</strong> - <strong>DC</strong> 13, <strong>Talents</strong> Powerslam<br>\n. powerslam (attack of opportunity action, expend martial focus to make a grapple check)<br>\n. snag +9 touch (swift action, battered)</p>\n<p><strong>Statistics</strong><br>\n<strong>Str</strong> 18, <strong>Dex</strong> 12, <strong>Con</strong> 16, <strong>Int</strong> 2, <strong>Wis</strong> 10, <strong>Cha</strong> 11<br>\n<strong>Base Atk</strong> +6; <strong>CMB</strong> +11; <strong>CMD</strong> 22 (26 vs trip)<br>\n<strong>Feats</strong> Endurance, Run, Skill Focus (Survival); <strong>Associated Feats</strong> Improved Unarmed Strike<br>\n<strong>Skills</strong> Survival +9<br>\n<strong>Purpose:</strong> Guarding (attack, defend, down, and guard); <strong>Other Tricks</strong> come, perform, stay</p>\n<h4>8th Level</h4>\n<p>8,000 gp: The summoned ursine is now a primal dire bear, and remains for 1 minute before disappearing.</p>\n<p><strong>Primal Dire Bear</strong><br>\nN Large animal (extraplanar)<br>\n<strong>Init</strong> +1; <strong>Perception</strong> +0</p>\n<p><strong>Defense</strong><br>\n<strong>AC</strong> 16, <strong>touch</strong> 10, <strong>flat-footed</strong> 15 (+1 Dex, +6 natural, -1 size)<br>\n<strong>hp</strong> 76 (8d10+24 plus Toughness)<br>\n<strong>Fort</strong> +9, <strong>Ref</strong> +7, <strong>Will</strong> +2</p>\n<p><strong>Offense</strong><br>\n<strong>Speed</strong> 40 ft.<br>\n<strong>Melee</strong> 2 claws +11 (1d6+4), bite +11 (1d8+6)<br>\n<strong>Space</strong> 10 ft.; <strong>Reach</strong> 10 ft.</p>\n<p><strong>Martial</strong><br>\n<strong>Tradition</strong> None; <strong>PAM</strong> Wis<br>\n<strong>Berserker Sphere</strong> - <strong>DC</strong> 14, <strong>Talents</strong> Bone-Breaker<br>\n. berserking (free action, -2 ac to gain 11 temp hp)<br>\n. brutal strike +11 (special attack action, battered, if expend martial focus +16 damage)<br>\n. exertion (bone-breaker: battered targets get -3 atk and dmg)<br>\n<strong>Wrestling Sphere</strong> - <strong>DC</strong> 14, <strong>Talents</strong> Powerslam<br>\n. powerslam (attack of opportunity action, expend martial focus to make a grapple check)<br>\n. snag +11 touch (swift action, battered)</p>\n<p><strong>Statistics</strong><br>\n<strong>Str</strong> 18, <strong>Dex</strong> 12, <strong>Con</strong> 16, <strong>Int</strong> 2, <strong>Wis</strong> 11, <strong>Cha</strong> 11<br>\n<strong>Base Atk</strong> +8; <strong>CMB</strong> +13; <strong>CMD</strong> 24 (28 vs trip)<br>\n<strong>Feats</strong> Endurance, Run, Skill Focus (Survival), Toughness; <strong>Associated Feats</strong> Improved Unarmed Strike<br>\n<strong>Skills</strong> Survival +11<br>\n<strong>Purpose:</strong> Guarding (attack, defend, down, and guard); <strong>Other Tricks</strong> come, perform, stay</p>\n<p><strong>Construction Requirements</strong><br>\n<strong>Cost</strong> 4,000 gp; <strong>Feats</strong> Craft Wondrous Item; <strong>Spheres</strong> Conjuration sphere, Altered Size, Bestial</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/summoning-orbs#toc9\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 1
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 400,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/summoning-orbs#toc9"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

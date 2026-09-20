@@ -1,0 +1,124 @@
+{
+  "_id": "61306c9d73bfedf1",
+  "_key": "!items!61306c9d73bfedf1",
+  "name": "Repurpose Defense (hack)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spellhacking:spheres-of-guile:guile-talent:repurpose-defense-hack",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spellhacking#toc41",
+      "sourceSha256": "ff5395bb19ac2b67c42bb66b158929891d1c2ab9f8401273b50df23faa41f51b",
+      "descriptionSha256": "9c8ec7b9123be7bc6c2c817956328e5c7bd84de4fd679f7120be2ad3d61a64f7",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Hack Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spellhacking:spheres-of-guile:guile-talent:repurpose-defense-hack",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "spellhacking"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Target:</strong> A magic item or magical effect with caster level no greater than your associated skill ranks that grants a continuous bonus to AC (not to AC against certain attacks or for certain purposes) or continuous damage reduction</p>\n<p>You change the target’s protection of a kind listed above into a different one for 1 round per associated skill rank. If the target has more than one suitable protection, you choose one bonus to AC or one damage reduction to replace. The new protection options depend upon the protection you are replacing. Only magical bonuses are changed (so you can replace magic armor’s enhancement bonus, but not the rest of its armor bonus).</p>\n<p><strong>Repurpose AC Bonus:</strong> If the previous protection was a bonus to AC, you replace it with either a resistance bonus to all saving throws with half its value, or else damage reduction penetrated by magic with the same value. If you choose damage reduction, once the hacked damage reduction absorbs damage equal to 5 points per rank in the associated skill you possess, the effect reverts. If you possess at least 8 ranks in the associated skill, damage reduction you grant is penetrated by adamantine rather than magic.</p>\n<p><strong>Repurpose Damage Reduction:</strong> If the protection was damage reduction, you replace it with either a natural armor bonus to AC equal to one-quarter its value, or else a resistance bonus to all saving throws equal to one-quarter its value.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/spellhacking#toc41\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spellhacking#toc41"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

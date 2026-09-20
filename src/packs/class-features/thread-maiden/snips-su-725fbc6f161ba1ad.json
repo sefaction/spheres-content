@@ -1,0 +1,121 @@
+{
+  "_id": "725fbc6f161ba1ad",
+  "_key": "!items!725fbc6f161ba1ad",
+  "name": "Thread Maiden: Snips (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:thread-maiden:current:class-feature:snips-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/thread-maiden#toc43",
+      "sourceSha256": "b0677f56a0582dd3df86622ae56e5e9b2742385fa1c8f2aa0725cd325fadd7c4",
+      "descriptionSha256": "711e4fdb1d5afb665792cc60ef4dd0928f4b238b28922bcf730aaade0b861c41",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:thread-maiden:current:class-feature:snips-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 4th level, once per round when a thread maiden uses her cut strings class feature, she may expend unused spell slots to “snip” a targets threads, dealing damage to them on a more abstract level. At 4th level she selects one snip from the list below and she gains another snip at 7th level and every 3 levels thereafter. Any saves associated with a thread maiden’s snips have a DC equal to 10 + the level of the spell expended + her Wisdom modifier. Snips may be undone by a character with at least 4 thread maiden levels as a swift action by touching the afflicted creature, in addition to any normal method of curing them.</p>\n<h4>Snip Resilience (Su)</h4>\n<p>A target struck by this snip reduces any damage reduction, energy resistance, fast healing or regeneration by an amount equal to 4 times the spent spell’s level. If this brings a value to less than zero then the target instead takes an amount of damage equal to the amount below zero the ability was reduced to when the ability would normally prevent damage or restore hitpoints. (Example: If the thread maiden expended a 5th level spell on this snip, it could reduce an enemy’s damage reduction by 20- a 5th level slot x 4. If the enemy only had 5 damge reduction, they would have their damage reduction reduced to 0 and take15 damage ).</p>\n<h4>Snip Spirit (Su)</h4>\n<p>A target struck by this snip gains 1 negative level per two levels of the spell spent to use this ability (minimum 0). These negative levels are temporary and disappear after one round per level of the spell used to activate this ability. The target may make a Will save at the end of their turn to rid themselves of all negative levels accrued by this ability. Undead creatures who have or are souls instead take 2d6 points of damage per level of spell spent on this ability.</p>\n<h4>Snip Reactions (Su)</h4>\n<p>A target struck by this snip takes a penalty to its AC, Reflex saves and reduces their initiative score for determining when it acts by an amount equal to 2 + the spell level spent to use this ability for one round.</p>\n<h4>Snip Sight (Su)</h4>\n<p>A target struck by this snip is struck blind for one round, a Will save reduces this to a 20 percent miss chance for one round.</p>\n<h4>Snip Might (Su)</h4>\n<p>A target struck by this snip takes a penalty on damage rolls equal to twice the level of the spell expended for one round.</p>\n<h4>Snip Thread (Su)</h4>\n<p>A target struck by this snip has one of its threads cut, as per the thread maiden’s thread weaving class feature. As part of the attack instead of as a standard action, the thread maiden gains a bonus on the concentration check equal to the level of the spell expended. The thread maiden can also use this class feature to stitch a thread into a target instead of taking one out.</p>\n<h4>Snip Vitality (Su)</h4>\n<p>A target struck by this snip must make a Will save or take a penalty on Fortitude saves equal to the level of the spell expended for a number of rounds equal to the level of the spell expended. Any time that the target fails a Fortitude save during this time they take 2 points of Constitution damage.</p>\n<h4>Snip Sanity (Su, Sp)</h4>\n<p>A target struck by this snip must make a Will save or take a penalty on Will saves equal to the level of the spell expended for a number of rounds equal to the level of the spell expended. Any time that the target fails a Will save during this time they become confused, as per the <em>confusion</em> spell, for one round.</p>\n<h4>Snip Existence (Sp)</h4>\n<p>A target struck by this snip must make a Will save or be shunted out of existence for 1 round per 2 spell levels of the spell expended for this ability (minimum 0 rounds), as per a maze spell.</p>\n<h4>Snip Location (Sp)</h4>\n<p>A target struck by this snip must make a Will save, failure causes the creature to be unable to move more than 50 feet from the space that they started at that round for one round. If they move or are moved outside of that area then they teleport back to the location that they started their turn at. Each level of the spell expended for this ability reduces the amount of space then can move by 10 feet (minimum 0).</p>\n<hr>\n<p>String Meister (Sp)<br>\nAt 6th level, a thread maiden can, as a move action, expend a spell slot to cause a length of rope, chain, or string 4 feet or less in length to stiffen to its full length in a straight line and function as per an immovable rod . An immovable rod created with this class feature requires a Strength check (DC of 10 + twice the level of the spell expended) to move it. This appears as if the length of material has been “switched” into reality to those without knitsight.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/thread-maiden#toc43\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/thread-maiden#toc43"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

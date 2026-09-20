@@ -1,0 +1,124 @@
+{
+  "_id": "bb26beda40259dfb",
+  "_key": "!items!bb26beda40259dfb",
+  "name": "Dazzling Mishap (mishap)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spellhacking:spheres-of-guile:guile-talent:dazzling-mishap-mishap",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spellhacking#toc50",
+      "sourceSha256": "ff5395bb19ac2b67c42bb66b158929891d1c2ab9f8401273b50df23faa41f51b",
+      "descriptionSha256": "30765dca928fe70b4d079d779580af287bb7163807a44e283007a9b3960c4400",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Mishap Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spellhacking:spheres-of-guile:guile-talent:dazzling-mishap-mishap",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "spellhacking"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The mishap takes the form of a 30-foot emanation of light from yourself or the item. The exception is items or effects that must target or produce undead, use negative energy, have the shadow descriptor, or produce cold or darkness; they emit darkness instead. The emanation raises (or lowers) the light level by one step and suppresses magical darkness (or light, whatever is opposite) with a lower caster level than the item’s. When light appears, creatures in the area (including you) must succeed at a Fortitude saving throw or be dazzled for 1 round (darkness does not have this effect). The illumination change moves with the source of the mishap and lasts for 1 minute per rank in the associated skill you possess.</p>\n<p>If you have at least 5 associated skill ranks and the source has a caster level of at least 5th, you can choose for the item to change the light level by two steps in the 30-foot emanation and one step for 30 feet beyond; the light also suppresses magical concealment and invisibility on creatures in the area with caster level less than the item’s.</p>\n<p>With 10 associated skill ranks and caster level 10th, either creatures in an area made bright by the spell are blinded instead of dazzled on a failed save or the darkness can be supernaturally dark, blocking darkvision.</p>\n<p>With 15 associated skill ranks and caster level 15th, you can choose for the mishap to deal damage when it begins. Light deals 1d6 points of damage (1d10 against undead, fungi, and oozes) per 2 ranks you possess; darkness deals 1d6 points of cold damage per 2 ranks you possess. A successful save reduces the damage by half.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/spellhacking#toc50\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spellhacking#toc50"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

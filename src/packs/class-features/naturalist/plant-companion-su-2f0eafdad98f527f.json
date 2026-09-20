@@ -1,0 +1,121 @@
+{
+  "_id": "2f0eafdad98f527f",
+  "_key": "!items!2f0eafdad98f527f",
+  "name": "Naturalist: Plant Companion (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:naturalist:current:class-feature:plant-companion-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/naturalist#toc7",
+      "sourceSha256": "5d2f67db7e8fd6b46cada7718c2f07855b3c907dbefa6f77b0f9541438d9346f",
+      "descriptionSha256": "bd57bf4af10e295fb00e2a7e5e26a6ec251e967d966b4b24baa9dda8e1e75908",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:naturalist:current:class-feature:plant-companion-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, a naturalist forms a bond with a plant companion in much the same way that a ranger or a druid forms a bond with an animal companion. Unlike the variety inherent in animal companions, however, a naturalist always ends up forming a bond with a species of carnivorous plant, such as a venus fly trap or a pitcher plant, and that carnivorous plant occupies a special terra cotta pot that the naturalist can carry on his back. As a standard action, if the plant companion is in reach, then the naturalist may strap it onto his back. Similarly, if the plant companion is on his back, then he may place it in an unoccupied square he can reach as a standard action. These actions both provoke attacks of opportunity.</p>\n<p>A plant companion has a reach of 5 feet with its bite attack, hit points equal to eight times its master's naturalist level, hardness equal to its master's Wisdom modifier, saving throw modifiers equal to its master's saving throw modifiers, an attack modifier equal to its master's naturalist class level + his Wisdom modifier, and is treated as though it were Medium-sized for the purpose of determining the base damage of its bite attack. The equivalent size and reach of a plant companion’s bite is independent of its master’s size. A plant companion applies its master's Wisdom modifier to its damage rolls. For example, if the naturalist has a Wisdom of 16, which is a Wisdom modifier of +3, then the plant companion deals 1d6+3 damage on a successful bite attack. Finally, regardless of its master's size, a plant companion is considered to take up a space of 5 feet when not strapped to its master’s back. While strapped to its master’s back, it takes up the same space as its master.</p>\n<p>A plant companion is always in one of two states at any given time: active or inactive. The plant companion is active when it is strapped it its master’s back, and is inactive when it is not. Should its master die, a plant companion is rendered inactive until its master is resurrected, but, so long as its master is alive, a plant companion on its master’s back remains active even if the master is unconscious, helpless, or otherwise incapacitated.</p>\n<p>While active, the plant companion exhibits the following traits. First and foremost, an active plant companion is effectively invincible and can neither be damaged nor targeted. The master must be killed first. With the exception of size alterations, spells that grant a bonus or penalty to an active plant companion's naturalist also affect the companion. Once per round on its master’s turn, an active plant companion may make a single attack, using its own action, against a creature within reach of its bite natural attack. Finally, a number of passive plant companion talents (see next page) only provide benefit while the plant companion is active.</p>\n<p>While inactive, the plant companion is treated as its own separate creature and may be targeted, attacked, damaged, and destroyed. An inactive plant companion is considered to be helpless, and it has an AC of 5.</p>\n<h3>Replacing a Plant Companion</h3>\n<p>If a plant companion is destroyed, the naturalist can grow a replacement at no cost, though it takes a week of growing for the new plant companion to be large enough to use. As all replacement plant companions are grown from seeds or cuttings from the original, they have the same talent loadout (see below) as the original. Should the naturalist's plant companion pot be lost, then he cannot grow a new plant companion until he replaces the pot itself. New plant companion pots cost 100 gp, and can be found wherever absurdly-expensive horticultural equipment is sold.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/naturalist#toc7\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/naturalist#toc7"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

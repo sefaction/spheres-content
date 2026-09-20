@@ -1,0 +1,162 @@
+{
+  "_id": "c5fb356a9bafe0ba",
+  "_key": "!items!c5fb356a9bafe0ba",
+  "name": "Talisman of the Ancestor’s Might",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spell-engines:ultimate:item:talisman-of-the-ancestors-might",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spell-engines#toc15",
+      "sourceSha256": "f98f5856ec556f138235795825cfff8bd2aa38e0f93afb47ffe8116a4708d757",
+      "descriptionSha256": "54417d5d76e302213ce792501e2937a36b999944b8f74339448e4bf714937983",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "spell-engines",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spell-engines:ultimate:item:talisman-of-the-ancestors-might",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> moderate Enhancement; <strong>CL</strong> 8th; <strong>SP</strong> 3<br>\n<strong>Slot</strong> none; <strong>Price</strong> 16,000 gp; <strong>Weight</strong> 2 lbs.<br>\n<strong>Range</strong> 45 ft.</p>\n<p>This bone talisman is usually carved from the skull of an ancestor and is worn around the neck, though it must be held when used. The talisman of the ancestor’s might acts as a spell engine of Enhancement with the Deep Enhancement, Mass Enhancement, and Physical Enhancement (enhance) talents, as well as the Bodily Enhancement drawback. Though capable of bestowing the blessing of the ancestors upon any target to improve some aspect of their physical abilities for as long as the user concentrates, the real power of this talisman comes in its ability to simultaneously bless up to 5 creatures for 80 minutes by expending all three of the spell points contained within. It must be recharged over three days after to regain its full potency, but that’s something most users are willing to accept. It can also be used for lesser effect by either targeting fewer creatures or targeting a large group while maintaining concentration. Any creature enhanced by the talisman of the ancestor’s might is surrounded by ghostly forms faintly recognizable as their ancestors (or, for creatures without ancestors, the ancestors of the caster).</p>\n<p>These talismans are often crafted by tribes that live far from the cities, using looted treasures to provide the magic needed for their shamans to channel power into the talisman over the course of several weeks. Some tribes take years or even generations to create a single talisman, but possession of one is considered a major asset among the tribes and a sign of special favor from those who came before.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Spell Engine, Enhancement sphere (Deep Enhancement, Mass Enhancement [mass], Physical Enhancement (enhance), Bodily Enhancement drawback); <strong>Cost</strong> 8,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/spell-engines#toc15\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 2
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 16000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spell-engines#toc15"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

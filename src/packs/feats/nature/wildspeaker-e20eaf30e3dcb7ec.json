@@ -1,0 +1,121 @@
+{
+  "_id": "e20eaf30e3dcb7ec",
+  "_key": "!items!e20eaf30e3dcb7ec",
+  "name": "Wildspeaker",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:nature:ultimate:feat:wildspeaker",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/nature#toc102",
+      "sourceSha256": "43a0d4dc05c4d4fc9d1b491e9860cea3a1e8f6949d6c5a5a1ad0e7231d3c84e0",
+      "descriptionSha256": "df632c36b487af494eb0f4454a80f87f7fd9074f30c146d222493f17a53f99ac",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Nature Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:nature:ultimate:feat:wildspeaker",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Nature sphere (Speak With Wildlife (spirit)).</p>\n<p><strong>Benefit:</strong> You gain the benefits of your Speak With Wildlife talent as a constant sphere-like effect, and may suppress or resume this ability as a standard action.</p>\n<p>If you possess the Divination sphere, you gain the following (divine):</p>\n<ul>\n<li><strong>Entreat The Animals (divine):</strong> You may spend a spell point to divine for knowledge from nearby animals, asking one question with a call that can be heard up to a mile away as though speaking to them using Speak With Wildlife. Over the next minute, animals will reply and give you a general consensus answer to your question based on their knowledge. For example, you could ask if there is nearby drinkable water, directions to a nearby place, the location of hostile predators, and so on, and local animals will answer to their best ability. If there are no animals in range, this ability has no effect and you do not receive a response.</li>\n</ul>\n<p>If you possess the Illusion sphere, you gain the following (glamer):</p>\n<ul>\n<li><strong>Alpha Presence (glamer):</strong> You may create a glamer that makes animals perceive the target as superior. The target gains an enhancement bonus on Handle Animal checks equal to 1/2 your caster level and the starting attitude of animals the target interacts with improves by one step.</li>\n</ul>\n<p>If you possess the Mind sphere and Expanded Charm (or have the ability to use Mind sphere talents on animals), you gain the following (charm):</p>\n<ul>\n<li><strong>Nature’s Messenger (charm):</strong> You can employ animals to deliver messages. As a greater charm, you may spend a spell point to charm a target animal to deliver a message or object. You communicate to the animal a message and a certain location you know well, an obvious landmark, or a specific creature you identify. The animal gains the ability to speak any one language you know, gains a heightened intelligence to overcome simple obstacles, and can engage in simple conversation in order to deliver the message for the duration of this effect. The animal travels to the designated location to the best of its ability, and upon reaching its destination, conveys your message to nearby creatures or to the specified creature before leaving. You can also send the animal with an object or container that it is physically able to carry, delivering the contents upon arrival. This effect lasts for 1 day per caster level or until the message is delivered. If the animal cannot reach the destination within this time, the effect ends. An unwilling animal receives a Will save with a +2 bonus on their saving throw.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/nature#toc102\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/nature#toc102"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

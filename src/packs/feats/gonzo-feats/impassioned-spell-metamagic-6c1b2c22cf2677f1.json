@@ -1,0 +1,121 @@
+{
+  "_id": "6c1b2c22cf2677f1",
+  "_key": "!items!6c1b2c22cf2677f1",
+  "name": "Impassioned Spell (Metamagic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:gonzo-feats:current:feat:impassioned-spell-metamagic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/gonzo-feats#toc54",
+      "sourceSha256": "4d87d0a7f1756f9e36ae741350fdcf8e61ab805c225fcd41907a0ac0a335ded8",
+      "descriptionSha256": "5575c857851066c9b431f40b2591f1dcd540a5da285881e4369c515118038f64",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Metamagic Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:gonzo-feats:current:feat:impassioned-spell-metamagic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>By pushing your heart into your magic you produce wonderful effects.</p>\n<p><strong>Benefit:</strong> You may replace a spell’s normal damage type with love damage (see the <a href=\"http://spheresofpower.wikidot.com/dynamic-warrior\">dynamic warrior's</a> entry). Any variables of the spell dependent on Intelligence or Wisdom modifier are instead made to be dependent on Charisma. Creatures damaged by this spell receive a Will save to halve the damage, as normal for love damage. If the spell allows for a Fortitude or Reflex save for partial effect, this Will save replaces that save. This feat has no effect on spells that deal no damage</p>\n<p><strong>Level Increase:</strong> +3 (an Impassioned spell uses up a spell slot three levels higher than the spell’s actual level.)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/gonzo-feats#toc54\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/gonzo-feats#toc54"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

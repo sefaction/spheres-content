@@ -1,0 +1,121 @@
+{
+  "_id": "3e140edff53c0399",
+  "_key": "!items!3e140edff53c0399",
+  "name": "Irradiating Spell (Metamagic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:metamagic-feats:ultimate:feat:irradiating-spell-metamagic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/metamagic-feats#toc37",
+      "sourceSha256": "4070c558a5e1b280bbfaf69ca576b1627fa2ec2a96eaa4431145af021467f075",
+      "descriptionSha256": "6482341535c2fd84b39fb8ceeaa6ca6e5623ddc4eecf7971ab6123b187883caf",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "metamagic-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:metamagic-feats:ultimate:feat:irradiating-spell-metamagic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> Arcforge Players Compendium</sup></p>\n<p><strong>Benefit:</strong> Any creature affected by an irradiating spell must succeed at a Fortitude save or contract radiationTG of a certain level. The Fortitude save and level of radiation are based on the level of the spell (if using spell slots) or MSB/power points (if using spell points/psionics). See <strong>Table: Irradiating Power/Spell Values</strong>.</p>\n<p><strong>Cost:</strong> +3 spell points</p>\n<strong>Table: Irradiating Power/Spell Values</strong>\n<table>\n<tbody><tr>\n<th>MSB</th>\n<th>Radiation Level</th>\n<th>Radiation save DC</th>\n<th>Primary Effect</th>\n<th>Secondary Effect</th>\n</tr>\n<tr>\n<td>0-6</td>\n<td>Low</td>\n<td>13</td>\n<td>1 Con drain</td>\n<td>1 Str damage/day</td>\n</tr>\n<tr>\n<td>7-12</td>\n<td>Medium</td>\n<td>17</td>\n<td>1d4 Con drain</td>\n<td>1d4 Str damage/day</td>\n</tr>\n<tr>\n<td>13-16</td>\n<td>High</td>\n<td>22</td>\n<td>2d4 Con drain</td>\n<td>1d6 Str damage/day</td>\n</tr>\n<tr>\n<td>17+</td>\n<td>Severe</td>\n<td>30</td>\n<td>4d6 Con drain</td>\n<td>2d6 Str damage/day</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/metamagic-feats#toc37\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/metamagic-feats#toc37"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

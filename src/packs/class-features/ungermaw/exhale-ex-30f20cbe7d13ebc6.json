@@ -1,0 +1,121 @@
+{
+  "_id": "30f20cbe7d13ebc6",
+  "_key": "!items!30f20cbe7d13ebc6",
+  "name": "Ungermaw: Exhale (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:ungermaw:current:class-feature:exhale-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/ungermaw#toc31",
+      "sourceSha256": "534a909dc637a5823ddb81690ba935dacfb52d36770c2622aba86f926b1ea5a5",
+      "descriptionSha256": "d967ddfea002f4205c2e59e5dd1a4d5429139fd299f2e9072654dbbc5f2553ea",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:ungermaw:current:class-feature:exhale-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, after using his draw breath ability, the ungermaw can exhale a powerful blast of wind as a standard action. The ungermaw must take this action within a number of rounds equal to his Constitution modifier of using his draw breath ability. Doing so creates a cone of powerful wind equal in size to the cone created by draw breath that pushes creatures away from the ungermaw. Creatures in the cone take slashing damage equal to the ungermaw’s Strength modifier + 1⁄4 the ungermaw’s class level (minimum 1), and must make a Fortitude save (DC 10 + 1⁄2 ungermaw level + Constitution modifier) or be pushed 5 feet per 2 ungermaw levels directly away from the ungermaw. If a creature would be moved into an occupied square, it moves to the nearest available space and falls prone. If a creature is pushed into a solid object, they take damage is if they had fallen a distance equal to the distance they were pushed.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/ungermaw#toc31\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/ungermaw#toc31"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

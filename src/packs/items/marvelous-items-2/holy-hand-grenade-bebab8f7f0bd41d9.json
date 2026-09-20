@@ -1,0 +1,162 @@
+{
+  "_id": "bebab8f7f0bd41d9",
+  "_key": "!items!bebab8f7f0bd41d9",
+  "name": "Holy Hand Grenade",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:marvelous-items-2:current:item:holy-hand-grenade",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/marvelous-items-2",
+      "sourceSha256": "927aaf607c87d8a0b8c5ada2a87c9993de56373d95aa6109f2abd252bf18e049",
+      "descriptionSha256": "82207e3daee76cad9bcdd2e591773c1ec0f417920d4f8824299e1c514335fa1f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Wiki Items",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:marvelous-items-2:current:item:holy-hand-grenade",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> strong Destruction; <strong>CL</strong> 12th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 33,600 gp; <strong>Weight</strong> 1&nbsp;lb.<br>\n<strong>Description</strong><br>\nThis sphere is composed of a strange white metal covered in gold inlays. Once per day, a good-aligned character can speak a prayer to their deity (as a command word) and hurl the Holy Hand Grenade up to 55 feet. Afterwards, the Holy Hand Grenade explodes for 12d6 sacred damage (Reflex DC 16 halves) in a 20-foot radius. Sacred damage comes from attacks that are heavily infused with the power of sheer good and carry this holy power over as a form of harmful energy to evil-aligned beings. Attacks that inflict sacred damage inflict an additional 50% damage to evil-aligned opponents or opponents with the [evil] subtype.<br>\n<strong>Construction Requirements</strong><br>\nCraft Wondrous Item, Destruction sphere, Explosive Orb (blast shape), Holy Smite (blast type); <strong>Cost</strong> 16,800 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/marvelous-items-2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 1
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 33600,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/marvelous-items-2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

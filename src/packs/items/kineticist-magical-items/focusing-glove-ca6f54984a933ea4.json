@@ -1,0 +1,162 @@
+{
+  "_id": "ca6f54984a933ea4",
+  "_key": "!items!ca6f54984a933ea4",
+  "name": "Focusing Glove",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:kineticist-magical-items:current:item:focusing-glove",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/kineticist-magical-items#toc16",
+      "sourceSha256": "3f8530f047b1622a418f8b8c224e1b20c5afaa6bcab3e8f9173048f70eb7964c",
+      "descriptionSha256": "0dbdcddf51d8fa439e1f983af35cc331c0306d57a61bc84856b073f0418a4980",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Hands Slot",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:kineticist-magical-items:current:item:focusing-glove",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> moderate transmutation; <strong>CL</strong> 5th<br>\n<strong>Slot</strong> hands; <strong>Price</strong> 4,000 gp (+1), 16,000 gp (+2); <strong>Weight</strong> —</p>\n<p><strong>Description</strong><br>\nThis light white glove seems to shine in a prism whenever used, flashing brilliantly in a rainbow of colors before dulling once again. A focusing glove is made with a special ability (such as distance or frost) that may be applied to the user’s kinetic blast as though it was a weapon. Using a focusing glove requires the wearer to increase the total burn cost of their blast by an amount equal to the bonus of the special ability being applied to the blast. Any additional damage the special ability would do is the same as the type done by the kinetic blast unless the special ability specifies a damage type. A focusing glove may only have one special ability from the following list:</p>\n<ul>\n<li><strong>+1:</strong> corrosive, cunning, breaking, compassionate, distance*, distracting, flaming, frost, ghost touch, huntsman, liming*, merciful, planar, seeking*, shocking, sniping (normal)*, thundering, veering*</li>\n<li><strong>+2:</strong> anarchistic, axiomatic, corrosive burst, cyclonic*, designating (lesser)*, distracting (greater), flaming burst, holy, icy burst, phase locking, igniting, shattering, shocking burst, sniping (improved), stalking, unholy</li>\n</ul>\n<p><sup>* This special ability can only be applied to a ranged blast that requires an attack roll.</sup></p>\n<p>A focusing glove uses up the wearer’s entire hands slot. The wearer may not use another item (even another focusing glove) that also uses the hands slot except for a conduit glove.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Wondrous Item, creator must be an 8th level kineticist; <strong>Cost</strong> 2,000 gp (+1), 8,000 gp (+2)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/kineticist-magical-items#toc16\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 4000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "hands",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/kineticist-magical-items#toc16"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

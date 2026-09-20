@@ -1,0 +1,121 @@
+{
+  "_id": "1d944f082000f6b8",
+  "_key": "!items!1d944f082000f6b8",
+  "name": "Herbology",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:hedgewitch:ultimate:feat:herbology",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/hedgewitch#toc33",
+      "sourceSha256": "46b77426fb25469921cc4c30b0354a67fc85317fe025f3dd942f4c3786d5ed99",
+      "descriptionSha256": "10a764e059221865bd0668e25860e8c0cb7c2a03d9b813693037144b8348b5df",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Class Features > List of Paths",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:hedgewitch:ultimate:feat:herbology",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The herbalist studies the magical nature of plant life, using herbs to harm and heal.</p>\n<p><strong>Class Skills:</strong> Knowledge (geography) (Int), Knowledge (nature) (Int), Survival (Wis).</p>\n<p><strong>Path Benefit:</strong> The herbalist gains the Distill Compound feat as a bonus feat at 1st level and treats her hedgewitch level as her caster level when creating potions; this stacks normally with caster levels gained from other sources. She also never suffers a chance to poison herself when applying poison to a weapon. This counts as possessing the poison use class feature.</p>\n<p><strong>Path Power:</strong> The herbalist’s magical understanding of herbs is great enough that she may combine common herbs together and, mixing them with a little of her own magic, create a concoction. She may create concoctions a total number of times each day equal to 3 + 1/2 her hedgewitch level. The materials required to craft a concoction are common herbs and as such are considered to have a negligible cost. Creating a concoction takes 1 minute and must be used within 1 hour or lose its potency.</p>\n<p>Concoctions must be drunk (with the exception of herbalist’s poison) and can only affect living creatures. If a target is unwilling they are allowed a Fortitude save against a DC of 10 + 1/2 her hedgewitch level + her casting ability modifier to negate the effect. The herbalist gains the following concoctions:</p>\n<p><strong>Empowering Concoction</strong><br>\nThe target gains a +2 alchemical bonus to one ability score of her choice (chosen when this concoction is created) and a -2 penalty to its inverse ability score (Strength’s inverse is Intelligence, Dexterity’s inverse is Wisdom, Charisma’s inverse is Constitution, etc.). This benefit lasts for 1 minute.</p>\n<p>At 5th level, the target no longer suffers a penalty to their inverse ability score.</p>\n<p>At 9th level, this benefit lasts for 10 minutes.</p>\n<p>At 13th level, this benefit lasts for 1 hour.</p>\n<p>At 17th level, the benefit increases to +4.</p>\n<p><strong>Fortifying Concoction</strong><br>\nThe target gains a +2 alchemical bonus to one saving throw (Fortitude, Reflex, or Will), chosen at the time of brewing, for 1 minute.</p>\n<p>At 5th level, the target gains a +3 bonus to one saving throw.</p>\n<p>At 9th level, the benefit to their saving throw lasts 10 minutes.</p>\n<p>At 13th level, this benefit lasts 1 hour.</p>\n<p>At 17th level, the bonus applies to all saving throws.</p>\n<p><strong>Healing Concoction</strong><br>\nThe target is healed 1d6 hit points per 2 hedgewitch levels the herbalist possesses (minimum 1d6).</p>\n<p><strong>Herbalist’s Poison</strong><br>\nThe herbalist may create an injury poison (Fortitude DC 10 + 1/2 her hedgewitch level + her casting ability modifier, frequency 1/round for 6 rounds, 1 save, effect 1d2 damage to an ability score that is chosen when creating the poison).</p>\n<p>At 5th level, the ability damage increases to 1d4, and she may make the poison ingested instead of injury.</p>\n<p>At 9th level, she may make her herbalist poison inhaled or contact. In addition, she may change the effect to making the target confused for 1 round per level.</p>\n<p>At 13th level, her poison deals 1d6 ability damage.</p>\n<p>At 17th level, she may change the effect of her poison to making the target sleep for 1 hour. This sleep is especially heavy and is similar to the Sleep powerful charm from the Mind sphere.</p>\n<p><strong>Path Secrets:</strong> A hedgewitch with the herbology path adds the following secrets to those she may select:</p>\n<ul>\n<li><strong>Alchemy:</strong> The herbalist gains an alchemist discovery, treating her hedgewitch levels as alchemist levels when meeting its prerequisites and determining its effects. She may gain this secret multiple times. Each time it is selected, she gains another discovery.</li>\n<li><strong>Extra Concoctions:</strong> The herbalist increases the number of concoctions she may create in a day by 2. If she cannot create concoctions, she may create 2 per day. She may select this secret multiple times. The effects stack.</li>\n<li><strong>Potent Concoctions:</strong> The herbalist’s concoctions last 1 hour per hedgewitch level before they become inert instead of only lasting 1 hour.</li>\n<li><strong>Store Potion:</strong> The herbalist may drink a potion, poison, or concoction without applying the effects to herself. Instead, she may touch a target as a standard action and grant the effects to that target. She cannot store more than 1 potion, poison, or concoction at a time in this manner, and if storing a concoction, the concoction still loses its potency if not used in time.</li>\n<li><strong>Surgeon:</strong> Using the Heal skill to treat deadly wounds takes 10 minutes instead of 1 hour. In addition, the herbalist heals the target 2 hit points per HD instead of 1 hit point per HD.</li>\n<li><strong>Swift Poison:</strong> The herbalist may apply poison to a weapon as a move action instead of a standard action.</li>\n</ul>\n<p><strong>Path Grand Secrets:</strong> A hedgewitch with the herbology path adds the following grand secrets to those she may select:</p>\n<ul>\n<li><strong>Instant Poison (requires swift poison):</strong> The herbalist may apply poison to a weapon as a swift action.</li>\n<li><strong>Miracle Man (requires surgeon):</strong> The herbalist may use her Heal skill to treat deadly wounds on a dead target, provided she begins within 10 minutes of when the target died. This takes 4 hours of continuous work and costs 3 uses of her concoction ability (or three healing concoctions, if she has them prepared). At the end of this time, she attempts a Heal check against a DC of 10 + the target’s negative hit point total. If she succeeds at this check, the target comes back to life and stabilizes at 1 fewer negative hit points than would be necessary to kill it, and the target gains 2 temporary negative levels that last 24 hours. If the target has had vital parts removed (i.e., its head, heart, etc.) it cannot be revived in this manner.</li>\n</ul>\n<p><strong>Path Mastery:</strong> At 20th level, the herbalist’s healing concoction always heals maximum hit points and her herbalist’s poison deals maximum damage.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/hedgewitch#toc33\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/hedgewitch#toc33"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

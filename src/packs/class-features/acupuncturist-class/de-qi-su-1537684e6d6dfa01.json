@@ -1,0 +1,121 @@
+{
+  "_id": "1537684e6d6dfa01",
+  "_key": "!items!1537684e6d6dfa01",
+  "name": "Acupuncturist: De Qi (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:acupuncturist-class:current:class-feature:de-qi-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/acupuncturist-class#toc4",
+      "sourceSha256": "7d277466d85e833a774708868ca04ce3e4bdac7fd107afc631ee64d9b8f01302",
+      "descriptionSha256": "7378de8412a11596f722964e976abcbe970e59f9d035751b718b9e70ac44d3b8",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:acupuncturist-class:current:class-feature:de-qi-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>When an acupuncturist successfully hits their target with an acupuncture strike (even if they don’t deal damage) they can apply one de qi effect to the target. The creature receives a Fortitude save (DC 10 + 1/2 acupuncturist level + Intelligence modifier) to negate the effect. A creature suffering from a de qi effect receives a new Fortitude save as the end of each of their turns to end all ongoing de qi effects. The acupuncturist may only apply one de qi effect per acupuncture strike. Subsequent applications of the same de qi effect do not stack, with the newest application replacing any older applications of the same effect.</p>\n<p>Typically all de qi effects last until the end of the creature’s next turn. However, starting at 3rd level an acupuncturist can pay 1 ki point when they select a de qi to increase the duration to a number of rounds equal to their Intelligence modifier.</p>\n<p>Some de qi effects are noted as “[Instant]” effects. These effects allow no Fortitude save and cannot have their duration increased with ki points.</p>\n<p>There are two kinds of de qi effects: Bu and Xie effects.</p>\n<p>At 1st level and every level thereafter an acupuncturist learns one de qi (either a bu or a xie effect) they can apply to acupuncture strikes. (See “De Qi Effects” later in this class for a full list of all bu and xie effects.)</p>\n<h4>Sidebar: Can I Perform Acupuncture On Myself?</h4>\n<p>Yes. An acupuncturist can hit themselves with their own acupuncture strike and apply the de qi effect. They do not have a save as they are a willing target. They may end any or all de qi effects they placed on themselves prematurely as a swift action.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/acupuncturist-class#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/acupuncturist-class#toc4"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

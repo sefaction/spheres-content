@@ -1,0 +1,121 @@
+{
+  "_id": "fe0bffba32a1978e",
+  "_key": "!items!fe0bffba32a1978e",
+  "name": "Mastermind: Stratagem (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mastermind:spheres-of-guile:class-feature:stratagem-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mastermind#toc15",
+      "sourceSha256": "f1d75219242ca0e4daa9d266cb1142020830136c555ebb336a3e2c1bfc3c9781",
+      "descriptionSha256": "f49feab2de5222ad2dbf6174fe2e4e8c1b0e73443653653ab9d6c19f69834688",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mastermind:spheres-of-guile:class-feature:stratagem-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 8th level, the mastermind can expose vulnerability as a standard action to apply a stratagem. They can also apply a stratagem by using expose vulnerability with deadly expertise. The stratagem only takes effect if the creature meets the requirements before the mastermind exposes the vulnerability and the mastermind successfully uses the listed skill to expose the vulnerability. If the requirements cease to be met, the stratagem has no further effect. If a stratagem allows a saving throw, the DC is 10 + 1/2 mastermind level + key ability modifier.</p>\n<p>Once the mastermind applies a stratagem to a target, that target becomes immune to that stratagem from that mastermind for 1 minute. The mastermind cannot apply a stratagem to a target the first time they expose that target’s vulnerability in a day unless they studied the target for at least 3 rounds beforehand.</p>\n<p>The mastermind has access to the following stratagems in addition to one granted by their conspiracy.</p>\n<h4>Reckless Hubris (Sense Motive)</h4>\n<p><strong>Requirements:</strong> Since the start of the mastermind’s last turn, the target was attacked or subject to a hostile effect that allowed a saving throw or spell resistance from at least two different creatures but it did not fail any saving throws, and any other attack or effect missed, was negated by spell resistance, or had its damage reduced by at least half due to damage reduction, energy resistance, immunities, or a successful save (actions nullified by immunities or from creatures it now believes dead or helpless do not count).</p>\n<p><strong>Effect:</strong> For 3 rounds, the target provokes attacks of opportunity more easily and hits from those attacks of opportunity apply a penalty to its provoking action. The target takes a –4 penalty on concentration checks to cast defensively. Any attack of opportunity that hits the target applies a –4 penalty to the attack roll, skill check, concentration check, or save DC of the effect that provoked the attack (if any). The penalties from this stratagem are not cumulative. The mastermind can make any attacks of opportunity on the target with a ranged weapon if within 30 feet. Up to once per turn, the target’s melee attack provokes attacks of opportunity as if it were ranged, its standard and full-round action to use a skill provokes attacks of opportunity (not skill checks attempted as part of actions available without the skill), or a supernatural or extraordinary ability the target uses as a standard or full-round action provokes an attack of opportunity as if it were a spell. At the end of the target’s turn each round, if it was hit by any attack of opportunity, it can end the stratagem on it by succeeding at a Will saving throw.</p>\n<h4>Your Secret Weakness (Knowledge)</h4>\n<p><strong>Requirements:</strong> The target was hit by two attacks since the start of the mastermind’s last turn, even if the damage was negated by damage reduction, resistance, or immunity.</p>\n<p><strong>Effect:</strong> The expose vulnerability damage increases by two dice and the hit that deals expose vulnerability damage bypasses any damage reduction the target has. If the target has fewer Hit Dice than the mastermind’s class level, its regeneration is also suppressed for 1 round and the attack’s critical threat range is doubled (which does not stack with other increases to its range).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mastermind#toc15\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mastermind#toc15"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

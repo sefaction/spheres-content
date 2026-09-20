@@ -1,0 +1,124 @@
+{
+  "_id": "9fd0fadee5cadf57",
+  "_key": "!items!9fd0fadee5cadf57",
+  "name": "Influential Artistry (artwork, flourish)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:artifice:spheres-of-guile:guile-talent:influential-artistry-artwork-flourish",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/artifice#toc40",
+      "sourceSha256": "a3a666f8e0af8307f0024100a1bdb6c458a7d34b1b4c37af5a6d0057bdfc9aa7",
+      "descriptionSha256": "ca3835843e3d76e9078409807e9415f7c91c946beaed74df10c0a017412b035c",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Flourish Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:artifice:spheres-of-guile:guile-talent:influential-artistry-artwork-flourish",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "artifice"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can choose to have creatures that engage with your artworks be treated as if you had performed an impressive display of skill against them with a check result equal to 10 + your package’s associated skill modifier; this condition lasts for 1 day on a success.</p>\n<p><strong>Special:</strong> If you have the Social Clout Faction sphere talent (or similar ability, like the renown vigilante talent), as long as such an artwork remains convenient to access for 1 day, creatures within the community and area you have clout in (and would be impressed by the artwork) seek out the artwork to engage with it–this popularity may extend beyond your area of clout, up to GMs discretion. You can use this sphere’s associated ranks instead of your Faction sphere’s associated ranks when determining this effect.</p>\n<p>You can spend 1 use of skill leverage to ignore this talent requirement, but you treat your associated ranks as being 2 lower when doing so (minimum 1).</p>\n<p>You also gain the following artworks:</p>\n<p><strong>Review:</strong> When you create this artwork, choose a creature or organization. A creature that engages with the artwork must succeed at a Will saving throw or have their attitude towards the target be worsened or improved by 1 step (chosen when created) for 1 week. If the creature is friendly or unfriendly towards the target, they gain a +2 bonus to this saving throw if the artwork attempts to adjust their attitude in the other direction–this artwork has no effect on creatures that are hostile or helpful towards the target. Additionally, the creature gains a minor motivation involving the target for 1 week, usually one that is aligned with their current motivations.<br>\nA creature with at least 4 fewer Hit Dice than this package’s associated ranks do not receive a saving throw.</p>\n<p><strong>Thought-Provoking:</strong> A creature who engages with this artwork gains a +4 bonus to Linguistics checks attempted to detect forgeries, to Sense Motive checks to discern secret messages, detect lies, or any similar checks to discover hidden meanings in words or visual imagery. Additionally, they gain a +2 competence bonus to saving throws against illusions, visual effects, and effects that would give them a disorientation condition. The bonuses granted by this artwork last for 1 hour per rank in this package’s associated skill you possess.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/artifice#toc40\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/artifice#toc40"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

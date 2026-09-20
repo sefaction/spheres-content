@@ -1,0 +1,124 @@
+{
+  "_id": "9686e929496ea763",
+  "_key": "!items!9686e929496ea763",
+  "name": "Circumvent Defenses (theory)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:study:spheres-of-guile:guile-talent:circumvent-defenses-theory",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/study#toc29",
+      "sourceSha256": "e8d569974189b26fc9f4d0950aa7e6c4ed942b36666113be9fc161ec1efd21fb",
+      "descriptionSha256": "a6f620bf83c2acb8d1239379e1ae446d2ddcd8859f53f622a602ffd02b8ce1a7",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Theory Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:study:spheres-of-guile:guile-talent:circumvent-defenses-theory",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "study"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>As long as the subject of your theory is a creature, you can figure out ways of briefly bypassing its defenses.</p>\n<p>You can spend a swift action to allow all attacks you make against the subject of your theory until the beginning of your next turn to bypass 2 points of damage reduction or 5 points of energy resistance. If the creature does not have damage reduction (or your attack bypasses it entirely), the attack deals +1d4 precision damage. For every 5 ranks you have in the associated skill, you bypass another 1 point of damage reduction or 2 points of energy resistance and increase the die of precision damage to creatures without damage reduction by one step (up to 1d12 at 20 ranks).</p>\n<p>This theory can gain notions in the following ways:</p>\n<ul>\n<li>Another creature successfully overcomes the theorized creature’s damage reduction or regeneration using the usual methods (not via an ability that allows them to bypass damage reduction in general).</li>\n<li>The subject of your theory is affected by an ability that reduces their AC.</li>\n<li>A creature hits the subject of your theory with an attack roll that exceeds their AC by 5 or more.</li>\n<li>Another creature deals a damage type or uses an effect that the subject of your theory has a weakness to.</li>\n</ul>\n<p><strong>Breakthrough:</strong> You can spend any number of notions whenever you use this talent’s base theory ability. For every notion you spend, you bypass another 2 points of damage reduction or 5 points of energy resistance and increase the precision damage to a subject without damage reduction by 1.</p>\n<p><strong>Breakthrough:</strong> You can spend 2 notions to use this talent’s base theory ability as a free action instead of a swift action.</p>\n<p><strong>Breakthrough:</strong> You can spend 3 notions as part of using this talent’s base theory ability to quickly formulate a method of attack that can exploit the weakness of the subject of your theory. The target must have fast healing or regeneration that can be suppressed or must have vulnerability to a damage type. For a number of rounds equal to your operative ability modifier (minimum 1), half your weapon damage is treated as if half the total damage it deals (rounded down) were of an energy type that the subject of your theory has vulnerability to or would suppress its fast healing or regeneration.</p>\n<p><strong>Associated Feat:</strong> Penetrating Strike.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/study#toc29\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/study#toc29"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

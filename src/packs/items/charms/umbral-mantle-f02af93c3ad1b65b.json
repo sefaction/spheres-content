@@ -1,0 +1,162 @@
+{
+  "_id": "f02af93c3ad1b65b",
+  "_key": "!items!f02af93c3ad1b65b",
+  "name": "Umbral Mantle",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:charms:ultimate:item:umbral-mantle",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/charms#toc48",
+      "sourceSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "100cd27198ebbc62ff4f4b1f62243fc613814f1bfacb2acac03c8c6d8baa5f11",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "charms",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:charms:ultimate:item:umbral-mantle",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> moderate Dark; <strong>CL</strong> 3rd; <strong>Scaling</strong> wonder<br>\n<strong>Slot</strong> shoulders; <strong>Price</strong> 1,500 gp; <strong>Weight</strong> 1/2&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThis silk cloak seems to fade in and out of the light and grants the wearer a +1 resistance bonus to saving throws.<br>\n<strong>5th Level – 3,500 gp:</strong> The wearer may, as a move action, activate the umbral mantle to enshroud himself in darkness, gaining concealment (20% miss chance) for a single round. The wearer may activate the umbral mantle as an immediate action by spending a spell point, in which case the effects last for 1 minute. Creatures capable of seeing in pure darkness (such as from the Clearsight (meld) talent from the Dark sphere, or with the see in darkness ability) are not subject to this miss chance.<br>\n<strong>7th Level – 7,000 gp:</strong> The umbral mantle now grants a +2 resistance bonus to saving throws.<br>\n<strong>8th Level – 8,500 gp:</strong> The umbral mantle when activated grants a 30% miss chance for a single round.<br>\n<strong>9th Level – 13,500 gp:</strong> The umbral mantle now grants a +3 resistance bonus to saving throws.<br>\n<strong>10th Level – 15,000 gp:</strong> The umbral mantle when activated grants a 40% miss chance for a single round.<br>\n<strong>11th Level – 22,000 gp:</strong> The umbral mantle now grants a +4 resistance bonus to saving throws.<br>\n<strong>12th Level – 32,500 gp:</strong> The umbral mantle now grants a +5 resistance bonus to saving throws. When the umbral mantle is activated, it instead grants total concealment (50% miss chance) for a single round.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Dark sphere; <strong>Cost</strong> 16,250 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc48\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0.5
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 1500,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "shoulders",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/charms#toc48"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

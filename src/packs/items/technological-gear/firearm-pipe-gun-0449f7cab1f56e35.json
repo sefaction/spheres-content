@@ -1,0 +1,130 @@
+{
+  "_id": "0449f7cab1f56e35",
+  "img": "icons/svg/item-bag.svg",
+  "name": "Firearm, Pipe Gun",
+  "system": {
+    "description": {
+      "value": "<p><strong>Price</strong> 20 gp; <strong>Weight</strong> 12 lbs.</p>\n<p>This two-handed improvised firearm fires pellets or a bullet from its crude pipe barrel, making it adaptable to the situation. The pipe gun fires in a 15-ft. cone when firing pellets, and has a 10-ft. range increment when firing a bullet. A pipe gun uses a bullet or pellets and a single dose of black powder or a single alchemical cartridge as ammunition.</p>\n<p><strong>Device Schematic</strong><br>\n<strong>Diagram</strong> (1 Lever + 1 Screw + 1 Spring + 2 Tubings)<br>\n<strong>Craft DC</strong> 20<br>\n<strong>Time</strong> 1 day<br>\n<strong>Tools</strong> gunsmith’s kit<br>\n<strong>Type</strong> weapon (firearm)</p>\n<table>\n<tbody><tr>\n<th>Weapon</th>\n<th>Dmg (S)</th>\n<th>Dmg (M)</th>\n<th>Critical</th>\n<th>Range</th>\n<th>Misfire</th>\n<th>Capacity</th>\n<th>Weight</th>\n<th>Type</th>\n<th>Special</th>\n</tr>\n<tr>\n<td>Pipe Gun</td>\n<td>1d6</td>\n<td>1d8</td>\n<td>x2</td>\n<td>Special</td>\n<td>1-4</td>\n<td>1</td>\n<td>12 lbs.</td>\n<td>B and P</td>\n<td>scatter</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/technological-gear#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "quantity": 1,
+    "weight": {
+      "value": 12
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 20,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "gear",
+    "extraType": "",
+    "abundant": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/technological-gear#toc3"
+      }
+    ]
+  },
+  "type": "loot",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:technological-gear:current:item:firearm-pipe-gun",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/technological-gear#toc3",
+      "sourceSha256": "b68a344fa8409c45a69d74a6c5e95278c1bc3043d632a0b263a4a539743ceb89",
+      "descriptionSha256": "0f0ad61ce489fca6a9c64ca13d1e8a8f089fb74af156bc5782d52ed4bc41e4cc",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "technological-gear",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:technological-gear:current:item:firearm-pipe-gun",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "_key": "!items!0449f7cab1f56e35",
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

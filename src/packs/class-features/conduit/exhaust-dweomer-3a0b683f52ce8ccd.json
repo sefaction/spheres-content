@@ -1,0 +1,121 @@
+{
+  "_id": "3a0b683f52ce8ccd",
+  "_key": "!items!3a0b683f52ce8ccd",
+  "name": "Conduit: Exhaust Dweomer",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:conduit:spheres-of-guile:class-feature:exhaust-dweomer",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/conduit#toc10",
+      "sourceSha256": "377bf048eed7161d04a1dd9b3b245019ddcfade0d967f7fd2750bfcca082136d",
+      "descriptionSha256": "843e7bb939aea39f1ae15716a30a11dbe9c0cdc64bfb818b10f5f6ae8b9ed756",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:conduit:spheres-of-guile:class-feature:exhaust-dweomer",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level, the conduit can exhaust an equipped magical item from a willing creature within their natural reach to augment the conduit’s abilities, causing its magical properties to be suppressed (becoming a nonmagical item) for 3 rounds (or 1 round if it is thaumically charged), after which the item recovers its magical properties.</p>\n<p>For the purposes of this ability, an “equipped magical item” is one that either occupies an item slot, or is a set of armor, implement, shield, or weapon (this excludes ammunition and weapons treated as such, such as acupuncture needles). An artifact, cursed or intelligent item cannot be exhausted, nor can otherwise freestanding and “non-equipment” items (such as a magical trap, etc.).</p>\n<p>When the conduit produces an esoterica, they can exhaust the magical item to increase its caster level by an amount equal to the conduit’s magical magnetism bonus.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/conduit#toc10\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/conduit#toc10"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

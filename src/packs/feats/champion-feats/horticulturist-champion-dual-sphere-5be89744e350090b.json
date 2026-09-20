@@ -1,0 +1,121 @@
+{
+  "_id": "5be89744e350090b",
+  "_key": "!items!5be89744e350090b",
+  "name": "Horticulturist (Champion, Dual Sphere)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:champion-feats:current:feat:horticulturist-champion-dual-sphere",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/champion-feats#toc122",
+      "sourceSha256": "ebaf5901af64f25a2ba1fcec58cda3bfddace06fab20921fddcf3e21096f40af",
+      "descriptionSha256": "b60ba07ab80b71ed3601ad116895e3cf736acb9b0f79605a0b061cf5ab594be4",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Dual Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:champion-feats:current:feat:horticulturist-champion-dual-sphere",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p><strong>Prerequisite:</strong> Associated ranks 3, Herbalism sphere ((herbal) package); either the Alchemy sphere ((poison) package) or Creation sphere.</p>\n<p><strong>Benefit:</strong> You gain the following benefits, depending on the spheres you possess:</p>\n<ul>\n<li><em>Natural Toxins (Alchemy sphere ((poison) package, Herbalism sphere ((herbal) package)):</em> You can spend a specific Herbalism sphere herb as part of creating an Alchemy sphere toxin to grant it a unique effect that affects the target of the toxin on a failed save (unless otherwise specified). This unique effect lasts for 1 minute unless otherwise specified.\n<ul>\n<li><strong>Bitter Herb:</strong> Any penalties caused by the toxin (including conditions caused by it) increase by 1.</li>\n<li><strong>Bland Herb:</strong> The next beneficial effect to benefit the creature affected by the toxin takes 1 round to take effect (or 1 round longer if it already has a delay). The duration of such effects only begin after this delay, and any negative effects as part of the beneficial effect occur without delay.</li>\n<li><strong>Cool Herb:</strong> The toxin also imposes a -2 penalty to concentration checks and mental-based ability checks and skill checks.</li>\n<li><strong>Dry Herb:</strong> The toxin also imposes a -1 penalty to all saving throws.</li>\n<li><strong>Intense Herb:</strong> The toxin also imposes a -10-foot penalty to all speeds.</li>\n<li><strong>Sour Herb:</strong> The toxin also imposes a -2 penalty to saving throws made against poison effects.</li>\n<li><strong>Spicy Herb:</strong> The toxin also imposes a -2 penalty to physical-based ability checks and skill checks.</li>\n<li><strong>Sweet Herb:</strong> The toxin also halves any hit point healing the affected creature receives.This lasts for an amount of rounds equal to your operative modifier.</li>\n<li><strong>Tainted Herb:</strong> If the affected creature succeeds their saving throw against this toxin, they must attempt an additional saving throw at the start of their next turn–if they fail this new saving throw, they are treated as if they had failed their initial saving throw against the toxin.</li>\n</ul>\n</li>\n</ul>\n<p>You can only add one herb to a toxin.<br>\nIf you possess the Pre-emptive Preparation Herbalism talent, you can reveal the plan as an immediate action when a creature is affected by one of your poisons (but before any saving throw is made), applying one of the above herb effects to it as if it were a twist.</p>\n<ul>\n<li><em>Magical Preparation (Creation sphere, Herbalism sphere ((herbal) package):</em> You can spend 1 spell point as a standard action to immediately gain a batch of herbs (which cannot include herbs gained from exceptional talents), which still counts towards your daily limit. You can spend +1 spell point when using this ability to also prepare a single concoction, spending any herb costs associated with it (which can include the batch of herbs created using this ability). You can choose to have the prepared concoction appear in the hands of a creature within your natural reach, or within the range of your create ability if you possess the Distant Creation talent.<br>\n<strong>Special:</strong> If you possess the Divided Creation talent, you can prepare multiple concoctions this way, using the same restrictions as the create sphere ability–a single concoction is treated as a Small object for determining the amount of concoctions that can be prepared this way.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/champion-feats#toc122\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/champion-feats#toc122"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

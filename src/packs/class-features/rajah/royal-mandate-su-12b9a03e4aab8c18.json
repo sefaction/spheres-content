@@ -1,0 +1,121 @@
+{
+  "_id": "12b9a03e4aab8c18",
+  "_key": "!items!12b9a03e4aab8c18",
+  "name": "Rajah: Royal Mandate (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:rajah:current:class-feature:royal-mandate-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/rajah#toc7",
+      "sourceSha256": "6cbf1bc615c54f448eb77f0d0bba2622eab838b373c45db3a3b4d5401e37f395",
+      "descriptionSha256": "164ccf5b1df2b515bbb9787a37fd27c0c24e66f361c56f3161721ff6d7644055",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:rajah:current:class-feature:royal-mandate-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>With a word, the rajah spurs on her allies, creating an opportunity to recover her strength. As a standard action, a rajah can issue a command to one of her allies within close range (25 feet plus 5 feet per two rajah levels) that can perceive her. When she does so, she chooses one of the following orders to issue, and the affected ally may obey the command as a free action (even if it isn’t their turn).</p>\n<ul>\n<li><strong>Attack:</strong> The affected ally makes a melee or ranged attack at their highest attack bonus.</li>\n<li><strong>Bolster:</strong> The affected ally gains a morale bonus equal to the rajah’s initiation modifier to their AC or on a saving throw of the rajah’s choice (Fortitude, Reflex, or Will) for one round. If they are suffering from an ongoing effect that allows for a saving throw, they may instead make a save against that effect with a morale bonus to that save equal to the rajah’s initiation modifier. A successful saving throw ends or reduces this ongoing effect as if they had passed the original saving throw.</li>\n<li><strong>Move:</strong> The affected ally moves up to their speed, provoking attacks of opportunity as normal.</li>\n</ul>\n<p>In addition, when the rajah uses this ability, she may reallocate her essence, and may swap any single readied maneuver with another maneuver that she knows. A maneuver swapped this way is readied and unexpended.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/rajah#toc7\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/rajah#toc7"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

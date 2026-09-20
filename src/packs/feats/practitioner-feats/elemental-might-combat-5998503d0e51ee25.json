@@ -1,0 +1,121 @@
+{
+  "_id": "5998503d0e51ee25",
+  "_key": "!items!5998503d0e51ee25",
+  "name": "Elemental Might (Combat)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:practitioner-feats:current:feat:elemental-might-combat",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/practitioner-feats#toc36",
+      "sourceSha256": "ef1c185f974bb36681eadb8e428dc6cf7fdc79accc930377adcfb8ee2a6c9cd5",
+      "descriptionSha256": "f52fca18fe453abddfff414cb49bdf433455ca7f9a48665a89e394810dd1ce3f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "New Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:practitioner-feats:current:feat:elemental-might-combat",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You channel the elements through decisive strikes and furtive determination.</p>\n<p><strong>Prerequisites:</strong> Ability to maintain martial focus, base attack bonus +1.</p>\n<p><strong>Benefit:</strong> Whenever you make an attack action or attack of opportunity, you may expend your martial focus and choose acid, cold, electricity, or fire. If you do, your attack deals additional energy damage of the chosen type equal to 1d6 + your base attack bonus.</p>\n<p>Whenever you perform an attack action and expend martial focus to deal additional damage with a combat sphere ability (such as with Berserker sphere’s brutal strike or Fencing sphere’s fatal thrust precision damage modified with the Skewer talent), you may choose to have the additional damage be dealt as acid, cold, electricity, or fire damage, chosen when performing the attack action.</p>\n<p><strong>Note:</strong> Fencing sphere fatal thrust damage is still precision damage, even if it would be dealt as energy damage rather than physical damage. Other attack action additional damage is likewise subject to any targeting restrictions or immunities a target might possess.</p>\n<p><strong>Special:</strong> Elemental Might is treated as the Elemental Fist feat (Pathfinder Roleplaying Game: Advanced Player’s Guide) for the purposes of prerequisites. You treat maintaining martial focus as having 1 or more uses of the Elemental Fist feat; if an ability or effect would allow you to expend 1 or more uses of the Elemental Fist feat, you may expend your martial focus instead. Whenever you expend martial focus to deal energy damage with this feat (either with this feat or by converting an attack action’s additional damage), this damage is treated as damage dealt by the Elemental Fist feat for the purposes of other abilities and effects.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/practitioner-feats#toc36\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/practitioner-feats#toc36"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

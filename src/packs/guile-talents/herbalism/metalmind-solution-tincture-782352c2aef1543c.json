@@ -1,0 +1,124 @@
+{
+  "_id": "782352c2aef1543c",
+  "_key": "!items!782352c2aef1543c",
+  "name": "Metalmind Solution (tincture)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:metalmind-solution-tincture",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc29",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "c62795395d81ff9d9d1fd96d9d3e4b91014473e7fe74dccf351c2c10d0ab870a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Concoction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:metalmind-solution-tincture",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Cost:</strong> 2 herbs or 1 cool herb</p>\n<p>This tincture grants the imbiber a +2 alchemical bonus to saving throws against illusion effects and the fascinated and impressed conditions, and to Bluff checks to lie or claim an implausible truth. This bonus increases by 1 per 5 ranks in the sphere’s associated skill you possess. This tincture’s effects last for 1 minute.</p>\n<p><strong>Twists</strong></p>\n<ul>\n<li><strong>1 bland herb:</strong> The imbiber reduces the action cost to orient themselves to reduce a disorientation condition by one step (1 round, full-round, standard, move, swift, free); if it takes longer than 1 round to orient themselves, the time required to do so is halved. Additionally, the bonuses associated with the imbiber being impressed with a creature is halved.</li>\n<li><strong>1 cool herb:</strong> The alchemical bonus applies to skill checks to recall information. Additionally, the imbiber gains 1 temporary use of skill leverage. If they would not normally possess skill leverage, they may still use this skill leverage to utilize its general uses. The imbiber can only gain this temporary use of skill leverage once every 2 hours.</li>\n<li><strong>1 dry herb:</strong> The alchemical bonus also applies to saving throws and skill check DCs to discover or invoke the imbiber’s motivations, to learn about their mind or goals (such as detect thoughts or the sense goal skill use) or that reduces their degree of alertness.</li>\n<li><strong>1 savory herb:</strong> The duration of the tincture increases to 1 hour.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc29\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc29"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "25ad363de448e107",
+  "_key": "!items!25ad363de448e107",
+  "name": "Crippling Smite",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:justicar:current:feat:crippling-smite",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/justicar#toc22",
+      "sourceSha256": "0cb3ea9adccd306a889781be9fd097d45107f028675de2dc30949d7f84c8248a",
+      "descriptionSha256": "9099eb1fba56f53f2b46c540e5f231b9600f06f95f745ddfbcb3cd8a87a4acfd",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features > Demon-bane (Su) > New Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:justicar:current:feat:crippling-smite",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your smite evil attacks are especially deadly to those who would work evil upon the world.</p>\n<p><strong>Prerequisites:</strong> Smite evil class feature, Cha 17, paladin level 13th.</p>\n<p><strong>Benefit:</strong> Once per use of your smite evil ability, you may automatically confirm a critical threat against an outsider with the evil subtype, an evil-aligned dragon, or an undead creature. In addition, on this attack you may opt to forgo all the extra damage normally gained from a successful critical hit to instead inflict a –10 penalty to the target’s Dexterity and reduce all its movement speeds by half (to a minimum of 5’). These penalties remain until the target receives magical healing sufficient to remove the damage dealt by the attack. If the penalty reduces the target’s Dexterity to 0, the target is paralyzed and cannot move until the penalty is removed. The penalty applies even if the target is normally immune to ability damage.</p>\n<p><strong>Special:</strong> Paladin and Justicar levels stack for qualifying for this feat.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/justicar#toc22\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/justicar#toc22"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

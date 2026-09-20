@@ -1,0 +1,121 @@
+{
+  "_id": "68c79ac293ffff56",
+  "_key": "!items!68c79ac293ffff56",
+  "name": "Phantom Thief: Spells",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:phantom-thief:current:class-feature:spells",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/phantom-thief#toc2",
+      "sourceSha256": "99d93c973f1d15a82005d356e6c1c808587497ac96f7e1ee00871ce7d53a0b25",
+      "descriptionSha256": "0d6ff31458639b3b7e562a57b55bc26adc1b6bd146f030468f2c87369635524c",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:phantom-thief:current:class-feature:spells",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A phantom thief casts arcane spells drawn from the phantom thief spell list. He can cast any spell he knows without preparing it ahead of time. To learn or cast a spell, a phantom thief must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class (DC) for a saving throw against a phantom thief’s spell is 10 + the spell level + the phantom thief’s Charisma modifier.</p>\n<p>Like other spellcasters, a phantom thief can cast only a certain number of spells of each spell level per day. His base daily spell allotment is given on Table: Phantom Thief Spells Per Day. In addition, he receives bonus spells per day if he has a high Charisma score. The phantom thief’s selection of spells is extremely limited. A phantom thief begins play knowing four 0-level spells and two 1st-level spells of the phantom thief’s choice. At each new phantom thief level, he gains one or more new spells, as indicated on Table: Phantom Thief Spells Known. Unlike spells per day, the number of spells a phantom thief knows is not affected by his Charisma score.</p>\n<p>Upon reaching 5th level, and at every third phantom thief level after that (8th, 11th, and so on), a phantom thief can choose to learn a new spell in place of one he already knows. In effect, the phantom thief “loses” the old spell in exchange for the new one. The new spell’s level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level phantom thief spell the phantom thief can cast. A phantom thief may swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that he gains new spells known for the level.</p>\n<p>A phantom thief need not prepare his spells in advance. He can cast any spell he knows at any time, assuming he has not yet used up his allotment of spells per day for the spell’s level.</p>\n<strong>Table: Phantom Thief Spells Per Day</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>1st</th>\n<th>2nd</th>\n<th>3rd</th>\n<th>4th</th>\n<th>5th</th>\n<th>6th</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>4</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>2</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n<td>5</td>\n</tr>\n</tbody></table>\n<strong>Table: Phantom Thief Spells Known</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>0th</th>\n<th>1st</th>\n<th>2nd</th>\n<th>3rd</th>\n<th>4th</th>\n<th>5th</th>\n<th>6th</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>4</td>\n<td>2</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>5</td>\n<td>3</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>6</td>\n<td>4</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>6</td>\n<td>4</td>\n<td>2</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>6</td>\n<td>4</td>\n<td>3</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>6</td>\n<td>4</td>\n<td>4</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>2</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>6</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>2</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>2</td>\n<td>—</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>—</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>—</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>2</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>5</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/phantom-thief#toc2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/phantom-thief#toc2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

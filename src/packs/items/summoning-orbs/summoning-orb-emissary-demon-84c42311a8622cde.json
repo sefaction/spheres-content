@@ -1,0 +1,162 @@
+{
+  "_id": "84c42311a8622cde",
+  "_key": "!items!84c42311a8622cde",
+  "name": "Summoning Orb - Emissary Demon",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:summoning-orbs:current:item:summoning-orb-emissary-demon",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/summoning-orbs#toc5",
+      "sourceSha256": "16af993f1d59dd3a0b945a183c7844cf0c80aa9d2a52914a1b91244dafaf8d63",
+      "descriptionSha256": "e3c5443ead275c178757f15dbc3350ecadc5ab1bb65141bf71eeb9beb09ae8ef",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Summoning Orbs (Scaling Magic Item) [Wiki]",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:summoning-orbs:current:item:summoning-orb-emissary-demon",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Price</strong> 400 gp; <strong>Slot</strong> none; <strong>CL</strong> 3rd; <strong>Weight</strong> 1&nbsp;lb.; <strong>Aura</strong> faint Conjuration; <strong>Scaling</strong> wonder.</p>\n<p>This particular summoning orb is coated with a thin layer or lead, and has etched upon its surface the image of a menacing grimace centered within a moon. While held, the orb grants a +2 competence bonus to Charisma-based checks made with demons and other creatures possessing both the chaotic and evil subtypes.</p>\n<h4>5th Level</h4>\n<p>3,600 gp: 1/day, you may activate the summoning orb to conjure forth, an emissary dretch demon into an empty adjacent square, and remains for 3 rounds before disappearing. If the summoner can communicate with the creature (usually by speaking abyssal), the summoner can direct it not to attack, to attack particular enemies, or to perform other actions. If the summoner lacks the ability to properly communicate with the demon (such as lacking the abyssal language), the demon must be “pushed” with a DC 20 Diplomacy or Linguistics check as if using the Handle Animal skill. The demon usually has no qualms obeying the directions or orders given by the summoner, regardless of their alignment, however their only true allegiance is to themselves and will turn on or betray their summoner if it would be beneficial to the fiend.</p>\n<p><strong>Emissary Dretch Demon</strong><br>\nCE Small outsider (demon, extraplanar)<br>\n<strong>Init</strong> +2; <strong>Perception</strong> +0</p>\n<p><strong>Defense</strong><br>\n<strong>AC</strong> 16, <strong>touch</strong> 13, <strong>flat-footed</strong> 14 (+2 Dex, +3 natural, +1 size)<br>\n<strong>hp</strong> 19 (3d10+3)<br>\n<strong>Fort</strong> +4, <strong>Ref</strong> +3, <strong>Will</strong> +3; +1 vs Poison<br>\n<strong>Defensive Abilities</strong> evasion; DR 2/good</p>\n<p><strong>Offense</strong><br>\n<strong>Speed</strong> 30 ft.<br>\n<strong>Melee</strong> 2 slams +6 (1d4+2)<br>\n<strong>Space</strong> 5 ft.; <strong>Reach</strong> 5 ft.</p>\n<p><strong>Magic</strong><br>\n<strong>Caster Level</strong> 1; <strong>MSB</strong> +3, <strong>MSD</strong> 12, <strong>Concentration</strong> +4<br>\n<strong>Tradition</strong> Inherent Divinity (drawbacks: emotional casting, verbal casting; boons: easy focus); <strong>CAM</strong> Cha<br>\n<strong>Spell Points</strong> 1<br>\n<strong>Mind Sphere</strong> - <strong>DC</strong> 11, <strong>Duration</strong> concentration; <strong>Range</strong> close (25 ft.); <strong>Talents</strong> Expanded Charm, Fear<br>\n. charm 1sp greater (fear, suggestion)</p>\n<p><strong>Statistics</strong><br>\n<strong>Str</strong> 14, <strong>Dex</strong> 14, <strong>Con</strong> 13, <strong>Int</strong> 7, <strong>Wis</strong> 10, <strong>Cha</strong> 12<br>\n<strong>Base Atk</strong> +3; <strong>CMB</strong> +4; <strong>CMD</strong> 16<br>\n<strong>Feats</strong> Extra Magic Talent x2<br>\n<strong>Skills</strong> Bluff +4<br>\n<strong>Languages</strong> abyssal</p>\n<h4>7th Level</h4>\n<p>6,400 gp: Instead of summoning an emissary dretch demon, you may summon an emissary cambion demon, and the summon remains for 4 rounds before disappearing.</p>\n<p><strong>Emissary Cambion Demon</strong><br>\nCE Medium outsider (demon, extraplanar)<br>\n<strong>Init</strong> +1; <strong>Perception</strong> +0</p>\n<p><strong>Defense</strong><br>\n<strong>AC</strong> 14, <strong>touch</strong> 11, <strong>flat-footed</strong> 13 (+1 Dex, +3 natural)<br>\n<strong>hp</strong> 25 (3d10+9)<br>\n<strong>Fort</strong> +6, <strong>Ref</strong> +3, <strong>Will</strong> +3; +1 vs Poison<br>\n<strong>DR</strong> 2/good</p>\n<p><strong>Offense</strong><br>\n<strong>Speed</strong> 30 ft.<br>\n<strong>Melee</strong> +1 scimitar +7 (1d6+4/18-20)<br>\n<strong>Ranged</strong> +1 composite longbow +5 (1d8+4/x3)<br>\n<strong>Space</strong> 5 ft.; <strong>Reach</strong> 5 ft.</p>\n<p><strong>Magic</strong><br>\n<strong>Caster Level</strong> 1; <strong>MSB</strong> +3, <strong>MSD</strong> 12, <strong>Concentration</strong> +4<br>\n<strong>Tradition</strong> Inherent Divinity (drawbacks: emotional casting, verbal casting; boons: easy focus); <strong>CAM</strong> Cha<br>\n<strong>Spell Points</strong> 1<br>\n<strong>Mind Sphere</strong> - <strong>DC</strong> 11, <strong>Duration</strong> concentration; <strong>Range</strong> close (25 ft.); <strong>Talents</strong> Command, Expanded Charm<br>\n. charm 1sp greater (command, suggestion)</p>\n<p><strong>Martial</strong><br>\n<strong>Tradition</strong> None; <strong>PAM</strong> Cha<br>\n<strong>Barrage Sphere</strong> - <strong>DC</strong> 12<br>\n. barrage +3/+3 (special attack action, make two ranged attacks at full bab -2)<br>\n. melee archer (+1 atk and damage w/ ranged weapons at range of up to 30 ft.)</p>\n<p><strong>Statistics</strong><br>\n<strong>Str</strong> 16, <strong>Dex</strong> 12, <strong>Con</strong> 16, <strong>Int</strong> 7, <strong>Wis</strong> 10, <strong>Cha</strong> 12<br>\n<strong>Base Atk</strong> +3; <strong>CMB</strong> +6; <strong>CMD</strong> 17<br>\n<strong>Feats</strong> Extra Magic Talent x2; <strong>Associated Feats</strong> Point-Blank Shot, Rapid Shot<br>\n<strong>Skills</strong> Bluff +4<br>\n<strong>Languages</strong> abyssal</p>\n<h4>9th Level</h4>\n<p>14,000 gp: Instead of summoning an emissary dretch demon or cambion demon, you may summon an emissary succubus demon, and the summon remains for 7 rounds before disappearing.</p>\n<p><strong>Emissary Succubus Demon</strong><br>\nCE Medium outsider (demon, extraplanar)<br>\n<strong>Init</strong> +1; <strong>Perception</strong> +0</p>\n<p><strong>Defense</strong><br>\n<strong>AC</strong> 16, <strong>touch</strong> 11, <strong>flat-footed</strong> 15 (+1 Dex, +5 natural)<br>\n<strong>hp</strong> 57 (6d10+24)<br>\n<strong>Fort</strong> +9, <strong>Ref</strong> +3, <strong>Will</strong> +5; +2 vs Poison<br>\n<strong>DR</strong> 3/good</p>\n<p><strong>Offense</strong><br>\n<strong>Speed</strong> 30 ft.<br>\n<strong>Melee</strong> +2 dagger +11/+5 (1d4+5)<br>\n<strong>Space</strong> 5 ft.; <strong>Reach</strong> 5 ft.</p>\n<p><strong>Magic</strong><br>\n<strong>Caster Level</strong> 3; <strong>MSB</strong> +6, <strong>MSD</strong> 17, <strong>Concentration</strong> +8<br>\n<strong>Tradition</strong> Inherent Divinity (drawbacks: emotional casting, verbal casting; boons: easy focus); <strong>CAM</strong> Cha<br>\n<strong>Spell Points</strong> 2<br>\n<strong>Mind Sphere</strong> - <strong>DC</strong> 11, <strong>Duration</strong> concentration; <strong>Range</strong> close (25 ft.); <strong>Talents</strong> Enthrall, Expanded Charm, Powerful Charm<br>\n. charm 1sp greater, 2sp powerful (enthrall, suggestion)</p>\n<p><strong>Martial</strong><br>\n<strong>Tradition</strong> None; <strong>PAM</strong> Cha<br>\n<strong>Fencing Sphere</strong> - <strong>DC</strong> 15, <strong>Talents</strong> Fast Feint, Feint Strike<br>\n. fast feint (move action, feint)<br>\n. fatal thrust (+2d6 precision damage)<br>\n. feint strike (free attack with successful feint)</p>\n<p><strong>Statistics</strong><br>\n<strong>Str</strong> 16, <strong>Dex</strong> 12, <strong>Con</strong> 18, <strong>Int</strong> 7, <strong>Wis</strong> 10, <strong>Cha</strong> 14<br>\n<strong>Base Atk</strong> +6; <strong>CMB</strong> +9; <strong>CMD</strong> 20<br>\n<strong>Feats</strong> Extra Magic Talent x3; <strong>Associated Feats</strong> Improved Feint<br>\n<strong>Skills</strong> Disguise +11; <strong>Associated Skills</strong> Bluff +8<br>\n<strong>Languages</strong> abyssal</p>\n<p><strong>Special Abilities</strong><br>\n<strong>Transformative (Sp)</strong> At-will, as a standard action, the succubus may change her appearance using the Disguise skill.</p>\n<p><strong>Construction Requirements</strong><br>\n<strong>Cost</strong> 7,000 gp; <strong>Feats</strong> Craft Wondrous Item; <strong>Spheres</strong> Conjuration sphere, Battle Creature, Fortified Companion, Magical Companion, Planar Creature, Transformative</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/summoning-orbs#toc5\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 1
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 400,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/summoning-orbs#toc5"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "669756fd250c9119",
+  "_key": "!items!669756fd250c9119",
+  "name": "Architect: Tower Magic (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:architect:current:class-feature:tower-magic-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/architect#toc3",
+      "sourceSha256": "503d95b51c0d2695aab6a35ed1722a247aeaae9dd440baf6016e00aa380cf8b3",
+      "descriptionSha256": "9cdfa12bb9944b2af1f36ceb3538ac190ad01b28dd6411a5df19590bf70e8c64",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:architect:current:class-feature:tower-magic-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, the architect can convert raw materials into a fully functional, automated, offensive tower about 5 feet tall. A tower is created as a standard action action and must be placed on a square containing the appropriate resource within 30 feet of the architect. The tower remains functional for 1 minute.</p>\n<p>A 1st level architect can create any number of towers he wishes per day, but he may only have a number of towers active at one time equal to the value show on Table: The Architect. In order to summon a tower beyond this capacity the architect must select one of his current towers to prematurely deactivate. Furthermore, a tower is prematurely deactivated if the architect moves further than 200 feet from its square.</p>\n<p>As a move action an architect can cause one active tower he has created to attack (or use another action specified in the tower’s entry). A given tower can only be activated once per round, unless the architect assumes direct control of the tower (see below). As a full-round action he can make an attack (or other action specified in the tower’s entry) with each tower he has active using his full BAB. A tower uses the architect’s BAB and ability scores for the purposes of attack and damage rolls when relevant. A tower has the Perception of the architect but not any special senses other than sight and hearing.</p>\n<p>An architect can assume direct control as a swift action that requires concentration. During direct control the architect must close his eyes but can see as though their eyes were located at the top of the tower. While directly controlling a tower the architect can only make attack actions with that tower. However, he may make multiple attacks per round if his BAB is high enough to do so.</p>\n<p>Towers, by default, do not block line of effect and do not block line of sight. They are typically about 5 feet tall and are only about as thick as a man. This typically provides soft cover (unless otherwise noted).</p>\n<p>Architects and their towers are immune to damage and effects from other towers created by the same architect (both beneficial and detrimental). For the purpose of the tower magic class feature, the architect has an effective caster level equal to his architect level (for things like dispelling their towers, concentration checks, etc).</p>\n<p>Towers cannot be crafted out of any material that is man made; only natural, raw, unattended, material (such as dirt, grass, trees, water, ice, etc). A tower cannot be crafted out of anything that would require a check to overcome with a spell like dispel magic or anything magical. Once a tower’s duration expires, it cannot be activated again but it remains formed- allowing for use as cover. A square previously used as a tower is considered depleted of natural resources (a null square) and is unable to be used for towers for a period of 24 hours. Knowing how to create tower that can cast a spell does not count as the architect knowing how to cast a spell.</p>\n<p>A tower has an AC of 10, hardness equal to 1/3rd the architect’s level (minimum 1) and HP equal to 5 x his architect level. An architect may voluntarily deactivate any tower as a free action. The caster level of the architect is considered to be equal to his architect level for the purpose of dispelling (such as by dispel magic ) his towers. A dispelled tower instantly deactivates.</p>\n<h3>Resources</h3>\n<p>Each square holds different sorts of resources depending on what is in them. The types of resources are earth, water, and plant. Each square holds 1 resource by default. The resources contained in each square is ultimately at the GM’s discretion but the following is a guideline for determining what kind of resource a square holds:</p>\n<ul>\n<li><strong>EARTH:</strong> A 5 foot square whose primary feature is dirt, cobblestone, paved road, clay, short grass, weeds, mud, leaves, or otherwise does not fall into one of the other two types of resources.</li>\n<li><strong>WATER:</strong> A 5 foot square that is covered in at least some liquid, typically water, is considered a water square. Squares covered in deep snow or thick ice (thick enough to support a medium creature) also count as water squares.</li>\n<li><strong>PLANT:</strong> A 5 foot square that is covered in thick vegetation, the trunk of a tree, soil currently being used for growing, a heavy covering of flowers, high grass (up to the waist of a human), etc provides plant resource.</li>\n<li><strong>NULL:</strong> Squares occupied by creatures, man-made objects (houses, fences, buildings, fountains, etc) or whose primary feature is that they were shaped synthetically provide no resources. Squares that have been used within the last 24 hours are also “null” and cannot provide resources.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/architect#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/architect#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

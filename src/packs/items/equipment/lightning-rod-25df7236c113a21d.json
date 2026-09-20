@@ -1,0 +1,130 @@
+{
+  "_id": "25df7236c113a21d",
+  "img": "icons/svg/item-bag.svg",
+  "name": "Lightning Rod",
+  "system": {
+    "description": {
+      "value": "<p><strong>Price</strong> 50 gp; <strong>Weight</strong> 2&nbsp;lb.</p>\n<p>A lightning rod protects a permanent structure anchored to the ground from lightning. The structure becomes completely immune to electricity damage and any lightning bolts (whether from natural or magical storms, but not directly from spells or sphere abilities such as lightning bolt or destructive blast) that would strike within 25 ft. of the structure have a 50% chance of instead striking the building and thus having no effect. Exceptionally large structures (larger than 60 ft. on any side) may require more than one lightning rod to protect them.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/equipment#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "quantity": 1,
+    "weight": {
+      "value": 2
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 50,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "links": {
+      "children": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "subType": "gear",
+    "extraType": "",
+    "abundant": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/equipment#toc4"
+      }
+    ]
+  },
+  "type": "loot",
+  "effects": [],
+  "folder": null,
+  "sort": 0,
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:equipment:current:item:lightning-rod",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/equipment#toc4",
+      "sourceSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
+      "descriptionSha256": "33320d942f30b18465b845697fa87b3d325f66dc9392ddd339e6b6467bb415bb",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Buildings",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:equipment:current:item:lightning-rod",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "_key": "!items!25df7236c113a21d",
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "6c1720776767065c",
+  "_key": "!items!6c1720776767065c",
+  "name": "Enlightened Scholar: Concentration",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:enlightened-scholar:current:class-feature:concentration",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/enlightened-scholar#toc90",
+      "sourceSha256": "e6156864b7e38262d9177cc5d6f944e2a19198f519dd4a0e5dbdd7c63020f5d3",
+      "descriptionSha256": "2445e4a06f2ad670eda087668aaf07ca5089768936b13bb76854104f98b45dbf",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:enlightened-scholar:current:class-feature:concentration",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>An enlightened scholar can use concentration even if he cannot cast spells his effective caster level equals his enlightened scholar class level, his relevant ability modifier is Wisdom.</p>\n<p>The following are additional uses for Concentration.</p>\n<h4>Check (Gain Ki Focus)</h4>\n<p>The ability to manipulate ki points gives ki-using characters a special energy. Ki-using characters can put that energy to work without paying a ki point cost—they can focus their ki by making a successful concentration check.</p>\n<p>If you have 1 or more ki points available, whether invested in a chakra or not, you can meditate as a full round action that provokes attacks of opportunity to become ki focused. The DC is 15 for the first attempt each day. Each additional attempt after the first successful attempt in the same day add +2 to the DC.</p>\n<p>Wearing armor increase the DC as it can stile the low and distribution of ki throughout the body.</p>\n<p>Shields only double the non-magical AC bonus. For example, a character with a +1 magic shield (size Medium) only receives a -2 penalty to the character’s Concentration check.</p>\n<table>\n<tbody><tr>\n<th>Armor Type</th>\n<th>DC Increase</th>\n</tr>\n<tr>\n<td>Light</td>\n<td>+5</td>\n</tr>\n<tr>\n<td>Medium</td>\n<td>+10</td>\n</tr>\n<tr>\n<td>Heavy</td>\n<td>+15</td>\n</tr>\n<tr>\n<td>Shield used</td>\n<td>+ (shield type bonus x2)</td>\n</tr>\n</tbody></table>\n<p>You remain ki focused until you expend your ki focus, become unconscious, until your ki point reservoir drops to 0, or the duration that you can maintain your ki focus expires. You maintain ki focus for a number of rounds equal to your Wisdom bonus (if any) + half your character level +1 for each Ki feat or Chakra feat that you have. While ki focused, you gain the benefits of any chakra that has ki points invested in it. You cannot benefit from any chakra that does not have ki invested in it, whether ki focused or not.</p>\n<p>You can expend your ki focus on any single Concentration check you make thereafter. When you expend your ki focus, your base Concentration check is as if you rolled a 15. (It’s like taking 10.)</p>\n<p>You can also expend your ki focus to gain the benefit of a feat or special ability, as per their description.</p>\n<p>When you expend your ki focus in this manner, you must select a single chakra that has ki points invested in it. These ki points are lost for the day. You must have 8 hours of rest and must meditate for 1 hour to recover those points. The expended ki points immediately activate a special ability or benefit. When you expend your ki focus, you immediately lose all benefits of chakras and ki feats that affect you (except for those that do not require you to maintain ki focus).</p>\n<p><strong>Action:</strong> Usually none. In most cases, making a Concentration check doesn’t require an action; it is either a free action (when attempted reactively) or part of another action (when attempted actively). Meditating to gain ki focus is a full-round action.</p>\n<p><strong>Retry:</strong> Yes, though a success doesn’t cancel the effects of a previous failure, such as the loss of ki points from expending your ki focus.</p>\n<h4>Check (Replenish Ki Reservoir)</h4>\n<p>Characters that can manipulate ki use up their ki points frequently. By succeeding on a concentration check, they can replenish their ki from ki in the surrounding environment a number of times per day equal to their Wisdom bonus (if any), by an amount equal to their Constitution bonus (if any). If they have no Wisdom bonus or no Constitution bonus, then they cannot replenish their ki. You must be ki focused to replenish your ki. During replenishment attempts, you can attempt to replenish ki for a number of rounds equal to half your class level.</p>\n<p>Ki points gathered from the environment replenish ki points from your ki point reservoir. The ki points gathered cannot exceed your total ki point reservoir. Note that areas with an overabundance of ki will replenish 2 ki points per round, an area with moderate ki will replenish at a rate of 1 per round, and an area low in ki will only replenish 1 point of ki every 2 rounds.</p>\n<p>Ki recovered from the environment might not be balanced ki and could possibly be aligned to yin or yang depending on the location where it is gathered.</p>\n<p>Replenishing ki points outside of stressful situations does not require a concentration check; however, replenishing ki points during stressful situations, such as combat, does. The concentration DC to replenish your ki points during stressful situations, such as combat, is 20.</p>\n<p><strong>Action:</strong> Full-round action.</p>\n<p><strong>Retry:</strong> Yes.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/enlightened-scholar#toc90\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/enlightened-scholar#toc90"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

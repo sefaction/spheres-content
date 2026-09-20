@@ -2,7 +2,31 @@
 
 Updated: 2026-09-20 (work began 2026-09-19 local time).
 
-## Current batch: packaged kit components
+## Current batch: systematic wiki intake
+
+- User redirected work to full sitemap extraction, programmatic organization and
+  per-entity auditing for art, activation, Changes/context notes, uses/charges,
+  links, advanced settings, class features by level and optional integrations.
+- Narrow-sheet wrapping is explicitly out of scope; issue #6 now covers only
+  native source labels. Older wrapping notes below are historical.
+- Active branch: content/systematic-intake, based on PR #4 at 7fe3cba. Issue #8
+  tracks this batch. No merge or release authorization.
+- Full cached crawl: 2,652 pages, zero download errors. Extraction: 11,019
+  candidates, including duplicates/legacy; extraction is explicitly incomplete.
+- Canonical drafts: 6,788 (117 classes, 1,536 class features, 3,674 feats,
+  835 Guile talents, 626 items). Holds and unresolved grants remain in the ledger.
+- Reuse index: 37,708 records / 56 packs; one Roll Bonuses pack has an unexpected
+  lost directory and remains unavailable. No remote source packs were modified.
+- All 22 tests and the first 679-file build pass, including exact round trips
+  for every record. Full clean verification and remote alpha.4 acceptance are pending. Four icons are now 256-pixel WebP with
+  reduced PNG compatibility copies; new draft artwork remains explicitly needed.
+- Remote runtime remains 80600de alpha.3 in Setup; five backups retained. Review ZIP is built (10,582,256 bytes). An asynchronous question asks to retain
+  all five backups and raise the bounded limit to ten; no answer yet.
+- Next safe work: commit and run full clean verification, resolve the pending
+  retention decision, deploy for acceptance, then open a stacked PR.
+  Current worktree is intentionally dirty; no public release or merge authorized.
+
+## Prior completed batch: packaged kit components
 
 - User resolved delivery: package reviewed copies, preserving attribution and
   permitted artwork references. No optional source-module dependency is added.

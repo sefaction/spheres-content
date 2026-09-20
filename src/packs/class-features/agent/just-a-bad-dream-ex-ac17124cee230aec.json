@@ -1,0 +1,121 @@
+{
+  "_id": "ac17124cee230aec",
+  "_key": "!items!ac17124cee230aec",
+  "name": "Agent: Just a Bad Dream (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:agent:spheres-of-guile:class-feature:just-a-bad-dream-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/agent#toc18",
+      "sourceSha256": "0a78d839d28638d323a529162671621aae42260b1dae059d81e613809c3febed",
+      "descriptionSha256": "8357208626123c2591d80a3d45ca7fd6acb9b3245425133cc2fa8608961f6231",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:agent:spheres-of-guile:class-feature:just-a-bad-dream-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 12th level, an agent can start to remove any memory of themselves from a creature, causing fuzzy recollection of the agent and their actions. If the agent deals damage with their discerning strike ability and knocks a creature unconscious, they can force that creature to attempt a Will saving throw (DC equals 10 + 1/2 the agent’s level + their operative ability modifier). If this saving throw fails, the creature forgets any specific details about the agent they might have known (such as specific interactions) as well as any situations in which the agent was involved (such as heists or other events). This only applies to memories formed over 1 hour per agent level; memories further back than that are unaffected. The agent can use this ability against an unconscious creature without the need to deal damage by invoking a motivation (they can subconsciously understand things you whisper to them), although doing so takes 10 minutes. This is a mind-affecting effect.</p>\n<p>An affected creature reminded of a circumstance involving the agent attempts an additional saving throw with a +2 bonus to remember the agent, but failing this saving throw a second time cements the forgetting, no longer allowing them to remember without magical aid. A creature who succeeds at a saving throw against this ability cannot be affected by it for 1 month. Modify memory or greater restoration can restore the lost memory.</p>\n<p>At 16th level, the agent can reduce the time needed to use this ability without dealing damage to 1 minute. The agent can also remove memories from as long ago as 1 day per level, as well as choose to selectively leave certain memories in place.</p>\n<p>A creature that succeeds at its saving throw is immune for 1 day instead of 1 month. The agent can also affect a number of unconscious creatures at once equal to their operative ability modifier.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/agent#toc18\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/agent#toc18"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

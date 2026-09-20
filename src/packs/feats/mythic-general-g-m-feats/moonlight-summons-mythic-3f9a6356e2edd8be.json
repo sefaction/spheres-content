@@ -1,0 +1,121 @@
+{
+  "_id": "3f9a6356e2edd8be",
+  "_key": "!items!3f9a6356e2edd8be",
+  "name": "Moonlight Summons (Mythic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mythic-general-g-m-feats:current:feat:moonlight-summons-mythic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mythic-general-g-m-feats#toc91",
+      "sourceSha256": "be448ce57aaf582d881dca7285efd1e1844a8c015233efa8d68db1d78fde500a",
+      "descriptionSha256": "9b1d731c554df47329d3c2ce753562a780f34ddbbaaf975c44c363886ae6e7fd",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "mythic-general-g-m-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mythic-general-g-m-feats:current:feat:moonlight-summons-mythic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your summons are charged with lunar power.</p>\n<p><strong>Prerequisite:</strong> Moonlight Summons<sup>UM</sup></p>\n<p><strong>Benefit:</strong> Creatures you summon gain DR/silver equal to your mythic tier. In addition, when a summoned creature confirms a critical hit, the target is confused (as the confusion spell) for 1 round unless it succeeds on a Will save (DC 10 + 1/2 summoned creature’s HD + your mythic tier); mythic creatures may add their mythic tier on the saving throw against this effect. Multiple failed saves extend the duration. If you expend one use of your mythic power when summoning a creature, it gains DR/silver equal to twice your mythic tier.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mythic-general-g-m-feats#toc91\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mythic-general-g-m-feats#toc91"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

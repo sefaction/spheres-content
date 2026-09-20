@@ -1,0 +1,121 @@
+{
+  "_id": "94f4424319e24558",
+  "_key": "!items!94f4424319e24558",
+  "name": "Huckster’s Gamble (Drawback)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:drawback-feats:ultimate:feat:hucksters-gamble-drawback",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/drawback-feats#toc26",
+      "sourceSha256": "c23c1cc1118160546cc9b26ffb82b21218f8d4fc9c6980d39517744ba4b904f0",
+      "descriptionSha256": "5e36f2815d5919561ab0c6d80ca71af9f95eb320ccffc036a3a006635935a086",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Drawback Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:drawback-feats:ultimate:feat:hucksters-gamble-drawback",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Catastrophic Failure</p>\n<p><strong>Benefits:</strong> Rather than rolling a die with a concentration check, skill check, or saving throw made as part of creating a magic sphere effect, you may choose to draw a 5-card hand from a 54-card playing card deck. You may spend up to 5 spell points to draw that many additional cards from the deck, shuffling cards back into the deck such that you end with 5 cards in hand.<br>\nRed Jokers are wild cards (meaning that they can be treated as any card). The effects of this hand are determined via Table: Huckster’s Gamble Hands and Effects.</p>\n<p><sup><strong>Source:</strong> Card Casting 3: Volatile Variance</sup></p>\n<strong>Table: Huckster’s Gamble Hands and Effects</strong>\n<table>\n<tbody><tr>\n<th>Hand</th>\n<th>Explanation of Hand</th>\n<th>Effect</th>\n</tr>\n<tr>\n<td>Straight Flush</td>\n<td>5 consecutive cards from a particular suit</td>\n<td>Maximum possible result on all non-d100 die rolls made as part of casting the spell and resolving its effects, all targets automatically fail their saving throws, +2 competence bonus to CL</td>\n</tr>\n<tr>\n<td>Four of a kind</td>\n<td>4 of the same card in different suits</td>\n<td>Maximum possible result on all non-d100 die rolls made as part of casting the spell and resolving its effects, +2 competence bonus to CL</td>\n</tr>\n<tr>\n<td>Full House or Flush</td>\n<td>3 of the same card in different suits and 2 of the same card in different suits or 5 of the 13 cards from a particular suit</td>\n<td>Maximum possible result on d20 rolls made as part of casting the spell and resolving its effects, +2 competence bonus to CL</td>\n</tr>\n<tr>\n<td>Straight</td>\n<td>5 consecutive cards which do not all share a suit</td>\n<td>Maximum possible result on concentration checks, skill checks, and saving throws made as part of casting the spell, +2 competence bonus to CL</td>\n</tr>\n<tr>\n<td>Three of a Kind</td>\n<td>3 of the same card in different suits</td>\n<td>Maximum possible result on concentration checks, skill checks, and saving throws made as part of casting the spell, +1 competence bonus to CL</td>\n</tr>\n<tr>\n<td>Two Pair</td>\n<td>2 sets of 2 of the same card in different suits</td>\n<td>Maximum possible result on concentration checks, skill checks, and saving throws made as part of casting the spell</td>\n</tr>\n<tr>\n<td>One Pair</td>\n<td>2 of the same card in different suits</td>\n<td>You are considered to have rolled a 10 on all concentration checks, skill checks, and saving throws made as part of casting the spell</td>\n</tr>\n<tr>\n<td>High Card Only or hand containing Black Joker</td>\n<td>Any other hand, or any of the above hands which contains a Black Joker</td>\n<td>Minimum possible result on all rolls made as part of casting the spell.</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/drawback-feats#toc26\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/drawback-feats#toc26"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

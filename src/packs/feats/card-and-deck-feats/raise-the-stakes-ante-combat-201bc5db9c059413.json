@@ -1,0 +1,121 @@
+{
+  "_id": "201bc5db9c059413",
+  "_key": "!items!201bc5db9c059413",
+  "name": "Raise the Stakes (Ante, Combat)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:card-and-deck-feats:current:feat:raise-the-stakes-ante-combat",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/card-and-deck-feats#toc4",
+      "sourceSha256": "4022c8e6475766c0c1edab52393c89938e885121711b11783279c546b3117277",
+      "descriptionSha256": "600e62252d8c2dd6904694a3aa18eca6637f4db280050633bcdc66ccef7d6fff",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Ante Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:card-and-deck-feats:current:feat:raise-the-stakes-ante-combat",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Ante Up, caster level 3rd.</p>\n<p><strong>Benefit:</strong> As a swift action, you may create any magic sphere effect you could create as a standard action, increasing your ante by 1 for every spell point spent on the effect (minimum 1. You cannot spend spell points such that your ante would go above its maximum). The sphere effect has its spell point cost increased by 2 (this affects ante gained) and does not take effect immediately, but if you attack or create another magic sphere effect which requires an attack roll or saving throw and targets a hostile creature of at least half your CR before the start of your next turn, the triggered sphere effect takes effect if the triggering effect hits or at least half of the targets fail their saving throws (the triggering sphere effect must affect its target in order for the triggered effect to take effect). Any die rolls for the triggered sphere effect (such as saving throws or attack rolls) must still be rolled for the triggered sphere effect. You may only have one effect stored with this feat at a time.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/card-and-deck-feats#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/card-and-deck-feats#toc4"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

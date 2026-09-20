@@ -1,0 +1,121 @@
+{
+  "_id": "2c4e21cbdf5ce21c",
+  "_key": "!items!2c4e21cbdf5ce21c",
+  "name": "Conduit: Evolve Dweomer",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:conduit:spheres-of-guile:class-feature:evolve-dweomer",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/conduit#toc17",
+      "sourceSha256": "377bf048eed7161d04a1dd9b3b245019ddcfade0d967f7fd2750bfcca082136d",
+      "descriptionSha256": "ffb1e0959eedd9635d0c18761bd4b5b3c7ffcc576f017dd18e8689af77824677",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:conduit:spheres-of-guile:class-feature:evolve-dweomer",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 10th level, the conduit’s font of inner magic can deeply change a magical item when they thaumically charge it, increasing its power greatly. As long as an object remains thaumically charged by the conduit, it gains increased benefits, depending on the type of object:</p>\n<ul>\n<li><em>Boost Arcana (wondrous item, see text):</em> If the object grants an enhancement bonus to an ability score, the granted bonus increases by 2. If the object grants a deflection or resistance bonus, the bonus increases by 1. If the object is an ioun stone, it grants its resonance benefit (as if placed within a wayfinder). If the object requires a command word, it can be done so as a swift action by exhausting the item.</li>\n<li><em>Exploit Fundamentals (spell engine):</em> The spell engine gains 1 temporary spell point for as long as it remains thaumically charged–this temporary spell point is not replenished if the spell engine loses and regains thaumic charge within the same day. Whenever the conduit produces an esoterica while holding a spell engine, they can gain access to the talents and spheres within it by paying any costs associated as part of doing so, allowing them to use said talents with an esoterica (for example, if they possess a spell engine that has the Life sphere with the cure ability, they could use this ability when using the stay the path esoterica to allow them to augment the spell engine’s cure with Deeper Healing).</li>\n</ul>\n<p>These benefits are only granted to the conduit and cease functioning as long as such an object is held or otherwise equipped by another creature.</p>\n<p>The conduit also gains an additional evolve dweomer option from their font.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/conduit#toc17\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/conduit#toc17"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

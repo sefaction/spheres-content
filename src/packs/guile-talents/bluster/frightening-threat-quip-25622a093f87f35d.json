@@ -1,0 +1,124 @@
+{
+  "_id": "25622a093f87f35d",
+  "_key": "!items!25622a093f87f35d",
+  "name": "Frightening Threat (quip)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:bluster:spheres-of-guile:guile-talent:frightening-threat-quip",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/bluster#toc33",
+      "sourceSha256": "e8f88a5d38e2870756ef237c9336a522e248aa60231fd0ccb330d63841363c60",
+      "descriptionSha256": "32adeb010a2396cf327db0332dca922101895fca07f7ea4dcaf072f28b8239ad",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Quip Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:bluster:spheres-of-guile:guile-talent:frightening-threat-quip",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "bluster"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You make a threat that chills your target to the bone. Attempt a check to demoralize them with Intimidate. On a success, the target must succeed at a Will saving throw or become frightened until the start of your next turn (or enraged if you threaten its motivation and it chooses to gain an anger condition). If the target has fewer Hit Dice than the number of ranks in Intimidate you possess, it is frightened for a number of additional rounds equal to half your ranks in Intimidate (or panicked or frenzied if you threatened its motivation).</p>\n<p>A creature you frighten with this quip does not have to flee as efficiently as possible if it can move to shield something that is a motivation for it; while doing so, the only actions it can take are total defense, aid another, and actions that would directly protect the thing that motivates it (not attack). (On a successful save, the target still experiences the usual effects of the Intimidate check.)</p>\n<p>If you have at least 10 ranks in Intimidate, a target with fewer Hit Dice than the number of ranks in Intimidate you possess is frightened until the start of your next turn even on a successful save (or panicked or frenzied if you threatened its motivation).</p>\n<p>You can take this talent a second time if you have at least 10 ranks in Intimidate. When you do, replace the frightened condition with the panicked condition (threatening the target’s motivation gives them the option to be frenzied instead). You can make a target with fewer Hit Dice than your ranks in Intimidate paralyzed with fear on a failed save when you threaten its motivation (it cannot choose to be frenzied).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/bluster#toc33\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/bluster#toc33"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "cbd1edd853a0015c",
+  "_key": "!items!cbd1edd853a0015c",
+  "name": "Rod of Lifegiving",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:apparatuses:ultimate:item:rod-of-lifegiving",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/apparatuses#toc38",
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "53b5e81378b6a1466cb6f29ab845b4f5ab7a330d7a5ead219468f7c0548738f6",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "apparatuses",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:apparatuses:ultimate:item:rod-of-lifegiving",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> moderate Life; <strong>CL</strong> 6th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 72,000 gp; <strong>Weight</strong> 4 lbs.</p>\n<p>This slender white rod is about three feet long and carved with symbols of life. Often dubbed “the healstick” by adventuring parties, it is far more expensive than most rookie groups can afford but held in high regard by adventuring parties who understand its true value. While held, the rod of lifegiving provides fast healing 1 to the holder.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Life sphere (Revitalize); <strong>Cost</strong> 36,000 gp</p>\n<h4>FAQ: Is That Price Correct? (Boots Of The Earth Are Cheap, Devs!)</h4>\n<p>Yes, the price is correct. The Rod of Lifegiving is in an interesting spot because of the way crafting rules work for ongoing healing effects. A lesser version of this item, granting temporary HP, would be approximately 50,000 gp. Yes, we are aware of the existence of Boots of the Earth, which are <em>absurdly</em> underpriced for the benefit they provide. (The Earth Warrior's Boots over in <a href=\"http://spheresofpower.wikidot.com/marvelous-items\">Marvelous Items</a> are a much more realistic version of that item.) This is a case where price-matching to a similar item is <em>not</em> actually appropriate. Instead, this item is intentionally expensive to make it difficult for people to craft earlier in their careers. It works much better when given out as treasure.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc38\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 4
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 72000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/apparatuses#toc38"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}
