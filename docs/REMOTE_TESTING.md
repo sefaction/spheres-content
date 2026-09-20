@@ -1,48 +1,68 @@
-# Remote testing
+﻿# Remote testing
 
-## Current state
+## Target and authorization
 
-Existing shared Foundry instance, hosted in Docker on Unraid. Browser reachability and core v13 build 351
-confirmed; PF1 11.11 confirmed in Setup. After the user corrected the intended
-instance, returned to Setup and created the authorized dedicated PF1 test world.
-Server left in Setup. The initially supplied instance was not changed.
-No module deployment has occurred.
+Profile `spheres-test`: a shared Foundry instance in an Unraid Docker container.
+Foundry v13 build 351 and PF1 11.11 were verified in UI and the dedicated world
+manifest. The user authorized module deployment and creation of
+`additional-spheres-content-test` (Additional Spheres Content Test).
 
-- Logical profile: `spheres-test`, pending configuration.
-- Created world: Additional Spheres Content Test (`additional-spheres-content-test`).
-- Module folder: `additional-spheres-content` only.
-- Container and host data-path mapping: supplied by the user, recorded in ignored local configuration. Corresponding Windows share was not accessible; credentials/export access still need establishing.
-- Private instance address: ignored local configuration only.
-- Host/service restart: not authorized.
-- Campaign world shutdown to reach Setup: ask before interrupting the active world.
+The module target is exactly `<configured-data>/Data/modules/additional-spheres-content`.
+World and system manifests are read only as identity/version markers. Their
+contents are never written by deployment. Existing campaigns and other instances
+remain outside this target. Host/container/service restart is not authorized.
 
-## Why the remote commands stop
+## Configuration
 
-`deploy:remote` (including `--dry-run`) and `smoke:remote` intentionally return a
-nonzero exit code before any network call or mutation. They are prerequisite gates,
-not an implemented deployment adapter. A Foundry setup login alone does not
-establish SSH access or the safe filesystem target.
+Windows SMB access is established using the user-provided share account. The
+helper uses that existing Windows session; it does not accept or store passwords.
+Copy `config/remote.example.json` to ignored `.local/remote.json` and configure
+the verified UNC user-data path, exact module path, instance origin, and test world.
+Private host/container mappings and the address stay in ignored local config.
+The HTTP origin and SMB share must identify the same host.
 
-## Required deployment implementation
+This SMB profile supersedes the SSH-oriented `.env.example` for this host.
+SSH deployment is not implemented. Linux CI exercises local fixture tests only;
+it never connects to the share or uses remote credentials.
 
-After host access and paths are established, implement the documented staging and
-swap adapter with validated absolute targets, exact module-folder checks, clean
-build/commit verification, a real dry run, timestamped rollback backup, bounded
-retention, and a local deployment receipt. Establish how to avoid replacing
-LevelDB packs while Foundry has them open. Keep remote secrets in ignored config
-and standard SSH configuration, never documentation or CI.
+## Deployment
 
-User-authorized test-world creation through the Foundry UI is a specific exception
-to the ordinary prohibition on writing world data. It does not authorize copying,
-deleting, or editing any existing campaign world.
+1. Commit the reviewed sources, then run `npm.cmd run verify`. Verification records the commit, archive hash, and worktree state in `.build/verified.json`.
+2. Leave the instance in Setup. The helper rejects a join/game route and rechecks immediately before replacement. Coordinate exclusive test use to avoid a world launch racing the swap.
+3. Run `npm.cmd run deploy:remote -- --dry-run`. It verifies the world/system markers, resolved paths, clean source/build identity, archive, and exact output bytes, then lists changed files without writing remotely.
+4. Run `npm.cmd run deploy:remote`. It stages only verified files under `<configured-data>/Data/.additional-spheres-content-deploy`, checks hashes and module identity, then renames the staged directory into the exact module target.
+5. Run `npm.cmd run smoke:remote`, followed by the Foundry UI acceptance checks. A file deployment alone does not prove Foundry has discovered or enabled the module.
 
-## Acceptance and rollback
+Actual private paths are validated and recorded locally. Console output uses the
+logical target, keeping private server details out of PR logs. No broad sync,
+recursive remote deletion, container management, or world-data write occurs.
 
-Use only the dedicated PF1 world, module, and declared dependencies. Record core
-and system versions, exact commit/version, enable/disable/reload results, packs,
-representative sheets, drag/drop, formulas, UUIDs, images, console warnings, and
-scoped server-log results. Test player permissions when content visibility matters.
+## Backup and rollback
 
-Rollback is not configured. Before the first replacement, document and verify a
-recoverable module-only backup. Do not invent an ad hoc remote deletion or restart
-command to work around missing deployment automation.
+Before replacement, the existing module directory moves to a uniquely named
+`backup-*` directory in the module-specific operations directory. If moving the
+staged build into place fails, the helper restores that backup. This is a staged
+two-rename swap, with a brief gap between renames; it is not one atomic operation.
+The helper detects concurrent deployments with an exclusive lock file.
+
+Backups and failed staging directories are retained. At five backups, another
+deployment is refused until retention is reviewed; no backup is automatically
+deleted. A successful deployment writes an ignored `.local/deployment.json`
+receipt with commit, version, hashes, and the rollback directory when applicable.
+
+If the process dies mid-transfer or rollback itself fails, reconcile the lock,
+stage, target, and backup before retrying. For a post-install rollback, return to
+Setup and review the receipt's exact backup and target; obtain approval for the
+specific restore before moving existing files. Do not delete campaigns or broader
+directories to recover a module deployment.
+
+## Acceptance
+
+Confirm module discovery, enable/disable/reload, supported versions, pack counts,
+representative content behavior, permissions, and browser/server logs. This
+foundation contains no packs. Logs are read through the same share's `Logs`
+directory, scoped to the deployment time and module identity; keep private log
+content out of public reports. Record evidence in PR #2 and the checkpoint.
+
+If Foundry needs a container restart to discover the new package, stop and obtain
+authorization for that exact container; the deployment helper never restarts it.

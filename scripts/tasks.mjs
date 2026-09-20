@@ -5,6 +5,7 @@ import { createHash } from "node:crypto";
 import path from "node:path";
 import { zipSync } from "fflate";
 import { compilePack } from "@foundryvtt/foundryvtt-cli";
+import { deployRemote, smokeRemote } from "./remote.mjs";
 import {
   root,
   moduleId,
@@ -192,16 +193,30 @@ async function main() {
       const first = await build();
       const second = await build();
       assert.equal(first, second, "Clean rebuild changed the review archive");
+      const verifiedBuild = await json(".build/build.json");
+      await writeFile(
+        ".build/verified.json",
+        JSON.stringify(
+          {
+            commit: verifiedBuild.commit,
+            sha256: verifiedBuild.sha256,
+            dirty: verifiedBuild.dirty,
+          },
+          null,
+          2,
+        ) + "\n",
+      );
       console.log(
         "Local foundation gate passed; Foundry acceptance and PF1 content schema checks are pending.",
       );
       break;
     }
     case "deploy":
+      await deployRemote(process.argv.includes("--dry-run"));
+      break;
     case "smoke":
-      throw new Error(
-        "Remote workflow is not configured. No connection or mutation attempted. See docs/REMOTE_TESTING.md.",
-      );
+      await smokeRemote();
+      break;
     case "release":
       await manifestCheck();
       throw new Error(

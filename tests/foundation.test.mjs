@@ -114,6 +114,7 @@ test("remote and release gates return failure without configured access", () => 
     const result = spawnSync(process.execPath, ["scripts/tasks.mjs", ...args], {
       cwd: root,
       encoding: "utf8",
+      env: { ...process.env, FVTT_DISABLE_REMOTE: "1" },
     });
     assert.equal(result.status, 1);
     assert.match(

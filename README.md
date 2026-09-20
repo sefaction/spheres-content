@@ -23,9 +23,11 @@ npm.cmd run verify
 The ZIP opens directly to the module files. No release or manifest publication
 is performed. Source JSON compiles through the official Foundry CLI.
 
-Remote commands currently fail closed, including dry run: the host access method,
-dedicated test world, exact directory, and safe replacement workflow are pending.
-See [remote testing](docs/REMOTE_TESTING.md).
+Remote deployment uses an authenticated Windows SMB session and ignored local
+configuration. Run `npm.cmd run verify` on a clean committed branch, followed by
+`npm.cmd run deploy:remote -- --dry-run`, `npm.cmd run deploy:remote`, and
+`npm.cmd run smoke:remote`. Foundry must be in Setup before replacing files.
+See [remote testing](docs/REMOTE_TESTING.md) for configuration and rollback.
 
 ## Project documentation
 

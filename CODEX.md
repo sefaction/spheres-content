@@ -120,6 +120,15 @@ FVTT_TEST_WORLD=<dedicated PF1 test world>
 
 Prefer an SSH config alias and key-based authentication. Do not put passwords or private-key contents in environment files. Do not echo sensitive environment values.
 
+For the configured Unraid host, use the Windows SMB adapter instead of SSH.
+Its equivalent profile is documented in `docs/REMOTE_TESTING.md` and
+`config/remote.example.json`; actual values live in ignored `.local/remote.json`.
+It uses the existing Windows SMB session without handling credentials. The
+dry run prints a logical target rather than a private address. Retention is
+bounded by refusing additional replacements at five backups, never by deleting
+backups without approval. A clean committed `npm.cmd run verify` is required
+immediately before deployment; a standalone build invalidates the verification receipt.
+
 `docs/REMOTE_TESTING.md` should describe the safe logical target without secrets: hosting model, whether the instance is disposable or shared, allowed module path, test-world purpose, how logs are viewed, whether a restart is permitted, and the rollback procedure.
 
 ## Remote deployment contract

@@ -18,7 +18,7 @@ dirty build is a review artifact and cannot be deployed by this foundation.
 - Launch the dedicated test world (PF1 11.11 confirmed in Setup).
 - Install the module shell, enable/disable/reload it, and inspect browser and server logs.
 - Establish tested compatibility fields and evidence validation.
-- Implement and test the actual remote adapter, including backup and rollback.
+- Complete actual SMB deployment and UI acceptance; local adapter tests cover unsafe targets, backup preservation, and rollback after a failed staging rename.
 - Implement PF1 document schema, reference, and mechanics tests alongside the first content batch.
 - Validate representative compendium entries, drag/drop, bonuses, stacking, and conditional notes.
 - For a release, validate actual install/update from its manifest and versioned ZIP.
