@@ -24,7 +24,7 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   consumable profiles; Catnip Hookah has a pinned one-minute action; the map has
   its source Tiny size and a pinned +5 Survival context note for exploration
   checks. The hookah's supplement link is deferred until the batch's Catnip dose
-  entry is reviewed. The batch audit now reports four implemented images and 96
+  entry is reviewed. The batch audit now reports eight implemented images and 92
   remaining. Seven entries are complete; Catnip Hookah stays pending only until
   its canonical Catnip supplement link can be added later in this batch.
 - Meat Pie, Pastry, Sausage and Soup use pinned native single-use miscellaneous
@@ -39,6 +39,13 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   backup was pruned after verification and ten remain. Exact package hashes
   passed before world launch; the post-load semantic audit matched all 6,788
   canonical documents and ignored only expected LevelDB housekeeping changes.
+- Commit `45c58743afaf88273d4e133ea058379b41538df0` adds the four
+  highland-food consumables. The clean gate passed all 31 tests and two
+  deterministic 690-file builds. Atomic deployment verified exact installed
+  bytes, pruned one oldest backup after replacement and retained ten. The remote
+  semantic audit again matched all 6,788 canonical documents at route `/auth`.
+  UI and actor-use checks for this second slice remain pending and can be grouped
+  with the next conditional-gear slice.
 - Foundry 13.351 / PF1 11.11 UI acceptance opened the four entries and confirmed
   all WebP paths, Catnip Hookah's one-minute action, Cider's miscellaneous
   consumable profile, and the map's +5 Survival context note with an empty
