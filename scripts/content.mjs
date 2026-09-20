@@ -97,12 +97,23 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
       [],
       "changes must remain empty during the descriptive phase",
     );
-  for (const name of ["contextNotes", "scriptCalls"])
-    assert.deepEqual(
-      s[name],
-      [],
-      `${name} must remain empty during the descriptive phase`,
+  if (identity.contextNotesSha256)
+    assert.equal(
+      hash(JSON.stringify(s.contextNotes)),
+      identity.contextNotesSha256,
+      "Reviewed context notes changed",
     );
+  else
+    assert.deepEqual(
+      s.contextNotes,
+      [],
+      "contextNotes must remain empty during the descriptive phase",
+    );
+  assert.deepEqual(
+    s.scriptCalls,
+    [],
+    "scriptCalls must remain empty during the descriptive phase",
+  );
   if (options.contained) {
     assert.equal(
       hash(JSON.stringify(s.actions)),
@@ -349,6 +360,74 @@ export function containerTotals(doc) {
   );
 }
 
+export function validateProductionBatches(inventory, docs) {
+  assert.equal(inventory.version, 1, "Unknown production-batch schema");
+  const known = new Map(
+    docs.map(({ pack, file, doc }) => [
+      doc.flags[moduleId].sourceKey,
+      { pack, file: file.replaceAll("\\", "/"), doc },
+    ]),
+  );
+  for (const [batchId, batch] of Object.entries(inventory.batches ?? {})) {
+    assert(/^[a-z0-9-]+$/.test(batchId), "Unsafe production-batch ID");
+    assert(
+      Number.isInteger(batch.issue) && batch.issue > 0,
+      "Missing batch issue",
+    );
+    assert(
+      ["active", "complete"].includes(batch.status),
+      "Unknown batch status",
+    );
+    assert(
+      /^[0-9a-f]{40}$/.test(batch.frozenAtMainCommit),
+      "Invalid frozen commit",
+    );
+    assert.equal(
+      batch.entries.length,
+      batch.expectedCount,
+      "Batch count changed",
+    );
+    const sourceKeys = new Set();
+    const ids = new Set();
+    for (const entry of batch.entries) {
+      assert(!sourceKeys.has(entry.sourceKey), "Duplicate batch source key");
+      assert(!ids.has(entry.id), "Duplicate batch document ID");
+      sourceKeys.add(entry.sourceKey);
+      ids.add(entry.id);
+      assert(
+        ["pending", "complete", "blocked"].includes(entry.status),
+        "Unknown batch entry status",
+      );
+      assert.equal(
+        entry.initialImageState,
+        "needed",
+        "Invalid frozen image state",
+      );
+      const canonical = known.get(entry.sourceKey);
+      assert(canonical, "Batch entry is not canonical content");
+      assert.equal(
+        canonical.pack,
+        batch.collection,
+        "Batch collection changed",
+      );
+      assert.equal(
+        canonical.file,
+        safeRelative(entry.file),
+        "Batch file changed",
+      );
+      assert.equal(canonical.doc._id, entry.id, "Batch identity changed");
+      assert.equal(canonical.doc.name, entry.name, "Batch name changed");
+      const meta = canonical.doc.flags[moduleId];
+      assert.equal(meta.edition, batch.edition, "Batch edition changed");
+      assert.equal(
+        meta.descriptionSha256,
+        entry.descriptionSha256,
+        "Batch source description changed",
+      );
+    }
+  }
+}
+
 export async function validateContentCatalog() {
   const catalog = await json("config/content.json");
   const manifest = await json("module.json");
@@ -356,6 +435,7 @@ export async function validateContentCatalog() {
   const containers = await json("config/containers.json");
   const intakeSources = await json("config/intake-sources.json");
   const physicalReviews = await json("config/physical-item-reviews.json");
+  const productionBatches = await json("config/production-batches.json");
   const sources = new Map();
   for (const source of catalog.sources) {
     assert(!sources.has(source.key), "Duplicate collection");
@@ -517,5 +597,6 @@ export async function validateContentCatalog() {
     registeredFiles.sort(),
     "Unregistered pack source",
   );
+  validateProductionBatches(productionBatches, docs);
   return { catalog, docs };
 }

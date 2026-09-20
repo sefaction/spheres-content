@@ -21,6 +21,8 @@ assert(
       "imported",
       "held",
       "pack",
+      "batch",
+      "batch-status",
     ].includes(k),
   ),
   "Unknown audit filter",
@@ -40,6 +42,33 @@ if (args.imported) {
     if (!unique.has(key) || e.intake?.state !== "duplicate") unique.set(key, e);
   }
   rows = [...unique.values()];
+}
+let selectedBatch = null;
+if (args.batch) {
+  const inventory = JSON.parse(
+    await readFile("config/production-batches.json", "utf8"),
+  );
+  selectedBatch = inventory.batches?.[args.batch];
+  assert(selectedBatch, `Unknown production batch: ${args.batch}`);
+  const bySourceKey = new Map(rows.map((entry) => [entry.sourceKey, entry]));
+  rows = selectedBatch.entries.map((entry) => {
+    const candidate = bySourceKey.get(entry.sourceKey);
+    assert(
+      candidate,
+      `Batch source is missing from audit ledger: ${entry.sourceKey}`,
+    );
+    return { ...candidate, productionBatch: entry };
+  });
+}
+if (args["batch-status"]) {
+  assert(args.batch, "--batch-status requires --batch");
+  assert(
+    ["pending", "complete", "blocked"].includes(args["batch-status"]),
+    "Unknown batch status",
+  );
+  rows = rows.filter(
+    (entry) => entry.productionBatch.status === args["batch-status"],
+  );
 }
 if (args.held) rows = rows.filter((e) => e.intake?.state === "held");
 if (args.pack) rows = rows.filter((e) => e.canonical?.pack === args.pack);
@@ -82,6 +111,25 @@ if (args.class) {
     JSON.stringify(
       {
         ...summary,
+        ...(selectedBatch
+          ? {
+              productionBatch: {
+                id: args.batch,
+                issue: selectedBatch.issue,
+                status: selectedBatch.status,
+                expectedCount: selectedBatch.expectedCount,
+                selectedCount: rows.length,
+                entryStates: Object.fromEntries(
+                  ["pending", "complete", "blocked"].map((state) => [
+                    state,
+                    selectedBatch.entries.filter(
+                      (entry) => entry.status === state,
+                    ).length,
+                  ]),
+                ),
+              },
+            }
+          : {}),
         facetStates: Object.fromEntries(
           facets.map((f) => [
             f,
@@ -118,6 +166,8 @@ if (args.class) {
     for (const e of rows.slice(0, limit)) {
       console.log(`${e.kind} | ${e.name} | ${e.edition}`);
       console.log(`  ${e.sourceKey}`);
+      if (e.productionBatch)
+        console.log(`  Batch status: ${e.productionBatch.status}`);
       console.log(`  ${e.url}`);
       if (e.canonical)
         console.log(`  ${e.canonical.uuid}\n  ${e.canonical.file}`);

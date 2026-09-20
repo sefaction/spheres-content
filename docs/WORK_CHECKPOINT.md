@@ -2,7 +2,36 @@
 
 Updated: 2026-09-20 (work began 2026-09-19 local time).
 
-## Current batch: native weapon and consumable review
+## Current batch: first 100 physical items
+
+- Branch `content/physical-items-batch-1`; issue #15:
+  https://github.com/sefaction/spheres-content/issues/15.
+- User priority is physical items, feats, base classes and class features, with
+  Guile talents last. Guile remains in scope and in the existing pack/audit data.
+- The broad intake ledger has 940 appearances still reporting an image need;
+  246 canonical current-edition item documents had the same state when this
+  batch was selected. `config/production-batches.json` freezes the first 100 by
+  stable source key, with their IDs, source hashes and canonical paths.
+- For each manifest entry, review source boundaries, provenance, compendium reuse,
+  PF1 type and physical fields, actions/uses, Changes and context notes, links,
+  advanced settings, compatibility and artwork. Preserve stable IDs and record a
+  concrete blocked reason instead of guessing unsupported mechanics.
+- The first production slice reviews Catnip Hookah, Cider, Fruitcake (loaf of)
+  and Map, Tradewind. All four have original 256 px WebP icons in the readable
+  adventuring-gear folder. Cider and Fruitcake now use pinned single-use PF1
+  consumable profiles; Catnip Hookah has a pinned one-minute action; the map has
+  its source Tiny size and a pinned +5 Survival context note for exploration
+  checks. The hookah's supplement link is deferred until the batch's Catnip dose
+  entry is reviewed. The batch audit now reports four implemented images and 96
+  remaining.
+- The production manifest allows reviewed PF1 type corrections while continuing
+  to pin identity, source key, path, edition and description hash. Batch-aware
+  audit queries and context-note hash validation have tests.
+- The dedicated world remains in Setup with alpha.6 implementation commit
+  `c9107729ce1a5e2189bcacff1d1a9d80efd996f0` deployed. No new build has been
+  produced or deployed for issue #15 yet.
+
+## Prior completed batch: native weapon and consumable review
 
 - PRs #2, #4, #9 and #11 were merged into `main` with the user's explicit
   approval. Their resolved issues are closed; issue #3 remains the broad catalog
@@ -12,9 +41,10 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   PF1 11.11's reviewed attack action, weapon categories and system artwork plus
   the wiki's CL 10 and Illusion aura. Its +3 Illusion implement role now uses
   pf1spheres 0.9.0's `sphereclIllusion` target with PF1's uncapped `enh`
-  modifier; the stable Change ID and array hash are pinned. Glamered remains descriptive.
-  Trail Rations is native food with PF1's single-use action and
-  system artwork while retaining wiki text, price and weight.
+  modifier; the stable Change ID and array hash are pinned. Glamered remains
+  descriptive. Trail Rations is an activatable miscellaneous consumable with
+  PF1's single-use action and system artwork while retaining wiki text, price and
+  weight.
 - Exact source UUIDs/hashes, adaptation decisions, output hashes and action-array
   hashes are pinned. The two PF1 images were visually inspected and are referenced
   without redistributing bytes. The refreshed physical report has 963 entries,
@@ -36,17 +66,16 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   action. A three-ration actor stack used one item, remained present at quantity
   two, and produced the expected chat card. Existing actor-owned copies are not
   migrated.
-- Draft PR #14 is open against `main`:
-  https://github.com/sefaction/spheres-content/pull/14. The dedicated world is
+- PR #14 merged into `main` with the user's explicit approval and issue #13
+  closed: https://github.com/sefaction/spheres-content/pull/14. The dedicated world is
   back in Setup. Final semantic audit matched all 6,788
   documents, non-pack receipt bytes and referenced images at the deployed commit.
   Browser acceptance recorded zero errors; 113 warnings are existing Foundry 13
   deprecations from PF1/pf1spheres. The current server log contains zero errors
   and only two earlier rejected-login warnings, with no new acceptance warning.
-  No release, world migration or container restart is included. Evidence commit
-  `dcc8f8d4885f8b145b7875a30b2f1b8f7488aa0e` and the refreshed PR #14/issue #13
-  text are pushed. CI is pending on the new head. The next safe step is to review
-  its results and leave the draft PR for the user's individual merge decision.
+  No release, world migration or container restart is included. Both PR checks
+  and both post-merge `main` checks passed at merge commit
+  `370584444db77a83f96e0b8f48741b6260a943bd`.
 
 ## Prior completed batch: systematic wiki intake
 

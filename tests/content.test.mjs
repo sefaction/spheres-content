@@ -4,6 +4,7 @@ import { json, moduleId } from "../scripts/lib.mjs";
 import {
   validateEntity,
   validateContentCatalog,
+  validateProductionBatches,
   containerTotals,
 } from "../scripts/content.mjs";
 
@@ -69,6 +70,30 @@ test("pilot source, pack, provenance and image inventories agree", async () => {
   });
 });
 
+test("physical production batch freezes 100 stable canonical identities", async () => {
+  const { docs } = await validateContentCatalog();
+  const inventory = await json("config/production-batches.json");
+  const batch = inventory.batches["physical-items-batch-1"];
+  assert.equal(batch.issue, 15);
+  assert.equal(batch.entries.length, 100);
+  assert.deepEqual(
+    batch.entries.map((entry) => entry.sourceKey),
+    batch.entries.map((entry) => entry.sourceKey).toSorted(),
+  );
+  assert.equal(new Set(batch.entries.map((entry) => entry.id)).size, 100);
+
+  const changed = structuredClone(inventory);
+  changed.batches["physical-items-batch-1"].entries[0].id = "0000000000000000";
+  assert.throws(
+    () => validateProductionBatches(changed, docs),
+    /Batch identity changed/,
+  );
+
+  const correctedType = structuredClone(inventory);
+  correctedType.batches["physical-items-batch-1"].entries[0].type = "weapon";
+  assert.doesNotThrow(() => validateProductionBatches(correctedType, docs));
+});
+
 test("descriptive-phase gate rejects premature mechanics, broken identity, unsafe HTML and missing art", async () => {
   const original = await json("src/packs/feats/extra-magic-talent.json");
   const identity = (await json("config/identities.json")).find(
@@ -118,6 +143,32 @@ test("descriptive-phase gate rejects premature mechanics, broken identity, unsaf
       expected,
     );
   }
+});
+
+test("reviewed context notes are pinned to their stable document identity", async () => {
+  const doc = await json(
+    "src/packs/items/adventuring-gear/map-tradewind-093b87bddd856b9b.json",
+  );
+  const identity = (await json("config/identities.json")).find(
+    (entry) => entry.id === doc._id,
+  );
+  const catalog = await json("config/content.json");
+  const sources = new Map(
+    catalog.sources.map((source) => [source.key, source]),
+  );
+  const assets = new Map(
+    [...catalog.assets, ...catalog.externalAssets].map((asset) => [
+      asset.path.replace(/^static\//, `modules/${moduleId}/`),
+      asset,
+    ]),
+  );
+  const intakeSources = await json("config/intake-sources.json");
+  const changed = structuredClone(doc);
+  changed.system.contextNotes[0].text = "+[[6]] circumstance bonus";
+  assert.throws(
+    () => validateEntity(changed, identity, sources, assets, { intakeSources }),
+    /Reviewed context notes changed/,
+  );
 });
 
 test("container validation rejects missing contents, double counting, broken child identity and unreviewed actions", async () => {

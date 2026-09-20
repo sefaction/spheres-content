@@ -91,5 +91,213 @@
       "sourceSha256": "1e21dc2325d3816a619d99defaba8df0ff6fa2e5ccb77058f26c30de4f772446",
       "reason": "Compared full matching rules, price/weight and wiki text; retained wiki-specific size and umbrella device schematic."
     }
+  },
+  "wiki:adventuring-gear:current:item:catnip-hookah": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "d0644e73735b1ed8deb29da1622d8d8520e4d5414faf241e0926cc3dbe8f79b9",
+      "reason": "Original generated 256 px WebP depicts the specific hookah and is registered with source and encoding hashes."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "d0644e73735b1ed8deb29da1622d8d8520e4d5414faf241e0926cc3dbe8f79b9",
+      "reason": "A pinned one-minute Use Hookah action matches the source activation time and targets up to four creatures."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "d0644e73735b1ed8deb29da1622d8d8520e4d5414faf241e0926cc3dbe8f79b9",
+      "reason": "The hookah grants no passive numerical actor modifier."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "d0644e73735b1ed8deb29da1622d8d8520e4d5414faf241e0926cc3dbe8f79b9",
+      "reason": "The item has no conditional roll bonus; substance-specific effects belong to the consumed substance."
+    },
+    "usage": {
+      "state": "not-needed",
+      "sourceSha256": "d0644e73735b1ed8deb29da1622d8d8520e4d5414faf241e0926cc3dbe8f79b9",
+      "reason": "The hookah is reusable and consumes a separate dose of catnip rather than its own charges."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "d0644e73735b1ed8deb29da1622d8d8520e4d5414faf241e0926cc3dbe8f79b9",
+      "reason": "The canonical Catnip dose is entry 19 in this production batch; add and test the supplement link after that consumable is reviewed."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "d0644e73735b1ed8deb29da1622d8d8520e4d5414faf241e0926cc3dbe8f79b9",
+      "reason": "Price, weight, mundane gear type and action timing were reviewed against the source."
+    },
+    "compatibility": {
+      "state": "not-applicable",
+      "sourceSha256": "d0644e73735b1ed8deb29da1622d8d8520e4d5414faf241e0926cc3dbe8f79b9",
+      "reason": "No PF1 Spheres integration field is required."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "d0644e73735b1ed8deb29da1622d8d8520e4d5414faf241e0926cc3dbe8f79b9",
+      "reason": "The compendium index contains no exact or normalized Catnip Hookah match; the native record was reviewed directly."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "d0644e73735b1ed8deb29da1622d8d8520e4d5414faf241e0926cc3dbe8f79b9",
+      "reason": "The complete source description, price, weight, capacity and timing are retained."
+    }
+  },
+  "wiki:adventuring-gear:current:item:cider": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "a481b6e9bec8269b1627152a00e1c3167c25c9e8a118f7447cafa8668d87de36",
+      "reason": "Original generated 256 px WebP depicts a mug and jug of apple cider and is registered with source and encoding hashes."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "a481b6e9bec8269b1627152a00e1c3167c25c9e8a118f7447cafa8668d87de36",
+      "reason": "A pinned non-action Use action provides native PF1 consumable handling."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "a481b6e9bec8269b1627152a00e1c3167c25c9e8a118f7447cafa8668d87de36",
+      "reason": "Cider grants no rules bonus in the source."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "a481b6e9bec8269b1627152a00e1c3167c25c9e8a118f7447cafa8668d87de36",
+      "reason": "Cider has no conditional roll modifier in the source."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "a481b6e9bec8269b1627152a00e1c3167c25c9e8a118f7447cafa8668d87de36",
+      "reason": "The default mug profile is a single-use miscellaneous consumable that decrements an actor-owned stack."
+    },
+    "links": {
+      "state": "implemented",
+      "sourceSha256": "a481b6e9bec8269b1627152a00e1c3167c25c9e8a118f7447cafa8668d87de36",
+      "reason": "Native consumable charge links are present; there are no child documents."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "a481b6e9bec8269b1627152a00e1c3167c25c9e8a118f7447cafa8668d87de36",
+      "reason": "The canonical price and weight represent the listed mug profile; type and single-use fields were reviewed."
+    },
+    "compatibility": {
+      "state": "not-applicable",
+      "sourceSha256": "a481b6e9bec8269b1627152a00e1c3167c25c9e8a118f7447cafa8668d87de36",
+      "reason": "No PF1 Spheres integration field is required."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "a481b6e9bec8269b1627152a00e1c3167c25c9e8a118f7447cafa8668d87de36",
+      "reason": "No exact or normalized Cider record was available; differently named specialty ciders were not substituted."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "a481b6e9bec8269b1627152a00e1c3167c25c9e8a118f7447cafa8668d87de36",
+      "reason": "The complete source description and both mug and gallon alternatives remain visible."
+    }
+  },
+  "wiki:adventuring-gear:current:item:fruitcake-loaf-of": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "fce3bc919b188dc541508a212504fc130f78e4ef2429faedaafc9c5f0cffbfd9",
+      "reason": "Original generated 256 px WebP depicts a sliced fruitcake loaf and is registered with source and encoding hashes."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "fce3bc919b188dc541508a212504fc130f78e4ef2429faedaafc9c5f0cffbfd9",
+      "reason": "A pinned non-action Use action provides native PF1 consumable handling."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "fce3bc919b188dc541508a212504fc130f78e4ef2429faedaafc9c5f0cffbfd9",
+      "reason": "Fruitcake grants no rules bonus in the source."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "fce3bc919b188dc541508a212504fc130f78e4ef2429faedaafc9c5f0cffbfd9",
+      "reason": "Fruitcake has no conditional roll modifier in the source."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "fce3bc919b188dc541508a212504fc130f78e4ef2429faedaafc9c5f0cffbfd9",
+      "reason": "The loaf is represented as a single-use miscellaneous consumable that decrements an actor-owned stack."
+    },
+    "links": {
+      "state": "implemented",
+      "sourceSha256": "fce3bc919b188dc541508a212504fc130f78e4ef2429faedaafc9c5f0cffbfd9",
+      "reason": "Native consumable charge links are present; there are no child documents."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "fce3bc919b188dc541508a212504fc130f78e4ef2429faedaafc9c5f0cffbfd9",
+      "reason": "Price, weight, quality text and consumable profile were reviewed."
+    },
+    "compatibility": {
+      "state": "not-applicable",
+      "sourceSha256": "fce3bc919b188dc541508a212504fc130f78e4ef2429faedaafc9c5f0cffbfd9",
+      "reason": "No PF1 Spheres integration field is required."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "fce3bc919b188dc541508a212504fc130f78e4ef2429faedaafc9c5f0cffbfd9",
+      "reason": "The compendium index contains no exact or normalized fruitcake-loaf match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "fce3bc919b188dc541508a212504fc130f78e4ef2429faedaafc9c5f0cffbfd9",
+      "reason": "The complete source description, price, quality and weight are retained."
+    }
+  },
+  "wiki:adventuring-gear:current:item:map-tradewind": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "bbb46e4451d4a33575e3bc11dbe7e65dd9faff1c7e38429167f2ba210e115c75",
+      "reason": "Original generated 256 px WebP depicts the regional Tradewind map and is registered with source and encoding hashes."
+    },
+    "activation": {
+      "state": "not-applicable",
+      "sourceSha256": "bbb46e4451d4a33575e3bc11dbe7e65dd9faff1c7e38429167f2ba210e115c75",
+      "reason": "The map has no activation action in the source."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "bbb46e4451d4a33575e3bc11dbe7e65dd9faff1c7e38429167f2ba210e115c75",
+      "reason": "The exploration bonus is conditional and should not apply to every skill check as a passive Change."
+    },
+    "contextNotes": {
+      "state": "implemented",
+      "sourceSha256": "bbb46e4451d4a33575e3bc11dbe7e65dd9faff1c7e38429167f2ba210e115c75",
+      "reason": "A pinned Survival context note displays the +5 circumstance bonus when the map is used for an exploration check; the description covers other exploration skills."
+    },
+    "usage": {
+      "state": "not-needed",
+      "sourceSha256": "bbb46e4451d4a33575e3bc11dbe7e65dd9faff1c7e38429167f2ba210e115c75",
+      "reason": "The map has no charges or use limit."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "bbb46e4451d4a33575e3bc11dbe7e65dd9faff1c7e38429167f2ba210e115c75",
+      "reason": "The item has no child or charge links."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "bbb46e4451d4a33575e3bc11dbe7e65dd9faff1c7e38429167f2ba210e115c75",
+      "reason": "The source Tiny size, price and weight are represented."
+    },
+    "compatibility": {
+      "state": "not-applicable",
+      "sourceSha256": "bbb46e4451d4a33575e3bc11dbe7e65dd9faff1c7e38429167f2ba210e115c75",
+      "reason": "The exploration rule is PF1 core subsystem context, not a Spheres integration field."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "bbb46e4451d4a33575e3bc11dbe7e65dd9faff1c7e38429167f2ba210e115c75",
+      "reason": "No exact or normalized Tradewind map record exists; generic maps were not substituted."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "bbb46e4451d4a33575e3bc11dbe7e65dd9faff1c7e38429167f2ba210e115c75",
+      "reason": "The complete source description and exploration benefit are retained."
+    }
   }
 }
