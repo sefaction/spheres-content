@@ -1,0 +1,121 @@
+{
+  "_id": "9de65c201e2ca56d",
+  "_key": "!items!9de65c201e2ca56d",
+  "name": "Aethernaut: Precision (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:aethernaut:current:class-feature:precision-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/aethernaut#toc4",
+      "sourceSha256": "cd774d1a82f266aca5716be895c0f51e1e0bb4993ad8ac1c77eb98a14131138f",
+      "descriptionSha256": "0ab60ba82a4f59b75776049222c4fe215a3f9998a5029ec0490b5282f21d040c",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:aethernaut:current:class-feature:precision-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>An aethernaut can use his device to control the effects of his actions more precisely a number of times per day equal to 1/2 his aethernaut level + his Intelligence modifier (minimum 1). Whenever the aethernaut rolls any dice, he can use an immediate action to roll again before the effects are applied. If he does, he must use the new result even if it is worse than the old result. You can't use precision to modify a die roll if you already rolled twice and took the better result or rerolled it.</p>\n<p>Because the aethernaut constantly tinkers with the device and it can do countless minor things, this ability often looks different every time it is used. For example, when the aethernaut rerolls an attack roll, it might be because his device weapon fires a jet of plasma to correct its course or because his armor device moves his arm for him. When he rerolls a saving throw, his amulet device might have warned him to ready himself by responding to occult energy readings picked up from the immediate future or by releasing a bit of aetheric gas that fortifies his faculties for a moment.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/aethernaut#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/aethernaut#toc4"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

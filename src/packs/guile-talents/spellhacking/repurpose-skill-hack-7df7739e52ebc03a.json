@@ -1,0 +1,124 @@
+{
+  "_id": "7df7739e52ebc03a",
+  "_key": "!items!7df7739e52ebc03a",
+  "name": "Repurpose Skill (hack)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spellhacking:spheres-of-guile:guile-talent:repurpose-skill-hack",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spellhacking#toc43",
+      "sourceSha256": "ff5395bb19ac2b67c42bb66b158929891d1c2ab9f8401273b50df23faa41f51b",
+      "descriptionSha256": "16aacc249316b6af6acd53f25cf80d46b4a195c797eea666cb4af26c290010b8",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Hack Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spellhacking:spheres-of-guile:guile-talent:repurpose-skill-hack",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "spellhacking"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Target:</strong> A magic item or ongoing magical effect that grants a continuous bonus to a skill or ability score with caster level no greater than the ranks in the associated skill you possess</p>\n<p>You change the item’s bonus into a different one for 1 round per rank in the associated skill you possess. The new bonus options depend upon the previous bonus.</p>\n<p><strong>Repurpose Skill:</strong> If the previous bonus was to a skill, you replace it with a competence bonus to another skill that also uses a mental or physical ability modifier (whichever the original skill used) with the value reduced by half.</p>\n<p><strong>Repurpose Ability Score:</strong> If the previous bonus was to an ability score, you replace it with a competence bonus to one skill using that ability score with the same value or an enhancement bonus to another mental or physical ability score (whichever the original ability score was) with the value reduced by half. For example, if the previous bonus was to Strength, you could change it to an enhancement bonus of half that value to Constitution or Dexterity.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/spellhacking#toc43\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spellhacking#toc43"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

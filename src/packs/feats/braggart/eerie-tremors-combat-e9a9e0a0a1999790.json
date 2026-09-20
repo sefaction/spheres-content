@@ -1,0 +1,121 @@
+{
+  "_id": "e9a9e0a0a1999790",
+  "_key": "!items!e9a9e0a0a1999790",
+  "name": "Eerie Tremors (Combat)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:braggart:current:feat:eerie-tremors-combat",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/braggart#toc39",
+      "sourceSha256": "dc89ab1c3313b83e9178a52cade2b4b982833f02f24048e1664c4c8395b04157",
+      "descriptionSha256": "8906c4b1e59a6a3f9a90c9f4431afa532d778f025df6dd02745fc4faa09b1049",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "New Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:braggart:current:feat:eerie-tremors-combat",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Forbidden approach, impressive defense</p>\n<p><strong>Benefits:</strong> When you apply at least one flair to an attack you make, you can choose to forgo gaining the benefits of your impressive defense class feature. If you do so, choose one creature affected by or in the area of a sphere effect or magic talent from your approach sphere. They take a penalty to AC and saving throws equal to your Charisma modifier (to a maximum penalty equal to your braggart level) for one round.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/braggart#toc39\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/braggart#toc39"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

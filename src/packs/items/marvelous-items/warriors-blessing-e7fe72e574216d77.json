@@ -1,0 +1,162 @@
+{
+  "_id": "e7fe72e574216d77",
+  "_key": "!items!e7fe72e574216d77",
+  "name": "Warrior’s Blessing",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:marvelous-items:ultimate:item:warriors-blessing",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/marvelous-items#toc98",
+      "sourceSha256": "a971a10582e74c6796d182b7ebe64177d217ee68e8817f8018506a8a95474889",
+      "descriptionSha256": "8fb91ce0ec669ab81d51e8047731eb76744335a347df884fd855b059cf8cf680",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "New Marvelous Items",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:marvelous-items:ultimate:item:warriors-blessing",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint Time; <strong>CL</strong> 3rd<br>\n<strong>Slot</strong> any; <strong>Price</strong> 2,400 gp; <strong>Weight</strong> 2 lbs.</p>\n<p>This blessed mark can be crafted onto something and worn in any slot, and warriors often call upon it immediately before they go into battle. Once per day, as a standard action, a creature can activate the warrior’s blessing to gain a +10 enhancement bonus to all forms of movement, a +1 bonus to attack rolls, a +1 dodge bonus to armor class and Reflex saves, and either an extra attack at their highest base attack bonus when making a full attack or an additional attack of opportunity (this can be chosen each round). This bonus lasts for 1 round per caster level (normally 3 rounds) and does not stack with similar effects (such as speed weapons).</p>\n<p><strong>Flask Shard Effect:</strong> Increase the caster level of this item to the next increment of 5. This increases the speed bonus by +10 and provides +1 attacks of opportunity at each level, as well as an extended duration as described above. At +2 and +4, warrior’s blessings can be used an additional time each day and provide an additional +1 to attack rolls, armor class, and Reflex saves. <strong>Flask Shard Limit:</strong> +4</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Marvelous Item, Time sphere (Improved Haste); <strong>Cost</strong> 1,200 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/marvelous-items#toc98\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 2
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 2400,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/marvelous-items#toc98"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

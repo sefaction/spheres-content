@@ -1,0 +1,121 @@
+{
+  "_id": "ecd764ef401b7e4a",
+  "_key": "!items!ecd764ef401b7e4a",
+  "name": "Henshin Hero: Tension (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:henshin-hero:current:class-feature:tension-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/henshin-hero#toc4",
+      "sourceSha256": "60085568b0a9d132176a401501ed1b758e930e00259b60bb7c12a123df381ae5",
+      "descriptionSha256": "3f578d51a6db54ff4402b6772540a66f3cade56fcea5186f6ffab9cb76ee951f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:henshin-hero:current:class-feature:tension-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>As the din of battle resounds, so too does the henshin hero grow in power. At first level the henshin hero gains a pool of tension- supernatural power that he can use to devastate his foes. This pool has no points in it by default, instead he gains points under the following conditions.</p>\n<ul>\n<li>The henshin hero gains a point of tension when he uses his transformation class feature.</li>\n<li>At the start of each turn that he remains transformed he gains 1 point of tension.</li>\n<li>Each time he reduces a foe to 0 or fewer hitpoints, or renders a foe unconscious via nonlethal damage with his finishing move he gains an amount of tension equal to 1/4 the creature’s HD (minimum 1).</li>\n</ul>\n<p>The henshin hero may spend points of tension to modify his finishing move in the following ways:</p>\n<ul>\n<li>He may spend 1 point to increase the damage dealt by his finishing move by 1d6, at 4th level and every 4 levels thereafter the henshin hero may spend an additional point to increase this damage by an extra 1d6. If the henshin hero has an ability that allows him to roll a different sort of die for his finishing move then dice added with this ability are instead of that size.</li>\n<li>He may spend 1 point to gain a +1 competence bonus on the attack roll for his finishing move, at 4th level and every 4 levels thereafter this bonus improves by +1. In addition at 4th level and every 4 levels thereafter the henshin hero may spend an additional point to increase this bonus by an additional +1, this bonus stacks with the bonus from his strong start class feature.</li>\n</ul>\n<p>A henshin hero’s tension pool can hold an amount of tension equal to 2 + ½ his henshin hero level; points above this maximum are lost.</p>\n<p>If the henshin hero uses his finishing move or ends his transformation class feature, then any unspent tension is lost.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/henshin-hero#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/henshin-hero#toc4"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

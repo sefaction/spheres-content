@@ -1,0 +1,124 @@
+{
+  "_id": "61c6954e45eb1df8",
+  "_key": "!items!61c6954e45eb1df8",
+  "name": "Early Hunt",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:survivalism:spheres-of-guile:guile-talent:early-hunt",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/survivalism#toc13",
+      "sourceSha256": "f08a002395ddf0d614719b1c74bdfc78b77500e0a93ea395e3e0354dcf980820",
+      "descriptionSha256": "12d515eb06454324b65ed3b0ea6d202f7f0effefa79bac29e014274a2fdda179",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Survivalism Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:survivalism:spheres-of-guile:guile-talent:early-hunt",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "survivalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p>You can reveal a plan to be any number of harvested components you could have gathered from a single creature. The creature type of this creature is dependent on your local surroundings, but is generally either an animal, humanoid, or vermin with a CR equal to 1 or lower, as they are usually the most plentiful.</p>\n<p>At 5 associated ranks, you can choose to spend 1 use of skill leverage as part of revealing this plan to have the creature type of the harvested components originate from any creature type of your choice, instead of just an animal, humanoid, or vermin. As normal for a [plan] talent, a particularly difficult to find creature type may require you to succeed a skill check, and in some instances may not be possible.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/survivalism#toc13\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["plan"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/survivalism#toc13"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

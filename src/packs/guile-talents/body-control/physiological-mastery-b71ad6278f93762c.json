@@ -1,0 +1,124 @@
+{
+  "_id": "b71ad6278f93762c",
+  "_key": "!items!b71ad6278f93762c",
+  "name": "Physiological Mastery",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:body-control:spheres-of-guile:guile-talent:physiological-mastery",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/body-control#toc18",
+      "sourceSha256": "ec7aa97e088675a010d37041d0a1d93fbcb23b1ec3b52a8948ffa9dd9985fbff",
+      "descriptionSha256": "13cd40e666135482dce304d78d8354ec11b116bccb9652cc455f071c8927b55a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Body Control Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:body-control:spheres-of-guile:guile-talent:physiological-mastery",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "bodyControl"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can optimize your body's energy expenditure and renewal patterns. You do not abandon your current approach while you sleep, and your effective level of alertness is raised to oblivious while sleeping. You need only half the usual amount of food or water. If you would already only need half the usual amount of food or water, you instead require as little sustenance as a single grain of rice and a single sip of water per day. If your sleep is interrupted, you do not lose any progress toward getting enough rest for the night.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/body-control#toc18\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/body-control#toc18"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "41442859e1322743",
+  "_key": "!items!41442859e1322743",
+  "name": "Arcane Reinforcement (hack)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spellhacking:spheres-of-guile:guile-talent:arcane-reinforcement-hack",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spellhacking#toc27",
+      "sourceSha256": "ff5395bb19ac2b67c42bb66b158929891d1c2ab9f8401273b50df23faa41f51b",
+      "descriptionSha256": "55cf7d043e654f1e3d0eea3d1af24ad8b8d3407bacdb7f91c4418dd8e88ec716",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Hack Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spellhacking:spheres-of-guile:guile-talent:arcane-reinforcement-hack",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "spellhacking"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica\">Diamond Spheres: Erudition &amp; Esoterica</a></sup></p>\n<p><strong>Target</strong>: A magic item.</p>\n<p>You spread the magic contained within an item across its surface area to reinforce it. The item gains +2 hardness and +10 bonus hit points, as well as gaining a +2 enhancement bonus to saving throws and uses your associated ranks instead of its caster level (if it's higher) for determining its saving throw bonuses (making it 2 + 1/2 your associated ranks). For every 2 ranks in the sphere’s associated skill you possess, the item’s hardness increases by 1, its hit points by 5, and its bonus to saving throws by 1.</p>\n<p>Additionally, the object (but not the attending creature) gains spell resistance equal to 15 + your associated ranks against effects that specifically target it, such as heat metal. You can suppress this spell resistance as normal, as long as the object is within your hack range.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/spellhacking#toc27\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spellhacking#toc27"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

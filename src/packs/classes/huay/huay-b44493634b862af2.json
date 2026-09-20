@@ -1,0 +1,146 @@
+{
+  "_id": "b44493634b862af2",
+  "_key": "!items!b44493634b862af2",
+  "name": "Huay",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:huay:current:class:huay",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/huay",
+      "sourceSha256": "4f50ed13d020c6053e257bca08171f49d12664a8aec2f9c90db1e99659e5d7b2",
+      "descriptionSha256": "804c75dbfff56ea3b5c69569317f949131886f25ec24ee05e64a21eaf1931e33",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:huay:current:class:huay",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/product/350941?affiliate_id=549120\">Akasha Reshaped: Huay</a></p>\n<hr>\n<p>Even before creatures had thought, speech, or art, they had envy. Envy of the wings of the birds overhead, the fish swimming endlessly in the deep, the teeth and claws of the wolf. And where that envy meets magic, there is transformation. The path of the huay (pronounced hWAY, plural huayob) is an ancient and sacred art, passed down since the dawn of time by shamans and worshipers of nature. They learn to borrow the special strengths and skills of the natural world around them, shaping their destinies along with their flesh.</p>\n<p>Like “witch”, the word huay has garnered a significant negative connotation, mostly due to its association with the huay-chivo, a legendary evil shapeshifting mage. Also like witch, players should not let this dissuade them from departing from the stories and playing their character on their own terms.</p>\n<p><strong>Role:</strong> The huay can fill many roles, using their abilities for things like scouting, combat, or diplomacy. Whether by changing into a mouse to slip into the enemy fortress unseen, becoming a fearsome dragon to wreak havoc on a marauding horde, or simply using their veils to bolster their allies, a huay is always a welcome addition to an adventuring party.</p>\n<p><strong>Alignment:</strong> Any neutral.</p>\n<p><strong>Hit Die:</strong> d8.</p>\n<p><strong>Starting Wealth:</strong> 2d6 x 10 gp (average 70 gp).</p>\n<p><strong>Class Skills:</strong> The Huay's class skills are Acrobatics (Dex), Climb (Str), Craft (Int), Fly (Dex), Handle Animal (Cha), Heal (Wis), Intimidate (Cha), Knowledge (arcana) (Int), Knowledge (geography) (Int), Knowledge (nature) (Int), Perception (Wis), Profession (Wis), Ride (Dex), Spellcraft (Int), Stealth (Dex), Survival (Wis), and Swim (Str).</p>\n<p><strong>Skill Points at each Level:</strong> 4 + Int modifier.</p>\n<h1>Class Features</h1>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Ref Save</th>\n<th>Will Save</th>\n<th>Special</th>\n<th>Veils</th>\n<th>Essence</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+2</td>\n<td>+0</td>\n<td>+2</td>\n<td>Veil of Nature</td>\n<td>1+1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+3</td>\n<td>+0</td>\n<td>+3</td>\n<td>Chakra bind (Hands), skin shift</td>\n<td>1+1</td>\n<td>2</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+2</td>\n<td>+3</td>\n<td>+1</td>\n<td>+3</td>\n<td>Imp. essence capacity +1, woodland stride</td>\n<td>2+1</td>\n<td>3</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+3</td>\n<td>+4</td>\n<td>+1</td>\n<td>+4</td>\n<td>Chakra bind (Feet)</td>\n<td>2+1</td>\n<td>4</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+3</td>\n<td>+4</td>\n<td>+1</td>\n<td>+4</td>\n<td>Skin form +1</td>\n<td>3+1</td>\n<td>5</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+4</td>\n<td>+5</td>\n<td>+2</td>\n<td>+5</td>\n<td>Chakra bind (Head)</td>\n<td>3+1</td>\n<td>6</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+5</td>\n<td>+5</td>\n<td>+2</td>\n<td>+5</td>\n<td>Skin form +2</td>\n<td>4+1</td>\n<td>7</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+6/+1</td>\n<td>+6</td>\n<td>+2</td>\n<td>+6</td>\n<td>Chakra bind (Wrists)</td>\n<td>4+1</td>\n<td>8</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+6/+1</td>\n<td>+6</td>\n<td>+3</td>\n<td>+6</td>\n<td>Imp. essence capacity +2, skin form +3</td>\n<td>5+1</td>\n<td>9</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+7/+2</td>\n<td>+7</td>\n<td>+3</td>\n<td>+7</td>\n<td>Chakra bind (Shoulders), improved skin shift</td>\n<td>5+1</td>\n<td>10</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+8/+3</td>\n<td>+7</td>\n<td>+3</td>\n<td>+7</td>\n<td>Skin form +4</td>\n<td>6+1</td>\n<td>11</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+9/+4</td>\n<td>+8</td>\n<td>+4</td>\n<td>+8</td>\n<td>Chakra bind (Headband), shifting touch (polymorph)</td>\n<td>6+1</td>\n<td>12</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+9/+4</td>\n<td>+8</td>\n<td>+4</td>\n<td>+8</td>\n<td>Skin form +5</td>\n<td>7+1</td>\n<td>13</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+10/+5</td>\n<td>+9</td>\n<td>+4</td>\n<td>+9</td>\n<td>Chakra bind (Neck), shifting touch (baleful)</td>\n<td>7+1</td>\n<td>14</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+11/+6/+1</td>\n<td>+9</td>\n<td>+5</td>\n<td>+9</td>\n<td>Imp. essence capacity +3, skin form +6</td>\n<td>8+1</td>\n<td>15</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+12/+7/+2</td>\n<td>+10</td>\n<td>+5</td>\n<td>+10</td>\n<td>Chakra bind (Belt), shifting touch (greater)</td>\n<td>8+1</td>\n<td>16</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+12/+7/+2</td>\n<td>+10</td>\n<td>+5</td>\n<td>+10</td>\n<td>Skin form +7</td>\n<td>9+1</td>\n<td>17</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+13/+8/+3</td>\n<td>+11</td>\n<td>+6</td>\n<td>+11</td>\n<td>Chakra bind (Chest), shifting touch (any object)</td>\n<td>9+1</td>\n<td>18</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+14/+9/+4</td>\n<td>+11</td>\n<td>+6</td>\n<td>+11</td>\n<td>Skin form +8</td>\n<td>10+1</td>\n<td>19</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+15/+10/+5</td>\n<td>+12</td>\n<td>+6</td>\n<td>+12</td>\n<td>Chakra bind (Body), mastery of form</td>\n<td>10+1</td>\n<td>20</td>\n</tr>\n</tbody></table>\n<p>The following are the class features of the huay.</p>\n<h2>Weapon and Armor Proficiency</h2>\n<p>A huay is proficient with the following weapons: club, dagger, dart, quarterstaff, scimitar, scythe, sickle, shortspear, sling, and spear. They are also proficient with the natural attacks (claw, bite, and so forth) from forms they assume with skin shift.</p>\n<p>Huayob are proficient with light and medium armor but are prohibited from wearing metal armor. A huay may also wear wooden armor that has been altered by the ironwood spell so that it functions as though it were steel. Huayob are proficient with shields (except tower shields) but must use only those crafted from wood. If the huay uses a veil to form a suit of armor or shield that is normally made of metal, they may have it be made of ironwood instead.</p>\n<p>A huay who wears prohibited armor or uses a prohibited shield has all of their huay veils destroyed and is unable to reshape their huay veils or use any of their supernatural or spell-like class abilities while doing so and for 24 hours thereafter.</p>\n<h2>Veilweaving</h2>\n<p>A huay learns to shape the magical power known as akasha into powerful veils, which are drawn from the huay veil list. They know and can shape any veil from this list. The DC for a saving throw against a veil’s abilities is 10 + the number of points of essence invested in the veil + the huay’s Wisdom modifier. The huay can only shape a certain number of veils per day (see Table 1-1: Huay). Veils are constructs of pure magic and are suppressed while in the area of an antimagic field or similar phenomena.</p>\n<p>At 1st level a huay also gains access to their own personal pool of essence, which can be invested into veils and other receptacles to increase their power. The pool of available essence is listed in the huay’s class table; the huay’s character level, as noted in the Akasha and Magic Interactions section, determines the maximum quantity of essence they can invest in any single veil. As a swift action, a huay can reallocate their essence investments into or between their veils and other essence receptacles. A huay must have a good night’s rest and must meditate for one hour to prepare their veils for the day.</p>\n<h2>Bonus Languages</h2>\n<p>A huay’s bonus language options include Sylvan, the language of woodland creatures, and Aklo, the tongue spoken by certain sinister fey or otherworldly denizens of reaches of the wild rarely explored by humanity. These choices are in addition to the bonus languages available to the character because of their race.</p>\n<p>A huay speaks Druidic, a secret language known only to druids, shifters, and other protectors of nature, which they learn upon becoming a 1st-level huay. Druidic is a free language for a huay; that is, they know it in addition to their regular allotment of languages, and it doesn’t take up a language slot. Huayob are forbidden to teach this language to characters who are not druids, huayob, or shifters.</p>\n<h2>Veil of Nature</h2>\n<p>At 1st level, each day when they shape their veils, the huay selects one of the following veils: Geri and Freki, H’s Flowered Regalia, Nymph’s Visage, or Verdant Vambraces. This veil is considered to be shaped on the huay, and does not count against their total veils shaped or veil slots (it is denoted by the “+1” under Veils on Table 1-1: Huay). They may invest essence in it normally, as well as bind it if they have unlocked the bind slot for it. If bound, it likewise does not count against the bind slot.</p>\n<h2>Chakra Binds</h2>\n<p>At 2nd level and every two levels thereafter, the huay gains the ability to bind veils directly to her chakra, unlocking potent new abilities. The huay gains the ability to bind slots in the following order: Hands, Feet, Head, Wrists, Shoulders, Headband, Neck, Belt, Chest, and Body.</p>\n<h2>Skin Shift (Su)</h2>\n<p>At 2nd level, the huay gains the ability to alter their physical form. This ability acts as alter self, save that its duration is 1 hour per huay level or until they choose to end it. Activating or deactivating skin shift is a standard action. The huay must invest 1 point of essence into this ability in order to activate skin shift, with higher level skin forms requiring more essence to use (see table below). As long as the skin shift is active, any essence invested in it is considered temporarily bound and unavailable for reallocation, and it is burned once the skin shift is deactivated. So long as skin shift is active, the huay may change to another one of their available skin forms or alter their current form as a swift action by taking a point of essence burn. Essence burned in this fashion may not be recovered until their skin shift ends.</p>\n<p>At 5th level and every 2 levels thereafter, the huay gains a skin form slot. Each day, once they complete their veil preparation, the huay may fill their skin form slots with any skin forms available to them, based on their level. Skin forms act as certain spells, but otherwise follow the above rules for skin shift. If a skin form is an upgraded version of another, the huay must have all the previous versions in order to choose it. For example, if they wished to select fey form III, they must first have fey form i and fey form ii. The only exception is the beast shape line, any of which may be selected without having the previous version.</p>\n<p>Some skin forms may make it difficult or impossible to wield manufactured weapons, including many weapon-like or [enhanced (weapon)] veils. If the huay has a veil shaped that grants them the same natural weapon as a creature they have shifted into, the veil and the form merge into one. Take the more advantageous of the damage, reach, critical threat range, and critical multiplier when attacking with the merged natural weapon. Any special abilities granted by a skin form have their DC increased to 10 + the number of points of essence invested in skin shift + the huay’s Wisdom modifier if their DC is less than that amount.</p>\n<p>Skin shift counts as wild shape for the purposes of prerequisites and effects which would interact with wild shape. As well, they count their huay level as their druid level and their veilweaver level as their caster level. The huay is also treated as though they had the shapechanger subtype for the purposes of prerequisites. For effects which require spending additional uses of wild shape, the huay may instead burn a point of essence, treating the burned essence as though it were used to change to a different skin form when determining when it may be recovered.</p>\n<table>\n<tbody><tr>\n<th>Minimum Level</th>\n<th>Skin Form</th>\n<th>Essence Investment Required</th>\n</tr>\n<tr>\n<td>5th</td>\n<td>Beast Shape I<br>\nMonstrous Physique I<br>\nUndead Anatomy I</td>\n<td>1</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>Beast Shape II<br>\nMonstrous Physique II<br>\nElemental Body I<br>\nFey Form I<br>\nVermin Shape I<br>\nInfuse Self</td>\n<td>2</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>Beast Shape III<br>\nMonstrous Physique III<br>\nElemental Body II<br>\nVermin Shape II<br>\nUndead Anatomy II<br>\nOoze Form I<br>\nPlant Shape I</td>\n<td>2</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>Beast Shape IV<br>\nMonstrous Physique IV<br>\nElemental Body III<br>\nUndead Anatomy III<br>\nFey Form II<br>\nOoze Form II<br>\nPlant Shape II<br>\nForm of the Dragon I<sup>1</sup></td>\n<td>3</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>Elemental Body IV<br>\nFey Form III<br>\nOoze Form III<br>\nPlant Shape III<br>\nGiant Form I<br>\nForm of the Dragon II<sup>1</sup><br>\nMagical Beast Shape<sup>2</sup></td>\n<td>3</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>Giant Form II<br>\nUndead Anatomy IV<br>\nForm of the Dragon III<sup>1</sup></td>\n<td>4</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>Fey Form IV</td>\n<td>4</td>\n</tr>\n</tbody></table>\n<p><sup><strong>1:</strong> Form of the Dragon, Form of the Alien Dragon, Form of the Exotic Dragon, and any other dragon form spells that may be available to players may be selected at the indicated levels, with each taking its own skin form slot.</sup><br>\n<sup><strong>2:</strong> Magical Beast Shape counts as a Beast Shape skin form, but requires Beast Shape IV to be selected.</sup></p>\n<h2>Improved Essence Capacity</h2>\n<p>The huay’s connection to the forces of nature have strengthened their akashic might. At 3rd, 9th, and 15th level the maximum essence capacity of all their receptacles increases by 1.</p>\n<h2>Woodland Stride (Ex)</h2>\n<p>Starting at 3rd level, a huay may move through any sort of undergrowth (such as natural thorns, briars, overgrown areas, and similar terrain) at their normal speed and without taking damage or suffering any other impairment. Thorns, briars, and overgrown areas that have been magically manipulated to impede motion, however, still affect them. The huay may burn a point of essence in order to ignore magically manipulated terrain for a number of rounds equal to their Wisdom modifier + 3.</p>\n<h2>Improved Skin Shift</h2>\n<p>At 10th level, the huay chooses one skin form set (such as Monstrous Physique or Fey Form). They no longer take essence burn when switching into skin forms from that set or switching to their Alter Self skin form. In addition, so long as they only shift into skin forms from their chosen set or Alter Self during their skin shift, they do not take essence burn when their skin shift ends.</p>\n<h2>Shifting Touch (Sp)</h2>\n<p>At 12th level, the huay may change the form of a creature with a touch. By taking 3 points of essence burn, they may affect a willing creature as with the polymorph spell.</p>\n<p>At 14th level, they may use this ability on unwilling creatures, as per baleful polymorph.</p>\n<p>At 16th level, they may use it on willing creatures as greater polymorph.</p>\n<p>Finally, at 18th level, they may use it as polymorph any object.</p>\n<p>The DC to resist this ability is equal to 10 + 1/2 huay level + Wisdom modifier.</p>\n<h2>Mastery of Form</h2>\n<p>At 20th level, the huay’s control of their own body has reached its peak. As long as they have at least 5 points of essence invested in their skin shift ability, they may use it to gain the effects of the shapechange spell. Additionally, whenever they are subjected to a polymorph effect or other effect which would alter their physical form, they may ignore it if they do not wish to be affected. Finally, they gain the shapechanger subtype.</p>\n<hr>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/huay\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "high"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "alignment": "Any neutral.",
+    "wealth": "2d6 * 10",
+    "classSkills": {
+      "acr": true,
+      "clm": true,
+      "crf": true,
+      "fly": true,
+      "han": true,
+      "hea": true,
+      "int": true,
+      "kar": true,
+      "kge": true,
+      "kna": true,
+      "per": true,
+      "pro": true,
+      "rid": true,
+      "spl": true,
+      "ste": true,
+      "sur": true,
+      "swm": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/huay"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "04e068d9864ed8cb",
+  "_key": "!items!04e068d9864ed8cb",
+  "name": "Divergent Aptitude",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:vocation:spheres-of-guile:guile-talent:divergent-aptitude",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/vocation#toc125",
+      "sourceSha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "descriptionSha256": "e6b664fa97a4fbae5320230b90e7f5423a20e876f4e42453c63f9f95d9ca623f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:vocation:spheres-of-guile:guile-talent:divergent-aptitude",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "vocation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Chosen skill 1 rank.</p>\n<p>Choose one skill you have as a class skill and one ability score which is not usually used for that skill. When you attempt skill checks with the chosen skill, you may use the chosen ability score in place of the normal ability score for that skill. You also unlock skill leverage with that skill.</p>\n<p>You may take this talent multiple times, choosing a different skill each time.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/vocation#toc125\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/vocation#toc125"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

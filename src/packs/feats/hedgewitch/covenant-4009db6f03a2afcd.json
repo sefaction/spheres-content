@@ -1,0 +1,121 @@
+{
+  "_id": "4009db6f03a2afcd",
+  "_key": "!items!4009db6f03a2afcd",
+  "name": "Covenant",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:hedgewitch:ultimate:feat:covenant",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/hedgewitch#toc27",
+      "sourceSha256": "46b77426fb25469921cc4c30b0354a67fc85317fe025f3dd942f4c3786d5ed99",
+      "descriptionSha256": "cccb7c7e4e1b2c5e1edc6d7cc44a9176b64ab19236c797bc21935077749bbc3c",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Class Features > List of Paths",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:hedgewitch:ultimate:feat:covenant",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Whether as a member of a mystery religion, a follower of totemic spirits, or a researcher into ancient gods, the devotee’s power comes through study and devotion to powers unseen.</p>\n<p><strong>Class Skills:</strong> Knowledge (history) (Int), Knowledge (planes) (Int), Knowledge (religion) (Int).</p>\n<p><strong>Path Benefit:</strong> The devotee selects an alignment from the following list: chaos, evil, good, or law. This must be an alignment she possesses (if she is neutral, she may choose any of the above alignments for this purpose). She gains an aura of her chosen alignment as a cleric of equal level. In addition, she may detect her opposite alignment (good and evil oppose one another, just as law and chaos oppose one another) as if using the Divine Alignment divine ability. To use this ability, she must spend a move action and focus on a single item or creature within 60 feet. She does not detect alignment in any other object or creature when using this ability in this way.</p>\n<p><strong>Path Power:</strong> If the devotee is of good alignment (or neutral and chooses to channel positive energy) she may touch a creature as a standard action (or herself as a swift action) and heal that target 1d6 hit points per 2 hedgewitch levels (minimum 1d6). She may use this ability a total number of times per day equal to 3 + 1/2 hedgewitch level. She may use this ability to harm undead, which is a standard action that provokes an attack of opportunity. Undead do not receive a saving throw against this damage. This counts as positive energy. If she is evil (or neutral and chooses to channel negative energy), this ability instead harms living creatures and heals undead. This counts as negative energy.</p>\n<p>This ability counts as possessing the lay on hands or touch of corruption class features (depending on whether she channels positive or negative energy) for the purpose of qualifying for and using feats that modify these abilities.</p>\n<p>She may also expend two uses of this ability to channel energy, as the cleric class feature. As a standard action, she releases a wave of energy through her holy (or unholy) symbol, affecting all creatures of one type (living or undead, her choice) within 30 feet, healing or harming them just as if she had touched them, except creatures that take damage from channeled energy may attempt a Will saving throw (DC 10 + 1/2 of her hedgewitch level + her casting ability modifier) to halve the damage. She may choose whether or not to include herself in this effect. This requires a holy (or unholy) symbol to use, and counts as possessing the channel energy class feature when qualifying for and using feats.</p>\n<p><strong>Path Secrets:</strong> A hedgewitch with the covenant path adds the following secrets to those she may select:</p>\n<ul>\n<li><strong>Channel Feats:</strong> The devotee gains any one feat that has the channel energy class feature as a prerequisite. She must meet all of the feat’s prerequisites. She may select this secret multiple times. Each time it is selected, she gains a new channeling feat.</li>\n<li><strong>Divine Portfolio:</strong> The devotee chooses a cleric domain. She gains the first-level power of that domain, treating her hedgewitch levels as cleric levels when determining the effects (but not gaining other domain powers), and using her casting ability modifier in place of Wisdom for this purpose. If she selects a domain gained through another class, this instead allows her to combine her hedgewitch levels with those levels when determining her effective cleric level for that domain. She may select this secret multiple times. Each time it is selected, she chooses another domain.</li>\n<li><strong>Extra Healing:</strong> The devotee increases the number of times she may use the covenant path power in a day by 4. If she does not possess the covenant path power, this grants her the ability to use this path power 4 times per day. She may select this secret multiple times. The effects stack.</li>\n<li><strong>Mercy:</strong> The devotee gains an antipaladin cruelty or paladin mercy, using her hedgewitch level as her antipaladin or paladin level when meeting its prerequisites. She may select this secret multiple times. The effects stack.</li>\n</ul>\n<p><strong>Path Grand Secrets:</strong> A hedgewitch with the covenant path adds the following grand secrets to those she may select:</p>\n<ul>\n<li><strong>Greater Divinity:</strong> The devotee gains a domain she has selected with the divine portfolio secret. She gains access to the higher-level powers associated with that domain. In all other ways this functions the same as divine portfolio. She may select this talent once per domain gained through the divine portfolio secret.</li>\n<li><strong>Smite:</strong> Once per day, the devotee may smite the alignment she may detect through the covenant path benefit. This is in all other ways similar to a paladin’s smite evil ability. She may gain this talent multiple times. Each time it is gained, she may smite her opposed alignment an additional time per day.</li>\n</ul>\n<p><strong>Path Mastery:</strong> She uses d8s instead of d6s when using her path power to heal, harm, or channel energy.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/hedgewitch#toc27\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/hedgewitch#toc27"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

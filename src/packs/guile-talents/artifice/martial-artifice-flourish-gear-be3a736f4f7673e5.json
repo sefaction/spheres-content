@@ -1,0 +1,124 @@
+{
+  "_id": "be3a736f4f7673e5",
+  "_key": "!items!be3a736f4f7673e5",
+  "name": "Martial Artifice (flourish, gear)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:artifice:spheres-of-guile:guile-talent:martial-artifice-flourish-gear",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/artifice#toc42",
+      "sourceSha256": "a3a666f8e0af8307f0024100a1bdb6c458a7d34b1b4c37af5a6d0057bdfc9aa7",
+      "descriptionSha256": "1dffc06f5c7fcd68e481c9cc0473c51ab6744853be381c02c82a9dbbfc13308f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Flourish Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:artifice:spheres-of-guile:guile-talent:martial-artifice-flourish-gear",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "artifice"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p>You unlock skill leverage with one of the Craft skills listed below. Additionally, you gain access to the following flourishes if you have unlocked skill leverage with the appropriate Craft skill.</p>\n<p><strong>Capacious (firearm) (Craft (firearms)):</strong> The firearm’s capacity increases by +1, although its misfire value increases by 1. This flourish cannot be applied to siege weapons.</p>\n<p>If this flourish receives special maintenance, the firearm’s capacity increases by +1, and you can choose to not have its misfire value increase.</p>\n<p><strong>Cruel (trap) (Craft (traps)):</strong> The trap’s save DC (if any) becomes your Artifice save DC (if higher), as well as increasing its critical threat range by 1 and granting it a +2 bonus to critical confirmation rolls. This does not stack with any other effects that increase critical threat range.</p>\n<p>If this flourish receives special maintenance, the trap deals an additional amount of damage equal to 1/2 your ranks in Craft (traps), which is multiplied on a critical hit.</p>\n<p><strong>Propulsive (thrown or ranged weapon) (Craft (bows)):</strong> The weapon only imposes a -1 penalty per full range increment between the user and their target, and its strength rating (if any) changes to that of the wielder’s Strength bonus. Also, the weapon reduces the ranged attack penalty associated with strong or severe wind by 2.</p>\n<p>If this flourish receives special maintenance, the range increment of the weapon increases by 50% or 10 feet (whichever is better). Additionally, the weapon can be used to make ranged attacks in windstorm-level winds at a –4 penalty.</p>\n<p><strong>Sharpened (manufactured weapon) (Craft (weapons)):</strong> If any of the weapon’s damage dice result in a 1, it becomes the average result (rounded up–a 1 on a d6 becomes a 4). Any additional damage dice (such as from Vital Strike or flaming) do not benefit from this flourish.</p>\n<p><strong>Vitalward (armor) (Craft (armor)):</strong> The armor’s bonus to AC increases by +1 for the purposes of confirming critical hits against the wearer, +1 per 6 associated ranks. If the armor’s wearer loses their Dexterity bonus to AC, the armor’s armor bonus increases by +50%, rounding up (excluding other armor bonus increases outside of this flourish); this increase cannot cause the wearer’s AC to exceed their normal AC.</p>\n<p><strong>Example:</strong> A set of vitalward full plate grants a +10 armor bonus, which increases by +5 if they lose their Dexterity bonus to AC (which cannot exceed their normal AC).</p>\n<p>If this flourish receives special maintenance, whenever the wearer is subject to a critical hit, the attack's critical multiplier is reduced by 1 (minimum x1.5).</p>\n<p><strong>Associated Feats:</strong> Deadly Trap (Craft (traps) option), Weathered Warrior (<em>Ranged Tactics Toolbox</em>) and Far Shot (Craft (bows) option).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/artifice#toc42\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/artifice#toc42"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "51e36da497468c48",
+  "_key": "!items!51e36da497468c48",
+  "name": "Magical Blending",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mana:ultimate:feat:magical-blending",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mana#toc106",
+      "sourceSha256": "06b0eb5b2d5f3e7266206aee7cb1666a55aa109bbce2259ade8a41e4b38f06dd",
+      "descriptionSha256": "d221ae55a15ed3d9ecac9e18355c5a5607538424b8b24c06bbafe65a4d1d2e08",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Mana Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mana:ultimate:feat:magical-blending",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Mana sphere; Death sphere, Destruction sphere, Mind sphere, or Nature sphere ((water) package).</p>\n<p><strong>Benefit:</strong> Through your experience using all forms of magic, you learn how to sprinkle bits of it into all of your sphere effects. You learn an array of new amplifications, if you possess their associated sphere. As (amp) effects, use your Mana sphere caster level and DC for any effects required by the amplifications.</p>\n<ul>\n<li><strong>Afterburn (amp) (Destruction):</strong> You may amplify an instantaneous sphere effect that deals acid or fire damage. If a creature takes damage from the amplified sphere effect, at the start of each of their turns for 2 rounds they suffer 1d6 additional damage. This amplification lasts for an additional round at 8th caster level and every 8 caster levels thereafter. This damage type is the same as the sphere effect’s damage, although if the sphere effect deals both types of damage, you must select one type for the secondary damage.</li>\n<li><strong>Coercive (amp) (Mind):</strong> You may amplify any noninstantaneous sphere effect that has a saving throw by spending an additional spell point. If the target fails a save against the amplified spell, for the duration of the sphere effect or one hour (whichever is shorter), the target is affected as if they failed their save against the Lesser Suggestion charm.</li>\n<li><strong>Deadly (amp) (Death):</strong> You may amplify any sphere effect that can outright kill a creature, or that deals lethal damage. If a creature would die due to the amplified sphere effect, their death is treated as if they were slain by a death effect for the purposes of returning to life, and the amplified sphere effect gains the death descriptor.</li>\n<li><strong>Riming Spell (amp) (Nature ((water) package)):</strong> You may spend a spell point to amplify a sphere effect that has the cold descriptor. Any creatures afflicted by the sphere effect must succeed at a Reflex save or have all of their base movement speeds reduced by 10 feet (to a minimum of 5 feet), plus an additional 5 feet at 5th caster level and every 5 caster levels thereafter, for as long as they are affected by the sphere effect plus an additional 1d4 rounds.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/mana#toc106\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mana#toc106"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

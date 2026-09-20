@@ -1,0 +1,121 @@
+{
+  "_id": "613e3bfe80e9e305",
+  "_key": "!items!613e3bfe80e9e305",
+  "name": "Wildcard: Dealt Fate (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:wildcard:current:class-feature:dealt-fate-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/wildcard#toc8",
+      "sourceSha256": "20221fac27d8611d184fe297487329dc8f4a77cdb96ee11ef29bae57306bf096",
+      "descriptionSha256": "58ad09da4f4ca5fa28d2fad8d4c548b26c7a1ae2edd201de3f6538e4b0767efb",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:wildcard:current:class-feature:dealt-fate-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, whenever the wildcard plays a least or lesser portent, he may choose not to cast it. If he chooses not to cast the portent, it does not go to the discard pile; instead, place the portent face up in front of you and choose a weapon, shield, or suit of armor on the wildcard’s person. The chosen piece of equipment is now associated with the portent you just placed face up in front of you and becomes fatecharged. A piece of fatecharged equipment cannot have a second portent become associated with it.</p>\n<p>The wildcard’s maximum hand size is reduced by 1 for each portent placed face up in front of you with dealt fate. Further, fatecharged equipment may only have associated portents cast from them if wielded by the wildcard who played the portent to begin with. Finally, only a single associated portent may be cast each round. As such, if the wildcard deals damage with a fatecharged weapon and casts its associated portent, he does not cast another portent if he is wearing fatecharged armor and takes damage the same round. If two or more portents are eligible for triggering at once, the wildcard chooses the portent that is cast from among them. All associated portents are cast as a free action.</p>\n<p>Whenever a fatecharged weapon deals damage to a creature, if the damaged creature is within range of the weapon’s associated portent, then the wildcard casts that portent upon the damaged creature. After resolving the portent, put it in the discard pile. The weapon is no longer fatecharged. If multiple creatures are damaged by a single attack, choose one to be the subject of the associated portent.</p>\n<p>Whenever the wearer of a fatecharged shield or suit of armor takes damage in melee, if the attacking creature is within range of the shield or armor’s associated portent, then the wildcard casts that portent upon the attacking creature. After resolving the portent, put it in the discard pile. The armor or shield is no longer fatecharged.</p>\n<p>Each morning, just before refreshing his portents for the day, all portents associated with the wildcard’s equipment are discarded, and any such equipment is no longer fatecharged.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/wildcard#toc8\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/wildcard#toc8"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

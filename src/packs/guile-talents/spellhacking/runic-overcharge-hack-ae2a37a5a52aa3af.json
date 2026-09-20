@@ -1,0 +1,124 @@
+{
+  "_id": "ae2a37a5a52aa3af",
+  "_key": "!items!ae2a37a5a52aa3af",
+  "name": "Runic Overcharge (hack)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spellhacking:spheres-of-guile:guile-talent:runic-overcharge-hack",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spellhacking#toc44",
+      "sourceSha256": "ff5395bb19ac2b67c42bb66b158929891d1c2ab9f8401273b50df23faa41f51b",
+      "descriptionSha256": "177011232d0a1d16d0713d4135308ce086eafd2bf6e7f176fdf7c5a07e01efaf",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Hack Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spellhacking:spheres-of-guile:guile-talent:runic-overcharge-hack",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "spellhacking"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/574642/diamond-spheres-erudition-esoterica\">Diamond Spheres: Erudition &amp; Esoterica</a></sup></p>\n<p><strong>Target:</strong> A magic suit of armor, implement, shield, or weapon.</p>\n<p>The magic special abilities on the item become greatly improved while hacked, gaining the following benefits, depending on the special ability:</p>\n<ul>\n<li>The item’s enhancement bonus and critical multiplier is treated as +1 higher for the purposes of magic special abilities that rely on it.</li>\n<li>If the special ability deals additional damage dice (such as flaming or holy), its die size increases by 1 (d4 &gt; d6 &gt; d8 &gt; d10 &gt; d12).</li>\n<li>If the special ability involves a saving throw, it increases by +2 + 1 per 6 associated ranks you possess.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/spellhacking#toc44\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spellhacking#toc44"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -6,6 +6,8 @@ import {
   writeFile,
   readFile,
   realpath,
+  readdir,
+  symlink,
 } from "node:fs/promises";
 import path from "node:path";
 import os from "node:os";
@@ -17,7 +19,103 @@ import {
   directoryHashes,
   checkSetup,
   auditPackCopy,
+  planBackupRotation,
+  rotateBackups,
 } from "../scripts/remote.mjs";
+
+async function retentionFixture(count) {
+  const base = await realpath(
+    await mkdtemp(path.join(os.tmpdir(), "spheres-retention-")),
+  );
+  const operations = path.join(
+    base,
+    "Data",
+    ".additional-spheres-content-deploy",
+  );
+  const target = path.join(
+    base,
+    "Data",
+    "modules",
+    "additional-spheres-content",
+  );
+  await mkdir(operations, { recursive: true });
+  await mkdir(target, { recursive: true });
+  await writeFile(
+    path.join(target, "module.json"),
+    JSON.stringify({ id: "additional-spheres-content", version: "current" }),
+  );
+  const names = [];
+  for (let i = 1; i <= count; i++) {
+    const name = `backup-2026-09-${String(i).padStart(2, "0")}T00-00-00-000Z-00000000-0000-4000-8000-000000000000`;
+    const dir = path.join(operations, name);
+    await mkdir(dir);
+    await writeFile(
+      path.join(dir, "module.json"),
+      JSON.stringify({ id: "additional-spheres-content", version: String(i) }),
+    );
+    names.push(name);
+  }
+  // A failed staging directory must never be included in retention pruning.
+  await mkdir(path.join(operations, "stage-unfinished"));
+  return {
+    operations,
+    target,
+    names,
+    expected: await directoryHashes(target),
+    protectedBackup: path.join(operations, names.at(-1)),
+  };
+}
+
+test("retention preview is read-only and verified rotation retains ten newest rollback copies", async () => {
+  const f = await retentionFixture(12);
+  const before = await directoryHashes(f.operations);
+  const plan = await planBackupRotation(f.operations);
+  assert.deepEqual(plan.remove, f.names.slice(0, 2));
+  assert.deepEqual(await directoryHashes(f.operations), before);
+  const result = await rotateBackups(f);
+  assert.deepEqual(result, { removed: f.names.slice(0, 2), retained: 10 });
+  assert.deepEqual(
+    (await readdir(f.operations)).sort(),
+    [...f.names.slice(2), "stage-unfinished"].sort(),
+  );
+  assert.deepEqual(await directoryHashes(f.target), f.expected);
+  assert.equal((await planBackupRotation(f.operations, 1)).remove.length, 1);
+  assert.equal((await planBackupRotation(f.operations)).remove.length, 0);
+});
+
+test("retention refuses failed installed verification, wrong identities and linked backup contents without deleting anything", async () => {
+  const f = await retentionFixture(11);
+  await assert.rejects(
+    rotateBackups({ ...f, expected: {} }),
+    /Installed verification failed/,
+  );
+  assert.equal((await planBackupRotation(f.operations)).retained, 11);
+  const manifest = path.join(f.operations, f.names[0], "module.json");
+  await writeFile(manifest, JSON.stringify({ id: "unrelated-module" }));
+  await assert.rejects(rotateBackups(f), /Backup module identity mismatch/);
+  await writeFile(
+    manifest,
+    JSON.stringify({ id: "additional-spheres-content" }),
+  );
+  const external = path.join(path.dirname(f.operations), "worlds");
+  await mkdir(external);
+  await writeFile(path.join(external, "keep.txt"), "unchanged");
+  await symlink(
+    external,
+    path.join(f.operations, f.names[0], "linked"),
+    process.platform === "win32" ? "junction" : "dir",
+  );
+  await assert.rejects(rotateBackups(f), /Symlinks/);
+  assert.equal(
+    await readFile(path.join(external, "keep.txt"), "utf8"),
+    "unchanged",
+  );
+  assert.equal((await planBackupRotation(f.operations)).retained, 11);
+  await assert.rejects(
+    planBackupRotation(path.dirname(f.operations)),
+    /Wrong backup operations/,
+  );
+});
 
 test("semantic audit accepts LevelDB housekeeping but detects document drift without writing the source database", async () => {
   const base = await realpath(

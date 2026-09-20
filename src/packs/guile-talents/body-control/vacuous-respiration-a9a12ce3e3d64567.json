@@ -1,0 +1,124 @@
+{
+  "_id": "a9a12ce3e3d64567",
+  "_key": "!items!a9a12ce3e3d64567",
+  "name": "Vacuous Respiration",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:body-control:spheres-of-guile:guile-talent:vacuous-respiration",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/body-control#toc59",
+      "sourceSha256": "ec7aa97e088675a010d37041d0a1d93fbcb23b1ec3b52a8948ffa9dd9985fbff",
+      "descriptionSha256": "b9aab09c14882537406e9969a5ac0a3d00d0357e4439e9cb978bd92e96548432",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:body-control:spheres-of-guile:guile-talent:vacuous-respiration",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "bodyControl"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400\">Diamond Spheres: Hustle &amp; Bustle</a></sup></p>\n<p><strong>Prerequisites:</strong> Body Control sphere (Breath Control), associated skill 5 ranks.</p>\n<p>You can harmlessly inhale an area-based effect as a standard action (or as part of enduring a saving throw against such an effect). If the effect is magical, you must attempt an associated skill check as though enduring the effect (unless this is performed as part of enduring such an effect); if the effect does not normally have a saving throw, either use 150% the save DC of the sphere it originates from, or 10 + 150% the caster level or CR of the creator of the effect (whichever is more relevant). This causes 10 feet + 5 feet per 5 associated ranks of the area to be removed from the radius’ (if a circular area) or length’s (if a line or cone area) total area, which can result in certain effects (such as a breath weapon) no longer subjecting creatures to its effects.</p>\n<p>You can keep such an effect harmlessly contained within you for up to 1 minute per associated rank you possess, although you must hold your breath to do so (even if you do not normally need to breathe). If the effect has a duration, its duration is suspended during this time. If the effect is not released within this time, you immediately suffer its effects as though you failed any saving throws associated with it.</p>\n<p>As a standard action, you can release the contained effect as a breath weapon, filling a close-range cone (or the effect’s original area, if smaller), subjecting creatures within the area to its effects. The area-based effect functions as normal (including its original save DC), and its duration resumes (if any). Once exhaled this way, you cannot inhale it using this talent again.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/body-control#toc59\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/body-control#toc59"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

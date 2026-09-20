@@ -1,0 +1,121 @@
+{
+  "_id": "e733493b5192f4c5",
+  "_key": "!items!e733493b5192f4c5",
+  "name": "Spellbook Mastery",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spellcrafting:ultimate:feat:spellbook-mastery",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spellcrafting#toc2",
+      "sourceSha256": "8c2c1d0f9092784f44e7484efe96afd8bf05b629b77230b7f1adc27b4a525d14",
+      "descriptionSha256": "ecad2ae4b9d8ad96380e1eecdc14045dec83b248e76e8d7dbca83b29c9817459",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Spellcrafting Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spellcrafting:ultimate:feat:spellbook-mastery",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Spellcrafting, casting class feature.</p>\n<p><strong>Benefit:</strong> Your grasp of spellcrafting theory allows you to cast spells from a spellbook as if it were in your repertoire. The casting time of the spell is increased by 1 round if used this way. You may attempt to cast a spell from a spellbook even if you do not meet the prerequisites, but every sphere or talent not possessed causes you to suffer a cumulative 10% chance per missing prerequisite that the spell will not manifest; instead, a mishap happens, chosen by the GM. Example mishaps are detailed below.</p>\n<ul>\n<li>A surge of uncontrolled magical energy deals 3d6 points of damage to the caster.</li>\n<li>Spell strikes the caster or an ally instead of the intended target, or a random target nearby if the caster was the intended recipient.</li>\n<li>Spell takes effect at some random location within spell range.</li>\n<li>Spell’s effect on the target is contrary to the spell’s normal effect.</li>\n<li>The caster suffers some minor but bizarre effect related to the spell in some way. Most such effects should last only as long as the original spell’s duration, or 2d10 minutes for instantaneous spells.</li>\n<li>Spell has delayed effect. Sometime within the next 1d12 hours, the spell activates. If the caster was the intended recipient, the spell takes effect normally. If the user was not the intended recipient, the spell goes off in the general direction of the original recipient or target, up to the spell’s maximum range, if the target has moved away.</li>\n</ul>\n<p>You cannot use a spell that requires an advanced talent unless you possess that talent. Talents gained through implements or with the Circle Casting feat count when meeting a spell’s prerequisites.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/spellcrafting#toc2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spellcrafting#toc2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

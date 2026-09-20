@@ -1,0 +1,121 @@
+{
+  "_id": "01d8605f0a8e98ed",
+  "_key": "!items!01d8605f0a8e98ed",
+  "name": "Bravo: Cunning Celerity (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:bravo:spheres-of-guile:class-feature:cunning-celerity-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/bravo#toc6",
+      "sourceSha256": "e2104012f9ebde8a629b20261ef40944ba55a6d296aed85879986043d71d122e",
+      "descriptionSha256": "40800a7d8879acf7aff0c268be5b8fb9ae436bd760363bb803bf5bfed75d08d4",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:bravo:spheres-of-guile:class-feature:cunning-celerity-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>The bravo has an unnatural knack for getting himself out of danger, especially when he is on the move.</em></p>\n<p>At 2nd level, the bravo gains a dodge pool equal to 50% + 15% for every bravo level he attains after 2nd.</p>\n<p>The bravo can expend an attack of opportunity and reduce his dodge pool in increments of 5% to gain an equivalent amount of miss chance (maximum 20%) against an attack that he is aware of. This miss chance stacks with other miss chances, although the combined miss chances cannot exceed the maximum miss chance he could apply using this ability. If an attack affected by this ability still hits the bravo, his dodge pool replenishes half the expended amount from the attack.</p>\n<p>The bravo loses access to his dodge pool if he is fatigued, exhausted, or has lost his Dexterity bonus to AC.</p>\n<p>If the bravo moves at least 10 feet on his turn, the maximum miss chance he can grant himself using his dodge pool increases to 50%. This dodge pool replenishes after 1 hour of rest.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/bravo#toc6\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/bravo#toc6"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

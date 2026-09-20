@@ -1,0 +1,121 @@
+{
+  "_id": "f62f3f6f6187796f",
+  "_key": "!items!f62f3f6f6187796f",
+  "name": "Permanent Pact (Pact)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:pact-magic-feats:current:feat:permanent-pact-pact",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/pact-magic-feats#toc57",
+      "sourceSha256": "f426cf60998d2b60d857a9763435fa7c8f07407526bbde0ca33e429130d832d2",
+      "descriptionSha256": "0d7905808760a13ad66e954650158dfed84bf26f8c1d88d8caaa741c8a34f38a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Pact Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:pact-magic-feats:current:feat:permanent-pact-pact",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You seal an unending pact with an occult spirit.</p>\n<p><strong>Prerequisites:</strong> Flexible Pactmaking†, Spirit Focus†, bind spirit class feature.</p>\n<p><strong>Benefit:</strong> Select 1 spirit that you have selected with Spirit Focus when you gain this feat. You enter an unending pact with the selected spirit: your pact does not end after 24 hours and you cannot willingly expel or exorcise the spirit. A permanent pact is treated as a good pact and you do not gain the capstone of a spirit that you made a permanent pact with unless it is granted to you by a spell, magic item, or this feat (see below).</p>\n<p>Once per day, you can perform the ceremony of a spirit that you have made a permanent pact with in order to attempt to gain the spirit’s capstone empowerment. This functions as a ritual made to summon any other spirit and requires that you draw the spirit’s seal and perform its ceremony. If your binding check exceeds the spirit’s binding DC by 10 or more (or 5 or more if you have the Capstone Binder feat), you gain the spirit’s capstone empowerment for 24 hours. If you fail this binding check, your pact with the spirit becomes a poor pact and you take the associated penalties for 24 hours. Additionally, you may choose to gain the spirit’s vestigial companion at the usual cost described by that spirit during this pact; if you succeed, you gain the spirit’s vestigial companion for 24 hours, after which the companion fades and the traded granted abilities resume granting you their benefits.</p>\n<p>Permanent pacts cannot be modified or altered by feats (other than Spirit Focus) or class features unless specifically stated otherwise; for example, you cannot use Flexible Pactmaking feat with a permanent spirit. Once you have made a permanent pact with a spirit, the pact cannot be broken or undone, and even successful attempt to exorcise the spirit merely suppress its benefits and influences for 24 hours. Not even death (and subsequent resurrection) can free one’s soul from a permanent pact.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/pact-magic-feats#toc57\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/pact-magic-feats#toc57"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

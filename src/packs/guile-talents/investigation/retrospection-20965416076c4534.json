@@ -1,0 +1,124 @@
+{
+  "_id": "20965416076c4534",
+  "_key": "!items!20965416076c4534",
+  "name": "Retrospection",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:investigation:spheres-of-guile:guile-talent:retrospection",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/investigation#toc16",
+      "sourceSha256": "812d14024b95c9efb75b3f1dd2dddad532833a150eb7f2d9da1a70b809836e0e",
+      "descriptionSha256": "d8dfc32969dff3b5d3d29f769def78eaa0a279aea0e1ecdd2acbb915a2b9cade",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Investigation Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:investigation:spheres-of-guile:guile-talent:retrospection",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "investigation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can spend 10 minutes pondering on a single memory that has transpired within the last day, allowing you to analyze any relevant targets within the chosen memory. A single memory can span up to 1 minute per rank in the associated skill, but otherwise is only limited to what you can perceive. All targets that you analyze are treated as if they were also scrutinized; if you possess any abilities or talents that allow you to augment the scrutinize approach, you may pay any costs associated with it when pondering a memory to benefit from it.</p>\n<p>You cannot retry the same check more than once, nor can you use senses or similar ability you did not possess during the memory.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/investigation#toc16\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/investigation#toc16"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "d5791dac770b56cc",
+  "_key": "!items!d5791dac770b56cc",
+  "name": "Dragon’s Tooth",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:marvelous-items-2:current:item:dragons-tooth",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/marvelous-items-2",
+      "sourceSha256": "927aaf607c87d8a0b8c5ada2a87c9993de56373d95aa6109f2abd252bf18e049",
+      "descriptionSha256": "ff36fbe5ef9daeac1064917484d3111618fb0b0b9589bcac87ab62c822427e58",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Slotless",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:marvelous-items-2:current:item:dragons-tooth",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint Creation; <strong>Caster Level</strong> 1st<br>\n<strong>Slot</strong> none; <strong>Price</strong> 500 gp; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThe origin of these items are shrouded in myth, tales of warriors springing from the ground were the teeth of a dragon are sown. You may place on of these teeth on a flat surface as a standard action; at the start of your next turn, it becomes a warrior cohort with 1 Hit Die. This is an instantaneous effect that destroys the item. You may recruit this warrior as a free action. If not recruited by the end of your next turn, it becomes hostile. The cohort has no recollection of any past prior to the item being activated. The cohort’s race and tradition are determined when the item is created.</p>\n<p>More powerful dragon’s teeth may be created, costing 500 gp per Hit Die of the cohort.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Wondrous Item, Leadership sphere; Cost 250 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/marvelous-items-2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 1
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 500,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/marvelous-items-2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

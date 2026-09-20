@@ -1,0 +1,124 @@
+{
+  "_id": "f6a5bfb28f687451",
+  "_key": "!items!f6a5bfb28f687451",
+  "name": "Authoritative",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:bluster:spheres-of-guile:guile-talent:authoritative",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/bluster#toc6",
+      "sourceSha256": "e8f88a5d38e2870756ef237c9336a522e248aa60231fd0ccb330d63841363c60",
+      "descriptionSha256": "9d53845bee9a896ec8c72e1aecdceece5283bb925a14c137294cbb4f9ebb163a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Bluster Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:bluster:spheres-of-guile:guile-talent:authoritative",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "bluster"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You adopt this approach as a swift action. As long as you are not a known enemy, your presence in a secure location is assumed to be justified by anyone you do not interact with unless there’s no reasonable way you could have permission without their knowledge. This does not prevent anyone noticing your actions that would be cause for alarm or a sign of possible betrayal even if you belonged.</p>\n<p>In addition, your orders are hard to refuse. If you fail an Intimidate check to demand cooperation by 4 or less, the target gives unnecessarily detailed reasons for refusing, which typically includes a clue as to how else the request might be fulfilled or which of the target’s motivations is most relevant to them refusing. A creature’s first refused demand does not increase the DC of subsequent demands you make of the creature.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/bluster#toc6\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["approach", "utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/bluster#toc6"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

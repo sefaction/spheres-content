@@ -1,0 +1,124 @@
+{
+  "_id": "16913ef50e43df54",
+  "_key": "!items!16913ef50e43df54",
+  "name": "Esoteric Herb",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:esoteric-herb",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc51",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "d59c41a0c561ec32fe24aad26b840fe23383d217748317ec9ecb9e18ca9442cb",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:esoteric-herb",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Associated skill 10 ranks, Herbalism sphere.</p>\n<p>You have learned to harvest the unique esoteric herb, a fabled plant with miraculous properties. An esoteric herb can be consumed to reroll any d20 roll made within the next hour as a free action that can be taken outside of the user's turn, even after the results are revealed. You may only gather a single esoteric herb per batch. A single concoction may only be affected by a single esoteric herb.</p>\n<p>In addition to specific esoteric twists, you may instead add an esoteric herb to any concoction as a twist, granting the following unique effects: When applied to a tonic, the user can spend a free action to double the numerical effects of the tonic for 1 minute; after which the tonic's effects end, regardless of the remaining duration.</p>\n<p>When applied to a tincture, any noninstantaneous duration of the tincture is increased to 10 minutes per rank in the associated skill, or multiplied by 10, whichever is longer. A creature may only benefit from a single tincture with this twist at one time.</p>\n<p><strong>Note:</strong> GMs should feel free to disallow certain twists that use this herb as though they were their own exceptional talent.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc51\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc51"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

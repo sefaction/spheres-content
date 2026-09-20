@@ -1,0 +1,121 @@
+{
+  "_id": "c8b44972ce87680b",
+  "_key": "!items!c8b44972ce87680b",
+  "name": "Tenacious Spell (Metamagic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:metamagic-feats:ultimate:feat:tenacious-spell-metamagic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/metamagic-feats#toc60",
+      "sourceSha256": "4070c558a5e1b280bbfaf69ca576b1627fa2ec2a96eaa4431145af021467f075",
+      "descriptionSha256": "b10c6fedb087ca53ad17956bff0bb8365522d44ddf46e9bd2d2d712bd1eefb4c",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "metamagic-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:metamagic-feats:ultimate:feat:tenacious-spell-metamagic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Benefit:</strong> Increase the DC of magic skill checks to counter or dispel a tenacious talent by 2. If a tenacious talent is dispelled or dismissed, it lasts for 1d4 further rounds (to a maximum of the talents normal duration) before ending (this does not occur if an antimagic field or a similar talent or effect suppresses or ends the talent’s effect without dispelling or dismissing it). The lingering auras of tenacious talents detectable with detect magic last for twice as long as usual after the talent ends.</p>\n<p><strong>Cost:</strong> +1 spell point</p>\n<p><a href=\"http://spheresofpower.wikidot.com/metamagic-feats#toc60\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/metamagic-feats#toc60"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

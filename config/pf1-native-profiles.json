@@ -1,0 +1,235 @@
+{
+  "schemaVersion": 1,
+  "system": "pf1",
+  "version": "11.11",
+  "source": "PF1 11.11 template.json; empty native data profiles only",
+  "notice": "Retain existing GPL/OGL upstream notices for adapted record data; no upstream program code copied.",
+  "profiles": {
+    "loot": {
+      "description": {
+        "value": "",
+        "instructions": "",
+        "unidentified": ""
+      },
+      "tags": [],
+      "actions": [],
+      "attackNotes": [],
+      "effectNotes": [],
+      "quantity": 1,
+      "weight": {
+        "value": 0
+      },
+      "equipped": true,
+      "carried": true,
+      "price": 0,
+      "size": "med",
+      "resizing": false,
+      "timeworn": false,
+      "artifact": false,
+      "identified": true,
+      "unidentified": {
+        "price": 0,
+        "name": ""
+      },
+      "cursed": false,
+      "cl": 0,
+      "aura": {
+        "custom": false,
+        "school": ""
+      },
+      "hp": {},
+      "broken": false,
+      "hardness": 0,
+      "uses": {
+        "value": null,
+        "per": "",
+        "autoDeductChargesCost": "",
+        "maxFormula": "",
+        "rechargeFormula": ""
+      },
+      "changes": [],
+      "changeFlags": {
+        "immuneToMorale": false,
+        "loseDexToAC": false,
+        "noMediumEncumbrance": false,
+        "noHeavyEncumbrance": false,
+        "mediumArmorFullSpeed": false,
+        "heavyArmorFullSpeed": false,
+        "lowLightVision": false,
+        "seeInvisibility": false,
+        "seeInDarkness": false
+      },
+      "contextNotes": [],
+      "links": {
+        "children": []
+      },
+      "tag": "",
+      "flags": {
+        "boolean": {},
+        "dictionary": {}
+      },
+      "scriptCalls": [],
+      "subType": "misc",
+      "extraType": "",
+      "abundant": false
+    },
+    "equipment": {
+      "description": {
+        "value": "",
+        "instructions": "",
+        "unidentified": ""
+      },
+      "tags": [],
+      "quantity": 1,
+      "weight": {
+        "value": 0
+      },
+      "equipped": true,
+      "carried": true,
+      "price": 0,
+      "size": "med",
+      "resizing": false,
+      "timeworn": false,
+      "artifact": false,
+      "identified": true,
+      "unidentified": {
+        "price": 0,
+        "name": ""
+      },
+      "cursed": false,
+      "cl": 0,
+      "aura": {
+        "custom": false,
+        "school": ""
+      },
+      "hp": {},
+      "broken": false,
+      "hardness": 0,
+      "changes": [],
+      "changeFlags": {
+        "immuneToMorale": false,
+        "loseDexToAC": false,
+        "noMediumEncumbrance": false,
+        "noHeavyEncumbrance": false,
+        "mediumArmorFullSpeed": false,
+        "heavyArmorFullSpeed": false,
+        "lowLightVision": false,
+        "seeInvisibility": false,
+        "seeInDarkness": false
+      },
+      "contextNotes": [],
+      "actions": [],
+      "attackNotes": [],
+      "effectNotes": [],
+      "uses": {
+        "value": null,
+        "per": "",
+        "autoDeductChargesCost": "",
+        "maxFormula": "",
+        "rechargeFormula": ""
+      },
+      "links": {
+        "children": [],
+        "charges": []
+      },
+      "tag": "",
+      "flags": {
+        "boolean": {},
+        "dictionary": {}
+      },
+      "scriptCalls": [],
+      "masterwork": false,
+      "enh": null,
+      "proficient": false,
+      "held": "1h",
+      "ammo": {
+        "type": "",
+        "capacity": null,
+        "misfire": null,
+        "explode": null
+      },
+      "subType": "armor",
+      "slot": "slotless",
+      "equipmentSubtype": "lightArmor",
+      "hands": 0,
+      "baseTypes": [],
+      "armor": {
+        "value": 0,
+        "dex": null,
+        "acp": 0,
+        "enh": 0,
+        "material": {
+          "base": {
+            "value": "",
+            "custom": false
+          },
+          "normal": {
+            "value": "",
+            "custom": false
+          },
+          "addon": []
+        }
+      },
+      "spellFailure": 0,
+      "showInQuickbar": false
+    },
+    "consumable": {
+      "description": {
+        "value": "",
+        "instructions": "",
+        "unidentified": ""
+      },
+      "tags": [],
+      "quantity": 1,
+      "weight": {
+        "value": 0
+      },
+      "equipped": true,
+      "carried": true,
+      "price": 0,
+      "size": "med",
+      "resizing": false,
+      "timeworn": false,
+      "artifact": false,
+      "identified": true,
+      "unidentified": {
+        "price": 0,
+        "name": ""
+      },
+      "cursed": false,
+      "cl": 0,
+      "aura": {
+        "custom": false,
+        "school": ""
+      },
+      "hp": {},
+      "broken": false,
+      "hardness": 0,
+      "uses": {
+        "value": null,
+        "per": "",
+        "autoDeductChargesCost": "",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "actions": [],
+      "attackNotes": [],
+      "effectNotes": [],
+      "links": {
+        "children": [],
+        "charges": []
+      },
+      "tag": "",
+      "flags": {
+        "boolean": {},
+        "dictionary": {}
+      },
+      "scriptCalls": [],
+      "subType": "potion",
+      "showInQuickbar": false,
+      "changes": [],
+      "contextNotes": []
+    }
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "515198ad3c1876f2",
+  "_key": "!items!515198ad3c1876f2",
+  "name": "The Assassin: Assassin Techniques",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:the-assassin:current:class-feature:assassin-techniques",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/the-assassin#toc3",
+      "sourceSha256": "a4689e93a90faf70896f1a34b95f4cbf283865377aca2022492d04137e61f6f7",
+      "descriptionSha256": "c6a29d115c3fd5651c0ca21184cfbc227e00aa37cb81f8cad5614e37a8b40ee0",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:the-assassin:current:class-feature:assassin-techniques",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>An assassin is a finely-honed weapon, though the precise shape of the weapon is dependent upon his particular education. This is represented by an assassin's known techniques and chosen technique specializations.</p>\n<p>At 1st level, an assassin chooses two categories of hot techniques and two categories of cold techniques from the lists below. These are known as his specializations. He begins play with one technique drawn from each of the technique lists of his four specializations, for a total of four techniques. At each new assassin level, he gains an additional technique drawn from any of his specialization categories. An assassin must meet the prerequisites of a technique in order to learn it. At 5th level, 10th level, and 15th level, the technique the assassin gains may be from any category, and not just from his specializations.</p>\n<p>Techniques drawn from outside one of his chosen specializations are known as cross-specialization techniques. An assassin treats his assassin level as though it were half its actual value, rounded up, for the purpose of the magnitude of effect and duration of cross-specialization techniques. He still treats his assassin level as its full value for all other purposes of that technique, such as save DC and meeting the technique's prerequisite</p>\n<p>The Difficulty Class (DC) for a saving throw against an assassin's technique is 10 + 1/2 the assassin's class level + the assassin's Intelligence modifier. Unless stated otherwise in a technique's entry, an assassin can only execute a single technique per round.</p>\n<p>\"Hot\" techniques interact with the presence pools an assassin grants to those near him (see the presence class feature, below), and each technique has three quantities that describe their particular interaction with it: presence source, presence required, and presence change. A technique is considered to be \"hot\" if it has a defined Presence Source.</p>\n<p><strong>Presence Source</strong> - Since an assassin can maintain a presence pool for each foe in range, a technique must tell which presence pool is affected by it, and the source chosen restricts targeting. When executing single-target techniques, the source is almost always the intended target. When executing area techniques, the source gets a bit murkier; read each individual entry.</p>\n<p><strong>Presence Required</strong> - In order to execute a hot technique, the presence source(s) must have an amount of presence that matches one of the numbers listed on this line. If this does not match, the technique cannot be executed using the chosen source. Find another source or pick another technique.</p>\n<p><strong>Presence Change</strong> - When a hot technique is executed, the chosen source's presence increases or decreases by an amount equal to the number listed on this line.</p>\n<p>A \"cold\" technique does NOT interact with presence pools, and interacts with the assassin's technique pool instead (see the technique pool class feature, below). \"Cold\" techniques ignore presence required and presence source rules, and treat the following two quantities differently.</p>\n<p><strong>Pool Compatibility</strong> - If a technique's pool compatibility is set to yes, then its cost can be paid from the technique pool. It is considered a \"cold\" technique.</p>\n<p><strong>Presence Change</strong> - When a cold technique is executed, the assassin expends points from his technique pool equal to its presence change. For example, a presence change of -2 means the assassin must expend 2 technique points.</p>\n<p>Some techniques have both a presence source AND are pool compatible. Such \"lukewarm\" techniques may be executed as either \"hot\" or \"cold\", as the situation dictates. Finally, some techniques don't have an activation cost at all. These techniques may be passive, or they may modify other techniques that they have as prerequisites.</p>\n<h4>Hot Technique Categories</h4>\n<p><strong>Acupressure</strong> - A poke in the right spot can kill a man, stun a man, force a man to drop his weapon, or just make a man take a nap.<br>\n<strong>Execution</strong> - When tricks simply won't do, assassins specializing in execution get stuck in and defeat their opponent with brutal attacks that wear even the most resilient foe down.<br>\n<strong>Initiation</strong> - Prolonged fights are for suckers. Masters of initiation know how to get the first blow in, and to make it count. As a result, quite a few of them are snipers.<br>\n<strong>Magehunting</strong> - Vampires are to blood as magehunters are to magic. Adept at dismantling the gift of magic at its source, the magehunter specializes in stealing magic from his victims and maintaining the ability to use it for hours after the mark's death. Magehunting assassins are held in very high regard by the Order of the Nullblades, and the organization is known to employ a significant number of them.</p>\n<h4>Cold Technique Categories</h4>\n<p><strong>Infiltration</strong> - It's not all about getting into places unseen. Sometimes, being seen is an asset. An assassin who specializes in infiltration gets where he needs to go and out again with his hide intact.<br>\n<strong>Intuition</strong> - All assassins have a sixth sense, but those who are attuned to their own intuition have a seventh, and an eighth, and a ninth…<br>\n<strong>Poison</strong> - Those assassins who dabble in the lost techniques of poison manufacture know how to produce deadly compounds from just about anything. Masters of the art, however, find that simply killing a man is the easy way out, and their cocktails begin to do very exotic things indeed.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/the-assassin#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/the-assassin#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

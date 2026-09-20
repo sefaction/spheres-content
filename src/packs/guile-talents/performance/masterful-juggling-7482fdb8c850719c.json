@@ -1,0 +1,124 @@
+{
+  "_id": "7482fdb8c850719c",
+  "_key": "!items!7482fdb8c850719c",
+  "name": "Masterful Juggling",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:performance:spheres-of-guile:guile-talent:masterful-juggling",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/performance#toc64",
+      "sourceSha256": "e87c472686da47048b3d9fcee074982f8ef19002718047ad36360dcfbd01dd3b",
+      "descriptionSha256": "7a9b848462773c9b9e3d10f7db2da06f8eda0dad1df2108ac9d8b5776a4d158b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:performance:spheres-of-guile:guile-talent:masterful-juggling",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "performance"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/492540/diamond-spheres-harmony-and-discord?affiliate_id=3028400\">Diamond Spheres: Harmony &amp; Discord</a></sup></p>\n<p><strong>Prerequisites:</strong> Performance sphere (Combat Juggling), Perform (any) ranks 5.</p>\n<p>You increase the number of objects you can juggle by an amount equal to your operative ability modifier.</p>\n<p>Additionally, you can juggle creatures up to one size category smaller than you. A creature three size categories smaller than you is treated as one object, a creature two size categories smaller than you is treated as two objects, and a creature one size category smaller than you is treated as three objects. If the creature is unwilling, it requires a successful grapple maneuver made as a standard action, although you can substitute your Perform ranks in a package’s associated skill for your base attack bonus while doing so.</p>\n<p>While you are juggling a creature, any single-target attacks that target you or a juggled creature have a 50% chance to target you (if you were not the original target) or another juggled creature (chosen randomly) instead of its original target. Regardless of whether or not a juggled creature is willing, they lose their Dexterity bonus to AC and are considered to be grappled.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/performance#toc64\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/performance#toc64"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

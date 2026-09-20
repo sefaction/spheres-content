@@ -1,0 +1,121 @@
+{
+  "_id": "b04c1950a12d8751",
+  "_key": "!items!b04c1950a12d8751",
+  "name": "Dazing Spell (Metamagic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:metamagic-feats:ultimate:feat:dazing-spell-metamagic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/metamagic-feats#toc15",
+      "sourceSha256": "4070c558a5e1b280bbfaf69ca576b1627fa2ec2a96eaa4431145af021467f075",
+      "descriptionSha256": "7a1e0b1aeda548281b1e5e69bba301fe3b3b6cabd59d1044c95529ab007b4975",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "metamagic-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:metamagic-feats:ultimate:feat:dazing-spell-metamagic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Benefit:</strong> You can modify a talent to daze a creature damaged by it. When a creature takes damage from this spell, they become dazed for a number of rounds equal to half the caster level of the talent (minimum 1). If the talent allows a saving throw, a successful save negates the daze effect.</p>\n<p>If the talent does not allow a save, the target can attempt a Will save to negate the daze effect. If the talent effect also causes the creature to become dazed, the duration of this metamagic effect is added to the duration of the spell.</p>\n<p><strong>Cost:</strong> +3 spell points</p>\n<p><a href=\"http://spheresofpower.wikidot.com/metamagic-feats#toc15\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/metamagic-feats#toc15"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

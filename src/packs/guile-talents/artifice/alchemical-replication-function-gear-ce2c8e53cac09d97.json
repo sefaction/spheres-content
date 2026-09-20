@@ -1,0 +1,124 @@
+{
+  "_id": "ce2c8e53cac09d97",
+  "_key": "!items!ce2c8e53cac09d97",
+  "name": "Alchemical Replication (function, gear)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:artifice:spheres-of-guile:guile-talent:alchemical-replication-function-gear",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/artifice#toc60",
+      "sourceSha256": "a3a666f8e0af8307f0024100a1bdb6c458a7d34b1b4c37af5a6d0057bdfc9aa7",
+      "descriptionSha256": "72e02f9f4146ce43c503598decfa940dfcd7ec412dd3133afd14e7224d6d1c6f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:artifice:spheres-of-guile:guile-talent:alchemical-replication-function-gear",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "artifice"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p><strong>Prerequisites:</strong> Artifice sphere ((gear) package).</p>\n<p>Your trinkets can replicate alchemical tools with a Craft DC of 15 + 1 per rank in this package’s associated skill. If the alchemical item requires a saving throw, use your Artifice sphere DC.</p>\n<p>You also gain the following function:</p>\n<p><strong>Luminous (+10 DC):</strong> You create a trinket that can be struck as a standard action to shed light. This sheds normal light in a 30-foot radius and increases the light level by 1 step for an additional 30 feet beyond that area (darkness &gt; dim light &gt; normal light). This cannot increase the light level in normal or bright light. This light lasts up to 1 hour, after which it must be struck again.</p>\n<p>When applying this function, you can choose to reduce the light it produces, as well as changing the color of the light it produces. You can also choose to have the trinket only shed dim light (which cannot increase the light level beyond dim light), but doing so causes the light to be undetectable outside of the radius.</p>\n<p><strong>Special:</strong> If you possess the Alchemy or Herbalism sphere, your trinkets can also replicate alchemical remedies, drugs, and poisons with the same Craft DC limitations as above.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/artifice#toc60\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/artifice#toc60"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

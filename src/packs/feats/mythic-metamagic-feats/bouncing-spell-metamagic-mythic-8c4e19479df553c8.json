@@ -1,0 +1,121 @@
+{
+  "_id": "8c4e19479df553c8",
+  "_key": "!items!8c4e19479df553c8",
+  "name": "Bouncing Spell (Metamagic, Mythic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mythic-metamagic-feats:current:feat:bouncing-spell-metamagic-mythic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mythic-metamagic-feats#toc3",
+      "sourceSha256": "7394e84ad5f27961d20ec333e48e3ce7c66947f1756fffcb2045395a6eadfd86",
+      "descriptionSha256": "f471bc482a7ae84c79dcfcdf27b3867916295dc86d807e1376100a6754bb3499",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "mythic-metamagic-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mythic-metamagic-feats:current:feat:bouncing-spell-metamagic-mythic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your spells almost always affect somebody.</p>\n<p><strong>Prerequisites:</strong> Bouncing Spell<sup>APG</sup></p>\n<p><strong>Benefit:</strong> Whenever a mythic bouncing spell targeting a single creature has no effect on its intended target (whether due to spell resistance or a successful saving throw) you may, as a swift action, redirect it to target a number of other eligible creature within range equal to 1 plus your mythic tier. Make a single caster level check against the SR of all new targets and have them all make saving throws. The spell affects one of the new targets of your choice that is not protected by its SR and fails its save. The redirected spell behaves in all ways as if its ultimate target were the original target for the spell. Spells that affect a target in any way (including a lesser effect from a successful saving throw) may not be redirected in this manner.</p>\n<p>Alternatively, you may expend a use of mythic power to cast a spell as a bouncing spell (gaining only the normal benefits of a bouncing spell, rather than the increased benefits outlined above) without preparing it as bouncing in advance, taking extra casting time, or increasing the level of spell slot it uses.</p>\n<p><strong>Normal:</strong> A bouncing spell can be redirected to a single new target.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mythic-metamagic-feats#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mythic-metamagic-feats#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

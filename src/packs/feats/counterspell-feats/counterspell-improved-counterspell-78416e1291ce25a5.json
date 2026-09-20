@@ -1,0 +1,121 @@
+{
+  "_id": "78416e1291ce25a5",
+  "_key": "!items!78416e1291ce25a5",
+  "name": "Counterspell, Improved (Counterspell)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:counterspell-feats:ultimate:feat:counterspell-improved-counterspell",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/counterspell-feats#toc3",
+      "sourceSha256": "629762ebe9d255d2092edc89690ef74806c95a5ca21612b1a175b4b7c0f59eba",
+      "descriptionSha256": "afbe68abf8a785ebf879a2905fdf6d43f4138409d3c7597efc8944b6c8eee8a9",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "counterspell-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:counterspell-feats:ultimate:feat:counterspell-improved-counterspell",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Casting class feature, Counterspell, magic skill bonus +10.</p>\n<p><strong>Benefit:</strong> When using the Counterspell feat against a creature or object, you may spend an additional spell point to target an additional 1 magical effect on the target per 5 caster levels. Alternatively, you may spend an additional spell point to affect multiple effects in a 20-foot burst. Roll one magical skill check and apply that check to each creature in the area, as if targeted by the basic Counterspell feat. Objects that are the target of magical effects are also targeted by this ability, but magic items are not.</p>\n<p>For each ongoing effect that targets an area and whose point of origin is within the counterspell area, apply your magical skill check to end that effect. If a magical effect overlaps the counterspell area but is not centered within it, apply your magical skill check to end that effect, but only within the overlapping area.</p>\n<p>If an object or creature within the area of effect is the result of ongoing magic (such as a summoned monster or companion, or an object created through the Creation sphere), apply the magical skill check against the spell or effect that summoned them, causing them to disappear (or return to their home plane) if successful.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/counterspell-feats#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/counterspell-feats#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "3fe7f1b7f5615aa2",
+  "_key": "!items!3fe7f1b7f5615aa2",
+  "name": "Industrious Worker",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:vocation:spheres-of-guile:guile-talent:industrious-worker",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/vocation#toc6",
+      "sourceSha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "descriptionSha256": "3ed53373c10aa31b5dff26d8b419a01f4cdc70b8325681b37a7b5cbea9405795",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Vocation Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:vocation:spheres-of-guile:guile-talent:industrious-worker",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "vocation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>When using a skill check to earn income (such as Craft, Perform, or Profession), you earn an additional 50%; for every 5 ranks you possess in the associated skill, you earn an additional 50%. For example, if you earn 6 silver pieces from an enjoyable performance, you earn 9 silver pieces instead.</p>\n<p>If the skill check was used to assist an establishment that provides mundane services (such as waiting tables at an inn, performing at a tavern, etc.), the quality of your performance provides the establishment more income, and in exchange they offer you routine services for free (such as free meals or a free room or cabin—but not the best available).</p>\n<p>If you are using the Downtime rules (Pathfinder Roleplaying Game: Ultimate Campaign), you gain a +2 insight bonus to any skill checks attempted to earn capital. Additionally, you treat the spending limit of Goods, Influence, and Labor within a settlement as being 25% higher.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/vocation#toc6\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/vocation#toc6"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

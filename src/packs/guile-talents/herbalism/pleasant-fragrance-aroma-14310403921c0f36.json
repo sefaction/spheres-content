@@ -1,0 +1,124 @@
+{
+  "_id": "14310403921c0f36",
+  "_key": "!items!14310403921c0f36",
+  "name": "Pleasant Fragrance (aroma)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:pleasant-fragrance-aroma",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc30",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "c2ef9a8a4a3bf9c3fda23d3b11f44929ebd618238032af7b49c847b84ad5e871",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Concoction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:pleasant-fragrance-aroma",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p><strong>Cost:</strong> 2 herbs or 1 sweet herb</p>\n<p>All creatures that can smell the aroma gain a +2 circumstance bonus to Diplomacy checks and to any checks made as an impressive display for 1 hour, as long as the target of these skills are also affected by the aroma; this increases by +1 for every 5 associated ranks you possess. This aroma lasts 1 hour.</p>\n<p>Additionally, whenever a non-hostile creature spends at least 1 round within the aroma’s area, they must attempt a Will saving throw or become impressed towards the creature that the aroma is applied to for 1 hour, although some creatures may gain a bonus or penalty on this save depending on how easily (or otherwise) they are swayed by pleasant scents, up to the GMs discretion. On a successful save, the creature becomes immune to this additional effect for 1 hour.</p>\n<p><strong>Twists</strong></p>\n<ul>\n<li><strong>1 cool herb:</strong> The aroma’s bonus also applies to the DC to inflict affected creatures with anger and disorientation effects.</li>\n<li><strong>1 dry herb:</strong> An impressed creature within the aroma does not lose the impressed condition if they perceive the creature they are impressed by fail a significant challenge or if they become impressed with another creature. Additionally, a successful save only causes the creature to become immune for 1 minute instead of 1 hour.</li>\n<li><strong>1 sour herb:</strong> The aroma’s bonus also applies to Handle Animal checks. If you wish, you can also have the aroma’s bonus to Diplomacy checks instead be applied as a penalty.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc30\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc30"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

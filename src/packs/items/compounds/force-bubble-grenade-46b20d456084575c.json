@@ -1,0 +1,162 @@
+{
+  "_id": "46b20d456084575c",
+  "_key": "!items!46b20d456084575c",
+  "name": "Force Bubble Grenade",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:compounds:ultimate:item:force-bubble-grenade",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/compounds#toc41",
+      "sourceSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "eee0e992076b3a2a635dd249475bca4221a487cfaf609f932c8b8d8227d21985",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Compounds",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:compounds:ultimate:item:force-bubble-grenade",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint Protection; <strong>CL</strong> 5th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 500 gp; <strong>Weight</strong> 0.1 lbs.</p>\n<p><strong>Description</strong><br>\nThis grenade is thrown as a thrown splash weapon. Instead of dealing damage, it creates a 35-foot radius field of force centered on the target. Creatures within 5 feet of the field’s boundary are shunted to the nearest empty space, and must succeed a DC 12 Reflex save or take 3d6 force damage. The field of force has 9 hit points, a Break DC of 17, and remains in place for 5 rounds or until destroyed, whichever comes first. In all other respects, the field of force is treated as a barrier created with the Protection sphere.</p>\n<p><strong>Construction Requirements</strong><br>\nDistill Compound, Protection sphere (Distant Protection); <strong>Cost</strong> 250 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/compounds#toc41\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0.1
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 500,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/compounds#toc41"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

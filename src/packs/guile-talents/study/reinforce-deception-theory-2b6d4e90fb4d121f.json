@@ -1,0 +1,124 @@
+{
+  "_id": "2b6d4e90fb4d121f",
+  "_key": "!items!2b6d4e90fb4d121f",
+  "name": "Reinforce Deception (theory)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:study:spheres-of-guile:guile-talent:reinforce-deception-theory",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/study#toc33",
+      "sourceSha256": "e8d569974189b26fc9f4d0950aa7e6c4ed942b36666113be9fc161ec1efd21fb",
+      "descriptionSha256": "3fb86f8637c2217941290d99bef5bbcc312985ace64cfdcf59b317491f07a81d",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Theory Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:study:spheres-of-guile:guile-talent:reinforce-deception-theory",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "study"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>As long as the subject of your theory is a creature, you can develop strategies to deceive it more reliably. You can also begin this theory as part of attempting to perplex (new skill use) the subject of your theory.</p>\n<p>Whenever you successfully inflict a disorientation condition against the subject of your theory, it takes twice as long for them to orient themselves, in addition to becoming distracted by you for as long as they have the disorientation condition. If the time taken to orient themselves takes a full-round action or shorter, it instead is increased by one step (1 round, full-round, standard, move, swift).</p>\n<p>This theory can gain notions in the following ways:</p>\n<ul>\n<li>The subject of your theory is successfully outwitted.</li>\n<li>The subject of your theory gains a disorientation condition or its disorientation condition worsens.</li>\n<li>The subject of your theory’s degree of awareness is reduced.</li>\n<li>The subject of your theory fails an opposed Sense Motive check.</li>\n</ul>\n<p><strong>Breakthrough:</strong> You can spend 2 notions as a free action as part of using a Bluff check to reduce any modifiers to the attempt due to its believability is reduced by 5 (minimum 0); if the attempt was already believable, you gain a +2 insight bonus to the Bluff attempt, increasing by 1 for every 4 ranks you possess in the associated skill.</p>\n<p><strong>Breakthrough:</strong> You can spend 1 notion as part of any action spent to inflict a disorientation effect on the subject of your theory. If your attempt is successful, the creature must succeed at a Will saving throw or be unable to benefit from competence or circumstance bonuses for as long as they are suffering from the disorientation effect.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/study#toc33\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/study#toc33"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

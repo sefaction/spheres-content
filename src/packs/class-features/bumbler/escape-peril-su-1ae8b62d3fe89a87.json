@@ -1,0 +1,121 @@
+{
+  "_id": "1ae8b62d3fe89a87",
+  "_key": "!items!1ae8b62d3fe89a87",
+  "name": "Bumbler: Escape Peril (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:bumbler:current:class-feature:escape-peril-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/bumbler#toc16",
+      "sourceSha256": "322bd93b9abc3a4daf7887344c3d59d5e4915f0121a05905d8451eba0968de4c",
+      "descriptionSha256": "f27d897e630100df1afd99a8e838d68b573db30fe08584c0bc132d8f94c6c5a1",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:bumbler:current:class-feature:escape-peril-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A bumbler has a knack for surviving danger, though in unexpected ways; vomiting up a poisoned drink, tripping under lightning bolts, and otherwise fumbling their way past mortal danger.</p>\n<p>At 6th level, when the bumbler fails a save, as an immediate action they may choose to resist the effect as though they had made the save. However, they suffer a condition based on the type of save required.</p>\n<ul>\n<li><strong>Fortitude Save:</strong> The bumbler is sickened for 1d4 rounds.</li>\n<li><strong>Reflex Save:</strong> The bumbler is knocked prone.</li>\n<li><strong>Will Save:</strong> The bumbler is confused (as per the confusion spell) for 1 round. The bumbler may do this a number of times per day equal to their Wisdom modifier (minimum of once per day).</li>\n</ul>\n<p>If the bumbler has the evasion or stalwart class features (or other similar abilities), this ability does not trigger the reduced effect; the bumbler still takes partial effect as though he did not have evasion or stalwart. If the bumbler is already suffering from the alternative effect (such as already being sickened when they fail a Fortitude save), they cannot use this ability.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/bumbler#toc16\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/bumbler#toc16"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

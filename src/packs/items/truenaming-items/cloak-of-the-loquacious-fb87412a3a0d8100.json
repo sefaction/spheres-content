@@ -1,0 +1,162 @@
+{
+  "_id": "fb87412a3a0d8100",
+  "_key": "!items!fb87412a3a0d8100",
+  "name": "Cloak of the Loquacious",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:truenaming-items:current:item:cloak-of-the-loquacious",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/truenaming-items#toc25",
+      "sourceSha256": "27f2229079cfc88f64fa4b81410fd49144d347ae740dc859b1853830dae5defb",
+      "descriptionSha256": "474b040ece4a43a5e53780a1c36689a1677d767c0fb188666836d11fe29ac633",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Wondrous Items",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:truenaming-items:current:item:cloak-of-the-loquacious",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> strong transmutation; <strong>CL</strong> 14th; <strong>Slot</strong> shoulders; <strong>Price</strong> 44,000 gp; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nAn indispensible accessory for those whose prodigious vocabularies merit its equally-prodigious expense, the cloak of the loquacious is an exquisite violet-hued cloak whose surface has all but been encrusted with various truenaming conceits in silver, spidery script. The cloak grants the following benefits.</p>\n<ul>\n<li>The wearer gains a +1 luck bonus to saving throws, but only when subject to an ongoing recitation.</li>\n<li>While within the area of effect of a recitation from the Codex of Far-Flung Spheres that the wearer recited, the wearer gains a +4 bonus to CMD against all combat maneuvers that would result in being ejected from the area of effect of that recitation.</li>\n<li>The cloak itself is treated as though it were any piece of non-weapon, non-armor, non-shield equipment, such as a shirt or goggles, for the purpose of being a valid target for recitations from the Codex of Artifice. If not currently affected by ongoing recitations, any recitation from the Codex of Artifice targeting the cloak has its duration increased by +1 round.</li>\n<li>The first time the wearer of the cloak is reduced to 0 or fewer hit points each day, the cloak recites volatilize on a potion on the wearer's person as a free action, then shatters the vial as a second free action, dousing the wearer in that potion as though it were delivered as a thrown splash weapon. The cloak preferentially selects healing potions or potions that grant temporary hit points, but will try something at random should none be available.</li>\n</ul>\n<p><strong>Construction Requirements</strong><br>\nCraft Wondrous Item, identify, rig the game, volatilize; <strong>Cost</strong> 22,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/truenaming-items#toc25\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 1
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 44000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "shoulders",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/truenaming-items#toc25"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

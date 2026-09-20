@@ -1,0 +1,124 @@
+{
+  "_id": "f8a8dd837ce9ae76",
+  "_key": "!items!f8a8dd837ce9ae76",
+  "name": "Reagent (harvest)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:survivalism:spheres-of-guile:guile-talent:reagent-harvest",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/survivalism#toc39",
+      "sourceSha256": "f08a002395ddf0d614719b1c74bdfc78b77500e0a93ea395e3e0354dcf980820",
+      "descriptionSha256": "fbc6803c8637f45bd8cb540d245b4bede8e1b4996829cec9e09bc6c76e6828fd",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Harvest Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:survivalism:spheres-of-guile:guile-talent:reagent-harvest",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "survivalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p><strong>Prerequisites:</strong> Associated skill 5 ranks</p>\n<p><strong>Refinement DC:</strong> 25</p>\n<p>You harvest the parts of a creature that are highly magical, such as a unicorn’s horn or pixie dust. A refined reagent can be expended as part of casting a spell or magical sphere effect to improve it, allowing the user to choose one of the following benefits to add to the effect:</p>\n<ul>\n<li>The effect’s range increases by 10 feet (as long as it has a range greater than touch), or its area by 5 feet. These increase by 5 feet for every 5 associated ranks you possess.</li>\n<li>The user rolls any concentration checks made as part of creating or maintaining the effect twice and takes the highest result.</li>\n<li>The effect gains a +1 alchemical bonus to its MSB and MSD, +1 per 10 associated ranks. The user can expend a reagent when attempting a dispel check made as part of hack magic to confer this bonus to the attempt.</li>\n</ul>\n<p><strong>Potency:</strong> The refined reagent gains two additional uses before it becomes expended.</p>\n<p><strong>Talisman:</strong> A reagent talisman grants its wearer a +2 alchemical bonus to concentration checks and a +1 alchemical bonus to their MSB and MSD. Additionally, once per hour the wearer can grant themselves a +1 alchemical bonus to their caster level as part of casting a spell or magical sphere effect.</p>\n<p><strong>Potency:</strong> The bonuses granted by the reagent talisman increases by 1.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/survivalism#toc39\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/survivalism#toc39"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

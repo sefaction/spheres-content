@@ -1,0 +1,124 @@
+{
+  "_id": "57b2af6f6e0a29a9",
+  "_key": "!items!57b2af6f6e0a29a9",
+  "name": "Fake Curse (quip)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:bluster:spheres-of-guile:guile-talent:fake-curse-quip",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/bluster#toc32",
+      "sourceSha256": "e8f88a5d38e2870756ef237c9336a522e248aa60231fd0ccb330d63841363c60",
+      "descriptionSha256": "9fbc7e39feff880b5343afb2649c910396baf7a79ca0bd602118e3e4c2f126dc",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Quip Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:bluster:spheres-of-guile:guile-talent:fake-curse-quip",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "bluster"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You trick a foe into believing you have cast a curse on it. If the target fails at its Will save, until the start of your next turn, the target believes itself to be cursed and doubts itself. It rolls twice and takes the lower result on its next attack roll, Will saving throw, or skill check that is not attempted as a free action. For every 5 ranks in the associated skill you possess, the target rerolls another roll during the round.</p>\n<p>You can outwit as a cost to use this quip; if you do, the number of rerolls increases by 1 and the duration increases to 1 minute or until the rerolls are expended. The outwitted target rerolls their first roll even if they succeed at the saving throw.</p>\n<p><strong>Associated Feat:</strong> Feign Curse (Pathfinder Roleplaying Game: Ultimate Intrigue).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/bluster#toc32\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/bluster#toc32"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

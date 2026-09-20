@@ -1,0 +1,121 @@
+{
+  "_id": "b7f087ec87c9eb58",
+  "_key": "!items!b7f087ec87c9eb58",
+  "name": "Dissident: Paradigm Shift (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:dissident:spheres-of-guile:class-feature:paradigm-shift-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/dissident#toc24",
+      "sourceSha256": "626be1b7398242ba3e0b08f70e805e39abc0faad11336cb9c07e55518e6f2ce6",
+      "descriptionSha256": "ced6a7df00ffa0d033e7b4d34aced683c604e55f1f1a5f6ffb556d7fdd4304f3",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:dissident:spheres-of-guile:class-feature:paradigm-shift-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>The dissident can shake the very foundations of people’s beliefs.</em></p>\n<p>At 16th level, when the dissident uses confront motives, she can shift one step towards either side of her struggle (whichever makes the most sense to reinforce or undermine the chosen motivation) to add additional effects.</p>\n<ul>\n<li><strong>Reinforce:</strong> The morale bonus also applies to attack rolls, and the saving throw bonus is doubled against emotion effects. In addition, whenever the creature fails an ability check, attack roll, saving throw, or skill check, the next roll they attempt of the same type within 1 round may be rolled twice, taking the highest result.</li>\n<li><strong>Undermine:</strong> The dissident can make a minor (permanent) change to the motivation, causing the creature to become dumbfounded, enraged, or frightened for the duration on a failed save. Additionally, for the next week, creatures who interact with the affected creature for at least 1 minute immediately learn about the impacted motivation, and saving throws and skill DCs to invoke or alter the motivation take a –4 penalty (this does not stack with the penalty from confront motives).</li>\n</ul>\n<p>If the creature fails their saving throw by 5 or more, the dissident can alter the motivation more dramatically, including removing the motivation entirely. This cannot change the motivation to be something the creature would have opposed before. On a successful save, they suffer the effects of confront motives as if they failed their save.</p>\n<h4>Sidebar: Altered Motivations</h4>\n<p>The extent that the dissident can minorly alter the motivation depends on the creature, and should be somewhat consistent with the creature’s other motivations, or equated to an emotionally impactful event, though not a dramatic turning point. For example, on a failed save, a thief’s motivation could be changed from ‘only act in my self interest’ to ‘hates helping people without compensation’, an example of them coming around to helping people, but still requiring money to do so.</p>\n<p>A dramatic alteration to a motivation can be equated to a life-changing event: something that has destabilized them enough to realize that they cannot keep doing things the way they have been. Even this is still not enough to completely alter their personality or alignment. In the example above, the motivation could be changed to ‘goes above and beyond when compensated’, but not ‘loves helping people out of pure altruism’, as the theme of strong self interest is not really maintained here.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/dissident#toc24\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/dissident#toc24"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

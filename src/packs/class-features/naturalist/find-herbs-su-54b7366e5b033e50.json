@@ -1,0 +1,121 @@
+{
+  "_id": "54b7366e5b033e50",
+  "_key": "!items!54b7366e5b033e50",
+  "name": "Naturalist: Find Herbs (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:naturalist:current:class-feature:find-herbs-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/naturalist#toc6",
+      "sourceSha256": "5d2f67db7e8fd6b46cada7718c2f07855b3c907dbefa6f77b0f9541438d9346f",
+      "descriptionSha256": "1463aafcc92ce37b6253d1b435b322a974345c7ced50a66b43e98f28bd723ec1",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:naturalist:current:class-feature:find-herbs-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, the naturalist has learned the secret to finding useful plants and unlocking their true potential, wherever he may be.</p>\n<p>To pick herbalism plants, the naturalist must first consult his surroundings to determine his current \"biome\". Biomes, large, naturally-occurring communities of flora and fauna occupying a major habitat, are divided into nine standard categories for the purpose of this ability: desert, forest, grassland, jungle, mountains, tundra, underground, underwater, and wetlands.</p>\n<p>Once the naturalist has determined his biome, he rolls once on that biome's find herbs table, plus an additional time for every two naturalist levels he possesses beyond 1st, to a maximum of 10 rolls at 19th level. (See the <a href=\"http://spheresofpower.wikidot.com/naturalist-find-herbs-tables\">Naturalist Find Herbs Tables</a>). For each roll, he collects the plants listed for the rolled result and can use them in the manner described in the Herb Log. All find herbs rolls produce 6 \"points\" worth of herbs. These plants are invested with the blessing of Mother Nature herself, and any attempt to use the find herbs class feature a second time in a single day will simply result in the acquisition of nonfunctional plants.</p>\n<p>Plants granted the blessing of nature tend to decay very rapidly, for they represent life firing on all cylinders. As such, all plants and plant products (the output from recipes) not stored in preservation vessels overnight will denature to a useless state come the following morning. A naturalist has an effective herbalist level equal to his naturalist class level for the purpose of his herbalism plants.</p>\n<p>Full rules for the use of picked herbs are presented at the beginning of <a href=\"http://spheresofpower.wikidot.com/the-herb-log\">The Herb Log</a>.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/naturalist#toc6\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/naturalist#toc6"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "dbd5bd69c6dcdd49",
+  "_key": "!items!dbd5bd69c6dcdd49",
+  "name": "Shadow Defender (Champion, Combat, Dual Sphere)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:polished-dark:polished-dark:feat:shadow-defender-champion-combat-dual-sphere",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/polished-dark#toc153",
+      "sourceSha256": "f633d89225f52142d1bb225ddfdfa8e0ef5dcc54cccb6249cb2c34a31e4998e2",
+      "descriptionSha256": "30b4bac0eb4040cd111912cec8badbbd422cf737a97de1a8d3bd670c37eafe61",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "polished-dark",
+      "category": "Dark (Polished) Sphere Feats > Dual Sphere Feats > Paranoia Agent (Dual Sphere)",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:polished-dark:polished-dark:feat:shadow-defender-champion-combat-dual-sphere",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>Be their shadow and shield them from what they cannot see.</em><br>\n<strong>Prerequisites:</strong> Dark sphere, Guardian sphere.</p>\n<p><strong>Benefit:</strong> You gain the following abilities based on the Guardian sphere packages you possess:</p>\n<ul>\n<li><strong>Blinding Challenge (requires (challenge) package):</strong> When issuing a Guardian sphere <em>challenge</em>, instead of your <em>challenge</em>’s normal penalties, the target treats other creatures as though they had concealment (20% miss chance), except the issuer of the <em>challenge</em>. This concealment does not allow other creatures to make Stealth checks against the <em>challenged</em> target (unless both the challenged target and the other creature are within a <em>gloom</em> you created, effectively allowing other creatures to hide from the challenged target even if they lack cover and concealment). This is a supernatural effect.</li>\n</ul>\n<p>You may spend 1 spell point when using this ability; the target treats other creatures as having total concealment (50% miss chance) for 1 round (Will negates; determine the saving throw DC using your Dark sphere or Guardian sphere DC, whichever is higher). A successful saving throw prevents this increased concealment (but not the altered challenge penalties).</p>\n<ul>\n<li><strong>Ecliptic Patrol (requires (patrol) package):</strong> The area of your <em>patrol</em> is treated as a <em>gloom</em> you created for the purposes of other abilities and effects (such as your <em>cloak</em> ability and conflicting with light effects); this does not alter the light level or carry any other effects of your <em>gloom</em>, and if suppressed by a light effect or otherwise dispelled, does not end your <em>patrol</em>. In addition, when beginning a <em>patrol</em>, you may spend 1 spell point to cast a <em>gloom</em> centered on yourself with a radius equal to your <em>patrol’s</em> radius and the Clinging Darkness following darkness option (even if you do not have the Clinging Darkness talent); this casting does not provoke attacks of opportunity. This <em>gloom</em> lasts until the end of your next turn, and its duration is extended until the end of your next turn if you <em>patrol</em> again. You must pay any additional spell point costs for the <em>gloom</em> or its options as appropriate.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/polished-dark#toc153\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/polished-dark#toc153"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

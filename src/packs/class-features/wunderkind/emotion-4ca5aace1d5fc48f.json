@@ -1,0 +1,121 @@
+{
+  "_id": "4ca5aace1d5fc48f",
+  "_key": "!items!4ca5aace1d5fc48f",
+  "name": "Wunderkind: Emotion",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:wunderkind:current:class-feature:emotion",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/wunderkind#toc8",
+      "sourceSha256": "8320ca50a806511bbe06ebf440a5bbe414240e021264815d1f6905707926af73",
+      "descriptionSha256": "881a8da13541fe63e0bd3d331ad7e011b77e04bfbe1545c6d9acd7e1d67fc7f3",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:wunderkind:current:class-feature:emotion",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, the wunderkind begins to affect the very fabric of the Material Plane through sheer force of will. She gains a pool of reality points equal to her Charisma modifier + 1/2 her wunderkind level. The wunderkind chooses an emotion from those listed in the eliciter class description from Spheres of Power, gaining the minor power associated with that emotion. Any emotion power with ‘touch’ in the name costs 1 reality point to activate. Whenever you activate a lesser emotion power you may spend up to 3 reality points to increase the range; one reality point increases the range from touch to close, two increases it from close to medium, and 3 increases it from medium to long.</p>\n<p>At 5th level and every odd level thereafter, the wunderkind may choose to gain the minor power of a new emotion, or gain access to the next level of an emotion she already possesses (lesser, greater, and master). A wunderkind cannot gain a lesser power before 5th level, a greater power before 7th level, or a master power before 9th level. All emotions are mind-affecting effects. If an emotion calls for a saving throw, the DC is equal to 10 + 1/2 the wunderkind’s level + the wunderkind’s Charisma modifier.</p>\n<p>Each time the wunderkind gains a power from her dominant emotion, the chance that wild magic manifests when she spends a spell point permanently increases by 5%. This stacks with itself and represents the wunderkind’s indulgence in the uncontrollable side of her magic.</p>\n<p>Each time the wunderkind gains a power from her tempering emotion (see below), she gains a permanent +5% bonus to all rolls on Table: Wild Magic Effects (maximum 100). This bonus stacks with itself and represents the emotional training the wunderkind has done to keep herself in control of her magic. For the purposes of this effect, serenity tempers rage, courage tempers fear, enmity tempers love, and grief tempers joy (and vice versa).</p>\n<p>The wunderkind can choose from any emotion listed in the eliciter class, using her wunderkind level as her eliciter level for this purpose.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/wunderkind#toc8\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/wunderkind#toc8"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

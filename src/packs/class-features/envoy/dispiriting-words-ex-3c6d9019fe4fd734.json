@@ -1,0 +1,121 @@
+{
+  "_id": "3c6d9019fe4fd734",
+  "_key": "!items!3c6d9019fe4fd734",
+  "name": "Envoy: Dispiriting Words (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:envoy:spheres-of-guile:class-feature:dispiriting-words-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/envoy#toc3",
+      "sourceSha256": "2e0861229e5843a34fbe96552a4f1a5f06d47a27c497d670f7cc32f173d88130",
+      "descriptionSha256": "b927fa1204d6f7cb3b4b6a3ded50465e94528308fd4d4ab802b7bb0c70852d4c",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:envoy:spheres-of-guile:class-feature:dispiriting-words-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>An envoy’s words can cut surprisingly deep wounds. As a swift action, the envoy chooses a creature that can hear and understand him within close range (25 feet + 5 feet per 2 envoy levels), making them dispirited for 1 minute.</p>\n<p>The envoy can only have a single instance of dispiriting words applied to a target at one time, overriding any other non-instantaneous phrases he previously applied. Instantaneous phrases do not override previously applied instances of dispiriting words.</p>\n<p>While dispirited, the target suffers a -2 penalty to ability checks and skill checks attempted using a single ability score of the envoy’s choice, in addition to the DC required to affect them with skills of the chosen ability score. This penalty increases by 1 per 5 envoy levels he possesses. This is a language-dependent, mind-affecting emotion effect, and is generally considered a non-hostile action unless otherwise stated. Additionally, the envoy can instead use this ability as a standard action, adding a single [phrase] ability to it. If a [phrase] requires a saving throw, the DC is equal to 10 + 1/2 his envoy level + his Charisma modifier.</p>\n<p>The envoy gains the following [phrase] abilities; he can only choose a [phrase] if he meets its prerequisites:</p>\n<ul>\n<li><strong>Exhausting Words:</strong> The dispirited penalty also applies to the creature’s attack and damage rolls. The dispirited creature can attempt a Will save at the end of each of their turns to reduce the penalties associated with being dispirited by 1; removing the dispirited status if the penalty is reduced to 0.</li>\n<li><strong>Weakening Words:</strong> The dispirited creature suffers an amount of nonlethal damage equal to 1d10 + his Charisma modifier (Will halves); increasing by 1d10 per 5 envoy levels he possesses. Additionally, if the creature’s nonlethal damage equals or exceeds half their current hit point total, they become fatigued. This phrase is considered a hostile action. If the envoy has influence (see below) over the creature, this nonlethal damage changes to 2d10 + his Charisma modifier, plus 1d10 per 3 envoy levels he possesses.</li>\n<li><strong>Harsh Words (requires 4th level):</strong> Whenever the creature fails a roll penalized by dispirited words, they must succeed at a Will save or have the dispirited penalty increase by 1 (maximum equal to his base dispirited words penalty plus his Charisma modifier).</li>\n<li><strong>Critical Words (requires 7th level):</strong> The dispirited creature becomes dumbfounded for the duration, or shocked on a successful Will saving throw. The creature can attempt to orient themselves as a standard action; if the condition is removed, so is the dispirited status.</li>\n<li><strong>Wavering Words (requires 14th level):</strong> The dispirited creature must succeed at a Will saving throw or be unable to benefit from beneficial emotion effects, morale bonuses, and temporary hit points for as long as they are dispirited. Additionally, on a failed save, all beneficial emotion effects and morale bonuses they are benefiting from are dispelled. The creature can attempt a Will saving throw at the end of each of their turns to reduce the duration of the dispirited status by 2 rounds.</li>\n<li><strong>Crushing Words (requires 17th level):</strong> The dispirited creature becomes stunned for the duration (Will negates). The creature can attempt a Will saving throw at the end of each of their turns to end the dispirited status. This phrase is generally considered a hostile action.</li>\n</ul>\n<p>If a [phrase] ability requires an initial saving throw, a successful save also negates the dispirited condition. Some class features grant the envoy additional [phrase] abilities, and possess the appropriate tag.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/envoy#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/envoy#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

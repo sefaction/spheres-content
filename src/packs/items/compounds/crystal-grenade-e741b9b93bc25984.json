@@ -1,0 +1,162 @@
+{
+  "_id": "e741b9b93bc25984",
+  "_key": "!items!e741b9b93bc25984",
+  "name": "Crystal Grenade",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:compounds:ultimate:item:crystal-grenade",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/compounds#toc26",
+      "sourceSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "42d86a2c5d34f2cba6c0f50c3b5aee8503aa7507e19949f3a3ca884e99ee3fce",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Compounds",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:compounds:ultimate:item:crystal-grenade",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint Destruction; <strong>CL</strong> 1st (minor), 11th (moderate), 21th (superior)<br>\n<strong>Slot</strong> none; <strong>Price</strong> 150 gp (minor), 1,650 gp (moderate), 3,150 gp (superior); <strong>Weight</strong> 0.1 lbs.</p>\n<p><strong>Description</strong><br>\nThis grenade is considered a thrown splash weapon. It deals piercing damage in a radius burst centered on the target. Any creature receiving damage must succeed at a Reflex save or become entangled and unable to move. The affected area becomes overgrown with crystal and counts as difficult terrain. Breaking free of the entangled condition is a move action, requiring either a Strength check or an Escape Artist check against the grenade’s save DC. A target may also destroy the crystal on a square or creature by dealing damage to the crystal. This removes the entangled condition from the creature and destroys the difficult terrain. The crystal disappears after 1 minute.</p>\n<table>\n<tbody><tr>\n<th>Grenade Quality</th>\n<th>Damage</th>\n<th>Area Burst</th>\n<th>Reflex Save</th>\n<th>Crystal Hit Points</th>\n</tr>\n<tr>\n<td>Minor</td>\n<td>1d4 piercing</td>\n<td>10-ft. radius</td>\n<td>DC 10</td>\n<td>3</td>\n</tr>\n<tr>\n<td>Moderate</td>\n<td>6d4 piercing</td>\n<td>20-ft. radius</td>\n<td>DC 15</td>\n<td>33</td>\n</tr>\n<tr>\n<td>Superior</td>\n<td>11d4 piercing</td>\n<td>30-ft. radius</td>\n<td>DC 20</td>\n<td>63</td>\n</tr>\n</tbody></table>\n<p><strong>Construction Requirements</strong><br>\nDistill Compound, Destruction sphere (Crystal Blast (blast type, crystal), Explosive Orb (blast shape)); <strong>Cost</strong> 75 gp (minor), 825 gp (moderate), 1,575 gp (superior)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/compounds#toc26\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0.1
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 150,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/compounds#toc26"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

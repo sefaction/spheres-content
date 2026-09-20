@@ -1,0 +1,124 @@
+{
+  "_id": "fcd35c5d55657762",
+  "_key": "!items!fcd35c5d55657762",
+  "name": "Dabbler Retainer (retainer)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:faction:spheres-of-guile:guile-talent:dabbler-retainer-retainer",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/faction#toc27",
+      "sourceSha256": "c0949a2288b14f9bce4a04a73230598f8b6178c048d9a36fc6899ead8b33b209",
+      "descriptionSha256": "441c15699ae9d85ce7ebf782b0e50d7dec28ea189de78dc499d9f30eb2c963ea",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Retainer Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:faction:spheres-of-guile:guile-talent:dabbler-retainer-retainer",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "faction"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can choose a magical dabbler as your faction retainer. You can choose either for them to gain spell slots or magic talents. They gain spell slots as an adept (NPC class in the Pathfinder Roleplaying Game Core Rulebook) using their Hit Dice as their adept level. If you have the (supply) package, you can request a dabbler who can cast the same kind of spells that your spellcasting services provide instead of using the adept spell list (although they still use the adept’s spell slots). Alternatively, they gain two of the magic spheres that your faction offers as spellcasting services, have a caster level and spell pool each equal to half their Hit Dice, and gain one magic talent for every two Hit Dice they have. You can share magic talents in place of skill talents with the dabbler retainer.</p>\n<p>You must provide any focus or material component for the dabbler’s spells costing more than 1 gp.</p>\n<p>You can gain this talent a second time if you have at least 5 ranks in the associated skill. If you do, you can requisition a dabbler of greater magical achievement. If they use a spell list, they gain spell slots as a druid. If they use magic spheres, their caster level and number of magic talents each equals their Hit Dice. You must pay the extra authorization to equip them as an NPC of their level in order for them to expend more than half their spell slots of any given level or more than half their spell points.</p>\n<p><strong>Academician</strong><br>\n<strong>Role</strong> 1 Authorization Provide advice on magical matters, identify magic items, cast spells (noncombatant)<br>\n<strong>Skills</strong> (2 primary, 2 secondary) Knowledge (arcana), Knowledge (planes), Knowledge (religion), Linguistics, Spellcraft; <strong>Skill Spheres</strong> Spelhacking or Study;<br>\n<strong>Ability Scores</strong> Str 8, Dex 10, Con 10, Int 15, Wis 12, Cha 11; Hit Dice d6 (4 hp per level); <strong>Base Attack Bonus</strong> poor; <strong>Saves</strong> Fort (poor), Ref (poor), Will (good)</p>\n<p><strong>Magician</strong><br>\n<strong>Role</strong> 1 Authorization Perform with magic, identify magic items, cast spells (noncombatant)<br>\n<strong>Skills</strong> (2 primary, 2 secondary) Bluff, Knowledge (arcana), Knowledge (planes), Perform, Spellcraft, Use Magic Device; <strong>Skill Spheres</strong> Bluster, Performance, or Spellhacking;<br>\n<strong>Ability Scores</strong> Str 8, Dex 10, Con 10, Int 11, Wis 13, Cha 15; Hit Dice d6 (4 hp per level); <strong>Base Attack Bonus</strong> poor; <strong>Saves</strong> Fort (poor), Ref (poor), Will (good)</p>\n<p><strong>Priest</strong><br>\n<strong>Role</strong> 1 Authorization Provide advice on religious matters, perform ceremonies, identify magic items, cast spells (noncombatant);<br>\n<strong>Skills</strong> (2 primary, 2 secondary) Heal, Knowledge (arcana), Knowledge (planes), Knowledge (religion), Sense Motive, Spellcraft; <strong>Skill Spheres</strong> Communication or Herbalism;<br>\n<strong>Ability Scores</strong> Str 10, Dex 8, Con 10, Int 11, Wis 15, Cha 12; Hit Dice d6 (4 hp per level); <strong>Base Attack Bonus</strong> poor; <strong>Saves</strong> Fort (poor), Ref (poor), Will (good)<br>\nEquipment Any focus or spell components pouch required by casting tradition worth no more than your temporary resource maximum</p>\n<p><a href=\"http://spheresofpower.wikidot.com/faction#toc27\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/faction#toc27"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

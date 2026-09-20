@@ -1,0 +1,121 @@
+{
+  "_id": "ae7fe0320b6411be",
+  "_key": "!items!ae7fe0320b6411be",
+  "name": "Eliciter: Domination (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:eliciter:ultimate:class-feature:domination-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/eliciter#toc12",
+      "sourceSha256": "0cf076b987abafe6af278a8a992b3695cfc8b99dd1dbb52cc85c8d2629652d23",
+      "descriptionSha256": "5df8d5f6972231880d182ba273a2886f9b015ba290a18ae193ac5a92908225cb",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:eliciter:ultimate:class-feature:domination-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 20th level, an eliciter may permanently enslave a target’s mind. Once per day as a standard action, the eliciter may make a touch attack against a target and attempt to dominate it. This is a compulsion, mind-affecting effect. The target is allowed a Will save (DC 10 + 1/2 his eliciter level + his casting ability modifier + his Persuasive bonus) and on a failed save, the target becomes devoted to the eliciter, gaining a disposition of helpful and obeying any orders the eliciter gives to the exclusion of all other activities except those necessary for survival (eating, sleeping, etc.). The target never obeys obviously self-destructive commands, and is allowed a new save with a +2 bonus to throw off the compulsion if asked to do something against its nature. A DC 25 Sense Motive check reveals the target is under compulsion.</p>\n<p>The eliciter may only have one target dominated in this fashion at a time; if the eliciter successfully uses this ability to dominate a second target, the first is immediately released from service.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/eliciter#toc12\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/eliciter#toc12"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

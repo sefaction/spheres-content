@@ -1,0 +1,121 @@
+{
+  "_id": "e48a1df6402019af",
+  "_key": "!items!e48a1df6402019af",
+  "name": "Cartomancer: Seal (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:cartomancer:current:class-feature:seal-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/cartomancer#toc11",
+      "sourceSha256": "510e1856ae5bb099f7fca65cb5d5173aeca0ce7d595734723ce21cf63ce6d10c",
+      "descriptionSha256": "42018ccbdb39aa879449f37f9639f2b8e672ad3a1b4c987a7a230db8c9a62a40",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:cartomancer:current:class-feature:seal-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Starting at 2nd level, a cartomancer gains access to general expressions of fate and probability, also known as seals. Seals require that the cartomancer discard a portent, as well as spend a number of fate points in order to twist the power held in the discarded portent to another purpose. To that end, the power of the seal is dependent on the power level of the discarded portent. By this logic, a discarded greater portent will have a greater effect than a discarded lesser portent. See each individual seal for the effects elicited by each power level of portent.</p>\n<p>The Difficulty Class (DC) for a saving throw against a cartomancer's seal is 10 + 1/2 the cartomancer's class level + the cartomancer's Wisdom modifier.</p>\n<p>Select a single seal listed below at 2nd level, as well as an additional seal for every four levels beyond 2nd.</p>\n<h4>Seal of Arbitrary Possibilities</h4>\n<p><strong>Cost:</strong> 2 Fate Points<br>\n<strong>Requires:</strong> Cartomancer 6</p>\n<p>As a standard action, the cartomancer reveals a number of cards from the top of her active deck. Shuffle all greater portents revealed in this way back into the cartomancer's active deck. Keep these revealed cards faceup on the table. They can be played and discarded as though they were in the cartomancer's hand, but do not count toward maximum hand size. If not played or discarded within 1 round per cartomancer level, all cards left face-up on the table in this way go to the cartomancer's discard pile. The number of cards revealed is dependent upon the power level of the portent discarded; if the cartomancer's active deck does not contain enough cards, reveal all of them.</p>\n<ul>\n<li><strong>Least</strong> - 1 card</li>\n<li><strong>Lesser</strong> - 3 cards</li>\n<li><strong>Greater</strong> - 4 cards; do not shuffle revealed greater portents back into the active deck</li>\n</ul>\n<h4>Seal of the Augury</h4>\n<p><strong>Cost:</strong> 4 Fate Points<br>\n<strong>Requires:</strong> Cartomancer 6</p>\n<p>The cartomancer asks her deity, or Fate itself, questions, as the augury spell. The number of questions she can varies based upon the power level of the discarded portent. She may ask one question per round; if she is interrupted in between questions, the remaining questions are lost.</p>\n<ul>\n<li><strong>Least</strong> - 1 question</li>\n<li><strong>Lesser</strong> - 3 questions</li>\n<li><strong>Greater</strong> - class level questions</li>\n</ul>\n<h4>Seal of the Blinking Eye</h4>\n<p><strong>Cost:</strong> 2 Fate Points<br>\n<strong>Requires:</strong> Cartomancer 6</p>\n<p>As a standard action, the cartomancer alters the universe's record slightly in order to change her physical placement in it, as the dimension door spell. The maximum distance she can move in this manner is dependent upon the power level of the discarded portent.</p>\n<ul>\n<li><strong>Least</strong> - 5 feet per two class levels</li>\n<li><strong>Lesser</strong> - 5 feet per class level</li>\n<li><strong>Greater</strong> - 10 feet per class level; used as a move action instead of as a standard action</li>\n</ul>\n<h4>Seal of the Cups</h4>\n<p><strong>Cost:</strong> 1 Fate Point</p>\n<p>As a swift action, the cartomancer grants herself a number of temporary hit points for 1 round. The number of temporary hit points gained in this manner is dependent upon the power level of the discarded portent.</p>\n<ul>\n<li><strong>Least</strong> - 5 + 1/2 class level temporary hit points</li>\n<li><strong>Lesser</strong> - 5 + class level temporary hit points</li>\n<li><strong>Greater</strong> - 5 + 3*class level temporary hit points</li>\n</ul>\n<h4>Seal of Entropy</h4>\n<p><strong>Cost:</strong> 2 Fate Points<br>\n<strong>Requires:</strong> Cartomancer 6</p>\n<p>As a standard action, the cartomancer manipulates local probability to make unlikely events unlikelier and likely events likelier. All creatures within 30 feet of the cartomancer, including the cartomancer herself, get a luck bonus to their highest saving throw and a penalty to their lowest saving throw. Creatures that move more than 30 feet away from the cartomancer immediately lose the effects of this ability, while creatures that enter this radius immediately gain the effects. The magnitude of the bonus and the penalty is dependent upon the power level of the discarded portent. This ability lasts for 1 round per cartomancer level.</p>\n<ul>\n<li><strong>Least</strong> - +1 bonus and -1 penalty</li>\n<li><strong>Lesser</strong> - +2 bonus and -2 penalty</li>\n<li><strong>Greater</strong> - +4 bonus and -4 penalty</li>\n</ul>\n<h4>Seal of Fate Respun</h4>\n<p><strong>Cost:</strong> 1 Fate Point</p>\n<p>As an immediate action, the cartomancer grants a retroactive insight bonus to the attack roll or skill check of an ally within 30 feet. If the bonus is enough to turn the failure into a success, the roll succeeds. The magnitude of the retroactive bonus is dependent upon the power level of the discarded portent.</p>\n<ul>\n<li><strong>Least</strong> - +1d3 insight bonus</li>\n<li><strong>Lesser</strong> - +1d6 insight bonus</li>\n<li><strong>Greater</strong> - +1d6 insight bonus; can be applied to a failed saving throw</li>\n</ul>\n<h4>Seal of Militant Probability</h4>\n<p><strong>Cost:</strong> 2 Fate Points<br>\n<strong>Requires:</strong> Cartomancer 10</p>\n<p>As a standard action, the cartomancer adjusts the behavior of fate to actively punish those with bad luck and reward those with good luck. Whenever a creature within 30 feet of the cartomancer, including the cartomancer herself, rolls a natural '1' on a d20 roll, it takes force damage; similarly, whenever a creature within the same area of effect rolls a natural '20' on a d20 roll, it is healed. This healing is positive energy if applied to living creatures, negative energy if applied to undead creatures, and magically repairs constructs to which it is applied. The magnitude of the damage and healing effects are dependent upon the power level of the discarded portent. This ability lasts for 1 round per cartomancer level.</p>\n<ul>\n<li><strong>Least</strong> - 1 point of damage or healing per two class levels</li>\n<li><strong>Lesser</strong> - 1 point of damage or healing per class level</li>\n<li><strong>Greater</strong> - 1d4 points of damage or healing per class level</li>\n</ul>\n<h4>Seal of the Pentacles</h4>\n<p><strong>Cost:</strong> 1 Fate Point</p>\n<p>As a full-round action, the cartomancer draws power from the discarded card, granting an ally within 30 feet an improved ability to produce mundane equipment. The ally's mundane equipment production speed is multiplied by a factor that is dependent upon the power level of the discarded portent. This ability lasts for 1 day.</p>\n<ul>\n<li><strong>Least</strong> - 2x</li>\n<li><strong>Lesser</strong> - 4x</li>\n<li><strong>Greater</strong> - 10x</li>\n</ul>\n<h4>Seal of Persistent Fate</h4>\n<p><strong>Cost:</strong> 1 Fate Point</p>\n<p>As a standard action, the cartomancer returns a card from her discard pile to her hand. The card returned must cast a portent of the same power level as the discarded portent.</p>\n<h4>Seal of the Read Palm</h4>\n<p><strong>Cost:</strong> 1 Fate Point</p>\n<p>As a standard action, the cartomancer twists the fate of a single creature within 30 feet. Choose good or bad fortune as if using the tell fortune class feature, then roll on <strong>Table: Tell Fortune Outcomes</strong>. The number of rolls made on this table is dependent upon the power level of the discarded portent. A successful Will save negates all benefits, or penalties, of this seal; otherwise, these benefits, or penalties, last for 1 minute per cartomancer level. The heightened fate class feature applies to this seal.</p>\n<ul>\n<li><strong>Least</strong> 1 roll</li>\n<li><strong>Lesser</strong> - 2 rolls</li>\n<li><strong>Greater</strong> - 5 rolls</li>\n</ul>\n<h4>Seal of the Swords</h4>\n<p><strong>Cost:</strong> 2 Fate Points</p>\n<p>As a standard action, the cartomancer twists the power of the discarded card and uses it to lash out at a single creature within 30 feet. That creature takes an amount of slashing damage based on the power level of the discarded portent with a Reflex save for half damage.</p>\n<ul>\n<li><strong>Least</strong> - 1d6 slashing damage + an additional 1d6 slashing damage for every two class levels</li>\n<li><strong>Lesser</strong> - 1d6 slashing damage per class level</li>\n<li><strong>Greater</strong> - 6 slashing damage per class level</li>\n</ul>\n<h4>Seal of the Wands</h4>\n<p><strong>Cost:</strong> 3 Fate Points<br>\n<strong>Requires:</strong> Cartomancer 10</p>\n<p>As a standard action, the cartomancer pulls a wand out of thin air. This wand persists for 1 hour before vanishing and contains a single charge of the discarded portent with a caster level equal to the cartomancer's class level.</p>\n<p>Treat a wand containing a least portent as 1st-level (DC 11), a wand containing a lesser portent as 2nd-level (DC 13), and a wand containing a greater portent as 4th-level (DC 16). The portent is treated as though it were on the spell list of any divine caster for the purpose of using the wand without using the Use Magic Device skill.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/cartomancer#toc11\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/cartomancer#toc11"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

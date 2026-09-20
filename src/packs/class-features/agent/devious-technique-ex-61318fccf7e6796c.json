@@ -1,0 +1,121 @@
+{
+  "_id": "61318fccf7e6796c",
+  "_key": "!items!61318fccf7e6796c",
+  "name": "Agent: Devious Technique (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:agent:spheres-of-guile:class-feature:devious-technique-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/agent#toc7",
+      "sourceSha256": "0a78d839d28638d323a529162671621aae42260b1dae059d81e613809c3febed",
+      "descriptionSha256": "a50b1c86b18316c6694aa36a3494a51c0074de99b13c29f397d5f0cb2b387b7a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:agent:spheres-of-guile:class-feature:devious-technique-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level, the agent learns to take full advantage of a compromised target. Whenever the agent hits with a discerning strike, the agent can choose a single devious technique to apply to the attack. They gain a devious technique option from their ploy.</p>\n<p>In addition, they gain the following options. If an option allows a saving throw, the DC is 10 + 1/2 agent level + agent’s operative ability modifier.</p>\n<h4>Sensory Slash</h4>\n<p>A creature damaged by the agent’s discerning strike takes a -2 penalty to Perception for 1 minute per agent level. At 6th level and every four levels thereafter, this penalty increases by 1 (to a maximum of -6 at 18th level). In addition, the creature must succeed at a Reflex saving throw or be deafened or partially blinded (agent's choice). A creature can spend a move action to attempt another save to remove this condition. A partially blinded target treats all creatures as having concealment.</p>\n<p>At 6th level, the agent can disable any imprecise sense the creature has (such as scent or blindsense) instead of deafening it or muddle a special precise sense (such as blindsight) to give creatures sensed through it concealment instead of partially blinding the target. The agent can also deliver this devious technique as a melee touch attack as a standard action that doesn't deal damage.</p>\n<p>At 10th level, this ability has the option to give the blinded condition or to interfere with one other sense, such as tactile sense or blindsight. The creature can spend a standard action to attempt an additional save against this ability (rather than a move action). In addition, the agent can use sensory slash as a ranged touch attack as long as they are within 60 feet of their target. At 14th level, the agent affects the creature even on a successful save, but a successful save reduces the duration to until the end of the agent’s turn. On a failed save, the agent can cause this ability to become permanent.</p>\n<p>This effect can be removed by remove blindness/deafness, greater restoration, miracle, or wish spell.</p>\n<h4>Throat Punch</h4>\n<p>If the discerning strike target needs to breathe, it takes a penalty on auditory skill uses (including many Bluff, Diplomacy, and Intimidate uses) and abilities using its voice for 1 minute: –2 on skill checks and –1 to save DCs. In addition, it must succeed at a Reflex saving throw or it is unable to speak above a whisper for the same duration. When you deliver a throat punch, the Perception DC to hear the sounds of combat from you and the affected target increases to 10 + your Stealth ranks (rather than the usual -10); this increase doesn't apply to explosive items such as firearms or fire bombs.</p>\n<p>The creature’s spells with verbal components have a 20% spell failure and the ranges of all its auditory abilities using its voice (including most language-dependent skills, spells, and abilities) are reduced to 10 feet. Anyone farther than 10 feet away must succeed at a Perception check (modified for range and circumstance normally) with base DC 20 to make out its words, or DC 15 to even notice the sound of its voice.</p>\n<p>At 6th level, a failed save increases the penalties to –4 for skills and –2 for DCs and the duration to 10 minutes. At 10th level, the penalties are always –4 for skills and –2 for DCs and the agent can choose for a failed save to make the target unable to breathe or speak for the first 1d4 rounds; they must hold their breath to avoid suffocating. A successful Heal check as a standard action against DC 10 + twice agent level can restore breathing immediately; the creature can also breathe again immediately if restored to its maximum hit points. At 14th level, the agent can stop the target from breathing for 1d4 minutes on a failed save.</p>\n<h4>Sensory Shutdown</h4>\n<p>At 12th level, the agent gains the option to force the creature to succeed at a Reflex saving throw or become stunned for 1 round; while stunned by this ability, the creature cannot perceive anything. A creature with Hit Dice equal to the agent’s level – 5 or lower must attempt an additional successful Fortitude save or be reduced to -1 hit points; the agent can decide to automatically stabilize the creature or not. A creature cannot be affected by this ability more than once per day, regardless of the source of the ability.</p>\n<h4>What Were We Doing?</h4>\n<p>At 20th level, the agent can use their just a bad dream ability (gained at 12th level) on any creature regardless of its hit points as a devious technique option. If the agent reduces the creature’s hit points to 0 or lower, the creature must roll the saving throw against this ability twice, taking the lower of the two results. A creature affected in combat becomes flat-footed until the start of their next turn but is aware that the agent attacked them unless other circumstances prevent this realization (such as sensory shutdown or sensory slash).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/agent#toc7\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/agent#toc7"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

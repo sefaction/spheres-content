@@ -1,0 +1,121 @@
+{
+  "_id": "d11598c3429392b5",
+  "_key": "!items!d11598c3429392b5",
+  "name": "Mind Joggle",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mana:ultimate:feat:mind-joggle",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mana#toc109",
+      "sourceSha256": "06b0eb5b2d5f3e7266206aee7cb1666a55aa109bbce2259ade8a41e4b38f06dd",
+      "descriptionSha256": "dbcf7c1d87ba478ce3d97682c12529706756036837b60a65b13ef7d91680927c",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Mana Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mana:ultimate:feat:mind-joggle",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Mana sphere.</p>\n<p><strong>Benefit:</strong> Even those trained in martial techniques lose their grip under your power. When you use a Mana sphere ability that normally deals spell point damage to a target that has martial focus, you can forego the spell point damage to instead force the target to make a Will saving throw or lose their martial focus.</p>\n<p>At 10th level, you can stomp out a creature’s ability to utilize their focus. If you spend an additional spell point when using this feat, you can instead cause your target to be unable to expend or regain their martial focus for a number of rounds equal to your casting ability modifier. A creature suffering from this effect may make a new saving throw to end it early by taking the total defense action.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mana#toc109\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mana#toc109"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

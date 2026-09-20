@@ -1,0 +1,121 @@
+{
+  "_id": "293c3eeba0cd5545",
+  "_key": "!items!293c3eeba0cd5545",
+  "name": "Warrior Poet: Haiku",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:warrior-poet:current:class-feature:haiku",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/warrior-poet#toc3",
+      "sourceSha256": "697e33783b9a53a1f33fd3d245501d6bb4784eedaf5b1154079f74af0050473d",
+      "descriptionSha256": "c0ccae90540afcb4b1b799be31cc87217c220395e27ae169998e6a7cbe21ebdd",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:warrior-poet:current:class-feature:haiku",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A warrior poet's primary source of power stems from his understanding of the juxtaposition inherent in haiku poetry. In its traditional form, the haiku compares two quantities, or subjects, found in nature, then uses one of seventeen kireji, or cutting words, to execute the juxtaposition in a specific way.</p>\n<p>For our purposes, a haiku is a piece of poetry containing two subjects to be compared and a kireji to direct the comparison. Subjects are themselves made up of topics, which are individual ideas found in nature, like a frog, the noonday sun, or the way a boar glares right before it makes somebody’s life miserable. Topics and kirejis are drawn from the warrior poet’s poetry book. A warrior poet begins play with two haiku, plus additional haiku equal to his Wisdom modifier / 3 (rounded down, minimum +0). Each subject in a haiku has an allowance of 1 “on”, or syllable, which dictates how many topics each subject can accept. A haiku must contain exactly two subjects and one kireji. At 3rd level and every five levels thereafter, a warrior poet's increasing mastery over poetry increases the “on” allowance of each of his subjects by +1 (max 5 at 18th level), thus allowing him to add additional topics to each of his subjects. At 5th level and every 6 levels thereafter, a warrior poet receives an additional haiku, for a total of 5 haiku at 17th level.</p>\n<p>To prepare or use a haiku, a warrior poet must have a Wisdom score equal to at least 12 + the “on” allowance of his subjects. The Difficulty Class (DC) for a saving throw against a warrior poet's haiku is 10 + 1/2 the warrior poet's class level + the warrior poet's Wisdom modifier.</p>\n<h4>Composition</h4>\n<p>A warrior poet must get 8 hours of sleep and study his poetry book for 1 hour in order to change his haiku. A warrior poet does not need to study his poetry book each day to refresh his daily uses of the orate haiku class feature (see below). Rather, in order to refresh his daily uses of the orate haiku class feature, a warrior poet need only get 8 hours of sleep each night. In essence, a warrior poet need not study his poetry book at all if he is happy with his current haiku selection. Further, if separated from his poetry book, a warrior poet can continue to use the haiku he has already prepared until he is reunited with it.</p>\n<p>A warrior poet begins play with a poetry book containing 3 kireji. Further, his poetry book also begins play with topics equal to 2 + the warrior poet's Wisdom modifier, minimum 2. At each new warrior poet level, a warrior poet gains two of any combination of topics or kireji for which he meets all of the prerequisites. See <a href=\"http://spheresofpower.wikidot.com/poetry-book\">Poetry Book</a> for a listing of available subjects and kireji.</p>\n<p>At any time, a warrior poet may copy topics and kireji, found in other poetry books to his own. Given the nature of a warrior poet’s art, special inks and paper are required. The special paper is, luckily, identical to that found in wizard spellbooks, thus allowing a warrior poet to buy a spellbook and scrawl poetry book on the front cover. Further, any magic items designed to record wizard spells can record kireji and topics without a problem. The ink cost to record a kireji or topic is equal to 100 gp times the effective minimum level of what is being recorded. For example, a kireji that requires 4 ranks in a skill effectively requires a minimum level of 4th and costs 400 gp to record. Kireji and topics take up a single page each in the poetry book.</p>\n<p>Specialty stores are known to carry kireji and topics in convenient folios. Given the high cost of copying these to a primary poetry book after purchase, many experienced warrior poets are known to have a small library on their person. The market price of these folios is 150 gp times the effective minimum level of the kireji or topic. A folio of effective minimum level 10 or under weighs 1 pound, while a folio of effective minimum level 11 and above weighs 2 pounds.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/warrior-poet#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/warrior-poet#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

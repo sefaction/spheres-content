@@ -1,0 +1,124 @@
+{
+  "_id": "6354ec4b9a5721fb",
+  "_key": "!items!6354ec4b9a5721fb",
+  "name": "Hide (harvest)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:survivalism:spheres-of-guile:guile-talent:hide-harvest",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/survivalism#toc32",
+      "sourceSha256": "f08a002395ddf0d614719b1c74bdfc78b77500e0a93ea395e3e0354dcf980820",
+      "descriptionSha256": "c96d53cc2411c1813822c9f964941f21ee386dee15df061926df859f37ad112c",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Harvest Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:survivalism:spheres-of-guile:guile-talent:hide-harvest",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "survivalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Refinement DC:</strong> 20</p>\n<p>You refine the hide of a creature, granting a single form of damage reduction or energy resistance that the creature possessed or could feasibly provide (such as cold resistance from a polar bear, up to GM discretion). A refined hide’s damage reduction starts at 1, and its energy resistance starts at 5, increasing by +1/+5 respectively per 5 ranks in the associated skill you possess.</p>\n<p><strong>Talisman:</strong> The hide talisman’s wearer increases the luck bonus to saving throws normally granted by a talisman by 1 + 1 per 10 ranks in the associated skill you possess.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/survivalism#toc32\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/survivalism#toc32"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "91fc02af4d5a198f",
+  "_key": "!items!91fc02af4d5a198f",
+  "name": "Cursed Sign",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:marvelous-items:ultimate:item:cursed-sign",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/marvelous-items#toc18",
+      "sourceSha256": "a971a10582e74c6796d182b7ebe64177d217ee68e8817f8018506a8a95474889",
+      "descriptionSha256": "1442a4d390f7ead7d4b75357a14c80c46c411ea3260c1385fdb5cb4eb09323e3",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "New Marvelous Items",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:marvelous-items:ultimate:item:cursed-sign",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint Mana; <strong>CL</strong> 2nd<br>\n<strong>Slot</strong> none; <strong>Price</strong> 1,600 gp; <strong>Weight</strong> 2 lbs.</p>\n<p>Once per day, when brandished in one hand as a standard action, a cursed sign can give one creature in close range (25 feet + 5 feet per 2 caster levels) the Painful Magic casting drawback unless they succeed at a Will save (DC 10 + 1/2 this item’s caster level). If successful, this effect lasts for 24 hours.</p>\n<p><strong>Flask Shard Effect:</strong> Increase this item’s caster level by 5 and increase its uses per day by 1. At +1, the cursed sign also gives a target the Draining Casting drawback. At +2, the cursed sign also gives a target the Variant Wild Magic drawback. At +3, the cursed sign also gives a target the Center Of Power drawback. <strong>Flask Shard Limit:</strong> +3</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Marvelous Item, Mana sphere (Mark Of Incompetency (expunge)); <strong>Cost</strong> 800 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/marvelous-items#toc18\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 2
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 1600,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/marvelous-items#toc18"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

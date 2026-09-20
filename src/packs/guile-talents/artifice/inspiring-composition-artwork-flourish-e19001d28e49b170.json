@@ -1,0 +1,124 @@
+{
+  "_id": "e19001d28e49b170",
+  "_key": "!items!e19001d28e49b170",
+  "name": "Inspiring Composition (artwork, flourish)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:artifice:spheres-of-guile:guile-talent:inspiring-composition-artwork-flourish",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/artifice#toc41",
+      "sourceSha256": "a3a666f8e0af8307f0024100a1bdb6c458a7d34b1b4c37af5a6d0057bdfc9aa7",
+      "descriptionSha256": "937fd1b488672c5cc9901234dcc0b65c97922ed58310af756a3f31e136da11c6",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Flourish Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:artifice:spheres-of-guile:guile-talent:inspiring-composition-artwork-flourish",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "artifice"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Whenever a creature engages with this artwork, they can use the basic uses of skill leverage in skills you have unlocked leverage in for 24 hours.</p>\n<p>Additionally, a creature can adopt the following approach as part of engaging with this artwork:</p>\n<p><strong>Instructive [approach]:</strong> When you create this artwork, choose two skills you are trained in. A creature who adopts this artwork’s approach gains a competence bonus equal to 1/2 your associated ranks to one of the chosen skills (chosen when adopting the approach).</p>\n<p>Additionally, this artwork can receive maintenance—if you do, you can store any number of uses of skill leverage within the artwork–the artwork can have a maximum number of stored skill leverage equal to your operative modifier (minimum 1). Whenever a creature engages with this artwork, they can withdraw any number of uses of skill leverage stored within the artwork to restore an equivalent amount to their own skill leverage pool.</p>\n<p>The artwork loses 1 stored use of skill leverage every 24 hours. If it does not receive maintenance for 24 hours, a creature cannot withdraw skill leverage from the artwork until it is maintained.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/artifice#toc41\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/artifice#toc41"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

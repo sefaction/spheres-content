@@ -1,0 +1,121 @@
+{
+  "_id": "97ecebe6c0a6ccc1",
+  "_key": "!items!97ecebe6c0a6ccc1",
+  "name": "Aethernaut: Rift Edge (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:aethernaut:current:class-feature:rift-edge-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/aethernaut#toc29",
+      "sourceSha256": "cd774d1a82f266aca5716be895c0f51e1e0bb4993ad8ac1c77eb98a14131138f",
+      "descriptionSha256": "6c02d0f67576aba50c7b190eec576b738b096853a7baa4e1bd166f8e45e318c5",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:aethernaut:current:class-feature:rift-edge-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, an aethernaut gains the ability to create a planar rift around any weapon he wields as a standard action by making an attack with the weapon. The rift must match one of his mastered planes. Unless the aethernaut chooses the plane he is currently on, he must expend a use of precision (or use the power of a magic item via the jury-rig item ability described below) to use rift edge. The attack deals damage normally and adds an effect determined randomly by rolling 1d4 on the faint rift edge table for the chosen plane listed below. A result of 4 indicates that the aethernaut can choose the effect. If the aethernaut confirms a critical hit with a rift edge that deals damage, the edge's damage is doubled (regardless of the weapon's critical multiplier). Unless noted otherwise, a rift edge lasts for 1 round.</p>\n<p>If it resembles a spell, use the aethernaut's level as the caster level. If it allows a saving throw, the save DC is 10 + 1/2 aethernaut level + aethernaut's Intelligence modifier. A rift edge must target the creature struck by the aethernaut's attack or include that target (if it affects multiple targets or an area).</p>\n<p>At 7th level, he can choose to roll on the moderate rift edge table.</p>\n<p>At 11th level, he can roll on the strong rift edge table.</p>\n<p>At 14th level, he can roll on two different tables of his choice for the same plane.</p>\n<p>At 19th level, he can roll twice on the same table and get both effects.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/aethernaut#toc29\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/aethernaut#toc29"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

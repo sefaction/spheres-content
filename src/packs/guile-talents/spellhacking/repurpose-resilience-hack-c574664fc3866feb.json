@@ -1,0 +1,124 @@
+{
+  "_id": "c574664fc3866feb",
+  "_key": "!items!c574664fc3866feb",
+  "name": "Repurpose Resilience (hack)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spellhacking:spheres-of-guile:guile-talent:repurpose-resilience-hack",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spellhacking#toc42",
+      "sourceSha256": "ff5395bb19ac2b67c42bb66b158929891d1c2ab9f8401273b50df23faa41f51b",
+      "descriptionSha256": "8e1b2689099a25d3411a30f1488e974fd0ef8ca64de7d33026751fef0dd91c5f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Hack Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spellhacking:spheres-of-guile:guile-talent:repurpose-resilience-hack",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "spellhacking"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Target:</strong> A magic item or magical effect with caster level no greater than your associated skill ranks that grants a continuous bonus to all saving throws (not to saving throws against specific categories of effects) or continuous energy resistance</p>\n<p>You change the target’s protection of a kind listed above into a different one for 1 round per associated skill rank. If the target has more than one suitable protection, you choose one bonus to all saving throws or one energy resistance to replace. The new protection options depend upon the protection you are replacing.</p>\n<p><strong>Repurpose Save Bonus:</strong> If the previous protection was a bonus to all saving throws, you replace it with either an equal natural armor bonus to AC; or energy resistance against one of acid, cold, electricity, or fire with twice the value. If you possess at least 8 ranks in the associated skill, you can also choose sonic.</p>\n<p><strong>Repurpose Energy Resistance:</strong> If the protection was energy resistance, you can reduce its value by half and change its type to acid, cold, electricity, or fire. If you possess at least 8 ranks in the associated skill, you can also choose sonic.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/spellhacking#toc42\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spellhacking#toc42"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

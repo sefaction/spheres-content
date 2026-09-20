@@ -1,0 +1,121 @@
+{
+  "_id": "8ae5c07658689197",
+  "_key": "!items!8ae5c07658689197",
+  "name": "Legendary Kineticist: Infusion (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:legendary-kineticist:current:class-feature:infusion-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/legendary-kineticist#toc7",
+      "sourceSha256": "f03f52ecb7ee249cf961f1aaa0996d578eae0d256f6a5beb32aa644bb1b5af43",
+      "descriptionSha256": "76c758016a37a732a959eb2e43ff88a2b7e64847670edb5d24c2e5fc107d6d9f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:legendary-kineticist:current:class-feature:infusion-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, a kineticist gains an infusion wild talent from the list of options available based on their elemental focus. They gain additional infusions at 3rd and every 2 levels afterwards. By using infusions along with their kinetic blasts, a kineticist can alter their kinetic blasts to suit their needs. Infusions come in two types, each of which changes a kinetic blast differently: a substance infusion causes an additional effect, while a form infusion causes the kinetic blast to manifest in a different way. Each infusion can alter only certain kinds of kinetic blasts, which are listed in its Associated Blasts entry. Each time the kineticist uses one of their kinetic blast wild talents, they can apply up to one associated form infusion and up to one associated substance infusion.</p>\n<p>Some infusions change the action required to activate a kinetic blast or entirely transform the kinetic blast’s normal effects.</p>\n<p>The burn cost listed in each infusion’s Burn entry is added to the burn cost of the kinetic blast the infusion modifies.</p>\n<p>The DC for a save against an infusion is based on the associated kinetic blast’s effective spell level, not the level of the infusion. The DCs for form infusions are calculated using the kineticist’s Dexterity modifier instead of their Constitution modifier. When a kineticist modifies a kinetic blast with a form infusion and a substance infusion that both require saving throws, each target first attempts a saving throw against the form infusion. If a target succeeds and a successful save negates the infusion’s effects, the entire kinetic blast is negated; otherwise, the target then attempts a saving throw against the substance infusion.</p>\n<p>If a kineticist’s form and substance infusions both alter the kinetic blast’s damage, apply the substance infusion’s alteration first.</p>\n<p>At 4th level and every 4 levels afterwards, a kineticist can replace one of their infusions with another infusion of the same effective spell level or lower. They can’t replace an infusion that they used to qualify for another of their wild talents.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/legendary-kineticist#toc7\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/legendary-kineticist#toc7"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

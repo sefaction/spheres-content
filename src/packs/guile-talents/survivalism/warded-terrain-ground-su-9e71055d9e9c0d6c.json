@@ -1,0 +1,124 @@
+{
+  "_id": "9e71055d9e9c0d6c",
+  "_key": "!items!9e71055d9e9c0d6c",
+  "name": "Warded Terrain (ground) (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:survivalism:spheres-of-guile:guile-talent:warded-terrain-ground-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/survivalism#toc68",
+      "sourceSha256": "f08a002395ddf0d614719b1c74bdfc78b77500e0a93ea395e3e0354dcf980820",
+      "descriptionSha256": "e53e46d7f33021d7f166dcf680b5487075ef748200f87ac2b44440edabe82182",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:survivalism:spheres-of-guile:guile-talent:warded-terrain-ground-su",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "survivalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Associated skill 10 ranks, Survivalism sphere ((dredge) package, (harvest) package, Cursed Effigy (exceptional)).</p>\n<p>You can spend 1 use of skill leverage and expend a refined curse to dredge using a mixture of salt, cold iron, or a similar mixture, you help ward off those that would harm your efforts. The amount of squares you can dredge when using this talent is halved. As part of dredging, choose an end of the alignment spectrum (good, evil, lawful, chaotic); you must choose an alignment that you possess. Creatures with the subtype of that alignment's opposite (good for evil, lawful for chaotic, etc.) cannot enter the dredged area, and attacks made by them against creatures within the dredged area must be rolled twice and take the lowest result.</p>\n<p>Additionally, creatures within the dredged area may roll saving throws twice and take the highest result against effects originating from creatures of the opposed alignment. If the effect would be a mind-affecting effect, the target is instead immune to its effects; if the target is already under the influence of such an effect, they may attempt a new saving throw against the effect, suppressing the effect as long as they remain within the dredged area.</p>\n<p>This does not expel a controlling life force (such as a ghost or projected spirit), but it does prevent them from controlling the target. This is a supernatural effect.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/survivalism#toc68\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/survivalism#toc68"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

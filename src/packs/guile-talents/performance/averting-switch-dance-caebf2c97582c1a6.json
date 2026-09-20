@@ -1,0 +1,124 @@
+{
+  "_id": "caebf2c97582c1a6",
+  "_key": "!items!caebf2c97582c1a6",
+  "name": "Averting Switch (dance)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:performance:spheres-of-guile:guile-talent:averting-switch-dance",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/performance#toc31",
+      "sourceSha256": "e87c472686da47048b3d9fcee074982f8ef19002718047ad36360dcfbd01dd3b",
+      "descriptionSha256": "e56a9fefa399338201527d7b2a454cea7192135f088de78255d4a148785b3589",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Dance Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:performance:spheres-of-guile:guile-talent:averting-switch-dance",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "performance"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Whenever a dancer would be the target of an attack or included in an instantaneous area effect that allows a Reflex save, another willing dancer that can reach them can spend an immediate action to swap spaces or the attacked dancer can spend a swift or immediate action to swap places with a willing dancer. Either way, the other dancer becomes the new target of the attack (or saving throw) and gets a +2 dodge bonus to their AC or Reflex save against the attack or effect. The bonus increases by 1 for every 6 ranks in this package’s associated skill you possess. After the attack is resolved, those dancers may choose to swap places again without using another action (if both agree).</p>\n<p>If you have at least 5 ranks in the associated skill, the attacked dancer can also use this ability on an unwilling creature within their natural reach as an immediate action. The dancer must succeed at a reposition combat maneuver (Pathfinder Roleplaying Game: Advanced Player’s Guide) against the creature to swap places, using your ranks in this package’s associated skill in place of their base attack bonus (if they wish). As long as the dancer exceeds the creature’s CMD by 5 or more, they can choose to swap places again after the attack is resolved.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/performance#toc31\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/performance#toc31"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

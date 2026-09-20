@@ -1,0 +1,124 @@
+{
+  "_id": "df8546e00b7acada",
+  "_key": "!items!df8546e00b7acada",
+  "name": "Righteous Reproach (quip)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:bluster:spheres-of-guile:guile-talent:righteous-reproach-quip",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/bluster#toc40",
+      "sourceSha256": "e8f88a5d38e2870756ef237c9336a522e248aa60231fd0ccb330d63841363c60",
+      "descriptionSha256": "a7e47a1e1c8b02e10ed835503670c2e61e00be3a43057af84ae13d93e3a9fe62",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Quip Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:bluster:spheres-of-guile:guile-talent:righteous-reproach-quip",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "bluster"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You shame a creature for their misdeeds. The target must succeed at a Will saving throw or become dumbfounded with shame until the start of your next turn and uncertain for a number of rounds thereafter equal to the number of ranks in Intimidate you possess.</p>\n<p>If the target has fewer Hit Dice than that number of ranks and failed the save, the dumbfounded condition lasts the full duration but the creature can attempt to reduce the condition as a standard action. On a successful save, the target is uncertain for 1 round.</p>\n<p>If you name a misdeed the creature is guilty of that conflicts with one of the creature’s motivations, you get a bonus to your save DC (+2 for a minor motivation, +5 for a major motivation) even if the creature believes the misdeed was justified or is only arguably a violation.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/bluster#toc40\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/bluster#toc40"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

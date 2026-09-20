@@ -1,0 +1,121 @@
+{
+  "_id": "c43ea04b6bc25db0",
+  "_key": "!items!c43ea04b6bc25db0",
+  "name": "Ki Smite (Chakra)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:jade-feats:current:feat:ki-smite-chakra",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/jade-feats#toc25",
+      "sourceSha256": "4751a841892485d6d59394862dc96c59f92a999d9a9b2c2b817cde23bc457334",
+      "descriptionSha256": "51c7004c3072d994a6e3c3175c526120aed72b1b14eb07dee03b4c52f0772123",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Chakra Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:jade-feats:current:feat:ki-smite-chakra",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can charge your melee attacks with ki, making them into powerful kinetic blows with increasingly debilitating effects.</p>\n<p><strong>Prerequisites:</strong> Str 13, Wis 13.</p>\n<p><strong>Benefit:</strong> Expend your ki focus with a normal melee attack that successfully strikes a target. You force the target to make a successful Fortitude save (DC 10 + ½ your character level + your Wisdom bonus). If the save fails, the target suffers the damage from your attack plus one or more additional effects. For each point of ki expended, the target suffers +1 point of damage and is dazed for 1 round. For every 2 points of ki expended, the target is knocked back 5 feet (unless prohibited by terrain). If 3 or more ki points are expended, then the target is also knocked prone. The effects of this feat are cumulative.</p>\n<p>You gain one point of ki.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/jade-feats#toc25\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/jade-feats#toc25"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

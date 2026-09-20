@@ -1,0 +1,124 @@
+{
+  "_id": "aa13e68a672487c1",
+  "_key": "!items!aa13e68a672487c1",
+  "name": "Liberating Shift (dance)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:performance:spheres-of-guile:guile-talent:liberating-shift-dance",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/performance#toc40",
+      "sourceSha256": "e87c472686da47048b3d9fcee074982f8ef19002718047ad36360dcfbd01dd3b",
+      "descriptionSha256": "edae782f41c4da211062ae280bbea1a49820ec6ba4ad2d350e18b6162d8bdf1b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Dance Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:performance:spheres-of-guile:guile-talent:liberating-shift-dance",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "performance"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>All dancers gain a +2 morale bonus to Escape Artist checks, combat maneuver checks made to escape a grapple, and to saving throws against mind-affecting effects, effects that would slow or restrict their actions, and effects that inflict the entangled, paralyzed, staggered, or stunned conditions. The dancers also get an equivalent dodge bonus to Combat Maneuver Defense. This bonus increases by 1 per 5 associated skill ranks you possess.</p>\n<p>If a dancer is already grappled or suffering from such an effect, they may spend an immediate action to attempt to break free of a grapple, or attempt a new saving throw against a single applicable effect they are currently suffering from that normally grants a saving throw against the original DC, ending that effect on a success. This dance only allows each dancer to attempt one new saving throw or check against a specific effect or grapple.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/performance#toc40\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/performance#toc40"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "034db41676b59766",
+  "_key": "!items!034db41676b59766",
+  "name": "Mystic Generosity (Proxy)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:proxy-feats:ultimate:feat:mystic-generosity-proxy",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/proxy-feats#toc3",
+      "sourceSha256": "90e3bddb108fa2b463fae740dcb9301cb11dc66815b0083de950a9fb24465c05",
+      "descriptionSha256": "43c16aad7e1b7206d91449c11a32ddc8e2f2c2a6934d5b6eb9638ce2aea37eb1",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "proxy-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:proxy-feats:ultimate:feat:mystic-generosity-proxy",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Enhancement sphere, Circle Casting, Spell Proxy.</p>\n<p><strong>Benefit:</strong> Whenever you use Create Proxy on a creature, you may spend a spell point to grant them the Basic Magic Training feat as a bonus feat while they are under the effects of that enhancement. The sphere they gain access to must be one that you also have access to.</p>\n<p><strong>Special:</strong> If the target of Create Proxy does not meet the prerequisites for Basic Magic Training, they gain Extra Magic Talent as a bonus feat instead. The bonus talent they gain must be one that you also possess.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/proxy-feats#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/proxy-feats#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

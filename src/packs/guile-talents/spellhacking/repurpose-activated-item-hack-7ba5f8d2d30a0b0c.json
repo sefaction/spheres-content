@@ -1,0 +1,124 @@
+{
+  "_id": "7ba5f8d2d30a0b0c",
+  "_key": "!items!7ba5f8d2d30a0b0c",
+  "name": "Repurpose Activated Item (hack)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spellhacking:spheres-of-guile:guile-talent:repurpose-activated-item-hack",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spellhacking#toc39",
+      "sourceSha256": "ff5395bb19ac2b67c42bb66b158929891d1c2ab9f8401273b50df23faa41f51b",
+      "descriptionSha256": "49ecc5dd6f7882c74a820a15e3df367cd1e18c2eaf3ccb0747cfaf956448873f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Hack Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spellhacking:spheres-of-guile:guile-talent:repurpose-activated-item-hack",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "spellhacking"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Target:</strong> A magic item</p>\n<p>When you apply this hack, you coax a basic magical effect from a magic item by exploiting its underlying principles. When you apply this talent you choose either one school of magic or one magic sphere the item has in its aura or among effects it produces.</p>\n<p>The item gains one new function according to the school or sphere chosen; this function requires a command word you speak as you apply the hack and also requires wearing or wielding it as normal. If a school, you choose a level 0 spell of that school. If a magic sphere, you choose one of the sphere’s base powers. The item can be activated to cast the chosen spell or base power at will. If the power has any costs, the user or the item must pay the cost. Activating the item in this altered manner takes the usual action for the spell you produce. You can activate the item as part of applying this talent (if you wear or wield it properly). Use your Spellhacking sphere DC if a save is allowed. The effect is still produced by the item, but the caster level is the lower of the item’s caster level or your number of ranks in your Spellhacking associated skill.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/spellhacking#toc39\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spellhacking#toc39"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "0ed72f177d0e4dee",
+  "_key": "!items!0ed72f177d0e4dee",
+  "name": "Reputable",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:communication:spheres-of-guile:guile-talent:reputable",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/communication#toc18",
+      "sourceSha256": "b5e574a0f0ac283ac666727aa0371c0597770e76fda9dc332a981db3d90c6c36",
+      "descriptionSha256": "1d0db0d7361b70de6a7e3b175397052471cda7e7a6252df42a622e5f05e99c73",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Communication Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:communication:spheres-of-guile:guile-talent:reputable",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "communication"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can spread a positive rumor that improves your reputation with 1 hour of effort in a settlement or among members of an organization. You can also reveal such a rumor as a plan. You attempt a Diplomacy check to improve a creature’s attitude when you spread the rumor and apply the result to the first time you encounter each creature from that group or settlement who has not encountered you before or since you last gained a level. If you exceed the DC by 5 or more, the creature also gains the impressed condition for 10 minutes upon meeting you. A hostile creature’s attitude cannot be improved this way.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/communication#toc18\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["plan", "utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/communication#toc18"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

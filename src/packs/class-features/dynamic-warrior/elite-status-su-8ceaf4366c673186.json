@@ -1,0 +1,121 @@
+{
+  "_id": "8ceaf4366c673186",
+  "_key": "!items!8ceaf4366c673186",
+  "name": "Dynamic Warrior: Elite Status (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:dynamic-warrior:current:class-feature:elite-status-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/dynamic-warrior#toc49",
+      "sourceSha256": "eb8750bb757607d8aa848313908c681f58626382e883d5f68a1e85f9c1a023ad",
+      "descriptionSha256": "ed2d2f0aec27aeb5f204d7f7d75b8b60456059f09712c2b36233111291f18e0a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:dynamic-warrior:current:class-feature:elite-status-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 10th level, a dynamic warrior exudes an aura of cool unlike anyone else. The unworthy may not approach him unless he deems them acceptable to approach. Their aura of confidence and brashness is akin to a supernatural velvet rope and bouncer outside a club- only letting in those confident enough in themselves to enter. Creatures with a Charisma score of 14 or less may not approach within 10 feet of the dynamic warrior. If they attempt to do so, the creature must make a Will save (DC 10 + 1/2 dynamic warrior level + Charisma modifier) or end their movement prematurely once they hit the radius of the dynamic warrior’s elite status. This ability has no effect on objects or ranged attacks as it is not a literal barrier- it is simply mind affecting effect. A creature who has passed the Will save is not affected by this ability for 24 hours. Allies are, by default, unaffected by this ability. The dynamic warrior can chose to have it affect or no longer affect an ally as a free action.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/dynamic-warrior#toc49\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/dynamic-warrior#toc49"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

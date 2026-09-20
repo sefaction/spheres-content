@@ -1,0 +1,124 @@
+{
+  "_id": "3a71ad15004a033c",
+  "_key": "!items!3a71ad15004a033c",
+  "name": "Master Trader",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:vocation:spheres-of-guile:guile-talent:master-trader",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/vocation#toc140",
+      "sourceSha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "descriptionSha256": "48d3fd315db3d8a1532b6d71de8b36b8ecc5be38c56714e2d893e4afd860b562",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:vocation:spheres-of-guile:guile-talent:master-trader",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "vocation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400\">Diamond Spheres: Hustle &amp; Bustle</a></sup></p>\n<p><strong>Prerequisites</strong>: Vocation sphere (Adept Trader), Profession (driver, pilot, porter, sailor, or merchant) 10 ranks.</p>\n<p><strong>Specialty Skills:</strong> Profession (driver, pilot, porter, sailor, or merchant)</p>\n<p>You gain an ability depending on the specialty skill(s) chosen with the Adept Trader talent:</p>\n<p><strong>Driving Ace—Profession (driver, pilot, or sailor)</strong>: You can attempt any driving action one step faster (standard &gt; move &gt; swift). Also, when you are driving a vehicle, you grant it a +2 competence bonus to its AC and Reflex saves, +1 per 5 associated ranks beyond 10 you possess.</p>\n<p><strong>Reserved Inventory—Profession (merchant)</strong>: You have no limit to your 90% discount. You also gain an extra 25% to the gp value gained when selling treasure (normally 50% of the item’s original value); you cannot gain more gp this way than the treasure’s original value. At 15 associated ranks, this additional gp value increases by +25%.</p>\n<p><strong>Strong Back—Profession (porter)</strong>: Your encumbrance no longer causes certain class features or abilities (such as the monk’s AC bonus class feature) to cease functioning. Also, you reduce any nonlethal damage you suffer by 2, +1 per 4 associated ranks. Lastly, whenever you become fatigued or exhausted, you can spend 1 use of skill leverage as a free action to ignore the condition for 1 hour.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/vocation#toc140\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/vocation#toc140"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

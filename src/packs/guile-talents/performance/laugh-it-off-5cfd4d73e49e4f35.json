@@ -1,0 +1,124 @@
+{
+  "_id": "5cfd4d73e49e4f35",
+  "_key": "!items!5cfd4d73e49e4f35",
+  "name": "Laugh It Off",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:performance:spheres-of-guile:guile-talent:laugh-it-off",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/performance#toc14",
+      "sourceSha256": "e87c472686da47048b3d9fcee074982f8ef19002718047ad36360dcfbd01dd3b",
+      "descriptionSha256": "a31853a092b4e3e323c07109272ad451fed7e8bccb0380f5f6c3668bc7d9b869",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Performance Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:performance:spheres-of-guile:guile-talent:laugh-it-off",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "performance"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Whenever you would fail a Bluff check to lie, a Diplomacy check to make a request, or an Intimidate check to change a creature’s attitude, you may attempt a Perform (act, comedy, or oratory) check opposed by the target’s Sense Motive check as an immediate action to veil the failed attempt as an amusing joke. If you succeed, you suffer no consequences for the previous failed check (such as a penalty on future checks, or a reduced attitude). Future attempts to use this ability on the same creature within the same day incurs a cumulative –5 penalty, although you can spend 1 use of skill leverage to ignore this penalty for such an attempt.</p>\n<p>Alternatively, you can use this talent when you fail a saving throw against an emotion effect, the DC of which is equal to the original saving throw DC x 1.5. On a success, you reroll the saving throw against the effect. If such an effect was inflicted by a skill use, the DC is equal to the skill check result, and ends the effect on a success.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/performance#toc14\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/performance#toc14"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "26b83ea99ae00e48",
+  "_key": "!items!26b83ea99ae00e48",
+  "name": "Rattling Memory",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:bluster:spheres-of-guile:guile-talent:rattling-memory",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/bluster#toc19",
+      "sourceSha256": "e8f88a5d38e2870756ef237c9336a522e248aa60231fd0ccb330d63841363c60",
+      "descriptionSha256": "1d0607f866e4b1c99e1b48dc55e21e0a57491f37bb43cad5b23275e4be95761c",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Bluster Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:bluster:spheres-of-guile:guile-talent:rattling-memory",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "bluster"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can postpone the effects of a social interaction until a later time, as they do not realize the full ramifications of what you said until you say one more thing that puts it all into perspective for them. Suitable interactions include a Diplomacy or Intimidate check to change a creature’s attitude, a Bluff or Intimidate check to give a condition with the emotion descriptor, or an Intimidate check to pose a menace (new use). When you encounter a creature you have met before or could have met before, you can reveal this plan as a move action to attempt such a skill check. You can take 10 on any skill check required.</p>\n<p>You can take this talent a second time. If you do, you can postpone the effects of a (quip) or reveal them as a plan.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/bluster#toc19\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["plan"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/bluster#toc19"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

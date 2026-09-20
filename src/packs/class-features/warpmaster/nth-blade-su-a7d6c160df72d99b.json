@@ -1,0 +1,121 @@
+{
+  "_id": "a7d6c160df72d99b",
+  "_key": "!items!a7d6c160df72d99b",
+  "name": "Warpmaster: Nth-Blade (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:warpmaster:current:class-feature:nth-blade-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/warpmaster#toc4",
+      "sourceSha256": "1e0e50e864116367a19331909351416dbe03f326c27f08e2b4ffe202fd92a396",
+      "descriptionSha256": "16533b18e03c3c29ada3a4c4e4cd5bb3fff53ae17ccc8b4d87ef8c4c81bb10c9",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:warpmaster:current:class-feature:nth-blade-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, a warpmaster can reduce the maximum number of euclidean points he can possess by 1 to summon a blade formed of distorted space a swift action. A nth-blade remains in existence for 24 hours or until he dismisses it as a swift action. After it is dismissed, the warpmaster’s maximum euclidean points returns to normal. At 1st level this nth-blade counts as a weapon with one of the following profiles:</p>\n<strong>Table: The Nth-Blade</strong>\n<table>\n<tbody><tr>\n<th>Name</th>\n<th>Dmg (S)</th>\n<th>Dmg (M)</th>\n<th>Critical</th>\n<th>Range</th>\n<th>Weight</th>\n<th>Type</th>\n<th>Special</th>\n<th>Counts As</th>\n</tr>\n<tr>\n<td>Light Nth-Blade</td>\n<td>1d4</td>\n<td>1d6</td>\n<td>19-20 x2</td>\n<td>-</td>\n<td>0 lbs.</td>\n<td>P or S</td>\n<td>-</td>\n<td>Short Sword</td>\n</tr>\n<tr>\n<td>One-Handed Nth-Blade</td>\n<td>1d6</td>\n<td>1d8</td>\n<td>19-20 x2</td>\n<td>-</td>\n<td>0 lbs.</td>\n<td>P or S</td>\n<td>-</td>\n<td>Long Sword</td>\n</tr>\n<tr>\n<td>Two-Handed Nth-Blade</td>\n<td>1d8</td>\n<td>1d10</td>\n<td>19-20 x2</td>\n<td>-</td>\n<td>0 lbs.</td>\n<td>P or S</td>\n<td>-</td>\n<td>Great Sword</td>\n</tr>\n</tbody></table>\n<p>As he progresses in level, he gains new ways to warp and distort his weapon. An nth-blade is a solid, smooth sword and it physically resembles thick and transparent glass or ice. It is as strong as the power of the wielder and thus has HP equal to twice the Intelligence modifier of the warpmaster and a hardness equal to his warpmaster level.</p>\n<p>An nth-blade is always considered to be a magical weapon. At 1st level it has a +1 enhancement bonus. The enhancement bonus on a warpmaster’s nth-blade improves by +1 at 5th level and every 4 levels thereafter (as indicated on Table: The Warpmaster).</p>\n<p>Despite this being a supernatural effect, the blade can be dispelled by spells like dispel magic or antimagic field . The caster level of the nth-blade is considered to be equal to the warpmaster’s class level. If a nth-blade has been dispelled, destroyed, or broken, it may be re-formed in the hand of the warpmaster as a standard action by spending 1 euclidean point.</p>\n<p>An nth-blade only functions for the warpmaster who summoned it and a warpmaster may unsummon his nth-blade as a swift action (no expenditure of euclidean points required). A warpmaster may only have a single nth-blade at a time (unless he has the quantity distortion). For the purpose of feats, an nth-blade counts as the kind of weapon indicated on Table: The Nth-Blade.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/warpmaster#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/warpmaster#toc4"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

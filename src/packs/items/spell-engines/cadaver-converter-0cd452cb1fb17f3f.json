@@ -1,0 +1,162 @@
+{
+  "_id": "0cd452cb1fb17f3f",
+  "_key": "!items!0cd452cb1fb17f3f",
+  "name": "Cadaver Converter",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spell-engines:ultimate:item:cadaver-converter",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spell-engines#toc2",
+      "sourceSha256": "f98f5856ec556f138235795825cfff8bd2aa38e0f93afb47ffe8116a4708d757",
+      "descriptionSha256": "034d2aa994cb2ab8b150daf362d737c295bfd03088762306d9a109fab198885a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "spell-engines",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spell-engines:ultimate:item:cadaver-converter",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> moderate Death; <strong>CL</strong> 10th; <strong>SP</strong> 1<br>\n<strong>Slot</strong> none; <strong>Price</strong> 25,000 gp; <strong>Weight</strong> 2 lbs.<br>\n<strong>Damage</strong> 5d6 (SP: 10d6) + other effects; <strong>Range</strong> close (50 ft.), then 20-ft. burst</p>\n<p>Cadaver converters are limited spell engines that cannot use the basic effects of either the Death or Destruction spheres, despite their contributions to the creation of this item. Instead, when used, the cadaver converter can target one corpse in range that is capable of being made into a skeleton or a zombie (or is a corporeal mindless undead under your control) and make it explode, dealing the effect of the (blast type) talent contained within this spell engine to all creatures within 20 feet of the targeted corpse. If the talent does not allow for another saving throw, creatures may attempt a DC 15 Reflex save to avoid this explosion. Cadaver converters can be made with any (blast type) talent that does not cost a spell point, and any corpse destroyed in this manner cannot be reanimated again or targeted by another corpse-exploding effect.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Spell Engine, Corpse Explosion (dual sphere), Death sphere (Corpse Bomb), Destruction sphere (any (blast type) talent); <strong>Cost</strong> 12,500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/spell-engines#toc2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 2
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 25000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spell-engines#toc2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

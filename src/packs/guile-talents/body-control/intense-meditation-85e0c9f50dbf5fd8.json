@@ -1,0 +1,124 @@
+{
+  "_id": "85e0c9f50dbf5fd8",
+  "_key": "!items!85e0c9f50dbf5fd8",
+  "name": "Intense Meditation",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:body-control:spheres-of-guile:guile-talent:intense-meditation",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/body-control#toc13",
+      "sourceSha256": "ec7aa97e088675a010d37041d0a1d93fbcb23b1ec3b52a8948ffa9dd9985fbff",
+      "descriptionSha256": "9d9c1e6e555f2eaf1f3bf91747710395c685f151a5ecf81c96a751953c58a519",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Body Control Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:body-control:spheres-of-guile:guile-talent:intense-meditation",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "bodyControl"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>As a swift or move action, you can concentrate on your current meditation to add an additional (control) talent to the current meditation until the end of your next turn. For every 7 ranks in the associated skill you possess, the number of (control) talents added is increased by 1. You can spend 1 use of skill leverage as part of activating this talent to gain its benefits for a number of rounds equal to your operative modifier. These extra (control) talents end as normal when you abandon the meditate approach, but if you adopt the approach again during this extended duration, you can benefit from the extra (control) talents for the remaining duration as normal.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/body-control#toc13\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/body-control#toc13"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

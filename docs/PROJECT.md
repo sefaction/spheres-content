@@ -8,7 +8,7 @@
 - Repository: https://github.com/sefaction/spheres-content (public).
 - Primary source: http://spheresofpower.wikidot.com/.
 - Obsidian hub: vault `Foundry-AI`, `20 - Projects/Personal/Additional Spheres Content.md`.
-- Module version policy: semantic versioning; `0.1.0-alpha.3` is an unpublished descriptive pilot.
+- Module version policy: semantic versioning; `0.1.0-alpha.4` is an unpublished systematic-intake draft.
 
 ## Compatibility
 
@@ -42,12 +42,16 @@ copies. Container restart requires separate authorization.
 
 ## Current batch
 
-Build the complete descriptive catalog of wiki PF1 items, feats and base classes across publishers, with generated images. Include missing Guile skill talents; exclude existing magic/combat spheres and talents. Archetypes are deferred. The initial four-entry pilot establishes the content pipeline; the full catalog is unfinished. Only after the descriptive collection is complete and reviewed should passive Changes and conditional modifiers be implemented. The companion framework is pf1spheres; the installed/test target is 0.9.0. No world migration or release is included.
+Build the complete descriptive catalog of wiki PF1 items, feats and base classes across publishers, with generated images. Include missing Guile skill talents; exclude existing magic/combat spheres and talents. Archetypes are deferred. The initial four-entry pilot established the content pipeline. The current intake contains 6,788 descriptive drafts across five packs; full extraction and review remain unfinished. See SYSTEMATIC_INTAKE.md for coverage, holds and per-entity audit queues. Only after the descriptive collection is complete and reviewed should passive Changes and conditional modifiers be implemented. The companion framework is pf1spheres; the installed/test target is 0.9.0. No world migration or release is included.
 
 Before creating equipment or artwork, inspect existing compendia for suitable
 entries, descriptions, images and native behavior. Reuse reviewed entries and
 create or adapt missing variants. Kits must use native PF1 containers with
-usable contents and reconciled quantities, price and weight. The provisional
-hunter's kit still needs this correction; see [the reuse audit](KIT_REUSE_AUDIT.md).
+usable contents and reconciled quantities, price and weight. The hunter's kit now implements this structure; see [the reuse audit](KIT_REUSE_AUDIT.md).
 The user chose packaged reviewed copies, preserving attribution and permitted
 core/system artwork references. Optional source modules are not new dependencies.
+
+Artwork policy: use compact WebP illustrations, normally 256 by 256 pixels with
+a 32 KiB budget, preserving readable category folders and meaningful shared icons.
+Retain small compatibility PNGs for old imported paths. New bulk drafts use
+explicit core placeholders until existing artwork is reviewed or art is generated.

@@ -1,0 +1,121 @@
+{
+  "_id": "8ae9b413ea08118b",
+  "_key": "!items!8ae9b413ea08118b",
+  "name": "Etherslinger: Favored Class Bonuses",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:etherslinger:current:class-feature:favored-class-bonuses",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/etherslinger#toc66",
+      "sourceSha256": "21dc0464fdce6640377a279f6110708d57dc25921b948aab4d584c4beeba432e",
+      "descriptionSha256": "5cf263ce885aa593694cb403d56563a4bd4e864e20eec59f5cc120e2d8417e64",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:etherslinger:current:class-feature:favored-class-bonuses",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Instead of receiving an additional skill rank or hit point whenever they gain a level in a Favored Class, some races have the option of choosing from a number of other bonuses, depending upon their Favored Classes.</p>\n<p>The following options are available to the listed race who have etherslingers as their Favored Class, and unless otherwise stated, the bonus applies each time you select the listed Favored Class reward.</p>\n<h3>Aasimar</h3>\n<p>Choose one etherheart; treat the aasimar's caster level as +1/6 higher when determining the effects of etherspells with that etherheart.</p>\n<h3>Drow</h3>\n<p>Add +1 to the Perception DC to notice the drow's gun firing.</p>\n<h3>Dwarf</h3>\n<p>Add +1 foot to base land speed. (+5 feet every five times this bonus is taken)</p>\n<h3>Elf</h3>\n<p>Reduce the miss chance due to dim light or darkness by 2%. Miss chances cannot be reduced below 0%.</p>\n<h3>Gnome</h3>\n<p>Every 6 times this favored class bonus is selected, choose a 1st-level alteration manifestation. When casting an alteration etherspell, the etherslinger may select one of the manifestations chosen for this favored class bonus. The selected manifestation is applied to the etherspell without paying its ether point cost and without counting against the maximum number of manifestations a single alteration etherspell can hold, but only if the etherslinger has at least 1 point of grit.</p>\n<h3>Half-elf</h3>\n<p>Add +1/3 to the number of ether points in the etherslinger's ether pool.</p>\n<h3>Halfling</h3>\n<p>Add +1/2 to initiative rolls made while the etherslinger has at least 1 point of grit.</p>\n<h3>Half-orc</h3>\n<p>Add +1/2 to the etherslinger's CMD when resisting a bull rush, overrun or drag/push maneuver.</p>\n<h3>Hobgoblin</h3>\n<p>Add +1/3 to critical confirmation rolls made with firearms and lesser blasts (maximum bonus of +5). This does not stack with Critical Focus. Human – Add +1/4 to the maximum amount of grit the etherslinger can store.</p>\n<h3>Kitsune</h3>\n<p>Add a +1/4 dodge bonus to AC against attacks of opportunity provoked by firing a firearm.</p>\n<h3>Kobold</h3>\n<p>Add a +1/2 bonus to the first attack roll made with a firearm in a surprise round.</p>\n<h3>Orc</h3>\n<p>Add a +1/2 bonus to the first weapon damage roll made with a firearm in a surprise round.</p>\n<h3>Puddling</h3>\n<p>Every 6 times this favored class bonus is selected, choose a 1st-level lesser blast manifestation. When casting a lesser blast etherspell, the etherslinger may select one of the manifestations chosen for this favored class bonus. The selected manifestation is applied to the etherspell without paying its ether point cost, but only if the etherslinger has at least 1 point of grit.</p>\n<h3>Tengu</h3>\n<p>Add +1/4 to the maximum amount of grit the etherslinger can store.</p>\n<h3>Tiefling</h3>\n<p>Add a +1/2 bonus to the first attack roll made with an etherspell in a surprise round.</p>\n<h3>Vanara</h3>\n<p>Add a +1/3 bonus to initiative rolls made after acting in a surprise round.</p>\n<h3>Vishkanya</h3>\n<p>Add +1 to the Perception DC to notice the vishkanya's gun firing.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/etherslinger#toc66\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/etherslinger#toc66"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "3ea725ef6aa0241a",
+  "_key": "!items!3ea725ef6aa0241a",
+  "name": "Wildcard: Seal (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:wildcard:current:class-feature:seal-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/wildcard#toc11",
+      "sourceSha256": "20221fac27d8611d184fe297487329dc8f4a77cdb96ee11ef29bae57306bf096",
+      "descriptionSha256": "8e316c249c2925ddbcfc64c54e2b7eb1ffbf12b211426382e13d146ff072aa14",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:wildcard:current:class-feature:seal-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Starting at 2nd level, a wildcard gains access to general expressions of fate and probability, also known as seals. Seals require that the wildcard discard a card, as well as spend a number of fate points in order to twist the power held in the discarded card to another purpose. To that end, the power of the seal is dependent on the power level of the portent contained in the discarded card. By this logic, a discarded greater portent will have a greater effect than a discarded lesser portent. See each individual seal for the effects elicited by each power level of portent. The Difficulty Class (DC) for a saving throw against a wildcard's seal is 10 + 1/2 the wildcard's class level + the wildcard's Wisdom modifier.</p>\n<p>Select a single seal listed below at 2nd level, as well as an additional seal for every six levels beyond 2nd.</p>\n<h4>Seal of Arbitrary Possibilities</h4>\n<p><strong>Cost:</strong> 2 Fate Points<br>\n<strong>Requires:</strong> Wildcard 8</p>\n<p>As a standard action, the wildcard reveals a number of cards from the top of his active deck. Shuffle all greater portents revealed in this way back into the wildcard's active deck. Keep these revealed cards face-up on the table. They can be played and discarded as though they were in the wildcard's hand, but do not count toward maximum hand size. If not played or discarded within 1 minute per wildcard level, all cards revealed in this way go to the wildcard's discard pile. The number of cards revealed is dependent upon the power level of the portent discarded; if the wildcard's active deck does not contain enough cards, reveal all of them.</p>\n<ul>\n<li><strong>Least</strong> - 1 card</li>\n<li><strong>Lesser</strong> - 3 cards</li>\n<li><strong>Greater</strong> - 4 cards; do not shuffle revealed greater portents back into the active deck</li>\n</ul>\n<h4>Seal of the Cartomancery</h4>\n<p><strong>Cost:</strong> 4 Fate Points<br>\n<strong>Requires:</strong> Wildcard 8</p>\n<p>The wildcard asks his deity, or Fate itself, questions, as the cartomancery spell. The number of questions he can ask is dependent upon the power level of the discarded portent. The wildcard may ask one question per round; if he is interrupted in between questions, the remaining questions are lost.</p>\n<ul>\n<li><strong>Least</strong> - 1 question</li>\n<li><strong>Lesser</strong> - 3 questions</li>\n<li><strong>Greater</strong> - class level questions</li>\n</ul>\n<h4>Seal of the Blinking Eye</h4>\n<p><strong>Cost:</strong> 2 Fate Points<br>\n<strong>Requires:</strong> Wildcard 14</p>\n<p>As a standard action, the wildcard alters the universe's recent history slightly in order to change his physical placement in it, as the dimension door spell. The maximum distance he can move in this manner is dependent upon the power level of the discarded portent. (As many anti-teleportation methodologies only function against spells, this seal is likely to work in all sorts of odd edge cases.)</p>\n<ul>\n<li><strong>Least</strong> - 5 feet per two class levels</li>\n<li><strong>Lesser</strong> - 5 feet per class level</li>\n<li><strong>Greater</strong> - 10 feet per class level; used as a move action instead of a standard action</li>\n</ul>\n<h4>Seal of the Cups</h4>\n<p><strong>Cost:</strong> 1 Fate Point</p>\n<p>As a swift action, the wildcard grants himself a number of temporary hit points for 1 round. The magnitude of the temporary hit points gained in this manner is dependent upon the power level of the discarded portent. At 9th level, the wildcard may increase the fate point cost of this seal by +1 in order to use it as an immediate action. At 13th level, the wildcard may increase the fate point cost of this seal by +1 in order to use it on an ally within 30 feet.</p>\n<ul>\n<li><strong>Least</strong> - 5 + 1/2 class level temporary hit points</li>\n<li><strong>Lesser</strong> - 5 + class level temporary hit points</li>\n<li><strong>Greater</strong> - 5 + 3*class level temporary hit points</li>\n</ul>\n<h4>Seal of Entropy</h4>\n<p><strong>Cost:</strong> 2 Fate Points<br>\n<strong>Requires:</strong> Wildcard 8</p>\n<p>As a standard action, the wildcard manipulates local probability to make unlikely events unlikelier and likely events likelier. All creatures within 30 feet of the wildcard, including the wildcard himself, get a luck bonus to their highest saving throw and a penalty to their lowest saving throw. Creatures that leave the area of effect of this ability immediately lose the effects of this ability, while creatures that enter it immediately gain the effects. The magnitude of the bonus and the penalty is dependent upon the power level of the discarded portent. This ability lasts for 1 round per wildcard level.</p>\n<ul>\n<li><strong>Least</strong> - +1 bonus and -1 penalty</li>\n<li><strong>Lesser</strong> - +2 bonus and -2 penalty</li>\n<li><strong>Greater</strong> - +4 bonus and -4 penalty</li>\n</ul>\n<h4>Seal of Fate Respun</h4>\n<p><strong>Cost:</strong> 1 Fate Point</p>\n<p>As an immediate action, the wildcard grants a retroactive insight bonus to the attack roll or skill check of an ally within 30 feet. If the bonus is enough to turn the failure into a success, the roll succeeds. The magnitude of the retroactive bonus is dependent upon the power level of the discarded portent.</p>\n<ul>\n<li><strong>Least</strong> - +1d3 insight bonus</li>\n<li><strong>Lesser</strong> - +1d6 insight bonus</li>\n<li><strong>Greater</strong> - +1d6 insight bonus; can be applied to a failed saving throw</li>\n</ul>\n<h4>Seal of Militant Probability</h4>\n<p><strong>Cost:</strong> 2 Fate Points<br>\n<strong>Requires:</strong> Wildcard 14</p>\n<p>As a standard action, the wildcard adjusts the behavior of fate to actively punish those with bad luck and reward those with good luck. Whenever a creature within 30 feet of the wildcard, including the wildcard himself, rolls a natural '1' on a d20 roll, it takes force damage; similarly, whenever a creature within the same area of effect rolls a natural '20' on a d20 roll, it is healed. This healing is positive energy if applied to living creatures, negative energy if applied to undead creatures, and magically repairs constructs to which it is applied. The magnitude of the damage and healing effects are dependent upon the power level of the discarded portent. This ability lasts for 1 round per wildcard level.</p>\n<ul>\n<li><strong>Least</strong> - 1 point of damage or healing per two class levels</li>\n<li><strong>Lesser</strong> - 1 point of damage or healing per class level</li>\n<li><strong>Greater</strong> - 1d4 points of damage or healing per class level</li>\n</ul>\n<h4>Seal of the Pentacles</h4>\n<p><strong>Cost:</strong> 1 Fate Point</p>\n<p>As a full-round action, the wildcard draws power from the discarded card, granting an ally within 30 feet an improved ability to produce mundane equipment. The ally's mundane equipment production speed is multiplied by a factor that is dependent upon the power level of the discarded portent. This ability lasts for 1 day.</p>\n<ul>\n<li><strong>Least</strong> - 2x</li>\n<li><strong>Lesser</strong> - 4x</li>\n<li><strong>Greater</strong> - 10x</li>\n</ul>\n<h4>Seal of Persistent Fate</h4>\n<p><strong>Cost:</strong> 1 Fate Point</p>\n<p>As a standard action, the wildcard returns a card from his discard pile to his hand. The card returned must cast a portent of the same power level as the discarded portent.</p>\n<h4>Seal of the Swords</h4>\n<p><strong>Cost:</strong> 2 Fate Points</p>\n<p>As a standard action, the wildcard twists the power of the discarded card and uses it to lash out at a single creature within 30 feet. That creature takes an amount of slashing damage based on the power level of the discarded portent with a Reflex save for half damage.</p>\n<ul>\n<li><strong>Least</strong> - 1d6 slashing damage + an additional 1d6 slashing damage for every two class levels</li>\n<li><strong>Lesser</strong> - 1d6 slashing damage per class level</li>\n<li><strong>Greater</strong> - 6 slashing damage per class level</li>\n</ul>\n<h4>Seal of the Wands</h4>\n<p><strong>Cost:</strong> 3 Fate Points<br>\n<strong>Requires:</strong> Wildcard 14</p>\n<p>As a standard action, the wildcard pulls a wand out of thin air. This wand persists for 1 minute before vanishing and contains a single charge of the discarded portent with a caster level equal to the wildcard's class level. Treat a wand containing a least portent as 1st-level (DC 11), a wand containing a lesser portent as 2nd-level (DC 13), and a wand containing a greater portent as 4th-level (DC 16). The portent is treated as though it were on the spell list of any divine caster for the purpose of using the wand without using the Use Magic Device skill.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/wildcard#toc11\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/wildcard#toc11"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "de8887170f9edb39",
+  "_key": "!items!de8887170f9edb39",
+  "name": "Inspector Retainer (retainer, supply)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:faction:spheres-of-guile:guile-talent:inspector-retainer-retainer-supply",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/faction#toc55",
+      "sourceSha256": "c0949a2288b14f9bce4a04a73230598f8b6178c048d9a36fc6899ead8b33b209",
+      "descriptionSha256": "b5a85dd42a894eff01bd557fc471b17a644838211faf779bd60120094704105e",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:faction:spheres-of-guile:guile-talent:inspector-retainer-retainer-supply",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "faction"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Faction sphere ((retainer) package, (supply) package, Roguish Retainer)).</p>\n<p>You can requisition an experienced detective, spy, or other broadly-skilled character as your faction retainer.</p>\n<p><strong>Inspector</strong><br>\n<strong>Role 1 Authorization</strong> Approach enemies in disguise or hiding to spy upon or talk to them, question a prisoner that you are unlikely to be punished for detaining, gathering information where they must keep their faction affiliation a secret, find or remove evidence in a secure area that you have legitimate access to or are unlikely to be punished for trespassing on, quick infiltrations (noncombatant without equipment); <strong>2 Authorizations</strong> Prolonged infiltrations, sneak past alert enemies, rescue a hostage, finding or removing evidence at a guarded crime scene (noncombatant with equipment), <strong>3 Authorizations</strong> Track down someone, trick a foe into an ambush (combatant with equipment);<br>\n<strong>Skills</strong> (5 primary, 5 secondary) Acrobatics, Bluff, Climb, Diplomacy, Disable Device, Disguise, Escape Artist, Intimidate, Knowledge (chosen individually), Linguistics, Perception, Sense Motive, Sleight of Hand, Stealth, Survival; <strong>Statistics</strong> As an NPC rogue or shadowdancer of character level up to your retainer Hit Dice maximum.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/faction#toc55\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/faction#toc55"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "af9bc26a127c7dab",
+  "_key": "!items!af9bc26a127c7dab",
+  "name": "Sanguine Seal",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:seraph-magic-items:current:item:sanguine-seal",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/seraph-magic-items#toc17",
+      "sourceSha256": "994da972c7ab74d9069ebfee83aed99914a3216a9a3919c5de0bae8133f9be43",
+      "descriptionSha256": "200dbd37bfa15e441d44fae85577e6a9fd15a5a83a59f8a8e4c0253cbec4ab3a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "seraph-magic-items",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:seraph-magic-items:current:item:sanguine-seal",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint abjuration <strong>CL</strong> 5th; <strong>Cost</strong> 2,100 GP per vial<br>\n<strong>Slot</strong> none <strong>Weight</strong> –<br>\n<strong>Description</strong><br>\nAn elegant black case opens to reveal many small vials of crimson-colored wax nestled in black velvet, each with a name inscribed on the glass. There is space for parchment, ink, and a stamp: everything necessary for personal communications.</p>\n<p>Popular among vampires, this sealing wax contains a drop of the recipient’s blood and is used to protect documents from prying eyes. The contents are not only protected from scrying, but if someone other than the person whose blood was mixed with the wax attempts to open the letter or document, the document immediately goes up in flames. Users of sanguine seals generally mix their own blood in and send the vial to a trusted confidante, to ensure communication arrives safely. A single vial is enough for 10 uses. The blood within the wax is not usable for other magical effects.<br>\n<strong>Construction Requirements</strong><br>\n1,050 gp; Craft Wondrous Item, lesser arcane seal<sup>1001</sup>, nondetection</p>\n<p><a href=\"http://spheresofpower.wikidot.com/seraph-magic-items#toc17\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 2100,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/seraph-magic-items#toc17"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

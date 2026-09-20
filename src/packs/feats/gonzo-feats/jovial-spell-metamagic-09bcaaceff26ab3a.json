@@ -1,0 +1,121 @@
+{
+  "_id": "09bcaaceff26ab3a",
+  "_key": "!items!09bcaaceff26ab3a",
+  "name": "Jovial Spell (Metamagic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:gonzo-feats:current:feat:jovial-spell-metamagic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/gonzo-feats#toc55",
+      "sourceSha256": "4d87d0a7f1756f9e36ae741350fdcf8e61ab805c225fcd41907a0ac0a335ded8",
+      "descriptionSha256": "9878fe7e9765f8559b7a5de29de22e9abb00460824a7f0e27f67eaf9a9f6ed7a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Metamagic Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:gonzo-feats:current:feat:jovial-spell-metamagic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Each spell you cast is a cause for jubilation and cheer.</p>\n<p><strong>Prerequisites:</strong> Perform 3 ranks, ability to cast 1st level spells.</p>\n<p><strong>Benefit:</strong> You can modify spells to improve the attitude of those targeted with them. Whenever you cast a spell, sensations of joy radiate from your vicinity. All creatures that are targeted by your spell are subject to a Will save (the DC is equal to the Spell’s save DC). A creature who fails this save has their attitude improved by one step towards all other creatures within its line of sight. If the spell targeting them deals damage, the target creature gains +4 circumstance bonus on their save.</p>\n<p><strong>Level Increase:</strong> +1 (a jovial spell uses up a spell slot one level higher than the spell’s actual level.)</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/gonzo-feats#toc55\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/gonzo-feats#toc55"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

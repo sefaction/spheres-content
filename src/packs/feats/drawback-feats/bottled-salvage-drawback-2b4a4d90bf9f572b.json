@@ -1,0 +1,121 @@
+{
+  "_id": "2b4a4d90bf9f572b",
+  "_key": "!items!2b4a4d90bf9f572b",
+  "name": "Bottled Salvage (Drawback)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:drawback-feats:ultimate:feat:bottled-salvage-drawback",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/drawback-feats#toc9",
+      "sourceSha256": "c23c1cc1118160546cc9b26ffb82b21218f8d4fc9c6980d39517744ba4b904f0",
+      "descriptionSha256": "9261b3282c41fd283bdec7366cc96fc0528f5f72a688306c2f29e42328473425",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Drawback Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:drawback-feats:ultimate:feat:bottled-salvage-drawback",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Vampiric Casting drawback.</p>\n<p><strong>Benefit:</strong> When draining a creature, you may instead spend 1 minute harvesting the blood of that creature, creating a single bottle of their blood. You can only harvest the blood from a number of creatures equal to your casting ability modifier each week, and bottled blood expires after a week of being bottled. You may drink bottled blood at any time as if it were a potion to grant yourself +1 morale bonus on the next saving throw you attempt for one minute, and be treated as if you drained the creature of which you created the bottle of blood from.</p>\n<p><strong>Special:</strong> You can mix a bottle of blood with any other potion, formulae, or similar item to gain the effects of drinking bottled blood whenever you drink that potion or use the formulae on yourself. If you have taken the Vampiric Casting drawback twice, the morale bonus applies to all saving throws made for one minute after consumption, rather than only one, and stacks with itself up to +2.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/drawback-feats#toc9\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/drawback-feats#toc9"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "4eb8b493cf1b116e",
+  "_key": "!items!4eb8b493cf1b116e",
+  "name": "Hematic Impaler (Champion, Combat)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:champion-feats:current:feat:hematic-impaler-champion-combat",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/champion-feats#toc56",
+      "sourceSha256": "ebaf5901af64f25a2ba1fcec58cda3bfddace06fab20921fddcf3e21096f40af",
+      "descriptionSha256": "e2c5c43f9146044fd11a6ff047b5067fc3e68653e3252c2b452d9ec178874c56",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Champion Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:champion-feats:current:feat:hematic-impaler-champion-combat",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Blood sphere, Lancer sphere.</p>\n<p><strong>Benefit:</strong> When a creature under your blood control attempts to remove an impaled weapon that is not under a creature’s control, they treat the weapon as though you had control over it, and must make a combat maneuver check against your MSD instead of your CMD.</p>\n<p>You automatically succeed at a grapple check to assume control of a weapon impaled in a creature under your blood control. Whenever a creature loses the impaled condition and suffers bleed damage, you may spend a spell point as an immediate action to target the creature with blood control.</p>\n<p><strong>Special:</strong> Weapons made with the Gory Armaments (blood art) talent do not dissipate when you let go of the weapon if it is impaled in a creature under your blood control. If the weapon is impaled in a creature who was under blood control and blood control ends, the weapon dissipates after 1 round and is treated as though the impaling weapon were removed.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/champion-feats#toc56\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/champion-feats#toc56"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

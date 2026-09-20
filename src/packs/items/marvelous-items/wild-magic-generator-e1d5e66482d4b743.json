@@ -1,0 +1,162 @@
+{
+  "_id": "e1d5e66482d4b743",
+  "_key": "!items!e1d5e66482d4b743",
+  "name": "Wild Magic Generator",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:marvelous-items:ultimate:item:wild-magic-generator",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/marvelous-items#toc100",
+      "sourceSha256": "a971a10582e74c6796d182b7ebe64177d217ee68e8817f8018506a8a95474889",
+      "descriptionSha256": "4e36330dce3b5aa91ffb1d720417f0a039cdbf6ea9ddf3e0ecf6426db68d593a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "New Marvelous Items",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:marvelous-items:ultimate:item:wild-magic-generator",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint Universal; <strong>CL</strong> 3rd<br>\n<strong>Slot</strong> none; <strong>Price</strong> 3,600 gp; <strong>Weight</strong> 2 lbs.</p>\n<p>Once per day, as a swift action, a creature can activate a wild magic generator to create a spherical region with a 50-foot radius. This region goes around corners and through small holes, but does not go through force effects (such as barriers from the Protection sphere) and does not function in anti-magic fields. Any time a creature within the region casts a sphere effect (including by activating magic items such as other marvelous items and spell engines), that effect has a 15% chance of triggering a wild magic effect for the appropriate sphere; if the effect involves two or more spheres, or is an effect not associated with a particular sphere, it triggers a universal wild magic effect instead. See Wild Magic by Drop Dead Studios for the wild magic effects. This item creates an effect on space, not on creatures, and is triggered by the magic that creatures cast, so it applies to all creatures within its range and cannot be blocked by spell resistance. This region lasts for 1 round per caster level, but you can shut it off early as a free action you may only take during your turn by pressing a button on the wild magic generator. The region itself is visibly discolored and obviously present to any creature that can see it.</p>\n<p><strong>Flask Shard Effect:</strong> Increase the caster level of this item to the next increment of 5 and increase the number of times it can be used each day by 1. <strong>Optional:</strong> At +3, this field can instead be set to trigger major wild magic events. <strong>Flask Shard Limit:</strong> +4</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Marvelous Item, the creator must have some way to trigger wild magic; <strong>Cost</strong> 1,800 gp</p>\n<h4>Be Very, Very Careful</h4>\n<p>While regular wild magic is unpredictable as it is, major events are a lot like drawing from a deck of many things and can have campaign-altering consequences… and this item could trigger a lot of them. That improvement to the wild magic generator is only available at the GM’s discretion - it is present for groups that enjoy such chaos, but it is not a good choice for every table. If in doubt, do not use it.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/marvelous-items#toc100\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 2
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 3600,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/marvelous-items#toc100"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

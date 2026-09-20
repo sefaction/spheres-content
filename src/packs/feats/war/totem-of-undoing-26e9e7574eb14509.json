@@ -1,0 +1,121 @@
+{
+  "_id": "26e9e7574eb14509",
+  "_key": "!items!26e9e7574eb14509",
+  "name": "Totem Of Undoing",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:war:ultimate:feat:totem-of-undoing",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/war#toc130",
+      "sourceSha256": "34f9f0e92db285572528fd2372b13184d6816c432a151d4f1ad3a968e594646a",
+      "descriptionSha256": "9a0d072d33077c46afec7a5df40d62ce9ca8ec6941f108e4b8f96d204ff0d2e8",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "War Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:war:ultimate:feat:totem-of-undoing",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> War sphere, caster level 10th.</p>\n<p><strong>Benefit:</strong> You must spend 2 spell points to create a totem of undoing. Enemy creatures must succeed at a Fortitude save or become faded for as long as they remain within the totem.</p>\n<p>Leaving the area of the totem ends this effect, but they must save again if they re-enter the area. A faded creature has become less real and less material than before. Faded creatures do half damage with attacks and abilities, unless that attack or ability does full damage against incorporeal creatures (such as force damage or a ghost touch weapon). Faded creatures have no weight and do not set off traps that are triggered by weight.</p>\n<p>They may still fall, and take double normal falling damage while the surface they fall onto takes none. Faded creatures suffer a penalty equal to your caster level to their Strength score (to a minimum Strength of 1) when determining their CMB, CMD, as well as their ability to lift, break or otherwise manipulate objects around them.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/war#toc130\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/war#toc130"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

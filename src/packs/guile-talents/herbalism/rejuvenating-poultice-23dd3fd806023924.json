@@ -1,0 +1,124 @@
+{
+  "_id": "23dd3fd806023924",
+  "_key": "!items!23dd3fd806023924",
+  "name": "Rejuvenating Poultice",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:rejuvenating-poultice",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc57",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "4a9ec16b2667ecf72d35456c6f30787c83656dab6b93b3475cccc501ea2d1ccc",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:rejuvenating-poultice",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Associated skill 5 ranks, Herbalism sphere (Healing Poultice).</p>\n<p>You gain the following additional twists you can add to the Healing Poultice tincture:</p>\n<ul>\n<li><strong>1 bland herb:</strong> While benefiting from this tincture’s fast healing, any severed limbs that the imbiber has incurred regenerate after 1 round. Additionally, the imbiber’s body is not destroyed when they are killed by an effect that would render a body destroyed, annihilated, or otherwise not whole (such as disintegrate).</li>\n<li><strong>1 esoteric herb:</strong> The fast healing granted by this talent continues to function even if the imbiber dies, and can also benefit dead creatures. If this healing brings the target's negative hit point total to below their Constitution score, then it comes back to life and stabilizes at their new hit point total. A creature can only be dead for 1 minute to benefit from this tincture. Abilities that extend the time limit on raising a creature from the dead (such as the gentle repose spell) benefit from this twist as normal. A creature brought back to life this way gains a temporary negative level.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc57\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc57"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

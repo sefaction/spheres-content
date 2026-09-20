@@ -1,0 +1,124 @@
+{
+  "_id": "8202e27d7fc6364a",
+  "_key": "!items!8202e27d7fc6364a",
+  "name": "Master Administrator",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:vocation:spheres-of-guile:guile-talent:master-administrator",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/vocation#toc132",
+      "sourceSha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "descriptionSha256": "bc4d9f737d42938cc51081514cdd324a089e2957df027458d1faa0f485b8fd8a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:vocation:spheres-of-guile:guile-talent:master-administrator",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "vocation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400\">Diamond Spheres: Hustle &amp; Bustle</a></sup></p>\n<p><strong>Prerequisites:</strong> Vocation sphere (Adept Administrator (specialty), Expert Administrator), Profession (barrister, clerk, scribe, or librarian) 10 ranks</p>\n<p>You gain an ability depending on the specialty skill(s) chosen with the Expert Administrator talent:</p>\n<p><strong>Crime Sense (Su)—Profession (barrister):</strong> While adopting the crime sense approach, your sense extends out to close range, allowing you to focus on a creature as a move action to determine if they are guilty or innocent. You can always determine if the creature feels as though they are guilty or innocent—if you know a major motivation from the creature, you are imparted a brief and cryptic vision of their actions during the crime (or lack thereof).</p>\n<p><strong>Page Whisperer (Su)—Profession (clerk, librarian, or scribe):</strong> While adopting the page whisperer approach, you can communicate telepathically with books (and similar repositories of knowledge) within 30 feet. Additionally, the quality of the communication that the text is capable of is greatly improved: the text can generally describe creatures that touch or pass by it in detail (such as physical features), with particularly complex texts being able to pick out more specific details such as personality, emotional state, and apparent goals. Also, you understand such texts regardless of if you share a common knowledge or not.</p>\n<p>Lastly, whenever you restore a damaged text using this talent, it becomes an instantaneous, permanent effect.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/vocation#toc132\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/vocation#toc132"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

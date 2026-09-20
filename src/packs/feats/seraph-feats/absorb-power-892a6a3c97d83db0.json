@@ -1,0 +1,121 @@
+{
+  "_id": "892a6a3c97d83db0",
+  "_key": "!items!892a6a3c97d83db0",
+  "name": "Absorb Power",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:seraph-feats:current:feat:absorb-power",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/seraph-feats#toc1",
+      "sourceSha256": "67fa522feba70953e1ce448cb088720bc71cbd6ce8afc3b5f35c677e04096214",
+      "descriptionSha256": "ca615b4011e2ed3ad6dd1ed1388eebcbff4a9b540b106cbb47fb795f481baf23",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "General Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:seraph-feats:current:feat:absorb-power",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Mirror power class feature.</p>\n<p><strong>Benefit:</strong> As a standard action you may spend one reflection to make a touch attack against a character capable of triggering your mirror power class feature. The target must make a Will save (DC = 10 + 1/2 echo level + Charisma modifier). On a successful save the echo may act as though the target had just activated that spell or power for purposes of their mirror power ability. If the target fails the save, they instead lose access (as if it was not on their spells or powers known list) to the spell or power for a number rounds equal to the echo’s Charisma modifier. During these rounds the echo may mirror power the ability as though it was just cast or activated each round.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/seraph-feats#toc1\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/seraph-feats#toc1"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

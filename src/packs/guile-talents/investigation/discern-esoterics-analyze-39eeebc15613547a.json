@@ -1,0 +1,124 @@
+{
+  "_id": "39eeebc15613547a",
+  "_key": "!items!39eeebc15613547a",
+  "name": "Discern Esoterics (analyze)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:investigation:spheres-of-guile:guile-talent:discern-esoterics-analyze",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/investigation#toc25",
+      "sourceSha256": "812d14024b95c9efb75b3f1dd2dddad532833a150eb7f2d9da1a70b809836e0e",
+      "descriptionSha256": "0c2977bbbcdd1853263f65959a171951392ca548aa5713e7a9f69017056fee3b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Analyze Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:investigation:spheres-of-guile:guile-talent:discern-esoterics-analyze",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "investigation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Analyze Skills:</strong> Knowledge (arcana), Perception, or Spellcraft;</p>\n<p><strong>Analyze DC:</strong> 15 + the highest caster level magical effect or object the target is benefiting from.</p>\n<p>You analyze how the target creature is being augmented through magic.</p>\n<p><strong>Simple:</strong> You learn two pieces of information of your choice; you can choose to specify a specific object or visually apparent effect if you choose, otherwise the result is random:</p>\n<ul>\n<li>The object’s caster level, its enhancement bonus (if any) and how it is distributed, and one of the object’s properties or functions (as if you had successfully identified it using Spellcraft). You also learn if the target has any abilities that have a limited use and how many uses it has remaining. Additionally, you discover the presence of any (hack) talents (as the Spellhacking sphere) or similar alterations to any of the magical items.</li>\n<li>The existence of a magical effect and one of its effects. You also learn information as if you had successfully understood the caster’s magical technique (new skill use).</li>\n</ul>\n<p>Each option can be chosen multiple times.</p>\n<p><strong>Detailed (+5 DC):</strong> As a simple analysis, but you can either choose four options as a simple analysis, or two of the following improved options:</p>\n<ul>\n<li>You learn all of the object’s properties and functions, and if the target is intelligent or cursed. You also learn how to activate the target, such as its command word. If the target is intelligent, you learn of its ego score, its ability scores, and if it possesses a special purpose (but not what that purpose is).</li>\n<li>The magical effect’s caster level and all of its effects.</li>\n</ul>\n<p><em>Addendum</em> [SM—]<br>\n<sup><strong>Source:</strong> Baron's Uncanny Gateway</sup><br>\nWhen using Discern Esoterics on a portal, glyph, magic trap, or similar effect, you can learn the following. A portal with an unspecified origin should have a caster level of at least 10. Portals created by particularly powerful entities such as gods or demon lords should have caster levels between 20 and 40.<br>\n<strong>Simple:</strong> You learn whether the target will have different effects based on different creatures or passwords passing through, including whether a portal can lead to multiple locations.<br>\n<strong>Detailed (+5 DC):</strong> You learn the specific passwords or conditions necessary to trigger a glyph or trap or for a portal to take the traveler to different locations. You also learn each destination that a portal can potentially send those who travel through it.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/investigation#toc25\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/investigation#toc25"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

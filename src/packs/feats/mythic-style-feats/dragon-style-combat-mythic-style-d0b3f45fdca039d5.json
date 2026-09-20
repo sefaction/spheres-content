@@ -1,0 +1,121 @@
+{
+  "_id": "d0b3f45fdca039d5",
+  "_key": "!items!d0b3f45fdca039d5",
+  "name": "Dragon Style (Combat, Mythic, Style)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mythic-style-feats:current:feat:dragon-style-combat-mythic-style",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mythic-style-feats#toc3",
+      "sourceSha256": "8438cf874cbc3b84fb1f1a6d14ad4f89516fbaab811ede12dd7388791a6678df",
+      "descriptionSha256": "2f8fde588cfaaf308cf633a806a7ede8fe7969a68b1485090bfd2475a9a4c52d",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "mythic-style-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mythic-style-feats:current:feat:dragon-style-combat-mythic-style",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your call upon the spirit of dragonkind grants you even greater resistances, increases the reach of your powerful strike, and enhances your senses.</p>\n<p><strong>Prerequisites:</strong> Dragon Style<sup>UC</sup></p>\n<p><strong>Benefit:</strong> While using Dragon Style, you are immune to sleep effects, and your bonus on saving throws against paralysis effects and stunning effects increases by one-half your tier (minimum 1). In addition, once per round as a free action you can increase your reach by 5 feet when attacking with an unarmed strike. In addition, if you spend one use of mythic power while using Dragon Style, you gain darkvision 60 ft. and blindsense 30 ft. for 1 minute. If you already possess darkvision or blindsense, the range of these senses instead increases by 60 ft. and 30 ft., respectively. If you switch to using a different style, you lose these senses.</p>\n<h5>Dragon Ferocity (Combat, Mythic)</h5>\n<p>Your ferocious attacks cause your enemies to flee in terror.</p>\n<p><strong>Prerequisites:</strong> Dragon Ferocity<sup>UC</sup></p>\n<p><strong>Benefit:</strong> When you confirm a critical hit or when an opponent fails its save against a Stunning Fist attempt while using this style, the target is frightened for a number of rounds equal to 1 plus one-half your tier, and then shaken for a number of rounds equal to 1d4 + your Strength bonus. In addition, you can spend one use of your mythic power as a free action when a non-mythic opponent becomes frightened by this ability, causing that opponent to instead become panicked for the first 1d4 rounds of the effect.</p>\n<h5>Dragon Roar (Combat, Mythic)</h5>\n<p>Your concussive roar overwhelms your enemies’ resolve.</p>\n<p><strong>Prerequisites:</strong> Dragon Roar<sup>UC</sup></p>\n<p><strong>Benefit:</strong> You can expend one use of your mythic power instead of a Stunning First attempt to use your roar. Creatures in the area of your roar take damage equal to your unarmed strike damage and become frightened for 1d4 rounds and then shaken for 1d4 rounds. The save DC against your roar is increased by one-half your mythic tier (minimum 1). A non-mythic target that is shaken for 1d4 rounds but not frightened on a successful save.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/mythic-style-feats#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mythic-style-feats#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

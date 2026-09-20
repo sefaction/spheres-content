@@ -1,0 +1,124 @@
+{
+  "_id": "439c88acdb0fbaf7",
+  "_key": "!items!439c88acdb0fbaf7",
+  "name": "The Lowly Peasant (act)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:performance:spheres-of-guile:guile-talent:the-lowly-peasant-act",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/performance#toc28",
+      "sourceSha256": "e87c472686da47048b3d9fcee074982f8ef19002718047ad36360dcfbd01dd3b",
+      "descriptionSha256": "58cd10fdce954c9502148a02855e64660100d150dcb440790618185d01572c00",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Act Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:performance:spheres-of-guile:guile-talent:the-lowly-peasant-act",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "performance"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You present the life of a submissive peasant, who draws the sympathy of those around them. The story culminates as the peasant is struck down after attempting to defend themselves, only to have their close friends defend them from the threat.</p>\n<p><strong>Weak and Frail (approach):</strong> When you begin this act, choose a single ally in the area. Enemies in the area suffer a -2 penalty to attack rolls made against the chosen ally, and the chosen ally suffers a -2 penalty to attack rolls. The penalty to enemies (but not to the ally) increases by 1 per 5 ranks in this package’s associated Perform skill you possess. If the chosen ally leaves the area, this act does not function; you can designate a new chosen ally as a swift action.</p>\n<p><strong>Pity the Weak (scene, standard action):</strong> If an enemy in the area attempts to target the chosen ally with an attack roll, the attacker must succeed at a Will save or decide to not attack them, targeting a different creature. If the chosen ally is the only viable option (such as being the only target available), the target may attempt to knock them unconscious through nonlethal methods, or simply leave (up to the GMs discretion).</p>\n<p><strong>To The Rescue (finale, immediate action):</strong> Any allies in the area may immediately move up to half their speed as a free action that can be taken outside of their turn, as long as their movement brings them closer to the chosen ally. Additionally, for 1 round plus 1 round per 5 ranks in this package’s associated skill, whenever the chosen ally is successfully hit by an attack roll, an adjacent ally in the area can spend an immediate action to suffer the damage instead as if they were the original target.</p>\n<p>During this time, if an ally uses an ability to directly assist another ally (such as first aid, a beneficial spell, etc.), they may move up to half their speed as a free action usable once per turn as part of doing so.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/performance#toc28\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/performance#toc28"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

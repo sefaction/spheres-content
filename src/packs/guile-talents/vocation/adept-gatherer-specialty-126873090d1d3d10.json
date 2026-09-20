@@ -1,0 +1,124 @@
+{
+  "_id": "126873090d1d3d10",
+  "_key": "!items!126873090d1d3d10",
+  "name": "Adept Gatherer (specialty)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:vocation:spheres-of-guile:guile-talent:adept-gatherer-specialty",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/vocation#toc26",
+      "sourceSha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "descriptionSha256": "b8fc2a02bf64af21ccc9b4edd7065d7af86c9e9a1e01bb822321be2a6b641911",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Specialty Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:vocation:spheres-of-guile:guile-talent:adept-gatherer-specialty",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "vocation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Specialty Skills:</strong> Profession (miner, tanner, farmer, gardener, miller, woodcutter).</p>\n<p>You gain a +2 insight bonus to sunder combat maneuvers and ignore an equal amount of hardness on such attempts made against objects associated with the following Profession skills you have unlocked skill leverage with: stone, metal, and minerals (Profession (miner)), leather (Profession (tanner)), wood and plants (Profession (farmer, gardener, miller, woodcutter)). This increases by +1 per 5 associated ranks you possess.</p>\n<p>You also gain an ability depending on the chosen specialty skill:</p>\n<p><strong>Flay Hide—Profession (tanner):</strong> You can make a special sunder attempt as an attack action against a creature’s natural armor. If successful, you deal damage to the creature as normal, and it takes a penalty to its natural armor equal to 1 + 1 per 3 associated ranks (minimum 0). This penalty lasts for 24 hours, or until the creature receives an amount of healing equal to your associated ranks, or first aid, whichever comes first</p>\n<p><strong>Greenslayer—Profession (farmer, gardener, miller, woodcutter):</strong> You can use this ability’s associated skills instead of Survival when blazing a trail (new skill use), you can remove magical difficult terrain this way (although the DC increases to 10 + the effect’s caster level (if relevant)), and you can do so as a standard action and while moving at full speed. You also gain a +2 insight bonus to ability checks, skill checks, and saving throws made to avoid or break free from being entangled, as well as to blaze a trail. This bonus increases by +1 per 4 associated ranks you possess.</p>\n<p><strong>Stonecunning—Profession (miner):</strong> You can use an associated skill check instead of Perception when attempting to notice unusual stonework (such as traps and hidden doors located in a stone surface), and you receive an automatic check to notice such features when you pass within 10 feet. You gain a +2 bonus to checks made to notice unusual stonework, +1 per 4 associated ranks. This ability counts as the stonecunning ability for the purposes of feats, and doesn’t stack with itself.<br>\nLastly, you can ignore difficult terrain caused by stone and rubble when taking a 5-foot step.</p>\n<p>You can take this talent multiple times—each time you do, choose another specialty skill.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/vocation#toc26\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/vocation#toc26"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

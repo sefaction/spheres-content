@@ -1,0 +1,121 @@
+{
+  "_id": "ad195f99b9b203b9",
+  "_key": "!items!ad195f99b9b203b9",
+  "name": "Shadow Weaver: Greater Silhouette (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:shadow-weaver:current:class-feature:greater-silhouette-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/shadow-weaver#toc47",
+      "sourceSha256": "eb1e6713bc5760294dd23f78342e230321fdd3a81f84ef1f016d25ed9a577b6d",
+      "descriptionSha256": "3d80a3782bfdc294619a90cae3d3333fe437ee24aba84407e2e19efd0cb0ed6c",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:shadow-weaver:current:class-feature:greater-silhouette-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 12th level, a shadow weaver can choose silhouettes from the following list.</p>\n<h4>Beshadowed Realm</h4>\n<p>The shadow weaver can spread her shadow over a large area to cast it in gloomy unreality by concentrating for 10 minutes. This effect is similar to mirage arcana except that the area never becomes brighter than dim illumination. Any changes to the terrain are 50% real as if the product of false conjuration VI provided any hazards have a CR no greater than the shadow weaver's level – 4 (multiple hazards positioned to be encountered together count as one hazard of their combined CR for this purpose). The shadow weaver must concentrate to maintain the effect as long as she is outside the area or it ends. All other creatures in the area suffer a –2 penalty on Will saving throws. This is a darkness effect.</p>\n<h4>Project Illusion</h4>\n<p>Whenever the shadow weaver casts an illusion, she can link it to this silhouette as a free action. If she does, she can use that illusion as a point of origin for another illusion spell of a lower spell level provided she has line of effect to either the linked illusion or the targets or area of the new illusion spell. It remains linked until it is beyond its original range from him or until she links a new illusion to this silhouette (whichever comes first).</p>\n<h4>Shadow Thief</h4>\n<p>The shadow weaver can steal a living corporeal creature's shadow with a successful melee touch attack as a standard action. In darkness and through nonvisual senses, the creature's shadow has total concealment against this attack—even through darkvision. Only true seeing or similar effects can negate this total concealment.</p>\n<p>A creature that has its shadow stolen suffers 2 temporary negative levels that last until the shadow is returned. The victim casts no shadow nor any reflection until the shadow is returned. The shadow weaver gains a silhouette (not a greater silhouette) of her choice as long as she has the stolen shadow. She must meet the silhouette's prerequisites and treats her shadow weaver level as equal to the victim's Hit Dice if that is lower than her actual shadow weaver level. She casts the stolen shadow such that it overlaps with her own shadow while she possesses it. The shadow is returned after 1 day, when the shadow weaver dismisses it as a standard action, when she steals another shadow, when the target receives a successful break enchantment, or when the target and shadow weaver touch while the shadow weaver is helpless (whichever comes first).</p>\n<h4>Silhouette Double</h4>\n<p>The shadow weaver gains the shadow twin ability of the dread, treating her shadow weaver levels as dread levels. The shadow twin is quasi-real as if a creature created by greater shadow conjuration. The shadow twin does not gain the twin fear ability and always shares the shadow weaver's actions.</p>\n<h4>Silhouette Portal</h4>\n<p>The shadow weaver can turn her silhouette into a portal to or from the Shadow Plane as a standard action, allowing travel as the spell shadow walk.</p>\n<h4>Undead Shadow</h4>\n<p>The shadow weaver can summon an undead shadow. The shadow serves until dismissed or destroyed. The shadow weaver can summon the shadow adjacent to him as a standard action if she does not currently have it summoned. Its alignment matches the shadow weaver's and it lacks the create spawn ability. When the shadow is destroyed, it cannot be summoned again for 1 day. At 17th level, the shadow weaver can instead summon a greater shadow in this way.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/shadow-weaver#toc47\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/shadow-weaver#toc47"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "_id": "de2ad292eb77eb9c",
+  "_key": "!items!de2ad292eb77eb9c",
+  "name": "Genius",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:genius:legends-of-the-spheres:class:genius",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/genius",
+      "sourceSha256": "a0c8e2ef5b235674e98e2d88c8ece40c6947ab00582a38738aa4022e55cb7235",
+      "descriptionSha256": "07dbeb457ceb95f08a9dac006fb84e4ee43fc6e1c3caeb4ac07a8bd5041291ac",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "legends-of-the-spheres",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:genius:legends-of-the-spheres:class:genius",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<strong>Special:</strong>\n<p> The Genius is technically an archetype for the </p>\n<a href=\"http://spheresofpower.wikidot.com/thaumaturge\">Thaumaturge</a>\n<p>, but is different enough that it is presented as its own class. It qualifies for anything from the Thaumaturge that its changes don't make invalid, such as feats, and you can adapt things like Favored Class Bonuses directly.\n</p>\n<hr>\n<p>Geniuses excel at making uncanny insights in their favored disciplines, yielding incredible revelations which can be difficult to replicate or follow. These discoveries are often most taxing on the genius themself.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> See Trade Tradition</p>\n<p><strong>Skill Ranks Per Level:</strong> 8 + Int modifier.</p>\n<h1>Class Features</h1>\n<strong>Table: The Genius</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Ref Save</th>\n<th>Will Save</th>\n<th>Special</th>\n<th>Any Talents</th>\n<th>Utility Talents</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+0</td>\n<td>+0</td>\n<td>+2</td>\n<td>Flexible Training, eureka (+2), invocations</td>\n<td>0</td>\n<td>1</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+0</td>\n<td>+0</td>\n<td>+3</td>\n<td>Skill comfort +1</td>\n<td>0</td>\n<td>1</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+2</td>\n<td>+1</td>\n<td>+1</td>\n<td>+3</td>\n<td>Invocations</td>\n<td>0</td>\n<td>2</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+3</td>\n<td>+1</td>\n<td>+1</td>\n<td>+4</td>\n<td>Bonus feat</td>\n<td>1</td>\n<td>2</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+3</td>\n<td>+1</td>\n<td>+1</td>\n<td>+4</td>\n<td>Eureka (+3)</td>\n<td>1</td>\n<td>3</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+4</td>\n<td>+2</td>\n<td>+2</td>\n<td>+5</td>\n<td>Skill comfort +2</td>\n<td>1</td>\n<td>3</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+5</td>\n<td>+2</td>\n<td>+2</td>\n<td>+5</td>\n<td>Invocations</td>\n<td>1</td>\n<td>4</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+6/+1</td>\n<td>+2</td>\n<td>+2</td>\n<td>+6</td>\n<td>Bonus feat</td>\n<td>2</td>\n<td>4</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+6/+1</td>\n<td>+3</td>\n<td>+3</td>\n<td>+6</td>\n<td>Eureka (+4)</td>\n<td>2</td>\n<td>5</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+7/+2</td>\n<td>+3</td>\n<td>+3</td>\n<td>+7</td>\n<td>Skill comfort +3</td>\n<td>2</td>\n<td>5</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+8/+3</td>\n<td>+3</td>\n<td>+3</td>\n<td>+7</td>\n<td>Invocations</td>\n<td>2</td>\n<td>6</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+9/+4</td>\n<td>+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>Bonus feat</td>\n<td>3</td>\n<td>6</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+9/+4</td>\n<td>+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>Eureka (+5)</td>\n<td>3</td>\n<td>7</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+10/+5</td>\n<td>+4</td>\n<td>+4</td>\n<td>+9</td>\n<td>Skill comfort +4</td>\n<td>3</td>\n<td>7</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+11/+6/+1</td>\n<td>+5</td>\n<td>+5</td>\n<td>+9</td>\n<td>Invocations</td>\n<td>3</td>\n<td>8</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+12/+7/+2</td>\n<td>+5</td>\n<td>+5</td>\n<td>+10</td>\n<td>Bonus feat</td>\n<td>4</td>\n<td>8</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+12/+7/+2</td>\n<td>+5</td>\n<td>+5</td>\n<td>+10</td>\n<td>Eureka (+6)</td>\n<td>4</td>\n<td>9</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+13/+8/+3</td>\n<td>+6</td>\n<td>+6</td>\n<td>+11</td>\n<td>Skill comfort +5</td>\n<td>4</td>\n<td>9</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+14/+9/+4</td>\n<td>+6</td>\n<td>+6</td>\n<td>+11</td>\n<td>Invocations</td>\n<td>4</td>\n<td>10</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+15/+10/+5</td>\n<td>+6</td>\n<td>+6</td>\n<td>+12</td>\n<td>Bonus feat, master invoker</td>\n<td>5</td>\n<td>10</td>\n</tr>\n</tbody></table>\n<h2>Proficiencies</h2>\n<p>The genius is proficient with simple weapons, as well as light armor and bucklers. In addition, if this is the character's first level in any class, the genius may select a martial tradition of their choice.</p>\n<h2>Trade Tradition</h2>\n<p>If this is this character’s first level in any class, the genius may select a trade tradition of their choice, and have an adroit trade rank. The genius gains a number of skill ranks at each level equal to 8 + their Intelligence modifier.</p>\n<h2>Flexible Training (Ex)</h2>\n<p>A genius gains combat or skill talents (some of which are required to be [utility] talents) using the trained talent progression. When he gains his first level in the genius archetype, a genius chooses either Charisma, Intelligence or Wisdom as his practitioner modifier and operative modifier. Whenever the genius rests for 8 hours (or the equivalent), he may change any and all non-utility combat and skill talents gained from genius levels, choosing new spheres and new talents.</p>\n<p>Combat and skill talents gained as part of levels taken in other classes, as part of a martial or trade tradition, or talents gained from taking the Extra Combat Talent or Extra Skill Talent feat are not eligible to be changed in this fashion.</p>\n<h2>Eureka (Ex)</h2>\n<p>At 1st level, as part of attempting a skill check, crafting an item (such as an Herbalism sphere concoction or Alchemy sphere formulae), or using an ability whose effects could be altered based on the number of skill ranks the user possesses (such as a Bluster sphere quip or a Warleader Sphere shout), the genius may increase his effective skill ranks in a single skill by 2 for the purpose of the skill check or item.</p>\n<p>This bonus increases by +1 at 5th level, and by an additional +1 for every 4 levels thereafter to a maximum of +6 at 17th level.</p>\n<p>Every time the genius uses eureka, there is a 15% chance the genius will suffer backlash; for the purpose of the skill check, item, or other ability, the genius is considered to have 0 ranks in the chosen skill. In addition, the genius suffers a -1 penalty to attack rolls, saving throws, skill checks, and to their effective ranks in all skills (minimum 0), which lasts until he rests for 8 hours. This penalty is cumulative; every time the genius suffers backlash in a day, these penalties increase by 1.</p>\n<h2>Invocations</h2>\n<p>A genius may use invocations a number of times per day equal to his practitioner ability modifier + 1/2 his class level, which refreshes when he rests for eight hours. Whenever an invocation calls for a saving throw, the DC is equal to 10 + 1/2 his thaumaturge level + his thaumaturge’s practitioner ability modifier. A thaumaturge may only use invocations of his level or lower. Using an invocation is a free action that may be taken even when it is not the thaumaturge’s turn, but the thaumaturge cannot use multiple invocations as part of the same saving throw, check, or use of eureka.</p>\n<p>A genius’ invocations are extraordinary rather than supernatural abilities. Rather than their casting ability modifier, the genius instead uses their practitioner modifier for all effects related to invocations. In addition, several of the genius’ invocations are altered or replaced from the normal thaumaturge invocations.</p>\n<h4>Skill Mimicry</h4>\n<p>At 1st level, when the genius sees a creature attempt a Wisdom or Charisma-based skill check, he may spend an invocation to use that creature’s modifier on checks attempted for that skill for a number of minutes equal to his practitioner modifier. This bonus includes ability score, class, feat, trait, and class skill bonuses but not other bonuses, such as circumstance, competence, insight, sacred, nor any bonus granted by a spell or magic item.</p>\n<h4>Talent Shift</h4>\n<p>At 1st level, the genius may spend an invocation to swap one talent gained from flexible combat training for another talent. Any prerequisites of the talent must still be met. He keeps this talent for a number of rounds equal to his practitioner modifier; afterwards the talent is lost. The original talent is regained after a 10 minute rest.</p>\n<h4>Meditation</h4>\n<p>At 1st level, the genius may reroll a failed Knowledge check. The genius may only use this ability once for any given Knowledge check.</p>\n<h4>Empowered Attack</h4>\n<p>At 3rd level, when using eureka to augment a sphere effect, the thaumaturge may use an invocation to grant himself a bonus to attack rolls equal to his eureka bonus for a number of rounds equal to his practitioner ability modifier.</p>\n<h4>Empowered Defense</h4>\n<p>At 3rd level, when using eureka to augment a spell or sphere effect, the thaumaturge may use an invocation to grant himself a dodge bonus to AC equal to his eureka bonus for a number of rounds equal to his practitioner ability modifier.</p>\n<h4>Satisfying Bewilderment</h4>\n<p>At 7th level, when using eureka on an ability which requires an opposed skill check, the genius may spend an invocation. If the genius succeeds at the skill check, they choose one target which failed the skill check. If the genius would suffer backlash, the chosen creature must succeed at a Will save or suffer the backlash in place of the genius.</p>\n<h4>Defensive Invocation</h4>\n<p>At 7th level, before attempting a saving throw, the genius may use an invocation to add his eureka bonus to the roll.</p>\n<h4>Sudden Knack</h4>\n<p>At 11th level, when using eureka on a skill check, the genius may spend an invocation to gain ranks in that skill equal to his genius level (to the normal maximum of skill ranks a character of the genius’ level may have in that skill) for the purpose of the skill check.</p>\n<h4>Soulfire</h4>\n<p>At 11th level, when the genius suffers backlash from using eureka, he may use an invocation to empower himself. He gains a bonus to attack rolls, saving throws, and a dodge bonus to AC equal to his eureka bonus for a number of rounds equal to his practitioner ability modifier. This does not negate the penalty gained through the backlash itself.</p>\n<h4>Empowered Resistance</h4>\n<p>At 15th level, if the genius succeeds at a saving throw against an attack that has a reduced effect on a successful save, he may use an invocation to negate the effect entirely.</p>\n<h4>Greater Talent Shift</h4>\n<p>At 15th level, the genius may use talent shift to gain 2 talents rather than 1. These talents do not replace other talents the genius already possess but rather are possessed in addition to normal talents for the duration of the effect.</p>\n<h4>Rebuke Death</h4>\n<p>At 19th level, when the genius is reduced to 0 hit points or fewer, the genius may use two of his remaining invocations to instead be reduced to 1 hit point. Effects that kill the genius outright without dealing hit point damage are not affected by this ability.</p>\n<h2>Skill Comfort (Ex)</h2>\n<p>At 2nd level, a genius gains a +1 bonus to all skill checks with which they have unlocked skill leverage. This bonus increases by 1 for every 4 additional genius levels possessed, to a maximum of +5 at 18th level.</p>\n<h2>Bonus Feats</h2>\n<p>At 4th level and every 4 levels thereafter, the genius gains a bonus feat. These bonus feats must be combat feats, the Extra Skill Talent feat, or any feat which requires skill talents or specific skill ranks as prerequisites.</p>\n<h2>Master Invoker</h2>\n<p>At 20th level, the genius selects two invocations other than rebuke death; he may use these invocations at will without using one of his invocations per day.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/genius\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 8,
+    "savingThrows": {
+      "fort": {
+        "value": "low"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "alignment": "Any",
+    "wealth": "3d6 * 10",
+    "classSkills": {},
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/genius"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

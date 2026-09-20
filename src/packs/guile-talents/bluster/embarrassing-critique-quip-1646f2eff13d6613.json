@@ -1,0 +1,124 @@
+{
+  "_id": "1646f2eff13d6613",
+  "_key": "!items!1646f2eff13d6613",
+  "name": "Embarrassing Critique (quip)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:bluster:spheres-of-guile:guile-talent:embarrassing-critique-quip",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/bluster#toc28",
+      "sourceSha256": "e8f88a5d38e2870756ef237c9336a522e248aa60231fd0ccb330d63841363c60",
+      "descriptionSha256": "ed9e852522fea72d1a84503d23f4e11cbbc9990b66f2871c24f04c3e625bac12",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Quip Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:bluster:spheres-of-guile:guile-talent:embarrassing-critique-quip",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "bluster"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You divide a target from their allies. Attempt an Intimidate check to demoralize the target. If you succeed, observing NPCs also cease to be impressed with the target and have their attitude toward the target reduced by one step for 10 minutes. In addition, the target must succeed at a Will saving throw or be treated as being 5 feet further away from all of their allies for the purposes of range-based abilities (including touch effects and aura abilities) for as long as they are demoralized, plus an additional 5 feet for every 5 of which you exceed the DC (maximum 20 feet plus 10 feet per 5 ranks in the associated skill you possess). If you outwit as a cost, the duration of the demoralization increases to 1 round per rank you possess in Bluff or Intimidate and the target takes a -2 penalty to their Will save.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/bluster#toc28\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/bluster#toc28"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

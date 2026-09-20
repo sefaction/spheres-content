@@ -1,0 +1,124 @@
+{
+  "_id": "6a54989c4e492c08",
+  "_key": "!items!6a54989c4e492c08",
+  "name": "Entrails (harvest) (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:survivalism:spheres-of-guile:guile-talent:entrails-harvest-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/survivalism#toc60",
+      "sourceSha256": "f08a002395ddf0d614719b1c74bdfc78b77500e0a93ea395e3e0354dcf980820",
+      "descriptionSha256": "3911de26f7d19f3e40944ce091f1025beba425ad035726a3d481c3103e788503",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:survivalism:spheres-of-guile:guile-talent:entrails-harvest-su",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "survivalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/480696/Diamond-Spheres-Thaumic-Potential?affiliate_id=3028400\">Diamond Spheres: Thaumic Potential</a></sup></p>\n<p><strong>Prerequisites:</strong> Survivalism sphere, associated skill 5 ranks.</p>\n<p><strong>Refinement DC:</strong> 20</p>\n<p>You can harvest and refine the innards and entrails of a creature. You or a creature that is trained in Spellcraft can spend 1 minute reading through the refined entrails with particular intent on a particular action and whether it will bring good or bad results for the user, as long as such an action is within the next day. Once used, the entrails lose their potency. There is a 70% chance for receiving an answer, + 1% per associated skill rank you possess (maximum 90%); this roll is made secretly. On a success, the diviner gets one of four results:</p>\n<ul>\n<li>Weal (if the action will probably bring good results).</li>\n<li>Woe (for bad results).</li>\n<li>Weal and woe (for both).</li>\n<li>Nothing (for actions that don't have especially good or bad results, or the effect fails; the user has no way of differentiating).</li>\n</ul>\n<p>Actions taken after the scope of this effect does not affect the result, and so may not factor in the long-term consequences of the action. Subsequent attempts from the same diviner about the same topic gain the same result as the first. This is a divination effect.</p>\n<p><strong>Potency:</strong> When divined, the refined entrails can grant insight that pertains to an action or event within 1 week. Additionally, the user can spend 1 use of skill leverage to gain a more intense divination from the entrails. Instead of gaining one of the four results, they gain more open advice in the form of a short phrase or cryptic rhyme.</p>\n<p><strong>Talisman:</strong> The wearer of an entrail talisman enhances their own uses of divination. Whenever the wearer casts a divination effect, they gain one of the following benefits, depending on the kind of effect: increase the likelihood of a percentage-based divination to work correctly by 5%, a +2 insight bonus to Perception checks while perceiving through a scrying sensor (increasing by +1 per 4 associated ranks), choose an additional creature when using a Divination sphere divine that normally targets one creature at a time, or they may ask one additional question (such as with speak with dead).</p>\n<p><strong>Potency:</strong> The wearer of a refined entrail talisman gains a +1 competence bonus to their caster level to divination effects. Plus, the maximum chance of any percentage-based divination roll that the wearer makes is increased to 100% (instead of the usual 90%), and the perceivable area of a scrying sensor is tripled.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/survivalism#toc60\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/survivalism#toc60"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "acad08580c0deca9",
+  "_key": "!items!acad08580c0deca9",
+  "name": "Storage Sphere",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:apparatuses:ultimate:item:storage-sphere",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/apparatuses#toc46",
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "7e40ec1bfbfb70ae7fcc56691ce8fadb1a498aa05647934b1f1a51342b5ca144",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "apparatuses",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:apparatuses:ultimate:item:storage-sphere",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint Warp; <strong>CL</strong> 15th<br>\n<strong>Slot</strong> none; <strong>Price</strong> see below; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThis fist-sized sphere is made of cool, surprisingly sturdy glass, and is used to easily store vehicles and large structures. Spending three rounds pressing a storage sphere against an unattended object stores the object, causing a miniature model of the object to appear within the sphere. The wielder can spend another three rounds to remove the object within, placing it in an adjacent unoccupied space. This space must also be a suitably supportive surface for the object: a boat cannot be placed in midair, or a wagon in an ocean. Only one object can be stored in the sphere at a time; any objects in the sphere must be removed before new objects can be stored. The maximum size object a sphere can hold depends on the sphere’s type, as shown on the table below.</p>\n<strong>Table: Storage Sphere</strong>\n<table>\n<tbody><tr>\n<th>Sphere Type</th>\n<th>Size Limit</th>\n<th>Price</th>\n</tr>\n<tr>\n<td>I</td>\n<td>Medium</td>\n<td>7,500 gp</td>\n</tr>\n<tr>\n<td>II</td>\n<td>Large</td>\n<td>10,000 gp</td>\n</tr>\n<tr>\n<td>III</td>\n<td>Huge</td>\n<td>15,000 gp</td>\n</tr>\n<tr>\n<td>IV</td>\n<td>Gargantuan</td>\n<td>25,000 gp</td>\n</tr>\n<tr>\n<td>V</td>\n<td>Colossal</td>\n<td>40,000 gp</td>\n</tr>\n<tr>\n<td>VI</td>\n<td>Colossal+</td>\n<td>60,000 gp</td>\n</tr>\n<tr>\n<td>VII</td>\n<td>Colossal++</td>\n<td>90,000 gp</td>\n</tr>\n</tbody></table>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Warp sphere (Extradimensional Space (space), Store Structure (advanced)); <strong>Cost</strong> 3,725 gp (type I), 5,000 gp (type II), 7,500 gp (type III), 12,500 gp (type IV), 20,000 gp (type V), 30,000 gp (type VI), 45,000 gp (type VII)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc46\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 1
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 3725,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/apparatuses#toc46"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

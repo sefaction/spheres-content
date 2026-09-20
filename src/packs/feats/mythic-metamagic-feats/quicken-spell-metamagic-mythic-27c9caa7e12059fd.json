@@ -1,0 +1,121 @@
+{
+  "_id": "27c9caa7e12059fd",
+  "_key": "!items!27c9caa7e12059fd",
+  "name": "Quicken Spell (Metamagic, Mythic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mythic-metamagic-feats:current:feat:quicken-spell-metamagic-mythic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mythic-metamagic-feats#toc32",
+      "sourceSha256": "7394e84ad5f27961d20ec333e48e3ce7c66947f1756fffcb2045395a6eadfd86",
+      "descriptionSha256": "d7662b7f1914423ef5a9023408e21ea075ce7fdc3d04d5ab54c947579e7b3e34",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "mythic-metamagic-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mythic-metamagic-feats:current:feat:quicken-spell-metamagic-mythic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Casting a spell can be nearly effortless for you.</p>\n<p><strong>Prerequisites:</strong> Quicken Spell<sup>CRB</sup>, 10th mythic tier.</p>\n<p><strong>Benefit:</strong> You can prepare any spell as a quickened spell, regardless of its normal casting time, allowing you to cast it as a swift action. If a target provokes an attack of opportunity from you, you can target it with a quickened spell as your attack of opportunity. Only quickened spells with a specific number of targets (rather than effect or area) can be cast as an attack of opportunity, and only the creature that provoked the attack is targeted by the spell (regardless of how many creatures the spell normally targets).</p>\n<p>Alternatively, you may expend two uses of mythic power to cast a spell as a quickened spell (gaining only the normal benefits of a quickened spell, rather than the increased benefits outlined above) without preparing it as quickened in advance or increasing the level of spell slot it uses.</p>\n<p><strong>Normal:</strong> A quickened spell that normally has a casting time of 1 standard action can instead be cast as a swift action.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mythic-metamagic-feats#toc32\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mythic-metamagic-feats#toc32"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

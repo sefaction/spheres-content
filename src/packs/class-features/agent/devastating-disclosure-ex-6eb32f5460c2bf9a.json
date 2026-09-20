@@ -1,0 +1,121 @@
+{
+  "_id": "6eb32f5460c2bf9a",
+  "_key": "!items!6eb32f5460c2bf9a",
+  "name": "Agent: Devastating Disclosure (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:agent:spheres-of-guile:class-feature:devastating-disclosure-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/agent#toc17",
+      "sourceSha256": "0a78d839d28638d323a529162671621aae42260b1dae059d81e613809c3febed",
+      "descriptionSha256": "d229e736a0569a9f6ad5426cdf835da1a0703c16cbf87cd1a8e78b4049ea9c69",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:agent:spheres-of-guile:class-feature:devastating-disclosure-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 10th level, the agent can exploit what they have discovered to leave rivals speechless. As part of a successful Bluff check to lie or convey an implausible truth using evidence that takes at least 1 minute, Diplomacy check to improve an attitude, or Intimidate check to demand cooperation, the agent can invoke the target’s motivation and give proof of accessing that motivation (such as stealing an item, meeting someone the individual cares about, or infiltrating a personally important refuge) to either make the target dumbfounded for 1 hour or else give the target the choice of being enraged or frightened for 4 rounds and then livid or shaken for 1 hour.</p>\n<p>A successful Will save reduces the condition to shocked, livid, or shaken, respectively, and the duration to 1 round. The target is then immune to the agent’s devastating disclosure using that motivation indefinitely and the agent cannot attempt to use a different motivation in a devastating disclosure to that target for 24 hours. The creature can attempt to reduce the dumbfounded condition with 1 minute of reflection (Will save DC 10 + 1/2 agent level + operative ability modifier).</p>\n<p>The agent can instead add this effect to an ally’s skill check of an appropriate type by successfully invoking the opponent’s motivation as part of aiding the ally’s skill check.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/agent#toc17\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/agent#toc17"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

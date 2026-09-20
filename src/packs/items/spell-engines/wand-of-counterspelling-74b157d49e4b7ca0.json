@@ -1,0 +1,162 @@
+{
+  "_id": "74b157d49e4b7ca0",
+  "_key": "!items!74b157d49e4b7ca0",
+  "name": "Wand of Counterspelling",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spell-engines:ultimate:item:wand-of-counterspelling",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spell-engines#toc20",
+      "sourceSha256": "f98f5856ec556f138235795825cfff8bd2aa38e0f93afb47ffe8116a4708d757",
+      "descriptionSha256": "1a95a0562ab859f9d5db824d693979216ebe9004455128332c04e0a8462dcffa",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "spell-engines",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spell-engines:ultimate:item:wand-of-counterspelling",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint universal; <strong>CL</strong> 5th; <strong>Scaling</strong> wonder<br>\n<strong>Slot</strong> none; <strong>Price</strong> 3000 gp; <strong>Weight</strong> 0.5 lbs.</p>\n<p><strong>Description</strong><br>\nInstead of having a base sphere, this rowan wand grants its wielder the benefits of the Counterspell feat and has stored within it 2 spell points. Only spell points from the wand may be used to counter or dispel magical effects with the granted feats. In addition, when using the wand to counter or dispel magic, the wand attempts magic skill checks as if the wielder possesses a MSB of +5 (even if the wielder’s MSB would normally be higher or lower). Wands of counterspelling count as spell engines and may be refilled as other spell engines created using the Spheres of Power crafting system.<br>\n<strong>7th Level — 7,000 gp:</strong> The wand now also grants its wielder the benefits of the Counterspell Mastery feat. The wand attempts magic skill checks as if the wielder possesses a MSB of +9 (base +7 plus an additional +2 because of Counterspell Mastery). The number of spell points the wand has stored within it increases to 3.<br>\n<strong>10th Level — 18,600 gp:</strong> The wand now also grants its wielder the benefits of the Improved Counterspell feat. The wand attempts magic skill checks as if the wielder possesses a MSB of +12 (base +10 plus an additional +2 because of Counterspell Mastery). The number of spell points the wand has stored within it increases to 5.<br>\n<strong>15th Level — 72,000 gp:</strong> The wand now also grants its wielder the benefits of the Greater Counterspell feat. The wand attempts magic skill checks as if the wielder possesses a MSB of +17 (base +15 plus an additional +2 because of Counterspell Mastery). The number of spell points the wand has stored within it increases to 7.<br>\n<strong>20th Level — 250,000 gp:</strong> The wand attempts magic skill checks as if the wielder possesses a MSB of +22 (base +20 plus an additional +2 because of Counterspell Mastery) or the wielder’s own MSB, whichever is higher. The number of spell points the wand has stored within it increases to 10.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Spell Engine, Counterspell, Counterspell Mastery, Greater Counterspell, Improved Counterspell; <strong>Cost</strong> 125,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/spell-engines#toc20\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0.5
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 3000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spell-engines#toc20"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

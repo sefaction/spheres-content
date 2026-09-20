@@ -1,0 +1,121 @@
+{
+  "_id": "7d55cd16d98a9e6f",
+  "_key": "!items!7d55cd16d98a9e6f",
+  "name": "Mastermind: Insightful Defense (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mastermind:spheres-of-guile:class-feature:insightful-defense-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mastermind#toc5",
+      "sourceSha256": "f1d75219242ca0e4daa9d266cb1142020830136c555ebb336a3e2c1bfc3c9781",
+      "descriptionSha256": "76ae082f505d80cf0153787496d5fc30ba3ba2ceece814a08132d23515f35e46",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mastermind:spheres-of-guile:class-feature:insightful-defense-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>When wearing light or no armor and not using a shield, a mastermind adds 1 point of their key ability modifier (if positive) per mastermind class level as a bonus to their Armor Class and Reflex saving throws (in addition to their full Dexterity modifier). For example, a 3rd-level mastermind with a key ability modifier of +4 would receive a +3 bonus to AC and Reflex saves. This bonus to AC applies even against touch attacks or when the mastermind is flat-footed. They lose this bonus when they are immobilized or helpless, when they wear medium or heavy armor, when they carry a shield, or when they carry a medium or heavy load.</p>\n<p>This feature does not stack with any other way to add an additional ability score modifier (besides Dexterity) to the mastermind’s Armor Class or Reflex saves; if they have more than one such ability, they add only the higher bonus (which might be a partial bonus, if the mastermind’s level is less than their key ability modifier).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mastermind#toc5\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mastermind#toc5"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

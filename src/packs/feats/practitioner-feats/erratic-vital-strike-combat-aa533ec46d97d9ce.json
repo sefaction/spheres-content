@@ -1,0 +1,121 @@
+{
+  "_id": "aa533ec46d97d9ce",
+  "_key": "!items!aa533ec46d97d9ce",
+  "name": "Erratic Vital Strike (Combat)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:practitioner-feats:current:feat:erratic-vital-strike-combat",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/practitioner-feats#toc38",
+      "sourceSha256": "ef1c185f974bb36681eadb8e428dc6cf7fdc79accc930377adcfb8ee2a6c9cd5",
+      "descriptionSha256": "34b01811dcf73340e214b26e45607d9b8d6e863d63375979ef18dbbcd23f8d92",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "New Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:practitioner-feats:current:feat:erratic-vital-strike-combat",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> Baron's Otherworldly Citadel</sup></p>\n<p><strong>Prerequisites:</strong> Vital Strike</p>\n<p><strong>Benefits:</strong> When you use the Vital Strike feat, rather than applying the weapon’s base damage dice a second time, roll 1d4 to determine how many instances of the weapon’s base damage dice you gain with the attack (if you roll a 1, then only use the base damage without the modification for Vital Strike. If you roll a 4, then roll four instances of the weapon’s base damage dice).</p>\n<p>If you have the Improved Vital Strike feat, you may use 1d6 rather than 1d4.</p>\n<p>If you have the Greater Vital Strike feat, you may use 1d8 rather than 1d4.</p>\n<p>Apply precision-based damage (such as sneak attack damage) and critical hit damage only once for this attack. The damage bonus from your appropriate ability score modifier applies once, as do other damage bonuses, such as a bard’s inspire competence bonus.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/practitioner-feats#toc38\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/practitioner-feats#toc38"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

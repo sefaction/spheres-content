@@ -1,0 +1,121 @@
+{
+  "_id": "9654d0a75b151d4d",
+  "_key": "!items!9654d0a75b151d4d",
+  "name": "Thanatopic Spell (Metamagic, Mythic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mythic-metamagic-feats:current:feat:thanatopic-spell-metamagic-mythic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mythic-metamagic-feats#toc45",
+      "sourceSha256": "7394e84ad5f27961d20ec333e48e3ce7c66947f1756fffcb2045395a6eadfd86",
+      "descriptionSha256": "e025174cf11b1ab82e8dd4e6a6bb88b8b437542e83763b0196b2536554b7e0e3",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "mythic-metamagic-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mythic-metamagic-feats:current:feat:thanatopic-spell-metamagic-mythic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your mastery of the power of death extends even to the undead.</p>\n<p><strong>Prerequisite:</strong> Thanatopic Spell<sup>UM</sup></p>\n<p><strong>Benefit:</strong> If a living creature affected by your thanatopic spell is protected by an effect that grants resistance or immunity against death effects, negative levels, negative energy, or energy drain, you can attempt a caster level check as if using dispel magic against that effect; if the effect is a mythic effect, it is suppressed for a number of rounds equal to the original level of the thanatopic spell rather than being dispelled. If more than one such effect is present within the area or among the targets of your thanatopic spell, you may attempt the dispel for only one creature unless you expend one use of your mythic power as a swift action, in which case you may target a number of creatures equal to your mythic tier, applying one dispel check against all of them. Alternatively, you may expend one use of mythic power to cast a spell as a thanatopic spell (gaining only the normal benefits of a thanatopic spell, rather than the increased benefits outlined above) without preparing it as thanatopic in advance, taking extra casting time, or increasing the level of spell slot it uses.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mythic-metamagic-feats#toc45\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mythic-metamagic-feats#toc45"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

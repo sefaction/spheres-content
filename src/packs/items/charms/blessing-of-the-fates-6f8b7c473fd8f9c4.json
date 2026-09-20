@@ -1,0 +1,162 @@
+{
+  "_id": "6f8b7c473fd8f9c4",
+  "_key": "!items!6f8b7c473fd8f9c4",
+  "name": "Blessing of the Fates",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:charms:ultimate:item:blessing-of-the-fates",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/charms#toc9",
+      "sourceSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "e1d350378d49c7efd305229106fae5607a2dd1404680b3e27b1920f9b95eb9f6",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "charms",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:charms:ultimate:item:blessing-of-the-fates",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint (+1) or moderate (+2/+3) Fate; <strong>CL</strong> 3rd (+1), 6th (+2), or 9th (+3)<br>\n<strong>Slot</strong> any; <strong>Price</strong> 2,500 gp (+1), 10,000 gp (+2), or 22,500 (+3); <strong>Weight</strong> 1&nbsp;lb.</p>\n<p>This strip of paper seems strangely resistant to damage and has a wax seal that seems oddly easy to attach to different parts of the body as long as no other magical items are there. When worn, a blessing of the fates provides a +1 to +3 luck bonus to armor class.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Fate sphere, <strong>Cost</strong> 1,250 gp (+1), 5,000 gp (+2), or 11,250 gp (+3)</p>\n<h4>Item Variants</h4>\n<p>The blessing of the fates and the fragment of destiny can be crafted at the same price with an insight (Divination), morale (Mind), profane (Fate), or sacred (Fate) bonus. Players may want to stack different armor class or saving throw items by putting them in different slots. This can mildly boost their numbers, but also prevents them from wearing other items in those slots, so going overboard on that is likely to decrease their overall power rather than making them stronger. Alternatively, you can rule that characters may only equip one type of rare bonus for armor class and saves.</p>\n<p>Note that a creature’s circumstance, deflection, dodge, insight, luck, morale, profane, and sacred bonuses to armor class also apply to its CMD.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc9\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 1
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 2500,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/charms#toc9"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

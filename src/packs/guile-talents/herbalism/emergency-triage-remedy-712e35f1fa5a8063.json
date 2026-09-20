@@ -1,0 +1,124 @@
+{
+  "_id": "712e35f1fa5a8063",
+  "_key": "!items!712e35f1fa5a8063",
+  "name": "Emergency Triage (remedy)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:emergency-triage-remedy",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc41",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "995aaa1766f736c312d4d760857e4863d37481a4a735c37d304f9ba1793f2291",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Remedy Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:emergency-triage-remedy",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p>Whenever you use the Heal skill on a single creature, you can attempt either the same or different Heal skill use on an additional creature within your natural reach (including yourself), +1 creature per 4 ranks in the package’s associated skill. If you choose to administer different Heal skill uses, the action cost of the other uses must be the same or less than the initial action spent. You can attempt to reach multiple creatures this way at any point during a move action to move, attempting such a check when the creature enters your reach.</p>\n<p>You can use the Heal skill on yourself (and only yourself) as a standard action–or one step faster (standard &gt; move &gt; swift) if you can already do so as a standard action or faster. You can also provide long-term care to yourself.</p>\n<p>Lastly, you can administer first aid as an immediate action whenever you or a creature within reach would begin dying or suffer bleed damage.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc41\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc41"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

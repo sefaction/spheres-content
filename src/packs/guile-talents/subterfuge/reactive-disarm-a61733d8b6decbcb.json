@@ -1,0 +1,124 @@
+{
+  "_id": "a61733d8b6decbcb",
+  "_key": "!items!a61733d8b6decbcb",
+  "name": "Reactive Disarm",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:subterfuge:spheres-of-guile:guile-talent:reactive-disarm",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/subterfuge#toc22",
+      "sourceSha256": "8b57b227319f2d8db1313f34f0b88da6fa51923fa7155f44d165a790c7e42905",
+      "descriptionSha256": "8871ead4beb92ad8977e39569bf6b76ae87eee5028bdf3e79c88ee1fa530407f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Subterfuge Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:subterfuge:spheres-of-guile:guile-talent:reactive-disarm",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "subterfuge"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400\">Diamond Spheres: Hustle &amp; Bustle</a></sup></p>\n<p>Whenever a creature would make a ranged attack within your natural reach (excluding siege engines), you can attempt a Sleight of Hand check against the creature’s CMD by expending an attack of opportunity. If you succeed, you pluck the ammunition from the weapon used and negate the attack—if the attack is made with a firearm, you take a -10 penalty to this attempt (although you can negate this penalty by outwitting the creature as a cost), but on a success you also empty all ammunition loaded in the weapon.</p>\n<p>You can also choose to use this ability as an immediate action—if you do, on a success you can instead pivot the weapon to target another creature of your choice (excluding the creature wielding the weapon) with the attack, using the attack’s original attack roll against the new target.</p>\n<p>If you are maintaining the confident subtlety approach, you can take a 5-foot step as an immediate action (or as part of using this ability as an immediate action) whenever a creature would make a ranged attack to bring them within your natural reach.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/subterfuge#toc22\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/subterfuge#toc22"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -2,7 +2,70 @@
 
 Updated: 2026-09-20 (work began 2026-09-19 local time).
 
-## Current batch: packaged kit components
+## Current batch: systematic wiki intake
+
+- Active branch: content/systematic-intake. Draft PR #9:
+  https://github.com/sefaction/spheres-content/pull/9, stacked on #4. Issue #8
+  tracks the intake; #3 remains the broader catalog, #6 the native source labels.
+  No merge or release is authorized. The user authorized ten rolling module
+  backups, deleting the oldest excess copies after verified deployments.
+- Runtime/source implementation commit: fa07d6bc62a329f4088585516af52db8136f8094.
+  Documentation evidence follows it. Full clean verification passed on that commit:
+  formatting, lint, 24 tests, source/reference validation, complete compiled-record
+  round trips and two identical 679-file archives. Review ZIP SHA-256:
+  20d0d3b9e3666c93493e4582ccc1faabd66cde94ab80eda550a29ed2ca3b7070.
+- Full cached crawl: 2,652 pages, zero download errors; 11,019 candidates including
+  duplicates/legacy. Page retrieval is complete for this snapshot; exhaustive
+  entity extraction and semantic review remain explicitly incomplete.
+- Canonical drafts: 6,788 (117 classes, 1,536 class features, 3,674 feats,
+  835 Guile talents, 626 items). Repeat promotion plan imports zero, preserves
+  6,788 identities, maps 986 duplicates and holds 3,245 candidates. See the tracked
+  research/intake ledger and docs/SYSTEMATIC_INTAKE.md for filters and hold reasons.
+- The official compiler only reads one directory; the build now stages all nested
+  canonical records under stable ID filenames before compilation. Native PF1
+  consumables omit changeFlags; tests distinguish that profile from feats.
+- Reuse index: 37,708 records / 56 packs. One Roll Bonuses pack has an unexpected
+  lost directory and remains unavailable. No source pack was modified. Existing
+  matches for 384 imported documents await full suitability review.
+- Class audit has 2,340 level rows across 117 classes. Native associations remain
+  empty pending grant review. New passive/conditional mechanics, actions, usage
+  settings and optional-module contracts remain in the audit queues.
+- Four generated icons now use 256-pixel WebP, 47,774 bytes combined. Visual
+  inspection passed at 64, 128 and 256 pixels. Small PNGs preserve organized and
+  flat historical paths; original hashes/settings/sizes remain registered. The
+  remaining 6,784 imported documents are explicitly marked as needing artwork.
+- Narrow-sheet wrapping is out of scope. Optional integrations are versioned
+  source research, not runtime compatibility certification. Native source labels
+  are populated. No new compatibility claim or world migration is included.
+- Remote is fa07d6b alpha.4, deployed after clean verification and dry-run.
+  Installed bytes and eight external image hashes passed. Six backups remain;
+  none required pruning. No container/host restart occurred. Both CI jobs passed.
+- 2026-09-20 retention update: implement ten rolling backups, prune only after
+  installed-byte verification and saved receipt, preserve the newest rollback
+  copy, and validate exact paths/identities/no nested links. Seven remote helper
+  tests pass, including real fixture pruning and failure guards.
+- Runtime acceptance: Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0, with only
+  ASC alpha.4 and the framework enabled. All five locked packs appear. Native
+  class, class-feature, feat, Guile talent, loot, equipment and consumable sheets
+  open with descriptions and source labels. Extra Magic Talent's WebP loads.
+  Native JSON import populated seven records on ASC Intake Acceptance in the
+  expected actor sections, inventory 5 lb / 3,570 gp. Initial class-derived
+  values were stale immediately after import; normal browser reload yielded
+  Blacksmith level 1, HP 10/10, BAB +1, Fort +2 / Ref +0 / Will +2. This is
+  native import acceptance; automated document drag remains unverified.
+- ASC Test Player can see all five packs, search and open Extra Magic Talent
+  with a read-only sheet, description, source and image. Browser error capture
+  is empty; PF1/framework deprecation warnings remain. Server daily debug log
+  through 10:56 local has 803 info records, zero warnings/errors; no daily error
+  file. Test world was deactivated through its native UI and returned to Setup.
+- Final installed semantic audit passed: all 6,788 pack documents match deployed
+  canonical sources exactly, non-pack bytes match the receipt, and all eight
+  external image hashes pass. Remote LevelDB was inspected through local copies.
+- Next safe step: review the intake coverage/hold and per-entity audit queues
+  with the user, then select a coherent artwork, reuse or semantic-review batch.
+  PRs #2/#4/#9 remain unmerged; no release or broader compatibility claim.
+
+## Prior completed batch: packaged kit components
 
 - User resolved delivery: package reviewed copies, preserving attribution and
   permitted artwork references. No optional source-module dependency is added.

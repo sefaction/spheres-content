@@ -1,0 +1,124 @@
+{
+  "_id": "b183b38f0c62f9a1",
+  "_key": "!items!b183b38f0c62f9a1",
+  "name": "Staunch Wounds (clarity, control)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:body-control:spheres-of-guile:guile-talent:staunch-wounds-clarity-control",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/body-control#toc40",
+      "sourceSha256": "ec7aa97e088675a010d37041d0a1d93fbcb23b1ec3b52a8948ffa9dd9985fbff",
+      "descriptionSha256": "b2ca64299a975bb82516e2be0caa6c98c94a202d7fdd2d3360f88846675fedc8",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Clarity, Contemplation, and Control Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:body-control:spheres-of-guile:guile-talent:staunch-wounds-clarity-control",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "bodyControl"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>While you meditate, as a (control) talent you reduce any ongoing or new bleed you experience by your operative ability modifier, and convert an amount of lethal damage taken from any given instance into nonlethal damage by the same amount which ignores any resistance or immunity to nonlethal damage you may possess. (Bleed damage returns to its usual value when your approach ends.)</p>\n<p>In addition, as a (clarity) talent you may either automatically stabilize when reduced to negative hit points or attempt an associated skill check to end any bleed damage affecting you as if you received magical healing (DC 15 or the Heal or caster level DC listed for the bleed effect).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/body-control#toc40\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/body-control#toc40"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

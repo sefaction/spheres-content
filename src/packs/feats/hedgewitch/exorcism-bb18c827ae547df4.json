@@ -1,0 +1,121 @@
+{
+  "_id": "bb18c827ae547df4",
+  "_key": "!items!bb18c827ae547df4",
+  "name": "Exorcism",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:hedgewitch:ultimate:feat:exorcism",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/hedgewitch#toc29",
+      "sourceSha256": "46b77426fb25469921cc4c30b0354a67fc85317fe025f3dd942f4c3786d5ed99",
+      "descriptionSha256": "b8be94571897a58d30b3223b4872d9d53e074255d4c8deb9be5a32679b46bea8",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Class Features > List of Paths",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:hedgewitch:ultimate:feat:exorcism",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The exorcist battles monsters on behalf of those who cannot do so themselves.</p>\n<p><strong>Class Skills:</strong> Knowledge (dungeoneering) (Int), Knowledge (planes) (Int), Knowledge (religion) (Int).</p>\n<p><strong>Path Benefit:</strong> The exorcist receives a competence bonus to her Knowledge skills equal to half her class level when attempting skill checks to identify the abilities and weaknesses of creatures.</p>\n<p><strong>Path Power:</strong> The exorcist has knowledge of 13 sanctions - symbols and signs that can repel, harm or even control different kinds of creatures. The exorcist can create a sanction as a standard action, and maintain it as a free action. The sanction appears as one or more glowing symbols moving in the air around the exorcist, often accompanied by loud sounds and changes in air pressure.</p>\n<p>Using or maintaining a sanction requires the exorcist to have a free hand and for her to be able to speak. The exorcist can use her sanctions for a number of rounds per day equal to her casting ability modifier + 4 at 1st level, plus an additional 2 rounds for every class level thereafter. The sanction does not need to be perceived to be effective, but does require line of effect.</p>\n<p>Each sanction affects creatures of one specific type within 30 feet, increasing by 5 feet every 4 levels after the 1st to a maximum of 50 feet at 17th level. The first time a creature is affected by a sanction - either by moving into range of the sanction or by beginning their turn within range - must attempt a Will saving throw against a DC equal to 10 + 1/2 her hedgewitch level + her casting ability modifier or any movement towards the exorcist requires twice as much movement (as if moving through difficult terrain), in addition to suffering from other effects determined by the sanction used. If a creature leaves the area of the sanction and then re-enters the area, or the exorcists stops the sanction and restarts it, they attempt a new saving throw. The sanction is a supernatural ability. The exorcist may not use a sanction which would affect herself. Whenever the exorcist makes a successful attack with an ability that requires an attack roll against a creature affected by her sanction, she may attempt to push them out of the sanctioned area as a free action. Treat this as a bull rush attempt that does not provoke an attack of opportunity, using her hedgewitch level + her casting ability modifier as her CMB.</p>\n<p>At 1st level, the exorcist may only have one sanction active at a time, but for every 4 levels beyond the first, she may have an additional sanction active, for a total of 5 sanctions at 17th level. A creature with multiple creature types can be affected by multiple sanctions simultaneously and attempts separate saving throws for each sanction.</p>\n<p>Each active sanction requires a standard action to create, and each uses up a round of the exorcist’s abilities to remain active.</p>\n<p>Each sanction also has an additional effect dependent on the sanction. Effects last as long as the creature is affected by the sanction.</p>\n<ul>\n<li><strong>Sign of Cleansing</strong> Any vermin creature that fails its saving throw against this sanction takes a -4 penalty to Constitution and is unable to affect others with any poison or disease abilities it might possess. This penalty increases to -8 at 11th level.</li>\n<li><strong>Sign of Lines</strong> This sanction imbues the world with civilization and civility, sickening those who are more used to the tribal style of life. Monstrous humanoids that fail their saving throw against this sanction are sickened. At 11th level, the penalties for being sickened by this sanction double.</li>\n<li><strong>Sign of Mortality</strong> This sanction strips away the thinking abilities of humanoid creatures. Any such creature that fails its save takes a -4 penalty to their Intelligence. In addition, the sanction interferes with the ability to use tools. Any humanoid creature within takes a -4 penalty to any skill checks that require tools, and a -4 penalty to any attack roll or damage roll that uses a manufactured weapon.</li>\n<li><strong>Sign of Noise</strong> This sanction interferes with the magic that animates non-living material. Constructs that fail their save against this effect are confused. This is not a mind-affecting effect.</li>\n<li><strong>Sign of Numbers</strong> The cold logic of this sanction strikes at the nature of fey creatures, twisting their minds. Fey creatures who fail their saving throw against this sanction take a -2 penalty to all d20 rolls and are unable to use or concentrate on any mind-affecting ability they possess.</li>\n<li><strong>Sign of Returning</strong> With this sanction, the world takes on a slight haziness that outsiders will instinctively recognize as a threat. Outsiders that fail their saving throws against this sanction lose all damage reduction, resistances and immunities imparted by their race or subtype, as well as any spell-like abilities common to their race or subtype. In addition, if the outsider is not currently on their home plane on existence, whenever the exorcist make a successful attack with a weapon or any sphere ability or when they successfully use a combat maneuver against them, they may use a swift action to return the creature to its home place of existence. The creature may attempt a Will save to negate the effect.</li>\n<li><strong>Sign of Stability</strong> This sanction takes on the form of a cold light emanating from the ground. Any ooze that fails its saving throw can only do half damage with any acid, fire, or cold damage attacks it possesses by virtue of being an ooze. In addition, it takes a -4 penalty to CMB, which increases to -8 at 11th level.</li>\n<li><strong>Sign of Starlight</strong> This sanction enhances the emotional impulses of the primitive brain that disrupt the magic that elevated magical beasts above their primal kin. Any magical beast that fails its saving throw against this sanction takes a -4 penalty to attack rolls and damage rolls with natural weapons, and also loses the ability to speak or understand any form of language. This can prevent spellcasting.</li>\n<li><strong>Sign of Stone</strong> This sanction adds the weight of solidity to those creatures that are innately unnatural. Aberrations that fail their saving throw are partially turned to stone. They take a -4 penalty to Dexterity and can not use any polymorph abilities. This penalty increases to -8 at 11th level.</li>\n<li><strong>Sign of Sunlight</strong> The sanction against undead takes the form of a bright light that duplicates the effect of sunlight (including harming those vulnerable to sunlight). Any undead within the sanctioned area that fails its Will save is partially blinded and can not see beyond 20 feet while using normal vision, low-light vision or darkvision. They also lose the ability to use any fear abilities they possess by virtue of being undead.</li>\n<li><strong>Sign of Teeth</strong> Animals instinctively know the sanction of a predator. When they fail their saving throw against this sanction, they are frightened. This is a fear effect but does not stack with other forms of fear.</li>\n<li><strong>Sign of Torpor</strong> The enervating properties of this sanction causes fatigue in any draconic creature that fails its saving throw.</li>\n<li><strong>Sign of Winter</strong> This sanction draws water out of plant matter, weakening them. Any plant creature that fails its saving throw against this sanction takes a -4 penalty to Strength. This penalty increases to -8 at 11th level.</li>\n</ul>\n<p><strong>Path Secrets:</strong> A hedgewitch with the exorcism path adds the following secrets to those she may select:</p>\n<ul>\n<li><strong>Enduring Exorcism:</strong> The exorcist may sanction for 6 additional rounds per day. If she can not sanction, she may sanction for 6 rounds per day.</li>\n<li><strong>Kinslayer:</strong> The exorcist may sanction creatures of her own type. When she sanctions creatures of her own type, she gains a +2 insight bonus to the saving throw DC. When she sanctions creatures of her own type, she may make any number of creatures within range of the sanction immune to that sanction.</li>\n<li><strong>Nemesis Sanction:</strong> The exorcist may focus her sanction against a single target within 30 feet, + 5 feet per class level after the 1st. When used this way, the target is considered sanctioned regardless of their location, and if they fail their saving throw against the sanction, they are entangled. This sanction does not prevent her from having multiple sanctions active, and she may have both conventional and nemesis sanctions active simultaneously, or have multiple nemesis sanctions active against the same or different targets. She may use the nemesis sanction against a creature of her own type.</li>\n<li><strong>Rattling Sanction:</strong> As a standard action, the exorcist may do 1d8 nonlethal damage per 2 class levels to a single creature under the effect of her sanction. This works even if the creature is normally immune to nonlethal damage. She may spend a spell point to instead affect a number of creatures under the effect of her sanction equal to 1/2 her class level (minimum 1).</li>\n<li><strong>Subtle Sanction:</strong> The exorcist may use and maintain sanctions without speaking and without needing to use her hands.</li>\n<li><strong>Threat of Force:</strong> Allies adjacent to creatures affected by any of the exorcist’s sanctions are considered to be flanking them.</li>\n<li><strong>Warding Sanction (requires Protection sphere):</strong> She may use her class level as her caster level for any wards she creates. This stacks normally with caster levels gained from other sources. As a full-round action, the exorcist may create a ward and activate a sanction.</li>\n</ul>\n<p><strong>Path Grand Secrets:</strong> A hedgewitch with the exorcism path adds the following grand secrets to those she may select:</p>\n<ul>\n<li><strong>Bloodlust:</strong> Whenever the exorcist activates a sanction, she may choose a weapon in her hand to gain the bane special ability against the type of creature her sanction works against. This lasts for as long as the sanction does, or until she chooses another type. If she chooses a type that requires her to choose a sub-type (such as humanoid or outsider), she must choose a sub-type, but may change this subtype whenever she maintains her sanction.</li>\n<li><strong>Counterspelling Sanction:</strong> Whenever a creature affected by the exorcist’s sanction uses a spell, spell-like ability, or sphere ability, she may counterspell it as if she had the Counterspell Mastery feat as an immediate action. If she has the Counterspell feat, this becomes a free action.</li>\n<li><strong>Greater Sanction:</strong> The range of the exorcist’s sanction increases by 20 feet.</li>\n<li><strong>Irresistible Force:</strong> When the exorcist attempts to push a creature out of her sanctioned area with her sanction ability, a bull rush maneuver, or any ability that works as a bull rush, she receives a +10 bonus to the attempt.</li>\n<li><strong>Moral High-Ground:</strong> The exorcist receives a +2 bonus to the DC of her sanction.</li>\n<li><strong>Remove Defenses:</strong> When a creature fails their saving throw against the exorcist’s sanction, they lose all damage reduction and resistance to spell damage until the beginning of their next turn.</li>\n</ul>\n<p><strong>Path Mastery:</strong> While the exorcist’s sanction is active, any attack or ability that includes her as a target has a 50% chance of failing to affect her if it originates from a type of creature she is currently sanctioning, even if that creature is not currently affected by her sanction.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/hedgewitch#toc29\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/hedgewitch#toc29"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

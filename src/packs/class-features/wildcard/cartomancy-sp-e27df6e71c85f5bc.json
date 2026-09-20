@@ -1,0 +1,121 @@
+{
+  "_id": "e27df6e71c85f5bc",
+  "_key": "!items!e27df6e71c85f5bc",
+  "name": "Wildcard: Cartomancy (Sp)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:wildcard:current:class-feature:cartomancy-sp",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/wildcard#toc2",
+      "sourceSha256": "20221fac27d8611d184fe297487329dc8f4a77cdb96ee11ef29bae57306bf096",
+      "descriptionSha256": "c253cb019cd8852c5066a0db152b66c9e0b7227f322840a85ae21eed10e06732",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:wildcard:current:class-feature:cartomancy-sp",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<h3>Overview</h3>\n<p>A wildcard's primary source of power stems from his ability to manipulate fate through the use of cards. It matters not whether or not the cards are meant to be divinatory in nature, or even if he is divining with a whole deck, for it is the meaning that he gives his cards and the story that he weaves while using them that gives the cards their power. To this end, any old deck will do, so long as the wildcard is consistent with his storytelling.</p>\n<p>The stories of the future told by a wildcard's cards are called portents. Portents are spell-like abilities with associated schools of magic that come in three varieties, least, lesser, and greater, reflecting the increasing power level of the fate associated with that particular card. Treat portents as divine spells, and, by extension, a wildcard as a divine spellcaster. This means feats like Spell Focus (enchantment) properly increases the DCs of portents with that school, an antimagic field blocks portents, and so on. A wildcard's portents can be counterspelled by any spell of sufficient level with the same school as the portent being cast. A spell must be at least 1st level to counterspell a least portent, 2nd level to counterspell a lesser portent, and 4th level to counterspell a greater portent. Similarly, when the wildcard is forced to make concentration checks, calculate concentration DCs as though least portents were 1st-level spells, lesser portents were 2nd-level spells, and greater portents were 4th-level spells.</p>\n<p>Regardless of level, a wildcard's collection contains all of his deck's portents. There is never any need to go hunting for portents like a wizard goes hunting for spells. Like other divine spellcasters, a wildcard simply knows all of his magic innately. He may simply be unable to place more powerful portents into his \"active deck\", explained below, until he reaches sufficient level.</p>\n<p>Every portent has a somantic component (presenting the card), as well as a verbal component (telling the story). A wildcard must have a Charisma score equal to at least 11 to play least portents, at least 12 to play lesser portents, and at least 14 to play greater portents. The Difficulty Class (DC) for a saving throw against a cartomancer's portent is 10 + 1/2 the wildcard's class level + the wildcard's Charisma modifier.</p>\n<p>For the purpose of the magnitude of effect of his portents, the wildcard has a cartomancer level equal to his wildcard level.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/wildcard#toc2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/wildcard#toc2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

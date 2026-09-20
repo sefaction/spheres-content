@@ -1,0 +1,124 @@
+{
+  "_id": "cd1dfc7f4ad3b919",
+  "_key": "!items!cd1dfc7f4ad3b919",
+  "name": "Travel Papers (retainer, supply)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:faction:spheres-of-guile:guile-talent:travel-papers-retainer-supply",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/faction#toc33",
+      "sourceSha256": "c0949a2288b14f9bce4a04a73230598f8b6178c048d9a36fc6899ead8b33b209",
+      "descriptionSha256": "e695cec2b6a854398bed4d2018ba1be41e8c415249f153122b07d3ee6ebbce03",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Retainer Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:faction:spheres-of-guile:guile-talent:travel-papers-retainer-supply",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "faction"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>If you have the (retainer) package, your retainer can be a driver. If you have the (supply) package, you can always trade up to ten common mounts for fresh ones of the same kind anywhere you could requisition with just 5 minutes of interaction at no cost.</p>\n<p>You also gain the following requisition option.</p>\n<ul>\n<li><strong>Transportation (1 Authorization):</strong> Your faction provides a locally common vehicle for you and up to nine allies as a temporary resource if passage on it (including any tolls or other cost for your route) is within your budget. Your destination must be a landmark relevant to your faction's interests (for example, a druidic dolmen circle would be significant to a wilderness faction) or a settlement. If your destination is more than 1 day away and not a place where you could requisition, your transportation takes 8 hours to prepare for departure. Unless you go to another place where you could also requisition, you do not regain the authorization you spent until the transport returns to such a place. You also receive necessary paperwork like visas; hard-to-get ones might be forged (Linguistics DC to detect equals 20 + your ranks in your associated skill).</li>\n</ul>\n<p><strong>Driver</strong><br>\n<strong>Role</strong> <strong>1 Authorization</strong> get you where you intend to go via a reasonably safe route, including transporting you away from unexpected danger as quickly as possible (noncombatant), <strong>2 Authorizations</strong> retrieve you and get you away from danger as quickly as possible (noncombatant);<br>\n<strong>Skills</strong> (3 primary, 3 secondary) Craft (carpentry), Craft (ships), Handle Animal, Knowledge (geography), Knowledge (nature), Profession (driver), Profession (pilot), Profession (sailor), Ride;<br>\n<strong>Trade Tradition</strong> adroit granting Navigation;<br>\n<strong>Ability Scores</strong> 15 in one, 10 in each of the rest; <strong>Hit Dice</strong> d8 (5 hp per level); <strong>Base Attack Bonus</strong> medium; <strong>Saves</strong> Fort (poor), Ref (poor), Will (good); <strong>Special</strong> The driver’s group’s overland movement is never slowed by more than half, regardless of terrain. <strong>Equipment</strong> Vehicle and any propulsion animals together worth up to your permanent resource budget times the number of authorizations spent.</p>\n<p>If you have at least 15 ranks in the associated skill and have the (retainer) package, you also gain the following option.</p>\n<ul>\n<li><strong>Teleportation (1+ Authorization):</strong> After 8 hours of preparation, a spellcaster teleports you and up to nine other creatures to anywhere else you could requisition, even on another plane of existence. If you also pay 1,000 gp or a second authorization, you can be teleported anywhere on the same planet that is not immediately dangerous and that you have a detailed description of (as if with greater teleport). Protections you provide factor into whether the faction considers the destination immediately dangerous, but any significant expectation of combat or damage (such as from many elemental or evil planes) is unacceptable.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/faction#toc33\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/faction#toc33"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

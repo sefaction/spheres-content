@@ -1,0 +1,124 @@
+{
+  "_id": "5919e341c4ceb6a6",
+  "_key": "!items!5919e341c4ceb6a6",
+  "name": "Clever Charlatan",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:subterfuge:spheres-of-guile:guile-talent:clever-charlatan",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/subterfuge#toc10",
+      "sourceSha256": "8b57b227319f2d8db1313f34f0b88da6fa51923fa7155f44d165a790c7e42905",
+      "descriptionSha256": "6ef303c37d1828685becfacc27bd76bd8cdb9597c9779031aa38f6da8a5d9a3d",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Subterfuge Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:subterfuge:spheres-of-guile:guile-talent:clever-charlatan",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "subterfuge"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can reveal a plan to be a useful item you prepared or stole or a minor secret you learned in disguise. Suitable items include any clothing or equipment for looking the part of a disguise. You can spend one plan to reveal one item of negligible value or piece of information you could have reasonably gained from observing as an ordinary bystander or in a disguise that would not have been studied closely. These might include having a copy of a key you could have stolen from someone in a city street, knowing a password from shadowing a guard talking off-duty, or having a guard uniform stolen from a laundress. If you produce a disguise this way, you can reveal the plan as part of applying it with fast disguise. If you produce any other stolen item, revealing it is a full-round action.</p>\n<p>You must attempt a Sleight of Hand check to determine if you successfully took the item you intended. The DC for this check is set by the GM, generally either DC 10 + Perception modifier of the creature you stole from or DC 10 + twice the highest challenge rating among all guardians of the area. If you succeed and the item is a suitable one, you have the item you intended. Unless you succeed by 5 or more, however, the stolen item is discovered to be missing at around the same time you reveal it.</p>\n<p>If you also possess the Layered Disguise talent, you can also cleverly plan just the right disguise to hide under your outer disguise. You spend this plan when you apply the layered disguise, cannot regain that plan while you continue to wear the disguise, and do not reveal what the disguise underneath is until your outer disguise is doffed.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/subterfuge#toc10\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["plan", "utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/subterfuge#toc10"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

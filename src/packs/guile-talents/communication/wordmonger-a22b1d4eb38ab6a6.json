@@ -1,0 +1,124 @@
+{
+  "_id": "a22b1d4eb38ab6a6",
+  "_key": "!items!a22b1d4eb38ab6a6",
+  "name": "Wordmonger",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:communication:spheres-of-guile:guile-talent:wordmonger",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/communication#toc27",
+      "sourceSha256": "b5e574a0f0ac283ac666727aa0371c0597770e76fda9dc332a981db3d90c6c36",
+      "descriptionSha256": "3462466b9a70fd98387a68ee3c428a082a295cebe6e61061c267472fbe7f6743",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Communication Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:communication:spheres-of-guile:guile-talent:wordmonger",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "communication"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can gather information in 1d4 x 10 minutes or as a plan. Revealing this plan is a swift action. When you reveal this plan, you attempt a Diplomacy check to gather information. You can take 10 on this check.</p>\n<p>In addition, when you request someone give you information, you can spend 1 use of skill leverage to goad them into accidentally telling you more than they meant to. That might mean giving you a partial clue even while refusing or spilling a vital tactical detail when they meant to just give you a vague outline of the situation. You cannot coax extra information out of the same person this way again for 24 hours.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/communication#toc27\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["plan", "utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/communication#toc27"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

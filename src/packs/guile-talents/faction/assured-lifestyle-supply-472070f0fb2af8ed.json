@@ -1,0 +1,124 @@
+{
+  "_id": "472070f0fb2af8ed",
+  "_key": "!items!472070f0fb2af8ed",
+  "name": "Assured Lifestyle (supply)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:faction:spheres-of-guile:guile-talent:assured-lifestyle-supply",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/faction#toc37",
+      "sourceSha256": "c0949a2288b14f9bce4a04a73230598f8b6178c048d9a36fc6899ead8b33b209",
+      "descriptionSha256": "56231a4f7a22c1df68daa6f006aee401fab2f1add5dd290925cb9f0b17f5ea09",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Supply Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:faction:spheres-of-guile:guile-talent:assured-lifestyle-supply",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "faction"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your faction provides you with an average lifestyle, including an apartment or modest house. You are given one set of clothing befitting a respectable member of polite society, which is worth up to your permanent resource budget. You also gain the following requisition options:</p>\n<ul>\n<li><strong>Accommodation (0 Authorizations):</strong> You are provided a night’s stay in a private inn room or similar accommodations on faction property.</li>\n<li><strong>Camping Gear (1 Authorization):</strong> You and up to five companions are provided a week’s worth of rations and camping supplies as a temporary resource.</li>\n<li><strong>Exchange Attire or Housing (1 Authorization):</strong> Your faction exchanges one home or set of clothing for another.</li>\n</ul>\n<p>If you possess at least 5 ranks in the associated skill, you are guaranteed a wealthy lifestyle and a sizable home or suite of fine rooms. Your clothing is suitable for a rich commoner or minor courtier and includes modest jewelry.</p>\n<p>With at least 10 ranks in the associated skill, your lifestyle is extravagant. You have a mansion, castle, or other grand home. When traveling, you can use a fine townhouse or suite of rooms in a mansion or castle. Your clothing can impress even royalty and includes a few pieces of fine jewelry.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/faction#toc37\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/faction#toc37"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

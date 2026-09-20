@@ -1,0 +1,124 @@
+{
+  "_id": "eb958490c25b8e62",
+  "_key": "!items!eb958490c25b8e62",
+  "name": "The Bonds Forged In War (act)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:performance:spheres-of-guile:guile-talent:the-bonds-forged-in-war-act",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/performance#toc25",
+      "sourceSha256": "e87c472686da47048b3d9fcee074982f8ef19002718047ad36360dcfbd01dd3b",
+      "descriptionSha256": "9e30273ef8ab8a943b6af7ac609a4750725e545c15e7227c8782d6e2affae718",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Act Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:performance:spheres-of-guile:guile-talent:the-bonds-forged-in-war-act",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "performance"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You speak of the bonds forged between a small group of soldiers; as the group slowly dwindles, their ferocity and determination grows.</p>\n<p><strong>Relentless (approach):</strong> Allies in the area can postpone the start of any unwanted emotion effects for 1 round, plus 1 round per 5 ranks in this package’s associated Perform skill you possess. After this period, the effect’s duration begins as normal.</p>\n<p><strong>Forged in Blood (scene, standard action):</strong> Whenever an enemy successfully damages an ally in the area, all other allies within the area gain a +1 morale bonus to attack and damage rolls against the attacker until the end of the attacker’s next turn; this bonus is cumulative to a maximum equal to your operative ability modifier (minimum 1).</p>\n<p><strong>Fight for Your Life (scene, move action):</strong> All allies in the area gain a number of temporary hit points equal to 2 + your operative ability modifier (minimum 1). These temporary hit points are replenished for an ally whenever they confirm a critical hit.</p>\n<p><strong>Stand Together (finale, standard action):</strong> For 1 minute, allies in the area gain damage reduction 1 that cannot be overcome and they do not immediately fall unconscious when they are reduced to 0 hit points or below, unless they choose to. Allies who benefit from this ability are still disabled, but do not suffer damage after taking a standard action. The value of the damage reduction increases by 1 for every 3 ranks you possess in the associated Perform skill.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/performance#toc25\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/performance#toc25"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

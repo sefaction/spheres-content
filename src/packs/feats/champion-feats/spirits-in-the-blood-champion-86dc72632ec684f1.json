@@ -1,0 +1,121 @@
+{
+  "_id": "86dc72632ec684f1",
+  "_key": "!items!86dc72632ec684f1",
+  "name": "Spirits In The Blood (Champion)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:champion-feats:current:feat:spirits-in-the-blood-champion",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/champion-feats#toc98",
+      "sourceSha256": "ebaf5901af64f25a2ba1fcec58cda3bfddace06fab20921fddcf3e21096f40af",
+      "descriptionSha256": "af3e2241918d7b7673937c9105c89af7c7290468660c430b7476f036949fc634",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Champion Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:champion-feats:current:feat:spirits-in-the-blood-champion",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Barroom sphere, Blood sphere.</p>\n<p><strong>Benefit:</strong> You may consume an additional number of alcoholic beverages each day equal to 1/2 your Blood sphere caster level (minimum 1) before becoming sickened for 1 hour per drink consumed above your maximum.</p>\n<p>In addition, you gain the following (quicken) and (still) effects:</p>\n<ul>\n<li>As a (quicken), you may grant one creature under the effects of your blood control the drunk status, as though they consumed an alcoholic drink. Gaining the drunk status this way counts towards the maximum number of drinks the target may consume each day before becoming sickened for 1 hour per drink consumed above their maximum. If the target already has the drunk status, they may instead choose to either immediately stand up from a prone position without provoking attacks of opportunity or gain a +2 dodge bonus to their AC and Reflex saves until the end of their next turn.</li>\n<li>As a (still), you may distill the target’s blood into nearly-pure alcohol for the duration of your blood control. When another creature deals damage to the target with a bite attack, they must succeed at a Fortitude saving throw or gain the drunk status and be nauseated for 1 round. However, the target gains vulnerability to fire as their blood becomes incredibly flammable.</li>\n</ul>\n<p><strong>Normal:</strong> A character can consume a number of alcoholic beverages each day equal to 1 plus double his Constitution modifier before being sickened for 1 hour per the number of drinks above this maximum.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/champion-feats#toc98\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/champion-feats#toc98"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

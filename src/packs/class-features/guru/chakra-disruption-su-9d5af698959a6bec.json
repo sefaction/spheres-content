@@ -1,0 +1,121 @@
+{
+  "_id": "9d5af698959a6bec",
+  "_key": "!items!9d5af698959a6bec",
+  "name": "Guru: Chakra Disruption (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:guru:current:class-feature:chakra-disruption-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/guru#toc8",
+      "sourceSha256": "50d370f567be51d3590d917613b1dbbd34392de29048f09cf31047697b0643fe",
+      "descriptionSha256": "8dd398261a0845f61373989ba4a963b44ec7934fa516af2341bdbd2bb8459745",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:guru:current:class-feature:chakra-disruption-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, and every three levels thereafter, a guru gains the ability to inflict debilitating status effects on his opponent. The guru may make a single attack while using his gentle touch ability as a standard action, selecting a disruption he knows and applying it to this attack. The target suffers the chosen disruption unless they succeed on a Fortitude save equal to 10 + Wisdom Modifier + 2 per point of essence invested in the guru’s gentle touch ability. A single target cannot suffer the effects of more than one disruption at a time, though the guru can change the disruption currently inflicted on a target with subsequent successful uses of this ability. Unless otherwise noted such conditions end after a number of rounds equal to the guru’s Wisdom modifier as the afflicted creature’s body slowly reregulates itself.</p>\n<p>At 3rd level, the guru can disrupt the flow of energy in an opponent’s hands, making them clumsy and uncoordinated; opponents affected by this disruption take a –1 penalty to all attack rolls made with their hands or equivalent limbs (for example, a dragon’s primary claw attacks). This penalty increases by 1 per point of essence invested in the gentle touch ability.</p>\n<p>At 6th level the guru can damage the flow of essence through an enemy’s feet, slowing and hampering them. An enemy affected by this disruption has their movement reduced by 10 feet +5 feet per point of essence invested (minimum 5).</p>\n<p>At 9th level, a guru can block the flow of energy through an enemy’s shoulders causing his movements to become slow and predictable, too weak to properly hold a shield. Enemies affected by this disruption have both their shield and Dexterity bonuses to AC each lowered by 1 (minimum 0). These penalties increase by 1 per point of essence invested.</p>\n<p>At 12th level a guru can sever chakra connections associated with an opponent’s Headband slot, causing the opponent to be blinded for 1 round + 1 round per point of essence invested.</p>\n<p>At 15th level the guru can disrupt the delicate chakra connections in an opponent’s head slot, causing them to be stunned for 1 round.</p>\n<p>At 18th level the guru can almost completely block the flow of essence throughout an opponent’s body, causing them to become exhausted.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/guru#toc8\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/guru#toc8"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

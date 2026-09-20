@@ -1,0 +1,162 @@
+{
+  "_id": "f604a3fd2d46d848",
+  "_key": "!items!f604a3fd2d46d848",
+  "name": "Amulet of Emotional Weather",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:charms:ultimate:item:amulet-of-emotional-weather",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/charms#toc4",
+      "sourceSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "c99dcf0750cec1996fbe3cac35edd015bad4a13f50ce115a31f27a78f8a52342",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "charms",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:charms:ultimate:item:amulet-of-emotional-weather",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> moderate Weather; <strong>CL</strong> 10th<br>\n<strong>Slot</strong> neck; <strong>Price</strong> 45,000 gp; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThe amulet of emotional weather is a beautiful piece crafted from clear diamonds of multiple sizes. However, depending on the wearer’s mood, they can change the color to blue (sad), red (angry), green (happy), or yellow (scared). The amulet of emotional weather is considered a cursed item, and cannot be taken off except with the aid of magic such as the Break Enchantment talent from the Life sphere.</p>\n<p>The emotional state of the wearer of an amulet of emotional weather becomes reflected in the weather around them. This is considered a casting of control weather with a caster level of 10; the weather within 200 feet of the wearer will change at a rate of 1 severity level per round as normal, until it reaches severity level 5 in the determined category.</p>\n<p>If the wearer feels particularly sad, the weather around them becomes Precipitation severity 5. If they feel particularly angry, the weather becomes Heat severity level 5. If they feel particularly happy, the weather becomes Wind severity 5, and if they feel particularly scared, the weather becomes Cold severity 5.</p>\n<p>The exact nature of what constitutes a strong emotion is determined by both the player and the GM; if the player says a particular situation would make his character feel happy this would trigger the amulet, and if the GM notes that the character is behaving particularly sad, they might note the amulet has activated. Other situations, such as magic or conditions that alter emotions, would also trigger the amulet; if the character is subject to an effect that renders them shaken, frightened, or panicked, this counts as being scared, while being under a mind-altering effect that grants a morale bonus would count as being happy. Spells such as overwhelming grief would count as being sad, while the rage class feature or the eliciter’s touch of rage power would count as being angry.</p>\n<p>A character can create an emotional state inside themselves to fool the amulet by attempting a DC 20 Perform (act) check as a move action. In all other cases, the GM is the final arbiter of what constitutes feeling a respective emotion when such things are in dispute.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Weather sphere (Severe Weather); <strong>Cost</strong> 22,500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 1
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 45000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "neck",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/charms#toc4"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

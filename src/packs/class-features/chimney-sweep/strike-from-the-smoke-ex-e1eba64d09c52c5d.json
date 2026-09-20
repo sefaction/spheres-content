@@ -1,0 +1,121 @@
+{
+  "_id": "e1eba64d09c52c5d",
+  "_key": "!items!e1eba64d09c52c5d",
+  "name": "Chimney Sweep: Strike from the Smoke (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:chimney-sweep:current:class-feature:strike-from-the-smoke-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/chimney-sweep#toc4",
+      "sourceSha256": "568348ae5e404b4ed19891649510777325aa6fc9039d07785993d0ccf5278377",
+      "descriptionSha256": "9f1089d4455da99d89a4505097a1f119603e133ef978a561308bdbcadf96fd3f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:chimney-sweep:current:class-feature:strike-from-the-smoke-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The chimney sweep is well-trained in taking his foes off guard and using this against them. At 1st level, whenever he makes a melee attack against a foe from whom he has any degree of concealment, he deals an additional +1d6 damage. This is precision damage and is not multiplied on a critical hit. Additionally, if he rolls an even number on this bonus damage die, the target is shaken for 1 round. A Will save (DC 10 + chimney sweep level) negates the shaken effect, this is a fear effect.</p>\n<p>At 4th level, and every three levels thereafter, he deals an additional +1d6 damage with strike from the smoke. For every even number rolled on his strike from the smoke damage dice, the target is shaken for 1 consecutive round. At 8th level, each round of shaken is instead a round where the target is frightened. At 15th level, this increases to the panicked condition.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/chimney-sweep#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/chimney-sweep#toc4"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

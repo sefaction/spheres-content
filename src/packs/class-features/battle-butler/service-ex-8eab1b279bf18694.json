@@ -1,0 +1,121 @@
+{
+  "_id": "8eab1b279bf18694",
+  "_key": "!items!8eab1b279bf18694",
+  "name": "Battle Butler: Service (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:battle-butler:current:class-feature:service-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/battle-butler#toc32",
+      "sourceSha256": "9c0dcfdaca321ac488c9c62ad7bdf91c7f25f2cc1b96429d06acedb3e5d59cfb",
+      "descriptionSha256": "96cccb1092ceb9bb78ea31e0bfed42a1b0c15d9e5662ba50f69551197fcaae5b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:battle-butler:current:class-feature:service-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A battle butler is mentally conditioned to be loyal and dedicated to whoever holds their contract. To reflect this, the battle butler has a service meter. When a battle butler’s service meter is high, he is a placid killer capable of extreme grace. However, should circumstances become dire and his charge is in danger- he explodes into a more savage and aggressive mental state, brought on by his years of mental conditioning. This meter begins full at the beginning of combat at 10 points and resets to 10 one minute after combat ends. Each time his master, as defined by the master class feature, is successfully struck by an enemy’s attack and is dealt damage as a result this meter is lowered by 1 point. Any time an enemy who has struck his master is killed, the battle butler’s meter is restored 3 points. The battle butler must have had a hand in killing it (GM is the final arbiter).</p>\n<p>A battle butler gains a morale bonus to damage rolls and either a morale bonus or penalty to critical confirmation rolls based on his service meter.</p>\n<strong>Table: The Service Meter</strong>\n<table>\n<tbody><tr>\n<th>Service Meter Level</th>\n<th>Morale Bonus to Damage Rolls</th>\n<th>Morale Bonus/Penalty on Critical Confirmation Rolls</th>\n<th>Notes</th>\n</tr>\n<tr>\n<td>10</td>\n<td>+0</td>\n<td>+4</td>\n<td></td>\n</tr>\n<tr>\n<td>9</td>\n<td>+0</td>\n<td>+3</td>\n<td></td>\n</tr>\n<tr>\n<td>8</td>\n<td>+1</td>\n<td>+2</td>\n<td></td>\n</tr>\n<tr>\n<td>7</td>\n<td>+1</td>\n<td>+1</td>\n<td></td>\n</tr>\n<tr>\n<td>6</td>\n<td>+2</td>\n<td>+0</td>\n<td></td>\n</tr>\n<tr>\n<td>5</td>\n<td>+2</td>\n<td>+0</td>\n<td>Can’t use tricks of the trade at 5 or below.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>+3</td>\n<td>-1</td>\n<td>No longer benefits from gentlemanly combat at 4 or below.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>+3</td>\n<td>-1</td>\n<td></td>\n</tr>\n<tr>\n<td>2</td>\n<td>+4</td>\n<td>-2</td>\n<td></td>\n</tr>\n<tr>\n<td>1</td>\n<td>+4</td>\n<td>-2</td>\n<td></td>\n</tr>\n<tr>\n<td>0</td>\n<td>+4</td>\n<td>-3</td>\n<td></td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/battle-butler#toc32\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/battle-butler#toc32"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

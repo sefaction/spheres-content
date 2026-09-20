@@ -1,0 +1,121 @@
+{
+  "_id": "6011218eaa380b0c",
+  "_key": "!items!6011218eaa380b0c",
+  "name": "Agent: Agent Ploys",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:agent:spheres-of-guile:class-feature:agent-ploys",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/agent#toc23",
+      "sourceSha256": "0a78d839d28638d323a529162671621aae42260b1dae059d81e613809c3febed",
+      "descriptionSha256": "89d9017b9640c10c9388a49a0fce811a42f2ca044dec9fb7dcfcac3d4d860dee",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:agent:spheres-of-guile:class-feature:agent-ploys",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>An agent can choose one of the following ploys at 1st level. It grants a skill sphere and a special ability. The agent’s ploy cannot be changed except by retraining. At 2nd level, the ploy grants an option for the devious technique class feature, which improves the discerning strike ability. At 6th level, the ploy grants a conspiratorial ploy ability related to completing missions alongside allies with varying skillsets. At 14th level, the ploy grants another way to use the always a clue class feature.</p>\n<h4>Agility [LG]</h4>\n<p><sup><strong>Source:</strong> Arcforge Players Compendium</sup></p>\n<p>The agent specializes in mobility and the use of terrain to their advantage.</p>\n<p><strong>Sphere:</strong> Athletics</p>\n<p><strong>Feature: Thrilling Engagement (Ex):</strong> When the agent or the target are balancing, climbing, airborne, or swimming, the agent may use discerning strike on the target as if they were denied their Dexterity bonus to AC.</p>\n<p><strong>Devious Technique Option: Confound:</strong> The agent’s continual darting assault leaves the target unable to respond to threats. The target becomes battered and cannot make attacks of opportunity for one round.</p>\n<p><strong>Swift of Foot (Ex):</strong> At 6th level, the agent gains an +20 foot enhancement bonus to all of their movement speeds. This bonus increases by 10 feet at 12th level and every 4 levels thereafter. An agent carrying a medium or heavy load loses this extra speed.</p>\n<p><strong>Conspiratorial Ploy: Try to Keep Up (Ex):</strong> Allies within 60 feet who can see or hear the agent benefit from any Athletics packages that the agent possesses. This does not grant the ally any other talents or benefits of the Athletics sphere, nor does it grant them skill ranks. Allies lose this benefit when they go 1 round out of range of the agent or are unable to see or hear the agent.</p>\n<p><strong>Always a Clue:</strong> When an agent succeeds at a skill check to move through an enemy’s threatened area without provoking an attack of opportunity, the agent can spend 1 use of skill leverage to deduce a location that the enemy is trying to reach or that they do not wish the agent to reach.</p>\n<h4>Bravado</h4>\n<p>The agent specializes in creating and exploiting distractions.</p>\n<p><strong>Sphere:</strong> Bluster</p>\n<p><strong>Feature: Distracting Attack (Ex):</strong> Whenever the agent makes an attack, they can attempt a Bluff or Intimidate check as a free action to either create a diversion or pose a menace (new Intimidate use) first. Only the target of the attack is distracted on a success and the agent is the subject of the diversion, but the creature remains distracted until the start of the agent’s next turn. The agent’s discerning strike also applies to creatures that they have distracted or made oblivious.</p>\n<p><strong>Devious Technique Option: Muddle:</strong> The target becomes uncertain for 1 minute. The target gets a -2 penalty to all attacks to hit the agent while uncertain this way, or -4 if the target is at least shocked. It can use a standard action to attempt to end the condition. At 6th level, the target must succeed at a Will save or the condition is shocked. At 10th level, a failed save makes the target confused or dumbfounded (agent’s choice) for 1 round and shocked for the rest of the minute. At 14th level, a failed save can make the target confused, dumbfounded, or stunned (agent’s choice) for 1 round and shocked for 1 hour.</p>\n<p><strong>Conspiratorial Ploy: Talk Over (Ex):</strong> Whenever one of the agent’s allies within 30 feet attempts a Bluff, Diplomacy, or Intimidate check, the agent can interrupt as an immediate action after seeing the die roll but before success or failure is determined. The agent attempts a Bluff or Intimidate check against DC 5 + the DC of the ally’s check. On a success, the agent distracts others from thinking through the ramifications of the ally’s attempt.</p>\n<p>There are no effects of the interrupted check’s success or failure except that the ally takes a –4 penalty on any attempt to try the same check on the same subject against the same target again for 24 hours.</p>\n<p><strong>Always a Clue:</strong> When an opponent fails a Bluff or Intimidate check to create a diversion, pose a menace, lie, or demand cooperation from the agent or the agent disbelieves an opponent’s illusion, the agent can spend 1 use of skill leverage to learn the nearest item that the opponent does not want the agent to find (or a specific one, if the agent knows one of the opponent’s motivations).</p>\n<h4>Deadeye [LG]</h4>\n<p><sup><strong>Source:</strong> Arcforge Players Compendium</sup></p>\n<p>The agent uses keen observational skills to pinpoint the weaknesses of enemies.</p>\n<p><strong>Sphere:</strong> Scout</p>\n<p><strong>Feature: In My Sights (Ex):</strong> Whenever the agent successfully scouts a creature or exceeds the Perception DC to learn a creature’s precise location by 10 or more, the agent ignores any cover or concealment the creature possesses until the next time that creature attempts a Stealth check. This does not allow the agent to ignore improved cover or total cover.</p>\n<p><strong>Devious Technique Option: Comprehend (Ex):</strong> The agent’s attack ensures that the target leaves no secrets. The agent may scout the target as a free action which can be taken outside their turn and gains a +5 circumstance bonus on all Knowledge, Perception, and Sense Motive checks attempted against the target. If the agent has already attempted such a check against the target and failed, the agent may reroll the check after inflicting this debilitating strike.</p>\n<p><strong>Ricochet Shot:</strong> At 6th level, when the agent hits an enemy with a discerning strike using a ranged weapon, the agent can forgo the effects of your debilitating strike to instead ricochet the projectile to a second target. The agent makes a ranged attack at –5 against the second target and deals normal damage (without discerning strike damage or devious technique) if the attack hits. The agent must have line of effect and line of sight both from the agent to the second target and from the first target to the second target. When determining attack penalties from range against the second target, count the full distance from you to the first target, and then the second target.</p>\n<p><strong>Conspiratorial Ploy: Expanded Sightlines (Ex):</strong> Allies within 60 feet who can see or hear the agent ignore the cover or concealment of any targets who do not have cover or concealment against the agent.</p>\n<p><strong>Always a Clue:</strong> When an agent succeeds at a skill check made to scout a target, the agent can spend 1 use of skill leverage to learn the target’s three highest skill modifiers (or three among the skill modifiers that are tied for the highest, chosen randomly).</p>\n<h4>Discipline</h4>\n<p>The agent specializes in mastery of the self and the subduing of others.</p>\n<p><strong>Sphere:</strong> Body Control</p>\n<p><strong>Feature: Shrink Away (Ex):</strong> The agent can end movement in any creature’s space by squeezing (an Acrobatics check is still required to enter an enemy’s space). The agent gains positional concealment whenever they squeeze which is lost until the start of their next turn after they take a hostile action. As long as they grapple a creature, the agent can also gain positional concealment from anyone who is not touching them until the grapple ends. The agent has cover against all attacks while squeezing into the space of a creature of the same size category or larger. They take no penalty from squeezing to attack with a light melee or natural weapon, and take no penalty to AC from squeezing against one-handed and two-handed melee weapons. The agent’s discerning strike also applies to creatures that they are grappling or that are in the agent's space.</p>\n<p><strong>Devious Technique Option: Inside Fighting:</strong> The agent keeps too close to the target for them to counterattack accurately. The target takes a –2 penalty to attack rolls (and combat maneuver checks) until the end of the target’s next turn. Against the agent, the penalty also applies to CMD. At 6th level and every four levels thereafter, the penalty increases by 1.</p>\n<p><strong>Clever Technique:</strong> At 6th level, the agent can choose one of the following as a swift action after their discerning strike hits:</p>\n<ul>\n<li>Attempt an Escape Artist check against the target, or</li>\n<li>Attempt a combat maneuver against the target that they have the Improved feat for from the following list: grapple or trip.</li>\n</ul>\n<p>At 10th level, if the agent’s skill check or combat maneuver check succeeds, the target is also entangled until the end of its next turn.</p>\n<p>At 14th level, the agent can attempt an Escape Artist check or combat maneuver as a free action once per round instead of a swift action.</p>\n<p><strong>Conspiratorial Ploy: Lead Meditation (Ex):</strong> Allies within 60 feet who can see or hear the agent while the agent is meditating can adopt the agent’s approach as a swift action to gain the benefits of the agent’s meditation and current (control) talent. They abandon the approach when they spend 1 round out of range of the agent or unable to see or hear the agent. If the ally abandons the approach while they and the agent can see or hear each other within 60 feet, the agent can choose one of their (clarity) talents as an immediate action and the ally gets the benefit of the chosen talent.</p>\n<p><strong>Always a Clue:</strong> When the agent succeeds at an Escape Artist check against an opponent, the agent can spend 1 use of skill leverage to learn whether each item the opponent carries is magical or not, which three are the most valuable, and the magic auras of those items.</p>\n<h4>Imposture</h4>\n<p>The agent specializes in being unrecognized.</p>\n<p><strong>Sphere:</strong> Subterfuge</p>\n<p><strong>Feature: Misleading Attack (Ex):</strong> As long as an opponent believes the agent is not taking a side in combat, the agent can make an attack against them as a subtle action using Sleight of Hand (page 70). This Sleight of Hand check always takes the –10 penalty for not slowing down (which can be reduced by the confident subtlety approach). If the target’s opposed Perception check fails against the agent’s Sleight of Hand check, they are denied their Dexterity bonus to AC against the agent’s attack.</p>\n<p>In addition, whenever the agent makes an attack, they can attempt a Sleight of Hand check as a free action to pin the blame on another creature who could attack the target. Success on the skill check causes the target to believe the attack was made by the chosen scapegoat. This check applies the same modifiers as if it were a Bluff check to lie that the other creature made the attack (so it is easier to frame someone who has already attacked than to frame a trusted confidante, and the absence of a drawn weapon might apply a penalty). If the agent’s check succeeds when the claim would cause the creature to believe they have been betrayed by an ally in combat or any other time it could have lasting consequences for either the tricked creature or the scapegoat, the tricked creature gets a Will save with a +4 bonus; on a successful save, the creature becomes uncertain for 1 round instead of being misled. A creature who attempts this saving throw, successful or not, is immune to this feature for 24 hours.</p>\n<p><strong>Devious Technique Option: Subtle Setup (Ex):</strong> The agent’s confusing antics keep the target off-balance. The target takes a –2 penalty to attack rolls until the end of the target’s next turn. Against the agent, these penalties also apply to AC (and CMD) and to skill checks. At 6th level, the agent can attempt a Bluff check to create a diversion that only distracts the target of the discerning strike as a free action; if the agent chooses the scapegoat of their successful misleading attack as the subject of the diversion, the agent automatically succeeds and the target is distracted by that creature until the end of the agent’s next turn. At 10th level, the penalty increases to –4. At 14th level, if the agent successfully distracts the target with this ability, that creature must succeed at a Will saving throw or be confused while distracted.</p>\n<p><strong>Swift Setup (Ex):</strong> At 6th level, the agent can as a swift action attempt a combat maneuver against the target that they just hit with discerning strike. The maneuver must be one that they have the Improved feat for from the following list: dirty trick, disarm, reposition, steal. At 14th level, the agent can make the combat maneuver as a free action instead of a swift action.</p>\n<p><strong>Conspiratorial Ploy: Consistent Story (Ex):</strong> When a creature fails their Perception check against the agent’s Disguise check, they take the agent’s appearance and those of the agent’s apparent allies for granted until they succeed at a Perception check against the agent’s Disguise check. That creature takes a –4 penalty to Perception checks against the Disguise and Sleight of Hand checks of the agent and the agent’s apparent allies and they take a –8 penalty to Sense Motive checks against lies the agent or the agent’s apparent allies tell that are believable given their appearances.</p>\n<p><strong>Always a Clue:</strong> When the agent succeeds at a Perception check against an opponent’s Disguise, the agent can spend 1 use of skill leverage to learn whether each item the opponent carries is magical or not, which three are the most valuable, and the magic auras of those items.</p>\n<h4>Instigator [LG]</h4>\n<p><sup><strong>Source:</strong> Arcforge Players Compendium</sup></p>\n<p>The agent specializes in exploiting the fear, anger, and disbelief of foes.</p>\n<p><strong>Sphere:</strong> Gladiator</p>\n<p><strong>Feature: Taunting Glower (Ex):</strong> When the agent moves through a space adjacent to a creature, they may spend martial focus to attempt an Intimidate check to demoralize, insult, or pose a menace against the creature.</p>\n<p><strong>Devious Technique Option: Brutalize:</strong> The agent capitalizes on the target’s uneasy state to deliver a decisive blow. If the target of the attack is angry, dumbfounded, enraged, frenzied, frightened, livid, panicked, prone, shaken, shocked, or uncertain, the agent treats any discerning strike damage dice that roll a 1 or 2 as if they had rolled a 3 instead.</p>\n<p><strong>Salt the Wound (Ex):</strong> At 6th level, whenever the agent successfully uses a devious technique on a target, the agent may boast as an immediate action.</p>\n<p><strong>Conspiratorial Ploy: Dogpile:</strong> Any penalties to AC, skill check DCs, and saving throws that come from the angry, dumbfounded, enraged, frenzied, frightened, livid, panicked, prone, shaken, shocked, or uncertain condition are increased by 2 against the agent and any allies of the agent within 60 feet of them.</p>\n<p><strong>Always a Clue:</strong> Whenever the agent succeeds at a Bluff or Intimidate check against one or more targets, the agent may spend 1 use of skill leverage to learn one minor motivation from each affected target or a major motivation from a single target.</p>\n<h4>Silence</h4>\n<p>The agent specializes in being unheard and unseen.</p>\n<p><strong>Sphere:</strong> Infiltration</p>\n<p><strong>Feature: Vanish into the Crowd (Ex):</strong> Any soft cover allows the agent to use Stealth at no penalty. If the agent loses cover or concealment while they are using Stealth, the agent does not break Stealth due to being revealed until they complete their next action or until the agent’s next turn ends (whichever is first).</p>\n<p><strong>Devious Technique Option: Trip Up:</strong> The agent undermines the target’s footing until the end of its next turn. The target takes a -10-foot penalty to its speeds and cannot take 5-foot steps or move using free, swift, or immediate actions. At 6th level, it cannot withdraw or draw a weapon as part of movement. At 10th level, the penalty increases by 5 feet. At 14th level, it cannot charge or run.</p>\n<p><strong>Efficient Infiltration:</strong> At 6th level, the agent can choose one of the following devious techniques as a swift action after hitting with discerning strike:</p>\n<ul>\n<li>Move 5 feet and gain positional concealment from the target until the end of the agent’s next turn, which makes it possible to use Stealth against the target</li>\n<li>Target an exposed item in the target’s space with fast sabotage</li>\n</ul>\n<p>At 10th level, if the agent successfully uses Stealth or fast sabotage on the target with this ability, the target must succeed at a Will saving throw or become shaken until the end of the agent’s next turn. At 14th level, the agent can move or sabotage as a free action once per turn instead of a swift action.</p>\n<p><strong>Conspiratorial Ploy: Coordinated Infiltration (Ex):</strong> Increase the Perception DC to hear the sounds of combat from you and your allies within 30 feet to 10 + your Stealth ranks (rather than the usual -10); this increase doesn't apply to innately loud effects such as firearms, fire bombs, or sonic attacks. Whenever an ally attacks, as an immediate action you can apply the effects of your throat punch to it if the attack qualifies.</p>\n<p><strong>Always a Clue:</strong> Whenever the agent succeeds at a Perception check to notice a trap, the agent can spend 1 use of skill leverage to deduce the location of the nearest item that the trap’s creator has hidden or protected.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/agent#toc23\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/agent#toc23"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "90d7d2ea06cb7815",
+  "_key": "!items!90d7d2ea06cb7815",
+  "name": "Ichor (harvest)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:survivalism:spheres-of-guile:guile-talent:ichor-harvest",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/survivalism#toc33",
+      "sourceSha256": "f08a002395ddf0d614719b1c74bdfc78b77500e0a93ea395e3e0354dcf980820",
+      "descriptionSha256": "8fb77c856b673d065553e6fde9bfee1d72d5abc501315ad08e6fcc4c565deeac",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Harvest Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:survivalism:spheres-of-guile:guile-talent:ichor-harvest",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "survivalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p><strong>Prerequisites:</strong> Survivalism sphere, associated skill 5 ranks.</p>\n<p><strong>Refinement DC:</strong> 25</p>\n<p>You can harvest and refine the magical essence from a creature, depending on the creature’s subtype (or one subtype of your choice if it possesses multiple, chosen when it is refined). Refined ichor can be applied to a weapon or up to 50 pieces of ammunition as a standard action (functioning as an oil), and lasts for 1 hour.</p>\n<ul>\n<li><strong>Aligned (chaotic, evil, good, or lawful subtype):</strong> When applied as an oil, the weapon deals +1d8 points of damage to creatures of the alignment associated with the ichor, as well as being treated as being aligned to the opposite alignment when bypassing damage reduction (for example, an ichor originating from a chaotic outsider would bypass DR/lawful).</li>\n<li><strong>Elemental (air, earth, fire, or water subtype):</strong> When applied as an oil, the weapon deals +1d8 points of damage on a successful hit (which stacks with similar sources, such as flaming), depending on the creature’s subtype: air (electricity), earth (acid), fire (fire), water (cold).</li>\n</ul>\n<p><strong>Potency:</strong> The additional damage increases by +1d8, +1d8 per 8 associated ranks, and half of this additional damage bypasses resistances and immunities.</p>\n<p><strong>Talisman:</strong> The ichor talisman’s wearer is subtly suffused with the planar energy of the ichor, gaining protective benefits depending on the subtype of the creature associated with the expended component:</p>\n<ul>\n<li><strong>Aligned (chaotic, evil, good, or lawful subtype):</strong> The wearer gains DR equal to your operative modifier (minimum 1) that is bypassed by creature’s of either the opposite or same alignment associated with the ichor (chosen when the talisman is created). For example, ichor originating from an evil outsider could either grant DR/evil or DR/good. Additionally, the wearer radiates a moderate aura of the same alignment associated with the ichor, as well as reducing any other auras they may produce by 10 Hit Dice.</li>\n<li><strong>Elemental (air, earth, fire, or water subtype):</strong> The wearer gains energy resistance 5, depending on the creature’s subtype: air (electricity), earth (acid), fire (fire), water (cold). This resistance stacks with similar sources.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/survivalism#toc33\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/survivalism#toc33"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

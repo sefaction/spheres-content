@@ -47,3 +47,18 @@ interpretation. No upstream program code is copied.
 
 Contained artwork uses existing Foundry core or PF1 image paths. No upstream
 image bytes are redistributed, and their licenses are not changed.
+
+## Descriptive intake catalog
+
+Additional PF1 feat, base-class, class-feature, Guile talent and equipment rule
+sections are adapted from the Spheres of Power Wiki under OGL-1.0a. Exact source
+URLs and snapshot hashes accompany every record; the scoped page/kind inventory
+is `config/intake-sources.json` in the repository. Credit remains with the wiki,
+the original publishers and authors listed in the retained complete wiki OGL
+notices. These rules remain Open Game Content, not MIT-licensed original text.
+No wiki artwork, advertisements or navigation is copied.
+
+New physical-item data uses empty native PF1 11.11 profiles, retaining upstream
+notices for record data; corresponding physical-item JSON and profiles ship in
+`sources/`. New core icon references are placeholders with unfinished artwork
+audit status; their image bytes are not redistributed.

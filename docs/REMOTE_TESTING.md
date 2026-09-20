@@ -48,9 +48,15 @@ staged build into place fails, the helper restores that backup. This is a staged
 two-rename swap, with a brief gap between renames; it is not one atomic operation.
 The helper detects concurrent deployments with an exclusive lock file.
 
-Backups and failed staging directories are retained. At five backups, another
-deployment is refused until retention is reviewed; no backup is automatically
-deleted. A successful deployment writes an ignored `.local/deployment.json`
+The user authorized a rolling limit of ten module backups on 2026-09-20.
+After the replacement passes installed-byte verification and its receipt is saved,
+the oldest excess backups are removed by their deployment timestamps. The newest
+rollback copy is protected; the active installation is additional to the ten
+backups. Dry runs report candidates without deleting anything. Exact operations
+paths, module identities and nested filesystem links are checked before cleanup.
+Failed staging directories and unrelated files are never retention candidates.
+A failed transfer or verification does not trigger pruning. Cleanup failure keeps
+the deployment receipt and remaining backups for reconciliation. A successful deployment writes an ignored `.local/deployment.json`
 receipt with commit, version, hashes, and the rollback directory when applicable.
 
 If the process dies mid-transfer or rollback itself fails, reconcile the lock,
@@ -62,8 +68,8 @@ directories to recover a module deployment.
 ## Acceptance
 
 Confirm module discovery, enable/disable/reload, supported versions, pack counts,
-representative content behavior, permissions, and browser/server logs. This
-pilot contains four packs with one entry each. Logs are read through the same share's `Logs`
+representative content behavior, permissions, and browser/server logs. The alpha.4
+intake contains five packs with 6,788 descriptive documents. Logs are read through the same share's `Logs`
 directory, scoped to the deployment time and module identity; keep private log
 content out of public reports. Record content evidence in PR #4 and the checkpoint; PR #2 holds foundation evidence.
 

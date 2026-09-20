@@ -1,0 +1,124 @@
+{
+  "_id": "eaf141e14ba3669a",
+  "_key": "!items!eaf141e14ba3669a",
+  "name": "Flight (harvest)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:survivalism:spheres-of-guile:guile-talent:flight-harvest",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/survivalism#toc62",
+      "sourceSha256": "f08a002395ddf0d614719b1c74bdfc78b77500e0a93ea395e3e0354dcf980820",
+      "descriptionSha256": "0d99e93a36d66529c0d15039af782cf657316a13d16d9a0b6a5d49970507dae5",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:survivalism:spheres-of-guile:guile-talent:flight-harvest",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "survivalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Associated skill 5 ranks, Survivalism sphere ((harvest) package).</p>\n<p><strong>Refinement DC:</strong> 20</p>\n<p>You refine the wings or other methods of aviation from a creature and attach them to your armor or clothing, granting an alchemical bonus to Fly checks equal to 4 + 1 per 4 ranks in the associated skill you possess, in addition to increasing the maneuverability of any fly speed you possess by one step.</p>\n<p>If you do not possess a fly speed, you gain a 15-foot fly speed (poor) that only functions during your turn; this does not benefit from the increase that this component normally grants. If you are not on a surface that can support you at the end of your turn, you glide safely to the ground, at a speed of 60 feet per round, taking no falling damage. You cannot use this fly speed to hover.</p>\n<p><strong>Potency:</strong> The fly speed functions for an additional round before you begin to glide to the ground. Additionally, the fly speed increases to 30 feet, +10 feet per 3 ranks you possess in the associated skill beyond 5 ranks.</p>\n<p><strong>Talisman:</strong> The flight talisman’s wearer increases the maneuverability of any fly speed they possess by two steps. If the wearer does not possess a fly speed, they instead gain a 30-foot fly speed (average); this does not benefit from this talisman’s maneuverability increase.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/survivalism#toc62\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/survivalism#toc62"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

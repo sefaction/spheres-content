@@ -1,0 +1,121 @@
+{
+  "_id": "52ffa11ee2e2d51a",
+  "_key": "!items!52ffa11ee2e2d51a",
+  "name": "Etherslinger: Etherhearts (Sp)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:etherslinger:current:class-feature:etherhearts-sp",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/etherslinger#toc4",
+      "sourceSha256": "21dc0464fdce6640377a279f6110708d57dc25921b948aab4d584c4beeba432e",
+      "descriptionSha256": "991032f6471f9e3a290ace229b55456ab06f320e43a341e4b471445c13959086",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:etherslinger:current:class-feature:etherhearts-sp",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Etherhearts are the core of ethermagic, tangles of emotions and urges that shape raw ether as it is drawn out of the void. Without the power of an etherheart to stabilize the various manifestations woven by the ethermancer, ethermagic would be completely impossible. As stated earlier, specific manifestations are compatible with specific etherhearts, which are listed in the entry for each manifestation. The total ether point, or EP, cost of an etherspell is equal to the EP cost of the etherheart plus the EP cost of each manifestation added to the etherheart. The casting time of an etherspell is a standard action unless modified by a manifestation. All etherhearts have both somantic and verbal components.</p>\n<p>If two or more manifestations alter the casting time of an etherspell, the manifestation with the longer casting time takes precedence. With the exception of genesis etherhearts, it is impossible to simply dismiss an etherspell. Once cast, they run out their durations unless dispelled or otherwise forced to stop.</p>\n<p>Unlike other practitioners of ethermagic, the etherslinger's caster level is not equal to her class level. Instead, her caster level is equal to 3/4 her etherslinger class level, rounded down.</p>\n<h3>Alteration</h3>\n<p><strong>Range</strong> personal<br>\n<strong>Target</strong> you<br>\n<strong>Duration</strong> 1 minute/level<br>\n<strong>Saving Throw</strong> as manifestation; <strong>Spell Resistance</strong> yes<br>\n<strong>EP Cost</strong> 1 + 1/4 level, rounded down<br>\nAn etherspell with this etherheart affects the etherslinger directly. Exactly one manifestation must be added to this etherheart. Only one alteration etherspell can be active at a time.</p>\n<p>An etherslinger learns the alteration etherheart at 2nd level.</p>\n<h3>Lesser Blast</h3>\n<p><strong>Range</strong> close (25 ft. + 5 ft./2 levels)<br>\n<strong>Target</strong> creature touched<br>\n<strong>Duration</strong> instantaneous<br>\n<strong>Saving Throw</strong> as manifestation; <strong>Spell Resistance</strong> yes<br>\n<strong>EP Cost</strong> 1 + 1/4 level, rounded down<br>\nAn etherspell with this etherheart is a ranged touch attack that deals 1d3 + the caster's Charisma modifier points of bludgeoning damage, plus an additional 1d3 points of bludgeoning damage for every four caster levels beyond 1st. A maximum of three manifestations can be added to this etherheart. There is no minimum number of manifestations that can be added.</p>\n<p>An etherslinger learns the lesser blast etherheart at 3rd level.</p>\n<h3>Bestow</h3>\n<p><strong>Range</strong> touch<br>\n<strong>Target</strong> creature touched<br>\n<strong>Duration</strong> 1 round / level<br>\n<strong>Saving Throw</strong> as manifestation; <strong>Spell Resistance</strong> yes<br>\n<strong>EP Cost</strong> 1/4 level, rounded down<br>\nAn etherspell with the bestow etherheart is delivered as a melee touch. The etherslinger may not touch herself. If the etherslinger fails to touch a creature upon casting a bestow etherspell, the charge is not lost; however, the duration of the etherspell begins as soon as it is cast and will begin to count down accordingly. For the duration of the etherspell, the etherslinger's maximum EP is reduced by an amount equal to the etherspell's EP cost. Exactly one manifestation must be added to this etherheart.</p>\n<p>An etherslinger learns the bestow etherheart at 5th level.</p>\n<h3>Genesis</h3>\n<p><strong>Range</strong> see individual manifestations<br>\n<strong>Target/Area</strong> see individual manifestations<br>\n<strong>Duration</strong> permanent until dismissed<br>\n<strong>Saving Throw</strong> as manifestation; <strong>Spell Resistance</strong> yes<br>\n<strong>EP Cost</strong> 1/2 level, rounded down<br>\nAn etherspell with this etherheart creates an object out of pure ether energy. The lifespan of such an object is permanent until dismissed by the etherslinger, until dispelled, or until the object itself is no longer within range of the caster. For as long as this object persists and for one minute thereafter, the caster's maximum EP is reduced by an amount equal to the EP cost of the etherspell that created it. An object created with the genesis etherheart can be dismissed as a move action. Exactly one manifestation must be added to this etherheart.</p>\n<p>An etherslinger learns the genesis etherheart at 9th level.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/etherslinger#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/etherslinger#toc4"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "0c0a4ed205bcdf6a",
+  "_key": "!items!0c0a4ed205bcdf6a",
+  "name": "Cartomancer: Tell Fortune (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:cartomancer:current:class-feature:tell-fortune-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/cartomancer#toc9",
+      "sourceSha256": "510e1856ae5bb099f7fca65cb5d5173aeca0ce7d595734723ce21cf63ce6d10c",
+      "descriptionSha256": "d9f7c322c7f870c33d97dab6fb6dfd4082804ef9aa15e6040adff9bd11a5bcf5",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:cartomancer:current:class-feature:tell-fortune-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Starting at 1st level, a cartomancer's understanding of portents and fate allows her to coax the fates surrounding an individual into action. Doing so requires that the individual whose fortune is being told, the mark, consents to having his fortune told, as well a divination tool, such as dice, sticks, cards, palm reading, a crystal ball, or tea leaves. A cartomancer's collection of cards counts as a divination tool. A cartomancer may not tell her own fortune. The process of fortune telling takes 1 minute.</p>\n<p>The cartomancer may choose whether she desires the mark's fortune to be for good or for ill. If she desires to give the mark a good fortune, simply roll on Table: Tell Fortune Outcomes. If she desires to give the mark a bad fortune, roll on Table: Tell Fortune Outcomes and reverse the bonus shown to a cumulative penalty. For example, rolling \"+1 insight bonus to Fortitude saves\" instead applies a 1 cumulative penalty to Fortitude saves. The cartomancer must decide whether to make a fortune good or bad before rolling on Table: Tell Fortune Outcomes. As the mark gave his consent to having his fortune told, there is no saving throw against a bad fortune.</p>\n<p>All benefits, or penalties, granted by fortune telling last for 10 minutes per cartomancer level. Once a mark has had his fortune told, he may not have it told again for 24 hours. A cartomancer may use this ability a number of times per day equal to 3 + her Charisma modifier, minimum 1.</p>\n<strong>Table: Tell Fortune Outcomes</strong>\n<table>\n<tbody><tr>\n<th>d20</th>\n<th>Effect</th>\n</tr>\n<tr>\n<td>1</td>\n<td>Roll again. If you intended to give a good fortune, it is now a bad fortune, and vice versa.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>+1 insight bonus to the mark's highest ability score (cartomancer chooses if tie)</td>\n</tr>\n<tr>\n<td>3</td>\n<td>+1 insight bonus to the mark's lowest ability score (cartomancer chooses if tie)</td>\n</tr>\n<tr>\n<td>4</td>\n<td>+1 insight bonus to attack rolls</td>\n</tr>\n<tr>\n<td>5</td>\n<td>+1 insight bonus to initiative rolls</td>\n</tr>\n<tr>\n<td>6</td>\n<td>+1 insight bonus to damage rolls</td>\n</tr>\n<tr>\n<td>7</td>\n<td>+1 insight bonus to Strength-based skills</td>\n</tr>\n<tr>\n<td>8</td>\n<td>+1 insight bonus to Dexterity-based skills</td>\n</tr>\n<tr>\n<td>9</td>\n<td>+1 insight bonus to Constitution-based skills</td>\n</tr>\n<tr>\n<td>10</td>\n<td>+1 insight bonus to Intelligence-based skills</td>\n</tr>\n<tr>\n<td>11</td>\n<td>+1 insight bonus to Wisdom-based skills</td>\n</tr>\n<tr>\n<td>12</td>\n<td>+1 insight bonus to Charisma-based skills</td>\n</tr>\n<tr>\n<td>13</td>\n<td>Roll again. If you intended to give a good fortune, it is now a bad fortune, and vice versa.</td>\n</tr>\n<tr>\n<td>14</td>\n<td>+1 insight bonus to concentration checks</td>\n</tr>\n<tr>\n<td>15</td>\n<td>+1 insight bonus to AC</td>\n</tr>\n<tr>\n<td>16</td>\n<td>+1 insight bonus to Fortitude saves</td>\n</tr>\n<tr>\n<td>17</td>\n<td>+1 insight bonus to Reflex saves</td>\n</tr>\n<tr>\n<td>18</td>\n<td>+1 insight bonus to Will saves</td>\n</tr>\n<tr>\n<td>19</td>\n<td>+1 insight bonus to the DC of cantrips and orisons</td>\n</tr>\n<tr>\n<td>20</td>\n<td>Roll again. If you intended to give a good fortune, it is now a bad fortune, and vice versa.</td>\n</tr>\n</tbody></table>\n<p><strong>Sidebar: Flipping Fortunes</strong></p>\n<p>When a cartomancer rolls on <strong>Table: Tell Fortune Outcomes</strong>, the number of times a bonus can change to a penalty, then back into a bonus again, is unlimited. That is to say, if the cartomancer keeps rolling natural '1's, '13's, and '20's, it can take awhile to resolve an ability that calls for that table's use. Then again, such strange behavior should be expected when fate and probability are an individual's source of power.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/cartomancer#toc9\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/cartomancer#toc9"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

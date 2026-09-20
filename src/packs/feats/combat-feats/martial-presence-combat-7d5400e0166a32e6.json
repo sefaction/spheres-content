@@ -1,0 +1,121 @@
+{
+  "_id": "7d5400e0166a32e6",
+  "_key": "!items!7d5400e0166a32e6",
+  "name": "Martial Presence (Combat)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:combat-feats:ultimate:feat:martial-presence-combat",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/combat-feats#toc39",
+      "sourceSha256": "12c9e3fe24d343b609d627315d6ac27a31c82b50e38bb90a5cd0dc568a895e22",
+      "descriptionSha256": "da1fd4e3396bf30a97150cde70f4b12a93bbd2ac4aee9b07605782d1cf64c64b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "combat-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:combat-feats:ultimate:feat:martial-presence-combat",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Combat Stamina, base attack bonus +1.</p>\n<p><strong>Benefit:</strong> Choose a basic totem from the War sphere (including totem of war). You can spend 5 points from your stamina pool to create a 30-foot aura that moves with you and that duplicates the effects of this totem. The action required to activate this ability depends on the totem. If the totem has no spell point cost, it is a swift action to create it, if the totem requires a spell point to be created, then activating it is a move action, and if it requires more than 1 spell point, it requires a standard action.</p>\n<p>For the purposes of the totem ability, use your base attack bonus in place of your caster level and use your highest mental ability modifier as your casting ability modifier, if you do not already possess a casting tradition. The aura created is not a true totem, and does not qualify for feats that alter totems. Once activated, the aura remains active for 1 minute. Falling unconscious or dying causes the aura to end.</p>\n<p>This is an extraordinary ability.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/combat-feats#toc39\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/combat-feats#toc39"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

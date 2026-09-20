@@ -1,0 +1,121 @@
+{
+  "_id": "a3c9a8d1ca9a706a",
+  "_key": "!items!a3c9a8d1ca9a706a",
+  "name": "Courser: Forage (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:courser:spheres-of-guile:class-feature:forage-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/courser#toc3",
+      "sourceSha256": "dd6ad5fc25de97a37ecc069add48ebc85056f0c5dd971253ca3be4df559e9c45",
+      "descriptionSha256": "6c52bfeb5f9adc097c64a62db6a859c53a3388743fd6e49e17b1676a1e923476",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:courser:spheres-of-guile:class-feature:forage-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A courser is an expert of surviving off of the land and its bounty; whether that be gathering edible berries or hunting and preparing various wild animals, the courser is capable of turning either source of food into a bountiful banquet.</p>\n<p>At 1st level, the courser may spend 1 hour to hunt, forage, and prepare a meal from the terrain for a number of Medium-sized creatures equal to 3 + the courser's ranks in Survival. During the hour spent foraging, the courser gains the meal's benefits, allowing them to benefit from effects that would protect them from a hostile environment while foraging.</p>\n<p>Any creature who eats the meal (which takes 10 minutes to do so) is granted benefits depending on the terrain it was foraged from (or one of the terrains if the surrounding area has multiple terrains) for 24 hours or until the creature rests or eats another meal, whatever comes first. If a meal grants the benefit of an acclimation, it does not count towards the maximum number of acclimations the creature can benefit from at one time.</p>\n<ul>\n<li><strong>Cold or Desert:</strong> Creatures who eat this meal gain the benefits of the conditioning Navigation sphere acclimation (in the (wilderness) package), and gain either cold resistance 5 (for cold terrain) or fire resistance 5 (for desert terrain).<br>\nAt 10th level, these resistances stack with other sources.<br>\nAt 20th level, such creatures become immune to the fatigued and exhausted conditions, as well as to cold damage (for cold terrain) or fire damage (for desert terrain).</li>\n<li><strong>Forest:</strong> Creatures who eat this meal suffer no penalty to their speed or to Acrobatics or Stealth checks due to undergrowth and similar plant life, and increase any cover bonuses conferred by naturally occurring terrain by +1.<br>\nAt 10th level, the meal also confers greensight up to 30 feet (allowing them to see through thick plant matter as though transparent), which improves to 120 feet at 20th level.</li>\n<li><strong>Jungle:</strong> Creatures who eat this meal gain the benefits of the immunization Navigation sphere acclimation (in the Extreme Acclimation talent), and can climb at half their base speed instead of one-quarter; this improves to their full base speed at 10th level, and twice their base speed at 20th level. If such a creature already has a climb speed, it increases by +10 feet.</li>\n<li><strong>Mountain:</strong> Creatures who eat this meal suffer no penalty to their speed or to Acrobatics or Stealth checks due to rubble, scree, and similar rocky terrain, and gain a +2 bonus to CMD against bull rush, overrun, reposition, and trip combat maneuvers; this bonus increases by +1 per 5 courser levels they possess.<br>\nAt 10th level, such creatures also gain tremorsense 10 feet when in contact with earth or stone (including worked stone); this increases to 30 feet at 20th level.<br>\nAt 20th level, such creatures also gain a +4 natural armor bonus to their AC.</li>\n<li><strong>Plains:</strong> Creatures who eat this meal gain the benefits of the conditioning Navigation sphere acclimation (in the (wilderness) package), as well as being able to hustle for 2 hours without taking nonlethal damage.<br>\nAt 10th level, such creatures gain a +5-foot alchemical bonus to their land speed, and their movement speed is not reduced due to armor or encumbrance.<br>\nAt 20th level, such creatures are not subject to nonlethal damage.</li>\n<li><strong>Swamp:</strong> Creatures who eat this meal gain the benefits of the immunization Navigation sphere acclimation (in the Extreme Acclimation talent), and suffer no penalty to their speed or Acrobatics or Stealth checks in bogs and undergrowth (or similar swamp or marsh terrain).<br>\nAt 10th level, such creatures gain tremorsense up to 20 feet, except it only detects anything in contact with the same body of water as them; this increases to 60 feet at 20th level.<br>\nAlso at 20th level, such creatures become immune to diseases and poisons.</li>\n<li><strong>Underground:</strong> Creatures who eat this meal gain low-light vision and darkvision 30 feet. If such a creature already possesses low-light vision, it extends three times as far (instead of twice as far), whereas if they already have darkvision, it increases by 30 feet.<br>\nAt 10th level, the granted low-light vision extends out four times as far, and the darkvision increases by +30 feet.<br>\nAt 20th level, such creatures gain DR 5/adamantine (which stacks with other sources) and tremorsense up to 30 feet.</li>\n<li><strong>Urban:</strong> Creatures who eat this meal gain a +2 alchemical bonus to Bluff, Diplomacy, or Sense Motive checks (chosen when the meal is prepared), as well as to saving throws against poisons and diseases. This bonus increases by +1 per 5 courser levels they possess.<br>\nAt 10th level, such creatures reduce the first source of ability damage or drain they suffer in a round by 2 (minimum 0).<br>\nAt 20th level, such creatures can speak and understand the language of any intelligent creature, whether it is a racial tongue or a regional dialect.</li>\n<li><strong>Water:</strong> Creatures who eat this meal gain the benefits of the aquatic adaptation Navigation sphere acclimation (in the nautical package). At 10th level, such creatures can hold their breath for a number of minutes equal to their Constitution score, and gain a swim speed equal to their base speed; this improves to twice their base speed at 20th level. If the creature already possesses a swim speed, it increases by 10 feet.<br>\nAt 20th level, such creatures become immune to pressure damage, and can move and attack with no penalty while underwater.</li>\n</ul>\n<p>The courser can also further supplement a meal with purchased rations or other edible ingredients, creating a meal for one additional creature for each ration (or equivalent amount of ingredients) used.</p>\n<p>Alternatively, they can attempt to purchase ingredients that originate from a different terrain, gaining the other terrain's benefits instead. The price of such ingredients is up to the GMs discretion, but the combined cost of such ingredients should begin at 5 sp per meal.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/courser#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/courser#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "4cdd801c0e771a3a",
+  "_key": "!items!4cdd801c0e771a3a",
+  "name": "Disrupt Aura (hack)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spellhacking:spheres-of-guile:guile-talent:disrupt-aura-hack",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spellhacking#toc31",
+      "sourceSha256": "ff5395bb19ac2b67c42bb66b158929891d1c2ab9f8401273b50df23faa41f51b",
+      "descriptionSha256": "24bf439e11ee192957df2cfcb2dd04dca917f8033e628499642455427db9628c",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Hack Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spellhacking:spheres-of-guile:guile-talent:disrupt-aura-hack",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "spellhacking"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/480696/Diamond-Spheres-Thaumic-Potential?affiliate_id=3028400\">Diamond Spheres: Thaumic Potential</a></sup></p>\n<p><strong>Target:</strong> An object or magical effect.</p>\n<p>You alter the aura of the target for 1 day per associated rank you possess. An object hacked this way can have its aura changed so that it registers as nonmagical, as a different magic item of your choice, or as if it were under the effects of a spell or sphere ability of your choice.</p>\n<p>A magical effect hacked this way can be altered to have it register as a different magical effect of your choice, or have its magical signature altered to match the unique magical signature of a caster you know. Alternatively, you can obscure all identifiers of the original caster.</p>\n<p>In either case, if the target is examined (such as using divine or identify), they must attempt a magic skill check against a DC equal to 11 + your ranks in the associated skill. On a success, they discover the false aura and detect the target’s actual qualities; on a failure, the aura is believed.</p>\n<p><strong>Special</strong>—If you have the Biothaumic Hacking talent, this talent can be used on a creature to either have them register as though they were subject to any number of spells of your choice (and may alter the magical signature of such effects too), or you can have any of their active spell effects register as nonmagical. This can be used to alter other kinds of divinations too, such as by making a creature seem to have spellcasting or spell-like abilities (or otherwise) if subject to a Detect Spellcasting divine ability, or showing a different alignment aura through effects that would detect alignment.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/spellhacking#toc31\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spellhacking#toc31"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

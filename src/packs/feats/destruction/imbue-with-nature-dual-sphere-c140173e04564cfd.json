@@ -1,0 +1,121 @@
+{
+  "_id": "c140173e04564cfd",
+  "_key": "!items!c140173e04564cfd",
+  "name": "Imbue With Nature (Dual Sphere)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:destruction:ultimate:feat:imbue-with-nature-dual-sphere",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/destruction#toc129",
+      "sourceSha256": "87f38a4d1182120298d1b24f8748ffd25e9d5bd3a9e618a3917b6c090024d6d7",
+      "descriptionSha256": "1044fb1e12cc8003133bf839feebe5c849d8dc9c0ac34e5b4d68372e8d730999",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Destruction Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:destruction:ultimate:feat:imbue-with-nature-dual-sphere",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Destruction sphere, Nature sphere (any (geomancing) talent).</p>\n<strong>Benefit:</strong>\n<p> When using a (blast type) talent from a blast type category corresponding to a geomancing talent you possess, you may increase the casting time by one step or spend an additional spell point to draw material from the environment to enhance your destructive blast, allowing it to bypass spell resistance.</p>\n<table>\n<tbody><tr>\n<th>Geomancing Talent</th>\n<th>Blast Type Categories</th>\n</tr>\n<tr>\n<td>(Air) package</td>\n<td>Air, electric, sonic</td>\n</tr>\n<tr>\n<td>(Earth) package</td>\n<td>Crystal, stone</td>\n</tr>\n<tr>\n<td>(Fire) package</td>\n<td>Fire, light</td>\n</tr>\n<tr>\n<td>(Metal) package</td>\n<td>Acid, electric</td>\n</tr>\n<tr>\n<td>(Plant) package</td>\n<td>Acid, force</td>\n</tr>\n<tr>\n<td>(Water) package</td>\n<td>Cold, crystal</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/destruction#toc129\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/destruction#toc129"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

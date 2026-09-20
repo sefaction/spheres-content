@@ -1,0 +1,121 @@
+{
+  "_id": "e18b2e427de37535",
+  "_key": "!items!e18b2e427de37535",
+  "name": "Trap Card (Deck, Drawback)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:card-and-deck-feats:current:feat:trap-card-deck-drawback",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/card-and-deck-feats#toc55",
+      "sourceSha256": "4022c8e6475766c0c1edab52393c89938e885121711b11783279c546b3117277",
+      "descriptionSha256": "e93c61c48dfefcdd312ec62b468a21614df57aa4f12d7303173c1d6da329241b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Deck Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:card-and-deck-feats:current:feat:trap-card-deck-drawback",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Card Casting drawback</p>\n<p><strong>Benefit:</strong> As a standard action, you may place a card face-down in front of you and name a condition as if you were readying an action. When the condition occurs, you may immediately turn the card over to reveal the card and create the spell effect as if you had played it normally, spending any spell points required to cast the spell. The effect fails if you do not have sufficient spell points to spend on the effect, and you can choose to allow it to fail and not spend the spell points if you wish. If the effect you create has a casting time longer than 1 standard action, the action required to place a card face-down becomes equal to the effect’s casting time.</p>\n<p>Whenever you would shuffle your hand back into your deck, cards placed face-down using this feat are shuffled back into your deck as well.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/card-and-deck-feats#toc55\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/card-and-deck-feats#toc55"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

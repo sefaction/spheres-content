@@ -1,0 +1,162 @@
+{
+  "_id": "bf06253c2d729828",
+  "_key": "!items!bf06253c2d729828",
+  "name": "Immovable Wand",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spell-engines:ultimate:item:immovable-wand",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spell-engines#toc27",
+      "sourceSha256": "f98f5856ec556f138235795825cfff8bd2aa38e0f93afb47ffe8116a4708d757",
+      "descriptionSha256": "382bc158d360bd03877f3ee09479d52a551ba0b0a2b1282265d2be3347340bc8",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Mythic Spell Engines",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spell-engines:ultimate:item:immovable-wand",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> strong Telekinesis; <strong>CL</strong> 18th; <strong>SP</strong> 6<br>\n<strong>Slot</strong> none; <strong>Price</strong> 81,000 gp; <strong>Weight</strong> 2 lbs.<br>\nThis slender wand is colorless and nearly transparent, though harder than most metals. While held, it functions as a Telekinesis spell engine with the Affix, Effortless Telekinesis, and Idle Concentration talents. A mythic creature who uses this wand may use their casting DC for the Telekinesis sphere (if it is higher) and may expend one use of mythic power when using the Affix talent through this spell engine to mystically bind a creature in place by increasing the magic skill check or Strength check required to break a creature free by their tier. In addition to its other effects, this wand functions as an immovable rod<sup>UE</sup>.<br>\n<strong>Construction Requirements</strong><br>\nCraft Spell Engine, Mythic Crafter, Telekinesis sphere (Affix (advanced), Effortless Telekinesis (advanced), Idle Concentration); <strong>Cost</strong> 40,500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/spell-engines#toc27\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 2
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 81000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spell-engines#toc27"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

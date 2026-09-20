@@ -1,0 +1,124 @@
+{
+  "_id": "8289822317000308",
+  "_key": "!items!8289822317000308",
+  "name": "Perfect Synchronization (rapport)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:communication:spheres-of-guile:guile-talent:perfect-synchronization-rapport",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/communication#toc44",
+      "sourceSha256": "b5e574a0f0ac283ac666727aa0371c0597770e76fda9dc332a981db3d90c6c36",
+      "descriptionSha256": "f13d1d4b0439c9e0498d2ee8cacd35490967bfc3609063901dac76f63433dbbb",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Assist and Rapport Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:communication:spheres-of-guile:guile-talent:perfect-synchronization-rapport",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "communication"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Whenever a creature that shares your <em>rapport</em> attempts a skill check with which they have unlocked skill leverage, they can spend 1 use of skill leverage after rolling to guide other creatures within 60 feet who share your <em>rapport</em> in attempting the same skill check if they can see or hear the guiding creature. Each guided creature that attempts the same skill check before the start of the guiding creature’s next turn can use the guiding creature’s d20 roll instead of rolling. Each creature still uses their own skill modifier.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/communication#toc44\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/communication#toc44"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

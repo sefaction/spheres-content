@@ -1,0 +1,121 @@
+{
+  "_id": "fd660832f0142165",
+  "_key": "!items!fd660832f0142165",
+  "name": "Ethermancer: Ethermagic",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:ethermancer:current:class-feature:ethermagic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/ethermancer#toc3",
+      "sourceSha256": "a418eb126537ed485e26c3a6d04cd0e7fef1b713ccf42f209e1deac496cbba55",
+      "descriptionSha256": "67320204965db829f508c04241c8fd343d64fdfcd037de5706b2f46bc2407cd7",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:ethermancer:current:class-feature:ethermagic",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The gift of the ethermancer can be thought of as a thin syringe that extends through the whole of the universe and penetrates into the void beyond. Thus tapped into the ether, an ethermancer can draw upon it, fueling wild evocations and protections with the power of the restless gyrations of the multiverse itself. This is known as ethermagic.</p>\n<p>An ethermancer's access to the ether is measured in ether points, or EP. His maximum EP is equal to twice his level plus his Charisma modifier. At the beginning of the ethermancer's turn, he gains EP equal to half his class level, rounded up. This represents energy from elsewhere in the ether diffusing back into the vicinity of the tiny pinhole that the ethermancer can access. Ethermagic is made up of two components: the etherheart and its manifestations. Ethermancers learn five etherhearts that encompass the various philosophies to which a spell of any sort can be aligned. Etherheart selection dictates how the ethermancer can shape an etherspell with manifestations.</p>\n<p><em>Lesser and Greater Blast:</em> The easiest etherhearts to control, blast ethespells are simply the application of raw ether toward a destructive end. Given their simple nature, an ethermancer can apply a larger number manifestations to blasts.</p>\n<p><em>Alteration:</em> The alteration etherheart is the use of raw ether to produce shifts in the state of the universe directly around the ethermancer himself. This allows the ethermancer to change the way he interacts with the world for short periods of time.</p>\n<p><em>Bestow:</em> The bestow etherheart is, in effect, an alteration etherheart cast upon a creature other than the ethermancer. Given this target moves in relation to the ethermancer, the various manifestations used with this etherheart generally aren't as impressive as those used with the alteration etherheart. Further, ethermancers will find their powers diminished by the energy necessary to maintain a remote connection to the ether.</p>\n<p><em>Genesis:</em> Easily the most difficult etherheart for an ethermancer to manage, genesis actually creates something. From swords and shields composed of the stuff of the void itself to platforms and ethereal staircases that hover in the air, the genesis etherheart can create it.</p>\n<p>Manifestations are the various ways an ethermancer can shape the raw energy of the ether. Though any aficionado of blast etherspells will attest to raw ether's ability to melt faces particularly well on its own, there comes a need for a little finesse every now and then.</p>\n<p>Depending on the etherheart, anywhere from zero to three manifestations can be added to it. An ethermancer's repertoire of manifestations is rather explicitly segregated among the various etherhearts he knows. For example, an ethermancer's genesis-compatible manifestations are totally distinct from his lesser and greater blast-compatible manifestations.</p>\n<p>Only manifestations that are compatible with a particular etherheart may be used in an etherspell built around that etherheart.</p>\n<p>To use a manifestation, an ethermancer must have a Charisma score equal to at least 10 + the manifestation level. The Difficulty Class for a saving throw against an etherspell is 10 + the highest manifestation level used in the etherspell + the ethermancer's Charisma modifier unless stated otherwise in a manifestation's entry. The ethermancer begins play with five lesser blast manifestations, as well as two alteration manifestations.</p>\n<p>Each time the ethermancer gains a level, he learns more manifestations in at least one etherheart as detailed by <strong>Table: Ethermancer Manifestations Known</strong>. This new manifestation must be of a level he is able to cast. Further, whenever the ethermancer gains a new manifestation in a particular etherheart, he may exchange an existing manifestation compatible with that etherheart for another compatible manifestation of a level he is able to cast. Note that for each etherheart an ethermancer knows, he may never have more known manifestations in a particular manifestation level than in the previous manifestation level. In other words, if the ethermancer has two level 1 alteration manifestations, he cannot have more than two level 2 alteration manifestations. This does not stop the ethermancer from having three level 2 blast manifestations or three level 2 bestow manifestations.</p>\n<strong>Table: Ethermancer Manifestations Known</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Number of Lesser/Greater Blast Manifestations Known</th>\n<th>Number of Alteration Manifestations Known</th>\n<th>Number of Bestow Manifestations Known</th>\n<th>Number of Genesis Manifestations Known</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>5</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>5</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>6</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>6</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>7</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>7</td>\n<td>5</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>8</td>\n<td>5</td>\n<td>3</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>8</td>\n<td>6</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>9</td>\n<td>6</td>\n<td>3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>9</td>\n<td>7</td>\n<td>4</td>\n<td>2</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>10</td>\n<td>7</td>\n<td>4</td>\n<td>2</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>10</td>\n<td>8</td>\n<td>4</td>\n<td>2</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>11</td>\n<td>8</td>\n<td>5</td>\n<td>3</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>11</td>\n<td>9</td>\n<td>5</td>\n<td>3</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>12</td>\n<td>9</td>\n<td>5</td>\n<td>3</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>12</td>\n<td>10</td>\n<td>6</td>\n<td>4</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>13</td>\n<td>10</td>\n<td>6</td>\n<td>4</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>13</td>\n<td>11</td>\n<td>6</td>\n<td>4</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>14</td>\n<td>11</td>\n<td>7</td>\n<td>5</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>14</td>\n<td>12</td>\n<td>7</td>\n<td>5</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/ethermancer#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/ethermancer#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

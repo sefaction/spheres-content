@@ -1,0 +1,121 @@
+{
+  "_id": "e4c095f6ffc0e543",
+  "_key": "!items!e4c095f6ffc0e543",
+  "name": "Henchling: Pack Weapon (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:henchling:current:class-feature:pack-weapon-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/henchling#toc5",
+      "sourceSha256": "6f639ff8bb7256ca1272905cf0c8abcd990ac9b7fa6fd5120bcb94cd2b882efd",
+      "descriptionSha256": "69abd488bf45f319a230d7283fc9993d3a795cf09c1dba17fd93f7a2867c66a6",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:henchling:current:class-feature:pack-weapon-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level a henchling can use mundane packs, backpacks, bags, and other non-rigid vessels normally used for storing items as melee weapons without penalty (other characters would treat them as improvised weapons). Collectively these weapons are referred to as a “pack” weapon, use the weapon profile presented below, and henchlings can qualify for combat feats like Weapon Focus in packs. Packs are two-handed weapons, though they may be wielded in one hand by a henchling if the total weight in the pack does not exceed his light encumbrance. Packs may not be used in conjunction with two-weapon fighting. Packs may be enchanted as weapons, though this only functions for henchlings or other characters who consider the pack to be a martial weapon (if they treat it as an improvised weapon it has no benefit).</p>\n<p>At 2nd level and every 3 levels thereafter a pack wielded by a henchling deals 1 additional point of damage provided the weight of the pack wielded meets the requirements from that much additional damage on Table: Pack Bonus Damage.</p>\n<strong>Table: Pack Weapons</strong>\n<table>\n<tbody><tr>\n<th>Name</th>\n<th>Cost</th>\n<th>Dmg (S)</th>\n<th>Dmg (M)</th>\n<th>Critical</th>\n<th>Range</th>\n<th>Weight</th>\n<th>Type</th>\n<th>Special</th>\n</tr>\n<tr>\n<td>Pack</td>\n<td>N/A</td>\n<td>1d8</td>\n<td>1d10</td>\n<td>19-20/ x2</td>\n<td>-</td>\n<td>Varies</td>\n<td>B</td>\n<td>See text</td>\n</tr>\n</tbody></table>\n<strong>Table: Pack Bonus Damage</strong>\n<table>\n<tbody><tr>\n<th>Damage Bonus</th>\n<th>Level Required</th>\n<th>Weight Required (in the pack)</th>\n</tr>\n<tr>\n<td>+1</td>\n<td>2nd</td>\n<td>20 lbs.</td>\n</tr>\n<tr>\n<td>+2</td>\n<td>5th</td>\n<td>40 lbs.</td>\n</tr>\n<tr>\n<td>+3</td>\n<td>8th</td>\n<td>60 lbs.</td>\n</tr>\n<tr>\n<td>+4</td>\n<td>11th</td>\n<td>80 lbs.</td>\n</tr>\n<tr>\n<td>+5</td>\n<td>14th</td>\n<td>100 lbs.</td>\n</tr>\n<tr>\n<td>+6</td>\n<td>17th</td>\n<td>120 lbs.</td>\n</tr>\n<tr>\n<td>+7</td>\n<td>20th</td>\n<td>140 lbs.</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/henchling#toc5\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/henchling#toc5"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

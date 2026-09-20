@@ -1,0 +1,162 @@
+{
+  "_id": "189a153ab85d28c8",
+  "_key": "!items!189a153ab85d28c8",
+  "name": "Mana Nail",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:compounds:ultimate:item:mana-nail",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/compounds#toc60",
+      "sourceSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "b8c790266312a821bd50c16ffe18548c0f5367f540393249fa9f17322677c875",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Compounds",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:compounds:ultimate:item:mana-nail",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> moderate Mana; <strong>CL</strong> 7th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 25,000 gp; <strong>Weight</strong> 0.05 lbs.</p>\n<p>These two-inch nails appear to be made out of metal, but are strangely translucent at the same time. By pressing a mana nail into their skin as a standard action, the user gains a pool of charges equal to their casting ability modifier.</p>\n<p>The user can spend these charges to activate sphere effects and supernatural effects while in a magic dead zone, at a cost of one charge per effect used. If the abilities in question have a cost or a limited number of uses (besides the charge cost for this item), they cost twice as much as usual. Sphere effects with no cost instead cost 1 spell point. The user can also activate their passive or ongoing sphere and supernatural effects for one round by expending two charges of this item. If the user wishes to activate additional abilities in the magic dead zone after expending all of the charges, they can do so up to their normal limit per day, but each additional ability causes them to become fatigued and requires a successful concentration check (DC 15 + 1/2 the user’s level, rounded down, minimum 1) or it fizzles out. Each passive ability the user wants to use also requires such a check. If the mana nail would cause the user to be fatigued when they already have the fatigued condition, they become exhausted. A user cannot draw on a mana nail to activate any effects while they are exhausted, regardless of the condition that caused the exhaustion. Fatigue or exhaustion caused by a mana nail bypasses immunity to these effects.</p>\n<p>A mana nail is consumed on use, and a character cannot benefit from the effects of more than one mana nail at a time. Its charges otherwise remain indefinitely (although they do not increase if the user’s casting ability modifier increases after using the nail).</p>\n<p><strong>Construction Requirements</strong><br>\nDistill Compound, Mana sphere; <strong>Cost</strong> 12,500 gp</p>\n<p><strong>Author's Note:</strong> Magic dead zones are not the same as antimagic fields. This item does not help in regular antimagic fields, but would work in areas like a demiplane where magic is normally unavailable. For a mana nail, a magic dead zone is any area where magic is typically unavailable due to a feature of the area (such as a planar trait, localized damage to magic fields, a deity cursing the region, or other qualities that may exist in your game, as determined by the GM), but <em>not</em> areas where magic is unavailable in the short-term due to the actions of spellcasters, certain monsters, and so on. Most magic dead zones are long-term or permanent, but temporary magic dead zones may exist. Antimagic fields in particular do not create magic dead zones, but some effects described as being like antimagic fields (such as certain planar traits) can create magic dead zones.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/compounds#toc60\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0.05
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 25000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/compounds#toc60"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

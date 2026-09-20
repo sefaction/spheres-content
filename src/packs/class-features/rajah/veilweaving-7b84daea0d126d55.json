@@ -1,0 +1,121 @@
+{
+  "_id": "7b84daea0d126d55",
+  "_key": "!items!7b84daea0d126d55",
+  "name": "Rajah: Veilweaving",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:rajah:current:class-feature:veilweaving",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/rajah#toc5",
+      "sourceSha256": "6cbf1bc615c54f448eb77f0d0bba2622eab838b373c45db3a3b4d5401e37f395",
+      "descriptionSha256": "b1fbd84651c02b84143a2c86e77b4c4a59041a0394750330eec3461d160d1197",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:rajah:current:class-feature:veilweaving",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A rajah’s presence on the battlefield is marked not only by her martial skill, but also by her ability to shape the magical essence known as akasha into powerful veils and bindings. The rajah knows and can shape any veil from the rajah veil list. The DC for a saving throw against a veil’s abilities is 10 + the number of points of essence invested in the veil + the rajah’s initiation modifier. The rajah can only shape a limited number of veils per day, as listed on Table 1-1: Rajah. Veils are constructs of pure magic and, as such are suppressed while in the area of an antimagic field or similar effect. Title veils are described in full detail on the <a href=\"http://spheresofpower.wikidot.com/title-veils\">Title Veils</a> page. (The Rajah veil list is all veils on that page and the Demiurge headband veil.)</p>\n<p>At 1st level, the rajah also gains access to a personal pool of essence, which can be invested into veils to increase their power. The amount of available essence is listed in the table below; the rajah’s character level determines the maximum quantity of essence she can invest in any single veil or other receptacle. As a swift action, the rajah can allocate or reallocate her essence, allowing her to invest it into and reclaim it from her receptacles as she chooses. A rajah who wishes to shape veils must have at least 8 hours of rest or meditation to achieve a clear and focused state, and must meditate for one hour to shape her veils for the day. During this time, she unshapes any previously formed veils and constructs her new selection of veils. At the end of the hour, all effects of unshaped veils end and the veilweaver’s new selection of veils takes effect.</p>\n<h4>Essence Capacity</h4>\n<p>However large your Essence pool is, you can only invest a certain amount of essence into any one veil, feat, class feature, magic item, or other akashic receptacle.</p>\n<p>\nYour character level determines this essence capacity as show below, though some feats, class features, magic items, or other abilities or effects may modify your base capacity</p>\n<table>\n<tbody><tr>\n<th>Character Level</th>\n<th>Essence Capacity</th>\n</tr>\n<tr>\n<td>1st - 5th</td>\n<td>1</td>\n</tr>\n<tr>\n<td>6th - 11th</td>\n<td>2</td>\n</tr>\n<tr>\n<td>12th- 17th</td>\n<td>3</td>\n</tr>\n<tr>\n<td>18th - 20th</td>\n<td>4</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/rajah#toc5\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/rajah#toc5"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

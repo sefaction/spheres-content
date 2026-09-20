@@ -1,0 +1,121 @@
+{
+  "_id": "3e6ab9e4227d9642",
+  "_key": "!items!3e6ab9e4227d9642",
+  "name": "Dissident: Struggle (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:dissident:spheres-of-guile:class-feature:struggle-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/dissident#toc6",
+      "sourceSha256": "626be1b7398242ba3e0b08f70e805e39abc0faad11336cb9c07e55518e6f2ce6",
+      "descriptionSha256": "3dfbcb89951ac8291bd5de0305fef76a4be11a985106b5b68f7d180a24b9f7b1",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:dissident:spheres-of-guile:class-feature:struggle-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><em>At the heart of every dissident is an inner battle between two forces, a war that she wages constantly.</em></p>\n<p>At 1st level, the dissident gains a pair of special motivations called a struggle. This struggle takes many forms, but always has two sides that often conflict.</p>\n<p>The dissident begins play in balance with her struggle, having no points of attunement to either side of her struggle. A struggle has seven stages; three on either side of the dissident's ‘balance point’, which are represented through being weakly, moderately, or strongly attuned towards one side of her struggle. At her balance point she is considered balanced. The dissident cannot be attuned in any way to both sides of her struggle at once.</p>\n<p>For example, if the dissident is moderately attuned towards logic, but then is altered by 3 stages towards instinct, her struggle results in being weakly attuned towards instinct.</p>\n<p>The dissident's struggle can be altered in the following ways:</p>\n<ul>\n<li>Whenever the dissident’s struggle is invoked (as a motivation), the creature invoking it also chooses a side of her struggle—the dissident is shifted two steps towards the chosen side. This can only shift the dissident’s struggle once per 2 hours.</li>\n<li>When the dissident faces a significant challenge, meets a significant individual, or otherwise undergoes something significant that forces the dissident to re-evaluate her struggle, she is shifted two steps toward the more appropriate side of her struggle for the event (up to GM’s discretion). If a circumstance is unclear, what is deemed significant is up to the GM.</li>\n</ul>\n<p>The dissident's struggle can only be shifted once per minute (unless otherwise specified), and cannot benefit from any abilities that would shift her struggle if it was already shifted within the last minute. Any actions that lack any real urgency, danger, or significance do not shift the dissident's struggle.</p>\n<strong>Table: Dissident Struggle Shifts (once/minute)</strong>\n<table>\n<tbody><tr>\n<th>Trigger</th>\n<th>Struggle Impact</th>\n</tr>\n<tr>\n<td>Struggle invoked as motivation (once/2 hours)</td>\n<td>2 steps towards invoker’s choice</td>\n</tr>\n<tr>\n<td>Dissident faces significant individual/challenge/event</td>\n<td>2 steps towards GM’s choice</td>\n</tr>\n<tr>\n<td>Unique Conflict of Strife</td>\n<td>1 step towards triggered side</td>\n</tr>\n<tr>\n<td>Dissident spends skill leverage during shift (requires Commit to Change, level 10)</td>\n<td>+1 step</td>\n</tr>\n<tr>\n<td>Dissident uses Confront Motives with additional effect (requires Paradigm Shift, level 16)</td>\n<td>1 step in either direction, based on confronted motive</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/dissident#toc6\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/dissident#toc6"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

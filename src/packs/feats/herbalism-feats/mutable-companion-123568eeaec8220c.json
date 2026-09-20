@@ -1,0 +1,121 @@
+{
+  "_id": "123568eeaec8220c",
+  "_key": "!items!123568eeaec8220c",
+  "name": "Mutable Companion",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism-feats:current:feat:mutable-companion",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism-feats#toc19",
+      "sourceSha256": "ccb417c18fde495c6500251ef7f7e36161fcde0ccf4b5294cf13566f5d1d62bb",
+      "descriptionSha256": "520b5714bca01d6dbf43786431aed7828071496d8ee9118133e0aeecad2e28d9",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "herbalism-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism-feats:current:feat:mutable-companion",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Plant companion class feature, naturalist level 10th</p>\n<p>Your plant companion is quite the quick study, but, unfortunately, doesn't remember things very well.</p>\n<p><strong>Benefit:</strong> Whenever you collect your herbalism plants for the day with the find herbs class feature, you may select a plant companion talent with no prerequisites that is unknown to your plant companion. Your plant companion knows the chosen plant companion talent until the next time you collect herbalism plants with the find herbs class feature, at which point it promptly forgets the previously-chosen talent.</p>\n<p><strong>Special:</strong> If your plant companion knows every single plant companion talent with no prerequisites, then your plant companion talent selection when collecting herbalism plants for the day differs. Choose a talent with no prerequisites that grants an ability with a limited number of uses per day. The plant companion may use the chosen limited-use talent twice as many times as normal today.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism-feats#toc19\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism-feats#toc19"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

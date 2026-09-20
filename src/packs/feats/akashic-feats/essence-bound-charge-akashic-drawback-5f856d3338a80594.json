@@ -1,0 +1,121 @@
+{
+  "_id": "5f856d3338a80594",
+  "_key": "!items!5f856d3338a80594",
+  "name": "Essence-Bound Charge (Akashic, Drawback)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:akashic-feats:current:feat:essence-bound-charge-akashic-drawback",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/akashic-feats#toc22",
+      "sourceSha256": "ac9a67e53d34279260fc2b6b0d5a22af395fbc6c5264c8691bfcdb283bf56660",
+      "descriptionSha256": "95181c32c8c849edd7ab6d468a1029d63d1196ebdfe0e97fe89915606e04a425",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "akashic-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:akashic-feats:current:feat:essence-bound-charge-akashic-drawback",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Charged Spells, essence pool</p>\n<p><strong>Benefits:</strong> You may invest essence into your charged spells. Essence invested into a charge is temporarily bound when that charge is expended, and cannot be recovered or reassigned to another receptacle until that charge is recovered or you create a new charged effect. When you cast a charged effect, for every point of essence invested, you may select one of the following benefits (you may select the same benefit multiple times and their effects stack so long as they all come from the same charged effect)</p>\n<ul>\n<li>the effect deals additional damage or heals additional damage from a single target equal to half your caster level (minimum 1)</li>\n<li>if the effect would last for at least 2 rounds, the effect lasts for 1 additional round after it would end</li>\n<li>if the effect targets two or more creatures, it may target one additional creature in range</li>\n<li>the target takes a -1 penalty to AC for as long as they are affected by the effect.</li>\n</ul>\n<p>You gain 1 point of essence.</p>\n<p><sup><strong>Source:</strong> Baron’s Glorious Arena</sup></p>\n<p><a href=\"http://spheresofpower.wikidot.com/akashic-feats#toc22\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/akashic-feats#toc22"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

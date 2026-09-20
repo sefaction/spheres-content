@@ -1,0 +1,124 @@
+{
+  "_id": "4074e72445646129",
+  "_key": "!items!4074e72445646129",
+  "name": "Faction Archives",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:faction:spheres-of-guile:guile-talent:faction-archives",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/faction#toc17",
+      "sourceSha256": "c0949a2288b14f9bce4a04a73230598f8b6178c048d9a36fc6899ead8b33b209",
+      "descriptionSha256": "a0df249eda51c2346ee1a0e203e565a8588ad14a915affc398d494b99267fdea",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Faction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:faction:spheres-of-guile:guile-talent:faction-archives",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "faction"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You gain the following requisition options:</p>\n<ul>\n<li><strong>Archive Access:</strong> Access your faction’s stores of information, which might take the form of a library, record vault, holy texts, venerated storytellers, ancestor spirits, or the familiars of elder witches. Your allies can accompany you to consult the faction archives only as long as you remain with them. Consulting your faction archives for 1 hour or longer grants a +3 circumstance bonus on one Knowledge or Lore check related to the faction’s interests due to librarian aid and the detail of the archives. The circumstance bonus increases by 1 for every 4 ranks in the associated skill you have. These archives often include guarded secrets about the organization, its allies, its rivals, and local power players (although some secrets might be kept outside the archives).</li>\n<li><strong>Researcher (1 Authorization):</strong> Assign an archivist to research facts and lore on one topic for you. They make one Knowledge check with a result of 20 + your associated skill’s ranks. The bonus from the faction’s archives apply to this check if relevant.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/faction#toc17\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/faction#toc17"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

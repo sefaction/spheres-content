@@ -1,0 +1,124 @@
+{
+  "_id": "4a8d3f55b6ae0ccd",
+  "_key": "!items!4a8d3f55b6ae0ccd",
+  "name": "Drab Outfit (disguise)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:subterfuge:spheres-of-guile:guile-talent:drab-outfit-disguise",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/subterfuge#toc29",
+      "sourceSha256": "8b57b227319f2d8db1313f34f0b88da6fa51923fa7155f44d165a790c7e42905",
+      "descriptionSha256": "9b1a5cac65af3279818d06a7da5ad66470567d1fde23233eedf3ed9c333fbff1",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Disguise Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:subterfuge:spheres-of-guile:guile-talent:drab-outfit-disguise",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "subterfuge"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You tailor your disguise to blend into an environment without being obviously nefarious in function. Your drab outfit might make you look like a farmer, servant, hunter, beggar, or other person expected to dress in a plain manner. Choose an environment when you create the disguise from the list of ranger’s favored terrain. In that environment, you get a +4 circumstance bonus to your Stealth checks from your camouflage. If anyone uses a skill to assess your proficiency, you can use your Disguise modifier in place of your Bluff modifier to make them underestimate you.</p>\n<p>Anyone who observes or interacts with you recalls only a vague impression of the event afterward unless they succeeded at a Perception check against your Disguise check. If you are very distinctive, such as matching the description of a fugitive or if you are the only humanoid in the area, their Perception check is attempted with a +5 bonus. On a failed check, the observer recalls no more detail than your size category and rough body shape (such as humanoid) and the approximate topic of conversation. This disguise has no effect on the memory of anyone who observes you do something alarming such as attacking or stealing. Your disguise imposes a –2 penalty on Diplomacy, Intimidate, and Perform skill checks.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/subterfuge#toc29\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/subterfuge#toc29"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "27b792c9baec368e",
+  "_key": "!items!27b792c9baec368e",
+  "name": "Crimson Coagulant (tonic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:crimson-coagulant-tonic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc23",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "4fa77397eae6e070960e2767d8766277f3ff01bd26eb57bf3b9f1561f0661e45",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Concoction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:crimson-coagulant-tonic",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Cost:</strong> 2 herbs or 1 bland herb</p>\n<p>This tonic allows the imbiber to immediately stabilize whenever they are reduced to 0 hit points or fewer, although they are still disabled if they become conscious, as normal. At the start of each round the imbiber remains stabilized this way at a negative hit point total, they regain 1 hit point. This healing only makes the imbiber conscious again if they are brought to 0 or more hit points.</p>\n<p><strong>Twists</strong></p>\n<ul>\n<li><strong>1 bitter herb:</strong> Whenever the imbiber would fall unconscious due to being reduced to a negative hit point total, they may choose to remain conscious and disabled. The imbiber still suffers 1 point of damage if they take a strenuous action, but they are stable due to this tonic’s base effect.</li>\n<li><strong>1 bland herb:</strong> The imbiber reduces the value of any bleed damage they suffer by an amount equal to your operative ability modifier (minimum 1).</li>\n<li><strong>1 dry herb:</strong> The imbiber also treats their Constitution score as being 2 higher when determining the number of hit points they can be reduced to below 0 without dying, increasing by 1 per 3 ranks in the associated skill.</li>\n<li><strong>1 savory herb:</strong> The temporary hit points granted due to the savory herb regenerate at a rate of 1 per round for as long as you remain below half your maximum hit points.</li>\n<li><strong>1 sweet herb:</strong> At the start of each round the imbiber remains stabilized at a negative hit point total, they heal an additional amount of hit points equal to 1/2 your associated ranks (minimum 1). Additionally, while disabled, the imbiber is not staggered, though performing a strenuous action still deals 1 point of damage to them. Taking a full-round action deals 2 points of damage to them.</li>\n<li><strong>1 tainted herb:</strong> The imbiber immediately fails stabilization checks that they attempt while dying. If the imbiber can usually act while dying, they lose the ability to do so for 1 minute.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc23\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc23"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

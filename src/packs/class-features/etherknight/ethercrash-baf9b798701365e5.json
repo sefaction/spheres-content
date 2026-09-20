@@ -1,0 +1,121 @@
+{
+  "_id": "baf9b798701365e5",
+  "_key": "!items!baf9b798701365e5",
+  "name": "Etherknight: Ethercrash",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:etherknight:current:class-feature:ethercrash",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/etherknight#toc9",
+      "sourceSha256": "0a6950d0d983d837ee856984170e3d480631adf525d4c698dd189fac22102b4f",
+      "descriptionSha256": "8775f6fcb651297a6cd9c071da381e1cf03e7f4a36db7da35106eeb49882da0e",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:etherknight:current:class-feature:ethercrash",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>An etherknight begins play with the ability to perform ethercrashes, which are effectively the \"finishing moves\" of etherknight techniques. He gains the following technique:</p>\n<h3>Ethercrash</h3>\n<p><strong>Range:</strong> see text<br>\n<strong>Target:</strong> creature in range<br>\n<strong>Focus Required:</strong> 3, 4<br>\n<strong>Focus Change:</strong> ­3<br>\n<strong>Casting Time:</strong> 1 standard action<br>\n<strong>Duration:</strong> see text</p>\n<p>As you begin to perform an ethercrash, choose up to three techniques with a range of greater than personal which fit the profiles given below:</p>\n<ul>\n<li>A technique with a Focus Change of +1; AND</li>\n<li>A technique with a Focus Change of +1 or 0; AND</li>\n<li>Beginning at etherknight level 6th, a technique with a Focus Change of 0 or ­1</li>\n</ul>\n<p>The chosen techniques combine in the following manner:</p>\n<ul>\n<li>The range of ethercrash is equal to the longest range among your chosen techniques.</li>\n<li>If at least one of the chosen techniques is supernatural, then ethercrash is supernatural; otherwise, it is spell-­like.</li>\n<li>If at least one of the chosen techniques is delivered via a ranged touch attack, then the combined ethercrash is a ranged touch attack; otherwise, it is a standard ranged attack.</li>\n</ul>\n<p>Using a melee weapon you are wielding, make a ranged/ranged touch (see above) attack against a creature in range. If you hit, an arc of energy slams into your target, applying the effects of each of the chosen techniques on a successful hit.</p>\n<p><strong>Escalation:</strong> You may set the Focus Required of this technique to 4 and its Focus Change to ­4. If you do, you choose up to three techniques with a range of greater than personal that fit the following profile rather than the one given above:</p>\n<ul>\n<li>A technique with a Focus Change of +1; AND</li>\n<li>A technique with a Focus Change of +1, 0, or ­1; AND</li>\n<li>A technique with a Focus Change of ­1 or ­2</li>\n</ul>\n<p>You must be at least a 11th­level etherknight to use this escalation.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/etherknight#toc9\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/etherknight#toc9"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

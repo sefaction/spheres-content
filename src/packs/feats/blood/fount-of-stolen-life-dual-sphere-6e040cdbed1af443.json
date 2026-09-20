@@ -1,0 +1,121 @@
+{
+  "_id": "6e040cdbed1af443",
+  "_key": "!items!6e040cdbed1af443",
+  "name": "Fount Of Stolen Life (Dual Sphere)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:blood:ultimate:feat:fount-of-stolen-life-dual-sphere",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/blood#toc70",
+      "sourceSha256": "ab11eec09b47ca3302d0e9943147e77509a758f7a988b7828b4dd8372ccc3fb7",
+      "descriptionSha256": "c5d4a9429ec19cb37f1613871b4aa8e23af0a18d4377362c1093744cf14e31b7",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Blood Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:blood:ultimate:feat:fount-of-stolen-life-dual-sphere",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Blood sphere, Life sphere (Fount Of Life).</p>\n<p><strong>Benefit:</strong> As a move action, you may deal 2 Constitution burn to any amount of creatures you have established blood control with. Unwilling creatures may attempt a Fortitude save against your Blood sphere DC to resist this. If you successfully deal Constitution burn to a creature with Hit Dice equal to or greater than half your level with this ability, you add an amount of healing into your fount of life equal to twice that creature’s Hit Dice. You cannot apply the burn if it would cause a creature’s Constitution score to be lowered to 0 or below. A creature that has suffered the effect of this feat cannot suffer from it again until they recover from any Constitution burn they have suffered from this feat.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/blood#toc70\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/blood#toc70"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

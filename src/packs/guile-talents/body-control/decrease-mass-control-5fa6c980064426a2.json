@@ -1,0 +1,124 @@
+{
+  "_id": "5fa6c980064426a2",
+  "_key": "!items!5fa6c980064426a2",
+  "name": "Decrease Mass (control)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:body-control:spheres-of-guile:guile-talent:decrease-mass-control",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/body-control#toc48",
+      "sourceSha256": "ec7aa97e088675a010d37041d0a1d93fbcb23b1ec3b52a8948ffa9dd9985fbff",
+      "descriptionSha256": "1ae9112b42d0bb6e981ec040090a631ee0799e36c8a5c431ff6e64a9744ec360",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:body-control:spheres-of-guile:guile-talent:decrease-mass-control",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "bodyControl"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Body Control sphere.</p>\n<p>You can decrease your mass while you meditate, which reduces your weight by 50%, granting you the following benefits:</p>\n<ul>\n<li>You may spend 1 use of skill leverage as an immediate action to reroll a failed Climb check, Swim check, or Acrobatics check to balance.</li>\n<li>You are always considered to have a running start for Acrobatics checks to jump. When you high jump, you can clear a distance equal to half your Acrobatics result. When you long jump, you can clear a distance equal to twice your Acrobatics result (but not farther than the maximum distance you can move in the round).</li>\n<li>Wind effects and location-based traps treat you as if you were one size category smaller; if you have a fly speed, you can use your Escape Artist modifier in place of your Fly modifier if it is better.</li>\n<li>Falling damage you take is measured in d4s.</li>\n<li>You do not sink in quicksand, lava, thin ice, or snow (although you are not protected from any harm that you might take for simply standing on the substance). If you were already under the surface of quicksand or lava, you float 10 feet upward at the end of each of your turns, up until your whole body breaks the surface (allowing you to stand on it).</li>\n<li>You do not sink in water, acid, oil, or other liquids if you charge or run across it. If you turn or otherwise walk on a liquid, you sink immediately.</li>\n</ul>\n<p>If you would come under the effect of Decrease Mass and Increase Mass at the same time, they cancel each other out.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/body-control#toc48\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/body-control#toc48"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

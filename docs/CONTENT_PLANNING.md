@@ -57,3 +57,13 @@ Record mechanics-review status in provenance metadata rather than inserting
 implementation commentary throughout player-facing rules text.
 
 The four-entry pilot now implements PF1 source validation, compiled-pack round trips, stable identities, description/reference guards and registered image provenance. It contains Extra Magic Talent, Lycanthrope Hunter's Kit, Incanter, and the Guile talent Favorite Tools. Four generated images are packaged. Remote document/sheet acceptance is pending. This pilot is not the complete catalog.
+
+## Systematic intake update
+
+The current catalog is a programmatic descriptive intake, not a completed set of
+reviewed mechanics or artwork. See [the pipeline](SYSTEMATIC_INTAKE.md) and
+[summary](../research/intake/summary.json) for exact counts and holds. User scope
+includes all PF1 items, feats and base classes across publishers, plus missing
+Guile talents; existing magic/combat talents and archetypes remain excluded.
+Narrow-sheet wrapping is explicitly out of scope. Review class grant plans before
+attaching sub-items, and review compendium matches before replacing draft data.

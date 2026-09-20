@@ -1,0 +1,124 @@
+{
+  "_id": "9394c06056c705be",
+  "_key": "!items!9394c06056c705be",
+  "name": "Modify Impressions (ground)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:survivalism:spheres-of-guile:guile-talent:modify-impressions-ground",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/survivalism#toc52",
+      "sourceSha256": "f08a002395ddf0d614719b1c74bdfc78b77500e0a93ea395e3e0354dcf980820",
+      "descriptionSha256": "4c0e2cba7a12d0aa2c8c5ff38f9794146621f23e3cac760858df812adcc01e81",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Ground Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:survivalism:spheres-of-guile:guile-talent:modify-impressions-ground",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "survivalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>When you use dredge, you can choose one of the following options to apply to the area:</p>\n<p><strong>Misleading Terrain:</strong> The DC of Survival checks attempted to follow tracks and reconstruct events and to Perception checks attempted to find an object or feature within the dredged area increases by 5 + 1 per 4 ranks in the associated skill you possess.</p>\n<p>Additionally, when you dredge an area this way, choose a different series of events that occurred within the area. A creature attempting to use Survival to reconstruct events within the dredged area (or a similar skill check attempting to discern what happened within the area) must succeed at a Will saving throw or come to the conclusion that the events that transpired was the event you chose, instead of the actual event.</p>\n<p><strong>Revealing Terrain:</strong> Any creature who enters the dredged area becomes marked with a marker of your choice, such as ink, pollen, a scent, etc. The creature must succeed at a Perception check equal to 10 + your associated skill modifier to notice the marker, and can spend 1 minute to remove the marker. The DC to track a marked creature decreases by 5 + 1 per 4 ranks in the associated skill you possess.</p>\n<p>You can choose to have a creature become marked only if they meet a certain trigger, chosen when you dredge the area. This could be 'when a certain item is touched', 'if a creature runs', etc.</p>\n<p>When you create this dredged area with either option, you can spend 1 use of skill leverage to double the normal amount of squares you can normally dredge.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/survivalism#toc52\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/survivalism#toc52"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "14804aa02c78e853",
+  "_key": "!items!14804aa02c78e853",
+  "name": "Tethered Mana",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mana:ultimate:feat:tethered-mana",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mana#toc117",
+      "sourceSha256": "06b0eb5b2d5f3e7266206aee7cb1666a55aa109bbce2259ade8a41e4b38f06dd",
+      "descriptionSha256": "05b7d178b34b33825e893f68b136cb1a6d6f457aac94518da8b7827ba3562c9f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Mana Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mana:ultimate:feat:tethered-mana",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Mana sphere (Hardened Bond).</p>\n<p><strong>Benefits:</strong> You may spend a standard action to create a Hardened Bond on any creature (unwilling ones may attempt a Reflex save against your Mana sphere DC), object, or square within range of your maximum manabond range, although you may not apply a (manabond) talent to it and may allow it to continue without concentration for 1 minute per level without spending a spell point. You may ‘link’ the part of the bond attached to yourself to any other creature, object or square by spending another standard action touching them (including making a touch attack against unwilling creatures); in effect letting go of the hardened bond and linking the two other creatures, objects or thereof together for the duration. You may also ‘pick up’ one of the ends of the bond with a standard action.</p>\n<p><strong>Special:</strong> Possessing this feat allows you to qualify for the Tether Adept feat as if you had the Energy Tether talent, using the manabond as if it were the tether. You may also use this feat with the Rope Swing talent of the Athletics sphere, as if it were a rope or a grappling hook.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mana#toc117\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mana#toc117"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

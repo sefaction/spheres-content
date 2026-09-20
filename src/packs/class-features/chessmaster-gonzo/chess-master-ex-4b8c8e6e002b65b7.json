@@ -1,0 +1,121 @@
+{
+  "_id": "4b8c8e6e002b65b7",
+  "_key": "!items!4b8c8e6e002b65b7",
+  "name": "Chessmaster: Chess Master (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:chessmaster-gonzo:current:class-feature:chess-master-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/chessmaster-gonzo#toc3",
+      "sourceSha256": "b2c30b31159015b5dd77af99bca67286cface13b2373c3f23d053b95d7cb7c2e",
+      "descriptionSha256": "5cb99b0fdf3bedd0953138684e805104c6de2ca461eafdb7d1fd9c55101f2a04",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:chessmaster-gonzo:current:class-feature:chess-master-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, the chessmaster can offer keen and perceptive advice to an ally on what action they should take on their turn. At the start of an ally’s (excluding the chessmaster’s) turn, the chessmaster suggests a course of action to his ally.</p>\n<p><strong>Examples:</strong></p>\n<ul>\n<li>“Move there so you can flank with Bill the Barbarian” (Move action)</li>\n<li>“Don’t you have that potion of cure light wounds?” (Standard action)</li>\n<li>“I’d advise attacking that snake. It only has a few HP left and if you kill that- we won’t have to worry about Bill the Barbarian taking damage from it next turn.” (Standard)</li>\n<li>“A single attack? No, you are a two-weapon fighter- it’d be best if you just full-round attacked that thing.” (Full round)</li>\n</ul>\n<p>If his ally follows this suggestion the chessmaster gains 2 edge points. As a free action that can only be made after an ally accepts their advice, they can spend 1 edge point to assign that ally a bonus that lasts until the end of that ally’s turn (this edge point may be one he just received). The possible bonuses are:</p>\n<ul>\n<li>The ally gains a +4 insight bonus to their AC against attacks of opportunity. Creatures that make attacks of opportunity against this ally provoke attacks of opportunity for making such an action. These attacks of opportunity resolve after the initial attack of opportunity does. This attack of opportunity does not stack with other abilities that provoke attacks of opportunity such as the barbarian’s <em>come get me</em> rage power<sup>APG</sup>.</li>\n<li>The ally gains an insight bonus on attack rolls equal to 1 + 1/4th the chessmaster’s level against 1 creature of the chessmaster’s choosing</li>\n<li>The ally bypasses 1/2 the chessmaster’s level (minimum 1) in DR and twice the chessmaster’s level of a single type of resistance (chosen each this this is used) against a single creature of the chessmaster’s choosing.</li>\n<li>The ally gains a +10 foot bonus to their move speed if they make a charge, double move, or withdrawal action.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/chessmaster-gonzo#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/chessmaster-gonzo#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

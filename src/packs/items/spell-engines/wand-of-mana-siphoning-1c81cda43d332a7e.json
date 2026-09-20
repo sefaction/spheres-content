@@ -1,0 +1,162 @@
+{
+  "_id": "1c81cda43d332a7e",
+  "_key": "!items!1c81cda43d332a7e",
+  "name": "Wand of Mana Siphoning",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spell-engines:ultimate:item:wand-of-mana-siphoning",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spell-engines#toc21",
+      "sourceSha256": "f98f5856ec556f138235795825cfff8bd2aa38e0f93afb47ffe8116a4708d757",
+      "descriptionSha256": "c9ad6565ba181c04297a51d1e62d1e30018fe1ed85e0642827899c0f3a91ce81",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "spell-engines",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spell-engines:ultimate:item:wand-of-mana-siphoning",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint Destruction; <strong>CL</strong> 2nd<br>\n<strong>Slot</strong> none; <strong>Price</strong> 1,000 gp; <strong>Weight</strong> 0.5 lbs.</p>\n<p><strong>Description</strong><br>\nThis elmwood wand has dwarven runes carved into the handle which translate to “mage anathema”. This wand of Destruction lacks the base destructive blast ability of the Destruction sphere, but is enchanted with the Mana Siphon (blast type) talent which allows wielders of the wand to make a ranged touch attack dealing 1d4 nonlethal damage. Those hit with the ray must succeed at a DC 11 Fortitude save or lose 1 spell point. Any spell points drained from a creature in this fashion are granted to the wand as temporary spell points which last for 2 rounds. Alternatively, the wand’s wielder may choose to spend 1 spell point (or a temporary spell point) from the wand to increase the nonlethal damage from 1d4 to 2d4 damage.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Spell Engine, Destruction sphere (Mana Siphon (blast type, force)); <strong>Cost</strong> 500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/spell-engines#toc21\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0.5
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 1000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spell-engines#toc21"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

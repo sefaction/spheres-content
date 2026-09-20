@@ -1,0 +1,121 @@
+{
+  "_id": "d39ba67717881ce5",
+  "_key": "!items!d39ba67717881ce5",
+  "name": "Atomic Adept: Spells",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:atomic-adept:current:class-feature:spells",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/atomic-adept#toc6",
+      "sourceSha256": "dedc9778d96661d855da3a24c5a24bba371e77084f72e3c88eb7136597d6dfc3",
+      "descriptionSha256": "fa5d048a04925fdef84bcd1ae47ce9bacac810788f1b1c9e2326655aa39242c3",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:atomic-adept:current:class-feature:spells",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>An atomic adept casts arcane spells drawn from the atomic adept’s spell list. An atomic adept can cast any spell he knows without preparing it ahead of time and he knows all spells an atomic adept of his level has access to.</p>\n<p>An atomic adept can cast as many atomic adept spells as he wishes per day. Casting a spell inflicts 10 x spell level in rads on him, unless otherwise stated. The rads are inflicted before a spell goes off.</p>\n<p>Every time an atomic adept casts a spell he rolls a d100 and adds the spell level to the roll. If the result is ever 100 or higher, he goes into “meltdown” (see below). If the result is less than 100, the spell is cast without issue, but he adds the spell’s level to the “meltdown modifier”. He always adds his meltdown modifier to the d100 rolls he makes to cast spells. His meltdown modifier resets when he goes into a meltdown or when he rests for 8 hours.</p>\n<p>If he ever goes into a meltdown, his spell fails and he suffers a nuclear strike (as if cast by himself) and gains 10 x his atomic adept level in rads. In addition, he creates an irradiated zone with a radius of 20 feet centered on him. Creatures who enter the irradiated zone gain 20 rads per round at the start of their turn. A zone remains irradiated for 2 hours per atomic adept level.</p>\n<p>To cast a spell, the atomic adept must have an Intelligence score equal to at least 10 + the spell level. An atomic adept knows any spell on his spell list that he can cast. The Difficulty Class for a saving throw against an atomic adept’s spell is 10 + the spell level + the atomic adept’s Intelligence modifier.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/atomic-adept#toc6\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/atomic-adept#toc6"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

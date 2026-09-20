@@ -1,0 +1,148 @@
+{
+  "_id": "389a24be7c73dd2f",
+  "_key": "!items!389a24be7c73dd2f",
+  "name": "Theurge",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:theurge:current:class:theurge",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/theurge",
+      "sourceSha256": "d50568cbd5c4fa21ff3203912389f01c6e0036c4efa2de0ae232359ac6364e8f",
+      "descriptionSha256": "28e6fe55fb2cedcc3801bafb160863ad162f7877dfb58bbb62d7234af7e6b11e",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:theurge:current:class:theurge",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>\nThe theurge base class originally appeared in Kobold Press’ New Class Compendium and appears here by virtue of the OGL. Many other classes in that book may find a place in the City.\n</p>\n<hr>\n<p>Duality is a way of life in the Shadow Plane. Many of those born in the City are torn between extremes or lost in the fringes of shifting polarities. There walk the theurges of the City. Forever between, many of these become drawn between the divine energies of the Eternals and the arcane secrets of Radia and Occlusion. Liminal mistresses and masters of the crossroads—blending magic from two sources with a singular passion.</p>\n<p><strong>Role:</strong> Those standing between forces may seem destined never to master either. This is rarely the case however, as that these esoteric specialists can weave effects from both Sources they claim with a singular purpose.</p>\n<p><strong>Alignment:</strong> Any.</p>\n<p><strong>Hit Die:</strong> d6.</p>\n<p><strong>Class Skills</strong> The theurge’s class skills are Appraise (Int), Craft (Int), Diplomacy (Cha), Fly (Dex), Heal (Wis), Knowledge (all) (Int), Linguistics (Int), Profession (Wis), Sense Motive (Wis), and Spellcraft (Int).</p>\n<p><strong>Skill Ranks per Level:</strong> 2 + Int modifier.</p>\n<p><strong>Starting Wealth:</strong> 2d6 × 10 gp (average 70 gp).</p>\n<h1>Class Features</h1>\n<strong>Table: The Theurge</strong>\n<table>\n<tbody><tr>\n<th colspan=\"6\">Class Features</th>\n<th colspan=\"11\">Spells Per Day</th>\n</tr>\n<tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Ref Save</th>\n<th>Will Save</th>\n<th>Special</th>\n<th>0</th>\n<th>1st</th>\n<th>2nd</th>\n<th>3rd</th>\n<th>4th</th>\n<th>5th</th>\n<th>6th</th>\n<th>7th</th>\n<th>8th</th>\n<th>9th</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+0</td>\n<td>+0</td>\n<td>+2</td>\n<td>Cantrips, orisons</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+0</td>\n<td>+0</td>\n<td>+3</td>\n<td>Scribe Scroll</td>\n<td>2+2</td>\n<td>1+1</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+1</td>\n<td>+1</td>\n<td>+1</td>\n<td>+3</td>\n<td>Focused caster</td>\n<td>2+2</td>\n<td>1+1</td>\n<td>1</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+2</td>\n<td>+1</td>\n<td>+1</td>\n<td>+4</td>\n<td>Combined spell</td>\n<td>2+2</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+2</td>\n<td>+1</td>\n<td>+1</td>\n<td>+4</td>\n<td>Spell synthesis 1/day</td>\n<td>2+2</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>1</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+3</td>\n<td>+2</td>\n<td>+2</td>\n<td>+5</td>\n<td>Innate spell</td>\n<td>2+2</td>\n<td>2+1</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+3</td>\n<td>+2</td>\n<td>+2</td>\n<td>+5</td>\n<td>Combined spell (2nd)</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>1</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+4</td>\n<td>+6</td>\n<td>+2</td>\n<td>+6</td>\n<td>Bonus feat</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+1</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+4</td>\n<td>+3</td>\n<td>+3</td>\n<td>+6</td>\n<td>Innate spell (2nd), wand adept</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>1</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+5</td>\n<td>+3</td>\n<td>+3</td>\n<td>+7</td>\n<td>Combined spell (3rd)</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+1</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+5</td>\n<td>+3</td>\n<td>+3</td>\n<td>+7</td>\n<td>Spell synthesis 2/day</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>1</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+6/+1</td>\n<td>+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>Innate spell (3rd)</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+1</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>—</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+6/+1</td>\n<td>+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>Combined spell (4th)</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>1</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+7/+2</td>\n<td>+4</td>\n<td>+4</td>\n<td>+9</td>\n<td>Bonus feat</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+1</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>—</td>\n<td>—</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+7/+2</td>\n<td>+5</td>\n<td>+5</td>\n<td>+9</td>\n<td>Innate spell (4th)</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>1</td>\n<td>—</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+8/+3</td>\n<td>+5</td>\n<td>+5</td>\n<td>+10</td>\n<td>Combined spell (5th)</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+1</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>—</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+8/+3</td>\n<td>+5</td>\n<td>+5</td>\n<td>+10</td>\n<td>Spell synthesis 3/day</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>1</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+9/+4</td>\n<td>+6</td>\n<td>+6</td>\n<td>+11</td>\n<td>Innate spell (5th)</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+1</td>\n<td>2+1</td>\n<td>1+1</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+9/+4</td>\n<td>+6</td>\n<td>+6</td>\n<td>+11</td>\n<td>Combined spell (6th)</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+1</td>\n<td>2+1</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+10/+5</td>\n<td>+6</td>\n<td>+6</td>\n<td>+12</td>\n<td>Master theurge</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n<td>2+2</td>\n</tr>\n</tbody></table>\n<p><sup>“1” indicates that the theurge may prepare either an arcane or divine spell of that level per day.</sup><br>\n<sup>“1+1” indicates that the theurge may prepare one arcane and one divine spell of that level per day.</sup><br>\n<sup>“2+1” indicates that the theurge has the choice of preparing either two arcane spells and one divine spell or two divine spells and one arcane spell of that level per day.</sup></p>\n<h2>Weapon and Armor Proficiency</h2>\n<p>A theurge is proficient with all simple weapons. A theurge is not proficient with any type of armor or shield. Armor interferes with a theurge’s movements, which can cause his arcane spells with somatic components to fail.</p>\n<h2>Spells</h2>\n<p>A theurge casts divine spells drawn from the cleric spell list and arcane spells drawn from the sorcerer/wizard spell list. A theurge must choose and prepare his spells in advance. To prepare or cast an arcane spell, a theurge must have an Intelligence score equal to at least 10 + the spell level. The DC for a saving throw against a theurge’s arcane spell is 10 + the spell level + the theurge’s Intelligence modifier. To prepare or cast a divine spell, a theurge must have a Wisdom score equal to at least 10 + the spell level. The Difficulty Class for a saving throw against a theurge’s divine spell is 10 + the spell level + the theurge’s Wisdom modifier. A theurge can cast only a certain number of arcane spells and divine spells of each spell level per day. His base daily spell allotment is given on Table: The Theurge. In addition, he receives bonus spells per day if he has a high Intelligence or Wisdom score. A theurge receives bonus arcane spells for a high Intelligence score and bonus divine spells for a high Wisdom score. A theurge does not know all divine spells of a given level, as a cleric does. Instead, he prepares divine spells from his prayer book, which contains his collection of written divine spells. A theurge must choose and prepare his spells ahead of time by getting 8 hours of sleep and spending 1 hour studying his spellbook (for arcane spells) and his prayer book (for divine spells) and deciding which spells to prepare.</p>\n<h2>Cantrips and Orisons</h2>\n<p>Theurges can prepare a number of cantrips (0-level arcane spells), and orisons (0-level divine spells) each day, as noted on Table: The Theurge. These spells are cast like any other spell, but they are not expended when cast and may be used again.</p>\n<h2>Spellbooks</h2>\n<p>A theurge must study his spellbook each day to prepare his arcane spells. He cannot prepare any spell not recorded in his spellbook, except for read magic, which all theurges can prepare from memory. A theurge begins play with a spellbook containing all 0-level sorcerer/wizard spells plus three 1st-level sorcerer/wizard spells of his choice. The theurge also selects a number of additional 1st-level sorcerer/wizard spells equal to his Intelligence modifier to add to the spellbook. At each new theurge level, he gains two new sorcerer/wizard spells of any spell level or levels that he can cast (based on his new theurge level) for his spellbook. At any time, a theurge can also add spells from borrowed or captured spellbooks to his own.</p>\n<h2>Prayer Book</h2>\n<p>A theurge does not receive his divine spells directly from the deity or other mystical force he venerates. Instead, he must search for and collect new divine spells to record in his prayer book, much the same as he does with arcane spells for his spellbook. These divine spells can come from divine scrolls, holy tablets, or other magical writings. A theurge cannot prepare any divine spell not recorded in his prayer book. A theurge begins play with a prayer book containing all 0-level cleric spells plus three 1st-level cleric spells of the player’s choice.</p>\n<p>The theurge may also select a number of additional 1st-level cleric spells equal to his Wisdom modifier to add to his prayer book. At each new theurge level, he gains two new cleric spells of any spell level or levels that he can cast (based on his new theurge level). At any time, a theurge can also add divine spells found on scrolls or in other magical writings to his prayer book.</p>\n<h2>Bonus Languages</h2>\n<p>A theurge’s bonus language options include Celestial, Abyssal, Draconic and Infernal. These choices are in addition to the bonus languages available to the character because of his species.</p>\n<h2>Scribe Scroll</h2>\n<p>At 2nd level, a theurge gains Scribe Scroll as a bonus feat.</p>\n<h2>Focused Caster (Ex)</h2>\n<p>Beginning at 3rd level, a theurge may roll twice on any concentration check and take the higher result.</p>\n<h2>Combined Spell (Su)</h2>\n<p>Starting at 4th level, a theurge can prepare and cast arcane spells using available divine spell slots and vice versa. Spells prepared and cast in this way take up a slot one level higher than they otherwise would have occupied. This ability cannot be used to cast a spell at a lower level if that spell exists on both the cleric spell list and the sorcerer/wizard spell list. At 4th level, a theurge can prepare 1st-level arcane spells using available 2nd-level divine spell slots or 1st-level divine spells using available 2nd-level arcane spell slots. Every three levels thereafter, the maximum level of spells that can be prepared in this way increases by one, to a maximum of 6th-level spells at 19th level. (Such spells would take up 7th-level spell slots.) Despite being prepared and cast using a higher-level spell slot, a combined spell is still treated in all ways like a spell of its actual level. For example, a 7th-level theurge who has already prepared all his allotted 3rd-level arcane spells for the day could still prepare a fireball spell by using an available 4th level divine spell slot. The fireball would still be considered in all ways a 3rd-level arcane spell.</p>\n<h2>Spell Synthesis (Su)</h2>\n<p>At 5th level and higher, a theurge can cast two spells he has prepared, one arcane and one divine, using one action. Both of the spells must have the same casting time. The theurge can make any decisions concerning the spells independently of each other. Any target affected by both spells takes a –4 penalty on saving throws against each spell. A theurge receives a +4 bonus on caster level checks made to overcome spell resistance involving either of the two spells. A theurge can use this ability once per day at 5th level and one additional time per day at 11th and 17th levels.</p>\n<h2>Innate Spell (Sp)</h2>\n<p>As a theurge’s mastery of magic improves, he learns to cast a small number of spells spontaneously. Beginning at 6th level, a theurge may designate one 1st-level spell he knows. He can now cast this spell once per day as a spell-like ability, without needing to prepare it ahead of time. This innate spell is in addition to the theurge’s normal allotment of spells and does not count against his spells per day. The caster level for this spell is equal to the theurge’s caster level.</p>\n<p>At 9th level and every three levels thereafter (12th, 15th, and 18th), the theurge may designate an additional spell that he can use once per day as a spell-like ability. Whenever he gains an additional spell, the maximum level of spells he can designate increases by one, to a maximum of a 5th-level innate spell at 18th level. A theurge cannot change an innate spell once it is designated and cannot designate the same spell more than once.</p>\n<h2>Bonus Feats</h2>\n<p>At 8th and 14th levels, a theurge gains a bonus feat. At each such opportunity, he must choose a metamagic feat, an item creation feat, Spell Focus, Greater Spell Focus, Spell Penetration, or Greater Spell Penetration. The theurge must still meet all prerequisites for a bonus feat, including caster level minimums. These bonus feats are in addition to the feats that a character of any class gets from advancing levels. The theurge is not limited to the categories or specific feats listed above when choosing those other feats.</p>\n<h2>Wand Adept (Su)</h2>\n<p>A theurge of 9th level or higher can use his innate magic to power wands. When he wields a wand that contains a spell on one of his spell lists, the theurge uses his own ability score (Intelligence for arcane spells, Wisdom for divine spells) to determine the wand’s save DC. At 14th level, a theurge uses his caster level when activating the power of a wand if it’s higher than the caster level of the wand.</p>\n<h2>Master Theurge (Su)</h2>\n<p>At 20th level, a theurge becomes a true master of arcane and divine magic. He no longer needs to expend a spell slot one level higher when using combined spells. In addition, he may apply any single metamagic feat that he knows to a spell he is about to cast. This does not alter the level of the spell or the casting time. The theurge can apply a metamagic feat in this way a number of times per day equal to his Intelligence or Wisdom modifier (whichever is higher).</p>\n<hr>\n<table>\n<tbody><tr>\n<th colspan=\"12\">City of 7 Seraphs by Lost Spheres Publishing</th>\n</tr>\n<tr>\n<th colspan=\"12\">Classes</th>\n</tr>\n<tr>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/aegis\">Aegis</a></td>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/aethernaut\">Aethernaut</a></td>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/echo\">Echo</a></td>\n</tr>\n<tr>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/eclipse\">Eclipse</a></td>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/nexus\">Nexus</a></td>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/radiant\">Radiant</a></td>\n</tr>\n<tr>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/shadow-weaver\">Shadow Weaver</a></td>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/sphereshaper\">Sphereshaper</a></td>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/theurge\">Theurge</a></td>\n</tr>\n<tr>\n<th colspan=\"12\">Races</th>\n</tr>\n<tr>\n<td><a href=\"http://spheresofpower.wikidot.com/ceptu\">Ceptu</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/judow\">Judow</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/mirrorkin\">Mirrorkin</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/rhyzala\">Rhyzala</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/shadow-fey\">Shadow Fey</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/veryx\">Veryx</a></td>\n</tr>\n<tr>\n<td><a href=\"http://spheresofpower.wikidot.com/xodai\">Xodai</a></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n<td></td>\n</tr>\n<tr>\n<th colspan=\"12\">Luminous Organizations</th>\n</tr>\n<tr>\n<td><a href=\"http://spheresofpower.wikidot.com/ashlords\">Ashlords</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/children-of-dreams\">Children of Dreams</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/everlasting-dawn\">Everlasting Dawn</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/foreseers\">Foreseers</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/house-of-prominence\">House of Prominence</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/steamstriders\">Steamstriders</a></td>\n</tr>\n<tr>\n<th colspan=\"12\">Neutral Organizations</th>\n</tr>\n<tr>\n<td colspan=\"3\"><a href=\"http://spheresofpower.wikidot.com/cocoon-pact\">Cocoon Pact</a></td>\n<td colspan=\"3\"><a href=\"http://spheresofpower.wikidot.com/descendants-of-thunder\">Descendants of Thunder</a></td>\n</tr>\n<tr>\n<th colspan=\"12\">Umbral Organizations</th>\n</tr>\n<tr>\n<td><a href=\"http://spheresofpower.wikidot.com/blackswords\">Blackswords</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/booksealers\">Booksealers</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/church-of-coin\">Church of Coin</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/frozen-graves\">Frozen Graves</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/hands-of-burden\">Hands of Burden</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/scarlet-sovereignty\">Scarlet Sovereignty</a></td>\n</tr>\n<tr>\n<th colspan=\"12\"><a href=\"https://www.drivethrurpg.com/product/269801/The-City-of-7-Seraphs?affiliate_id=549120\">Get The City of 7 Seraphs</a></th>\n</tr>\n<tr>\n<th colspan=\"12\"><a href=\"https://www.drivethrurpg.com/product/353894/Spheres-of-Akasha?affiliate_id=549120\">Get Spheres of Akasha</a></th>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/theurge\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 6,
+    "hp": 6,
+    "bab": "low",
+    "skillsPerLevel": 2,
+    "savingThrows": {
+      "fort": {
+        "value": "low"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "alignment": "Any.",
+    "wealth": "2d6 * 10",
+    "classSkills": {
+      "apr": true,
+      "crf": true,
+      "dip": true,
+      "fly": true,
+      "hea": true,
+      "kar": true,
+      "kdu": true,
+      "ken": true,
+      "kge": true,
+      "khi": true,
+      "klo": true,
+      "kna": true,
+      "kno": true,
+      "kpl": true,
+      "kre": true,
+      "lin": true,
+      "pro": true,
+      "sen": true,
+      "spl": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/theurge"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

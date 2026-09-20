@@ -1,0 +1,121 @@
+{
+  "_id": "f2a597c00aa86acd",
+  "_key": "!items!f2a597c00aa86acd",
+  "name": "Conduit: Evoke Dweomer (Sp)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:conduit:spheres-of-guile:class-feature:evoke-dweomer-sp",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/conduit#toc4",
+      "sourceSha256": "377bf048eed7161d04a1dd9b3b245019ddcfade0d967f7fd2750bfcca082136d",
+      "descriptionSha256": "7119cce81fdcbd589759c00fdd0800faa816983b7422677f589d301063e98551",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:conduit:spheres-of-guile:class-feature:evoke-dweomer-sp",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, the conduit can call upon the magic within an object to evoke certain effects. As a standard action (unless changed due to an applied talent or the sphere effect itself), the conduit can produce an effect from a magical item that they are touching (or an unattended object within their natural reach), known as an esoterica. Some esoterica require a sphere or spell of a certain school to be within the item’s construction requirements to be produced, and are listed within its description.</p>\n<p>An esoterica’s caster level, magic skill bonus and magic skill defense is equal to the conduit’s level and uses the conduit’s Constitution modifier as its casting ability modifier. The conduit can only use a specific esoterica once per day, plus an additional time per day for every 4 conduit levels beyond 1st they possess.</p>\n<p>If an esoterica offers the choice of applying talents (or other options) to a base effect, they can only choose a single choice for that specific instance. If the esoterica has a spell point cost (including the talents that augment it), the cost is considered to be automatically fulfilled.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/conduit#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/conduit#toc4"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

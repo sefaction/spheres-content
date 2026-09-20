@@ -1,0 +1,124 @@
+{
+  "_id": "035fab4bd3b2757a",
+  "_key": "!items!035fab4bd3b2757a",
+  "name": "Splinter Magic (hack)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spellhacking:spheres-of-guile:guile-talent:splinter-magic-hack",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spellhacking#toc47",
+      "sourceSha256": "ff5395bb19ac2b67c42bb66b158929891d1c2ab9f8401273b50df23faa41f51b",
+      "descriptionSha256": "694b358ba8f04f20b5457f19acaba0093e530764bc5515a3d39bed523bb56118",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Hack Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spellhacking:spheres-of-guile:guile-talent:splinter-magic-hack",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "spellhacking"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Target:</strong> A magical effect with at least one target, a duration of at least 5 rounds, and a range greater than personal</p>\n<p>You fracture a targeted magical effect, splitting it to include an additional valid target for the effect. The new target must be within the effect’s range from you and the effect or both must be within your reach. You can ignore the effect’s own limits on distance between multiple targets (such as mass charm person). The target gets any saving throw allowed, negating the effect on a success. You make any attack roll required. If the effect allows spell resistance, you make the check, using the number of ranks in the associated skill you possess in place of your caster level. If the effect has a concentration duration, you must concentrate to maintain the splinter. You cannot use Splinter Magic on the splinter effect produced by this talent.</p>\n<p>If the effect normally allows only 1 target, the splinter magic is less effective due to how its magic must be split to affect the new target. This has the following effects: new target gets a +2 bonus on its saving throw and to its spell resistance against the splinter effect, and the duration of the splinter effect on the new target (if not instantaneous, concentration, or permanent) is one-fifth the remaining duration on the target you are copying it from (at minimum lasting until the end of your next turn). You cannot splinter a single-target effect that is permanent except with the Retarget Magic exceptional talent.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/spellhacking#toc47\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spellhacking#toc47"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

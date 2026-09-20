@@ -1,0 +1,121 @@
+{
+  "_id": "53c63fbe27982d4e",
+  "_key": "!items!53c63fbe27982d4e",
+  "name": "Atomic Adept: Radiation",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:atomic-adept:current:class-feature:radiation",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/atomic-adept#toc2",
+      "sourceSha256": "dedc9778d96661d855da3a24c5a24bba371e77084f72e3c88eb7136597d6dfc3",
+      "descriptionSha256": "e7fd767406a6535ee822b051fcc82c5362d117622aa7ca2c256350903341e619",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:atomic-adept:current:class-feature:radiation",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The atomic adept uses a new mechanic known as radiation. Whenever they cast a spell or use a class feature that causes radiation damage it inflicts “rads” on both the target of the ability and the caster, although typically the caster receives a lower dose. The amount is specified in the spell or ability. Rads do not decrease naturally, though magic may be employed to reduce a creature’s rad count. The total number of rads a target has is called a “rad count”. If the rad count of a creature reaches a certain level it is inflicted with some negative conditions (see Table: Radiation Effects).</p>\n<strong>Table: Radiation Effects</strong>\n<table>\n<tbody><tr>\n<th>Rad Count</th>\n<th>Effect</th>\n</tr>\n<tr>\n<td>0-199</td>\n<td>No ill effects.</td>\n</tr>\n<tr>\n<td>200-499</td>\n<td>The creature is sickened.</td>\n</tr>\n<tr>\n<td>500-999</td>\n<td>The creature is nauseated.</td>\n</tr>\n<tr>\n<td>1000-1999</td>\n<td>1 negative level* and the creature is nauseated.</td>\n</tr>\n<tr>\n<td>2000-2999</td>\n<td>The creature is nauseated and takes 1 negative level*. Once below 2000 rads they heal these negative level at a rate of 1 per hour.</td>\n</tr>\n<tr>\n<td>3000+</td>\n<td>The creature must make a Fortitude save (DC 30) once per hour or be killed. For every 100 rads over 3000 the DC is improved by 1.</td>\n</tr>\n</tbody></table>\n<p><sup>*Negative levels caused by this are temporary rather than permanent negative levels.</sup></p>\n<h4>Reducing Rads</h4>\n<p>The following spells have the following impact on the rad count of a creature.</p>\n<ul>\n<li><strong>Cure Disease:</strong> Removes 100 x caster level of rads per casting.</li>\n<li><strong>Neutralize Poison:</strong> Removes 500 x caster level of rads per casting.</li>\n<li><strong>Delay Poison:</strong> Removes all ill effects of rads for the duration of the spell but does not reduce the rad count.</li>\n<li><strong>Poison Immunity:</strong> A creature that is immune to poison cannot gain rads.</li>\n<li><strong>Detect Poison and Deathwatch :</strong> This spell tells the caster how many rads the target has.</li>\n<li><strong>Rest:</strong> You drop a number of rads per day equal to the amount healed from bed rest.</li>\n</ul>\n<h4>Resisting Rads</h4>\n<p>A creature with a combined armor and shield bonus to their AC of 3 or greater or a natural armor bonus of 4 or greater takes half the normal dose of rads from an attack. This reduction can also reduce rads normally imparted to the caster.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/atomic-adept#toc2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/atomic-adept#toc2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

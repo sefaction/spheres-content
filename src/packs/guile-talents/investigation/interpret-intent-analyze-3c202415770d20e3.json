@@ -1,0 +1,124 @@
+{
+  "_id": "3c202415770d20e3",
+  "_key": "!items!3c202415770d20e3",
+  "name": "Interpret Intent (analyze)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:investigation:spheres-of-guile:guile-talent:interpret-intent-analyze",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/investigation#toc30",
+      "sourceSha256": "812d14024b95c9efb75b3f1dd2dddad532833a150eb7f2d9da1a70b809836e0e",
+      "descriptionSha256": "7819438afb1ac1f0423326c39150496509e7725ba39d2625c2b0a7fcb17fba22",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Analyze Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:investigation:spheres-of-guile:guile-talent:interpret-intent-analyze",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "investigation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Analyze Skills:</strong> Sense Motive;<br>\n<strong>Analyze DC:</strong> 10 + the target’s Bluff or Will save modifier (whichever is higher).</p>\n<p>You analyze a recent action taken by the target creature, gauging their intent. This could gauge anything from a detailed conversation, a disguise attempt, or an attack.</p>\n<p><strong>Simple:</strong> You analyze the basic intentions from the analyzed action, learning whether the action was taken for personal benefit, to benefit another, to benefit no one, or to benefit both themselves and another; in addition to learning an emotion or need that the action was fulfilling (such as fear or survival). You also learn the target’s state of alertness, and if they are attempting to hide how aware (or otherwise) they are of something.</p>\n<p><strong>Detailed (+5 DC):</strong> As a simple analysis, but you learn the further intentions from the analyzed action, revealing a motivation or complex emotion that the action was fulfilling (such as a need for justice, or fear of retribution). You also learn how they would feel if you were aware of their intent.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/investigation#toc30\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/investigation#toc30"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

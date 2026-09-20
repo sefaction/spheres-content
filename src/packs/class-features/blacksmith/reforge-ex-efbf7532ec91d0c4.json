@@ -1,0 +1,121 @@
+{
+  "_id": "efbf7532ec91d0c4",
+  "_key": "!items!efbf7532ec91d0c4",
+  "name": "Blacksmith: Reforge (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:blacksmith:current:class-feature:reforge-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/blacksmith#toc44",
+      "sourceSha256": "c6690007eab3683240f6bea49e6e8b97edb55ed6066cf6b7239f964cdf3fb632",
+      "descriptionSha256": "f18f51487e691599db665d5e39bce11086e2ea499271a321d8786f791f9ac312",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Abilities",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:blacksmith:current:class-feature:reforge-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>From 3rd level on, the blacksmith’s experience with crafting excellent equipment allows him to manipulate and rework magical equipment without damaging or sacrificing its magical potency. The blacksmith can spend 1 hour per total effective bonus (minimum 1 hour) of an enchanted armor, weapon, or shield (enhancement bonus plus permanent special ability bonus equivalents) at an operational forge to reforge the equipment into another equivalent item at no additional cost; weapons into weapons of another type, armor into a separate type of armor, and shields into weapons, armor, or other types of shields; a heavy shield can be converted into a light shield or vice versa, and a tower shield can be converted into any other type of shield, but bucklers, light shields and heavy shields cannot be converted into tower shields. When reforging, the blacksmith cannot exchange one piece of equipment for another that is not predominantly made out of the same dominant material; a greatclub can be reforged into a quarterstaff or spear, but not into a bastard sword, and a suit of platemail could be reforged into a breastplate or chain shirt, but not into a suit of leather armor. The new weapon or armor must be the same size or smaller as the original.</p>\n<p>In addition, the blacksmith can restore a magic weapon, armor, or shield that has been destroyed by a sunder attack or similar ability; if the blacksmith can acquire all the broken pieces of the equipment, he may restore it to its original complete condition, including all enchantments, with 8 hours of work at an operational forge.</p>\n<p><strong>Author's Note:</strong> Reforge allows a blacksmith to change the type of item (i.e. longsword to greatsword, armor to armor, etc.). Reforge cannot alter the item's special abilities (i.e. you cannot change flaming to frost, etc.). When reforging an item with a special ability that can only be placed on specific categories of items (i.e. keen for weapons, mind-buttressing on armors), changing that item's form does not allow that special ability to apply to an \"invalid\" item (i.e. a bludgeoning weapon cannot benefit from keen, light armor cannot benefit from mind-buttressing). The resulting reforged item would retain the special ability, but would not grant that special ability's effects (effectively being \"dormant\").</p>\n<p><a href=\"http://spheresofpower.wikidot.com/blacksmith#toc44\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/blacksmith#toc44"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

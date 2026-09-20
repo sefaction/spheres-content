@@ -1,0 +1,124 @@
+{
+  "_id": "f2ac8dbd42e0454d",
+  "_key": "!items!f2ac8dbd42e0454d",
+  "name": "Integrity Shifter (fabrication, function)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:artifice:spheres-of-guile:guile-talent:integrity-shifter-fabrication-function",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/artifice#toc56",
+      "sourceSha256": "a3a666f8e0af8307f0024100a1bdb6c458a7d34b1b4c37af5a6d0057bdfc9aa7",
+      "descriptionSha256": "77fe141cf565bac2a4b1c26912cf7ed027394ea0b199327aba04e3b976418f41",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Function Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:artifice:spheres-of-guile:guile-talent:integrity-shifter-fabrication-function",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "artifice"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p>You gain the following function:</p>\n<p><strong>Reinforcer/Wrecker (+10 DC):</strong> When you apply this function, choose whether it is a reinforcer or a wrecker. The trinket can be deployed onto a door or surface in 1 round, and can affect up to a 5 + 5-foot cube per 2 associated ranks (chosen when deployed).</p>\n<ul>\n<li><strong>Reinforcer:</strong> The door or surface’s break DC and hardness increases by +3 + 1 per 3 associated ranks, and gains a number of temporary hit points equal to your associated ranks + your operative modifier (minimum 1), which you can replenish as a standard action.<br>\nIf you spend 1 use of skill leverage when creating a reinforcer, the door or surface remains structurally sound for 1 + 1 round per 5 associated ranks after it is destroyed.</li>\n<li><strong>Wrecker:</strong> The door or surface’s break DC and hardness decreases by 3 + 1 per 3 associated ranks, and at the start of each round, the trinket deals an amount of bludgeoning damage to the door or surface equal to 1/2 your associated ranks + your operative modifier (minimum 1); the sound of this damage can be heard with a successful DC 10 Perception check.<br>\nIf you spend 1 use of skill leverage when creating a wrecker, the Perception DC to notice this damage (as well as to notice the door or surface break or become destroyed) becomes 15 + your associated skill modifier.</li>\n</ul>\n<p>The trinket can be removed from a surface or door as a standard action.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/artifice#toc56\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/artifice#toc56"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

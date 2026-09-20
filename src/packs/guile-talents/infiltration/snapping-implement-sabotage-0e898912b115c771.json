@@ -1,0 +1,124 @@
+{
+  "_id": "0e898912b115c771",
+  "_key": "!items!0e898912b115c771",
+  "name": "Snapping Implement (sabotage)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:infiltration:spheres-of-guile:guile-talent:snapping-implement-sabotage",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/infiltration#toc36",
+      "sourceSha256": "58ed5a81a47b83d364436f1d8eac245db0d53fc4fbcac22e0373513f5df330d7",
+      "descriptionSha256": "4ddb0d0c97e12929437fb91a2fa92c24fec3cbd5abdc48c5482c2ac358f32d84",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Sabotage Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:infiltration:spheres-of-guile:guile-talent:snapping-implement-sabotage",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "infiltration"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Target:</strong> any weapon or tool<br>\n<strong>Disable Device DC:</strong> 20 for weapons with moving parts or ammunition; 25 for other weapons</p>\n<p>You sabotage the target by weakening key parts so that it snaps on the wielder. The item gains the broken condition and instead of the intended action the wielder takes 1d4 points of damage of the item’s type per 2 ranks in Disable Device you possess (minimum 1d4) with a Reflex save for half damage.</p>\n<p>If the target does not have a damage type, reduce the damage by one die (not below the minimum) and you choose the type.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/infiltration#toc36\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/infiltration#toc36"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

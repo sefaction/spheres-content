@@ -1,0 +1,124 @@
+{
+  "_id": "ae5aa900912c9d5a",
+  "_key": "!items!ae5aa900912c9d5a",
+  "name": "Hitch A Ride",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:navigation:spheres-of-guile:guile-talent:hitch-a-ride",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/navigation#toc18",
+      "sourceSha256": "930fbc87334ae2307ec151fc191c6a9bc1e24ca52e18a283a509d0caacb9401f",
+      "descriptionSha256": "90d40993816540aa4f394e6fddc64ff20bd85863db173563b08deb99b78b011b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Navigation Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:navigation:spheres-of-guile:guile-talent:hitch-a-ride",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "navigation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You are able to secure some manner of vehicular passage for yourself and your companions. Making this plan could involve negotiating with a local patron, taming wild animals, or constructing a transport for yourself. You can spend one plan to obtain some form of vehicle or mount that you could feasibly access, with a value up to 100 gp + 20 gp x your ranks in one of your associated skills squared.</p>\n<p>This value may be spent on multiple mounts or vehicles (perhaps allowing you to obtain both a cart and the horses needed to pull it). Any vehicle or mount you obtain from this talent remains with you until you prepare your plans again. Either because these resources are borrowed or because they are temporary, you cannot sell anything gained from this talent and must pay for repairs if the transportation is killed, damaged or destroyed while you are using it.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/navigation#toc18\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["plan", "utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/navigation#toc18"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

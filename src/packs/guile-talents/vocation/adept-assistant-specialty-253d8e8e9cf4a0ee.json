@@ -1,0 +1,124 @@
+{
+  "_id": "253d8e8e9cf4a0ee",
+  "_key": "!items!253d8e8e9cf4a0ee",
+  "name": "Adept Assistant (specialty)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:vocation:spheres-of-guile:guile-talent:adept-assistant-specialty",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/vocation#toc22",
+      "sourceSha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "descriptionSha256": "e4e0f6843df70eb103ca042f75a7cd87f7550f16417e2af7324df50a4195cd24",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Specialty Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:vocation:spheres-of-guile:guile-talent:adept-assistant-specialty",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "vocation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400\">Diamond Spheres: Hustle &amp; Bustle</a></sup></p>\n<p><strong>Specialty Skills:</strong> Profession (courtesan, librarian, shepherd)</p>\n<p>You can use an associated skill check in place of any roll made to aid another; this excludes Profession (shepherd), which can only be used to aid animals and magical beasts.</p>\n<p>You gain an ability depending on the chosen specialty skill:</p>\n<p><strong>Fabled Circumvention—Profession (librarian):</strong> As long as you have successfully identified such an ability, you can use an associated skill check to find a loophole against a supernatural or extraordinary ability originating from a non-humanoid creature. The DC to do so is equal to 10 + the effect’s save DC, although abilities originating from particularly rare or common creatures may increase or decrease the DC by 5.</p>\n<p>Such an effect must have granted a saving throw and not be a curse effect. If the effect is an instantaneous effect that causes a condition or other ongoing effect (such as ability damage or being petrified), this ability must be used within 1 minute of such an effect occurring.</p>\n<p>For example, you could use this ability to target an ally that has been turned to stone from a basilisk’s gaze attack or a green hag’s weakness ability, but not a white dragon’s breath weapon.</p>\n<p><strong>Herder—Profession (shepherd):</strong> You gain a +2 insight bonus to combat maneuver checks made against non-humanoid creatures that are at least one size category larger than you, as well as to your CMD against maneuvers made by such creatures. This bonus increases by +1 per 4 associated ranks you possess.</p>\n<p><strong>Sensual Distraction—Profession (courtesan):</strong> You can spend 10 minutes entertaining up to 2 willing creatures, +1 per 3 associated ranks you possess. Any involved creatures are healed of all nonlethal damage, and for 1 hour afterwards gain a +2 morale bonus to saving throws against emotion and pain effects, as well as an amount of temporary hit points equal to your associated ranks.</p>\n<p>You can take this talent multiple times—each time you do, choose another specialty skill.</p>\n<p><strong>Associated Feat:</strong> Improved Beast Hunter (<em>Ultimate Wilderness</em>) (Profession (shepherd) option)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/vocation#toc22\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/vocation#toc22"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

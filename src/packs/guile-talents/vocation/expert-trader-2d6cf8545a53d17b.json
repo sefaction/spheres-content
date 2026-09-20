@@ -1,0 +1,124 @@
+{
+  "_id": "2d6cf8545a53d17b",
+  "_key": "!items!2d6cf8545a53d17b",
+  "name": "Expert Trader",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:vocation:spheres-of-guile:guile-talent:expert-trader",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/vocation#toc35",
+      "sourceSha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "descriptionSha256": "a285b3908bf9872264912e6fafa4628b88b0eade4b4c9187a313a2f12e4e8c77",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Specialty Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:vocation:spheres-of-guile:guile-talent:expert-trader",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "vocation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400\">Diamond Spheres: Hustle &amp; Bustle</a></sup></p>\n<p><strong>Prerequisites:</strong> Vocation sphere (Adept Trader (specialty)), Profession (driver, merchant, pilot, porter, or sailor) 5 ranks.</p>\n<p>You gain an ability depending on the specialty skill(s) chosen with the Adept Trader talent:</p>\n<p><strong>Driving Ace—Profession (driver, pilot, or sailor):</strong> You reduce the DC to smooth the motion of a vehicle to prevent concentration checks by 10, and whenever you make the turn action, you can increase the DC to do so by 5 to turn 180 degrees instead of 90 degrees. Additionally, whenever a creature attempts to cast a spell within the vehicle you are driving, you can jerk the vehicle as an immediate action—make an associated skill check. The caster must immediately succeed at a concentration check (with a DC equal to your associated skill check result) or lose the effect.</p>\n<p><strong>Reserved Inventory—Profession (merchant):</strong> The gp limit for your 90% discount is doubled (so at 12 ranks, the limit is 16,000 gp). You can also use an associated skill check instead of Appraise checks to determine the worth or authenticity of an object, and you gain a +5 bonus when doing so.</p>\n<p><strong>Strong Back—Profession (porter):</strong> You ignore the normal penalties associated with encumbrance (including the maximum Dexterity bonus), and your encumbrance is treated as one step lighter for the purposes of class features that are reliant on it (such as a monk’s AC bonus or barbarian’s fast movement). As long as you are unencumbered, you gain a +5-foot competence bonus to your land speed.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/vocation#toc35\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/vocation#toc35"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

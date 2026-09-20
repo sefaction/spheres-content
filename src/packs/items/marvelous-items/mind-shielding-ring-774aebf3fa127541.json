@@ -1,0 +1,162 @@
+{
+  "_id": "774aebf3fa127541",
+  "_key": "!items!774aebf3fa127541",
+  "name": "Mind-Shielding Ring",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:marvelous-items:ultimate:item:mind-shielding-ring",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/marvelous-items#toc52",
+      "sourceSha256": "a971a10582e74c6796d182b7ebe64177d217ee68e8817f8018506a8a95474889",
+      "descriptionSha256": "c4cac8a292415417ae44ad9e459922514ca77c1ed413d3e7231ff4ea9031e627",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "New Marvelous Items",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:marvelous-items:ultimate:item:mind-shielding-ring",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint Mind; <strong>CL</strong> 2nd<br>\n<strong>Slot</strong> ring; <strong>Price</strong> 1,800 gp; <strong>Weight</strong> 0.5 lbs.</p>\n<p>These rings are often worn by those expecting to go into mentally difficult situations. Once per day, you can activate this ring as a standard action to gain a morale bonus to saving throws made against mind-affecting effects equal to 1 + 1/2 this item’s caster level. This bonus lasts for up to this item’s caster level in rounds, but ends as soon as you attempt a saving throw against such an effect, regardless of the success.</p>\n<p><strong>Flask Shard Effect:</strong> Increase the caster level of this item to the next increment of 5, which increases its bonus and duration, and increase the uses per day by 1. At +1, this item instead grants a morale bonus equal to its caster level for all Will saves against mind-affecting effects, but the bonus is halved (rounding down) with each Will save made. At +2, this item can be activated as an immediate action, but doing so reduces its duration to 1 round. You can still activate it as a standard action to get its normal duration. At +3, this item instead grants immunity to mind-affecting effects that allow Will saves for its duration (and is no longer halved in duration with each save); this can be bypassed by attempting a magic skill check against 11 + your character level, as well as through some other special abilities. If the immunity is bypassed, you instead gain a bonus to your Will save equaling this item’s caster level against that effect. <strong>Flask Shard Limit:</strong> +4</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Marvelous Item, Mind sphere (Mind Shield (charm), Powerful Charm); <strong>Cost</strong> 800 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/marvelous-items#toc52\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0.5
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 1800,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "ring",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/marvelous-items#toc52"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

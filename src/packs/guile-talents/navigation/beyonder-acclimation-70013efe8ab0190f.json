@@ -1,0 +1,124 @@
+{
+  "_id": "70013efe8ab0190f",
+  "_key": "!items!70013efe8ab0190f",
+  "name": "Beyonder (acclimation)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:navigation:spheres-of-guile:guile-talent:beyonder-acclimation",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/navigation#toc53",
+      "sourceSha256": "930fbc87334ae2307ec151fc191c6a9bc1e24ca52e18a283a509d0caacb9401f",
+      "descriptionSha256": "b7550d9362c14fbdb06e9411d97132011750e4ae7d4e36b54f87563b26f21a84",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:navigation:spheres-of-guile:guile-talent:beyonder-acclimation",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "navigation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Navigation sphere.</p>\n<p>You may select the following acclimation benefits:</p>\n<p><strong>Gravity Acclimation:</strong> When you prepare this acclimation, choose either light gravity, heavy gravity, or subjective gravity.</p>\n<p>If you choose heavy gravity, acclimated targets do not take penalties from environments with heavy gravity.</p>\n<p>If you choose light gravity, enemies do not gain the normal circumstance bonuses to attack rolls granted by light gravity when attacking acclimated targets. If you choose subjective gravity, acclimated targets automatically succeed at Wisdom checks to set a new direction of gravity in environments of subjective gravity.</p>\n<p><strong>Planar Acclimation:</strong> Choose a plane when you prepare this acclimation. Acclimated targets ignore a single alignment trait or magic trait of that plane (excluding dead magic or limited magic) for 24 hours.</p>\n<p><strong>Associated Feats:</strong> Heavy Gravity Acclimation, Light Gravity Acclimation, Subjective Mobility (all <em>Pathfinder Roleplaying Game: Planar Adventures</em>).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/navigation#toc53\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/navigation#toc53"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

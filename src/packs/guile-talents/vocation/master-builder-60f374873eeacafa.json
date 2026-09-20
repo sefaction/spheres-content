@@ -1,0 +1,124 @@
+{
+  "_id": "60f374873eeacafa",
+  "_key": "!items!60f374873eeacafa",
+  "name": "Master Builder",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:vocation:spheres-of-guile:guile-talent:master-builder",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/vocation#toc134",
+      "sourceSha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "descriptionSha256": "f6a77cc6b74d41e62bdc99421ec4e146473bd15766cb7adb48ff77de2c99b7fa",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:vocation:spheres-of-guile:guile-talent:master-builder",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "vocation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400\">Diamond Spheres: Hustle &amp; Bustle</a></sup></p>\n<p><strong>Prerequisites:</strong> Vocation sphere (Adept Builder (specialty), Expert Builder), Profession (architect, dungeoneer, engineer, or siege engineer) 10 ranks.</p>\n<p>If using the Kingdom Building rules (<em>Pathfinder Roleplaying Game: Ultimate Campaign</em>), you reduce the BP cost of the first building you create each turn by 2 (minimum 1).</p>\n<p>You gain an ability depending on the specialty skill(s) chosen with the Adept Builder talent:</p>\n<p><strong>Creative Manifestation [approach] (Su) [utility]—Profession (architect or dungeoneer):</strong> You can adopt this approach as a standard action—while maintaining this approach, any hammer or mallet you wield gains the abilities of a mallet of building (Ultimate Equipment) although is otherwise considered a mundane object.</p>\n<p>You can also use any of the following abilities by spending 1 hour:</p>\n<p><em>Build:</em> You create a building made of materials that are common for the area. The building can occupy up to a 10-foot cube per associated rank (which must be contiguous), and must be fully contained within an unoccupied space. The building lasts for 1 day and can comfortably house 2 Medium creatures per associated rank.</p>\n<p>The building is otherwise furnished however you wish (within the same limitations as the renovate ability, except any furnishings break down immediately upon leaving the building), and is reinforced to withstand any weather of severity 5 or lower (and thus conferring the same protection to creatures within the building). Lastly, the building functions as the exceptional accommodations authorization use (as the Restful Refuge Faction sphere talent).</p>\n<p><em>Renovate:</em> You renovate a room you are currently within. The extent of this renovation is simple yet broad, allowing you to create, move, repair, or change the composition of the room and its furnishings to your own preferences. Simple materials such as wood, paint, and masonry are magically created to aid in the renovation, although any complex or high-quality materials must be within the room to incorporate them into the renovation, and may even require an appropriate Craft check (for example, you could purchase several planks of fine mahogany to have the renovation create a mahogany dresser).</p>\n<p><em>Shape:</em> You shape up to a medium-range square (and up to 10 feet deep) of natural terrain (such as dirt, sand, stone, etc.), allowing you to alter its topography. This shaping is delicate, and can be used without disrupting structures and plant life.</p>\n<p><strong>Hack Construct—Profession (engineer):</strong> You can hack a construct as a swift action by accepting a -10 penalty to your associated skill check. Additionally, if a construct fails to save against this ability for the full 1 minute duration, the imposed condition or control instead lasts for 1 day. At the end of this day, you can spend 1 use of skill leverage to extend the duration by another day, but the construct gains a new Will saving throw against the effect.</p>\n<p><strong>Siege Technician—Profession (siege engineer):</strong> If you are the crew lead on a siege engine, the siege engine requires 1 less crew member, you reduce the reload time by 1 (minimum 0, in which case it becomes a free action to perform), and you and your crew can use move actions to load and aim a siege engine,<br>\n<strong>Associated Feats:</strong> Master Siege Engineer (<em>Ultimate Combat</em>) (Profession (siege engineer) option).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/vocation#toc134\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/vocation#toc134"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

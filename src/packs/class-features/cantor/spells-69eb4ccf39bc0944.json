@@ -1,0 +1,121 @@
+{
+  "_id": "69eb4ccf39bc0944",
+  "_key": "!items!69eb4ccf39bc0944",
+  "name": "Cantor: Spells",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:cantor:current:class-feature:spells",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/cantor#toc5",
+      "sourceSha256": "01e0748b6094324ef1901e96d1d3981f14475540d62ee7a20b0a181fc8516bd2",
+      "descriptionSha256": "4664781f8b46001b417e152e51d2ba729cb09fcc71a68f7e6ca0ec6597dc9c13",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:cantor:current:class-feature:spells",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A cantor knows divine spells drawn from the cantor spell list. She can cast any spell she knows without preparing it ahead of time. Every cantor spell has a somantic component (conducting). To learn or cast a spell, a cantor must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class (DC) for a saving throw against a cantor's spell is 10 + the spell level + the cantor's Charisma modifier.</p>\n<p>Like other spellcasters, a cantor can only cast a certain number of spells per day. Unlike other spellcasters, however, the cantor is not limited by spell level. Instead, a cantor can cast each spell she knows once per day. In addition, the cantor's understanding of magic makes the use of metamagic, whether via feat, item, or class feature, absolutely impossible. To that end, a cantor cannot take metamagic feats. This limitation also includes orisons. A cantor's spells known is given on <strong>Table: Cantor Spells Known</strong>.</p>\n<p>Rather than receive bonus spells per day if she has a high Charisma score, a cantor instead learns new spells if she has a high Charisma score. New spells learned in this manner can be cast once per day just like any other spell. See <strong>Table: Ability Modifiers and Bonus Spells</strong> (in the Pathfinder Roleplaying Game Core Rulebook).</p>\n<p>Upon reaching 7th level, and at every third cantor level after that (10th, 13th, and so on), a cantor can choose to learn a new spell in place of one she already knows. In effect, the cantor “loses” the old spell in exchange for the new one. The new spell’s level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest level cantor spell the cantor can cast. A cantor may swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that she gains new spells known for the level.</p>\n<p>A cantor need not prepare her spells in advance; however, a cantor's daily use of each spell she knows does not replenish itself unless she gets 8 hours of rest each night. No study is required.</p>\n<p>In addition to the spells gained by a cantor as she increases in level, a good-aligned cantor automatically learns the following spells at the indicated levels: cure light wounds (3rd), cure moderate wounds (6th), cure serious wounds (9th), cure critical wounds (12th), cure light wounds, mass (15th), and cure moderate wounds, mass (18th).</p>\n<p>Similarly, an evil-aligned cantor automatically learns the following spells at the indicated levels: inflict light wounds (3rd), inflict moderate wounds (6th), inflict serious wounds (9th), inflict critical wounds (12th), inflict light wounds, mass (15th), inflict moderate wounds, mass (18th).</p>\n<p>At 2nd level, a neutral cantor of a neutral deity (or a neutral cantor who is not devoted to a particular deity) must choose whether she is treated as a good cantor or an evil cantor for the purpose of this ability. Once this choice is made, it cannot be reversed. This decision also determines whether the cantor can cast spontaneous cure or inflict spells (see spontaneous casting) and what kind of energy she channels (see channel energy).</p>\n<strong>Table: Cantor Spells Known</strong>\n<table>\n<tbody><tr>\n<th>Character Level</th>\n<th>0th Level Spells Known</th>\n<th>1st Level Spells Known</th>\n<th>2nd Level Spells Known</th>\n<th>3rd Level Spells Known</th>\n<th>4th Level Spells Known</th>\n<th>5th Level Spells Known</th>\n<th>6th Level Spells Known</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>3</td>\n<td>1+1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>3</td>\n<td>2+1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>4</td>\n<td>2+1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>4</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>4</td>\n<td>2+1</td>\n<td>2+1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>4</td>\n<td>3+1</td>\n<td>2+1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>4</td>\n<td>3+1</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>5</td>\n<td>3+1</td>\n<td>2+1</td>\n<td>2+1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>5</td>\n<td>3+1</td>\n<td>3+1</td>\n<td>2+1</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>5</td>\n<td>4+1</td>\n<td>3+1</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>5</td>\n<td>4+1</td>\n<td>3+1</td>\n<td>2+1</td>\n<td>2+1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>5</td>\n<td>4+1</td>\n<td>3+1</td>\n<td>3+1</td>\n<td>2+1</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>6</td>\n<td>4+1</td>\n<td>4+1</td>\n<td>3+1</td>\n<td>2+1</td>\n<td>1+1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>6</td>\n<td>5+1</td>\n<td>4+1</td>\n<td>3+1</td>\n<td>2+1</td>\n<td>2+1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>6</td>\n<td>5+1</td>\n<td>4+1</td>\n<td>3+1</td>\n<td>3+1</td>\n<td>2+1</td>\n<td>-</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>6</td>\n<td>5+1</td>\n<td>4+1</td>\n<td>4+1</td>\n<td>3+1</td>\n<td>2+1</td>\n<td>1+1</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>6</td>\n<td>5+1</td>\n<td>5+1</td>\n<td>4+1</td>\n<td>3+1</td>\n<td>2+1</td>\n<td>2+1</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>7</td>\n<td>6+1</td>\n<td>5+1</td>\n<td>4+1</td>\n<td>3+1</td>\n<td>3+1</td>\n<td>2+1</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/cantor#toc5\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/cantor#toc5"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

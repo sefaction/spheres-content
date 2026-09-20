@@ -1,0 +1,124 @@
+{
+  "_id": "b3096a009d5ee94c",
+  "_key": "!items!b3096a009d5ee94c",
+  "name": "Alloyed Plating (flourish)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:artifice:spheres-of-guile:guile-talent:alloyed-plating-flourish",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/artifice#toc32",
+      "sourceSha256": "a3a666f8e0af8307f0024100a1bdb6c458a7d34b1b4c37af5a6d0057bdfc9aa7",
+      "descriptionSha256": "e52b45dd881d1223f55ccae179e9175dcc62a4cdab92cee3a79dbe0ae29793c4",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Flourish Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:artifice:spheres-of-guile:guile-talent:alloyed-plating-flourish",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "artifice"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>As part of applying this flourish, you plate, reinforce, or otherwise apply a second material to the crafted object—this requires you to spend half the normal cost required to create the object of the chosen material (for example, applying mithral to a chain shirt would cost 500 gp). You can choose a material that would normally be unable to be made into the crafted object (such as adding glass to armor, or bone to a weapon).</p>\n<p>The crafted object is treated as if it were made of both its original material and the chosen material for overcoming damage reduction, and uses the better of the two hardnesses and hit points—if either material has a mutually exclusive property (such as a weight modifier), you can choose your preferred properties between each material. You may also choose to give it the visual appearance of either material, or both.</p>\n<p>Additionally, as long as the second material’s cost increase does not exceed 500 gp, the object gains any ability's associated with the material, and both materials no longer confer any detrimental effects or drawbacks (such as a silver weapon’s penalty to damage or gold armor’s fragile quality). This gp restriction is lifted if you have at least 10 ranks in this package’s associated skill.</p>\n<p>If you have the (gear) package, this flourish does not count towards the total number of flourishes you can have on an object. Additionally, this flourish can be applied multiple times to the same object, each time choosing a new material, although the subsequent applications of this flourish still count towards your flourish maximum.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/artifice#toc32\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/artifice#toc32"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

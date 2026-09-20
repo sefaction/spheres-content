@@ -1,0 +1,162 @@
+{
+  "_id": "2f0dd60f94bad27e",
+  "_key": "!items!2f0dd60f94bad27e",
+  "name": "Wands of Search and Rescue",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:spell-engines:ultimate:item:wands-of-search-and-rescue",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/spell-engines#toc25",
+      "sourceSha256": "f98f5856ec556f138235795825cfff8bd2aa38e0f93afb47ffe8116a4708d757",
+      "descriptionSha256": "e34dcfd6fe849da52d834785d673728ab774b9e5d2487830b77b274ac83361e7",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "spell-engines",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:spell-engines:ultimate:item:wands-of-search-and-rescue",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint Divination and moderate Warp; <strong>CL</strong> 2nd (Divination) and 10th (Warp); <strong>SP</strong> 1 (Divination), 2 (Warp)<br>\n<strong>Slot</strong> none; <strong>Price</strong> 26,000 gp; <strong>Weight</strong> 2 lbs.<br>\n<strong>Range</strong> sense 30 ft., teleport 50 ft.</p>\n<p>This spell engine is actually two spell engines chained together, one of which can be held in each hand during use. The search spell engine is usually colored bright orange to make it easy to spot almost under any conditions and contains the Divination sphere with the Tremorsense and Widen Sight talents, as well as the Limited Divination (sense) and Hidden Magic drawbacks. The tremorsense lasts up to 2 hours. The rescue spell engine is usually colored bright green and contains the Warp sphere with the Mass Teleport, Ranged Warp, and Unseeing Teleport talents.</p>\n<p>Typical use involves activating the search spell engine to help locate people trapped in fallen buildings, then using the rescue spell engine to teleport out anyone who cannot be reached normally. rescue spell engines can teleport up to 6 people at once, but must use their very limited spell points to reach people who cannot be seen normally. These spell engines are often used as magical blueprints to create scrolls of search and rescue, which cannot be recharged but are more affordable to make. Wands of search and rescue are usually owned by cities and used as part of emergency rescue efforts.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Spell Engine, Divination sphere (Expansive Vision (advanced), Tremorsense (sense), Limited Divination drawback), Warp sphere (Mass Teleport [mass], Ranged Warp [range], Unseeing Teleport); <strong>Cost</strong> 13,000 gp</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/spell-engines#toc25\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 2
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 26000,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/spell-engines#toc25"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

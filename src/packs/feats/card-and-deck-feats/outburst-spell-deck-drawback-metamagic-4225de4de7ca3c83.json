@@ -1,0 +1,121 @@
+{
+  "_id": "4225de4de7ca3c83",
+  "_key": "!items!4225de4de7ca3c83",
+  "name": "Outburst Spell (Deck, Drawback, Metamagic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:card-and-deck-feats:current:feat:outburst-spell-deck-drawback-metamagic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/card-and-deck-feats#toc40",
+      "sourceSha256": "4022c8e6475766c0c1edab52393c89938e885121711b11783279c546b3117277",
+      "descriptionSha256": "6526dd2e01dd1e0724a9f415c252482ea7d6d1d43f93fb0772bcb5c5fb9fb15d",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Deck Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:card-and-deck-feats:current:feat:outburst-spell-deck-drawback-metamagic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Card Casting</p>\n<p><strong>Benefits:</strong> When you cast an outburst spell, reveal cards from the top of your deck until you reveal an effect card that you could cast without spending more spell points than the total number spent on the outburst spell. You may choose to cast the revealed effect card as a swift action this turn, reducing its spell point cost by the spell point cost of the outburst spell (minimum 0) but not being able to spend any additional spell points on the revealed effect card. If you do not cast the revealed card, shuffle it back into your deck.</p>\n<p><strong>Cost:</strong> +3 spell points</p>\n<p><sup><strong>Source:</strong> Card Casting 3: Volatile Variance</sup></p>\n<p><a href=\"http://spheresofpower.wikidot.com/card-and-deck-feats#toc40\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/card-and-deck-feats#toc40"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

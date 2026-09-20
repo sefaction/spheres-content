@@ -10,6 +10,7 @@ import {
   copyFile,
   readdir,
   unlink,
+  rm,
 } from "node:fs/promises";
 import { execFileSync } from "node:child_process";
 import { createHash, randomUUID } from "node:crypto";
@@ -255,6 +256,104 @@ export async function swapStaged({ stage, target, backup, move = rename }) {
   return hadTarget;
 }
 
+export const backupLimit = 10;
+const backupName =
+  /^backup-\d{4}-\d{2}-\d{2}T\d{2}-\d{2}-\d{2}-\d{3}Z-[a-f0-9]{8}(?:-[a-f0-9]{4}){3}-[a-f0-9]{12}$/;
+
+export async function planBackupRotation(
+  operations,
+  additional = 0,
+  protectedName = null,
+) {
+  assert(
+    path.isAbsolute(operations),
+    "Backup operations path must be absolute",
+  );
+  assert.equal(
+    path.basename(operations),
+    `.${moduleId}-deploy`,
+    "Wrong backup operations directory",
+  );
+  assert.equal(
+    path.basename(path.dirname(operations)),
+    "Data",
+    "Backup operations must be directly below Data",
+  );
+  assert([0, 1].includes(additional), "Invalid prospective backup count");
+  if (!(await exists(operations))) return { retained: 0, remove: [] };
+  await assertPlainDirectory(operations);
+  const names = (await readdir(operations))
+    .filter((name) => name.startsWith("backup-"))
+    .sort();
+  for (const name of names) {
+    assert(
+      backupName.test(name),
+      "Unrecognized backup name; refusing automatic cleanup",
+    );
+    const target = path.resolve(operations, name);
+    assert.equal(
+      path.dirname(target),
+      path.resolve(operations),
+      "Backup path escaped operations directory",
+    );
+    await assertPlainDirectory(target);
+    assert.equal(
+      (await json(path.join(target, "module.json"))).id,
+      moduleId,
+      "Backup module identity mismatch",
+    );
+  }
+  if (protectedName !== null)
+    assert(names.includes(protectedName), "Newest rollback copy is missing");
+  const excess = Math.max(0, names.length + additional - backupLimit);
+  const remove = names
+    .filter((name) => name !== protectedName)
+    .slice(0, excess);
+  assert.equal(remove.length, excess, "Cannot preserve newest rollback copy");
+  return { retained: names.length, remove };
+}
+
+export async function rotateBackups({
+  operations,
+  target,
+  expected,
+  protectedBackup,
+}) {
+  // This function runs only after the swap, byte verification and durable receipt.
+  // Recheck the exact installed module before pruning any recovery copies.
+  assert.equal(
+    path.resolve(target),
+    path.resolve(operations, "..", "modules", moduleId),
+    "Rotation target differs from the designated module",
+  );
+  assert.deepEqual(
+    await directoryHashes(target),
+    expected,
+    "Installed verification failed; no backup cleanup",
+  );
+  const plan = await planBackupRotation(
+    operations,
+    0,
+    protectedBackup ? path.basename(protectedBackup) : null,
+  );
+  // Preflight every victim before the first deletion, including nested links.
+  for (const name of plan.remove) await files(path.join(operations, name));
+  for (const name of plan.remove) {
+    const victim = path.resolve(operations, name);
+    assert.equal(
+      path.dirname(victim),
+      path.resolve(operations),
+      "Backup cleanup escaped operations directory",
+    );
+    await assertPlainDirectory(operations);
+    await assertPlainDirectory(victim);
+    assert.equal((await json(path.join(victim, "module.json"))).id, moduleId);
+    await files(victim);
+    await rm(victim, { recursive: true });
+  }
+  return { removed: plan.remove, retained: plan.retained - plan.remove.length };
+}
+
 export async function deployRemote(dryRun = false) {
   const profile = await loadProfile();
   const build = await validateBuild();
@@ -280,14 +379,11 @@ export async function deployRemote(dryRun = false) {
       !(await exists(path.join(operations, "deploy.lock"))),
       "Deployment lock exists; reconcile prior transfer first",
     );
-    const retained = (await readdir(operations)).filter((name) =>
-      name.startsWith("backup-"),
-    );
-    assert(
-      retained.length < 5,
-      "Five rollback copies retained; review retention before another deployment",
-    );
   }
+  const retention = await planBackupRotation(
+    operations,
+    changes.length && Object.keys(current).length ? 1 : 0,
+  );
   console.log(
     `Profile: ${profile.profile}; target: <configured-data>/Data/modules/${moduleId}`,
   );
@@ -296,6 +392,12 @@ export async function deployRemote(dryRun = false) {
     `${dryRun ? "Dry run" : "Deployment"}: ${changes.length} changed files`,
   );
   for (const name of changes) console.log(`  ${name}`);
+  console.log(
+    `Rollback retention: ${retention.retained} existing; keep newest ${backupLimit}; ${changes.length ? retention.remove.length : 0} oldest eligible for removal only after verified replacement.`,
+  );
+  if (changes.length)
+    for (const name of retention.remove)
+      console.log(`  Rotation candidate: ${name}`);
   if (dryRun) return;
   if (!changes.length) {
     console.log("Installed bytes already match; no remote write.");
@@ -362,6 +464,15 @@ export async function deployRemote(dryRun = false) {
         null,
         2,
       ) + "\n",
+    );
+    const rotated = await rotateBackups({
+      operations,
+      target: profile.target,
+      expected: build.files,
+      protectedBackup: hadTarget ? backup : null,
+    });
+    console.log(
+      `Rollback rotation: ${rotated.removed.length} removed; ${rotated.retained} retained.`,
     );
     console.log(
       "Deployment verified; receipt saved locally. No host or world restart performed.",

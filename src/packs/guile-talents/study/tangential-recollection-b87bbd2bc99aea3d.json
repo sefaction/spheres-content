@@ -1,0 +1,124 @@
+{
+  "_id": "b87bbd2bc99aea3d",
+  "_key": "!items!b87bbd2bc99aea3d",
+  "name": "Tangential Recollection",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:study:spheres-of-guile:guile-talent:tangential-recollection",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/study#toc17",
+      "sourceSha256": "e8d569974189b26fc9f4d0950aa7e6c4ed942b36666113be9fc161ec1efd21fb",
+      "descriptionSha256": "dc652ec20fd517c21b8b7a7c32c071f0a0a9e21d2bf1588b80d726f5ece20d79",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Study Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:study:spheres-of-guile:guile-talent:tangential-recollection",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "study"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Whenever you fail a Knowledge check, Lore check, or similar check to recall information, you can spend 1 use of skill leverage to come at the problem from another direction. Attempt a skill check that can be used to recall information using a different skill. On a success, you are treated as if you had succeeded the first check to recall information by the minimum amount, except that the information is skewed depending on the chosen skill. You must have unlocked skill leverage with either the initial skill or the new skill.</p>\n<p>For example, upon failing a Knowledge (nature) check to identify a plant creature, you can ponder further using Knowledge (arcana). If you succeed, instead of the normal information you would learn, you instead learn the existence of any spell resistance, magical defenses, or any other magically pertinent information about the creature.</p>\n<p>If the chosen skill would strain credibility (such as using Knowledge (nobility) in the listed example), the GM should increase the DC or in extreme cases deem the new check an automatic failure.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/study#toc17\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/study#toc17"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

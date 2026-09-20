@@ -1,0 +1,121 @@
+{
+  "_id": "709dc453456429bb",
+  "_key": "!items!709dc453456429bb",
+  "name": "Handblood’s Boon",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:card-and-deck-feats:current:feat:handbloods-boon",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/card-and-deck-feats#toc27",
+      "sourceSha256": "4022c8e6475766c0c1edab52393c89938e885121711b11783279c546b3117277",
+      "descriptionSha256": "22b3d1074a41cbdf458bb4c549a02e44bad0fcb3575d3887c20eb90dc4ebcb7a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Deck Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:card-and-deck-feats:current:feat:handbloods-boon",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Card Casting (Bleeding Hand x2), Handblood’s Advantage</p>\n<p><strong>Benefit:</strong> For each card in your deck, choose three feats that you meet the prerequisites for, assigning each of them a category from among Physical, Mental, or Spiritual. You may select the same feat multiple times for a card (for example, you could have a card that has Spell Penetration for both the Mental and Spiritual selections and Spell Focus for the Physical selection).<br>\nWhenever you play a card from your hand, you may discard up to three other cards from your hand and spend a standard, move, swift, or immediate action for each card discarded. If you do, any effect created by the played cards benefits from any of the played cards’ feats or magic talents whose categories correspond to the discarded cards. If the chosen feats alter the spell point cost of the effect, you must pay the difference in spell points as normal, though you cannot alter the casting time of the effect. If a feat can be selected multiple times, you may gain its benefits multiple times by discarding multiple cards of its matching category.<br>\nFor example, you play a card that creates a destructive blast and for which you have chosen the feats Deadly Targeting (Physical), Extra Magic Talent (Extended Range) (Mental), and Extra Magic Talent (Smiting Blast) (Spiritual). You discard two cards, one each of the Mental and Spiritual categories, gaining the benefits of the Extended Range and Smiting Blast talents for the created destructive blast (with Smiting Blast overriding a (blast type) talent normally used in the card).</p>\n<p><strong>Special:</strong> If you have the Enhanced Play feat, you may select metamagic feats as a card’s chosen feats and the casting time of the effect is not increased by the application of any metamagic feats added by discarding cards. You must pay the difference in spell points as normal, though you may do so without them being part of a charged spell if you possess the Charged Spells drawback.</p>\n<p><sup><strong>Source:</strong> Baron’s Secluded Library</sup></p>\n<p><a href=\"http://spheresofpower.wikidot.com/card-and-deck-feats#toc27\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/card-and-deck-feats#toc27"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

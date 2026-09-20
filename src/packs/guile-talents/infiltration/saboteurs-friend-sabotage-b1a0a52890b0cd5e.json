@@ -1,0 +1,124 @@
+{
+  "_id": "b1a0a52890b0cd5e",
+  "_key": "!items!b1a0a52890b0cd5e",
+  "name": "Saboteur’s Friend (sabotage)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:infiltration:spheres-of-guile:guile-talent:saboteurs-friend-sabotage",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/infiltration#toc34",
+      "sourceSha256": "58ed5a81a47b83d364436f1d8eac245db0d53fc4fbcac22e0373513f5df330d7",
+      "descriptionSha256": "6b74c21887cbd9eba2453e60251f2d5ec7a5a28314fec3b8c5e9417096fe6def",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Sabotage Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:infiltration:spheres-of-guile:guile-talent:saboteurs-friend-sabotage",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "infiltration"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Target:</strong> a tool, key, or other item used to interact with objects<br>\n<strong>Disable Device DC:</strong> 25</p>\n<p>You sabotage the target to subtly sabotage other items. Any effect caused by the sabotaged item is just as hard to notice as your original sabotage.</p>\n<ul>\n<li>A key can apply any simple or disastrous sabotage of your choice to the lock or a portal the lock is set in.</li>\n<li>A tool produces faulty work with the broken condition that seems fine.</li>\n<li>Another item breaks items it is used with. To break an item, your Disable Device result must be at least 20 + item’s hardness.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/infiltration#toc34\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/infiltration#toc34"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

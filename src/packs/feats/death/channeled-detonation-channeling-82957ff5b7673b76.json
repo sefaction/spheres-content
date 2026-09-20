@@ -1,0 +1,121 @@
+{
+  "_id": "82957ff5b7673b76",
+  "_key": "!items!82957ff5b7673b76",
+  "name": "Channeled Detonation (Channeling)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:death:ultimate:feat:channeled-detonation-channeling",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/death#toc85",
+      "sourceSha256": "d09bba312380117c6b4fbdeba031d71e8ce26d0ec8570d3020f098b428d924dd",
+      "descriptionSha256": "ad7a89d9df67db1dc83284505c67ad61a5b4e4a26ba6078280dd6f312e07bb43",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Death Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:death:ultimate:feat:channeled-detonation-channeling",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can overcharge your connection with your undead using your channel energy ability.</p>\n<p><strong>Prerequisites:</strong> Death sphere, ability to channel negative energy, caster level 5th.</p>\n<p><strong>Benefit:</strong> You can spend a use of your channel energy ability as a standard action to detonate a mindless undead you control within 30 feet (or your dominion range, whichever is greater), destroying it, but causing your channel energy to burst outwards from its location; your channel deals (or heals, as appropriate) 1 additional point of damage per Hit Die of the undead sacrificed.</p>\n<p>You can activate this ability as an immediate action whenever a mindless undead you control is reduced to 0 hit points by spending a spell point (and a use of channel energy, as normal).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/death#toc85\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/death#toc85"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

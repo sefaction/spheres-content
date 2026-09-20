@@ -1,0 +1,162 @@
+{
+  "_id": "2f08f4d322505a05",
+  "_key": "!items!2f08f4d322505a05",
+  "name": "Scrying Incense",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:compounds:ultimate:item:scrying-incense",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/compounds#toc105",
+      "sourceSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "1fdc626ece955158a8980cceeeb02e5c358e2648f484779b312c4f3b9227a587",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Compounds",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:compounds:ultimate:item:scrying-incense",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> moderate Divination; <strong>CL</strong> 5th (lesser), 10th (greater)<br>\n<strong>Slot</strong> none; <strong>Price</strong> 750 gp (lesser), 2,500 gp (greater); <strong>Weight</strong> 0.1 lbs.</p>\n<p><strong>Description</strong><br>\nOnce lit (normally a full-round action, or a standard action with a tindertwig), this incense will continue to smoke in a 5-foot square for 1 hour. Any creature that spends at least 1 minute inside the cloud of smoke may, as a full-round action, create a single scrying sensor within range on the same plane, transferring their point of view to that point. They do not need light of sight or line of effect, but the desired target must be known—a place or object familiar to them, or an obvious one such as a distance and direction. Once the sensor has been placed, they may see and hear anything within 10 feet of the location of the sensor. A creature inside the cloud of smoke may only create and control a single scrying sensor at a time. If a scrying sensor is dispelled by another creature, the incense immediately stops smoking and the effect ends.</p>\n<ul>\n<li><strong>Lesser:</strong> Sensor range (150 feet), sensor speed (0 feet). The scrying sensor can be detected with a successful DC 25 Perception check, and dispelled (MSD 16). While the lessor sensor possesses a movement speed of 0 feet, once each round as a full-round action the sensor’s owner may create a new scrying sensor in a different location within range, dismissing the older sensor.</li>\n<li><strong>Greater:</strong> Sensor range (any distance, but not across planes), sensor speed (150 feet). Instead of targeting a location or object like the lesser version, they may observe a creature. If targeting a creature, they are allowed a DC 15 Will save to resist being viewed, which is subject to the same modifiers as the Scrying advanced talent. If the save fails, they attach the sensor to the creature, which follows the creature to a maximum of the sensor’s movement speed. If the saving throw succeeds, the incense immediately stops smoking and the effect ends. The scrying sensor can be detected with a successful DC 30 Perception check, and dispelled (MSD 21).</li>\n</ul>\n<p><strong>Construction Requirements</strong><br>\nDistill Compound, Divination sphere (Greater Divine (greater only), Scrying (advanced, greater only), Viewing (divine)); <strong>Cost</strong> 375 gp (lesser), 1,250 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/compounds#toc105\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0.1
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 750,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/compounds#toc105"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

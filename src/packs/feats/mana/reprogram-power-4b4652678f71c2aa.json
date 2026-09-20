@@ -1,0 +1,121 @@
+{
+  "_id": "4b4652678f71c2aa",
+  "_key": "!items!4b4652678f71c2aa",
+  "name": "Reprogram Power",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mana:ultimate:feat:reprogram-power",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mana#toc110",
+      "sourceSha256": "06b0eb5b2d5f3e7266206aee7cb1666a55aa109bbce2259ade8a41e4b38f06dd",
+      "descriptionSha256": "4c8b1adc045314b87e1209a1068c7800347913d3ceb4b311c6083263abee36d9",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Mana Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mana:ultimate:feat:reprogram-power",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Mana sphere, Enhancement sphere, magic skill bonus +3.</p>\n<p><strong>Benefit:</strong> You learn the following (manipulation):</p>\n<ul>\n<li><strong>Reprogram Weapon (manipulation):</strong> You may spend a spell point as a swift action to manipulate the magical essences of any magic weapon you or a creature you have an active manabond with that is willing, are wielding. If that item possesses a weapon special ability, you may alter it so that it becomes any other weapon special ability that requires the same enhancement bonus to apply. (For example, you may modify a +1 keen longsword to become a +1 corrosive longsword, but you cannot modify it to become a +1 wounding longsword.) You may not select weapon special abilities that target specific factions, creature types or similar (such as bane or treasonous). You may not apply new weapon special abilities by lowering the enhancement bonus of a weapon, only temporarily swap weapon special abilities. This modification remains for a number of rounds equal to your Mana sphere caster level.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/mana#toc110\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mana#toc110"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

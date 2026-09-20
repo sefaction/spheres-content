@@ -1,0 +1,124 @@
+{
+  "_id": "7cf5ded5e1d1fe07",
+  "_key": "!items!7cf5ded5e1d1fe07",
+  "name": "Stability Exercise (acclimation)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:navigation:spheres-of-guile:guile-talent:stability-exercise-acclimation",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/navigation#toc37",
+      "sourceSha256": "930fbc87334ae2307ec151fc191c6a9bc1e24ca52e18a283a509d0caacb9401f",
+      "descriptionSha256": "e3617c21d3e9fb6471296b1fc645a2af74fa48aaa6afd0e2cbfef86715354e84",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Acclimation Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:navigation:spheres-of-guile:guile-talent:stability-exercise-acclimation",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "navigation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You may select the following acclimation benefits:</p>\n<ul>\n<li><strong>Braced Footing:</strong> Acclimated targets halve any DC increases to Acrobatics and Climb checks they would incur, and may take 10 on Climb checks even when distracted. Acclimated targets ignore the DC increase of (or penalties to) Acrobatics and Stealth checks due to certain terrain features (such as dense rubble or undergrowth); this includes certain dredge effects from the Survivalism sphere, such as the Unpredictable Terrain option.</li>\n<li><strong>Rope Swinger:</strong> Acclimated targets gain a climb speed of 10 feet on surfaces with a Climb DC of 20 or less, which increases by 5 feet per 5 ranks you possess in the associated skill. They do not provoke attacks of opportunity from climbing or swinging on a rope or surface with Climb DC 20 or less.</li>\n</ul>\n<p><strong>Associated Feat:</strong> Expert Boarder (<em>Pathfinder Roleplaying Game: Adventurer’s Guide</em>).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/navigation#toc37\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/navigation#toc37"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

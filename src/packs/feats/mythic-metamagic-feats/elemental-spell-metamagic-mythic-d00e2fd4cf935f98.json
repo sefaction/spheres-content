@@ -1,0 +1,121 @@
+{
+  "_id": "d00e2fd4cf935f98",
+  "_key": "!items!d00e2fd4cf935f98",
+  "name": "Elemental Spell (Metamagic, Mythic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mythic-metamagic-feats:current:feat:elemental-spell-metamagic-mythic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mythic-metamagic-feats#toc13",
+      "sourceSha256": "7394e84ad5f27961d20ec333e48e3ce7c66947f1756fffcb2045395a6eadfd86",
+      "descriptionSha256": "95358d7b52240210394ed09f96e0fc845dbccfaab4a5c3647177bc31a515affa",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "mythic-metamagic-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mythic-metamagic-feats:current:feat:elemental-spell-metamagic-mythic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can weave two elements together.</p>\n<p><strong>Prerequisites:</strong> Elemental Spell<sup>APG</sup></p>\n<p><strong>Benefit:</strong> For each damage type you have selected Elemental Spell for, you may choose to have half of a spell’s damage change to that damage type, or all the damage change to that type, or have the spell deal half damage, and the damage adds the elemental type to its existing elemental type. Creatures struck by such dual-type damage only apply resistance or immunity if they have resistance or immunity to both damage types, but are vulnerable if they are vulnerable to either damage type.</p>\n<p>For example, the mythic wizard Brandon the Green casts a mythic Elemental fireball, and chooses to have it deal half damage and add cold to its damage type. He rolls 10d6 and gets 36, which he halves to 18. The fireball deals 18 points of cold-fire damage. A creature must have resistance to cold and fire to apply any resistance to that damage, while a creature vulnerable to either cold of fire takes 50% more damage.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mythic-metamagic-feats#toc13\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mythic-metamagic-feats#toc13"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

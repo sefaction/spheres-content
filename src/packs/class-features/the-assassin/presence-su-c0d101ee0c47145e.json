@@ -1,0 +1,121 @@
+{
+  "_id": "c0d101ee0c47145e",
+  "_key": "!items!c0d101ee0c47145e",
+  "name": "The Assassin: Presence (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:the-assassin:current:class-feature:presence-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/the-assassin#toc6",
+      "sourceSha256": "a4689e93a90faf70896f1a34b95f4cbf283865377aca2022492d04137e61f6f7",
+      "descriptionSha256": "14a619654e5bccb3290159a1f544b78f7bb716868f005e699856695f7e9599dd",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:the-assassin:current:class-feature:presence-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>An assassin begins play with the ability to weaponize the emotions and instinctive reflexes of others. Each non-ally creature that approaches to within 60 feet of the assassin gains a presence pool, a measure of the assassin's influence upon that creature's physiological state; if a victim-to-be believes, consciously or subconsciously, that the assassin is capable of something, then the assassin is indeed capable of doing it, assuming he knows the correct motions to use. The maximum number of points in a presence pool is equal to 4. Unlike most pools, however, the presence pool begins play empty and does not replenish itself after a period of time. Instead, whenever the assassin wishes to execute a technique with a listed Presence Source, the number of points in the source's presence pool increases or decreases by the amount listed by that technique's Presence Change. Some techniques demand that the presence source and target be the same creature, while others do not. See individual technique entries for details.</p>\n<p>The presence pool requires a very real risk of death to function properly. As a result, creatures that flee from the assassin lose their presence pools once out of range for minutes equal to his Charisma modifier (minimum 1).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/the-assassin#toc6\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/the-assassin#toc6"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

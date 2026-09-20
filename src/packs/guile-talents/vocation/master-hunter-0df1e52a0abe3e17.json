@@ -1,0 +1,124 @@
+{
+  "_id": "0df1e52a0abe3e17",
+  "_key": "!items!0df1e52a0abe3e17",
+  "name": "Master Hunter",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:vocation:spheres-of-guile:guile-talent:master-hunter",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/vocation#toc138",
+      "sourceSha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "descriptionSha256": "897c88e02c1c5444029c8ef75f0458f8bc1e94dbe799fd785b9f04a65ea50f56",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:vocation:spheres-of-guile:guile-talent:master-hunter",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "vocation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400\">Diamond Spheres: Hustle &amp; Bustle</a></sup></p>\n<p><strong>Prerequisites:</strong> Vocation sphere (Adept Hunter (specialty), Expert Hunter), Profession (butcher, fisherman, or trapper) 10 ranks.</p>\n<p>You gain an ability depending on the specialty skill(s) chosen with the Adept Hunter talent:</p>\n<p><strong>Angler’s Acumen—Profession (fisherman):</strong> The distance of the tremorsense granted by this ability is quadrupled—you also do not suffer miss chance from concealment or total concealment against creatures within your tremorsense that are underwater or have the aquatic or water subtype.</p>\n<p>Additionally, you can spend 1 use of skill leverage as a swift action while in contact with a body of water to learn if any creatures have touched or passed by it, if anything is hidden within it, the general state of the terrain, etc. This sense only pertains to up to a long range distance of water.</p>\n<p><strong>Carver—Profession (butcher):</strong> Whenever you fail to confirm a critical hit, you can still maximize your weapon damage dice (but no other dice). Also, this specialty ability’s precision damage increases by +1 die size (d6 &gt; d8 &gt; d10), and also triggers on a successful critical hit.</p>\n<p><strong>Refine Trap—Profession (trapper):</strong> Whenever you refine a trap using this specialty ability, the Perception DC to notice the trap using abilities that grant automatic Perception checks against traps (such as the trap spotter rogue talent or the Heightened Awareness Scout sphere talent) increases by an amount equal to your associated ranks.</p>\n<p>Additionally, the trap increases its damage die by +1 die step (for example, a bear trap that normally deals 2d6+3 damage instead would deal 2d8+3 damage).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/vocation#toc138\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/vocation#toc138"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,162 @@
+{
+  "_id": "85986422972e38c1",
+  "_key": "!items!85986422972e38c1",
+  "name": "Extract Blood Construct Oil",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:compounds:ultimate:item:extract-blood-construct-oil",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/compounds#toc37",
+      "sourceSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "2a891caa6e52c38ab7ee83a04817f56d31dedf0bb58c580c978107ad2f80c171",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Compounds",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:compounds:ultimate:item:extract-blood-construct-oil",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> faint Blood; <strong>CL</strong> 3rd (very weak), 6th (weak), 9th (mild), 15th (mediocre), 18th (strong), 21th (very strong), 24th (perfect)<br>\n<strong>Slot</strong> none; Price 450 gp (very weak), 900 gp (weak), 1,350 gp (mild), 2,250 gp (mediocre), 2,700 gp (strong), 3,150 gp (very strong), 3,600 gp (perfect); <strong>Weight</strong> 0.1 lbs.</p>\n<p><strong>Description</strong><br>\nPouring this oil on the corpse of a creature will draw out and animate the blood of the creature, creating a blood construct under your control for an amount of time. The size and time which the creature may not been dead yet depend on the oil quality.</p>\n<strong>Table: Extract Blood Construct Oil</strong>\n<table>\n<tbody><tr>\n<th>Potion Quality</th>\n<th>Maximum Dead Body Size (maximum minutes dead)</th>\n<th>Hit Points</th>\n<th>Armor Class</th>\n<th>Attack (Damage)</th>\n<th>Duration</th>\n</tr>\n<tr>\n<td>Very Weak</td>\n<td>Small (3 minutes)</td>\n<td>5</td>\n<td>13</td>\n<td>Slam +4 (1d4+1)</td>\n<td>30 minutes</td>\n</tr>\n<tr>\n<td>Weak</td>\n<td>Medium (6 minutes)</td>\n<td>21</td>\n<td>13</td>\n<td>Slam +5 (1d6+3)</td>\n<td>1 hour</td>\n</tr>\n<tr>\n<td>Mild</td>\n<td>Large (9 minutes)</td>\n<td>42</td>\n<td>15</td>\n<td>Slam +7 (1d8+4)</td>\n<td>1.5 hours</td>\n</tr>\n<tr>\n<td>Mediocre</td>\n<td>Huge (15 minutes)</td>\n<td>74</td>\n<td>17</td>\n<td>2 slams +12 (2d6+5)</td>\n<td>2.5 hours</td>\n</tr>\n<tr>\n<td>Strong</td>\n<td>Gargantuan (18 minutes)</td>\n<td>95</td>\n<td>20</td>\n<td>2 slams +15 (3d6+7)</td>\n<td>3 hours</td>\n</tr>\n<tr>\n<td>Very Strong</td>\n<td>Colossal (21 minutes)</td>\n<td>131</td>\n<td>20</td>\n<td>2 slams +21 (4d6+12)</td>\n<td>3.5 hours</td>\n</tr>\n<tr>\n<td>Perfect</td>\n<td>Colossal+ (24 minutes)</td>\n<td>148</td>\n<td>17</td>\n<td>2 slams +24 (6d6+16)</td>\n<td>4 hours</td>\n</tr>\n</tbody></table>\n<p><strong>Construction Requirements</strong><br>\nDistill Compound, Blood sphere (Extract Blood Construct); <strong>Cost</strong> 225 gp (very weak), 450 gp (weak), 675 gp (mild), 1,125 gp (mediocre), 1,350 gp (strong), 1,575 gp (very strong), 1,800 gp (perfect)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/compounds#toc37\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0.1
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 450,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/compounds#toc37"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "3e1ad3a746cb9988",
+  "_key": "!items!3e1ad3a746cb9988",
+  "name": "Primal Blast (Dual Sphere)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:destruction:ultimate:feat:primal-blast-dual-sphere",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/destruction#toc138",
+      "sourceSha256": "87f38a4d1182120298d1b24f8748ffd25e9d5bd3a9e618a3917b6c090024d6d7",
+      "descriptionSha256": "53817ebd12f25955b5a7bb651d1f1f73ee456315d08145358f92f7c3df6d325b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Destruction Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:destruction:ultimate:feat:primal-blast-dual-sphere",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Destruction sphere (any (blast type) talent), Nature sphere (any package).</p>\n<strong>Benefit:</strong>\n<p> When using a (blast type) talent from a blast type category corresponding to a geomancing talent you possess, you may add your casting ability modifier to any attack rolls and damage rolls of the destructive blast. If you do so, you do not modify attack rolls and damage rolls with your destructive blasts with your Strength modifier, Dexterity modifier, or any other ability score (if you have an ability that allows you to modify attack rolls and/or damage rolls with that ability score). On any individual attacks of which a destructive blast is being applied to a natural or weapon attack (such as with the Energy Strike talent or similar ability), Primal Blast instead modifies the attack and damage rolls of the natural or weapon attack (replacing any other ability modifier bonuses with your casting ability modifier as normal).</p>\n<table>\n<tbody><tr>\n<th>Geomancing Package</th>\n<th>Blast Type Category</th>\n</tr>\n<tr>\n<td>(Air) package</td>\n<td>Air, electric, sonic</td>\n</tr>\n<tr>\n<td>(Earth) package</td>\n<td>Crystal, stone</td>\n</tr>\n<tr>\n<td>(Fire) package</td>\n<td>Fire, light</td>\n</tr>\n<tr>\n<td>(Metal) package</td>\n<td>Acid, electric</td>\n</tr>\n<tr>\n<td>(Plant) package</td>\n<td>Acid, force</td>\n</tr>\n<tr>\n<td>(Water) package</td>\n<td>Cold, crystal</td>\n</tr>\n</tbody></table>\n<p><strong>Author's Note:</strong> When using the Primal Blast feat, you do not substitute an ability score's bonus damage (e.g. Strength, Dexterity) for your casting ability modifier, you instead do not gain your normal ability score as bonus damage and separately add your casting modifier. Effectively, the attack does not add the ability score and adds your casting modifier as a separate damage bonus. This differs from an unchained rogue's finesse training feature, which replaces Strength with Dexterity and then calculates normally. For example, when using the Destruction sphere Energy Strike talent with a 2 handed weapon, you would only receive your casting ability modifier as bonus damage and not 1.5x your casting ability modifier.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/destruction#toc138\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/destruction#toc138"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

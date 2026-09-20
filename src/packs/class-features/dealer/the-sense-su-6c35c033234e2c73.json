@@ -1,0 +1,121 @@
+{
+  "_id": "6c35c033234e2c73",
+  "_key": "!items!6c35c033234e2c73",
+  "name": "Dealer: The Sense (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:dealer:current:class-feature:the-sense-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/dealer#toc2",
+      "sourceSha256": "0de92cc8c9bf6cb5572234a631f5e9a9dd07caca48fa0de8dbfb0e20c7f41c4d",
+      "descriptionSha256": "3da53641040367d6ea007bdaed738d636a6d20fa3d525b4bb2480372c50d051f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:dealer:current:class-feature:the-sense-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A dealer is superbly skilled at predicting the flow of combat and fights with a flair that is matched only by few. They fight in a manner that taps into the Sense to allow them to avoid damage to themselves. Any attack roll a creature makes against the dealer that results in a natural 1 or 2 automatically fails. At 5th level and every 4 levels thereafter the natural result of the dice that auto fails increases by 1 (example: At 9th level an enemy who tried to attack a dealer would automatically fail his attack roll if the number on the dice was 4 or lower regardless of his total bonus to hit).</p>\n<p>This applies even against touch attacks or when the dealer is flat-footed. He does not benefit from this against attacks that deal precision damage, if he is immobilized or helpless, when he wears armor heavier than light armor, when he carries a shield, or when he carries a medium or heavy load.</p>\n<p>Secondarily a dealer gains a pool of Sense points that represent his sensitivity to the Sense. He has a number of Sense points equal to his Charisma bonus. If anyone rolls a natural 1 within 30 feet of a dealer or a creature misses him due to the first part of this class feature he is restored 1 Sense point. This may not bring him above his maximum number of Sense points. In addition, he is restored his full pool of Sense points after 8 hours of rest. He may use these points to use the following ability:</p>\n<p><strong>Control Chaos:</strong> He may spend points to adjust a number he rolls on a d20 up by the amount spent. The new result is treated as if he had naturally rolled that number. Thus a dealer who rolls a natural 19 can expend 1 Sense point to improve it to a natural 20. A dealer can only adjust a dice roll by 1 + 1 per 5 levels of dealer he possesses. A dealer must decide if he wants to adjust a roll after he rolls it but before the GM declares if the roll was successful.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/dealer#toc2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/dealer#toc2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "target": {
+    "foundry": "13.351",
+    "pf1": "11.11"
+  },
+  "policy": "Only pf1spheres is required. Optional modules are not enabled, installed, or given persistent flags automatically. Source review is not runtime compatibility certification.",
+  "modules": [
+    {
+      "id": "pf1spheres",
+      "version": "0.9.0",
+      "role": "required",
+      "url": "https://github.com/Ethaks/pf1spheres",
+      "contract": "flags.pf1spheres.sphere; feat subType skillTalent; casterProgression and additional Change targets",
+      "plan": "Use native framework fields. Do not add duplicate caster/talent calculations.",
+      "status": "source-reviewed; pilot UI exercised"
+    },
+    {
+      "id": "pf1-container-contents",
+      "version": "0.4.1",
+      "role": "optional",
+      "url": "https://gitlab.com/mkahvi/fvtt-micro-modules/-/tree/master/pf1-container-contents",
+      "contract": "Native container system.items and item.items collection",
+      "plan": "Native containers can be displayed without custom ASC flags. Verify quantity/removal with this module enabled.",
+      "status": "source-reviewed; runtime combination untested",
+      "sourceSha256": "7971f240d0750a2b6391d32ec5ba48eaf2910e61595e7ca2aebd32b0c207dc51"
+    },
+    {
+      "id": "pf1-item-nesting",
+      "version": "1.2.0",
+      "role": "optional",
+      "url": "https://gitlab.com/mkahvi/fvtt-micro-modules/-/tree/master/pf1-item-nesting",
+      "contract": "flags.world.nesting.groupBy resolves actor-local ID or system.tag",
+      "plan": "Consider tag-based class-feature grouping after association review. Never bake test-world IDs into compendia.",
+      "status": "source-reviewed; runtime combination untested",
+      "sourceSha256": "30e258b0835b8f1756da0590bd2424c7080108308c5387c4ff5da7dfae97b835"
+    },
+    {
+      "id": "mkah-pf1-feature-sources",
+      "version": "0.4.0",
+      "role": "optional",
+      "url": "https://gitlab.com/mkahvi/fvtt-micro-modules/-/tree/master/pf1-feature-sources",
+      "contract": "system.flags.dictionary: source, source_level, source_type",
+      "plan": "Tracks grant origin/level; distinct from native system.sources bibliographic citations. Avoid duplicate or conflicting ownership metadata.",
+      "status": "source-reviewed; runtime combination untested",
+      "sourceSha256": "9a932b7f25dd4910f4f09eeebf3b5f6e9001ca39a04557c46e9595fd3b84a318"
+    },
+    {
+      "id": "ckl-roll-bonuses",
+      "version": "2.23.5",
+      "role": "optional",
+      "url": "https://github.com/dmrickey/fvtt-ckl-roll-bonuses",
+      "contract": "Conditional roll-bonus implementation requires API review",
+      "plan": "Potential later conditional-modifier integration. Avoid implementing the same modifier in both PF1 Changes and this module.",
+      "status": "research-needed; source Item pack contains an unexpected lost directory and was not extracted"
+    },
+    {
+      "id": "token-action-hud-pf1",
+      "version": "2.1.1",
+      "role": "optional",
+      "url": "https://github.com/dmrickey/token-action-hud-pf1",
+      "contract": "Native PF1 item actions",
+      "plan": "Keep action/activation/use data native so HUD support can be tested without ASC-specific buttons.",
+      "status": "research-needed; runtime combination untested"
+    },
+    {
+      "id": "item-piles",
+      "version": "3.3.4",
+      "role": "optional",
+      "url": "https://github.com/fantasycalendar/FoundryVTT-ItemPiles",
+      "contract": "Native item quantity, price, weight, and containers",
+      "plan": "Test purchasing, splitting stacks and container valuation once base inventory data is reviewed.",
+      "status": "research-needed; runtime combination untested"
+    },
+    {
+      "id": "pf1e-archetypes",
+      "version": "11.0.1",
+      "role": "deferred",
+      "url": "https://gitlab.com/Tryss_Farron/pf1e-archetypes",
+      "contract": "Archetype application and feature replacement",
+      "plan": "Consider during the later archetype-layering discussion; no integration implemented now.",
+      "status": "deferred by scope"
+    }
+  ]
+}

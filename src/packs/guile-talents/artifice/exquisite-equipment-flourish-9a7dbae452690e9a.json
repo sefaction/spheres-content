@@ -1,0 +1,124 @@
+{
+  "_id": "9a7dbae452690e9a",
+  "_key": "!items!9a7dbae452690e9a",
+  "name": "Exquisite Equipment (flourish)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:artifice:spheres-of-guile:guile-talent:exquisite-equipment-flourish",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/artifice#toc65",
+      "sourceSha256": "a3a666f8e0af8307f0024100a1bdb6c458a7d34b1b4c37af5a6d0057bdfc9aa7",
+      "descriptionSha256": "9bfe6b0ac606c125f158edf43f2930a9f51b44134232aa42fcb84012eba19221",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:artifice:spheres-of-guile:guile-talent:exquisite-equipment-flourish",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "artifice"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Artifice sphere.</p>\n<p>You may craft equipment far beyond the quality of other smiths. The crafted item becomes a masterwork item. At 4 ranks in a package’s associated skill, you can provide special maintenance to the flourish to improve the item further.</p>\n<p>If you possess the (fabrication) package, you can provide this flourish to a tool, which increases the circumstance bonus associated with being masterwork by 1 per 4 ranks in the package’s associated skill you possess.</p>\n<p>If you possess the (gear) package, you can provide this flourish to a set of armor, a shield or a weapon. An exquisite weapon has an enhancement bonus to attack rolls equal to 1 + 1 per 4 ranks in the package’s associated skill you possess (maximum +5). This does not stack with any other enhancement bonuses, and counts towards the maximum enhancement bonus a weapon can have (which cannot exceed a +10 bonus-equivalent as normal). Unlike most enhancement bonuses, this bonus is non-magical and does not allow the weapon to bypass any special damage resistances.</p>\n<p>If you create an exquisite shield or armor, you may choose one of the following options:</p>\n<ul>\n<li>Reduce the item’s armor check penalty by 1 per 3 ranks in the package’s associated skill you possess. This is applied before any abilities from the wearer that might reduce their armor check penalties.</li>\n<li>Increase the item’s maximum Dexterity bonus by 1 per 6 ranks in the package’s associated skill you possess.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/artifice#toc65\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/artifice#toc65"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

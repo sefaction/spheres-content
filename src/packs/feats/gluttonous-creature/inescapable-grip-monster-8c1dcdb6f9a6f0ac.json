@@ -1,0 +1,121 @@
+{
+  "_id": "8c1dcdb6f9a6f0ac",
+  "_key": "!items!8c1dcdb6f9a6f0ac",
+  "name": "Inescapable Grip (Monster)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:gluttonous-creature:current:feat:inescapable-grip-monster",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/gluttonous-creature#toc1",
+      "sourceSha256": "193c032db279241ee0aa06ae966ae677ea83d74b058a37e18ba3a68df8d32c43",
+      "descriptionSha256": "5170ea12f6382e0c9c7594d5d47e623755304e8dbb34a7ef0f654930e8cea1bf",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "New Feat",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:gluttonous-creature:current:feat:inescapable-grip-monster",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Grab, any other supernatural or spelllike ability</p>\n<p><strong>Benefit:</strong> When you attempt to use your grab ability to grapple an opponent, your magical nature attempts to dispel (as described in greater dispel magic, CL equal to your Hit Dice) any freedom of movement spell or magic item that grants immunity or bonuses to Combat Maneuver Defense or Escape Artist checks (this includes enhancement bonuses to Strength and Dexterity scores). If the dispel check succeeds, the spell is dispelled before you make your grapple check (magic items are suppressed for 1d4+1 rounds). You can use this ability a number of times per day equal to your Charisma bonus (minimum 1/day).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/gluttonous-creature#toc1\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/gluttonous-creature#toc1"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

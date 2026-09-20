@@ -1,0 +1,121 @@
+{
+  "_id": "8c84729f4725c412",
+  "_key": "!items!8c84729f4725c412",
+  "name": "Ability Focus (Mythic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mythic-general-a-f-feats:current:feat:ability-focus-mythic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mythic-general-a-f-feats#toc1",
+      "sourceSha256": "c0588d100e8806ba79c15e6694eb04c31740295fb4578b6995ec766395425f4a",
+      "descriptionSha256": "7f710f938e99f7477feaf2e884e03200fe912eecf95cee99a9d1c531e3a0d7aa",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "mythic-general-a-f-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mythic-general-a-f-feats:current:feat:ability-focus-mythic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>One of this creature’s special abilities is extraordinarily powerful.</p>\n<p><strong>Prerequisite:</strong> Ability Focus<sup>B1</sup></p>\n<p><strong>Benefit:</strong> Choose a special ability for which the creature already has Ability Focus. The bonus to save DCs provided by Ability Focus for the creature’s chosen special ability increases by 2. Additionally, the creature can expend one use of mythic power as part of using its chosen special ability to force the targets of the special ability to roll their saves twice, taking the lower result.</p>\n<p><strong>Special:</strong> If the creature has taken non-mythic Ability Focus multiple times, it must choose which of those feats this enhances. A creature can take this feat multiple times. The effects do not stack. Each time the creature takes this feat, it applies to a different non-mythic Ability Focus feat.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mythic-general-a-f-feats#toc1\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mythic-general-a-f-feats#toc1"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

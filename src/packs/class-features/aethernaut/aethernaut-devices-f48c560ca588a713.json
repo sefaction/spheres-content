@@ -1,0 +1,121 @@
+{
+  "_id": "f48c560ca588a713",
+  "_key": "!items!f48c560ca588a713",
+  "name": "Aethernaut: Aethernaut Devices",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:aethernaut:current:class-feature:aethernaut-devices",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/aethernaut#toc50",
+      "sourceSha256": "cd774d1a82f266aca5716be895c0f51e1e0bb4993ad8ac1c77eb98a14131138f",
+      "descriptionSha256": "6d13b1922ac3f1f7432d93d36893f336b366be7849cea305bbcc3315398c6992",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:aethernaut:current:class-feature:aethernaut-devices",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>An aethernaut chooses one of the following devices at 1st level. The choice can't be changed. The following are the most well-established of aethernaut devices, but others are known.</p>\n<h3>Armor Device</h3>\n<p>You augment armor with springs, dynamos, and plating to protect you from the strange energies of distant planes.</p>\n<p><strong>Device Powers:</strong> You gain either proficiency with heavy armor or the armor customization discovery even if you don't meet the prerequisites. Once you make this choice, it can't be changed. If you choose heavy armor, at 11th level you can use stalwart only for Will saving throws while wearing heavy armor and at 17th level you can use stalwart normally in heavy armor.</p>\n<p><strong>Armor Boost (Su):</strong> At 5th level, you can boost the power of your armor as a move action. If you do, its enhancement bonus increases by +1. This enhancement bonus is added to the armor's, to a maximum of +5. You can also imbue the armor with any one armor special ability with an equivalent enhancement bonus of +1 instead of this bonus. The armor must have an enhancement bonus of at least +1 (from the item itself or from armor boost) to gain an armor special ability. This boost lasts for 1 minute per level each day, but can be dismissed as a swift action to save any remaining whole minutes for later.</p>\n<p><strong>Armor Conversion (Su):</strong> At 10th level, when you use armor boost, you can also subtract any number of points from the armor's innate enhancement bonus for the duration of the armor boost in order to add more or more potent armor special abilities; you must leave the armor with at least a +1 bonus. You can add one or two armor special abilities that are in total equivalent to the number you subtracted + 1 (this benefit is instead of increasing the armor's enhancement bonus). You can add an armor special ability worth up to 7,000 gp as if it were equivalent to a +1 bonus, one up to 16,000 gp as if it were equivalent to a +2 bonus, one up to 27,000 gp as if it were equivalent to a +3 bonus, 40,000 gp as if it were equivalent to a +4 bonus, and up to 55,000 gp as if it were equivalent to a +5 bonus.</p>\n<p><strong>Energy Conduction (Su):</strong> At 15th level, your armor can channel dangerous energy in combat. Whenever you reduce or negate acid, cold, electricity, fire, force, or sonic damage with a successful saving throw, energy resistance, or immunity, you can make a melee or ranged touch attack against a target within 30 feet as an immediate action. If you hit, the damage you avoided is dealt to that creature.</p>\n<p><strong>Perfect Armor (Su):</strong> At 20th level, your boost can raise your armor's enhancement bonus to a maximum of +6. While your armor's enhancement bonus is at least +6, it also grants you damage reduction 5/epic.</p>\n<h3>Rod Device</h3>\n<p>You use a rod to detect and channel cosmic energy along its length. Your rod can be used as a mace or quarterstaff or be embedded into the haft of a polearm.</p>\n<p><strong>Device Powers:</strong> Your rod device helps you read the vibrations around you. You gain the threaten precision discovery. If improve your rod to function as a metamagic rod, you can apply its effects to spells you cast from items.</p>\n<p><strong>Rhabdomancy (Sp):</strong> At 5th level, you can use your rod to cast locate object or locate creature with a duration of 1 round per aethernaut level each day with a command word; if you dismiss the effect as a swift action, any remaining whole rounds are saved for later. You can spend 5 of these rounds concentrating as a standard action on a future action instead of a creature or object to cast augury.</p>\n<p><strong>Extended Rhabdomancy:</strong> At 10th level, your rhabdomancy power has duration 1 minute per level (partial minutes are wasted) and you can spend 10 minutes of rhabdomancy to cast divination. In addition, you can use precision on a creature you are locating with rhabdomancy, and know instinctively what roll is being made in time to influence it (but not why).</p>\n<p><strong>Far Influence:</strong> At 15th level, your precision range increases to 30 feet, your rhabdomancy's range is 1 mile, and you can spend 15 minutes of rhabdomancy to cast prognostication<sup>UI</sup>.</p>\n<p><strong>Vast Influence:</strong> At 20th level, your precision range increases to 60 feet, your rhabdomancy's range is 20 miles, and you can spend 20 minutes of rhabdomancy to cast true prognostication<sup>UI</sup>.</p>\n<h3>Weapon Device</h3>\n<p>A weapon device generally incorporates exotic crystals tuned to vibrate according to nearby planar energies and to pierce planar boundaries.</p>\n<p><strong>Device Powers:</strong> You are automatically proficient with your weapon device. If you were already proficient with it, you gain the threaten precision discovery.</p>\n<p><strong>Weapon Boost (Su):</strong> At 5th level, you can give your device weapon a +1 enhancement bonus as a standard action. This enhancement bonus is added to the weapon's, to a maximum of +5. You can also imbue the weapon with any one weapon special ability with a +1 equivalent enhancement bonus. The item must have an enhancement bonus of at least +1 to gain a weapon special ability. This boost lasts for 1 minute per level each day, but can be dismissed as a swift action to save any remaining whole minutes for later.</p>\n<p><strong>Enhancement Conversion (Su):</strong> At 10th level, when you activate your weapon boost, you can subtract any number of points of the weapon's innate enhancement bonus for the duration of the weapon boost in order to add that amount to the number of points you can convert into a weapon special ability. You must leave the weapon with at least a +1 bonus.</p>\n<p><strong>Greater Weapon Focus:</strong> Also at 10th level, you gain Greater Weapon Focus with your weapon device as a bonus feat even if you don't meet the prerequisites.</p>\n<p><strong>Parallel Weapon Boost (Su):</strong> At 15th level, you can divide up the total you subtracted from your weapon boost and the weapon's innate enhancement to add two different weapon special abilities that add up to that total.</p>\n<p><strong>Perfect Weapon (Su):</strong> At 20th level, the maximum enhancement bonus your weapon boost can result in becomes +6. While your weapon's enhancement bonus is at least +6, it bypasses all damage reduction.</p>\n<h3>Worn Device</h3>\n<p>Worn devices help detect and utilize planar energy more precisely than other devices. A worn device can be any item normally worn when in use. When improved, a worn device can become magic armor, a magic shield, a slotted wondrous item, or a ring, as appropriate for its form. You must replace the device to change which slot it occupies.</p>\n<p><strong>Device Powers:</strong> Your worn device allows you to use your sense of touch to pick up subtle interdimensional vibrations and manipulate the planar energy around your body more easily. You can use precision once per round on your turn as a free action.</p>\n<p><strong>Item Boost (Su):</strong> At 5th level, you can boost the power of your wondrous device as a standard action. If you do, any bonus it grants increases by 1, up to the maximum for that type of item. If the item grants more than one bonus, choose one. If the item doesn't grant a bonus, you gain one of the following: +2 enhancement bonus to one ability score, +1 natural armor bonus to AC, or +1 resistance bonus on saving throws. This ability lasts for 1 minute per level each day, but can be dismissed as a swift action to save any remaining whole minutes for later.</p>\n<p><strong>Extra Rift Ward (Su):</strong> At 10th level, you can activate a rift ward in addition to any you already have active as part of activating your item boost. It must be for a different plane than any you already have active. It lasts until your item boost ends. This rift ward functions as if your aethernaut level was 5 lower (which limits which kinds of rift wards you can choose from).</p>\n<p><strong>Improved Item Boost:</strong> At 15th level, your item boost increases the bonus granted by 2 (instead of 1) and lasts for 1 hour per level each day (partial hours are wasted).</p>\n<p><strong>Superior Item Boost (Su):</strong> At 20th level, your item boost can exceed the item's maximum bonus. While your item boost is active, your extra rift ward functions at your full aethernaut level.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/aethernaut#toc50\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/aethernaut#toc50"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "45f397e86b75dc22",
+  "_key": "!items!45f397e86b75dc22",
+  "name": "Herbalist: Find Herbs (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalist:current:class-feature:find-herbs-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalist#toc7",
+      "sourceSha256": "9d98e335b1a5ce58d9239da60b9b4d65e48c55960a713ece4e927f8bd2a4a28e",
+      "descriptionSha256": "dc52a80da7614e4b934be62715d478d41bc13fcaf4dc05431f6edc15dfad27a0",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalist:current:class-feature:find-herbs-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, the herbalist has learned the secret to finding useful plants and unlocking their true potential, wherever she may be. Blessed by Mother Nature herself, an herbalist's picked plants are truly wondrous; however, they must be taken from their natural state to be effective. As a result, the herbalist can only draw from what grows in her surroundings, and is shackled by luck in her search.</p>\n<p>To pick plants, the herbalist must first consult her surroundings to determine her current \"biome\". Biomes, large, naturally-occurring communities of flora and fauna occupying a major habitat, are divided into nine standard categories for the purpose of this ability: desert, forest, grassland, jungle, mountains, tundra, underground, underwater, and wetlands.</p>\n<p>Once the herbalist has determined her biome, she rolls once on that biome's find herbs table, plus an additional time for every two herbalist levels she possesses beyond 1st, to a maximum of 10 rolls at 19th level. (See <a href=\"http://spheresofpower.wikidot.com/gourmend-herbalist-find-herbs-tables\">Gourmend/Herbalist Find Herbs Tables</a>). For each roll, she collects the plants listed for the rolled result and can use them in the manner described in the Herb Log. All find herbs rolls produce 10 \"points\" worth of herbs. These plants are invested with the blessing of Mother Nature herself, and any attempt to use the find herbs class feature a second time in a single day will simply result in the acquisition of nonfunctional plants.</p>\n<p>Plants granted the blessing of nature tend to decay very rapidly, for they represent life firing on all cylinders. As such, all plants and plant products (the output from recipes) not stored in preservation vessels overnight will denature to a useless state come the following morning. Full rules for the use of picked herbs are presented at the <a href=\"http://spheresofpower.wikidot.com/the-herb-log\">The Herb Log</a>.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalist#toc7\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalist#toc7"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

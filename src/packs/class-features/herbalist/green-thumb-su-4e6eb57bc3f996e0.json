@@ -1,0 +1,121 @@
+{
+  "_id": "4e6eb57bc3f996e0",
+  "_key": "!items!4e6eb57bc3f996e0",
+  "name": "Herbalist: Green Thumb (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalist:current:class-feature:green-thumb-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalist#toc9",
+      "sourceSha256": "9d98e335b1a5ce58d9239da60b9b4d65e48c55960a713ece4e927f8bd2a4a28e",
+      "descriptionSha256": "6cc7696f1bd22d114783bc2bf1de6bef11288d455ad6d3ab0f02715446579f42",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalist:current:class-feature:green-thumb-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, the herbalist's connection with nature grants her the ability to suggest certain courses of action to it. The herbalist's capacity to do so is represented by a green thumb pool, containing a number of points equal to 1/2 her herbalist class level + her Wisdom modifier, rounded down.</p>\n<p>The green thumb pool replenishes itself each morning at dawn, whether or not the herbalist has taken time to rest.</p>\n<p>An herbalist uses green thumb points on various abilities. Starting at 3rd level, she gains access to the following:</p>\n<h4>Bounty of Nature (Su)</h4>\n<p>If and only if plants are totally unavailable wherever she is (possible locations tend to include most elemental planes), the herbalist may use the entirety of her green thumb pool to produce a vast quantity of plants from those she brought with her. For each green thumb point spent in this manner, the herbalist produces two points worth of plants sourced from those varieties of plants present in her filled cultivation pots. This represents those plants she brought with her growing at a tremendous pace in an effort to supply the herbalist with what she needs in such a hostile environment. Using bounty of nature requires one hour of uninterrupted communion with nature. If interrupted, no green thumb points are spent, and no plants are produced.</p>\n<p>Using this ability forfeits the herbalist's daily use of the find herbs class feature should foraging for plants become a possibility later in the day.</p>\n<h4>Extra Cultivation (Su)</h4>\n<p>As a full-round action, the herbalist may expend 2 green thumb points to coax a plant with a point value of 2 or less present in one of her filled cultivation pots to grow. She collects one unit of that plant.</p>\n<h4>Potent Poison (Su)</h4>\n<p>As a swift action, the herbalist may expend 1 green thumb point to focus upon a single plant product or herbalism plant she possesses that is treated as though it were a poison, or upon a weapon to which such an item has been applied. The Difficulty Class (DC) for any saving throw called for by that poison increases by +1. This ability persists for 1 minute, and does not stack with itself.</p>\n<p>Starting at 7th level, the following also becomes available:</p>\n<h4>Focused Foraging (Su)</h4>\n<p>Whenever the herbalist would roll on a find herbs table to determine the identity of the herbalism plants she finds, she may spend 1 green thumb point to roll twice and choose which result to take.</p>\n<p>Starting at 17th level, the following also becomes available:</p>\n<h4>Universal Toxin (Su)</h4>\n<p>As a swift action, the herbalist may expend 3 green thumb points to focus upon a single recipe plant product or herbalism plant that is treated as though it were a poison, or upon a weapon to which such an item has already been applied. That poison can now affect living creatures that are immune to poison by extraordinary or supernatural means, such as high-level druids and some outsiders. Creatures that are immune to poison due to spells or magical items maintain their immunity to poison in the face of universal toxin. This ability persists for 1 minute.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalist#toc9\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalist#toc9"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "d7526ec9a95a68ea",
+  "_key": "!items!d7526ec9a95a68ea",
+  "name": "Occult Countermeasures (acclimation)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:navigation:spheres-of-guile:guile-talent:occult-countermeasures-acclimation",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/navigation#toc34",
+      "sourceSha256": "930fbc87334ae2307ec151fc191c6a9bc1e24ca52e18a283a509d0caacb9401f",
+      "descriptionSha256": "0a021ff4cc91cd26bf9b2b1e368d7a961b35f421cfb7ad412cd07f038143a886",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Acclimation Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:navigation:spheres-of-guile:guile-talent:occult-countermeasures-acclimation",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "navigation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You may select the following acclimation benefits:</p>\n<ul>\n<li><strong>Mental Preparations:</strong> Acclimated targets gain a +2 competence bonus on all saving throws against fear effects and to the DC to demoralize them. Acclimated animals are immune to the unnatural aura universal monster ability. For every 8 ranks you possess in one of your associated skills, these bonuses increase by 1.</li>\n<li><strong>Tomb Raider:</strong> Acclimated targets gain a +2 competence bonus on all saving throws against curses and the abilities of haunts and magic traps. For every 8 ranks you possess in one of your associated skills, these bonuses increase by 1.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/navigation#toc34\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/navigation#toc34"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

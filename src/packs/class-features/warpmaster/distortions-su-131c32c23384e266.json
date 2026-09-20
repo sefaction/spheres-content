@@ -1,0 +1,121 @@
+{
+  "_id": "131c32c23384e266",
+  "_key": "!items!131c32c23384e266",
+  "name": "Warpmaster: Distortions (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:warpmaster:current:class-feature:distortions-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/warpmaster#toc5",
+      "sourceSha256": "1e0e50e864116367a19331909351416dbe03f326c27f08e2b4ffe202fd92a396",
+      "descriptionSha256": "2b960c73db708491f2f26c392a83aade25b2d237f79291dd22c387f4d5255e5a",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:warpmaster:current:class-feature:distortions-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level and every 3 levels thereafter, a warpmaster gains mastery over his nth-blade in such a way that he can distort certain qualities of it. A warpmaster can select what distortions he applies to his nth-blade at the time of summoning it. Distortions further reduce the maximum number of euclidean points the warpmaster can have when it is summoned. The nth-blade reduces the maximum by a value equal to 1 (the base cost of summoning it) + the price of all the distortions applied to the nth-blade (listed in parentheses). At 2nd level a warpmaster knows a single distortion and each 3 levels thereafter he learns how to create/manifest a new distortion. Some distortions have an improved version whose improved benefit is automatically granted at the level indicated.</p>\n<h4>Dartform (2)</h4>\n<p>“What is matter if not energy?”</p>\n<p>The dartform distortion causes a warpmaster’s nth-blade to become a ranged weapon with a range increment of 60 feet. The nth-blade remains in a state of disrupting crystalline energy in the hand of/while held by the warpmaster until it is utilized. The warpmaster can make as many ranged attacks as he could iterative attacks per round. Such a ranged attack deals sonic damage and deals the weapon damage of a one-handed nth-blade (nothing added to it). For the purposes of other distortions a dartform nth-blade counts as a one-handed nth-blade. A dartform nth-blade does not benefit from the following distortions: size, function, quantity, nature, and protection.</p>\n<p><strong>Improved Dartform:</strong> If the warpmaster is at least 10th level, he may spend additional points to grant his dartform nth blade the following changes:</p>\n<ul>\n<li><strong>Elemented (0):</strong> The dartform nth-blade deals fire, acid, cold, or electricity damage rather than sonic damage.</li>\n<li><strong>Empowered (2):</strong> The dartform adds the warpmaster’s Intelligence modifier to damage rolls with a nth-blade.</li>\n<li><strong>Extended (1):</strong> Double the range of the dartform nth-blade.</li>\n<li><strong>Piercing (2):</strong> The dartform nth-blade ignores anything less than total cover.</li>\n</ul>\n<h4>Function (1)</h4>\n<p>“Your sword takes the form of what it must be - not what you wish it to be.”</p>\n<p>The warpmaster may give his nth-blade one of the following weapon qualities. As many times as he likes (or can afford), he may reduce his maximum by 1 point to give his weapon another quality (though never the same one more than once).</p>\n<ul>\n<li>Brace (two-handed nth-blades)</li>\n<li>Disarm</li>\n<li>Double (non-light nth-blades)</li>\n<li>Trip</li>\n<li>Nonlethal</li>\n<li>Performance<sup>UC</sup></li>\n<li>Deadly<sup>UC</sup></li>\n</ul>\n<h4>Mimicry (2)</h4>\n<p>“To mimic is to reflect and to reflect is to introspect.”</p>\n<p>An nth-blade of appropriate handedness can mimic the dimensions of a weapon the warpmaster is proficient with. His nth-blade gains the damage, critical range, critical multiplier, damage type, and special qualities of the weapon in question. The weapon must be of the same handedness as the warpmaster’s nth-blade (a dagger would have to be a light nth-blade, a longsword would have to be a one-handed nth-blade, and a greataxe would have to be a two-handed nth-blade). The kind of weapon may be selected each time the warpmaster manifests it. The nth-blade counts as the type of weapon it is mimicking for the purposes of class features and prerequisites. If a mimicked nth-blade uses the quality distortion as well, the damage dealt by the weapon improves by 1 size category. If using the shape distortion to increase the critical range, it increases by 1 and if adjusting the critical multiplier it improves by 1.</p>\n<h4>Nature (See text)</h4>\n<p>“Impossible is only a word.”</p>\n<p>A warpmaster can grant his nth-blade any one magic weapon special ability by further reducing his maximum number of euclidean points. The numerical bonus that is indicated as the base price modifier (a bane weapon is a +1 for example) is the cost in euclidean points (a shocking burst special ability is a +2 bonus and would thus reduce his maximum number of euclidean points by 2). A warpmaster may only grant his nth-blade enhancements whose value does not exceed 1/5th his warpmaster level (minimum 1).</p>\n<h4>Protection (1)</h4>\n<p>“To attack is to defend.”</p>\n<p>The warpmaster may give his weapon the ability to provide a small amount of protection for him when he wields it. This grants him a +2 shield bonus to his AC. This may only be added to one-handed or two-handed nth-blades.</p>\n<h4>Quality (2)</h4>\n<p>“Your weapon is an extension of your mind and it is thus only as powerful as your understanding.”</p>\n<p>The warpmaster may improve his nth-blade in one of the following ways:</p>\n<ul>\n<li>Increase the damage dealt by a light nth-blade to 1d6 (small) / 1d8 (medium).</li>\n<li>Increase the damage dealt by a one-handed nth-blade to 1d8 (small) / 1d10 (medium).</li>\n<li>Increase the damage dealt by a two-handed nth-blade to 1d10 (small) / 1d12. (medium).</li>\n<li>Improved Quality (4): If the warpmaster is at least 10th level, he may reduce his maximum pool of euclidean points by 4 points to grant his weapon two dice size improvements. They have the following characteristics:\n<ul>\n<li>Increase the damage dealt by a light nth-blade to 1d8 (small) / 1d10 (medium).</li>\n<li>Increase the damage dealt by a one-handed nth-blade to 1d10 (small) / 1d12 (medium).</li>\n<li>Increase the damage dealt by a two-handed nth-blade to 1d12 (small) / 2d6. (medium).</li>\n</ul>\n</li>\n</ul>\n<h4>Quantity (0)</h4>\n<p>“You draw upon the infinite resources of unreality. Why then is it so unbelievable that you might draw twice from it?”</p>\n<p>A warpmaster with this distortion can produce a second nth-blade, paying for new distortions as normal.</p>\n<h4>Serration (1)</h4>\n<p>“Shapes as wonderful things. By simply connecting points by way of lines in a specific order and a specific fashion, a shape with the same number of connections can be infinitely different. If the edges are sharp, it will cut, round and it will move, flat and it will brace.”</p>\n<p>A confirmed critical hit additionally causes 1d4 points of bleed damage. This improves to 1d6 if the warpmaster is at least 6th level, 1d8 if he is 10th, 1d10 if he is 14th, and 1d12 if he is a 20th level warpmaster.</p>\n<h4>Shape (2)</h4>\n<p>Your mind makes your blade real, you creativity makes your blade worthy.”</p>\n<p>The warpmaster may improve his nth-blade in one of the following ways (never both):</p>\n<ul>\n<li>The critical range of the nth-blade is now 18-20. A warpmaster cannot apply this to a two-handed nth-blade.</li>\n<li>The critical multiplier of the nth-blade is now x3. A warpmaster cannot apply this to a two-handed nth-blade.</li>\n</ul>\n<h4>Size (2)</h4>\n<p>“Your sword is only as long as you imagine it to be.”</p>\n<p>The warpmaster may give his weapon an additional 5 feet of reach. This does not affect the handedness or damage dice of the weapon. This cannot be done to light nth-blades, and one-handed nth-blades with the reach quality impose a -4 penalty on attack rolls. Nth-blades with reach can’t be used to attack adjacent foes. A warpmaster of 10th level can spend 4 points to give a two-handed nth-blade an additional 10 feet of reach (rather than an additional 5 feet).</p>\n<h4>Stability (2)</h4>\n<p>“Balance is just as as fundamental to a man as it is to a shape and to the world at large.”</p>\n<p>An nth-blade created like this is well balanced and always strikes true.</p>\n<ul>\n<li>If the warpmaster rolls 1 on any nth-blade damage dice with a light nth-blade, treat the result as if it were 2.</li>\n<li>If the warpmaster rolls 1 or 2 on any nth-blade damage dice with a one-handed or two-handed nth-blade, treat the result as if it were 3.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/warpmaster#toc5\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/warpmaster#toc5"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "_id": "f0532012f4fd7966",
+  "_key": "!items!f0532012f4fd7966",
+  "name": "Legendary Kineticist",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:legendary-kineticist:current:class:legendary-kineticist",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/legendary-kineticist",
+      "sourceSha256": "f03f52ecb7ee249cf961f1aaa0996d578eae0d256f6a5beb32aa644bb1b5af43",
+      "descriptionSha256": "69a72e61b4e8a08a3504cead6b62ea7b121de5a230abfc520800e9817eae99e2",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:legendary-kineticist:current:class:legendary-kineticist",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Kineticists are living channels for elemental matter and energy, manipulating the world around them by drawing upon inner reserves from their own bodies. Kineticists often awaken to their kinetic abilities during a violent or traumatic experience, releasing their power involuntarily. As kinetic power is seldom inherited, kineticists are rarely able to find mentors to guide them, so they must delve into these mysteries on their own to learn to control their gifts.</p>\n<p><strong>Role:</strong> Kineticists generally use their powers to assail their foes from range, but based on the way their talents develop, they can channel their kinetic abilities for a variety of situations. Kineticists are usually quite different from their families and friends, so they often strike out on their own or alongside others with extraordinary talents.</p>\n<p><strong>Legendary Class:</strong> Although much of the legendary kineticist will be familiar to those who have played the original kineticist, there are quite a few changes, such as alterations to how burn functions, the inclusion of battle burn to allow a more dynamic combat experience, and an improvement on how internal buffer is utilized. Legendary kineticists are now more capable of functioning in combat without the worry of overtaxing themselves, making for a more versatile experience. The legendary kineticist also comes with a rewrite of the Extra Wild Talent feat.</p>\n<p><strong>Alignment:</strong> Any.</p>\n<p><strong>Hit Die:</strong> d8.</p>\n<p><strong>Starting Wealth:</strong> 1d6 × 10 gp (average 35 gp.) In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The kineticist’s class skills are Acrobatics (Dex), Craft (Int), Heal (Wis), Intimidate (Cha), Perception (Wis), Profession (Wis), Stealth (Dex), and Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks per Level:</strong> 4 + Int modifier.</p>\n<h1>Class Features</h1>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Ref Save</th>\n<th>Will Save</th>\n<th>Special</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+2</td>\n<td>+2</td>\n<td>+0</td>\n<td>Burn, elemental focus, gather power, infusion, kinetic blast</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+3</td>\n<td>+3</td>\n<td>+0</td>\n<td>Elemental defense, utility wild talent</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+2</td>\n<td>+3</td>\n<td>+3</td>\n<td>+1</td>\n<td>Elemental overflow +1, infusion</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+3</td>\n<td>+4</td>\n<td>+4</td>\n<td>+1</td>\n<td>Battle burn 1, utility wild talent</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+3</td>\n<td>+4</td>\n<td>+4</td>\n<td>+1</td>\n<td>Infusion, infusion specialization 1, metakinesis (empower)</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+4</td>\n<td>+5</td>\n<td>+5</td>\n<td>+2</td>\n<td>Elemental overflow +2, expanded element, utility wild talent</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+5</td>\n<td>+5</td>\n<td>+5</td>\n<td>+2</td>\n<td>Infusion, internal buffer 1</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+6/+1</td>\n<td>+6</td>\n<td>+6</td>\n<td>+2</td>\n<td>Infusion specialization 2, utility wild talent</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+6/+1</td>\n<td>+6</td>\n<td>+6</td>\n<td>+3</td>\n<td>Elemental overflow +3, infusion, metakinesis (persistent)</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+7/+2</td>\n<td>+7</td>\n<td>+7</td>\n<td>+3</td>\n<td>Utility wild talent</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+8/+3</td>\n<td>+7</td>\n<td>+7</td>\n<td>+3</td>\n<td>Battle burn 2, infusion, infusion specialization 3, internal buffer 2, supercharge</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+9/+4</td>\n<td>+8</td>\n<td>+8</td>\n<td>+4</td>\n<td>Elemental overflow +4, utility wild talent</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+9/+4</td>\n<td>+8</td>\n<td>+8</td>\n<td>+4</td>\n<td>Infusion, metakinesis (quicken)</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+10/+5</td>\n<td>+9</td>\n<td>+9</td>\n<td>+4</td>\n<td>Expanded element, infusion specialization 4, utility wild talent</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+11/+6/+1</td>\n<td>+9</td>\n<td>+9</td>\n<td>+5</td>\n<td>Elemental overflow +5, infusion</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+12/+7/+2</td>\n<td>+10</td>\n<td>+10</td>\n<td>+5</td>\n<td>Composite specialization, internal buffer 3, utility wild talent</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+12/+7/+2</td>\n<td>+10</td>\n<td>+10</td>\n<td>+5</td>\n<td>Infusion, infusion specialization 5, metakinesis (twice)</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+13/+8/+3</td>\n<td>+11</td>\n<td>+11</td>\n<td>+6</td>\n<td>Battle burn 3, elemental overflow +6, utility wild talent</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+14/+9/+4</td>\n<td>+11</td>\n<td>+11</td>\n<td>+6</td>\n<td>Infusion, metakinetic master</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+15/+10/+5</td>\n<td>+12</td>\n<td>+12</td>\n<td>+6</td>\n<td>Infusion specialization 6, omnikinesis, utility wild talent</td>\n</tr>\n</tbody></table>\n<h2>Weapon and Armor Proficiency</h2>\n<p>Kineticists are proficient with all simple weapons and light and medium armor, but not shields.</p>\n<h2>Elemental Focus (Su)</h2>\n<p>At 1st level, a kineticist chooses one primary element on which to focus. This element determines how they access the raw power of the Ethereal Plane, and grants them access to specific wild talents (see below) and additional class skills. They can select any element normally available to a kineticist<sup>OA</sup>. They gain their selected element’s basic utility wild talent (such as basic telekinesis, basic aerokinesis, basic geokinesis, basic pyrokinesis, or basic hydrokinesis) as a bonus wild talent. See Elements for the specific abilities granted by each element.</p>\n<h2>Wild Talents</h2>\n<p>A kineticist can use wild talents — magical abilities similar to spells but drawn from the kineticist’s innate psychic talent and usable at will. Wild talents are typically spell-like abilities (though some are supernatural abilities), and take a standard action to use unless otherwise noted. A wild talent always has the elemental descriptor or descriptors (aether, air, earth, fire, or water) matching its element entry. A wild talent that can be used with any of several elements gains the appropriate elemental descriptor when used with an element. For example, the wall wild talent gains the earth descriptor when used by a geokineticist.</p>\n<p>Every wild talent has an effective spell level. A kineticist can always select 1st-level wild talents, but they can select a wild talent of a higher level only if their kineticist level is at least double the wild talent’s effective spell level. Wild talents are always considered to have an effective spell level equal to ½ the kineticist’s class level (to a maximum effective spell level of 9th at kineticist level 18th). Unless otherwise noted, the DC for a saving throw against a wild talent is equal to 10 + 1/2 the kineticist’s class level + the kineticist’s Constitution modifier. The kineticist uses their Constitution modifier on all concentration checks for wild talents.</p>\n<p>In addition to the wild talents they gain from their other class features, at 2nd level and every 2 levels thereafter, a kineticist selects a new utility wild talent from the list of options available to them. A kineticist can select only universal wild talents or those that match their element (see Elemental Focus above). At 6th level and every 4 levels afterwards, a kineticist can replace one of their utility wild talents with another wild talent of the same level or lower.</p>\n<p>They can’t replace a wild talent that they used to qualify for another of their wild talents.</p>\n<h2>Burn (Ex)</h2>\n<p>At 1st level, a kineticist can overexert themselves to channel more power than normal, pushing past the limit of what is safe for their body by accepting burn. Some of their wild talents allow them to accept burn in exchange for a greater effect, while others require them to accept a certain amount of burn to use that talent at all. For every point of burn a kineticist possesses, they take a -1 penalty to all Strength and Dexterity ability and skill checks (except initiative checks); creatures which would normally be unable to take penalties to physical ability scores still take these penalties. These penalties can’t be removed by any means other than getting a full night’s rest, which removes all burn and associated penalties. A kineticist can accept only 1 point of burn per round. This limit rises to 2 points of burn at 6th level, and rises by 1 additional point every 3 levels thereafter. A kineticist can’t choose to accept burn if it would put their total number of points of burn higher than 3 + their Constitution modifier (though they can be forced to accept more burn from a source outside their control).</p>\n<h2>Kinetic Blast (Sp)</h2>\n<p>At 1st level, a kineticist gains a kinetic blast wild talent of their choice. This kinetic blast must be a simple blast that matches their element.</p>\n<p>As a standard action, the kineticist can unleash a kinetic blast at a single target up to a range of 30 feet. They must have at least one hand free to aim the blast (or one prehensile appendage, if they don’t have hands). All damage from a kinetic blast is treated as magic for the purpose of bypassing damage reduction. Kinetic blasts count as a type of weapon for the purpose of feats such as Weapon Focus. The kineticist is never considered to be wielding or gripping the kinetic blast (regardless of effects from form infusions; see Infusion), and they can’t use Vital Strike feats with kinetic blasts. Even the weakest kinetic blast involves a sizable mass of elemental matter or energy, so kinetic blasts always deal full damage to swarms of any size (though only area blasts deal extra damage to swarms). A readied kinetic blast can be used to counterspell any spell of equal or lower level that shares its descriptor. A kinetic blast that deals energy damage of any type (including force) has the corresponding descriptor.</p>\n<h2>Gather Power (Su)</h2>\n<p>If they have one hand free (or all of their prehensile appendages free, a kineticist can gather energy or elemental matter as a move action. Gathering power creates an extremely loud, visible display in a 20-foot radius centered on the kineticist, as the energy or matter swirls around them. Gathering power in this way allows the kineticist to reduce the total burn cost of kinetic blast (including metakinesis) they use in the same round by 1 point. The kineticist can instead gather power for 1 full round in order to reduce the total burn cost of a blast wild talent used on their next turn by 2 points (to a minimum of 0 points). If they do so, they can also gather power as a move action during their next turn to reduce the burn cost by a total of 3 points. If the kineticist takes damage during or after gathering power and before using the kinetic blast that releases it, they must succeed at a concentration check (DC = 10 + damage taken + effective spell level of their kinetic blast) or lose the energy in a wild surge that forces them to accept a number of points of burn equal to the number of points by which their gathered power would have reduced the burn cost. This ability can never reduce the burn cost of a wild talent below 0 points.</p>\n<h2>Infusion (Su)</h2>\n<p>At 1st level, a kineticist gains an infusion wild talent from the list of options available based on their elemental focus. They gain additional infusions at 3rd and every 2 levels afterwards. By using infusions along with their kinetic blasts, a kineticist can alter their kinetic blasts to suit their needs. Infusions come in two types, each of which changes a kinetic blast differently: a substance infusion causes an additional effect, while a form infusion causes the kinetic blast to manifest in a different way. Each infusion can alter only certain kinds of kinetic blasts, which are listed in its Associated Blasts entry. Each time the kineticist uses one of their kinetic blast wild talents, they can apply up to one associated form infusion and up to one associated substance infusion.</p>\n<p>Some infusions change the action required to activate a kinetic blast or entirely transform the kinetic blast’s normal effects.</p>\n<p>The burn cost listed in each infusion’s Burn entry is added to the burn cost of the kinetic blast the infusion modifies.</p>\n<p>The DC for a save against an infusion is based on the associated kinetic blast’s effective spell level, not the level of the infusion. The DCs for form infusions are calculated using the kineticist’s Dexterity modifier instead of their Constitution modifier. When a kineticist modifies a kinetic blast with a form infusion and a substance infusion that both require saving throws, each target first attempts a saving throw against the form infusion. If a target succeeds and a successful save negates the infusion’s effects, the entire kinetic blast is negated; otherwise, the target then attempts a saving throw against the substance infusion.</p>\n<p>If a kineticist’s form and substance infusions both alter the kinetic blast’s damage, apply the substance infusion’s alteration first.</p>\n<p>At 4th level and every 4 levels afterwards, a kineticist can replace one of their infusions with another infusion of the same effective spell level or lower. They can’t replace an infusion that they used to qualify for another of their wild talents.</p>\n<h2>Elemental Defense (Su)</h2>\n<p>At 2nd level, a kineticist gains their element’s defense wild talent.</p>\n<h2>Elemental Overflow (Ex)</h2>\n<p>At 3rd level, a kineticist’s body surges with energy from their chosen element whenever they accept burn, causing them to glow with a nimbus of fire, weep water from their pores, or experience some other thematic effect. In addition, they receive a bonus on their attack rolls with kinetic blasts equal to the total number of points of burn they currently have, to a maximum bonus of +1 for every 3 kineticist levels they possess. They also receives a bonus on damage rolls with their kinetic blast equal to double the bonus on attack rolls. The kineticist can suppress the visual effects of elemental overflow by concentrating for 1 full round, but doing so suppresses all of this ability’s other benefits, as well. The next time the kineticist uses any wild talent, the visual effects and benefits return instantly.</p>\n<p>As a kineticist’s body becomes more and more suffused with their element, they begin to gain more powerful benefits. Starting at 6th level, whenever they have at least 3 points of burn, the kineticist gains a +2 size bonus to two physical ability scores of their choice. They also gain a chance to ignore the effects of a critical hit or sneak attack equal to 5% × their current number of points of burn. At 11th level, whenever the kineticist has at least 5 points of burn, these bonuses increase to a +4 size bonus to one physical ability score of their choice and a +2 size bonus to each of their other two physical ability scores.</p>\n<p>At 16th level, whenever the kineticist has at least 7 points of burn, these bonuses increase to a +6 size bonus to one physical ability score of their choice, a +4 size bonus to a second physical ability score of their choice, and a +2 size bonus to the remaining physical ability score.</p>\n<h2>Battle Burn (Su)</h2>\n<p>At 4th level, a kineticist gains the ability to accept 1 point of battle burn which has no physical effect on the kineticist. A kineticist can accept a point of battle burn in place of burn when using an infusion or utility wild talent with a duration measured in rounds or minutes, but the infusion or utility wild talent must have a non-instantaneous duration. Whenever a kineticist accepts a point of battle burn when using a wild talent, the effects of that wild talent only last for 5 minutes or their normal duration (whichever is less). Resting for 5 minutes removes all battle burn a kineticist possesses.</p>\n<p>At 11th and 18th level, a kineticist can accept an additional point of battle burn, although they can only accept 1 point of battle burn per round and can accept battle burn alongside normal burn.</p>\n<h2>Infusion Specialization (Ex)</h2>\n<p>At 5th level, whenever a kineticist uses one or more infusions with a blast, they reduce the combined burn cost of the infusions by 1. This can’t reduce the total cost of the infusions used below 0. They reduce the burn cost by 1 additional point at 8th, 11th, 14th, 17th, and 20th levels.</p>\n<h2>Metakinesis (Su)</h2>\n<p>At 5th level, a kineticist gains the ability to alter their kinetic blasts as if with metamagic feats by accepting burn. By accepting 1 point of burn, they can empower their kinetic blast (as if using Empower Spell).</p>\n<p>At 9th level, by accepting 2 points of burn, if a foe makes a successful save against their kinetic blast, they can force their foe to make a second save against their kinetic blast as if using Persistent Spell.</p>\n<p>At 13th level, by accepting 3 points of burn, they can quicken their kinetic blast as if using Quicken Spell.</p>\n<p>At 17th level, by accepting 4 points of burn, the kineticist can use their kinetic blast twice with the same standard action, or swift action if they also use metakinesis to quicken the blast.</p>\n<p>When they use a double kinetic blast, all modifications, such as metakinesis and infusions, apply to both of the blasts, but the kineticist needs to pay the burn cost only once.</p>\n<h2>Expanded Element (Su)</h2>\n<p>At 6th level, a kineticist learns to use another element or expands their understanding of their own element. They can choose any element, including their primary element. They gain one of that element’s simple blast wild talents that they do not already possess, if any. They also gain all composite blast wild talents whose prerequisites they meet, as well as the basic wild talent of their chosen expanded element (for instance, basic aerokinesis if they choose air). See Composite Blasts for additional rules for and descriptions of composite blasts. They don’t gain the defense wild talent of the expanded element.</p>\n<p>If the kineticist chooses to expand their understanding of an element they already have, they gain an additional infusion of their choice from that element, as if from their infusion class feature.</p>\n<p>At 14th level, the kineticist can either select a new element or expand their understanding of their original element. They can’t select the same element they selected at 6th level unless it is their primary element. They gain all the benefits from their new expanded element as listed above. However, if the kineticist selected their primary element as their expanded element at both 6th and 14th levels, their mastery of that element increases. For wild talents of their element, the kineticist gains a +1 bonus on attack rolls and damage rolls, as well as to caster level and DCs.</p>\n<h2>Internal Buffer (Su)</h2>\n<p>At 7th level, a kineticist’s study of their body and the elemental forces that course through it allow them to form an internal buffer to store extra energy. The buffer starts at 1 and replenishes each day. When they would otherwise accept burn, a kineticist can spend 1 point from their buffer to avoid accepting 1 point of burn. This buffer can reduce the burn cost of any wild talent without affecting its duration unlike battle burn.</p>\n<p>They cannot spend more than 1 point from their buffer in this way for a single wild talent. Points spent from the internal buffer don’t activate elemental overflow or add to its effects. Similarly, this buffer can be used to exceed the limit on the number of points of burn the kineticist can accept in a single turn, but cannot be used with battle burn.</p>\n<p>This buffer increases to 2 points at 11th level and to 3 points at 16th level.</p>\n<h2>Supercharge (Su)</h2>\n<p>At 11th level, when using gather power as a move action, a kineticist can reduce the total burn cost of a single wild talent by 2 points instead of 1. When using gather power for 1 full round, they can reduce the burn cost of a single wild talent by 3 points instead of 2. In addition, a kineticist can use this ability as a swift action to reduce the total burn cost of a single wild talent by 1 point.</p>\n<h2>Composite Specialization (Su)</h2>\n<p>At 16th level, a kineticist becomes more adept at creating composite blasts. They reduce the burn cost of all composite blasts by 1 point. This can’t reduce the cost of a composite blast below 0 points.</p>\n<h2>Metakinetic Master (Su)</h2>\n<p>At 19th level, a kineticist chooses one type of metakinesis, such as empower or quicken. They reduce the burn cost of that metakinesis by 1 point (to a minimum of 0 points).</p>\n<h2>Omnikinesis (Su)</h2>\n<p>At 20th level, a kineticist transcends the distinction between the different elements and can bend all creation to their will. By accepting 1 point of burn (in addition to any burn requirement of the kinetic blast they choose), they can use any blast wild talent they don’t know.</p>\n<p>By accepting 1 point of burn as a standard action (except for battle burn), they can change any of their wild talents into any other wild talent of the same category (such as simple blasts or defense) for 24 hours, ignoring any elemental requirements or restrictions (but not any other requirements or restrictions).</p>\n<hr>\n<h1>Special: Altered Feat</h1>\n<p>Along with the Legendary Kineticists, the following feat<br>\nhas been rewritten to better fit the changes made.</p>\n<h4>Legendary Extra Wild Talent</h4>\n<p>You gain an additional wild talent.</p>\n<p><strong>Prerequisite:</strong> Legendary kineticist level 1st or elemental focus class feature.</p>\n<p><strong>Benefit:</strong> You gain an additional wild talent. You can select an infusion or a non-infusion wild talent, but not a blast or defense wild talent. If you have the expanded element class feature, you can select a wild talent from any of your elements.</p>\n<p><strong>Special:</strong> You can take this feat multiple times. Each time, you must choose a different wild talent.</p>\n<hr>\n<h1>Legendary Kineticists and Archetypes</h1>\n<p>Due to some of the alterations to some class features (burn, expanded element, internal buffer), some archetypes may have issues. The suggestion here is to simply alter when the abilities gained from trading in these class features to their new levels. This may not work for all archetypes, but for the large majority of them, it should not be an issue. Also if the Legendary Kineticist is used with the War Kineticist archetype from Legendary Kineticists, battle burn for the two stack. If an archetype would replace metakinesis (maximize), it instead replaces metakinesis (persistent).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/legendary-kineticist\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "high"
+      },
+      "ref": {
+        "value": "high"
+      },
+      "will": {
+        "value": "low"
+      }
+    },
+    "alignment": "Any.",
+    "wealth": "1d6 * 10",
+    "classSkills": {
+      "acr": true,
+      "crf": true,
+      "hea": true,
+      "int": true,
+      "per": true,
+      "pro": true,
+      "ste": true,
+      "umd": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/legendary-kineticist"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

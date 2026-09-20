@@ -1,0 +1,124 @@
+{
+  "_id": "6255c36a61e1d02e",
+  "_key": "!items!6255c36a61e1d02e",
+  "name": "Increase Mass (clarity, control)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:body-control:spheres-of-guile:guile-talent:increase-mass-clarity-control",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/body-control#toc54",
+      "sourceSha256": "ec7aa97e088675a010d37041d0a1d93fbcb23b1ec3b52a8948ffa9dd9985fbff",
+      "descriptionSha256": "af800591d417487403cb6e08f9eb8324e650bc269ecd3e7f7fe6eea6cd14dc4d",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:body-control:spheres-of-guile:guile-talent:increase-mass-clarity-control",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "bodyControl"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Body Control sphere.</p>\n<p>You can increase your mass while meditating, which increases your weight by 50%. This has the following effects.</p>\n<ul>\n<li>You can endure bull rush, drag, grapple, reposition, and trip combat maneuvers—either that you fail or that an opponent succeeds against you. The DC is equal to 5 + the target’s CMD, and grants either a +3 insight bonus to your CMB or CMD respectively, which can change the results of the attempt. You can also endure any failed ability check, skill check, or saving throw to avoid forced movement or falling prone.</li>\n<li>Wind effects and location-based traps treat you as if you were one size category larger, but if you have a fly speed, your maneuverability worsens by one step.</li>\n</ul>\n<p>In addition, when you successfully endure an opponent's combat maneuver check with Increase Mass and cause their check to fail, as a (clarity) talent you can immediately abandon your approach to perform a bull rush or trip combat maneuver against that opponent within your natural reach as a free action that can be taken even outside of your turn, gaining an insight bonus to your combat maneuver bonus equal to the insight bonus gained from enduring the effect. Performing a combat maneuver this way does not provoke an attack of opportunity, and you cannot move as part of this maneuver.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/body-control#toc54\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/body-control#toc54"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

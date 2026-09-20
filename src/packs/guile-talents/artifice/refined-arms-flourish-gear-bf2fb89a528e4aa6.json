@@ -1,0 +1,124 @@
+{
+  "_id": "bf2fb89a528e4aa6",
+  "_key": "!items!bf2fb89a528e4aa6",
+  "name": "Refined Arms (flourish, gear)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:artifice:spheres-of-guile:guile-talent:refined-arms-flourish-gear",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/artifice#toc44",
+      "sourceSha256": "a3a666f8e0af8307f0024100a1bdb6c458a7d34b1b4c37af5a6d0057bdfc9aa7",
+      "descriptionSha256": "cbd1fd4b8066df1d100428a0dbd7b10805fb7d06a96837f1cebe1d5e9a770257",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Flourish Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:artifice:spheres-of-guile:guile-talent:refined-arms-flourish-gear",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "artifice"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p>You gain the following <em>flourishes</em>:</p>\n<p><strong>Refined (manufactured weapon or shield):</strong> You change the weapon’s effective weapon damage die to 1d4 (1d3 for Small creatures) for the purposes of dealing damage–effects that rely on a weapon’s damage die instead use the weapon’s actual damage die. This damage die increases by 1 step (1d4 &gt; 1d6 &gt; 1d8 &gt; 1d10 &gt; 1d12) for every 6 associated ranks you possess.</p>\n<p>This increase in damage does not affect any other aspect of the weapon, and doesn’t apply to alchemical items, bombs, or other weapons that do not deal any damage or only deal energy damage.</p>\n<p>If this flourish receives special maintenance, the effective damage die of the weapon increases to 1d6 (which scales as normal).</p>\n<p><strong>Reinforced (armor or shield):</strong> You reinforce key parts of the armor to help protect the vital parts of its wearer. The armor grants the wearer a 20% chance to cause any critical hit or source of precision damage made against them to instead be considered a normal hit, increasing by 10% per 3 associated ranks you possess. Whenever such an attack is prevented this way, the percentage chance reduces by 10%—you can reset this percentage chance by spending 1 minute with the flourish (or when the flourish is maintained). This percentage chance is rolled separately to other similar chances (such as fortification).</p>\n<p>If this flourish receives special maintenance, the armor grants the wearer DR 2/– against critical hits and precision damage (which stacks with other damage reductions), +1 per 4 associated ranks.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/artifice#toc44\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/artifice#toc44"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

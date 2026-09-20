@@ -1,0 +1,124 @@
+{
+  "_id": "44f980e03a1372d2",
+  "_key": "!items!44f980e03a1372d2",
+  "name": "Swampslick Flux (tonic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:swampslick-flux-tonic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc59",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "32df8134b5c57690dfa28c8e58c2c645ae5b0be2a3958178c2055914e4348719",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:swampslick-flux-tonic",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Associated skill 4 ranks, Herbalism sphere.</p>\n<p><strong>Cost:</strong> 2 herbs</p>\n<p>The imbiber suffers no penalty to their speed or to Acrobatics or Stealth checks in bogs and undergrowth (or similar swampy terrain), and they cannot be tracked in such an environment (unless they wish to be). The imbiber also gains the benefits of greensight with a range of 60 feet, allowing them to see through thick plant matter as if it were transparent.</p>\n<p><strong>Twists</strong></p>\n<ul>\n<li><strong>1 bland herb:</strong> The imbiber gains the stench special quality, except that the saving throw DC is equal to your Herbalism sphere DC. The sickened condition lasts for 1 minute.</li>\n<li><strong>1 cool herb:</strong> The imbiber’s greensight range is doubled. Additionally, they gain tremorsense for up to 20 feet, except only allowing them to detect anything in contact with the same body of water as them.</li>\n<li><strong>1 spicy herb:</strong> The imbiber gains a tongue with a range of 10 feet, which can be used to pick up items no greater than 10 lbs., attempt Sleight of Hand checks, perform steal or disarm combat maneuvers, or deliver melee touch attacks. The tongue is not a prehensile limb.</li>\n<li><strong>1 esoteric herb:</strong> The imbiber becomes immune to diseases, and whenever they exceed the save DC to recover from a disease or poison by 5 or more, they are treated as though they succeeded at two consecutive saving throws.</li>\n</ul>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc59\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc59"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "6f182204f07723f0",
+  "_key": "!items!6f182204f07723f0",
+  "name": "The Primordial Dancer: Spells",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:the-primordial-dancer:current:class-feature:spells",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/the-primordial-dancer#toc3",
+      "sourceSha256": "e92f1119ca6e56c5c5ca682b858050df9b9072bce0a41bce2b819eda17a4dfe4",
+      "descriptionSha256": "cc9e85785258fabadf491c4e4974fb10880a3d79f9ec095de3eabbe3346e4438",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:the-primordial-dancer:current:class-feature:spells",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>A primordial dancer casts divine spells drawn from the druid spell list. She can cast any spell she knows without preparing it ahead of time. To learn or cast a spell, a primordial dancer must have a Charisma score equal to at least 10 + the spell level. The Difficulty Class (DC) for a saving throw against a primordial dancer’s spell is 10 + the spell level + the primordial dancer’s Charisma modifier.</p>\n<p>Like other spellcasters, a primordial dancer can cast only a certain number of spells of each spell level per day. Her base daily spell allotment is given on Table: The Primordial Dancer. In addition, she receives bonus spells per day if she has a high Charisma score.</p>\n<p>The primordial dancer’s selection of spells is extremely limited. She begins play knowing two 1st-level spells of her choice, but can only learn conjuration, divination, evocation, and transmutation spells. At each new primordial dancer level, she gains one or more new spells, as indicated on Table: Primordial Dancer Spells Known. (Unlike spells per day, the number of spells a primordial dancer knows is not affected by her Charisma score (See Table: Ability Modifiers and Bonus Spells).</p>\n<p>Upon reaching 5th level, and at every third primordial dancer level after that (8th, 11th, and so on), a primordial dancer can choose to learn a new spell in place of one she already knows. In effect, the primordial dancer “loses” the old spell in exchange for the new one. The new spell’s level must be the same as that of the spell being exchanged, and it must be at least one level lower than the highest-level primordial dancer spell the primordial dancer can cast. A primordial dancer may swap only a single spell at any given level, and must choose whether or not to swap the spell at the same time that she gains new spells known for the level.</p>\n<p>A primordial dancer need not prepare her spells in advance. She can cast any spell she knows at any time, assuming she has not yet used up her allotment of spells per day for the spell’s level.</p>\n<strong>Table: Primordial Dancer Spells Known</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>0th</th>\n<th>1st</th>\n<th>2nd</th>\n<th>3rd</th>\n<th>4th</th>\n<th>5th</th>\n<th>6th</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>5</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>6</td>\n<td>4</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>6</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>6</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>6</td>\n<td>4</td>\n<td>4</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>-</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>6</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>-</td>\n<td>-</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>2</td>\n<td>-</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n<td>-</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n<td>-</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n<td>2</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>3</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>4</td>\n<td>4</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>5</td>\n<td>4</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>6</td>\n<td>5</td>\n<td>5</td>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/the-primordial-dancer#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/the-primordial-dancer#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

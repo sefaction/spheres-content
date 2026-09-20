@@ -1,0 +1,121 @@
+{
+  "_id": "2bd5fa0ea3831e05",
+  "_key": "!items!2bd5fa0ea3831e05",
+  "name": "Reweave Spellcasting (Pact)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:pact-magic-feats:current:feat:reweave-spellcasting-pact",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/pact-magic-feats#toc61",
+      "sourceSha256": "f426cf60998d2b60d857a9763435fa7c8f07407526bbde0ca33e429130d832d2",
+      "descriptionSha256": "7d545508110d57d82fb3556f6d93ea7d7df91da10223dd6391866e6be383b4ad",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Pact Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:pact-magic-feats:current:feat:reweave-spellcasting-pact",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You transform prepared spells into occult powers.</p>\n<p><strong>Prerequisite:</strong> Bind spirit class feature, ability to prepare 3rd-level arcane spells.</p>\n<p><strong>Benefit:</strong> You can sacrifice a prepared spell and transform it into a granted ability using a ritual. After performing this ritual, you must expend a prepared wizard spell, making it unavailable for the rest of the day, just as if it had been cast. The spell cannot be from an opposed school of magic and it must be at least 2 levels lower than the spirit’s level. After the ritual is complete, the spell is transformed into a granted ability, replacing a granted ability of the same type that the spirit normally possesses. If the spell requires any material or focus components worth more than 1 gp, you must still provide that component in order to use the granted ability. The spell can still be countered or dispelled by other spells but is otherwise considered a supernatural ability for all purposes.</p>\n<p>You may only reweave one granted ability per bound spirit at a time. The following rules and restrictions are placed on rewoven spells depending upon whether a spell is rewoven into a minor granted ability or a major granted ability.</p>\n<ul>\n<li><strong>Minor Granted Ability:</strong> You may only reweave harmless spells with a range of personal into minor granted abilities. If the spell has a range of instantaneous, you may use it a number of times per day equal to 3 + your Charisma modifier. If the spell has a duration, you may use it for a number of rounds per day equal to your wizard level. These rounds do not need to be consecutive. A minor rewoven spell always replaces the same granted ability that is replaced by the spirit’s vestigial bond. If the spirit does not have a vestigial bond or it does not replace a single minor granted ability with its vestigial bond, then that spirit cannot be used in a reweave spellcasting ritual.</li>\n</ul>\n<ul>\n<li><strong>Major Granted Ability:</strong> You may rewrite any spell into a major granted ability. A spell with a duration longer than instantaneous has its duration reduced to just 4 rounds. After it is used, a major rewoven spell is expended for 5 rounds, as a major granted ability. Feats, class abilities, and similar abilities cannot reduce the number of rounds that a rewoven spell is expended.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/pact-magic-feats#toc61\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/pact-magic-feats#toc61"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

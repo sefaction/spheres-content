@@ -1,0 +1,124 @@
+{
+  "_id": "44bc97a56b17ee05",
+  "_key": "!items!44bc97a56b17ee05",
+  "name": "Wreck Apparatus (sabotage)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:infiltration:spheres-of-guile:guile-talent:wreck-apparatus-sabotage",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/infiltration#toc37",
+      "sourceSha256": "58ed5a81a47b83d364436f1d8eac245db0d53fc4fbcac22e0373513f5df330d7",
+      "descriptionSha256": "a1a275a6a53e9bad9b148d7d153e339604ad99bab4905473e8c0c61c983b04e9",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Sabotage Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:infiltration:spheres-of-guile:guile-talent:wreck-apparatus-sabotage",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "infiltration"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/533835/diamond-spheres-hustle-bustle?src=newest%3Faffiliate_id%3D3028400\">Diamond Spheres: Hustle &amp; Bustle</a></sup></p>\n<p><strong>Target</strong>: see text.</p>\n<p><strong>Disable Device DC</strong>: 15 + the caster level or gizmo level of the object (if any).</p>\n<p>You sabotage the target to disrupt those that use it.</p>\n<p>If this sabotage is applied to a spellcasting focus, implement, or material component, whenever the sabotaged object is used as part of a spell, magical sphere effect or supernatural ability, it suffers from a 100% spell failure chance.<br>\nIf an effect fails due to this sabotage, the user produces a mishap (Will negates), dealing 2d6 points of damage to them. This mishap can be controlled using the control mishap Spellhacking sphere ability.<br>\nThe sabotage can be removed as a standard action with a successful Spellcraft or Use Magic Device check opposed by your Disable Device result.</p>\n<p>If this sabotage is applied to a technological device (such as a gizmo), whenever the device is used to activate an ability, it becomes deactivated and broken (ending any effects it is producing, if relevant), and the user suffers 2d6 points of damage (Reflex negates both the condition and damage). The damage type of this damage is usually fire or electricity, but depends on the nature of the device (up to GMs discretion).<br>\nThe sabotage can be removed as a standard action with a successful Craft (mechanical) or Disable Device check opposed by your Disable Device result.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/infiltration#toc37\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/infiltration#toc37"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

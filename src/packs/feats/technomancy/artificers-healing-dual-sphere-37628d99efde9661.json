@@ -1,0 +1,121 @@
+{
+  "_id": "37628d99efde9661",
+  "_key": "!items!37628d99efde9661",
+  "name": "Artificer’s Healing (Dual Sphere)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:technomancy:players-compendium:feat:artificers-healing-dual-sphere",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/technomancy#toc44",
+      "sourceSha256": "b5ad4953f88dc5767b79522eaef8f33b29266ef4b7755e765df2f0ca56a0b2b0",
+      "descriptionSha256": "e830121687abb5869ad6296592e4c554b2f6bd70d375392e944ebc96b4e1f8e9",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "players-compendium",
+      "category": "Technomancy Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:technomancy:players-compendium:feat:artificers-healing-dual-sphere",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Life sphere; Life sphere (Esoteric Healing) or Technomancy sphere.</p>\n<p><strong>Benefit:</strong> You may use any Life sphere ability which restores hit points to a creature on broken or damaged objects, restoring hit points to them as if they were creatures. If the object has the broken condition, this condition is removed if the object is restored to at least half its original hit points. This ability cannot restore warped or transmuted items, but it can still repair damage done to such items.</p>\n<p><strong>Special:</strong> This feat is only considered a dual sphere feat if you do not possess the Esoteric Healing talent.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/technomancy#toc44\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/technomancy#toc44"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

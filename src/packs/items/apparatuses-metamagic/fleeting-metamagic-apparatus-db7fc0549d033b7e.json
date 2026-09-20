@@ -1,0 +1,162 @@
+{
+  "_id": "db7fc0549d033b7e",
+  "_key": "!items!db7fc0549d033b7e",
+  "name": "Fleeting Metamagic Apparatus",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:apparatuses-metamagic:ultimate:item:fleeting-metamagic-apparatus",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/apparatuses-metamagic#toc27",
+      "sourceSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "descriptionSha256": "d965c8ca16154dc7adf2ea96d64a9ff0774581dfdba0bda51963b0612b001aba",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "New Metamagic Apparatuses [TS]",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:apparatuses-metamagic:ultimate:item:fleeting-metamagic-apparatus",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 2,500 gp (lesser), 5,000 gp (normal), 10,000 gp (greater)<br>\n<strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 0 sp</p>\n<p>A fleeting talent’s duration becomes dismissible, if it is not already. You can dismiss your own fleeting talent as a swift action. When you dismiss a fleeting talent, its lingering aura cannot be detected by magic unless the caster succeeds at a magic skill check against a DC equal to 11 + 1/2 your caster level (minimum 1). The DC of checks to counter a fleeting spell is reduced by 2, and once active, counterspell removes a fleeting spell without a magic skill check. A fleeting talent has half its normal duration (with an extended fleeting talent, these duration adjustments cancel out). Only talents with a duration of at least 2 rounds can be made fleeting, and instantaneous or permanent talents cannot be fleeting talents. Time spent concentrating on a talent does not count against a fleeting talent’s time limit, and you may choose to activate this metamagic when spending a spell point to make a talent you are concentrating on last without concentration.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Fleeting Spell; <strong>Cost</strong> 1,250 gp (lesser), 2,500 gp (normal), 5,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc27\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 5
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 2500,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic#toc27"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

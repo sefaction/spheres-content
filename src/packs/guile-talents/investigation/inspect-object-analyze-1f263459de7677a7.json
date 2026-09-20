@@ -1,0 +1,124 @@
+{
+  "_id": "1f263459de7677a7",
+  "_key": "!items!1f263459de7677a7",
+  "name": "Inspect Object (analyze)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:investigation:spheres-of-guile:guile-talent:inspect-object-analyze",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/investigation#toc29",
+      "sourceSha256": "812d14024b95c9efb75b3f1dd2dddad532833a150eb7f2d9da1a70b809836e0e",
+      "descriptionSha256": "6d035b44ca6a64fc92a3723630d495fd004db0021a86d264ec2e1563e0830434",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Analyze Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:investigation:spheres-of-guile:guile-talent:inspect-object-analyze",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "investigation"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Analyze Skills:</strong> Appraise, Knowledge (engineering), or Perception;<br>\n<strong>Analyze DC:</strong> The object’s Craft DC, 15 (for a wall or surface) or 10 + the target’s Sleight of Hand modifier (if wielded or worn).</p>\n<p>You analyze an object or part of a structure to determine minute or hidden details.</p>\n<p><strong>Simple:</strong> You learn the object’s current and total hit points, plus its hardness. You also learn the material(s) that make up the object, treating your check result as an appropriate Knowledge check to determine its nature. If the target is damaged or destroyed, you learn the exact type of weapon or spell used to do so (as the Examine Damage talent). You may also learn the rough thickness of a surface, learning if it is thin (3 or fewer inches), thick (4-10 inches), or very thick (11 inches or more).</p>\n<p><strong>Detailed (+5 DC):</strong> As a simple analysis, and you learn of any uses the object has undergone within the last day; you may choose any amount of specific uses you learn to also learn the user's emotional state at the time of the object’s use.</p>\n<p>You also compare your check result against the DC required to notice any hidden compartments, switches, or obscured parts within the object (but not a wall or surface). This includes traps or similar hazards and their triggers, plus any DCs associated with any non-magical hazards, such as the DC required to disable the hazard. You also learn the specific thickness of a surface in the largest unit.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/investigation#toc29\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/investigation#toc29"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

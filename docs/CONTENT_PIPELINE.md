@@ -112,3 +112,14 @@ action hashes. Core/system artwork references live in `externalAssets`; no
 external image bytes enter the archive. Remote smoke fetches those paths from
 the designated instance and verifies their recorded hashes. The adapted kit JSON
 ships as corresponding source under `sources/items/`.
+
+## Systematic intake
+
+See [systematic intake](SYSTEMATIC_INTAKE.md) for the sitemap cache, candidate
+ledger, exact-snapshot approvals, promotion holds and audit commands. The current
+source layout includes page subdirectories and a fifth `class-features` pack.
+The original pilot-only examples above are historical.
+
+Generated illustration icons now use 256-pixel WebP, normally quality 80 and
+under 32 KiB. The asset inventory records dimensions, bytes and source hashes.
+Existing PNG paths use smaller compatibility copies. See [asset policy](../static/README.md).

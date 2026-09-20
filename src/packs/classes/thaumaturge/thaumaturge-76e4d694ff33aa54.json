@@ -1,0 +1,151 @@
+{
+  "_id": "76e4d694ff33aa54",
+  "_key": "!items!76e4d694ff33aa54",
+  "name": "Thaumaturge",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:thaumaturge:ultimate:class:thaumaturge",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/thaumaturge",
+      "sourceSha256": "87da224e6fa23636da82d6b5c6e618ba551e59d2d14c019d0ca7a794b0dd46cf",
+      "descriptionSha256": "37dea2eb4c0e7ff14c03d3a3537121717ed76bd239be2e10a97be608957f8588",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:thaumaturge:ultimate:class:thaumaturge",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>\nThe Thaumaturge is willing to go places most other casters wouldn’t dare to tread. Their agreements give them access to ancient and forbidden knowledge, and they’re capable of using it to great effect. Each Thaumaturge chooses their own pursuit, and they often specialize in a handful of potent powers.\n</p>\n<p><strong>Role:</strong> A thaumaturge is a focused caster, often choosing at most one or two specialty spheres and using those specialties in ways no other caster could.</p>\n<p><strong>Alignment:</strong> Any</p>\n<p><strong>Hit Die:</strong> d8</p>\n<p><strong>Starting Wealth:</strong> 3d6 x 10 gp (average 105 gp). In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The thaumaturge’s class skills are Craft (Int), Diplomacy (Cha), Disguise (Cha), Fly (Dex), Heal (Wis), Intimidate (Cha), Knowledge (all) (Int), Linguistics (Int), Perform (Cha), Profession (Wis), Sense Motive (Wis), Spellcraft (Int), Use Magic Device (Cha).</p>\n<p><strong>Skill Ranks Per Level:</strong> 4 + Int modifier.</p>\n<h1>Class Features</h1>\n<strong>Table: The Thaumaturge</strong>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Ref Save</th>\n<th>Will Save</th>\n<th>Special</th>\n<th>Caster Level</th>\n<th>Magic Talents</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+0</td>\n<td>+0</td>\n<td>+0</td>\n<td>+2</td>\n<td>Casting, forbidden lore (+2), invocations, spell pool</td>\n<td>+1</td>\n<td>0 (+2)</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+1</td>\n<td>+0</td>\n<td>+0</td>\n<td>+3</td>\n<td>Occult knowledge +1</td>\n<td>+2</td>\n<td>1</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+2</td>\n<td>+1</td>\n<td>+1</td>\n<td>+3</td>\n<td>Invocations</td>\n<td>+3</td>\n<td>1</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+3</td>\n<td>+1</td>\n<td>+1</td>\n<td>+4</td>\n<td>Bonus feat</td>\n<td>+4</td>\n<td>2</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+3</td>\n<td>+1</td>\n<td>+1</td>\n<td>+4</td>\n<td>Forbidden lore (+3)</td>\n<td>+5</td>\n<td>2</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+4</td>\n<td>+2</td>\n<td>+2</td>\n<td>+5</td>\n<td>Occult knowledge +2</td>\n<td>+6</td>\n<td>3</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+5</td>\n<td>+2</td>\n<td>+2</td>\n<td>+5</td>\n<td>Invocations</td>\n<td>+7</td>\n<td>3</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+6/+1</td>\n<td>+2</td>\n<td>+2</td>\n<td>+6</td>\n<td>Bonus feat</td>\n<td>+8</td>\n<td>4</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+6/+1</td>\n<td>+3</td>\n<td>+3</td>\n<td>+6</td>\n<td>Forbidden lore (+4)</td>\n<td>+9</td>\n<td>4</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+7/+2</td>\n<td>+3</td>\n<td>+3</td>\n<td>+7</td>\n<td>Occult knowledge +3</td>\n<td>+10</td>\n<td>5</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+8/+3</td>\n<td>+3</td>\n<td>+3</td>\n<td>+7</td>\n<td>Invocations</td>\n<td>+11</td>\n<td>5</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+9/+4</td>\n<td>+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>Bonus feat</td>\n<td>+12</td>\n<td>6</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+9/+4</td>\n<td>+4</td>\n<td>+4</td>\n<td>+8</td>\n<td>Forbidden lore (+5)</td>\n<td>+13</td>\n<td>6</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+10/+5</td>\n<td>+4</td>\n<td>+4</td>\n<td>+9</td>\n<td>Occult knowledge +4</td>\n<td>+14</td>\n<td>7</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+11/+6/+1</td>\n<td>+5</td>\n<td>+5</td>\n<td>+9</td>\n<td>Invocations</td>\n<td>+15</td>\n<td>7</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+12/+7/+2</td>\n<td>+5</td>\n<td>+5</td>\n<td>+10</td>\n<td>Bonus feat</td>\n<td>+16</td>\n<td>8</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+12/+7/+2</td>\n<td>+5</td>\n<td>+5</td>\n<td>+10</td>\n<td>Forbidden lore (+6)</td>\n<td>+17</td>\n<td>8</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+13/+8/+3</td>\n<td>+6</td>\n<td>+6</td>\n<td>+11</td>\n<td>Occult knowledge +5</td>\n<td>+18</td>\n<td>9</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+14/+9/+4</td>\n<td>+6</td>\n<td>+6</td>\n<td>+11</td>\n<td>Invocations</td>\n<td>+19</td>\n<td>9</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+15/+10/+5</td>\n<td>+6</td>\n<td>+6</td>\n<td>+12</td>\n<td>Bonus feat, master invoker</td>\n<td>+20</td>\n<td>10</td>\n</tr>\n</tbody></table>\n<h2>Weapon and Armor Training</h2>\n<p>A thaumaturge is proficient with all simple weapons and light armor.</p>\n<h2>Casting</h2>\n<p>A thaumaturge may combine spheres and talents to create magical effects. A thaumaturge is considered a High-Caster. (Note: All casters gain 2 bonus talents and a casting tradition the first time they gain the casting class feature.)</p>\n<h2>Spell Pool</h2>\n<p>A thaumaturge gains a small reservoir of energy he can call on to create truly wondrous effects, called a spell pool. This pool contains a number of spell points equal to his class level + his casting ability modifier (minimum 1). This pool replenishes once per day after roughly 8 hours of rest.</p>\n<h2>Magic Talents</h2>\n<p>A thaumaturge gains a magic talent at 2nd level and every 2 levels thereafter, according to Table: The Thaumaturge.</p>\n<h2>Forbidden Lore</h2>\n<p>Thaumaturges use bargains, secrets, and dangerous magical practices to push their casting to greater heights than their more careful contemporaries achieve. A thaumaturge may, as part of the action required to use a spell or sphere effect, increase his caster level by 2 for that effect.</p>\n<p>This applies to variables dependent on a particular casting of an effect (damage, duration, number of targets etc.), but it does not apply to the caster’s total caster level with that sphere (i.e., it does not determine the strength of a companion from the Conjuration sphere, nor to the total number of Hit Dice of reanimated creatures that may be controlled through the Death sphere). This bonus increases by +1 at 5th level, and by an additional +1 for every 4 levels thereafter to a maximum of +6 at 17th level.</p>\n<p>Whenever a thaumaturge uses forbidden lore to enhance their magic, there is a 15% chance the thaumaturge will suffer backlash; the spell or sphere effect does not manifest, and any spell slot or spell points spent are lost. In addition, the thaumaturge suffers a -1 penalty to attack rolls, saving throws, skill checks, and to their effective caster level (minimum 1), which lasts until he rests to regain spell points. This penalty is cumulative; every time the thaumaturge suffers backlash in a day, these penalties increase by 1.</p>\n<h2>Invocations</h2>\n<p>Thaumaturges control power in its purest form; whether through bargains with outsiders, the summoning of primal spirits, or simply an untamable spark in their soul, a thaumaturge can invoke a limited amount of truly wondrous power.</p>\n<p>A thaumaturge may use invocations a number of times per day equal to his casting ability modifier + 1/2 his class level, which refreshes when he rests to regain spell points. Whenever an invocation calls for a saving throw, the DC is equal to 10 + 1/2 his thaumaturge’s level + his thaumaturge’s casting ability modifier. A thaumaturge may only use invocations of his level or lower. Using an invocation is a free action that may be taken even when it is not the thaumaturge’s turn, but the thaumaturge cannot use multiple invocations as part of the same saving throw, check, or use of forbidden lore.</p>\n<h4>Lingering Blessing</h4>\n<p>At 1st level, when using forbidden lore to augment a spell or sphere effect, the thaumaturge may use an invocation to cause the affected targets to gain 1 temporary hit point per thaumaturge level for 1 round per thaumaturge level.</p>\n<h4>Lingering Pain</h4>\n<p>At 1st level, when using forbidden lore to augment a spell or sphere effect, the thaumaturge may use an invocation to cause the affected targets to become sickened for 1 round (Fortitude negates).</p>\n<h4>Meditation</h4>\n<p>At 1st level, the thaumaturge may reroll a failed Knowledge check. The thaumaturge may only use this ability once for any given Knowledge check.</p>\n<h4>Empowered Attack</h4>\n<p>At 3rd level, when using forbidden lore to augment a spell or sphere effect, the thaumaturge may use an invocation to grant himself a bonus to attack rolls equal to his forbidden lore bonus for a number of rounds equal to his casting ability modifier.</p>\n<h4>Empowered Defense</h4>\n<p>At 3rd level, when using forbidden lore to augment a spell or sphere effect, the thaumaturge may use an invocation to grant himself a dodge bonus to AC equal to his forbidden lore bonus for a number of rounds equal to his casting ability modifier.</p>\n<h4>Channel Punishment</h4>\n<p>At 7th level, if the thaumaturge suffers backlash when using forbidden lore, he may use an invocation to pass the penalty off to another creature within 30 feet. If that creature is unwilling, they are allowed a Will save to negate this effect. On a successful save, the thaumaturge suffers the effect of the backlash as normal.</p>\n<h4>Defensive Invocation</h4>\n<p>At 7th level, before attempting a saving throw, the thaumaturge may use an invocation to add his forbidden lore bonus to the roll.</p>\n<h4>Item Lore</h4>\n<p>At 11th level, the thaumaturge may use an invocation to add his forbidden lore bonus to the caster level of a spell-completion or spell-trigger magic item he is wielding for 1 round. This bonus only functions while the item is being wielded by the thaumaturge.</p>\n<h4>Soulfire</h4>\n<p>At 11th level, when the thaumaturge suffers backlash from using forbidden lore, he may use an invocation to empower himself. He gains a bonus to attack rolls, saving throws, and a dodge bonus to AC equal to his forbidden lore bonus for a number of rounds equal to his casting ability modifier. This does not negate the penalty gained through the backlash itself.</p>\n<h4>Empowered Resistance</h4>\n<p>At 15th level, if the thaumaturge succeeds at a saving throw against an attack that has a reduced effect on a successful save, he may use an invocation to negate the effect entirely.</p>\n<h4>Flexible Caster</h4>\n<p>At 15th level, the thaumaturge may use an invocation to gain use of a single magic talent of his choice for 1 minute. He must meet the prerequisites (if any) and he can gain a base sphere he does not already possess with this ability. A thaumaturge may only have one use of flexible caster active at any one time; using this invocation again replaces the previous use.</p>\n<h4>Rebuke Death</h4>\n<p>At 19th level, when the thaumaturge is reduced to 0 hit points or fewer, the thaumaturge may use two of his remaining invocations to instead be reduced to 1 hit point. Effects that kill the thaumaturge outright without dealing hit point damage are not affected by this ability.</p>\n<h2>Occult Knowledge</h2>\n<p>At 2nd level, a thaumaturge gains a +1 bonus to all Knowledge checks, Spellcraft checks, and Use Magic Device checks. This bonus increases by 1 for every 4 additional thaumaturge levels possessed, to a maximum of +5 at 18th level.</p>\n<h2>Bonus Feats</h2>\n<p>At 4th level and every 4 levels thereafter, a thaumaturge gains a bonus feat. This may be spent to gain an extra magic talent, or any feat which has casting as a prerequisite (item creation feats, metamagic feats, Sphere Focus, Circle Casting, etc.).</p>\n<h2>Master Invoker</h2>\n<p>At 20th level, the thaumaturge selects two invocations other than rebuke death; he may use these invocations at will without using one of his invocations per day.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/thaumaturge\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 8,
+    "hp": 8,
+    "bab": "med",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "low"
+      },
+      "ref": {
+        "value": "low"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "alignment": "Any",
+    "wealth": "3d6 * 10",
+    "classSkills": {
+      "crf": true,
+      "dip": true,
+      "dis": true,
+      "fly": true,
+      "hea": true,
+      "int": true,
+      "kar": true,
+      "kdu": true,
+      "ken": true,
+      "kge": true,
+      "khi": true,
+      "klo": true,
+      "kna": true,
+      "kno": true,
+      "kpl": true,
+      "kre": true,
+      "lin": true,
+      "prf": true,
+      "pro": true,
+      "sen": true,
+      "spl": true,
+      "umd": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/thaumaturge"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

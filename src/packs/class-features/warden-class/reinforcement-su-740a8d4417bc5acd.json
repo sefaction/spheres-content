@@ -1,0 +1,121 @@
+{
+  "_id": "740a8d4417bc5acd",
+  "_key": "!items!740a8d4417bc5acd",
+  "name": "Warden: Reinforcement (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:warden-class:ultimate:class-feature:reinforcement-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/warden-class#toc9",
+      "sourceSha256": "5ec7a026bd34b0e498170154cf025cfa18b23f2164652510e86ad8275e481a78",
+      "descriptionSha256": "241ffaac542fd340338d1d7f22ceceb90002b46fb40283928782964ad257c047",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:warden-class:ultimate:class-feature:reinforcement-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level and every 2 levels thereafter, the warden gains new ways of defending or otherwise aiding his allies, and may select a reinforcement from the universal reinforcements list or the appropriate list of vigil-specific reinforcements. The DC of any saving throw called for by a reinforcement is equal to 10 + 1/2 the warden’s level + the warden’s casting ability modifier. Each reinforcement may only be selected once unless otherwise noted.</p>\n<h3>Universal Reinforcements</h3>\n<h4>Bodyguard</h4>\n<p>The warden gains the <a href=\"http://spheresofpower.wikidot.com/shield\">Shield</a> sphere as a bonus sphere. Additionally, at 5th level, the warden’s projected empathy class feature may also be used with his Shield sphere abilities.</p>\n<h4>Champion Feat [EO3]</h4>\n<p>The warden gains a champion feat as a bonus feat. This reinforcement may be taken multiple times. Each time it is taken, he selects another champion feat.</p>\n<h4>Defend Ally</h4>\n<p>The warden gains the Defend Other talent from the Guardian sphere. Additionally, when he has his martial focus, the warden may use his Defend Other talent by expending an attack of opportunity instead of an immediate action.</p>\n<h4>Defended Companionship [BTH]</h4>\n<p>The warden gains one of the following spheres as a bonus talent: Beastmastery, Conjuration, Death, Leadership. The warden may grant his guard to one of his subordinates which does not count against the total number of guarded allies the warden may have at one time.</p>\n<h4>Distant Protector</h4>\n<p>The range of the warden’s guard ability increases to 50 feet + 5 feet per warden level. This reinforcement can be selected twice, increasing the range of the warden’s guard ability to medium range (100 feet + 10 feet per warden level).</p>\n<h4>Enchanted Reflexes</h4>\n<p>The warden gains Combat Reflexes as a bonus feat, and may use his casting ability modifier instead of his Dexterity modifier to determine the number of additional attacks of opportunity he can make per round.</p>\n<h4>Focused Vigil</h4>\n<p>The warden chooses a vigil that he possesses. The warden uses his class level as his caster level for his chosen vigil's associated sphere. This stacks normally with caster levels gained from other sources.</p>\n<h4>Greater Indomitable (requires warden 12)</h4>\n<p>The warden becomes immune to any unwilling teleportation effects, and may reduce any forced movement (such as a bull rush attempt) by an additional 10 feet, stacking with the effects of his improved indomitable ability.</p>\n<h4>Grounding Guard (requires warden 10)</h4>\n<p>The warden’s guarded allies may roll any saving throws against teleportation effects twice and take the highest result, and may reduce any forced movement by 10 feet, to a minimum of 0 feet. These benefits last for the duration of the guard.</p>\n<h4>Guard-Boosted Companions (requires defended companionship, warden 10) [BTH]</h4>\n<p>The warden’s guarded subordinates gain an insight bonus on attack rolls, saving throws, and skill checks equal to his guard bonus - 2 (minimum 1).</p>\n<h4>Keep Them Safe From Afar (requires warden 6) [EO3]</h4>\n<p>The range of the warden’s projected empathy class feature increases by 10 feet for every 2 warden levels he possesses. Special: If the warden does not possess the projected empathy class feature, they instead gain the projected empathy class feature when he chooses this reinforcement.</p>\n<h4>Purring Guard [Catgirl HB]</h4>\n<p>The warden gains a purring feat as a bonus feat. In addition, the warden’s guarded allies are treated as being within the warden’s purring aura for the purposes of receiving benefits so long as the warden has line of sight to that ally.</p>\n<h4>Secondary Vigil, Minor (requires sphere of chosen vigil, warden 6)</h4>\n<p>The warden gains the 3rd level vigil ability from another vigil he does not already possess. The warden is counted as possessing this vigil for the purposes of selecting reinforcements. This reinforcement may be taken again at 12th and 18th level. Each time it is taken, he selects another vigil.</p>\n<h4>Secondary Vigil (requires sphere of chosen vigil, minor secondary vigil, warden 10)</h4>\n<p>The warden gains the 7th level vigil ability from the vigil chosen with the minor secondary vigil reinforcement. This reinforcement may be taken multiple times. Each time it is taken, he selects another vigil chosen with the minor secondary vigil reinforcement.</p>\n<h4>Secondary Vigil, Major (requires sphere of chosen vigil, minor secondary vigil, secondary vigil, warden 14)</h4>\n<p>The warden gains the 11th level vigil ability from the vigil chosen with the minor secondary vigil reinforcement. This reinforcement may be taken multiple times. Each time it is taken, he selects another vigil chosen with the secondary vigil reinforcement.</p>\n<h4>Spiteful Challenge (requires Guardian (challenge) package, warden 6)</h4>\n<p>Whenever one of the warden’s guarded allies would be dealt damage by an enemy, as long as the enemy can see or hear the warden, he may expend his martial focus and an attack of opportunity to challenge the enemy. If the warden possesses the Swift Guardian talent, he does not need to expend his martial focus as part of using this ability.</p>\n<h4>Squadron Guardian (requires War sphere)</h4>\n<p>The warden gains the Squadron Commander feat as a bonus feat. He must meet all prerequisites as normal. This reinforcement may be taken multiple times. Each time, he selects another squadron feat.</p>\n<h4>Unifying Guard</h4>\n<p>Whenever the warden would use his guard ability, he may choose a single teamwork feat he possesses that the ally meets the prerequisites for. The warden’s guarded ally gains the benefits of the chosen feat as long as the guard is active.</p>\n<h4>Vigilance (requires warden 6)</h4>\n<p>Whenever the warden has a guarded ally, he may roll initiative rolls twice and take the most favorable result. Additionally, the warden may use his guard ability as an immediate action by expending his martial focus.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/warden-class#toc9\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/warden-class#toc9"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

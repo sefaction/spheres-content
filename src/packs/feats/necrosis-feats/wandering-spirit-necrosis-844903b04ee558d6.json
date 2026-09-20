@@ -1,0 +1,121 @@
+{
+  "_id": "844903b04ee558d6",
+  "_key": "!items!844903b04ee558d6",
+  "name": "Wandering Spirit (Necrosis)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:necrosis-feats:ultimate:feat:wandering-spirit-necrosis",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/necrosis-feats#toc10",
+      "sourceSha256": "39e71bd6bc7d529b8800e9916797ae74ff1a6e98b551e46e7631e46123c6404b",
+      "descriptionSha256": "ce3470a9282c180f72ef8e69a43b6f13dfeb199c774b4b3d22e8e0cc04042c4b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "necrosis-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:necrosis-feats:ultimate:feat:wandering-spirit-necrosis",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your soul begins to loosen its grip on your body, preparing itself to flee if threatened.</p>\n<p><strong>Prerequisite:</strong> Death sphere.</p>\n<p><strong>Benefit:</strong> You gain +1 spell point. By spending 8 hours creating an intense mystical connection between you and an object, you can designate it as your phylactery. When you would die/ be destroyed from hit point loss, you can spend a spell point as an immediate action to transfer your soul to your phylactery, as long as it is in close range. Your soul stays in its phylactery for 1 round. During this time, your body may be healed, as long as your phylactery remains unbroken.</p>\n<p>If your new hit point total is greater than a negative amount equal to your Constitution score (or greater than 0, if you are undead), then you come back to life and stabilizes at your new hit point total. You otherwise remain dead. If you are brought back to life in this manner, you gain a temporary negative level. For each necrosis feat you possess beyond this one, your soul remains in its phylactery for one additional round. Your phylactery has a number of hit points and break DC equal to 5 times the number of necrosis feats you possess, and a hardness equal to triple your necrosis feats.</p>\n<p><strong>Four Necrosis Feats:</strong> Your soul stays in its phylactery for up to 1 minute per necrosis feat, and your phylactery functions as long as it is within long range.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/necrosis-feats#toc10\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/necrosis-feats#toc10"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

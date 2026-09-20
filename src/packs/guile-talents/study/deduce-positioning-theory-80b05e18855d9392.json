@@ -1,0 +1,124 @@
+{
+  "_id": "80b05e18855d9392",
+  "_key": "!items!80b05e18855d9392",
+  "name": "Deduce Positioning (theory)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:study:spheres-of-guile:guile-talent:deduce-positioning-theory",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/study#toc30",
+      "sourceSha256": "e8d569974189b26fc9f4d0950aa7e6c4ed942b36666113be9fc161ec1efd21fb",
+      "descriptionSha256": "300b84d4a8d8e5b8178165efe4b050cbd369d43b2029a742bbac4f9dba65ed3b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Theory Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:study:spheres-of-guile:guile-talent:deduce-positioning-theory",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "study"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>As long as the subject of your theory is a creature, you can gain insights into how it will behave when it believes it has the upper hand.</p>\n<p>You are not flat-footed when surprised by the subject of your theory, and retain your Dexterity bonus to your AC if the creature is invisible or you are otherwise unaware of them. You still lose your Dexterity bonus to AC if you are immobilized or if the target successfully performs a feint against you. You also treat any miss chance that the subject of your theory may possess as being 5% lower for every notion this theory has.</p>\n<p>This theory can gain notions in the following ways:</p>\n<ul>\n<li>The subject of your theory successfully damages another creature that cannot perceive it or is denied its Dexterity bonus to AC.</li>\n<li>Another creature successfully pinpoints the presence of the subject of your theory (or uses an ability which reveals them) while it has total concealment.</li>\n<li>The subject of your theory attempts an attack roll against another creature while benefiting from a bonus granted by battlefield positioning (such as from having higher ground than the creature, flanking them, etc.), or vice versa.</li>\n<li>Another creature misses the subject of your theory due to miss chance.</li>\n</ul>\n<p><strong>Breakthrough:</strong> You can spend 1 notion as a free action that can be taken outside of your turn when you miss due to concealment, allowing you to reroll the miss chance to see if you actually hit.</p>\n<p><strong>Breakthrough:</strong> You can spend any number of notions as a swift action to gain blindsense for up to 30 feet, but only against the subject of your theory. This blindsense lasts 1 round per notion spent.</p>\n<p><strong>Breakthrough:</strong> You can spend any number of notions as a swift action to gain a +3 insight bonus to opposed Perception checks for 1 round per notion spent. This bonus increases by 1 per 4 ranks you possess in the associated skill.</p>\n<p><strong>Associated Feat:</strong> Blind-Fight</p>\n<p><a href=\"http://spheresofpower.wikidot.com/study#toc30\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/study#toc30"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

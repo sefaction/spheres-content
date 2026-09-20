@@ -1,0 +1,121 @@
+{
+  "_id": "c3be42cee7f85015",
+  "_key": "!items!c3be42cee7f85015",
+  "name": "Demon Hunter: Hellish Endurance (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:demon-hunter:current:class-feature:hellish-endurance-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/demon-hunter#toc10",
+      "sourceSha256": "82ed06c4fc99edd5a465668671eb42317838d03a7555788a050b590f22d2db3e",
+      "descriptionSha256": "f51c86f9835b444a10bb84bbc18f96b79b87d24f32bfad9befa3d18edba95a76",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:demon-hunter:current:class-feature:hellish-endurance-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 7th level, the demon hunter learns through incredible force of personality, willpower, and supreme confidence (many would say overconfidence) to delay and eventually deflect damaging attacks or other harmful effects. She simply disbelieves in them or at least disbelieves for a moment that they could affect her.</p>\n<p>As a free action, after she takes damage, the demon hunter delays the onset of damage from any other attacks or damaging effects on her for 1 round. She can use this ability even though it is not her turn when she suffers damage. She can use it a number of times per day equal to her Charisma bonus (minimum of once a day).</p>\n<p>She suffers the delayed damage 1 round after this ability’s duration ends. If she should gain immunity, protection or a magical benefit that would lessen the effect from any of the delayed damage before this ability’s duration expires, she still takes the full amount of the delayed damage. If the demon hunter should gain reduction, resistance, or immunity from the damage, it has no effect on the delayed damage. When she takes the damage a round later, she is affected as if she had just suffered from the blow.</p>\n<p>Any healing effects cast upon the demon hunter while using this ability are delayed until the damage occurs. Healing then occurs simultaneously. At 10th level, this ability improves. When the demon hunter expends her ki focus with this ability, she can deflect any and all damage from the first successful attack against her. Any other damage received for the remainder of this ability’s duration is delayed as normal.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/demon-hunter#toc10\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/demon-hunter#toc10"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

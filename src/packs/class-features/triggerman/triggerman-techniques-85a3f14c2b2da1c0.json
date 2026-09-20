@@ -1,0 +1,121 @@
+{
+  "_id": "85a3f14c2b2da1c0",
+  "_key": "!items!85a3f14c2b2da1c0",
+  "name": "Triggerman: Triggerman Techniques",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:triggerman:current:class-feature:triggerman-techniques",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/triggerman#toc4",
+      "sourceSha256": "21b0defd8a1fe6757c9e2fe726e951c413bdbac0b77f25372a622b99ea54bdd0",
+      "descriptionSha256": "169b4df66e194eb0e29c8d0ce2d377028cacf06b05bcd822ee03e81db393e0db",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:triggerman:current:class-feature:triggerman-techniques",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>In a straight fight, a gunman is only as good as his aim, but any true professional knows that a straight fight is the last resort of two fools who have no idea what they're doing. Ergo, a triggerman is only as good as the techniques he can bring to bear.</p>\n<p>Techniques are various extraordinary and supernatural abilities that are linked to a particular style of gunfighting. Each technique has three special quantities unique to them: Focus Required, Focus Change, and style.</p>\n<p><strong>Focus Required</strong> - The focus pool of a firearm wielded by the triggerman must contain points of focus equal to one of the numbers listed on this line in order for the technique to be executed.</p>\n<p><strong>Focus Change</strong> - To execute a technique, the triggerman chooses a wielded firearm whose focus pool meets that technique's Focus Required entry. That firearm's focus pool gains or loses focus points equal to the amount shown on this line. When focus is spent, it is an upfront cost and deducted before executing the technique. When focus is gained, it is awarded after executing the technique.</p>\n<p><strong>Style</strong> - The style is the “subtype” of a technique. A triggerman declares his technique specializations (see below) upon character creation. As a result, he only has full access to two styles of techniques.</p>\n<p>Techniques can be used at any time; however, those techniques with a Focus Change of +1 only generate focus while in the heat of combat. If in a situation that precludes fighting back or real stakes, such as punching a bag of kittens, beating on a bound goblin in the middle of an interrogation, or “playfighting” with allies without the intent to train, the triggerman does not generate focus.</p>\n<p>At 1st level, a triggerman chooses two styles of techniques from the list below. These are known as his specializations. He begins play with two techniques drawn from each of his specializations, for a total of four techniques. At least one of these techniques must have a Focus Change of +1. At each new triggerman level, he gains an additional technique drawn from any of his specializations. A triggerman must meet the prerequisites of a technique in order to learn it. At 3rd, 7th, 11th, 15th, and 19th level, the technique the triggerman gains may be from any style, and not just from his specializations; however, the triggerman always treats his class level as though it were halved (rounded down) when attempting to meet the prerequisites of a \"cross-specialization\" technique.</p>\n<p>The Difficulty Class (DC) for a saving throw against a triggerman's technique is 10 + 1/2 the triggerman's class level + the triggerman's Intelligence modifier. A triggerman may perform any number of techniques per round, subject to the following limitations. First, once a triggerman executes a technique with a Focus Change of +1 or 0 using a particular firearm, that firearm may not be used to perform further techniques until the beginning of his next turn. Secondly, a triggerman may not execute more than two techniques with a Focus Change of +1 per round.</p>\n<h4>The Styles</h4>\n<p><strong>Dragoon</strong> - The dragoon style is all about going big and loud. A fair proportion of a dragoon's skillset is based around actions that can only be done in response to a misfire, while other techniques cradle this concept by manipulating the broken condition outright or by granting the triggerman sacrificial firearms. The dragoon style supplements its core identity with techniques that produce area energy damage effects, two means to gain temporary flight by discharging firearms, and a powerful array of 0 focus techniques that give you power now in exchange for not building to a proper nova turn.</p>\n<p><strong>Gun Fu</strong> - Gun fu is all about speed, and when applied to firearms, this means quantity has a quality all its own. Specialized in massed firepower, enhanced movement, and the ability to make attacks of opportunity with firearms, a master of gun fu can consider a round of combat to be a failure if he is not making more attacks than anyone else in the room. In the rare cases where his ability to fill a room with lead just isn't enough, the gun fu style allows a triggerman to grant his speed to his fellows, passing off move actions, or entire turns, to get the ally best suited to the job where he needs to be.</p>\n<p><strong>Marksmanship</strong> - Marksmen are all about knowing where to shoot. Popping arteries and hamstringing targets is child's play for a skilled marksman, and he can call shots on such esoteric concepts as memories or knowledge should he care to do so. Generally operating from long range, a marksman can stay hidden in the bell tower for multiple rounds while laying down withering fire that debilitates an entire enemy squad to the point of panic before his position is revealed.</p>\n<p><strong>Munitions</strong> - The munitions style focuses not on the gunplay involved, but in the ammunition sent flying through the air. Silver bullets, flaming bullets, bullets that fragment on hit, and other fancy reloadables are the domain of the munitions triggerman. Here, aim is not as important as having the right bullet for the job.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/triggerman#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/triggerman#toc4"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

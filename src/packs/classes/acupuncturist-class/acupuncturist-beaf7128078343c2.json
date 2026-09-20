@@ -1,0 +1,143 @@
+{
+  "_id": "beaf7128078343c2",
+  "_key": "!items!beaf7128078343c2",
+  "name": "Acupuncturist",
+  "type": "class",
+  "img": "icons/svg/mystery-man.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:acupuncturist-class:current:class:acupuncturist",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/acupuncturist-class",
+      "sourceSha256": "7d277466d85e833a774708868ca04ce3e4bdac7fd107afc631ee64d9b8f01302",
+      "descriptionSha256": "6f67e49834217b5b6960328eb33dae53486a3ae9e2170c5805a1d32e58a60629",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "base-classes",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:acupuncturist-class:current:class:acupuncturist",
+        "kind": "class"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "needs-review",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>The gentle art of acupuncture, when weaponized, can become a deadly art. This art demands little in the way of brawn- instead requiring a careful academic study of the body. Acupuncturist are as physicians, curing many ills while still inflicting maximum accuracy with their attacks. They can strike with the speed of a cobra and the precision of a scalpel.</p>\n<p>Becoming a truly skilled acupuncturist takes decades of study, trial and error, and practicing before their art can become truly effective. Still, even a young acupuncturist should not be taken lightly. Initially an acupuncturist requires the use of needles but, as they mature in their art, they can project their own ki and impart the same effect as a needle with but a finger.</p>\n<p><strong>Hit Dice:</strong> D6.</p>\n<p><strong>Role:</strong> Acupuncturists are delicate fighters but effective when used correctly. What they lack in the ability to inflict damage they more than make up for in their ability to incapacitate enemies. An acupuncturist requires a high Intelligence and Dexterity score.</p>\n<p><strong>Alignment:</strong> Any Non-Chaotic. While not inherently lawful, an acupuncturist needs to exacting in their study.</p>\n<p><strong>Starting Wealth:</strong> 3d6 × 10 gp (average 105 gp.) In addition, each character begins play with an outfit worth 10 gp or less.</p>\n<p><strong>Class Skills:</strong> The acupuncturist’s class skills are Acrobatics (Dex), Craft (Int), Diplomacy (Cha), Escape Artist (Dex), Heal (Wis), Intimidate (Cha), Knowledge (local) (Int), Knowledge (nature) (Int), Knowledge (religion) (Int), Perception (Wis), Profession (Wis), Sense Motive (Wis), Sleight of Hand (Dex), and Stealth (Dex).</p>\n<p><strong>Skill Ranks per Level:</strong> 4 + Int modifier.</p>\n<h1>Class Features</h1>\n<p>The following are the class features of the acupuncturist.</p>\n<p>\nTable: The Acupuncturist</p>\n<table>\n<tbody><tr>\n<th>Level</th>\n<th>Base Attack Bonus</th>\n<th>Fort Save</th>\n<th>Ref Save</th>\n<th>Will Save</th>\n<th>Special</th>\n</tr>\n<tr>\n<td>1st</td>\n<td>+1</td>\n<td>+0</td>\n<td>+2</td>\n<td>+2</td>\n<td>Acupuncture strike, de qi, physician</td>\n</tr>\n<tr>\n<td>2nd</td>\n<td>+2</td>\n<td>+0</td>\n<td>+3</td>\n<td>+3</td>\n<td>Alternative medicine, bonus feat, de qi</td>\n</tr>\n<tr>\n<td>3rd</td>\n<td>+3</td>\n<td>+1</td>\n<td>+3</td>\n<td>+3</td>\n<td>De qi, ki pool</td>\n</tr>\n<tr>\n<td>4th</td>\n<td>+4</td>\n<td>+1</td>\n<td>+4</td>\n<td>+4</td>\n<td>De qi</td>\n</tr>\n<tr>\n<td>5th</td>\n<td>+5</td>\n<td>+1</td>\n<td>+4</td>\n<td>+4</td>\n<td>Acupressure, bonus feat, de qi</td>\n</tr>\n<tr>\n<td>6th</td>\n<td>+6/+1</td>\n<td>+2</td>\n<td>+5</td>\n<td>+5</td>\n<td>De qi</td>\n</tr>\n<tr>\n<td>7th</td>\n<td>+7/+2</td>\n<td>+2</td>\n<td>+5</td>\n<td>+5</td>\n<td>De qi</td>\n</tr>\n<tr>\n<td>8th</td>\n<td>+8/+3</td>\n<td>+2</td>\n<td>+6</td>\n<td>+6</td>\n<td>Bonus feat, de qi</td>\n</tr>\n<tr>\n<td>9th</td>\n<td>+9/+4</td>\n<td>+3</td>\n<td>+6</td>\n<td>+6</td>\n<td>De qi</td>\n</tr>\n<tr>\n<td>10th</td>\n<td>+10/+5</td>\n<td>+3</td>\n<td>+7</td>\n<td>+7</td>\n<td>De qi</td>\n</tr>\n<tr>\n<td>11th</td>\n<td>+11/+6/+1</td>\n<td>+3</td>\n<td>+7</td>\n<td>+7</td>\n<td>Bonus feat, de qi, precision</td>\n</tr>\n<tr>\n<td>12th</td>\n<td>+12/+7/+2</td>\n<td>+4</td>\n<td>+8</td>\n<td>+8</td>\n<td>De qi</td>\n</tr>\n<tr>\n<td>13th</td>\n<td>+13/+8/+3</td>\n<td>+4</td>\n<td>+8</td>\n<td>+8</td>\n<td>De qi</td>\n</tr>\n<tr>\n<td>14th</td>\n<td>+14/+9/+4</td>\n<td>+4</td>\n<td>+9</td>\n<td>+9</td>\n<td>Bonus feat, de qi</td>\n</tr>\n<tr>\n<td>15th</td>\n<td>+15/+10/+5</td>\n<td>+5</td>\n<td>+9</td>\n<td>+9</td>\n<td>De qi</td>\n</tr>\n<tr>\n<td>16th</td>\n<td>+16/+11/+6/+1</td>\n<td>+5</td>\n<td>+10</td>\n<td>+10</td>\n<td>De qi</td>\n</tr>\n<tr>\n<td>17th</td>\n<td>+17/+12/+7/+2</td>\n<td>+5</td>\n<td>+10</td>\n<td>+10</td>\n<td>Bonus feat, de qi</td>\n</tr>\n<tr>\n<td>18th</td>\n<td>+18/+13/+8/+3</td>\n<td>+6</td>\n<td>+11</td>\n<td>+11</td>\n<td>De qi</td>\n</tr>\n<tr>\n<td>19th</td>\n<td>+19/+14/+9/+4</td>\n<td>+6</td>\n<td>+11</td>\n<td>+11</td>\n<td>De qi</td>\n</tr>\n<tr>\n<td>20th</td>\n<td>+20/+15/+10/+5</td>\n<td>+6</td>\n<td>+12</td>\n<td>+12</td>\n<td>De qi, fallen star strikes</td>\n</tr>\n</tbody></table>\n<h2>Weapon and Armor Proficiency</h2>\n<p>The class is proficient with all simple weapons and light armor. They are also proficient with darts as melee weapons (i.e they are improvised weapons that they do not take the normal penalty for).</p>\n<h4>Sidebar: “Needles”</h4>\n<p>A needle is identical to a dart (which is fired from a blowgun).</p>\n<h2>Acupuncture Strike (Ex)</h2>\n<p>Starting at 1st level, an acupuncturist can make an “acupuncture strike” in place of a normal attack. This causes them to strike with hyper-precision but inflicts little to no damage. This can be used as part of a full-round attack.</p>\n<p>When making an acupuncture strike it is a touch attack that uses the acupuncturist’s Dexterity modifier in place of their Strength modifier for all attack rolls. An acupuncture strike is a melee touch attack that always only deals 1 point of non-lethal piercing damage (unless otherwise noted). This damage cannot be increased by any means except by de qi effects. To make an acupuncture strike the acupuncturist must do so with a needle.</p>\n<p>An acupuncture strike deals precision damage, and has no effect on creatures that are immune to precision damage. Critically hitting on an acupuncture strike does not increase the damage. Instead, the DC of any associated de qi effect increases by +4.</p>\n<h2>De Qi (Su)</h2>\n<p>When an acupuncturist successfully hits their target with an acupuncture strike (even if they don’t deal damage) they can apply one de qi effect to the target. The creature receives a Fortitude save (DC 10 + 1/2 acupuncturist level + Intelligence modifier) to negate the effect. A creature suffering from a de qi effect receives a new Fortitude save as the end of each of their turns to end all ongoing de qi effects. The acupuncturist may only apply one de qi effect per acupuncture strike. Subsequent applications of the same de qi effect do not stack, with the newest application replacing any older applications of the same effect.</p>\n<p>Typically all de qi effects last until the end of the creature’s next turn. However, starting at 3rd level an acupuncturist can pay 1 ki point when they select a de qi to increase the duration to a number of rounds equal to their Intelligence modifier.</p>\n<p>Some de qi effects are noted as “[Instant]” effects. These effects allow no Fortitude save and cannot have their duration increased with ki points.</p>\n<p>There are two kinds of de qi effects: Bu and Xie effects.</p>\n<p>At 1st level and every level thereafter an acupuncturist learns one de qi (either a bu or a xie effect) they can apply to acupuncture strikes. (See “De Qi Effects” later in this class for a full list of all bu and xie effects.)</p>\n<h4>Sidebar: Can I Perform Acupuncture On Myself?</h4>\n<p>Yes. An acupuncturist can hit themselves with their own acupuncture strike and apply the de qi effect. They do not have a save as they are a willing target. They may end any or all de qi effects they placed on themselves prematurely as a swift action.</p>\n<h2>Physician (Ex)</h2>\n<p>At 1st level, the acupuncturist can use Intelligence in place of Wisdom on Heal checks and Will saves. A multiclassed acupuncturist loses this benefit unless the character has at least 4 levels in acupuncturist.</p>\n<h2>Alternative Medicine (Ex)</h2>\n<p>At 2nd level the acupuncturist gains all skill unlocks for the Heal skill, so long as they have sufficient ranks in the skill.</p>\n<p>Alternatively, if not using the skill unlock system, the acupuncturist gains Skill Focus (Heal) as a bonus feat. In addition, they add 1/4th their acupuncturist level as a bonus on Heal checks.</p>\n<h2>Bonus Feat (Su)</h2>\n<p>At 2nd level and every 3 levels thereafter an acupuncturist gains a bonus feat in addition to those gained from normal advancement. They must meet the prerequisites for these feats and must be selected from the following list: Acrobatic, Alertness, Athletic, Agile Maneuvers, Catch Off-Guard, Combat Reflexes, Critical Focus, Dodge, Deflect Arrows, Deft Hands, Mobility, Fleet, Improved Initiative, Iron Will, Lightning Reflexes, Lightning Stance, Nimble Moves, Persuasive, Self-Sufficient, Snatch Arrows, Skill Focus (any skill on their skill list), Wind Stance.</p>\n<h2>Ki Pool (Su)</h2>\n<p>At 3rd level, an acupuncturist gains a pool of ki points, supernatural energy they can use to accomplish amazing feats. The number of points in an acupuncturist’s ki pool is equal to 1/2 their acupuncturist level + their Intelligence modifier.</p>\n<p>At 3rd level an acupuncturist can spend 1 ki point after making a successful acupuncture strike to increase the duration of its de qi effect from 1 round to a number of rounds equal to their Intelligence modifier.</p>\n<p>An acupuncturist gains additional powers that consume points from their ki pool as they gain levels. The ki pool is replenished each morning after 8 hours of rest or meditation; these hours do not need to be consecutive.</p>\n<h4>Sidebar: Multiple Ki Pools</h4>\n<p>If the acupuncturist gains a ki pool from a separate source, levels in ki granting classes stack for the purpose of determining the size of their ki pool but only one modifier would apply to it. (Example: An acupuncturist 8 / monk 8 would have an effective level of 16 but would have to pick either Wisdom or Intelligence as the basis for their ki pool.)</p>\n<h2>Acupressure (Su)</h2>\n<p>At 5th level the acupuncturist can impart their energy into their foes without a pin thanks to their increased control over their ki. They can make acupuncture strikes with unarmed or primary natural attacks. In addition, they gain Improved Unarmed Strike as a bonus feat. Even with this feat, the acupuncturist only ever deals 1 point of non-lethal piercing damage with their acupuncture strike.</p>\n<h2>Precision (Ex)</h2>\n<p>Starting at 11th level, all non-acupuncture strikes count as confirmed critical hits for the purpose of triggering critical feats (not for damage or other effects).</p>\n<h2>Fallen Star Strikes (Su)</h2>\n<p>If the acupuncturist spends 1 ki at the start of their turn the 1st successful acupuncture strike made during that turn counts as a coupe de grace.</p>\n<h2>De Qi Effects</h2>\n<h3>Bu</h3>\n<h4>Blind</h4>\n<p>Target goes blind due to an overwhelming sensitivity to the slightest amount of light. This is suppressed while in the area of a deeper darkness spell. The acupuncturist must know the light sensitivity de qi and be at least 8th level to select this de qi.</p>\n<h4>Draw Out Life</h4>\n<p>The target becomes immune to death effects and for every 3 points of healing the target receives within the duration of this effect they get 1 extra point of healing.</p>\n<h4>Hyper-Stimulation</h4>\n<p>Target is affected by a mundane haste spell and also gains 2 additional attacks of opportunity per turn.</p>\n<h4>Light Sensitivity</h4>\n<p>Target gains lightblindness and darkvision with a range of 60 feet.</p>\n<h4>Over-Stimulation [instant]</h4>\n<p>The creature takes 1d6 electricity damage per 4 levels of acupuncturist (minimum 1d6). The first time per round the acupuncturist uses this de qi effect, they add their Dexterity modifier to the damage.</p>\n<h4>Overwhelm Metabolism</h4>\n<p>The creature gains +1/4th acupuncturist level on all damage rolls and their next attack is affected by a mundane true strike spell but after this effect ends all food they have consumed is burned away rapidly. They are immediately fatigued at the end of this effect, and remain so until they eat a full meal.</p>\n<h4>Sensitive Hearing</h4>\n<p>The target’s ears become hypersensitive. They receive a +8 on all sound-based perception checks. However, if they hear any loud noises (such as combat) they must make a Fortitude save (DC 10 + 1/2 level) or be sickened and deafened for 1d4 rounds.</p>\n<h4>Stimulate Recovery</h4>\n<p>The creature struck gains fast healing equal to 1/4th their acupuncturist level. Using this de qi effect consumes 1 ki point. The acupuncturist must know the stimulate recuperation de qi and be at least 8th level to select this de qi.</p>\n<h4>Stimulate Recuperation [instant]</h4>\n<p>The creature struck heals 1d6 points of non-lethal damage per acupuncturist level.</p>\n<h4>Stimulate Regeneration</h4>\n<p>The creature struck gains regeneration equal to 1/2 their acupuncturist level. Using this de qi effect consumes 2 ki points. The acupuncturist must know the stimulate recovery de qi and be at least 16th level to select this de qi.</p>\n<h4>The Cup Overflows [instant]</h4>\n<p>For every 1 ki point this creature has they takes 1 point of electricity damage per ki point per acupuncturist level. (Example: a 5th level acupuncturist who burned 5 ki points from an enemy would deal 25 electricity damage). If the creature has any ki transferred to them by the acupuncturist it is removed (burned away) and the acupuncturist does not regain this ki. The acupuncturist must know the transfer ki de qi and be at least 8th level to select this de qi.</p>\n<h4>Transfer Ki [instant]</h4>\n<p>The acupuncturist transfers some of their ki to their target. If they do not have a ki pool, they gain one (though it only holds the ki transfered to them). They gain no way to use this unless they already had a ki pool. An acupuncturist can transfer up to their Intelligence modifier in ki per strike (provided they have that much ki). The acupuncturist does not regain this ki and the creature retains this ki, if unused, for 8 hours.</p>\n<h3>Xie</h3>\n<h4>Burn Spell [instant]</h4>\n<p>Target loses 1 spell slot of their lowest level (minimum 1st level spell). This can be used to affect spell-like abilities- consuming one daily use of it. The target selects which prepared spell or spell-like ability is consumed.</p>\n<h4>Disrupt Foot Flow</h4>\n<p>The creature counts as if they had taken damage from a caltrop.</p>\n<h4>Sedate Limb</h4>\n<p>Select 1 limb. That limb goes totally limb- dropping what was held and is unable to be used. If this limb was used to move the creature now has any movement speed associated with that limb reduced by half and they take a -4 to Acrobatics checks (or Fly checks if it was a wing). This may be applied multiple times, each time it affects a different limb.</p>\n<h4>Sleep</h4>\n<p>The target falls asleep, as per a sleep spell with no HD limit. The acupuncturist must know the suppress synapse de qi and be at least 12th level to select this de qi.</p>\n<h4>Specter of Death</h4>\n<p>A creature with this has been set up for their lifeforce to be snuffed out. The next acupuncture strike made against such a creature is treated as a coup de grace. This is a death effect.</p>\n<h4>Suppress Attunement</h4>\n<p>All of the creature’s elemental resistance are reduced by 1/2 the acupuncturist’s level, to a minimum of Resistance 0.</p>\n<h4>Suppress Spirit</h4>\n<p>The target becomes immune to mind affecting effects but also morale bonuses and cannot take actions that require concentration.</p>\n<h4>Suppress Synapses</h4>\n<p>The target is affected by a mundane slow spell, and additionally cannot make attacks of opportunity.</p>\n<h4>Suppress Vocal Cords</h4>\n<p>The creature is rendered unable to speak.</p>\n<h4>Wither Limb</h4>\n<p>This has the same effect as sedate limb but the creature also takes 1d6 points of Strength damage that recovers at the end of the duration of this de qi and their reach is reduced by 5 feet if the limb was used for attacking. This Strength cannot reduce a creature below 1 Strength. The acupuncturist must know the sedate limb de qi and be at least 8th level to select this de qi.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/acupuncturist-class\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "classAssociations": []
+    },
+    "subType": "base",
+    "level": 1,
+    "hd": 6,
+    "hp": 6,
+    "bab": "high",
+    "skillsPerLevel": 4,
+    "savingThrows": {
+      "fort": {
+        "value": "low"
+      },
+      "ref": {
+        "value": "high"
+      },
+      "will": {
+        "value": "high"
+      }
+    },
+    "alignment": "Any Non-Chaotic. While not inherently lawful, an acupuncturist needs to exacting in their study.",
+    "wealth": "3d6 * 10",
+    "classSkills": {
+      "acr": true,
+      "crf": true,
+      "dip": true,
+      "esc": true,
+      "hea": true,
+      "int": true,
+      "klo": true,
+      "kna": true,
+      "kre": true,
+      "per": true,
+      "pro": true,
+      "sen": true,
+      "slt": true,
+      "ste": true
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "fc": {
+      "hp": {
+        "value": 0
+      },
+      "skill": {
+        "value": 0
+      },
+      "alt": {
+        "value": 0,
+        "notes": ""
+      }
+    },
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/acupuncturist-class"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "eabc9335cb0b74d5",
+  "_key": "!items!eabc9335cb0b74d5",
+  "name": "Shift Effect (Wild Magic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:wild-magic-feats:ultimate:feat:shift-effect-wild-magic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/wild-magic-feats#toc11",
+      "sourceSha256": "35ec943b191cd9342b82d2f3fbfe4bf9b64fe38ba02f8fa672b01bc4c731a8cb",
+      "descriptionSha256": "91a0f5cc462358d43c477c1683809c09d4dee67030804430346b4e2ef3b4d7dd",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "wild-magic-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:wild-magic-feats:ultimate:feat:shift-effect-wild-magic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Spell point pool or casting class feature.</p>\n<p><strong>Benefit:</strong> When you trigger a wild magic event (but not a major event), you may spend a spell point as an immediate action after the result is revealed to roll 1d20. On a result of 1-10, subtract the result from the result of your wild magic roll and take the new result, even if it is worse.</p>\n<p>On a result of 11-20, subtract ten from your roll, then add that number to your wild magic result, taking the new result even if it is worse. If you possess at least 6 wild magic feats, you may use this ability when triggering a major event (see Variant Rules).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/wild-magic-feats#toc11\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/wild-magic-feats#toc11"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

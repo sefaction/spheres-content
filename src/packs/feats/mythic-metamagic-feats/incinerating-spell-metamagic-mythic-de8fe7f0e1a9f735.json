@@ -1,0 +1,121 @@
+{
+  "_id": "de8fe7f0e1a9f735",
+  "_key": "!items!de8fe7f0e1a9f735",
+  "name": "Incinerating Spell (Metamagic, Mythic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mythic-metamagic-feats:current:feat:incinerating-spell-metamagic-mythic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mythic-metamagic-feats#toc21",
+      "sourceSha256": "7394e84ad5f27961d20ec333e48e3ce7c66947f1756fffcb2045395a6eadfd86",
+      "descriptionSha256": "c244d498f1ca55dad332b8beb3f4499786bcaf61535f0224716997dfd3237664",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "mythic-metamagic-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mythic-metamagic-feats:current:feat:incinerating-spell-metamagic-mythic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Your intense fires are all-consuming.</p>\n<p><strong>Prerequisite:</strong> Incinerating Spell<sup>GCC</sup></p>\n<p><strong>Benefit:</strong> Objects that fail their saves against your incinerating spell that are not destroyed lose a number of points of hardness equal to your mythic tier, with a maximum equal to the spell’s original level. This lost hardness can be repaired by make whole, with each point of hardness repaired using 10 hit points worth of the spell’s effect. Creatures fail their saves but are not killed lose a number of points of their natural armor bonus to AC equal to one-half your mythic tier (minimum 1), with a maximum equal to one-half the spell’s original level. Lost points of natural armor are treated as points of ability damage for the purpose of natural or magical healing.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mythic-metamagic-feats#toc21\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mythic-metamagic-feats#toc21"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

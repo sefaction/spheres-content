@@ -1,0 +1,121 @@
+{
+  "_id": "47f56d6ddaeae53c",
+  "_key": "!items!47f56d6ddaeae53c",
+  "name": "Biofuel Gizmos (gizmo)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:gizmo-feats:tinker-sphere:feat:biofuel-gizmos-gizmo",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/gizmo-feats#toc2",
+      "sourceSha256": "d7ca839605cb367ac968e6762acfa57c99a9019719cab81e89b2bff07cd66b02",
+      "descriptionSha256": "a0520991727a25426d95f76d2e3f575bbbb277a80bd2ee20dd6479e78ac9b722",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "tinker-sphere",
+      "category": "(Gizmo) Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:gizmo-feats:tinker-sphere:feat:biofuel-gizmos-gizmo",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/556860/diamond-spheres-expanded-tinker-and-silverminds?affiliate_id=549120\">Diamond Spheres: Expanded Tinker and Silverminds</a></sup></p>\n<p><em>Your implanted gizmos take on a quality similar to organs, forming a biomechanical network that fuels itself.</em><br>\n<strong>Prerequisites:</strong> Tinker sphere.</p>\n<p><strong>Benefits:</strong> You gain a +5 bonus on all checks made to implant a gizmo. Other creatures gain a +5 bonus on all checks made to implant a gizmo into you.</p>\n<p><em>Biofuel Gizmos</em>: Whenever you craft a gizmo, you may craft it as an advanced gizmo to grant it the Implant Requisite Tinker drawback (referred to here as a “biofuel gizmo”).</p>\n<p>A creature gains 1 maximum biofuel charge per implanted biofuel gizmo, +1 additional biofuel charge per 2 total implanted biofuel gizmos (essentially 1.5 biofuel charges per implanted biofuel gizmo).</p>\n<p>Biofuel charges may be expended as though it were a battery (with a gizmo level equal to each implanted biofuel gizmo), and may be expended to power any implanted biofuel gizmo’s abilities or to use an ability not represented by a crafted gizmo (such as certain class features). A creature replenishes all biofuel charges whenever their biofuel gizmos receive maintenance (except those biofuel charges being depleted for an ongoing effect).</p>\n<p>Minor gizmos and projects modified to be biofuel gizmos do not grant a creature biofuel charges.</p>\n<p><em>Burn Away</em>: Whenever you would use a biofuel charge, you may take 2 points of Constitution burn instead. In addition to recovering ability burn after 8 hours of rest, ability burn accrued using this ability can be recovered at a rate of 1 per maintenance session.</p>\n<p><strong>Example and Explanation:</strong> In effect, for each implanted biofuel gizmo in a creature, that creature gains a battery charge that can be depleted for any of their biofuel gizmos (as though they each had these fake batteries attached and available to them). For example, a character with 4 biofuel gizmos would have 4 biofuel charges, which could be freely expended between each of their biofuel gizmos.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/gizmo-feats#toc2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/gizmo-feats#toc2"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

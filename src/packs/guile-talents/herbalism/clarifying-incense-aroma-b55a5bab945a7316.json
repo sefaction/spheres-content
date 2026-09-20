@@ -1,0 +1,124 @@
+{
+  "_id": "b55a5bab945a7316",
+  "_key": "!items!b55a5bab945a7316",
+  "name": "Clarifying Incense (aroma)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:clarifying-incense-aroma",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc22",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "93a5486979c2895e7bc45186ecea8ef847ca99ce245bf1c4216d3c152be502f2",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Concoction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:clarifying-incense-aroma",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p><strong>Cost:</strong> 2 herbs or 1 cool herb.</p>\n<p>All creatures that can smell the aroma can take 10 on skill checks even when threatened or distracted, and gains a +4 alchemical bonus to concentration checks, +1 per 5 associated ranks you possess. This aroma lasts for 1 minute.</p>\n<p>If an affected creature can achieve martial focus, they can regain their martial focus as a move or swift action once during the aroma’s duration.</p>\n<p><strong>Twists</strong></p>\n<ul>\n<li><strong>1 cool herb:</strong> Whenever an affected creature attempts an Intelligence- or Wisdom-based skill check and rolls a natural 5 or below, they can reroll the attempt–they must take the new result, even if it is worse. Additionally, affected creatures that can achieve martial focus can regain it using this aroma up to twice during the aroma’s duration.</li>\n<li><strong>1 dry herb:</strong> All affected creatures gain a +1 alchemical bonus to Will saves, +1 per 6 associated ranks you possess. If this aroma has the tainted twist, this bonus instead becomes a penalty to saving throws against mind-affecting effects.</li>\n<li><strong>1 sour herb:</strong> If an affected creature could achieve martial focus, instead of being able to regain martial focus as a move or swift action using this aroma, they can do as part of using a combat or skill sphere ability (excluding those used as a free action or by expending an attack of opportunity); if the ability required the expenditure of martial focus, they regain it after it is expended. If the creature does so, they become sickened for 1 round–this is a pain effect.</li>\n<li><strong>1 tainted herb:</strong> The penalty to concentration checks also applies to Intelligence-, Wisdom-, and Charisma-based skill checks. Additionally, whenever an affected creature expends their martial focus, they must succeed at a Will saving throw or have the ability or effect function as though they did not expend their martial focus–this causes the action to be lost only if the ability required the expenditure to function at all.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc22\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc22"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

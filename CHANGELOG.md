@@ -1,5 +1,17 @@
 # Changelog
 
+## 0.1.0-alpha.4 - Unreleased
+
+- Add cached sitemap crawling, edition-aware extraction, explicit intake holds,
+  stable promotion and searchable per-entity audit metadata.
+- Expand to 6,788 descriptive drafts across five packs, including separate class
+  features; record proposed feature grants by level without auto-granting them.
+- Index existing compendium records and document versioned optional integrations.
+- Populate native source labels; defer new passive and conditional automation.
+- Encode four pilot illustrations as 256-pixel WebP (11-13 KB), preserving small
+  PNG compatibility paths. New bulk artwork and full entity review remain open.
+- No world migration, public release, or optional-module dependency added.
+
 ## 0.1.0-alpha.3 — Unreleased
 
 - Replace the hunter's kit with a native PF1 container holding four reviewed

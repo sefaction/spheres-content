@@ -1,0 +1,124 @@
+{
+  "_id": "443b045aa107d7f7",
+  "_key": "!items!443b045aa107d7f7",
+  "name": "Natural Shelter",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:survivalism:spheres-of-guile:guile-talent:natural-shelter",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/survivalism#toc19",
+      "sourceSha256": "f08a002395ddf0d614719b1c74bdfc78b77500e0a93ea395e3e0354dcf980820",
+      "descriptionSha256": "e16c918832945cb11262753cecbc58674aa719bcb1201179f3d2b80098d461de",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Survivalism Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:survivalism:spheres-of-guile:guile-talent:natural-shelter",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "survivalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>By spending 30 minutes and succeeding at a DC 20 associated skill check, you can create (or alter) an impromptu shelter to exist more comfortably in the wilderness. The shelter can house up to an amount of creatures equal to your operative modifier (minimum 1), plus an additional creature for every 5 points you exceed the DC.</p>\n<p>Creatures within the shelter suffer no harm from being in a hot or cold environment, and can exist comfortably in conditions between -50 and 140 degrees Fahrenheit (-45.5 and 60 degrees Celsius) without requiring Fortitude saves, and provides protection against other environmental hazards such as smoke, harsh weather, etc. Creatures retain these benefits for half the time they spent resting within the shelter, to a maximum of 4 hours (For example, if a creature spends 6 hours within the shelter, the benefits are retained for 3 hours). This shelter does not protect against environmental damage such as cold or fire damage, and collapses after suffering an amount of damage equal to twice your ranks in this sphere’s associated skill.</p>\n<p>Additionally, you can choose to prep up to a 20-foot radius around the shelter with brittle or audible objects. If a corporeal creature enters the prepped area (and is not aware of such preparations), they must succeed at a Reflex saving throw or have their location be revealed to anyone within 40 feet, for 1 round.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/survivalism#toc19\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/survivalism#toc19"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

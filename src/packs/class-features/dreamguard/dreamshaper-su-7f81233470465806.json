@@ -1,0 +1,121 @@
+{
+  "_id": "7f81233470465806",
+  "_key": "!items!7f81233470465806",
+  "name": "Dreamguard: Dreamshaper (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:dreamguard:current:class-feature:dreamshaper-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/dreamguard#toc13",
+      "sourceSha256": "b55c2fd8e8a8a280843a1372f289ca008a3f67a3592563a9197a408ff422b939",
+      "descriptionSha256": "89d74989eea28059ed58855262fb707c550efb6358b167384a2cd3473a36f0aa",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:dreamguard:current:class-feature:dreamshaper-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Dreaming renders the world mutable to the designs of a dreamguard and others with a strong connection of dreams. When everyone else goes to sleep for a night of rest, a dreamguard’s work is just beginning. By shaping their dreams they can incorporate events from the preceding day and change them by using lucid dreaming techniques; reshaping their own memories of the events. Upon awakening the world is changed, retroactively always having followed a version of events closer to what happened in the dreamguard’s dream.</p>\n<p>At 10th level, after sleeping for 8 hours, the dreamguard can make a “dreamshaping” check. They roll 1d20 + 1/2 their dreamshaper level + their Charisma modifier and consult Table 4-2: Dreamshaping to determine the DC. Typically this allows them to treat one d20 roll that was successful as being successful or vice versa. The GM then decides how the rest of the day would have played out had that roll been changed while attempting to keep the story as similar as possible to what actually happened.</p>\n<p>At 14th level a dreamguard gains a +4 insight bonus on dreamshaping checks.</p>\n<p>Use the rules below to form the appropriate DC for the check.</p>\n<strong>Table: Dreamshaping</strong>\n<table>\n<tbody><tr>\n<th>Change</th>\n<th>DC</th>\n</tr>\n<tr>\n<td>Change a failed d20 roll you or an ally made to a success</td>\n<td>Original DC (or other relevant value)</td>\n</tr>\n<tr>\n<td>Change a successful d20 roll someone else made to a failure</td>\n<td>Make an opposed roll against whatever the d20 roll was.</td>\n</tr>\n<tr>\n<td>Make a single extra full attack</td>\n<td>Target’s AC (or other relevant defensive value)</td>\n</tr>\n<tr>\n<td>Converse with a target for up to 1 minute</td>\n<td>20</td>\n</tr>\n<tr>\n<td>Obtain an item you had that was lost, broken, or stolen</td>\n<td>(Item’s price in GM/1,000) + 15 (Minimum 1 GP)</td>\n</tr>\n<tr>\n<td>Take a full round action at some point during the day</td>\n<td>10</td>\n</tr>\n<tr>\n<td>Deprive another creature you encountered of taking one turn’s worth of actions that they took.</td>\n<td>15</td>\n</tr>\n</tbody></table>\n<p><strong>Deeper Rules</strong></p>\n<ul>\n<li>A GM may rule that an event was too impactful to be changed and always has authority over how things transpired.</li>\n<li>The more impactful changed event (i.e “how much the story has to change”) the higher the DC. No or almost no change in the story means no change in the DC. A minor change (some GP was won, objects were destroyed, some social situation played out differently, etc) adds 2-4 to the DC, a substantial change (someone didn’t die who did, an extra object was achieved, notable fame was gained) adds 6-8 to the DC, and massive changes (the king is not killed, a battle that was lost was won or at least a draw, etc) add 10-12 to the DC.</li>\n<li>No experience is ever awarded for dreamshaping.</li>\n<li>Now new information is gained via dreamshaping. You only know what you knew during that day. This means that, while you may converse with someone, your recognition of what they actually said in response to you is hazy and nonsensical, though you get the gist of it.</li>\n<li>Gods and creatures with a CR 3 or more greater than yours are unaffected by your dreamshaping.</li>\n<li>Despite being a dream, you are still limited to your normal capacities while dreamshaping.</li>\n<li>Dreams are self-centered and thus you are largely only change your own impact on a situation (you may rally the troops better but you don’t control the troops in your dreams).</li>\n<li>Any dream in which you die or would die automatically fails.</li>\n<li>On principle, treat any creature or object you attempt to change as if dreamshaping was a spell, they were unwilling targets, and your dreamshaping check is your attempt to effect them with it. This means you can use it on things like unattended mundane objects, dead bodies, and the environment are prime targets are easier targets than strong creatures.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/dreamguard#toc13\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/dreamguard#toc13"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

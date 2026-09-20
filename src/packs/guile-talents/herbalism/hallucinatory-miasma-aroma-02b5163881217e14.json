@@ -1,0 +1,124 @@
+{
+  "_id": "02b5163881217e14",
+  "_key": "!items!02b5163881217e14",
+  "name": "Hallucinatory Miasma (aroma)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:hallucinatory-miasma-aroma",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc53",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "48b128211f1462458e798de43ed116691005364a88cbf6491fa235979d297a28",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Exceptional Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:hallucinatory-miasma-aroma",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p><strong>Prerequisites:</strong> Herbalism sphere, associated skill 5 ranks.</p>\n<p><strong>Cost:</strong> 3 herbs</p>\n<p>All creatures that can smell the aroma must succeed at a Fortitude saving throw or become confused for as long as they remain within the aroma, plus 1 minute after–if a creature starts their turn outside of the aroma, they receive a new saving throw against this effect. A creature that succeeds against this aroma becomes immune to its effects for 24 hours. This aroma lasts 10 minutes. This is a poison mind-affecting effect.</p>\n<p><strong>Twists</strong></p>\n<ul>\n<li><strong>1 bitter herb:</strong> For each round that a creature remains confused by this aroma, they suffer 1d3 points of Intelligence and Wisdom damage (a successful Will save halves this damage).</li>\n<li><strong>1 cool herb:</strong> A creature made confused by this aroma also becomes shaken for as long as they are confused. At the start of each subsequent round, the creature must succeed at a Will saving throw or have the fear condition worsen by one step (shaken &gt; frightened &gt; panicked). A successful save stops the worsening of the condition for the rest of the duration–if the aroma also has the intense herb twist, a successful save only reduces the fear condition by one step. A creature forced to flee this way first determines the state of their confusion, to see if they can act normally to flee. The bearer of the aroma is treated as the source of this fear.</li>\n<li><strong>1 esoteric herb:</strong> The hallucinations caused by the aroma begin to turn aggressive. For each round that a creature remains confused by this aroma, they suffer 1d6 points of damage per 2 associated skill ranks you possess (Will halves). If this aroma has the cool herb twist, if a creature fails this saving throw while they are panicked, they must then succeed at a Fortitude saving throw or instantly die. This is a death effect.</li>\n<li><strong>1 intense herb:</strong> A successful save against this aroma no longer makes a creature immune against its effects. Creatures made confused by this aroma that move more than half their speed in any given action must succeed at a Will save or fall prone. If this aroma also has the cool herb twist, the creature also verbally reveals a motivation each round they remain shaken (or worse).</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc53\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc53"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -10,7 +10,13 @@ import {
 test("pilot source, pack, provenance and image inventories agree", async () => {
   const { docs } = await validateContentCatalog();
   assert.deepEqual(
-    docs.map(({ doc }) => [doc.name, doc.type]).sort(),
+    docs
+      .filter(
+        ({ doc }) =>
+          doc.flags[moduleId].collection === "wiki-selected-open-rules",
+      )
+      .map(({ doc }) => [doc.name, doc.type])
+      .sort(),
     [
       ["Extra Magic Talent", "feat"],
       ["Favorite Tools", "feat"],
@@ -18,7 +24,7 @@ test("pilot source, pack, provenance and image inventories agree", async () => {
       ["Kit, Lycanthrope Hunter’s", "container"],
     ].sort(),
   );
-  const feat = docs.find(({ doc }) => doc.type === "feat").doc;
+  const feat = docs.find(({ doc }) => doc._id === "54e7f57ef4ba6758").doc;
   assert.match(feat.system.description.value, /effects stack/);
   const item = docs.find(({ doc }) => doc.type === "container").doc;
   assert.deepEqual(containerTotals(item), { price: 80, weight: 4 });
@@ -32,7 +38,7 @@ test("pilot source, pack, provenance and image inventories agree", async () => {
   assert.equal(item._stats.coreVersion, "13.351");
   for (const key of ["resizing", "timeworn", "artifact", "cursed", "broken"])
     assert.equal(item.system[key], false);
-  const cls = docs.find(({ doc }) => doc.type === "class").doc;
+  const cls = docs.find(({ doc }) => doc._id === "79f2b00d8e374366").doc;
   assert.equal(cls.system.hd, 6);
   assert.equal(cls.system.skillsPerLevel, 4);
   assert.match(cls.system.description.value, /Table: The Incanter/);
@@ -41,10 +47,15 @@ test("pilot source, pack, provenance and image inventories agree", async () => {
   for (const { doc } of docs) {
     assert.deepEqual(doc.ownership, { default: 0 });
     assert.equal(doc._stats.coreVersion, "13.351");
-    assert.equal(Object.keys(doc.system.changeFlags).length, 9);
-    assert(
-      Object.values(doc.system.changeFlags).every((value) => value === false),
-    );
+    // PF1 11.11 consumables do not include the native changes template.
+    if (doc.type === "consumable")
+      assert.equal(doc.system.changeFlags, undefined);
+    else {
+      assert.equal(Object.keys(doc.system.changeFlags).length, 9);
+      assert(
+        Object.values(doc.system.changeFlags).every((value) => value === false),
+      );
+    }
     if (doc.type === "feat") {
       assert.equal(doc.system.abilityType, "na");
       assert.equal(doc.system.uses.value, null);

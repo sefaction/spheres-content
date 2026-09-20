@@ -1,0 +1,121 @@
+{
+  "_id": "0709bd3d88e7d4b9",
+  "_key": "!items!0709bd3d88e7d4b9",
+  "name": "Barb: Ire (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:barb:current:class-feature:ire-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/barb#toc3",
+      "sourceSha256": "1de47806e838b768017315a27807044f7a6b991b161a1789e6bd1f5c84fe5cee",
+      "descriptionSha256": "d2283854870277c54935deb2b96ed08e1cb8c15eaa29a3ad9b5c18b43cb78a82",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:barb:current:class-feature:ire-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>Once per turn, when the barb hits an enemy as a free action they can force that creature to make a Will save (DC 10 + 1/2 barb level + Charisma modifier) or be forced to take a hostile action against a good aligned party member, other than the barb, on their next turn. A barb can do this a number of times per day equal to their class level + their Charisma modifier.</p>\n<p><strong>Deeper Rules</strong></p>\n<ul>\n<li>Once a creature has been successfully hit with this class feature the barb cannot use it again the same creature for 24 hours.</li>\n<li>Good aligned divine casters, including characters from classes that eventually get divine casting, are targeted before other good aligned creatures. Allies of higher level or who have the potential to a greater amount of harm are always treated as being a higher priority as well. If there is a tie, the GM may pick who their creature targets.</li>\n<li>The barb may not choose who their enemy targets.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/barb#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/barb#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

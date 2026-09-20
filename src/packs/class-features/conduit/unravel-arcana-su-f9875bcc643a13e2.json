@@ -1,0 +1,121 @@
+{
+  "_id": "f9875bcc643a13e2",
+  "_key": "!items!f9875bcc643a13e2",
+  "name": "Conduit: Unravel Arcana (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:conduit:spheres-of-guile:class-feature:unravel-arcana-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/conduit#toc11",
+      "sourceSha256": "377bf048eed7161d04a1dd9b3b245019ddcfade0d967f7fd2750bfcca082136d",
+      "descriptionSha256": "6afec9f1a0e9fba60200251cce5f0576c96ac51b0e0e6d0698518644663a7f14",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:conduit:spheres-of-guile:class-feature:unravel-arcana-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 3rd level, the conduit learns how to unravel their own arcane meddling, often with great effect. The conduit can dismiss a non-utility (hack) talent they have applied to an attended object, affecting the creature attending it with an effect of the conduit’s choice, chosen from below. Unless otherwise specified, the object must be within close range (using their Spellhacking range) of the conduit to unravel arcana. If such an effect has a saving throw, it uses their Spellhacking save DC.<br>\nWhen using the unravel arcana ability, the conduit may choose from the following effects:</p>\n<ul>\n<li><em>Arcane Shatter:</em> The conduit can unravel arcana as part of successfully hitting a creature with a weapon attack, dealing 1d8 + 1d8 force damage for every 3 conduit levels they possess, as well as causing the hacked object to become suppressed for 1 round (as the Counterspell feat). At 11th level, the conduit can choose to increase the damage to 1d8 + 1d8 per 2 conduit levels they possess, or have it burst out in a 15-foot cone (centered on the target), dealing the force damage to all creatures within the area.</li>\n<li><em>Arcane Ward:</em> At 5th level, the conduit can unravel arcana as an immediate action whenever they suffer damage, reducing the damage dealt by an amount of d6s equal to the conduit’s arcane shatter damage dice, or twice as much dice if the conduit exhausts a magical item. At 11th level, the conduit can choose to use this effect as a free action usable outside of their turn, or gain DR/- equal to the number of dice rolled as part of using this option (which stacks with similar sources), which lasts until the end of their next turn.</li>\n</ul>\n<p>At 7th level, the conduit gains an additional unravel arcana ability from their font.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/conduit#toc11\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/conduit#toc11"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

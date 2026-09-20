@@ -1,0 +1,162 @@
+{
+  "_id": "3777f5f8b0d2a440",
+  "_key": "!items!3777f5f8b0d2a440",
+  "name": "Truelixir",
+  "type": "equipment",
+  "img": "icons/svg/item-bag.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:truenaming-items:current:item:truelixir",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/truenaming-items#toc20",
+      "sourceSha256": "27f2229079cfc88f64fa4b81410fd49144d347ae740dc859b1853830dae5defb",
+      "descriptionSha256": "084c6f25a79a81e65f166229516f152bb8042872ed1fa1e6d4ea338e34f65310",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Potions",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:truenaming-items:current:item:truelixir",
+        "kind": "item"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> weak universal; <strong>CL</strong> 1st; <strong>Slot</strong> —; <strong>Price</strong> 125 gp; <strong>Weight</strong> 1/4&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nAll magic is derived from the First Language in some way, shape, or form. It is this truism that makes the truelixir possible. As a full-round action that provokes attacks of opportunity, a creature holding a vial of truelixir may influence the shapeless fluid contained within, transforming it into a potion of any 1st-level spell on any spell list to which it has access. Single-target spells that cannot normally be made potions, such as the magic missile spell, can be transformed into potions in this manner and can either be consumed or used as a thrown splash weapon that affects a random creature in the square of impact.</p>\n<p><strong>Construction Requirements</strong><br>\nBrew Potion, Craft Wondrous Item, uncork; <strong>Cost</strong> 62 gp, 5 sp</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/truenaming-items#toc20\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "tags": [],
+    "quantity": 1,
+    "weight": {
+      "value": 0.25
+    },
+    "equipped": true,
+    "carried": true,
+    "price": 125,
+    "size": "med",
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "identified": true,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "changes": [],
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "contextNotes": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "scriptCalls": [],
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "wondrous",
+    "slot": "slotless",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
+    "showInQuickbar": false,
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/truenaming-items#toc20"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

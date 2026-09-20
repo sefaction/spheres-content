@@ -1,0 +1,121 @@
+{
+  "_id": "852010e6258fbcba",
+  "_key": "!items!852010e6258fbcba",
+  "name": "Essencebound Metamagic (Akashic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:akashic-feats:current:feat:essencebound-metamagic-akashic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/akashic-feats#toc28",
+      "sourceSha256": "ac9a67e53d34279260fc2b6b0d5a22af395fbc6c5264c8691bfcdb283bf56660",
+      "descriptionSha256": "4b9ad4ce5959ca1a281de27801cb8727b71f68dbd55271c013735780bc63f5f5",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "akashic-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:akashic-feats:current:feat:essencebound-metamagic-akashic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can use your essence to enhance your sphere effects.</p>\n<p><strong>Prerequisites:</strong> Con 13 or veilweaver level 1, caster level 1, any metamagic feat.</p>\n<p><strong>Benefit:</strong> When you take this feat, choose any one metamagic feat you know. Once per day you may spend an hour in meditation to invest essence into this feat and choose one or more sphere effects that you could cast (and have prepared, if you prepare sphere effects). You may choose the same sphere effect multiple times if you wish to. You must bind a number of points of essence equal to the normal spell level adjustment required by the metamagic feat (minimum 1 point of essence) for each sphere effect to be affected. The next time you use one of the chosen sphere effects, the sphere effect gains the benefits of the chosen metamagic feat without an increase to its casting time and without costing any additional spell points.</p>\n<p>If you have chosen the same sphere effect multiple times, it applies to that sphere effect each time you cast it for as many times as you chose it with this feat. You can apply the effects of this feat to as many sphere effects as you can afford to invest with essence. For example, you could invest 4 points of essence to quicken one sphere effect (as Quicken Spell), or 12 points of essence to quicken 3 sphere effects, as long as you had at least 12 points of essence to invest, an essence capacity of at least 4, and knew the Quicken Spell feat. Once essence is invested in a spell, it remains invested until the spell is cast, at which point the essence returns to your essence pool.</p>\n<p>You gain 1 point of essence.</p>\n<p><strong>Special:</strong> You can gain this feat multiple times. Each time you select it, choose a different metamagic feat you know. When spending an hour in meditation to invest essence into this feat, you invest essence into each of this feat you have. You may still only invest essence into the Essencebound Metamagic feat once per day, even if you have selected it multiple times.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/akashic-feats#toc28\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/akashic-feats#toc28"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

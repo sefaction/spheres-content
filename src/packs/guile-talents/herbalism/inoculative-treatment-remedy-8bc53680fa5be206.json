@@ -1,0 +1,124 @@
+{
+  "_id": "8bc53680fa5be206",
+  "_key": "!items!8bc53680fa5be206",
+  "name": "Inoculative Treatment (remedy)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:inoculative-treatment-remedy",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc42",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "6cd0f1582ac3a2c1914bc2ecc05793d9fb131a8bbf4d05f18e6c177f47c915ed",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Remedy Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:inoculative-treatment-remedy",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><sup><strong>Source:</strong> <a href=\"https://www.drivethrurpg.com/en/product/505704/diamond-spheres-invention-and-ingenuity?affiliate_id=3028400\">Diamond Spheres: Invention &amp; Ingenuity</a></sup></p>\n<p>You improve the following Heal skill uses in the following ways:</p>\n<ul>\n<li><strong>Treat Disease or Poison:</strong> The competence bonus granted to the patient’s next saving throw to resist the affliction increases to +6, +1 per 4 ranks in this package’s associated skill. If you exceed the affliction’s save DC by 10 or more, the patient also rolls such a saving throw twice, taking the highest result.</li>\n<li><strong>Treat Deadly Wounds:</strong> Instead of healing hit point damage, you can choose to heal 1d4 points of ability damage to a single ability score of your choice. For each (remedy) talent you possess beyond this one, you can choose to either heal an additional ability score this way, or increase the die size by one step (1d4 &gt; 1d6 &gt; 1d8 &gt; 1d10 &gt; 1d12).</li>\n</ul>\n<p>At 5 ranks in Heal, you can also use the Heal skill to treat a curse. You can spend 1 hour with a creature using the more particular parts of a healer’s kit (although no uses are expended). Attempt a Heal check and compare the result to the saving throw DC of a single curse or effect with the curse descriptor that is affecting the creature. If the Heal check result exceeds the curse’s save DC, its effects are suppressed for 1 day, plus 1 day for every 10 you exceed its save DC. Once a curse has been suppressed this way, it cannot be suppressed again.</p>\n<p><strong>Associated Feat:</strong> Acupuncture Specialist (<em>Blood of the Ancients</em>).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc42\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc42"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

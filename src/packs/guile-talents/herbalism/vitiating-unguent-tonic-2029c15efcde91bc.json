@@ -1,0 +1,124 @@
+{
+  "_id": "2029c15efcde91bc",
+  "_key": "!items!2029c15efcde91bc",
+  "name": "Vitiating Unguent (tonic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:herbalism:spheres-of-guile:guile-talent:vitiating-unguent-tonic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/herbalism#toc37",
+      "sourceSha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "descriptionSha256": "dea6dfe48aef9aa2a5d1ee09d788650333dbbddb5649469a0443eb231bb46542",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Concoction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:herbalism:spheres-of-guile:guile-talent:vitiating-unguent-tonic",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "herbalism"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Cost:</strong> 2 herbs</p>\n<p>This tonic grants the imbiber an amount of energy absorption equal to 3 x your ranks in the associated skill to either acid, cold, fire, electricity, or sonic damage. Damage is applied to this absorption after applying resistances and vulnerabilities.</p>\n<p>Energy absorption functions as energy resistance, except that the amount of damage resisted reduces the total value of the energy absorption, and the imbiber chooses how much to resist (for example, if the imbiber suffers 10 fire damage and they have 15 fire absorption, they can resist 5 damage, taking 5 fire damage and reducing their fire absorption by 5).</p>\n<p><strong>Twists</strong></p>\n<ul>\n<li><strong>1 bland herb:</strong> The imbiber's energy absorption increases to 4 x your ranks in the associated skill.</li>\n<li><strong>1 dry herb:</strong> You may choose two damage types to grant energy absorption. Both sources of absorption are tracked as if they were the same source when used in this way.</li>\n<li><strong>1 savory herb:</strong> The imbiber gains a +1 alchemical bonus to saving throws against acid, cold, earth, electricity, fire, sonic, and water effects. This bonus increases by +1 per 10 associated ranks you possess.</li>\n<li><strong>1 sour herb:</strong> The imbiber’s energy absorption applies to all listed energy types, and increases by an amount equal to your operative modifier (minimum 1), however they suffer a -3 penalty to saving throws against effects that inflict such damage.</li>\n<li><strong>1 sweet herb:</strong> Whenever the imbiber completely negates a source of energy damage using this energy absorption, they also heal an amount of hit points equal to 1/2 the negated damage.</li>\n<li><strong>1 tainted herb:</strong> The imbiber reduces any energy resistance they possess against the chosen damage type by 5 + 1 per associated rank.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/herbalism#toc37\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/herbalism#toc37"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "bc37ce2a968656f6",
+  "_key": "!items!bc37ce2a968656f6",
+  "name": "Analyze Caster (Dual Sphere)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:divination:ultimate:feat:analyze-caster-dual-sphere",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/divination#toc105",
+      "sourceSha256": "d2b433e11e953901b06d2e3401cc06f3a649f752f1f3eecc20bde3a260c46b46",
+      "descriptionSha256": "7ea45a1be698d5c1dc9171e6124a29b2e7b78aec29b9e172035a725260e735c3",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Divination Sphere Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:divination:ultimate:feat:analyze-caster-dual-sphere",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Mana sphere, Divination sphere (Detect Spellcaster (divine)), caster level 9th.</p>\n<p><strong>Benefit:</strong> You shorten the casting time of the Detect Spellcaster (divine) talent to 1 round (or one move action, if you possess Fast Divination) and do not need to spend a spell point to use it. Additionally, you gain a +5 bonus to your Spellcraft check when determining a creature’s casting tradition this way. If you successfully determine the creature’s casting tradition, you can spend a spell point to deeply analyze that caster, allowing you to learn all base magic spheres possessed by the spherecaster, as well as their current and maximum spell points, casting ability modifier, and caster levels with each sphere they possess. At 15th caster level, you may also select a single sphere you know they possess: you learn all magic talents they possess in that sphere.</p>\n<p>If the target is a spellcaster and utilizes spell lists and spell slots, when deeply analyzing the caster you instead learn the highest spell level they are capable of casting, which spell list they draw their spells from, and whether they prepare their spells or cast them spontaneously. At 15th caster level, you may also select a single spell level to learn all spells they have prepared, or in the case of spontaneous casters all spells they know, of that spell level.</p>\n<p>Whenever you use a (manipulation) or (expunge) talent on a creature successfully, you may spend a spell point as a free action to analyze that creature as if using the Detect Spellcaster (divine) talent.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/divination#toc105\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/divination#toc105"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

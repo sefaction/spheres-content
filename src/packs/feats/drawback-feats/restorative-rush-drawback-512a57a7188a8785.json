@@ -1,0 +1,121 @@
+{
+  "_id": "512a57a7188a8785",
+  "_key": "!items!512a57a7188a8785",
+  "name": "Restorative Rush (Drawback)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:drawback-feats:ultimate:feat:restorative-rush-drawback",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/drawback-feats#toc68",
+      "sourceSha256": "c23c1cc1118160546cc9b26ffb82b21218f8d4fc9c6980d39517744ba4b904f0",
+      "descriptionSha256": "c824b7a9f7f033408bbc52d0a0bcae4187d1b6ea67412c63bdc27180d359f3fb",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Drawback Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:drawback-feats:ultimate:feat:restorative-rush-drawback",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Charged Spells</p>\n<p><strong>Benefits:</strong> Choose two of the following methods of restoring charges for charged spells you have cast within the last minute. For each method, in addition to the cost of actions and the method’s specific trigger, for each spell you recharge, you must spend a number of spell points equal to the number of spell points spent on the charged sphere effect you recharge. Whenever you recharge one or more spells, you gain a +1 bonus to attack rolls until the end of your next turn.</p>\n<ul>\n<li><em>Celebratory Boast (requires Gladiator Sphere):</em> whenever you perform a boast, you may also recharge a number of charged sphere effects up to your casting ability modifier</li>\n<li><em>Devoted Recharge:</em> You may spend a standard action to recharge one charged sphere effect. If you also spend a swift action on this ability on the same turn, you instead recharge a number of charged sphere effects up to your casting ability modifier</li>\n<li><em>Iaido Readiness:</em> Once per round, when you sheathe a weapon (normally a move action), you may recharge one charged sphere effect</li>\n<li><em>Inward Recollection:</em> When you use the total defense action, you may recharge a number of charged sphere effects up to your casting ability modifier</li>\n<li><em>Malicious Claim: (requires Scout sphere)</em> Whenever you scout a creature as at least a swift action, you recharge a single charged sphere effect. If you reduce a scouted creature to 0 or fewer hit points, you may recharge a number of charged sphere effects up to your casting ability modifier</li>\n<li><em>Outward Extension:</em> Whenever you use the aid another action as a move or standard action, you may recharge a number of charged sphere effects up to your casting ability modifier</li>\n<li><em>Vigilant Patrol: (requires Guardian Sphere (patrol package))</em> Whenever you activate your patrol as a full-round action, you may recharge a number of charged sphere effects up to your casting ability modifier</li>\n<li><em>Vindicating Impetus: (requires Channel Energy)</em> You may spend a use of channel energy as a swift action to recharge one charged sphere effect.</li>\n</ul>\n<p><strong>Special:</strong> You may select this feat multiple times, each time selecting two different methods.</p>\n<p><sup><strong>Source:</strong> Expanded Spheres: Weaves of War</sup></p>\n<p><a href=\"http://spheresofpower.wikidot.com/drawback-feats#toc68\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/drawback-feats#toc68"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

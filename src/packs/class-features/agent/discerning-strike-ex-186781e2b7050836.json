@@ -1,0 +1,121 @@
+{
+  "_id": "186781e2b7050836",
+  "_key": "!items!186781e2b7050836",
+  "name": "Agent: Discerning Strike (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:agent:spheres-of-guile:class-feature:discerning-strike-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/agent#toc3",
+      "sourceSha256": "0a78d839d28638d323a529162671621aae42260b1dae059d81e613809c3febed",
+      "descriptionSha256": "304c55afc17d0883078c493648f92f27838e5795da0f59da74a7d9d518722a6f",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:agent:spheres-of-guile:class-feature:discerning-strike-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>An agent deals additional precision damage upon hitting a target that is unable to defend itself effectively against an attack. Discerning strike can be used on any target that is flat-footed or otherwise denied its Dexterity bonus to Armor Class against the attack (whether or not the target has a Dexterity bonus) as well as any target that is threatened by an ally of the agent (other than the agent). The agent can outwit a target as a cost to deal discerning strike damage to it outside the above conditions. If the agent would deal discerning strike damage a second or subsequent time to the same target on the same round, it is reduced to 1 point per die. This damage is not multiplied on a critical hit. Anything that prevents the additional damage from critical hits likewise prevents precision damage. The agent cannot deal discerning strike damage to a creature with total concealment or farther than 30 feet away.</p>\n<p>Discerning strike deals an additional +1d4 damage at 1st level. This damage increases to 2d6 at 3rd level. At 5th level, the damage dice increase to 2d8. At 7th level and every odd level thereafter, the damage increases by +1d8 (3d8 at 7th, 4d8 at 9th, and so on).</p>\n<p>You can use this ability to meet prerequisites as if it were sneak attack with the same number of dice. Additions and improvements to the sneak attack ability can be applied to discerning strike, but if the benefit is not based on the number of damage dice then you cannot apply it to both sneak attack and discerning strike; you must pick one or the other to improve when you gain the option.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/agent#toc3\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/agent#toc3"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

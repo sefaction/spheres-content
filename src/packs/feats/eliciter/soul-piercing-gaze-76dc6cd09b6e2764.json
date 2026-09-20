@@ -1,0 +1,121 @@
+{
+  "_id": "76dc6cd09b6e2764",
+  "_key": "!items!76dc6cd09b6e2764",
+  "name": "Soul-Piercing Gaze",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:eliciter:ultimate:feat:soul-piercing-gaze",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/eliciter#toc37",
+      "sourceSha256": "0cf076b987abafe6af278a8a992b3695cfc8b99dd1dbb52cc85c8d2629652d23",
+      "descriptionSha256": "76ffb223ccc0a88c3e4c69fdb4b11514b9433055528cf84db5c6a1c4e07c7b5b",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "ultimate",
+      "category": "Eliciter Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:eliciter:ultimate:feat:soul-piercing-gaze",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisite:</strong> Emotion class feature.</p>\n<p><strong>Benefit:</strong> As a standard action, you may attempt to make eye contact with all enemies within close range. The enemies must be able to see and hear you to be affected. Each enemy receives a Reflex saving throw against a DC 10 + 1/2 your class level + your casting ability modifier against the gaze. Enemies may attempt to avert your gaze as they would a gaze attack (such as by averting their eyes or wearing a blindfold).</p>\n<p>If at least one enemy fails their saving throw, you may choose one enemy that failed their saving throw and use an emotion from your emotion class feature on them as if you had made a successful melee touch attack. They still receive the regular saving throw against the emotion, if any. If every target succeeds on their saving throw against your gaze, the emotion is not expended.</p>\n<p>When using Soul-Piercing Gaze, it is difficult for observers to detect the use of any supernatural ability. You may attempt a Bluff check vs. the passive Perception (DC 11 + Perception modifier) of any observers to disguise what you are doing.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/eliciter#toc37\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/eliciter#toc37"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

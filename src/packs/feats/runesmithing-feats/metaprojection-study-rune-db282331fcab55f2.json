@@ -1,0 +1,121 @@
+{
+  "_id": "db282331fcab55f2",
+  "_key": "!items!db282331fcab55f2",
+  "name": "Metaprojection Study (Rune)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:runesmithing-feats:current:feat:metaprojection-study-rune",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/runesmithing-feats#toc4",
+      "sourceSha256": "753c1d289a1493e20e479c2f04937f86527a4b21c002d50d928f66b015af9d15",
+      "descriptionSha256": "c5b8a2d9f97dd121154420e9e0217858f0a2be66f76208198bef205a525f3ff3",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "runesmithing-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:runesmithing-feats:current:feat:metaprojection-study-rune",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>If runes are simply magic in reverse, then metamagic is certainly within a runesmith's reach.</p>\n<p><strong>Prerequisite:</strong> Runes class feature</p>\n<p><strong>Benefit:</strong> Choose a metamagic feat for which you meet all the prerequisites. You gain that metamagic feat as a metaprojection feat. If you increase the activation time of a projection rune to a fullround action, you may apply a metaprojection feat that you know to the projection.</p>\n<p>Unlike a metamagic feat, which directly changes a spell's spell level, applying a metaprojection feat does not change the power level of a rune. A maximized Lesser rune is still a Lesser rune. Instead, the activation cost increases by a number of inscription points equal to the level increase of the metaprojection feat.</p>\n<p><strong>Special:</strong> You can gain Metaprojection Study multiple times. Each time, select a new metamagic feat whose prerequisites you meet.</p>\n<p><strong>Special:</strong> Metamagic feats with a variable level increase, such as Heighten Spell, cannot be taken as metaprojection feats.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/runesmithing-feats#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/runesmithing-feats#toc4"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

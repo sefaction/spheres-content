@@ -1,0 +1,121 @@
+{
+  "_id": "c76eb09ae56b467f",
+  "_key": "!items!c76eb09ae56b467f",
+  "name": "Warrior Poet: Orate Haiku (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:warrior-poet:current:class-feature:orate-haiku-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/warrior-poet#toc6",
+      "sourceSha256": "697e33783b9a53a1f33fd3d245501d6bb4784eedaf5b1154079f74af0050473d",
+      "descriptionSha256": "1963d1f6b660be91998ca63b8f7711dc508e77c2b403c8131fb19c53b35b3be3",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:warrior-poet:current:class-feature:orate-haiku-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, a warrior poet has learned how to orate his haiku in such a way that he unleashes the magic inherent in their juxtaposition. Each individual haiku can be orated for a number of rounds per day equal to a warrior poet's ranks in the Perform (oratory) skill + his Wisdom modifier.</p>\n<h4>Haiku Performance and Maintenance</h4>\n<p>Starting to orate a haiku is a move action, but it can be maintained each round as a free action. When a warrior poet starts to orate a haiku, he chooses one of the haiku’s two subjects to orate first. The effects of that subject’s topics start immediately and persist for the duration of the oration, or until the warrior poet executes the haiku’s kireji.</p>\n<p>A warrior poet can end a performance in one of two ways. He can simply stop orating as a free action, or, when performing a kireji, he may choose to stop orating.</p>\n<p>Orating a haiku cannot be disrupted, but it ends immediately if the warrior poet is killed, paralyzed, stunned, knocked unconscious, or otherwise prevented from taking a free action to maintain it each round. A warrior poet cannot have more than one haiku in effect at one time.</p>\n<h4>The Kireji</h4>\n<p>Whenever the warrior poet makes a full-attack action or an attack action (but not an attack of opportunity), he may declare any of those attacks to be the literal cut in his cutting word, his kireji. The declared attack gains the benefits of his currently-orated haiku’s kareji, which may empower the poet, empower the attack itself, or produce an entirely unrelated effect.</p>\n<p>When the warrior poet executes his kireji, all of the effects of the haiku’s currently-orated subject stop immediately, and the effects of the other subject’s topics begin and persist for the duration of the oration, or until he uses his kireji again. In this way, the warrior poet uses his cutting words to flip back and forth between his subjects, drawing power from the juxtaposition between them.</p>\n<p>A warrior poet may only execute a single kireji per round.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/warrior-poet#toc6\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/warrior-poet#toc6"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "_id": "115b2bed2180938b",
+  "_key": "!items!115b2bed2180938b",
+  "name": "Information Broker",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:faction:spheres-of-guile:guile-talent:information-broker",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/faction#toc19",
+      "sourceSha256": "c0949a2288b14f9bce4a04a73230598f8b6178c048d9a36fc6899ead8b33b209",
+      "descriptionSha256": "9c56915567cf187ff0742fb62161c75528c755a988f02533fee24d03fa8fb508",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Faction Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:faction:spheres-of-guile:guile-talent:information-broker",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "faction"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You gain the following requisition options:</p>\n<ul>\n<li><strong>Translate:</strong> Hire a translator from your faction to speak a language that is known to members of your culture.</li>\n<li><strong>Gather Information (1 Authorization):</strong> Have faction agents gather information on one topic for you. They make one Diplomacy check with a result of 20 + your associated skill’s ranks.</li>\n<li><strong>Isolating Rumor (1 Authorization):</strong> Make a Bluff check to have faction agents spread a rumor that hurts one creature or group’s reputation. You can use your associated skill modifier in place of your Bluff modifier for this claim. Bonuses from spells and items do not apply to this check. Your Bluff result determines how far the rumor spreads: just among untrustworthy gossips (15), among folks interested in the subject (20), among the general populace (25), or the rumor becomes as good as common knowledge (30). If the rumor is a lie, your Bluff check result determines if it is believed by each individual (convincing the average lay person is DC 10; individuals attempt an opposed Sense Motive check normally). The DC to hurt the creature’s reputation is 10 + either the target’s Diplomacy modifier or 150% the target’s Will save modifier (whichever is higher). If you succeed, the creature loses face for 1 day per point by which your result exceeded their DC. Their affected allies’ attitude toward them is reduced by one step.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/faction#toc19\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/faction#toc19"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

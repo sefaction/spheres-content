@@ -1,0 +1,121 @@
+{
+  "_id": "db9ad548714fca86",
+  "_key": "!items!db9ad548714fca86",
+  "name": "Anesthetist (Mythic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mythic-general-a-f-feats:current:feat:anesthetist-mythic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mythic-general-a-f-feats#toc17",
+      "sourceSha256": "c0588d100e8806ba79c15e6694eb04c31740295fb4578b6995ec766395425f4a",
+      "descriptionSha256": "60773e524812160b52b1e7300e2dd66831c3bc8ade69b53eb60bfb0049e0c369",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "mythic-general-a-f-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mythic-general-a-f-feats:current:feat:anesthetist-mythic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You are a master of nonlethal subdual techniques.</p>\n<p><strong>Prerequisite:</strong> Anesthetist<sup>GCC</sup></p>\n<p><strong>Benefit:</strong> When you use a poison that causes unconsciousness, such as blue whinnis and drow poison, you add one-half your mythic tier (minimum 1) to the save DC, and you automatically succeed on Heal checks to determine how much time remains until a target awakens. You can compound a pain-relieving mixture as a standard action, and it takes effect immediately, granting a bonus equal to one-half your mythic tier (minimum +1) if the target is already affected by a pain effect or is sickened or staggered. If you are at least 4th tier and expend one use of your mythic power, the duration of pain relief is multiplied by one-half your mythic tier.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mythic-general-a-f-feats#toc17\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mythic-general-a-f-feats#toc17"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

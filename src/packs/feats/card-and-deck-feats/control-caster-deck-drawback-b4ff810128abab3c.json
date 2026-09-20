@@ -1,0 +1,121 @@
+{
+  "_id": "b4ff810128abab3c",
+  "_key": "!items!b4ff810128abab3c",
+  "name": "Control Caster (Deck, Drawback)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:card-and-deck-feats:current:feat:control-caster-deck-drawback",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/card-and-deck-feats#toc16",
+      "sourceSha256": "4022c8e6475766c0c1edab52393c89938e885121711b11783279c546b3117277",
+      "descriptionSha256": "cf8590016e1fad5829047c5848824a63c41386f76e3cc4bb0f695581c083c0a3",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Deck Feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:card-and-deck-feats:current:feat:control-caster-deck-drawback",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Prerequisites:</strong> Card Casting</p>\n<p><strong>Benefits:</strong> You gain several abilities related to interfering with the abilities of other characters with the Card Casting drawback. The save DC of these abilities is equal to the sphere DC of one of the ability’s associated spheres</p>\n<ul>\n<li><strong>Altered Loadout:</strong> (requires Alteration sphere) Whenever you target a creature with a shapeshift, you may force them to shuffle their hand into their deck and draw a number of cards equal to the amount they draw at the beginning of an encounter (Will negates)</li>\n<li><strong>Annihilator:</strong> (requires Destruction Sphere and Cooldown) Once per turn when you attack a creature who has the Card Casting drawback, you may discard the top card from their deck. When you take the attack action against such a creature, you may spend a spell point as part of the action to instead discard a number of cards equal to half your MSB (minimum 2).</li>\n<li><strong>Duress (requires Cooldown, Blood sphere, Mind Sphere): [Baron's Otherworldly Citadel]</strong> When you affect a creature with a blood control or blood art, you may look at their hand. If the target has the Cooldown effect from Card Casting, you may select a card from their hand and make them discard that card.</li>\n<li><strong>Exile:</strong> (requires Warp Sphere and Cooldown) You may spend an additional spell point on effects which discard cards from an opponent’s hand or deck or remove them from play through dispelling. If you do, the cards are sent to a separate exile pile rather than being discarded or shuffled back into the deck. Cards in the exile pile are returned to the caster’s deck at the end of the encounter but otherwise cannot be interacted with through any abilities.</li>\n<li><strong>Exiled Consignment:</strong> (requires Destruction Sphere, Warp Sphere, and Cooldown) Whenever you damage a creature with an attack or destructive blast, you may exile one card from their discard pile. You may spend an additional spell point to exile one card for every 3 Destruction caster levels you possess (minimum 1).</li>\n<li><strong>Facilitate the Game:</strong> (requires Mana Sphere and either Initiate’s Training or Mark of Incompetency) If a character possesses the Card Casting drawback with the Mana Pool effect, you may use Apprentice’s Spell to let them ignore the Colored Mana, Mana Graveyard, or Stagnant Pool effects as if they were each a general drawback. If a character possesses the Card Casting drawback, you may use Mark of Incompetency to grant them the Cooldown and Deckout effects as if each were a general drawback.</li>\n<li><strong>Hand Peek:</strong> (requires Divination sphere and either Detect Spellcaster or Detect Thoughts) When divining a creature using either Detect Spellcaster or Detect Thoughts, you know what cards they have in their hand.</li>\n<li><strong>Hoarded Power:</strong> (requires Conjuration sphere and Deck-Bound Companion feat) you my use the sphere effects granted by any other companion affected by the Deck-Bound Companion feat as if you could create the effects yourself, using your own caster level, MSB, and MSD to determine their potency.</li>\n<li><strong>Interference (requires Counterspell feat): [Baron's Otherworldly Citadel]</strong> You may use the counterspell feat to dispel effects from deck feats as if they were magic sphere effects.</li>\n<li><strong>Internal Extraction (requires Cooldown, Blood sphere, Warp Sphere): [Baron's Otherworldly Citadel]</strong> When you affect a creature with a blood control or blood art, you may exile a card from their discard pile that is not a Mana Point card. If you do, search their deck for all other cards that are identical to the exiled card and exile them as well.</li>\n<li><strong>Lantern Control:</strong> (requires Light sphere) You may have any creature with a glow effect on them play with the top card of their deck face-up at all times. When you cause a glow effect on a creature to shed bright light, you may force that creature to shuffle their deck.</li>\n<li><strong>Liberated Healing:</strong> (requires Life Sphere) Whenever you target a creature with a cure or restore, you may shuffle one card from their discard pile into their deck plus an additional card for every 2 caster levels you possess.</li>\n<li><strong>Lockout:</strong> (requires Mana Sphere and Cooldown) Once per turn when you attack a creature who has the Card Casting drawback, you may force them to discard a card from their hand. When a creature fails a saving throw against your expunge, you may instead force them to discard one card for every 3 caster levels you possess (minimum 1). If you have the ability to see the target’s hand from Hand Peek, you may select which cards are discarded.</li>\n<li><strong>Mana Targeting:</strong> (requires Divination Sphere and Mana Pool) Whenever you divine mana capacity or divine spellcaster on a target, you also become aware of how many Mana Point Cards they have in play. When you target such a creature with a counterspell, you may attempt to dispel mana cards as if they were magic sphere effects</li>\n<li><strong>Mass Resource Denial (requires Divination Sphere, Mana Pool, Specialized Wipe feat): [Baron's Otherworldly Citadel]</strong> When you use the Specialized Wipe feat, you may choose to target all Mana Point cards of creatures in the area rather than selecting a specific sphere of magic (the area is doubled as normal).</li>\n<li><strong>Mind Sculpt:</strong> (requires Mind Sphere) Whenever a creature fails a saving throw against your charm, you may force that creature to shuffle a card from their hand into their deck. If they fail a save against a powerful charm, you may spend a spell point to force them to shuffle their entire hand into their deck.</li>\n<li><strong>Momentous Capture:</strong> (requires War sphere) When you or one of your subordinates successfully causes a creature with the Strikable Assets drawback, you may spend momentum to force the target to discard a revealed card. The momentum cost is equal to the card’s minimum spell point cost.</li>\n<li><strong>Naturalizing Exchange (requires Counterspell, Nature Sphere, Mana Pool): [Baron's Otherworldly Citadel]</strong> Whenever you dispel only effects created by a target with the Mana Pool effect from Card Casting, you may take 10 on the attempt to dispel the effect. If you do, each caster of a targeted effect may search their deck for a single Mana Point card and put it into play.</li>\n<li><strong>Pilfered Magic:</strong> (requires Mana Sphere, Gift of Knowledge, Warp Sphere, and Cooldown) Whenever you exile a card from a creature’s deck, hand, or play, you may use the effect printed on that card as if you had all of the talents necessary to use it until the end of your next turn, paying spell points as normal.</li>\n<li><strong>Smothering Curse:</strong> (requires Fate Sphere) Whenever a creature affected by one of your consecrations or (curse) words draws a card, you may force them to choose between spending a spell point or making a Will save. On a failed save, they take 1d6 points of damage plus an additional 1d6 for every 4 caster levels you possess. A creature may be affected by this ability once per round per word or consecration affecting them.</li>\n<li><strong>Sustainable Counterspell:</strong> (requires Counterspell) Whenever you counterspell an effect created by a character with the Card Casting drawback, you may gain either a +1 or +2 insight bonus to the MSB check for the purpose of that specific effect. If you choose the +1 bonus, any dispelled effect has its card either shuffled back into the owner’s deck or put on top of their deck rather than be discarded (your choice). If you choose the +2 bonus, any dispelled effect is returned to its owner’s hand.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/card-and-deck-feats#toc16\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/card-and-deck-feats#toc16"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

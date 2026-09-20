@@ -1,0 +1,121 @@
+{
+  "_id": "ed205a1ee6b08556",
+  "_key": "!items!ed205a1ee6b08556",
+  "name": "Genius: Eureka (Ex)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:genius:legends-of-the-spheres:class-feature:eureka-ex",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/genius#toc4",
+      "sourceSha256": "a0c8e2ef5b235674e98e2d88c8ece40c6947ab00582a38738aa4022e55cb7235",
+      "descriptionSha256": "b7fd9edeff14c62aa0aa5d3694d5b7b3ef4e7db06da489d4ef29288b9979002d",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "legends-of-the-spheres",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:genius:legends-of-the-spheres:class-feature:eureka-ex",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 1st level, as part of attempting a skill check, crafting an item (such as an Herbalism sphere concoction or Alchemy sphere formulae), or using an ability whose effects could be altered based on the number of skill ranks the user possesses (such as a Bluster sphere quip or a Warleader Sphere shout), the genius may increase his effective skill ranks in a single skill by 2 for the purpose of the skill check or item.</p>\n<p>This bonus increases by +1 at 5th level, and by an additional +1 for every 4 levels thereafter to a maximum of +6 at 17th level.</p>\n<p>Every time the genius uses eureka, there is a 15% chance the genius will suffer backlash; for the purpose of the skill check, item, or other ability, the genius is considered to have 0 ranks in the chosen skill. In addition, the genius suffers a -1 penalty to attack rolls, saving throws, skill checks, and to their effective ranks in all skills (minimum 0), which lasts until he rests for 8 hours. This penalty is cumulative; every time the genius suffers backlash in a day, these penalties increase by 1.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/genius#toc4\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/genius#toc4"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "361c5f049f0d815d",
+  "_key": "!items!361c5f049f0d815d",
+  "name": "Craft Construct (Item Creation, Mythic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mythic-item-creation-feats:current:feat:craft-construct-item-creation-mythic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mythic-item-creation-feats#toc1",
+      "sourceSha256": "72a844def428b55697af49348f29216f6b7903696809917df8fe63390c99907b",
+      "descriptionSha256": "fb15025c46914111bba99b5ac0e8c6c9e3a43ee297af7697f39195895b1bdb66",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "mythic-item-creation-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mythic-item-creation-feats:current:feat:craft-construct-item-creation-mythic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You are a master craftsman of animate constructs of surpassing magnificence.</p>\n<p><strong>Prerequisite:</strong> Craft Construct<sup>B1</sup></p>\n<p><strong>Benefit:</strong> You add your mythic rank or tier on skill checks related to crafting a construct. In addition, you can create constructs at a much faster rate than normal. Each day of labor on a construct enables you to craft up to 1,000 gp times your mythic tier of a construct’s base price, up to a maximum of 10,000 gp of its price per day at 10th mythic tier.</p>\n<p>In addition, you can craft mythic constructs, including both constructs with the mythic subtype as well as constructs with one or more mythic simple templates applied. When adding a mythic simple template, use the normal construction rules; however, the cost of the construct is increased by 50% times its mythic tier, and any skill check DCs for its construction are increased by an amount equal to 5 plus the creature’s mythic rank. For constructs with the mythic subtype, use the listed construction rules if they are provided; if they are not provided, adjust the construct’s price and associated DCs as described above. Crafting a mythic construct requires the expenditure of a number of uses of mythic power equal to the construct’s mythic rank each day of construction.</p>\n<p>At the GM’s option, you can use this feat to create a sentient construct. Crafting a sentient construct increases the construct’s cost by 100% and increases the DC of all associated skill check DCs by 5; these adjustments stack with those for creating a mythic construct as described above if you also make a construct mythic. A sentient construct gains an Intelligence score equal to 3d6 Intelligence, increases its Charisma score by 1d3 Charisma, and gains 2 racial Hit Dice. It can speak one language that you know, plus one additional language that you know per point of its Intelligence bonus (if any). You cannot use this feat to grant sentience to a construct that already has an Intelligence score greater than 2. A sentient construct loses its immunity to mind-affecting effects and to Intelligence, Wisdom, and Charisma ability damage, drain, and penalties.A sentient construct is no longer under your control, though its initial attitude towards you is friendly.</p>\n<p>You can add mythic simple templates or sentience to an existing construct. Deduct the construct’s normal base cost from its final adjusted cost to determine the cost of adding these enhancements to the construct.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mythic-item-creation-feats#toc1\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mythic-item-creation-feats#toc1"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

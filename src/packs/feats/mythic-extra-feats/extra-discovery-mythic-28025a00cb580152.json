@@ -1,0 +1,121 @@
+{
+  "_id": "28025a00cb580152",
+  "_key": "!items!28025a00cb580152",
+  "name": "Extra Discovery (Mythic)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:mythic-extra-feats:current:feat:extra-discovery-mythic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/mythic-extra-feats#toc6",
+      "sourceSha256": "9565df32d29d661e0c99600590342aa12ecebcb4d4249fddd4d26ebf6c326013",
+      "descriptionSha256": "ef91b29ee12112e3ca174cabde9995bee7f283105759fb0e9bdd7d3df468a262",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "mythic-extra-feats",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:mythic-extra-feats:current:feat:extra-discovery-mythic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You have discovered something well outside your field.</p>\n<p><strong>Prerequisites:</strong> Extra Discovery<sup>APG</sup></p>\n<p><strong>Benefit:</strong> You gain a magus arcana, rage power, or rogue talent. You must meet the new ability’s prerequisites, treating your levels in the class you have with the discovery class feature as your magus, barbarian, or rogue level (as appropriate).</p>\n<p>If you select an ability that modifies abilities you do not have (such as choosing a talent that modifies your sneak attack when you have no sneak attack) or that requires resources you do not possess (such as taking a magus arcana that requires you to expend points from your arcane pool), the new ability is useless until you gain the appropriate ability or resource.</p>\n<p>The exception to this rule is a rage power. You may use a rage power when affected by your mutagen.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/mythic-extra-feats#toc6\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/mythic-extra-feats#toc6"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

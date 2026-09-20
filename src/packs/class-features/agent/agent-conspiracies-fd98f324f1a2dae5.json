@@ -1,0 +1,121 @@
+{
+  "_id": "fd98f324f1a2dae5",
+  "_key": "!items!fd98f324f1a2dae5",
+  "name": "Agent: Agent Conspiracies",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:agent:spheres-of-guile:class-feature:agent-conspiracies",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/agent#toc31",
+      "sourceSha256": "0a78d839d28638d323a529162671621aae42260b1dae059d81e613809c3febed",
+      "descriptionSha256": "97de6e20521e65d13b3bfbce69c25f128a7da23bf4ee151daf223b583a380bf9",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:agent:spheres-of-guile:class-feature:agent-conspiracies",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>An agent can choose one of the following conspiracies at 2nd level. It grants a skill sphere. At 3rd level, it determines the benefit of the web of secrets class feature. At 5th level, it opens up another way to use the coordinated combat class feature. Once chosen, the agent’s conspiracy cannot be changed (without retraining).</p>\n<h4>Censorship</h4>\n<p>The agent hunts down dangerous information, especially magical secrets. A censorship conspiracy might protect the innocent from evil magic, try to keep a guild’s secret techniques from being copied by those who would misuse it, or destroy anyone who even gets close to a secret at the heart of a government or magical artifact.</p>\n<p><strong>Sphere:</strong> Spellhacking</p>\n<p><strong>Web of Secrets:</strong> The agent’s co-conspirators track magical activity in the region. The agent can attempt a free Diplomacy check to gather information about a magic item, spellcaster, magical phenomenon, or creature with magical abilities within a week’s travel of the local settlement.</p>\n<p><strong>Coordinated Combat Option:</strong> The agent’s coordinated combat bonus and discerning strike damage apply as long as an ally has succeeded at a Knowledge (arcana or religion) check or Spellcraft check to learn about the target or the target’s items since the end of the agent’s last turn and told the agent. Coordinated combat also applies if any other creature succeeded at a dispel check or caster level check for a spell or ability that targets the creature or an item or spell on it since the end of the agent’s last turn.</p>\n<h4>Collusion</h4>\n<p>The agent interferes with diplomatic ventures and arranges clandestine alliances. A collusion conspiracy might be tied to a political movement, a noble house, or even a business.</p>\n<p><strong>Sphere:</strong> Communication</p>\n<p><strong>Web of Secrets:</strong> The agent’s co-conspirators watch potential allies or rivals closely. The agent can attempt a free Diplomacy check to gather information about a creature active in the local settlement.</p>\n<p><strong>Coordinated Combat Option:</strong> The agent’s coordinated combat bonus and discerning strike damage also apply as long as an ally has successfully used any language-dependent skill or ability on the target or the agent since the end of the agent’s last turn.</p>\n<h4>Counterintelligence</h4>\n<p>The agent can read any opponent like an open book. A counterintelligence conspiracy might be part of a government’s shadier side, a network of especially clever criminals, or aspiring revolutionaries.</p>\n<p><strong>Sphere:</strong> Investigation</p>\n<p><strong>Web of Secrets:</strong> The agent’s co-conspirators speculate about long-term ramifications of every event. The agent can spend 1 use of skill leverage to attempt a Sense Motive check as a free action to sense a goal or get a hunch about a creature they interacted with since last gathering information or preparing plans. They can always take 10 on this check.</p>\n<p><strong>Coordinated Combat Option:</strong> The agent’s coordinated combat bonus and discerning strike damage also apply as long as an ally has done any of the following since the end of the agent’s last turn:</p>\n<ul>\n<li>Successfully used the Investigation sphere analyze action on the opponent.</li>\n<li>Successfully used a divination or similar ability to learn about the opponent.</li>\n<li>Succeeded at a Perception or Sense Motive check with a result of at least 15 + the opponent’s Hit Dice.</li>\n<li>Pointed out the opponent when it was hiding, disguised, or using an illusion.</li>\n</ul>\n<p>In any case, the ally must tell their findings to the agent to trigger coordinated combat.</p>\n<h4>Enterprise</h4>\n<p>The agent is out for profitable treasure and valuable information. An enterprise conspiracy might be a cartel of ambitious traders, a front for a criminal organization, or agents of a mercantile government with dreams of economic alliance or conquest.</p>\n<p><strong>Sphere:</strong> Faction</p>\n<p><strong>Web of Secrets:</strong> The agent amasses information on everyone’s capabilities. The agent can spend 1 use of skill leverage to attempt an Appraise or Knowledge (local) check to learn about a creature or an item and can determine the result as if rolling a 20 on the die. The information is based on what could be gathered where the agent last gathered information or prepared plans.</p>\n<p><strong>Coordinated Combat Option:</strong> The agent’s coordinated combat bonus and discerning strike damage apply as long as an ally has succeeded at a Appraise, Craft, Diplomacy, Profession, or Sense Motive check with a result of at least 15 + the opponent’s Hit Dice against the opponent since the end of the agent’s last turn. The check can be to influence the opponent or to learn about the opponent or their items (in which case the ally must tell the agent what they learned). The bonus and damage also applies against any opponent that has taken an item from any other creature or had a creature other than the agent take an item from it since the end of the agent’s last turn.</p>\n<h4>Propaganda [SM—]</h4>\n<p><sup><strong>Source:</strong> Baron’s Uncanny Gateway</sup></p>\n<p>The agent uses the arts as tools of manipulation, expanding or concealing their agenda through pageantry. A propaganda conspiracy may be tied to community organizations seeking to build consciousness, public relations agencies trying to garner support for political action, or disruptive factions attempting to divert public opinion away from pressing matters.</p>\n<p><strong>Sphere:</strong> Performance</p>\n<p><strong>Web of Secrets:</strong> The agent’s allies use posters, barking, graffiti, or other methods to seed the agent’s presence throughout the community. Even those who do not directly experience the performance can feel it reverberating through the cultural consciousness. The agent can spend a use of skill leverage to attempt a free Perform check to Entertain, causing any creatures in the local settlement to be affected by the Entertain for 24 hours after the agent finishes using web of secrets.</p>\n<p><strong>Coordinated Combat Option:</strong> The agent’s coordinated combat bonus and discerning strike damage also apply as long as either the ally or the target are under the effect of any of the agent’s act, dance, instrumental, or lyric effects.</p>\n<h4>Reconnaissance [SM—]</h4>\n<p><sup><strong>Source:</strong> Baron’s Uncanny Gateway</sup></p>\n<p>The agent studies movement through areas as a scout or patrol, making note of secret passageways and environmental shapes that can be leveraged to their advantage. A reconnaissance conspiracy may be tied to a military division, an explorer’s guild, or a security agency.</p>\n<p><strong>Sphere:</strong> Navigation</p>\n<p><strong>Web of Secrets:</strong> The agent has eyes everywhere who can help them trace movements through a region or identify unconventional routes. Whenever the agent gathers information, they may select a specific settlement, structure, or hex of wilderness. Until the next time the agent gathers information, when rolling a Perception or Survival check in the chosen area, the agent treats any result of 9 or lower as a 10.</p>\n<p><strong>Coordinated Combat Option:</strong> The agent’s coordinated combat bonus and discerning strike damage also apply as long as both the ally and the target are within the agent’s pathing.</p>\n<h4>Revolt</h4>\n<p>The agent knows just what to say to make people angry and ready to rise up. A revolt conspiracy is often composed of freedom fighters against a hostile government, but could also be a labor movement against cruel employers, an organized crime ring that uses emotion as a smokescreen, or warmongering political operatives.</p>\n<p><strong>Sphere:</strong> Bluster (Intimidate skill)</p>\n<p><strong>Web of Secrets:</strong> The agent’s conspirators share news of the most recent government failures, crime, and political dissent, allowing a free Diplomacy check to gather information on that topic. Alternatively, the agent can attempt a DC 15 Intimidate check to have their contacts spread a rumor inciting revolt in the settlement. By spending 1 use of skill leverage, the agent can do both. The Intimidate result determines how far the rumor spreads: just among untrustworthy gossips (15), among folks interested in the subject (20), among the general populace (25), or the rumor becomes as good as common knowledge (30).</p>\n<p>Anyone who learns it and has a motivation disturbed by it must succeed at a Will saving throw against DC 10 + 1/2 agent level + agent’s operative ability modifier or become angry for 1 day. A creature that fails by 5 or more with fewer Hit Dice than the agent’s level becomes livid instead. If the rumor is a lie, the agent must attempt a Bluff check to determine if it is believed by each individual (convincing common lay people has base DC 11; individuals attempt an opposed Sense Motive check normally).</p>\n<p>If the result is at least 20, the agent can choose for an angry crowd to form in any publicly accessible place in the settlement that the agent chooses after 1 to 24 hours. The crowd fills a circular area with radius equal to the Intimidate check result in feet and angrily repeats the claims from the agent’s rumor. Any creature other than the agent that starts its turn in the crowd takes 1d8 points of bludgeoning damage, or 2d8 if the agent is at least 11th level. The agent can move the crowd up to 20 feet as a swift action without a check if within 60 feet. If the crowd meets a closed door, window, gate, or other aperture, it attempts to force it open with a Strength check result equal to 20 + the agent’s operative ability modifier. The crowd has AC 10 + half the agent’s level, a bonus to all saving throws equal to half the agent’s level, and hit points equal to the Intimidate check result. It disperses if reduced to 0 hit points.</p>\n<p><strong>Coordinated Combat Option:</strong> The agent’s coordinated combat bonus and discerning strike damage apply as long as the target is affected by a mind-affecting effect that is not harmless.</p>\n<h4>Speculation</h4>\n<p>The agent collects secret and forgotten knowledge. A speculation conspiracy might be a spy academy, a network of information brokers, or the employees of a rich and powerful mad alchemist.</p>\n<p><strong>Sphere:</strong> Study</p>\n<p><strong>Web of Secrets:</strong> The agent chooses two Knowledge or Lore skills and gets a bonus equal to half their agent level until they next gather information. At least one of the chosen skills must be a background skill. They can attempt checks with the chosen skills untrained.</p>\n<p><strong>Coordinated Combat Option:</strong> The agent’s coordinated combat bonus and discerning strike damage apply against opponents provided that an ally of the agent has taken an action to do any of the following since the end of the agent’s last turn:</p>\n<ul>\n<li>Gained any notions from the opponent using the agent’s Study sphere theorize ability or their own.</li>\n<li>Used a Study sphere breakthrough on the opponent.</li>\n<li>Revealed a plan directly involving the opponent.</li>\n<li>Succeeded at a Knowledge or Lore check about the target against a DC of at least 15 + target’s Hit Dice.</li>\n</ul>\n<h4>Treachery</h4>\n<p>The agent knows all there is to know about bending the truth and convincing others of what they need to believe. A treachery conspiracy might be composed of pragmatic propagandists, idealists working to persuade others of hard truths, liars trying to protect themselves or a certain group from the truth, well-organized con artists, or spies working to convert defectors from opposed factions.</p>\n<p><strong>Sphere:</strong> Bluster (Bluff skill)</p>\n<p><strong>Web of Secrets:</strong> The agent’s contacts share all the juiciest gossip, regardless of whether it is true. The agent can attempt a free Diplomacy check to gather information about the latest news or attempt a free Bluff check to spread a rumor. The agent can spend 1 use of skill leverage to do both.</p>\n<p>The Bluff result determines how far the rumor spreads: just among untrustworthy gossips (15), among folks interested in the subject (20), among the general populace (25), or the rumor becomes as good as common knowledge (30).</p>\n<p>If the rumor is a lie, the agent’s Bluff check result determines if it is believed by each individual (convincing the average lay person is DC 10; individuals attempt an opposed Sense Motive check normally).</p>\n<p><strong>Coordinated Combat Option:</strong> The agent’s coordinated combat bonus and discerning strike damage apply as long as the target has a disorientation condition or is in the threatened area of any creature other than the agent, even one of the target’s allies.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/agent#toc31\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/agent#toc31"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

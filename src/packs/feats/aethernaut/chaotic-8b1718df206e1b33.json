@@ -1,0 +1,121 @@
+{
+  "_id": "8b1718df206e1b33",
+  "_key": "!items!8b1718df206e1b33",
+  "name": "Chaotic",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:aethernaut:current:feat:chaotic",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/aethernaut#toc58",
+      "sourceSha256": "cd774d1a82f266aca5716be895c0f51e1e0bb4993ad8ac1c77eb98a14131138f",
+      "descriptionSha256": "eec955e0474560a529483931a1acceed785440bb04b38b8a872faa1fe95471af",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features > Aethernaut Planar Masteries",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:aethernaut:current:feat:chaotic",
+        "kind": "feat"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Aura</strong> evocation or chaotic</p>\n<p><strong>Planar Precision:</strong> If you have mastered this plane or are on this plane, you can use precision to affect the ranged attack roll of any creature you can hear within 60 feet. If you cause an attack to miss this way, apply the new attack roll against another random target within range.</p>\n<p><strong>Rift Edges:</strong> Chaotic phenomena are roiling, unformed proto-matter.</p>\n<strong>Faint Rift edges</strong>\n<p> (Roll 1d4, on a 4 choose the result)</p>\n<table>\n<tbody><tr>\n<td>1</td>\n<td>4 points of anarchic damage (none to chaotic creatures, double to lawful creatures)</td>\n</tr>\n<tr>\n<td>2</td>\n<td>the next attack roll against the target is rolled twice, taking the higher result, and counts as chaotic for DR and regeneration</td>\n</tr>\n<tr>\n<td>3</td>\n<td>ill omen<sup>APG</sup></td>\n</tr>\n</tbody></table>\n<strong>Moderate Rift edges</strong>\n<p> (Roll 1d4, on a 4 choose the result)</p>\n<table>\n<tbody><tr>\n<td>1</td>\n<td>12 points of anarchic damage (none to chaotic creatures, double to lawful creatures)</td>\n</tr>\n<tr>\n<td>2</td>\n<td>target rolls twice for damage and takes the lower result</td>\n</tr>\n<tr>\n<td>3</td>\n<td>twisted space<sup>UC</sup></td>\n</tr>\n</tbody></table>\n<strong>Strong Rift edges</strong>\n<p> (Roll 1d4, on a 4 choose the result)</p>\n<table>\n<tbody><tr>\n<td>1</td>\n<td>36 points of anarchic damage (none to chaotic creatures, double to lawful creatures)</td>\n</tr>\n<tr>\n<td>2</td>\n<td>confusion on target only</td>\n</tr>\n<tr>\n<td>3</td>\n<td>whenever the target rolls d20, it rolls twice and takes the lower result</td>\n</tr>\n</tbody></table>\n<p><strong>Rift Wards:</strong></p>\n<ul>\n<li><strong>Faint Rift Ward:</strong> protection from law; if you have magic circle against law, its radius is 20 feet</li>\n<li><strong>Moderate Rift Ward:</strong> the first time you make a saving throw each round, you roll twice and take the better result</li>\n<li><strong>Strong Rift Ward:</strong> magic circle against law</li>\n</ul>\n<p><strong>Mastery Benefit:</strong> In addition to accessing the above outside this plane, for the purpose of bypassing damage reduction, your manufactured and natural weapons count as lawful or one special material appropriate for harming natives of the plane (your choice when you master this plane).</p>\n<p><a href=\"http://spheresofpower.wikidot.com/aethernaut#toc58\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "feat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/aethernaut#toc58"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "_id": "7f4b16e4065d23a1",
+  "_key": "!items!7f4b16e4065d23a1",
+  "name": "Wildcard: Playing Cards/Portents",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:wildcard:current:class-feature:playing-cards-portents",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/wildcard#toc6",
+      "sourceSha256": "20221fac27d8611d184fe297487329dc8f4a77cdb96ee11ef29bae57306bf096",
+      "descriptionSha256": "e8465c54ce0333bba006d020ff466f92d7005c45aab3e846f05cf612e3a4a1ec",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:wildcard:current:class-feature:playing-cards-portents",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>All portents have an activation time, detailing what kind of action must be expended in order to play it. If the portent can be played as a swift or immediate action, playing that portent does not provoke attacks of opportunity. If the portent can be played as a move or standard action, playing it provokes attacks of opportunity.</p>\n<p>Playing a portent simultaneously casts it. The two events, the playing of the portent and the casting of the portent, are separate triggers. If the portent is counterspelled, fails to penetrate Spell Resistance, fizzles due to a failed concentration check, or otherwise finds a way to fail, then all effects that trigger off of the portent casting fail; however, since it was successfully played even though the casting was a failure, all effects that trigger from the playing of the portent still function. A portent cannot be played if it be incapable of working, such as in an antimagic field.</p>\n<p>Unless otherwise noted, a portent targets the caster if its range is personal and a single creature within range if its range is greater than personal</p>\n<p>Whenever a wildcard plays a greater portent, he shuffles all lesser portents in his discard pile into his active deck.</p>\n<p>Whenever a wildcard plays a lesser portent, he shuffles all least portents in his discard pile into his active deck. A wildcard may draw a card once per round as a move action.</p>\n<h3>Terminology</h3>\n<ul>\n<li><strong>Active Deck</strong> - The active deck is the deck with which you play a cartomancer. The rules for constructing an active deck are listed above.</li>\n<li><strong>Collection</strong> - Your collection is the sum of all cards that a cartomancer knows, but does not include in a deck. Remember, cartomancers begin play with all cards, even though they do not have the ability to put all of those cards into their active deck at 1st level. By extension, since cartomancers eventually gain the ability to put a duplicate copy of least portents into their decks, that least portent is considered to be in both a deck and in the collection should only one copy be in a deck.</li>\n<li><strong>Discard</strong> - A card that goes to your discard pile without being played is considered discarded. A card that is discarded, usually by the effects of a portent or as an additional cost of using a seal ability, (see the seals class feature) does not trigger on-play abilities. For example, a discarded greater portent does not shuffle all lesser portents from the discard pile into the active deck.</li>\n<li><strong>Discard Pile</strong> - Cards that are played or discarded go to the discard pile.</li>\n<li><strong>Draw</strong> - To draw a card, take the top card of your active deck and put it into your hand. You cannot draw a card if drawing a card would make you exceed your maximum hand size.</li>\n<li><strong>Hand</strong> - When a card is drawn, it goes to your hand. A card must be in your hand in order to play it. Before you create a cartomancer, speak with your GM to determine whether the contents of your hand will be public information or private information. Other options, such as showing the contents of your hand to your party, but keeping it hidden from the GM, are possible, but may upset people. Precisely how your group chooses to work it is immaterial, so long as it works for your group and you follow it once chosen. Consistency between NPC cartomancers and PC cartomancers is also immaterial. If your group decides to make your hand public, there is no obligation on your GM's part to make a cartomancer villain play with a public hand.</li>\n<li><strong>Maximum Hand Size</strong> - Unless a portent says otherwise, you cannot have more cards in your hand than your maximum hand size, which is 2 + 1 for every five class levels.</li>\n<li><strong>Monty Deck</strong> - A Monty deck is granted by the Three Card Monty feat. The Monty deck never interacts with the active deck or discard pile unless otherwise specified.</li>\n<li><strong>Reveal</strong> - To reveal a card, flip the top card of your active deck face-up onto the table (or other playing surface). This mechanic is usually used in two-step abilities with an if/then approach to their functionality.</li>\n</ul>\n<p><a href=\"http://spheresofpower.wikidot.com/wildcard#toc6\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/wildcard#toc6"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

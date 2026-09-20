@@ -1,0 +1,124 @@
+{
+  "_id": "0777b9f18ae6b587",
+  "_key": "!items!0777b9f18ae6b587",
+  "name": "Safe House (supply)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:faction:spheres-of-guile:guile-talent:safe-house-supply",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/faction#toc44",
+      "sourceSha256": "c0949a2288b14f9bce4a04a73230598f8b6178c048d9a36fc6899ead8b33b209",
+      "descriptionSha256": "302092da3bcd62f0d3f79a704ffb34fbffbcb3f10b63913b3f1314cc0ed8b866",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Supply Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:faction:spheres-of-guile:guile-talent:safe-house-supply",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "faction"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You gain use of a secure location wherever you can requisition by spending 1 authorization. The safe house is up to a 10-foot cube per rank in the associated skill you possess, is unobtrusive, and is warded against divination magic. It is stocked with provisions to last five Medium humanoids a week, restocked weekly by servants who do not know its function. Your safe house is protected by a permanent audible alarm spell with caster level equal to your number of associated skill ranks.</p>\n<p>The minimum skill check DC to locate the safe house is equal to 20 + your associated skill ranks. This includes Survival checks to track your group there, Perception checks to notice it, and Knowledge (local) or Diplomacy checks to recall or gather information about it. Divination spells fail to reveal anything about your safe house and anyone or anything inside unless the caster succeeds at a caster level check against DC 15 + your associated skill ranks. The safe house has a lock with Disable Device DC 25 + your associated skill ranks. You can requisition from within the safe house, but doing so cumulatively reduces the above DCs by 2 for 1 week.</p>\n<p>If you have the Assured Lifestyle talent, the safe house can be any innocuous building up to the same size as your home and it provides comforts suitable to your lifestyle for 2 creatures per rank in the associated skill you possess. If you have the Restful Refuge talent, its benefits apply without risking the security unless you bring in a hireling spellcaster.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/faction#toc44\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/faction#toc44"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

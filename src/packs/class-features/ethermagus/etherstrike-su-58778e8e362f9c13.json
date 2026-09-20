@@ -1,0 +1,121 @@
+{
+  "_id": "58778e8e362f9c13",
+  "_key": "!items!58778e8e362f9c13",
+  "name": "Ethermagus: Etherstrike (Su)",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:ethermagus:current:class-feature:etherstrike-su",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/ethermagus#toc9",
+      "sourceSha256": "1b323c053f1c1116bbd202d36f4e31757a6b20e2505064c4764fc418c7cccca6",
+      "descriptionSha256": "a49197caa3eb66ec2d139c4fc00e88e7a2009380672e1f5a074e3279a48b7366",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "category": "Class Features",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:ethermagus:current:class-feature:etherstrike-su",
+        "kind": "class-feature"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>At 2nd level, whenever an ethermagus casts a lesser blast etherspell, he can deliver the etherspell through his void blade as part of a melee attack. Instead of the ranged touch attack normally made to deliver the spell, the ethermagus can make one free melee attack with his weapon (at his highest base attack bonus) as part of the etherspell. If successful, this melee attack deals its normal damage as well as the effects of the blast etherspell. If the ethermagus makes this attack in concert with ether combat, this melee attack takes all the penalties accrued by ether combat melee attacks. This attack uses the weapon’s critical range (20, 19–20, or 18–20 and modified by the keen weapon property or similar effects), but the etherspell effect only deals ×2 damage on a successful critical hit, while the weapon damage uses its own critical modifier. An ethermagus may hold the charge after a miss with an etherstrike as though the etherspell were a spell delivered via a melee touch.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/ethermagus#toc9\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "classFeat",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/ethermagus#toc9"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

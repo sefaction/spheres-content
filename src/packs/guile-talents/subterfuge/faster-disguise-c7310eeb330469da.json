@@ -1,0 +1,124 @@
+{
+  "_id": "c7310eeb330469da",
+  "_key": "!items!c7310eeb330469da",
+  "name": "Faster Disguise",
+  "type": "feat",
+  "img": "icons/svg/book.svg",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:subterfuge:spheres-of-guile:guile-talent:faster-disguise",
+      "collection": "wiki-intake-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/subterfuge#toc18",
+      "sourceSha256": "8b57b227319f2d8db1313f34f0b88da6fa51923fa7155f44d165a790c7e42905",
+      "descriptionSha256": "8bfb110e1b59c8083736b8ef1cf2d7eb5a692891b8d0200b855eae1b5ca1aa94",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "spheres-of-guile",
+      "category": "Subterfuge Talents",
+      "intake": {
+        "status": "draft",
+        "auditKey": "wiki:subterfuge:spheres-of-guile:guile-talent:faster-disguise",
+        "kind": "guile-talent"
+      },
+      "audit": {
+        "image": "needed",
+        "activation": "needs-review",
+        "changes": "needs-review",
+        "contextNotes": "needs-review",
+        "usage": "needs-review",
+        "links": "needs-review",
+        "advanced": "needs-review",
+        "classFeatures": "not-applicable",
+        "compatibility": "needs-review",
+        "reuse": "needs-review",
+        "description": "needs-review",
+        "rights": "implemented"
+      }
+    },
+    "pf1spheres": {
+      "sphere": "subterfuge"
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p>You can use fast disguise as a standard action and never take a penalty for creating a disguise quickly. You can change your appearance so fast that creatures might not register your previous appearance. If you use fast disguise during the surprise round, you compare your Disguise check result against a DC for each creature who has not yet acted and was not aware of your presence before the action that caused initiative to be rolled. The DC is 10 + that creature’s Perception modifier. Each creature you succeed against does not notice your previous appearance. If you fail by 5 or less, the creature notices you changing your appearance enough to register that you are now disguised but did not notice enough of your previous appearance to recognize it even if they have seen that appearance before.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/subterfuge#toc18\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "subType": "skillTalent",
+    "disabled": false,
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {},
+    "sources": [
+      {
+        "title": "Spheres of Power Wiki",
+        "url": "http://spheresofpower.wikidot.com/subterfuge#toc18"
+      }
+    ]
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}
