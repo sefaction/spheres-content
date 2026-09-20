@@ -4,7 +4,7 @@
   "summary": {
     "entries": 963,
     "withCandidates": 24,
-    "reviewed": 9,
+    "reviewed": 10,
     "stale": 0,
     "unavailablePacks": 1
   },
@@ -347,8 +347,8 @@
         "state": "existing-preserved",
         "reason": null
       },
-      "review": "needs-review",
-      "decision": null,
+      "review": "reviewed",
+      "decision": "adapt",
       "candidates": [
         {
           "name": "Trail Rations",
@@ -361,7 +361,7 @@
           "img": "systems/pf1/icons/items/inventory/meat.jpg",
           "hasDescription": true,
           "physical": true,
-          "decision": null
+          "decision": "adapt"
         }
       ]
     },
@@ -7784,7 +7784,7 @@
         "reason": null
       },
       "review": "reviewed",
-      "decision": "reject-matches",
+      "decision": "adapt",
       "candidates": [
         {
           "name": "Hidden Blade",

@@ -108,6 +108,12 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
       "Reused snapshot changed",
     );
     assert.equal(doc.type, identity.type, "Contained item type changed");
+  } else if (identity.actionsSha256) {
+    assert.equal(
+      hash(JSON.stringify(s.actions)),
+      identity.actionsSha256,
+      "Unreviewed native actions",
+    );
   } else
     assert.deepEqual(
       s.actions,
@@ -192,7 +198,16 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
       "Automatic class associations are deferred",
     );
   } else {
-    if (doc.type === "loot") assert.equal(s.subType, "gear");
+    if (doc.type === "loot") {
+      if (meta.nativeProfile === "trail-rations") {
+        assert.equal(s.subType, "food");
+        assert.equal(s.equipped, false);
+        assert.equal(s.uses.per, "single");
+        assert.equal(s.actions.length, 1);
+        assert.equal(s.actions[0].name, "Use");
+        assert.equal(s.actions[0].activation.type, "nonaction");
+      } else assert.equal(s.subType, "gear");
+    }
     if (doc.type === "consumable")
       assert(["misc", "potion"].includes(s.subType));
     if (doc.type === "equipment") {
@@ -209,10 +224,30 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
         assert.equal(s.spellFailure, 0);
       }
     }
-    if (doc.type === "weapon") {
+    if (doc.type === "weapon" && options.contained) {
       assert.equal(s.subType, "simple");
       assert.equal(s.weaponSubtype, "light");
       assert.deepEqual(s.material.addon, ["alchemicalSilver"]);
+    }
+    if (
+      doc.type === "weapon" &&
+      meta.nativeProfile === "hidden-blade-longsword"
+    ) {
+      assert.equal(s.subType, "martial");
+      assert.equal(s.weaponSubtype, "1h");
+      assert.equal(s.hands, 1);
+      assert.deepEqual(s.baseTypes, ["Longsword"]);
+      assert.deepEqual(s.weaponGroups, ["bladesHeavy"]);
+      assert.equal(s.material.base.value, "steel");
+      assert.equal(s.masterwork, true);
+      assert.equal(s.enh, 3);
+      assert.equal(s.actions.length, 1);
+      assert.equal(s.actions[0].actionType, "mwak");
+      assert.equal(s.actions[0].ability.critRange, 19);
+      assert.equal(
+        s.actions[0].damage.parts[0].formula,
+        "sizeRoll(1, 8, @size)",
+      );
     }
     assert(Number.isFinite(s.price) && s.price >= 0);
     assert(Number.isFinite(s.weight?.value) && s.weight.value >= 0);

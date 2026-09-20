@@ -2,56 +2,33 @@
 
 Updated: 2026-09-20 (work began 2026-09-19 local time).
 
-## Current batch: physical-item reuse review
+## Current batch: native weapon and consumable review
 
-- Branch content/physical-item-review, stacked on content/systematic-intake / PR
-  #9; issue #10. No merge or release approval. Starting commit 9679df0 was clean,
-  both CI jobs passed, and remote alpha.4 matches its deployment receipt identity.
-- Alpha.5 adapts three stable item identities: empty Adventurer's Sash container,
-  Filter Scarf clothing and umbrella physical record with retained wiki schematic.
-  Six unrelated namesakes are explicitly rejected. Native conditional modifiers
-  remain deferred. Two generated 256px WebP images total 11,308 bytes; the scarf
-  uses a visually inspected core reference. Full generated sources remain local.
-- New audit:reuse command covers 963 current physical candidates (including held
-  pages), finds 24 with name/reordered-name candidates, and records nine reviewed,
-  zero stale. Refreshed 56-pack / 37,708-record reuse index; Roll Bonuses pack with
-  lost directory remains unavailable. New match: Trail Rations; quantity/use
-  behavior should be reviewed in a follow-up. Hidden Blade still needs a native
-  weapon profile rather than generic equipment; tracked with issue #10 findings.
-- Runtime/source commit e3cd4c22e39aca685a128d9d2e39983dcffeaf5e is pushed.
-  Full clean verification passed 27 tests, complete 6,788-document compiled
-  round trips and two identical 682-file archives; review ZIP SHA-256 is
-  2eb96fd612190c73b725f2d020dc4320ca1f2bbe1a330b571e483502a6d36416.
-- Alpha.5 deployed through the staged helper. Seven backups remain and none were
-  deleted. Strict package and nine external-image hashes passed. No container or
-  host restart occurred.
-- Remote acceptance passed on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0 with
-  only ASC alpha.5 and the framework active. All five packs appear. Sash, scarf
-  and umbrella native sheets show the reviewed type, price, weight, description
-  and artwork. Native actor JSON import produced 6 lb / 27 gp: the umbrella began
-  inside the sash, native Take moved it to actor Gear while totals stayed fixed,
-  and the empty sash became 3 lb. The scarf equipped toggle works and adds no
-  authored modifier. Browser capture has no ASC errors; only existing PF1 and
-  framework deprecation warnings. Server records since deployment contain 152
-  info entries and one unrelated failed player-login warning followed by a
-  successful login; no daily error file exists.
-- The dedicated world is back in Setup. Final installed semantic audit passed:
-  all 6,788 pack documents match canonical sources at the deployed commit,
-  non-pack bytes match the deployment receipt, and all nine referenced image
-  hashes pass. Only local copies of installed LevelDB were opened.
-- Draft PR #11 is open against content/systematic-intake:
-  https://github.com/sefaction/spheres-content/pull/11. Its Windows and Ubuntu
-  validation jobs passed. No merge, release or world migration is authorized.
-  Next safe step after CI is to choose the next reviewed physical-item batch,
-  with Hidden Blade's weapon profile and Trail Rations' quantity/use behavior as
-  concrete candidates.
+- PRs #2, #4, #9 and #11 were merged into `main` with the user's explicit
+  approval. Their resolved issues are closed; issue #3 remains the broad catalog
+  umbrella and issue #12 tracks GitHub Actions' Node 24 dependency update.
+- Branch `content/native-weapon-consumable-review`; issue #13. Alpha.6 preserves
+  both stable identities. Hidden Blade is now a native +3 martial longsword with
+  PF1 11.11's reviewed attack action, weapon categories and system artwork plus
+  the wiki's CL 10 and Illusion aura. Glamered and its +3 Illusion implement role
+  stay descriptive because pf1spheres 0.9.0 exposes no stable item field for the
+  implement bonus. Trail Rations is native food with PF1's single-use action and
+  system artwork while retaining wiki text, price and weight.
+- Exact source UUIDs/hashes, adaptation decisions, output hashes and action-array
+  hashes are pinned. The two PF1 images were visually inspected and are referenced
+  without redistributing bytes. The refreshed physical report has 963 entries,
+  24 candidate-bearing entries, ten reviewed, zero stale and one unavailable pack.
+- Local verification passes 29 tests, source/reference validation, complete
+  6,788-document compiler round trips and deterministic 682-file archive builds.
+  Deployment and remote acceptance are pending. No merge, release, world migration
+  or container restart is included.
 
 ## Prior completed batch: systematic wiki intake
 
-- Active branch: content/systematic-intake. Draft PR #9:
-  https://github.com/sefaction/spheres-content/pull/9, stacked on #4. Issue #8
-  tracks the intake; #3 remains the broader catalog, #6 the native source labels.
-  No merge or release is authorized. The user authorized ten rolling module
+- Completed branch: content/systematic-intake. PR #9:
+  https://github.com/sefaction/spheres-content/pull/9 merged into `main` after
+  explicit approval. Issue #8 tracked the intake; #3 remains the broader catalog.
+  The user authorized ten rolling module
   backups, deleting the oldest excess copies after verified deployments.
 - Runtime/source implementation commit: fa07d6bc62a329f4088585516af52db8136f8094.
   Documentation evidence follows it. Full clean verification passed on that commit:
@@ -107,7 +84,7 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   external image hashes pass. Remote LevelDB was inspected through local copies.
 - Next safe step: review the intake coverage/hold and per-entity audit queues
   with the user, then select a coherent artwork, reuse or semantic-review batch.
-  PRs #2/#4/#9 remain unmerged; no release or broader compatibility claim.
+  PRs #2/#4/#9 later merged into `main`; no release or broader compatibility claim.
 
 ## Prior completed batch: packaged kit components
 

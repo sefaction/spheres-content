@@ -198,8 +198,8 @@
     "pageSha256": "f43beedae4d13c401a55e4c9a04c8211105875d4d83394920f539ca12edf879b",
     "descriptionSha256": "a0750a5036d9758c7053ca99fdbee82f6677eec71a3e313cd9b0931706732ddb",
     "reviewed": "2026-09-20",
-    "decision": "reject-matches",
-    "reason": "The combat talent conceals weapons; this item is a +3 glamered longsword and Illusion implement. A later native weapon-profile correction is required.",
+    "decision": "adapt",
+    "reason": "Reject the unrelated talent name match. Adapt PF1 11.11's native longsword profile, attack action and system artwork; apply the wiki's +3 enhancement, price, weight, caster level and Illusion aura. Keep glamered and the +3 Illusion implement role descriptive because no stable pf1spheres item field was found.",
     "candidates": [
       {
         "name": "Hidden Blade",
@@ -222,7 +222,36 @@
         "changes": 0,
         "contextNotes": 0
       }
-    ]
+    ],
+    "adaptationSource": {
+      "name": "Longsword",
+      "uuid": "Compendium.pf1.weapons-and-ammo.Item.zWRlna42PMJVX6un",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "weapons-and-ammo",
+      "sha256": "5a925c687a2d921066095d8bb75e34601e5b35f08709109ba28966f1646ea173",
+      "type": "weapon",
+      "decision": "adapt",
+      "reason": "Native martial one-handed longsword profile supplies the correct base weapon groups, steel material, 19-20 critical range, 1d8 slashing damage and attack action.",
+      "descriptionFields": {
+        "value": 0,
+        "instructions": 0,
+        "unidentified": 43
+      },
+      "price": 15,
+      "weight": 4,
+      "img": "systems/pf1/icons/items/weapons/longsword.png",
+      "actions": 1,
+      "changes": 0,
+      "contextNotes": 0
+    },
+    "output": {
+      "file": "src/packs/items/implements/hidden-blade-8f74960ccb773c7e.json",
+      "id": "8f74960ccb773c7e",
+      "type": "weapon",
+      "sha256": "85f79e0fa87e9192bfa762fb5d8ba8dd37971387640b78bdaadf68f3d977794c",
+      "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.zWRlna42PMJVX6un"
+    }
   },
   "wiki:implements:ultimate:item:liquid-courage": {
     "pageSha256": "f43beedae4d13c401a55e4c9a04c8211105875d4d83394920f539ca12edf879b",
@@ -389,6 +418,44 @@
       "type": "loot",
       "sha256": "bf178c06a5c8c65196570673d96827add244d84bd81ee6a882818e14ef90b41d",
       "sourceUuid": "Compendium.pf-content.pf-items.Item.BW2xVLpny6o7QEuE"
+    }
+  },
+  "wiki:adventuring-gear:current:item:rations-trail": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "898b93ff039f954993bf582d63c27ca48d64194b21bb75350ba7bc4db80aa084",
+    "reviewed": "2026-09-20",
+    "decision": "adapt",
+    "reason": "Adapt PF1 11.11 Trail Rations as native food with its single-use action and preserved-food image. Retain the wiki's highlands description, price and weight.",
+    "candidates": [
+      {
+        "name": "Trail Rations",
+        "uuid": "Compendium.pf1.items.Item.manvtbznrwjmnrua",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "sha256": "ff38d17b719746bdd5f32f27790f357e5447f45d056969202f62e36223fea716",
+        "type": "loot",
+        "decision": "adapt",
+        "reason": "Native PF1 food profile supplies the appropriate single-use action, one-unit consumption behavior and suitable system artwork.",
+        "descriptionFields": {
+          "value": 282,
+          "instructions": 0,
+          "unidentified": 0
+        },
+        "price": 0.5,
+        "weight": 1,
+        "img": "systems/pf1/icons/items/inventory/meat.jpg",
+        "actions": 1,
+        "changes": 0,
+        "contextNotes": 0
+      }
+    ],
+    "output": {
+      "file": "src/packs/items/adventuring-gear/rations-trail-56f77eba420e100d.json",
+      "id": "56f77eba420e100d",
+      "type": "loot",
+      "sha256": "8cb8b879f1cc8746d7a7562466ce352f834394c53a244e8754a7221b6083042e",
+      "sourceUuid": "Compendium.pf1.items.Item.manvtbznrwjmnrua"
     }
   }
 }

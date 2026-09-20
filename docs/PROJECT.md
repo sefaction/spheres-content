@@ -8,7 +8,7 @@
 - Repository: https://github.com/sefaction/spheres-content (public).
 - Primary source: http://spheresofpower.wikidot.com/.
 - Obsidian hub: vault `Foundry-AI`, `20 - Projects/Personal/Additional Spheres Content.md`.
-- Module version policy: semantic versioning; `0.1.0-alpha.5` is an unpublished physical-item review draft.
+- Module version policy: semantic versioning; `0.1.0-alpha.6` is an unpublished native item-profile review draft.
 
 ## Compatibility
 
@@ -56,7 +56,7 @@ a 32 KiB budget, preserving readable category folders and meaningful shared icon
 Retain small compatibility PNGs for old imported paths. New bulk drafts use
 explicit core placeholders until existing artwork is reviewed or art is generated.
 
-The current coherent review batch adapts the sash, filter scarf and umbrella,
-records six rejected namesakes and introduces a physical-item reuse report.
-See [the physical-item review](PHYSICAL_ITEM_REVIEW.md). The full descriptive
-catalog, artwork and mechanics remain unfinished.
+The current coherent review batch corrects Hidden Blade to a native +3 longsword
+and Trail Rations to native single-use food. It follows the sash, filter scarf
+and umbrella review recorded in [the physical-item review](PHYSICAL_ITEM_REVIEW.md).
+The full descriptive catalog, artwork and mechanics remain unfinished.

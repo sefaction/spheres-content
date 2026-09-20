@@ -1,5 +1,14 @@
 # Changelog
 
+## 0.1.0-alpha.6 - Unreleased
+
+- Correct Hidden Blade to a native +3 martial longsword with PF1's reviewed
+  attack profile, caster level, Illusion aura and system artwork.
+- Correct Trail Rations to native PF1 food with a reviewed single-use action
+  and preserved-food artwork while retaining the wiki price, weight and text.
+- Pin adapted source snapshots and action hashes. Existing world copies are
+  unchanged; glamered and Illusion-implement behavior remains descriptive.
+
 ## 0.1.0-alpha.5 - Unreleased
 
 - Add repeatable physical-item reuse reports with alternate word-order matching,

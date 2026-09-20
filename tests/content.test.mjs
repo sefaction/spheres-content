@@ -168,3 +168,47 @@ test("container validation rejects missing contents, double counting, broken chi
     );
   }
 });
+
+test("reviewed Hidden Blade and Trail Rations use pinned native PF1 profiles", async () => {
+  const { catalog, docs } = await validateContentCatalog();
+  const identities = await json("config/identities.json");
+  const intakeSources = await json("config/intake-sources.json");
+  const sources = new Map(
+    catalog.sources.map((source) => [source.key, source]),
+  );
+  const assets = new Map(
+    catalog.externalAssets.map((asset) => [asset.path, asset]),
+  );
+  const hiddenBlade = docs.find(
+    ({ doc }) => doc._id === "8f74960ccb773c7e",
+  ).doc;
+  const rations = docs.find(({ doc }) => doc._id === "56f77eba420e100d").doc;
+
+  assert.equal(hiddenBlade.type, "weapon");
+  assert.equal(hiddenBlade.system.enh, 3);
+  assert.equal(hiddenBlade.system.cl, 10);
+  assert.deepEqual(hiddenBlade.system.baseTypes, ["Longsword"]);
+  assert.equal(hiddenBlade.system.actions[0].ability.critRange, 19);
+  assert.equal(
+    hiddenBlade.system.actions[0].damage.parts[0].formula,
+    "sizeRoll(1, 8, @size)",
+  );
+  assert.match(hiddenBlade.system.description.value, /\+3 Illusion implement/);
+
+  assert.equal(rations.type, "loot");
+  assert.equal(rations.system.subType, "food");
+  assert.equal(rations.system.uses.per, "single");
+  assert.equal(rations.system.actions[0].name, "Use");
+  assert.equal(rations.system.equipped, false);
+
+  for (const original of [hiddenBlade, rations]) {
+    const changed = structuredClone(original);
+    changed.system.actions[0].name = "Unreviewed";
+    const identity = identities.find((entry) => entry.id === original._id);
+    assert.throws(
+      () =>
+        validateEntity(changed, identity, sources, assets, { intakeSources }),
+      /Unreviewed native actions/,
+    );
+  }
+});
