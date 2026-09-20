@@ -32,9 +32,9 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   https://github.com/sefaction/spheres-content/pull/14. The dedicated world is
   back in Setup. Final semantic audit matched all 6,788
   documents, non-pack receipt bytes and referenced images at the deployed commit.
-  No release, world migration or container restart is included. CI is pending;
-  GM actor checks can follow after the user signs in or supplies a current
-  temporary world password through the browser.
+  No release, world migration or container restart is included. Both PR validation
+  jobs passed. GM actor checks can follow after the user signs in or supplies a
+  current temporary world password through the browser.
 
 ## Prior completed batch: systematic wiki intake
 
