@@ -299,5 +299,213 @@
       "sourceSha256": "bbb46e4451d4a33575e3bc11dbe7e65dd9faff1c7e38429167f2ba210e115c75",
       "reason": "The complete source description and exploration benefit are retained."
     }
+  },
+  "wiki:adventuring-gear:current:item:meat-pie": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "5bc470daced6449d92e7c8c4d0bb5133ca686b68c337fd26b65758157a066db1",
+      "reason": "Original generated 256 px WebP depicts the specific highland meat pie and is registered with source, crop and encoding hashes."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "5bc470daced6449d92e7c8c4d0bb5133ca686b68c337fd26b65758157a066db1",
+      "reason": "A pinned non-action Use action provides native PF1 consumable handling."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "5bc470daced6449d92e7c8c4d0bb5133ca686b68c337fd26b65758157a066db1",
+      "reason": "The meat pie grants no rules bonus in the source."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "5bc470daced6449d92e7c8c4d0bb5133ca686b68c337fd26b65758157a066db1",
+      "reason": "The meat pie has no conditional roll modifier in the source."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "5bc470daced6449d92e7c8c4d0bb5133ca686b68c337fd26b65758157a066db1",
+      "reason": "One pie is one meal and uses a single-use miscellaneous consumable profile that decrements an actor-owned stack."
+    },
+    "links": {
+      "state": "implemented",
+      "sourceSha256": "5bc470daced6449d92e7c8c4d0bb5133ca686b68c337fd26b65758157a066db1",
+      "reason": "Native consumable charge links are present; there are no child documents."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "5bc470daced6449d92e7c8c4d0bb5133ca686b68c337fd26b65758157a066db1",
+      "reason": "Price, weight and single-meal consumable profile were reviewed."
+    },
+    "compatibility": {
+      "state": "not-applicable",
+      "sourceSha256": "5bc470daced6449d92e7c8c4d0bb5133ca686b68c337fd26b65758157a066db1",
+      "reason": "No PF1 Spheres integration field is required."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "5bc470daced6449d92e7c8c4d0bb5133ca686b68c337fd26b65758157a066db1",
+      "reason": "The compendium index contains no exact or normalized meat-pie match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "5bc470daced6449d92e7c8c4d0bb5133ca686b68c337fd26b65758157a066db1",
+      "reason": "The complete source description, varieties, price, quality and weight are retained."
+    }
+  },
+  "wiki:adventuring-gear:current:item:pastry": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "ee5f5c6921e214d4ebb16ac988de2ba0ca7604fdf91b87dae618b9edc07512d1",
+      "reason": "Original generated 256 px WebP depicts a highland scone and shortbread and is registered with source, crop and encoding hashes."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "ee5f5c6921e214d4ebb16ac988de2ba0ca7604fdf91b87dae618b9edc07512d1",
+      "reason": "A pinned non-action Use action provides native PF1 consumable handling."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "ee5f5c6921e214d4ebb16ac988de2ba0ca7604fdf91b87dae618b9edc07512d1",
+      "reason": "The pastry grants no rules bonus in the source."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "ee5f5c6921e214d4ebb16ac988de2ba0ca7604fdf91b87dae618b9edc07512d1",
+      "reason": "The pastry has no conditional roll modifier in the source."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "ee5f5c6921e214d4ebb16ac988de2ba0ca7604fdf91b87dae618b9edc07512d1",
+      "reason": "One serving uses a single-use miscellaneous consumable profile that decrements an actor-owned stack."
+    },
+    "links": {
+      "state": "implemented",
+      "sourceSha256": "ee5f5c6921e214d4ebb16ac988de2ba0ca7604fdf91b87dae618b9edc07512d1",
+      "reason": "Native consumable charge links are present; there are no child documents."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "ee5f5c6921e214d4ebb16ac988de2ba0ca7604fdf91b87dae618b9edc07512d1",
+      "reason": "Price, weight, quality and consumable profile were reviewed."
+    },
+    "compatibility": {
+      "state": "not-applicable",
+      "sourceSha256": "ee5f5c6921e214d4ebb16ac988de2ba0ca7604fdf91b87dae618b9edc07512d1",
+      "reason": "No PF1 Spheres integration field is required."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "ee5f5c6921e214d4ebb16ac988de2ba0ca7604fdf91b87dae618b9edc07512d1",
+      "reason": "The compendium index contains no exact or normalized pastry match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "ee5f5c6921e214d4ebb16ac988de2ba0ca7604fdf91b87dae618b9edc07512d1",
+      "reason": "The complete source description, examples, price, quality and weight are retained."
+    }
+  },
+  "wiki:adventuring-gear:current:item:sausage": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "aeaf3d38cb15dad34c3ee37c69d621c06d531b575fed48b2f1c2df1ef57795c7",
+      "reason": "Original generated 256 px WebP depicts a rustic sausage and is registered with source, crop and encoding hashes."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "aeaf3d38cb15dad34c3ee37c69d621c06d531b575fed48b2f1c2df1ef57795c7",
+      "reason": "A pinned non-action Use action provides native PF1 consumable handling."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "aeaf3d38cb15dad34c3ee37c69d621c06d531b575fed48b2f1c2df1ef57795c7",
+      "reason": "The sausage grants no rules bonus in the source."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "aeaf3d38cb15dad34c3ee37c69d621c06d531b575fed48b2f1c2df1ef57795c7",
+      "reason": "The sausage has no conditional roll modifier in the source."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "aeaf3d38cb15dad34c3ee37c69d621c06d531b575fed48b2f1c2df1ef57795c7",
+      "reason": "One serving uses a single-use miscellaneous consumable profile that decrements an actor-owned stack."
+    },
+    "links": {
+      "state": "implemented",
+      "sourceSha256": "aeaf3d38cb15dad34c3ee37c69d621c06d531b575fed48b2f1c2df1ef57795c7",
+      "reason": "Native consumable charge links are present; there are no child documents."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "aeaf3d38cb15dad34c3ee37c69d621c06d531b575fed48b2f1c2df1ef57795c7",
+      "reason": "Price, weight, quality and consumable profile were reviewed."
+    },
+    "compatibility": {
+      "state": "not-applicable",
+      "sourceSha256": "aeaf3d38cb15dad34c3ee37c69d621c06d531b575fed48b2f1c2df1ef57795c7",
+      "reason": "No PF1 Spheres integration field is required."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "aeaf3d38cb15dad34c3ee37c69d621c06d531b575fed48b2f1c2df1ef57795c7",
+      "reason": "The compendium index contains no exact or normalized sausage match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "aeaf3d38cb15dad34c3ee37c69d621c06d531b575fed48b2f1c2df1ef57795c7",
+      "reason": "The complete source description, varieties, price, quality and weight are retained."
+    }
+  },
+  "wiki:adventuring-gear:current:item:soup": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "ba19f2ee704d04066be0f83424ef0e1b356d13c11bbf1b833ad26880cb377747",
+      "reason": "Original generated 256 px WebP depicts a hearty highland soup and is registered with source, crop and encoding hashes."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "ba19f2ee704d04066be0f83424ef0e1b356d13c11bbf1b833ad26880cb377747",
+      "reason": "A pinned non-action Use action provides native PF1 consumable handling."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "ba19f2ee704d04066be0f83424ef0e1b356d13c11bbf1b833ad26880cb377747",
+      "reason": "The soup grants no rules bonus in the source."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "ba19f2ee704d04066be0f83424ef0e1b356d13c11bbf1b833ad26880cb377747",
+      "reason": "The soup has no conditional roll modifier in the source."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "ba19f2ee704d04066be0f83424ef0e1b356d13c11bbf1b833ad26880cb377747",
+      "reason": "One bowl is one meal and uses a single-use miscellaneous consumable profile that decrements an actor-owned stack."
+    },
+    "links": {
+      "state": "implemented",
+      "sourceSha256": "ba19f2ee704d04066be0f83424ef0e1b356d13c11bbf1b833ad26880cb377747",
+      "reason": "Native consumable charge links are present; there are no child documents."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "ba19f2ee704d04066be0f83424ef0e1b356d13c11bbf1b833ad26880cb377747",
+      "reason": "Price, weight, quality and consumable profile were reviewed."
+    },
+    "compatibility": {
+      "state": "not-applicable",
+      "sourceSha256": "ba19f2ee704d04066be0f83424ef0e1b356d13c11bbf1b833ad26880cb377747",
+      "reason": "No PF1 Spheres integration field is required."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "ba19f2ee704d04066be0f83424ef0e1b356d13c11bbf1b833ad26880cb377747",
+      "reason": "The compendium index contains no exact or normalized soup match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "ba19f2ee704d04066be0f83424ef0e1b356d13c11bbf1b833ad26880cb377747",
+      "reason": "The complete source description, varieties, price, quality and weight are retained."
+    }
   }
 }

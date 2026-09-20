@@ -17,14 +17,19 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   PF1 type and physical fields, actions/uses, Changes and context notes, links,
   advanced settings, compatibility and artwork. Preserve stable IDs and record a
   concrete blocked reason instead of guessing unsupported mechanics.
-- The first production slice reviews Catnip Hookah, Cider, Fruitcake (loaf of)
-  and Map, Tradewind. All four have original 256 px WebP icons in the readable
+- The first two production slices review Catnip Hookah, Cider, Fruitcake (loaf
+  of), Map, Tradewind, Meat Pie, Pastry, Sausage and Soup. All eight have
+  original 256 px WebP icons in the readable
   adventuring-gear folder. Cider and Fruitcake now use pinned single-use PF1
   consumable profiles; Catnip Hookah has a pinned one-minute action; the map has
   its source Tiny size and a pinned +5 Survival context note for exploration
   checks. The hookah's supplement link is deferred until the batch's Catnip dose
   entry is reviewed. The batch audit now reports four implemented images and 96
-  remaining.
+  remaining. Seven entries are complete; Catnip Hookah stays pending only until
+  its canonical Catnip supplement link can be added later in this batch.
+- Meat Pie, Pastry, Sausage and Soup use pinned native single-use miscellaneous
+  consumable profiles. Their four distinct icons share one consistently styled
+  source contact sheet, with each crop and WebP encoding recorded separately.
 - The production manifest allows reviewed PF1 type corrections while continuing
   to pin identity, source key, path, edition and description hash. Batch-aware
   audit queries and context-note hash validation have tests.
