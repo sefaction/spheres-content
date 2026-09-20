@@ -16,6 +16,9 @@ limited to gaps in upstream compendia.
   modifiers. Do not silently begin the modifier pass early.
 - Reuse generated images where they suit closely related entities; use distinct
   images when the item or class has a different visual identity.
+- Before creating an item or artwork, inspect existing compendia and reuse good
+  records. Include component items in that search. Model physical kits as
+  containers with their actual contents; see [the kit audit](KIT_REUSE_AUDIT.md).
 - Keep current and legacy source variants distinct during intake. Do not import
   both blindly or overwrite one with the other. Legacy inclusion remains a
   collection-level review decision rather than a guessed default.

@@ -1,0 +1,136 @@
+{
+  "date": "2026-09-20",
+  "issue": "https://github.com/sefaction/spheres-content/issues/7",
+  "status": "reviewed-candidates-delivery-policy-pending",
+  "scope": "Relevant installed physical-item packs; not a claim that every installed pack or world compendium was searched.",
+  "searched": [
+    {
+      "pack": "items",
+      "count": 1065
+    },
+    {
+      "pack": "kctg-1e--kctg-1e",
+      "count": 1031
+    },
+    {
+      "pack": "kctg-1e--kctg-1e-armmaments",
+      "count": 92
+    },
+    {
+      "pack": "pf-content--pf-goods-services",
+      "count": 458
+    },
+    {
+      "pack": "pf-content--pf-items",
+      "count": 987
+    },
+    {
+      "pack": "pf-content--pf-maladies",
+      "count": 101
+    },
+    {
+      "pack": "weapons-and-ammo",
+      "count": 481
+    }
+  ],
+  "entries": [
+    {
+      "key": "pouch",
+      "sourceUuid": "Compendium.pf1.items.Item.enzysybyowwfrdcd",
+      "packageId": "pf1",
+      "version": "11.11",
+      "sourceSha256": "ff58e832a1d082a226ddad367cb45fb985e2e46d64a7a2b2b7bc4128aebb4a51",
+      "name": "Pouch, Waist",
+      "type": "loot",
+      "image": "systems/pf1/icons/items/inventory/dice.jpg",
+      "quantity": 1,
+      "decision": "adapt",
+      "reason": "Correct leather waist-pouch description, 0.5 gp and 0.5 lb; imported record is loot and has a placeholder image. Use the existing kit illustration and native container type.",
+      "unitPrice": 0.5,
+      "unitWeight": 0.5
+    },
+    {
+      "key": "wolfsbane",
+      "sourceUuid": "Compendium.pf1.items.Item.ribzueaayiedcene",
+      "packageId": "pf1",
+      "version": "11.11",
+      "sourceSha256": "dd9a5dfe891841b0370fe6a7d1acf3cd8ec50bb13874c08fa9cc25ef49c7a346",
+      "name": "Wolfsbane",
+      "type": "loot",
+      "image": "systems/pf1/icons/items/potions/unique-9.jpg",
+      "quantity": 5,
+      "decision": "reuse",
+      "reason": "Rules text, source-book ID and image are present; keep five doses.",
+      "unitPrice": 0.5,
+      "unitWeight": 0
+    },
+    {
+      "key": "silver-blanch",
+      "sourceUuid": "Compendium.pf-content.pf-items.Item.gqA1y1GIJTpiBqOd",
+      "packageId": "pf-content",
+      "version": "11.4.0",
+      "sourceSha256": "473f209338b3ecf14671e5b10858fb617d47e6958e9282957b4c3fcc98342c31",
+      "name": "Weapon Blanch (Silver)",
+      "type": "consumable",
+      "image": "icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
+      "quantity": 5,
+      "decision": "reuse",
+      "reason": "Correct silver variant, consumable type, full description, non-placeholder core icon and source/page.",
+      "unitPrice": 5,
+      "unitWeight": 0.5
+    },
+    {
+      "key": "deodorizing-agent",
+      "sourceUuid": "Compendium.pf-content.pf-items.Item.JF3auN9gNfDyqVR5",
+      "packageId": "pf-content",
+      "version": "11.4.0",
+      "sourceSha256": "5d2bd29c3331e23df06191df1051a0738d51563fe97251ccf314461c27f2a903",
+      "name": "Deodorizing Agent (Vial)",
+      "type": "consumable",
+      "image": "systems/pf1/icons/items/potions/unique-4.jpg",
+      "quantity": 1,
+      "decision": "reuse",
+      "reason": "Better than the system generic loot entry: consumable type, complete description, source/page and a vial icon.",
+      "unitPrice": 30,
+      "unitWeight": 0
+    },
+    {
+      "key": "silver-dagger",
+      "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.fOSuWwRSZLTrROch",
+      "packageId": "pf1",
+      "version": "11.11",
+      "sourceSha256": "abae0a551632dd31b1625fbf36a8f1d85c9042ef7db1d13c98b7bbe40db3fac7",
+      "name": "Dagger",
+      "type": "weapon",
+      "image": "systems/pf1/icons/items/weapons/dagger.PNG",
+      "quantity": 1,
+      "decision": "adapt",
+      "reason": "Base dagger has appropriate weapon data, two native attacks, image and descriptive superficial text. Create a silver variant with a 20 gp light-weapon surcharge; material effects need review.",
+      "unitPrice": 2,
+      "unitWeight": 1
+    }
+  ],
+  "assembly": {
+    "outerContainer": "pouch",
+    "contents": [
+      "wolfsbane",
+      "silver-blanch",
+      "deodorizing-agent",
+      "silver-dagger"
+    ],
+    "price": 80,
+    "weight": 4,
+    "emptyContainerPrice": 0.5,
+    "emptyContainerWeight": 0.5,
+    "silverDaggerUnitPrice": 22,
+    "pouchInterpretation": "Map unspecified leather pouch to the waist-pouch entry; this interpretation reconciles the listed kit price and weight exactly. Do not add a second pouch inside the outer container.",
+    "materialSource": "https://legacy.aonprd.com/coreRulebook/equipment.html"
+  },
+  "constraints": [
+    "Normalize and review any reused document before making it canonical.",
+    "Do not copy upstream artwork into distributable assets without rights review.",
+    "Do not double-count total kit price or weight on the empty container.",
+    "Do not require optional source modules without resolving the requested reuse delivery policy.",
+    "Preserve the existing kit ID and source key."
+  ]
+}

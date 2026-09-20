@@ -2,6 +2,35 @@
 
 Updated: 2026-09-20 (work began 2026-09-19 local time).
 
+## Current steering: compendium reuse and containers
+
+- User requires searching existing compendia for suitable names, descriptions,
+  images and native item behavior before creating replacements. Kits must be
+  containers containing usable component items. This supersedes acceptance of
+  the provisional flat hunter's kit and its pending manual drop request.
+- Issue #7: https://github.com/sefaction/spheres-content/issues/7. Audited seven
+  relevant installed packs using stable local database copies; no source
+  database was opened by the compiler. Candidate metadata and the proposed
+  80 gp / 4 lb assembly are in `research/kit-reuse-audit.json` and
+  `docs/KIT_REUSE_AUDIT.md`. No reused rules/art or corrected container has yet
+  been added to canonical sources or deployed.
+- Pending user preference: package reviewed copies of optional-module items,
+  or require and reference their source modules. Asked asynchronously; no
+  answer recorded. Do not infer approval from the preselected choice.
+- Next safe step: resolve that delivery policy, review selected record rights,
+  extend the native container/contained-item validation, preserve the kit ID,
+  and test contained quantities, sheets, removal and totals. Keep PR #4 draft.
+- Branch reconciliation: `content/entity-catalog` at `b4d5c09` before this
+  documentation batch; PR #4 remains open/draft against `tooling/bootstrap`.
+  Runtime remains `300a375`; this audit changes documentation and research
+  metadata only and does not require another remote installation.
+- Validation for the reuse-audit batch: full `npm.cmd run verify` passed all
+  14 existing tests, formatting, source/reference checks and deterministic
+  archives. This validates the unchanged pilot and pipeline, not a corrected
+  container. No new container acceptance result is claimed.
+
+## Earlier pilot evidence
+
 - Active branch: `content/entity-catalog`, based on `tooling/bootstrap` at `c71b215f1987441f6d7de1107bda65fc865074ed`. Foundation PR #2 remains open and unmerged; its two CI jobs passed. Do not merge it without individual approval.
 - Active issue: https://github.com/sefaction/spheres-content/issues/3. Draft content PR https://github.com/sefaction/spheres-content/pull/4 is stacked on the unmerged foundation branch. Issue #5 tracks semantic remote verification. Both content CI jobs passed at `300a37551af0741f006b45ba3f2212ad36037aba`.
 - Scope: all wiki PF1 items, feats and base classes across publishers. Descriptions/generated images first; Changes and conditional modifiers only after the descriptive catalog is complete and reviewed. Archetypes are deferred. Reuse generated images where sensible.

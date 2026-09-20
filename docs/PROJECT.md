@@ -43,3 +43,11 @@ copies. Container restart requires separate authorization.
 ## Current batch
 
 Build the complete descriptive catalog of wiki PF1 items, feats and base classes across publishers, with generated images. Include missing Guile skill talents; exclude existing magic/combat spheres and talents. Archetypes are deferred. The initial four-entry pilot establishes the content pipeline; the full catalog is unfinished. Only after the descriptive collection is complete and reviewed should passive Changes and conditional modifiers be implemented. The companion framework is pf1spheres; the installed/test target is 0.9.0. No world migration or release is included.
+
+Before creating equipment or artwork, inspect existing compendia for suitable
+entries, descriptions, images and native behavior. Reuse reviewed entries and
+create or adapt missing variants. Kits must use native PF1 containers with
+usable contents and reconciled quantities, price and weight. The provisional
+hunter's kit still needs this correction; see [the reuse audit](KIT_REUSE_AUDIT.md).
+Delivery of reused optional-module content (packaged copies versus dependencies)
+is awaiting the user's preference.

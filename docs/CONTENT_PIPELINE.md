@@ -48,6 +48,30 @@ Registered assets copy from `static/` into runtime-relative paths. The ZIP has
 
 ## Intake and updates
 
+Before authoring any item or generating its image, search existing compendia for
+the item and each component. Search spelling variants as well as exact names;
+for example, the wiki's "weapon blanche" matches "Weapon Blanch" in PF1 content.
+Inspect the full record: rules/version, native type, description and superficial
+text, image quality, quantities, material and existing behavior. A matching name
+alone is not enough. Reuse suitable content and improve only missing parts.
+Record the source UUID, package/version, document hash, suitability findings,
+rights and dependency requirements. Do not mutate the source compendium.
+
+Kits must use PF1 containers when their rules describe a pouch/case holding other
+items. PF1 11.11 stores contained documents in `system.items`, keyed by stable
+child IDs. Keep the empty container's price and weight separate from the contents;
+PF1 adds the contents when calculating totals. The kit's advertised total must
+not be charged or weighed again as the empty container. Test component quantities,
+contained sheets, removal/transfer, consumables, totals, and import to an actor.
+This structure belongs in the entity pass; passive Changes and conditional
+modifier authoring remain deferred.
+
+The first hunter's-kit correction is tracked in issue #7 and
+[the reuse audit](KIT_REUSE_AUDIT.md). The current flat loot record is provisional;
+container/consumable/weapon validation and the selected reuse delivery policy must
+be implemented before its revised pack is accepted. Local reference exports are
+audit inputs only, never canonical content without normalization and review.
+
 Source discovery uses cached public pages under ignored `.local/wiki-catalog/`.
 Normalize and review selected descriptions before adding canonical records. Keep
 current and legacy variants distinguishable, avoid duplicate feats from class

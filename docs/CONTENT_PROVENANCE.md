@@ -49,3 +49,17 @@ Four project-generated images use the scoped MIT license to the extent rights
 are held. They were generated without source images. Prompts, tool identification,
 paths and SHA-256 hashes are in `config/content.json`. Art reuse is permitted by
 the user's direction when appropriate to closely related entities.
+
+## Compendium reuse audit
+
+The user requested existing compendium entries and artwork be evaluated before
+creating replacements. The [hunter's kit audit](KIT_REUSE_AUDIT.md) records
+candidate UUIDs, installed versions and snapshot hashes for PF1 11.11 and
+Pathfinder 1e Content 11.4.0. No candidate document text or upstream artwork has
+been added to canonical sources in this audit. Raw snapshots remain ignored.
+
+Installed packages include GPL and OGL license texts. Review the selected
+record's applicable terms and attribution before packaging a copy; do not
+relicense it as original MIT work. Selected image paths point to core or PF1
+assets, which can be referenced separately from any proposal to redistribute
+their bytes. The optional-module delivery policy remains unresolved.
