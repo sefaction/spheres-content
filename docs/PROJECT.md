@@ -58,6 +58,6 @@ explicit core placeholders until existing artwork is reviewed or art is generate
 
 The current coherent review batch corrects Hidden Blade to a native +3 longsword,
 implements its uncapped +3 enhancement bonus to Illusion caster level, and corrects Trail
-Rations to native single-use food. It follows the sash, filter scarf
+Rations to an activatable single-use consumable. It follows the sash, filter scarf
 and umbrella review recorded in [the physical-item review](PHYSICAL_ITEM_REVIEW.md).
 The full descriptive catalog, artwork and mechanics remain unfinished.

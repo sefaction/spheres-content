@@ -209,11 +209,12 @@ test("reviewed Hidden Blade and Trail Rations use pinned native PF1 profiles", a
     },
   ]);
 
-  assert.equal(rations.type, "loot");
-  assert.equal(rations.system.subType, "food");
+  assert.equal(rations.type, "consumable");
+  assert.equal(rations.system.subType, "misc");
   assert.equal(rations.system.uses.per, "single");
+  assert.equal(rations.system.uses.pricePerUse, 0);
   assert.equal(rations.system.actions[0].name, "Use");
-  assert.equal(rations.system.equipped, false);
+  assert.equal(rations.system.equipped, true);
 
   for (const original of [hiddenBlade, rations]) {
     const changed = structuredClone(original);

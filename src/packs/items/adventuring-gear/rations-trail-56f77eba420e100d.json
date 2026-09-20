@@ -27,7 +27,7 @@
     "weight": {
       "value": 1
     },
-    "equipped": false,
+    "equipped": true,
     "carried": true,
     "price": 0.5,
     "size": "med",
@@ -55,23 +55,14 @@
       "per": "single",
       "autoDeductChargesCost": "",
       "maxFormula": "",
-      "rechargeFormula": ""
+      "rechargeFormula": "",
+      "pricePerUse": 0
     },
     "changes": [],
-    "changeFlags": {
-      "immuneToMorale": false,
-      "loseDexToAC": false,
-      "noMediumEncumbrance": false,
-      "noHeavyEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "lowLightVision": false,
-      "seeInvisibility": false,
-      "seeInDarkness": false
-    },
     "contextNotes": [],
     "links": {
-      "children": []
+      "children": [],
+      "charges": []
     },
     "tag": "",
     "flags": {
@@ -79,9 +70,8 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "subType": "food",
-    "extraType": "",
-    "abundant": false,
+    "subType": "misc",
+    "showInQuickbar": false,
     "sources": [
       {
         "title": "Spheres of Power Wiki",
@@ -89,7 +79,7 @@
       }
     ]
   },
-  "type": "loot",
+  "type": "consumable",
   "effects": [],
   "folder": null,
   "sort": 0,

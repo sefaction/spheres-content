@@ -6,8 +6,9 @@
   attack profile, caster level, Illusion aura and system artwork. Apply its +3
   Illusion implement bonus through pf1spheres' sphere-specific caster-level
   target and PF1's normal enhancement bonus stacking.
-- Correct Trail Rations to native PF1 food with a reviewed single-use action
-  and preserved-food artwork while retaining the wiki price, weight and text.
+- Correct Trail Rations to an activatable PF1 miscellaneous consumable with a
+  reviewed single-use action and preserved-food artwork while retaining the
+  wiki price, weight and text.
 - Pin adapted source snapshots, actions and reviewed Changes. Existing world
   copies are unchanged; glamered behavior remains descriptive.
 

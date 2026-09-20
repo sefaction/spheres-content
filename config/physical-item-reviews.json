@@ -425,7 +425,7 @@
     "descriptionSha256": "898b93ff039f954993bf582d63c27ca48d64194b21bb75350ba7bc4db80aa084",
     "reviewed": "2026-09-20",
     "decision": "adapt",
-    "reason": "Adapt PF1 11.11 Trail Rations as native food with its single-use action and preserved-food image. Retain the wiki's highlands description, price and weight.",
+    "reason": "Adapt PF1 11.11 Trail Rations with its preserved-food image and single-use data, but use PF1's activatable miscellaneous consumable type because PF1 11.11 treats loot records as non-activatable. Retain the wiki's highlands description, price and weight.",
     "candidates": [
       {
         "name": "Trail Rations",
@@ -436,7 +436,7 @@
         "sha256": "ff38d17b719746bdd5f32f27790f357e5447f45d056969202f62e36223fea716",
         "type": "loot",
         "decision": "adapt",
-        "reason": "Native PF1 food profile supplies the appropriate single-use action, one-unit consumption behavior and suitable system artwork.",
+        "reason": "The PF1 food profile supplies the reviewed single-use data and suitable system artwork. Its loot type is converted to an activatable miscellaneous consumable so the Use action can decrement an actor-owned stack.",
         "descriptionFields": {
           "value": 282,
           "instructions": 0,
@@ -453,8 +453,8 @@
     "output": {
       "file": "src/packs/items/adventuring-gear/rations-trail-56f77eba420e100d.json",
       "id": "56f77eba420e100d",
-      "type": "loot",
-      "sha256": "8cb8b879f1cc8746d7a7562466ce352f834394c53a244e8754a7221b6083042e",
+      "type": "consumable",
+      "sha256": "c4892711a26892b4c9c2ec972108925f438ac97130b26c64f906f5b3f415d1fc",
       "sourceUuid": "Compendium.pf1.items.Item.manvtbznrwjmnrua"
     }
   }

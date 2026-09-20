@@ -210,18 +210,19 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
       "Automatic class associations are deferred",
     );
   } else {
-    if (doc.type === "loot") {
+    if (doc.type === "loot") assert.equal(s.subType, "gear");
+    if (doc.type === "consumable") {
+      assert(["misc", "potion"].includes(s.subType));
       if (meta.nativeProfile === "trail-rations") {
-        assert.equal(s.subType, "food");
-        assert.equal(s.equipped, false);
+        assert.equal(s.subType, "misc");
+        assert.equal(s.equipped, true);
         assert.equal(s.uses.per, "single");
+        assert.equal(s.uses.pricePerUse, 0);
         assert.equal(s.actions.length, 1);
         assert.equal(s.actions[0].name, "Use");
         assert.equal(s.actions[0].activation.type, "nonaction");
-      } else assert.equal(s.subType, "gear");
+      }
     }
-    if (doc.type === "consumable")
-      assert(["misc", "potion"].includes(s.subType));
     if (doc.type === "equipment") {
       assert(
         ["wondrous", "clothing"].includes(s.subType),
