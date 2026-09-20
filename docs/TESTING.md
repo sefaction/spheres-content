@@ -1,5 +1,27 @@
 # Testing
 
+## Native container pilot: 2026-09-20
+
+Commit `873659499caa08ddeb3a9a5d565cc39e5d9809b9`, module alpha.3 on Foundry
+13.351 / PF1 11.11 / pf1spheres 0.9.0. Fifteen local tests, exact compiled
+round trips, deterministic builds, both CI platforms, safe deployment, strict
+installed hashes and four core/system image hashes passed.
+
+In the dedicated world, the kit and all four component sheets render correctly.
+Five wolfsbane, five silver blanch, one deodorizing vial and one silver dagger
+total 80 gp / 4 lb including the 0.5 gp / 0.5 lb empty container. The dagger's
+native Melee/Throw actions and Alchemical Silver checkbox survive import.
+Reducing the blanch quantity to four removes 5 gp / 0.5 lb; restoring five
+restores the totals. All checks used a new test copy, not old imported data.
+
+Actor import/removal remains pending: the Chrome extension blocked file upload,
+and browser-controlled document dragging was previously ineffective. An empty
+dedicated actor and the test kit are open for user assistance. No actor inventory
+or roll acceptance is claimed. No automatic consumable effect or silver damage
+modifier is implemented. Browser error capture is empty and scoped server logs
+have no errors/warnings. Permission/lifecycle baseline and final semantic audit
+remain pending; the content compatibility profile is still unverified.
+
 ## Local foundation gate
 
 Run `npm.cmd ci`, then `npm.cmd run verify`. CI uses the same commands on Windows

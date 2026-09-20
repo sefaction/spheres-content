@@ -69,7 +69,7 @@ This structure belongs in the entity pass; passive Changes and conditional
 modifier authoring remain deferred.
 
 The first hunter's-kit correction is tracked in issue #7 and
-[the reuse audit](KIT_REUSE_AUDIT.md). The current flat loot record is provisional;
+[the reuse audit](KIT_REUSE_AUDIT.md). The former flat loot record is superseded;
 its replacement uses registered container/consumable/weapon validation and
 reviewed packaged component copies. Remote acceptance must verify that structure. Local reference exports are
 audit inputs only, never canonical content without normalization and review.
@@ -84,3 +84,10 @@ Updates replace compendium content only. They do not migrate copies previously
 imported into a world or actor. No world-export/normalization command or world
 migration is implemented. Remote integration acceptance and the full catalog
 remain in progress; local validation does not substitute for Foundry testing.
+
+Reviewed copies are the default reuse policy. `config/containers.json` fixes
+contained identities, quantities, unit price/weight, total price/weight and native
+action hashes. Core/system artwork references live in `externalAssets`; no
+external image bytes enter the archive. Remote smoke fetches those paths from
+the designated instance and verifies their recorded hashes. The adapted kit JSON
+ships as corresponding source under `sources/items/`.

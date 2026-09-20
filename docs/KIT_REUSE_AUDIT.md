@@ -52,21 +52,22 @@ the empty container must have 0.5 gp and 0.5 lb under this proposal, while the
 description retains the advertised full-kit totals. Stable child IDs, quantities,
 source records and asset paths need validation alongside the parent ID.
 
-## Remaining work
+## Implementation and remaining acceptance
 
 - Delivery resolved: reviewed packaged copies with attribution and core/system
   artwork references. No optional source module dependency is added.
-- Review selected rule/record licenses and attribution before committing copies.
-  PF1 and PF1 Content ship GPL and OGL texts; artwork requires separate attention.
-  Referencing an installed core/system image and redistributing its bytes are
-  different operations. Raw reference documents and images remain ignored.
+- Selected rule/record notices and attribution are retained; see
+  [provenance](CONTENT_PROVENANCE.md) and `ATTRIBUTION.md`. Core/system artwork
+  was visually inspected and referenced, with no image bytes redistributed.
+  Raw reference documents and images remain ignored.
 - Source validation now covers containers, contained documents, consumables,
   weapons and registered external assets. Remote smoke checks image hashes.
   Reuse existing native item behavior where reviewed; defer newly authored
   passive and conditional modifiers as requested.
 - The flat loot source is replaced, preserving its ID/source key.
-  Test full-kit totals, component quantities, contained sheets, item removal,
-  consumable behavior and actor import. Previously imported test-world copies
+  Remote alpha.3 confirms full-kit totals, component quantities, contained sheets,
+  dagger actions/material and native quantity adjustments. Actor import and
+  removal/transfer remain pending browser assistance. Previously imported test-world copies
   are not automatically migrated by a compendium update.
 
 The former flat-kit drop test does not establish acceptance of the corrected

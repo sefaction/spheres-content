@@ -14,13 +14,34 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
 - Copied record provenance and OGL/GPL notices are retained. Referenced core/PF1
   images were visually inspected and fetched successfully; raw artwork is not
   redistributed. Corresponding adapted kit JSON is included in the archive.
-- Local full verification and new remote deployment/UI acceptance are pending
-  in this implementation checkpoint. The test world was returned to Setup to
-  permit safe pack replacement. The prior runtime remains `300a375` until the
-  deployment receipt confirms a replacement.
-- Next safe step: finish local checks, commit, verify the clean build, stage/swap
-  deploy, and exercise container sheets, quantities, totals and removal in the
-  dedicated test world. Do not migrate or overwrite old imported kit copies.
+- Deployed commit `873659499caa08ddeb3a9a5d565cc39e5d9809b9`, alpha.3. Clean
+  full verification passed 15 tests, complete compiled-record round trips and
+  deterministic 39-file archives. Both GitHub CI platforms passed. Dry-run,
+  staged replacement with retained backup, strict installed hashes and all four
+  referenced image hashes passed. No container/host restart was needed.
+- UI acceptance on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0: the kit opens
+  as Container; all four child stacks and their native sheets open with images,
+  descriptions and source labels. Dagger shows Melee/Throw and checked Alchemical
+  Silver. Header shows total weight 4 lb and empty price 0.5 gp; contents show
+  3.5 lb / 79.5 gp. Imported a new world copy, renamed `ASC Kit Container Test`
+  (`oi8Hwjfog2mgKW44`), leaving the old flat kit untouched. Minus one silver
+  blanch produces four doses, 3.5 lb total and 74.5 gp contents; restored five
+  doses and original totals using native quantity controls. No automatic
+  coating/scent effect or silver damage adjustment is implemented.
+- Browser errors: zero. Server debug log through 2026-09-20 01:17:40 local
+  contains 321 records, zero warnings/errors; no daily error file present.
+- Actor-level acceptance is pending. Created empty `ASC Container Acceptance`
+  (`HqItFa8lbVtZxfuM`) and prepared an ignored minimal actor JSON containing the
+  canonical kit. Native Import Data's file chooser was blocked by Chrome's
+  extension file-URL permission; no actor data was imported. Cancelled the
+  dialog. User was given the documented extension-setting instructions and
+  asked asynchronously to enable upload or manually drag the kit to the actor.
+  No answer yet. Actor inventory is open beside Items in browser tab 72099537;
+  actor still carries 0 lb / 0 gp. Reconcile before retrying or creating duplicates.
+- Next safe step: complete actor import, inventory totals and removal/transfer
+  once user assistance arrives. Then finish non-GM/lifecycle baseline checks and
+  return to Setup for the semantic audit. Keep PR #4 draft. Source reuse policy
+  is resolved; only this browser interaction is awaiting user assistance.
 
 ## Prior reuse audit (superseded by the resolved delivery choice above)
 
