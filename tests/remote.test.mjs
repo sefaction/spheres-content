@@ -1,6 +1,12 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import { mkdtemp, mkdir, writeFile, readFile } from "node:fs/promises";
+import {
+  mkdtemp,
+  mkdir,
+  writeFile,
+  readFile,
+  realpath,
+} from "node:fs/promises";
 import path from "node:path";
 import os from "node:os";
 import { createServer } from "node:http";
@@ -74,7 +80,11 @@ test("SMB profile rejects wrong worlds, broad targets, traversal, and mismatched
 });
 
 async function fixture() {
-  const base = await mkdtemp(path.join(os.tmpdir(), "spheres-swap-test-"));
+  // GitHub's Windows TEMP can use an 8.3 alias (RUNNER~1). Resolve the fixture
+  // location rather than weakening the deployment guard's exact-path check.
+  const base = await realpath(
+    await mkdtemp(path.join(os.tmpdir(), "spheres-swap-test-")),
+  );
   const stage = path.join(base, "stage");
   const target = path.join(base, "additional-spheres-content");
   const backup = path.join(base, "backup");
