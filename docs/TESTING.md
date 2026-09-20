@@ -217,3 +217,30 @@ world was returned to Setup before the final exact installed semantic audit.
 That audit passed for all 6,788 pack documents against canonical sources at the
 deployed commit, all non-pack receipt bytes and all nine external image hashes.
 Only local copies of installed LevelDB were opened.
+
+## Alpha.6 native item-profile acceptance
+
+Full clean verification passed on `b16542c3abf12cae4e26d2609ee17ee12595bc56`
+with 29 tests, exact compiled round trips for all 6,788 documents and two
+identical 682-file archives. The review ZIP SHA-256 is
+`630112c064b543d5c8341601cd9d7da064e13ad8d7acc462564f232e379af578`.
+Staged deployment retained eight module-only backups and deleted none. Strict
+installed package and external-image hashes passed without a restart.
+
+Runtime checks used Foundry 13.351, PF1 11.11 and pf1spheres 0.9.0 with only ASC
+alpha.6 and the framework active. All five locked packs appeared for the Player
+user. Hidden Blade opened with the reviewed longsword art, Weapon / Martial /
+One-handed profile, +3 enhancement, heavy-blade group, CL 10, moderate Illusion
+aura, native Attack action and wiki implement text. Rations, Trail opened with
+the reviewed preserved-food art, Food subtype, 0.5 gp / 1 lb values, native Use
+action and Single Use setting.
+
+The previously supplied temporary Gamemaster password was rejected, so this run
+could not import the items into an actor, roll Hidden Blade's attack or verify a
+ration stack decrement. The read-only sheets establish compendium load and native
+field rendering, not actor-owned behavior. Server records from deployment through
+the test contain 151 info entries and one expected warning for that rejected GM
+login; no other warning or error appeared. The dedicated world was returned to
+Setup. Final semantic audit matched all 6,788 pack documents to canonical sources,
+all non-pack receipt bytes and all referenced image hashes using local copies of
+the installed LevelDB databases.

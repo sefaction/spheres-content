@@ -18,10 +18,21 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   hashes are pinned. The two PF1 images were visually inspected and are referenced
   without redistributing bytes. The refreshed physical report has 963 entries,
   24 candidate-bearing entries, ten reviewed, zero stale and one unavailable pack.
-- Local verification passes 29 tests, source/reference validation, complete
-  6,788-document compiler round trips and deterministic 682-file archive builds.
-  Deployment and remote acceptance are pending. No merge, release, world migration
-  or container restart is included.
+- Runtime/source commit `b16542c3abf12cae4e26d2609ee17ee12595bc56`
+  is pushed. Local verification passes 29 tests, source/reference validation,
+  complete 6,788-document compiler round trips and two identical 682-file builds;
+  ZIP SHA-256 is `630112c064b543d5c8341601cd9d7da064e13ad8d7acc462564f232e379af578`.
+- Alpha.6 deployed through the staged helper. Eight backups remain and none were
+  deleted. Package and external-image hashes passed without a restart. Player UI
+  acceptance passed for both native sheets and actions. Actor import, weapon roll
+  and ration decrement remain untested because the old temporary GM password was
+  rejected. Server records contain 151 info entries and only that expected failed
+  GM-login warning.
+- The dedicated world is back in Setup. Final semantic audit matched all 6,788
+  documents, non-pack receipt bytes and referenced images at the deployed commit.
+  No release, world migration or container restart is included. Next safe step is
+  documentation commit, draft PR and CI; GM actor checks can follow after the user
+  signs in or supplies a current temporary world password through the browser.
 
 ## Prior completed batch: systematic wiki intake
 
