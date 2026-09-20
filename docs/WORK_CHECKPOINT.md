@@ -39,9 +39,12 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   all 6,788 pack documents match canonical sources at the deployed commit,
   non-pack bytes match the deployment receipt, and all nine referenced image
   hashes pass. Only local copies of installed LevelDB were opened.
-- Next safe step: open the stacked draft PR against content/systematic-intake,
-  then preserve this checkpoint for the next review batch. No merge, release or
-  world migration is authorized.
+- Draft PR #11 is open against content/systematic-intake:
+  https://github.com/sefaction/spheres-content/pull/11. Its Windows and Ubuntu
+  validation jobs are running. No merge, release or world migration is authorized.
+  Next safe step after CI is to choose the next reviewed physical-item batch,
+  with Hidden Blade's weapon profile and Trail Rations' quantity/use behavior as
+  concrete candidates.
 
 ## Prior completed batch: systematic wiki intake
 
