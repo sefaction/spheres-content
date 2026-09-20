@@ -187,6 +187,20 @@ async function loadProfile() {
     target.target.pf1,
     "Installed PF1 version changed",
   );
+  const frameworkPath = path.join(
+    profile.dataPath,
+    "Data",
+    "modules",
+    "pf1spheres",
+  );
+  await assertPlainDirectory(frameworkPath);
+  const framework = await json(path.join(frameworkPath, "module.json"));
+  assert.equal(framework.id, "pf1spheres", "Wrong framework module");
+  assert.equal(
+    framework.version,
+    target.target.pf1spheres,
+    "Installed Spheres framework version changed",
+  );
   return profile;
 }
 

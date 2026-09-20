@@ -1,19 +1,17 @@
 ﻿# Work checkpoint
 
-Updated: 2026-09-19.
+Updated: 2026-09-20 (work began 2026-09-19 local time).
 
-- Active branch: `tooling/bootstrap`.
-- Issue: https://github.com/sefaction/spheres-content/issues/1. PR: https://github.com/sefaction/spheres-content/pull/2. Neither merged nor closed; reconcile live status on resume.
-- Base: user approved instruction-only main seeding. Foundation implementation remains on the feature branch.
-- Scope: foundation before content/pack planning; zero imported documents or assets.
-- Implemented: module shell, deterministic ZIP, official compiler round trip, provenance intake gate, Windows SMB staging/swap, retained module backups, HTTP setup guard, local receipts, and Windows/Linux CI.
-- Validation: 10 tests and full verification passed; CI passed on `38f3886`. Check final acceptance-documentation commit CI before further work.
-- Obsidian hub: Foundry-AI vault, `20 - Projects/Personal/Additional Spheres Content.md`; no vault commit/push.
-- Remote: SMB works. Foundry `13.351`, PF1 `11.11`, dedicated world `additional-spheres-content-test`. Private connection details remain in ignored local config; no credentials stored there.
-- UI-tested commit: `6b2ad38e5f94e911358ca4d3807732ed834eb103`, module `0.1.0-alpha.1`. Discovery, enable/disable/re-enable, reload, and log checks passed. See `docs/TESTING.md`.
-- User handled the browser certificate warning. The specifically authorized test-container restart completed. Startup automatically launched a campaign; returned to Setup with no players and used the dedicated world for acceptance. Do not alter startup settings or unrelated containers.
-- Last observed remote state: Setup; dedicated world's module setting enabled. Exact final deployed commit, hashes, and backup location are in ignored `.local/deployment.json` and the PR. Runtime manifest and empty content are unchanged since the UI-tested build.
-- Delivery procedure for these notes: commit, clean verify, dry-run/deploy/smoke while in Setup, push, check CI, update PR #2 to ready. On resume reconcile actual Git, receipt, PR, and remote state before repeating any action.
-- Next product step after delivery: discuss content/pack scope. Existing `pf1spheres` 0.9.0 has six packs; review overlap before import.
-- Deferred to content/release batches: PF1 schema/mechanics validation, content compatibility evidence and manifest claims, actual manifest/ZIP install-update tests, publishing automation.
-- No PR merge, release, tag, or stable manifest publication is authorized.
+- Active branch: `content/entity-catalog`, based on `tooling/bootstrap` at `c71b215f1987441f6d7de1107bda65fc865074ed`. Foundation PR #2 remains open and unmerged; its two CI jobs passed. Do not merge it without individual approval.
+- Active issue: https://github.com/sefaction/spheres-content/issues/3. New content PR not yet opened.
+- Scope: all wiki PF1 items, feats and base classes across publishers. Descriptions/generated images first; Changes and conditional modifiers only after the descriptive catalog is complete and reviewed. Archetypes are deferred. Reuse generated images where sensible.
+- Framework: upstream pf1spheres v0.9.0/master both at `c6d91092edb174f2bb44d9128e2ac75b4331837f`, matching installed version. Source audit found zero skillTalent records across 4,277 YAML pack files. User authorized missing Guile skill talents, now included in scope. Existing magic/combat spheres/talents stay excluded. Occultism is on the wiki but absent from the 15 recognized framework skill spheres; integration review remains necessary.
+- Working changes: first four canonical records (Extra Magic Talent, Lycanthrope Hunter's Kit, Incanter, Favorite Tools), four generated images, OGL notices/provenance, stable identity inventory, PF1 descriptive subset validator, compiled-pack round trips, deterministic archive handling, and pf1spheres dependency. Version is `0.1.0-alpha.2`; no release URLs or verified claims.
+- Local tests: 13 passed and deterministic clean builds passed before the latest documentation updates. Re-run final verification after those edits and again on the clean committed build before deployment.
+- Discovery: initial scanner now covers 105 source pages, including 35 directly linked base-class pages and 16 Guile sphere pages. Sitemap lists 2,668 pages. Counts are not full entity counts. Raw sources and upstream reference checkout remain ignored under `.local/`.
+- Art: canonical files are in `static/icons/`; prompts/hashes in `config/content.json`. Original generated images and local previews retained. Do not regenerate IDs or overwrite art casually.
+- Remote installation is still the foundation build `c71b215f1987441f6d7de1107bda65fc865074ed`, `0.1.0-alpha.1`; last smoke matched all receipt hashes and Setup/auth route. No deployment or restart has occurred in this content batch. Exact private target and credentials remain outside Git/Obsidian.
+- Next: finalize documentation/provenance and research snapshot, commit, clean verify, dry-run/deploy the pilot, then test discovery, pack counts, all four sheets/images/descriptions, actor imports, player visibility, and pf1spheres integration in the dedicated world. Reconcile actual state before retrying actions. Account for LevelDB operational metadata changes when comparing a Foundry-opened pack with a pre-launch byte receipt; do not dismiss semantic drift.
+- The designated container restart was previously authorized by the user for this test instance. The startup configuration auto-launches a campaign; return to Setup and use only the dedicated test world. Do not modify startup settings or other containers.
+- Full catalog remains unfinished. No Guile bulk import, archetype application, modifier automation, world migration, PR merge, tag, stable manifest publication, or public release has been performed.
+- Obsidian hub: Foundry-AI / `20 - Projects/Personal/Additional Spheres Content.md`. Durable scope/framework notes updated; add Guile exception and pilot milestone before ending this batch. No vault commit/push.

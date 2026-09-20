@@ -6,10 +6,7 @@ notes where appropriate.
 
 ## Status
 
-Foundation only: no imported content or registered compendia. Target environment:
-Foundry VTT 13 build 351 and PF1 11.11. The empty module passed remote discovery,
-enable/disable/reload, and log checks; see [test evidence](docs/TESTING.md).
-Content compatibility is not yet claimed in the manifest. This is not a published release.
+Initial descriptive pilot: four entries in Items, Feats, Base Classes, and Guile Talents, with generated images and source descriptions. The full catalog is in progress. Requires Pathfinder 1e and Spheres for Pathfinder 1e (`pf1spheres` 0.9.0 or newer). The target test combination is Foundry 13.351, PF1 11.11 and pf1spheres 0.9.0. New content integration acceptance is pending; the old empty-shell smoke result does not establish content compatibility. This is not a published release.
 
 ## Development
 

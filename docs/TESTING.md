@@ -54,3 +54,17 @@ The setup PR was opened as a **draft** while access was incomplete. Foundation
 acceptance is now complete and the PR can be marked ready for review. The related
 issue stays open until the individually approved merge. Commit build inputs before
 deploying the reviewed commit; record evidence in the PR and checkpoint afterward.
+
+## Descriptive pilot, 0.1.0-alpha.2 — integration pending
+
+Local source/asset/identity validation and complete compiler round trips pass for
+four records in four packs. Thirteen automated tests pass. Clean archive hashes
+match after retaining diagnostic LevelDB logs outside the package. Native PF1
+fields were checked against the installed 11.11 template and configuration;
+Guile uses pf1spheres 0.9.0's skillTalent subtype and Artifice sphere flag.
+
+Still required: deployment and in-Foundry checks for the new dependency, four
+pack entries, rendered descriptions/images, actor drag/drop, non-GM visibility,
+and logs. Changes, conditional notes, effects, actions, scripted automation and
+caster progression remain empty/deferred. Do not treat old empty-shell acceptance
+as acceptance of this content batch.

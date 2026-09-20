@@ -1,12 +1,81 @@
 {
   "id": "additional-spheres-content",
   "title": "Additional Spheres Content",
-  "description": "Pathfinder 1e compendium content from the Spheres of Power Wiki, with appropriate images, stat changes, and conditional notes. Foundation only; no content included yet.",
-  "authors": [{ "name": "sefaction" }],
-  "version": "0.1.0-alpha.1",
+  "description": "Pathfinder 1e descriptive compendia from the Spheres of Power Wiki. Initial four-entry pilot with original generated art; full catalog and modifier review are in progress.",
+  "authors": [
+    {
+      "name": "sefaction"
+    }
+  ],
+  "version": "0.1.0-alpha.2",
   "compatibility": {},
-  "relationships": { "systems": [{ "id": "pf1", "type": "system" }] },
-  "packs": [],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf1",
+        "type": "system"
+      }
+    ],
+    "requires": [
+      {
+        "id": "pf1spheres",
+        "type": "module",
+        "compatibility": {
+          "minimum": "0.9.0"
+        }
+      }
+    ]
+  },
+  "packs": [
+    {
+      "name": "items",
+      "label": "Additional Spheres: Items",
+      "type": "Item",
+      "system": "pf1",
+      "path": "packs/items",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "feats",
+      "label": "Additional Spheres: Feats",
+      "type": "Item",
+      "system": "pf1",
+      "path": "packs/feats",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "classes",
+      "label": "Additional Spheres: Base Classes",
+      "type": "Item",
+      "system": "pf1",
+      "path": "packs/classes",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "guile-talents",
+      "label": "Additional Spheres: Guile Talents",
+      "type": "Item",
+      "system": "pf1",
+      "path": "packs/guile-talents",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "TRUSTED": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
   "url": "https://github.com/sefaction/spheres-content",
   "bugs": "https://github.com/sefaction/spheres-content/issues",
   "readme": "README.md",

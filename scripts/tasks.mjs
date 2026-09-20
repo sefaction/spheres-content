@@ -4,7 +4,8 @@ import { spawnSync, execFileSync } from "node:child_process";
 import { createHash } from "node:crypto";
 import path from "node:path";
 import { zipSync } from "fflate";
-import { compilePack } from "@foundryvtt/foundryvtt-cli";
+import { compilePack, extractPack } from "@foundryvtt/foundryvtt-cli";
+import { validateContentCatalog } from "./content.mjs";
 import { deployRemote, smokeRemote } from "./remote.mjs";
 import {
   root,
@@ -34,49 +35,53 @@ async function manifestCheck() {
 }
 
 async function contentCheck() {
-  const { content, manifest } = await load();
-  assert.deepEqual(
-    content,
-    { packs: [], sources: [], assets: [] },
-    "Content intake is gated until the PF1 schema, source rights, and pack plan are reviewed",
-  );
-  assert.deepEqual(
-    manifest.packs,
-    [],
-    "Register packs only after content intake is implemented",
-  );
-  const sourceFiles = await files("src/packs");
-  assert.deepEqual(
-    sourceFiles,
-    [path.join("src", "packs", "README.md")],
-    "Unregistered canonical content",
-  );
-  const assetFiles = await files("static");
-  assert.deepEqual(
-    assetFiles,
-    [path.join("static", "README.md")],
-    "Unregistered static assets",
-  );
+  return validateContentCatalog();
 }
 
 async function referenceCheck() {
   await contentCheck();
-  // No content references can exist while intake is gated. Do not imply a PF1 schema check.
   console.log(
-    "References: no registered content or assets; content intake gate enforced.",
+    "Registered identities, source notices, description links and image hashes passed.",
   );
 }
 
 async function buildPacks() {
-  await contentCheck();
+  const { docs } = await contentCheck();
   const { manifest } = await load();
   for (const pack of manifest.packs) {
     safeRelative(pack.name);
     safeRelative(pack.path);
-    await compilePack(
-      path.join("src/packs", pack.name),
-      path.join("dist", pack.path),
+    const compiled = path.join(".build/compiled-packs", pack.name);
+    await compilePack(path.join("src/packs", pack.name), compiled);
+    const extracted = path.join(".build/roundtrip", pack.name);
+    await extractPack(compiled, extracted, {
+      transformName: (doc) => `${doc._id}.json`,
+    });
+    const recoveredFiles = await files(extracted);
+    const expectedDocs = docs.filter((entry) => entry.pack === pack.name);
+    assert.equal(
+      recoveredFiles.length,
+      expectedDocs.length,
+      "Compiled document count changed",
     );
+    for (const { doc } of expectedDocs)
+      assert.deepEqual(
+        await json(path.join(extracted, `${doc._id}.json`)),
+        doc,
+        "Compiled source drift",
+      );
+    // LevelDB diagnostic logs carry timestamps and are not database content.
+    // Package database files unchanged; keep diagnostics in the build workspace.
+    await mkdir(path.join("dist", pack.path), { recursive: true });
+    for (const file of await files(compiled)) {
+      const name = path.basename(file);
+      if (["LOG", "LOG.old", "LOCK"].includes(name)) continue;
+      assert(
+        /^(?:[0-9]+\.(?:ldb|log)|CURRENT|MANIFEST-[0-9]+)$/.test(name),
+        "Unexpected compiler output",
+      );
+      await copyFile(file, path.join("dist", pack.path, name));
+    }
   }
 }
 
@@ -101,6 +106,12 @@ async function build() {
     const target = path.join("dist", file);
     await mkdir(path.dirname(target), { recursive: true });
     await copyFile(file, target);
+  }
+  const { content } = await load();
+  for (const asset of content.assets) {
+    const target = path.join("dist", asset.path.slice("static/".length));
+    await mkdir(path.dirname(target), { recursive: true });
+    await copyFile(asset.path, target);
   }
   await buildPacks();
   const expected = {};
@@ -178,7 +189,7 @@ async function main() {
       await referenceCheck();
       break;
     case "packs":
-      await buildPacks();
+      await build();
       break;
     case "build":
       await build();

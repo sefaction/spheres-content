@@ -1,16 +1,56 @@
-# Next content and pack discussion
+# Content catalog plan
 
-The user requested all items, feats, and classes from the wiki. No narrower scope
-has been substituted. The site includes Spheres families, unrelated third-party
-systems, and legacy content. Resolve these boundaries after the foundation:
+## Confirmed scope
 
-1. Does "all" include every publisher/system on the wiki, or initially Spheres of Power, Might, Guile, and Champions? Inventory first so the choice has concrete counts.
-2. Should classes include linked class features, archetypes, favored-class bonuses, traditions, and sphere talents needed to make them usable?
-3. Should legacy pages be separate optional packs, or should current/errata versions replace them?
-4. Which existing PF1/Spheres modules are used, and should this fill gaps or provide an independent complete collection? Check duplication and stable UUID integration before choosing dependencies.
-5. What should be automated versus represented by conditional notes? Start with native PF1 bonuses, actions, resources, and clearly labeled manual choices; assess more extensive Spheres progression separately.
-6. Are contextual icons acceptable, or are unique illustrations expected? Inventory licensed/core/system icons before any art generation or purchase.
-7. Which coherent sample should prove the pipeline first (a class with its features, associated feats, and equipment), before importing at wiki scale?
+The user requested all PF1 items, feats, and base classes on the Spheres of Power
+Wiki, including other publishers and systems. This is a new module and is not
+limited to gaps in upstream compendia.
 
-Pack names, counts, and content priorities remain undecided. The module ID is
-stable. There are no invented source entries or placeholder art in the package.
+- Exclude existing magic/combat sphere and talent entities. Feats embedded on
+  sphere pages are still in scope. Include missing Guile skill talents: the user
+  explicitly added this exception after upstream coverage was checked.
+- Create base classes now. Preserve their class-feature descriptions. Defer
+  archetype entities and how to layer them onto classes to a later discussion.
+- First build descriptive entities and associated generated images. After that
+  collection is complete and reviewed, decide passive Changes and conditional
+  modifiers. Do not silently begin the modifier pass early.
+- Reuse generated images where they suit closely related entities; use distinct
+  images when the item or class has a different visual identity.
+- Keep current and legacy source variants distinct during intake. Do not import
+  both blindly or overwrite one with the other. Legacy inclusion remains a
+  collection-level review decision rather than a guessed default.
+
+Framework responsibilities and exact reviewed interfaces are documented in
+[Spheres integration](SPHERES_INTEGRATION.md).
+
+## Initial discovery
+
+`research/wiki-discovery.json` records the first 105 inspected source pages and
+their hashes. The sitemap listed 2,668 pages at retrieval. The main Spheres
+sections directly identified 35 base-class pages. These are not full entity
+counts: other publisher indexes and nested item/feat collections need follow-up.
+
+Run `npm.cmd run inventory:wiki -- --fetch` to fetch missing first-level sources;
+run without `--fetch` for an offline repeat from cache. Requests are sequential
+and delayed, and raw HTML plus detailed discovery metadata stay under ignored
+`.local/wiki-catalog/`. The scanner does not create compendium documents, clear
+rights, assign stable entity IDs, or infer mechanics.
+
+Source review must distinguish index/category headings from entities, deduplicate
+feats repeated on class pages, preserve edition information, and identify the
+actual publishing collection for each description. All source collections remain
+unreviewed in the discovery inventory until their provenance is checked.
+
+## Pack and entity direction
+
+Use separate Item compendia for items, feats, and base classes, organized by
+source family and category. Reserve stable source keys and IDs only when an
+entry is normalized into canonical JSON. Preserve native PF1 document types;
+do not represent a class or physical item as a generic feat.
+
+Descriptions should include prerequisites, benefits, limitations, tables where
+relevant, and source links. They should remain useful before automation exists.
+Record mechanics-review status in provenance metadata rather than inserting
+implementation commentary throughout player-facing rules text.
+
+The four-entry pilot now implements PF1 source validation, compiled-pack round trips, stable identities, description/reference guards and registered image provenance. It contains Extra Magic Talent, Lycanthrope Hunter's Kit, Incanter, and the Guile talent Favorite Tools. Four generated images are packaged. Remote document/sheet acceptance is pending. This pilot is not the complete catalog.

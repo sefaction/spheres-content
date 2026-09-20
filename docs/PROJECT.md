@@ -8,7 +8,7 @@
 - Repository: https://github.com/sefaction/spheres-content (public).
 - Primary source: http://spheresofpower.wikidot.com/.
 - Obsidian hub: vault `Foundry-AI`, `20 - Projects/Personal/Additional Spheres Content.md`.
-- Module version policy: semantic versioning; `0.1.0-alpha.1` is an unpublished foundation version.
+- Module version policy: semantic versioning; `0.1.0-alpha.2` is an unpublished descriptive pilot.
 
 ## Compatibility
 
@@ -25,7 +25,8 @@ does not establish document or mechanics compatibility.
 Personal use first, with possible sharing. Original tooling and documentation
 use MIT. Imported rules and images retain source-specific licenses. The wiki
 identifies OGL 1.0a and CC BY-SA 3.0; these are not replaced with a generic
-license. No third-party text or artwork is included in the bootstrap.
+license. The descriptive pilot includes selected Open Game Content and original
+generated artwork; it does not copy third-party artwork.
 See [provenance](CONTENT_PROVENANCE.md).
 
 ## Remote testing
@@ -41,7 +42,4 @@ copies. Container restart requires separate authorization.
 
 ## Current batch
 
-Build the repository foundation before agreeing the content/pack plan. This
-batch contains no content scrape, art download, actor migration, public release,
-or claim of automated Spheres mechanics. Pack registration and PF1 content
-validation remain gated until the next reviewed schema/content batch.
+Build the complete descriptive catalog of wiki PF1 items, feats and base classes across publishers, with generated images. Include missing Guile skill talents; exclude existing magic/combat spheres and talents. Archetypes are deferred. The initial four-entry pilot establishes the content pipeline; the full catalog is unfinished. Only after the descriptive collection is complete and reviewed should passive Changes and conditional modifiers be implemented. The companion framework is pf1spheres; the installed/test target is 0.9.0. No world migration or release is included.

@@ -62,7 +62,7 @@ directories to recover a module deployment.
 
 Confirm module discovery, enable/disable/reload, supported versions, pack counts,
 representative content behavior, permissions, and browser/server logs. This
-foundation contains no packs. Logs are read through the same share's `Logs`
+pilot contains four packs with one entry each. Logs are read through the same share's `Logs`
 directory, scoped to the deployment time and module identity; keep private log
 content out of public reports. Record evidence in PR #2 and the checkpoint.
 
