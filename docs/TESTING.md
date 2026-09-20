@@ -70,13 +70,28 @@ restart completed, and the idle automatically launched campaign was returned to
 Setup. A Setup-only semantic audit subsequently matched all four documents to
 that deployed commit and all non-pack bytes to its receipt. Both CI jobs passed.
 
-In-Foundry acceptance is pending: browser control reports a zero or very narrow
-viewport, preventing reliable test-world launch. The user was asked to restore
-the Chrome window. The instance remains in Setup. No content compatibility claim
-has been added.
+Partial UI acceptance on 2026-09-20: a fresh Chrome tab resolved the old tab's
+zero viewport. Launched the dedicated world as Gamemaster, enabled pf1spheres
+0.9.0 alongside this module, and saved/reloaded. All four packs have one entry;
+all four sheets open with their descriptions and generated images. Verified
+Incanter's d6/low BAB/poor Fortitude and Reflex/good Will/4 skills, the kit's
+80 gp/4 lb/quantity 1, Extra Magic Talent's feat type and search, and Favorite
+Tools' Skill Talent subtype and Artifice sphere. All four Changes/context-note
+lists are empty. Incanter appears independently in PF1's class browser and
+imports to world Items using its native Import Entry command.
 
-Still required: in-Foundry checks for the new dependency, four
-pack entries, rendered descriptions/images, actor drag/drop, non-GM visibility,
-and logs. Changes, conditional notes, effects, actions, scripted automation and
+Created the controlled PC `ASC Pilot Acceptance`. Automated drags from both
+compendium and world Items produced no actor import and no error. A manual drag
+was requested to separate browser-control failure from a document problem;
+its outcome is pending. Browser capture has zero errors and 74 warnings,
+principally deprecated APIs plus a PF1 browser filter warning. Server debug
+records from 00:11:29 to 00:16:52 local time: 145 records, zero errors/warnings.
+Issue #6 records native source-label and narrow table presentation defects.
+
+Still required: actor drag/drop and calculations, non-GM visibility,
+framework-only warning comparison, final lifecycle checks and semantic audit
+after returning to Setup. The test world remains running for the manual drag.
+No content compatibility claim has been added.
+Changes, conditional notes, effects, actions, scripted automation and
 caster progression remain empty/deferred. Do not treat old empty-shell acceptance
 as acceptance of this content batch.
