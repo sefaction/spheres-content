@@ -207,7 +207,7 @@ async function main() {
         ) + "\n",
       );
       console.log(
-        "Local foundation gate passed; Foundry acceptance and PF1 content schema checks are pending.",
+        "Local foundation gate passed; see docs/TESTING.md for remote evidence and deferred PF1 content checks.",
       );
       break;
     }

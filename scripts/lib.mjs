@@ -70,7 +70,7 @@ export function validateManifest(manifest, pkg, compatibility) {
     systems: [{ id: "pf1", type: "system" }],
   });
   assert(Array.isArray(manifest.packs));
-  // The bootstrap has no test evidence and must not advertise compatibility or releases.
+  // Empty-shell smoke tests do not establish PF1 content compatibility or release readiness.
   assert.equal(
     compatibility.tested,
     null,

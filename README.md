@@ -7,8 +7,9 @@ notes where appropriate.
 ## Status
 
 Foundation only: no imported content or registered compendia. Target environment:
-Foundry VTT 13 build 351 and PF1 11.11 (confirmed in remote UI; module not integration-tested).
-Compatibility is not yet claimed in the manifest. This is not a published release.
+Foundry VTT 13 build 351 and PF1 11.11. The empty module passed remote discovery,
+enable/disable/reload, and log checks; see [test evidence](docs/TESTING.md).
+Content compatibility is not yet claimed in the manifest. This is not a published release.
 
 ## Development
 

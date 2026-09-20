@@ -10,7 +10,9 @@ manifest. The user authorized module deployment and creation of
 The module target is exactly `<configured-data>/Data/modules/additional-spheres-content`.
 World and system manifests are read only as identity/version markers. Their
 contents are never written by deployment. Existing campaigns and other instances
-remain outside this target. Host/container/service restart is not authorized.
+remain outside this target. The user separately authorized one restart of the
+designated test container for initial package discovery; it completed on
+2026-09-19. This does not authorize other containers or host services.
 
 ## Configuration
 
@@ -66,3 +68,9 @@ content out of public reports. Record evidence in PR #2 and the checkpoint.
 
 If Foundry needs a container restart to discover the new package, stop and obtain
 authorization for that exact container; the deployment helper never restarts it.
+
+The initial authorized restart automatically launched an existing campaign because
+of the container's startup configuration. With no connected players, the instance
+was returned to Setup and the dedicated test world launched for acceptance. Do not
+change startup configuration or test inside that campaign. Account for this behavior
+before future restarts. The instance was returned to Setup after foundation tests.

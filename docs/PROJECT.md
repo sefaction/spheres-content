@@ -13,9 +13,12 @@
 ## Compatibility
 
 Target on 2026-09-19: Foundry VTT v13 build 351, Pathfinder 1e
-system `pf1` version 11.11. Both versions were confirmed in the remote UI. No module acceptance tests have run. `config/compatibility.json`
-separates the target from test evidence; `module.json` has no verified claim.
-The tested minimum and verified versions must be set only after acceptance.
+system `pf1` version 11.11. Both versions were confirmed in the remote UI.
+The empty module passed foundation acceptance; see [testing](TESTING.md).
+`config/compatibility.json` retains a null content-compatibility profile and
+`module.json` has no verified claim. Add versioned evidence validation and manifest
+compatibility with the first tested PF1 content batch; shell lifecycle testing
+does not establish document or mechanics compatibility.
 
 ## Distribution and licensing
 

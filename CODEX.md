@@ -56,7 +56,6 @@ From Windows PowerShell or Command Prompt:
 ```powershell
 npm.cmd ci
 npm.cmd run verify
-npm.cmd run build
 npm.cmd run deploy:remote -- --dry-run
 npm.cmd run deploy:remote
 npm.cmd run smoke:remote
