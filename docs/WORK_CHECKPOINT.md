@@ -18,10 +18,30 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   lost directory remains unavailable. New match: Trail Rations; quantity/use
   behavior should be reviewed in a follow-up. Hidden Blade still needs a native
   weapon profile rather than generic equipment; tracked with issue #10 findings.
-- Source and targeted tests pass; full clean verify/deployment/UI acceptance are
-  pending. Remote remains fa07d6b alpha.4 in Setup; six backups. Next safe step:
-  finish documentation/provenance checks, commit, full verify and staged test
-  deployment, then actor container/equip checks and exact installed audit.
+- Runtime/source commit e3cd4c22e39aca685a128d9d2e39983dcffeaf5e is pushed.
+  Full clean verification passed 27 tests, complete 6,788-document compiled
+  round trips and two identical 682-file archives; review ZIP SHA-256 is
+  2eb96fd612190c73b725f2d020dc4320ca1f2bbe1a330b571e483502a6d36416.
+- Alpha.5 deployed through the staged helper. Seven backups remain and none were
+  deleted. Strict package and nine external-image hashes passed. No container or
+  host restart occurred.
+- Remote acceptance passed on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0 with
+  only ASC alpha.5 and the framework active. All five packs appear. Sash, scarf
+  and umbrella native sheets show the reviewed type, price, weight, description
+  and artwork. Native actor JSON import produced 6 lb / 27 gp: the umbrella began
+  inside the sash, native Take moved it to actor Gear while totals stayed fixed,
+  and the empty sash became 3 lb. The scarf equipped toggle works and adds no
+  authored modifier. Browser capture has no ASC errors; only existing PF1 and
+  framework deprecation warnings. Server records since deployment contain 152
+  info entries and one unrelated failed player-login warning followed by a
+  successful login; no daily error file exists.
+- The dedicated world is back in Setup. Final installed semantic audit passed:
+  all 6,788 pack documents match canonical sources at the deployed commit,
+  non-pack bytes match the deployment receipt, and all nine referenced image
+  hashes pass. Only local copies of installed LevelDB were opened.
+- Next safe step: open the stacked draft PR against content/systematic-intake,
+  then preserve this checkpoint for the next review batch. No merge, release or
+  world migration is authorized.
 
 ## Prior completed batch: systematic wiki intake
 
