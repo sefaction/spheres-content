@@ -72,10 +72,9 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
     /^[0-9a-f]{64}$/.test(meta.sourceSha256),
     "Missing source snapshot hash",
   );
-  assert.equal(
-    meta.automation,
-    "not-reviewed",
-    "Mechanics are deferred until the descriptive catalog is reviewed",
+  assert(
+    ["not-reviewed", "reviewed"].includes(meta.automation),
+    "Unknown automation review state",
   );
   assert(assets.has(doc.img), "Unregistered image");
   const s = doc.system;
@@ -85,7 +84,20 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
       s.description.value.length > 30,
     "Missing description",
   );
-  for (const name of ["changes", "contextNotes", "scriptCalls"])
+  if (meta.automation === "reviewed") {
+    assert(identity.changesSha256, "Reviewed Changes are not pinned");
+    assert.equal(
+      hash(JSON.stringify(s.changes)),
+      identity.changesSha256,
+      "Reviewed Changes changed",
+    );
+  } else
+    assert.deepEqual(
+      s.changes,
+      [],
+      "changes must remain empty during the descriptive phase",
+    );
+  for (const name of ["contextNotes", "scriptCalls"])
     assert.deepEqual(
       s[name],
       [],
@@ -108,6 +120,12 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
       "Reused snapshot changed",
     );
     assert.equal(doc.type, identity.type, "Contained item type changed");
+  } else if (identity.actionsSha256) {
+    assert.equal(
+      hash(JSON.stringify(s.actions)),
+      identity.actionsSha256,
+      "Unreviewed native actions",
+    );
   } else
     assert.deepEqual(
       s.actions,
@@ -193,8 +211,18 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
     );
   } else {
     if (doc.type === "loot") assert.equal(s.subType, "gear");
-    if (doc.type === "consumable")
+    if (doc.type === "consumable") {
       assert(["misc", "potion"].includes(s.subType));
+      if (meta.nativeProfile === "trail-rations") {
+        assert.equal(s.subType, "misc");
+        assert.equal(s.equipped, true);
+        assert.equal(s.uses.per, "single");
+        assert.equal(s.uses.pricePerUse, 0);
+        assert.equal(s.actions.length, 1);
+        assert.equal(s.actions[0].name, "Use");
+        assert.equal(s.actions[0].activation.type, "nonaction");
+      }
+    }
     if (doc.type === "equipment") {
       assert(
         ["wondrous", "clothing"].includes(s.subType),
@@ -209,10 +237,40 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
         assert.equal(s.spellFailure, 0);
       }
     }
-    if (doc.type === "weapon") {
+    if (doc.type === "weapon" && options.contained) {
       assert.equal(s.subType, "simple");
       assert.equal(s.weaponSubtype, "light");
       assert.deepEqual(s.material.addon, ["alchemicalSilver"]);
+    }
+    if (
+      doc.type === "weapon" &&
+      meta.nativeProfile === "hidden-blade-longsword"
+    ) {
+      assert.equal(s.subType, "martial");
+      assert.equal(s.weaponSubtype, "1h");
+      assert.equal(s.hands, 1);
+      assert.deepEqual(s.baseTypes, ["Longsword"]);
+      assert.deepEqual(s.weaponGroups, ["bladesHeavy"]);
+      assert.equal(s.material.base.value, "steel");
+      assert.equal(s.masterwork, true);
+      assert.equal(s.enh, 3);
+      assert.equal(s.actions.length, 1);
+      assert.equal(s.actions[0].actionType, "mwak");
+      assert.equal(s.actions[0].ability.critRange, 19);
+      assert.equal(
+        s.actions[0].damage.parts[0].formula,
+        "sizeRoll(1, 8, @size)",
+      );
+      assert.deepEqual(s.changes, [
+        {
+          formula: "3",
+          operator: "add",
+          target: "sphereclIllusion",
+          priority: 0,
+          type: "enh",
+          _id: "1a4d7dc248628a3a",
+        },
+      ]);
     }
     assert(Number.isFinite(s.price) && s.price >= 0);
     assert(Number.isFinite(s.weight?.value) && s.weight.value >= 0);

@@ -217,3 +217,43 @@ world was returned to Setup before the final exact installed semantic audit.
 That audit passed for all 6,788 pack documents against canonical sources at the
 deployed commit, all non-pack receipt bytes and all nine external image hashes.
 Only local copies of installed LevelDB were opened.
+
+## Alpha.6 native item-profile acceptance
+
+Full clean verification passed on `c9107729ce1a5e2189bcacff1d1a9d80efd996f0`
+with 29 tests, exact compiled round trips for all 6,788 documents and two
+identical 682-file archives. The review ZIP SHA-256 is
+`9fe6c060ba778d9a6bee43b00192edcaa31a647cec23fbe5484c1e9efff49f3a`.
+Staged deployment retained ten module-only backups and deleted none. Strict
+installed package and external-image hashes passed without a restart.
+
+Runtime checks used Foundry 13.351, PF1 11.11 and pf1spheres 0.9.0 with only ASC
+alpha.6 and the framework active. All five locked packs appeared for the Player
+user. Hidden Blade opened with the reviewed longsword art, Weapon / Martial /
+One-handed profile, +3 enhancement, heavy-blade group, CL 10, moderate Illusion
+aura, native Attack action and wiki implement text. Rations, Trail opened with
+the reviewed preserved-food art, Miscellaneous Consumable subtype, 0.5 gp / 1 lb
+values, native Use action and Single Use setting. This type is intentional: PF1
+11.11 treats loot records as non-activatable, which the first actor check exposed.
+
+Gamemaster actor checks used the level-1 `ASC Pilot Acceptance` actor. Hidden
+Blade imported and produced its native melee attack chat card with the +3
+enhancement. After importing the framework's base Illusion talent, the actor's
+base Illusion CL was 0. One equipped Hidden Blade raised it to 3; unequipping
+returned it to 0; re-equipping restored 3. Duplicating the equipped blade left
+the result at 3, confirming PF1's normal enhancement-bonus nonstacking while the
+bonus remains uncapped by the actor's one Hit Die.
+
+A freshly imported corrected Rations, Trail exposed its Use action on the actor.
+After increasing the test stack to three, one use produced a chat card with charge
+cost 1 and left the item present at quantity two. The older actor-owned loot copy
+was left in the disposable fixture, demonstrating that this compendium update
+does not migrate existing world items.
+
+The final browser capture contains zero errors and 113 PF1, pf1spheres and Foundry
+13 deprecation warnings. The current server debug log contains zero errors and
+only two historical rejected-login warnings; no new warning appeared during this
+acceptance run. The dedicated world was returned to Setup. Final semantic audit
+matched all 6,788 pack documents to canonical sources, all non-pack receipt bytes
+and all referenced image hashes using local copies of the installed LevelDB
+databases.

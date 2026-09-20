@@ -66,6 +66,16 @@
       "evidenceUrl": "https://foundryvtt.com/packages/pf1",
       "scope": "Only Adventurers Sash, Filter Scarf and Parasol Umbrella adaptations registered in config/physical-item-reviews.json; rules and native record data, not upstream artwork or program code.",
       "review": "Selected mundane rules are OGL game content. Retain PF1 Content OGL and complete wiki notices, including Adventurers Armory 2, Adventurers Guide and Ultimate Equipment. Retain GPL-3.0 for upstream record-format contributions and ship adapted physical JSON in sources/items. Core scarf image is referenced only; sash and umbrella images are original generated art."
+    },
+    {
+      "key": "pf1-reviewed-native-item-profiles",
+      "status": "reviewed",
+      "license": "OGL-1.0a",
+      "licensePath": "LICENSES/OGL-1.0a-PF1-Content.txt",
+      "licenseSha256": "10bcdc68296b48cc250f38e49de09c9a73645163d7ac7f76e77346a755c35cdc",
+      "evidenceUrl": "https://foundryvtt.com/packages/pf1",
+      "scope": "Only the PF1 11.11 Longsword and Trail Rations native profiles adapted for Hidden Blade and Rations, Trail in config/physical-item-reviews.json; rules and native record data, not upstream artwork or program code.",
+      "review": "Selected weapon and food rules are Open Game Content. Retain PF1 OGL notices and GPL-3.0 for upstream record-format contributions. Referenced PF1 images were visually inspected and remain system dependencies; no image bytes are redistributed."
     }
   ],
   "assets": [
@@ -271,6 +281,22 @@
     }
   ],
   "externalAssets": [
+    {
+      "path": "systems/pf1/icons/items/weapons/longsword.png",
+      "kind": "reference",
+      "provider": "pf1",
+      "version": "11.11",
+      "sha256": "e8aa123d7e8f9f88318f77755220ed31a23fa8a79d738e257cfde137c1b72141",
+      "review": "Existing PF1 system asset reference only; visually inspected 2026-09-20. Suitable generic longsword art for Hidden Blade. No image bytes redistributed."
+    },
+    {
+      "path": "systems/pf1/icons/items/inventory/meat.jpg",
+      "kind": "reference",
+      "provider": "pf1",
+      "version": "11.11",
+      "sha256": "ab91184fbd46b0c9008e6ee0d68550fc40e44562566281c9da5e3ca7be11f11b",
+      "review": "Existing PF1 system asset reference only; visually inspected 2026-09-20. Suitable preserved-food art for highland trail rations. No image bytes redistributed."
+    },
     {
       "path": "systems/pf1/icons/items/potions/unique-9.jpg",
       "kind": "reference",

@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import test from "node:test";
 import {
   findReuseCandidates,
@@ -72,6 +73,42 @@ test("reuse decisions become stale when source text, provider, or candidate set 
     !reviewIsCurrent(review, entity, [{ ...candidates[0], sha256: "new" }]),
   );
   assert(!reviewIsCurrent(review, entity, [...candidates, { uuid: "b" }]));
+});
+
+test("a reviewed adaptation source may supply a native profile without becoming a name match", () => {
+  const doc = {
+    _id: "abcdefghijklmnop",
+    type: "weapon",
+    flags: {
+      "additional-spheres-content": {
+        sourceSha256: "page",
+        descriptionSha256: "text",
+        reuse: {
+          sourceUuid: "Compendium.pf1.weapons.Item.source",
+          sourceSha256: "record",
+          sourceVersion: "11.11",
+        },
+      },
+    },
+  };
+  const review = {
+    pageSha256: "page",
+    descriptionSha256: "text",
+    candidates: [],
+    adaptationSource: {
+      uuid: "Compendium.pf1.weapons.Item.source",
+      version: "11.11",
+      sha256: "record",
+      decision: "adapt",
+    },
+    output: {
+      id: doc._id,
+      type: doc.type,
+      sourceUuid: "Compendium.pf1.weapons.Item.source",
+      sha256: createHash("sha256").update(JSON.stringify(doc)).digest("hex"),
+    },
+  };
+  assert.doesNotThrow(() => validateReviewOutput(review, doc));
 });
 
 test("reviewed mundane gear preserves identity and models a usable empty sash", async () => {

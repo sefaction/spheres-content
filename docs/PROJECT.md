@@ -8,7 +8,7 @@
 - Repository: https://github.com/sefaction/spheres-content (public).
 - Primary source: http://spheresofpower.wikidot.com/.
 - Obsidian hub: vault `Foundry-AI`, `20 - Projects/Personal/Additional Spheres Content.md`.
-- Module version policy: semantic versioning; `0.1.0-alpha.5` is an unpublished physical-item review draft.
+- Module version policy: semantic versioning; `0.1.0-alpha.6` is an unpublished native item-profile review draft.
 
 ## Compatibility
 
@@ -42,7 +42,7 @@ copies. Container restart requires separate authorization.
 
 ## Current batch
 
-Build the complete descriptive catalog of wiki PF1 items, feats and base classes across publishers, with generated images. Include missing Guile skill talents; exclude existing magic/combat spheres and talents. Archetypes are deferred. The initial four-entry pilot established the content pipeline. The current intake contains 6,788 descriptive drafts across five packs; full extraction and review remain unfinished. See SYSTEMATIC_INTAKE.md for coverage, holds and per-entity audit queues. Only after the descriptive collection is complete and reviewed should passive Changes and conditional modifiers be implemented. The companion framework is pf1spheres; the installed/test target is 0.9.0. No world migration or release is included.
+Build the complete descriptive catalog of wiki PF1 items, feats and base classes across publishers, with generated images. Include missing Guile skill talents; exclude existing magic/combat spheres and talents. Archetypes are deferred. The initial four-entry pilot established the content pipeline. The current intake contains 6,788 descriptive drafts across five packs; full extraction and review remain unfinished. See SYSTEMATIC_INTAKE.md for coverage, holds and per-entity audit queues. Mechanics may be implemented entity by entity after their source meaning and exact PF1/pf1spheres interface are reviewed and pinned; broad inferred automation remains deferred. The companion framework is pf1spheres; the installed/test target is 0.9.0. No world migration or release is included.
 
 Before creating equipment or artwork, inspect existing compendia for suitable
 entries, descriptions, images and native behavior. Reuse reviewed entries and
@@ -56,7 +56,8 @@ a 32 KiB budget, preserving readable category folders and meaningful shared icon
 Retain small compatibility PNGs for old imported paths. New bulk drafts use
 explicit core placeholders until existing artwork is reviewed or art is generated.
 
-The current coherent review batch adapts the sash, filter scarf and umbrella,
-records six rejected namesakes and introduces a physical-item reuse report.
-See [the physical-item review](PHYSICAL_ITEM_REVIEW.md). The full descriptive
-catalog, artwork and mechanics remain unfinished.
+The current coherent review batch corrects Hidden Blade to a native +3 longsword,
+implements its uncapped +3 enhancement bonus to Illusion caster level, and corrects Trail
+Rations to an activatable single-use consumable. It follows the sash, filter scarf
+and umbrella review recorded in [the physical-item review](PHYSICAL_ITEM_REVIEW.md).
+The full descriptive catalog, artwork and mechanics remain unfinished.

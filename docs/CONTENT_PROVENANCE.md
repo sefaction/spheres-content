@@ -105,3 +105,20 @@ Equipment. Retain OGL-1.0a and GPL-3.0 record-format notices and adapted JSON so
 No named-setting material from rejected Brazen Head or other false matches is
 copied. The scarf references an inspected core image. Two original images are
 generated without source images and recorded under the existing scoped MIT terms.
+
+## Reviewed native item profiles (alpha.6)
+
+Hidden Blade adapts the PF1 11.11 Longsword record's native weapon categories,
+attack action and system artwork. The wiki remains authoritative for its +3
+enhancement, price, weight, caster level, aura, glamered property and Illusion
+implement description. Rations, Trail adapts PF1 11.11 Trail Rations' single-use
+data and system artwork while retaining the wiki text and physical values. PF1
+11.11 treats loot as non-activatable, so the output uses its activatable
+miscellaneous consumable type rather than copying the source record's loot type.
+Exact source UUIDs and snapshot hashes are recorded in
+`config/physical-item-reviews.json`; action arrays are independently hash-pinned.
+
+Both PF1 images were visually inspected from the tested 11.11 installation and
+are referenced at their system paths. No image bytes are redistributed. Retain
+the PF1 OGL notice and GPL-3.0 record-format notice for adapted data. No world
+migration is included, so existing world copies remain unchanged.

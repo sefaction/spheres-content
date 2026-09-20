@@ -2,8 +2,8 @@
   "_id": "8f74960ccb773c7e",
   "_key": "!items!8f74960ccb773c7e",
   "name": "Hidden Blade",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "weapon",
+  "img": "systems/pf1/icons/items/weapons/longsword.png",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -15,27 +15,38 @@
       "sourceSha256": "f43beedae4d13c401a55e4c9a04c8211105875d4d83394920f539ca12edf879b",
       "descriptionSha256": "a0750a5036d9758c7053ca99fdbee82f6677eec71a3e313cd9b0931706732ddb",
       "phase": "descriptive",
-      "automation": "not-reviewed",
+      "automation": "reviewed",
       "edition": "ultimate",
       "category": "New Implements",
+      "nativeProfile": "hidden-blade-longsword",
       "intake": {
         "status": "draft",
         "auditKey": "wiki:implements:ultimate:item:hidden-blade",
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "implemented",
         "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "usage": "implemented",
+        "links": "implemented",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
+        "compatibility": "implemented",
         "reuse": "implemented",
-        "description": "needs-review",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.zWRlna42PMJVX6un",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "5a925c687a2d921066095d8bb75e34601e5b35f08709109ba28966f1646ea173",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
@@ -63,15 +74,26 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 10,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Illusion"
     },
-    "hp": {},
+    "hp": {
+      "base": 5
+    },
     "broken": false,
     "hardness": 0,
-    "changes": [],
+    "changes": [
+      {
+        "formula": "3",
+        "operator": "add",
+        "target": "sphereclIllusion",
+        "priority": 0,
+        "type": "enh",
+        "_id": "1a4d7dc248628a3a"
+      }
+    ],
     "changeFlags": {
       "immuneToMorale": false,
       "loseDexToAC": false,
@@ -84,7 +106,42 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "jelb63mz9vrxa43c",
+        "ability": {
+          "attack": "_default",
+          "critRange": 19,
+          "damage": "str"
+        },
+        "actionType": "mwak",
+        "activation": {
+          "type": "attack",
+          "unchained": {
+            "type": "attack"
+          }
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "sizeRoll(1, 8, @size)",
+              "types": ["slashing"]
+            }
+          ]
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "extraAttacks": {
+          "type": "standard"
+        },
+        "name": "Attack",
+        "range": {
+          "units": "melee",
+          "value": "0"
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
@@ -104,8 +161,8 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
+    "masterwork": true,
+    "enh": 3,
     "proficient": false,
     "held": "1h",
     "ammo": {
@@ -114,30 +171,24 @@
       "misfire": null,
       "explode": null
     },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
+    "subType": "martial",
+    "weaponSubtype": "1h",
+    "hands": 1,
+    "baseTypes": ["Longsword"],
+    "weaponGroups": ["bladesHeavy"],
+    "material": {
+      "base": {
+        "value": "steel",
+        "custom": false
+      },
+      "normal": {
+        "value": "",
+        "custom": false
+      },
+      "addon": []
     },
-    "spellFailure": 0,
-    "showInQuickbar": false,
+    "properties": {},
+    "showInQuickbar": true,
     "sources": [
       {
         "title": "Spheres of Power Wiki",

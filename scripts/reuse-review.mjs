@@ -34,9 +34,11 @@ export function validateReviewOutput(review, doc) {
     "Reviewed physical content changed",
   );
   const meta = doc.flags["additional-spheres-content"];
-  const selected = review.candidates.find(
-    (c) => c.uuid === review.output.sourceUuid,
-  );
+  const selected =
+    review.candidates.find((c) => c.uuid === review.output.sourceUuid) ??
+    (review.adaptationSource?.uuid === review.output.sourceUuid
+      ? review.adaptationSource
+      : undefined);
   assert(selected?.decision === "adapt", "Unapproved reuse candidate");
   assert.equal(meta.reuse.sourceUuid, selected.uuid);
   assert.equal(meta.reuse.sourceSha256, selected.sha256);
