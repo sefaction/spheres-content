@@ -1,19 +1,127 @@
 ﻿# Work checkpoint
 
-Updated: 2026-09-19.
+Updated: 2026-09-20 (work began 2026-09-19 local time).
 
-- Active branch: `tooling/bootstrap`.
-- Issue: https://github.com/sefaction/spheres-content/issues/1. PR: https://github.com/sefaction/spheres-content/pull/2. Neither merged nor closed; reconcile live status on resume.
-- Base: user approved instruction-only main seeding. Foundation implementation remains on the feature branch.
-- Scope: foundation before content/pack planning; zero imported documents or assets.
-- Implemented: module shell, deterministic ZIP, official compiler round trip, provenance intake gate, Windows SMB staging/swap, retained module backups, HTTP setup guard, local receipts, and Windows/Linux CI.
-- Validation: 10 tests and full verification passed; CI passed on `38f3886`. Check final acceptance-documentation commit CI before further work.
-- Obsidian hub: Foundry-AI vault, `20 - Projects/Personal/Additional Spheres Content.md`; no vault commit/push.
-- Remote: SMB works. Foundry `13.351`, PF1 `11.11`, dedicated world `additional-spheres-content-test`. Private connection details remain in ignored local config; no credentials stored there.
-- UI-tested commit: `6b2ad38e5f94e911358ca4d3807732ed834eb103`, module `0.1.0-alpha.1`. Discovery, enable/disable/re-enable, reload, and log checks passed. See `docs/TESTING.md`.
-- User handled the browser certificate warning. The specifically authorized test-container restart completed. Startup automatically launched a campaign; returned to Setup with no players and used the dedicated world for acceptance. Do not alter startup settings or unrelated containers.
-- Last observed remote state: Setup; dedicated world's module setting enabled. Exact final deployed commit, hashes, and backup location are in ignored `.local/deployment.json` and the PR. Runtime manifest and empty content are unchanged since the UI-tested build.
-- Delivery procedure for these notes: commit, clean verify, dry-run/deploy/smoke while in Setup, push, check CI, update PR #2 to ready. On resume reconcile actual Git, receipt, PR, and remote state before repeating any action.
-- Next product step after delivery: discuss content/pack scope. Existing `pf1spheres` 0.9.0 has six packs; review overlap before import.
-- Deferred to content/release batches: PF1 schema/mechanics validation, content compatibility evidence and manifest claims, actual manifest/ZIP install-update tests, publishing automation.
-- No PR merge, release, tag, or stable manifest publication is authorized.
+## Current batch: packaged kit components
+
+- User resolved delivery: package reviewed copies, preserving attribution and
+  permitted artwork references. No optional source-module dependency is added.
+- On `content/entity-catalog`, implementing issue #7 within draft PR #4.
+  Version `0.1.0-alpha.3`: kit keeps ID `5feccdaf3cbf89f1`, now a native container
+  with four stable child records (quantities 5/5/1/1); 0.5 gp / 0.5 lb empty,
+  80 gp / 4 lb full. Actions copied from the dagger remain hash-pinned;
+  passive/conditional authoring stays deferred.
+- Copied record provenance and OGL/GPL notices are retained. Referenced core/PF1
+  images were visually inspected and fetched successfully; raw artwork is not
+  redistributed. Corresponding adapted kit JSON is included in the archive.
+- Deployed commit `873659499caa08ddeb3a9a5d565cc39e5d9809b9`, alpha.3. Clean
+  full verification passed 15 tests, complete compiled-record round trips and
+  deterministic 39-file archives. Both GitHub CI platforms passed. Dry-run,
+  staged replacement with retained backup, strict installed hashes and all four
+  referenced image hashes passed. No container/host restart was needed.
+- UI acceptance on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0: the kit opens
+  as Container; all four child stacks and their native sheets open with images,
+  descriptions and source labels. Dagger shows Melee/Throw and checked Alchemical
+  Silver. Header shows total weight 4 lb and empty price 0.5 gp; contents show
+  3.5 lb / 79.5 gp. Imported a new world copy, renamed `ASC Kit Container Test`
+  (`oi8Hwjfog2mgKW44`), leaving the old flat kit untouched. Minus one silver
+  blanch produces four doses, 3.5 lb total and 74.5 gp contents; restored five
+  doses and original totals using native quantity controls. No automatic
+  coating/scent effect or silver damage adjustment is implemented.
+- Browser errors: zero. Server debug log through 2026-09-20 01:17:40 local
+  contains 321 records, zero warnings/errors; no daily error file present.
+- User enabled Chrome file-URL access and reopened the browser. Reconnected to
+  Chrome browser 3, tab 72099537. Native Import Data uploaded the prepared JSON
+  into the previously empty ASC Container Acceptance actor successfully.
+- Actor checks passed: complete kit appears as Container with total inventory
+  4 lb / 80 gp. Native Take withdrew the silver dagger into actor inventory;
+  kit became 3 lb with 57.5 gp contents and the actor remained 4 lb / 80 gp.
+  The withdrawn dagger (new actor item d9uB1c9ziBB8wEuZ) opened its action picker,
+  Melee roll dialog and produced a chat attack/damage roll. The silver damage
+  modifier remains deferred. Actor fixture retains the withdrawn dagger and
+  remaining kit contents; the separate world kit copy remains full.
+- Browser captured one pre-test startup viewport error at 13:43:34 UTC while
+  Chrome was 958px wide; later screenshots show 1920px. No new item/roll error
+  appeared. Do not describe the whole browser log as error-free.
+- Final semantic audit caught added parent container defaults on deployed
+  8736594; the four contained records matched exactly. Reviewed the complete
+  diff and normalized only the missing native parent defaults in canonical JSON,
+  including empty unidentified data, false flags, ownership and null stats.
+  No changes to item rules, IDs or children; exact audit comparison is preserved.
+- Correction 78a5570d64552dcd23088bbaf568dd72964c4266 passed clean full verification
+  (15 tests and deterministic archives), staged deployment with backup, strict
+  installed hashes and external image hashes. Repeat UI intake and semantic audit
+  completed for the container, which now matches exactly. The audit exposed the
+  same missing-default issue in the other three pilot entries; full reviewed
+  diffs contained additions only. Their native empty/false defaults are now
+  explicit in canonical sources too. No host restart or world migration performed.
+- User requested readable icon organization. Canonical icons now use classes,
+  feats, items/kits, and guile-talents/artifice folders. Four generated legacy
+  aliases preserve images in existing test-world copies. Source references,
+  asset registry, validation and packaging are updated together; no new artwork.
+- Final deployed runtime: `80600de7e17d211617a1291bd50db71936d28a06`, alpha.3.
+  Clean verification passed 15 tests, complete round trips and deterministic
+  43-file archives; Windows and Ubuntu CI passed. Scoped staging/swap retained
+  the fifth backup. Strict installed hashes passed before UI checks.
+- Reopened all four pilot compendium sheets on the final build. New icon paths
+  loaded visibly; HTTP/hash checks passed for four organized icons, four legacy
+  aliases and four external core/system references. Kit contents/totals remain
+  correct. Returned to Setup and exact all-pack semantic audit passed.
+- Final browser error capture is empty; earlier startup viewport error remains
+  documented above. Server log through 08:58:27 local contains 637 info records,
+  zero warnings/errors. Runtime is left in Setup, no host restart performed.
+- Documentation evidence follows the runtime commit; no documentation-only
+  redeployment is needed. All five module backups are retained: the next
+  deployment will hit the helper's retention limit. Do not delete backups or
+  bypass that limit without an approved recovery/retention decision.
+- No browser assistance is pending. Next safe work: feat/skill-talent actor
+  checks, non-GM visibility/lifecycle warning baseline and issue #6 source labels
+  and class-table wrapping, then further catalog intake. PR #4 remains draft.
+  No merge, release or compatibility verification claim is made.
+
+## Prior reuse audit (superseded by the resolved delivery choice above)
+
+- User requires searching existing compendia for suitable names, descriptions,
+  images and native item behavior before creating replacements. Kits must be
+  containers containing usable component items. This supersedes acceptance of
+  the provisional flat hunter's kit and its pending manual drop request.
+- Issue #7: https://github.com/sefaction/spheres-content/issues/7. Audited seven
+  relevant installed packs using stable local database copies; no source
+  database was opened by the compiler. Candidate metadata and the proposed
+  80 gp / 4 lb assembly are in `research/kit-reuse-audit.json` and
+  `docs/KIT_REUSE_AUDIT.md`. No reused rules/art or corrected container has yet
+  been added to canonical sources or deployed.
+- Pending user preference: package reviewed copies of optional-module items,
+  or require and reference their source modules. Asked asynchronously; no
+  answer recorded. Do not infer approval from the preselected choice.
+- Next safe step: resolve that delivery policy, review selected record rights,
+  extend the native container/contained-item validation, preserve the kit ID,
+  and test contained quantities, sheets, removal and totals. Keep PR #4 draft.
+- Branch reconciliation: `content/entity-catalog` at `b4d5c09` before this
+  documentation batch; PR #4 remains open/draft against `tooling/bootstrap`.
+  Runtime remains `300a375`; this audit changes documentation and research
+  metadata only and does not require another remote installation.
+- Validation for the reuse-audit batch: full `npm.cmd run verify` passed all
+  14 existing tests, formatting, source/reference checks and deterministic
+  archives. This validates the unchanged pilot and pipeline, not a corrected
+  container. No new container acceptance result is claimed.
+
+## Earlier pilot evidence
+
+- Active branch: `content/entity-catalog`, based on `tooling/bootstrap` at `c71b215f1987441f6d7de1107bda65fc865074ed`. Foundation PR #2 remains open and unmerged; its two CI jobs passed. Do not merge it without individual approval.
+- Active issue: https://github.com/sefaction/spheres-content/issues/3. Draft content PR https://github.com/sefaction/spheres-content/pull/4 is stacked on the unmerged foundation branch. Issue #5 tracks semantic remote verification. Both content CI jobs passed at `300a37551af0741f006b45ba3f2212ad36037aba`.
+- Scope: all wiki PF1 items, feats and base classes across publishers. Descriptions/generated images first; Changes and conditional modifiers only after the descriptive catalog is complete and reviewed. Archetypes are deferred. Reuse generated images where sensible.
+- Framework: upstream pf1spheres v0.9.0/master both at `c6d91092edb174f2bb44d9128e2ac75b4331837f`, matching installed version. Source audit found zero skillTalent records across 4,277 YAML pack files. User authorized missing Guile skill talents, now included in scope. Existing magic/combat spheres/talents stay excluded. Occultism is on the wiki but absent from the 15 recognized framework skill spheres; integration review remains necessary.
+- Working changes: first four canonical records (Extra Magic Talent, Lycanthrope Hunter's Kit, Incanter, Favorite Tools), four generated images, OGL notices/provenance, stable identity inventory, PF1 descriptive subset validator, compiled-pack round trips, deterministic archive handling, and pf1spheres dependency. Version is `0.1.0-alpha.2`; no release URLs or verified claims.
+- Local tests: the deployed pilot passed 13 tests and deterministic builds. The follow-up passed the full 14-test gate and deterministic builds, including semantic audit acceptance, content drift, unexpected files, and source-database immutability. Re-run clean committed verification before deploying any follow-up.
+- Discovery: initial scanner now covers 105 source pages, including 35 directly linked base-class pages and 16 Guile sphere pages. Sitemap lists 2,668 pages. Counts are not full entity counts. Raw sources and upstream reference checkout remain ignored under `.local/`.
+- Art: canonical files are in `static/icons/`; prompts/hashes in `config/content.json`. Original generated images and local previews retained. Do not regenerate IDs or overwrite art casually.
+- Remote installation: `300a37551af0741f006b45ba3f2212ad36037aba`, `0.1.0-alpha.2`. Staged deployment and strict 35-file hash smoke passed. The designated container restart completed. Its automatically launched campaign had zero players and was returned to Setup. The semantic smoke audit then matched all four documents to the deployed commit and all non-pack bytes to the receipt. Exact private target and credentials remain outside Git/Obsidian. Follow-up audit tooling/documentation does not change pack content or runtime manifest; it has not been redeployed.
+- UI progress on 2026-09-20: the old controlled tab retained a zero viewport after the user restored Chrome. A fresh Chrome tab has a normal 1920x855 viewport, launched the dedicated world, and joined as Gamemaster. Additional Spheres Content alpha.2 was already enabled; enabled pf1spheres 0.9.0 and saved/reloaded. All four module packs appear with one entry each. Opened all four sheets, verified descriptions and generated image loading, native types/basic class and equipment fields, and empty Changes/context notes. Favorite Tools correctly shows Skill Talent / Artifice. Feat search works. Incanter appears separately from the framework's Incanter in PF1's class browser.
+- Actor testing: user manually dragged Incanter successfully and reported the native level-up dialog. UI confirms the actor now has Incanter level 1, 6 current/max HP, +0 BAB, +0 Fortitude/Reflex and +2 Will; the chat level-up report confirms automatic 6 HP. All four pilot entries now import to world Items through native Import Entry. Asked the user to drag the other three entries (Extra Magic Talent, Favorite Tools, Lycanthrope Hunter's Kit) onto `ASC Pilot Acceptance` once each; outcome is still pending. Browser-controlled document drags do not register, but a diagnostic drag successfully moved the actor sheet window. This narrows the failure to document transfer through browser control; it does not establish a module defect. Leave the actor and Items sidebar ready and reconcile before importing duplicates.
+- Permission preparation: created `ASC Test Player` with the Player role in the dedicated world using User Management, with no password entered. Saved successfully. No player login or visibility test yet. A separate browser tab confirmed exactly two active modules on Foundry 13.351 / PF1 11.11. Non-GM visibility, remaining actor imports, lifecycle baseline comparison and final semantic smoke remain pending. Avoid switching sessions or reloading the world while the user is performing the pending drops.
+- Logs during these checks: browser capture had zero errors and 74 warnings, predominantly deprecated PF1/core APIs plus a PF1 browser filter warning; a framework-only comparison is still pending. Server debug log from 00:11:29 through 00:16:52 local time contains 145 records, zero errors and zero warnings. No new daily error log was present. No complete content compatibility claim is made. Issue #6 tracks blank native source labels and narrow class-table wrapping.
+- Semantic verification now uses `npm.cmd run smoke:remote -- --semantic` from Setup. It copies packs to ignored local audit storage, verifies stable source hashes, opens only local database copies, and compares complete documents against canonical Git sources at the receipt commit. Default smoke and all deployment checks remain strict byte checks.
+- The designated container restart was previously authorized by the user for this test instance. The startup configuration auto-launches a campaign; return to Setup and use only the dedicated test world. Do not modify startup settings or other containers.
+- Full catalog remains unfinished. No Guile bulk import, archetype application, modifier automation, world migration, PR merge, tag, stable manifest publication, or public release has been performed.
+- Obsidian hub: Foundry-AI / `20 - Projects/Personal/Additional Spheres Content.md`. Durable scope/framework, Guile exception, and pilot milestone notes updated. No vault commit/push.

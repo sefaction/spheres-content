@@ -1,0 +1,587 @@
+{
+  "_id": "5feccdaf3cbf89f1",
+  "_key": "!items!5feccdaf3cbf89f1",
+  "name": "Kit, Lycanthrope Hunter’s",
+  "type": "container",
+  "img": "modules/additional-spheres-content/icons/items/kits/lycanthrope-hunters-kit.png",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:equipment:kit-lycanthrope-hunters",
+      "collection": "wiki-selected-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/equipment#toc2",
+      "sourceSha256": "e91bd325308569215389e85119eb51017edc45e5a983afc0782215289f123889",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current",
+      "assembly": "lycanthrope-hunters-kit",
+      "pouchSource": {
+        "uuid": "Compendium.pf1.items.Item.enzysybyowwfrdcd",
+        "version": "11.11",
+        "sourceSha256": "ff58e832a1d082a226ddad367cb45fb985e2e46d64a7a2b2b7bc4128aebb4a51",
+        "interpretation": "Map unspecified leather pouch to the waist-pouch entry; this interpretation reconciles the listed kit price and weight exactly. Do not add a second pouch inside the outer container."
+      }
+    }
+  },
+  "system": {
+    "description": {
+      "value": "<p><strong>Price</strong> 80 gp; <strong>Weight</strong> 4 lbs.</p><p>This sturdy leather case straps to the waist or thigh, or can be slung over a shoulder. It consists of a leather pouch, 5 doses of wolfsbane, 5 doses of weapon blanche (silver), 1 dose of deodorizing agent, and an alchemical silver dagger.</p><hr><p><a href=\"http://spheresofpower.wikidot.com/equipment#toc2\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": "",
+      "unidentified": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": []
+    },
+    "quantity": 1,
+    "price": 0.5,
+    "weight": {
+      "value": 0.5,
+      "reduction": {
+        "value": 0,
+        "percent": 0
+      }
+    },
+    "carried": true,
+    "equipped": false,
+    "identified": true,
+    "size": "med",
+    "items": {
+      "8a51866641e9d8b8": {
+        "_id": "8a51866641e9d8b8",
+        "img": "systems/pf1/icons/items/potions/unique-9.jpg",
+        "name": "Wolfsbane",
+        "system": {
+          "description": {
+            "value": "<p>The root of this tall plant with blue flowers is toxic, but herbalists use it in low doses to reduce pain and regulate the heart. Folklore says it can help a victim of lycanthropy throw off the curse.</p><hr><p>Compendium adaptation: Pathfinder 1 11.11. <a href=\"https://gitlab.com/foundryvtt_pathfinder1e/foundryvtt-pathfinder1\">Source project</a>. Rules: Open Game Content (OGL 1.0a).</p>",
+            "instructions": "",
+            "unidentified": ""
+          },
+          "tags": [],
+          "actions": [],
+          "attackNotes": [],
+          "effectNotes": [],
+          "quantity": 5,
+          "weight": {
+            "value": 0
+          },
+          "equipped": false,
+          "carried": true,
+          "price": 0.5,
+          "size": "med",
+          "resizing": false,
+          "timeworn": false,
+          "artifact": false,
+          "identified": true,
+          "unidentified": {
+            "price": 0,
+            "name": ""
+          },
+          "cursed": false,
+          "cl": 0,
+          "aura": {
+            "custom": false,
+            "school": ""
+          },
+          "hp": {
+            "base": 10
+          },
+          "broken": false,
+          "hardness": 0,
+          "uses": {
+            "value": null,
+            "per": "",
+            "autoDeductChargesCost": "",
+            "maxFormula": "",
+            "rechargeFormula": ""
+          },
+          "changes": [],
+          "changeFlags": {
+            "immuneToMorale": false,
+            "loseDexToAC": false,
+            "noMediumEncumbrance": false,
+            "noHeavyEncumbrance": false,
+            "mediumArmorFullSpeed": false,
+            "heavyArmorFullSpeed": false,
+            "lowLightVision": false,
+            "seeInvisibility": false,
+            "seeInDarkness": false
+          },
+          "contextNotes": [],
+          "links": {
+            "children": []
+          },
+          "tag": "",
+          "flags": {
+            "boolean": {},
+            "dictionary": {}
+          },
+          "scriptCalls": [],
+          "subType": "gear",
+          "extraType": "",
+          "abundant": false,
+          "sources": [
+            {
+              "id": "PZO9410"
+            }
+          ]
+        },
+        "type": "loot",
+        "effects": [],
+        "folder": null,
+        "sort": 0,
+        "flags": {
+          "additional-spheres-content": {
+            "sourceKey": "reused:kit-lycanthrope-hunters:wolfsbane",
+            "collection": "pf1-reviewed-kit-components",
+            "sourceUrl": "https://gitlab.com/foundryvtt_pathfinder1e/foundryvtt-pathfinder1",
+            "sourceSha256": "dd9a5dfe891841b0370fe6a7d1acf3cd8ec50bb13874c08fa9cc25ef49c7a346",
+            "sourceUuid": "Compendium.pf1.items.Item.ribzueaayiedcene",
+            "sourcePackage": "pf1",
+            "sourceVersion": "11.11",
+            "phase": "descriptive",
+            "automation": "not-reviewed",
+            "edition": "current",
+            "reuse": "reuse"
+          }
+        }
+      },
+      "1800d8fee583866c": {
+        "_id": "1800d8fee583866c",
+        "img": "icons/tools/laboratory/bowl-liquid-pink-yellow-green.webp",
+        "name": "Weapon Blanch (Silver)",
+        "system": {
+          "description": {
+            "value": "<p><strong>Price</strong> 100 gp (adamantine), 20 gp (cold iron), 5 gp (silver); <strong>Weight</strong> 1/2 lb. (adamantine), 1/2 lb. (cold iron), 1/2 lb. (silver)</p><p>These silver, alchemical powders have a gritty consistency, appearing at first glance to be simple metal shavings. When poured on a weapon and placed over a hot flame for a full round, however, they melt and form a temporary coating on the weapon. The blanching gives the weapon the ability to bypass one kind of material-based damage reduction, such as adamantine, cold iron, or silver. The blanching remains effective until you make a successful attack with the weapon. Each dose of blanching can coat one weapon or up to 10 pieces of ammunition. Only one kind of weapon blanch can be on a weapon at one time, though a weapon made of one special material (such as adamantine) can have a different material blanch (such as silver), and counts as both materials for the first successful hit.</p><h2>Construction</h2><p><strong>Craft (Alchemy)</strong> DC 20</p><hr><p>Compendium adaptation: Pathfinder 1e Content 11.4.0. <a href=\"https://gitlab.com/foundryvtt_pathfinder1e/pf1-content\">Source project</a>. Rules: Open Game Content (OGL 1.0a).</p>",
+            "instructions": "",
+            "unidentified": ""
+          },
+          "tags": ["Alchemical Tools"],
+          "quantity": 5,
+          "weight": {
+            "value": 0.5
+          },
+          "equipped": false,
+          "carried": true,
+          "price": 5,
+          "size": "med",
+          "resizing": false,
+          "timeworn": false,
+          "artifact": false,
+          "identified": true,
+          "unidentified": {
+            "price": 0,
+            "name": ""
+          },
+          "cursed": false,
+          "cl": 0,
+          "aura": {
+            "custom": false,
+            "school": ""
+          },
+          "hp": {},
+          "broken": false,
+          "hardness": 0,
+          "uses": {
+            "value": null,
+            "per": "",
+            "autoDeductChargesCost": "",
+            "maxFormula": "",
+            "rechargeFormula": "",
+            "pricePerUse": 0
+          },
+          "actions": [],
+          "attackNotes": [],
+          "effectNotes": [],
+          "links": {
+            "children": [],
+            "charges": []
+          },
+          "tag": "",
+          "flags": {
+            "boolean": {},
+            "dictionary": {}
+          },
+          "scriptCalls": [],
+          "subType": "misc",
+          "showInQuickbar": false,
+          "sources": [
+            {
+              "id": "PZO1123",
+              "pages": "103"
+            }
+          ],
+          "changes": [],
+          "contextNotes": []
+        },
+        "type": "consumable",
+        "effects": [],
+        "folder": null,
+        "sort": 0,
+        "flags": {
+          "additional-spheres-content": {
+            "sourceKey": "reused:kit-lycanthrope-hunters:silver-blanch",
+            "collection": "pf1-reviewed-kit-components",
+            "sourceUrl": "https://gitlab.com/foundryvtt_pathfinder1e/pf1-content",
+            "sourceSha256": "473f209338b3ecf14671e5b10858fb617d47e6958e9282957b4c3fcc98342c31",
+            "sourceUuid": "Compendium.pf-content.pf-items.Item.gqA1y1GIJTpiBqOd",
+            "sourcePackage": "pf-content",
+            "sourceVersion": "11.4.0",
+            "phase": "descriptive",
+            "automation": "not-reviewed",
+            "edition": "current",
+            "reuse": "reuse"
+          }
+        }
+      },
+      "15983a665493f795": {
+        "_id": "15983a665493f795",
+        "img": "systems/pf1/icons/items/potions/unique-4.jpg",
+        "name": "Deodorizing Agent (Vial)",
+        "system": {
+          "description": {
+            "value": "<p><strong>Category</strong> Alchemical Tools</p><p>Coating a creature in a vial of this milky, odorless substance takes 1 minute and renders it scentless for 1d3 hours. Creatures that rely on scent for locating creatures do not gain the benefit of this ability against a creature affected by a dose of deodorizing agent.</p><h2>Construction</h2><p><strong>Craft (Alchemy)</strong> DC 25</p><hr><p>Compendium adaptation: Pathfinder 1e Content 11.4.0. <a href=\"https://gitlab.com/foundryvtt_pathfinder1e/pf1-content\">Source project</a>. Rules: Open Game Content (OGL 1.0a).</p>",
+            "instructions": "",
+            "unidentified": ""
+          },
+          "tags": ["Alchemical Tools"],
+          "quantity": 1,
+          "weight": {
+            "value": 0
+          },
+          "equipped": false,
+          "carried": true,
+          "price": 30,
+          "size": "med",
+          "resizing": false,
+          "timeworn": false,
+          "artifact": false,
+          "identified": true,
+          "unidentified": {
+            "price": 0,
+            "name": ""
+          },
+          "cursed": false,
+          "cl": 0,
+          "aura": {
+            "custom": false,
+            "school": ""
+          },
+          "hp": {},
+          "broken": false,
+          "hardness": 0,
+          "uses": {
+            "value": null,
+            "per": "",
+            "autoDeductChargesCost": "",
+            "maxFormula": "",
+            "rechargeFormula": "",
+            "pricePerUse": 0
+          },
+          "actions": [],
+          "attackNotes": [],
+          "effectNotes": [],
+          "links": {
+            "children": [],
+            "charges": []
+          },
+          "tag": "",
+          "flags": {
+            "boolean": {},
+            "dictionary": {}
+          },
+          "scriptCalls": [],
+          "subType": "potion",
+          "showInQuickbar": false,
+          "sources": [
+            {
+              "id": "PZO9429",
+              "pages": "13"
+            }
+          ],
+          "changes": [],
+          "contextNotes": []
+        },
+        "type": "consumable",
+        "effects": [],
+        "folder": null,
+        "sort": 0,
+        "flags": {
+          "additional-spheres-content": {
+            "sourceKey": "reused:kit-lycanthrope-hunters:deodorizing-agent",
+            "collection": "pf1-reviewed-kit-components",
+            "sourceUrl": "https://gitlab.com/foundryvtt_pathfinder1e/pf1-content",
+            "sourceSha256": "5d2bd29c3331e23df06191df1051a0738d51563fe97251ccf314461c27f2a903",
+            "sourceUuid": "Compendium.pf-content.pf-items.Item.JF3auN9gNfDyqVR5",
+            "sourcePackage": "pf-content",
+            "sourceVersion": "11.4.0",
+            "phase": "descriptive",
+            "automation": "not-reviewed",
+            "edition": "current",
+            "reuse": "reuse"
+          }
+        }
+      },
+      "5191b703f925f3ef": {
+        "_id": "5191b703f925f3ef",
+        "folder": null,
+        "img": "systems/pf1/icons/items/weapons/dagger.PNG",
+        "name": "Dagger, Alchemical Silver",
+        "system": {
+          "description": {
+            "value": "<p>A dagger is a fighting knife. Its blade is usually less than 1 foot long, and can be curved or straight, with one edge or two. Dagger designs vary widely, and can have many different names (such as a thrusting dagger being called a \"dirk\"). You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body.</p><p>This dagger is treated with alchemical silver. Silvered piercing and slashing weapons deal 1 less damage on a successful attack (minimum 1). This material modifier awaits the later automation review.</p><hr><p>Compendium adaptation: Pathfinder 1 11.11. <a href=\"https://gitlab.com/foundryvtt_pathfinder1e/foundryvtt-pathfinder1\">Source project</a>. Rules: Open Game Content (OGL 1.0a).</p>",
+            "instructions": "",
+            "unidentified": "<p>A dagger is a fighting knife. Its blade is usually less than 1 foot long, and can be curved or straight, with one edge or two. Dagger designs vary widely, and can have many different names (such as a thrusting dagger being called a \"dirk\"). You get a +2 bonus on Sleight of Hand skill checks made to conceal a dagger on your body.</p>"
+          },
+          "tags": [],
+          "quantity": 1,
+          "weight": {
+            "value": 1
+          },
+          "equipped": false,
+          "carried": true,
+          "price": 22,
+          "size": "med",
+          "resizing": false,
+          "timeworn": false,
+          "artifact": false,
+          "identified": true,
+          "unidentified": {
+            "price": 0,
+            "name": ""
+          },
+          "cursed": false,
+          "cl": 0,
+          "aura": {
+            "custom": false,
+            "school": ""
+          },
+          "hp": {
+            "base": 2
+          },
+          "broken": false,
+          "hardness": 8,
+          "changes": [],
+          "changeFlags": {
+            "immuneToMorale": false,
+            "loseDexToAC": false,
+            "noMediumEncumbrance": false,
+            "noHeavyEncumbrance": false,
+            "mediumArmorFullSpeed": false,
+            "heavyArmorFullSpeed": false,
+            "lowLightVision": false,
+            "seeInvisibility": false,
+            "seeInDarkness": false
+          },
+          "contextNotes": [],
+          "actions": [
+            {
+              "_id": "3d5k15aepyp5sclw",
+              "ability": {
+                "attack": "_default",
+                "critRange": 19,
+                "damage": "str"
+              },
+              "actionType": "mwak",
+              "activation": {
+                "type": "attack",
+                "unchained": {
+                  "type": "attack"
+                }
+              },
+              "damage": {
+                "parts": [
+                  {
+                    "formula": "sizeRoll(1, 4, @size)",
+                    "types": ["piercing", "slashing"]
+                  }
+                ]
+              },
+              "duration": {
+                "units": "inst"
+              },
+              "extraAttacks": {
+                "type": "standard"
+              },
+              "name": "Melee",
+              "range": {
+                "units": "melee",
+                "value": "10"
+              },
+              "uses": {
+                "autoDeductChargesCost": "0"
+              }
+            },
+            {
+              "_id": "BKWFiAgRhYnG51Zr",
+              "ability": {
+                "attack": "_default",
+                "damage": "str"
+              },
+              "actionType": "twak",
+              "activation": {
+                "type": "attack",
+                "unchained": {
+                  "type": "attack"
+                }
+              },
+              "damage": {
+                "parts": [
+                  {
+                    "formula": "sizeRoll(1, 4, @size)",
+                    "types": ["piercing", "slashing"]
+                  }
+                ]
+              },
+              "duration": {
+                "units": "inst"
+              },
+              "name": "Throw",
+              "range": {
+                "maxIncrements": 5,
+                "units": "ft",
+                "value": "10"
+              }
+            }
+          ],
+          "attackNotes": [],
+          "effectNotes": [],
+          "uses": {
+            "value": null,
+            "per": "single",
+            "autoDeductChargesCost": "",
+            "maxFormula": "",
+            "rechargeFormula": ""
+          },
+          "links": {
+            "children": []
+          },
+          "tag": "",
+          "flags": {
+            "boolean": {},
+            "dictionary": {}
+          },
+          "scriptCalls": [],
+          "masterwork": false,
+          "enh": null,
+          "proficient": false,
+          "held": "1h",
+          "ammo": {
+            "type": "",
+            "capacity": null,
+            "misfire": null,
+            "explode": null
+          },
+          "subType": "simple",
+          "weaponSubtype": "light",
+          "hands": 1,
+          "baseTypes": ["Dagger"],
+          "weaponGroups": ["bladesLight", "thrown", "tribal"],
+          "material": {
+            "base": {
+              "value": "steel",
+              "custom": false
+            },
+            "normal": {
+              "value": "",
+              "custom": false
+            },
+            "addon": ["alchemicalSilver"]
+          },
+          "properties": {
+            "fin": true
+          },
+          "showInQuickbar": true,
+          "sources": [
+            {
+              "id": "PZO1110",
+              "pages": "142, 146"
+            },
+            {
+              "id": "PZO1123",
+              "pages": "17"
+            }
+          ]
+        },
+        "type": "weapon",
+        "effects": [],
+        "sort": 0,
+        "flags": {
+          "additional-spheres-content": {
+            "sourceKey": "reused:kit-lycanthrope-hunters:silver-dagger",
+            "collection": "pf1-reviewed-kit-components",
+            "sourceUrl": "https://gitlab.com/foundryvtt_pathfinder1e/foundryvtt-pathfinder1",
+            "sourceSha256": "abae0a551632dd31b1625fbf36a8f1d85c9042ef7db1d13c98b7bbe40db3fac7",
+            "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.fOSuWwRSZLTrROch",
+            "sourcePackage": "pf1",
+            "sourceVersion": "11.11",
+            "phase": "descriptive",
+            "automation": "not-reviewed",
+            "edition": "current",
+            "reuse": "adapt"
+          }
+        }
+      }
+    },
+    "maxWeight": null,
+    "sellMultiplier": 0.5,
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "unidentified": {
+      "price": 0,
+      "name": ""
+    },
+    "cursed": false,
+    "cl": 0,
+    "aura": {
+      "custom": false,
+      "school": ""
+    },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
+    "tag": "",
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    }
+  },
+  "ownership": {
+    "default": 0
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  }
+}

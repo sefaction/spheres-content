@@ -1,0 +1,97 @@
+{
+  "_id": "4d52f503bf1b3822",
+  "_key": "!items!4d52f503bf1b3822",
+  "name": "Favorite Tools",
+  "type": "feat",
+  "img": "modules/additional-spheres-content/icons/guile-talents/artifice/crafting-tools.png",
+  "folder": null,
+  "sort": 0,
+  "effects": [],
+  "flags": {
+    "additional-spheres-content": {
+      "sourceKey": "wiki:artifice:favorite-tools",
+      "collection": "wiki-selected-open-rules",
+      "sourceUrl": "http://spheresofpower.wikidot.com/artifice#toc16",
+      "sourceSha256": "a3a666f8e0af8307f0024100a1bdb6c458a7d34b1b4c37af5a6d0057bdfc9aa7",
+      "phase": "descriptive",
+      "automation": "not-reviewed",
+      "edition": "current"
+    },
+    "pf1spheres": {
+      "sphere": "artifice"
+    }
+  },
+  "system": {
+    "subType": "skillTalent",
+    "disabled": false,
+    "description": {
+      "value": "<p><strong>Artifice talent [approach] [utility]</strong></p><p>When you adopt this approach as a swift action, you gain a +1 circumstance bonus when using a set of artisan’s tools, increasing by 1 per 5 ranks in the appropriate skill, and stacks with the bonus from using masterwork tools.</p><p><a href=\"http://spheresofpower.wikidot.com/artifice#toc16\">Source: Spheres of Power Wiki</a></p>",
+      "instructions": ""
+    },
+    "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": ["approach", "utility"],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "changeFlags": {
+      "immuneToMorale": false,
+      "loseDexToAC": false,
+      "noMediumEncumbrance": false,
+      "noHeavyEncumbrance": false,
+      "mediumArmorFullSpeed": false,
+      "heavyArmorFullSpeed": false,
+      "lowLightVision": false,
+      "seeInvisibility": false,
+      "seeInDarkness": false
+    },
+    "tag": "",
+    "armorProf": [],
+    "weaponProf": [],
+    "languages": [],
+    "flags": {
+      "boolean": {},
+      "dictionary": {}
+    },
+    "attackNotes": [],
+    "effectNotes": [],
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
+    "traitType": "",
+    "traitCategory": "",
+    "racePoints": null,
+    "abilityType": "na",
+    "associations": {
+      "classes": []
+    },
+    "showInQuickbar": false,
+    "crOffset": "",
+    "inherited": false,
+    "acquired": false,
+    "simple": false,
+    "summons": false,
+    "classSkills": {}
+  },
+  "_stats": {
+    "coreVersion": "13.351",
+    "systemId": null,
+    "systemVersion": null,
+    "createdTime": null,
+    "modifiedTime": null,
+    "lastModifiedBy": null,
+    "compendiumSource": null,
+    "duplicateSource": null,
+    "exportSource": null
+  },
+  "ownership": {
+    "default": 0
+  }
+}

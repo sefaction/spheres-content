@@ -1,6 +1,6 @@
 {
   "name": "additional-spheres-content",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.3",
   "private": true,
   "type": "module",
   "engines": {
@@ -20,10 +20,12 @@
     "verify": "node scripts/tasks.mjs verify",
     "deploy:remote": "node scripts/tasks.mjs deploy",
     "smoke:remote": "node scripts/tasks.mjs smoke",
-    "release:check": "node scripts/tasks.mjs release"
+    "release:check": "node scripts/tasks.mjs release",
+    "inventory:wiki": "node scripts/wiki-catalog.mjs"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "3.0.4",
+    "cheerio": "1.2.0",
     "fflate": "0.8.3",
     "prettier": "3.9.8"
   }

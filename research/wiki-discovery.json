@@ -1,0 +1,951 @@
+{
+  "schemaVersion": 1,
+  "retrievedOn": "2026-09-20",
+  "complete": false,
+  "scope": "Whole-wiki PF1 items, feats and base classes, plus missing Guile skill talents; existing magic/combat spheres and talents excluded; archetypes and automation deferred",
+  "sitePageCount": 2668,
+  "inspectedPageCount": 105,
+  "limitations": [
+    "First-level discovery only; nested publisher and item/feat indexes still require traversal.",
+    "These are source-page counts, not entity counts or rights clearances.",
+    "Current/original variants and feat duplicates require identity review before import."
+  ],
+  "sources": [
+    {
+      "url": "http://spheresofpower.wikidot.com/armorist",
+      "title": "Armorist",
+      "discoveryKind": "base-class",
+      "sha256": "1d241f72ba755c4fbb2da174da981b4eb74d1853d4259116db6629584d51895a",
+      "headingCount": 206,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/elementalist",
+      "title": "Elementalist",
+      "discoveryKind": "base-class",
+      "sha256": "cd5f8b7eb792b85f9547b4ba98426dff2cbed9a2d6640ea3b26260be050f0785",
+      "headingCount": 88,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/eliciter",
+      "title": "Eliciter",
+      "discoveryKind": "base-class",
+      "sha256": "0cf076b987abafe6af278a8a992b3695cfc8b99dd1dbb52cc85c8d2629652d23",
+      "headingCount": 118,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/fey-adept",
+      "title": "Fey Adept",
+      "discoveryKind": "base-class",
+      "sha256": "a5223da35b1765327ad58fd7caf42ca22e34c57b9911976f07ae342d4da5ca09",
+      "headingCount": 134,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/hedgewitch",
+      "title": "Hedgewitch",
+      "discoveryKind": "base-class",
+      "sha256": "46b77426fb25469921cc4c30b0354a67fc85317fe025f3dd942f4c3786d5ed99",
+      "headingCount": 144,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/incanter",
+      "title": "Incanter",
+      "discoveryKind": "base-class",
+      "sha256": "74bbfbbff7102ad9b09620e86d0e4bb8bd568d7d98a895664d40a1dcab613708",
+      "headingCount": 139,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/mageknight",
+      "title": "Mageknight",
+      "discoveryKind": "base-class",
+      "sha256": "d406c347a8a800f9ef20180d4a2b158eed2294af3061fb061240ccd25b2290ed",
+      "headingCount": 229,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/shifter",
+      "title": "Shifter",
+      "discoveryKind": "base-class",
+      "sha256": "f8b78ce761cc652690d3161bf12c0e71e9cfe4cf2dcb6e72498d53fb8a2793a0",
+      "headingCount": 258,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/soul-weaver",
+      "title": "Soul Weaver",
+      "discoveryKind": "base-class",
+      "sha256": "b8730f664884ac4342d5af7c38a3f6b06c177d371ca418d6adc38d9d35a45ae7",
+      "headingCount": 149,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/symbiat",
+      "title": "Symbiat",
+      "discoveryKind": "base-class",
+      "sha256": "d4fa2039d77d5b801be5e7e68a93e4eebe7788311544b377c4f206a87a87bbc8",
+      "headingCount": 127,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/thaumaturge",
+      "title": "Thaumaturge",
+      "discoveryKind": "base-class",
+      "sha256": "87da224e6fa23636da82d6b5c6e618ba551e59d2d14c019d0ca7a794b0dd46cf",
+      "headingCount": 120,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/wraith",
+      "title": "Wraith",
+      "discoveryKind": "base-class",
+      "sha256": "e34510ebc728d880a73296bed9381bec469e9b7d8b259a7702d626d043993181",
+      "headingCount": 145,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/agent",
+      "title": "Agent",
+      "discoveryKind": "base-class",
+      "sha256": "0a78d839d28638d323a529162671621aae42260b1dae059d81e613809c3febed",
+      "headingCount": 48,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/courser",
+      "title": "Courser",
+      "discoveryKind": "base-class",
+      "sha256": "dd6ad5fc25de97a37ecc069add48ebc85056f0c5dd971253ca3be4df559e9c45",
+      "headingCount": 67,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/envoy",
+      "title": "Envoy",
+      "discoveryKind": "base-class",
+      "sha256": "2e0861229e5843a34fbe96552a4f1a5f06d47a27c497d670f7cc32f173d88130",
+      "headingCount": 138,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/genius",
+      "title": "Genius",
+      "discoveryKind": "base-class",
+      "sha256": "a0c8e2ef5b235674e98e2d88c8ece40c6947ab00582a38738aa4022e55cb7235",
+      "headingCount": 21,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/mastermind",
+      "title": "Mastermind",
+      "discoveryKind": "base-class",
+      "sha256": "f1d75219242ca0e4daa9d266cb1142020830136c555ebb336a3e2c1bfc3c9781",
+      "headingCount": 109,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/professional",
+      "title": "Professional",
+      "discoveryKind": "base-class",
+      "sha256": "1c095c063bd3e9e54184671f343488bb8ffaaedba0f803e87fd62a4aa6f7e3ad",
+      "headingCount": 195,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/armiger",
+      "title": "Armiger",
+      "discoveryKind": "base-class",
+      "sha256": "e2561120a956fc3417c449bf55edb306508f158524578198feeec2b66c1c5bef",
+      "headingCount": 62,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/blacksmith",
+      "title": "Blacksmith",
+      "discoveryKind": "base-class",
+      "sha256": "c6690007eab3683240f6bea49e6e8b97edb55ed6066cf6b7239f964cdf3fb632",
+      "headingCount": 64,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/commander",
+      "title": "Commander",
+      "discoveryKind": "base-class",
+      "sha256": "ab2731e6607918412a7d8882b4d32187d8e0ca2746382e31f7b2f1cf191014c5",
+      "headingCount": 63,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/conscript",
+      "title": "Conscript",
+      "discoveryKind": "base-class",
+      "sha256": "e60b688a4108dcaa74f543c1dc76da4a924511b5f6cc301359056cb308cbd45c",
+      "headingCount": 72,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/savant-class",
+      "title": "Savant (Class Version)",
+      "discoveryKind": "base-class",
+      "sha256": "728c15d483cd3e77d291768f2d37f97f45b75a978bd43cd903eb9eab62a45e5c",
+      "headingCount": 14,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/scholar",
+      "title": "Scholar",
+      "discoveryKind": "base-class",
+      "sha256": "9bb91d76a750a5b15bf9aa5d9cd79857d975095937e57a06ad66c7e37327ff2a",
+      "headingCount": 79,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/sentinel",
+      "title": "Sentinel",
+      "discoveryKind": "base-class",
+      "sha256": "7e95cf4b31bafd78b0da386ae5ed609f6b380bf692376159b8a5961fe241246a",
+      "headingCount": 41,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/striker",
+      "title": "Striker",
+      "discoveryKind": "base-class",
+      "sha256": "d0332ca68c8d7387bec6e518a7d011441d0273f3d9d97afbf0cddbbd40edda68",
+      "headingCount": 73,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/technician",
+      "title": "Technician",
+      "discoveryKind": "base-class",
+      "sha256": "98fa0ecbbfe6d3748c6e17e0d0734f20483a024dae89d683e6f4647c613105d8",
+      "headingCount": 200,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/bravo",
+      "title": "Bravo",
+      "discoveryKind": "base-class",
+      "sha256": "e2104012f9ebde8a629b20261ef40944ba55a6d296aed85879986043d71d122e",
+      "headingCount": 113,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/crimson-dancer",
+      "title": "Crimson Dancer",
+      "discoveryKind": "base-class",
+      "sha256": "2b51cb078b40847231a47dcca9caea951457dbbf17cceb85b69267ff298c8eaf",
+      "headingCount": 72,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/dissident",
+      "title": "Dissident",
+      "discoveryKind": "base-class",
+      "sha256": "626be1b7398242ba3e0b08f70e805e39abc0faad11336cb9c07e55518e6f2ce6",
+      "headingCount": 155,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/prodigy",
+      "title": "Prodigy",
+      "discoveryKind": "base-class",
+      "sha256": "b6b7c56caa4121bcd91e54a458034eddcd243f1f9eed491051b8003eaac50b48",
+      "headingCount": 124,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/sage",
+      "title": "Sage",
+      "discoveryKind": "base-class",
+      "sha256": "5d23618ff2365a1dc4977d679c08f59ce0ab589391c29325e4557542fffbab57",
+      "headingCount": 102,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/theorist",
+      "title": "Theorist",
+      "discoveryKind": "base-class",
+      "sha256": "8e51f60b43dc8788e8f944ee06bcdaf9ebdcf391dbe202563134e5eb92103fa8",
+      "headingCount": 71,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/troubadour",
+      "title": "Troubadour",
+      "discoveryKind": "base-class",
+      "sha256": "4cae810a41fd134549d6fd2a1e27b362a7cf769ec16ac8a0f1e94a3afb744956",
+      "headingCount": 76,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/warden-class",
+      "title": "Warden",
+      "discoveryKind": "base-class",
+      "sha256": "5ec7a026bd34b0e498170154cf025cfa18b23f2164652510e86ad8275e481a78",
+      "headingCount": 120,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/weapons",
+      "title": "Weapons",
+      "discoveryKind": "item-index",
+      "sha256": "d97b10086b68bfec4d84b4a8af8ae33d72031bcd74ef8eefb0e7969599bc1dee",
+      "headingCount": 216,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/armor",
+      "title": "Armor",
+      "discoveryKind": "item-index",
+      "sha256": "4057a1d61939f268ab5b8c7100e21f776ba55fb929e6ef43753e30ad5e763bd0",
+      "headingCount": 79,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/equipment",
+      "title": "Equipment",
+      "discoveryKind": "item-index",
+      "sha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
+      "headingCount": 16,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/special-materials",
+      "title": "Special Materials",
+      "discoveryKind": "item-index",
+      "sha256": "4ee39645f2e3ed101b8427c510fa67cc82e00ea3cca6ff9134700f5bb8e42892",
+      "headingCount": 24,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/magical-items",
+      "title": "Magical Items",
+      "discoveryKind": "item-index",
+      "sha256": "9e3bad81c4aa8d3628397f328acc1783c8be9440c797ab6e490efa84de18206b",
+      "headingCount": 198,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/adventuring-gear",
+      "title": "Adventuring Gear",
+      "discoveryKind": "item-index",
+      "sha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+      "headingCount": 38,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/mechanical-parts",
+      "title": "Mechanical Parts",
+      "discoveryKind": "item-index",
+      "sha256": "04180a677e0140ba3ff36050889e5522b53d2d946f1c7317fdbf91e31f437ec9",
+      "headingCount": 5,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/technological-gear",
+      "title": "Technological Gear",
+      "discoveryKind": "item-index",
+      "sha256": "b68a344fa8409c45a69d74a6c5e95278c1bc3043d632a0b263a4a539743ceb89",
+      "headingCount": 12,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/practitioner-magic-items",
+      "title": "Practitioner Magic Items",
+      "discoveryKind": "item-index",
+      "sha256": "0325ac233e0779990c811e12eacc73a684730176378e3134bb23fcfd94819461",
+      "headingCount": 5,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/practitioner-weapons",
+      "title": "Practitioner Weapons",
+      "discoveryKind": "item-index",
+      "sha256": "aae6138d77641f6d3f90ddfe5a15bee31cad47cc97f9f6a3cad8bf645a7ce40a",
+      "headingCount": 23,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/admixture-feats",
+      "title": "Admixture Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "4db4d0cb4d985c32d8b82159c2134412efc412707e4fe57290d613602cbd8a1b",
+      "headingCount": 41,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/anathema-feats",
+      "title": "Anathema Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "ba5951e619f2201d3b1e409c654320eb935846773d8a503b0385cbd9588eac4e",
+      "headingCount": 10,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/aristeia-feats",
+      "title": "Aristeia Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "8fb3bf665027b577769758599497d938c06ff860868fdd607cd266daaf4fff8c",
+      "headingCount": 25,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/chance-feats",
+      "title": "Chance Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "0c9ba4d3deb75594f9979ff5c6ebe09306779a1e61aabc9f6d673b66b9555af8",
+      "headingCount": 14,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/channeling-feats",
+      "title": "Channeling Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "85fff8891b5105bacd5db7919877b0f97877a7763740aed0a5f880e1b797ca33",
+      "headingCount": 13,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/combat-feats",
+      "title": "Combat Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "12c9e3fe24d343b609d627315d6ac27a31c82b50e38bb90a5cd0dc568a895e22",
+      "headingCount": 151,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/companion-feats",
+      "title": "Companion Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "8dfc4dc75ec4355eed29cc3b505e5dfa49ed139b2f1562fb95f7f4a9eba9c825",
+      "headingCount": 24,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/counterspell-feats",
+      "title": "Counterspell Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "629762ebe9d255d2092edc89690ef74806c95a5ca21612b1a175b4b7c0f59eba",
+      "headingCount": 34,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/damnation-feats",
+      "title": "Damnation Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "c7d3c6963f93d0cc9a7951b6981b80eb4258a27c0a30df4ef9eccba43a68c973",
+      "headingCount": 5,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/drawback-feats",
+      "title": "Drawback/Defiler Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "c23c1cc1118160546cc9b26ffb82b21218f8d4fc9c6980d39517744ba4b904f0",
+      "headingCount": 135,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/extra-feats",
+      "title": "Extra Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "6c8f339181a2d1184681ebebcf6f444f32c3e9ed393e5ed244b9bcc08a595a8d",
+      "headingCount": 37,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/general-feats",
+      "title": "General Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "48651b23fba04d66e434158ecf04f76da4e7874b49cfcbf4f4308c02df11a374",
+      "headingCount": 161,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/item-creation-feats",
+      "title": "Item Creation Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "246909010d0a863abe72b9bac7b2e049386e5806ead15dbc25dc6a8ffc168538",
+      "headingCount": 33,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/metamagic-feats",
+      "title": "Metamagic Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "4070c558a5e1b280bbfaf69ca576b1627fa2ec2a96eaa4431145af021467f075",
+      "headingCount": 77,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/necrosis-feats",
+      "title": "Necrosis Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "39e71bd6bc7d529b8800e9916797ae74ff1a6e98b551e46e7631e46123c6404b",
+      "headingCount": 17,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/plague-feats",
+      "title": "Plague Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "bffe031c7ac4220f4a819542817815d208007dfb5ac038625df6dd7463686473",
+      "headingCount": 6,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/protokinesis-feats",
+      "title": "Protokinesis Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "ba47eb63325fa97ee01d248595794d51af4bc06d024cff8949c98b3eed0e37f0",
+      "headingCount": 34,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/proxy-feats",
+      "title": "Proxy Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "90e3bddb108fa2b463fae740dcb9301cb11dc66815b0083de950a9fb24465c05",
+      "headingCount": 25,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/purring-feats",
+      "title": "Purring Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "9abc5dedd5852e1ba6eeb4312cbfdf2cafa25d434482925b3283114d01092989",
+      "headingCount": 16,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/racial-feats",
+      "title": "Racial Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "d76020c1aedb329266688730207dabf5d8a800cf8829a923cf774d7a67ff1a54",
+      "headingCount": 39,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/ritual-feats",
+      "title": "Ritual Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "a4cf981b44b912d81fda0769469fdccdcb1a208ff599d2ba216770991d9f8a05",
+      "headingCount": 4,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/skybourne-feats",
+      "title": "Skybourne Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "745ef778105c935b880d94a5ec5e4263fa1a444f74d24e0bab8ee29a7acfc191",
+      "headingCount": 57,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/squadron-feats",
+      "title": "Squadron Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "1159129c6cafbdfe4a7b7fcee2bcc9abb27026129a6c93f21cf88fdfaa13dd72",
+      "headingCount": 49,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/surreal-feats",
+      "title": "Surreal Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "a37009c582f9f748f77436c7b281891407322e299db1ae8dcb95a159a7bba952",
+      "headingCount": 24,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/teamwork-feats",
+      "title": "Teamwork Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "bc94752707c54e31613ceac64d4217a30ee8e35a4b0cb73468ebe534a976c97e",
+      "headingCount": 9,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/theurge-feats",
+      "title": "Theurge Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "584ec7da5f80347c9bb0a0f0a7144760f49f952a3f655f7fbdcb02675ed0c29f",
+      "headingCount": 10,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/wild-magic-feats",
+      "title": "Wild Magic Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "35ec943b191cd9342b82d2f3fbfe4bf9b64fe38ba02f8fa672b01bc4c731a8cb",
+      "headingCount": 14,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/artifice",
+      "title": "Artifice",
+      "discoveryKind": "guile-talent-index",
+      "sha256": "a3a666f8e0af8307f0024100a1bdb6c458a7d34b1b4c37af5a6d0057bdfc9aa7",
+      "headingCount": 102,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/bluster",
+      "title": "Bluster",
+      "discoveryKind": "guile-talent-index",
+      "sha256": "e8f88a5d38e2870756ef237c9336a522e248aa60231fd0ccb330d63841363c60",
+      "headingCount": 65,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/body-control",
+      "title": "Body Control",
+      "discoveryKind": "guile-talent-index",
+      "sha256": "ec7aa97e088675a010d37041d0a1d93fbcb23b1ec3b52a8948ffa9dd9985fbff",
+      "headingCount": 71,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/communication",
+      "title": "Communication",
+      "discoveryKind": "guile-talent-index",
+      "sha256": "b5e574a0f0ac283ac666727aa0371c0597770e76fda9dc332a981db3d90c6c36",
+      "headingCount": 75,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/faction",
+      "title": "Faction",
+      "discoveryKind": "guile-talent-index",
+      "sha256": "c0949a2288b14f9bce4a04a73230598f8b6178c048d9a36fc6899ead8b33b209",
+      "headingCount": 76,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/herbalism",
+      "title": "Herbalism",
+      "discoveryKind": "guile-talent-index",
+      "sha256": "e025d6b430a28b18a5546f206c4383029783d3958eda8265fc96727f4af898b7",
+      "headingCount": 75,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/infiltration",
+      "title": "Infiltration",
+      "discoveryKind": "guile-talent-index",
+      "sha256": "58ed5a81a47b83d364436f1d8eac245db0d53fc4fbcac22e0373513f5df330d7",
+      "headingCount": 54,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/investigation",
+      "title": "Investigation",
+      "discoveryKind": "guile-talent-index",
+      "sha256": "812d14024b95c9efb75b3f1dd2dddad532833a150eb7f2d9da1a70b809836e0e",
+      "headingCount": 72,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/navigation",
+      "title": "Navigation",
+      "discoveryKind": "guile-talent-index",
+      "sha256": "930fbc87334ae2307ec151fc191c6a9bc1e24ca52e18a283a509d0caacb9401f",
+      "headingCount": 82,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/performance",
+      "title": "Performance",
+      "discoveryKind": "guile-talent-index",
+      "sha256": "e87c472686da47048b3d9fcee074982f8ef19002718047ad36360dcfbd01dd3b",
+      "headingCount": 101,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/spellhacking",
+      "title": "Spellhacking",
+      "discoveryKind": "guile-talent-index",
+      "sha256": "ff5395bb19ac2b67c42bb66b158929891d1c2ab9f8401273b50df23faa41f51b",
+      "headingCount": 82,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/study",
+      "title": "Study",
+      "discoveryKind": "guile-talent-index",
+      "sha256": "e8d569974189b26fc9f4d0950aa7e6c4ed942b36666113be9fc161ec1efd21fb",
+      "headingCount": 64,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/subterfuge",
+      "title": "Subterfuge",
+      "discoveryKind": "guile-talent-index",
+      "sha256": "8b57b227319f2d8db1313f34f0b88da6fa51923fa7155f44d165a790c7e42905",
+      "headingCount": 55,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/survivalism",
+      "title": "Survivalism",
+      "discoveryKind": "guile-talent-index",
+      "sha256": "f08a002395ddf0d614719b1c74bdfc78b77500e0a93ea395e3e0354dcf980820",
+      "headingCount": 88,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/vocation",
+      "title": "Vocation",
+      "discoveryKind": "guile-talent-index",
+      "sha256": "57dfab028d361fef8cf5853680f15276c18e93918185b2b4803bfe1fd5bb3cf8",
+      "headingCount": 142,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/occultism",
+      "title": "Occultism",
+      "discoveryKind": "guile-talent-index",
+      "sha256": "3eea4e2eab46e6def51952b1c49b38fe8eab119d51e79e05017e23d105dd4488",
+      "headingCount": 56,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/akashic-mysteries",
+      "title": "Akashic Mysteries",
+      "discoveryKind": "other-system-index",
+      "sha256": "1fd902e9ad0ff9891ffcd40ee6d40a9f3da65eda07af7b384d8e3aaf913d96e9",
+      "headingCount": 0,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/city-of-7-seraphs",
+      "title": "City of 7 Seraphs",
+      "discoveryKind": "other-system-index",
+      "sha256": "e9bf8bb1422414255f5a156e47137d00d0c5e3ef32424d32e825e9e017a2ef0a",
+      "headingCount": 9,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/cthulhu-mythos",
+      "title": "Cthulhu Mythos",
+      "discoveryKind": "other-system-index",
+      "sha256": "31ba7349ac75c963513836162af50ee5565cacaad1f199f8b7c4724bd7c8abd4",
+      "headingCount": 3,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/gonzo",
+      "title": "Gonzo",
+      "discoveryKind": "other-system-index",
+      "sha256": "842b1b09172201bdfb2e59482427d76516d17f6083e31527e2bf9e3b5aff696f",
+      "headingCount": 0,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/heroes-of-the-jade-oath",
+      "title": "Heroes Of The Jade Oath",
+      "discoveryKind": "other-system-index",
+      "sha256": "1a07e789fbb4179147c3eac30f24c9dc7e6c181aa4ecbd5fc9f9b698cf3dae1c",
+      "headingCount": 1,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/legendary-worlds",
+      "title": "Legendary Worlds",
+      "discoveryKind": "other-system-index",
+      "sha256": "55f6e4187767998dfd93a5a1b191636087f10cfc81b1710414db3ac12657c586",
+      "headingCount": 2,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/mythic-rules",
+      "title": "Mythic Rules",
+      "discoveryKind": "other-system-index",
+      "sha256": "e9dbdc6026a6281e375bbd0de272fb5c7d25a6d4e045b56f16545235e3c9f703",
+      "headingCount": 8,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/pact-magic",
+      "title": "Pact Magic",
+      "discoveryKind": "other-system-index",
+      "sha256": "57cb73b8afbc9a7ad0be9640f49c28a7b20558a38f7980081fe03e0b63245449",
+      "headingCount": 2,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/strange-magic",
+      "title": "Strange Magic",
+      "discoveryKind": "other-system-index",
+      "sha256": "a88d14661033c869af92b34be07d0710382239aed1f5da981152eff55695ba9c",
+      "headingCount": 13,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/diamond-recreational-studios",
+      "title": "Diamond Recreational Studios",
+      "discoveryKind": "other-system-index",
+      "sha256": "35928f74bd435b4836d976b466820a8ee36ff6b26dc4e66e5eda698959bc2caa",
+      "headingCount": 4,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/arcforge",
+      "title": "Arcforge",
+      "discoveryKind": "other-system-index",
+      "sha256": "8491c0f594498209bc2990a879b65088ae8be4df3203f08e246580780e3c4c0b",
+      "headingCount": 10,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/other-options",
+      "title": "Other Options",
+      "discoveryKind": "other-system-index",
+      "sha256": "c914a20513a4777860e1a0962266a518c9ea795e935bda8f3d3fe884aadca571",
+      "headingCount": 6,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/champion-feats",
+      "title": "Champion Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "ebaf5901af64f25a2ba1fcec58cda3bfddace06fab20921fddcf3e21096f40af",
+      "headingCount": 131,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/feats",
+      "title": "Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "7eaeb5827b6da352f3ed9bc04353fa9884b2f3542bfa030b51823e78e0bc0f2e",
+      "headingCount": 31,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/operative-feats",
+      "title": "Operative Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "cca283978a17b94f84fe0708996ae3fdb415550a2dd9592ed4657b0cbee3ac3f",
+      "headingCount": 52,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    },
+    {
+      "url": "http://spheresofpower.wikidot.com/practitioner-feats",
+      "title": "Practitioner Feats",
+      "discoveryKind": "feat-index",
+      "sha256": "ef1c185f974bb36681eadb8e428dc6cf7fdc79accc930377adcfb8ee2a6c9cd5",
+      "headingCount": 124,
+      "rightsStatus": "unreviewed-except-explicit-pilot-sections",
+      "importStatus": "see-config-content-for-selected-entries"
+    }
+  ]
+}

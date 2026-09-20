@@ -68,6 +68,9 @@ export function validateManifest(manifest, pkg, compatibility) {
   assert.equal(manifest.bugs, `${manifest.url}/issues`);
   assert.deepEqual(manifest.relationships, {
     systems: [{ id: "pf1", type: "system" }],
+    requires: [
+      { id: "pf1spheres", type: "module", compatibility: { minimum: "0.9.0" } },
+    ],
   });
   assert(Array.isArray(manifest.packs));
   // Empty-shell smoke tests do not establish PF1 content compatibility or release readiness.

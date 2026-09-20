@@ -34,6 +34,7 @@ it never connects to the share or uses remote credentials.
 3. Run `npm.cmd run deploy:remote -- --dry-run`. It verifies the world/system markers, resolved paths, clean source/build identity, archive, and exact output bytes, then lists changed files without writing remotely.
 4. Run `npm.cmd run deploy:remote`. It stages only verified files under `<configured-data>/Data/.additional-spheres-content-deploy`, checks hashes and module identity, then renames the staged directory into the exact module target.
 5. Run `npm.cmd run smoke:remote`, followed by the Foundry UI acceptance checks. A file deployment alone does not prove Foundry has discovered or enabled the module.
+6. After Foundry has opened the packs, return to Setup and run `npm.cmd run smoke:remote -- --semantic`. This verifies all non-pack bytes against the deployment receipt and all pack documents against canonical sources at the deployed commit. It rejects unexpected database files, copies each database to ignored local audit storage, checks that the source stayed unchanged during the copy/audit, and opens only the local copy. Operational LevelDB metadata may differ; rule text, IDs, fields, and document counts may not. No remote export becomes canonical source.
 
 Actual private paths are validated and recorded locally. Console output uses the
 logical target, keeping private server details out of PR logs. No broad sync,
@@ -62,9 +63,9 @@ directories to recover a module deployment.
 
 Confirm module discovery, enable/disable/reload, supported versions, pack counts,
 representative content behavior, permissions, and browser/server logs. This
-foundation contains no packs. Logs are read through the same share's `Logs`
+pilot contains four packs with one entry each. Logs are read through the same share's `Logs`
 directory, scoped to the deployment time and module identity; keep private log
-content out of public reports. Record evidence in PR #2 and the checkpoint.
+content out of public reports. Record content evidence in PR #4 and the checkpoint; PR #2 holds foundation evidence.
 
 If Foundry needs a container restart to discover the new package, stop and obtain
 authorization for that exact container; the deployment helper never restarts it.

@@ -1,4 +1,6 @@
 # Third-party license texts
 
-No third-party content is packaged yet. Add the applicable full license texts
-and attribution notices before importing a distributable collection or asset.
+`OGL-1.0a-and-Wiki-Notices.txt` preserves the wiki's full Open Game License text
+and copyright-notice list for the selected rule adaptations. Original code,
+documentation and project-generated images use the scoped root MIT license.
+New collections still require provenance review before packaging.

@@ -71,6 +71,8 @@ Creating a tag, publishing a GitHub release, changing the stable manifest, or su
 
 ## Content architecture and pack integrity
 
+- Before creating an item or generating its image, search existing compendia for the item and each component, including alternate spellings and names. Inspect the matching rules/version, native type, name, description (including superficial/unidentified fields), image quality, quantities, and existing behavior. Reuse a suitable existing record; create or improve only missing or inadequate content. Record the selected source UUID, package version, provenance, and reuse decision.
+- Represent kits and other collections of physical objects as native PF1 containers with separately usable contents where the rules describe a container. Reuse existing component items where suitable, preserve quantities, and check empty-container versus contents price and weight to prevent double counting. Do not assume an existing record has the correct type merely because its name matches.
 - Keep human-reviewable canonical content under the source layout documented in `docs/CONTENT_PIPELINE.md` (normally `src/packs/`).
 - Build Foundry-readable compendium packs deterministically from those sources.
 - Never hand-edit generated LevelDB files, release archives, or installed remote packs.
