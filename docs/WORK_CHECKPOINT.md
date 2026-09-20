@@ -27,9 +27,19 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
 - The production manifest allows reviewed PF1 type corrections while continuing
   to pin identity, source key, path, edition and description hash. Batch-aware
   audit queries and context-note hash validation have tests.
-- The dedicated world remains in Setup with alpha.6 implementation commit
-  `c9107729ce1a5e2189bcacff1d1a9d80efd996f0` deployed. No new build has been
-  produced or deployed for issue #15 yet.
+- Clean commit `a4d731148993ecef2d9ff043927f4e444bcbba80` passed formatting,
+  31 tests, reference validation, deterministic pack compilation and the local
+  release gate, then deployed through the atomic SMB staging workflow. One old
+  backup was pruned after verification and ten remain. Exact package hashes
+  passed before world launch; the post-load semantic audit matched all 6,788
+  canonical documents and ignored only expected LevelDB housekeeping changes.
+- Foundry 13.351 / PF1 11.11 UI acceptance opened the four entries and confirmed
+  all WebP paths, Catnip Hookah's one-minute action, Cider's miscellaneous
+  consumable profile, and the map's +5 Survival context note with an empty
+  Changes list. There were no module-specific console errors or warnings. One
+  general error was the reviewer's harmless first login attempt before selecting
+  the Gamemaster user. Actor drag/use checks for Cider and Fruitcake remain for a
+  later slice. The dedicated world is back in Setup.
 
 ## Prior completed batch: native weapon and consumable review
 
