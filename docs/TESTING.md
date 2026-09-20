@@ -14,13 +14,33 @@ native Melee/Throw actions and Alchemical Silver checkbox survive import.
 Reducing the blanch quantity to four removes 5 gp / 0.5 lb; restoring five
 restores the totals. All checks used a new test copy, not old imported data.
 
-Actor import/removal remains pending: the Chrome extension blocked file upload,
-and browser-controlled document dragging was previously ineffective. An empty
-dedicated actor and the test kit are open for user assistance. No actor inventory
-or roll acceptance is claimed. No automatic consumable effect or silver damage
-modifier is implemented. Browser error capture is empty and scoped server logs
-have no errors/warnings. Permission/lifecycle baseline and final semantic audit
-remain pending; the content compatibility profile is still unverified.
+Actor acceptance completed after Chrome file-URL access was enabled and the
+browser reconnected. Native Import Data loaded the canonical kit fixture into
+ASC Container Acceptance: inventory totals were 4 lb / 80 gp. Native Take moved
+the silver dagger out of the container without changing actor totals. The kit
+then weighed 3 lb with 57.5 gp contents. The dagger retained its Melee/Throw
+picker; a Melee attack produced a native attack/damage chat roll. The actor
+retains that withdrawn dagger; the separate world kit copy remains full. This
+verifies actor inventory/withdrawal through native import and controls, not an
+automated drag-and-drop gesture.
+
+Final runtime commit `80600de7e17d211617a1291bd50db71936d28a06` normalizes reviewed native defaults
+on all four pilot sources and organizes icons by content category. Foundry had
+persisted only missing default fields; no source rules or contained records
+changed. The complete comparator was preserved. Fifteen tests, full compiler
+round trips, deterministic 43-file archives and Windows/Ubuntu CI passed.
+Staged deployment retained a rollback copy; strict installed hashes passed.
+All four pilot sheets reopened correctly; all four new icon paths visibly
+loaded. HTTP/hash checks passed for the four organized icons, four legacy aliases
+and four core/system references. After returning to Setup, the exact semantic
+audit passed for every installed pack against the deployed commit.
+
+The earlier browser session captured one startup viewport error; no item/roll
+error appeared. Final browser error capture is empty. Server debug logs through
+08:58:27 local time contain 637 info records and no warnings/errors.
+No automatic consumable effect or silver damage modifier is implemented.
+Feat/skill-talent actor checks and the non-GM/lifecycle warning baseline remain
+pending; the content compatibility profile remains unverified.
 
 ## Local foundation gate
 

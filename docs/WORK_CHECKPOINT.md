@@ -59,12 +59,25 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   feats, items/kits, and guile-talents/artifice folders. Four generated legacy
   aliases preserve images in existing test-world copies. Source references,
   asset registry, validation and packaging are updated together; no new artwork.
-- New full local verification passed 15 tests and deterministic 43-file archives.
-  Next safe step: commit, verify clean, deploy and repeat all-pack UI/semantic
-  checks. Four retained backups were present before this planned deployment.
-- No browser assistance remains pending.
-  General pilot feat/skill-talent actor checks and non-GM/lifecycle baseline
-  remain outside the completed container behavior checks.
+- Final deployed runtime: `80600de7e17d211617a1291bd50db71936d28a06`, alpha.3.
+  Clean verification passed 15 tests, complete round trips and deterministic
+  43-file archives; Windows and Ubuntu CI passed. Scoped staging/swap retained
+  the fifth backup. Strict installed hashes passed before UI checks.
+- Reopened all four pilot compendium sheets on the final build. New icon paths
+  loaded visibly; HTTP/hash checks passed for four organized icons, four legacy
+  aliases and four external core/system references. Kit contents/totals remain
+  correct. Returned to Setup and exact all-pack semantic audit passed.
+- Final browser error capture is empty; earlier startup viewport error remains
+  documented above. Server log through 08:58:27 local contains 637 info records,
+  zero warnings/errors. Runtime is left in Setup, no host restart performed.
+- Documentation evidence follows the runtime commit; no documentation-only
+  redeployment is needed. All five module backups are retained: the next
+  deployment will hit the helper's retention limit. Do not delete backups or
+  bypass that limit without an approved recovery/retention decision.
+- No browser assistance is pending. Next safe work: feat/skill-talent actor
+  checks, non-GM visibility/lifecycle warning baseline and issue #6 source labels
+  and class-table wrapping, then further catalog intake. PR #4 remains draft.
+  No merge, release or compatibility verification claim is made.
 
 ## Prior reuse audit (superseded by the resolved delivery choice above)
 

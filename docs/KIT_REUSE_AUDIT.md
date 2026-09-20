@@ -66,9 +66,13 @@ source records and asset paths need validation alongside the parent ID.
   passive and conditional modifiers as requested.
 - The flat loot source is replaced, preserving its ID/source key.
   Remote alpha.3 confirms full-kit totals, component quantities, contained sheets,
-  dagger actions/material and native quantity adjustments. Actor import and
-  removal/transfer remain pending browser assistance. Previously imported test-world copies
+  dagger actions/material and native quantity adjustments. Native actor Import
+  Data, Take withdrawal, invariant 4 lb / 80 gp inventory totals and a dagger
+  Melee chat roll now pass. Automated dragging itself is not claimed. All four
+  installed pack records match the normalized source commit after reopening.
+  Previously imported test-world copies
   are not automatically migrated by a compendium update.
 
 The former flat-kit drop test does not establish acceptance of the corrected
-container. Keep PR #4 in draft until the revised scope is tested.
+container. The corrected container behavior is now tested; PR #4 remains draft
+for the broader pilot acceptance listed in TESTING.md.
