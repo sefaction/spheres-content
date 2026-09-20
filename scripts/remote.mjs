@@ -192,29 +192,29 @@ async function loadProfile() {
 
 export async function checkSetup(origin, requireSetup = true) {
   // Only HTTP reads; never log bodies, cookies, credentials, or the private URL.
-  const response = await fetch(origin, {
-    redirect: "manual",
-    signal: AbortSignal.timeout(10000),
-  });
   let location = new URL(origin);
-  if ([301, 302, 303, 307, 308].includes(response.status)) {
-    location = new URL(response.headers.get("location"), origin);
-    assert.equal(
-      location.origin,
-      new URL(origin).origin,
-      "Unexpected instance redirect",
-    );
-    await response.body?.cancel();
-    const landing = await fetch(location, {
+  let landed = false;
+  for (let redirects = 0; redirects < 5; redirects++) {
+    const response = await fetch(location, {
       redirect: "manual",
       signal: AbortSignal.timeout(10000),
     });
-    assert.equal(landing.status, 200, "Instance landing page unavailable");
-    await landing.body?.cancel();
-  } else {
-    assert.equal(response.status, 200, "Instance unavailable");
     await response.body?.cancel();
+    if ([301, 302, 303, 307, 308].includes(response.status)) {
+      assert(response.headers.get("location"), "Missing redirect destination");
+      location = new URL(response.headers.get("location"), location);
+      assert.equal(
+        location.origin,
+        new URL(origin).origin,
+        "Unexpected instance redirect",
+      );
+      continue;
+    }
+    assert.equal(response.status, 200, "Instance unavailable");
+    landed = true;
+    break;
   }
+  assert(landed, "Too many instance redirects");
   if (requireSetup)
     assert(
       ["/setup", "/auth"].includes(location.pathname),

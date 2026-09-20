@@ -3,11 +3,41 @@ import { test } from "node:test";
 import { mkdtemp, mkdir, writeFile, readFile } from "node:fs/promises";
 import path from "node:path";
 import os from "node:os";
+import { createServer } from "node:http";
 import {
   resolveProfile,
   swapStaged,
   directoryHashes,
+  checkSetup,
 } from "../scripts/remote.mjs";
+
+test("setup guard follows the authentication chain but rejects a running world and foreign redirects", async (context) => {
+  let mode = "setup";
+  const server = createServer((request, response) => {
+    if (request.url === "/") {
+      response.writeHead(302, {
+        Location:
+          mode === "foreign"
+            ? "http://example.invalid/"
+            : mode === "game"
+              ? "/join"
+              : "/setup",
+      });
+    } else if (request.url === "/setup")
+      response.writeHead(302, { Location: "/auth" });
+    else response.writeHead(200);
+    response.end();
+  });
+  await new Promise((resolve) => server.listen(0, "127.0.0.1", resolve));
+  context.after(() => new Promise((resolve) => server.close(resolve)));
+  const origin = `http://127.0.0.1:${server.address().port}`;
+  assert.equal(await checkSetup(origin), "/auth");
+  mode = "game";
+  await assert.rejects(checkSetup(origin), /Return the instance to Setup/);
+  assert.equal(await checkSetup(origin, false), "/join");
+  mode = "foreign";
+  await assert.rejects(checkSetup(origin), /Unexpected instance redirect/);
+});
 
 const profile = {
   profile: "spheres-test",
