@@ -8,6 +8,31 @@ const completedStates = new Set([
   "not-applicable",
 ]);
 
+async function productionReuseReport() {
+  try {
+    return await physicalReviewReport();
+  } catch (error) {
+    if (
+      error?.code !== "ENOENT" ||
+      !String(error.path)
+        .replaceAll("\\", "/")
+        .endsWith(".local/reuse-index/index.json")
+    )
+      throw error;
+
+    const reviews = JSON.parse(
+      await readFile("config/physical-item-reviews.json", "utf8"),
+    );
+    return {
+      entries: Object.entries(reviews).map(([sourceKey, review]) => ({
+        sourceKey,
+        review: "reviewed",
+        candidates: review.candidates ?? [],
+      })),
+    };
+  }
+}
+
 export function classifyProductionEntry(entity, reuse) {
   const text = entity.descriptionText ?? "";
   const category = entity.category ?? "";
@@ -74,7 +99,7 @@ export async function createProductionPlan({
   const reviews = JSON.parse(
     await readFile("config/audit-reviews.json", "utf8"),
   );
-  const reuse = await physicalReviewReport();
+  const reuse = await productionReuseReport();
   const reuseBySourceKey = new Map(
     reuse.entries.map((entry) => [entry.sourceKey, entry]),
   );
