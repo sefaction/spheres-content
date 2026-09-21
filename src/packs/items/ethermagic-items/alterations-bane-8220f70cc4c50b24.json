@@ -2,8 +2,8 @@
   "_id": "8220f70cc4c50b24",
   "_key": "!items!8220f70cc4c50b24",
   "name": "Alteration’s Bane",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "img": "modules/additional-spheres-content/icons/items/ethermagic/alterations-bane.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,17 +24,17 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
       }
     }
@@ -63,36 +63,52 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 14,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "evo"
     },
     "hp": {},
     "broken": false,
     "hardness": 0,
     "changes": [],
-    "changeFlags": {
-      "immuneToMorale": false,
-      "loseDexToAC": false,
-      "noMediumEncumbrance": false,
-      "noHeavyEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "lowLightVision": false,
-      "seeInvisibility": false,
-      "seeInDarkness": false
-    },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "2869c41d94d64fb3",
+        "actionType": "save",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "img": "modules/additional-spheres-content/icons/items/ethermagic/alterations-bane.webp",
+        "name": "Drink",
+        "notes": {
+          "effect": [
+            "Any alteration etherspells affecting the consumer end immediately.",
+            "A creature forced to drink Alteration?s Bane can negate its effects with a DC 13 Will save."
+          ]
+        },
+        "save": {
+          "dc": "13",
+          "description": "Will negates (forced consumption only)",
+          "type": "will"
+        },
+        "tag": "alterationsBane"
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
-      "per": "",
+      "per": "single",
       "autoDeductChargesCost": "",
       "maxFormula": "",
-      "rechargeFormula": ""
+      "rechargeFormula": "",
+      "pricePerUse": 0
     },
     "links": {
       "children": [],
@@ -104,39 +120,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
-    "proficient": false,
-    "held": "1h",
-    "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
-    },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
-    },
-    "spellFailure": 0,
+    "subType": "potion",
     "showInQuickbar": false,
     "sources": [
       {

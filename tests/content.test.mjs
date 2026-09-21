@@ -493,3 +493,91 @@ test("reviewed planar power components preserve dose and focus rules without glo
     );
   }
 });
+
+test("twenty-item production lane applies shared PF1 profiles without inventing Ethermagic rolls", async () => {
+  const { docs } = await validateContentCatalog();
+  const bySource = new Map(
+    docs.map(({ doc }) => [
+      doc.flags["additional-spheres-content"].sourceKey,
+      doc,
+    ]),
+  );
+
+  const alteration = bySource.get(
+    "wiki:ethermagic-items:current:item:alterations-bane",
+  );
+  assert.equal(alteration.type, "consumable");
+  assert.equal(alteration.system.subType, "potion");
+  assert.equal(alteration.system.cl, 14);
+  assert.equal(alteration.system.aura.school, "evo");
+  assert.equal(alteration.system.uses.per, "single");
+  assert.equal(alteration.system.actions[0].activation.type, "standard");
+  assert.deepEqual(alteration.system.actions[0].save, {
+    dc: "13",
+    description: "Will negates (forced consumption only)",
+    type: "will",
+  });
+
+  const rings = new Map([
+    ["band-of-grounded-realities", 12],
+    ["band-of-overlapping-realities", 14],
+    ["band-of-shifting-realities", 7],
+    ["band-of-transient-realities", 9],
+  ]);
+  for (const [slug, casterLevel] of rings) {
+    const ring = bySource.get(`wiki:ethermagic-items:current:item:${slug}`);
+    assert.equal(ring.system.slot, "ring");
+    assert.equal(ring.system.cl, casterLevel);
+    assert.equal(ring.system.aura.school, "evo");
+    assert.equal(
+      ring.img,
+      "modules/additional-spheres-content/icons/items/ethermagic/reality-bands.webp",
+    );
+    assert.deepEqual(ring.system.actions, []);
+    assert.deepEqual(ring.system.changes, []);
+  }
+
+  const staves = new Map([
+    ["apprentice-blastmages-etherstaff", 8],
+    ["etherstaff-of-armageddons-form", 15],
+    ["etherstaff-of-mental-fixation", 16],
+    ["etherstaff-of-the-atomic-edge", 9],
+    ["etherstaff-of-the-canine-cliche", 14],
+    ["etherstaff-of-the-cosmic-roar", 13],
+    ["etherstaff-of-the-endless-congregation", 16],
+    ["etherstaff-of-the-fetching-sphere", 8],
+    ["etherstaff-of-the-modeling-enthusiast", 20],
+  ]);
+  for (const [slug, casterLevel] of staves) {
+    const staff = bySource.get(`wiki:ethermagic-items:current:item:${slug}`);
+    assert.equal(staff.system.cl, casterLevel);
+    assert.equal(staff.system.aura.school, "evo");
+    assert.equal(staff.system.uses.value, 10);
+    assert.equal(staff.system.uses.maxFormula, "10");
+    assert.equal(staff.system.uses.per, "charges");
+    assert.deepEqual(staff.system.actions, []);
+    assert.deepEqual(staff.system.changes, []);
+  }
+
+  for (const slug of [
+    "living-mossrock",
+    "lodestone-geode",
+    "mother-pearlite",
+    "warding-agate",
+  ]) {
+    const component = bySource.get(`wiki:equipment:current:item:${slug}`);
+    assert.equal(component.type, "loot");
+    assert.equal(component.system.subType, "gear");
+    assert.match(component.system.description.value, /<strong>Focus<\/strong>/);
+    assert.deepEqual(component.system.actions, []);
+    assert.deepEqual(component.system.changes, []);
+  }
+
+  for (const slug of ["lightning-rod", "storm-shelter"]) {
+    const structure = bySource.get(`wiki:equipment:current:item:${slug}`);
+    assert.equal(structure.type, "loot");
+    assert.equal(structure.system.subType, "gear");
+    assert.deepEqual(structure.system.actions, []);
+    assert.deepEqual(structure.system.changes, []);
+  }
+});

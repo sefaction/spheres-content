@@ -41,10 +41,55 @@
     }
   },
   "wiki:equipment:current:item:lightning-rod": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "33320d942f30b18465b845697fa87b3d325f66dc9392ddd339e6b6467bb415bb",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/equipment/lightning-rod.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "33320d942f30b18465b845697fa87b3d325f66dc9392ddd339e6b6467bb415bb",
+      "reason": "This installed structure has no actor-sheet activation."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "33320d942f30b18465b845697fa87b3d325f66dc9392ddd339e6b6467bb415bb",
+      "reason": "A global electricity immunity Change would incorrectly protect the owning actor instead of the installed structure."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "33320d942f30b18465b845697fa87b3d325f66dc9392ddd339e6b6467bb415bb",
+      "reason": "PF1 context-note targets cannot scope the lightning redirection rule to attacks near one installed structure."
+    },
+    "usage": {
+      "state": "not-needed",
+      "sourceSha256": "33320d942f30b18465b845697fa87b3d325f66dc9392ddd339e6b6467bb415bb",
+      "reason": "The structure is installed property and has no charge or per-day counter."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "33320d942f30b18465b845697fa87b3d325f66dc9392ddd339e6b6467bb415bb",
+      "reason": "The structure grants no fixed child, supplement, or charge-source document."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "33320d942f30b18465b845697fa87b3d325f66dc9392ddd339e6b6467bb415bb",
+      "reason": "The native gear profile, 50 gp base price, weight, and non-action handling are reviewed."
+    },
+    "compatibility": {
+      "state": "not-applicable",
+      "sourceSha256": "33320d942f30b18465b845697fa87b3d325f66dc9392ddd339e6b6467bb415bb",
+      "reason": "The rule needs no Spheres framework field."
+    },
     "reuse": {
       "state": "implemented",
       "sourceSha256": "33320d942f30b18465b845697fa87b3d325f66dc9392ddd339e6b6467bb415bb",
-      "reason": "Both matches are supernatural class/talent powers, not the physical building lightning conductor."
+      "reason": "The two exact-name matches are a class ability and a magic talent, not the physical building conductor; both are rejected."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "33320d942f30b18465b845697fa87b3d325f66dc9392ddd339e6b6467bb415bb",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
     }
   },
   "wiki:implements:ultimate:item:hidden-blade": {
@@ -1442,6 +1487,994 @@
       "state": "implemented",
       "sourceSha256": "674f8aa23fef566f4f81818b768d65e36b0b4f8850297294921a7fd95993bd7f",
       "reason": "The complete dose, focus, created-object restriction, hardness bonus, qualifying examples and source text are retained."
+    }
+  },
+  "wiki:equipment:current:item:living-mossrock": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "21e79074ed1c7dcd567bb0802a3bfb3c51b28f9564d4bad29f134b83b4a5ba74",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/equipment/living-mossrock.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "21e79074ed1c7dcd567bb0802a3bfb3c51b28f9564d4bad29f134b83b4a5ba74",
+      "reason": "This component modifies a qualifying spell or sphere effect during that effect?s activation and has no separate item action."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "21e79074ed1c7dcd567bb0802a3bfb3c51b28f9564d4bad29f134b83b4a5ba74",
+      "reason": "A global actor Change cannot safely restrict the benefit to the qualifying spell or sphere effect."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "21e79074ed1c7dcd567bb0802a3bfb3c51b28f9564d4bad29f134b83b4a5ba74",
+      "reason": "PF1 context-note targets cannot isolate the component?s conditional benefit to one qualifying spell or sphere effect."
+    },
+    "usage": {
+      "state": "deferred",
+      "sourceSha256": "21e79074ed1c7dcd567bb0802a3bfb3c51b28f9564d4bad29f134b83b4a5ba74",
+      "reason": "The source permits either a consumed dose or a larger reusable focus, so automatic consumption would destroy a valid focus."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "21e79074ed1c7dcd567bb0802a3bfb3c51b28f9564d4bad29f134b83b4a5ba74",
+      "reason": "The component grants no fixed child, supplement, or charge-source document."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "21e79074ed1c7dcd567bb0802a3bfb3c51b28f9564d4bad29f134b83b4a5ba74",
+      "reason": "The native gear profile, 50 gp single-dose price, and negligible weight are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "21e79074ed1c7dcd567bb0802a3bfb3c51b28f9564d4bad29f134b83b4a5ba74",
+      "reason": "Automatic application needs reviewed PF1 spell and pf1spheres hooks that identify the qualifying effect."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "21e79074ed1c7dcd567bb0802a3bfb3c51b28f9564d4bad29f134b83b4a5ba74",
+      "reason": "The reviewed compendium index contains no exact or normalized Living Mossrock match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "21e79074ed1c7dcd567bb0802a3bfb3c51b28f9564d4bad29f134b83b4a5ba74",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:equipment:current:item:lodestone-geode": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "72658feba6c23076faefb42f60bdfc52056db91ebc0f878f37123db461bf3764",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/equipment/lodestone-geode.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "72658feba6c23076faefb42f60bdfc52056db91ebc0f878f37123db461bf3764",
+      "reason": "This component modifies a qualifying spell or sphere effect during that effect?s activation and has no separate item action."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "72658feba6c23076faefb42f60bdfc52056db91ebc0f878f37123db461bf3764",
+      "reason": "A global actor Change cannot safely restrict the benefit to the qualifying spell or sphere effect."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "72658feba6c23076faefb42f60bdfc52056db91ebc0f878f37123db461bf3764",
+      "reason": "PF1 context-note targets cannot isolate the component?s conditional benefit to one qualifying spell or sphere effect."
+    },
+    "usage": {
+      "state": "deferred",
+      "sourceSha256": "72658feba6c23076faefb42f60bdfc52056db91ebc0f878f37123db461bf3764",
+      "reason": "The source permits either a consumed dose or a larger reusable focus, so automatic consumption would destroy a valid focus."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "72658feba6c23076faefb42f60bdfc52056db91ebc0f878f37123db461bf3764",
+      "reason": "The component grants no fixed child, supplement, or charge-source document."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "72658feba6c23076faefb42f60bdfc52056db91ebc0f878f37123db461bf3764",
+      "reason": "The native gear profile, 50 gp single-dose price, and negligible weight are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "72658feba6c23076faefb42f60bdfc52056db91ebc0f878f37123db461bf3764",
+      "reason": "Automatic application needs reviewed PF1 spell and pf1spheres hooks that identify the qualifying effect."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "72658feba6c23076faefb42f60bdfc52056db91ebc0f878f37123db461bf3764",
+      "reason": "The reviewed compendium index contains no exact or normalized Lodestone Geode match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "72658feba6c23076faefb42f60bdfc52056db91ebc0f878f37123db461bf3764",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:equipment:current:item:mother-pearlite": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "7d404bb60699eea94b428ca10c5d1f234153d7b15eddc09732d9479266b72a24",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/equipment/mother-pearlite.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "7d404bb60699eea94b428ca10c5d1f234153d7b15eddc09732d9479266b72a24",
+      "reason": "This component modifies a qualifying spell or sphere effect during that effect?s activation and has no separate item action."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "7d404bb60699eea94b428ca10c5d1f234153d7b15eddc09732d9479266b72a24",
+      "reason": "A global actor Change cannot safely restrict the benefit to the qualifying spell or sphere effect."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "7d404bb60699eea94b428ca10c5d1f234153d7b15eddc09732d9479266b72a24",
+      "reason": "PF1 context-note targets cannot isolate the component?s conditional benefit to one qualifying spell or sphere effect."
+    },
+    "usage": {
+      "state": "deferred",
+      "sourceSha256": "7d404bb60699eea94b428ca10c5d1f234153d7b15eddc09732d9479266b72a24",
+      "reason": "The source permits either a consumed dose or a larger reusable focus, so automatic consumption would destroy a valid focus."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "7d404bb60699eea94b428ca10c5d1f234153d7b15eddc09732d9479266b72a24",
+      "reason": "The component grants no fixed child, supplement, or charge-source document."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "7d404bb60699eea94b428ca10c5d1f234153d7b15eddc09732d9479266b72a24",
+      "reason": "The native gear profile, 300 gp single-dose price, and negligible weight are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "7d404bb60699eea94b428ca10c5d1f234153d7b15eddc09732d9479266b72a24",
+      "reason": "Automatic application needs reviewed PF1 spell and pf1spheres hooks that identify the qualifying effect."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "7d404bb60699eea94b428ca10c5d1f234153d7b15eddc09732d9479266b72a24",
+      "reason": "The reviewed compendium index contains no exact or normalized Mother Pearlite match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "7d404bb60699eea94b428ca10c5d1f234153d7b15eddc09732d9479266b72a24",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:equipment:current:item:storm-shelter": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "b8121d14ee4286123795fc07a2d03c46167ff5af6066d41d921520d4d8756ab8",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/equipment/storm-shelter.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "b8121d14ee4286123795fc07a2d03c46167ff5af6066d41d921520d4d8756ab8",
+      "reason": "This installed structure has no actor-sheet activation."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "b8121d14ee4286123795fc07a2d03c46167ff5af6066d41d921520d4d8756ab8",
+      "reason": "The shelter changes environmental damage to occupants and does not grant a persistent actor statistic."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "b8121d14ee4286123795fc07a2d03c46167ff5af6066d41d921520d4d8756ab8",
+      "reason": "The shelter rule resolves environmental damage rather than modifying an actor roll."
+    },
+    "usage": {
+      "state": "not-needed",
+      "sourceSha256": "b8121d14ee4286123795fc07a2d03c46167ff5af6066d41d921520d4d8756ab8",
+      "reason": "The structure is installed property and has no charge or per-day counter."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "b8121d14ee4286123795fc07a2d03c46167ff5af6066d41d921520d4d8756ab8",
+      "reason": "The structure grants no fixed child, supplement, or charge-source document."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "b8121d14ee4286123795fc07a2d03c46167ff5af6066d41d921520d4d8756ab8",
+      "reason": "The native gear profile, 50 gp base price, weight, and non-action handling are reviewed."
+    },
+    "compatibility": {
+      "state": "not-applicable",
+      "sourceSha256": "b8121d14ee4286123795fc07a2d03c46167ff5af6066d41d921520d4d8756ab8",
+      "reason": "The rule needs no Spheres framework field."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "b8121d14ee4286123795fc07a2d03c46167ff5af6066d41d921520d4d8756ab8",
+      "reason": "The reviewed compendium index contains no exact or normalized Storm Shelter match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "b8121d14ee4286123795fc07a2d03c46167ff5af6066d41d921520d4d8756ab8",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:equipment:current:item:warding-agate": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "fe70b601809936b87f1a076bf06bde295bfa8b485f80b0c93ec7e5e7b8c3cc90",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/equipment/warding-agate.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "fe70b601809936b87f1a076bf06bde295bfa8b485f80b0c93ec7e5e7b8c3cc90",
+      "reason": "This component modifies a qualifying spell or sphere effect during that effect?s activation and has no separate item action."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "fe70b601809936b87f1a076bf06bde295bfa8b485f80b0c93ec7e5e7b8c3cc90",
+      "reason": "A global actor Change cannot safely restrict the benefit to the qualifying spell or sphere effect."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "fe70b601809936b87f1a076bf06bde295bfa8b485f80b0c93ec7e5e7b8c3cc90",
+      "reason": "PF1 context-note targets cannot isolate the component?s conditional benefit to one qualifying spell or sphere effect."
+    },
+    "usage": {
+      "state": "deferred",
+      "sourceSha256": "fe70b601809936b87f1a076bf06bde295bfa8b485f80b0c93ec7e5e7b8c3cc90",
+      "reason": "The source permits either a consumed dose or a larger reusable focus, so automatic consumption would destroy a valid focus."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "fe70b601809936b87f1a076bf06bde295bfa8b485f80b0c93ec7e5e7b8c3cc90",
+      "reason": "The component grants no fixed child, supplement, or charge-source document."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "fe70b601809936b87f1a076bf06bde295bfa8b485f80b0c93ec7e5e7b8c3cc90",
+      "reason": "The native gear profile, 75 gp single-dose price, and negligible weight are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "fe70b601809936b87f1a076bf06bde295bfa8b485f80b0c93ec7e5e7b8c3cc90",
+      "reason": "Automatic application needs reviewed PF1 spell and pf1spheres hooks that identify the qualifying effect."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "fe70b601809936b87f1a076bf06bde295bfa8b485f80b0c93ec7e5e7b8c3cc90",
+      "reason": "The reviewed compendium index contains no exact or normalized Warding Agate match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "fe70b601809936b87f1a076bf06bde295bfa8b485f80b0c93ec7e5e7b8c3cc90",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:ethermagic-items:current:item:alterations-bane": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "4826f34908db39512115438022d399b0642c37c0a83df3ffa95952d7f95b2aad",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/ethermagic/alterations-bane.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "4826f34908db39512115438022d399b0642c37c0a83df3ffa95952d7f95b2aad",
+      "reason": "A pinned standard-action Drink action includes the DC 13 Will save for forced consumption and the exact effect reminder."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "4826f34908db39512115438022d399b0642c37c0a83df3ffa95952d7f95b2aad",
+      "reason": "Ending only alteration etherspells requires an Ethermagic effect interface; a global dispel or actor Change would be overbroad."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "4826f34908db39512115438022d399b0642c37c0a83df3ffa95952d7f95b2aad",
+      "reason": "The potion ends effects rather than modifying a conditional roll; the action carries the reminder."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "4826f34908db39512115438022d399b0642c37c0a83df3ffa95952d7f95b2aad",
+      "reason": "The vial uses PF1?s native Single Use consumable setting."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "4826f34908db39512115438022d399b0642c37c0a83df3ffa95952d7f95b2aad",
+      "reason": "The potion grants no permanent child or supplement document."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "4826f34908db39512115438022d399b0642c37c0a83df3ffa95952d7f95b2aad",
+      "reason": "Potion subtype, 250 gp price, one-quarter-pound weight, CL 14, evocation aura, and standard action were reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "4826f34908db39512115438022d399b0642c37c0a83df3ffa95952d7f95b2aad",
+      "reason": "Automatic removal requires a reviewed Ethermagic integration that can identify alteration etherspells."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "4826f34908db39512115438022d399b0642c37c0a83df3ffa95952d7f95b2aad",
+      "reason": "The reviewed compendium index contains no exact or normalized Alteration’s Bane match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "4826f34908db39512115438022d399b0642c37c0a83df3ffa95952d7f95b2aad",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:ethermagic-items:current:item:band-of-grounded-realities": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "fcbdcdd00f526a7982395f75aae8e2cf31d5829ee7d24a0b7f0b3450cb47d087",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/ethermagic/reality-bands.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "fcbdcdd00f526a7982395f75aae8e2cf31d5829ee7d24a0b7f0b3450cb47d087",
+      "reason": "The ring?s Ethermagic rule is continuously passive while worn and has no separate activation."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "fcbdcdd00f526a7982395f75aae8e2cf31d5829ee7d24a0b7f0b3450cb47d087",
+      "reason": "A global PF1 Change cannot represent the ring?s manifestation-specific Ethermagic rule."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "fcbdcdd00f526a7982395f75aae8e2cf31d5829ee7d24a0b7f0b3450cb47d087",
+      "reason": "PF1 context-note targets do not expose manifestation costs or Ethermagic resolution for this conditional reminder."
+    },
+    "usage": {
+      "state": "not-needed",
+      "sourceSha256": "fcbdcdd00f526a7982395f75aae8e2cf31d5829ee7d24a0b7f0b3450cb47d087",
+      "reason": "The ring has no charges or per-day use limit."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "fcbdcdd00f526a7982395f75aae8e2cf31d5829ee7d24a0b7f0b3450cb47d087",
+      "reason": "Construction prerequisites are provenance, not actor-owned child documents."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "fcbdcdd00f526a7982395f75aae8e2cf31d5829ee7d24a0b7f0b3450cb47d087",
+      "reason": "The finger slot, 15000 gp price, CL 12, evocation aura, and wondrous-item profile are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "fcbdcdd00f526a7982395f75aae8e2cf31d5829ee7d24a0b7f0b3450cb47d087",
+      "reason": "Automation requires a compatible Ethermagic casting interface, which the current declared dependencies do not provide."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "fcbdcdd00f526a7982395f75aae8e2cf31d5829ee7d24a0b7f0b3450cb47d087",
+      "reason": "The reviewed compendium index contains no exact or normalized Band of Grounded Realities match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "fcbdcdd00f526a7982395f75aae8e2cf31d5829ee7d24a0b7f0b3450cb47d087",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:ethermagic-items:current:item:band-of-overlapping-realities": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "18a8454b528850f1638dc0f5c5f8df01974363def157ab8bbd7862db88212d0f",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/ethermagic/reality-bands.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "18a8454b528850f1638dc0f5c5f8df01974363def157ab8bbd7862db88212d0f",
+      "reason": "The ring?s Ethermagic rule is continuously passive while worn and has no separate activation."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "18a8454b528850f1638dc0f5c5f8df01974363def157ab8bbd7862db88212d0f",
+      "reason": "A global PF1 Change cannot represent the ring?s manifestation-specific Ethermagic rule."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "18a8454b528850f1638dc0f5c5f8df01974363def157ab8bbd7862db88212d0f",
+      "reason": "PF1 context-note targets do not expose manifestation costs or Ethermagic resolution for this conditional reminder."
+    },
+    "usage": {
+      "state": "not-needed",
+      "sourceSha256": "18a8454b528850f1638dc0f5c5f8df01974363def157ab8bbd7862db88212d0f",
+      "reason": "The ring has no charges or per-day use limit."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "18a8454b528850f1638dc0f5c5f8df01974363def157ab8bbd7862db88212d0f",
+      "reason": "Construction prerequisites are provenance, not actor-owned child documents."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "18a8454b528850f1638dc0f5c5f8df01974363def157ab8bbd7862db88212d0f",
+      "reason": "The finger slot, 20000 gp price, CL 14, evocation aura, and wondrous-item profile are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "18a8454b528850f1638dc0f5c5f8df01974363def157ab8bbd7862db88212d0f",
+      "reason": "Automation requires a compatible Ethermagic casting interface, which the current declared dependencies do not provide."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "18a8454b528850f1638dc0f5c5f8df01974363def157ab8bbd7862db88212d0f",
+      "reason": "The reviewed compendium index contains no exact or normalized Band of Overlapping Realities match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "18a8454b528850f1638dc0f5c5f8df01974363def157ab8bbd7862db88212d0f",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:ethermagic-items:current:item:band-of-shifting-realities": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "3cc88612999f10771bb046f5681b7f5232dc5af71cd133631c4bd1b008283327",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/ethermagic/reality-bands.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "3cc88612999f10771bb046f5681b7f5232dc5af71cd133631c4bd1b008283327",
+      "reason": "The ring?s Ethermagic rule is continuously passive while worn and has no separate activation."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "3cc88612999f10771bb046f5681b7f5232dc5af71cd133631c4bd1b008283327",
+      "reason": "A global PF1 Change cannot represent the ring?s manifestation-specific Ethermagic rule."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "3cc88612999f10771bb046f5681b7f5232dc5af71cd133631c4bd1b008283327",
+      "reason": "PF1 context-note targets do not expose manifestation costs or Ethermagic resolution for this conditional reminder."
+    },
+    "usage": {
+      "state": "not-needed",
+      "sourceSha256": "3cc88612999f10771bb046f5681b7f5232dc5af71cd133631c4bd1b008283327",
+      "reason": "The ring has no charges or per-day use limit."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "3cc88612999f10771bb046f5681b7f5232dc5af71cd133631c4bd1b008283327",
+      "reason": "Construction prerequisites are provenance, not actor-owned child documents."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "3cc88612999f10771bb046f5681b7f5232dc5af71cd133631c4bd1b008283327",
+      "reason": "The finger slot, 8000 gp price, CL 7, evocation aura, and wondrous-item profile are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "3cc88612999f10771bb046f5681b7f5232dc5af71cd133631c4bd1b008283327",
+      "reason": "Automation requires a compatible Ethermagic casting interface, which the current declared dependencies do not provide."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "3cc88612999f10771bb046f5681b7f5232dc5af71cd133631c4bd1b008283327",
+      "reason": "The reviewed compendium index contains no exact or normalized Band of Shifting Realities match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "3cc88612999f10771bb046f5681b7f5232dc5af71cd133631c4bd1b008283327",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:ethermagic-items:current:item:band-of-transient-realities": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "58a153b4deb84ae9231f41feceefef68e6ed92a9b1481ea418517868737ee482",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/ethermagic/reality-bands.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "58a153b4deb84ae9231f41feceefef68e6ed92a9b1481ea418517868737ee482",
+      "reason": "The ring?s Ethermagic rule is continuously passive while worn and has no separate activation."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "58a153b4deb84ae9231f41feceefef68e6ed92a9b1481ea418517868737ee482",
+      "reason": "A global PF1 Change cannot represent the ring?s manifestation-specific Ethermagic rule."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "58a153b4deb84ae9231f41feceefef68e6ed92a9b1481ea418517868737ee482",
+      "reason": "PF1 context-note targets do not expose manifestation costs or Ethermagic resolution for this conditional reminder."
+    },
+    "usage": {
+      "state": "not-needed",
+      "sourceSha256": "58a153b4deb84ae9231f41feceefef68e6ed92a9b1481ea418517868737ee482",
+      "reason": "The ring has no charges or per-day use limit."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "58a153b4deb84ae9231f41feceefef68e6ed92a9b1481ea418517868737ee482",
+      "reason": "Construction prerequisites are provenance, not actor-owned child documents."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "58a153b4deb84ae9231f41feceefef68e6ed92a9b1481ea418517868737ee482",
+      "reason": "The finger slot, 12000 gp price, CL 9, evocation aura, and wondrous-item profile are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "58a153b4deb84ae9231f41feceefef68e6ed92a9b1481ea418517868737ee482",
+      "reason": "Automation requires a compatible Ethermagic casting interface, which the current declared dependencies do not provide."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "58a153b4deb84ae9231f41feceefef68e6ed92a9b1481ea418517868737ee482",
+      "reason": "The reviewed compendium index contains no exact or normalized Band of Transient Realities match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "58a153b4deb84ae9231f41feceefef68e6ed92a9b1481ea418517868737ee482",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:ethermagic-items:current:item:apprentice-blastmages-etherstaff": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "89207ead09fa40a588c3369f6d934c2335c6245f53e0cf7878fc8ec0f77d8ea8",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/ethermagic/blast-etherstaff.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "deferred",
+      "sourceSha256": "89207ead09fa40a588c3369f6d934c2335c6245f53e0cf7878fc8ec0f77d8ea8",
+      "reason": "Each stored manifestation has its own Ethermagic cost and resolution; generic PF1 actions would invent unsupported rolls."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "89207ead09fa40a588c3369f6d934c2335c6245f53e0cf7878fc8ec0f77d8ea8",
+      "reason": "The staff grants selectable manifestations rather than a persistent numeric actor modifier."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "89207ead09fa40a588c3369f6d934c2335c6245f53e0cf7878fc8ec0f77d8ea8",
+      "reason": "Manifestation rules are item-use options rather than conditional modifiers to a native PF1 roll."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "89207ead09fa40a588c3369f6d934c2335c6245f53e0cf7878fc8ec0f77d8ea8",
+      "reason": "PF1?s native charge counter records the etherstaff?s 10-charge maximum; recharge remains a deliberate manual adjustment after the source procedure."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "89207ead09fa40a588c3369f6d934c2335c6245f53e0cf7878fc8ec0f77d8ea8",
+      "reason": "Stored manifestations are named in the complete description, but no reviewed canonical Ethermagic documents exist to link."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "89207ead09fa40a588c3369f6d934c2335c6245f53e0cf7878fc8ec0f77d8ea8",
+      "reason": "The wondrous slotless profile, 16700 gp price, five-pound weight, CL 8, evocation aura, and 10-charge maximum are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "89207ead09fa40a588c3369f6d934c2335c6245f53e0cf7878fc8ec0f77d8ea8",
+      "reason": "Manifestation actions and assisted recharge require a reviewed Ethermagic integration that is not currently declared."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "89207ead09fa40a588c3369f6d934c2335c6245f53e0cf7878fc8ec0f77d8ea8",
+      "reason": "The reviewed compendium index contains no exact or normalized Apprentice Blastmage’s Etherstaff match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "89207ead09fa40a588c3369f6d934c2335c6245f53e0cf7878fc8ec0f77d8ea8",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-armageddons-form": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "6bbcd551cfdd3703b24dddf987e01a6c7879cb716a9fac5c2914635b79770513",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/ethermagic/blast-etherstaff.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "deferred",
+      "sourceSha256": "6bbcd551cfdd3703b24dddf987e01a6c7879cb716a9fac5c2914635b79770513",
+      "reason": "Each stored manifestation has its own Ethermagic cost and resolution; generic PF1 actions would invent unsupported rolls."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "6bbcd551cfdd3703b24dddf987e01a6c7879cb716a9fac5c2914635b79770513",
+      "reason": "The staff grants selectable manifestations rather than a persistent numeric actor modifier."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "6bbcd551cfdd3703b24dddf987e01a6c7879cb716a9fac5c2914635b79770513",
+      "reason": "Manifestation rules are item-use options rather than conditional modifiers to a native PF1 roll."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "6bbcd551cfdd3703b24dddf987e01a6c7879cb716a9fac5c2914635b79770513",
+      "reason": "PF1?s native charge counter records the etherstaff?s 10-charge maximum; recharge remains a deliberate manual adjustment after the source procedure."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "6bbcd551cfdd3703b24dddf987e01a6c7879cb716a9fac5c2914635b79770513",
+      "reason": "Stored manifestations are named in the complete description, but no reviewed canonical Ethermagic documents exist to link."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "6bbcd551cfdd3703b24dddf987e01a6c7879cb716a9fac5c2914635b79770513",
+      "reason": "The wondrous slotless profile, 50833 gp price, five-pound weight, CL 15, evocation aura, and 10-charge maximum are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "6bbcd551cfdd3703b24dddf987e01a6c7879cb716a9fac5c2914635b79770513",
+      "reason": "Manifestation actions and assisted recharge require a reviewed Ethermagic integration that is not currently declared."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "6bbcd551cfdd3703b24dddf987e01a6c7879cb716a9fac5c2914635b79770513",
+      "reason": "The reviewed compendium index contains no exact or normalized Etherstaff of Armageddon’s Form match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "6bbcd551cfdd3703b24dddf987e01a6c7879cb716a9fac5c2914635b79770513",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-mental-fixation": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "d53a9718ebdc0201f4c4e66061d05d0f60f888e3bdf921d48fbc84b706aa64e9",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/ethermagic/mental-focus-etherstaff.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "deferred",
+      "sourceSha256": "d53a9718ebdc0201f4c4e66061d05d0f60f888e3bdf921d48fbc84b706aa64e9",
+      "reason": "Each stored manifestation has its own Ethermagic cost and resolution; generic PF1 actions would invent unsupported rolls."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "d53a9718ebdc0201f4c4e66061d05d0f60f888e3bdf921d48fbc84b706aa64e9",
+      "reason": "The staff grants selectable manifestations rather than a persistent numeric actor modifier."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "d53a9718ebdc0201f4c4e66061d05d0f60f888e3bdf921d48fbc84b706aa64e9",
+      "reason": "Manifestation rules are item-use options rather than conditional modifiers to a native PF1 roll."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "d53a9718ebdc0201f4c4e66061d05d0f60f888e3bdf921d48fbc84b706aa64e9",
+      "reason": "PF1?s native charge counter records the etherstaff?s 10-charge maximum; recharge remains a deliberate manual adjustment after the source procedure."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "d53a9718ebdc0201f4c4e66061d05d0f60f888e3bdf921d48fbc84b706aa64e9",
+      "reason": "Stored manifestations are named in the complete description, but no reviewed canonical Ethermagic documents exist to link."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "d53a9718ebdc0201f4c4e66061d05d0f60f888e3bdf921d48fbc84b706aa64e9",
+      "reason": "The wondrous slotless profile, 35625 gp price, five-pound weight, CL 16, evocation aura, and 10-charge maximum are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "d53a9718ebdc0201f4c4e66061d05d0f60f888e3bdf921d48fbc84b706aa64e9",
+      "reason": "Manifestation actions and assisted recharge require a reviewed Ethermagic integration that is not currently declared."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "d53a9718ebdc0201f4c4e66061d05d0f60f888e3bdf921d48fbc84b706aa64e9",
+      "reason": "The reviewed compendium index contains no exact or normalized Etherstaff of Mental Fixation match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "d53a9718ebdc0201f4c4e66061d05d0f60f888e3bdf921d48fbc84b706aa64e9",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-atomic-edge": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "1426ee1585017634cda6a9037a7233900aa40de689847988dc23776d2acb527e",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/ethermagic/blast-etherstaff.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "deferred",
+      "sourceSha256": "1426ee1585017634cda6a9037a7233900aa40de689847988dc23776d2acb527e",
+      "reason": "Each stored manifestation has its own Ethermagic cost and resolution; generic PF1 actions would invent unsupported rolls."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "1426ee1585017634cda6a9037a7233900aa40de689847988dc23776d2acb527e",
+      "reason": "The staff grants selectable manifestations rather than a persistent numeric actor modifier."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "1426ee1585017634cda6a9037a7233900aa40de689847988dc23776d2acb527e",
+      "reason": "Manifestation rules are item-use options rather than conditional modifiers to a native PF1 roll."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "1426ee1585017634cda6a9037a7233900aa40de689847988dc23776d2acb527e",
+      "reason": "PF1?s native charge counter records the etherstaff?s 10-charge maximum; recharge remains a deliberate manual adjustment after the source procedure."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "1426ee1585017634cda6a9037a7233900aa40de689847988dc23776d2acb527e",
+      "reason": "Stored manifestations are named in the complete description, but no reviewed canonical Ethermagic documents exist to link."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "1426ee1585017634cda6a9037a7233900aa40de689847988dc23776d2acb527e",
+      "reason": "The wondrous slotless profile, 34083 gp price, five-pound weight, CL 9, evocation aura, and 10-charge maximum are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "1426ee1585017634cda6a9037a7233900aa40de689847988dc23776d2acb527e",
+      "reason": "Manifestation actions and assisted recharge require a reviewed Ethermagic integration that is not currently declared."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "1426ee1585017634cda6a9037a7233900aa40de689847988dc23776d2acb527e",
+      "reason": "The reviewed compendium index contains no exact or normalized Etherstaff of the Atomic Edge match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "1426ee1585017634cda6a9037a7233900aa40de689847988dc23776d2acb527e",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-canine-cliche": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "70534f0e977c104925f2f846e35d267978e4de145f4b6db767b871daeb81a670",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/ethermagic/gravity-etherstaff.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "deferred",
+      "sourceSha256": "70534f0e977c104925f2f846e35d267978e4de145f4b6db767b871daeb81a670",
+      "reason": "Each stored manifestation has its own Ethermagic cost and resolution; generic PF1 actions would invent unsupported rolls."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "70534f0e977c104925f2f846e35d267978e4de145f4b6db767b871daeb81a670",
+      "reason": "The staff grants selectable manifestations rather than a persistent numeric actor modifier."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "70534f0e977c104925f2f846e35d267978e4de145f4b6db767b871daeb81a670",
+      "reason": "Manifestation rules are item-use options rather than conditional modifiers to a native PF1 roll."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "70534f0e977c104925f2f846e35d267978e4de145f4b6db767b871daeb81a670",
+      "reason": "PF1?s native charge counter records the etherstaff?s 10-charge maximum; recharge remains a deliberate manual adjustment after the source procedure."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "70534f0e977c104925f2f846e35d267978e4de145f4b6db767b871daeb81a670",
+      "reason": "Stored manifestations are named in the complete description, but no reviewed canonical Ethermagic documents exist to link."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "70534f0e977c104925f2f846e35d267978e4de145f4b6db767b871daeb81a670",
+      "reason": "The wondrous slotless profile, 57031 gp price, five-pound weight, CL 14, evocation aura, and 10-charge maximum are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "70534f0e977c104925f2f846e35d267978e4de145f4b6db767b871daeb81a670",
+      "reason": "Manifestation actions and assisted recharge require a reviewed Ethermagic integration that is not currently declared."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "70534f0e977c104925f2f846e35d267978e4de145f4b6db767b871daeb81a670",
+      "reason": "The reviewed compendium index contains no exact or normalized Etherstaff of the Canine Cliché match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "70534f0e977c104925f2f846e35d267978e4de145f4b6db767b871daeb81a670",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-cosmic-roar": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "94db9e507ec763baa8091bbe61f519f80c3c814f23892176c7ee7171a74bbdcc",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/ethermagic/cosmic-etherstaff.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "deferred",
+      "sourceSha256": "94db9e507ec763baa8091bbe61f519f80c3c814f23892176c7ee7171a74bbdcc",
+      "reason": "Each stored manifestation has its own Ethermagic cost and resolution; generic PF1 actions would invent unsupported rolls."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "94db9e507ec763baa8091bbe61f519f80c3c814f23892176c7ee7171a74bbdcc",
+      "reason": "The staff grants selectable manifestations rather than a persistent numeric actor modifier."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "94db9e507ec763baa8091bbe61f519f80c3c814f23892176c7ee7171a74bbdcc",
+      "reason": "Manifestation rules are item-use options rather than conditional modifiers to a native PF1 roll."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "94db9e507ec763baa8091bbe61f519f80c3c814f23892176c7ee7171a74bbdcc",
+      "reason": "PF1?s native charge counter records the etherstaff?s 10-charge maximum; recharge remains a deliberate manual adjustment after the source procedure."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "94db9e507ec763baa8091bbe61f519f80c3c814f23892176c7ee7171a74bbdcc",
+      "reason": "Stored manifestations are named in the complete description, but no reviewed canonical Ethermagic documents exist to link."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "94db9e507ec763baa8091bbe61f519f80c3c814f23892176c7ee7171a74bbdcc",
+      "reason": "The wondrous slotless profile, 87938 gp price, five-pound weight, CL 13, evocation aura, and 10-charge maximum are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "94db9e507ec763baa8091bbe61f519f80c3c814f23892176c7ee7171a74bbdcc",
+      "reason": "Manifestation actions and assisted recharge require a reviewed Ethermagic integration that is not currently declared."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "94db9e507ec763baa8091bbe61f519f80c3c814f23892176c7ee7171a74bbdcc",
+      "reason": "The reviewed compendium index contains no exact or normalized Etherstaff of the Cosmic Roar match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "94db9e507ec763baa8091bbe61f519f80c3c814f23892176c7ee7171a74bbdcc",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-endless-congregation": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "b0729f25c3fd45a244ea091541ddff8234eb4ebfc4821f3adc435f3ba76e0d8d",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/ethermagic/endless-congregation-etherstaff.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "deferred",
+      "sourceSha256": "b0729f25c3fd45a244ea091541ddff8234eb4ebfc4821f3adc435f3ba76e0d8d",
+      "reason": "Each stored manifestation has its own Ethermagic cost and resolution; generic PF1 actions would invent unsupported rolls."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "b0729f25c3fd45a244ea091541ddff8234eb4ebfc4821f3adc435f3ba76e0d8d",
+      "reason": "The staff grants selectable manifestations rather than a persistent numeric actor modifier."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "b0729f25c3fd45a244ea091541ddff8234eb4ebfc4821f3adc435f3ba76e0d8d",
+      "reason": "Manifestation rules are item-use options rather than conditional modifiers to a native PF1 roll."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "b0729f25c3fd45a244ea091541ddff8234eb4ebfc4821f3adc435f3ba76e0d8d",
+      "reason": "PF1?s native charge counter records the etherstaff?s 10-charge maximum; recharge remains a deliberate manual adjustment after the source procedure."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "b0729f25c3fd45a244ea091541ddff8234eb4ebfc4821f3adc435f3ba76e0d8d",
+      "reason": "Stored manifestations are named in the complete description, but no reviewed canonical Ethermagic documents exist to link."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "b0729f25c3fd45a244ea091541ddff8234eb4ebfc4821f3adc435f3ba76e0d8d",
+      "reason": "The wondrous slotless profile, 80730 gp price, five-pound weight, CL 16, evocation aura, and 10-charge maximum are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "b0729f25c3fd45a244ea091541ddff8234eb4ebfc4821f3adc435f3ba76e0d8d",
+      "reason": "Manifestation actions and assisted recharge require a reviewed Ethermagic integration that is not currently declared."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "b0729f25c3fd45a244ea091541ddff8234eb4ebfc4821f3adc435f3ba76e0d8d",
+      "reason": "The reviewed compendium index contains no exact or normalized Etherstaff of the Endless Congregation match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "b0729f25c3fd45a244ea091541ddff8234eb4ebfc4821f3adc435f3ba76e0d8d",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-fetching-sphere": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "ad347f96594e4200fbb4437ceaec7f9ed35190dbb3ce3b996016caacf321bad7",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/ethermagic/cosmic-etherstaff.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "deferred",
+      "sourceSha256": "ad347f96594e4200fbb4437ceaec7f9ed35190dbb3ce3b996016caacf321bad7",
+      "reason": "Each stored manifestation has its own Ethermagic cost and resolution; generic PF1 actions would invent unsupported rolls."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "ad347f96594e4200fbb4437ceaec7f9ed35190dbb3ce3b996016caacf321bad7",
+      "reason": "The staff grants selectable manifestations rather than a persistent numeric actor modifier."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "ad347f96594e4200fbb4437ceaec7f9ed35190dbb3ce3b996016caacf321bad7",
+      "reason": "Manifestation rules are item-use options rather than conditional modifiers to a native PF1 roll."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "ad347f96594e4200fbb4437ceaec7f9ed35190dbb3ce3b996016caacf321bad7",
+      "reason": "PF1?s native charge counter records the etherstaff?s 10-charge maximum; recharge remains a deliberate manual adjustment after the source procedure."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "ad347f96594e4200fbb4437ceaec7f9ed35190dbb3ce3b996016caacf321bad7",
+      "reason": "Stored manifestations are named in the complete description, but no reviewed canonical Ethermagic documents exist to link."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "ad347f96594e4200fbb4437ceaec7f9ed35190dbb3ce3b996016caacf321bad7",
+      "reason": "The wondrous slotless profile, 12500 gp price, five-pound weight, CL 8, evocation aura, and 10-charge maximum are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "ad347f96594e4200fbb4437ceaec7f9ed35190dbb3ce3b996016caacf321bad7",
+      "reason": "Manifestation actions and assisted recharge require a reviewed Ethermagic integration that is not currently declared."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "ad347f96594e4200fbb4437ceaec7f9ed35190dbb3ce3b996016caacf321bad7",
+      "reason": "The reviewed compendium index contains no exact or normalized Etherstaff of the Fetching Sphere match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "ad347f96594e4200fbb4437ceaec7f9ed35190dbb3ce3b996016caacf321bad7",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-modeling-enthusiast": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "9dfbbc6ec1e9d6d772c201f8df73312eb74eecd7d8c6e1d72c1bcca82e05c98b",
+      "reason": "Original generated 256 px WebP is registered at static/icons/items/ethermagic/cosmic-etherstaff.webp with source and encoding hashes."
+    },
+    "activation": {
+      "state": "deferred",
+      "sourceSha256": "9dfbbc6ec1e9d6d772c201f8df73312eb74eecd7d8c6e1d72c1bcca82e05c98b",
+      "reason": "Each stored manifestation has its own Ethermagic cost and resolution; generic PF1 actions would invent unsupported rolls."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "9dfbbc6ec1e9d6d772c201f8df73312eb74eecd7d8c6e1d72c1bcca82e05c98b",
+      "reason": "The staff grants selectable manifestations rather than a persistent numeric actor modifier."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "9dfbbc6ec1e9d6d772c201f8df73312eb74eecd7d8c6e1d72c1bcca82e05c98b",
+      "reason": "Manifestation rules are item-use options rather than conditional modifiers to a native PF1 roll."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "9dfbbc6ec1e9d6d772c201f8df73312eb74eecd7d8c6e1d72c1bcca82e05c98b",
+      "reason": "PF1?s native charge counter records the etherstaff?s 10-charge maximum; recharge remains a deliberate manual adjustment after the source procedure."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "9dfbbc6ec1e9d6d772c201f8df73312eb74eecd7d8c6e1d72c1bcca82e05c98b",
+      "reason": "Stored manifestations are named in the complete description, but no reviewed canonical Ethermagic documents exist to link."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "9dfbbc6ec1e9d6d772c201f8df73312eb74eecd7d8c6e1d72c1bcca82e05c98b",
+      "reason": "The wondrous slotless profile, 89214 gp price, five-pound weight, CL 20, evocation aura, and 10-charge maximum are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "9dfbbc6ec1e9d6d772c201f8df73312eb74eecd7d8c6e1d72c1bcca82e05c98b",
+      "reason": "Manifestation actions and assisted recharge require a reviewed Ethermagic integration that is not currently declared."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "9dfbbc6ec1e9d6d772c201f8df73312eb74eecd7d8c6e1d72c1bcca82e05c98b",
+      "reason": "The reviewed compendium index contains no exact or normalized Etherstaff of the Modeling Enthusiast match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "9dfbbc6ec1e9d6d772c201f8df73312eb74eecd7d8c6e1d72c1bcca82e05c98b",
+      "reason": "The complete rules text, construction or cost details, and source link are retained."
     }
   }
 }

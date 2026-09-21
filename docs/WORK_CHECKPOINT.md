@@ -17,6 +17,19 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   PF1 type and physical fields, actions/uses, Changes and context notes, links,
   advanced settings, compatibility and artwork. Preserve stable IDs and record a
   concrete blocked reason instead of guessing unsupported mechanics.
+- Production cadence changed on 2026-09-21 after the seven small acceptance
+  slices proved too costly. `npm.cmd run plan:production -- --limit=20` now
+  selects unresolved-image entries and groups shared profiles. Authoring uses
+  targeted checks; one clean build, deployment, representative Foundry
+  acceptance, semantic audit, documentation update and CI cycle covers the
+  complete twenty-entry group. Entries with already reviewed art are not
+  reselected simply because later automation remains deferred.
+- The active twenty-entry plan covers Lightning Rod through Etherstaff of the
+  Modeling Enthusiast: one reuse decision, four planar power components, one
+  structure, one consumable, four related rings and nine etherstaves. The
+  etherstaves share the source-defined ten-charge capacity and recharge rules;
+  their individual manifestations and special actions still require exact
+  per-item notes and must not be guessed from a generic spell action.
 - The first two production slices review Catnip Hookah, Cider, Fruitcake (loaf
   of), Map, Tradewind, Meat Pie, Pastry, Sausage and Soup. All eight have
   original 256 px WebP icons in the readable

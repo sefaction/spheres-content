@@ -147,9 +147,9 @@
   "wiki:equipment:current:item:lightning-rod": {
     "pageSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
     "descriptionSha256": "33320d942f30b18465b845697fa87b3d325f66dc9392ddd339e6b6467bb415bb",
-    "reviewed": "2026-09-20",
-    "decision": "reject-matches",
-    "reason": "Both matches are supernatural class/talent powers, not the physical building lightning conductor.",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "The exact-name matches are unrelated supernatural abilities; retain the physical building conductor as original gear with generated art.",
     "candidates": [
       {
         "name": "Lightning Rod",
@@ -192,7 +192,13 @@
         "changes": 0,
         "contextNotes": 0
       }
-    ]
+    ],
+    "output": {
+      "file": "src/packs/items/equipment/lightning-rod-25df7236c113a21d.json",
+      "id": "25df7236c113a21d",
+      "type": "loot",
+      "sha256": "995497b5ee6ee04b7e3d6b06c9dc397a8a03fde215bbb2ca6464a32ce71abb6f"
+    }
   },
   "wiki:implements:ultimate:item:hidden-blade": {
     "pageSha256": "f43beedae4d13c401a55e4c9a04c8211105875d4d83394920f539ca12edf879b",
@@ -766,6 +772,272 @@
       "id": "7312577d2f2246b4",
       "type": "loot",
       "sha256": "b797e13c28e42d6240e14ef62a777b19eb9aeab1f187581cbf6f4a272077fd5c"
+    }
+  },
+  "wiki:equipment:current:item:living-mossrock": {
+    "pageSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
+    "descriptionSha256": "21e79074ed1c7dcd567bb0802a3bfb3c51b28f9564d4bad29f134b83b4a5ba74",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Living Mossrock as a reviewed native loot document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/equipment/living-mossrock-41ec42ec26106d0a.json",
+      "id": "41ec42ec26106d0a",
+      "type": "loot",
+      "sha256": "e2f5c5948f34d489ed38d21665b7c68fd9bd2d41015a74d7fd384eeb9c30e3be"
+    }
+  },
+  "wiki:equipment:current:item:lodestone-geode": {
+    "pageSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
+    "descriptionSha256": "72658feba6c23076faefb42f60bdfc52056db91ebc0f878f37123db461bf3764",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Lodestone Geode as a reviewed native loot document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/equipment/lodestone-geode-70df25670ce3e77e.json",
+      "id": "70df25670ce3e77e",
+      "type": "loot",
+      "sha256": "781ff52355a7df66b39a7ed551d63031c7aaf058a2f5d615d754bda9a54cf1a4"
+    }
+  },
+  "wiki:equipment:current:item:mother-pearlite": {
+    "pageSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
+    "descriptionSha256": "7d404bb60699eea94b428ca10c5d1f234153d7b15eddc09732d9479266b72a24",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Mother Pearlite as a reviewed native loot document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/equipment/mother-pearlite-551fc61ea1cc5eaa.json",
+      "id": "551fc61ea1cc5eaa",
+      "type": "loot",
+      "sha256": "41224d25c7dd35d069fc85bdcb950271d9ce48ad3e12fcc44ce97b518923e52c"
+    }
+  },
+  "wiki:equipment:current:item:storm-shelter": {
+    "pageSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
+    "descriptionSha256": "b8121d14ee4286123795fc07a2d03c46167ff5af6066d41d921520d4d8756ab8",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Storm Shelter as a reviewed native loot document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/equipment/storm-shelter-89bc8594a17835d1.json",
+      "id": "89bc8594a17835d1",
+      "type": "loot",
+      "sha256": "7d49bb4a6e972521891521043eeb79e70e599a30f3aac9b88d03a2529e8347fc"
+    }
+  },
+  "wiki:equipment:current:item:warding-agate": {
+    "pageSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
+    "descriptionSha256": "fe70b601809936b87f1a076bf06bde295bfa8b485f80b0c93ec7e5e7b8c3cc90",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Warding Agate as a reviewed native loot document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/equipment/warding-agate-9761efad036222ed.json",
+      "id": "9761efad036222ed",
+      "type": "loot",
+      "sha256": "9d93511b5d02936366e1fc43f0f2a04a7fc1ab7edfbc62e9f4a13ee8893b3275"
+    }
+  },
+  "wiki:ethermagic-items:current:item:alterations-bane": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "4826f34908db39512115438022d399b0642c37c0a83df3ffa95952d7f95b2aad",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Alteration’s Bane as a reviewed native consumable document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/alterations-bane-8220f70cc4c50b24.json",
+      "id": "8220f70cc4c50b24",
+      "type": "consumable",
+      "sha256": "c85bb94b2b5d2ef7bca0b4e1473c0e71e638e252c6a907d6cd83d1267574ebdf"
+    }
+  },
+  "wiki:ethermagic-items:current:item:band-of-grounded-realities": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "fcbdcdd00f526a7982395f75aae8e2cf31d5829ee7d24a0b7f0b3450cb47d087",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Band of Grounded Realities as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/band-of-grounded-realities-a8fe0a1b8657d900.json",
+      "id": "a8fe0a1b8657d900",
+      "type": "equipment",
+      "sha256": "f17247dba327df089a0a3d4cd904d5dabe3535629b621af9587ebd75093fdc77"
+    }
+  },
+  "wiki:ethermagic-items:current:item:band-of-overlapping-realities": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "18a8454b528850f1638dc0f5c5f8df01974363def157ab8bbd7862db88212d0f",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Band of Overlapping Realities as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/band-of-overlapping-realities-44f94bdd0322d5a9.json",
+      "id": "44f94bdd0322d5a9",
+      "type": "equipment",
+      "sha256": "e680891b30ac5e581125f90ba70ce81eba1c1d169b2d367cfee5acb12333a55f"
+    }
+  },
+  "wiki:ethermagic-items:current:item:band-of-shifting-realities": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "3cc88612999f10771bb046f5681b7f5232dc5af71cd133631c4bd1b008283327",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Band of Shifting Realities as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/band-of-shifting-realities-9186a4201e9f8403.json",
+      "id": "9186a4201e9f8403",
+      "type": "equipment",
+      "sha256": "9e702bf2746941db9f68385b6bee27efae8c06a479e7978000eba6d73d2b9bf9"
+    }
+  },
+  "wiki:ethermagic-items:current:item:band-of-transient-realities": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "58a153b4deb84ae9231f41feceefef68e6ed92a9b1481ea418517868737ee482",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Band of Transient Realities as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/band-of-transient-realities-a4394e9767b374a2.json",
+      "id": "a4394e9767b374a2",
+      "type": "equipment",
+      "sha256": "42ed181154b3f04406eaa37bb86952f600ac031c3e84c85c614c2449beaee6d7"
+    }
+  },
+  "wiki:ethermagic-items:current:item:apprentice-blastmages-etherstaff": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "89207ead09fa40a588c3369f6d934c2335c6245f53e0cf7878fc8ec0f77d8ea8",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Apprentice Blastmage’s Etherstaff as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/apprentice-blastmages-etherstaff-316e2b2174c6424c.json",
+      "id": "316e2b2174c6424c",
+      "type": "equipment",
+      "sha256": "e13417a909b7670c5fa999b652583064d26976174131de2b08351aa1630e6b2f"
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-armageddons-form": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "6bbcd551cfdd3703b24dddf987e01a6c7879cb716a9fac5c2914635b79770513",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Etherstaff of Armageddon’s Form as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/etherstaff-of-armageddons-form-2796be283c49d8d3.json",
+      "id": "2796be283c49d8d3",
+      "type": "equipment",
+      "sha256": "663707b4e825b80ff2bd56397abab497991e1d17269dfedf9d4ba30109963b5b"
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-mental-fixation": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "d53a9718ebdc0201f4c4e66061d05d0f60f888e3bdf921d48fbc84b706aa64e9",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Etherstaff of Mental Fixation as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/etherstaff-of-mental-fixation-083124ed838398cd.json",
+      "id": "083124ed838398cd",
+      "type": "equipment",
+      "sha256": "30b387b47dc5e79b291b34cd0787a7e610a3addf8090205d39b0aba7d0619b6a"
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-atomic-edge": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "1426ee1585017634cda6a9037a7233900aa40de689847988dc23776d2acb527e",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Etherstaff of the Atomic Edge as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/etherstaff-of-the-atomic-edge-ca803d0f0db1a59c.json",
+      "id": "ca803d0f0db1a59c",
+      "type": "equipment",
+      "sha256": "02dcf9132a9e41de65d3c78331f5d5ce63ef3fd465602e7a873a0daecd2489c2"
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-canine-cliche": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "70534f0e977c104925f2f846e35d267978e4de145f4b6db767b871daeb81a670",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Etherstaff of the Canine Cliché as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/etherstaff-of-the-canine-cliche-b59ab72dddb95ccd.json",
+      "id": "b59ab72dddb95ccd",
+      "type": "equipment",
+      "sha256": "c8874c7fec6501d5dc8a8d0a7cdce9433104012e5523928fae8ff2a4b7573a42"
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-cosmic-roar": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "94db9e507ec763baa8091bbe61f519f80c3c814f23892176c7ee7171a74bbdcc",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Etherstaff of the Cosmic Roar as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/etherstaff-of-the-cosmic-roar-64252cf35d235d26.json",
+      "id": "64252cf35d235d26",
+      "type": "equipment",
+      "sha256": "bbd9a473979a3e35eea7001ea3d6067dc50b5e08c2fa915bc7ac2753dbd9d071"
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-endless-congregation": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "b0729f25c3fd45a244ea091541ddff8234eb4ebfc4821f3adc435f3ba76e0d8d",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Etherstaff of the Endless Congregation as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/etherstaff-of-the-endless-congregation-48f30cf69c982586.json",
+      "id": "48f30cf69c982586",
+      "type": "equipment",
+      "sha256": "34d43aea9b44328d4e2e1ca838372aa504ce6df625c8455ade75f8ca88643688"
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-fetching-sphere": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "ad347f96594e4200fbb4437ceaec7f9ed35190dbb3ce3b996016caacf321bad7",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Etherstaff of the Fetching Sphere as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/etherstaff-of-the-fetching-sphere-5f5698399634e2ad.json",
+      "id": "5f5698399634e2ad",
+      "type": "equipment",
+      "sha256": "2b04567acd9276bfe8a8ca3aadf2bcbd055618c77fb5d84c5630968db01ea95d"
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-modeling-enthusiast": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "9dfbbc6ec1e9d6d772c201f8df73312eb74eecd7d8c6e1d72c1bcca82e05c98b",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Etherstaff of the Modeling Enthusiast as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/etherstaff-of-the-modeling-enthusiast-1700d3fcea743356.json",
+      "id": "1700d3fcea743356",
+      "type": "equipment",
+      "sha256": "ad63afc245270f83a64c13655ec29f36e2609c867d90f279c3c0a9e89b4be43e"
     }
   }
 }

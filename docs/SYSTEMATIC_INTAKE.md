@@ -9,6 +9,23 @@ Production order is physical items, feats, base classes and class features, then
 Guile talents. Guile remains in the catalog and audit tools, but bulk Guile review
 waits until the other collections have been worked through.
 
+## Production cadence
+
+Production review uses twenty-entry acceptance groups by default. Run
+`npm.cmd run plan:production -- --limit=20` to select the next entries whose
+image audit is still unresolved and group them by reusable modeling lane. A
+reviewed entry with deferred automation is not selected again merely because
+its production status remains pending.
+
+Within one group, resolve reuse candidates and shared native profiles first,
+then update canonical documents, compact artwork and every audit facet together.
+Use targeted tests while authoring. Run the complete clean verification,
+module-only deployment, representative Foundry sheet/behavior checks, remote
+semantic audit, documentation update and CI once at the end of the group. Split
+an entry out only when rights are unclear or its implementation would require a
+new schema or compatibility adapter; record the hold and continue the rest of
+the group.
+
 ## Repeatable workflow
 
 ```powershell
