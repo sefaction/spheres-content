@@ -23,10 +23,9 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   adventuring-gear folder. Cider and Fruitcake now use pinned single-use PF1
   consumable profiles; Catnip Hookah has a pinned one-minute action; the map has
   its source Tiny size and a pinned +5 Survival context note for exploration
-  checks. The hookah's supplement link is deferred until the batch's Catnip dose
-  entry is reviewed. The batch audit now reports eight implemented images and 92
-  remaining. Seven entries are complete; Catnip Hookah stays pending only until
-  its canonical Catnip supplement link can be added later in this batch.
+  checks. The hookah's supplement link was completed with the canonical Catnip
+  dose in the fifth slice. The batch audit at this point reported eight
+  implemented images and 92 remaining.
 - Meat Pie, Pastry, Sausage and Soup use pinned native single-use miscellaneous
   consumable profiles. Their four distinct icons share one consistently styled
   source contact sheet, with each crop and WebP encoding recorded separately.
@@ -70,6 +69,23 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
 - Sixteen entries have now been reviewed. Ten are complete; the four Akashic
   items remain pending for the compatibility work above, alongside Catnip Hookah
   and Sleeping Box. The batch reports 16 implemented images and 84 remaining.
+- The fifth production slice reviews Arcanis Venenum, Black Powder (20 doses),
+  Catnip and Ethanol. Arcanis is a native single-use poison with a pinned
+  Fortitude DC 17 action; its recurring rolled caster-level drain remains
+  descriptive because neither PF1 nor pf1spheres provides one safe actor-wide
+  Change for spells and all spheres. Catnip is a native single-use drug with a
+  pinned Fortitude DC 10 action; its ten-minute bonuses and later 1d3-hour fatigue
+  remain descriptive pending a two-stage buff design. Black Powder uses 20 native
+  charges at 10 gp each and adapts PF1 11.11's reviewed material identity and core
+  art. Ethanol uses a native single-use fuel action without inventing a duration.
+- PF1 11.11 source at commit `418761d2e16a6037c0156bb4a241f7cea5a2986d`
+  confirms that supplement links on unowned compendium documents import the
+  supplement and create the actor-side child relationship. Catnip Hookah now
+  links to the canonical Catnip UUID, and catalog validation rejects unresolved
+  module supplement UUIDs or name drift. Twenty entries are reviewed and thirteen
+  are complete. Sleeping Box, Arcanis Venenum, Catnip and the four Akashic items
+  retain explicit deferred work. The batch reports 20 implemented images and 80
+  remaining; the reuse ledger contains 30 decisions.
 - Clean correction commit `dd68c2885ccc782a9694e266f1453a61fb7ec64c`
   passed formatting, all 32 tests, source/reference validation and two identical
   697-file builds. Atomic deployment verified exact installed bytes, pruned the

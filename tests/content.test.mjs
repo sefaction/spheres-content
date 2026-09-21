@@ -5,6 +5,7 @@ import {
   validateEntity,
   validateContentCatalog,
   validateProductionBatches,
+  validateSupplementLinks,
   containerTotals,
 } from "../scripts/content.mjs";
 
@@ -322,4 +323,74 @@ test("reviewed Akashic wondrous items preserve native magic fields without globa
   const ring = byId.get("1025cb3f8fc1661f");
   assert.equal(ring.system.actions[0].name, "Designate Title Veil");
   assert.equal(ring.system.actions[0].activation.type, "free");
+});
+
+test("reviewed alchemical items preserve PF1 consumable profiles and the Hookah supplement link", async () => {
+  const { docs } = await validateContentCatalog();
+  const byId = new Map(docs.map(({ doc }) => [doc._id, doc]));
+  const arcanis = byId.get("22090041e723f52f");
+  const blackPowder = byId.get("333c4e288cf41817");
+  const catnip = byId.get("0b214a71536b15c7");
+  const ethanol = byId.get("12f207bbdd808dd8");
+  const hookah = byId.get("4c8fdb68ad45fb2f");
+
+  assert.equal(arcanis.type, "consumable");
+  assert.equal(arcanis.system.subType, "poison");
+  assert.equal(arcanis.system.uses.per, "single");
+  assert.equal(arcanis.system.actions[0].actionType, "save");
+  assert.deepEqual(arcanis.system.actions[0].save, {
+    dc: "17",
+    type: "fort",
+  });
+  assert.match(
+    arcanis.system.actions[0].notes.effect[0],
+    /1\/round for 6 rounds/,
+  );
+
+  assert.equal(blackPowder.system.subType, "misc");
+  assert.equal(blackPowder.system.uses.per, "charges");
+  assert.equal(blackPowder.system.uses.value, 20);
+  assert.equal(blackPowder.system.uses.maxFormula, "20");
+  assert.equal(blackPowder.system.uses.pricePerUse, 10);
+  assert.equal(blackPowder.system.actions[0].name, "Use Dose");
+  assert.equal(
+    blackPowder.img,
+    "icons/commodities/materials/powder-black.webp",
+  );
+  assert.equal(
+    blackPowder.flags["additional-spheres-content"].reuse.sourceUuid,
+    "Compendium.pf1.items.Item.trucdntfxjdukrox",
+  );
+
+  assert.equal(catnip.system.subType, "drug");
+  assert.equal(catnip.system.uses.per, "single");
+  assert.equal(catnip.system.actions[0].actionType, "save");
+  assert.deepEqual(catnip.system.actions[0].save, {
+    dc: "10",
+    type: "fort",
+  });
+  assert.equal(catnip.system.actions[0].notes.effect.length, 3);
+
+  assert.equal(ethanol.system.subType, "misc");
+  assert.equal(ethanol.system.uses.per, "single");
+  assert.equal(ethanol.system.actions[0].name, "Use as Fuel");
+
+  for (const item of [arcanis, blackPowder, catnip, ethanol]) {
+    assert.deepEqual(item.system.changes, []);
+    assert.deepEqual(item.system.contextNotes, []);
+  }
+
+  assert.deepEqual(hookah.system.links.supplements, [
+    {
+      name: "Catnip",
+      uuid: "Compendium.additional-spheres-content.items.Item.0b214a71536b15c7",
+    },
+  ]);
+
+  const broken = structuredClone(docs);
+  broken.find(
+    ({ doc }) => doc._id === hookah._id,
+  ).doc.system.links.supplements[0].uuid =
+    "Compendium.additional-spheres-content.items.Item.0000000000000000";
+  assert.throws(() => validateSupplementLinks(broken), /Unresolved/);
 });

@@ -223,7 +223,7 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
   } else {
     if (doc.type === "loot") assert.equal(s.subType, "gear");
     if (doc.type === "consumable") {
-      assert(["misc", "potion"].includes(s.subType));
+      assert(["misc", "potion", "poison", "drug"].includes(s.subType));
       if (meta.nativeProfile === "trail-rations") {
         assert.equal(s.subType, "misc");
         assert.equal(s.equipped, true);
@@ -428,6 +428,23 @@ export function validateProductionBatches(inventory, docs) {
   }
 }
 
+export function validateSupplementLinks(docs) {
+  const known = new Map(
+    docs.map(({ pack, doc }) => [
+      `Compendium.${moduleId}.${pack}.Item.${doc._id}`,
+      doc,
+    ]),
+  );
+  for (const { doc } of docs) {
+    for (const link of doc.system.links?.supplements ?? []) {
+      assert.equal(typeof link.name, "string", "Supplement link needs a name");
+      const target = known.get(link.uuid);
+      assert(target, "Unresolved module supplement UUID");
+      assert.equal(link.name, target.name, "Supplement link name changed");
+    }
+  }
+}
+
 export async function validateContentCatalog() {
   const catalog = await json("config/content.json");
   const manifest = await json("module.json");
@@ -597,6 +614,7 @@ export async function validateContentCatalog() {
     registeredFiles.sort(),
     "Unregistered pack source",
   );
+  validateSupplementLinks(docs);
   validateProductionBatches(productionBatches, docs);
   return { catalog, docs };
 }

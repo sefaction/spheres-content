@@ -119,9 +119,9 @@
       "reason": "The hookah is reusable and consumes a separate dose of catnip rather than its own charges."
     },
     "links": {
-      "state": "deferred",
+      "state": "implemented",
       "sourceSha256": "d0644e73735b1ed8deb29da1622d8d8520e4d5414faf241e0926cc3dbe8f79b9",
-      "reason": "The canonical Catnip dose is entry 19 in this production batch; add and test the supplement link after that consumable is reviewed."
+      "reason": "A native PF1 supplement link imports the reviewed canonical Catnip dose with the hookah and establishes the actor-side child relationship."
     },
     "advanced": {
       "state": "implemented",
@@ -922,6 +922,214 @@
       "state": "implemented",
       "sourceSha256": "04b4121fe93e3cf0fde79b2b306f1b95cbf28c52f57972773920f958aeb91add",
       "reason": "The complete gifted-owner restriction, automatic feather fall, essence-scaled flight, construction data and source are retained."
+    }
+  },
+  "wiki:alchemical-items:current:item:arcanis-venenum": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "64611d7de3740f2fde8c7f951430c26a0a06cc48b9f12ade6873d3e92f9e07b7",
+      "reason": "Original generated 256 px WebP depicts the rust-colored oily ingested poison and is registered with source and encoding hashes."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "64611d7de3740f2fde8c7f951430c26a0a06cc48b9f12ade6873d3e92f9e07b7",
+      "reason": "A pinned native poison action records the Fortitude DC 17 save, six-round frequency, two-save cure and rolled caster-level drain."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "64611d7de3740f2fde8c7f951430c26a0a06cc48b9f12ade6873d3e92f9e07b7",
+      "reason": "The recurring 1d6 caster-level drain affects spells and every sphere, can reduce casting to zero and has special recovery rules. A static Change cannot represent the rolled affliction or its recovery safely."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "64611d7de3740f2fde8c7f951430c26a0a06cc48b9f12ade6873d3e92f9e07b7",
+      "reason": "The poison modifies caster level rather than a supported roll context; its save and effect are recorded on the action."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "64611d7de3740f2fde8c7f951430c26a0a06cc48b9f12ade6873d3e92f9e07b7",
+      "reason": "One purchased dose uses PF1's native Single Use consumable setting."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "64611d7de3740f2fde8c7f951430c26a0a06cc48b9f12ade6873d3e92f9e07b7",
+      "reason": "The Life-sphere recovery references are rules interactions rather than fixed granted documents."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "64611d7de3740f2fde8c7f951430c26a0a06cc48b9f12ade6873d3e92f9e07b7",
+      "reason": "Price, zero weight, Poison subtype, ingested delivery and Fortitude DC 17 were reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "64611d7de3740f2fde8c7f951430c26a0a06cc48b9f12ade6873d3e92f9e07b7",
+      "reason": "PF1 and pf1spheres expose individual caster-level targets but no single actor-wide rolled drain that covers spells and every sphere and can suppress all casting at zero."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "64611d7de3740f2fde8c7f951430c26a0a06cc48b9f12ade6873d3e92f9e07b7",
+      "reason": "The compendium index contains no exact or normalized Arcanis Venenum match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "64611d7de3740f2fde8c7f951430c26a0a06cc48b9f12ade6873d3e92f9e07b7",
+      "reason": "The complete appearance, hot-liquid exception, caster-level drain, recovery, poison statistics, recipe and source are retained."
+    }
+  },
+  "wiki:alchemical-items:current:item:black-powder-20-doses": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "689dcfe8e205f619749bdc97f25f4816d90c325e81d43e178fbdcad0b77cfc7f",
+      "reason": "PF1 11.11's inspected black-powder material icon is referenced without redistributing its bytes."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "689dcfe8e205f619749bdc97f25f4816d90c325e81d43e178fbdcad0b77cfc7f",
+      "reason": "A pinned non-action Use Dose action provides native charge consumption without inventing a firing or explosion effect."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "689dcfe8e205f619749bdc97f25f4816d90c325e81d43e178fbdcad0b77cfc7f",
+      "reason": "The powder grants no passive actor modifier."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "689dcfe8e205f619749bdc97f25f4816d90c325e81d43e178fbdcad0b77cfc7f",
+      "reason": "The source specifies fuel and crafting use rather than a conditional roll modifier."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "689dcfe8e205f619749bdc97f25f4816d90c325e81d43e178fbdcad0b77cfc7f",
+      "reason": "The native Charges setting records 20 doses at 10 gp per use, matching the 200 gp batch."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "689dcfe8e205f619749bdc97f25f4816d90c325e81d43e178fbdcad0b77cfc7f",
+      "reason": "Two powder horns describe capacity, not included child items."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "689dcfe8e205f619749bdc97f25f4816d90c325e81d43e178fbdcad0b77cfc7f",
+      "reason": "Price, one-pound weight, miscellaneous consumable subtype and per-use value were reviewed."
+    },
+    "compatibility": {
+      "state": "not-applicable",
+      "sourceSha256": "689dcfe8e205f619749bdc97f25f4816d90c325e81d43e178fbdcad0b77cfc7f",
+      "reason": "No Spheres-specific integration field is required."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "689dcfe8e205f619749bdc97f25f4816d90c325e81d43e178fbdcad0b77cfc7f",
+      "reason": "PF1 11.11's Black powder (dose) record was reviewed and adapted to the wiki's 20-dose price, weight, recipe and charge count."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "689dcfe8e205f619749bdc97f25f4816d90c325e81d43e178fbdcad0b77cfc7f",
+      "reason": "The complete reagent, firearm, explosive, recipe, yield and source text are retained."
+    }
+  },
+  "wiki:alchemical-items:current:item:catnip": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "cfbdaf719fc7e51eaedd234a9d25be87060fdf7bbf03035e92dcddaf35a3ea8a",
+      "reason": "Original generated 256 px WebP depicts a measured bundle and packet of catmint and is registered with source and encoding hashes."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "cfbdaf719fc7e51eaedd234a9d25be87060fdf7bbf03035e92dcddaf35a3ea8a",
+      "reason": "A pinned native drug action records the Fortitude DC 10 addiction save, initial bonuses, delayed fatigue and immunity window."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "cfbdaf719fc7e51eaedd234a9d25be87060fdf7bbf03035e92dcddaf35a3ea8a",
+      "reason": "The dose is consumed immediately, while its bonuses last 10 minutes and then transition to fatigue for 1d3 hours. Static Changes on the disappearing dose cannot model either timed phase."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "cfbdaf719fc7e51eaedd234a9d25be87060fdf7bbf03035e92dcddaf35a3ea8a",
+      "reason": "Notes on the consumed dose would disappear and cannot represent the delayed fatigue phase; the exact effects remain pinned on the action pending a two-stage buff design."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "cfbdaf719fc7e51eaedd234a9d25be87060fdf7bbf03035e92dcddaf35a3ea8a",
+      "reason": "One dose uses PF1's native Single Use consumable setting."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "cfbdaf719fc7e51eaedd234a9d25be87060fdf7bbf03035e92dcddaf35a3ea8a",
+      "reason": "The dose grants no fixed child document; Catnip Hookah links to this item as its supplement."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "cfbdaf719fc7e51eaedd234a9d25be87060fdf7bbf03035e92dcddaf35a3ea8a",
+      "reason": "Price, zero weight, Drug subtype, ingested delivery and Fortitude DC 10 were reviewed."
+    },
+    "compatibility": {
+      "state": "not-applicable",
+      "sourceSha256": "cfbdaf719fc7e51eaedd234a9d25be87060fdf7bbf03035e92dcddaf35a3ea8a",
+      "reason": "No Spheres-specific integration field is required."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "cfbdaf719fc7e51eaedd234a9d25be87060fdf7bbf03035e92dcddaf35a3ea8a",
+      "reason": "The compendium index contains no exact or normalized Catnip match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "cfbdaf719fc7e51eaedd234a9d25be87060fdf7bbf03035e92dcddaf35a3ea8a",
+      "reason": "The complete plant, addiction, initial and secondary effects, exclusion, refining rules and source are retained."
+    }
+  },
+  "wiki:alchemical-items:current:item:ethanol": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "ef9d3e9dfc42f69b113abfe9d7cce5cd7e2138a1a4b3975ce8dcf266e6a60d47",
+      "reason": "Original generated 256 px WebP depicts clear laboratory ethanol with a restrained flame reflection and is registered with source and encoding hashes."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "ef9d3e9dfc42f69b113abfe9d7cce5cd7e2138a1a4b3975ce8dcf266e6a60d47",
+      "reason": "A pinned non-action Use as Fuel action provides native single-use inventory handling without inventing a burn duration."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "ef9d3e9dfc42f69b113abfe9d7cce5cd7e2138a1a4b3975ce8dcf266e6a60d47",
+      "reason": "The fuel grants no passive actor modifier."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "ef9d3e9dfc42f69b113abfe9d7cce5cd7e2138a1a4b3975ce8dcf266e6a60d47",
+      "reason": "The source specifies propellant and lantern-fuel use rather than a conditional roll modifier."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "ef9d3e9dfc42f69b113abfe9d7cce5cd7e2138a1a4b3975ce8dcf266e6a60d47",
+      "reason": "One purchased unit uses PF1's native Single Use consumable setting."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "ef9d3e9dfc42f69b113abfe9d7cce5cd7e2138a1a4b3975ce8dcf266e6a60d47",
+      "reason": "No fixed child, supplement or charge-source document is granted."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "ef9d3e9dfc42f69b113abfe9d7cce5cd7e2138a1a4b3975ce8dcf266e6a60d47",
+      "reason": "Price, one-pound weight, miscellaneous consumable subtype and single-use profile were reviewed."
+    },
+    "compatibility": {
+      "state": "not-applicable",
+      "sourceSha256": "ef9d3e9dfc42f69b113abfe9d7cce5cd7e2138a1a4b3975ce8dcf266e6a60d47",
+      "reason": "No Spheres-specific integration field is required."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "ef9d3e9dfc42f69b113abfe9d7cce5cd7e2138a1a4b3975ce8dcf266e6a60d47",
+      "reason": "The compendium index contains no exact or normalized Ethanol match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "ef9d3e9dfc42f69b113abfe9d7cce5cd7e2138a1a4b3975ce8dcf266e6a60d47",
+      "reason": "The complete flammability, propellant, lantern-fuel, recipe and source text are retained."
     }
   }
 }

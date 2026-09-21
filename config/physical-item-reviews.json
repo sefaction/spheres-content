@@ -464,7 +464,13 @@
     "reviewed": "2026-09-20",
     "decision": "original",
     "reason": "No exact or normalized-name compendium match exists. Keep the wiki gear profile, add its one-minute action, and use original generated art.",
-    "candidates": []
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/adventuring-gear/catnip-hookah-4c8fdb68ad45fb2f.json",
+      "id": "4c8fdb68ad45fb2f",
+      "type": "loot",
+      "sha256": "47b70471a590993aae8b680a26b91f79d52f997b351ceeffc4fca2a5c9f3c486"
+    }
   },
   "wiki:adventuring-gear:current:item:cider": {
     "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
@@ -598,5 +604,84 @@
     "decision": "original",
     "reason": "No exact or normalized-name compendium match exists. Retain the gifted-owner restriction, automatic feather fall, and essence-scaled flight rules with original generated art.",
     "candidates": []
+  },
+  "wiki:alchemical-items:current:item:arcanis-venenum": {
+    "pageSha256": "d6829196fa853eb27d6cbeb4f5c15e5cc5af7f2c6855cf328dc3f5154b24af9c",
+    "descriptionSha256": "64611d7de3740f2fde8c7f951430c26a0a06cc48b9f12ade6873d3e92f9e07b7",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain the ingested poison profile, recurring caster-level drain and recovery rules with a native save action and original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/alchemical-items/arcanis-venenum-22090041e723f52f.json",
+      "id": "22090041e723f52f",
+      "type": "consumable",
+      "sha256": "78c6bfafc229789c097230d17be07e3018311415c68c47425b310f70ab0d7b75"
+    }
+  },
+  "wiki:alchemical-items:current:item:black-powder-20-doses": {
+    "pageSha256": "d6829196fa853eb27d6cbeb4f5c15e5cc5af7f2c6855cf328dc3f5154b24af9c",
+    "descriptionSha256": "689dcfe8e205f619749bdc97f25f4816d90c325e81d43e178fbdcad0b77cfc7f",
+    "reviewed": "2026-09-20",
+    "decision": "adapt",
+    "reason": "Adapt PF1 11.11's reviewed Black powder (dose) material record and inspected core art to the wiki's 20-dose, 200 gp, one-pound batch with native charges and the complete recipe text.",
+    "candidates": [
+      {
+        "name": "Black powder (dose)",
+        "uuid": "Compendium.pf1.items.Item.trucdntfxjdukrox",
+        "provider": "pf1",
+        "version": "11.11",
+        "sha256": "efe46f11408a4913c3fff8999ed62f6f6d8d0dbc678a79b8ba5c8ade1a00bfc3",
+        "type": "loot",
+        "decision": "adapt",
+        "reason": "Reuse the native material identity and suitable core artwork while preserving the wiki's batch quantity, weight, price and alchemical recipe.",
+        "descriptionFields": {
+          "value": 555,
+          "instructions": 0,
+          "unidentified": 0
+        },
+        "price": 10,
+        "weight": 0,
+        "img": "icons/commodities/materials/powder-black.webp",
+        "actions": 0,
+        "changes": 0,
+        "contextNotes": 0
+      }
+    ],
+    "output": {
+      "file": "src/packs/items/alchemical-items/black-powder-20-doses-333c4e288cf41817.json",
+      "id": "333c4e288cf41817",
+      "type": "consumable",
+      "sha256": "71b6e4102736fce0d5c5fa5ce828255c4a7a3f1a131b27f65769f34ae0e89689",
+      "sourceUuid": "Compendium.pf1.items.Item.trucdntfxjdukrox"
+    }
+  },
+  "wiki:alchemical-items:current:item:catnip": {
+    "pageSha256": "d6829196fa853eb27d6cbeb4f5c15e5cc5af7f2c6855cf328dc3f5154b24af9c",
+    "descriptionSha256": "cfbdaf719fc7e51eaedd234a9d25be87060fdf7bbf03035e92dcddaf35a3ea8a",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain the drug profile, addiction save, timed bonuses, delayed fatigue and refining rules with a native action and original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/alchemical-items/catnip-0b214a71536b15c7.json",
+      "id": "0b214a71536b15c7",
+      "type": "consumable",
+      "sha256": "e9120bc4c4eb1f5d57c1e5a2ecb6608efec8511735cc9163a6c9e319dbeabca1"
+    }
+  },
+  "wiki:alchemical-items:current:item:ethanol": {
+    "pageSha256": "d6829196fa853eb27d6cbeb4f5c15e5cc5af7f2c6855cf328dc3f5154b24af9c",
+    "descriptionSha256": "ef9d3e9dfc42f69b113abfe9d7cce5cd7e2138a1a4b3975ce8dcf266e6a60d47",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain the propellant, lantern-fuel and recipe text with native single-use handling and original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/alchemical-items/ethanol-12f207bbdd808dd8.json",
+      "id": "12f207bbdd808dd8",
+      "type": "consumable",
+      "sha256": "81bc294ef6b73e78fd5c42b5ac173363b01a058112801896d5a7063197642b56"
+    }
   }
 }
