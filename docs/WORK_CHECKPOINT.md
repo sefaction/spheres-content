@@ -104,6 +104,33 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   scoped server logs contain the five expected ASC pack connections and no
   warning or error. The world is back in Setup, and the final semantic audit
   matched all 6,788 deployed documents to canonical sources at route `/auth`.
+- The sixth production slice reviews Fish Liver Grog, Kuoki and Liquid Life.
+  All three use native single-use consumable profiles with pinned standard-action
+  Drink actions and original 256 px WebP art under `items/alchemical-items`.
+  Fish Liver Grog is a miscellaneous remedy; Kuoki and Liquid Life are drugs.
+  Their reviewed action notes preserve the delayed base-Life-sphere restore and
+  2d6-round nausea, one-hour Spirit Sense, and 3d6 temporary hit points capped
+  by current damage plus fatigue removal and one-hour expiry, respectively.
+  Static Changes would misrepresent these timed, capped and stateful effects, so
+  their automation/compatibility audits remain explicitly deferred. No permanent
+  talent or ability is linked to an actor for a temporary consumable effect.
+- Twenty-three batch entries are reviewed and thirteen are complete. These three
+  remain pending only for the deferred automation above. The batch now has 23
+  implemented images and 77 remaining. The physical reuse report records 32
+  current reviewed decisions, one unrelated stale decision and one unavailable
+  provider pack; none of these three items had an exact or normalized candidate.
+- Implementation commit `537c5265dc678dcf28af29bf635737695572b5ff`
+  passed formatting, all 33 tests, source/reference validation and two identical
+  703-file clean builds; ZIP SHA-256 is
+  `2f798b9894da2cbd2357ba80bde7062381387f8d7cc7ee19d742b6e3a5c70d69`.
+  Atomic deployment verified exact installed bytes, pruned the oldest eligible
+  module backup and retained ten without a restart. Foundry 13.351 / PF1 11.11
+  opened all three sheets with their correct art, prices, complete descriptions,
+  subtypes, Drink actions and Single Use setting. Browser-controlled document
+  dragging again produced no transfer, so no new actor-use result is claimed.
+  The scoped server log shows all five ASC pack connections and no matching
+  warning, error or exception. The world is back in Setup and the final semantic
+  audit matched all 6,788 installed documents to canonical sources at `/auth`.
 - Clean correction commit `dd68c2885ccc782a9694e266f1453a61fb7ec64c`
   passed formatting, all 32 tests, source/reference validation and two identical
   697-file builds. Atomic deployment verified exact installed bytes, pruned the
