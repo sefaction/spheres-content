@@ -47,6 +47,19 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   temporary-hit-point activation support. The batch reports 12 implemented
   images and 88 remaining; three new original icons are under the readable
   `items/adventuring-gear` folder and Whiskey uses reviewed core art.
+- Commit `affb2f575e683121e31259ee02e21eac9f3b978d` passed all 31 tests,
+  source/reference validation and two identical 693-file clean builds. Atomic
+  deployment verified installed bytes, removed the oldest eligible backup and
+  retained ten. The remote semantic audit matched all 6,788 documents to the
+  canonical sources at route `/auth`.
+- Foundry 13.351 / PF1 11.11 UI acceptance opened all four third-slice sheets.
+  Their types, physical fields, complete descriptions and three module WebPs plus
+  the core goblet reference rendered correctly. Eventide exposes its pinned
+  Change Weather Configuration action and all-saving-throws context note;
+  Whiskey exposes its pinned Use action and single-use miscellaneous consumable
+  fields. Browser errors are empty. Existing PF1 and pf1spheres v13 deprecation
+  warnings remain. The dedicated world is back in Setup. Actor drag/use checks
+  for the grouped food and conditional-gear slices remain pending.
 - The production manifest allows reviewed PF1 type corrections while continuing
   to pin identity, source key, path, edition and description hash. Batch-aware
   audit queries and context-note hash validation have tests.
