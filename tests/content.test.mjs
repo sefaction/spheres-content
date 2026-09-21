@@ -449,3 +449,47 @@ test("reviewed alchemical items preserve PF1 consumable profiles and the Hookah 
     "Compendium.additional-spheres-content.items.Item.0000000000000000";
   assert.throws(() => validateSupplementLinks(broken), /Unresolved/);
 });
+
+test("reviewed planar power components preserve dose and focus rules without global modifiers", async () => {
+  const { docs } = await validateContentCatalog();
+  const byId = new Map(docs.map(({ doc }) => [doc._id, doc]));
+  const expected = [
+    [
+      "76bd3b56ee90b98f",
+      60,
+      "brimstone-briquette.webp",
+      /increase the burning damage dealt each round/i,
+    ],
+    [
+      "95cc514580cfdf9c",
+      75,
+      "inversion-prism.webp",
+      /dark or light descriptor/i,
+    ],
+    [
+      "7312577d2f2246b4",
+      100,
+      "iridium-jellenate.webp",
+      /increase the hardness of each created object/i,
+    ],
+  ];
+
+  for (const [id, price, imageName, rule] of expected) {
+    const item = byId.get(id);
+    assert.equal(item.type, "loot");
+    assert.equal(item.system.subType, "gear");
+    assert.equal(item.system.price, price);
+    assert.equal(item.system.weight.value, 0);
+    assert.equal(item.system.uses.per, "");
+    assert.deepEqual(item.system.actions, []);
+    assert.deepEqual(item.system.changes, []);
+    assert.deepEqual(item.system.contextNotes, []);
+    assert.match(item.system.description.value, /<strong>Doses<\/strong> 1/);
+    assert.match(item.system.description.value, /<strong>Focus<\/strong>/);
+    assert.match(item.system.description.value, rule);
+    assert.equal(
+      item.img,
+      `modules/additional-spheres-content/icons/items/equipment/${imageName}`,
+    );
+  }
+});

@@ -1287,5 +1287,161 @@
       "sourceSha256": "21324f21042e066484c8b2655177e819b54b44b3f9a776ba7897fd96df45f847",
       "reason": "The complete temporary-hit-point cap, fatigue removal, duration, recipe, crafting and source text are retained."
     }
+  },
+  "wiki:equipment:current:item:brimstone-briquette": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "268e1e125c7fcb288bfb9ea19e3353101c4a8bedcc2fac20f75e6b75d53cd5d2",
+      "reason": "Original generated 256 px WebP depicts a compact infernal ember-stone briquette and is registered with source and encoding hashes."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "268e1e125c7fcb288bfb9ea19e3353101c4a8bedcc2fac20f75e6b75d53cd5d2",
+      "reason": "The component modifies a qualifying spell or sphere effect during that effect's own activation; it has no separate item action."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "268e1e125c7fcb288bfb9ea19e3353101c4a8bedcc2fac20f75e6b75d53cd5d2",
+      "reason": "A global damage or save Change would affect attacks that do not cause ongoing burning; automation needs a qualifying-effect adapter."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "268e1e125c7fcb288bfb9ea19e3353101c4a8bedcc2fac20f75e6b75d53cd5d2",
+      "reason": "PF1 context-note targets do not isolate burning damage per round and the Reflex DC to extinguish flames for one qualifying spell or sphere effect."
+    },
+    "usage": {
+      "state": "deferred",
+      "sourceSha256": "268e1e125c7fcb288bfb9ea19e3353101c4a8bedcc2fac20f75e6b75d53cd5d2",
+      "reason": "One 60 gp unit can be consumed as a dose, while ten units form a reusable 600 gp focus; forcing Single Use would destroy a focus incorrectly."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "268e1e125c7fcb288bfb9ea19e3353101c4a8bedcc2fac20f75e6b75d53cd5d2",
+      "reason": "The component has no fixed child, supplement or charge-source document."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "268e1e125c7fcb288bfb9ea19e3353101c4a8bedcc2fac20f75e6b75d53cd5d2",
+      "reason": "The native gear profile, 60 gp single-dose price and negligible weight are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "268e1e125c7fcb288bfb9ea19e3353101c4a8bedcc2fac20f75e6b75d53cd5d2",
+      "reason": "Automatic application needs reviewed PF1 spell and pf1spheres effect hooks that identify ongoing burning effects."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "268e1e125c7fcb288bfb9ea19e3353101c4a8bedcc2fac20f75e6b75d53cd5d2",
+      "reason": "The reviewed compendium index contains no exact or normalized Brimstone Briquette match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "268e1e125c7fcb288bfb9ea19e3353101c4a8bedcc2fac20f75e6b75d53cd5d2",
+      "reason": "The complete dose, focus, qualifying-effect, burning-damage, extinguish-save and source text are retained."
+    }
+  },
+  "wiki:equipment:current:item:inversion-prism": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "2c30ff3208352f462daab5ccd5cfd8ad1be74876ad4e65d2d4a10ef92ee8708c",
+      "reason": "Original generated 256 px WebP depicts a light-emitting and light-absorbing planar prism and is registered with source and encoding hashes."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "2c30ff3208352f462daab5ccd5cfd8ad1be74876ad4e65d2d4a10ef92ee8708c",
+      "reason": "The component modifies a qualifying spell or sphere effect during that effect's own activation; it has no separate item action."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "2c30ff3208352f462daab5ccd5cfd8ad1be74876ad4e65d2d4a10ef92ee8708c",
+      "reason": "A global save-DC Change would affect effects without the dark or light descriptor; automation needs a qualifying-effect adapter."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "2c30ff3208352f462daab5ccd5cfd8ad1be74876ad4e65d2d4a10ef92ee8708c",
+      "reason": "PF1 context-note targets do not isolate saving throws produced by one dark- or light-descriptor spell or sphere effect."
+    },
+    "usage": {
+      "state": "deferred",
+      "sourceSha256": "2c30ff3208352f462daab5ccd5cfd8ad1be74876ad4e65d2d4a10ef92ee8708c",
+      "reason": "One 75 gp unit can be consumed as a dose, while thirty units form a reusable 2,250 gp focus; forcing Single Use would destroy a focus incorrectly."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "2c30ff3208352f462daab5ccd5cfd8ad1be74876ad4e65d2d4a10ef92ee8708c",
+      "reason": "The component has no fixed child, supplement or charge-source document."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "2c30ff3208352f462daab5ccd5cfd8ad1be74876ad4e65d2d4a10ef92ee8708c",
+      "reason": "The native gear profile, 75 gp single-dose price and negligible weight are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "2c30ff3208352f462daab5ccd5cfd8ad1be74876ad4e65d2d4a10ef92ee8708c",
+      "reason": "Automatic application needs reviewed PF1 spell and pf1spheres effect hooks that expose dark and light descriptors."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "2c30ff3208352f462daab5ccd5cfd8ad1be74876ad4e65d2d4a10ef92ee8708c",
+      "reason": "The reviewed compendium index contains no exact or normalized Inversion Prism match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "2c30ff3208352f462daab5ccd5cfd8ad1be74876ad4e65d2d4a10ef92ee8708c",
+      "reason": "The complete dose, focus, descriptor restriction, saving-throw DC bonus and source text are retained."
+    }
+  },
+  "wiki:equipment:current:item:iridium-jellenate": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "674f8aa23fef566f4f81818b768d65e36b0b4f8850297294921a7fd95993bd7f",
+      "reason": "Original generated 256 px WebP depicts dense partially hardened iridescent metal-gel and is registered with source and encoding hashes."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "674f8aa23fef566f4f81818b768d65e36b0b4f8850297294921a7fd95993bd7f",
+      "reason": "The component modifies a qualifying spell or sphere effect during that effect's own activation; it has no separate item action."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "674f8aa23fef566f4f81818b768d65e36b0b4f8850297294921a7fd95993bd7f",
+      "reason": "A global hardness Change would modify existing actor equipment rather than only objects created by a qualifying effect."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "674f8aa23fef566f4f81818b768d65e36b0b4f8850297294921a7fd95993bd7f",
+      "reason": "PF1 context-note targets do not attach +1 hardness to each object created by one spell or sphere effect."
+    },
+    "usage": {
+      "state": "deferred",
+      "sourceSha256": "674f8aa23fef566f4f81818b768d65e36b0b4f8850297294921a7fd95993bd7f",
+      "reason": "One 100 gp unit can be consumed as a dose, while ten units form a reusable 1,000 gp focus; forcing Single Use would destroy a focus incorrectly."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "674f8aa23fef566f4f81818b768d65e36b0b4f8850297294921a7fd95993bd7f",
+      "reason": "The component has no fixed child, supplement or charge-source document."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "674f8aa23fef566f4f81818b768d65e36b0b4f8850297294921a7fd95993bd7f",
+      "reason": "The native gear profile, 100 gp single-dose price and negligible weight are reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "674f8aa23fef566f4f81818b768d65e36b0b4f8850297294921a7fd95993bd7f",
+      "reason": "Automatic application needs reviewed PF1 spell and pf1spheres creation-effect hooks that expose the created objects."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "674f8aa23fef566f4f81818b768d65e36b0b4f8850297294921a7fd95993bd7f",
+      "reason": "The reviewed compendium index contains no exact or normalized Iridium Jellenate match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "674f8aa23fef566f4f81818b768d65e36b0b4f8850297294921a7fd95993bd7f",
+      "reason": "The complete dose, focus, created-object restriction, hardness bonus, qualifying examples and source text are retained."
+    }
   }
 }
