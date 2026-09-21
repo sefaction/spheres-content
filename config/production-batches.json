@@ -1,0 +1,1016 @@
+{
+  "version": 1,
+  "batches": {
+    "physical-items-batch-1": {
+      "issue": 15,
+      "status": "active",
+      "collection": "items",
+      "edition": "current",
+      "expectedCount": 100,
+      "selection": "First 100 canonical current-edition item records, sorted by stable sourceKey, whose canonical image audit state was needed when the batch was frozen. The recorded type is the initial draft type and may be corrected during review.",
+      "frozenAtMainCommit": "370584444db77a83f96e0b8f48741b6260a943bd",
+      "entries": [
+        {
+          "sourceKey": "wiki:adventuring-gear:current:item:catnip-hookah",
+          "id": "4c8fdb68ad45fb2f",
+          "name": "Catnip Hookah",
+          "type": "loot",
+          "file": "src/packs/items/adventuring-gear/catnip-hookah-4c8fdb68ad45fb2f.json",
+          "descriptionSha256": "d0644e73735b1ed8deb29da1622d8d8520e4d5414faf241e0926cc3dbe8f79b9",
+          "initialImageState": "needed",
+          "status": "complete"
+        },
+        {
+          "sourceKey": "wiki:adventuring-gear:current:item:cider",
+          "id": "9a5eeac1ff64848a",
+          "name": "Cider",
+          "type": "loot",
+          "file": "src/packs/items/adventuring-gear/cider-9a5eeac1ff64848a.json",
+          "descriptionSha256": "a481b6e9bec8269b1627152a00e1c3167c25c9e8a118f7447cafa8668d87de36",
+          "initialImageState": "needed",
+          "status": "complete"
+        },
+        {
+          "sourceKey": "wiki:adventuring-gear:current:item:fruitcake-loaf-of",
+          "id": "595c1718f65e4fa9",
+          "name": "Fruitcake, loaf of",
+          "type": "loot",
+          "file": "src/packs/items/adventuring-gear/fruitcake-loaf-of-595c1718f65e4fa9.json",
+          "descriptionSha256": "fce3bc919b188dc541508a212504fc130f78e4ef2429faedaafc9c5f0cffbfd9",
+          "initialImageState": "needed",
+          "status": "complete"
+        },
+        {
+          "sourceKey": "wiki:adventuring-gear:current:item:map-tradewind",
+          "id": "093b87bddd856b9b",
+          "name": "Map, Tradewind",
+          "type": "loot",
+          "file": "src/packs/items/adventuring-gear/map-tradewind-093b87bddd856b9b.json",
+          "descriptionSha256": "bbb46e4451d4a33575e3bc11dbe7e65dd9faff1c7e38429167f2ba210e115c75",
+          "initialImageState": "needed",
+          "status": "complete"
+        },
+        {
+          "sourceKey": "wiki:adventuring-gear:current:item:meat-pie",
+          "id": "dbe6ee1053d8b2c7",
+          "name": "Meat Pie",
+          "type": "loot",
+          "file": "src/packs/items/adventuring-gear/meat-pie-dbe6ee1053d8b2c7.json",
+          "descriptionSha256": "5bc470daced6449d92e7c8c4d0bb5133ca686b68c337fd26b65758157a066db1",
+          "initialImageState": "needed",
+          "status": "complete"
+        },
+        {
+          "sourceKey": "wiki:adventuring-gear:current:item:outfit-eventide",
+          "id": "0a00688019831bcc",
+          "name": "Outfit, Eventide",
+          "type": "loot",
+          "file": "src/packs/items/adventuring-gear/outfit-eventide-0a00688019831bcc.json",
+          "descriptionSha256": "977b63ddfbead2101f949d405c590f4c2898483ffae1b6daf80d2249dbb28364",
+          "initialImageState": "needed",
+          "status": "complete"
+        },
+        {
+          "sourceKey": "wiki:adventuring-gear:current:item:pastry",
+          "id": "9b507d6c09d1b380",
+          "name": "Pastry",
+          "type": "loot",
+          "file": "src/packs/items/adventuring-gear/pastry-9b507d6c09d1b380.json",
+          "descriptionSha256": "ee5f5c6921e214d4ebb16ac988de2ba0ca7604fdf91b87dae618b9edc07512d1",
+          "initialImageState": "needed",
+          "status": "complete"
+        },
+        {
+          "sourceKey": "wiki:adventuring-gear:current:item:sausage",
+          "id": "0c9a908324873660",
+          "name": "Sausage",
+          "type": "loot",
+          "file": "src/packs/items/adventuring-gear/sausage-0c9a908324873660.json",
+          "descriptionSha256": "aeaf3d38cb15dad34c3ee37c69d621c06d531b575fed48b2f1c2df1ef57795c7",
+          "initialImageState": "needed",
+          "status": "complete"
+        },
+        {
+          "sourceKey": "wiki:adventuring-gear:current:item:sleeping-box",
+          "id": "cd55171f4a6f2153",
+          "name": "Sleeping Box",
+          "type": "loot",
+          "file": "src/packs/items/adventuring-gear/sleeping-box-cd55171f4a6f2153.json",
+          "descriptionSha256": "bcfc66eb5a2f91bf4c03344792008921191f028089b8da63c2c9afe7c8830c3e",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:adventuring-gear:current:item:soup",
+          "id": "869e705f6a91169e",
+          "name": "Soup",
+          "type": "loot",
+          "file": "src/packs/items/adventuring-gear/soup-869e705f6a91169e.json",
+          "descriptionSha256": "ba19f2ee704d04066be0f83424ef0e1b356d13c11bbf1b833ad26880cb377747",
+          "initialImageState": "needed",
+          "status": "complete"
+        },
+        {
+          "sourceKey": "wiki:adventuring-gear:current:item:toe-bean-tuners",
+          "id": "ba341128c6cf052a",
+          "name": "Toe-Bean Tuners",
+          "type": "loot",
+          "file": "src/packs/items/adventuring-gear/toe-bean-tuners-ba341128c6cf052a.json",
+          "descriptionSha256": "fcd726c4e518588558041469637e3999d33df1d0a24e2d08468e8a7b379a8657",
+          "initialImageState": "needed",
+          "status": "complete"
+        },
+        {
+          "sourceKey": "wiki:adventuring-gear:current:item:whiskey",
+          "id": "4a3c09e5d3d105a0",
+          "name": "Whiskey",
+          "type": "loot",
+          "file": "src/packs/items/adventuring-gear/whiskey-4a3c09e5d3d105a0.json",
+          "descriptionSha256": "27e7c6f6458e3edb8730704e1fa56ed4fc2780d7a0068bfd66ff7bc165a8fe39",
+          "initialImageState": "needed",
+          "status": "complete"
+        },
+        {
+          "sourceKey": "wiki:akashic-wondrous-items:current:item:blood-funnels",
+          "id": "7b7a74c15e7ccc13",
+          "name": "Blood Funnels",
+          "type": "equipment",
+          "file": "src/packs/items/akashic-wondrous-items/blood-funnels-7b7a74c15e7ccc13.json",
+          "descriptionSha256": "bda8ab8c44a54b4698b5344e8ee18b741849752c69598038e49853dc709c7a0b",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:akashic-wondrous-items:current:item:refinement-charm",
+          "id": "0c1c87ecdd107f28",
+          "name": "Refinement Charm",
+          "type": "equipment",
+          "file": "src/packs/items/akashic-wondrous-items/refinement-charm-0c1c87ecdd107f28.json",
+          "descriptionSha256": "329bdc4fd1ca45b473ed006c1d85c00eddea80123f87fd7b96fa69ed5abb3465",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:akashic-wondrous-items:current:item:ring-of-a-thousand-names",
+          "id": "1025cb3f8fc1661f",
+          "name": "Ring of a Thousand Names",
+          "type": "equipment",
+          "file": "src/packs/items/akashic-wondrous-items/ring-of-a-thousand-names-1025cb3f8fc1661f.json",
+          "descriptionSha256": "b4e83b7204c7568f0cb8b82b5eef748bacc44cfb80230d88457ee8c4905100cb",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:akashic-wondrous-items:current:item:suqurs-gift",
+          "id": "1a6640960c79a399",
+          "name": "Suqur’s Gift",
+          "type": "equipment",
+          "file": "src/packs/items/akashic-wondrous-items/suqurs-gift-1a6640960c79a399.json",
+          "descriptionSha256": "04b4121fe93e3cf0fde79b2b306f1b95cbf28c52f57972773920f958aeb91add",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:alchemical-items:current:item:arcanis-venenum",
+          "id": "22090041e723f52f",
+          "name": "Arcanis Venenum",
+          "type": "consumable",
+          "file": "src/packs/items/alchemical-items/arcanis-venenum-22090041e723f52f.json",
+          "descriptionSha256": "64611d7de3740f2fde8c7f951430c26a0a06cc48b9f12ade6873d3e92f9e07b7",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:alchemical-items:current:item:black-powder-20-doses",
+          "id": "333c4e288cf41817",
+          "name": "Black Powder (20 doses)",
+          "type": "consumable",
+          "file": "src/packs/items/alchemical-items/black-powder-20-doses-333c4e288cf41817.json",
+          "descriptionSha256": "689dcfe8e205f619749bdc97f25f4816d90c325e81d43e178fbdcad0b77cfc7f",
+          "initialImageState": "needed",
+          "status": "complete"
+        },
+        {
+          "sourceKey": "wiki:alchemical-items:current:item:catnip",
+          "id": "0b214a71536b15c7",
+          "name": "Catnip",
+          "type": "consumable",
+          "file": "src/packs/items/alchemical-items/catnip-0b214a71536b15c7.json",
+          "descriptionSha256": "cfbdaf719fc7e51eaedd234a9d25be87060fdf7bbf03035e92dcddaf35a3ea8a",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:alchemical-items:current:item:ethanol",
+          "id": "12f207bbdd808dd8",
+          "name": "Ethanol",
+          "type": "consumable",
+          "file": "src/packs/items/alchemical-items/ethanol-12f207bbdd808dd8.json",
+          "descriptionSha256": "ef9d3e9dfc42f69b113abfe9d7cce5cd7e2138a1a4b3975ce8dcf266e6a60d47",
+          "initialImageState": "needed",
+          "status": "complete"
+        },
+        {
+          "sourceKey": "wiki:alchemical-items:current:item:fish-liver-grog",
+          "id": "00090abdbf1b30de",
+          "name": "Fish Liver Grog",
+          "type": "consumable",
+          "file": "src/packs/items/alchemical-items/fish-liver-grog-00090abdbf1b30de.json",
+          "descriptionSha256": "2ad8554138dc352129b285c6947c2dca5bc9c3356ce1e3ad4413c974975e4478",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:alchemical-items:current:item:kuoki",
+          "id": "b40afe6dad77c9e9",
+          "name": "Kuoki",
+          "type": "consumable",
+          "file": "src/packs/items/alchemical-items/kuoki-b40afe6dad77c9e9.json",
+          "descriptionSha256": "5843fc261c6c0014772d45e48ae77c15a60899ff3f58aef457435f265fdf1f84",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:alchemical-items:current:item:liquid-life",
+          "id": "16cf0db697ea710d",
+          "name": "Liquid Life",
+          "type": "consumable",
+          "file": "src/packs/items/alchemical-items/liquid-life-16cf0db697ea710d.json",
+          "descriptionSha256": "21324f21042e066484c8b2655177e819b54b44b3f9a776ba7897fd96df45f847",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:equipment:current:item:brimstone-briquette",
+          "id": "76bd3b56ee90b98f",
+          "name": "Brimstone Briquette",
+          "type": "loot",
+          "file": "src/packs/items/equipment/brimstone-briquette-76bd3b56ee90b98f.json",
+          "descriptionSha256": "268e1e125c7fcb288bfb9ea19e3353101c4a8bedcc2fac20f75e6b75d53cd5d2",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:equipment:current:item:inversion-prism",
+          "id": "95cc514580cfdf9c",
+          "name": "Inversion Prism",
+          "type": "loot",
+          "file": "src/packs/items/equipment/inversion-prism-95cc514580cfdf9c.json",
+          "descriptionSha256": "2c30ff3208352f462daab5ccd5cfd8ad1be74876ad4e65d2d4a10ef92ee8708c",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:equipment:current:item:iridium-jellenate",
+          "id": "7312577d2f2246b4",
+          "name": "Iridium Jellenate",
+          "type": "loot",
+          "file": "src/packs/items/equipment/iridium-jellenate-7312577d2f2246b4.json",
+          "descriptionSha256": "674f8aa23fef566f4f81818b768d65e36b0b4f8850297294921a7fd95993bd7f",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:equipment:current:item:lightning-rod",
+          "id": "25df7236c113a21d",
+          "name": "Lightning Rod",
+          "type": "loot",
+          "file": "src/packs/items/equipment/lightning-rod-25df7236c113a21d.json",
+          "descriptionSha256": "33320d942f30b18465b845697fa87b3d325f66dc9392ddd339e6b6467bb415bb",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:equipment:current:item:living-mossrock",
+          "id": "41ec42ec26106d0a",
+          "name": "Living Mossrock",
+          "type": "loot",
+          "file": "src/packs/items/equipment/living-mossrock-41ec42ec26106d0a.json",
+          "descriptionSha256": "21e79074ed1c7dcd567bb0802a3bfb3c51b28f9564d4bad29f134b83b4a5ba74",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:equipment:current:item:lodestone-geode",
+          "id": "70df25670ce3e77e",
+          "name": "Lodestone Geode",
+          "type": "loot",
+          "file": "src/packs/items/equipment/lodestone-geode-70df25670ce3e77e.json",
+          "descriptionSha256": "72658feba6c23076faefb42f60bdfc52056db91ebc0f878f37123db461bf3764",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:equipment:current:item:mother-pearlite",
+          "id": "551fc61ea1cc5eaa",
+          "name": "Mother Pearlite",
+          "type": "loot",
+          "file": "src/packs/items/equipment/mother-pearlite-551fc61ea1cc5eaa.json",
+          "descriptionSha256": "7d404bb60699eea94b428ca10c5d1f234153d7b15eddc09732d9479266b72a24",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:equipment:current:item:storm-shelter",
+          "id": "89bc8594a17835d1",
+          "name": "Storm Shelter",
+          "type": "loot",
+          "file": "src/packs/items/equipment/storm-shelter-89bc8594a17835d1.json",
+          "descriptionSha256": "b8121d14ee4286123795fc07a2d03c46167ff5af6066d41d921520d4d8756ab8",
+          "initialImageState": "needed",
+          "status": "complete"
+        },
+        {
+          "sourceKey": "wiki:equipment:current:item:warding-agate",
+          "id": "9761efad036222ed",
+          "name": "Warding Agate",
+          "type": "loot",
+          "file": "src/packs/items/equipment/warding-agate-9761efad036222ed.json",
+          "descriptionSha256": "fe70b601809936b87f1a076bf06bde295bfa8b485f80b0c93ec7e5e7b8c3cc90",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:alterations-bane",
+          "id": "8220f70cc4c50b24",
+          "name": "Alteration’s Bane",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/alterations-bane-8220f70cc4c50b24.json",
+          "descriptionSha256": "4826f34908db39512115438022d399b0642c37c0a83df3ffa95952d7f95b2aad",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:apprentice-blastmages-etherstaff",
+          "id": "316e2b2174c6424c",
+          "name": "Apprentice Blastmage’s Etherstaff",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/apprentice-blastmages-etherstaff-316e2b2174c6424c.json",
+          "descriptionSha256": "89207ead09fa40a588c3369f6d934c2335c6245f53e0cf7878fc8ec0f77d8ea8",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:band-of-grounded-realities",
+          "id": "a8fe0a1b8657d900",
+          "name": "Band of Grounded Realities",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/band-of-grounded-realities-a8fe0a1b8657d900.json",
+          "descriptionSha256": "fcbdcdd00f526a7982395f75aae8e2cf31d5829ee7d24a0b7f0b3450cb47d087",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:band-of-overlapping-realities",
+          "id": "44f94bdd0322d5a9",
+          "name": "Band of Overlapping Realities",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/band-of-overlapping-realities-44f94bdd0322d5a9.json",
+          "descriptionSha256": "18a8454b528850f1638dc0f5c5f8df01974363def157ab8bbd7862db88212d0f",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:band-of-shifting-realities",
+          "id": "9186a4201e9f8403",
+          "name": "Band of Shifting Realities",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/band-of-shifting-realities-9186a4201e9f8403.json",
+          "descriptionSha256": "3cc88612999f10771bb046f5681b7f5232dc5af71cd133631c4bd1b008283327",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:band-of-transient-realities",
+          "id": "a4394e9767b374a2",
+          "name": "Band of Transient Realities",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/band-of-transient-realities-a4394e9767b374a2.json",
+          "descriptionSha256": "58a153b4deb84ae9231f41feceefef68e6ed92a9b1481ea418517868737ee482",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:etherstaff-of-armageddons-form",
+          "id": "2796be283c49d8d3",
+          "name": "Etherstaff of Armageddon’s Form",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/etherstaff-of-armageddons-form-2796be283c49d8d3.json",
+          "descriptionSha256": "6bbcd551cfdd3703b24dddf987e01a6c7879cb716a9fac5c2914635b79770513",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:etherstaff-of-mental-fixation",
+          "id": "083124ed838398cd",
+          "name": "Etherstaff of Mental Fixation",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/etherstaff-of-mental-fixation-083124ed838398cd.json",
+          "descriptionSha256": "d53a9718ebdc0201f4c4e66061d05d0f60f888e3bdf921d48fbc84b706aa64e9",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:etherstaff-of-the-atomic-edge",
+          "id": "ca803d0f0db1a59c",
+          "name": "Etherstaff of the Atomic Edge",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/etherstaff-of-the-atomic-edge-ca803d0f0db1a59c.json",
+          "descriptionSha256": "1426ee1585017634cda6a9037a7233900aa40de689847988dc23776d2acb527e",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:etherstaff-of-the-canine-cliche",
+          "id": "b59ab72dddb95ccd",
+          "name": "Etherstaff of the Canine Cliché",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/etherstaff-of-the-canine-cliche-b59ab72dddb95ccd.json",
+          "descriptionSha256": "70534f0e977c104925f2f846e35d267978e4de145f4b6db767b871daeb81a670",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:etherstaff-of-the-cosmic-roar",
+          "id": "64252cf35d235d26",
+          "name": "Etherstaff of the Cosmic Roar",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/etherstaff-of-the-cosmic-roar-64252cf35d235d26.json",
+          "descriptionSha256": "94db9e507ec763baa8091bbe61f519f80c3c814f23892176c7ee7171a74bbdcc",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:etherstaff-of-the-endless-congregation",
+          "id": "48f30cf69c982586",
+          "name": "Etherstaff of the Endless Congregation",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/etherstaff-of-the-endless-congregation-48f30cf69c982586.json",
+          "descriptionSha256": "b0729f25c3fd45a244ea091541ddff8234eb4ebfc4821f3adc435f3ba76e0d8d",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:etherstaff-of-the-fetching-sphere",
+          "id": "5f5698399634e2ad",
+          "name": "Etherstaff of the Fetching Sphere",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/etherstaff-of-the-fetching-sphere-5f5698399634e2ad.json",
+          "descriptionSha256": "ad347f96594e4200fbb4437ceaec7f9ed35190dbb3ce3b996016caacf321bad7",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:etherstaff-of-the-modeling-enthusiast",
+          "id": "1700d3fcea743356",
+          "name": "Etherstaff of the Modeling Enthusiast",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/etherstaff-of-the-modeling-enthusiast-1700d3fcea743356.json",
+          "descriptionSha256": "9dfbbc6ec1e9d6d772c201f8df73312eb74eecd7d8c6e1d72c1bcca82e05c98b",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:fjodors-relatively-faithful-friend",
+          "id": "493ca2de1bb61bd8",
+          "name": "Fjodor's (Relatively) Faithful Friend",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/fjodors-relatively-faithful-friend-493ca2de1bb61bd8.json",
+          "descriptionSha256": "b04f0ede78f32c336da436931a9539be4fbb340e6a877b798b77a9887f3e817a",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:menders-etherstaff",
+          "id": "6138b6570c820f4b",
+          "name": "Mender’s Etherstaff",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/menders-etherstaff-6138b6570c820f4b.json",
+          "descriptionSha256": "f9725b6b21826f09a7a38a96cf072c90c79d8f2fc2231d9e7bfa51617726b224",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:murphys-bane",
+          "id": "82f9790ed34d60dc",
+          "name": "Murphy's Bane",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/murphys-bane-82f9790ed34d60dc.json",
+          "descriptionSha256": "2720291ed6d3c767ea5f0db4ee60b6db1495cc8fe9e157914a2d6c136b7ab262",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:revealer-of-the-void",
+          "id": "71cbae4f2c3ed567",
+          "name": "Revealer of the Void",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/revealer-of-the-void-71cbae4f2c3ed567.json",
+          "descriptionSha256": "fdecf29aff1faa16b4c44ee8e4ae1bf17504b1a65379639a093b656445ae72bf",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:ripper-van-wiggles-musket",
+          "id": "687ba81033072de0",
+          "name": "Ripper Van Wiggle's Musket",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/ripper-van-wiggles-musket-687ba81033072de0.json",
+          "descriptionSha256": "c9814c6448d298288f1bce6abaeaea5edacee641e8790a2ed7535cb6fa23fef6",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:ethermagic-items:current:item:sparklys-glittergun",
+          "id": "0829eb6deb2c2561",
+          "name": "Sparkly's Glittergun",
+          "type": "equipment",
+          "file": "src/packs/items/ethermagic-items/sparklys-glittergun-0829eb6deb2c2561.json",
+          "descriptionSha256": "917d8d17127a151eff8e7d37901c511064329c27e7e9b8bcb177bf6780356aed",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:book-of-lewd-desires",
+          "id": "56ca2ff2425236cc",
+          "name": "Book of Lewd Desires",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/book-of-lewd-desires-56ca2ff2425236cc.json",
+          "descriptionSha256": "46bafa598466bba7c81164de87c204439c7c80e0e97dde0cb36cc44e1038cfe5",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:cans-of-talking",
+          "id": "8a0c4e97ee73467e",
+          "name": "Cans of Talking",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/cans-of-talking-8a0c4e97ee73467e.json",
+          "descriptionSha256": "87a27a6b01df09a926f780bc993fcd929b4deea9fd28cb025d620a9f49e8e7fd",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:cave-bag",
+          "id": "8c86c0596e2f748f",
+          "name": "Cave Bag",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/cave-bag-8c86c0596e2f748f.json",
+          "descriptionSha256": "75a55df98e64a968f9f787573e731cec354b35d63e0cbb5ac20f7ed1f05adabc",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:firekeys",
+          "id": "0827aad3fe3ca71e",
+          "name": "Firekeys",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/firekeys-0827aad3fe3ca71e.json",
+          "descriptionSha256": "ff7780f652d738a5f4a2cb3d9051fb61d6f34d8fa8c5d3a45c3e824e9f6c5abb",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:fizzeldywhop-rust-stone",
+          "id": "aec757d20c42d97d",
+          "name": "Fizzeldywhop (Rust Stone)",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/fizzeldywhop-rust-stone-aec757d20c42d97d.json",
+          "descriptionSha256": "9280c66522363073eccd8d2439a90d23f787ec79c19a1f98ab18e5576fe9ee3a",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:head-pot-of-adequate-trash",
+          "id": "8011b6e874e4c2c2",
+          "name": "Head Pot of Adequate Trash",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/head-pot-of-adequate-trash-8011b6e874e4c2c2.json",
+          "descriptionSha256": "c1259a82b00bcd5a3e6b6e79c47dbccdd122b988a708c1a6172bf0ae0eccf471",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:heros-scarf",
+          "id": "581c3856ab058336",
+          "name": "Hero’s Scarf",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/heros-scarf-581c3856ab058336.json",
+          "descriptionSha256": "96998c9e3c9f0a6678a9c9a5b027babd54552689769a9b521b07c90b714c32bb",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:insanity-drive",
+          "id": "2fa47002b678f4c1",
+          "name": "Insanity Drive",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/insanity-drive-2fa47002b678f4c1.json",
+          "descriptionSha256": "0f700311edee434e3a6ec7e16b96e4e08a5db91f02c1939601805dfa0de35f5d",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:motif-bauble",
+          "id": "90da9b5f1b1a55dc",
+          "name": "Motif Bauble",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/motif-bauble-90da9b5f1b1a55dc.json",
+          "descriptionSha256": "171cd1c2e339b2e926b3e5c1424e3c2d72ea32515df8d32b3e5a817683f709dd",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:motif-bauble-greater",
+          "id": "d69f3a2e01c68368",
+          "name": "Motif Bauble, Greater",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/motif-bauble-greater-d69f3a2e01c68368.json",
+          "descriptionSha256": "b583418f6921d4f554811f29d9911e31fb1fc66a9d3a01585254e5c762f98636",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:null-bindi",
+          "id": "c3c152021366da7c",
+          "name": "Null Bindi",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/null-bindi-c3c152021366da7c.json",
+          "descriptionSha256": "340f7477735a0272987ee514b779bb43c2908ec20950f72cb960fb85e73b12cd",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:paranoia-lenses",
+          "id": "b33f1cdb98eea699",
+          "name": "Paranoia Lenses",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/paranoia-lenses-b33f1cdb98eea699.json",
+          "descriptionSha256": "787530faefd452d92ea19d1704363cfe9c868f29e395434715ff91a95cbec441",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:prismatic-scepter",
+          "id": "72298c5d28eb707f",
+          "name": "Prismatic Scepter",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/prismatic-scepter-72298c5d28eb707f.json",
+          "descriptionSha256": "c0e65cb6211b6f9f8bc74926f6c0a3c87ed1a22abc681b62a3b2bd61fe02edca",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:raycaster",
+          "id": "5937fde02f913448",
+          "name": "Raycaster",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/raycaster-5937fde02f913448.json",
+          "descriptionSha256": "e1500637a98c3a2b90828bd2364500212d4966759fbf8cd200dfdb25c7d96389",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:talky-bullet",
+          "id": "24c7eedd86c56200",
+          "name": "“Talky” Bullet",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/talky-bullet-24c7eedd86c56200.json",
+          "descriptionSha256": "5ebeec105cc265ada59f8dac2365293965ad41889b4d699069c582bb4aa34987",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:thunder-and-fury",
+          "id": "65871b800405b4aa",
+          "name": "Thunder and Fury",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/thunder-and-fury-65871b800405b4aa.json",
+          "descriptionSha256": "c58c11d05655bb5e76d6b5b0abac7fe260c4b51f1b725d029dcd1900f934f01a",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:thunderbolt-axe",
+          "id": "64eae82f0c42ae8f",
+          "name": "Thunderbolt Axe",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/thunderbolt-axe-64eae82f0c42ae8f.json",
+          "descriptionSha256": "383345ca8c72a50a447c3b95332473386908d04da40b47a369641e172414163e",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:thunderdrum",
+          "id": "e4578978b5a020f4",
+          "name": "Thunderdrum",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/thunderdrum-e4578978b5a020f4.json",
+          "descriptionSha256": "81cde76c65631879ddc593cc68557579fbc31299c1bfd4d4815110d832482d3e",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:gonzo-wondrous-items:current:item:trash-bag",
+          "id": "f2a1e7526c8218ae",
+          "name": "Trash Bag",
+          "type": "equipment",
+          "file": "src/packs/items/gonzo-wondrous-items/trash-bag-f2a1e7526c8218ae.json",
+          "descriptionSha256": "3bcaebe7496f80d3727a5843d3c4d4c8698701d20585b40a790f88d09b104407",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:blasters-bearing",
+          "id": "87759b57839a4961",
+          "name": "Blaster’s Bearing",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/blasters-bearing-87759b57839a4961.json",
+          "descriptionSha256": "9c45b9ae815df22ff8bb2e2fd6ba5ef72b64f1a64107f02271f414ddb3dd5e9b",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:body-wraps-of-kinetic-fist",
+          "id": "52e44962d5f5bb48",
+          "name": "Body Wraps of Kinetic Fist",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/body-wraps-of-kinetic-fist-52e44962d5f5bb48.json",
+          "descriptionSha256": "85cd28ddd71923fe77cb7d8a8887121840cee83588bda6ee233ca037ba48cc07",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:bracers-of-elemental-conversion",
+          "id": "50273a8947f88e32",
+          "name": "Bracers of Elemental Conversion",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/bracers-of-elemental-conversion-50273a8947f88e32.json",
+          "descriptionSha256": "0c04fb84b57047aff185600d90c50b15202e1333270960b7d3e84118966edd1b",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:burn-fragment",
+          "id": "1dfe3c5c2993c191",
+          "name": "Burn Fragment",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/burn-fragment-1dfe3c5c2993c191.json",
+          "descriptionSha256": "05c57716a6a07c419943fafb89f7953038cce5ad7b656d8fd06e2d6b79ca2aa1",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:burn-resistance-armor-quality",
+          "id": "8af5f1083d5a88fe",
+          "name": "Burn Resistance (Armor Quality)",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/burn-resistance-armor-quality-8af5f1083d5a88fe.json",
+          "descriptionSha256": "736062cf6dcfd9eebb5589e90ac5d2f9cc5c2f67efd2b51872948ca028f043b0",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:burn-shard",
+          "id": "9a515f6dcf066b40",
+          "name": "Burn Shard",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/burn-shard-9a515f6dcf066b40.json",
+          "descriptionSha256": "d97f442c726f4fe01681687bc5b2c497ec27dc0a9549fe485b8ace018fe5c90c",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:conduit-glove",
+          "id": "e0d835af81c53149",
+          "name": "Conduit Glove",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/conduit-glove-e0d835af81c53149.json",
+          "descriptionSha256": "90ab11aa477426729f62f53bfdcbc132bc3307f2c978e8f05dd3b2065953d390",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:crown-of-focused-power",
+          "id": "c2f61296d2a74ef0",
+          "name": "Crown of Focused Power",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/crown-of-focused-power-c2f61296d2a74ef0.json",
+          "descriptionSha256": "8e29207e849b218b48981955a009291c27438c11f735716455b4c24b4f1008fa",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:crystal-of-elemental-knowledge",
+          "id": "a9bcd8e31b009b99",
+          "name": "Crystal of Elemental Knowledge",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/crystal-of-elemental-knowledge-a9bcd8e31b009b99.json",
+          "descriptionSha256": "7dc0b9bf2456d753d12f02df92d35de22c3f9ce480ce502a00d9943ce077e38a",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:disc-of-rainbow-tears",
+          "id": "625ab1318231c4bf",
+          "name": "Disc of Rainbow Tears",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/disc-of-rainbow-tears-625ab1318231c4bf.json",
+          "descriptionSha256": "7d41b40f9c2f23ce894c56f8bc529e7b084b39c5c3b21701c0163c8a013a1c68",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:energizing-armor-property",
+          "id": "7386e18af24c8c62",
+          "name": "Energizing (Armor Property)",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/energizing-armor-property-7386e18af24c8c62.json",
+          "descriptionSha256": "b3adf44d85b4e6e7682de80d22179850fc7414764074daa08bd2ce18d4199e25",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:focusing-glove",
+          "id": "ca6f54984a933ea4",
+          "name": "Focusing Glove",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/focusing-glove-ca6f54984a933ea4.json",
+          "descriptionSha256": "0dbdcddf51d8fa439e1f983af35cc331c0306d57a61bc84856b073f0418a4980",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:kinetic-blademaster-glove",
+          "id": "0b6f458787e743e6",
+          "name": "Kinetic Blademaster Glove",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/kinetic-blademaster-glove-0b6f458787e743e6.json",
+          "descriptionSha256": "765cff54b3690fdc818cd2cea79898df7288d5f805ecda20390204f19319af45",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:leviathan-cross",
+          "id": "2f466bad84b23ca6",
+          "name": "Leviathan Cross",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/leviathan-cross-2f466bad84b23ca6.json",
+          "descriptionSha256": "9fced0fe9eb84526b6f1e34bbca2ed168274d40755adda54a3d9d46d2314a67f",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:planar-gates-tattoo",
+          "id": "dfdc601906765637",
+          "name": "Planar Gates Tattoo",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/planar-gates-tattoo-dfdc601906765637.json",
+          "descriptionSha256": "b8b709766686da39fa3e12921ada04a71b54ddea4b4ec2e0242a06a56f0bde25",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:ring-of-condensing-explosions",
+          "id": "07f2b40b4a736fda",
+          "name": "Ring of Condensing Explosions",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/ring-of-condensing-explosions-07f2b40b4a736fda.json",
+          "descriptionSha256": "68483c0f67e29079eb7eae6738e1f13db2baaedc1b3251b1c0d852b995c3f1eb",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:ring-of-elemental-strength",
+          "id": "c236663736706d56",
+          "name": "Ring of Elemental Strength",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/ring-of-elemental-strength-c236663736706d56.json",
+          "descriptionSha256": "798bfcd58925ba4a7776d809f86f6c15ca10c04c41badf48861f165b42429266",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:robe-of-burn-conversion",
+          "id": "418bfbca585c0b9d",
+          "name": "Robe of Burn Conversion",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/robe-of-burn-conversion-418bfbca585c0b9d.json",
+          "descriptionSha256": "35bde16832092ad9d9709d903e7feabd58f67fa4c87f62e75eca739a2a74aecf",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:robe-of-elemental-resistance",
+          "id": "33145c60b53465d9",
+          "name": "Robe of Elemental Resistance",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/robe-of-elemental-resistance-33145c60b53465d9.json",
+          "descriptionSha256": "de8eaa710764921c6cdae9ddc3d2f4417cdd78acbf78b2996b6ad5a4f99ed76d",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:teardrop-ioun-stone",
+          "id": "ad1ddfb8f7538e9b",
+          "name": "Teardrop Ioun Stone",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/teardrop-ioun-stone-ad1ddfb8f7538e9b.json",
+          "descriptionSha256": "bb7cce8ec4f8cd0373a0513c0d445adee772f7b05142a33cd7ce7b1dcaf46166",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:vambraces-of-overflowing-power",
+          "id": "1cc755f0ff942c99",
+          "name": "Vambraces of Overflowing Power",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/vambraces-of-overflowing-power-1cc755f0ff942c99.json",
+          "descriptionSha256": "c24cb0207e8b43fab8405a2134759b77439f99dc86ea33c549e9335aaf0490cc",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:vest-of-elemental-defense",
+          "id": "2e9d0159b88bb7d0",
+          "name": "Vest of Elemental Defense",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/vest-of-elemental-defense-2e9d0159b88bb7d0.json",
+          "descriptionSha256": "9820f2d44edb3717e0d59e9c284865c001579da0225654d29431e1c37ee450d5",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:kineticist-magical-items:current:item:wraps-of-suppressed-size",
+          "id": "fe5017dd8d7aa992",
+          "name": "Wraps of Suppressed Size",
+          "type": "equipment",
+          "file": "src/packs/items/kineticist-magical-items/wraps-of-suppressed-size-fe5017dd8d7aa992.json",
+          "descriptionSha256": "17b0bff01ed8e49c629263399e5c8f6fe6162b24137d4e6778e14c6ce5d99ff3",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:marvelous-items-2:current:item:amulet-of-the-revealing-eye",
+          "id": "375d36ca5b470a71",
+          "name": "Amulet of the Revealing Eye",
+          "type": "equipment",
+          "file": "src/packs/items/marvelous-items-2/amulet-of-the-revealing-eye-375d36ca5b470a71.json",
+          "descriptionSha256": "d1e0c582162851cfb8ee7a263a409f62195dfcb3aa36b701d065eabc00d48957",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:marvelous-items-2:current:item:archmages-cube-of-gaming",
+          "id": "467ca01eee598da2",
+          "name": "Archmage’s Cube of Gaming",
+          "type": "equipment",
+          "file": "src/packs/items/marvelous-items-2/archmages-cube-of-gaming-467ca01eee598da2.json",
+          "descriptionSha256": "a1a0377977c6f3ec0fd6189d4ceb49494286554df5cd60b1abf2d92fa4aad61b",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:marvelous-items-2:current:item:cradle-of-the-marauder",
+          "id": "ba328e3c0ff81a3a",
+          "name": "Cradle of the Marauder",
+          "type": "equipment",
+          "file": "src/packs/items/marvelous-items-2/cradle-of-the-marauder-ba328e3c0ff81a3a.json",
+          "descriptionSha256": "dade41dff13efbfdb876a4a035f05a9986380f843fa4b995d5ff50a09a680482",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:marvelous-items-2:current:item:dashing-cloak",
+          "id": "c063424fa3b3ed9e",
+          "name": "Dashing Cloak",
+          "type": "equipment",
+          "file": "src/packs/items/marvelous-items-2/dashing-cloak-c063424fa3b3ed9e.json",
+          "descriptionSha256": "5780db4382b8e4b25347586f29c9e8710b1f9251a54c8ae4add1034790e0ce49",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:marvelous-items-2:current:item:divine-symbol",
+          "id": "2390ac87894476ae",
+          "name": "Divine Symbol",
+          "type": "equipment",
+          "file": "src/packs/items/marvelous-items-2/divine-symbol-2390ac87894476ae.json",
+          "descriptionSha256": "e698d1e07f2e6fca233b1a4353731dedcaf495f0509c6e046117ddbc0bbac222",
+          "initialImageState": "needed",
+          "status": "pending"
+        },
+        {
+          "sourceKey": "wiki:marvelous-items-2:current:item:dragons-tooth",
+          "id": "d5791dac770b56cc",
+          "name": "Dragon’s Tooth",
+          "type": "equipment",
+          "file": "src/packs/items/marvelous-items-2/dragons-tooth-d5791dac770b56cc.json",
+          "descriptionSha256": "ff36fbe5ef9daeac1064917484d3111618fb0b0b9589bcac87ab62c822427e58",
+          "initialImageState": "needed",
+          "status": "pending"
+        }
+      ]
+    }
+  }
+}

@@ -3,7 +3,7 @@
   "_key": "!items!16cf0db697ea710d",
   "name": "Liquid Life",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/alchemical-items/liquid-life.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,17 +24,17 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "not-applicable",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
       }
     }
@@ -73,13 +73,34 @@
     "hardness": 0,
     "uses": {
       "value": null,
-      "per": "",
+      "per": "single",
       "autoDeductChargesCost": "",
       "maxFormula": "",
       "rechargeFormula": "",
       "pricePerUse": 0
     },
-    "actions": [],
+    "actions": [
+      {
+        "_id": "826ed675a56fd7ac",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "cost": 2,
+            "type": "action"
+          }
+        },
+        "img": "modules/additional-spheres-content/icons/items/alchemical-items/liquid-life.webp",
+        "name": "Drink",
+        "notes": {
+          "effect": [
+            "The drinker gains [[3d6]] temporary hit points, but no more temporary hit points than the drinker currently has in damage.",
+            "The drinker removes the fatigued condition.",
+            "Temporary hit points granted by liquid life disappear after 1 hour."
+          ]
+        },
+        "tag": "liquidLife"
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "links": {
@@ -92,7 +113,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "subType": "misc",
+    "subType": "drug",
     "showInQuickbar": false,
     "changes": [],
     "contextNotes": [],

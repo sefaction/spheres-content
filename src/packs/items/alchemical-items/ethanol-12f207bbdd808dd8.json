@@ -3,7 +3,7 @@
   "_key": "!items!12f207bbdd808dd8",
   "name": "Ethanol",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/alchemical-items/ethanol.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,17 +24,17 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "not-needed",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "not-applicable",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
       }
     }
@@ -73,13 +73,25 @@
     "hardness": 0,
     "uses": {
       "value": null,
-      "per": "",
+      "per": "single",
       "autoDeductChargesCost": "",
       "maxFormula": "",
       "rechargeFormula": "",
       "pricePerUse": 0
     },
-    "actions": [],
+    "actions": [
+      {
+        "_id": "c35c09fc38280470",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "img": "modules/additional-spheres-content/icons/items/alchemical-items/ethanol.webp",
+        "name": "Use as Fuel"
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "links": {
