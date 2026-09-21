@@ -352,6 +352,12 @@ test("reviewed alchemical items preserve PF1 consumable profiles and the Hookah 
   assert.equal(blackPowder.system.uses.value, 20);
   assert.equal(blackPowder.system.uses.maxFormula, "20");
   assert.equal(blackPowder.system.uses.pricePerUse, 10);
+  assert.equal(blackPowder.system.price, 0);
+  assert.equal(
+    blackPowder.system.price +
+      blackPowder.system.uses.value * blackPowder.system.uses.pricePerUse,
+    200,
+  );
   assert.equal(blackPowder.system.actions[0].name, "Use Dose");
   assert.equal(
     blackPowder.img,
