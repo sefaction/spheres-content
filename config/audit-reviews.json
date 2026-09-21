@@ -1131,5 +1131,161 @@
       "sourceSha256": "ef9d3e9dfc42f69b113abfe9d7cce5cd7e2138a1a4b3975ce8dcf266e6a60d47",
       "reason": "The complete flammability, propellant, lantern-fuel, recipe and source text are retained."
     }
+  },
+  "wiki:alchemical-items:current:item:fish-liver-grog": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "2ad8554138dc352129b285c6947c2dca5bc9c3356ce1e3ad4413c974975e4478",
+      "reason": "Original generated 256 px WebP depicts the murky bottled grog and fish-bone charm and is registered with source and encoding hashes."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "2ad8554138dc352129b285c6947c2dca5bc9c3356ce1e3ad4413c974975e4478",
+      "reason": "A pinned standard-action Drink action records the one-round delay, restore benefit and subsequent 2d6-round nausea."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "2ad8554138dc352129b285c6947c2dca5bc9c3356ce1e3ad4413c974975e4478",
+      "reason": "The restore result depends on the applicable Life sphere ability and is followed by delayed rolled nausea; a static actor Change cannot represent this sequence."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "2ad8554138dc352129b285c6947c2dca5bc9c3356ce1e3ad4413c974975e4478",
+      "reason": "The effect changes conditions after use rather than modifying a conditional roll; exact reminders are pinned to the action."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "2ad8554138dc352129b285c6947c2dca5bc9c3356ce1e3ad4413c974975e4478",
+      "reason": "One purchased drink uses PF1's native Single Use consumable setting."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "2ad8554138dc352129b285c6947c2dca5bc9c3356ce1e3ad4413c974975e4478",
+      "reason": "Restore describes the drink's effect; importing a permanent Life ability as a child or supplement would be incorrect."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "2ad8554138dc352129b285c6947c2dca5bc9c3356ce1e3ad4413c974975e4478",
+      "reason": "The 50 gp price, zero weight, miscellaneous remedy subtype and standard-action use were reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "2ad8554138dc352129b285c6947c2dca5bc9c3356ce1e3ad4413c974975e4478",
+      "reason": "Automatic resolution requires a reviewed pf1spheres Life restore interface and a delayed nausea workflow; the action retains the complete effect meanwhile."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "2ad8554138dc352129b285c6947c2dca5bc9c3356ce1e3ad4413c974975e4478",
+      "reason": "The reviewed compendium index contains no exact or normalized Fish Liver Grog match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "2ad8554138dc352129b285c6947c2dca5bc9c3356ce1e3ad4413c974975e4478",
+      "reason": "The complete restore, nausea, recipe, crafting and source text are retained."
+    }
+  },
+  "wiki:alchemical-items:current:item:kuoki": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "5843fc261c6c0014772d45e48ae77c15a60899ff3f58aef457435f265fdf1f84",
+      "reason": "Original generated 256 px WebP depicts the sealed luminous rice wine and is registered with source and encoding hashes."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "5843fc261c6c0014772d45e48ae77c15a60899ff3f58aef457435f265fdf1f84",
+      "reason": "A pinned standard-action Drink action records the one-minute open-air glow and one-hour Spirit Sense effect."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "5843fc261c6c0014772d45e48ae77c15a60899ff3f58aef457435f265fdf1f84",
+      "reason": "The consumed dose grants a timed sphere talent effect rather than a numeric actor modifier; a static Change cannot model Spirit Sense."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "5843fc261c6c0014772d45e48ae77c15a60899ff3f58aef457435f265fdf1f84",
+      "reason": "The source grants sensory capability and light rather than a conditional roll modifier; exact reminders are pinned to the action."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "5843fc261c6c0014772d45e48ae77c15a60899ff3f58aef457435f265fdf1f84",
+      "reason": "One bottle uses PF1's native Single Use consumable setting."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "5843fc261c6c0014772d45e48ae77c15a60899ff3f58aef457435f265fdf1f84",
+      "reason": "Spirit Sense is a temporary effect; importing the permanent talent as an actor child or supplement would be incorrect."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "5843fc261c6c0014772d45e48ae77c15a60899ff3f58aef457435f265fdf1f84",
+      "reason": "The 50 gp price, zero weight, Drug subtype and standard-action use were reviewed."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "5843fc261c6c0014772d45e48ae77c15a60899ff3f58aef457435f265fdf1f84",
+      "reason": "Automatic resolution requires a reviewed pf1spheres timed Spirit Sense integration; the action retains the exact effect meanwhile."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "5843fc261c6c0014772d45e48ae77c15a60899ff3f58aef457435f265fdf1f84",
+      "reason": "The reviewed compendium index contains no exact or normalized Kuoki match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "5843fc261c6c0014772d45e48ae77c15a60899ff3f58aef457435f265fdf1f84",
+      "reason": "The complete glow, Spirit Sense, storage, recipe, crafting and source text are retained."
+    }
+  },
+  "wiki:alchemical-items:current:item:liquid-life": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "21324f21042e066484c8b2655177e819b54b44b3f9a776ba7897fd96df45f847",
+      "reason": "Original generated 256 px WebP depicts the invigorating coffee-tonic vial and is registered with source and encoding hashes."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "21324f21042e066484c8b2655177e819b54b44b3f9a776ba7897fd96df45f847",
+      "reason": "A pinned standard-action Drink action rolls 3d6 and records the damage cap, fatigue removal and one-hour duration."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "21324f21042e066484c8b2655177e819b54b44b3f9a776ba7897fd96df45f847",
+      "reason": "The temporary hit points are capped by the drinker's current damage and the consumed dose also removes fatigue; a static Change cannot model either operation safely."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "21324f21042e066484c8b2655177e819b54b44b3f9a776ba7897fd96df45f847",
+      "reason": "The effect changes hit points and a condition rather than modifying a conditional roll; exact reminders are pinned to the action."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "21324f21042e066484c8b2655177e819b54b44b3f9a776ba7897fd96df45f847",
+      "reason": "One dose uses PF1's native Single Use consumable setting."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "21324f21042e066484c8b2655177e819b54b44b3f9a776ba7897fd96df45f847",
+      "reason": "The drink grants no fixed child, supplement or charge-source document."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "21324f21042e066484c8b2655177e819b54b44b3f9a776ba7897fd96df45f847",
+      "reason": "The 20 gp price, zero weight, Drug subtype and standard-action use were reviewed."
+    },
+    "compatibility": {
+      "state": "not-applicable",
+      "sourceSha256": "21324f21042e066484c8b2655177e819b54b44b3f9a776ba7897fd96df45f847",
+      "reason": "The unresolved workflow uses native PF1 temporary hit points and conditions and does not require a Spheres-specific field."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "21324f21042e066484c8b2655177e819b54b44b3f9a776ba7897fd96df45f847",
+      "reason": "The reviewed compendium index contains no exact or normalized Liquid Life match."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "21324f21042e066484c8b2655177e819b54b44b3f9a776ba7897fd96df45f847",
+      "reason": "The complete temporary-hit-point cap, fatigue removal, duration, recipe, crafting and source text are retained."
+    }
   }
 }

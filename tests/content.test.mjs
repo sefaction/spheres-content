@@ -332,6 +332,9 @@ test("reviewed alchemical items preserve PF1 consumable profiles and the Hookah 
   const blackPowder = byId.get("333c4e288cf41817");
   const catnip = byId.get("0b214a71536b15c7");
   const ethanol = byId.get("12f207bbdd808dd8");
+  const fishLiverGrog = byId.get("00090abdbf1b30de");
+  const kuoki = byId.get("b40afe6dad77c9e9");
+  const liquidLife = byId.get("16cf0db697ea710d");
   const hookah = byId.get("4c8fdb68ad45fb2f");
 
   assert.equal(arcanis.type, "consumable");
@@ -381,7 +384,53 @@ test("reviewed alchemical items preserve PF1 consumable profiles and the Hookah 
   assert.equal(ethanol.system.uses.per, "single");
   assert.equal(ethanol.system.actions[0].name, "Use as Fuel");
 
-  for (const item of [arcanis, blackPowder, catnip, ethanol]) {
+  assert.equal(fishLiverGrog.system.subType, "misc");
+  assert.equal(fishLiverGrog.system.uses.per, "single");
+  assert.equal(fishLiverGrog.system.actions[0]._id, "943f57b9bab53077");
+  assert.equal(fishLiverGrog.system.actions[0].activation.type, "standard");
+  assert.match(fishLiverGrog.system.actions[0].notes.effect[0], /restore/i);
+  assert.match(fishLiverGrog.system.actions[0].notes.effect[1], /2d6/);
+  assert.equal(
+    fishLiverGrog.img,
+    "modules/additional-spheres-content/icons/items/alchemical-items/fish-liver-grog.webp",
+  );
+
+  assert.equal(kuoki.system.subType, "drug");
+  assert.equal(kuoki.system.uses.per, "single");
+  assert.equal(kuoki.system.actions[0]._id, "a3ff4cadfe783cef");
+  assert.equal(kuoki.system.actions[0].activation.type, "standard");
+  assert.match(kuoki.system.actions[0].notes.effect[1], /Spirit Sense/i);
+  assert.match(kuoki.system.actions[0].notes.effect[1], /1 hour/i);
+  assert.equal(
+    kuoki.img,
+    "modules/additional-spheres-content/icons/items/alchemical-items/kuoki.webp",
+  );
+
+  assert.equal(liquidLife.system.subType, "drug");
+  assert.equal(liquidLife.system.uses.per, "single");
+  assert.equal(liquidLife.system.actions[0]._id, "826ed675a56fd7ac");
+  assert.equal(liquidLife.system.actions[0].activation.type, "standard");
+  assert.match(liquidLife.system.actions[0].notes.effect[0], /3d6/);
+  assert.match(
+    liquidLife.system.actions[0].notes.effect[0],
+    /currently has in damage/i,
+  );
+  assert.match(liquidLife.system.actions[0].notes.effect[1], /fatigued/i);
+  assert.match(liquidLife.system.actions[0].notes.effect[2], /1 hour/i);
+  assert.equal(
+    liquidLife.img,
+    "modules/additional-spheres-content/icons/items/alchemical-items/liquid-life.webp",
+  );
+
+  for (const item of [
+    arcanis,
+    blackPowder,
+    catnip,
+    ethanol,
+    fishLiverGrog,
+    kuoki,
+    liquidLife,
+  ]) {
     assert.deepEqual(item.system.changes, []);
     assert.deepEqual(item.system.contextNotes, []);
   }
