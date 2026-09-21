@@ -521,5 +521,50 @@
     "decision": "original",
     "reason": "No exact or normalized-name compendium match exists. Use a native single-use meal profile and original generated art.",
     "candidates": []
+  },
+  "wiki:adventuring-gear:current:item:outfit-eventide": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "977b63ddfbead2101f949d405c590f4c2898483ffae1b6daf80d2249dbb28364",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Use the reviewed PF1 clothing schema, conditional save note, configuration action and original generated art.",
+    "candidates": []
+  },
+  "wiki:adventuring-gear:current:item:sleeping-box": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "bcfc66eb5a2f91bf4c03344792008921191f028089b8da63c2c9afe7c8830c3e",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Generic bedrolls are materially different; retain mundane gear fields and original generated art while deferring a correct temporary-hit-point activation.",
+    "candidates": []
+  },
+  "wiki:adventuring-gear:current:item:toe-bean-tuners": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "fcd726c4e518588558041469637e3999d33df1d0a24e2d08468e8a7b379a8657",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain mundane gear fields and complete descriptive rules with original generated art.",
+    "candidates": []
+  },
+  "wiki:adventuring-gear:current:item:whiskey": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "27e7c6f6458e3edb8730704e1fa56ed4fc2780d7a0068bfd66ff7bc165a8fe39",
+    "reviewed": "2026-09-20",
+    "decision": "adapt",
+    "reason": "Adapt PF1 Content's exact Whiskey (Cup) price, weight, consumable profile and inspected core goblet image; retain the wiki's complete cup and bottle text and add the tested single-use action.",
+    "candidates": [],
+    "adaptationSource": {
+      "uuid": "Compendium.pf-content.pf-goods-services.Item.JDi59JvjzgEsYIR5",
+      "version": "11.4.0",
+      "sha256": "eaf042506784e03b9f21870e0266b576f59e7ac1ffa0909fc017abedc6b3f0de",
+      "decision": "adapt"
+    },
+    "output": {
+      "file": "src/packs/items/adventuring-gear/whiskey-4a3c09e5d3d105a0.json",
+      "id": "4a3c09e5d3d105a0",
+      "type": "consumable",
+      "sha256": "4dde3edd9e659bcc80de1b141d7c7366d8fbd14a45ed4306ae182efa0de6360c",
+      "sourceUuid": "Compendium.pf-content.pf-goods-services.Item.JDi59JvjzgEsYIR5"
+    }
   }
 }

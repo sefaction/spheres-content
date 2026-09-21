@@ -30,6 +30,23 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
 - Meat Pie, Pastry, Sausage and Soup use pinned native single-use miscellaneous
   consumable profiles. Their four distinct icons share one consistently styled
   source contact sheet, with each crop and WebP encoding recorded separately.
+- The third production slice reviews Outfit, Eventide; Sleeping Box; Toe-Bean
+  Tuners; and Whiskey. Eventide is native clothing with a full-round
+  configuration action and a conditional all-saves note for its selected hot or
+  cold weather mode. Its mutually exclusive mode and nonlethal-only resistance
+  remain descriptive rather than an always-on Change. Sleeping Box and Toe-Bean
+  Tuners retain mundane gear profiles and original compact WebP art. Sleeping
+  Box's 1d4 temporary-hit-point benefit is deliberately deferred because PF1
+  11.11 loot actions do not execute from actors and a healing action would model
+  it incorrectly. Whiskey adapts the reviewed PF1 Content 11.4.0 Whiskey (Cup)
+  record into a single-use consumable, retains the wiki's bottle alternative,
+  and references Foundry's inspected core goblet art. The reuse audit now has 22
+  reviewed decisions and zero stale reviews.
+- Twelve entries have now been reviewed. Ten are complete; Catnip Hookah remains
+  pending for its Catnip-dose link and Sleeping Box remains pending for correct
+  temporary-hit-point activation support. The batch reports 12 implemented
+  images and 88 remaining; three new original icons are under the readable
+  `items/adventuring-gear` folder and Whiskey uses reviewed core art.
 - The production manifest allows reviewed PF1 type corrections while continuing
   to pin identity, source key, path, edition and description hash. Batch-aware
   audit queries and context-note hash validation have tests.

@@ -1,6 +1,6 @@
 {
   "_id": "0a00688019831bcc",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/adventuring-gear/outfit-eventide.webp",
   "name": "Outfit, Eventide",
   "system": {
     "description": {
@@ -9,7 +9,24 @@
       "unidentified": ""
     },
     "tags": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "8be1a580b56252d9",
+        "activation": {
+          "type": "full",
+          "unchained": {
+            "cost": 3,
+            "type": "action"
+          }
+        },
+        "name": "Change Weather Configuration",
+        "notes": {
+          "effect": [
+            "Configure the outfit for cold or hot weather; see the item description for the selected mode's benefits."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "quantity": 1,
@@ -56,7 +73,12 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
+    "contextNotes": [
+      {
+        "target": "allSavingThrows",
+        "text": "When configured for the relevant weather: +[[5]] circumstance bonus on saves against cold or hot weather, plus energy resistance 5 against nonlethal cold or fire damage from that weather. These benefits do not stack with those granted by Survival."
+      }
+    ],
     "links": {
       "children": []
     },
@@ -66,17 +88,48 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "subType": "gear",
-    "extraType": "",
-    "abundant": false,
+    "masterwork": false,
+    "enh": null,
+    "proficient": false,
+    "held": "1h",
+    "ammo": {
+      "type": "",
+      "capacity": null,
+      "misfire": null,
+      "explode": null
+    },
+    "subType": "clothing",
+    "slot": "clothing",
+    "equipmentSubtype": "",
+    "hands": 0,
+    "baseTypes": [],
+    "armor": {
+      "value": 0,
+      "dex": null,
+      "acp": 0,
+      "enh": 0,
+      "material": {
+        "base": {
+          "value": "",
+          "custom": false
+        },
+        "normal": {
+          "value": "",
+          "custom": false
+        },
+        "addon": []
+      }
+    },
+    "spellFailure": 0,
     "sources": [
       {
         "title": "Spheres of Power Wiki",
         "url": "http://spheresofpower.wikidot.com/adventuring-gear#toc15"
       }
-    ]
+    ],
+    "showInQuickbar": false
   },
-  "type": "loot",
+  "type": "equipment",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -97,17 +150,17 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "not-needed",
+        "contextNotes": "implemented",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "not-applicable",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
       }
     }
