@@ -86,6 +86,24 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   are complete. Sleeping Box, Arcanis Venenum, Catnip and the four Akashic items
   retain explicit deferred work. The batch reports 20 implemented images and 80
   remaining; the reuse ledger contains 30 decisions.
+- Fifth-slice implementation commit `51bddd0c8e12ebc408158d74b660169aefcc64b1`
+  passed the clean local gate with all 33 tests and two identical 700-file
+  builds. Runtime acceptance then exposed PF1's consumable price calculation:
+  a base price of 200 gp plus twenty charges worth 10 gp each displayed as
+  400 gp. Correction commit `2c7717f2e12de3f37c7e07834b38eb924138d5a1`
+  leaves the base price at zero so the twenty charges produce the published
+  200 gp total; a regression test pins that calculation.
+- The exact correction commit passed the full clean gate, deployed atomically,
+  verified installed bytes, pruned one oldest eligible module backup and
+  retained ten. Foundry 13.351 / PF1 11.11 displayed Black Powder at 200 gp,
+  20/20 charges and 10 gp per charge. Dragging it to the acceptance actor
+  preserved the profile; using one dose reduced it to 19/20 and lowered actor
+  inventory value by 10 gp. Catnip Hookah imported its linked Catnip child, and
+  Catnip's Single Use action reduced the actor copy to quantity zero. The only
+  browser error was a harmless login attempt before selecting Gamemaster;
+  scoped server logs contain the five expected ASC pack connections and no
+  warning or error. The world is back in Setup, and the final semantic audit
+  matched all 6,788 deployed documents to canonical sources at route `/auth`.
 - Clean correction commit `dd68c2885ccc782a9694e266f1453a61fb7ec64c`
   passed formatting, all 32 tests, source/reference validation and two identical
   697-file builds. Atomic deployment verified exact installed bytes, pruned the
