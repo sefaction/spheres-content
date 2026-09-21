@@ -312,6 +312,13 @@ test("reviewed Akashic wondrous items preserve native magic fields without globa
     assert.deepEqual(item.system.changes, []);
   }
 
+  const bloodFunnels = byId.get("7b7a74c15e7ccc13");
+  assert.match(bloodFunnels.system.description.value, /moderate necromancy/i);
+  assert.equal(
+    bloodFunnels.flags["additional-spheres-content"].audit.advanced,
+    "deferred",
+  );
+
   const ring = byId.get("1025cb3f8fc1661f");
   assert.equal(ring.system.actions[0].name, "Designate Title Veil");
   assert.equal(ring.system.actions[0].activation.type, "free");

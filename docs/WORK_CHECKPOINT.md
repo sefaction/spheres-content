@@ -54,7 +54,11 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   Thousand Names has a pinned free-action designation reminder. The other three
   effects trigger automatically or operate continuously and need no native
   activation. The reuse ledger now has 26 reviewed decisions and no stale
-  reviews.
+  reviews. Foundry UI acceptance also exposed a PF1 11.11 schema limitation:
+  Blood Funnels correctly stores CL 5 and the necromancy school, but PF1 derives
+  a Faint aura label from that caster level and offers no independent strength
+  override for the source's Moderate aura. The published aura remains explicit
+  in the description and the Advanced audit is deferred rather than overstated.
 - Akashic Magic 1.1.3 was source-reviewed at commit
   `0f95fd56e74653f7f8c59c86a4fc5b85e1d169ae`. It supports Foundry 13, native
   veils, actor essence and actor-wide Akashic Change targets. Those targets cannot
