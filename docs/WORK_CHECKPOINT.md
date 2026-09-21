@@ -70,6 +70,21 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
 - Sixteen entries have now been reviewed. Ten are complete; the four Akashic
   items remain pending for the compatibility work above, alongside Catnip Hookah
   and Sleeping Box. The batch reports 16 implemented images and 84 remaining.
+- Clean correction commit `dd68c2885ccc782a9694e266f1453a61fb7ec64c`
+  passed formatting, all 32 tests, source/reference validation and two identical
+  697-file builds. Atomic deployment verified exact installed bytes, pruned the
+  oldest eligible module backup and retained ten. Pre-load package hashes and
+  the final semantic audit passed; all 6,788 deployed documents match canonical
+  sources at route `/auth`.
+- Foundry 13.351 / PF1 11.11 acceptance opened all four Akashic sheets. Their
+  images, native profiles, physical fields, descriptions and aura data rendered;
+  Ring of a Thousand Names exposes its pinned free action. Blood Funnels visibly
+  demonstrates the documented derived-aura limitation while retaining the source
+  wording. No module error occurred. One harmless rejected join before selecting
+  Gamemaster is the only captured browser error. The dedicated world is back in
+  Setup. The first semantic attempt hit an intermittent Foundry CLI iterator-close
+  error on a local Classes snapshot; that same snapshot then extracted all 117
+  documents, and a fresh complete semantic audit passed.
 - Commit `affb2f575e683121e31259ee02e21eac9f3b978d` passed all 31 tests,
   source/reference validation and two identical 693-file clean builds. Atomic
   deployment verified installed bytes, removed the oldest eligible backup and
