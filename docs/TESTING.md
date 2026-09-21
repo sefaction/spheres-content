@@ -281,3 +281,27 @@ pack documents to the deployed commit, all non-pack receipt bytes and referenced
 external images. An earlier attempt encountered an intermittent iterator-close
 error while extracting a local copy of the Classes pack; the unchanged snapshot
 immediately extracted all 117 records on isolation, and the complete retry passed.
+
+## Alpha.6 twenty-item production acceptance
+
+Clean committed verification passed on
+`fed942b697ca785abe7a54723d46b4943c4f30d0` with 37 tests, full reference
+validation and two identical 719-file builds. The ZIP SHA-256 is
+`e68a66d7c6472a120a023b0a53a8a270ebf64714c5b9d2dea1efa80f2b889f21`.
+The staged SMB deployment verified exact installed bytes, removed one oldest
+eligible rollback and retained ten. No host or container restart was performed.
+
+The Items pack displayed 626 entries in Foundry 13.351 / PF1 11.11. Alteration's
+Bane opened as a CL 14 evocation Potion/Oil with the complete description,
+Single Use setting and pinned Drink action. Apprentice Blastmage's Etherstaff
+opened as CL 8 evocation wondrous equipment with 10/10 native charges. Band of
+Grounded Realities opened with its finger slot and CL 12. Lightning Rod loaded
+its generated module image and showed 50 gp, 2 lb. and its complete conditional
+structure rule. Shared artwork for the four reality bands and related
+etherstaves loaded from the readable `items/ethermagic` folder.
+
+Browser capture found no ASC error. Existing PF1, pf1spheres and unrelated
+module Foundry 13 manifest/deprecation warnings remain. The dedicated world was
+returned to Setup. The final semantic audit matched all 6,788 pack documents to
+canonical sources at the deployed commit and verified all non-pack receipt bytes
+using local copies of the installed LevelDB databases.

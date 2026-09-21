@@ -1,6 +1,6 @@
 ﻿# Work checkpoint
 
-Updated: 2026-09-20 (work began 2026-09-19 local time).
+Updated: 2026-09-21 (work began 2026-09-19 local time).
 
 ## Current batch: first 100 physical items
 
@@ -24,12 +24,31 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   acceptance, semantic audit, documentation update and CI cycle covers the
   complete twenty-entry group. Entries with already reviewed art are not
   reselected simply because later automation remains deferred.
-- The active twenty-entry plan covers Lightning Rod through Etherstaff of the
+- The completed twenty-entry plan covers Lightning Rod through Etherstaff of the
   Modeling Enthusiast: one reuse decision, four planar power components, one
   structure, one consumable, four related rings and nine etherstaves. The
   etherstaves share the source-defined ten-charge capacity and recharge rules;
-  their individual manifestations and special actions still require exact
-  per-item notes and must not be guessed from a generic spell action.
+  their individual manifestations and special actions remain in their complete
+  descriptions pending a compatible Ethermagic action interface.
+- Commit `fed942b697ca785abe7a54723d46b4943c4f30d0` implements that twenty-entry
+  group and the production planner. All 37 tests, reference validation and two
+  deterministic 719-file builds passed; ZIP SHA-256 is
+  `e68a66d7c6472a120a023b0a53a8a270ebf64714c5b9d2dea1efa80f2b889f21`.
+  The scoped deployment verified exact bytes, removed the oldest eligible
+  rollback and retained ten backups without restarting the host or container.
+- Foundry 13.351 / PF1 11.11 acceptance opened Alteration's Bane, Apprentice
+  Blastmage's Etherstaff, Band of Grounded Realities and Lightning Rod. Their
+  generated WebP art, complete descriptions and source links rendered. The
+  potion showed CL 14, evocation, Potion/Oil, Single Use and Drink; the staff
+  showed CL 8, evocation and 10/10 charges; the ring showed the finger slot and
+  CL 12; the rod showed 50 gp and 2 lb. No ASC error appeared. Existing PF1,
+  pf1spheres and unrelated-module Foundry 13 warnings remain. The world is back
+  in Setup and the final semantic audit matched all 6,788 documents.
+- The batch now has 46 reviewed reuse decisions, 46 implemented images and 54
+  unresolved images. Fourteen entries are complete; the others retain explicit
+  deferred automation or compatibility work. The next planner result begins
+  with Fjodor's (Relatively) Faithful Friend and groups two remaining
+  etherstaves with eighteen individual magic-item reviews.
 - The first two production slices review Catnip Hookah, Cider, Fruitcake (loaf
   of), Map, Tradewind, Meat Pie, Pastry, Sausage and Soup. All eight have
   original 256 px WebP icons in the readable
