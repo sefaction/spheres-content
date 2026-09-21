@@ -131,6 +131,37 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   The scoped server log shows all five ASC pack connections and no matching
   warning, error or exception. The world is back in Setup and the final semantic
   audit matched all 6,788 installed documents to canonical sources at `/auth`.
+- The seventh production slice reviews Brimstone Briquette, Inversion Prism and
+  Iridium Jellenate. Each is native zero-weight Gear with its published
+  single-dose price, complete source text and original 256 px WebP art under
+  `items/equipment`. Their descriptions preserve both consumable-dose and
+  reusable-focus quantities: 10 brimstone briquettes, 30 inversion prisms, or
+  10 doses of iridium jellenate form the respective focus. A destructive
+  Single Use action would incorrectly consume that reusable focus, so these
+  entries deliberately have no activation or native uses profile.
+- Their bonuses qualify individual effects: ongoing catch-fire damage and the
+  extinguish DC, the save DC of dark/light effects, or the hardness of objects
+  created by an effect. Static actor-wide Changes or context notes would apply
+  outside those boundaries. Changes, context notes, usage and compatibility
+  therefore remain explicitly deferred for a future qualifying-effect adapter;
+  the exact rules are retained in each description.
+- Twenty-six batch entries are reviewed and thirteen are complete. The batch
+  now has 26 implemented images and 74 remaining. The physical reuse report
+  records 35 current reviewed decisions, one unrelated stale decision and one
+  unavailable provider pack; none of these three items had an exact or
+  normalized candidate.
+- Implementation commit `b31886def592fc2e67bd4677928acde6b9e146f4`
+  passed formatting, all 34 tests, source/reference validation and two identical
+  706-file clean builds; ZIP SHA-256 is
+  `159252c71aabdd66a418163e0cec2be0b04978f58630a25dda1dab2f1447908f`.
+  Atomic deployment verified exact installed bytes, pruned the oldest eligible
+  module backup and retained ten without a restart. Foundry 13.351 / PF1 11.11
+  opened all three sheets with their correct original art, Gear subtype, zero
+  weight, prices, complete descriptions and source links. The empty Changes
+  view was confirmed on Iridium Jellenate. The latest server launch connected
+  all five ASC packs with no warning, error or exception in the acceptance
+  window. The world is back in Setup and the final semantic audit matched all
+  6,788 installed documents to canonical sources at `/auth`.
 - Clean correction commit `dd68c2885ccc782a9694e266f1453a61fb7ec64c`
   passed formatting, all 32 tests, source/reference validation and two identical
   697-file builds. Atomic deployment verified exact installed bytes, pruned the
