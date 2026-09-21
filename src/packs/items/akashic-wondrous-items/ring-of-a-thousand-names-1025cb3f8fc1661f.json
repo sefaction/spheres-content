@@ -3,7 +3,7 @@
   "_key": "!items!1025cb3f8fc1661f",
   "name": "Ring of a Thousand Names",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/akashic-wondrous-items/ring-of-a-thousand-names.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,17 +24,17 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
       }
     }
@@ -63,10 +63,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "enc"
     },
     "hp": {},
     "broken": false,
@@ -84,7 +84,23 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "428c25170d03f8a2",
+        "activation": {
+          "type": "free",
+          "unchained": {
+            "type": "free"
+          }
+        },
+        "name": "Designate Title Veil",
+        "notes": {
+          "effect": [
+            "Designate one currently shaped title veil. Once per round, that veil is treated as having additional essence invested equal to the essence invested in this ring; see the item description for limits."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {

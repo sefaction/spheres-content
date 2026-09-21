@@ -47,6 +47,25 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   temporary-hit-point activation support. The batch reports 12 implemented
   images and 88 remaining; three new original icons are under the readable
   `items/adventuring-gear` folder and Whiskey uses reviewed core art.
+- The fourth production slice reviews Blood Funnels, Refinement Charm, Ring of a
+  Thousand Names and Suqur's Gift. All four are native wondrous equipment with
+  correct caster levels, aura schools, slots, prices, complete source text and
+  original 256 px WebP icons under `items/akashic-wondrous-items`. Ring of a
+  Thousand Names has a pinned free-action designation reminder. The other three
+  effects trigger automatically or operate continuously and need no native
+  activation. The reuse ledger now has 26 reviewed decisions and no stale
+  reviews.
+- Akashic Magic 1.1.3 was source-reviewed at commit
+  `0f95fd56e74653f7f8c59c86a4fc5b85e1d169ae`. It supports Foundry 13, native
+  veils, actor essence and actor-wide Akashic Change targets. Those targets cannot
+  safely automate these four items because their benefits affect one selected
+  veil or essence invested in the equipment itself. Static Changes would also
+  misrepresent Suqur's Gift's scaled flight. The exact rules remain descriptive,
+  and compatibility/automation are deferred to issue #17 pending a separate
+  compatibility-world test and adapter design.
+- Sixteen entries have now been reviewed. Ten are complete; the four Akashic
+  items remain pending for the compatibility work above, alongside Catnip Hookah
+  and Sleeping Box. The batch reports 16 implemented images and 84 remaining.
 - Commit `affb2f575e683121e31259ee02e21eac9f3b978d` passed all 31 tests,
   source/reference validation and two identical 693-file clean builds. Atomic
   deployment verified installed bytes, removed the oldest eligible backup and

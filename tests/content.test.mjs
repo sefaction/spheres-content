@@ -291,3 +291,28 @@ test("reviewed Hidden Blade and Trail Rations use pinned native PF1 profiles", a
     /Reviewed Changes changed/,
   );
 });
+
+test("reviewed Akashic wondrous items preserve native magic fields without global essence changes", async () => {
+  const { docs } = await validateContentCatalog();
+  const byId = new Map(docs.map(({ doc }) => [doc._id, doc]));
+  const expected = [
+    ["7b7a74c15e7ccc13", 5, "nec", "slotless"],
+    ["0c1c87ecdd107f28", 1, "uni", "slotless"],
+    ["1025cb3f8fc1661f", 5, "enc", "ring"],
+    ["1a6640960c79a399", 8, "trs", "slotless"],
+  ];
+
+  for (const [id, cl, school, slot] of expected) {
+    const item = byId.get(id);
+    assert.equal(item.type, "equipment");
+    assert.equal(item.system.subType, "wondrous");
+    assert.equal(item.system.cl, cl);
+    assert.equal(item.system.aura.school, school);
+    assert.equal(item.system.slot, slot);
+    assert.deepEqual(item.system.changes, []);
+  }
+
+  const ring = byId.get("1025cb3f8fc1661f");
+  assert.equal(ring.system.actions[0].name, "Designate Title Veil");
+  assert.equal(ring.system.actions[0].activation.type, "free");
+});
