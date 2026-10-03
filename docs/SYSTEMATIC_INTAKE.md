@@ -12,10 +12,22 @@ waits until the other collections have been worked through.
 ## Production cadence
 
 Production review uses twenty-entry acceptance groups by default. Run
-`npm.cmd run plan:production -- --limit=20` to select the next entries whose
-image audit is still unresolved and group them by reusable modeling lane. A
-reviewed entry with deferred automation is not selected again merely because
-its production status remains pending.
+`npm.cmd run plan:production -- --limit=20` to classify the entire unresolved-image
+queue before selecting a group. Reuse decisions come first, followed by the
+established staff/ring/component/consumable/structure profiles, weapon and wearable
+profiles, and broader container/wondrous/armor-property reviews. Larger groups
+come first within each priority tier; lane name and stable source key break ties.
+Categories are scheduling hints only: each entry still needs source, native type,
+rights, artwork and mechanics review. The planner does not assign those fields.
+
+Frozen batch membership, identities and hashes stay unchanged. Completed images
+and explicit blocked entries are excluded. A reviewed entry with deferred
+automation is not selected again merely because its production status remains
+pending. `--order=manifest` retains the former manifest order when needed.
+`--offset=20` selects the next window in the current ordering; offsets are valid
+for that queue snapshot only. Completing entries or refreshing reuse data can
+change later plans, so regenerate from offset zero after each accepted group.
+The output reports both selected lanes and whole-queue lane counts.
 
 Within one group, resolve reuse candidates and shared native profiles first,
 then update canonical documents, compact artwork and every audit facet together.
@@ -25,6 +37,21 @@ semantic audit, documentation update and CI once at the end of the group. Split
 an entry out only when rights are unclear or its implementation would require a
 new schema or compatibility adapter; record the hold and continue the rest of
 the group.
+
+### Efficient local checks
+
+During item authoring, run the affected tests or standalone source/reference
+validation instead of the full build gate after each edit. Content tests share
+one deeply frozen catalog snapshot; mutation tests clone their input. Each clean
+build validates a fresh catalog once and passes that snapshot through references
+and compilation. Identity lookups use a source-key index, and the planner passes
+its intake snapshot into reuse review instead of reading the ledger twice.
+These are process-local snapshots, not a persistent validation cache.
+
+`npm.cmd run verify` still checks the whole catalog, all tests, two independent
+clean builds, every compiler round trip and byte-identical archives. Standalone
+`validate:content` and `validate:references` read fresh sources. Remote acceptance
+and semantic comparison still apply before delivery of content changes.
 
 ## Repeatable workflow
 

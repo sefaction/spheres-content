@@ -449,6 +449,14 @@ export async function validateContentCatalog() {
   const catalog = await json("config/content.json");
   const manifest = await json("module.json");
   const identities = await json("config/identities.json");
+  const identitiesByKey = new Map();
+  for (const identity of identities) {
+    assert(
+      !identitiesByKey.has(identity.sourceKey),
+      "Duplicate identity source key",
+    );
+    identitiesByKey.set(identity.sourceKey, identity);
+  }
   const containers = await json("config/containers.json");
   const intakeSources = await json("config/intake-sources.json");
   const physicalReviews = await json("config/physical-item-reviews.json");
@@ -592,7 +600,7 @@ export async function validateContentCatalog() {
       );
       usedIds.add(doc._id);
       usedKeys.add(key);
-      const identity = identities.find((i) => i.sourceKey === key);
+      const identity = identitiesByKey.get(key);
       assert.equal(
         identity?.pack,
         pack.name,

@@ -110,14 +110,14 @@ export function reviewIsCurrent(review, entity, candidates) {
   );
 }
 
-export async function physicalReviewReport() {
+export async function physicalReviewReport({ entities } = {}) {
   const index = JSON.parse(
     await readFile(".local/reuse-index/index.json", "utf8"),
   );
   const reviews = JSON.parse(
     await readFile("config/physical-item-reviews.json", "utf8"),
   );
-  const entities = (await readFile("research/intake/entities.jsonl", "utf8"))
+  entities ??= (await readFile("research/intake/entities.jsonl", "utf8"))
     .trim()
     .split("\n")
     .map(JSON.parse);

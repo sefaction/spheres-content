@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import test from "node:test";
+import test, { before } from "node:test";
 import { json, moduleId } from "../scripts/lib.mjs";
 import {
   validateEntity,
@@ -9,8 +9,21 @@ import {
   containerTotals,
 } from "../scripts/content.mjs";
 
+// Tests read one snapshot; mutation tests clone their inputs first.
+let validatedCatalog;
+before(async () => {
+  validatedCatalog = await validateContentCatalog();
+  const freeze = (value) => {
+    if (value && typeof value === "object") {
+      Object.values(value).forEach(freeze);
+      Object.freeze(value);
+    }
+  };
+  freeze(validatedCatalog);
+});
+
 test("pilot source, pack, provenance and image inventories agree", async () => {
-  const { docs } = await validateContentCatalog();
+  const { docs } = validatedCatalog;
   assert.deepEqual(
     docs
       .filter(
@@ -72,7 +85,7 @@ test("pilot source, pack, provenance and image inventories agree", async () => {
 });
 
 test("physical production batch freezes 100 stable canonical identities", async () => {
-  const { docs } = await validateContentCatalog();
+  const { docs } = validatedCatalog;
   const inventory = await json("config/production-batches.json");
   const batch = inventory.batches["physical-items-batch-1"];
   assert.equal(batch.issue, 15);
@@ -173,7 +186,7 @@ test("reviewed context notes are pinned to their stable document identity", asyn
 });
 
 test("container validation rejects missing contents, double counting, broken child identity and unreviewed actions", async () => {
-  const { catalog, docs } = await validateContentCatalog();
+  const { catalog, docs } = validatedCatalog;
   const original = docs.find(({ doc }) => doc._id === "5feccdaf3cbf89f1").doc;
   const identity = (await json("config/identities.json")).find(
     (i) => i.id === original._id,
@@ -222,7 +235,7 @@ test("container validation rejects missing contents, double counting, broken chi
 });
 
 test("reviewed Hidden Blade and Trail Rations use pinned native PF1 profiles", async () => {
-  const { catalog, docs } = await validateContentCatalog();
+  const { catalog, docs } = validatedCatalog;
   const identities = await json("config/identities.json");
   const intakeSources = await json("config/intake-sources.json");
   const sources = new Map(
@@ -294,7 +307,7 @@ test("reviewed Hidden Blade and Trail Rations use pinned native PF1 profiles", a
 });
 
 test("reviewed Akashic wondrous items preserve native magic fields without global essence changes", async () => {
-  const { docs } = await validateContentCatalog();
+  const { docs } = validatedCatalog;
   const byId = new Map(docs.map(({ doc }) => [doc._id, doc]));
   const expected = [
     ["7b7a74c15e7ccc13", 5, "nec", "slotless"],
@@ -326,7 +339,7 @@ test("reviewed Akashic wondrous items preserve native magic fields without globa
 });
 
 test("reviewed alchemical items preserve PF1 consumable profiles and the Hookah supplement link", async () => {
-  const { docs } = await validateContentCatalog();
+  const { docs } = validatedCatalog;
   const byId = new Map(docs.map(({ doc }) => [doc._id, doc]));
   const arcanis = byId.get("22090041e723f52f");
   const blackPowder = byId.get("333c4e288cf41817");
@@ -451,7 +464,7 @@ test("reviewed alchemical items preserve PF1 consumable profiles and the Hookah 
 });
 
 test("reviewed planar power components preserve dose and focus rules without global modifiers", async () => {
-  const { docs } = await validateContentCatalog();
+  const { docs } = validatedCatalog;
   const byId = new Map(docs.map(({ doc }) => [doc._id, doc]));
   const expected = [
     [
@@ -495,7 +508,7 @@ test("reviewed planar power components preserve dose and focus rules without glo
 });
 
 test("twenty-item production lane applies shared PF1 profiles without inventing Ethermagic rolls", async () => {
-  const { docs } = await validateContentCatalog();
+  const { docs } = validatedCatalog;
   const bySource = new Map(
     docs.map(({ doc }) => [
       doc.flags["additional-spheres-content"].sourceKey,

@@ -1,8 +1,38 @@
 ﻿# Work checkpoint
 
-Updated: 2026-09-21 (work began 2026-09-19 local time).
+Updated: 2026-10-02 (work began 2026-09-19 local time).
 
-## Current batch: first 100 physical items
+## Active tooling batch: production efficiency
+
+- Branch `codex/production-efficiency`, based on `d70d7a5` from
+  `content/physical-items-batch-1`. Issue #18:
+  https://github.com/sefaction/spheres-content/issues/18.
+  This is a separate tooling batch stacked on draft PR #16; target its branch
+  until #16 is individually approved and merged. No merge or release approval.
+- Group the full unresolved-image queue before selecting twenty entries. Add
+  weapon, wearable, container, wondrous and armor-property scheduling lanes;
+  preserve frozen membership, source IDs/hashes and explicit holds.
+  `--order=manifest` preserves the old ordering.
+- Content tests share one deeply frozen validated snapshot; each independent
+  clean build validates once. Standalone validators stay fresh, and compiler
+  round trips, two clean builds, references, provenance and archive checks remain.
+- Focused checks passed. Full committed verification and PR publication pending.
+- Remote read-only reconciliation confirmed alpha.6 / PF1 11.11 and the dedicated
+  test-world marker. The saved receipt still records `fed942b`. HTTP currently
+  ends at `/join`, so a world is running; its identity and active users were not
+  inspected. No deployment, world switch, restart or remote data change occurred.
+  Return the designated instance to Setup through authorized coordination before
+  any deployment or semantic audit. Do not deactivate an unidentified world.
+- The old local verification receipt was dirty and stale. It cannot authorize a
+  new deployment; run a clean committed gate immediately before any later deploy.
+- Source compendia, artwork, module version and compatibility are unchanged.
+  The content batch remains at 46 reviewed entries / 54 unresolved images.
+  The new next group has two etherstaves, two rings, thirteen wearables and three
+  weapons, rather than eighteen individually classified entries and two staves.
+- Next safe step: complete tooling verification, publish its stacked PR, and
+  record results here. Resume content production separately after this batch.
+
+## Current content batch: first 100 physical items
 
 - Branch `content/physical-items-batch-1`; issue #15 and draft PR #16:
   https://github.com/sefaction/spheres-content/issues/15 and
