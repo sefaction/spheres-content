@@ -7,6 +7,7 @@ Updated: 2026-10-02 (work began 2026-09-19 local time).
 - Branch `codex/production-efficiency`, based on `d70d7a5` from
   `content/physical-items-batch-1`. Issue #18:
   https://github.com/sefaction/spheres-content/issues/18.
+  Draft PR #19: https://github.com/sefaction/spheres-content/pull/19.
   This is a separate tooling batch stacked on draft PR #16; target its branch
   until #16 is individually approved and merged. No merge or release approval.
 - Group the full unresolved-image queue before selecting twenty entries. Add
@@ -16,7 +17,19 @@ Updated: 2026-10-02 (work began 2026-09-19 local time).
 - Content tests share one deeply frozen validated snapshot; each independent
   clean build validates once. Standalone validators stay fresh, and compiler
   round trips, two clean builds, references, provenance and archive checks remain.
-- Focused checks passed. Full committed verification and PR publication pending.
+- Implementation commit `ec5e324e465887be1c1e2e50bda5fac39e4436bf` passed
+  clean committed verification: formatting, syntax checks, all 40 tests,
+  provenance/references, all 6,788 compiler round trips and two deterministic
+  719-file archives. ZIP SHA-256:
+  `1300427c117e33fabcfee3a85deaa4d8101f2bb40d5ddab5f47336b06a5513eb`.
+  Full gate took 173.6 seconds; tests took 12.7 seconds versus 79.8 seconds for
+  the prior 37-test run on this machine. These are illustrative timings, not a
+  controlled benchmark. Tests/builds now validate the catalog three times rather
+  than fourteen. Regression tests cover grouping before limits, deterministic
+  ordering, paging without gaps/duplicates and unchanged frozen membership.
+- PR #19 is pushed and remains draft for pending remote acceptance. CI pending.
+  This documentation-only follow-up is not the locally verified implementation
+  commit; its final checkout must pass CI and a fresh clean gate before any deploy.
 - Remote read-only reconciliation confirmed alpha.6 / PF1 11.11 and the dedicated
   test-world marker. The saved receipt still records `fed942b`. HTTP currently
   ends at `/join`, so a world is running; its identity and active users were not
@@ -29,8 +42,10 @@ Updated: 2026-10-02 (work began 2026-09-19 local time).
   The content batch remains at 46 reviewed entries / 54 unresolved images.
   The new next group has two etherstaves, two rings, thirteen wearables and three
   weapons, rather than eighteen individually classified entries and two staves.
-- Next safe step: complete tooling verification, publish its stacked PR, and
-  record results here. Resume content production separately after this batch.
+- Obsidian records the durable grouped-review workflow decision under issue #18.
+  Next safe step: check PR #19 CI, coordinate the designated instance back to
+  Setup for remote acceptance, then review this tooling PR individually. Resume
+  content production separately; no content or artwork has been added here.
 
 ## Current content batch: first 100 physical items
 
