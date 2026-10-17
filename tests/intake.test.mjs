@@ -8,6 +8,7 @@ import {
   classPlan,
 } from "../scripts/content-audit.mjs";
 import { sitemapUrls } from "../scripts/wiki-crawl.mjs";
+import { json } from "../scripts/lib.mjs";
 const url = "http://spheresofpower.wikidot.com/test-feats";
 const wrap = (body) =>
   `<h1 id="page-title">Test Feats</h1><div id="page-content">${body}</div>`;
@@ -140,5 +141,60 @@ test("sitemap intake deduplicates canonical site URLs and rejects foreign/admin 
       "<urlset><url><loc>https://spheresofpower.wikidot.com/example</loc></url><url><loc>http://spheresofpower.wikidot.com/example#x</loc></url><url><loc>https://evil.example/test</loc></url><url><loc>http://spheresofpower.wikidot.com/admin:test</loc></url></urlset>",
     ),
     ["http://spheresofpower.wikidot.com/example"],
+  );
+});
+
+test("final item boundaries exclude publisher navigation while preserving rule tables", () => {
+  const nav =
+    '<hr><table><tr><th colspan="2">Systems by <a href="/interjection">Interjection Games</a></th></tr><tr><th>Strange Magic 1</th><td><a href="/the-triggerman">The Triggerman</a></td></tr></table>';
+  const rules =
+    "<p><strong>Aura</strong> strong transmutation; <strong>CL</strong> 18th; <strong>Price</strong> 59400 gp; <strong>Weight</strong> 4 lbs.</p><p>A final magical pistol with its complete special rules.</p><table><tr><th>Rules table</th></tr><tr><td>Preserved damage detail</td></tr></table><p><strong>Construction Requirements</strong> Craft Magic Arms and Armor; <strong>Cost</strong> 29700 gp.</p>";
+  const clean = sanitize(rules + nav, url);
+  assert.match(clean, /Preserved damage detail/);
+  assert.match(clean, /29700 gp/);
+  assert.doesNotMatch(clean, /Interjection|Triggerman|<hr>/);
+  const entities = extractPage(
+    wrap(
+      '<h2>Magic Items</h2><h3 id="toc45">Final Magical Pistol</h3>' +
+        rules +
+        nav,
+    ),
+    "http://spheresofpower.wikidot.com/ethermagic-items",
+  ).entities;
+  const item = entities.find(
+    (entity) => entity.name === "Final Magical Pistol",
+  );
+  assert(item);
+  assert.match(item.description, /Preserved damage detail/);
+  assert.match(item.description, /29700 gp/);
+  assert.doesNotMatch(item.description, /Interjection|Triggerman/);
+});
+
+test("corrected Glittergun source retains its identity, snapshot and construction requirements", async () => {
+  const doc = await json(
+    "src/packs/items/ethermagic-items/sparklys-glittergun-0829eb6deb2c2561.json",
+  );
+  const meta = doc.flags["additional-spheres-content"];
+  const batches = await json("config/production-batches.json");
+  const entry = batches.batches["physical-items-batch-1"].entries.find(
+    (entry) => entry.id === doc._id,
+  );
+  assert.equal(doc._id, "0829eb6deb2c2561");
+  assert.equal(
+    meta.sourceSha256,
+    "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+  );
+  assert.equal(entry.sourceKey, meta.sourceKey);
+  assert.equal(entry.descriptionSha256, meta.descriptionSha256);
+  assert.equal(
+    entry.sourceBoundaryCorrection.previousDescriptionSha256,
+    "917d8d17127a151eff8e7d37901c511064329c27e7e9b8bcb177bf6780356aed",
+  );
+  assert.match(doc.system.description.value, /29,700 gp/);
+  assert.match(doc.system.description.value, /quantum indeterminacy/);
+  assert.match(doc.system.description.value, /Source: Spheres of Power Wiki/);
+  assert.doesNotMatch(
+    doc.system.description.value,
+    /Systems by Interjection Games|Get The Triggerman/,
   );
 });

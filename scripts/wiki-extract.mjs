@@ -50,11 +50,27 @@ const allowed = new Set([
   "sub",
   "a",
 ]);
+function removeNavigationTables($, root) {
+  root.find("table").each((_, element) => {
+    const table = $(element);
+    const heading = compact(table.find("th").first().text());
+    if (
+      /^(?:Spheres of (?:Power|Might|Guile)|Champions of the Spheres).*by /i.test(
+        heading,
+      ) ||
+      /^Systems by Interjection Games$/i.test(heading)
+    ) {
+      if (table.prev().is("hr")) table.prev().remove();
+      table.remove();
+    }
+  });
+}
 export function sanitize(html, url) {
   const $ = load(html, null, false);
   $(
     "script,style,iframe,object,embed,img,form,input,button,.toc,#toc",
   ).remove();
+  removeNavigationTables($, $.root());
   $("*").each((_, e) => {
     if (!allowed.has(e.tagName)) {
       $(e).replaceWith($(e).contents());
@@ -90,14 +106,7 @@ export function wikiBlocks(html, url) {
     (t.length ? t : $(e)).remove();
   });
   main.find("script,style,.noselect").remove();
-  main.find("table").each((_, e) => {
-    if (
-      /^(?:Spheres of (?:Power|Might|Guile)|Champions of the Spheres).*by /i.test(
-        compact($(e).find("th").first().text()),
-      )
-    )
-      $(e).remove();
-  });
+  removeNavigationTables($, main);
   const blocks = [];
   function walk(nodes, edition = "current") {
     for (const e of nodes) {
