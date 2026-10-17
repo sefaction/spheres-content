@@ -35,17 +35,30 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   published +10,000 gp fee instead of 5,000 gp construction cost. The parser
   accepts the plus sign. A non-Akashic catalog scan found these two explicit
   numeric additive Price headers; both now agree. No broad intake refresh ran.
-- Focused source, profile and negative-validation tests pass. Full clean gate,
-  deterministic builds and compiler round trips are pending. Open a draft PR
-  stacked on `codex/physical-items-group-3` after verification; reference #15,
-  #20 and #24. Neither source issue nor umbrella has been closed.
+- Implementation `23dc045a8f6d4094629d159efea5c39f74acd21b` passed clean full
+  verification: formatting, lint, all 60 tests, source/reference/provenance guards,
+  all 6,788 compiler round trips and two identical 753-file builds. ZIP SHA-256:
+  `01cccd5b9490b8aeb7b30cd72731055d0ba3eec922005af6582b4257f1a145d9`.
+- Draft PR #25 is pushed and stacked on `codex/physical-items-group-3` (#23):
+  https://github.com/sefaction/spheres-content/pull/25. CI remains pending until
+  checked. References #15, #20 and #24; none is closed and no merge is approved.
+  This documentation follow-up needs a fresh clean gate before deployment.
 - Remote last checked read-only: HTTP 200 at `/join`, unidentified world running,
   PF1 11.11 / pf1spheres 0.9.0 / installed module alpha.6. Last deployment receipt
   remains `fed942b`. No deployment, world switch or restart. A user status question
   about Setup is pending; continue independent local work without assuming a reply.
-- Next safe step: clean full gate, actual-result checkpoint, push and draft PR.
-  Then accept the branch in the dedicated world once Setup is confirmed, or
-  select the next non-Akashic physical-item production batch with explicit bounds.
+- Next safe step: check PR #25 CI, then accept the branch in the dedicated world
+  once Setup is confirmed, or start the next non-Akashic production branch.
+  First-batch image work is done; keep its status active while mechanics and
+  remote acceptance remain incomplete.
+- Independent next-batch research is cached in ignored
+  `.local/next-non-akashic-candidates.json` (521 unreviewed candidates before
+  edition/mechanics screening). Metamagic apparatus base rules are pinned in
+  `.local/metamagic-base-profile-research.json`: lesser CL 5, faint untyped aura,
+  effects up to CL 7, normally three daily uses as part of casting, held or worn
+  by form. Combination-apparatus exceptions and each effect require review.
+  Feat spell-point costs are not the physical apparatus's use cost. No next-batch
+  item, image or frozen membership has been authored. Preserve IDs/source hashes.
 
 ## Prior reviewed content batch: physical item group 3
 
