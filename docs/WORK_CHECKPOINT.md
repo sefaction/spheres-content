@@ -19,17 +19,36 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
 - The parser/source boundary correction is committed at `2c4d1e6` under issue #20.
   Source snapshots, stable IDs, source keys and complete item rules are retained.
   Issue #22 tracks contradictory source slot headers. Neither issue is closed.
-- Targeted group tests pass. Full formatting, all tests, deterministic builds and
-  compiler round trips are pending for the new twenty entries. No new PR yet.
+- Clean implementation commit `8b4fbb5e15fc883c36a5334e986787685cd01a73` passed
+  formatting, lint, all 51 tests, content/reference/provenance checks, all 6,788
+  compiler round trips and two identical 740-file builds. ZIP SHA-256:
+  `14d003da08b1214e081f7da9478eebd6d70c795a59e30807527b404673858d0c`.
+  The planner test now permits a final group smaller than twenty; behavior is
+  unchanged. Documentation follow-up needs a fresh clean gate before deployment.
+- Draft PR #23 is pushed and stacked on PR #21:
+  https://github.com/sefaction/spheres-content/pull/23. CI is pending until checked.
   No remote acceptance, compatibility claim, merge or release is implied.
 - PR #21 remains draft with passing Windows/Ubuntu CI at `2714dad`.
-  Plan a new draft PR stacked on `codex/physical-items-group-2` after the clean
-  full gate; include issues #15, #20 and #22.
+  PR #23 targets `codex/physical-items-group-2` and references #15, #20 and #22.
+  No individual PR merge approval has been given.
 - Remote last checked read-only: `/join`, unidentified running world. No
   deployment, world switch or restart. Last saved deployed receipt: `fed942b`.
   Coordinate Setup before remote acceptance; continue independent local work.
-- Next safe step: run the full clean gate, record actual results, push and open
-  the coherent group PR, then prepare the remaining fourteen non-Akashic entries.
+- Next safe step: check PR #23 CI, then create a final-group branch from this
+  branch. The fourteen remaining entries are cached in ignored
+  `.local/remaining-physical-group.json`; exact/component searches and four full
+  source records are in `.local/final-group-reuse-searches.json` and
+  `.local/final-group-component-refs.json`. No final-group art or source edits yet.
+- Trash Bag contains another publisher-navigation table, headed Gonzo 1 and 2
+  by Little Red Goblin Games, after its construction cost. Issue #20 remains
+  open with the hash-pinned finding. Correct that boundary and its frozen/audit
+  digests deliberately before marking the item reviewed. Its native container
+  must reconcile the published full weight with usable improvised trash contents.
+  Disc of Rainbow Tears needs the native Buckler shield profile; armor properties
+  must not be modeled as complete wearable suits. Retain source variant choices.
+- Read-only remote recheck: HTTP 200 at `/join`, PF1 11.11, pf1spheres 0.9.0 and
+  installed module alpha.6. The running world remains unidentified. Continue
+  independent local work while coordinating Setup for remote acceptance.
 
 ## Prior reviewed content batch: physical item group 2
 
