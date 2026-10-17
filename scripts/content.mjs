@@ -263,6 +263,8 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
     if (doc.type === "equipment") {
       if (meta.nativeProfile === "reviewed-metamagic-apparatus")
         validateMetamagicApparatus(doc, options.metamagicProfiles);
+      if (meta.nativeProfile === "boots-of-striding-land-speed")
+        validateLandSpeedBoots(doc);
       if (meta.nativeProfile === "reviewed-buckler") {
         assert.equal(
           meta.reuse?.sourceUuid,
@@ -334,6 +336,11 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
     assert(Number.isInteger(s.quantity) && s.quantity > 0);
     if (doc.type === "container") {
       assert(!options.contained, "Nested containers require review");
+      assert.deepEqual(
+        s.actions ?? [],
+        [],
+        "PF1 container sheets do not expose activation actions",
+      );
       const assembly = options.containers?.[meta.assembly];
       assert(
         assembly && assembly.containerId === doc._id,
@@ -406,6 +413,27 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
       );
     }
   }
+}
+
+export function validateLandSpeedBoots(doc) {
+  const meta = doc.flags[moduleId];
+  assert.equal(meta.automation, "reviewed");
+  assert.equal(doc.type, "equipment");
+  assert.equal(doc.system.slot, "feet");
+  assert.deepEqual(
+    doc.system.changes,
+    [
+      {
+        _id: stableId(meta.sourceKey + ":land-speed"),
+        formula: "10",
+        operator: "add",
+        target: "landSpeed",
+        type: "enh",
+        priority: 0,
+      },
+    ],
+    "Striding boots must add only ten enhancement feet of land speed",
+  );
 }
 
 export function validateMetamagicApparatus(doc, profile) {

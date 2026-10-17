@@ -3,7 +3,7 @@
   "_key": "!items!603d36f09ccf30dc",
   "name": "Bonded Quills",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/bonded-quills-v2.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment",
+      "selectedVariant": "one matched pair of ordinary-ink quills; pair price"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Creation and Divination; <strong>CL</strong> 5th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 5,000 gp; <strong>Weight</strong> -</p>\n<p><strong>Description</strong><br>\nThese feather quills come in pairs. Each quill functions as a quill of endless ink. When both are held by a willing creature, any writing produced by one quill is instantly reproduced by the other, so long as both are on the same plane. A creature holding one quill is always aware if the other quill is being held by a willing creature, though no other information about that creature is gained. This cannot be used to create two copies at once of a scroll, spellbook, or other magical writing.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Creation sphere, Divination sphere; <strong>Cost</strong> 2,500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc9\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: one matched pair of ordinary-ink quills; pair price.</p><p>Quantity one represents both quills together at the published 5000 gp pair price and negligible weight. Each inherits the reviewed Quill of Endless Ink rule: continuous writing ink without dripping, one ink type per quill; special ink is a crafting choice requiring five vials, not a free inventory grant. Same-plane willing holders permit copying and awareness that the other quill is held, with no identity information. This cannot duplicate scrolls, spellbooks or other magical writing. No extra carrying cases or automatic remote writing are created.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Creation and Divination"
     },
     "hp": {},
     "broken": false,

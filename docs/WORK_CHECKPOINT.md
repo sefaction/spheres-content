@@ -2,7 +2,53 @@
 
 Updated: 2026-10-17 (work began 2026-09-19 local time).
 
-## Active work in progress: physical batch 2, group 3
+## Active work in progress: physical batch 2, group 4
+
+- Branch `codex/physical-items-batch-2-group-4`, based on `a834991` from draft
+  PR #30. Both Windows/Ubuntu CI checks passed for #30. Issue #26 remains active;
+  all stacked PRs are unmerged, with no individual merge or release approval.
+- Twenty entries, Widening through Dragonstone, now have reviewed source-specific
+  profiles and artwork. Three are empty native containers: Animate Wand Bracers,
+  base unscaled Bandolier of Grenades and Bottomless Flask. Slot/volume limits
+  stay distinct from pounds; no wands, grenades, liquids or nested compartments
+  are bundled. PF1 containers have no activation actions, so retrieval/selection/
+  pouring remain visible manual instructions. Extra-dimensional carried-weight
+  reduction is not inferred where the flask source does not explicitly state it.
+- Bludgeoner's Rod adapts the inspected PF1 11.11 Light Mace as a +2 weapon with
+  its normal attack separate from the move-action charged-strike helper. Its
+  conditional 15d6 is not added to every attack. Boots of Striding implement only
+  +10 enhancement to landSpeed; native target and source-code evidence are pinned
+  in `research/physical-items-batch-2-group-4.json`.
+- Soulreaving separates a manually spent external soul from its one free daily
+  use. Least Crimson Flask starts empty with a non-daily two-point manual storage
+  pool; filling/opening spend no stored points. Paired notebooks/quills remain one
+  priced set. Crafted feat, dragon/breath, doom and weather choices stay explicit.
+  Specialized conditional outcomes and full compatibility remain deferred.
+- Full original source bodies, prices, weights, IDs and snapshot hashes match the
+  pre-review records. Native custom school strings retain the Spheres labels.
+  Issue #31 tracks the Weather cloaks' moderate aura versus CL 5 discrepancy;
+  neither source wording nor caster level is silently corrected.
+- Nine original 256 px WebP illustrations total 69,628 bytes; prompts, original
+  and output hashes and encoding are registered. Eleven entries use visually
+  reviewed core/system art; the actual full cloak image is used for the weather
+  cloaks. No unrelated bonuses, conventional rules or upstream image bytes.
+- Six focused regressions and content validation passed. Full clean gate,
+  deterministic builds, deployment and UI acceptance are pending. No group-4 PR
+  yet; stack on `codex/metamagic-apparatus-group-3` (#30).
+- Batch 2 now has eighty reviewed images and twenty pending, all other apparatuses.
+  Next ignored plan: `.local/batch2-final-plan.json`, beginning Field Researcher's
+  Lenses, Force Hook and Gentle Shade Trinket. Akashic/legacy production stays
+  deferred and existing sources/reviews are preserved.
+- The user supplied administrator authentication for the designated server.
+  Returned the identified zero-player test world to Setup through its native UI;
+  Setup is visibly confirmed. No credentials are recorded in repository files.
+  Current last deployment remains `fed942b`; no restart has occurred or is needed.
+- Next safe step: commit and run the full clean gate, guarded dry-run/staged
+  deployment, relevant native Foundry checks for this and earlier groups, return
+  to Setup and exact semantic audit. Record actual results, then push/open the
+  draft PR. Preserve all controlled test copies and avoid campaign worlds.
+
+## Prior reviewed content batch: physical batch 2, group 3
 
 - Branch `codex/metamagic-apparatus-group-3`, based on `9b566fa` from draft PR #29.
   Both Windows/Ubuntu checks passed for #29. Issue #26 remains open and all
@@ -29,7 +75,8 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   trips and two identical 753-file builds. ZIP SHA-256:
   `2c1fdd2c1f87a71557b809fe46c3d0b6e817e61d248d60c3f211629f87b4008f`.
   Draft PR #30 is pushed, stacked on #29:
-  https://github.com/sefaction/spheres-content/pull/30. CI is pending.
+  https://github.com/sefaction/spheres-content/pull/30. Both CI platforms passed at
+  `a834991`; no merge approval.
 - Batch 2 now has sixty reviewed images and forty pending: Widening plus
   thirty-nine other apparatuses. Next ignored plan: `.local/batch2-group4-plan.json`.
   Source text and nine full component/alternate records are cached in corresponding

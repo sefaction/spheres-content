@@ -3,7 +3,7 @@
   "_key": "!items!db10fd194f08113b",
   "name": "Amulet of Soulreaving",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/amulet-of-soulreaving.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,26 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Death and Life; <strong>CL</strong> 3rd<br>\n<strong>Slot</strong> neck; <strong>Price</strong> 18,000 gp; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p>This silver amulet contains a gem that appears to be half moonstone and half obsidian. When worn by a character with the bound nexus class feature, that character can spend a soul as an immediate action to impose a -4 penalty on one attack roll from a creature within 40 feet of the soul expended and that the soul weaver can see (or is otherwise sense attacks from, such as through some special senses). This effect can be used after the attack roll has been made. A soul weaver can use the powers of this amulet once per day without expending a soul, but the target must be within 40 feet of them.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Death sphere, Life sphere; <strong>Cost</strong> 9,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc2\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: published worn/held apparatus.</p><p>While worn, a character with bound nexus may spend a soul as an immediate action after an attack roll to impose -4 on that one attack, if the attacker is sensed and within 40 feet of the expended soul. A soul weaver may instead use it once daily without a soul against a sensed target within 40 feet of the wearer. Only the free option uses the item's daily counter; actual souls and target rolls remain manual.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 3,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Death and Life"
     },
     "hp": {},
     "broken": false,
@@ -84,14 +85,51 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "75a429e14e87d1b7",
+        "name": "Spend Bound Soul to Hinder One Attack",
+        "activation": {
+          "type": "immediate",
+          "unchained": {
+            "type": "immediate"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "While worn, a character with bound nexus may spend a soul as an immediate action after an attack roll to impose -4 on that one attack, if the attacker is sensed and within 40 feet of the expended soul. A soul weaver may instead use it once daily without a soul against a sensed target within 40 feet of the wearer. Only the free option uses the item's daily counter; actual souls and target rolls remain manual. This option requires manually spending a soul; it does not spend the free daily use."
+          ]
+        }
+      },
+      {
+        "_id": "0937768898b2ea24",
+        "name": "Hinder One Attack without a Soul",
+        "activation": {
+          "type": "immediate",
+          "unchained": {
+            "type": "immediate"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "While worn, a character with bound nexus may spend a soul as an immediate action after an attack roll to impose -4 on that one attack, if the attacker is sensed and within 40 feet of the expended soul. A soul weaver may instead use it once daily without a soul against a sensed target within 40 feet of the wearer. Only the free option uses the item's daily counter; actual souls and target rolls remain manual. This option requires a soul weaver and a target within forty feet of the wearer; spend the one free daily use."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 1,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "1",
       "rechargeFormula": ""
     },
     "links": {

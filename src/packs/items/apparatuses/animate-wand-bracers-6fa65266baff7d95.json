@@ -2,8 +2,8 @@
   "_id": "6fa65266baff7d95",
   "_key": "!items!6fa65266baff7d95",
   "name": "Animate Wand Bracers",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "container",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/animate-wand-bracers.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,54 +24,70 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "deferred",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "deferred",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-empty-apparatus-container",
+      "assembly": "animate-wand-bracers",
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.items.Item.utmeueljqhfoiihp",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "1e656d4348c5237f39939e96b826f3a08267e2c530af0deb499a419059b5a5af",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Enhancement and Mind; <strong>CL</strong> 5th<br>\n<strong>Slot</strong> wrist; <strong>Price</strong> 4,200 gp; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nWhile this appears to be a normal wand bracer, it has been animated to perform its duties automatically, responding to mental signals from their wearer. Drawing and stowing wands from this bracer is a free action that can be performed even when it is not your turn.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Enhancement sphere (Animate Object (enhance)), Mind sphere (Read Mind (charm)); <strong>Cost</strong> 2,100 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc3\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: empty native storage; no contents bundled.</p><p>Empty wrist-worn native container; add actual owned wands separately. Drawing and stowing a stored wand is mentally directed and free even outside your turn. Source refers to a normal wand bracer without giving a numeric capacity; none is invented. PF1 container sheets do not expose activation actions, so retrieval remains a manual inventory procedure. Illustrated wands are examples, not bundled contents.</p>",
       "unidentified": ""
     },
-    "tags": [],
-    "quantity": 1,
-    "weight": {
-      "value": 1
-    },
-    "equipped": true,
-    "carried": true,
-    "price": 4200,
-    "size": "med",
-    "resizing": false,
-    "timeworn": false,
-    "artifact": false,
-    "identified": true,
-    "unidentified": {
-      "price": 0,
-      "name": ""
-    },
-    "cursed": false,
-    "cl": 0,
-    "aura": {
-      "custom": false,
-      "school": ""
-    },
-    "hp": {},
-    "broken": false,
-    "hardness": 0,
     "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "quantity": 1,
+    "price": 4200,
+    "weight": {
+      "value": 1,
+      "reduction": {
+        "value": 0,
+        "percent": 0
+      }
+    },
+    "carried": true,
+    "equipped": true,
+    "identified": true,
+    "size": "med",
+    "items": {},
+    "maxWeight": null,
+    "sellMultiplier": 0.5,
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
     "changeFlags": {
       "immuneToMorale": false,
       "loseDexToAC": false,
@@ -83,61 +99,29 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
-    "actions": [],
-    "attackNotes": [],
-    "effectNotes": [],
-    "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
-      "rechargeFormula": ""
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "unidentified": {
+      "price": 0,
+      "name": ""
     },
-    "links": {
-      "children": [],
-      "charges": []
+    "cursed": false,
+    "cl": 5,
+    "aura": {
+      "custom": true,
+      "school": "Enhancement and Mind"
     },
+    "hp": {
+      "base": 10
+    },
+    "broken": false,
+    "hardness": 0,
     "tag": "",
     "flags": {
       "boolean": {},
       "dictionary": {}
     },
-    "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
-    "proficient": false,
-    "held": "1h",
-    "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
-    },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
-    },
-    "spellFailure": 0,
-    "showInQuickbar": false,
     "sources": [
       {
         "title": "Spheres of Power Wiki",

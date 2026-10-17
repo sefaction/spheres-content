@@ -3,7 +3,7 @@
   "_key": "!items!4c891c336207e7cc",
   "name": "Amulet of Channeled Might, Greater",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/neck/pendant-rough-silver-red.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment",
+      "selectedVariant": "neck variant; three channeling feats not yet selected"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Death and Life; <strong>CL</strong> 4th<br>\n<strong>Slot</strong> neck or Held; <strong>Price</strong> 32,000 gp; Weight 2 lbs.</p>\n<p>As an amulet of channeled might, but it contains three feats instead of two. Common choices include series of feats, such as Channel Force<sup>ARG</sup>, Improved Channel Force<sup>ARG</sup>, and Greater Channel Force<sup>ARG</sup>. A crafter can upgrade an amulet of channeled might into a greater amulet by spending the appropriate time and resources to cover the difference in Price.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Death sphere, Life sphere, each of the feats included in the amulet; <strong>Cost</strong> 16,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc1\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: neck variant; three channeling feats not yet selected.</p><p>Inherits the base amulet's prerequisite, held/worn, dual-channeler and one-amulet limits, but contains three selected channeling feats. Published feat chains are examples, not automatic grants. Upgrading pays the difference in price and crafting resources; no choice or prerequisite eligibility is invented.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 4,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Death and Life"
     },
     "hp": {},
     "broken": false,

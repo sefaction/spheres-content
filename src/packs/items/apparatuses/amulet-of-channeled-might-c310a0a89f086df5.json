@@ -3,7 +3,7 @@
   "_key": "!items!c310a0a89f086df5",
   "name": "Amulet of Channeled Might",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/neck/pendant-rough-silver-red.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment",
+      "selectedVariant": "neck variant; two channeling feats not yet selected"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Death and Life; <strong>CL</strong> 3rd<br>\n<strong>Slot</strong> neck or held; <strong>Price</strong> 18,000 gp; <strong>Weight</strong> 2 lbs.</p>\n<p>This silver amulet can be held or worn around the neck. Each amulet of channeled might contains two feats that have some form of channel energy as a prerequisite (sufficiently similar feats may also be included, at the GM’s discretion). Any creature wearing or holding an amulet of channeled might gains the effects of the feats they contain as long as they meet the prerequisites for those feats. Dual channeler soul weavers count as possessing any alignment and worshiping any deity when determining whether or not they meet the prerequisites for a channeling feat. A creature can only benefit from one amulet of channeled might at a time, even if they craft it for a different slot. Some popular amulets include:</p>\n<ul>\n<li><strong>Aligned Amulet:</strong> Alignment Channel &amp; Align Equipment<sup>PPC:USH</sup></li>\n<li><strong>Alluring Amulet:</strong> Channel Discord<sup>ISG</sup> &amp; Seductive Channel<sup>ISG</sup></li>\n<li><strong>Hopeful Amulet:</strong> Beacon of Hope<sup>ISG</sup> &amp; Bless Equipment<sup>PPC:USH</sup></li>\n<li><strong>Martial Amulet:</strong> Channel Smite &amp; Channel Surge<sup>PPC:C&amp;C</sup></li>\n<li><strong>Master’s Amulet:</strong> Command Undead &amp; Turn Undead</li>\n<li><strong>Warding Amulet:</strong> Divine Barrier<sup>ISG</sup> &amp; Protective Channel<sup>ISG</sup></li>\n</ul>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Death sphere, Life sphere, each of the feats included in the amulet; <strong>Cost</strong> 9,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc0\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: neck variant; two channeling feats not yet selected.</p><p>Choose two appropriate channeling feats when crafted and verify all prerequisites before granting their effects while worn or held. Dual-channeler soul weavers count as any alignment/deity only for those prerequisites. Only one amulet benefits a creature at once, including alternate slots. No feats, alignment or deity are automatically granted.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 3,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Death and Life"
     },
     "hp": {},
     "broken": false,

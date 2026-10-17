@@ -1,0 +1,280 @@
+{
+  "schemaVersion": 1,
+  "reviewed": "2026-10-17",
+  "system": "pf1",
+  "version": "11.11",
+  "interfaces": {
+    "landSpeed": {
+      "target": "landSpeed",
+      "nativePath": "system.attributes.speed.land.total",
+      "type": "enh",
+      "formula": "10",
+      "evidence": [
+        "module/config.mjs",
+        "module/documents/actor/utils/apply-changes.mjs",
+        "packs/buffs/haste.NWImcWGTjCtw1Zf0.yaml"
+      ]
+    },
+    "customSchool": {
+      "field": "system.aura.school",
+      "toggle": "system.aura.custom",
+      "strength": "derived from caster level; source discrepancies remain explicit"
+    },
+    "containerActions": {
+      "supported": false,
+      "evidence": "module/documents/item/item-container.mjs: hasActions false",
+      "scope": "Container retrieval, compartment and pouring procedures remain instructions."
+    },
+    "sourceEvidence": {
+      "version": "11.11",
+      "files": [
+        {
+          "file": "module/documents/item/item-pf.mjs",
+          "sha256": "efc62c8106ef10d9b6e04e6e1e84bbd45b84e32739ded4894178d589b85f5f66"
+        },
+        {
+          "file": "module/documents/item/item-physical.mjs",
+          "sha256": "417546030bfc57185ed2800a2c8b3adba838ace59ed650885a2c96b8eaea68e7"
+        },
+        {
+          "file": "module/documents/item/item-container.mjs",
+          "sha256": "573cefb5652045225f302bd10b1854dec47bd3c07f1fdbfd5fdc7455e6f0fc2e"
+        },
+        {
+          "file": "module/documents/actor/utils/apply-changes.mjs",
+          "sha256": "8ab60303027502902b50f6e2876796af67f7d9bb44845c1d21a18704c305c7f8"
+        },
+        {
+          "file": "module/applications/item/item-sheet.mjs",
+          "sha256": "b9e5499c4b5c4659a092acdec8c8cdb0ddd8815fa875bbc6b3ddf9dd31ae69c6"
+        },
+        {
+          "file": "public/templates/items/parts/item-aura.hbs",
+          "sha256": "d4495f3af586f2ebf8579e4ae0c16172561dc804b0544e06ba063d2a0cfc99cc"
+        }
+      ]
+    }
+  },
+  "entries": [
+    {
+      "sourceKey": "wiki:apparatuses-metamagic:ultimate:item:widening-metamagic-apparatus",
+      "id": "972ac27ad3a7f0c7",
+      "type": "equipment",
+      "cl": 5,
+      "slot": "slotless",
+      "selectedVariant": "lesser tier; held slender rod; 15000 gp",
+      "sourceSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "descriptionSha256": "a3edba94478c81c89807df1a152597bb1ba3c717219f38e492ffc246955062b5",
+      "review": "Apply only to burst, emanation or spread areas, increasing numeric area measurements by 100 percent. The source treats cones, lines and spheres as emanations. Other area shapes are unaffected. Apply as part of casting while held, to a sphere effect of CL seven or lower; spend one of three daily uses, waive only this feat's extra spell-point/casting-time cost, and use only one apparatus per casting."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:amulet-of-channeled-might",
+      "id": "c310a0a89f086df5",
+      "type": "equipment",
+      "cl": 3,
+      "slot": "neck",
+      "selectedVariant": "neck variant; two channeling feats not yet selected",
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "9cd0a4ec4634bc5959e2d2d07d1e6bb6ddd74ad60d8d58701dd835235b066493",
+      "review": "Choose two appropriate channeling feats when crafted and verify all prerequisites before granting their effects while worn or held. Dual-channeler soul weavers count as any alignment/deity only for those prerequisites. Only one amulet benefits a creature at once, including alternate slots. No feats, alignment or deity are automatically granted."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:amulet-of-channeled-might-greater",
+      "id": "4c891c336207e7cc",
+      "type": "equipment",
+      "cl": 4,
+      "slot": "neck",
+      "selectedVariant": "neck variant; three channeling feats not yet selected",
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "671146bb30fc211e8a9fc1d3bfa1b1d2230d177b6fd0d6f78584b3e30def22b9",
+      "review": "Inherits the base amulet's prerequisite, held/worn, dual-channeler and one-amulet limits, but contains three selected channeling feats. Published feat chains are examples, not automatic grants. Upgrading pays the difference in price and crafting resources; no choice or prerequisite eligibility is invented."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:amulet-of-soulreaving",
+      "id": "db10fd194f08113b",
+      "type": "equipment",
+      "cl": 3,
+      "slot": "neck",
+      "selectedVariant": null,
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "a6775f40cea159c78d9d176b2104bf64f192dfd64cc602220015552dfeee1e03",
+      "review": "While worn, a character with bound nexus may spend a soul as an immediate action after an attack roll to impose -4 on that one attack, if the attacker is sensed and within 40 feet of the expended soul. A soul weaver may instead use it once daily without a soul against a sensed target within 40 feet of the wearer. Only the free option uses the item's daily counter; actual souls and target rolls remain manual."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:animate-wand-bracers",
+      "id": "6fa65266baff7d95",
+      "type": "container",
+      "cl": 5,
+      "slot": null,
+      "selectedVariant": null,
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "9833caddf67a8f6aa738bbfc97a64983637a9a3c37568ede416c4c04ef3d7d6a",
+      "review": "Empty wrist-worn native container; add actual owned wands separately. Drawing and stowing a stored wand is mentally directed and free even outside your turn. Source refers to a normal wand bracer without giving a numeric capacity; none is invented. PF1 container sheets do not expose activation actions, so retrieval remains a manual inventory procedure. Illustrated wands are examples, not bundled contents."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:arcane-orrery",
+      "id": "12f437c593eab8eb",
+      "type": "equipment",
+      "cl": 10,
+      "slot": "slotless",
+      "selectedVariant": null,
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "4823444120aec5aee89f8b823a26a809bf7232e595e613fd371ae68d88e4917d",
+      "review": "Set up the orrery as a standard action. Only using it while creating a new ritual or spellcrafted spell grants +5 insight to the relevant Spellcraft checks; no general Spellcraft bonus is applied. The leather case is part of the instrument, not an extra storage container with unspecified contents."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:bandolier-of-grenades",
+      "id": "7a8d52329c5857b5",
+      "type": "container",
+      "cl": 3,
+      "slot": null,
+      "selectedVariant": "base unscaled 900 gp bandolier; belt form; five empty slots",
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "7686a5f238452dea7d057947ad1730204b11f59a89310ed200d7c8325ad797e2",
+      "review": "Five empty object slots, one suitably shaped alchemical creation, dust, oil or potion each; retrieve one as a move action. Slot count is not a weight capacity. No consumables are bundled. Bomb generation begins only at the separate 6th-level 4800 gp upgrade; higher damage/price tiers are not active in this base variant. Transient bombs cannot be stockpiled or passed along; no unlimited grenade inventory or attack is granted."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:bludgeoners-rod",
+      "id": "b70fa152397ae33b",
+      "type": "weapon",
+      "cl": 15,
+      "slot": null,
+      "selectedVariant": null,
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "92bd84b92884a6f7ededb969f8869b3e667426145c262b01db6c804dc8e2bec3",
+      "review": "Native +2 light mace attack. Press the button as a move action; the first attack before the end of the wielder's turn gains 15d6 bludgeoning damage. The normal attack never includes this conditional extra damage by default. Resolve and clear that one charged strike manually; there is no source-stated daily limit and no permanent extra-damage modifier."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:blurring-bandana",
+      "id": "66da1d13a08143c7",
+      "type": "equipment",
+      "cl": 6,
+      "slot": "headband",
+      "selectedVariant": null,
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "007a18c60b57a9f90d7403cfc5251f636f95c487060f1f9c1f5d4306b7d02142",
+      "review": "While worn, provides After Image concealment with a 30 percent miss chance. It is passive and can be removed when not desired. No armor bonus, universal 30 percent damage reduction or token duplication is inferred; conditional attack concealment needs its exact interface."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:bonded-notebooks",
+      "id": "fff0791aea00b615",
+      "type": "equipment",
+      "cl": 5,
+      "slot": "slotless",
+      "selectedVariant": "one complete matched pair; set price and weight",
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "c1f445d5493b66fa052ef18c34f4315106712668a5bf2e2ed3a377bb8c4101e7",
+      "review": "Quantity one is the complete two-book set: 5000 gp and two pounds total, not per notebook. Each book has fifty fixed pages, with both sides writable and one hundred words per page as stated. Writing reproduces on the corresponding page only on the same plane. Do not add pages or create a doubled set by setting quantity two; paired usage and remaining writing space are tracked manually."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:bonded-quills",
+      "id": "603d36f09ccf30dc",
+      "type": "equipment",
+      "cl": 5,
+      "slot": "slotless",
+      "selectedVariant": "one matched pair of ordinary-ink quills; pair price",
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "72f657c3a3a35fb240f0e53babe424038b6ceabda17eeaf27648fbc807a19c4c",
+      "review": "Quantity one represents both quills together at the published 5000 gp pair price and negligible weight. Each inherits the reviewed Quill of Endless Ink rule: continuous writing ink without dripping, one ink type per quill; special ink is a crafting choice requiring five vials, not a free inventory grant. Same-plane willing holders permit copying and awareness that the other quill is held, with no identity information. This cannot duplicate scrolls, spellbooks or other magical writing. No extra carrying cases or automatic remote writing are created."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:boots-of-striding",
+      "id": "a480f42f8c73de4b",
+      "type": "equipment",
+      "cl": 3,
+      "slot": "feet",
+      "selectedVariant": null,
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "9632935db7ce45cce12f7c8888485c251807e1b60c442d8c1a75c2183cde2c39",
+      "review": "While worn, adds a +10 enhancement bonus to base land speed through PF1's landSpeed target. Enhancement bonuses obey native stacking. No fly, swim or climb speed and no Acrobatics/springing bonus is granted."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:bottomless-flask",
+      "id": "1971a8808a390a8f",
+      "type": "container",
+      "cl": 5,
+      "slot": null,
+      "selectedVariant": null,
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "95ff0dd3f4df2093c93dd52dab6971b44d4ae1ef21239f71c2e950b6f973eb7a",
+      "review": "Empty two-pound container with five separate twenty-gallon extradimensional spaces. Twist the stopper as a swift action to select a space; pour at most one pint or one alchemical flask per round into a square within reach. Liquids remain separated, including volatile substances; breaking the flask loses all contents. Gallons are not converted to a guessed pound capacity. Compartment choice, volume and pouring are manual; the source gives no explicit carried-weight exemption, so automatic weight reduction remains deferred. No nested compartments or liquids are fabricated."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:bracelet-of-everlasting-friendship",
+      "id": "ea678ec88e551d55",
+      "type": "equipment",
+      "cl": 6,
+      "slot": "wrists",
+      "selectedVariant": null,
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "0b2ee763be9b9c82a53a41688c8f724805043f21946acd00ea7e37fc55ca3475",
+      "review": "While worn, provides the Friendship aegis. Allies may exclude this wearer from qualifying area sphere effects and supernatural abilities. This is an ally-selected area exclusion, not general immunity to area damage or spells; no automatic target filtering or permanent talent grant."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:brawlers-vest",
+      "id": "b37d61646bee7bf5",
+      "type": "equipment",
+      "cl": 10,
+      "slot": "body",
+      "selectedVariant": null,
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "0d5e680ffe2738edeb61b8edbfe4ec1170c187468bac7d82b148548970f5746d",
+      "review": "With at least one Boxing, Brute, Open Hand or Wrestling talent, calculate unarmed damage as if four more unarmed-sphere talents were known. The source also grants +1 dodge AC; these effects do not stack with monk's robe or similar items. A wearer lacking both unarmed talents and Improved Unarmed Strike may instead choose Improved Unarmed Strike or a base unarmed sphere. Choose and check eligibility/stacking before applying benefits; no monk levels, talent count, damage die, global AC bonus or permanent feat is fabricated."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:cloak-of-weather-resistance-greater",
+      "id": "699f5dfd3ff04aec",
+      "type": "equipment",
+      "cl": 5,
+      "slot": "shoulders",
+      "selectedVariant": "greater cloak; all weather types",
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "b2f26b89dc2c522363656c3c890101433867546bd82c505a38311a9bfbeeaf91",
+      "review": "Treat all weather types as two severity steps lower for the bearer, without changing the actual scene or other creatures' weather. Source publishes moderate aura with CL five; PF1 derives faint at this CL. Both facts are retained under issue #31; no invented caster level, spell school or corrected aura is substituted."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:cloak-of-weather-resistance-minor",
+      "id": "e11e46d0494d8758",
+      "type": "equipment",
+      "cl": 5,
+      "slot": "shoulders",
+      "selectedVariant": "minor cloak; weather type not yet selected",
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "75d3e74146c32301235bb4d110398c275e2eb5a2eab9f749ba7b806e486afd27",
+      "review": "Choose one weather type to treat as two severity steps lower for the bearer; this is not protection against every weather type. No scene weather is changed. Source publishes moderate aura with CL five; PF1 derives faint at this CL. Both facts are retained under issue #31 without an invented correction."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:crimson-flask",
+      "id": "a5e62102929b25fb",
+      "type": "equipment",
+      "cl": 5,
+      "slot": "slotless",
+      "selectedVariant": "least flask; two-point storage; initially empty; 2000 gp",
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "07cc6b9daed5379063fb4b5638c84eae22560a1af913242ada1e0fef699f1d97",
+      "review": "Requires Reservoir. Fill as a full-round action by transferring actual blood points, up to two for the selected least variant; no points expire while stored. Open as a move action, then hold it to spend stored points as your reserve. The manual item counter starts empty, is not daily and does not generate or automatically transfer blood points. Lesser/greater capacities four/six are alternatives, not simultaneous extra pools."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:doomguard",
+      "id": "8c229d6c56ffa355",
+      "type": "equipment",
+      "cl": 10,
+      "slot": "neck",
+      "selectedVariant": "crafted doom circumstance not yet selected",
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "496823041ff4cbc965eb966cb80eec1fe26b236d8240d7f9154244a68266c0b7",
+      "review": "Choose the crafted doom circumstance. Protects wearer and allies within fifty feet against that doom, preventing reduction below one HP; spell resistance does not apply but antimagic negates it. A protected creature that avoids doom loses protection for one hour. A mythic creature may spend actual mythic power as an immediate action to avert all dooms for one round, after which this item is inactive for twenty-four hours. External mythic uses, cooldowns and recipient exclusions are manual; no general invulnerability is granted."
+    },
+    {
+      "sourceKey": "wiki:apparatuses:ultimate:item:dragonstone",
+      "id": "6c98f7a998d5401b",
+      "type": "equipment",
+      "cl": 10,
+      "slot": "neck",
+      "selectedVariant": "dragon type and breath weapon not yet selected",
+      "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+      "descriptionSha256": "9dc9c7e6898009155652d92f251554470f2e4d8f33b0b64eebb8048083df9d7c",
+      "review": "While donned, applies the source Dragon Transformation profile with doubled breath-weapon size, two wings, fifty-foot fly speed with poor maneuverability and two size increases capped at Huge. Dragon type and breath weapon are fixed when crafted; the blue-gem illustration does not select them. Resolve the full transformation before granting form-dependent speeds, size or breath attacks; no permanent dragon template or automatic statistics are applied."
+    }
+  ]
+}

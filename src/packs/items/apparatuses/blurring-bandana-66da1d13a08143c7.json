@@ -3,7 +3,7 @@
   "_key": "!items!66da1d13a08143c7",
   "name": "Blurring Bandana",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/blurring-bandana.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,26 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> moderate Time; <strong>CL</strong> 6th<br>\n<strong>Slot</strong> headband; <strong>Price</strong> 72,000 gp; <strong>Weight</strong> 4 lbs.</p>\n<p>This bandana provides the effects of the After Image (time) talent when worn, allowing the bearer to appear like they are in multiple places at once and giving them concealment with a 30% miss chance against attacks. Many warriors find it disconcerting to have this on all the time, so they only don it before battle.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Time sphere (After Image (time)); <strong>Cost</strong> 36,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc7\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: published worn/held apparatus.</p><p>While worn, provides After Image concealment with a 30 percent miss chance. It is passive and can be removed when not desired. No armor bonus, universal 30 percent damage reduction or token duplication is inferred; conditional attack concealment needs its exact interface.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 6,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Time"
     },
     "hp": {},
     "broken": false,

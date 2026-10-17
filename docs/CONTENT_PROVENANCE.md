@@ -257,3 +257,25 @@ three-pound source weight. Toxic's additional poison dose is separately supplied
 no bundled poison or external inventory mutation is inferred. Conditional
 creature, save, descriptor, duration and lighting outcomes remain explicit in
 source and instructions. No new license collection or compatibility claim.
+
+## Second-batch storage and equipment group: 2026-10-17
+
+Twenty entries, Widening through Dragonstone, preserve the approved full text,
+physical values, source snapshots and stable identities. Apparatuses use the
+already approved page SHA 59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476;
+Widening uses the previously pinned metamagic snapshot. The existing complete OGL
+notices remain authoritative. The related Quill of Endless Ink entry was inspected
+for Bonded Quills' inherited continuous/non-dripping ink rule; no extra carrying
+cases, special ink inventory or remote magical writing is supplied.
+
+Sack and Light Mace PF1 11.11 records provide native data structures with explicit
+item-specific overrides. Boots' landSpeed enhancement, custom school labels and
+the lack of container activation actions were reviewed against the versioned PF1
+source; evidence paths/hashes are recorded in the group research file. No upstream
+program code is copied. Existing OGL/GPL record notices remain in scope.
+
+Nine original generated 256 px WebP illustrations total 69,628 bytes. Prompts,
+source/output hashes and encoding are in config/content.json; source PNGs and
+discarded previews remain ignored locally. Eleven reviewed core/system image
+references ship without copying their bytes or unrelated source rules. Weather
+aura/CL disagreement remains explicit under issue #31. No new compatibility claim.

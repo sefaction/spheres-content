@@ -3,7 +3,7 @@
   "_key": "!items!12f437c593eab8eb",
   "name": "Arcane Orrery",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/arcane-orrery.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,26 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> moderate Illusion; <strong>CL</strong> 10th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 10,000 gp; <strong>Weight</strong> 5 lbs.</p>\n<p><strong>Description</strong><br>\nThis small leather case can be opened to reveal illusory floating spheres orbiting each other in an indiscernible pattern, tied together with magical texts flowing and shifting, describing their relationships to each other. Setting up the arcane orrery is a standard action. Using it while researching a new ritual or spellcrafting a new spell grants a +5 insight bonus on Spellcraft checks to create the ritual or spell.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus; Craft Ritual or Spellcrafting; <strong>Cost</strong> 5,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc4\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: published worn/held apparatus.</p><p>Set up the orrery as a standard action. Only using it while creating a new ritual or spellcrafted spell grants +5 insight to the relevant Spellcraft checks; no general Spellcraft bonus is applied. The leather case is part of the instrument, not an extra storage container with unspecified contents.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 10,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Illusion"
     },
     "hp": {},
     "broken": false,
@@ -84,7 +85,27 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "74fe7e67bb59f08b",
+        "name": "Set Up Arcane Orrery",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "action",
+            "cost": 2
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Set up the orrery as a standard action. Only using it while creating a new ritual or spellcrafted spell grants +5 insight to the relevant Spellcraft checks; no general Spellcraft bonus is applied. The leather case is part of the instrument, not an extra storage container with unspecified contents."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
