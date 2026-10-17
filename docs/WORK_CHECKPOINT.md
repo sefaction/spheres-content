@@ -24,19 +24,26 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   Source-specific target outcomes need a qualifying casting interface; no global
   actor modifiers, automatic conditions, scene-light changes or permanent grants
   are added. Remote compatibility and conditional effects remain deferred.
-- Four focused regression tests and content validation pass. Full clean gate,
-  deterministic builds and compiler round trips are pending. No group-3 PR yet;
-  stack this batch on `codex/metamagic-apparatus-group-2` (PR #29).
+- Clean implementation `a753dc1caa189efc7355371a70a72f773239ed86` passed formatting,
+  lint, all 77 tests, source/reference/provenance checks, all 6,788 compiler round
+  trips and two identical 753-file builds. ZIP SHA-256:
+  `2c1fdd2c1f87a71557b809fe46c3d0b6e817e61d248d60c3f211629f87b4008f`.
+  Draft PR #30 is pushed, stacked on #29:
+  https://github.com/sefaction/spheres-content/pull/30. CI is pending.
 - Batch 2 now has sixty reviewed images and forty pending: Widening plus
   thirty-nine other apparatuses. Next ignored plan: `.local/batch2-group4-plan.json`.
+  Source text and nine full component/alternate records are cached in corresponding
+  group-4 review files, with broad-name homonyms in a separate inspection file.
+  Review selected component rules and artwork before authoring; no group-4 edits.
   Akashic/legacy work stays deferred; preserve existing entries and reviews.
 - Read-only Setup guard still reports a running world. The pending user request
   asks for the administrator-authenticated transition to Setup; no new reply,
   deployment, world transition or restart. Last deployment remains `fed942b`.
-- Next safe step: commit and run the clean full gate, recheck actual Setup state
-  if the user replies, then guarded deployment and Foundry acceptance when safe.
-  Otherwise push/open the draft PR with accurate pending remote evidence and
-  continue independent item review. Keep the active goal and full scope intact.
+- Next safe step: check #30 CI and start the next coherent twenty-item group
+  from this branch while awaiting the administrator-authenticated Setup transition.
+  Reconcile actual server state after any reply. A documentation-only follow-up
+  needs a fresh clean gate before deployment. When safe, perform staged deployment,
+  Foundry acceptance and final Setup semantic audit. No transfer has occurred.
 
 ## Prior reviewed content batch: physical batch 2, group 2
 
