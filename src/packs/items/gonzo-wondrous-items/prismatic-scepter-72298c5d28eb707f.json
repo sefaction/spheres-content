@@ -3,7 +3,7 @@
   "_key": "!items!72298c5d28eb707f",
   "name": "Prismatic Scepter",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/gonzo-items/prismatic-scepter.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,19 +24,20 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "deferred",
+        "changes": "not-needed",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 18,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "evo"
     },
     "hp": {},
     "broken": false,
@@ -84,14 +85,90 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "75b9f6db633b47bb",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "action",
+            "cost": 2
+          }
+        },
+        "name": "Prismatic Spray",
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Cast Prismatic Spray using 1 staff charge. Resolve the spell’s complete rules from its source."
+          ]
+        }
+      },
+      {
+        "_id": "027ce7dd35c49314",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "action",
+            "cost": 2
+          }
+        },
+        "name": "Prismatic Wall",
+        "uses": {
+          "autoDeductChargesCost": "2"
+        },
+        "notes": {
+          "effect": [
+            "Cast Prismatic Wall using 2 staff charges. Resolve the spell’s complete rules from its source."
+          ]
+        }
+      },
+      {
+        "_id": "b19a60428e2b1521",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "action",
+            "cost": 2
+          }
+        },
+        "name": "Prismatic Sphere",
+        "uses": {
+          "autoDeductChargesCost": "2"
+        },
+        "notes": {
+          "effect": [
+            "Cast Prismatic Sphere using 2 staff charges. Resolve the spell’s complete rules from its source."
+          ]
+        }
+      },
+      {
+        "_id": "49dfe79d18ff2afd",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "name": "Apply Prismatic Spell Metamagic",
+        "uses": {
+          "autoDeductChargesCost": "2"
+        },
+        "notes": {
+          "effect": [
+            "Apply the benefits of Prismatic Spell without increasing spell level or casting time. No more than one metamagic feat can be applied this way. The listed Prismatic Blast option separately costs one charge."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
+      "value": 10,
+      "per": "charges",
       "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "maxFormula": "10",
       "rechargeFormula": ""
     },
     "links": {

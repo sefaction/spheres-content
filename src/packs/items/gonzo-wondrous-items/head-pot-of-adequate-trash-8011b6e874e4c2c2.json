@@ -3,7 +3,7 @@
   "_key": "!items!8011b6e874e4c2c2",
   "name": "Head Pot of Adequate Trash",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/gonzo-items/head-pot-of-adequate-trash.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,19 +24,21 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "deferred",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment",
+      "reviewedVariant": "+1 enhancement version (4000 gp)"
     }
   },
   "system": {
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "evo"
     },
     "hp": {},
     "broken": false,

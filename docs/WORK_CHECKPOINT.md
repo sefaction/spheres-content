@@ -5,36 +5,31 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
 ## Active work in progress: physical item group 3
 
 - Branch `codex/physical-items-group-3`, based on `2714dad` from PR #21.
-  Continue user goal: process as many non-Akashic items as practical before reset.
-  Akashic production remains deferred; preserve all existing sources and reviews.
-- PR #21 is pushed/draft and both Windows and Ubuntu CI passed at `2714dad`:
-  https://github.com/sefaction/spheres-content/actions/runs/39060875516.
-  Its twenty entries remain pending remote acceptance; no merge approval.
-- Group 3 plan is cached in ignored `.local/next-physical-group.json`. It starts
-  with Sparkly’s Glittergun and Blaster’s Bearing, then eighteen Gonzo entries.
-  There are still 34 unresolved images in the frozen physical batch.
-- Issue #20 source-boundary correction is implemented as the first part of this
-  group. The extractor and sanitizer now exclude the exact publisher-navigation
-  table headed Systems by Interjection Games while preserving real rules tables.
-  Regression tests cover both extraction topology and the corrected canonical item.
-- Sparkly’s description was re-extracted from the same approved cached HTML;
-  source page hash, ID `0829eb6deb2c2561`, source key, construction rules and link
-  remain unchanged. Its description digest changed from
-  `917d8d17127a151eff8e7d37901c511064329c27e7e9b8bcb177bf6780356aed` to
-  `83c194a44ccd4bb5bdfddd5b4c14780b867d3e39f1fd2f27d7997395196cafc8`.
-  The frozen manifest records the previous digest, issue and correction reason;
-  the audit ledger and ignored candidate cache are reconciled. No broad intake
-  refresh or overwrite occurred. Artwork/native profile still need review.
-- Focused extraction tests and content validation pass. This is an intermediate
-  authoring checkpoint, not a completed group or deployable build. No new PR yet;
-  finish the coherent group, run one clean full gate and open a stacked PR on #21.
-- Next safe step: inspect existing components and artwork for the cached next
-  group. Musical weapons need their source-defined base statistics before native
-  profiles; a cave bag needs container/capacity review. Do not invent either.
-  Keep unsupported effects explicit, and complete independent items first.
-- Remote still routes to `/join`; dedicated marker/core 13.351, PF1 11.11 and
-  pf1spheres 0.9.0 were checked read-only. No world switch, deployment or restart.
-  Coordinate Setup before remote acceptance. Last deployed receipt: `fed942b`.
+  Continue the user goal of processing as many non-Akashic items as practical.
+  Akashic production stays deferred; preserve existing sources and reviews.
+- Twenty entries have locally reviewed profiles and images: five weapons, two
+  native ammunition records, one empty native container and twelve equipment
+  entries. Twelve new icons total 95,062 bytes; seven reviewed existing paths
+  cover eight entries. The frozen batch has 86 reviewed images, leaving fourteen.
+- Instruments use the approved Rockstar table, not an assumed axe/mace profile.
+  Native ammunition is one projectile; its +1 benefit and on-hit powers still
+  need an explicit integration. Cave Bag starts empty; its 2 gp gem-growth cap
+  is not a storage-capacity limit. Null Bindi keeps its head slot and native
+  single-use consumption; motif attachment costs zero items and destruction one.
+- The parser/source boundary correction is committed at `2c4d1e6` under issue #20.
+  Source snapshots, stable IDs, source keys and complete item rules are retained.
+  Issue #22 tracks contradictory source slot headers. Neither issue is closed.
+- Targeted group tests pass. Full formatting, all tests, deterministic builds and
+  compiler round trips are pending for the new twenty entries. No new PR yet.
+  No remote acceptance, compatibility claim, merge or release is implied.
+- PR #21 remains draft with passing Windows/Ubuntu CI at `2714dad`.
+  Plan a new draft PR stacked on `codex/physical-items-group-2` after the clean
+  full gate; include issues #15, #20 and #22.
+- Remote last checked read-only: `/join`, unidentified running world. No
+  deployment, world switch or restart. Last saved deployed receipt: `fed942b`.
+  Coordinate Setup before remote acceptance; continue independent local work.
+- Next safe step: run the full clean gate, record actual results, push and open
+  the coherent group PR, then prepare the remaining fourteen non-Akashic entries.
 
 ## Prior reviewed content batch: physical item group 2
 

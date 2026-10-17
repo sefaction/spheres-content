@@ -3,7 +3,7 @@
   "_key": "!items!aec757d20c42d97d",
   "name": "Fizzeldywhop (Rust Stone)",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/gonzo-items/rust-stone.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,19 +24,20 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "not-needed",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "trs"
     },
     "hp": {},
     "broken": false,

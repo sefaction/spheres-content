@@ -2,8 +2,8 @@
   "_id": "0829eb6deb2c2561",
   "_key": "!items!0829eb6deb2c2561",
   "name": "Sparkly's Glittergun",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "weapon",
+  "img": "modules/additional-spheres-content/icons/items/ethermagic/sparklys-glittergun.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,18 +24,29 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "not-needed",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
         "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-pistol",
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.RRh1u2ccgLv1ynu8",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "0ebe1dec512955a11e35d751a7d0cae3fa140159c2a65fd4ae1e9fe51a2f90dd",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
@@ -43,9 +54,9 @@
     "description": {
       "value": "<p><strong>Aura</strong> strong transmutation; <strong>CL</strong> 18th; <strong>Weight</strong> 4 lbs.; <strong>Price</strong> 59,400 gp</p>\n<p><strong>Description</strong><br>\nThis +2 flaming merciful pistol, made of hardened gold and studded with crystals and gems, looks almost sickeningly saccharine. This isn’t surprising, however, as the pistol was once wielded by the selfstyled “shiny pixie princess of ginormous bloody explosions”. In the hands of an etherslinger, the sparkly bullets unleash their full potential. Whenever an etherslinger confirms a critical hit with Sparkly’s glittergun, he may expend 1 point of grit and 5 EP as a swift action. If he does, he switches places with the target of the shot as if both were subject to quantum indeterminacy. Creatures adjacent to both the wielder and the target switched via quantum indeterminacy take 2d6 points of fire damage and are dazzled for 1 minute by the cloud of golden glitters that accompany the effect (no save).</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Magic Arms and Armor, quantum indeterminacy, creator must have the ricoshot etherslinger talent; <strong>Cost</strong> 29,700 gp.</p>\n<hr>\n<p><a href=\"http://spheresofpower.wikidot.com/ethermagic-items#toc45\">Source: Spheres of Power Wiki</a></p>",
       "instructions": "",
-      "unidentified": ""
+      "unidentified": "<h3>Statistics</h3><p><b>Damage</b> 1d6 (small), 1d8 (medium); <b>Critical</b> x4; <b>Range</b> 20 ft.; <b>Type</b> B and P</p>\n<p><b>Misfire</b> 1 (5 ft.); <b>Capacity</b> 1</p>\n<h3>Description</h3>\n<p>The basic single-shot pistol is one of the most common firearms, although in most campaigns it is still rare enough to be an object of envy or curiosity to most. As such, it can take a variety of different forms, from wildly ornate masterpieces in the shape of fire-breathing dragons to the more common woodhandled pistols, or nothing more than a simple metal tube with a triggering device.</p>\n<p>A pistol uses either a bullet and 1 dose of black powder or a single alchemical cartridge as ammunition.</p>"
     },
-    "tags": [],
+    "tags": ["Early Firearm"],
     "quantity": 1,
     "weight": {
       "value": 4
@@ -63,10 +74,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 18,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "trs"
     },
     "hp": {},
     "broken": false,
@@ -84,7 +95,66 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "gsuiamhmn4tcj08d",
+        "ability": {
+          "attack": "_default",
+          "critMult": 4
+        },
+        "actionType": "rwak",
+        "activation": {
+          "type": "attack",
+          "unchained": {
+            "type": "attack"
+          }
+        },
+        "ammo": {
+          "type": "gunBullet"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "sizeRoll(1, 8, @size)",
+              "types": ["bludgeoning", "piercing"]
+            }
+          ]
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "extraAttacks": {
+          "type": "standard"
+        },
+        "name": "Attack",
+        "range": {
+          "maxIncrements": 10,
+          "units": "ft",
+          "value": "20"
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        }
+      },
+      {
+        "_id": "ce843be6e76519a8",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "type": "swift"
+          }
+        },
+        "name": "Quantum Indeterminacy on a Confirmed Critical",
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "After confirming a critical hit as an etherslinger, spend 1 grit and 5 EP to switch places with the target. Creatures adjacent to either switched creature take 2d6 fire damage and are dazzled for one minute, no save."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
@@ -104,41 +174,39 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
+    "masterwork": true,
+    "enh": 2,
     "proficient": false,
     "held": "1h",
     "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
+      "type": "gunBullet",
+      "capacity": 1,
+      "misfire": 1,
+      "explode": 5
     },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
+    "subType": "exotic",
+    "weaponSubtype": "ranged",
+    "hands": 1,
+    "baseTypes": ["Pistol"],
+    "weaponGroups": ["firearms"],
+    "material": {
+      "base": {
+        "value": "Hardened gold",
+        "custom": true
+      },
+      "normal": {
+        "value": "",
+        "custom": false
+      },
+      "addon": []
     },
-    "spellFailure": 0,
-    "showInQuickbar": false,
+    "properties": {},
+    "showInQuickbar": true,
     "sources": [
+      {
+        "id": "PZO1123",
+        "pages": "43"
+      },
       {
         "title": "Spheres of Power Wiki",
         "url": "http://spheresofpower.wikidot.com/ethermagic-items#toc45"

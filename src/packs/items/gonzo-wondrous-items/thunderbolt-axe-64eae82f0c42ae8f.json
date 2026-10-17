@@ -2,8 +2,8 @@
   "_id": "64eae82f0c42ae8f",
   "_key": "!items!64eae82f0c42ae8f",
   "name": "Thunderbolt Axe",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "weapon",
+  "img": "modules/additional-spheres-content/icons/items/gonzo-items/thunderbolt-axe.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,18 +24,39 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "not-needed",
+        "contextNotes": "not-needed",
+        "usage": "deferred",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "gonzo-instrument",
+      "nativeBaseSource": {
+        "url": "http://spheresofpower.wikidot.com/the-rockstar",
+        "pageSha256": "35d6f9f5bd97cf69b31a1c704572727c15e789e67ed3ea40b5905bbd0aab4262",
+        "tableSha256": "fa3527ee89d7a93645a94776828c31845e07958c50a825b7f0ee3d682750e665",
+        "license": "OGL-1.0a",
+        "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+        "scope": "Instrument statistics within the already approved Rockstar class rules; Gonzo copyright notice retained.",
+        "proficiency": "The rockstar may treat these instruments as martial rather than exotic weapons.",
+        "instrument": "guitar"
+      },
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.oyUApQSVsAqzyjdz",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "f2f61e8352ec211011691ba0a8eefaee09b934c562986e51c721e7965f100a0f",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
@@ -45,7 +66,7 @@
       "instructions": "",
       "unidentified": ""
     },
-    "tags": [],
+    "tags": ["Instrument"],
     "quantity": 1,
     "weight": {
       "value": 8
@@ -63,10 +84,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 9,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "evo"
     },
     "hp": {},
     "broken": false,
@@ -84,7 +105,154 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "9173741f835da1e8",
+        "ability": {
+          "attack": "_default",
+          "critRange": 19,
+          "damage": "str",
+          "critMult": 2
+        },
+        "actionType": "mwak",
+        "activation": {
+          "type": "attack",
+          "unchained": {
+            "type": "attack"
+          }
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "sizeRoll(1, 8, @size)",
+              "types": ["bludgeoning"]
+            }
+          ]
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "extraAttacks": {
+          "type": "standard"
+        },
+        "name": "Bash",
+        "range": {
+          "units": "melee",
+          "value": "0"
+        }
+      },
+      {
+        "_id": "c45a848138a3ad6b",
+        "ability": {
+          "attack": "_default",
+          "critRange": 19,
+          "damage": "str",
+          "critMult": 2
+        },
+        "actionType": "mwak",
+        "activation": {
+          "type": "attack",
+          "unchained": {
+            "type": "attack"
+          }
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "sizeRoll(1, 8, @size)",
+              "types": ["slashing"]
+            }
+          ]
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "extraAttacks": {
+          "type": "standard"
+        },
+        "name": "Slash",
+        "range": {
+          "units": "melee",
+          "value": "0"
+        }
+      },
+      {
+        "_id": "78e803ee67b54892",
+        "ability": {
+          "attack": "_default",
+          "critRange": 19,
+          "damage": "str",
+          "critMult": 2
+        },
+        "actionType": "mwak",
+        "activation": {
+          "type": "attack",
+          "unchained": {
+            "type": "attack"
+          }
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "sizeRoll(1, 8, @size)",
+              "types": ["electric"]
+            }
+          ]
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "extraAttacks": {
+          "type": "standard"
+        },
+        "name": "Attack in Pure Lightning Form",
+        "range": {
+          "units": "melee",
+          "value": "0"
+        }
+      },
+      {
+        "_id": "1294a119598a5e70",
+        "activation": {
+          "type": "move",
+          "unchained": {
+            "type": "action",
+            "cost": 1
+          }
+        },
+        "name": "Assume Pure Lightning Form",
+        "notes": {
+          "effect": [
+            "Take the form of pure lightning without damaging the wielder. All damage dealt by the guitar in this form is electricity damage."
+          ]
+        }
+      },
+      {
+        "_id": "902c04d3bf03ec34",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "action",
+            "cost": 2
+          }
+        },
+        "name": "Base Lightning Bolt after Perform",
+        "notes": {
+          "effect": [
+            "After a DC 18 Perform (strings) check, strike one visible target within 400 feet. Reflex DC is 10 plus ranks in Perform (strings) for half. Each 4 points exceeding the check can add another target or 1d6 damage to all bolts. Each use increases the Perform DC by 4 until next day."
+          ]
+        },
+        "actionType": "other",
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d6",
+              "types": ["electric"]
+            }
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
@@ -104,41 +272,43 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
+    "masterwork": true,
+    "enh": 3,
     "proficient": false,
-    "held": "1h",
+    "held": "2h",
     "ammo": {
       "type": "",
       "capacity": null,
       "misfire": null,
       "explode": null
     },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
+    "subType": "exotic",
+    "weaponSubtype": "2h",
+    "hands": 2,
+    "baseTypes": ["Guitar"],
+    "weaponGroups": [],
+    "material": {
+      "base": {
+        "value": "",
+        "custom": false
+      },
+      "normal": {
+        "value": "",
+        "custom": false
+      },
+      "addon": []
     },
-    "spellFailure": 0,
-    "showInQuickbar": false,
+    "properties": {},
+    "showInQuickbar": true,
     "sources": [
+      {
+        "id": "PZO1110",
+        "pages": "143, 146"
+      },
+      {
+        "id": "PZO1123",
+        "pages": "18"
+      },
       {
         "title": "Spheres of Power Wiki",
         "url": "http://spheresofpower.wikidot.com/gonzo-wondrous-items#toc20"

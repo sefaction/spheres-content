@@ -3,7 +3,7 @@
   "_key": "!items!581c3856ab058336",
   "name": "Hero’s Scarf",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/gonzo-items/heros-scarf.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,19 +24,20 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "deferred",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 8,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "con"
     },
     "hp": {},
     "broken": false,

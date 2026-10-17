@@ -2,8 +2,8 @@
   "_id": "5937fde02f913448",
   "_key": "!items!5937fde02f913448",
   "name": "Raycaster",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "weapon",
+  "img": "systems/pf1/icons/items/weapons/mace-light.png",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,18 +24,30 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "deferred",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-light-mace",
+      "reviewedVariant": "+1 base version (2000 gp), no optional weapon ability selected",
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.Yeli1JRCgnmVyhWT",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "7724b41d8a7779cc346ae674c745cee82e31922ae9c0c35173817cde3681c591",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
@@ -43,7 +55,7 @@
     "description": {
       "value": "<p><strong>AURA</strong> moderate evocation; <strong>CL</strong> 5th; <strong>PRICE</strong> 2,000 gp (+1), 8,000 gp (+2), 18,000 gp (+3), 32,000 gp (+4), 50,000 gp (+5), 72,000 gp (+6), 98,000 gp (+7), 128,000 gp (+8), 162,000 gp (+9), 200,000 gp (+10) <strong>WEIGHT</strong> —</p>\n<p><strong>DESCRIPTION</strong><br>\nThis rod counts as a light mace with an enhancement bonus. A character may utilize this weapon as a focus for any spell that deals hit point damage. A spell effect cast with this as a focus adds the weapon’s enhancement bonus to the spell's attack and damage rolls, and the spell also gains any weapon special abilities of the raycaster. If an ability on the ray caster explicitly only works on melee or ranged weapons, then that ability only functions for spells that require a melee or ranged attack respectively to hit their target.</p>\n<p><strong>CONSTRUCTION REQUIREMENTS</strong><br>\nCraft Magic Arms and Armor, Craft Rod, greater magic weapon; <strong>COST</strong> 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), 25,000 gp (+5) 36,000 gp (+6), 49,000 gp (+7), 64,000 gp (+8), 81,000 gp (+9), 100,000 gp (+10)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/gonzo-wondrous-items#toc17\">Source: Spheres of Power Wiki</a></p>",
       "instructions": "",
-      "unidentified": ""
+      "unidentified": "<p>A mace is made up of an ornate metal head attached to a simple wooden or metal shaft. The mace's head is usually flanged to cause more pain or damage. Some more primitive maces are made with stone bound to a wooden haft with leather straps.</p>"
     },
     "tags": [],
     "quantity": 1,
@@ -63,14 +75,16 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "evo"
     },
-    "hp": {},
+    "hp": {
+      "base": 2
+    },
     "broken": false,
-    "hardness": 0,
+    "hardness": 10,
     "changes": [],
     "changeFlags": {
       "immuneToMorale": false,
@@ -84,7 +98,41 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "yx8alqrgkwcot6eg",
+        "ability": {
+          "attack": "_default",
+          "damage": "str"
+        },
+        "actionType": "mwak",
+        "activation": {
+          "type": "attack",
+          "unchained": {
+            "type": "attack"
+          }
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "sizeRoll(1, 6, @size)",
+              "types": ["bludgeoning"]
+            }
+          ]
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "extraAttacks": {
+          "type": "standard"
+        },
+        "name": "Attack",
+        "range": {
+          "units": "melee",
+          "value": "0"
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
@@ -104,8 +152,8 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
+    "masterwork": true,
+    "enh": 1,
     "proficient": false,
     "held": "1h",
     "ammo": {
@@ -114,31 +162,35 @@
       "misfire": null,
       "explode": null
     },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
+    "subType": "simple",
+    "weaponSubtype": "light",
+    "hands": 1,
+    "baseTypes": ["Light Mace"],
+    "weaponGroups": ["hammers"],
+    "material": {
+      "base": {
+        "value": "steel",
+        "custom": false
+      },
+      "normal": {
+        "value": "",
+        "custom": false
+      },
+      "addon": []
     },
-    "spellFailure": 0,
-    "showInQuickbar": false,
+    "properties": {
+      "fin": true
+    },
+    "showInQuickbar": true,
     "sources": [
+      {
+        "id": "PZO1110",
+        "pages": "142, 147"
+      },
+      {
+        "id": "PZO1123",
+        "pages": "17"
+      },
       {
         "title": "Spheres of Power Wiki",
         "url": "http://spheresofpower.wikidot.com/gonzo-wondrous-items#toc17"

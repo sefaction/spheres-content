@@ -594,3 +594,35 @@ test("twenty-item production lane applies shared PF1 profiles without inventing 
     assert.deepEqual(structure.system.changes, []);
   }
 });
+
+test("ammunition validation rejects wrong native profiles, infinite ammo and inert loot actions", async () => {
+  const { catalog, docs } = validatedCatalog;
+  const identities = await json("config/identities.json");
+  const intakeSources = await json("config/intake-sources.json");
+  const sources = new Map(catalog.sources.map((s) => [s.key, s]));
+  const assets = new Map([
+    ...catalog.externalAssets.map((a) => [a.path, a]),
+    ...catalog.assets.map((a) => [
+      `modules/${moduleId}/${a.path.slice("static/".length)}`,
+      a,
+    ]),
+  ]);
+  const original = docs.find(({ doc }) => doc._id === "87759b57839a4961").doc;
+  const identity = identities.find((i) => i.id === original._id);
+  for (const [mutate, expected] of [
+    [(d) => (d.system.extraType = "gunBullet"), /source\/type mismatch/],
+    [(d) => (d.system.abundant = true), /must not be inexhaustible/],
+    [
+      (d) => d.system.actions.push({ name: "Unusable loot button" }),
+      /actions must remain empty/,
+    ],
+    [(d) => (d.system.extraType = "arrow"), /Unreviewed ammunition kind/],
+  ]) {
+    const d = structuredClone(original);
+    mutate(d);
+    assert.throws(
+      () => validateEntity(d, identity, sources, assets, { intakeSources }),
+      expected,
+    );
+  }
+});

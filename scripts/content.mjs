@@ -221,7 +221,33 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
       "Automatic class associations are deferred",
     );
   } else {
-    if (doc.type === "loot") assert.equal(s.subType, "gear");
+    if (doc.type === "loot") {
+      if (meta.nativeProfile === "reviewed-ammunition") {
+        const ammoSources = {
+          slingBullet: "Compendium.pf1.weapons-and-ammo.Item.UWVXKSouid1jDJSm",
+          gunBullet: "Compendium.pf1.weapons-and-ammo.Item.w20dQkQPOe4sTiRT",
+        };
+        assert.equal(s.subType, "ammo");
+        assert(ammoSources[s.extraType], "Unreviewed ammunition kind");
+        assert.equal(
+          meta.reuse?.sourceUuid,
+          ammoSources[s.extraType],
+          "Ammunition source/type mismatch",
+        );
+        assert.equal(meta.reuse?.sourcePackage, "pf1");
+        assert.equal(meta.reuse?.sourceVersion, "11.11");
+        assert.equal(
+          s.abundant,
+          false,
+          "Magical ammunition must not be inexhaustible",
+        );
+        assert.deepEqual(
+          s.actions,
+          [],
+          "Loot activation is not supported by this ammunition profile",
+        );
+      } else assert.equal(s.subType, "gear");
+    }
     if (doc.type === "consumable") {
       assert(["misc", "potion", "poison", "drug"].includes(s.subType));
       if (meta.nativeProfile === "trail-rations") {

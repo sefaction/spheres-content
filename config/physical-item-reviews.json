@@ -1506,5 +1506,698 @@
       "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.RFfwbr0xWBDWvExu",
       "sha256": "ab139f09aa7f6623981016edff402a6dfcf9a895ea03c380cdd3f63e0c952e94"
     }
+  },
+  "wiki:ethermagic-items:current:item:sparklys-glittergun": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "83c194a44ccd4bb5bdfddd5b4c14780b867d3e39f1fd2f27d7997395196cafc8",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "adapt",
+    "reason": "Adapted reviewed Pistol native fields; all named-item differences and source-table overrides are explicit.",
+    "candidates": [],
+    "adaptationSource": {
+      "key": "pistol",
+      "name": "Pistol",
+      "uuid": "Compendium.pf1.weapons-and-ammo.Item.RRh1u2ccgLv1ynu8",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "weapons-and-ammo",
+      "type": "weapon",
+      "subType": "exotic",
+      "img": "icons/weapons/guns/gun-pistol-wood.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "0ebe1dec512955a11e35d751a7d0cae3fa140159c2a65fd4ae1e9fe51a2f90dd",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "decision": "adapt",
+      "reason": "Native physical/component profile adapted with all published named-item differences."
+    },
+    "output": {
+      "file": "src/packs/items/ethermagic-items/sparklys-glittergun-0829eb6deb2c2561.json",
+      "id": "0829eb6deb2c2561",
+      "type": "weapon",
+      "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.RRh1u2ccgLv1ynu8",
+      "sha256": "54aa575ecb14289a2497b769ad7656b8d0323912d7324fbed16176f817361c35"
+    },
+    "alternateSearches": [
+      {
+        "name": "Glittergun",
+        "matches": [],
+        "decision": "No suitable indexed complete item or component match."
+      }
+    ]
+  },
+  "wiki:kineticist-magical-items:current:item:blasters-bearing": {
+    "pageSha256": "3f8530f047b1622a418f8b8c224e1b20c5afaa6bcab3e8f9173048f70eb7964c",
+    "descriptionSha256": "9c45b9ae815df22ff8bb2e2fd6ba5ef72b64f1a64107f02271f414ddb3dd5e9b",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "adapt",
+    "reason": "Adapted reviewed Sling Bullet native fields; all named-item differences and source-table overrides are explicit.",
+    "candidates": [],
+    "adaptationSource": {
+      "key": "sling-bullet",
+      "name": "Sling Bullet",
+      "uuid": "Compendium.pf1.weapons-and-ammo.Item.UWVXKSouid1jDJSm",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "weapons-and-ammo",
+      "type": "loot",
+      "subType": "ammo",
+      "img": "icons/weapons/ammunition/shot-round-blue.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "f5eb99231adaa1f4dfa9a893acd4d73377617c19864d97eeaa9f04c6f9762f6f",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Native physical/component profile adapted with all published named-item differences."
+    },
+    "output": {
+      "file": "src/packs/items/kineticist-magical-items/blasters-bearing-87759b57839a4961.json",
+      "id": "87759b57839a4961",
+      "type": "loot",
+      "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.UWVXKSouid1jDJSm",
+      "sha256": "74f020a608e4d86513c4012e412e6cc263b448a17a685e4211beb2795acec875"
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:book-of-lewd-desires": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "46bafa598466bba7c81164de87c204439c7c80e0e97dde0cb36cc44e1038cfe5",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring.",
+    "candidates": [],
+    "artwork": {
+      "path": "icons/sundries/books/book-rounded-clasp-red.webp",
+      "source": {
+        "name": "Hollow Book",
+        "uuid": "Compendium.pf-content.pf-items.Item.SWk0sTPncf12mNgS",
+        "version": "11.4.0",
+        "sha256": "49a64664d79ad09e9a25ef2a23b64eaceaadc2b914004edd5520d776be8cda04"
+      },
+      "decision": "artwork reference only; unrelated source rules not imported"
+    },
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/book-of-lewd-desires-56ca2ff2425236cc.json",
+      "id": "56ca2ff2425236cc",
+      "type": "equipment",
+      "sha256": "57ef389260a27e26afd25427c56209aa5a13213b3debcfe08395c4df0b53437e"
+    },
+    "alternateSearches": [
+      {
+        "name": "Book",
+        "matches": [],
+        "decision": "No suitable indexed complete item or component match."
+      }
+    ]
+  },
+  "wiki:gonzo-wondrous-items:current:item:cans-of-talking": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "87a27a6b01df09a926f780bc993fcd929b4deea9fd28cb025d620a9f49e8e7fd",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/cans-of-talking-8a0c4e97ee73467e.json",
+      "id": "8a0c4e97ee73467e",
+      "type": "equipment",
+      "sha256": "bb692399d300227992727fc2d1124e969575f4952fbfd6e1593b66beb9b55101"
+    },
+    "alternateSearches": [
+      {
+        "name": "Talking Cans",
+        "matches": [],
+        "decision": "No suitable indexed complete item or component match."
+      },
+      {
+        "name": "Tin Can",
+        "matches": [],
+        "decision": "No suitable indexed complete item or component match."
+      }
+    ]
+  },
+  "wiki:gonzo-wondrous-items:current:item:cave-bag": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "75a55df98e64a968f9f787573e731cec354b35d63e0cbb5ac20f7ed1f05adabc",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "adapt",
+    "reason": "Adapted reviewed Sack native fields; all named-item differences and source-table overrides are explicit.",
+    "candidates": [],
+    "adaptationSource": {
+      "key": "sack",
+      "name": "Sack",
+      "uuid": "Compendium.pf1.items.Item.utmeueljqhfoiihp",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "container",
+      "subType": null,
+      "img": "icons/containers/bags/sack-cloth-heavy-brown.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "1e656d4348c5237f39939e96b826f3a08267e2c530af0deb499a419059b5a5af",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Native physical/component profile adapted with all published named-item differences."
+    },
+    "artwork": {
+      "path": "icons/containers/bags/sack-cloth-heavy-brown.webp",
+      "source": {
+        "name": "Sack",
+        "uuid": "Compendium.pf1.items.Item.utmeueljqhfoiihp",
+        "version": "11.11",
+        "sha256": "1e656d4348c5237f39939e96b826f3a08267e2c530af0deb499a419059b5a5af"
+      },
+      "decision": "artwork reference only; unrelated source rules not imported"
+    },
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/cave-bag-8c86c0596e2f748f.json",
+      "id": "8c86c0596e2f748f",
+      "type": "container",
+      "sourceUuid": "Compendium.pf1.items.Item.utmeueljqhfoiihp",
+      "sha256": "34cc366d669214f173e32df701bc1c3f70efd25aba4f8de5fd662afd8b34595e"
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:firekeys": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "ff7780f652d738a5f4a2cb3d9051fb61d6f34d8fa8c5d3a45c3e824e9f6c5abb",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "adapt",
+    "reason": "Adapted reviewed Greatsword native fields; all named-item differences and source-table overrides are explicit.",
+    "candidates": [],
+    "adaptationSource": {
+      "key": "greatsword",
+      "name": "Greatsword",
+      "uuid": "Compendium.pf1.weapons-and-ammo.Item.oyUApQSVsAqzyjdz",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "weapons-and-ammo",
+      "type": "weapon",
+      "subType": "martial",
+      "img": "systems/pf1/icons/items/weapons/greatsword.PNG",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "f2f61e8352ec211011691ba0a8eefaee09b934c562986e51c721e7965f100a0f",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "decision": "adapt",
+      "reason": "Native two-handed weapon layout only; instrument-specific fields are replaced from the Rockstar table."
+    },
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/the-rockstar",
+      "pageSha256": "35d6f9f5bd97cf69b31a1c704572727c15e789e67ed3ea40b5905bbd0aab4262",
+      "tableSha256": "fa3527ee89d7a93645a94776828c31845e07958c50a825b7f0ee3d682750e665",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Instrument statistics within the already approved Rockstar class rules; Gonzo copyright notice retained.",
+      "proficiency": "The rockstar may treat these instruments as martial rather than exotic weapons.",
+      "fields": {
+        "name": "Keytar",
+        "cost": 25,
+        "small": "1d6",
+        "medium": "1d8",
+        "critRange": 19,
+        "critMult": 2,
+        "weight": 7,
+        "hands": 2,
+        "weaponSubtype": "2h",
+        "damageAlternatives": [["slashing"]],
+        "properties": [],
+        "tags": ["Instrument"]
+      }
+    },
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/firekeys-0827aad3fe3ca71e.json",
+      "id": "0827aad3fe3ca71e",
+      "type": "weapon",
+      "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.oyUApQSVsAqzyjdz",
+      "sha256": "a82de74ed149df84b7a53e71c7f36de852ec4ee77505ac92631a107d41abd283"
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:fizzeldywhop-rust-stone": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "9280c66522363073eccd8d2439a90d23f787ec79c19a1f98ab18e5576fe9ee3a",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/fizzeldywhop-rust-stone-aec757d20c42d97d.json",
+      "id": "aec757d20c42d97d",
+      "type": "equipment",
+      "sha256": "d02dbaa62d07cd87b2246513e8d016910c983a1836bfb713da6d187ced7ec968"
+    },
+    "alternateSearches": [
+      {
+        "name": "Rust Stone",
+        "matches": [],
+        "decision": "No suitable indexed complete item or component match."
+      },
+      {
+        "name": "Fizzeldywhop",
+        "matches": [],
+        "decision": "No suitable indexed complete item or component match."
+      }
+    ]
+  },
+  "wiki:gonzo-wondrous-items:current:item:head-pot-of-adequate-trash": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "c1259a82b00bcd5a3e6b6e79c47dbccdd122b988a708c1a6172bf0ae0eccf471",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/head-pot-of-adequate-trash-8011b6e874e4c2c2.json",
+      "id": "8011b6e874e4c2c2",
+      "type": "equipment",
+      "sha256": "3b0b6e704b6fc4ebe36c1751d0a8b528e65da3a45dacc90f7b5369c4cc71b85d"
+    },
+    "alternateSearches": [
+      {
+        "name": "Headpot of Adequate Trash",
+        "matches": [],
+        "decision": "No suitable indexed complete item or component match."
+      },
+      {
+        "name": "Copper Pot",
+        "matches": [],
+        "decision": "No suitable indexed complete item or component match."
+      }
+    ]
+  },
+  "wiki:gonzo-wondrous-items:current:item:heros-scarf": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "96998c9e3c9f0a6678a9c9a5b027babd54552689769a9b521b07c90b714c32bb",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/heros-scarf-581c3856ab058336.json",
+      "id": "581c3856ab058336",
+      "type": "equipment",
+      "sha256": "34f68f7fb75a2e110fd862269bf7053773e88db2fa967f0210b35e1f6c87c959"
+    },
+    "alternateSearches": [
+      {
+        "name": "Scarf",
+        "matches": [
+          {
+            "name": "Scarf",
+            "uuid": "Compendium.pf1.items.Item.whvooybofnzhegoa",
+            "version": "11.11",
+            "type": "loot",
+            "img": "icons/equipment/back/cloak-collared-blue-iron.webp",
+            "sha256": "79290b880ef785b11a41a1aa455482193c0608408b9c67ddb3db7f35b3af61eb"
+          }
+        ],
+        "decision": "Mundane PF1 scarf inspected; mundane behavior and cloak-shaped icon are unsuitable for the named crimson magic scarf. Use the reviewed original profile and artwork."
+      }
+    ]
+  },
+  "wiki:gonzo-wondrous-items:current:item:insanity-drive": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "0f700311edee434e3a6ec7e16b96e4e08a5db91f02c1939601805dfa0de35f5d",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/insanity-drive-2fa47002b678f4c1.json",
+      "id": "2fa47002b678f4c1",
+      "type": "equipment",
+      "sha256": "2a0c48d809b1adc0d1a4e9af736a5214d69f02e8bec36546bb9aa0844b57b769"
+    },
+    "alternateSearches": [
+      {
+        "name": "Party Popper",
+        "matches": [],
+        "decision": "No suitable indexed complete item or component match."
+      }
+    ]
+  },
+  "wiki:gonzo-wondrous-items:current:item:motif-bauble": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "171cd1c2e339b2e926b3e5c1424e3c2d72ea32515df8d32b3e5a817683f709dd",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring.",
+    "candidates": [],
+    "artwork": {
+      "path": "icons/commodities/currency/coin-inset-swirl-gold.webp",
+      "source": {
+        "name": "False Coin",
+        "uuid": "Compendium.pf1.items.Item.K4h9sOActP9IUd7R",
+        "version": "11.11",
+        "sha256": "8b8fcf72400becf02249f566f949ec4a6a267b28eaeeb0401439aa6ce4d09597"
+      },
+      "decision": "artwork reference only; unrelated source rules not imported"
+    },
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/motif-bauble-90da9b5f1b1a55dc.json",
+      "id": "90da9b5f1b1a55dc",
+      "type": "equipment",
+      "sha256": "5555b716346696901170d88e82252e03bd134050c2a413bd07b81b158f11cb29"
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:motif-bauble-greater": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "b583418f6921d4f554811f29d9911e31fb1fc66a9d3a01585254e5c762f98636",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring.",
+    "candidates": [],
+    "artwork": {
+      "path": "icons/commodities/currency/coin-inset-swirl-gold.webp",
+      "source": {
+        "name": "False Coin",
+        "uuid": "Compendium.pf1.items.Item.K4h9sOActP9IUd7R",
+        "version": "11.11",
+        "sha256": "8b8fcf72400becf02249f566f949ec4a6a267b28eaeeb0401439aa6ce4d09597"
+      },
+      "decision": "artwork reference only; unrelated source rules not imported"
+    },
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/motif-bauble-greater-d69f3a2e01c68368.json",
+      "id": "d69f3a2e01c68368",
+      "type": "equipment",
+      "sha256": "6e0c015ec3620af58ebc2362e2e6d8c6fcfa5d509c87b7727ff15065a9a2f9c3"
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:null-bindi": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "340f7477735a0272987ee514b779bb43c2908ec20950f72cb960fb85e73b12cd",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring.",
+    "candidates": [],
+    "artwork": {
+      "path": "icons/commodities/stone/ore-chunk-black.webp",
+      "source": {
+        "name": "Onyx Rhomboid Ioun Stone, Thassilonian",
+        "uuid": "Compendium.pf-content.pf-artifacts.Item.1SdlbKhIbbVbLdxa",
+        "version": "11.4.0",
+        "sha256": "e78e6491f50dd61e4153c666947543efc4bca8baec176d43cea390933e892e0d"
+      },
+      "decision": "artwork reference only; unrelated source rules not imported"
+    },
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/null-bindi-c3c152021366da7c.json",
+      "id": "c3c152021366da7c",
+      "type": "equipment",
+      "sha256": "af40a403e33e04825fbcac0e302bb62d27291f898d14644d9267c6f4c3a61edc"
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:paranoia-lenses": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "787530faefd452d92ea19d1704363cfe9c868f29e395434715ff91a95cbec441",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring.",
+    "candidates": [],
+    "artwork": {
+      "path": "icons/tools/scribal/spectacles-glasses.webp",
+      "source": {
+        "name": "Eyeglasses",
+        "uuid": "Compendium.pf1.items.Item.rmkzxxrkxdqykzwm",
+        "version": "11.11",
+        "sha256": "a1334b90e3e7cca8e21d93459ce4ad646a8f1252e8797b18583696d281445f12"
+      },
+      "decision": "artwork reference only; unrelated source rules not imported"
+    },
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/paranoia-lenses-b33f1cdb98eea699.json",
+      "id": "b33f1cdb98eea699",
+      "type": "equipment",
+      "sha256": "b1b9156b90456e8b25f09efdb6a81a35be5ca8edd22e03dfd3193081a57040dc"
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:prismatic-scepter": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "c0e65cb6211b6f9f8bc74926f6c0a3c87ed1a22abc681b62a3b2bd61fe02edca",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/prismatic-scepter-72298c5d28eb707f.json",
+      "id": "72298c5d28eb707f",
+      "type": "equipment",
+      "sha256": "09bef55608f449b26e1347e7e18b8629d0fb3575b4f1b6f6ccfe80f399e3699d"
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:raycaster": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "e1500637a98c3a2b90828bd2364500212d4966759fbf8cd200dfdb25c7d96389",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "adapt",
+    "reason": "Adapted reviewed Light Mace native fields; all named-item differences and source-table overrides are explicit.",
+    "candidates": [],
+    "adaptationSource": {
+      "key": "light-mace",
+      "name": "Light Mace",
+      "uuid": "Compendium.pf1.weapons-and-ammo.Item.Yeli1JRCgnmVyhWT",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "weapons-and-ammo",
+      "type": "weapon",
+      "subType": "simple",
+      "img": "systems/pf1/icons/items/weapons/mace-light.png",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "7724b41d8a7779cc346ae674c745cee82e31922ae9c0c35173817cde3681c591",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Native physical/component profile adapted with all published named-item differences."
+    },
+    "artwork": {
+      "path": "systems/pf1/icons/items/weapons/mace-light.png",
+      "source": {
+        "name": "Light Mace",
+        "uuid": "Compendium.pf1.weapons-and-ammo.Item.Yeli1JRCgnmVyhWT",
+        "version": "11.11",
+        "sha256": "7724b41d8a7779cc346ae674c745cee82e31922ae9c0c35173817cde3681c591"
+      },
+      "decision": "artwork reference only; unrelated source rules not imported"
+    },
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/raycaster-5937fde02f913448.json",
+      "id": "5937fde02f913448",
+      "type": "weapon",
+      "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.Yeli1JRCgnmVyhWT",
+      "sha256": "79602b71a573214622d378ef2965d04ace55543c94722f801d781014ae61fb84"
+    },
+    "alternateSearches": [
+      {
+        "name": "Ray Caster",
+        "matches": [],
+        "decision": "No suitable indexed complete item or component match."
+      }
+    ]
+  },
+  "wiki:gonzo-wondrous-items:current:item:talky-bullet": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "5ebeec105cc265ada59f8dac2365293965ad41889b4d699069c582bb4aa34987",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "adapt",
+    "reason": "Adapted reviewed Firearm Bullet native fields; all named-item differences and source-table overrides are explicit.",
+    "candidates": [],
+    "adaptationSource": {
+      "key": "firearm-bullet",
+      "name": "Firearm Bullet",
+      "uuid": "Compendium.pf1.weapons-and-ammo.Item.w20dQkQPOe4sTiRT",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "weapons-and-ammo",
+      "type": "loot",
+      "subType": "ammo",
+      "img": "systems/pf1/icons/items/weapons/bullet.png",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "45c1919ce314a0e102db54521128448c62bf43390af22dec7b6e3724a4fc7aeb",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Native physical/component profile adapted with all published named-item differences."
+    },
+    "artwork": {
+      "path": "systems/pf1/icons/items/weapons/bullet.png",
+      "source": {
+        "name": "Firearm Bullet",
+        "uuid": "Compendium.pf1.weapons-and-ammo.Item.w20dQkQPOe4sTiRT",
+        "version": "11.11",
+        "sha256": "45c1919ce314a0e102db54521128448c62bf43390af22dec7b6e3724a4fc7aeb"
+      },
+      "decision": "artwork reference only; unrelated source rules not imported"
+    },
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/talky-bullet-24c7eedd86c56200.json",
+      "id": "24c7eedd86c56200",
+      "type": "loot",
+      "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.w20dQkQPOe4sTiRT",
+      "sha256": "8d28bb69a6a09894f3d1b758c19d6f139e7b954aa58c937783bbb1a7309c8a81"
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:thunder-and-fury": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "c58c11d05655bb5e76d6b5b0abac7fe260c4b51f1b725d029dcd1900f934f01a",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "adapt",
+    "reason": "Adapted reviewed Greatsword native fields; all named-item differences and source-table overrides are explicit.",
+    "candidates": [],
+    "adaptationSource": {
+      "key": "greatsword",
+      "name": "Greatsword",
+      "uuid": "Compendium.pf1.weapons-and-ammo.Item.oyUApQSVsAqzyjdz",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "weapons-and-ammo",
+      "type": "weapon",
+      "subType": "martial",
+      "img": "systems/pf1/icons/items/weapons/greatsword.PNG",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "f2f61e8352ec211011691ba0a8eefaee09b934c562986e51c721e7965f100a0f",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "decision": "adapt",
+      "reason": "Native two-handed weapon layout only; instrument-specific fields are replaced from the Rockstar table."
+    },
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/the-rockstar",
+      "pageSha256": "35d6f9f5bd97cf69b31a1c704572727c15e789e67ed3ea40b5905bbd0aab4262",
+      "tableSha256": "fa3527ee89d7a93645a94776828c31845e07958c50a825b7f0ee3d682750e665",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Instrument statistics within the already approved Rockstar class rules; Gonzo copyright notice retained.",
+      "proficiency": "The rockstar may treat these instruments as martial rather than exotic weapons.",
+      "fields": {
+        "name": "Mic & Cord",
+        "cost": 50,
+        "small": "1d4",
+        "medium": "1d6",
+        "critRange": 20,
+        "critMult": 2,
+        "weight": 3,
+        "hands": 2,
+        "weaponSubtype": "2h",
+        "damageAlternatives": [["bludgeoning"]],
+        "properties": ["rch", "trp", "grp"],
+        "tags": ["Instrument"]
+      }
+    },
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/thunder-and-fury-65871b800405b4aa.json",
+      "id": "65871b800405b4aa",
+      "type": "weapon",
+      "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.oyUApQSVsAqzyjdz",
+      "sha256": "a4bb0d26b38d6541d7fc89dd3f0e2a63d0c55901c4b6ea28217d41d1c9b460a2"
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:thunderbolt-axe": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "383345ca8c72a50a447c3b95332473386908d04da40b47a369641e172414163e",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "adapt",
+    "reason": "Adapted reviewed Greatsword native fields; all named-item differences and source-table overrides are explicit.",
+    "candidates": [],
+    "adaptationSource": {
+      "key": "greatsword",
+      "name": "Greatsword",
+      "uuid": "Compendium.pf1.weapons-and-ammo.Item.oyUApQSVsAqzyjdz",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "weapons-and-ammo",
+      "type": "weapon",
+      "subType": "martial",
+      "img": "systems/pf1/icons/items/weapons/greatsword.PNG",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "f2f61e8352ec211011691ba0a8eefaee09b934c562986e51c721e7965f100a0f",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "decision": "adapt",
+      "reason": "Native two-handed weapon layout only; instrument-specific fields are replaced from the Rockstar table."
+    },
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/the-rockstar",
+      "pageSha256": "35d6f9f5bd97cf69b31a1c704572727c15e789e67ed3ea40b5905bbd0aab4262",
+      "tableSha256": "fa3527ee89d7a93645a94776828c31845e07958c50a825b7f0ee3d682750e665",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Instrument statistics within the already approved Rockstar class rules; Gonzo copyright notice retained.",
+      "proficiency": "The rockstar may treat these instruments as martial rather than exotic weapons.",
+      "fields": {
+        "name": "Guitar",
+        "cost": 10,
+        "small": "1d6",
+        "medium": "1d8",
+        "critRange": 19,
+        "critMult": 2,
+        "weight": 7,
+        "hands": 2,
+        "weaponSubtype": "2h",
+        "damageAlternatives": [["bludgeoning"], ["slashing"]],
+        "properties": [],
+        "tags": ["Instrument"]
+      }
+    },
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/thunderbolt-axe-64eae82f0c42ae8f.json",
+      "id": "64eae82f0c42ae8f",
+      "type": "weapon",
+      "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.oyUApQSVsAqzyjdz",
+      "sha256": "d1e83b8325eb201f0a5fe4742ee3fc7473a9a8017a3d71009cf60eabba79ac10"
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:thunderdrum": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "81cde76c65631879ddc593cc68557579fbc31299c1bfd4d4815110d832482d3e",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-group-3",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/thunderdrum-e4578978b5a020f4.json",
+      "id": "e4578978b5a020f4",
+      "type": "equipment",
+      "sha256": "add2a49d1ad25d1cd461b8b705dc18bf04d6bab5ec674e47ae3232cc85ea47b4"
+    }
   }
 }

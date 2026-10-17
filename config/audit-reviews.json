@@ -3618,10 +3618,1143 @@
     }
   },
   "wiki:ethermagic-items:current:item:sparklys-glittergun": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "83c194a44ccd4bb5bdfddd5b4c14780b867d3e39f1fd2f27d7997395196cafc8",
+      "reason": "Original compact generated illustration visually reviewed at inventory size."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "83c194a44ccd4bb5bdfddd5b4c14780b867d3e39f1fd2f27d7997395196cafc8",
+      "reason": "Pinned native source-defined activation and action-resource costs; notes retain all prerequisites."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "83c194a44ccd4bb5bdfddd5b4c14780b867d3e39f1fd2f27d7997395196cafc8",
+      "reason": "Flaming and merciful modifiers, confirmed-critical triggering, spending one grit and five EP, swapping positions, and adjacent fire/dazzled effects need a reviewed Ethermagic interface. No unrelated global caster modifier is applied."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "83c194a44ccd4bb5bdfddd5b4c14780b867d3e39f1fd2f27d7997395196cafc8",
+      "reason": "The item has use procedures or effects rather than a general actor roll modifier."
+    },
+    "usage": {
+      "state": "not-needed",
+      "sourceSha256": "83c194a44ccd4bb5bdfddd5b4c14780b867d3e39f1fd2f27d7997395196cafc8",
+      "reason": "No general charge pool is invented; paired word budgets, returning availability and escalating Perform difficulty remain as described."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "83c194a44ccd4bb5bdfddd5b4c14780b867d3e39f1fd2f27d7997395196cafc8",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "83c194a44ccd4bb5bdfddd5b4c14780b867d3e39f1fd2f27d7997395196cafc8",
+      "reason": "Native weapon profile, published physical values and caster level reviewed. Hardened gold is a custom material label; flaming/merciful and special material behavior remain unautomated. "
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "83c194a44ccd4bb5bdfddd5b4c14780b867d3e39f1fd2f27d7997395196cafc8",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. Flaming and merciful modifiers, confirmed-critical triggering, spending one grit and five EP, swapping positions, and adjacent fire/dazzled effects need a reviewed Ethermagic interface. No unrelated global caster modifier is applied."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "83c194a44ccd4bb5bdfddd5b4c14780b867d3e39f1fd2f27d7997395196cafc8",
+      "reason": "Adapted reviewed Pistol native fields; all named-item differences and source-table overrides are explicit."
+    },
     "description": {
       "state": "implemented",
       "sourceSha256": "83c194a44ccd4bb5bdfddd5b4c14780b867d3e39f1fd2f27d7997395196cafc8",
-      "reason": "Re-extracted from the same approved page snapshot after excluding publisher navigation; complete rules and construction requirements match, and source link and identity are preserved. Issue #20."
+      "reason": "Same approved source snapshot re-extracted after removing publisher navigation under issue #20; complete rules, construction requirements, source link and stable identity are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "83c194a44ccd4bb5bdfddd5b4c14780b867d3e39f1fd2f27d7997395196cafc8",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:kineticist-magical-items:current:item:blasters-bearing": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "9c45b9ae815df22ff8bb2e2fd6ba5ef72b64f1a64107f02271f414ddb3dd5e9b",
+      "reason": "Original compact generated illustration visually reviewed at inventory size."
+    },
+    "activation": {
+      "state": "deferred",
+      "sourceSha256": "9c45b9ae815df22ff8bb2e2fd6ba5ef72b64f1a64107f02271f414ddb3dd5e9b",
+      "reason": "PF1 loot actions are not added as unusable actor buttons; firing uses the weapon’s ammunition workflow."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "9c45b9ae815df22ff8bb2e2fd6ba5ef72b64f1a64107f02271f414ddb3dd5e9b",
+      "reason": "The +1 magical ammunition benefit, one-minute infusion, stored blast dice/type/DC, collision reaction and alternate launcher triggering require a reviewed ammunition/kineticist interface. Native ammunition selection and quantity consumption are preserved."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "9c45b9ae815df22ff8bb2e2fd6ba5ef72b64f1a64107f02271f414ddb3dd5e9b",
+      "reason": "Conditional roll-note targeting needs its exact native or optional interface; the full restrictions are retained in the source and action notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "9c45b9ae815df22ff8bb2e2fd6ba5ef72b64f1a64107f02271f414ddb3dd5e9b",
+      "reason": "Native ammunition is inherently single use and tracks quantity; specialized on-hit/infusion effects remain deferred."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "9c45b9ae815df22ff8bb2e2fd6ba5ef72b64f1a64107f02271f414ddb3dd5e9b",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "9c45b9ae815df22ff8bb2e2fd6ba5ef72b64f1a64107f02271f414ddb3dd5e9b",
+      "reason": "Native loot profile, published physical values and caster level reviewed. "
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "9c45b9ae815df22ff8bb2e2fd6ba5ef72b64f1a64107f02271f414ddb3dd5e9b",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. The +1 magical ammunition benefit, one-minute infusion, stored blast dice/type/DC, collision reaction and alternate launcher triggering require a reviewed ammunition/kineticist interface. Native ammunition selection and quantity consumption are preserved."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "9c45b9ae815df22ff8bb2e2fd6ba5ef72b64f1a64107f02271f414ddb3dd5e9b",
+      "reason": "Adapted reviewed Sling Bullet native fields; all named-item differences and source-table overrides are explicit."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "9c45b9ae815df22ff8bb2e2fd6ba5ef72b64f1a64107f02271f414ddb3dd5e9b",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "9c45b9ae815df22ff8bb2e2fd6ba5ef72b64f1a64107f02271f414ddb3dd5e9b",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:book-of-lewd-desires": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "46bafa598466bba7c81164de87c204439c7c80e0e97dde0cb36cc44e1038cfe5",
+      "reason": "Existing core/PF1 illustration selected after reviewing candidate descriptions, type, image and source version; reference only."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "46bafa598466bba7c81164de87c204439c7c80e0e97dde0cb36cc44e1038cfe5",
+      "reason": "The selected normal effect is passive, automatic or handled through the native container."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "46bafa598466bba7c81164de87c204439c7c80e0e97dde0cb36cc44e1038cfe5",
+      "reason": "The source creates an illustration only from the owner’s imagination, not hidden information. The fifty-page counter tracks remaining blank pages; page contents are descriptive, not automatic image generation."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "46bafa598466bba7c81164de87c204439c7c80e0e97dde0cb36cc44e1038cfe5",
+      "reason": "The item has use procedures or effects rather than a general actor roll modifier."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "46bafa598466bba7c81164de87c204439c7c80e0e97dde0cb36cc44e1038cfe5",
+      "reason": "A native fifty-charge counter represents blank pages, decremented when a page is used."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "46bafa598466bba7c81164de87c204439c7c80e0e97dde0cb36cc44e1038cfe5",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "46bafa598466bba7c81164de87c204439c7c80e0e97dde0cb36cc44e1038cfe5",
+      "reason": "Native equipment profile, published physical values and caster level reviewed.  PF1 derives a faint aura from CL 3; the source specifies moderate and retains that wording in the description."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "46bafa598466bba7c81164de87c204439c7c80e0e97dde0cb36cc44e1038cfe5",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. The source creates an illustration only from the owner’s imagination, not hidden information. The fifty-page counter tracks remaining blank pages; page contents are descriptive, not automatic image generation."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "46bafa598466bba7c81164de87c204439c7c80e0e97dde0cb36cc44e1038cfe5",
+      "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "46bafa598466bba7c81164de87c204439c7c80e0e97dde0cb36cc44e1038cfe5",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "46bafa598466bba7c81164de87c204439c7c80e0e97dde0cb36cc44e1038cfe5",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:cans-of-talking": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "87a27a6b01df09a926f780bc993fcd929b4deea9fd28cb025d620a9f49e8e7fd",
+      "reason": "Original compact generated illustration visually reviewed at inventory size."
+    },
+    "activation": {
+      "state": "deferred",
+      "sourceSha256": "87a27a6b01df09a926f780bc993fcd929b4deea9fd28cb025d620a9f49e8e7fd",
+      "reason": "Message-sending procedures remain descriptive; the source does not specify an activation cost and each can has a separate word budget."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "87a27a6b01df09a926f780bc993fcd929b4deea9fd28cb025d620a9f49e8e7fd",
+      "reason": "One inventory entry represents the paired set at the published 25000 gp pair price. Each can has its own daily 50+2d10-word budget; no shared pool or reroll-on-prepare maximum is invented."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "87a27a6b01df09a926f780bc993fcd929b4deea9fd28cb025d620a9f49e8e7fd",
+      "reason": "The item has use procedures or effects rather than a general actor roll modifier."
+    },
+    "usage": {
+      "state": "deferred",
+      "sourceSha256": "87a27a6b01df09a926f780bc993fcd929b4deea9fd28cb025d620a9f49e8e7fd",
+      "reason": "No general charge pool is invented; paired word budgets, returning availability and escalating Perform difficulty remain as described."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "87a27a6b01df09a926f780bc993fcd929b4deea9fd28cb025d620a9f49e8e7fd",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "87a27a6b01df09a926f780bc993fcd929b4deea9fd28cb025d620a9f49e8e7fd",
+      "reason": "Native equipment profile, published physical values and caster level reviewed. "
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "87a27a6b01df09a926f780bc993fcd929b4deea9fd28cb025d620a9f49e8e7fd",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. One inventory entry represents the paired set at the published 25000 gp pair price. Each can has its own daily 50+2d10-word budget; no shared pool or reroll-on-prepare maximum is invented."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "87a27a6b01df09a926f780bc993fcd929b4deea9fd28cb025d620a9f49e8e7fd",
+      "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "87a27a6b01df09a926f780bc993fcd929b4deea9fd28cb025d620a9f49e8e7fd",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "87a27a6b01df09a926f780bc993fcd929b4deea9fd28cb025d620a9f49e8e7fd",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:cave-bag": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "75a55df98e64a968f9f787573e731cec354b35d63e0cbb5ac20f7ed1f05adabc",
+      "reason": "Existing core/PF1 illustration selected after reviewing candidate descriptions, type, image and source version; reference only."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "75a55df98e64a968f9f787573e731cec354b35d63e0cbb5ac20f7ed1f05adabc",
+      "reason": "The selected normal effect is passive, automatic or handled through the native container."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "75a55df98e64a968f9f787573e731cec354b35d63e0cbb5ac20f7ed1f05adabc",
+      "reason": "Grows up to 10 cp of gem value per day and stops at 2 gp of accumulated gems. That is a growth-value ceiling, not a weight or storage limit; no gems or currency are granted on import."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "75a55df98e64a968f9f787573e731cec354b35d63e0cbb5ac20f7ed1f05adabc",
+      "reason": "The item has use procedures or effects rather than a general actor roll modifier."
+    },
+    "usage": {
+      "state": "deferred",
+      "sourceSha256": "75a55df98e64a968f9f787573e731cec354b35d63e0cbb5ac20f7ed1f05adabc",
+      "reason": "Gem growth and its two-gp ceiling require deliberate value tracking; no storage weight capacity or initial contents are invented."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "75a55df98e64a968f9f787573e731cec354b35d63e0cbb5ac20f7ed1f05adabc",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "75a55df98e64a968f9f787573e731cec354b35d63e0cbb5ac20f7ed1f05adabc",
+      "reason": "Native container profile, published physical values and caster level reviewed. "
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "75a55df98e64a968f9f787573e731cec354b35d63e0cbb5ac20f7ed1f05adabc",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. Grows up to 10 cp of gem value per day and stops at 2 gp of accumulated gems. That is a growth-value ceiling, not a weight or storage limit; no gems or currency are granted on import."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "75a55df98e64a968f9f787573e731cec354b35d63e0cbb5ac20f7ed1f05adabc",
+      "reason": "Adapted reviewed Sack native fields; all named-item differences and source-table overrides are explicit."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "75a55df98e64a968f9f787573e731cec354b35d63e0cbb5ac20f7ed1f05adabc",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "75a55df98e64a968f9f787573e731cec354b35d63e0cbb5ac20f7ed1f05adabc",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:firekeys": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "ff7780f652d738a5f4a2cb3d9051fb61d6f34d8fa8c5d3a45c3e824e9f6c5abb",
+      "reason": "Original compact generated illustration visually reviewed at inventory size."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "ff7780f652d738a5f4a2cb3d9051fb61d6f34d8fa8c5d3a45c3e824e9f6c5abb",
+      "reason": "Pinned native source-defined activation and action-resource costs; notes retain all prerequisites."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "ff7780f652d738a5f4a2cb3d9051fb61d6f34d8fa8c5d3a45c3e824e9f6c5abb",
+      "reason": "Flaming burst, fire-form switching, Perform-dependent DC/damage/range choices and the increasing daily activation DC are not inferred as always-on actor changes."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "ff7780f652d738a5f4a2cb3d9051fb61d6f34d8fa8c5d3a45c3e824e9f6c5abb",
+      "reason": "The item has use procedures or effects rather than a general actor roll modifier."
+    },
+    "usage": {
+      "state": "deferred",
+      "sourceSha256": "ff7780f652d738a5f4a2cb3d9051fb61d6f34d8fa8c5d3a45c3e824e9f6c5abb",
+      "reason": "No general charge pool is invented; paired word budgets, returning availability and escalating Perform difficulty remain as described."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "ff7780f652d738a5f4a2cb3d9051fb61d6f34d8fa8c5d3a45c3e824e9f6c5abb",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "ff7780f652d738a5f4a2cb3d9051fb61d6f34d8fa8c5d3a45c3e824e9f6c5abb",
+      "reason": "Native weapon profile, published physical values and caster level reviewed. Base exotic instrument statistics and alternate damage types come from the approved Rockstar table. Enchanted form/burst behavior and class-specific proficiency remain explicit. "
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "ff7780f652d738a5f4a2cb3d9051fb61d6f34d8fa8c5d3a45c3e824e9f6c5abb",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. Flaming burst, fire-form switching, Perform-dependent DC/damage/range choices and the increasing daily activation DC are not inferred as always-on actor changes."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "ff7780f652d738a5f4a2cb3d9051fb61d6f34d8fa8c5d3a45c3e824e9f6c5abb",
+      "reason": "Adapted reviewed Greatsword native fields; all named-item differences and source-table overrides are explicit."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "ff7780f652d738a5f4a2cb3d9051fb61d6f34d8fa8c5d3a45c3e824e9f6c5abb",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "ff7780f652d738a5f4a2cb3d9051fb61d6f34d8fa8c5d3a45c3e824e9f6c5abb",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:fizzeldywhop-rust-stone": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "9280c66522363073eccd8d2439a90d23f787ec79c19a1f98ab18e5576fe9ee3a",
+      "reason": "Original compact generated illustration visually reviewed at inventory size."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "9280c66522363073eccd8d2439a90d23f787ec79c19a1f98ab18e5576fe9ee3a",
+      "reason": "The selected normal effect is passive, automatic or handled through the native container."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "9280c66522363073eccd8d2439a90d23f787ec79c19a1f98ab18e5576fe9ee3a",
+      "reason": "Rust removal takes one hour per piece of equipment. The whetstone bonus applies only to the first successful weapon hit; rust immunity is limited to explicitly rusting attacks, not general object damage."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "9280c66522363073eccd8d2439a90d23f787ec79c19a1f98ab18e5576fe9ee3a",
+      "reason": "The item has use procedures or effects rather than a general actor roll modifier."
+    },
+    "usage": {
+      "state": "not-needed",
+      "sourceSha256": "9280c66522363073eccd8d2439a90d23f787ec79c19a1f98ab18e5576fe9ee3a",
+      "reason": "No general charge pool is invented; paired word budgets, returning availability and escalating Perform difficulty remain as described."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "9280c66522363073eccd8d2439a90d23f787ec79c19a1f98ab18e5576fe9ee3a",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "9280c66522363073eccd8d2439a90d23f787ec79c19a1f98ab18e5576fe9ee3a",
+      "reason": "Native equipment profile, published physical values and caster level reviewed. "
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "9280c66522363073eccd8d2439a90d23f787ec79c19a1f98ab18e5576fe9ee3a",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. Rust removal takes one hour per piece of equipment. The whetstone bonus applies only to the first successful weapon hit; rust immunity is limited to explicitly rusting attacks, not general object damage."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "9280c66522363073eccd8d2439a90d23f787ec79c19a1f98ab18e5576fe9ee3a",
+      "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "9280c66522363073eccd8d2439a90d23f787ec79c19a1f98ab18e5576fe9ee3a",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "9280c66522363073eccd8d2439a90d23f787ec79c19a1f98ab18e5576fe9ee3a",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:head-pot-of-adequate-trash": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "c1259a82b00bcd5a3e6b6e79c47dbccdd122b988a708c1a6172bf0ae0eccf471",
+      "reason": "Original compact generated illustration visually reviewed at inventory size."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "c1259a82b00bcd5a3e6b6e79c47dbccdd122b988a708c1a6172bf0ae0eccf471",
+      "reason": "The selected normal effect is passive, automatic or handled through the native container."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "c1259a82b00bcd5a3e6b6e79c47dbccdd122b988a708c1a6172bf0ae0eccf471",
+      "reason": "The enhancement applies only to improvised melee attacks. Selected special abilities and the +5 combined cap require explicit choices; no universal melee bonus is added."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "c1259a82b00bcd5a3e6b6e79c47dbccdd122b988a708c1a6172bf0ae0eccf471",
+      "reason": "Conditional roll-note targeting needs its exact native or optional interface; the full restrictions are retained in the source and action notes."
+    },
+    "usage": {
+      "state": "not-needed",
+      "sourceSha256": "c1259a82b00bcd5a3e6b6e79c47dbccdd122b988a708c1a6172bf0ae0eccf471",
+      "reason": "No general charge pool is invented; paired word budgets, returning availability and escalating Perform difficulty remain as described."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "c1259a82b00bcd5a3e6b6e79c47dbccdd122b988a708c1a6172bf0ae0eccf471",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "c1259a82b00bcd5a3e6b6e79c47dbccdd122b988a708c1a6172bf0ae0eccf471",
+      "reason": "The source slot header says neck while the body says worn on the head. Preserve the existing published neck field and flag the contradiction rather than guessing an erratum. Source ambiguity tracked in https://github.com/sefaction/spheres-content/issues/22."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "c1259a82b00bcd5a3e6b6e79c47dbccdd122b988a708c1a6172bf0ae0eccf471",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. The enhancement applies only to improvised melee attacks. Selected special abilities and the +5 combined cap require explicit choices; no universal melee bonus is added."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "c1259a82b00bcd5a3e6b6e79c47dbccdd122b988a708c1a6172bf0ae0eccf471",
+      "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "c1259a82b00bcd5a3e6b6e79c47dbccdd122b988a708c1a6172bf0ae0eccf471",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "c1259a82b00bcd5a3e6b6e79c47dbccdd122b988a708c1a6172bf0ae0eccf471",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:heros-scarf": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "96998c9e3c9f0a6678a9c9a5b027babd54552689769a9b521b07c90b714c32bb",
+      "reason": "Original compact generated illustration visually reviewed at inventory size."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "96998c9e3c9f0a6678a9c9a5b027babd54552689769a9b521b07c90b714c32bb",
+      "reason": "The selected normal effect is passive, automatic or handled through the native container."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "96998c9e3c9f0a6678a9c9a5b027babd54552689769a9b521b07c90b714c32bb",
+      "reason": "Effective level +4 applies only to the named finishing-move, tension-pool, strong-start and hero-power effects with the stated prerequisites, not actual class level or all class statistics."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "96998c9e3c9f0a6678a9c9a5b027babd54552689769a9b521b07c90b714c32bb",
+      "reason": "Conditional roll-note targeting needs its exact native or optional interface; the full restrictions are retained in the source and action notes."
+    },
+    "usage": {
+      "state": "not-needed",
+      "sourceSha256": "96998c9e3c9f0a6678a9c9a5b027babd54552689769a9b521b07c90b714c32bb",
+      "reason": "No general charge pool is invented; paired word budgets, returning availability and escalating Perform difficulty remain as described."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "96998c9e3c9f0a6678a9c9a5b027babd54552689769a9b521b07c90b714c32bb",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "96998c9e3c9f0a6678a9c9a5b027babd54552689769a9b521b07c90b714c32bb",
+      "reason": "Native equipment profile, published physical values and caster level reviewed.  PF1 derives a moderate aura from CL 8; the source specifies strong and retains that wording in the description."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "96998c9e3c9f0a6678a9c9a5b027babd54552689769a9b521b07c90b714c32bb",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. Effective level +4 applies only to the named finishing-move, tension-pool, strong-start and hero-power effects with the stated prerequisites, not actual class level or all class statistics."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "96998c9e3c9f0a6678a9c9a5b027babd54552689769a9b521b07c90b714c32bb",
+      "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "96998c9e3c9f0a6678a9c9a5b027babd54552689769a9b521b07c90b714c32bb",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "96998c9e3c9f0a6678a9c9a5b027babd54552689769a9b521b07c90b714c32bb",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:insanity-drive": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "0f700311edee434e3a6ec7e16b96e4e08a5db91f02c1939601805dfa0de35f5d",
+      "reason": "Original compact generated illustration visually reviewed at inventory size."
+    },
+    "activation": {
+      "state": "deferred",
+      "sourceSha256": "0f700311edee434e3a6ec7e16b96e4e08a5db91f02c1939601805dfa0de35f5d",
+      "reason": "The source describes a violent tug but specifies no action cost; none is invented."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "0f700311edee434e3a6ec7e16b96e4e08a5db91f02c1939601805dfa0de35f5d",
+      "reason": "The GM chooses the needed destination. The device leaves after use and has a 20% daily chance to return; it is not a permanently destroyed single-use consumable and no unlimited active copy is inferred."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "0f700311edee434e3a6ec7e16b96e4e08a5db91f02c1939601805dfa0de35f5d",
+      "reason": "The item has use procedures or effects rather than a general actor roll modifier."
+    },
+    "usage": {
+      "state": "deferred",
+      "sourceSha256": "0f700311edee434e3a6ec7e16b96e4e08a5db91f02c1939601805dfa0de35f5d",
+      "reason": "No general charge pool is invented; paired word budgets, returning availability and escalating Perform difficulty remain as described."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "0f700311edee434e3a6ec7e16b96e4e08a5db91f02c1939601805dfa0de35f5d",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "0f700311edee434e3a6ec7e16b96e4e08a5db91f02c1939601805dfa0de35f5d",
+      "reason": "Native equipment profile, published physical values and caster level reviewed. "
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "0f700311edee434e3a6ec7e16b96e4e08a5db91f02c1939601805dfa0de35f5d",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. The GM chooses the needed destination. The device leaves after use and has a 20% daily chance to return; it is not a permanently destroyed single-use consumable and no unlimited active copy is inferred."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "0f700311edee434e3a6ec7e16b96e4e08a5db91f02c1939601805dfa0de35f5d",
+      "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "0f700311edee434e3a6ec7e16b96e4e08a5db91f02c1939601805dfa0de35f5d",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "0f700311edee434e3a6ec7e16b96e4e08a5db91f02c1939601805dfa0de35f5d",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:motif-bauble": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "171cd1c2e339b2e926b3e5c1424e3c2d72ea32515df8d32b3e5a817683f709dd",
+      "reason": "Existing core/PF1 illustration selected after reviewing candidate descriptions, type, image and source version; reference only."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "171cd1c2e339b2e926b3e5c1424e3c2d72ea32515df8d32b3e5a817683f709dd",
+      "reason": "Pinned native source-defined activation and action-resource costs; notes retain all prerequisites."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "171cd1c2e339b2e926b3e5c1424e3c2d72ea32515df8d32b3e5a817683f709dd",
+      "reason": "The chosen motif and its granted powers require explicit selection. Attaching temporarily replaces access; destroying permanently adopts the motif. No actor class, spell slots or existing motif is silently rewritten."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "171cd1c2e339b2e926b3e5c1424e3c2d72ea32515df8d32b3e5a817683f709dd",
+      "reason": "The item has use procedures or effects rather than a general actor roll modifier."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "171cd1c2e339b2e926b3e5c1424e3c2d72ea32515df8d32b3e5a817683f709dd",
+      "reason": "Attach costs zero items; only the full-round Destroy action consumes one bauble."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "171cd1c2e339b2e926b3e5c1424e3c2d72ea32515df8d32b3e5a817683f709dd",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "171cd1c2e339b2e926b3e5c1424e3c2d72ea32515df8d32b3e5a817683f709dd",
+      "reason": "Native equipment profile, published physical values and caster level reviewed. "
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "171cd1c2e339b2e926b3e5c1424e3c2d72ea32515df8d32b3e5a817683f709dd",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. The chosen motif and its granted powers require explicit selection. Attaching temporarily replaces access; destroying permanently adopts the motif. No actor class, spell slots or existing motif is silently rewritten."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "171cd1c2e339b2e926b3e5c1424e3c2d72ea32515df8d32b3e5a817683f709dd",
+      "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "171cd1c2e339b2e926b3e5c1424e3c2d72ea32515df8d32b3e5a817683f709dd",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "171cd1c2e339b2e926b3e5c1424e3c2d72ea32515df8d32b3e5a817683f709dd",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:motif-bauble-greater": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "b583418f6921d4f554811f29d9911e31fb1fc66a9d3a01585254e5c762f98636",
+      "reason": "Existing core/PF1 illustration selected after reviewing candidate descriptions, type, image and source version; reference only."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "b583418f6921d4f554811f29d9911e31fb1fc66a9d3a01585254e5c762f98636",
+      "reason": "Pinned native source-defined activation and action-resource costs; notes retain all prerequisites."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "b583418f6921d4f554811f29d9911e31fb1fc66a9d3a01585254e5c762f98636",
+      "reason": "The greater variant adds access to the selected motif alongside existing motifs. Its class grants and spell-slot costs need explicit modeling; permanent adoption is not an automatic world migration."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "b583418f6921d4f554811f29d9911e31fb1fc66a9d3a01585254e5c762f98636",
+      "reason": "The item has use procedures or effects rather than a general actor roll modifier."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "b583418f6921d4f554811f29d9911e31fb1fc66a9d3a01585254e5c762f98636",
+      "reason": "Attach costs zero items; only the full-round Destroy action consumes one bauble."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "b583418f6921d4f554811f29d9911e31fb1fc66a9d3a01585254e5c762f98636",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "b583418f6921d4f554811f29d9911e31fb1fc66a9d3a01585254e5c762f98636",
+      "reason": "Native equipment profile, published physical values and caster level reviewed. "
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "b583418f6921d4f554811f29d9911e31fb1fc66a9d3a01585254e5c762f98636",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. The greater variant adds access to the selected motif alongside existing motifs. Its class grants and spell-slot costs need explicit modeling; permanent adoption is not an automatic world migration."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "b583418f6921d4f554811f29d9911e31fb1fc66a9d3a01585254e5c762f98636",
+      "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "b583418f6921d4f554811f29d9911e31fb1fc66a9d3a01585254e5c762f98636",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "b583418f6921d4f554811f29d9911e31fb1fc66a9d3a01585254e5c762f98636",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:null-bindi": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "340f7477735a0272987ee514b779bb43c2908ec20950f72cb960fb85e73b12cd",
+      "reason": "Existing core/PF1 illustration selected after reviewing candidate descriptions, type, image and source version; reference only."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "340f7477735a0272987ee514b779bb43c2908ec20950f72cb960fb85e73b12cd",
+      "reason": "Pinned native source-defined activation and action-resource costs; notes retain all prerequisites."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "340f7477735a0272987ee514b779bb43c2908ec20950f72cb960fb85e73b12cd",
+      "reason": "Only a creature with a Euclidean pool can wear it on the forehead. The swift action consumes the item and restores that pool to maximum; pool restoration needs a reviewed resource interface."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "340f7477735a0272987ee514b779bb43c2908ec20950f72cb960fb85e73b12cd",
+      "reason": "The item has use procedures or effects rather than a general actor roll modifier."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "340f7477735a0272987ee514b779bb43c2908ec20950f72cb960fb85e73b12cd",
+      "reason": "Native PF1 single-use handling uses quantity while retaining the head slot."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "340f7477735a0272987ee514b779bb43c2908ec20950f72cb960fb85e73b12cd",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "340f7477735a0272987ee514b779bb43c2908ec20950f72cb960fb85e73b12cd",
+      "reason": "Native equipment profile, published physical values and caster level reviewed. "
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "340f7477735a0272987ee514b779bb43c2908ec20950f72cb960fb85e73b12cd",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. Only a creature with a Euclidean pool can wear it on the forehead. The swift action consumes the item and restores that pool to maximum; pool restoration needs a reviewed resource interface."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "340f7477735a0272987ee514b779bb43c2908ec20950f72cb960fb85e73b12cd",
+      "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "340f7477735a0272987ee514b779bb43c2908ec20950f72cb960fb85e73b12cd",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "340f7477735a0272987ee514b779bb43c2908ec20950f72cb960fb85e73b12cd",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:paranoia-lenses": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "787530faefd452d92ea19d1704363cfe9c868f29e395434715ff91a95cbec441",
+      "reason": "Existing core/PF1 illustration selected after reviewing candidate descriptions, type, image and source version; reference only."
+    },
+    "activation": {
+      "state": "not-needed",
+      "sourceSha256": "787530faefd452d92ea19d1704363cfe9c868f29e395434715ff91a95cbec441",
+      "reason": "The selected normal effect is passive, automatic or handled through the native container."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "787530faefd452d92ea19d1704363cfe9c868f29e395434715ff91a95cbec441",
+      "reason": "Blindsense is limited to creatures actively perceiving the wearer. Observation beyond 30 feet gives only awareness of being observed, not creature location or universal blindsense."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "787530faefd452d92ea19d1704363cfe9c868f29e395434715ff91a95cbec441",
+      "reason": "The item has use procedures or effects rather than a general actor roll modifier."
+    },
+    "usage": {
+      "state": "not-needed",
+      "sourceSha256": "787530faefd452d92ea19d1704363cfe9c868f29e395434715ff91a95cbec441",
+      "reason": "No general charge pool is invented; paired word budgets, returning availability and escalating Perform difficulty remain as described."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "787530faefd452d92ea19d1704363cfe9c868f29e395434715ff91a95cbec441",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "787530faefd452d92ea19d1704363cfe9c868f29e395434715ff91a95cbec441",
+      "reason": "Native equipment profile, published physical values and caster level reviewed. "
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "787530faefd452d92ea19d1704363cfe9c868f29e395434715ff91a95cbec441",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. Blindsense is limited to creatures actively perceiving the wearer. Observation beyond 30 feet gives only awareness of being observed, not creature location or universal blindsense."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "787530faefd452d92ea19d1704363cfe9c868f29e395434715ff91a95cbec441",
+      "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "787530faefd452d92ea19d1704363cfe9c868f29e395434715ff91a95cbec441",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "787530faefd452d92ea19d1704363cfe9c868f29e395434715ff91a95cbec441",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:prismatic-scepter": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "c0e65cb6211b6f9f8bc74926f6c0a3c87ed1a22abc681b62a3b2bd61fe02edca",
+      "reason": "Original compact generated illustration visually reviewed at inventory size."
+    },
+    "activation": {
+      "state": "deferred",
+      "sourceSha256": "c0e65cb6211b6f9f8bc74926f6c0a3c87ed1a22abc681b62a3b2bd61fe02edca",
+      "reason": "The three reviewed core spells and metamagic charge helper have native actions, but Prismatic Blast remains descriptive pending its exact spell and casting-time interface."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "c0e65cb6211b6f9f8bc74926f6c0a3c87ed1a22abc681b62a3b2bd61fe02edca",
+      "reason": "Stored spell effects and Prismatic Blast need their exact spell interfaces. The two-charge metamagic option permits only one metamagic feat at a time and does not increase casting time; light and spell outcomes are not token/world automation."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "c0e65cb6211b6f9f8bc74926f6c0a3c87ed1a22abc681b62a3b2bd61fe02edca",
+      "reason": "The item has use procedures or effects rather than a general actor roll modifier."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "c0e65cb6211b6f9f8bc74926f6c0a3c87ed1a22abc681b62a3b2bd61fe02edca",
+      "reason": "Native ten-charge pool; actions use the published one/two-charge costs. Prismatic Blast remains in the description pending its reviewed action interface."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "c0e65cb6211b6f9f8bc74926f6c0a3c87ed1a22abc681b62a3b2bd61fe02edca",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "c0e65cb6211b6f9f8bc74926f6c0a3c87ed1a22abc681b62a3b2bd61fe02edca",
+      "reason": "Native equipment profile, published physical values and caster level reviewed. "
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "c0e65cb6211b6f9f8bc74926f6c0a3c87ed1a22abc681b62a3b2bd61fe02edca",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. Stored spell effects and Prismatic Blast need their exact spell interfaces. The two-charge metamagic option permits only one metamagic feat at a time and does not increase casting time; light and spell outcomes are not token/world automation."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "c0e65cb6211b6f9f8bc74926f6c0a3c87ed1a22abc681b62a3b2bd61fe02edca",
+      "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "c0e65cb6211b6f9f8bc74926f6c0a3c87ed1a22abc681b62a3b2bd61fe02edca",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "c0e65cb6211b6f9f8bc74926f6c0a3c87ed1a22abc681b62a3b2bd61fe02edca",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:raycaster": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "e1500637a98c3a2b90828bd2364500212d4966759fbf8cd200dfdb25c7d96389",
+      "reason": "Existing core/PF1 illustration selected after reviewing candidate descriptions, type, image and source version; reference only."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "e1500637a98c3a2b90828bd2364500212d4966759fbf8cd200dfdb25c7d96389",
+      "reason": "Pinned native source-defined activation and action-resource costs; notes retain all prerequisites."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "e1500637a98c3a2b90828bd2364500212d4966759fbf8cd200dfdb25c7d96389",
+      "reason": "Its +1 enhancement applies to native mace attacks. Applying enhancement and selected weapon abilities to qualifying hit-point-damaging spells only while used as a focus needs a separate interface."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "e1500637a98c3a2b90828bd2364500212d4966759fbf8cd200dfdb25c7d96389",
+      "reason": "Conditional roll-note targeting needs its exact native or optional interface; the full restrictions are retained in the source and action notes."
+    },
+    "usage": {
+      "state": "not-needed",
+      "sourceSha256": "e1500637a98c3a2b90828bd2364500212d4966759fbf8cd200dfdb25c7d96389",
+      "reason": "No general charge pool is invented; paired word budgets, returning availability and escalating Perform difficulty remain as described."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "e1500637a98c3a2b90828bd2364500212d4966759fbf8cd200dfdb25c7d96389",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "e1500637a98c3a2b90828bd2364500212d4966759fbf8cd200dfdb25c7d96389",
+      "reason": "Native weapon profile, published physical values and caster level reviewed.  PF1 derives a faint aura from CL 5; the source specifies moderate and retains that wording in the description."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "e1500637a98c3a2b90828bd2364500212d4966759fbf8cd200dfdb25c7d96389",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. Its +1 enhancement applies to native mace attacks. Applying enhancement and selected weapon abilities to qualifying hit-point-damaging spells only while used as a focus needs a separate interface."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "e1500637a98c3a2b90828bd2364500212d4966759fbf8cd200dfdb25c7d96389",
+      "reason": "Adapted reviewed Light Mace native fields; all named-item differences and source-table overrides are explicit."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "e1500637a98c3a2b90828bd2364500212d4966759fbf8cd200dfdb25c7d96389",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "e1500637a98c3a2b90828bd2364500212d4966759fbf8cd200dfdb25c7d96389",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:talky-bullet": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "5ebeec105cc265ada59f8dac2365293965ad41889b4d699069c582bb4aa34987",
+      "reason": "Existing core/PF1 illustration selected after reviewing candidate descriptions, type, image and source version; reference only."
+    },
+    "activation": {
+      "state": "deferred",
+      "sourceSha256": "5ebeec105cc265ada59f8dac2365293965ad41889b4d699069c582bb4aa34987",
+      "reason": "PF1 loot actions are not added as unusable actor buttons; firing uses the weapon’s ammunition workflow."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "5ebeec105cc265ada59f8dac2365293965ad41889b4d699069c582bb4aa34987",
+      "reason": "Lodging in a hit target triggers the concentration requirement for 1+1d4 rounds. No target actor, timed effect or universal concentration penalty is assumed. Native firearm-ammunition quantity handling is preserved."
+    },
+    "contextNotes": {
+      "state": "deferred",
+      "sourceSha256": "5ebeec105cc265ada59f8dac2365293965ad41889b4d699069c582bb4aa34987",
+      "reason": "Conditional roll-note targeting needs its exact native or optional interface; the full restrictions are retained in the source and action notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "5ebeec105cc265ada59f8dac2365293965ad41889b4d699069c582bb4aa34987",
+      "reason": "Native ammunition is inherently single use and tracks quantity; specialized on-hit/infusion effects remain deferred."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "5ebeec105cc265ada59f8dac2365293965ad41889b4d699069c582bb4aa34987",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "5ebeec105cc265ada59f8dac2365293965ad41889b4d699069c582bb4aa34987",
+      "reason": "The source slot header says neck but the rules explicitly describe ammunition fired into a target. Model the native firearm-bullet type and retain the contradictory header in the complete description. Source ambiguity tracked in https://github.com/sefaction/spheres-content/issues/22."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "5ebeec105cc265ada59f8dac2365293965ad41889b4d699069c582bb4aa34987",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. Lodging in a hit target triggers the concentration requirement for 1+1d4 rounds. No target actor, timed effect or universal concentration penalty is assumed. Native firearm-ammunition quantity handling is preserved."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "5ebeec105cc265ada59f8dac2365293965ad41889b4d699069c582bb4aa34987",
+      "reason": "Adapted reviewed Firearm Bullet native fields; all named-item differences and source-table overrides are explicit."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "5ebeec105cc265ada59f8dac2365293965ad41889b4d699069c582bb4aa34987",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "5ebeec105cc265ada59f8dac2365293965ad41889b4d699069c582bb4aa34987",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:thunder-and-fury": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "c58c11d05655bb5e76d6b5b0abac7fe260c4b51f1b725d029dcd1900f934f01a",
+      "reason": "Original compact generated illustration visually reviewed at inventory size."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "c58c11d05655bb5e76d6b5b0abac7fe260c4b51f1b725d029dcd1900f934f01a",
+      "reason": "Pinned native source-defined activation and action-resource costs; notes retain all prerequisites."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "c58c11d05655bb5e76d6b5b0abac7fe260c4b51f1b725d029dcd1900f934f01a",
+      "reason": "Shocking burst and the escalating daily Perform DC require stateful handling. The base shout needs a successful Perform check before the sonic damage and rank-dependent Fortitude save/stagger apply."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "c58c11d05655bb5e76d6b5b0abac7fe260c4b51f1b725d029dcd1900f934f01a",
+      "reason": "The item has use procedures or effects rather than a general actor roll modifier."
+    },
+    "usage": {
+      "state": "deferred",
+      "sourceSha256": "c58c11d05655bb5e76d6b5b0abac7fe260c4b51f1b725d029dcd1900f934f01a",
+      "reason": "No general charge pool is invented; paired word budgets, returning availability and escalating Perform difficulty remain as described."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "c58c11d05655bb5e76d6b5b0abac7fe260c4b51f1b725d029dcd1900f934f01a",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "c58c11d05655bb5e76d6b5b0abac7fe260c4b51f1b725d029dcd1900f934f01a",
+      "reason": "Native weapon profile, published physical values and caster level reviewed. Base exotic instrument statistics and alternate damage types come from the approved Rockstar table. Enchanted form/burst behavior and class-specific proficiency remain explicit. "
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "c58c11d05655bb5e76d6b5b0abac7fe260c4b51f1b725d029dcd1900f934f01a",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. Shocking burst and the escalating daily Perform DC require stateful handling. The base shout needs a successful Perform check before the sonic damage and rank-dependent Fortitude save/stagger apply."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "c58c11d05655bb5e76d6b5b0abac7fe260c4b51f1b725d029dcd1900f934f01a",
+      "reason": "Adapted reviewed Greatsword native fields; all named-item differences and source-table overrides are explicit."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "c58c11d05655bb5e76d6b5b0abac7fe260c4b51f1b725d029dcd1900f934f01a",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "c58c11d05655bb5e76d6b5b0abac7fe260c4b51f1b725d029dcd1900f934f01a",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:thunderbolt-axe": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "383345ca8c72a50a447c3b95332473386908d04da40b47a369641e172414163e",
+      "reason": "Original compact generated illustration visually reviewed at inventory size."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "383345ca8c72a50a447c3b95332473386908d04da40b47a369641e172414163e",
+      "reason": "Pinned native source-defined activation and action-resource costs; notes retain all prerequisites."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "383345ca8c72a50a447c3b95332473386908d04da40b47a369641e172414163e",
+      "reason": "Shocking burst, electricity form and Perform-margin choices require user selection. The base lightning roll does not guess rank-dependent save DCs, additional targets or the increasing daily Perform DC."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "383345ca8c72a50a447c3b95332473386908d04da40b47a369641e172414163e",
+      "reason": "The item has use procedures or effects rather than a general actor roll modifier."
+    },
+    "usage": {
+      "state": "deferred",
+      "sourceSha256": "383345ca8c72a50a447c3b95332473386908d04da40b47a369641e172414163e",
+      "reason": "No general charge pool is invented; paired word budgets, returning availability and escalating Perform difficulty remain as described."
+    },
+    "links": {
+      "state": "not-needed",
+      "sourceSha256": "383345ca8c72a50a447c3b95332473386908d04da40b47a369641e172414163e",
+      "reason": "No permanent feat, class feature, spell or extra item grant is added for conditional item use."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "383345ca8c72a50a447c3b95332473386908d04da40b47a369641e172414163e",
+      "reason": "Native weapon profile, published physical values and caster level reviewed. Base exotic instrument statistics and alternate damage types come from the approved Rockstar table. Enchanted form/burst behavior and class-specific proficiency remain explicit. "
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "383345ca8c72a50a447c3b95332473386908d04da40b47a369641e172414163e",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. Shocking burst, electricity form and Perform-margin choices require user selection. The base lightning roll does not guess rank-dependent save DCs, additional targets or the increasing daily Perform DC."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "383345ca8c72a50a447c3b95332473386908d04da40b47a369641e172414163e",
+      "reason": "Adapted reviewed Greatsword native fields; all named-item differences and source-table overrides are explicit."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "383345ca8c72a50a447c3b95332473386908d04da40b47a369641e172414163e",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "383345ca8c72a50a447c3b95332473386908d04da40b47a369641e172414163e",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
+    }
+  },
+  "wiki:gonzo-wondrous-items:current:item:thunderdrum": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "81cde76c65631879ddc593cc68557579fbc31299c1bfd4d4815110d832482d3e",
+      "reason": "Original compact generated illustration visually reviewed at inventory size."
+    },
+    "activation": {
+      "state": "deferred",
+      "sourceSha256": "81cde76c65631879ddc593cc68557579fbc31299c1bfd4d4815110d832482d3e",
+      "reason": "The standard-action cacophony helper is present. The source does not specify conjuring activation or drumstick persistence, so that procedure remains descriptive."
+    },
+    "changes": {
+      "state": "not-needed",
+      "sourceSha256": "81cde76c65631879ddc593cc68557579fbc31299c1bfd4d4815110d832482d3e",
+      "reason": "The conjured +1 thundering spike-tipped drumstick pair needs separate grant/conjuration modeling. The drum’s base sonic effect requires the Perform check; expanding radius/damage and the daily escalating DC remain explicit conditions."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "81cde76c65631879ddc593cc68557579fbc31299c1bfd4d4815110d832482d3e",
+      "reason": "The item has use procedures or effects rather than a general actor roll modifier."
+    },
+    "usage": {
+      "state": "deferred",
+      "sourceSha256": "81cde76c65631879ddc593cc68557579fbc31299c1bfd4d4815110d832482d3e",
+      "reason": "No general charge pool is invented; paired word budgets, returning availability and escalating Perform difficulty remain as described."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "81cde76c65631879ddc593cc68557579fbc31299c1bfd4d4815110d832482d3e",
+      "reason": "Conjured drumsticks are not permanent inventory contents; their grant lifecycle needs explicit modeling."
+    },
+    "advanced": {
+      "state": "implemented",
+      "sourceSha256": "81cde76c65631879ddc593cc68557579fbc31299c1bfd4d4815110d832482d3e",
+      "reason": "Native equipment profile, published physical values and caster level reviewed. "
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "81cde76c65631879ddc593cc68557579fbc31299c1bfd4d4815110d832482d3e",
+      "reason": "Native data targets PF1 11.11; new sheets, actor use, consumption and template helpers await remote acceptance. The conjured +1 thundering spike-tipped drumstick pair needs separate grant/conjuration modeling. The drum’s base sonic effect requires the Perform check; expanding radius/damage and the daily escalating DC remain explicit conditions."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "81cde76c65631879ddc593cc68557579fbc31299c1bfd4d4815110d832482d3e",
+      "reason": "Exact, reordered and alternate-name searches found no suitable complete record; component records and artwork were reviewed before authoring."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "81cde76c65631879ddc593cc68557579fbc31299c1bfd4d4815110d832482d3e",
+      "reason": "Complete source text, limitations, variant information and construction requirements are retained."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "81cde76c65631879ddc593cc68557579fbc31299c1bfd4d4815110d832482d3e",
+      "reason": "Existing Open Game Content approvals and OGL/GPL notices retained. Rockstar instrument statistics are within the approved class snapshot and Gonzo notice; no wiki or third-party artwork bytes are copied."
     }
   }
 }
