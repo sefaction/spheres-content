@@ -465,6 +465,35 @@ export function validateMetamagicApparatus(doc, profile) {
     false,
     "Feat cost must not be charged by the apparatus",
   );
+  if (exception?.allowRepeatSameCasting)
+    assert.equal(
+      selected.allowRepeatSameCasting,
+      true,
+      "Repeated apparatus activation exception lost",
+    );
+  if (exception?.additionalTiming)
+    assert.equal(
+      selected.additionalTiming,
+      exception.additionalTiming,
+      "Persistence activation exception lost",
+    );
+  if (exception?.freeFollowup)
+    assert(
+      doc.system.actions.some(
+        (a) =>
+          a.activation?.type === exception.freeFollowup.activation &&
+          a.uses?.autoDeductChargesCost === exception.freeFollowup.cost,
+      ),
+      "Free follow-up action changed",
+    );
+  if (exception?.sourceAmbiguityIssue) {
+    assert.equal(selected.sourceAmbiguityIssue, exception.sourceAmbiguityIssue);
+    assert.equal(
+      meta.audit.advanced,
+      "deferred",
+      "Unresolved source ambiguity marked complete",
+    );
+  }
 }
 
 export function containerTotals(doc) {

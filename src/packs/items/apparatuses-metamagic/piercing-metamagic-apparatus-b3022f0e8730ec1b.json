@@ -3,7 +3,7 @@
   "_key": "!items!b3022f0e8730ec1b",
   "name": "Piercing Metamagic Apparatus",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,35 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-metamagic-apparatus",
+      "selectedVariant": "lesser tier; held slender rod",
+      "metamagicApparatus": {
+        "profile": "research/metamagic-apparatus-profiles.json",
+        "tier": "lesser",
+        "dailyUses": 3,
+        "maxSphereEffectCasterLevel": 7,
+        "featSpellPointCost": 1,
+        "featSpellPointCostAppliesToItem": false
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 5,000 gp (lesser), 10,000 gp (normal), 20,000 gp (greater)<br>\n<strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 1 sp</p>\n<p>When you cast a piercing talent against a target with spell resistance, it treats the spell resistance of the target as 5 lower than its actual spell resistance.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Piercing Spell; <strong>Cost</strong> 2,500 gp (lesser), 5,000 gp (normal), 10,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc38\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: lesser tier; held slender rod. Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. The effect must be caster level seven or lower. Spend one of 3 daily uses; only one metamagic apparatus may apply per casting. Its feat’s extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply.</p><p>Treat only the selected target’s spell resistance as five lower against this talent. Do not reduce its actual resistance for other effects or modify general magic skill checks.</p><p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic\">Shared metamagic apparatus rules</a>. Feat Cost applies to taking the feat, not using the physical apparatus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +73,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +94,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "cd9980ef4b7f74da",
+        "name": "Apply Piercing Metamagic Apparatus",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. The effect must be caster level seven or lower. Spend one of 3 daily uses; only one metamagic apparatus may apply per casting. Its feat’s extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply. Treat only the selected target’s spell resistance as five lower against this talent. Do not reduce its actual resistance for other effects or modify general magic skill checks."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

@@ -3,7 +3,7 @@
   "_key": "!items!d8f41de413dc63d7",
   "name": "Maximizing Metamagic Apparatus",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,35 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-metamagic-apparatus",
+      "selectedVariant": "lesser tier; held slender rod",
+      "metamagicApparatus": {
+        "profile": "research/metamagic-apparatus-profiles.json",
+        "tier": "lesser",
+        "dailyUses": 3,
+        "maxSphereEffectCasterLevel": 7,
+        "featSpellPointCost": 3,
+        "featSpellPointCostAppliesToItem": false
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 15,000 gp (lesser), 30,000 gp (normal), 60,000 gp (greater)<br>\n<strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 3 sp</p>\n<p>All variable, numeric effects of a talent modified by this metamagic are maximized. Saving throws and opposed rolls are not affected, nor are talents without random variables. An empowered, maximized talent gains the separate benefits of each feat: the maximum result plus half the normally rolled result.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Maximize Spell; <strong>Cost</strong> 7,500 gp (lesser), 15,000 gp (normal), 30,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc35\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: lesser tier; held slender rod. Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. The effect must be caster level seven or lower. Spend one of 3 daily uses; only one metamagic apparatus may apply per casting. Its feat’s extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply.</p><p>Maximize variable numeric effects; do not modify saves, opposed rolls or effects without random variables. When combined with Empower, add half the normally rolled result to the maximum result instead of increasing the maximum by half.</p><p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic\">Shared metamagic apparatus rules</a>. Feat Cost applies to taking the feat, not using the physical apparatus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +73,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +94,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "704b7a190f31550d",
+        "name": "Apply Maximizing Metamagic Apparatus",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. The effect must be caster level seven or lower. Spend one of 3 daily uses; only one metamagic apparatus may apply per casting. Its feat’s extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply. Maximize variable numeric effects; do not modify saves, opposed rolls or effects without random variables. When combined with Empower, add half the normally rolled result to the maximum result instead of increasing the maximum by half."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

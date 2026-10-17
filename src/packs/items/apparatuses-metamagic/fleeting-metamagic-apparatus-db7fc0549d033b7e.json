@@ -3,7 +3,7 @@
   "_key": "!items!db7fc0549d033b7e",
   "name": "Fleeting Metamagic Apparatus",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,36 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-metamagic-apparatus",
+      "selectedVariant": "lesser tier; held slender rod",
+      "metamagicApparatus": {
+        "profile": "research/metamagic-apparatus-profiles.json",
+        "tier": "lesser",
+        "dailyUses": 3,
+        "maxSphereEffectCasterLevel": 7,
+        "featSpellPointCost": 0,
+        "featSpellPointCostAppliesToItem": false,
+        "additionalTiming": "when spending a spell point to make a concentrated effect persist without concentration"
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 2,500 gp (lesser), 5,000 gp (normal), 10,000 gp (greater)<br>\n<strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 0 sp</p>\n<p>A fleeting talent’s duration becomes dismissible, if it is not already. You can dismiss your own fleeting talent as a swift action. When you dismiss a fleeting talent, its lingering aura cannot be detected by magic unless the caster succeeds at a magic skill check against a DC equal to 11 + 1/2 your caster level (minimum 1). The DC of checks to counter a fleeting spell is reduced by 2, and once active, counterspell removes a fleeting spell without a magic skill check. A fleeting talent has half its normal duration (with an extended fleeting talent, these duration adjustments cancel out). Only talents with a duration of at least 2 rounds can be made fleeting, and instantaneous or permanent talents cannot be fleeting talents. Time spent concentrating on a talent does not count against a fleeting talent’s time limit, and you may choose to activate this metamagic when spending a spell point to make a talent you are concentrating on last without concentration.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Fleeting Spell; <strong>Cost</strong> 1,250 gp (lesser), 2,500 gp (normal), 5,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc27\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: lesser tier; held slender rod. Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. The effect must be caster level seven or lower. Spend one of 3 daily uses; only one metamagic apparatus may apply per casting. Its feat’s extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply.</p><p>Only durations of at least two rounds qualify; instantaneous/permanent effects do not. Halve duration, excluding time spent concentrating; Extend cancels the duration adjustment. Apply during initial casting or when paying to persist it. Swift dismissal requires a magic skill check DC 11 + half the caster’s level (minimum one) to detect its lingering aura. Checks to counter it are two easier; counterspell removes it once active without a magic skill check.</p><p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic\">Shared metamagic apparatus rules</a>. Feat Cost applies to taking the feat, not using the physical apparatus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +74,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +95,69 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "067a1911846a308a",
+        "name": "Apply Fleeting Metamagic Apparatus",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. The effect must be caster level seven or lower. Spend one of 3 daily uses; only one metamagic apparatus may apply per casting. Its feat’s extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply. Only durations of at least two rounds qualify; instantaneous/permanent effects do not. Halve duration, excluding time spent concentrating; Extend cancels the duration adjustment. Apply during initial casting or when paying to persist it. Swift dismissal requires a magic skill check DC 11 + half the caster’s level (minimum one) to detect its lingering aura. Checks to counter it are two easier; counterspell removes it once active without a magic skill check."
+          ]
+        }
+      },
+      {
+        "_id": "f0993bb15b0a5901",
+        "name": "Apply When Persisting Concentrated Effect",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Alternative to applying at initial casting: spend a spell point to make the concentrated effect persist without concentration, and spend one apparatus use. Do not apply the same metamagic twice to the same effect. Hold this lesser apparatus; the qualifying effect must be CL seven or lower. Only durations of at least two rounds qualify; instantaneous/permanent effects do not. Halve duration, excluding time spent concentrating; Extend cancels the duration adjustment. Apply during initial casting or when paying to persist it. Swift dismissal requires a magic skill check DC 11 + half the caster’s level (minimum one) to detect its lingering aura. Checks to counter it are two easier; counterspell removes it once active without a magic skill check."
+          ]
+        }
+      },
+      {
+        "_id": "5a793a9e30e0ee73",
+        "name": "Dismiss Fleeting Effect",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "type": "swift"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Dismiss your own existing fleeting effect as a swift action, without spending another apparatus use. Resolve its concealed lingering aura and counterspell vulnerability from the complete source."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {
