@@ -30,10 +30,16 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
 - Full rule outcomes need a qualifying casting/target interface. No actor-wide
   damage, speed, DC, condition, morale or concentration modifiers were added.
   Native sheets/use and actual integration await remote acceptance.
-- Focused profile and source validation pass, including negative cases for wrong
-  tier, daily uses, combined CL, caster level and accidental feat-cost charging.
-  Full clean gate is pending. A scheduling lane keeps remaining apparatuses
-  together without inferring their mechanics. No new PR yet; stack on #25.
+- Clean implementation `7e02a2a82806b3bc0f8c650266b63ae143bca60a` passed formatting,
+  lint, all 68 tests, content/reference/provenance checks, all 6,788 compiler round
+  trips and two identical 753-file builds. ZIP SHA-256:
+  `3f17b9afb60fda336d75d2b4e2eb63c7184ac70416b60c77fb6a46ab628bfd23`.
+  Negative tests cover tier, daily-use, combined CL, caster-level and feat-cost
+  drift. A scheduling lane keeps the remaining apparatuses together.
+- Draft PR #28 is pushed, stacked on #25 and references #26:
+  https://github.com/sefaction/spheres-content/pull/28. CI remains pending until
+  checked; no merge approval. Documentation follow-up needs a fresh clean gate
+  before deployment.
 - Batch 2 now has twenty reviewed images and eighty pending: forty-one metamagic
   apparatuses plus thirty-nine other apparatuses. Continue with
   `node scripts/production-plan.mjs --batch=physical-items-batch-2 --limit=20`.
@@ -42,9 +48,20 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
 - Last remote check still returned HTTP 200 at `/join`, unidentified world
   running. Do not switch worlds, deploy or restart. User Setup-status question
   remains unanswered; last deployment receipt is `fed942b`. Continue local work.
-- Next safe step: full clean verification, record actual results, push/open a
-  draft PR for this coherent twenty-entry group, then continue the next group
-  or accept in the dedicated world if Setup becomes available.
+- Next safe step: check PR #28 CI, create a new feature branch from this one,
+  inspect the next twenty compendium matches, then author group 2. The full source
+  review is cached in `.local/batch2-group2-source-review.json`, with exceptions
+  in `.local/batch2-group2-exceptions.json`. No group-2 source edits or new art yet.
+- Reaching explicitly has five daily uses and permits repeat activation with the
+  same apparatus for one casting. Extending/Fleeting may apply when paying to
+  persist a concentrated effect; Fleeting also has a later swift dismissal.
+  Preserve these exceptions instead of copying the first group’s common timing.
+- Issue #27 tracks Flaring’s confirmed source ambiguity: the descriptor lists
+  include light, the damage trigger names only fire/electricity, and its duration
+  phrase is malformed. Re-extraction from the same approved snapshot confirms
+  the wording. Preserve it and defer affected outcomes/advanced interpretation.
+- Remote route rechecked before push: still HTTP 200 at `/join`. Continue local
+  work without disrupting that world or assuming an answer to the Setup question.
 
 ## Prior reviewed content batch: final first-batch group
 
