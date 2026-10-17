@@ -3,7 +3,7 @@
   "_key": "!items!0b878ed157008a6e",
   "name": "Shadow Grasping Metamagic Apparatus",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,35 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-metamagic-apparatus",
+      "selectedVariant": "lesser tier; held slender rod",
+      "metamagicApparatus": {
+        "profile": "research/metamagic-apparatus-profiles.json",
+        "tier": "lesser",
+        "dailyUses": 3,
+        "maxSphereEffectCasterLevel": 7,
+        "featSpellPointCost": 1,
+        "featSpellPointCostAppliesToItem": false
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 5,000 gp (lesser), 10,000 gp (normal), 20,000 gp (greater)<br>\n<strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 1 sp</p>\n<p>When you cast a talent with the darkness descriptor that affects an area, creatures in the area are entangled. If the talent allows a saving throw, a successful save negates the entangle effect. If the talent does not normally allow a save, a creature can attempt a Reflex save (DC = the talent’s DC if it had a saving throw) to negate the effect. If the talent allows spell resistance, failing to overcome a creature’s spell resistance means it is not entangled. An entangled creature remains so as long as it is in the area of the talent and for 1 round after it leaves. A creature that leaves and reenters the area must attempt a new saving throw to avoid becoming entangled. Creatures that succeed at a save to resist being entangled do not have to attempt additional saves if they stay within the darkened area. You are never impeded by the effects of your talents modified by this feat.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Shadow Grasp; <strong>Cost</strong> 2,500 gp (lesser), 5,000 gp (normal), 10,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc45\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: lesser tier; held slender rod. Apply as part of casting a qualifying sphere effect of caster level seven or lower. Hold this apparatus in at least one hand while applying it. Spend one of three daily uses; only one metamagic apparatus may apply per casting. Its feat's extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply.</p><p>Only darkness-descriptor area talents qualify. A successful normal save negates entangling; otherwise allow a Reflex save at the talent's normal DC. Failed spell-resistance penetration also prevents entangling. Entangling lasts in the area and one round after leaving; reentry requires a new save, while successful stationary creatures do not repeat saves. The caster is never impeded by their own modified talent.</p><p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic\">Shared metamagic apparatus rules</a>. Feat Cost applies to taking the feat, not using the physical apparatus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +73,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +94,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "5cabe8229a27553a",
+        "name": "Apply Shadow Grasping Metamagic Apparatus",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Apply as part of casting a qualifying sphere effect of caster level seven or lower. Hold this apparatus in at least one hand while applying it. Spend one of three daily uses; only one metamagic apparatus may apply per casting. Its feat's extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply. Only darkness-descriptor area talents qualify. A successful normal save negates entangling; otherwise allow a Reflex save at the talent's normal DC. Failed spell-resistance penetration also prevents entangling. Entangling lasts in the area and one round after leaving; reentry requires a new save, while successful stationary creatures do not repeat saves. The caster is never impeded by their own modified talent."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

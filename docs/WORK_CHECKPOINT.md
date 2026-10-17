@@ -2,7 +2,43 @@
 
 Updated: 2026-10-17 (work began 2026-09-19 local time).
 
-## Active work in progress: physical batch 2, group 2
+## Active work in progress: physical batch 2, group 3
+
+- Branch `codex/metamagic-apparatus-group-3`, based on `9b566fa` from draft PR #29.
+  Both Windows/Ubuntu checks passed for #29. Issue #26 remains open and all
+  stacked PRs remain unmerged; no merge or release approval has been given.
+- Twenty entries, Seeking through Umbral, now have reviewed native lesser-tier
+  profiles, three daily uses, shared suitable core artwork and individual limits.
+  Full approved source descriptions, prices, weights, IDs and source hashes match
+  the pre-review records. Eighteen full alternate conventional rod records were
+  inspected; different rules, prices and native settings prevent complete reuse.
+- Still explicitly activates mentally while carried or worn, without holding or
+  wielding. Suppressed retains its published three-pound weight. Both exceptions
+  are pinned in the shared profile and enforced by validation with negative tests.
+- Toxic requires a separately supplied poison dose, a failed qualifying talent
+  save and a separate poison save. It grants no dose, removes no inventory item
+  automatically and applies no poison condition. Studied uses racial CR without
+  class levels/templates; Tricking uses Charisma, not an inferred casting stat.
+  Other effect/target, duration, descriptor and lighting limits remain explicit.
+- Native actions track one daily use per application, separately from feat costs.
+  Source-specific target outcomes need a qualifying casting interface; no global
+  actor modifiers, automatic conditions, scene-light changes or permanent grants
+  are added. Remote compatibility and conditional effects remain deferred.
+- Four focused regression tests and content validation pass. Full clean gate,
+  deterministic builds and compiler round trips are pending. No group-3 PR yet;
+  stack this batch on `codex/metamagic-apparatus-group-2` (PR #29).
+- Batch 2 now has sixty reviewed images and forty pending: Widening plus
+  thirty-nine other apparatuses. Next ignored plan: `.local/batch2-group4-plan.json`.
+  Akashic/legacy work stays deferred; preserve existing entries and reviews.
+- Read-only Setup guard still reports a running world. The pending user request
+  asks for the administrator-authenticated transition to Setup; no new reply,
+  deployment, world transition or restart. Last deployment remains `fed942b`.
+- Next safe step: commit and run the clean full gate, recheck actual Setup state
+  if the user replies, then guarded deployment and Foundry acceptance when safe.
+  Otherwise push/open the draft PR with accurate pending remote evidence and
+  continue independent item review. Keep the active goal and full scope intact.
+
+## Prior reviewed content batch: physical batch 2, group 2
 
 - Branch `codex/metamagic-apparatus-group-2`, based on `b89208f` from PR #28.
   Both CI platforms passed for #28. Issue #26 remains active; all stacked PRs
@@ -33,7 +69,8 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   and two identical 753-file builds. ZIP SHA-256:
   `7b17e28931edc4e2c2e47c29626efeec72f245ebdd54d5ee1d6ef54d3edcf624`.
   Draft PR #29 is pushed, stacked on PR #28:
-  https://github.com/sefaction/spheres-content/pull/29. CI is pending.
+  https://github.com/sefaction/spheres-content/pull/29. Both CI platforms passed at
+  `9b566fa`; no merge approval.
 - Batch 2 now has forty reviewed images, sixty remaining: twenty-one metamagic
   apparatuses and thirty-nine other apparatuses. The next ignored plan is
   `.local/batch2-group3-plan.json`, starting Seeking, Selective and Shadow Grasping.

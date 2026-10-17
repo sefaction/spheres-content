@@ -3,7 +3,7 @@
   "_key": "!items!6caaea3558c81866",
   "name": "Solar Metamagic Apparatus",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,35 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-metamagic-apparatus",
+      "selectedVariant": "lesser tier; held slender rod",
+      "metamagicApparatus": {
+        "profile": "research/metamagic-apparatus-profiles.json",
+        "tier": "lesser",
+        "dailyUses": 3,
+        "maxSphereEffectCasterLevel": 7,
+        "featSpellPointCost": 1,
+        "featSpellPointCostAppliesToItem": false
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 5,000 gp (lesser), 10,000 gp (normal), 20,000 gp (greater)<br>\n<strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 1 sp</p>\n<p>Any talent you cast with the light descriptor that deals damage (including the Light sphere’s Searing Light talent and any blast type in the Destruction sphere’s Light blast type group) is fortified with the cleansing energies of the sun. If the talent creates an area of light, all creatures are dazzled for as long as they remain within the light’s area. Oozes, fungal creatures, creatures from the Shadow Plane, and undead must also succeed at a Will save (normal DC for your talent) or take a –2 penalty on attack rolls, damage rolls, saving throws, skill checks, and ability checks for as long as they remain within the light’s area. If the talent normally dazzles or blinds affected creatures with a duration other than instantaneous or permanent, the duration of that effect is increased by a number of rounds equal to 1/2 the talent’s caster level (minimum 1 round). Saving throws to remove the effect early still apply and can bypass this increase. If the talent deals more damage against oozes, fungal creatures, creatures from the Shadow Plane, or undead with a specific vulnerability to sunlight, the talent deals 1 additional point of damage per die against such creatures. If a damaging effect does not deal damage based on dice, it instead deals 1 additional point of damage per caster level.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Solar Spell; <strong>Cost</strong> 2,500 gp (lesser), 5,000 gp (normal), 10,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc49\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: lesser tier; held slender rod. Apply as part of casting a qualifying sphere effect of caster level seven or lower. Hold this apparatus in at least one hand while applying it. Spend one of three daily uses; only one metamagic apparatus may apply per casting. Its feat's extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply.</p><p>Only damaging light-descriptor talents qualify. If the talent creates an area of light, creatures there are dazzled; oozes, fungal creatures, Shadow Plane creatures and undead also save at its normal Will DC against -2 to attacks, damage, saves, skills and abilities while in that light. Extend a qualifying non-instantaneous/non-permanent dazzle or blindness by half caster level, minimum one round; normal early-removal saves remain. Only when the talent deals more damage against the source-listed oozes, fungal creatures, Shadow Plane creatures or undead with a specific sunlight vulnerability, add one per damage die against such creatures, or one per caster level for damage not based on dice.</p><p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic\">Shared metamagic apparatus rules</a>. Feat Cost applies to taking the feat, not using the physical apparatus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +73,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +94,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "dbc88ba5f6dd1de6",
+        "name": "Apply Solar Metamagic Apparatus",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Apply as part of casting a qualifying sphere effect of caster level seven or lower. Hold this apparatus in at least one hand while applying it. Spend one of three daily uses; only one metamagic apparatus may apply per casting. Its feat's extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply. Only damaging light-descriptor talents qualify. If the talent creates an area of light, creatures there are dazzled; oozes, fungal creatures, Shadow Plane creatures and undead also save at its normal Will DC against -2 to attacks, damage, saves, skills and abilities while in that light. Extend a qualifying non-instantaneous/non-permanent dazzle or blindness by half caster level, minimum one round; normal early-removal saves remain. Only when the talent deals more damage against the source-listed oozes, fungal creatures, Shadow Plane creatures or undead with a specific sunlight vulnerability, add one per damage die against such creatures, or one per caster level for damage not based on dice."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

@@ -460,6 +460,21 @@ export function validateMetamagicApparatus(doc, profile) {
     );
   if (exception?.price !== undefined)
     assert.equal(doc.system.price, exception.price);
+  if (exception?.weight !== undefined)
+    assert.equal(
+      doc.system.weight.value,
+      exception.weight,
+      "Source-specific apparatus weight changed",
+    );
+  if (exception?.requiresHeld !== undefined) {
+    assert.equal(
+      selected.requiresHeld,
+      exception.requiresHeld,
+      "Apparatus holding exception lost",
+    );
+    assert.equal(selected.handling, exception.handling);
+    assert.equal(selected.activationMode, exception.activationMode);
+  }
   assert.equal(
     selected.featSpellPointCostAppliesToItem,
     false,
