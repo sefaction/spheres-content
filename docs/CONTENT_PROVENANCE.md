@@ -122,3 +122,20 @@ Both PF1 images were visually inspected from the tested 11.11 installation and
 are referenced at their system paths. No image bytes are redistributed. Retain
 the PF1 OGL notice and GPL-3.0 record-format notice for adapted data. No world
 migration is included, so existing world copies remain unchanged.
+
+## Additional native firearm profiles: 2026-10-17
+
+Physical-item group 2 adapts PF1 11.11 Blunderbuss, Pistol and Musket records
+from `pf1.weapons-and-ammo` for the named Ethermagic firearms. Exact UUIDs,
+package versions, input record hashes, changes and output hashes are recorded
+in `config/physical-item-reviews.json`. Native firearm statistics, attack and
+ammunition data, and base unidentified descriptions are retained separately
+from the wiki’s complete named-item descriptions. The existing PF1 OGL notice
+includes Ultimate Combat; existing GPL-3.0 record-format notices remain in force.
+No upstream program code or artwork bytes are copied into the package.
+
+Nine new generated equipment illustrations have prompt, source/output hash and
+encoding records in `config/content.json`. Eight core artwork paths are
+referenced after visual review, with provider/version and exact image hashes.
+Other source records consulted for imagery are recorded as artwork-only
+references; their unrelated rules and statistics are not imported.

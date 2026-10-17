@@ -2,8 +2,8 @@
   "_id": "687ba81033072de0",
   "_key": "!items!687ba81033072de0",
   "name": "Ripper Van Wiggle's Musket",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-wood.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,28 +24,39 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.RFfwbr0xWBDWvExu",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "6d5e39e9b98ad1fad0b0281e67db6a0a6b79388f8f82363a8758d79a0c073c71",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
+      },
+      "nativeProfile": "ethermagic-musket"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> moderate transmutation; <strong>CL</strong> 18th; <strong>Weight</strong> 9 lbs; <strong>Price</strong> 78,800 gp</p>\n<p><strong>Description</strong><br>\nNamed after the psychotic gnome vampire who first wielded such a weapon after a deal with a particularly bored devil, this +2 greater sniping musket becomes even more powerful in the hands of an individual with an ether point pool. Twice per day, the wielder may cast an etherspell with the ultraviolet shift manifestation as a swift action, though he still has to pay its ether point cost. Further, if the wielder performs the ricoshot etherslinger talent, he may target the creature he just missed.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Magic Arms and Armor, ultraviolet shift, creator must have the ricoshot etherslinger talent; <strong>Cost</strong> 38,475 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/ethermagic-items#toc44\">Source: Spheres of Power Wiki</a></p>",
       "instructions": "",
-      "unidentified": ""
+      "unidentified": "<h3>Statistics</h3><p><b>Damage</b> 1d10 (small), 1d12 (medium); <b>Critical</b> x4; <b>Range</b> 40 ft.; <b>Type</b> B and P</p>\n<p><b>Misfire</b> 1-2 (5 ft.); <b>Capacity</b> 1</p>\n<h3>Description</h3>\n<p>This long-barreled firearm has a much greater range than a pistol. A musket uses either a bullet and 1 dose of black powder or a single alchemical cartridge as its ammunition.</p>"
     },
-    "tags": [],
+    "tags": ["Early Firearm"],
     "quantity": 1,
     "weight": {
       "value": 9
@@ -63,14 +74,16 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 18,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "trs"
     },
-    "hp": {},
+    "hp": {
+      "base": 10
+    },
     "broken": false,
-    "hardness": 0,
+    "hardness": 10,
     "changes": [],
     "changeFlags": {
       "immuneToMorale": false,
@@ -84,14 +97,73 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "7ejexe4mmovdera6",
+        "ability": {
+          "attack": "_default",
+          "critMult": 4
+        },
+        "actionType": "rwak",
+        "activation": {
+          "type": "attack",
+          "unchained": {
+            "type": "attack"
+          }
+        },
+        "ammo": {
+          "type": "gunBullet"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "sizeRoll(1, 12, @size)",
+              "types": ["bludgeoning", "piercing"]
+            }
+          ]
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "extraAttacks": {
+          "type": "standard"
+        },
+        "name": "Attack",
+        "range": {
+          "maxIncrements": 10,
+          "units": "ft",
+          "value": "40"
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        }
+      },
+      {
+        "_id": "3beff4b6c5de6efc",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "type": "swift"
+          }
+        },
+        "name": "Ultraviolet Shift",
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Cast an etherspell with the ultraviolet shift manifestation; pay its ether-point cost as normal."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
+      "value": 2,
+      "per": "day",
       "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "maxFormula": "2",
       "rechargeFormula": ""
     },
     "links": {
@@ -104,41 +176,39 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
+    "masterwork": true,
+    "enh": 2,
     "proficient": false,
-    "held": "1h",
+    "held": "2h",
     "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
+      "type": "gunBullet",
+      "capacity": 1,
+      "misfire": 2,
+      "explode": 5
     },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
+    "subType": "exotic",
+    "weaponSubtype": "ranged",
+    "hands": 2,
+    "baseTypes": ["Musket"],
+    "weaponGroups": ["firearms"],
+    "material": {
+      "base": {
+        "value": "steel",
+        "custom": false
+      },
+      "normal": {
+        "value": "",
+        "custom": false
+      },
+      "addon": []
     },
-    "spellFailure": 0,
-    "showInQuickbar": false,
+    "properties": {},
+    "showInQuickbar": true,
     "sources": [
+      {
+        "id": "PZO1123",
+        "pages": "43"
+      },
       {
         "title": "Spheres of Power Wiki",
         "url": "http://spheresofpower.wikidot.com/ethermagic-items#toc44"

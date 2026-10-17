@@ -3,7 +3,7 @@
   "_key": "!items!375d36ca5b470a71",
   "name": "Amulet of the Revealing Eye",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/neck/amulet-round-gold-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,19 +24,20 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 3,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "div"
     },
     "hp": {},
     "broken": false,
@@ -84,14 +85,59 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "36fe5bf80d58ca06",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "standard"
+          }
+        },
+        "name": "Reveal Hidden Creatures and Objects",
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Produce a 60-foot cone of bright light for three rounds. Within it, hidden creatures, objects and designed secret openings are revealed; creatures and objects lose invisibility benefits."
+          ]
+        },
+        "measureTemplate": {
+          "type": "cone",
+          "size": "60"
+        },
+        "duration": {
+          "value": "3",
+          "units": "round"
+        }
+      },
+      {
+        "_id": "ab76ae37e07505e2",
+        "activation": {
+          "type": "free",
+          "unchained": {
+            "type": "free"
+          }
+        },
+        "name": "Reorient Revealing Cone",
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Once per turn, change the orientation of the active cone."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
+      "value": 3,
+      "per": "day",
       "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

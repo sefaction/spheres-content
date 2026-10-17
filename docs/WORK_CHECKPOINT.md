@@ -1,8 +1,43 @@
 ﻿# Work checkpoint
 
-Updated: 2026-10-02 (work began 2026-09-19 local time).
+Updated: 2026-10-17 (work began 2026-09-19 local time).
 
-## Active tooling batch: production efficiency
+## Active content batch: physical item group 2
+
+- Branch `codex/physical-items-group-2`, based on `34a93b8` and tooling PR #19.
+  Issue #15 remains the physical-item umbrella. PR #16 and #19 remain open/draft;
+  no merge approval has been given. New content will be a separate stacked PR.
+- User goal: review as many items as practical before the usage reset. Akashic
+  items are temporarily deferred per the user’s 2026-10-17 direction. Preserve
+  their existing sources/reviews and skip further Akashic production.
+- Twenty non-Akashic entries now have reviewed profiles, images and explicit audit
+  decisions: two etherstaves, two rings, thirteen wearables and three firearms.
+  Nine generated 256 px WebP icons total 79,712 bytes; eight core image paths are
+  referenced after source-record and visual review. Body wraps share meaningful
+  family art. No third-party image bytes are packaged.
+- The firearms adapt PF1 11.11 Blunderbuss, Pistol and Musket, retaining native
+  attack data, ammo, misfire, published enhancement and source bibliography.
+  Base unidentified rules are retained separately from complete wiki descriptions.
+  Ordinary attacks cost zero daily special-power uses; the three special powers
+  use their separate 1/3/2 daily counters and immediate/swift activation reminders.
+- Dashing Cloak has standard/move/swift actions costing 1/2/3 of five charges.
+  Amulet of the Revealing Eye has three daily uses, a 60-foot cone and three-round
+  duration reminder; free reorientation costs zero uses. The crown starts
+  uncharged and tracks one manually gathered charge. No automatic teleportation,
+  secret-door revelation, burn application or conditional overflow bonus is inferred.
+- Full source descriptions and stable IDs are preserved. Alternative prices and
+  chosen base tiers are explicit. Conditional mechanics, optional integrations,
+  unselected special abilities and aura-strength/single-school limitations remain
+  deferred with specific reasons. The group is locally reviewed, not remotely accepted.
+- Focused tests passed; source validation passed. Full clean verification,
+  deterministic builds, push, stacked PR and CI are pending.
+- Remote status was rechecked read-only: `/join`, with a world running.
+  No deployment, world switch or restart occurred. The last saved receipt remains
+  `fed942b`. Do not disrupt an unidentified world; coordinate Setup before deployment.
+- Next safe step: complete this group’s clean verification and review PR, then
+  continue the remaining non-Akashic queue while remote acceptance is unavailable.
+
+## Prior tooling batch: production efficiency
 
 - Branch `codex/production-efficiency`, based on `d70d7a5` from
   `content/physical-items-batch-1`. Issue #18:

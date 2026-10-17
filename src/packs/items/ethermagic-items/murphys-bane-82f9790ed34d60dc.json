@@ -2,8 +2,8 @@
   "_id": "82f9790ed34d60dc",
   "_key": "!items!82f9790ed34d60dc",
   "name": "Murphy's Bane",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-pistol-wood.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,28 +24,39 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.RRh1u2ccgLv1ynu8",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "0ebe1dec512955a11e35d751a7d0cae3fa140159c2a65fd4ae1e9fe51a2f90dd",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
+      },
+      "nativeProfile": "ethermagic-pistol"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> moderate evocation; <strong>CL</strong> 8th; <strong>Weight</strong> 4 lbs.; <strong>Price</strong> 14,500 gp</p>\n<p><strong>Description</strong><br>\nThis battered, scorched +1 pistol once belonged to the notoriously-unlucky etherslinger Murphy McBane (of the famous law's fame). Much like its erstwhile owner, it sports numerous holes in its barrel, has a loose trigger and looks like it spent a cozy decade or two in an otyugh's nest or a particularly loathsome swamp; for all intents and purposes it should not work and it doesn't. Only in the hands of a creature with an ether point pool does this weapon's potential become apparent, as nascent ether makes the wreck functional. The pistol is effective against armored targets at a longer range than normal; attacks with this weapon are resolved against the target's touch AC when the target is within the first two range increments of the pistol. Further, whenever the wielder performs the translational blast etherslinging talent, she may invest that blast with Murphy’s legendary bad luck as a swift action. If the unlucky blast etherspell hits, the subject takes a -2 penalty to attack rolls against the wielder of Murphy’s bane for the next 1d4 rounds. This bad luck may be channeled three times per day.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Magic Arms and Armor, magnetic repulsion, creator must be an etherslinger; <strong>Cost</strong> 7,250 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/ethermagic-items#toc43\">Source: Spheres of Power Wiki</a></p>",
       "instructions": "",
-      "unidentified": ""
+      "unidentified": "<h3>Statistics</h3><p><b>Damage</b> 1d6 (small), 1d8 (medium); <b>Critical</b> x4; <b>Range</b> 20 ft.; <b>Type</b> B and P</p>\n<p><b>Misfire</b> 1 (5 ft.); <b>Capacity</b> 1</p>\n<h3>Description</h3>\n<p>The basic single-shot pistol is one of the most common firearms, although in most campaigns it is still rare enough to be an object of envy or curiosity to most. As such, it can take a variety of different forms, from wildly ornate masterpieces in the shape of fire-breathing dragons to the more common woodhandled pistols, or nothing more than a simple metal tube with a triggering device.</p>\n<p>A pistol uses either a bullet and 1 dose of black powder or a single alchemical cartridge as ammunition.</p>"
     },
-    "tags": [],
+    "tags": ["Early Firearm"],
     "quantity": 1,
     "weight": {
       "value": 4
@@ -63,14 +74,16 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 8,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "evo"
     },
-    "hp": {},
+    "hp": {
+      "base": 10
+    },
     "broken": false,
-    "hardness": 0,
+    "hardness": 10,
     "changes": [],
     "changeFlags": {
       "immuneToMorale": false,
@@ -84,14 +97,73 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "gsuiamhmn4tcj08d",
+        "ability": {
+          "attack": "_default",
+          "critMult": 4
+        },
+        "actionType": "rwak",
+        "activation": {
+          "type": "attack",
+          "unchained": {
+            "type": "attack"
+          }
+        },
+        "ammo": {
+          "type": "gunBullet"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "sizeRoll(1, 8, @size)",
+              "types": ["bludgeoning", "piercing"]
+            }
+          ]
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "extraAttacks": {
+          "type": "standard"
+        },
+        "name": "Attack",
+        "range": {
+          "maxIncrements": 10,
+          "units": "ft",
+          "value": "20"
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        }
+      },
+      {
+        "_id": "677c50f2f1c84a2d",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "type": "swift"
+          }
+        },
+        "name": "Channel Murphy’s Bad Luck",
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "When a Translational Blast etherspell hits, its target takes a -2 penalty on attack rolls against this weapon’s wielder for 1d4 rounds."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
+      "value": 3,
+      "per": "day",
       "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {
@@ -104,41 +176,39 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
+    "masterwork": true,
+    "enh": 1,
     "proficient": false,
     "held": "1h",
     "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
+      "type": "gunBullet",
+      "capacity": 1,
+      "misfire": 1,
+      "explode": 5
     },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
+    "subType": "exotic",
+    "weaponSubtype": "ranged",
+    "hands": 1,
+    "baseTypes": ["Pistol"],
+    "weaponGroups": ["firearms"],
+    "material": {
+      "base": {
+        "value": "steel",
+        "custom": false
+      },
+      "normal": {
+        "value": "",
+        "custom": false
+      },
+      "addon": []
     },
-    "spellFailure": 0,
-    "showInQuickbar": false,
+    "properties": {},
+    "showInQuickbar": true,
     "sources": [
+      {
+        "id": "PZO1123",
+        "pages": "43"
+      },
       {
         "title": "Spheres of Power Wiki",
         "url": "http://spheresofpower.wikidot.com/ethermagic-items#toc43"
