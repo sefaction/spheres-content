@@ -6,7 +6,8 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
 
 - Branch `codex/physical-items-group-2`, based on `34a93b8` and tooling PR #19.
   Issue #15 remains the physical-item umbrella. PR #16 and #19 remain open/draft;
-  no merge approval has been given. New content will be a separate stacked PR.
+  no merge approval has been given. Draft PR #21 contains this content group:
+  https://github.com/sefaction/spheres-content/pull/21.
 - User goal: review as many items as practical before the usage reset. Akashic
   items are temporarily deferred per the user’s 2026-10-17 direction. Preserve
   their existing sources/reviews and skip further Akashic production.
@@ -29,13 +30,27 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   chosen base tiers are explicit. Conditional mechanics, optional integrations,
   unselected special abilities and aura-strength/single-school limitations remain
   deferred with specific reasons. The group is locally reviewed, not remotely accepted.
-- Focused tests passed; source validation passed. Full clean verification,
-  deterministic builds, push, stacked PR and CI are pending.
+- Implementation commit `2071c3cb0ca5ba52faea81e3873534aecef84289` passed
+  clean committed full verification: formatting, lint, all 43 tests, content,
+  reference/provenance checks, all 6,788 compiler round trips and two identical
+  728-file builds. ZIP SHA-256:
+  `aaa8dd8ccab46a81a626832687b8c5a53078463a4741bdd8d760eb7cb587a236`.
+  The branch is pushed. CI status is authoritative on PR #21; no CI result is
+  assumed from dispatch. This documentation-only follow-up requires a fresh
+  clean gate before any later deployment.
+- The batch now has 66 locally reviewed entries/images and 34 unresolved images.
+  None of the twenty new entries is claimed remotely accepted or fully automated.
+  Issue #20 tracks source-navigation spill in the next item, Sparkly’s Glittergun:
+  https://github.com/sefaction/spheres-content/issues/20. Correct its extraction
+  boundary, preserving IDs, before treating it as reviewed.
 - Remote status was rechecked read-only: `/join`, with a world running.
   No deployment, world switch or restart occurred. The last saved receipt remains
   `fed942b`. Do not disrupt an unidentified world; coordinate Setup before deployment.
-- Next safe step: complete this group’s clean verification and review PR, then
-  continue the remaining non-Akashic queue while remote acceptance is unavailable.
+- Next safe step: inspect PR #21 CI, then continue the remaining 34 non-Akashic
+  entries. The next planner group begins with Sparkly’s Glittergun and Blaster’s
+  Bearing, followed by Gonzo equipment. Prepare source-boundary and native-type
+  corrections before images; musical weapons need their actual base statistics.
+  Continue independent local work while remote acceptance is unavailable.
 
 ## Prior tooling batch: production efficiency
 
