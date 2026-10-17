@@ -2,7 +2,51 @@
 
 Updated: 2026-10-17 (work began 2026-09-19 local time).
 
-## Active work in progress: final physical-item group
+## Active work in progress: physical batch 2, group 1
+
+- Branch `codex/physical-items-batch-2`, based on `cd3a52d` from draft PR #25.
+  Both Windows and Ubuntu checks passed for #25. All preceding PRs remain
+  unmerged; no individual merge approval or release approval has been given.
+- Issue #26 tracks the next frozen 100 canonical Ultimate-edition item records.
+  Existing first-batch membership remains intact and active while its mechanics
+  and remote acceptance are incomplete. Akashic and legacy production is excluded.
+  Original IDs, source keys, snapshots and descriptions are preserved.
+- Twenty apparatuses, Aligned through Encouraging, now have reviewed native
+  profiles and a suitable shared core rod icon. Exact-name/reordered searches and
+  conventional rod aliases were inspected before authoring. Conventional PF1
+  records have different rules/prices; no unrelated effects or image bytes were
+  imported. Selected profile, per-effect restrictions and source links are visible
+  in native instructions and action notes.
+- Shared approved source is pinned in `research/metamagic-apparatus-profiles.json`
+  at page SHA `b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091`.
+  Nineteen selected lesser tiers use CL 5, faint untyped aura, three daily uses
+  and sphere effects up to CL 7. Apply as part of casting while held; feat spell-
+  point cost is not an item cost. Normal effect/other-metamagic costs still apply.
+- Cascading is normal-only: CL 10, 20,000 gp, each talent CL <=7 and total <=9,
+  shortest duration/longest casting time, self-targeted persistent effects only.
+  It is one metamagic feat combining talents, so retains three daily uses.
+  Bouncing’s later swift redirection costs zero extra uses. Aligned/Elemental
+  choices share the item pool and remain unselected until the GM/user chooses.
+- Full rule outcomes need a qualifying casting/target interface. No actor-wide
+  damage, speed, DC, condition, morale or concentration modifiers were added.
+  Native sheets/use and actual integration await remote acceptance.
+- Focused profile and source validation pass, including negative cases for wrong
+  tier, daily uses, combined CL, caster level and accidental feat-cost charging.
+  Full clean gate is pending. A scheduling lane keeps remaining apparatuses
+  together without inferring their mechanics. No new PR yet; stack on #25.
+- Batch 2 now has twenty reviewed images and eighty pending: forty-one metamagic
+  apparatuses plus thirty-nine other apparatuses. Continue with
+  `node scripts/production-plan.mjs --batch=physical-items-batch-2 --limit=20`.
+  The next ignored plan is `.local/batch2-next-plan.json`, starting Enlarging,
+  Extending and Fearsome. Inspect each exception and compendium match first.
+- Last remote check still returned HTTP 200 at `/join`, unidentified world
+  running. Do not switch worlds, deploy or restart. User Setup-status question
+  remains unanswered; last deployment receipt is `fed942b`. Continue local work.
+- Next safe step: full clean verification, record actual results, push/open a
+  draft PR for this coherent twenty-entry group, then continue the next group
+  or accept in the dedicated world if Setup becomes available.
+
+## Prior reviewed content batch: final first-batch group
 
 - Branch `codex/physical-items-final-group`, based on `c02a056` from draft PR #23.
   Both CI platforms passed for #23. No PR has individual merge approval.
@@ -40,8 +84,8 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   all 6,788 compiler round trips and two identical 753-file builds. ZIP SHA-256:
   `01cccd5b9490b8aeb7b30cd72731055d0ba3eec922005af6582b4257f1a145d9`.
 - Draft PR #25 is pushed and stacked on `codex/physical-items-group-3` (#23):
-  https://github.com/sefaction/spheres-content/pull/25. CI remains pending until
-  checked. References #15, #20 and #24; none is closed and no merge is approved.
+  https://github.com/sefaction/spheres-content/pull/25. Windows/Ubuntu CI passed at
+  documentation commit `cd3a52d`. References #15, #20 and #24; none is closed and no merge is approved.
   This documentation follow-up needs a fresh clean gate before deployment.
 - Remote last checked read-only: HTTP 200 at `/join`, unidentified world running,
   PF1 11.11 / pf1spheres 0.9.0 / installed module alpha.6. Last deployment receipt

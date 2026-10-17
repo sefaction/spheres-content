@@ -670,3 +670,28 @@ test("reviewed shield and container profiles reject armor drift, invented capaci
     );
   }
 });
+
+test("second physical batch freezes 100 Ultimate identities without replacing first-batch membership", async () => {
+  const inventory = await json("config/production-batches.json");
+  const a = inventory.batches["physical-items-batch-1"],
+    b = inventory.batches["physical-items-batch-2"];
+  assert.equal(b.issue, 26);
+  assert.equal(b.expectedCount, 100);
+  assert.equal(b.entries.length, 100);
+  assert.equal(b.edition, "ultimate");
+  const keys = new Set(a.entries.map((e) => e.sourceKey)),
+    known = new Map(validatedCatalog.docs.map(({ doc }) => [doc._id, doc]));
+  assert.deepEqual(
+    b.entries.map((e) => e.sourceKey),
+    b.entries.map((e) => e.sourceKey).toSorted(),
+  );
+  for (const e of b.entries) {
+    assert(!keys.has(e.sourceKey));
+    assert(!/akashic/i.test(e.sourceKey));
+    const d = known.get(e.id);
+    assert(d);
+    assert.equal(d.flags[moduleId].edition, "ultimate");
+    assert.equal(d.flags[moduleId].sourceKey, e.sourceKey);
+    assert.equal(d.flags[moduleId].descriptionSha256, e.descriptionSha256);
+  }
+});

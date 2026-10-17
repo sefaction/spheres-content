@@ -3,7 +3,7 @@
   "_key": "!items!ea84b5669320b9a9",
   "name": "Contingent Metamagic Apparatus",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,35 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-metamagic-apparatus",
+      "selectedVariant": "lesser tier; held slender rod",
+      "metamagicApparatus": {
+        "profile": "research/metamagic-apparatus-profiles.json",
+        "tier": "lesser",
+        "dailyUses": 3,
+        "maxSphereEffectCasterLevel": 7,
+        "featSpellPointCost": 2,
+        "featSpellPointCostAppliesToItem": false
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 10,000 gp (lesser), 20,000 gp (normal), 40,000 gp (greater)<br>\n<strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 2 sp</p>\n<p>A contingent talent infuses a target with a dormant healing or restorative talent that can trigger when the target needs it the most. This metamagic can be applied to only Life talents or any harmless talent that can be used to remove ability score damage, ability score drain, or a negative condition or effect (such as the Life sphere’s Restore Senses talent). When you cast a contingent talent, you must set a specific trigger that dictates under what circumstances the target is immediately subject to the spell’s effects (for instance, “When the target dies, cure + Resuscitate takes effect”). The contingent talent’s effects can remain dormant within the target for up to 10 minutes per caster level you have. A creature can be infused with only one contingent talent at a time.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Contingent Spell; <strong>Cost</strong> 5,000 gp (lesser), 10,000 gp (normal), 20,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc15\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: lesser tier; held slender rod. Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. Spend one of its three daily uses; only one metamagic apparatus may apply per casting. The apparatus does not require knowing its feat or paying that feat’s extra spell points/casting time. Normal sphere-effect costs and other known metamagic costs still apply. The chosen sphere effect must be caster level 7 or lower.</p><p>Only the listed healing/restorative effects qualify. Set a specific trigger when casting, allow only one contingent talent per creature, and use at most ten minutes per sphere caster level of dormancy.</p><p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic\">Shared metamagic apparatus rules</a>. The Feat Cost in the source applies to taking the feat instead of using the physical item.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +73,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +94,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "07c677cb1b10ee74",
+        "name": "Apply Contingent Metamagic Apparatus",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. Spend one of its three daily uses; only one metamagic apparatus may apply per casting. The apparatus does not require knowing its feat or paying that feat’s extra spell points/casting time. Normal sphere-effect costs and other known metamagic costs still apply. The chosen sphere effect must be caster level 7 or lower. Only the listed healing/restorative effects qualify. Set a specific trigger when casting, allow only one contingent talent per creature, and use at most ten minutes per sphere caster level of dormancy."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

@@ -261,6 +261,8 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
       }
     }
     if (doc.type === "equipment") {
+      if (meta.nativeProfile === "reviewed-metamagic-apparatus")
+        validateMetamagicApparatus(doc, options.metamagicProfiles);
       if (meta.nativeProfile === "reviewed-buckler") {
         assert.equal(
           meta.reuse?.sourceUuid,
@@ -406,6 +408,65 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
   }
 }
 
+export function validateMetamagicApparatus(doc, profile) {
+  assert.equal(
+    profile?.schemaVersion,
+    1,
+    "Unreviewed metamagic apparatus profile",
+  );
+  const meta = doc.flags[moduleId];
+  assert.equal(
+    meta.sourceSha256,
+    profile.source.pageSha256,
+    "Metamagic profile snapshot mismatch",
+  );
+  const selected = meta.metamagicApparatus;
+  const tier = profile.tiers[selected?.tier];
+  assert(tier, "Unreviewed metamagic tier");
+  const exception =
+    profile.reviewedExceptions[meta.sourceKey.split(":").at(-1)];
+  if (exception?.tier)
+    assert.equal(
+      selected.tier,
+      exception.tier,
+      "Source-specific apparatus tier changed",
+    );
+  const daily = exception?.dailyUses ?? profile.shared.dailyUses;
+  assert.equal(doc.type, "equipment");
+  assert.equal(
+    doc.system.cl,
+    tier.casterLevel,
+    "Apparatus caster level changed",
+  );
+  assert.equal(
+    doc.system.aura.school,
+    "",
+    "Apparatus aura must remain untyped",
+  );
+  assert.equal(doc.system.uses.per, "day");
+  assert.equal(doc.system.uses.value, daily, "Apparatus daily uses changed");
+  assert.equal(doc.system.uses.maxFormula, String(daily));
+  assert.equal(selected.dailyUses, daily);
+  assert.equal(
+    selected.maxSphereEffectCasterLevel,
+    exception?.maxSphereEffectCasterLevel ?? tier.maxSphereEffectCasterLevel,
+    "Apparatus sphere caster-level limit changed",
+  );
+  if (exception?.maxCombinedCasterLevel !== undefined)
+    assert.equal(
+      selected.maxCombinedCasterLevel,
+      exception.maxCombinedCasterLevel,
+      "Combined caster-level limit changed",
+    );
+  if (exception?.price !== undefined)
+    assert.equal(doc.system.price, exception.price);
+  assert.equal(
+    selected.featSpellPointCostAppliesToItem,
+    false,
+    "Feat cost must not be charged by the apparatus",
+  );
+}
+
 export function containerTotals(doc) {
   const s = doc.system;
   return Object.values(s.items).reduce(
@@ -518,6 +579,9 @@ export async function validateContentCatalog() {
   const intakeSources = await json("config/intake-sources.json");
   const physicalReviews = await json("config/physical-item-reviews.json");
   const productionBatches = await json("config/production-batches.json");
+  const metamagicProfiles = await json(
+    "research/metamagic-apparatus-profiles.json",
+  );
   const sources = new Map();
   for (const source of catalog.sources) {
     assert(!sources.has(source.key), "Duplicate collection");
@@ -666,6 +730,7 @@ export async function validateContentCatalog() {
       validateEntity(doc, identity, sources, assets, {
         containers,
         intakeSources,
+        metamagicProfiles,
       });
       if (doc.flags[moduleId].reuse?.sourceUuid)
         validateReviewOutput(physicalReviews[key], doc);

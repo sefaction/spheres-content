@@ -3,7 +3,7 @@
   "_key": "!items!5a48b0ad5a9f0f08",
   "name": "Contagious Metamagic Apparatus",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,35 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-metamagic-apparatus",
+      "selectedVariant": "lesser tier; held slender rod",
+      "metamagicApparatus": {
+        "profile": "research/metamagic-apparatus-profiles.json",
+        "tier": "lesser",
+        "dailyUses": 3,
+        "maxSphereEffectCasterLevel": 7,
+        "featSpellPointCost": 2,
+        "featSpellPointCostAppliesToItem": false
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 10,000 gp (lesser), 20,000 gp (normal), 40,000 gp (greater)<br>\n<strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 2 sp</p>\n<p>You can apply this effect only to targeted talents that are harmful to their target and do not have a range of personal; a contagious talent never spreads to someone who would benefit from being the target of the talent.</p>\n<p>A magic skill check to dispel or remove a contagious talent that fails by 5 or more causes it to spread from the original target to the creature that attempted to remove it. The talent spreads to the new target regardless of its normal range or any special targeting requirement like a melee or ranged touch attack. The talent is treated as if you had just cast it on the new target. The new target receives a saving throw or the benefit of spell resistance (if applicable) if the talent normally allows it.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Contagious Spell; <strong>Cost</strong> 5,000 gp (lesser), 10,000 gp (normal), 20,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc14\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: lesser tier; held slender rod. Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. Spend one of its three daily uses; only one metamagic apparatus may apply per casting. The apparatus does not require knowing its feat or paying that feat’s extra spell points/casting time. Normal sphere-effect costs and other known metamagic costs still apply. The chosen sphere effect must be caster level 7 or lower.</p><p>Only harmful targeted non-personal talents qualify. A failed removal/dispel check by five or more spreads to the remover; preserve any allowed save or spell resistance and do not spread to beneficiaries.</p><p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic\">Shared metamagic apparatus rules</a>. The Feat Cost in the source applies to taking the feat instead of using the physical item.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +73,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +94,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "c05a4d5c349c5c2f",
+        "name": "Apply Contagious Metamagic Apparatus",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. Spend one of its three daily uses; only one metamagic apparatus may apply per casting. The apparatus does not require knowing its feat or paying that feat’s extra spell points/casting time. Normal sphere-effect costs and other known metamagic costs still apply. The chosen sphere effect must be caster level 7 or lower. Only harmful targeted non-personal talents qualify. A failed removal/dispel check by five or more spreads to the remover; preserve any allowed save or spell resistance and do not spread to beneficiaries."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

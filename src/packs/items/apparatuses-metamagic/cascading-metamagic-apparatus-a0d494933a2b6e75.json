@@ -3,7 +3,7 @@
   "_key": "!items!a0d494933a2b6e75",
   "name": "Cascading Metamagic Apparatus",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,37 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-metamagic-apparatus",
+      "selectedVariant": "normal tier; held slender rod",
+      "metamagicApparatus": {
+        "profile": "research/metamagic-apparatus-profiles.json",
+        "tier": "normal",
+        "dailyUses": 3,
+        "maxSphereEffectCasterLevel": 7,
+        "maxCombinedCasterLevel": 9,
+        "normalOnly": true,
+        "featSpellPointCost": 2,
+        "featSpellPointCostAppliesToItem": false
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 20,000 gp (normal)<br>\n<strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 2 sp</p>\n<p>Only talents that target only you and have a duration of at least 1 round can be cast as cascade spells; you must either spend spell points to let each cascading effect persist without concentration or have an effect that allows them to linger without concentration. You can prepare multiple talents as a single cascade talent (treat this as if you were casting multiple sphere effects with the same action), as long as all talents are CL 7th or lower, and the total caster level does not exceed CL 9th. The duration of all the cascade talents is equal to the shortest duration for all the talents. A cascade talent has a casting time equal to the longest casting time of all the talents in the cascade. Unlike most metamagic apparatuses, this apparatus only comes in one level.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Cascade Spell; <strong>Cost</strong> 10,000 gp (normal)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc9\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: normal tier; held slender rod. Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. Spend one of its three daily uses; only one metamagic apparatus may apply per casting. The apparatus does not require knowing its feat or paying that feat’s extra spell points/casting time. Normal sphere-effect costs and other known metamagic costs still apply. Use the Cascade-specific limits below.</p><p>Normal-only apparatus. Each combined talent targets only the caster, lasts at least one round and persists without concentration. Each talent is CL 7 or lower and the sum is CL 9 or lower. Use the shortest duration and longest casting time. Cascade is one metamagic feat, so combining talents does not reduce its three daily uses to one.</p><p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic\">Shared metamagic apparatus rules</a>. The Feat Cost in the source applies to taking the feat instead of using the physical item.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +75,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 10,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +96,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "22efcab601414b0c",
+        "name": "Apply Cascading Metamagic Apparatus",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. Spend one of its three daily uses; only one metamagic apparatus may apply per casting. The apparatus does not require knowing its feat or paying that feat’s extra spell points/casting time. Normal sphere-effect costs and other known metamagic costs still apply. Use the Cascade-specific limits below. Normal-only apparatus. Each combined talent targets only the caster, lasts at least one round and persists without concentration. Each talent is CL 7 or lower and the sum is CL 9 or lower. Use the shortest duration and longest casting time. Cascade is one metamagic feat, so combining talents does not reduce its three daily uses to one."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

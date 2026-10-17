@@ -56,7 +56,10 @@ a 32 KiB budget, preserving readable category folders and meaningful shared icon
 Retain small compatibility PNGs for old imported paths. New bulk drafts use
 explicit core placeholders until existing artwork is reviewed or art is generated.
 
-The current production batch freezes and reviews 100 physical-item entries under
-issue #15. It follows the native-profile work recorded in
-[the physical-item review](PHYSICAL_ITEM_REVIEW.md). The full descriptive catalog,
-artwork and mechanics remain unfinished.
+Physical production uses frozen 100-entry inventories with coherent twenty-entry
+review groups. The first batch (#15) has reviewed images for all 100 entries;
+mechanics and remote acceptance remain incomplete. The next batch (#26) freezes
+100 existing Ultimate-edition entries, excluding Akashic/legacy work, and starts
+with metamagic apparatuses. Both preserve stable source identities and snapshots.
+See [the physical-item review](PHYSICAL_ITEM_REVIEW.md). The full catalog, artwork
+and mechanics remain unfinished.

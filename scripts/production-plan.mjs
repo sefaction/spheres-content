@@ -42,7 +42,13 @@ export function classifyProductionEntry(entity, reuse) {
   const joined = `${text} ${signals.join(" ")}`.toLowerCase();
 
   let lane = "individual-review";
-  if (/etherstaves?/.test(category.toLowerCase())) lane = "etherstaff-profile";
+  if (
+    entity.sourceKey?.startsWith("wiki:apparatuses-metamagic:") ||
+    /metamagic apparatus/i.test(category)
+  )
+    lane = "metamagic-apparatus-profile";
+  else if (/etherstaves?/.test(category.toLowerCase()))
+    lane = "etherstaff-profile";
   else if (/power components?/i.test(category) || /power component/i.test(text))
     lane = "power-component-profile";
   else if (/^rings?(?: slot)?$/i.test(category)) lane = "ring-profile";
@@ -89,6 +95,7 @@ const lanePriority = new Map([
   ["reuse-decision", 0],
   ...[
     "etherstaff-profile",
+    "metamagic-apparatus-profile",
     "power-component-profile",
     "ring-profile",
     "consumable-profile",

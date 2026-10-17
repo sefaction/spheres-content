@@ -126,3 +126,18 @@ The original pilot-only examples above are historical.
 Generated illustration icons now use 256-pixel WebP, normally quality 80 and
 under 32 KiB. The asset inventory records dimensions, bytes and source hashes.
 Existing PNG paths use smaller compatibility copies. See [asset policy](../static/README.md).
+
+## Shared metamagic apparatus profiles
+
+`research/metamagic-apparatus-profiles.json` pins the approved source facts and
+reviewed exceptions used by the canonical apparatus records. Validation reads
+this small table once per catalog pass. Item tier, caster level, daily uses,
+sphere-effect cap and exceptions must agree; feat spell-point costs must not
+be charged as native item uses. Per-effect restrictions and source-specific
+choices still require individual review. The scheduler’s metamagic lane is a
+work-order hint, not permission to infer rules.
+
+Plan the second inventory explicitly with
+`node scripts/production-plan.mjs --batch=physical-items-batch-2 --limit=20`.
+The original first-batch command retains its established default for resuming
+older reviews. Empty image queues do not prove mechanics or remote acceptance.
