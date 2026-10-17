@@ -90,3 +90,21 @@ Local and remote acceptance evidence belongs in the checkpoint and pull request.
 Required runtime checks include the empty sash, adding/removing physical contents
 without double counting, clothing equip toggling, descriptions/images and exact
 post-load pack comparison.
+
+## Final first-batch review group
+
+The final fourteen entries complete the frozen batch’s image-review queue. This
+is local source/profile/art review, not a claim that all 100 entries are fully
+automated or remotely accepted. Akashic production remains deferred.
+
+The rainbow disc is a native +2 buckler, and Leviathan Cross is a native +1 light
+crossbow. Trash Bag carries five pounds of zero-value trash as separately
+tracked contents; remove one or three units for a one- or two-handed improvised
+object and resolve its attack statistics manually. Regeneration is manual.
+Its published full weight already consists of those contents.
+
+Armor properties remain upgrade references with their additive price. Apply them
+to reviewed armor before adding actor-dependent effects. Single-use items track
+quantity; the Cradle’s daily activations and momentum are distinct resources.
+Variant, deity/domain, utility-talent and cohort choices remain explicit. Native
+helpers do not create actors, change burn, apply broad bonuses or migrate worlds.

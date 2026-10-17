@@ -3,7 +3,7 @@
   "_key": "!items!ba328e3c0ff81a3a",
   "name": "Cradle of the Marauder",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/marvelous-items/cradle-of-the-marauder.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,19 +24,20 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
@@ -63,7 +64,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 4,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +85,60 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "b70675a7b817fa0c",
+        "name": "Activate Four-Point Momentum Pool",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "action",
+            "cost": 2
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Activation spends one of three daily uses and creates a separate four-point momentum pool for four minutes. Each ally within 30 feet spends one momentum point for five feet of movement, provoking normally, including between attacks. Momentum is not the daily-use pool; movement and pool depletion remain manual."
+          ]
+        },
+        "duration": {
+          "value": "4",
+          "units": "minute"
+        },
+        "measureTemplate": {
+          "type": "circle",
+          "size": "30"
+        }
+      },
+      {
+        "_id": "132a12ff68dea5e3",
+        "name": "Spend One Momentum for Five Feet of Movement",
+        "activation": {
+          "type": "free",
+          "unchained": {
+            "type": "free"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Only an ally within 30 feet of an active cradle may use this option. Manually spend one point from the separate four-point momentum pool; this does not spend a daily activation. Movement provokes attacks of opportunity normally and may occur between attacks."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

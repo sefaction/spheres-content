@@ -35,7 +35,7 @@ const spheres = new Set([
 export function physicalProfile(e) {
   const text = compact(load(e.description, null, false).text());
   const price = text.match(
-    /\b(?:Price|Cost)\s*:?\s*([\d,]+(?:\.\d+)?)\s*(gp|sp|cp|pp)\b/i,
+    /\b(?:Price|Cost)\s*:?\s*\+?\s*([\d,]+(?:\.\d+)?)\s*(gp|sp|cp|pp)\b/i,
   );
   const weight = text.match(
     /\bWeight\s*:?\s*(?:(\d+(?:\.\d+)?|\u00bd|1\/2|1\/4)\s*(?:lb|lbs|pound)|([\u2014\u2013-]))/i,

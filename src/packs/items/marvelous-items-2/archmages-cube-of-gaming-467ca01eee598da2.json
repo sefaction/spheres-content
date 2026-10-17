@@ -3,7 +3,7 @@
   "_key": "!items!467ca01eee598da2",
   "name": "Archmage’s Cube of Gaming",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/marvelous-items/archmages-cube-of-gaming.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,26 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "deferred",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> strong creation <strong>CL</strong> 17th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 85,000 gp; <strong>Weight</strong> 1 lbs.</p>\n<p><strong>Description</strong><br>\nAn archmage’s cube of gaming functions as a wizard’s cube of gaming except that the game has a +8 bonus to Intelligence, Wisdom, and Charisma related checks, the bonus for winning and penalty for intentionally losing increases to +2 and -2 respectively. Additionally, once per day a wager can be declared with another command word. Every loser of the game that a wager is declared in is immediately subject to the Greater Geas talent as if cast by the winner. A game that a wager was declared on must be played to completion and everyone who sat down to play is immediately subject to a Greater Geas to play the game to completion.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Wondrous Item, Creation sphere, Fate sphere, greater geas; <strong>Cost</strong> 47,500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/marvelous-items-2\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Base item rules: <a href=\"http://spheresofpower.wikidot.com/marvelous-items-2\">Wizard’s Cube of Gaming</a>. This is an ebony card-deck box whose command word produces a table and game pieces. Its one-use-per-day counter tracks the optional wager; it does not limit ordinary games. Resolve game outcomes, winner bonuses, intentional-loss penalties and geas separately.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +64,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 17,
     "aura": {
       "custom": false,
       "school": ""
@@ -88,10 +89,10 @@
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 1,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "1",
       "rechargeFormula": ""
     },
     "links": {

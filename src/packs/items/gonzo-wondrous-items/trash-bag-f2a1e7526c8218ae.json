@@ -2,8 +2,8 @@
   "_id": "f2a1e7526c8218ae",
   "_key": "!items!f2a1e7526c8218ae",
   "name": "Trash Bag",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "container",
+  "img": "modules/additional-spheres-content/icons/items/gonzo-items/trash-bag.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -13,7 +13,7 @@
       "collection": "wiki-intake-open-rules",
       "sourceUrl": "http://spheresofpower.wikidot.com/gonzo-wondrous-items#toc23",
       "sourceSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
-      "descriptionSha256": "3bcaebe7496f80d3727a5843d3c4d4c8698701d20585b40a790f88d09b104407",
+      "descriptionSha256": "f556da03c6ce830c14166dd18f03769fac9101fe700128d018bcc8bc90379b82",
       "phase": "descriptive",
       "automation": "not-reviewed",
       "edition": "current",
@@ -24,54 +24,197 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "not-needed",
+        "contextNotes": "not-needed",
+        "usage": "deferred",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-sack",
+      "assembly": "trash-bag",
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.items.Item.utmeueljqhfoiihp",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "1e656d4348c5237f39939e96b826f3a08267e2c530af0deb499a419059b5a5af",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
   "system": {
     "description": {
-      "value": "<p><strong>AURA</strong> moderate conjuration; <strong>CL</strong> 3rd <strong>SLOT</strong> —; <strong>PRICE</strong> 500 gp; <strong>WEIGHT</strong> 5 lbs. (full)</p>\n<p><strong>DESCRIPTION</strong><br>\nThis filthy looking, loose woven, sack is always full. It has the faintly unpleasant odor of moldy bread or spilt beer. It holds 5 lbs. of trash (broken chair legs, parts of a ship’s wheel, broken bottles, etc) suitable for use as an improvised weapon. When drawn the wielder must grasp for either a one-handed or two-handed weapon from the back. They will always safely draw such an object, though they have no control over what sort of object they will draw. If the object is a one-handed weapon it weighs 1&nbsp;lb and if it is a two-handed weapon it weighs 3 lbs. Reduce the weight in the bag by that much. If there is not enough weight left in the bag a weapon cannot be drawn. Every 6 hours this bag fills up with 2 lbs. more worth of mundane trash. This trash has no value and is otherwise unremarkable.</p>\n<p><strong>CONSTRUCTION REQUIREMENTS</strong><br>\nCraft Wondrous Item, mending; <strong>COST</strong> 250 gp.</p>\n<hr>\n<table>\n<tbody><tr>\n<th colspan=\"6\">Gonzo 1 and 2 by Little Red Goblin Games</th>\n</tr>\n<tr>\n<th colspan=\"6\">Gonzo 1 Classes</th>\n</tr>\n<tr>\n<td><a href=\"http://spheresofpower.wikidot.com/the-craven\">The Craven</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/the-mime\">The Mime</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/the-punk\">The Punk</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/the-rockstar\">The Rockstar</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/the-toon\">The Toon</a></td>\n<td></td>\n</tr>\n<tr>\n<th colspan=\"6\">Gonzo 2 Classes</th>\n</tr>\n<tr>\n<td><a href=\"http://spheresofpower.wikidot.com/architect\">Architect</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/atomic-adept\">Atomic Adept</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/battle-butler\">Battle Butler</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/chessmaster-gonzo\">Chessmaster</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/chimney-sweep\">Chimney Sweep</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/dealer\">Dealer</a></td>\n</tr>\n<tr>\n<td><a href=\"http://spheresofpower.wikidot.com/dynamic-warrior\">Dynamic Warrior</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/guide\">Guide</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/henchling\">Henchling</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/henshin-hero\">Henshin Hero</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/magical-girl\">Magical Girl</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/monster-cowboy\">Monster Cowboy</a></td>\n</tr>\n<tr>\n<td><a href=\"http://spheresofpower.wikidot.com/multiple-master\">Multiple Master</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/phantom-thief\">Phantom Thief</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/sparkle-princess\">Sparkle Princess</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/thread-maiden\">Thread Maiden</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/ungermaw\">Ungermaw</a></td>\n<td><a href=\"http://spheresofpower.wikidot.com/warpmaster\">Warpmaster</a></td>\n</tr>\n<tr>\n<th colspan=\"6\">Prestige Classes</th>\n</tr>\n<tr>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/impersonator\">Impersonator</a></td>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/slimelord\">Slimelord</a></td>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/the-living-bomb\">The Living Bomb</a></td>\n</tr>\n<tr>\n<th colspan=\"6\">Other Rules</th>\n</tr>\n<tr>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/gonzo-feats\">Gonzo Feats</a></td>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/gonzo-adventuring-gear\">Gonzo Adventuring Gear</a></td>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/gonzo-drugs\">Gonzo Drugs</a></td>\n</tr>\n<tr>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/gonzo-magical-weapons-and-armor\">Gonzo Magical Weapons and Armor</a></td>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/gonzo-wondrous-items\">Gonzo Wondrous Items</a></td>\n<td colspan=\"2\"><a href=\"http://spheresofpower.wikidot.com/giant-robot-rules\">Giant Robot Rules</a></td>\n</tr>\n<tr>\n<th colspan=\"6\"><a href=\"http://www.drivethrurpg.com/product/133412/Gonzo?affiliate_id=549120\">Get Gonzo 1</a></th>\n</tr>\n<tr>\n<th colspan=\"6\"><a href=\"http://www.drivethrurpg.com/product/180605/Gonzo-2?affiliate_id=549120\">Get Gonzo 2</a></th>\n</tr>\n</tbody></table>\n<p><a href=\"http://spheresofpower.wikidot.com/gonzo-wondrous-items#toc23\">Source: Spheres of Power Wiki</a></p>",
+      "value": "<p><strong>AURA</strong> moderate conjuration; <strong>CL</strong> 3rd <strong>SLOT</strong> —; <strong>PRICE</strong> 500 gp; <strong>WEIGHT</strong> 5 lbs. (full)</p>\n<p><strong>DESCRIPTION</strong><br>\nThis filthy looking, loose woven, sack is always full. It has the faintly unpleasant odor of moldy bread or spilt beer. It holds 5 lbs. of trash (broken chair legs, parts of a ship’s wheel, broken bottles, etc) suitable for use as an improvised weapon. When drawn the wielder must grasp for either a one-handed or two-handed weapon from the back. They will always safely draw such an object, though they have no control over what sort of object they will draw. If the object is a one-handed weapon it weighs 1&nbsp;lb and if it is a two-handed weapon it weighs 3 lbs. Reduce the weight in the bag by that much. If there is not enough weight left in the bag a weapon cannot be drawn. Every 6 hours this bag fills up with 2 lbs. more worth of mundane trash. This trash has no value and is otherwise unremarkable.</p>\n<p><strong>CONSTRUCTION REQUIREMENTS</strong><br>\nCraft Wondrous Item, mending; <strong>COST</strong> 250 gp.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/gonzo-wondrous-items#toc23\">Source: Spheres of Power Wiki</a></p>",
       "instructions": "",
       "unidentified": ""
     },
-    "tags": [],
-    "quantity": 1,
-    "weight": {
-      "value": 5
-    },
-    "equipped": true,
-    "carried": true,
-    "price": 500,
-    "size": "med",
-    "resizing": false,
-    "timeworn": false,
-    "artifact": false,
-    "identified": true,
-    "unidentified": {
-      "price": 0,
-      "name": ""
-    },
-    "cursed": false,
-    "cl": 0,
-    "aura": {
-      "custom": false,
-      "school": ""
-    },
-    "hp": {},
-    "broken": false,
-    "hardness": 0,
     "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "quantity": 1,
+    "price": 500,
+    "weight": {
+      "value": 0,
+      "reduction": {
+        "value": 0,
+        "percent": 0
+      }
+    },
+    "carried": true,
+    "equipped": true,
+    "identified": true,
+    "size": "med",
+    "items": {
+      "4784dfd6785ccfa5": {
+        "_id": "4784dfd6785ccfa5",
+        "name": "Mundane Trash (1 lb. unit)",
+        "type": "loot",
+        "img": "modules/additional-spheres-content/icons/items/gonzo-items/trash-bag.webp",
+        "folder": null,
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "coreVersion": "13.351",
+          "systemId": null,
+          "systemVersion": null,
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null
+        },
+        "flags": {
+          "additional-spheres-content": {
+            "phase": "descriptive",
+            "sourceKey": "wiki:gonzo-wondrous-items:current:item:trash-bag:contents:mundane-trash",
+            "sourceUuid": "Compendium.additional-spheres-content.items.Item.f2a1e7526c8218ae",
+            "sourceUrl": "http://spheresofpower.wikidot.com/gonzo-wondrous-items#toc23",
+            "sourceSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+            "collection": "wiki-intake-open-rules",
+            "automation": "not-reviewed",
+            "intake": {
+              "status": "draft",
+              "auditKey": "wiki:gonzo-wondrous-items:current:item:trash-bag",
+              "kind": "item"
+            },
+            "audit": {
+              "image": "implemented",
+              "activation": "deferred",
+              "changes": "not-needed",
+              "contextNotes": "not-needed",
+              "usage": "deferred",
+              "links": "not-needed",
+              "advanced": "deferred",
+              "classFeatures": "not-applicable",
+              "compatibility": "deferred",
+              "reuse": "implemented",
+              "description": "implemented",
+              "rights": "implemented"
+            }
+          }
+        },
+        "system": {
+          "description": {
+            "value": "<p>One pound of zero-value mundane trash from a Trash Bag, suitable for drawing an improvised object. Remove one unit for a one-handed object or three for a two-handed object. The object’s identity is random; resolve its improvised-weapon statistics separately. The bag regenerates two pounds every six hours, up to five pounds.</p>",
+            "instructions": "",
+            "unidentified": ""
+          },
+          "tags": [],
+          "actions": [],
+          "attackNotes": [],
+          "effectNotes": [],
+          "quantity": 5,
+          "weight": {
+            "value": 1
+          },
+          "equipped": true,
+          "carried": true,
+          "price": 0,
+          "size": "med",
+          "resizing": false,
+          "timeworn": false,
+          "artifact": false,
+          "identified": true,
+          "unidentified": {
+            "price": 0,
+            "name": ""
+          },
+          "cursed": false,
+          "cl": 0,
+          "aura": {
+            "custom": false,
+            "school": ""
+          },
+          "hp": {},
+          "broken": false,
+          "hardness": 0,
+          "uses": {
+            "value": null,
+            "per": "",
+            "autoDeductChargesCost": "",
+            "maxFormula": "",
+            "rechargeFormula": ""
+          },
+          "changes": [],
+          "changeFlags": {
+            "immuneToMorale": false,
+            "loseDexToAC": false,
+            "noMediumEncumbrance": false,
+            "noHeavyEncumbrance": false,
+            "mediumArmorFullSpeed": false,
+            "heavyArmorFullSpeed": false,
+            "lowLightVision": false,
+            "seeInvisibility": false,
+            "seeInDarkness": false
+          },
+          "contextNotes": [],
+          "links": {
+            "children": []
+          },
+          "tag": "",
+          "flags": {
+            "boolean": {},
+            "dictionary": {}
+          },
+          "scriptCalls": [],
+          "subType": "gear",
+          "extraType": "",
+          "abundant": false,
+          "sources": [
+            {
+              "title": "Spheres of Power Wiki",
+              "url": "http://spheresofpower.wikidot.com/gonzo-wondrous-items#toc23"
+            }
+          ]
+        }
+      }
+    },
+    "maxWeight": 5,
+    "sellMultiplier": 0.5,
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
     "changeFlags": {
       "immuneToMorale": false,
       "loseDexToAC": false,
@@ -83,61 +226,27 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
-    "actions": [],
-    "attackNotes": [],
-    "effectNotes": [],
-    "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
-      "rechargeFormula": ""
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "unidentified": {
+      "price": 0,
+      "name": ""
     },
-    "links": {
-      "children": [],
-      "charges": []
+    "cursed": false,
+    "cl": 3,
+    "aura": {
+      "custom": false,
+      "school": "con"
     },
+    "hp": {},
+    "broken": false,
+    "hardness": 0,
     "tag": "",
     "flags": {
       "boolean": {},
       "dictionary": {}
     },
-    "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
-    "proficient": false,
-    "held": "1h",
-    "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
-    },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
-    },
-    "spellFailure": 0,
-    "showInQuickbar": false,
     "sources": [
       {
         "title": "Spheres of Power Wiki",

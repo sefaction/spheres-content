@@ -721,9 +721,14 @@
           "name": "Trash Bag",
           "type": "equipment",
           "file": "src/packs/items/gonzo-wondrous-items/trash-bag-f2a1e7526c8218ae.json",
-          "descriptionSha256": "3bcaebe7496f80d3727a5843d3c4d4c8698701d20585b40a790f88d09b104407",
+          "descriptionSha256": "f556da03c6ce830c14166dd18f03769fac9101fe700128d018bcc8bc90379b82",
           "initialImageState": "needed",
-          "status": "pending"
+          "status": "pending",
+          "sourceBoundaryCorrection": {
+            "previousDescriptionSha256": "3bcaebe7496f80d3727a5843d3c4d4c8698701d20585b40a790f88d09b104407",
+            "issue": 20,
+            "reason": "Same approved Gonzo snapshot re-extracted without final publisher navigation; complete rules, construction and identity preserved."
+          }
         },
         {
           "sourceKey": "wiki:kineticist-magical-items:current:item:blasters-bearing",

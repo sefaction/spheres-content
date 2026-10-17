@@ -2199,5 +2199,309 @@
       "type": "equipment",
       "sha256": "add2a49d1ad25d1cd461b8b705dc18bf04d6bab5ec674e47ae3232cc85ea47b4"
     }
+  },
+  "wiki:gonzo-wondrous-items:current:item:trash-bag": {
+    "pageSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+    "descriptionSha256": "f556da03c6ce830c14166dd18f03769fac9101fe700128d018bcc8bc90379b82",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-final-group",
+    "decision": "adapt",
+    "reason": "Adapted inspected PF1 Sack native structure with exact source-specific overrides.",
+    "candidates": [],
+    "adaptationSource": {
+      "key": "sack",
+      "name": "Sack",
+      "uuid": "Compendium.pf1.items.Item.utmeueljqhfoiihp",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "container",
+      "subType": null,
+      "img": "icons/containers/bags/sack-cloth-heavy-brown.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "1e656d4348c5237f39939e96b826f3a08267e2c530af0deb499a419059b5a5af",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Native Sack structure only; all named-item overrides and unsupported mechanics explicit."
+    },
+    "output": {
+      "file": "src/packs/items/gonzo-wondrous-items/trash-bag-f2a1e7526c8218ae.json",
+      "id": "f2a1e7526c8218ae",
+      "type": "container",
+      "sourceUuid": "Compendium.pf1.items.Item.utmeueljqhfoiihp",
+      "sha256": "04fd1ccc9deb2f5d3a31534672a9adcf7a0d842b3c67be7f1ecccea26062a59a"
+    }
+  },
+  "wiki:kineticist-magical-items:current:item:burn-fragment": {
+    "pageSha256": "3f8530f047b1622a418f8b8c224e1b20c5afaa6bcab3e8f9173048f70eb7964c",
+    "descriptionSha256": "05c57716a6a07c419943fafb89f7953038cce5ad7b656d8fd06e2d6b79ca2aa1",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-final-group",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name compendium searches found no suitable complete record. Native defaults and source-specific art reviewed.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/kineticist-magical-items/burn-fragment-1dfe3c5c2993c191.json",
+      "id": "1dfe3c5c2993c191",
+      "type": "equipment",
+      "sha256": "197d63a34702ffa8ee49fe2027d641ee2236f3f9bace76b16772c047d1458c4b"
+    }
+  },
+  "wiki:kineticist-magical-items:current:item:burn-shard": {
+    "pageSha256": "3f8530f047b1622a418f8b8c224e1b20c5afaa6bcab3e8f9173048f70eb7964c",
+    "descriptionSha256": "d97f442c726f4fe01681687bc5b2c497ec27dc0a9549fe485b8ace018fe5c90c",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-final-group",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name compendium searches found no suitable complete record. Native defaults and source-specific art reviewed.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/kineticist-magical-items/burn-shard-9a515f6dcf066b40.json",
+      "id": "9a515f6dcf066b40",
+      "type": "equipment",
+      "sha256": "50750afcccc217b8cca33ffda95095043b50b0673a854a2a430479a87df72f7a"
+    }
+  },
+  "wiki:kineticist-magical-items:current:item:crystal-of-elemental-knowledge": {
+    "pageSha256": "3f8530f047b1622a418f8b8c224e1b20c5afaa6bcab3e8f9173048f70eb7964c",
+    "descriptionSha256": "7dc0b9bf2456d753d12f02df92d35de22c3f9ce480ce502a00d9943ce077e38a",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-final-group",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name compendium searches found no suitable complete record. Native defaults and source-specific art reviewed.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/kineticist-magical-items/crystal-of-elemental-knowledge-a9bcd8e31b009b99.json",
+      "id": "a9bcd8e31b009b99",
+      "type": "equipment",
+      "sha256": "a7ab14d9c1ab04e38bc05c1f80e706451ff955d45d18164e530b7a589d2b96f3"
+    }
+  },
+  "wiki:kineticist-magical-items:current:item:disc-of-rainbow-tears": {
+    "pageSha256": "3f8530f047b1622a418f8b8c224e1b20c5afaa6bcab3e8f9173048f70eb7964c",
+    "descriptionSha256": "7d41b40f9c2f23ce894c56f8bc529e7b084b39c5c3b21701c0163c8a013a1c68",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-final-group",
+    "decision": "adapt",
+    "reason": "Adapted inspected PF1 Buckler native structure with exact source-specific overrides.",
+    "candidates": [],
+    "adaptationSource": {
+      "key": "buckler",
+      "name": "Buckler",
+      "uuid": "Compendium.pf1.armors-and-shields.Item.gsE0PAOmCwivue5A",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "armors-and-shields",
+      "type": "equipment",
+      "subType": "shield",
+      "img": "systems/pf1/icons/items/armor/buckler.PNG",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "668651d98295af8dca6c804ff3fc3ec5e676c029b495178c5de08cae4766a112",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Native Buckler structure only; all named-item overrides and unsupported mechanics explicit."
+    },
+    "output": {
+      "file": "src/packs/items/kineticist-magical-items/disc-of-rainbow-tears-625ab1318231c4bf.json",
+      "id": "625ab1318231c4bf",
+      "type": "equipment",
+      "sourceUuid": "Compendium.pf1.armors-and-shields.Item.gsE0PAOmCwivue5A",
+      "sha256": "0d79e9e10c482d171f482e4165a5595da953454a551fa3fd5730d3f195bdafb0"
+    }
+  },
+  "wiki:kineticist-magical-items:current:item:leviathan-cross": {
+    "pageSha256": "3f8530f047b1622a418f8b8c224e1b20c5afaa6bcab3e8f9173048f70eb7964c",
+    "descriptionSha256": "9fced0fe9eb84526b6f1e34bbca2ed168274d40755adda54a3d9d46d2314a67f",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-final-group",
+    "decision": "adapt",
+    "reason": "Adapted inspected PF1 Light Crossbow native structure with exact source-specific overrides.",
+    "candidates": [],
+    "adaptationSource": {
+      "key": "light-crossbow",
+      "name": "Light Crossbow",
+      "uuid": "Compendium.pf1.weapons-and-ammo.Item.RWbjRwSPsuPAUDhw",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "weapons-and-ammo",
+      "type": "weapon",
+      "subType": "simple",
+      "img": "systems/pf1/icons/items/weapons/crossbow-light.PNG",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "f124e5801602e201a76f9b453a650deb78d731f7e3d82ecc1224c68190bc3feb",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Native Light Crossbow structure only; all named-item overrides and unsupported mechanics explicit."
+    },
+    "output": {
+      "file": "src/packs/items/kineticist-magical-items/leviathan-cross-2f466bad84b23ca6.json",
+      "id": "2f466bad84b23ca6",
+      "type": "weapon",
+      "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.RWbjRwSPsuPAUDhw",
+      "sha256": "c3a5ccc1f739f0900fbb79714a4dc9ded9214b998e2f4c910a18563422e0b893"
+    }
+  },
+  "wiki:kineticist-magical-items:current:item:planar-gates-tattoo": {
+    "pageSha256": "3f8530f047b1622a418f8b8c224e1b20c5afaa6bcab3e8f9173048f70eb7964c",
+    "descriptionSha256": "b8b709766686da39fa3e12921ada04a71b54ddea4b4ec2e0242a06a56f0bde25",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-final-group",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name compendium searches found no suitable complete record. Native defaults and source-specific art reviewed.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/kineticist-magical-items/planar-gates-tattoo-dfdc601906765637.json",
+      "id": "dfdc601906765637",
+      "type": "equipment",
+      "sha256": "85d1cdc70f5f211109735046c142b0d5d021f017e83c349e1a4e66c051d62860"
+    }
+  },
+  "wiki:kineticist-magical-items:current:item:teardrop-ioun-stone": {
+    "pageSha256": "3f8530f047b1622a418f8b8c224e1b20c5afaa6bcab3e8f9173048f70eb7964c",
+    "descriptionSha256": "bb7cce8ec4f8cd0373a0513c0d445adee772f7b05142a33cd7ce7b1dcaf46166",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-final-group",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name compendium searches found no suitable complete record. Native defaults and source-specific art reviewed.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/kineticist-magical-items/teardrop-ioun-stone-ad1ddfb8f7538e9b.json",
+      "id": "ad1ddfb8f7538e9b",
+      "type": "equipment",
+      "sha256": "7263abee50241c17d5f85151c1ff1d2ee8b900ebb9eb424f20393d9e019ebc36"
+    }
+  },
+  "wiki:marvelous-items-2:current:item:archmages-cube-of-gaming": {
+    "pageSha256": "927aaf607c87d8a0b8c5ada2a87c9993de56373d95aa6109f2abd252bf18e049",
+    "descriptionSha256": "a1a0377977c6f3ec0fd6189d4ceb49494286554df5cd60b1abf2d92fa4aad61b",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-final-group",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name compendium searches found no suitable complete record. Native defaults and source-specific art reviewed.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/marvelous-items-2/archmages-cube-of-gaming-467ca01eee598da2.json",
+      "id": "467ca01eee598da2",
+      "type": "equipment",
+      "sha256": "0ec091872a8e9d56ea7b21176bc449e2e8e807fa881695a811d1e796e9d942f0"
+    },
+    "modelingSource": {
+      "file": "src/packs/items/marvelous-items-2/wizards-cube-of-gaming-be7a524450e6e397.json",
+      "id": "be7a524450e6e397",
+      "sourceKey": "wiki:marvelous-items-2:current:item:wizards-cube-of-gaming",
+      "url": "http://spheresofpower.wikidot.com/marvelous-items-2",
+      "pageSha256": "927aaf607c87d8a0b8c5ada2a87c9993de56373d95aa6109f2abd252bf18e049",
+      "descriptionSha256": "1dbad1f8404040bb0be4dc7097de3278a34d88187dfb23b75839c32455a12cf9",
+      "decision": "Inspected inherited base-item rules and appearance; no duplicate record replacement or IDs changed."
+    }
+  },
+  "wiki:marvelous-items-2:current:item:divine-symbol": {
+    "pageSha256": "927aaf607c87d8a0b8c5ada2a87c9993de56373d95aa6109f2abd252bf18e049",
+    "descriptionSha256": "e698d1e07f2e6fca233b1a4353731dedcaf495f0509c6e046117ddbc0bbac222",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-final-group",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name compendium searches found no suitable complete record. Native defaults and source-specific art reviewed.",
+    "candidates": [],
+    "artwork": {
+      "path": "icons/equipment/neck/amulet-carved-stone-cross.webp",
+      "source": {
+        "key": "holy-symbol-silver",
+        "name": "Holy symbol (Silver)",
+        "uuid": "Compendium.pf1.items.Item.rOTfc8RWj3k9JwT7",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "loot",
+        "subType": "adventuring",
+        "img": "icons/equipment/neck/amulet-carved-stone-cross.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "a737f6d862bc8562379d208080c3b250983ecafb2197aff7dd78b56254a58b89",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Artwork reference only; do not import unrelated mundane statistics or store upstream image bytes in the package."
+    },
+    "output": {
+      "file": "src/packs/items/marvelous-items-2/divine-symbol-2390ac87894476ae.json",
+      "id": "2390ac87894476ae",
+      "type": "equipment",
+      "sha256": "1d3601fea42a757573cf881b44f7b1f2d2dcb1b74edb9be0a1bb402abbaf87d9"
+    }
+  },
+  "wiki:marvelous-items-2:current:item:dragons-tooth": {
+    "pageSha256": "927aaf607c87d8a0b8c5ada2a87c9993de56373d95aa6109f2abd252bf18e049",
+    "descriptionSha256": "ff36fbe5ef9daeac1064917484d3111618fb0b0b9589bcac87ab62c822427e58",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-final-group",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name compendium searches found no suitable complete record. Native defaults and source-specific art reviewed.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/marvelous-items-2/dragons-tooth-d5791dac770b56cc.json",
+      "id": "d5791dac770b56cc",
+      "type": "equipment",
+      "sha256": "7149edf672ee834903f4cc3162eb341643883fe80bb4e344f6a60cb4bf9cb506"
+    }
+  },
+  "wiki:kineticist-magical-items:current:item:burn-resistance-armor-quality": {
+    "pageSha256": "3f8530f047b1622a418f8b8c224e1b20c5afaa6bcab3e8f9173048f70eb7964c",
+    "descriptionSha256": "736062cf6dcfd9eebb5589e90ac5d2f9cc5c2f67efd2b51872948ca028f043b0",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-final-group",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name compendium searches found no suitable complete record. Native defaults and source-specific art reviewed.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/kineticist-magical-items/burn-resistance-armor-quality-8af5f1083d5a88fe.json",
+      "id": "8af5f1083d5a88fe",
+      "type": "loot",
+      "sha256": "206b025bfd1d016310df350b11df6ef6bf020594f642b6407a1df582df798b69"
+    }
+  },
+  "wiki:kineticist-magical-items:current:item:energizing-armor-property": {
+    "pageSha256": "3f8530f047b1622a418f8b8c224e1b20c5afaa6bcab3e8f9173048f70eb7964c",
+    "descriptionSha256": "b3adf44d85b4e6e7682de80d22179850fc7414764074daa08bd2ce18d4199e25",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-final-group",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name compendium searches found no suitable complete record. Native defaults and source-specific art reviewed.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/kineticist-magical-items/energizing-armor-property-7386e18af24c8c62.json",
+      "id": "7386e18af24c8c62",
+      "type": "loot",
+      "sha256": "86af6497b6698876a8efeaeae19d2460f84f82e88a9b53776419d8b52ba0167a"
+    }
+  },
+  "wiki:marvelous-items-2:current:item:cradle-of-the-marauder": {
+    "pageSha256": "927aaf607c87d8a0b8c5ada2a87c9993de56373d95aa6109f2abd252bf18e049",
+    "descriptionSha256": "dade41dff13efbfdb876a4a035f05a9986380f843fa4b995d5ff50a09a680482",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-final-group",
+    "decision": "original",
+    "reason": "Exact, reordered and alternate-name compendium searches found no suitable complete record. Native defaults and source-specific art reviewed.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/marvelous-items-2/cradle-of-the-marauder-ba328e3c0ff81a3a.json",
+      "id": "ba328e3c0ff81a3a",
+      "type": "equipment",
+      "sha256": "15927fc433be2bd01a44013da6e296845a8f9283c2cd0568a358909d7be40523"
+    }
   }
 }

@@ -3,7 +3,7 @@
   "_key": "!items!1dfe3c5c2993c191",
   "name": "Burn Fragment",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/kineticist-items/burn-fragment.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "single-use-wondrous",
+      "selectedVariant": "basic fragment; 3rd-level-or-lower wild talent; 500 gp"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint conjuration; <strong>CL</strong> 1st<br>\n<strong>Slot</strong> none; <strong>Price</strong> 500 gp (basic), 2,000 gp (standard), 5,000 gp (grand); <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThis small stone lacks any identifying feature except for a pale glow inside of it, feeling warm to the touch. When held, it allows the holder to reduce the burn cost of a wild talent of 3rd level or lower by 1, to a minimum of 0. After it is used, the burn fragment is instantly destroyed. A standard burn fragment can be used with a wild talent of 6th level or lower, while a greater burn fragment can be used with a wild talent of 9th level or lower.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Wondrous Item, crafter must be a 1st level kineticist; <strong>Price</strong> 250 gp (basic), 1,000 gp (standard), 2,500 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/kineticist-magical-items#toc27\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: basic fragment; 3rd-level-or-lower wild talent; 500 gp. Other variants remain in the complete source description.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 1,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "con"
     },
     "hp": {},
     "broken": false,
@@ -84,14 +86,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "c4e000dcd1248a39",
+        "name": "Apply Basic Burn Fragment",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Consume only while held when applying one point of burn-cost reduction, minimum zero, to a qualifying wild talent of 3rd level or lower. Standard/grand variants are retained in the source, not simultaneously granted."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 1,
+      "per": "single",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "1",
       "rechargeFormula": ""
     },
     "links": {

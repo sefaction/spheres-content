@@ -3,7 +3,7 @@
   "_key": "!items!2390ac87894476ae",
   "name": "Divine Symbol",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/neck/amulet-carved-stone-cross.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "deferred",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment",
+      "selectedVariant": "deity, four-to-five domains and sacred/profane type must be selected"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Fate; <strong>CL</strong> 1st<br>\n<strong>Slot</strong> holy symbol; <strong>Price</strong> 500 gp; <strong>Weight</strong> -<br>\n<strong>Description</strong><br>\nA divine symbol is a holy symbol that is especially attuned to 4-5 domains of a particular deity. To activate the divine symbol, the user must possess two or more of the attuned domains and expend a use of channel energy. Activating the channel focus will grant a +1 profane or sacred bonus to caster level to the spheres matching the attuned domains for 1 hour. Deities that channel positive energy grant sacred bonuses, while those that channel negative energy grant profane bonuses. Deities that can channel both or either or types of energy have their divine symbol’s bonus type chosen when it is created.<br>\n<strong>Construction Requirements</strong><br>\nForge Charm, channel energy; <strong>Cost</strong> +250 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/marvelous-items-2\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: deity, four-to-five domains and sacred/profane type must be selected. Other variants remain in the complete source description.</p><p>The source slot is holy symbol. The native slotless profile does not impose a neck-slot restriction. Select the deity, domains and bonus type before using its channel-focus effect.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +65,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 1,
     "aura": {
       "custom": false,
       "school": ""

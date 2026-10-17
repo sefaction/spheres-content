@@ -261,11 +261,29 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
       }
     }
     if (doc.type === "equipment") {
-      assert(
-        ["wondrous", "clothing"].includes(s.subType),
-        "Additional equipment profile needs review",
-      );
-      assert.equal(s.equipmentSubtype, "");
+      if (meta.nativeProfile === "reviewed-buckler") {
+        assert.equal(
+          meta.reuse?.sourceUuid,
+          "Compendium.pf1.armors-and-shields.Item.gsE0PAOmCwivue5A",
+        );
+        assert.equal(meta.reuse?.sourcePackage, "pf1");
+        assert.equal(meta.reuse?.sourceVersion, "11.11");
+        assert.equal(s.subType, "shield");
+        assert.equal(s.slot, "shield");
+        assert.equal(s.equipmentSubtype, "other");
+        assert.deepEqual(s.baseTypes, ["Buckler"]);
+        assert.equal(s.armor.value, 1);
+        assert.equal(s.armor.enh, 2);
+        assert.equal(s.armor.acp, 1);
+        assert.equal(s.spellFailure, 5);
+        assert.equal(s.masterwork, true);
+      } else {
+        assert(
+          ["wondrous", "clothing"].includes(s.subType),
+          "Additional equipment profile needs review",
+        );
+        assert.equal(s.equipmentSubtype, "");
+      }
       if (s.subType === "clothing") {
         assert.equal(s.slot, "clothing");
         assert.equal(s.armor.value, 0, "Mundane clothing must not grant armor");
@@ -333,7 +351,17 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
       );
       assert.deepEqual(s.weight.reduction, { value: 0, percent: 0 });
       assert.deepEqual(s.currency, { pp: 0, gp: 0, sp: 0, cp: 0 });
-      assert.equal(s.maxWeight, null, "Unreviewed capacity");
+      if (assembly.maxWeight !== undefined) {
+        assert(
+          Number.isFinite(assembly.maxWeight) && assembly.maxWeight > 0,
+          "Invalid reviewed capacity",
+        );
+      }
+      assert.equal(
+        s.maxWeight,
+        assembly.maxWeight ?? null,
+        "Unreviewed capacity",
+      );
       assert.deepEqual(
         Object.keys(s.items).sort(),
         assembly.contents.map((c) => c.id).sort(),
@@ -349,7 +377,10 @@ export function validateEntity(doc, identity, sources, assets, options = {}) {
         ids.add(child.id);
         keys.add(child.sourceKey);
         const item = s.items[child.id];
-        validateEntity(item, child, sources, assets, { contained: true });
+        validateEntity(item, child, sources, assets, {
+          ...options,
+          contained: true,
+        });
         assert.equal(
           item.system.quantity,
           child.quantity,

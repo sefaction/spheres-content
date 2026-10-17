@@ -58,7 +58,8 @@ function removeNavigationTables($, root) {
       /^(?:Spheres of (?:Power|Might|Guile)|Champions of the Spheres).*by /i.test(
         heading,
       ) ||
-      /^Systems by Interjection Games$/i.test(heading)
+      /^Systems by Interjection Games$/i.test(heading) ||
+      /^Gonzo 1 and 2 by Little Red Goblin Games$/i.test(heading)
     ) {
       if (table.prev().is("hr")) table.prev().remove();
       table.remove();
