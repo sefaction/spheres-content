@@ -28,22 +28,34 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   and remote acceptance; no global actor modifiers or permanent feat grants.
 - The pinned shared-profile table and validator now preserve repeat activation,
   alternative persistence timing, free follow-up and unresolved-source status.
-  Five new focused regression tests and content validation pass. Full clean
-  gate, deterministic builds and compiler round trips are pending. No PR yet;
-  stack this coherent group on `codex/physical-items-batch-2` (PR #28).
+  Clean commit `aec8de7c58a25cb5b6883e3a39eb76bd9670ecc7` passed formatting, lint,
+  all 73 tests, source/reference/provenance checks, all 6,788 compiler round trips
+  and two identical 753-file builds. ZIP SHA-256:
+  `7b17e28931edc4e2c2e47c29626efeec72f245ebdd54d5ee1d6ef54d3edcf624`.
+  Draft PR #29 is pushed, stacked on PR #28:
+  https://github.com/sefaction/spheres-content/pull/29. CI is pending.
 - Batch 2 now has forty reviewed images, sixty remaining: twenty-one metamagic
   apparatuses and thirty-nine other apparatuses. The next ignored plan is
   `.local/batch2-group3-plan.json`, starting Seeking, Selective and Shadow Grasping.
   Continue explicitly with `--batch=physical-items-batch-2`; review source and
   compendium alternatives before new art or native profiles.
-- User now confirms the server is in Setup. Recheck the actual route and finish
-  a clean verified build, then use the guarded dry-run/staged deployment to the
-  designated module target and dedicated test world. No restart is authorized.
-  Last deployment receipt remains `fed942b` until a new transfer is verified.
-- Next safe step: full clean verify, guarded dry-run/deployment, then relevant
-  Foundry acceptance for this and earlier locally reviewed groups. Return to
-  Setup and run the exact semantic audit before recording acceptance. Push/open
-  the draft PR with actual results; do not infer completion from a transfer.
+- The user reported Setup availability, but the guarded route check and browser
+  still show the dedicated Additional Spheres Content Test world running with
+  zero players. A blank-password Return to Setup attempt was rejected; no world
+  transition or remote deployment occurred. The server administrator password is
+  required, so an asynchronous request asks the user to return that exact test
+  instance to Setup. Do not seek credentials or change server authentication.
+  Last deployment remains `fed942b`; no restart is authorized.
+- Source review and full-name/reordered/alternate compendium searches for the
+  next twenty entries are cached in ignored `.local/batch2-group3-*.json`. No
+  group-3 canonical sources have changed. Still can be used while carried/worn
+  without holding; Suppressed has published weight three pounds. Preserve those
+  exceptions instead of copying the shared held-rod/five-pound assumptions.
+- Next safe step: reconcile the user's Setup reply with the actual route, then
+  run a fresh clean verification for the current commit before guarded deployment
+  and Foundry acceptance. Return to Setup for the exact semantic audit. Continue
+  the next coherent twenty-entry group locally while authentication is pending.
+  This documentation follow-up has not been deployed; do not infer acceptance.
 
 ## Prior reviewed content batch: physical batch 2, group 1
 
