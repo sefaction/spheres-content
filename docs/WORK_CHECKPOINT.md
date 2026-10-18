@@ -44,9 +44,15 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   unchanged, local copies only. Helper confirmed no active game at `/auth`.
   Screenshot proof and structured evidence remain ignored under
   `.local/batch2-final-*`; new Chrome tab is marked for handoff.
-- Next: open draft PR stacked on #34, attach it and reconcile CI. Documentation
-  successors are distinct from deployed/tested `c7743ad`. No campaign, system,
-  service or world-filesystem changes are authorized; no merge/release approval.
+- Draft PR https://github.com/sefaction/spheres-content/pull/35 is open and
+  attached, stacked on #34. Initial Windows/Ubuntu CI at evidence head `45c093e`
+  was running when recorded; check the PR for the current head's results.
+  Documentation successors are distinct from deployed/tested `c7743ad`.
+- Next safe step: reconcile #35 CI, then select another coherent non-Akashic
+  physical-item group or remaining mechanics checks. Keep image completion
+  separate from full content/automation acceptance. No campaign, system, service
+  or world-filesystem changes; no merge/release approval. All older PRs remain
+  unmerged and issues remain open pending individual merge approval.
 
 ## Prior tooling batch: committed reads for remote audits
 
