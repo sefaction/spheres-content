@@ -3,7 +3,7 @@
   "_key": "!items!769b6199a64c872b",
   "name": "Horrifying Metamagic Apparatus, Major",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,35 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-metamagic-apparatus",
+      "selectedVariant": "lesser tier; held slender rod",
+      "metamagicApparatus": {
+        "profile": "research/metamagic-apparatus-profiles.json",
+        "tier": "lesser",
+        "dailyUses": 3,
+        "maxSphereEffectCasterLevel": 7,
+        "featSpellPointCost": 2,
+        "featSpellPointCostAppliesToItem": false
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 10,000 gp (lesser), 20,000 gp (normal), 40,000 gp (greater)<br>\n<strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 2 sp</p>\n<p>Anyone targeted by your spells or sphere effects, attempting a save against them, or within their area becomes frightened for 1d4+1 rounds unless they succeed at a Will saving throw using the same DC as the original spell. On a successful save they instead become shaken for 1d4+1 rounds. This is a mind-affecting fear effect. Characters must only save against this effect once per spell or sphere effect it is applied to even if the modified spell requires additional saves.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Horrifying Imagination; <strong>Cost</strong> 5,000 gp (lesser), 10,000 gp (normal), 20,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc31\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: lesser tier; held slender rod. Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. The effect must be caster level seven or lower. Spend one of 3 daily uses; only one metamagic apparatus may apply per casting. Its feat’s extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply.</p><p>Targets, creatures attempting a save and creatures in the area make one Will save per modified effect, even if it calls for repeated saves. Failure causes frightened for 1d4+1 rounds; success instead causes shaken for that duration. This is mind-affecting fear.</p><p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic\">Shared metamagic apparatus rules</a>. Feat Cost applies to taking the feat, not using the physical apparatus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +73,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +94,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "c6a5608129ea4deb",
+        "name": "Apply Horrifying Metamagic Apparatus, Major",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. The effect must be caster level seven or lower. Spend one of 3 daily uses; only one metamagic apparatus may apply per casting. Its feat’s extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply. Targets, creatures attempting a save and creatures in the area make one Will save per modified effect, even if it calls for repeated saves. Failure causes frightened for 1d4+1 rounds; success instead causes shaken for that duration. This is mind-affecting fear."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

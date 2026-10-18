@@ -3,7 +3,7 @@
   "_key": "!items!c4d6ead4698d75e7",
   "name": "Quickening Metamagic Apparatus",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,35 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-metamagic-apparatus",
+      "selectedVariant": "lesser tier; held slender rod",
+      "metamagicApparatus": {
+        "profile": "research/metamagic-apparatus-profiles.json",
+        "tier": "lesser",
+        "dailyUses": 3,
+        "maxSphereEffectCasterLevel": 7,
+        "featSpellPointCost": 4,
+        "featSpellPointCostAppliesToItem": false
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 20,000 gp (lesser), 40,000 gp (normal), 80,000 gp (greater)<br>\n<strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 4 sp</p>\n<p>Activating this metamagic decreases the casting time of a talent by 2 steps (to a minimum of one swift action). Like all metamagic effects, a caster cannot apply Quicken Spell multiple times to the same casting.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Quicken Spell; <strong>Cost</strong> 10,000 gp (lesser), 20,000 gp (normal), 40,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc39\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: lesser tier; held slender rod. Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. The effect must be caster level seven or lower. Spend one of 3 daily uses; only one metamagic apparatus may apply per casting. Its feat’s extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply.</p><p>Reduce this talent’s casting time by two steps, to a minimum of one swift action. Do not apply Quicken more than once to the same casting. Normal effect costs remain even though its metamagic feat cost is not charged by the apparatus.</p><p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic\">Shared metamagic apparatus rules</a>. Feat Cost applies to taking the feat, not using the physical apparatus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +73,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +94,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "b0302c4089cc1a62",
+        "name": "Apply Quickening Metamagic Apparatus",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. The effect must be caster level seven or lower. Spend one of 3 daily uses; only one metamagic apparatus may apply per casting. Its feat’s extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply. Reduce this talent’s casting time by two steps, to a minimum of one swift action. Do not apply Quicken more than once to the same casting. Normal effect costs remain even though its metamagic feat cost is not charged by the apparatus."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

@@ -227,3 +227,18 @@ reviewed core rod image is referenced for the source-permitted held-rod form,
 with the inspected PF1 11.11 Logical Metamagic Rod, Lesser record retained as
 artwork evidence only. No third-party image bytes are packaged. Native defaults
 continue to use the existing PF1 11.11 profile and notice scope.
+
+## Second metamagic apparatus group: 2026-10-17
+
+Twenty further Ultimate Spheres apparatuses preserve the same approved page
+snapshot and their individual complete source descriptions and prices. Reuse
+searches and twenty-four full conventional-rod alternatives are recorded in
+`config/physical-item-reviews.json`; no rejected rules or artwork bytes are
+imported. The previously inspected held-rod core illustration remains a reference.
+
+Published exceptions now explicitly include Reaching’s five uses and repeated
+activation, Extending/Fleeting’s paid-persistence timing, and Fleeting’s free
+later dismissal. They share the same pinned profile table and native validation.
+Flaring’s source-trigger/duration ambiguity remains under issue #27, with its
+wording preserved and outcome interpretation deferred. No new license collection,
+world migration or compatibility claim is introduced.

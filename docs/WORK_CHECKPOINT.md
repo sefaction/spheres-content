@@ -2,7 +2,62 @@
 
 Updated: 2026-10-17 (work began 2026-09-19 local time).
 
-## Active work in progress: physical batch 2, group 1
+## Active work in progress: physical batch 2, group 2
+
+- Branch `codex/metamagic-apparatus-group-2`, based on `b89208f` from PR #28.
+  Both CI platforms passed for #28. Issue #26 remains active; all stacked PRs
+  remain unmerged, with no individual merge or release approval.
+- Twenty entries, Enlarging through Scarring, now have individually reviewed
+  native profiles, reuse decisions, held-rod artwork and source/timing notes.
+  Full approved source descriptions, prices, IDs and snapshot hashes are intact.
+  Twenty-four alternate conventional rod records were fully inspected; their
+  different prices, weights, spell rules and incomplete settings were rejected.
+  The previously reviewed suitable core rod image is reused without copying bytes.
+- All select lesser tier CL 5, effect CL <=7, untyped aura and five-pound weight.
+  Reaching explicitly has five daily uses, one use per range-category advance,
+  with repeat activation of the same apparatus permitted in one casting.
+  Other entries have three daily uses; feat spell-point costs are not item costs.
+- Extending/Fleeting each have alternate initial-casting and paid-persistence
+  helpers sharing one daily pool. Fleeting’s later swift dismissal costs zero
+  additional uses. Half-duration, counterspell vulnerability and aura-detection
+  limits remain explicit, with no automatic world/token changes.
+- Flaring’s unchanged source remains ambiguous under issue #27. Native physical
+  and usage fields are reviewed; affected trigger/duration outcomes and advanced
+  interpretation remain deferred. No duration formula or light-damage trigger is
+  invented. Target effects and the other conditional outcomes await an interface
+  and remote acceptance; no global actor modifiers or permanent feat grants.
+- The pinned shared-profile table and validator now preserve repeat activation,
+  alternative persistence timing, free follow-up and unresolved-source status.
+  Clean commit `aec8de7c58a25cb5b6883e3a39eb76bd9670ecc7` passed formatting, lint,
+  all 73 tests, source/reference/provenance checks, all 6,788 compiler round trips
+  and two identical 753-file builds. ZIP SHA-256:
+  `7b17e28931edc4e2c2e47c29626efeec72f245ebdd54d5ee1d6ef54d3edcf624`.
+  Draft PR #29 is pushed, stacked on PR #28:
+  https://github.com/sefaction/spheres-content/pull/29. CI is pending.
+- Batch 2 now has forty reviewed images, sixty remaining: twenty-one metamagic
+  apparatuses and thirty-nine other apparatuses. The next ignored plan is
+  `.local/batch2-group3-plan.json`, starting Seeking, Selective and Shadow Grasping.
+  Continue explicitly with `--batch=physical-items-batch-2`; review source and
+  compendium alternatives before new art or native profiles.
+- The user reported Setup availability, but the guarded route check and browser
+  still show the dedicated Additional Spheres Content Test world running with
+  zero players. A blank-password Return to Setup attempt was rejected; no world
+  transition or remote deployment occurred. The server administrator password is
+  required, so an asynchronous request asks the user to return that exact test
+  instance to Setup. Do not seek credentials or change server authentication.
+  Last deployment remains `fed942b`; no restart is authorized.
+- Source review and full-name/reordered/alternate compendium searches for the
+  next twenty entries are cached in ignored `.local/batch2-group3-*.json`. No
+  group-3 canonical sources have changed. Still can be used while carried/worn
+  without holding; Suppressed has published weight three pounds. Preserve those
+  exceptions instead of copying the shared held-rod/five-pound assumptions.
+- Next safe step: reconcile the user's Setup reply with the actual route, then
+  run a fresh clean verification for the current commit before guarded deployment
+  and Foundry acceptance. Return to Setup for the exact semantic audit. Continue
+  the next coherent twenty-entry group locally while authentication is pending.
+  This documentation follow-up has not been deployed; do not infer acceptance.
+
+## Prior reviewed content batch: physical batch 2, group 1
 
 - Branch `codex/physical-items-batch-2`, based on `cd3a52d` from draft PR #25.
   Both Windows and Ubuntu checks passed for #25. All preceding PRs remain
@@ -37,8 +92,8 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   Negative tests cover tier, daily-use, combined CL, caster-level and feat-cost
   drift. A scheduling lane keeps the remaining apparatuses together.
 - Draft PR #28 is pushed, stacked on #25 and references #26:
-  https://github.com/sefaction/spheres-content/pull/28. CI remains pending until
-  checked; no merge approval. Documentation follow-up needs a fresh clean gate
+  https://github.com/sefaction/spheres-content/pull/28. Both Windows/Ubuntu CI
+  passed at documentation commit `b89208f`; no merge approval. Documentation follow-up needs a fresh clean gate
   before deployment.
 - Batch 2 now has twenty reviewed images and eighty pending: forty-one metamagic
   apparatuses plus thirty-nine other apparatuses. Continue with

@@ -3,7 +3,7 @@
   "_key": "!items!f5aad2ee5002f41a",
   "name": "Extending Metamagic Apparatus",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,36 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-metamagic-apparatus",
+      "selectedVariant": "lesser tier; held slender rod",
+      "metamagicApparatus": {
+        "profile": "research/metamagic-apparatus-profiles.json",
+        "tier": "lesser",
+        "dailyUses": 3,
+        "maxSphereEffectCasterLevel": 7,
+        "featSpellPointCost": 1,
+        "featSpellPointCostAppliesToItem": false,
+        "additionalTiming": "when spending a spell point to make a concentrated effect persist without concentration"
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 5,000 gp (lesser), 10,000 gp (normal), 20,000 gp (greater)<br>\n<strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 1 sp</p>\n<p>An extended talent lasts twice as long as normal. A talent with a duration of concentration, instantaneous, or permanent is not affected by this effect, but you may choose to activate this metamagic effect when spending a spell point to make a talent you are concentrating on last without concentration, rather than when you initially cast the sphere effect.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Extend Spell; <strong>Cost</strong> 2,500 gp (lesser), 5,000 gp (normal), 10,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc24\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: lesser tier; held slender rod. Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. The effect must be caster level seven or lower. Spend one of 3 daily uses; only one metamagic apparatus may apply per casting. Its feat’s extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply.</p><p>Double a qualifying duration; concentration, instantaneous and permanent durations do not benefit. Alternatively apply when spending a spell point to make the effect persist without concentration, rather than at initial casting.</p><p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic\">Shared metamagic apparatus rules</a>. Feat Cost applies to taking the feat, not using the physical apparatus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +74,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +95,51 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "0fa39047d34ea7f6",
+        "name": "Apply Extending Metamagic Apparatus",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. The effect must be caster level seven or lower. Spend one of 3 daily uses; only one metamagic apparatus may apply per casting. Its feat’s extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply. Double a qualifying duration; concentration, instantaneous and permanent durations do not benefit. Alternatively apply when spending a spell point to make the effect persist without concentration, rather than at initial casting."
+          ]
+        }
+      },
+      {
+        "_id": "1d87f0c28ed18516",
+        "name": "Apply When Persisting Concentrated Effect",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Alternative to applying at initial casting: spend a spell point to make the concentrated effect persist without concentration, and spend one apparatus use. Do not apply the same metamagic twice to the same effect. Hold this lesser apparatus; the qualifying effect must be CL seven or lower. Double a qualifying duration; concentration, instantaneous and permanent durations do not benefit. Alternatively apply when spending a spell point to make the effect persist without concentration, rather than at initial casting."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

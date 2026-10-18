@@ -44,6 +44,28 @@
       "requirements": "Only self-targeted effects of at least one round, persisting without concentration. Each talent CL <=7; sum CL <=9. Use shortest duration and longest casting time.",
       "maxSphereEffectCasterLevel": 7,
       "maxCombinedCasterLevel": 9
+    },
+    "reaching-metamagic-apparatus": {
+      "tier": "lesser",
+      "dailyUses": 5,
+      "allowRepeatSameCasting": true,
+      "requirements": "Each activation advances one range category along touch, close, medium, long. Repeat activations may use the same apparatus during one casting; no other apparatus is added."
+    },
+    "extending-metamagic-apparatus": {
+      "additionalTiming": "when spending a spell point to make a concentrated effect persist without concentration",
+      "requirements": "Double duration except concentration, instantaneous or permanent. The later persistence option is an alternative to applying it at initial casting."
+    },
+    "fleeting-metamagic-apparatus": {
+      "additionalTiming": "when spending a spell point to make a concentrated effect persist without concentration",
+      "freeFollowup": {
+        "activation": "swift",
+        "cost": "0"
+      },
+      "requirements": "At least two rounds; no instantaneous/permanent effects. Halve duration, excluding concentration time; Extend cancels the duration adjustment. Swift dismissal leaves a concealed aura; countering is easier and removes an active fleeting effect without a check."
+    },
+    "flaring-metamagic-apparatus": {
+      "sourceAmbiguityIssue": 27,
+      "requirements": "Preserve the light descriptor versus fire/electricity damage-trigger inconsistency and malformed duration wording. Do not supply an invented damage trigger or duration formula."
     }
   }
 }
