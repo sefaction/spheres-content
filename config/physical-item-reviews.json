@@ -10997,5 +10997,1658 @@
       "sourceUuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
       "sha256": "5050a2f9b1020c98b802ecf1b6a7b6026cd62762d8c061dbee66c5640e65b9a9"
     }
+  },
+  "wiki:charms:ultimate:item:academy-uniform": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "2cca3c2ceee2544fb7d10f8bd7bcce2a12a9e667c382f2288934504193469580",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. One true-blue woolen scholar outfit fits its wearer as described, with negligible source weight. Selected base bauble tier has no skill bonus. The complete 5th/9th/13th/17th-level schedule remains in the source for deliberate progression review; do not grant later Spellcraft, Knowledge, training, take-ten or Academy test benefits at the ten-gp base price. The final-tier construction figure is not the base purchase price.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Scholar's outfit",
+        "candidates": [
+          {
+            "key": "scholars-outfit",
+            "name": "Scholar's outfit",
+            "uuid": "Compendium.pf1.items.Item.TtDnjdwDQAlfWGQ6",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "clothing",
+            "img": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "fc375b78b872e9551537558b31de518f0668f33fbfe4231d15c406c716b86c4d",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Outfit, scholar's",
+        "candidates": [
+          {
+            "key": "scholars-outfit",
+            "name": "Scholar's outfit",
+            "uuid": "Compendium.pf1.items.Item.TtDnjdwDQAlfWGQ6",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "clothing",
+            "img": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "fc375b78b872e9551537558b31de518f0668f33fbfe4231d15c406c716b86c4d",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "reordered-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Robe",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/academy-uniform.webp",
+      "decision": "No adequate source-specific illustration remained after full-record and actual-image review. Original artwork preserves the described physical item, with no goggles substituted for a monocle or armor substituted for a cloth vest."
+    },
+    "output": {
+      "file": "src/packs/items/charms/academy-uniform-00c3f82007ca7820.json",
+      "id": "00c3f82007ca7820",
+      "type": "equipment",
+      "sha256": "d49fea9dbce1590523826b5fe0a769363312621c2c243764d059d76d9578d1aa"
+    }
+  },
+  "wiki:charms:ultimate:item:alabaster-gloves": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "5319b336f625a573d5c9c51292de5173498b4a39f5d2787fea29ad922923b767",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. Quantity one is one complete pair of white gloves with woven gold strands, with negligible published weight. The +10 applies only to qualifying positive-energy sphere or supernatural healing/damage effects. No ordinary weapon bonus, negative-energy benefit, Heal skill bonus, spell-point pool or generic healing action is imported.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Gloves of the Healer",
+        "candidates": []
+      },
+      {
+        "name": "Healer's Gloves",
+        "candidates": [
+          {
+            "key": "healers-gloves",
+            "name": "Healer's Gloves",
+            "uuid": "Compendium.pf1.items.Item.VkKpnSiSWntTHZXE",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/hand/glove-simple-cloth-white.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "8c9927f6c1bffa8a26099ee5723e4111f49c9723fbbe2dcd7bb0aafb072053e1",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Gloves of Healing",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/alabaster-gloves.webp",
+      "decision": "No adequate source-specific illustration remained after full-record and actual-image review. Original artwork preserves the described physical item, with no goggles substituted for a monocle or armor substituted for a cloth vest."
+    },
+    "output": {
+      "file": "src/packs/items/charms/alabaster-gloves-63e93c136f4f492e.json",
+      "id": "63e93c136f4f492e",
+      "type": "equipment",
+      "sha256": "10215e628dcecfa2fa32c96fad3adfb42445402be69850d695bbbe1407b6ea3b"
+    }
+  },
+  "wiki:charms:ultimate:item:amulet-of-emotional-weather": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "c99dcf0750cec1996fbe3cac35edd015bad4a13f50ce115a31f27a78f8a52342",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. Native cursed flag records the published curse. Removal requires appropriate magic; the source restriction remains manual. Strong emotions trigger CL 10 control weather in 200 feet, one severity level per round toward severity five: sadness precipitation, anger heat, happiness wind, fear cold. Player/GM adjudicate actual emotions and the source conditions. No weather/scene/token changes, chosen emotion, daily-use pool or extra spell-point payment is fabricated.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Emotional Weather Amulet",
+        "candidates": []
+      },
+      {
+        "name": "Amulet of Natural Armor +1",
+        "candidates": [
+          {
+            "key": "amulet-of-natural-armor-1",
+            "name": "Amulet of Natural Armor +1",
+            "uuid": "Compendium.pf1.items.Item.9Uxwqax0pLPyT2j7",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/jewelry/pendant-green.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "784b8e544b518eee33b142eed8f7401ddc3720bb2d55d56378c567432da86053",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Necklace of Fireballs",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/amulet-of-emotional-weather.webp",
+      "decision": "No adequate source-specific illustration remained after full-record and actual-image review. Original artwork preserves the described physical item, with no goggles substituted for a monocle or armor substituted for a cloth vest."
+    },
+    "output": {
+      "file": "src/packs/items/charms/amulet-of-emotional-weather-f604a3fd2d46d848.json",
+      "id": "f604a3fd2d46d848",
+      "type": "equipment",
+      "sha256": "09e9602ba2056b85ab8839817ff3df131fe1ed4a64dd8d9c8921d0bae7704c57"
+    }
+  },
+  "wiki:charms:ultimate:item:clear-gem": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "36fa00f4e7ab6adb2b49e30fd2a67bb34eb947b40db09281a8e5e7ca08274b17",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. One small clear oval gem copies a positive-energy healing effect occurring within sixty feet of the bearer only if that effect did not already affect the bearer. Original targets still benefit. Resolve the identical qualifying effect manually; no duplicate healing of an existing target, all-healing trigger, negative-energy opaque variant, food/water immunity or ioun-stone orbit behavior is imported.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Gem of Seeing",
+        "candidates": [
+          {
+            "key": "gem-of-seeing",
+            "name": "Gem of Seeing",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.nlxhGklHWBjsv4Ni",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/svg/item-bag.svg",
+            "hasDescription": true,
+            "placeholderImage": true,
+            "sha256": "6338dc7304aced659bed0e496d712e896e1c86d24f8f1c519acf32609a4ba153",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Gem of Brightness",
+        "candidates": [
+          {
+            "key": "gem-of-brightness",
+            "name": "Gem of Brightness",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.CtZ0M9agoXncKGt0",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/svg/item-bag.svg",
+            "hasDescription": true,
+            "placeholderImage": true,
+            "sha256": "17c77ac90dc3c5e5db248dc64a60994e31d1234ca98f524d691f6b34c0fcb2e0",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Clear Spindle Ioun Stone",
+        "candidates": [
+          {
+            "key": "clear-spindle-ioun-stone",
+            "name": "Clear Spindle Ioun Stone",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.NXMKHSxemAg7Sx18",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/commodities/gems/gem-faceted-round-white.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "68983a08483af4b94a9443e2e2eaa1e398b01402ce0fbd0bef561b54f4882ff6",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "icons/commodities/gems/gem-faceted-round-white.webp",
+      "source": {
+        "key": "clear-spindle-ioun-stone",
+        "name": "Clear Spindle Ioun Stone",
+        "uuid": "Compendium.pf-content.pf-wondrous.Item.NXMKHSxemAg7Sx18",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-wondrous",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/commodities/gems/gem-faceted-round-white.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "68983a08483af4b94a9443e2e2eaa1e398b01402ce0fbd0bef561b54f4882ff6",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Use the visually inspected physical gem, belt, silver holy symbol, plain glove or ring illustration only. Full unrelated rules, item type, quantities, bonuses, charges and class powers are not copied. Source-specific form, material, slot and choices remain explicit."
+    },
+    "output": {
+      "file": "src/packs/items/charms/clear-gem-629043bff22d1077.json",
+      "id": "629043bff22d1077",
+      "type": "equipment",
+      "sha256": "1be5ca353592a3a2bbbbf3c61ad88763a5167c21cdb0901fe0f5e4ad82183c25"
+    }
+  },
+  "wiki:charms:ultimate:item:constellation-belt": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "212ee4b18c36da5cb56981818d062b8e85baa88143d7f1b97df1190bc9f738f2",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. A one-pound belt stores objects in open orbit rather than inside a bag. Native equipment preserves its belt slot; no container, bundled objects, pounds-based capacity, weight exemption or automatic inventory duplication. One Small-size total and the existing-Orbit interaction are resolved deliberately.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Belt of Incredible Dexterity +2",
+        "candidates": [
+          {
+            "key": "belt-of-incredible-dexterity-2",
+            "name": "Belt of Incredible Dexterity +2",
+            "uuid": "Compendium.pf1.items.Item.PC3K6eeXRdUwJxLA",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/waist/belt-buckle-crescent.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "abd4041929db6a23462f9e0185330009d8464dde090bab44c5293f5bf7df8678",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Belt",
+        "candidates": []
+      },
+      {
+        "name": "Handy Haversack",
+        "candidates": [
+          {
+            "key": "handy-haversack",
+            "name": "Handy Haversack",
+            "uuid": "Compendium.pf1.items.Item.PjbUBvxyqsugkbcf",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "container",
+            "subType": null,
+            "img": "icons/containers/bags/pack-leather-white-tan.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "38981205fb06ed0888a3ae097451d44ac26d0230c059cf1780131c09fd05e20c",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "icons/equipment/waist/belt-buckle-crescent.webp",
+      "source": {
+        "key": "belt-of-incredible-dexterity-2",
+        "name": "Belt of Incredible Dexterity +2",
+        "uuid": "Compendium.pf1.items.Item.PC3K6eeXRdUwJxLA",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/waist/belt-buckle-crescent.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "abd4041929db6a23462f9e0185330009d8464dde090bab44c5293f5bf7df8678",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Use the visually inspected physical gem, belt, silver holy symbol, plain glove or ring illustration only. Full unrelated rules, item type, quantities, bonuses, charges and class powers are not copied. Source-specific form, material, slot and choices remain explicit."
+    },
+    "output": {
+      "file": "src/packs/items/charms/constellation-belt-5c185d6b7aedabce.json",
+      "id": "5c185d6b7aedabce",
+      "type": "equipment",
+      "sha256": "81f8e82272d6ea0267d216f310f718e462a7713350c36d7078b9e6000598398f"
+    }
+  },
+  "wiki:charms:ultimate:item:divine-symbol": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "17d5d6b8a277fdc5a8e8eb77ddc0a64d719547e613c79123bd8327121320cbf1",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. One magical holy symbol, not a bundled set. The actual deity and four-to-five domains remain unselected. Sacred versus profane follows the deity or its permanent creation choice, not a choice on every activation. Resolve the external channel cost, qualifying spheres and one-symbol limit manually. Timing is unspecified (Special); no free channel pool, universal CL bonus, religion or permanent class grant.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Holy symbol, silver",
+        "candidates": [
+          {
+            "key": "holy-symbol-silver",
+            "name": "Holy symbol (Silver)",
+            "uuid": "Compendium.pf1.items.Item.rOTfc8RWj3k9JwT7",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "loot",
+            "subType": "adventuring",
+            "img": "icons/equipment/neck/amulet-carved-stone-cross.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "a737f6d862bc8562379d208080c3b250983ecafb2197aff7dd78b56254a58b89",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Holy Symbol, Wooden",
+        "candidates": []
+      },
+      {
+        "name": "Silver Holy Symbol",
+        "candidates": [
+          {
+            "key": "holy-symbol-silver",
+            "name": "Holy symbol (Silver)",
+            "uuid": "Compendium.pf1.items.Item.rOTfc8RWj3k9JwT7",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "loot",
+            "subType": "adventuring",
+            "img": "icons/equipment/neck/amulet-carved-stone-cross.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "a737f6d862bc8562379d208080c3b250983ecafb2197aff7dd78b56254a58b89",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "reordered-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "icons/equipment/neck/amulet-carved-stone-cross.webp",
+      "source": {
+        "key": "holy-symbol-silver",
+        "name": "Holy symbol (Silver)",
+        "uuid": "Compendium.pf1.items.Item.rOTfc8RWj3k9JwT7",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "loot",
+        "subType": "adventuring",
+        "img": "icons/equipment/neck/amulet-carved-stone-cross.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "a737f6d862bc8562379d208080c3b250983ecafb2197aff7dd78b56254a58b89",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Use the visually inspected physical gem, belt, silver holy symbol, plain glove or ring illustration only. Full unrelated rules, item type, quantities, bonuses, charges and class powers are not copied. Source-specific form, material, slot and choices remain explicit."
+    },
+    "output": {
+      "file": "src/packs/items/charms/divine-symbol-5798f69355ebfadf.json",
+      "id": "5798f69355ebfadf",
+      "type": "equipment",
+      "sha256": "1229687ec13e58c1f885e7c4a585119a0bb232a1c8783e0497dd1a6095e53ac3"
+    }
+  },
+  "wiki:charms:ultimate:item:forgers-gloves": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "5d0b7720699c63994f96f6eda0e2b6442f82f360b6d506b5863f5c9e0cb7affb",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. Quantity one is a complete pair of perpetually dirty leather work gloves, negligible published weight. The source says the target gains +10 competence to metal Craft checks without defining the beneficiary; GM/source clarification is required before assigning the bonus. Forge Creation handling, target material/size and the appropriate procedure remain manual; no automatic wearer bonus, blanket +10 to skills or invented activation cost. Installed Forge is a comparison component, not a replacement rules version.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Forger's Gloves",
+        "candidates": []
+      },
+      {
+        "name": "Gloves of Swimming and Climbing",
+        "candidates": [
+          {
+            "key": "gloves-of-swimming-and-climbing",
+            "name": "Gloves of Swimming and Climbing",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.EwA53IG5pQfrOBtu",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "4fbc7283ad0972e0c072c327664f153f3f349fbeb18dd5fadd1b82c3ca07e728",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Gauntlets of the Skilled Maneuver",
+        "candidates": [
+          {
+            "key": "gauntlets-of-the-skilled-maneuver",
+            "name": "Gauntlets of the Skilled Maneuver",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.QyeFILlxijlAqLGT",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "2cf0361bbfdc76bffe8b09aaea9d3d7faa2ab2c85b342a88843c6074d385b85f",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Forge",
+        "candidates": [
+          {
+            "key": "forge",
+            "name": "Forge",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.kEAjk3ep0hslxwNi",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/creation.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "43e0baf928de37d4c2e858f3fd345642cdeaeabd4234a559e67f3a03baf38b0d",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/forgers-gloves.webp",
+      "decision": "No adequate source-specific illustration remained after full-record and actual-image review. Original artwork preserves the described physical item, with no goggles substituted for a monocle or armor substituted for a cloth vest."
+    },
+    "output": {
+      "file": "src/packs/items/charms/forgers-gloves-ce8b0f349bc7e8bf.json",
+      "id": "ce8b0f349bc7e8bf",
+      "type": "equipment",
+      "sha256": "9d8683c260a18f6e5a880210273041149f6087d490e8fcbf104f309fcca6658c"
+    }
+  },
+  "wiki:charms:ultimate:item:fox-medallion": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "f07a2b3079bf83b7b3bc3f2daac89e33dc4ce718d0e580e87859ad4612838e2f",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. One silvery medallion selects the usual neck slot, touching skin with no other item in that occupied slot. Other legal occupied-slot placements need deliberate selection; it is not slotless. Mythic creatures also receive the published Unplottable-style divination protection, resolved manually. No general spell immunity, generic spell-resistance number, free mythic power, talent grant or caster/world changes.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Medallion of Thoughts",
+        "candidates": [
+          {
+            "key": "medallion-of-thoughts",
+            "name": "Medallion of Thoughts",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.QVvWWuxmjTtn43F9",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/neck/pendant-rough-gold-purple.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "b85f0bb158932c3f9af6c63238e5e3d77d545a47d76c43bfa5cdca357e7317b6",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Amulet of Proof against Detection and Location",
+        "candidates": [
+          {
+            "key": "amulet-of-proof-against-detection-and-location",
+            "name": "Amulet of Proof Against Detection and Location",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.un7N1o2OEnw41aQ9",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/neck/pendant-rough-gold-purple.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "5ded4f0e4c57d4182c6251a6bb8c79e700f46f8f3281eee8e93694c903ae36a7",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Scarab of Protection",
+        "candidates": [
+          {
+            "key": "scarab-of-protection",
+            "name": "Scarab of Protection",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.wD634FqknoaJIIXB",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/neck/pendant-rough-gold-purple.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "fbff9ea5a3a34f48432f2bf3bf2cab4d4851cb895aded26b3ce5fc50fe336a37",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/fox-medallion.webp",
+      "decision": "No adequate source-specific illustration remained after full-record and actual-image review. Original artwork preserves the described physical item, with no goggles substituted for a monocle or armor substituted for a cloth vest."
+    },
+    "output": {
+      "file": "src/packs/items/charms/fox-medallion-7de081901f2aa91e.json",
+      "id": "7de081901f2aa91e",
+      "type": "equipment",
+      "sha256": "7b31bcc7b6f5c9a33279f54c0e193165686a009df0f4828bb6e2630e69888f43"
+    }
+  },
+  "wiki:charms:ultimate:item:gloves-of-unseen-grip": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "e9f71a0bdd891d659ab3703e5fccd00aae7ed6f82b4e92ab3a2f01f4d74fb2ce",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. One complete one-pound glove pair improves only the specified Telekinesis talent CMB/CMD procedures. The actual talents use their own CL/casting-ability calculations; do not add +2 to ordinary combat maneuvers, all CMD, lifting size, Strength, or Swim/Climb. No talent is automatically granted.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Unseen Grip Gloves",
+        "candidates": []
+      },
+      {
+        "name": "Gauntlets of the Skilled Maneuver",
+        "candidates": [
+          {
+            "key": "gauntlets-of-the-skilled-maneuver",
+            "name": "Gauntlets of the Skilled Maneuver",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.QyeFILlxijlAqLGT",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "2cf0361bbfdc76bffe8b09aaea9d3d7faa2ab2c85b342a88843c6074d385b85f",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Gloves of Swimming and Climbing",
+        "candidates": [
+          {
+            "key": "gloves-of-swimming-and-climbing",
+            "name": "Gloves of Swimming and Climbing",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.EwA53IG5pQfrOBtu",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "4fbc7283ad0972e0c072c327664f153f3f349fbeb18dd5fadd1b82c3ca07e728",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "icons/equipment/hand/glove-simple-cloth-white.webp",
+      "source": {
+        "key": "healers-gloves",
+        "name": "Healer's Gloves",
+        "uuid": "Compendium.pf1.items.Item.VkKpnSiSWntTHZXE",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/hand/glove-simple-cloth-white.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "8c9927f6c1bffa8a26099ee5723e4111f49c9723fbbe2dcd7bb0aafb072053e1",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Use the visually inspected physical gem, belt, silver holy symbol, plain glove or ring illustration only. Full unrelated rules, item type, quantities, bonuses, charges and class powers are not copied. Source-specific form, material, slot and choices remain explicit."
+    },
+    "output": {
+      "file": "src/packs/items/charms/gloves-of-unseen-grip-ca02caa977175634.json",
+      "id": "ca02caa977175634",
+      "type": "equipment",
+      "sha256": "f89c0cbcc6e6eaa50f8d49a6bd621cb992d25b803020a3fb749eb3399df306b3"
+    }
+  },
+  "wiki:charms:ultimate:item:intensifying-gloves": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "0dbd0d8f0b0b69a427c1c3c6c76b69582d8f084dc0988d017c06167d1707d63a",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. Quantity one is a complete lesser pair, both gloves required, negligible source weight. Exactly one crafted energy remains unselected. Lesser ignores five resistance; greater ten is a separate tier. No default fire choice, positive-energy option, immunity bypass, broad damage bonus, Heal bonus or weapon attack is imported.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Gloves of Dexterity +2",
+        "candidates": []
+      },
+      {
+        "name": "Gauntlets of the Skilled Maneuver",
+        "candidates": [
+          {
+            "key": "gauntlets-of-the-skilled-maneuver",
+            "name": "Gauntlets of the Skilled Maneuver",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.QyeFILlxijlAqLGT",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "2cf0361bbfdc76bffe8b09aaea9d3d7faa2ab2c85b342a88843c6074d385b85f",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "icons/equipment/hand/glove-simple-cloth-white.webp",
+      "source": {
+        "key": "healers-gloves",
+        "name": "Healer's Gloves",
+        "uuid": "Compendium.pf1.items.Item.VkKpnSiSWntTHZXE",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/hand/glove-simple-cloth-white.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "8c9927f6c1bffa8a26099ee5723e4111f49c9723fbbe2dcd7bb0aafb072053e1",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Use the visually inspected physical gem, belt, silver holy symbol, plain glove or ring illustration only. Full unrelated rules, item type, quantities, bonuses, charges and class powers are not copied. Source-specific form, material, slot and choices remain explicit."
+    },
+    "output": {
+      "file": "src/packs/items/charms/intensifying-gloves-5cb352b5abfbe2bb.json",
+      "id": "5cb352b5abfbe2bb",
+      "type": "equipment",
+      "sha256": "2736616fee6940f79341ce6f15cfb835e76f8e0c1c014827af3f7317efcff5d0"
+    }
+  },
+  "wiki:charms:ultimate:item:remnant-of-courage": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "7328c57b139d883d8ee915ba0a419defd750469f278b336db03f4a1894b62570",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. One small metal/fabric keepsake weighs 0.1 lb. A single non-daily charge records this remnant's rolling twenty-four-hour limit; the per-user limit across all remnants is manual. No invented rally, self-targeting, daily reset, free casting points or global morale bonus. Source faint aura at CL 10 conflicts with native moderate; #31.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Badge of Valor",
+        "candidates": []
+      },
+      {
+        "name": "Four-leaf Clover",
+        "candidates": [
+          {
+            "key": "four-leaf-clover",
+            "name": "Four-Leaf Clover",
+            "uuid": "Compendium.pf1.items.Item.8Ll266amCrQtdH9Q",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/commodities/flowers/clover.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "98e2329c1ba40a4657d3794d4b6b2a9fadd882ae6a31d93e1ae3e0c8cb3f62b2",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Stone of Good Luck (Luckstone)",
+        "candidates": [
+          {
+            "key": "stone-of-good-luck-luckstone",
+            "name": "Stone of Good Luck (luckstone)",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.AwLOQ4cTLMz5VxeX",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/svg/item-bag.svg",
+            "hasDescription": true,
+            "placeholderImage": true,
+            "sha256": "b8004287d004fbc784af1c13badb7586f7b271d9f38cdb04d24e71fdb2233cd8",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/remnant-of-courage.webp",
+      "decision": "No adequate source-specific illustration remained after full-record and actual-image review. Original artwork preserves the described physical item, with no goggles substituted for a monocle or armor substituted for a cloth vest."
+    },
+    "output": {
+      "file": "src/packs/items/charms/remnant-of-courage-6fdc69c56a345bc9.json",
+      "id": "6fdc69c56a345bc9",
+      "type": "equipment",
+      "sha256": "49955b229e676430b8b78d0451af66d364d34690774a775ac243a724d71434e4"
+    }
+  },
+  "wiki:charms:ultimate:item:ring-of-clarity": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "6a959b8d009296f2d6c3e5d73fea9cf143391e04e33a16ee996fa3e2e2790782",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. One nearly transparent crystal ring. Its one-use daily helper records the exceptional take-ten use; actual concentration resolution and visual state are manual. Unspecified activation timing stays Special. No concentration modifier, immunity to mind magic, nourishment, altered resting or permanent ability is borrowed from conventional rings.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Clarity Ring",
+        "candidates": []
+      },
+      {
+        "name": "Ring of Mind Shielding",
+        "candidates": [
+          {
+            "key": "ring-of-mind-shielding",
+            "name": "Ring of Mind Shielding",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.hurdWx4m8eJsJvMJ",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "c2aef5f5c57d3f9b756d2023a6127117d56e0c9664e4f9e15a36d1e4851329be",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Ring of Sustenance",
+        "candidates": [
+          {
+            "key": "ring-of-sustenance",
+            "name": "Ring of Sustenance",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.oMCJzt2EARPaP5I2",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "547564baa44507507c6290c0b48f674ceb8b3a4ef6b129089ff7352452e7202d",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/ring-of-clarity.webp",
+      "decision": "No adequate source-specific illustration remained after full-record and actual-image review. Original artwork preserves the described physical item, with no goggles substituted for a monocle or armor substituted for a cloth vest."
+    },
+    "output": {
+      "file": "src/packs/items/charms/ring-of-clarity-d6e886a26d8bd5b0.json",
+      "id": "d6e886a26d8bd5b0",
+      "type": "equipment",
+      "sha256": "742455d7f44779fe566962377ed775ce01213f2885ad96aebb8e6888130782ad"
+    }
+  },
+  "wiki:charms:ultimate:item:ring-of-force-armor": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "a196de19d2648a7d0b1015c1d76085ea03047c8f175b58926c984543bb46ef5a",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. One physical ring, not a complete permanent armor suit or force shield. Each attempt spends one of two daily uses even if Craft fails. No armor or stones are bundled, no automatic +9 AC, no fabricated ACP/max-Dex values or permanent deflection/shield bonus. The full source restriction and four-hour duration remain visible.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Ring of Force Armour",
+        "candidates": []
+      },
+      {
+        "name": "Ring of Force Shield",
+        "candidates": [
+          {
+            "key": "ring-of-force-shield",
+            "name": "Ring of Force Shield",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.JdacusHJuNlbDGR8",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "083ee329ea0aec2ed4567ca5c452334a09c2a472cc4f638a43c7943a4b0848ea",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Ring of Protection +1",
+        "candidates": [
+          {
+            "key": "ring-of-protection-1",
+            "name": "Ring of Protection +1",
+            "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/finger/ring-shield-silver.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "icons/equipment/finger/ring-shield-silver.webp",
+      "source": {
+        "key": "ring-of-protection-1",
+        "name": "Ring of Protection +1",
+        "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/finger/ring-shield-silver.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Use the visually inspected physical gem, belt, silver holy symbol, plain glove or ring illustration only. Full unrelated rules, item type, quantities, bonuses, charges and class powers are not copied. Source-specific form, material, slot and choices remain explicit."
+    },
+    "output": {
+      "file": "src/packs/items/charms/ring-of-force-armor-dca35c5694f6f5d9.json",
+      "id": "dca35c5694f6f5d9",
+      "type": "equipment",
+      "sha256": "d5d0e3f429b084a51f0e797f0a3bd4d6e8c22fb44906c4fb9af64515726dc0d5"
+    }
+  },
+  "wiki:charms:ultimate:item:ring-of-potential-realized": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "42f682e1ee8ba0408cdd7c9fe25978a65e6c6430aea2e63bd9f541c9108c4580",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. One ring changes from common iron to wearer-specific precious metal/stones when worn. After twenty-four-hour attunement, spell-point recovery adds the actual casting ability modifier; keep these bonus points as the last points spent and remove them if the ring is removed. Recovery, similar-ring exclusion, tracking/removal of bonus points and tradition choices are manual, with no unconditional pool increase, guessed casting ability or permanent feat grant.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Ring of Wizardry I",
+        "candidates": [
+          {
+            "key": "ring-of-wizardry-i",
+            "name": "Ring of Wizardry I",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.PNVJAYCqiI7aiRbp",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "ab3da73c2b29e8833e9ef4541faa5ad885b2eed4cba2973fbb3c1a8a7844d17e",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Ring of Spell Storing, Minor",
+        "candidates": [
+          {
+            "key": "ring-of-spell-storing-minor",
+            "name": "Ring of Spell Storing, Minor",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.MsAz3ZYa0hstss3e",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "111320567a8186f21401d85b83c1b9510d23ec4601fa5d50dddbc82b147d3f7d",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Ring of Wizardry (Type I)",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/jewelry/ring-red.jpg",
+      "source": {
+        "key": "ring-of-mind-shielding",
+        "name": "Ring of Mind Shielding",
+        "uuid": "Compendium.pf-content.pf-wondrous.Item.hurdWx4m8eJsJvMJ",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-wondrous",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "c2aef5f5c57d3f9b756d2023a6127117d56e0c9664e4f9e15a36d1e4851329be",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Use the visually inspected physical gem, belt, silver holy symbol, plain glove or ring illustration only. Full unrelated rules, item type, quantities, bonuses, charges and class powers are not copied. Source-specific form, material, slot and choices remain explicit."
+    },
+    "output": {
+      "file": "src/packs/items/charms/ring-of-potential-realized-80fa2a9cb145e55d.json",
+      "id": "80fa2a9cb145e55d",
+      "type": "equipment",
+      "sha256": "28b32fb98fdd571816efeafcb59396ba7e5cad90433b30f5c96005a227ccdf21"
+    }
+  },
+  "wiki:charms:ultimate:item:ring-of-skilled-casting": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "93318c953c64741c339e604fb0c00d48a374160b72fdc759a055fdd4b3790d0f",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. One heavy brass ring. Its conditional reduction modifies one qualifying metamagic feat cost, not all casting costs or the actor's general spell-point maximum. No daily use or pool is invented. Source faint aura at CL 8 conflicts with native moderate; #31.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Skilled Casting Ring",
+        "candidates": []
+      },
+      {
+        "name": "Ring of Spell Storing, Minor",
+        "candidates": [
+          {
+            "key": "ring-of-spell-storing-minor",
+            "name": "Ring of Spell Storing, Minor",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.MsAz3ZYa0hstss3e",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "111320567a8186f21401d85b83c1b9510d23ec4601fa5d50dddbc82b147d3f7d",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Ring of Sustenance",
+        "candidates": [
+          {
+            "key": "ring-of-sustenance",
+            "name": "Ring of Sustenance",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.oMCJzt2EARPaP5I2",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "547564baa44507507c6290c0b48f674ceb8b3a4ef6b129089ff7352452e7202d",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/jewelry/ring-red.jpg",
+      "source": {
+        "key": "ring-of-mind-shielding",
+        "name": "Ring of Mind Shielding",
+        "uuid": "Compendium.pf-content.pf-wondrous.Item.hurdWx4m8eJsJvMJ",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-wondrous",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "c2aef5f5c57d3f9b756d2023a6127117d56e0c9664e4f9e15a36d1e4851329be",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Use the visually inspected physical gem, belt, silver holy symbol, plain glove or ring illustration only. Full unrelated rules, item type, quantities, bonuses, charges and class powers are not copied. Source-specific form, material, slot and choices remain explicit."
+    },
+    "output": {
+      "file": "src/packs/items/charms/ring-of-skilled-casting-c285ff9226aa2e2c.json",
+      "id": "c285ff9226aa2e2c",
+      "type": "equipment",
+      "sha256": "063bf7a6a810c2900bae40f8bc8cbabc0546a75e5ac349d5244011e2be69e882"
+    }
+  },
+  "wiki:charms:ultimate:item:skimmer": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "b69f1159da20b982b44a878170a956c004b691294b50911a996813ecadf9a7b9",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. One oval physical disc, large enough for a Medium creature, five pounds. Hover, boarding, ground height, terrain, liquid traversal and size load are conditional/manual. No permanent land/fly speed modifier, fly speed, manufactured mount, pounds-based storage, passenger inventory, automatic prone condition or free spell-point pool.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Floating Disk",
+        "candidates": [
+          {
+            "key": "floating-disk",
+            "name": "Floating Disk",
+            "uuid": "Compendium.pf1.spells.Item.gdyto5az5aveibsb",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "spells",
+            "type": "spell",
+            "subType": null,
+            "img": "icons/magic/light/beam-rays-blue.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "eac2a017e587431e6935b1cbde30682b8df29e9dd28721a301666748d457f40d",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Disk, Floating",
+        "candidates": [
+          {
+            "key": "floating-disk",
+            "name": "Floating Disk",
+            "uuid": "Compendium.pf1.spells.Item.gdyto5az5aveibsb",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "spells",
+            "type": "spell",
+            "subType": null,
+            "img": "icons/magic/light/beam-rays-blue.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "eac2a017e587431e6935b1cbde30682b8df29e9dd28721a301666748d457f40d",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "reordered-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Carpet of Flying",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/skimmer.webp",
+      "decision": "No adequate source-specific illustration remained after full-record and actual-image review. Original artwork preserves the described physical item, with no goggles substituted for a monocle or armor substituted for a cloth vest."
+    },
+    "output": {
+      "file": "src/packs/items/charms/skimmer-d7aae2aec43d138a.json",
+      "id": "d7aae2aec43d138a",
+      "type": "equipment",
+      "sha256": "8449564754bce701b951ab6fbd9726ba248b77d22412fd414ccf10d2854dac9d"
+    }
+  },
+  "wiki:charms:ultimate:item:talisman-of-spell-resistance": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "30e854091135852588163cd7ab936ca7a424d64adf362d8f023ff44559f762ab",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. One two-pound silver five-pointed star inside a gold circle, rune unselected. While worn it grants SR fifteen, not a +15 stacking bonus; native source comparison remains manual under #41. Correct the draft fifteen-thousand construction cost to the published thirty-thousand purchase price under #37, without changing the full source body. Light commands spend no daily resource; successful-block flashes last one round only.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Spell Resistance Talisman",
+        "candidates": []
+      },
+      {
+        "name": "Mantle of Spell Resistance",
+        "candidates": [
+          {
+            "key": "mantle-of-spell-resistance",
+            "name": "Mantle of Spell Resistance",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.c9nLPuOf5LRoJYwA",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/chest/vest-leather-pink.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "2acbea376d9396e68b78bdcd25a380aa389bf4f0e68e569de2832ef73d4e96eb",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Brooch of Shielding",
+        "candidates": [
+          {
+            "key": "brooch-of-shielding",
+            "name": "Brooch of Shielding",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.9F3UExqpbtHiuVXm",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/neck/pendant-rough-gold-purple.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "64ea79792011b13c4001bdc01560a866b54370e2bee9d89157fc6f7d35840e23",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          },
+          {
+            "key": "brooch-of-shielding",
+            "name": "Brooch of Shielding",
+            "uuid": "Compendium.pf1.items.Item.bOmmY1LP9t4kLZT0",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/neck/amulet-geometric-gold-green.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "431feb5ed8a538c127c08394cd5a6d297b3a631f53785c803f00ba5e7bb71cf7",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/talisman-of-spell-resistance.webp",
+      "decision": "No adequate source-specific illustration remained after full-record and actual-image review. Original artwork preserves the described physical item, with no goggles substituted for a monocle or armor substituted for a cloth vest."
+    },
+    "output": {
+      "file": "src/packs/items/charms/talisman-of-spell-resistance-c0b4fdf977d99e7b.json",
+      "id": "c0b4fdf977d99e7b",
+      "type": "equipment",
+      "sha256": "b1948cd59d4ff3c5e1c8cfd14ead7867fe47cc9816d177688de8694f5074ba3f"
+    }
+  },
+  "wiki:charms:ultimate:item:targeting-monocle": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "1d686f5de51af838248a5b23570eb35225594b71f923d1b1be9620b7a6e7c0f9",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. One monocle over one eye, not a pair of goggles or a handheld magnifying lens. Keen applies only to the wearer's destructive blasts. No blanket threat-range, critical-multiplier, attack, Perception, Craft or saving-throw bonus; no automatic Deadly Targeting or Improved Critical grant. Qualifying action integration remains manual.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Monocle",
+        "candidates": []
+      },
+      {
+        "name": "Monocle of Flawlessness",
+        "candidates": [
+          {
+            "key": "monocle-of-flawlessness",
+            "name": "Monocle of Flawlessness",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.XqHvu31ehO5Yc0hO",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/head/goggles-leather-blue.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "fa56ab292df70b7e2052a318c245d927e9dd51e3565b77b43436c0c64c66e327",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Lens of Detection",
+        "candidates": [
+          {
+            "key": "lens-of-detection",
+            "name": "Lens of Detection",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.yO4dqeCyjwMf6mR4",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/head/goggles-leather-blue.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "d8f63d59e247786b676c430255e61912d7eda8e8a5f65c2d5b9835fd5eb69917",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Goggles of Minute Seeing",
+        "candidates": [
+          {
+            "key": "goggles-of-minute-seeing",
+            "name": "Goggles of Minute Seeing",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.ti9YxDZVY2CjwLFh",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/head/goggles-leather-blue.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "4620e33c674e00a7e21cf033db2ce5234d5127295747b688dc17084fc46290dc",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/targeting-monocle.webp",
+      "decision": "No adequate source-specific illustration remained after full-record and actual-image review. Original artwork preserves the described physical item, with no goggles substituted for a monocle or armor substituted for a cloth vest."
+    },
+    "output": {
+      "file": "src/packs/items/charms/targeting-monocle-0b0d1bd56677b1c8.json",
+      "id": "0b0d1bd56677b1c8",
+      "type": "equipment",
+      "sha256": "1b9a3f5ee352525d8582552255e66d7c8c7088952a31257366a6997d32e5c444"
+    }
+  },
+  "wiki:charms:ultimate:item:taskmind": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "11c8d4ea5da391604105a711f2f1bb821914ccf2832e9d016e468b3770f3ca55",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. One negligible-weight structure seated around the head, using the published headband slot. Requires the actual Divided Mind talent, which is not granted. Determine number/combined size with its restricted +4 CL manually; no maximum-single-object increase, lifting weight bonus, Intelligence enhancement, spell-point pool, general CL or range increase.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Task Mind",
+        "candidates": []
+      },
+      {
+        "name": "Headband of Vast Intelligence +2",
+        "candidates": [
+          {
+            "key": "headband-of-vast-intelligence-2",
+            "name": "Headband of Vast Intelligence +2",
+            "uuid": "Compendium.pf1.items.Item.lrKImXw2wiv8DCD1",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/waist/belt-thick-gemmed-gold-blue.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "0584675179d89c9de2666973c21de936b3743a72d0e7afbf1c178e24bce3af6e",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Headband of Psionic Reach",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/apparatuses/headband-of-psionic-reach.webp",
+      "source": {
+        "uuid": "Compendium.additional-spheres-content.items.Item.096c7feffd2f43c3",
+        "provider": "additional-spheres-content",
+        "version": "0.1.0-alpha.6",
+        "sha256": "048f5c9f0980e996e7bbeb6af23ef52df0ab922e8233ab9f5295915744a2ca50"
+      },
+      "decision": "Reuse the actual original cloth headband as a permitted headband-form structure. No psionic power, range or other source-item mechanics are imported."
+    },
+    "output": {
+      "file": "src/packs/items/charms/taskmind-f6f02295b40ed315.json",
+      "id": "f6f02295b40ed315",
+      "type": "equipment",
+      "sha256": "69b7adb83682641d4e11da0b561e922e7c2c9c3448f14ca2eb9c2f1778244da6"
+    }
+  },
+  "wiki:charms:ultimate:item:vest-of-shape-stabilization": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "69db1e7da16e252422ab41cac6f33825af6ef7d8296ea8756bf090aa04b2cce7",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms-2",
+    "decision": "original",
+    "reason": "No suitable same-rules complete item. Empty native profile with source-specific fields and explicit manual limits. One one-pound vest occupies the published body slot. Its single crafted transformation talent remains unselected. The two-round extension without concentration and +2 dispel MSD apply only to that qualifying wearer/effect. No blanket casting bonus, additional transformations, class feature, new concentration rule, armor statistics or permanent grant.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Vest of Escape",
+        "candidates": [
+          {
+            "key": "vest-of-escape",
+            "name": "Vest of Escape",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.zd7DwQUBHEChB20M",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/chest/vest-leather-pink.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "fa181e1069e6aa9f9bad3fd44e4aa075c298c8cac0c55f9a98c8400410d21f59",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Complete record has different rules/version/type, selected variant, scope or unsuitable physical form. Suitable illustration may be reused separately without its mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Vest of Resistance +1",
+        "candidates": []
+      },
+      {
+        "name": "Vest of Elemental Defense",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/vest-of-shape-stabilization.webp",
+      "decision": "No adequate source-specific illustration remained after full-record and actual-image review. Original artwork preserves the described physical item, with no goggles substituted for a monocle or armor substituted for a cloth vest."
+    },
+    "output": {
+      "file": "src/packs/items/charms/vest-of-shape-stabilization-cbc2edea4e9c47ae.json",
+      "id": "cbc2edea4e9c47ae",
+      "type": "equipment",
+      "sha256": "82491c980e4fa7fd04dc098951a4581d25438f96a0828ab56a0514af234edbfc"
+    }
   }
 }

@@ -3,7 +3,7 @@
   "_key": "!items!d7aae2aec43d138a",
   "name": "Skimmer",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/charms/skimmer.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "8000 gp, five-pound physical hovering disc"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> moderate Telekinesis; <strong>CL</strong> 11th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 8,000 gp; <strong>Weight</strong> 5 lbs.</p>\n<p><strong>Description</strong><br>\nThis oval disc is just large enough for a Medium-sized creature to stand on comfortably, and hovers above the ground when its command word is spoken. While standing on a skimmer you can move at your normal land speed, but may hover up to 5 feet above the ground. You ignore difficult terrain and can also move over liquid surfaces as if they were solid while hovering. In addition, you may attempt a DC 20 Acrobatics check when you move with a skimmer to improve your move speed by 10 feet. Failure by five or more means you fall off the skimmer and are prone. A skimmer can only support a Medium-sized load or smaller - it will not hover when loaded heavier.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Telekinesis sphere; <strong>Cost</strong> 4,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc42\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 8000 gp, five-pound physical hovering disc.</p><p>One oval physical disc, large enough for a Medium creature, five pounds. Hover, boarding, ground height, terrain, liquid traversal and size load are conditional/manual. No permanent land/fly speed modifier, fly speed, manufactured mount, pounds-based storage, passenger inventory, automatic prone condition or free spell-point pool.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 11,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Telekinesis"
     },
     "hp": {},
     "broken": false,
@@ -84,13 +86,50 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "583de6d93cc87b00",
+        "name": "Activate Skimmer Hover",
+        "activation": {
+          "type": "special",
+          "unchained": {
+            "type": "special"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Speak the command word and stand on the actual skimmer. Move at normal land speed, hovering up to five feet above ground, ignoring difficult terrain and treating liquid surfaces as solid while hovering. Maximum supported load is Medium-sized; this is not a pound capacity or unrestricted flight."
+          ]
+        }
+      },
+      {
+        "_id": "6996d35f55c3247a",
+        "name": "Attempt Faster Skimmer Movement",
+        "activation": {
+          "type": "special",
+          "unchained": {
+            "type": "special"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "As part of actual skimmer movement, attempt DC 20 Acrobatics to improve speed by ten feet. Failure by five or more (result 15 or less) means falling off and becoming prone. Resolve the actual check, movement and consequences manually; this reminder adds no action beyond the movement."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

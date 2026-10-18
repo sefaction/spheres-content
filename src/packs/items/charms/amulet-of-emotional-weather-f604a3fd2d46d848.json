@@ -3,7 +3,7 @@
   "_key": "!items!f604a3fd2d46d848",
   "name": "Amulet of Emotional Weather",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/charms/amulet-of-emotional-weather.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "45000 gp cursed diamond amulet"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> moderate Weather; <strong>CL</strong> 10th<br>\n<strong>Slot</strong> neck; <strong>Price</strong> 45,000 gp; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThe amulet of emotional weather is a beautiful piece crafted from clear diamonds of multiple sizes. However, depending on the wearer’s mood, they can change the color to blue (sad), red (angry), green (happy), or yellow (scared). The amulet of emotional weather is considered a cursed item, and cannot be taken off except with the aid of magic such as the Break Enchantment talent from the Life sphere.</p>\n<p>The emotional state of the wearer of an amulet of emotional weather becomes reflected in the weather around them. This is considered a casting of control weather with a caster level of 10; the weather within 200 feet of the wearer will change at a rate of 1 severity level per round as normal, until it reaches severity level 5 in the determined category.</p>\n<p>If the wearer feels particularly sad, the weather around them becomes Precipitation severity 5. If they feel particularly angry, the weather becomes Heat severity level 5. If they feel particularly happy, the weather becomes Wind severity 5, and if they feel particularly scared, the weather becomes Cold severity 5.</p>\n<p>The exact nature of what constitutes a strong emotion is determined by both the player and the GM; if the player says a particular situation would make his character feel happy this would trigger the amulet, and if the GM notes that the character is behaving particularly sad, they might note the amulet has activated. Other situations, such as magic or conditions that alter emotions, would also trigger the amulet; if the character is subject to an effect that renders them shaken, frightened, or panicked, this counts as being scared, while being under a mind-altering effect that grants a morale bonus would count as being happy. Spells such as overwhelming grief would count as being sad, while the rage class feature or the eliciter’s touch of rage power would count as being angry.</p>\n<p>A character can create an emotional state inside themselves to fool the amulet by attempting a DC 20 Perform (act) check as a move action. In all other cases, the GM is the final arbiter of what constitutes feeling a respective emotion when such things are in dispute.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Weather sphere (Severe Weather); <strong>Cost</strong> 22,500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc4\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 45000 gp cursed diamond amulet.</p><p>Native cursed flag records the published curse. Removal requires appropriate magic; the source restriction remains manual. Strong emotions trigger CL 10 control weather in 200 feet, one severity level per round toward severity five: sadness precipitation, anger heat, happiness wind, fear cold. Player/GM adjudicate actual emotions and the source conditions. No weather/scene/token changes, chosen emotion, daily-use pool or extra spell-point payment is fabricated.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -62,11 +64,11 @@
       "price": 0,
       "name": ""
     },
-    "cursed": false,
-    "cl": 0,
+    "cursed": true,
+    "cl": 10,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Weather"
     },
     "hp": {},
     "broken": false,
@@ -84,13 +86,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "db0531bce634d9e6",
+        "name": "Feign Strong Emotion",
+        "activation": {
+          "type": "move",
+          "unchained": {
+            "type": "action",
+            "cost": 1
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Attempt DC 20 Perform (act) to create an emotional state inside yourself to fool the amulet. Resolve the actual check manually; this is not an automatic success or a direct weather selector."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

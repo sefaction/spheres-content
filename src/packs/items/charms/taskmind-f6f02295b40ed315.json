@@ -3,7 +3,7 @@
   "_key": "!items!f6f02295b40ed315",
   "name": "Taskmind",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/headband-of-psionic-reach.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "implemented",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "16000 gp, head structure requiring Divided Mind"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> moderate Telekinesis; <strong>CL</strong> 11th<br>\n<strong>Slot</strong> headband; <strong>Price</strong> 16,000 gp; <strong>Weight</strong> -</p>\n<p><strong>Description</strong><br>\nA taskmind can take many different forms, but generally provides a structure seated around the head that amplifies mental powers and allows the wearer to multitask more effectively. A wearer with the Divided Mind talent gains a +4 bonus to caster level when determining the number of items she can lift at once and the combined size she can simultaneously lift (though this does not increase the maximum sized object you can lift: a taskmind might allow you to lift two Medium objects, but not one Large object).</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Telekinesis sphere (Divided Mind); <strong>Cost</strong> 8,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc47\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 16000 gp, head structure requiring Divided Mind.</p><p>One negligible-weight structure seated around the head, using the published headband slot. Requires the actual Divided Mind talent, which is not granted. Determine number/combined size with its restricted +4 CL manually; no maximum-single-object increase, lifting weight bonus, Intelligence enhancement, spell-point pool, general CL or range increase.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 11,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Telekinesis"
     },
     "hp": {},
     "broken": false,
@@ -83,14 +85,19 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
+    "contextNotes": [
+      {
+        "target": "cl",
+        "text": "If you already possess Divided Mind: +4 CL only to how many objects and their combined size you can lift simultaneously. This never raises the maximum size of one object or general caster level."
+      }
+    ],
     "actions": [],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

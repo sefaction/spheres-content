@@ -3,7 +3,7 @@
   "_key": "!items!63e93c136f4f492e",
   "name": "Alabaster Gloves",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/charms/alabaster-gloves.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "implemented",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "40000 gp, complete white-and-gold pair"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> strong Life; <strong>CL</strong> 12th<br>\n<strong>Slot</strong> hands; <strong>Price</strong> 40,000 gp; <strong>Weight</strong> —</p>\n<p><strong>Description</strong><br>\nThese white gloves channel and focus positive energy along strands of gold weaved into them. Whenever the wearer use a sphere ability or supernatural ability that manipulates positive energy and either heals hit points or does damage, the amount of hit points or damage is increased by +10.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Life sphere; <strong>Cost</strong> 20,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc3\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 40000 gp, complete white-and-gold pair.</p><p>Quantity one is one complete pair of white gloves with woven gold strands, with negligible published weight. The +10 applies only to qualifying positive-energy sphere or supernatural healing/damage effects. No ordinary weapon bonus, negative-energy benefit, Heal skill bonus, spell-point pool or generic healing action is imported.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 12,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Life"
     },
     "hp": {},
     "broken": false,
@@ -83,14 +85,19 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
+    "contextNotes": [
+      {
+        "target": "spellEffect",
+        "text": "Only a sphere or supernatural ability that manipulates positive energy and heals hit points or deals damage: increase that effect by +10, resolved on the actual qualifying effect. No general damage/healing modifier."
+      }
+    ],
     "actions": [],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

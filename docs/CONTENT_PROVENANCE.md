@@ -324,3 +324,21 @@ references and three uses of the previously generated cloth headband import no
 new third-party image bytes or unrelated item mechanics. The first group leaves
 eighty images pending in the frozen third hundred; mechanics/acceptance remain
 distinct. Akashic content is not selected.
+
+## Second third-batch charm group (2026-10-17)
+
+Twenty additional Ultimate charms retain the approved OGL snapshot and complete
+source bodies. Full exact/alternate/component searches inspected 32 complete
+records, eleven additional parent/component records, the existing original cloth
+headband and the Keen component. Selected UUIDs, package versions and record
+hashes remain review evidence; no unrelated donor mechanics or artwork bytes
+are copied. Final illustrations were inspected at both 64 and 128 pixels.
+
+Eleven built-in image-generation illustrations are compact 256 px WebPs totaling
+74,808 bytes, largest 10,402 bytes. Prompts, source/output hashes and encoding
+details are registered in config/content.json; original PNGs remain ignored.
+Eight existing core/system image references and one previously generated original
+headband require no new third-party image copies. Reviewed native empty equipment,
+activation, charge and note interfaces retain existing OGL/GPL data notices;
+no upstream program code is copied. Issues #31/#37/#41/#42 track the remaining
+source/aura/price and native-interface questions. Sixty third-batch images remain.

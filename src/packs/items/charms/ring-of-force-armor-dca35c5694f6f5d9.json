@@ -3,7 +3,7 @@
   "_key": "!items!dca35c5694f6f5d9",
   "name": "Ring of Force Armor",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/finger/ring-shield-silver.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "6400 gp, two four-hour attempts per day"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Protection; <strong>CL</strong> 4th<br>\n<strong>Slot</strong> ring; <strong>Price</strong> 6,400 gp; <strong>Weight</strong> -</p>\n<p><strong>Description</strong><br>\nTwice per day, this ring may be activated to create a suit of armor made of force on the wearer. The suit remains for 4 hours per activation. The wearer must, as part of the activation of the ring, attempt a Craft (armor) check, DC 10 + AC bonus of the armor (maximum +9). Armor created with this ring functions as standard armor (possessing the same armor check penalty and maximum Dexterity bonus) except that its AC bonus also applies against attacks made by incorporeal creatures. Failing the skill check results in the daily usage being wasted with no effect.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Marvelous Item, Protection sphere; <strong>Cost</strong> 3,200 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc37\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 6400 gp, two four-hour attempts per day.</p><p>One physical ring, not a complete permanent armor suit or force shield. Each attempt spends one of two daily uses even if Craft fails. No armor or stones are bundled, no automatic +9 AC, no fabricated ACP/max-Dex values or permanent deflection/shield bonus. The full source restriction and four-hour duration remain visible.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 4,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Protection"
     },
     "hp": {},
     "broken": false,
@@ -84,14 +86,37 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "92c429113256960f",
+        "name": "Attempt Force Armor Creation",
+        "activation": {
+          "type": "special",
+          "unchained": {
+            "type": "special"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "As part of activation, attempt the actual Craft (armor) check at DC 10 + selected armor AC bonus, maximum armor bonus +9. Failure wastes this use with no effect. Success creates the actual chosen standard armor for four hours, retaining its armor check penalty and maximum Dexterity bonus; its armor bonus also applies against incorporeal attacks. Resolve armor selection/equipment manually."
+          ]
+        },
+        "duration": {
+          "value": "4",
+          "units": "hour"
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 2,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "2",
       "rechargeFormula": ""
     },
     "links": {

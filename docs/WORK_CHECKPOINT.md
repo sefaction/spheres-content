@@ -2,6 +2,42 @@
 
 Updated: 2026-10-17 (work began 2026-09-19 local time).
 
+## Active work: second twenty-charms group in batch 3
+
+- Branch codex/physical-items-batch-3-charms-2 starts at main fba9a28.
+  All twelve approved PRs are merged; final main Windows/Ubuntu CI passed.
+  GitHub confirms no open PRs before this new group. Future PRs need new approval.
+- Issue #36 remains active. Twenty further charms now have reviewed profiles,
+  preserving complete source bodies and stable identities. Forty third-batch
+  images are reviewed, sixty remain. No Akashic work is selected.
+- Fourteen helpers, eleven notes and four resource counters implement bounded
+  reminders. Three daily pools and Remnant's manually restored rolling-24-hour
+  charge remain distinct. No blanket actor modifiers or external free resources.
+- Eleven new icons total 74,808 bytes; eight core/system references and one
+  existing original headband are selected. All final icons viewed at 64/128 px.
+  Full candidate records and image/source hashes precede authoring.
+- Talisman purchase price corrected to 30,000 gp under #37. SR source comparison
+  deferred under #41; Forger bonus beneficiary explicitly ambiguous under #42.
+  Two further aura contradictions are recorded under #31. Crafted selections,
+  attunement, healing copies, temporary armor and target effects stay manual.
+- Draft PR #43 is open on main and attached to this chat; it requires its own
+  merge approval. Implementation/deployed commit b0a7e518ac4da68a16c9f0470de087a81aa98a6d.
+  Clean full gate: 105 tests, 6,788 round trips, two identical 797-file ZIPs.
+  ZIP SHA-256 2b1d6bb5007703db5173b727f69def52f64e4d34c4d84f1aad8db6cff36ed0b1.
+- Guarded preview/deployment/byte checks passed; ten backups retained, one oldest
+  authorized copy rotated, no restart. Eight native transfers passed. All four
+  counters spent correctly, with actual effects, attunement and reset timing manual.
+  Fox external-cost reminder, talisman price/SR note, cursed flag and Forger
+  ambiguity checked in native sheets/cards. See TESTING.md for exact scope.
+- Browser zero errors/82 framework deprecation warnings; server 160 informational
+  records, no warnings/errors or daily error file. Returned to Setup. Final full
+  installed semantic audit passed in 75.21 seconds for all 6,788 records, image
+  hashes and receipt bytes against immutable b0a7e51, unchanged remote snapshots,
+  local copies only, no active game at /auth. No process remains running.
+- Windows/Ubuntu PR checks are running. Next: confirm final documentation CI;
+  leave #43 unmerged pending individual approval, then continue the sixty
+  remaining images in the frozen third hundred. No public release authorization.
+
 ## Approved PR integration and cumulative acceptance
 
 - The user explicitly approved all ready PRs to merge. At approval, the stack

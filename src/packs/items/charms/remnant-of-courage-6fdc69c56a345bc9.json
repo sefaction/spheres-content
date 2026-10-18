@@ -3,7 +3,7 @@
   "_key": "!items!6fdc69c56a345bc9",
   "name": "Remnant of Courage",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/charms/remnant-of-courage.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "2250 gp, associated rally not selected; one use per rolling 24 hours"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint War; <strong>CL</strong> 10th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 2,250 gp; <strong>Weight</strong> 0.1 lbs.</p>\n<p><strong>Description</strong><br>\nEach remnant is a small piece of metal or fabric fastened to the neck, shirt or wrist. Each has its own history, and many pieces are debris from the armor and uniforms of fallen heroes. Each remnant has an associated rally, which the wearer can use on an ally within 30 feet, but not on their self. A single user can not activate more than one remnant in a single 24 hour period, and each remnant can only be used once per 24 hour period.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, War sphere; <strong>Cost</strong> 1,125 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc35\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 2250 gp, associated rally not selected; one use per rolling 24 hours.</p><p>One small metal/fabric keepsake weighs 0.1 lb. A single non-daily charge records this remnant's rolling twenty-four-hour limit; the per-user limit across all remnants is manual. No invented rally, self-targeting, daily reset, free casting points or global morale bonus. Source faint aura at CL 10 conflicts with native moderate; #31.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 10,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "War"
     },
     "hp": {},
     "broken": false,
@@ -84,14 +86,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "13f0da6ba708ee53",
+        "name": "Use Associated Rally on Ally",
+        "activation": {
+          "type": "special",
+          "unchained": {
+            "type": "special"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Choose the remnant's actual associated rally before use. Target an ally within thirty feet, never yourself. Each remnant can be used once per twenty-four hours; the same user cannot activate any other remnant during that period. Manually restore this single charge only after its actual twenty-four-hour interval; no dawn/rest reset."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 1,
+      "per": "charges",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "1",
       "rechargeFormula": ""
     },
     "links": {

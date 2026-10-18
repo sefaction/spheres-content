@@ -3,7 +3,7 @@
   "_key": "!items!5798f69355ebfadf",
   "name": "Divine Symbol",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/neck/amulet-carved-stone-cross.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "500 gp, crafted deity/domains/bonus type not selected"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Fate; <strong>CL</strong> 1st<br>\n<strong>Slot</strong> none; <strong>Price</strong> 500 gp; <strong>Weight</strong> -</p>\n<p><strong>Description</strong><br>\nA divine symbol is a holy symbol that is especially attuned to 4-5 domains of a particular deity. To activate the divine symbol, the user must possess two or more of the attuned domains and expend a use of channel energy. Activating the divine focus will grant a +1 profane or sacred bonus to caster level to the spheres matching the attuned domains for 1 hour. Deities that channel positive energy grant sacred bonuses, while those that channel negative energy grant profane bonuses. Deities that can channel both or either types of energy have their divine symbol’s bonus type chosen when it is created. A creature cannot benefit from multiple divine symbols at once, even if they grant different bonus types.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, channel energy class feature; <strong>Cost</strong> 250 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc16\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 500 gp, crafted deity/domains/bonus type not selected.</p><p>One magical holy symbol, not a bundled set. The actual deity and four-to-five domains remain unselected. Sacred versus profane follows the deity or its permanent creation choice, not a choice on every activation. Resolve the external channel cost, qualifying spheres and one-symbol limit manually. Timing is unspecified (Special); no free channel pool, universal CL bonus, religion or permanent class grant.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 1,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Fate"
     },
     "hp": {},
     "broken": false,
@@ -84,13 +86,36 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "d57ae53d11bc7ec9",
+        "name": "Invoke Attuned Divine Symbol",
+        "activation": {
+          "type": "special",
+          "unchained": {
+            "type": "special"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Requires at least two of this symbol's four or five crafted attuned domains. Manually expend one actual channel-energy use. Apply +1 sacred or profane CL only to spheres matching those domains for one hour. Deity, domains and any crafted bonus-type choice remain unselected. No creature can benefit from multiple divine symbols, even with different bonus types."
+          ]
+        },
+        "duration": {
+          "value": "1",
+          "units": "hour"
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

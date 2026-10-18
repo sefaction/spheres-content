@@ -3,7 +3,7 @@
   "_key": "!items!cbc2edea4e9c47ae",
   "name": "Vest of Shape Stabilization",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/charms/vest-of-shape-stabilization.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "implemented",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "8000 gp, one crafted transformation talent not selected"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> moderate Alteration; <strong>CL</strong> 6th<br>\n<strong>Slot</strong> body; <strong>Price</strong> 8,000 gp; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nEach vest is attuned to one (transformation) talent when created. Any shapeshift effect applying that (transformation) talent to the wearer lasts an additional two rounds without concentration and gains a +2 bonus to MSD vs. dispelling effects.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Alteration sphere (Lingering Transformation), creator must possess the (transformation) talent to be attuned; <strong>Cost</strong> 4,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc50\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 8000 gp, one crafted transformation talent not selected.</p><p>One one-pound vest occupies the published body slot. Its single crafted transformation talent remains unselected. The two-round extension without concentration and +2 dispel MSD apply only to that qualifying wearer/effect. No blanket casting bonus, additional transformations, class feature, new concentration rule, armor statistics or permanent grant.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 6,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Alteration"
     },
     "hp": {},
     "broken": false,
@@ -83,14 +85,19 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
+    "contextNotes": [
+      {
+        "target": "spellEffect",
+        "text": "Only shapeshifts applying this vest's single crafted transformation talent to its wearer: +2 rounds without concentration and +2 MSD against dispelling. Choose that actual talent before applying; no general duration or MSD bonus."
+      }
+    ],
     "actions": [],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

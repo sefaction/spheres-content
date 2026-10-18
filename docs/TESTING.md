@@ -552,3 +552,45 @@ These representative checks, the preceding native acceptance and full installed
 audit support integrating the reviewed partial-content scope. Full lifecycle,
 non-GM and specialized class/target/scene outcomes remain deferred. No verified
 compatibility claim, world migration or public release is included.
+
+## Second third-batch charms acceptance (2026-10-17)
+
+PR #43, implementation b0a7e518ac4da68a16c9f0470de087a81aa98a6d,
+module 0.1.0-alpha.6, Additional Spheres Content Test, Foundry 13.351,
+PF1 11.11 and pf1spheres 0.9.0 with the two declared modules active.
+Clean full gate passed 105 tests, all 6,788 compiler round trips and two
+identical 797-file packages. ZIP SHA-256:
+2b1d6bb5007703db5173b727f69def52f64e4d34c4d84f1aad8db6cff36ed0b1.
+
+Guarded preview, staged module-only deployment and installed-byte verification
+passed. Ten rollback copies retained; one authorized oldest copy rotated.
+No host restart, system change or world migration.
+
+Eight fresh native transfers onto the controlled acceptance actor passed. Use
+helpers spent Clarity 1 -> 0, Force Armor 2 -> 1, Potential Realized 1 -> 0
+and Remnant 1 -> 0. Force Armor's chat card preserves its failed-check cost
+and four-hour limit; this test did not create armor or roll the Craft check.
+Potential Realized preserves manual twenty-four-hour attunement and similar-ring
+exclusion. Remnant retains ordinary charges, no rest reset, an ally-only rally
+and the separate cross-copy user limit. Actual elapsed time and target outcomes
+are not simulated by these counters.
+
+Fox Medallion's helper displays Immediate, its exact end-of-next-round duration
+and manual external mythic-power cost without inventing an internal pool.
+The talisman sheet shows 30,000 gp and its conditional SR source-comparison
+note, with no flat +15 change. The emotional amulet's native cursed flag is
+checked and Identify Curse DC appears. Forger's instructions explicitly retain
+the undefined target beneficiary under #42. Full source bodies and inspected
+artwork remain visible. Screenshot and structured evidence are ignored locally
+at .local/batch3-charms-2-accepted.png and .local/batch3-charms-2-native.json.
+
+Browser capture: zero errors, 82 framework deprecation warnings. Final scoped
+server capture: 160 informational records, no warnings/errors or daily error
+file. Returned to Setup. Complete installed semantic audit passed in 75.21
+seconds against the immutable implementation commit, all 6,788 documents,
+receipt bytes and referenced image hashes; remote snapshots stayed unchanged
+and only local database copies were opened. Audit confirmed route /auth.
+
+These checks cover the reviewed native helper scope. Broader lifecycle/non-GM,
+specialized casting, scene/target effects and source questions remain deferred.
+No verified compatibility claim, automatic world-copy update or public release.

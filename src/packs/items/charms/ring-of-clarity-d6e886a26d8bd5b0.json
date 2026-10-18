@@ -3,7 +3,7 @@
   "_key": "!items!d6e886a26d8bd5b0",
   "name": "Ring of Clarity",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/charms/ring-of-clarity.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "implemented",
+        "usage": "implemented",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "2500 gp, one concentration take-ten use per day"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Mind; <strong>CL</strong> 5th<br>\n<strong>Slot</strong> ring; <strong>Price</strong> 2,500 gp; <strong>Weight</strong> -</p>\n<p><strong>Description</strong><br>\nThis crystal ring is actually somewhat difficult to see. A DC 20 Perception check is required to notice it on someone’s finger. Once per day, it allows the wearer to take 10 on a concentration check, even if they are threatened. When used, the ring turns opaque grey-pink until it is ready to be used again.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm; <strong>Cost</strong> 1,250 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc36\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 2500 gp, one concentration take-ten use per day.</p><p>One nearly transparent crystal ring. Its one-use daily helper records the exceptional take-ten use; actual concentration resolution and visual state are manual. Unspecified activation timing stays Special. No concentration modifier, immunity to mind magic, nourishment, altered resting or permanent ability is borrowed from conventional rings.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Mind"
     },
     "hp": {},
     "broken": false,
@@ -83,15 +85,39 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
-    "actions": [],
+    "contextNotes": [
+      {
+        "target": "concentration",
+        "text": "Once per day, spend this ring's use to take 10 on this concentration check even while threatened. This note does not spend the use or add a numerical bonus."
+      }
+    ],
+    "actions": [
+      {
+        "_id": "b493bf4a4c3f55e8",
+        "name": "Take 10 on Concentration",
+        "activation": {
+          "type": "special",
+          "unchained": {
+            "type": "special"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Take 10 on one actual concentration check even while threatened, once per day. Resolve that check with its real concentration modifiers. The clear crystal ring turns opaque grey-pink until ready again; DC 20 Perception notices it on a finger. No invisibility or permanent take-ten permission."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 1,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "1",
       "rechargeFormula": ""
     },
     "links": {
