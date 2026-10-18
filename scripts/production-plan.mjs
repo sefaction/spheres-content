@@ -8,9 +8,9 @@ const completedStates = new Set([
   "not-applicable",
 ]);
 
-async function productionReuseReport() {
+async function productionReuseReport(entities) {
   try {
-    return await physicalReviewReport();
+    return await physicalReviewReport({ entities });
   } catch (error) {
     if (
       error?.code !== "ENOENT" ||
@@ -35,7 +35,7 @@ async function productionReuseReport() {
 
 export function classifyProductionEntry(entity, reuse) {
   const text = entity.descriptionText ?? "";
-  const category = entity.category ?? "";
+  const category = (entity.category ?? "").replaceAll("-", " ").trim();
   const signals = Object.values(entity.audit ?? {}).flatMap(
     (facet) => facet?.signals ?? [],
   );
@@ -45,11 +45,23 @@ export function classifyProductionEntry(entity, reuse) {
   if (/etherstaves?/.test(category.toLowerCase())) lane = "etherstaff-profile";
   else if (/power components?/i.test(category) || /power component/i.test(text))
     lane = "power-component-profile";
-  else if (/^rings?$/i.test(category)) lane = "ring-profile";
+  else if (/^rings?(?: slot)?$/i.test(category)) lane = "ring-profile";
   else if (/^potions?$/i.test(category)) lane = "consumable-profile";
   else if (reuse?.candidates?.length) lane = "reuse-decision";
   else if (/buildings?/.test(category.toLowerCase()))
     lane = "structure-profile";
+  else if (/weapons?/i.test(category)) lane = "weapon-profile";
+  else if (/armor (?:qualities|properties)/i.test(category))
+    lane = "armor-property-review";
+  else if (
+    /^(?:body|wrists|hands|head|chest|neck|shoulders|feet|belt) slot$/i.test(
+      category,
+    )
+  )
+    lane = "wearable-profile";
+  else if (/containers?|kits?/i.test(category)) lane = "container-review";
+  else if (/wondrous items?/i.test(category) || /^slotless$/i.test(category))
+    lane = "wondrous-item-review";
 
   const hardSignals = [
     /container/,
@@ -72,10 +84,56 @@ export function classifyProductionEntry(entity, reuse) {
   return { lane, complexity };
 }
 
+// Categories are scheduling hints, never permission to assign a native type or mechanics.
+const lanePriority = new Map([
+  ["reuse-decision", 0],
+  ...[
+    "etherstaff-profile",
+    "power-component-profile",
+    "ring-profile",
+    "consumable-profile",
+    "structure-profile",
+  ].map((lane) => [lane, 1]),
+  ...["weapon-profile", "wearable-profile"].map((lane) => [lane, 2]),
+  ...["container-review", "wondrous-item-review", "armor-property-review"].map(
+    (lane) => [lane, 3],
+  ),
+]);
+
+export function selectProductionEntries(
+  entries,
+  { limit = 20, offset = 0, order = "grouped" } = {},
+) {
+  assert(Number.isInteger(limit) && limit > 0, "Invalid production-plan limit");
+  assert(
+    Number.isInteger(offset) && offset >= 0,
+    "Invalid production-plan offset",
+  );
+  assert(
+    ["grouped", "manifest"].includes(order),
+    "Unknown production-plan order",
+  );
+  const counts = new Map();
+  for (const entry of entries)
+    counts.set(entry.lane, (counts.get(entry.lane) ?? 0) + 1);
+  const ordered =
+    order === "manifest"
+      ? entries
+      : entries.toSorted(
+          (a, b) =>
+            (lanePriority.get(a.lane) ?? 4) - (lanePriority.get(b.lane) ?? 4) ||
+            counts.get(b.lane) - counts.get(a.lane) ||
+            a.lane.localeCompare(b.lane, "en") ||
+            a.sourceKey.localeCompare(b.sourceKey, "en"),
+        );
+  return ordered.slice(offset, offset + limit);
+}
+
 export async function createProductionPlan({
   batchId = "physical-items-batch-1",
   limit = 20,
   offset = 0,
+  order = "grouped",
 } = {}) {
   assert(Number.isInteger(limit) && limit > 0, "Invalid production-plan limit");
   assert(
@@ -99,7 +157,7 @@ export async function createProductionPlan({
   const reviews = JSON.parse(
     await readFile("config/audit-reviews.json", "utf8"),
   );
-  const reuse = await productionReuseReport();
+  const reuse = await productionReuseReport(entities);
   const reuseBySourceKey = new Map(
     reuse.entries.map((entry) => [entry.sourceKey, entry]),
   );
@@ -109,8 +167,8 @@ export async function createProductionPlan({
       entry.status === "pending" &&
       !completedStates.has(reviews[entry.sourceKey]?.image?.state),
   );
-  const selected = await Promise.all(
-    pending.slice(offset, offset + limit).map(async (entry) => {
+  const queue = await Promise.all(
+    pending.map(async (entry) => {
       const entity = bySourceKey.get(entry.sourceKey);
       assert(entity, `Missing intake entity: ${entry.sourceKey}`);
       const document = JSON.parse(await readFile(entry.file, "utf8"));
@@ -143,6 +201,7 @@ export async function createProductionPlan({
     }),
   );
 
+  const selected = selectProductionEntries(queue, { limit, offset, order });
   const lanes = Object.groupBy(selected, (entry) => entry.lane);
   return {
     schemaVersion: 1,
@@ -150,6 +209,12 @@ export async function createProductionPlan({
     issue: batch.issue,
     pending: pending.length,
     offset,
+    order,
+    queueLanes: Object.fromEntries(
+      Object.entries(Object.groupBy(queue, (entry) => entry.lane)).map(
+        ([lane, entries]) => [lane, entries.length],
+      ),
+    ),
     requested: limit,
     selected: selected.length,
     acceptanceBoundary:
@@ -174,7 +239,7 @@ if (process.argv[1]?.endsWith("production-plan.mjs")) {
   );
   assert(
     Object.keys(args).every((key) =>
-      ["batch", "limit", "offset"].includes(key),
+      ["batch", "limit", "offset", "order"].includes(key),
     ),
     "Unknown production-plan option",
   );
@@ -182,6 +247,7 @@ if (process.argv[1]?.endsWith("production-plan.mjs")) {
     batchId: args.batch,
     limit: args.limit === undefined ? undefined : Number(args.limit),
     offset: args.offset === undefined ? undefined : Number(args.offset),
+    order: args.order,
   });
   console.log(JSON.stringify(plan, null, 2));
 }

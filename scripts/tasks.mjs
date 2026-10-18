@@ -38,15 +38,15 @@ async function contentCheck() {
   return validateContentCatalog();
 }
 
-async function referenceCheck() {
-  await contentCheck();
+async function referenceCheck(validated) {
+  validated ??= await contentCheck();
+  assert(validated.docs, "Missing validated catalog");
   console.log(
     "Registered identities, source notices, description links and image hashes passed.",
   );
 }
 
-async function buildPacks() {
-  const { docs } = await contentCheck();
+async function buildPacks({ docs }) {
   const { manifest } = await load();
   for (const pack of manifest.packs) {
     safeRelative(pack.name);
@@ -93,8 +93,8 @@ async function buildPacks() {
 
 async function build() {
   await manifestCheck();
-  await contentCheck();
-  await referenceCheck();
+  const validated = await contentCheck();
+  await referenceCheck(validated);
   await cleanOutput("dist");
   await cleanOutput(".build");
   await mkdir("dist");
@@ -138,7 +138,7 @@ async function build() {
       await copyFile(asset.path, target);
     }
   }
-  await buildPacks();
+  await buildPacks(validated);
   const expected = {};
   for (const file of await files("dist")) {
     const name = path.relative("dist", file).split(path.sep).join("/");
