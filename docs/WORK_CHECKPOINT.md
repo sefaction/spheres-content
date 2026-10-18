@@ -2,6 +2,30 @@
 
 Updated: 2026-10-17 (work began 2026-09-19 local time).
 
+## Approved PR integration in progress
+
+- The user explicitly approved all ready PRs to merge. At approval, the stack
+  comprises #16, #19, #21, #23, #25, #28, #29, #30, #33, #34, #35 and #39.
+  Both CI platforms pass on every original head. #16 and #19 are now merged
+  into main, preserving history; #21 is retargeted to main. Other merges await
+  the cumulative pre-merge acceptance correction below. No release approval.
+- Earlier pending remote notes are being reconciled against the exact cumulative
+  installed build and native checks. Five further real transfers passed. Dashing
+  Cloak's move helper spent two charges (5 -> 3), Null Bindi consumed quantity
+  (1 -> 0), Trash Bag showed five one-pound contents and 5 lb total, and the +2
+  buckler raised normal/flat-footed AC 14 -> 17 without changing touch/CMD.
+- Native testing found issue #40: four firearm spell-power/follow-up helpers
+  inherit the parent ammunition type when left blank. PF1 11.11 action preparation
+  explicitly supports `ammo.type: "none"` to opt out. Four canonical helpers now
+  select it, preserving ordinary bullet attacks, costs, IDs, full rules and all
+  other fields. Action identity hashes and a focused regression are updated.
+  Correction remains on #39's branch for cumulative validation before completing
+  the approved stack. Return to Setup requested; reconcile browser before deploy.
+- Next: clean full gate, deploy/reimport corrected firearm, prove a no-ammo power
+  spends its daily use and ordinary attacks still require ammo, return to Setup
+  and audit. Then finish approved merges and verify final main. Akashic stays
+  deferred; no release, tag, compatibility change or world migration.
+
 ## Current review group: third-batch charms
 
 - Branch `codex/physical-items-batch-3-charms`, based on #35 head `c5caa27`.
