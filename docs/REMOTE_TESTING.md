@@ -36,6 +36,13 @@ it never connects to the share or uses remote credentials.
 5. Run `npm.cmd run smoke:remote`, followed by the Foundry UI acceptance checks. A file deployment alone does not prove Foundry has discovered or enabled the module.
 6. After Foundry has opened the packs, return to Setup and run `npm.cmd run smoke:remote -- --semantic`. This verifies all non-pack bytes against the deployment receipt and all pack documents against canonical sources at the deployed commit. It rejects unexpected database files, copies each database to ignored local audit storage, checks that the source stayed unchanged during the copy/audit, and opens only the local copy. Operational LevelDB metadata may differ; rule text, IDs, fields, and document counts may not. No remote export becomes canonical source.
 
+The semantic audit reads the requested source-pack trees and their exact committed
+blobs in two Git calls, using the deployment receipt's immutable commit rather
+than the current checkout. UTF-8 byte lengths and batch framing are checked;
+unexpected modes/formats, duplicate IDs and truncated objects fail the audit.
+There is no persistent source cache. Each installed pack still receives the same
+complete document comparison and reports its verified document count.
+
 Actual private paths are validated and recorded locally. Console output uses the
 logical target, keeping private server details out of PR logs. No broad sync,
 recursive remote deletion, container management, or world-data write occurs.

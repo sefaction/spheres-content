@@ -359,3 +359,35 @@ acceptance of the preceding content groups remain incomplete. No verified
 compatibility claim or world migration is made. Failed automated file-chooser
 attempts imported nothing; the prepared thirty-item actor fixture was never
 imported. Successful transfers above used actual native compendium dragging.
+
+## Batched committed-source audit reads
+
+Issue #32 replaces 6,788 separate `git show` launches with one selected tree read
+and one byte-framed blob batch. The read-only source trial took 922 ms for the
+35,372,515-byte response. Twenty distributed individual reads matched exactly;
+those twenty took 1,915 ms, giving a roughly 650-second full-source estimate.
+This estimate is distinct from the complete audit's measured runtime.
+
+The existing audit passed in roughly ten minutes before the change. The complete
+optimized audit of the same installed `443947e` build passed in 121.92 seconds,
+including all five packs and 6,788 documents, non-pack receipt bytes, referenced
+images, immutable remote snapshots and local-only LevelDB extraction. The world
+remained in Setup. No content or world migration was involved.
+
+Ten focused Git-source/remote tests passed. Real temporary Git repositories
+exercise immutable older commits despite newer commits and dirty/untracked
+working files, nested Unicode paths, folders, duplicate IDs, unexpected source
+formats and executable file modes. Batch decoding checks byte lengths and rejects
+wrong, missing, truncated and extra objects. Existing remote tests still prove
+the snapshot remains unchanged and document drift is rejected. Full clean gate
+on `eb14e78b71f6fadc37c515d66e59747f7d704174` passed all 86 tests, all 6,788
+compiler round trips and two identical 762-file builds. ZIP SHA-256:
+`ad3f2a27900c4f3fe2f4031f72ff1dc480a1e8ca4a4ffbda3b62d8c09bd9023f`.
+The guarded preview, staged deployment and installed-byte verification passed.
+One authorized oldest backup was rotated, retaining ten, without restarting.
+This exact branch build's final semantic audit passed in 95.22 seconds for all
+6,788 documents, non-pack receipt bytes and referenced images. Remote snapshots
+stayed unchanged and only local copies were opened. The server remains in Setup.
+Its canonical content
+is unchanged from the preceding runtime-tested build; additional in-game behavior
+checks are not claimed for this tooling-only change.

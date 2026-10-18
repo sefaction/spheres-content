@@ -53,6 +53,11 @@ clean builds, every compiler round trip and byte-identical archives. Standalone
 `validate:content` and `validate:references` read fresh sources. Remote acceptance
 and semantic comparison still apply before delivery of content changes.
 
+The remote semantic audit reads canonical pack sources from the deployed commit
+in two Git calls instead of one process per document. It still checks every
+installed document, receipt byte and referenced asset, with unchanged remote
+snapshots and local-only database opening. This does not cache prior acceptance.
+
 ## Repeatable workflow
 
 ```powershell
