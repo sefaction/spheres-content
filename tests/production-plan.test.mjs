@@ -6,11 +6,15 @@ import {
   selectProductionEntries,
 } from "../scripts/production-plan.mjs";
 
-test("production planner selects one twenty-entry acceptance boundary", async () => {
+test("production planner caps each acceptance boundary at twenty remaining entries", async () => {
   const plan = await createProductionPlan({ limit: 20 });
   assert.equal(plan.batch, "physical-items-batch-1");
-  assert.equal(plan.selected, 20);
-  assert.equal(new Set(plan.entries.map((entry) => entry.sourceKey)).size, 20);
+  const expected = Math.min(20, plan.pending);
+  assert.equal(plan.selected, expected);
+  assert.equal(
+    new Set(plan.entries.map((entry) => entry.sourceKey)).size,
+    expected,
+  );
   assert(plan.entries.every((entry) => entry.needs.image === "needed"));
   assert(
     plan.entries.every((entry) => entry.file.startsWith("src/packs/items/")),
@@ -78,6 +82,10 @@ test("selection groups the full queue before applying limits and offsets", () =>
     queue.slice(0, 2),
   );
   assert.deepEqual(selectProductionEntries([], { limit: 2 }), []);
+  assert.equal(
+    selectProductionEntries(queue, { limit: 20 }).length,
+    queue.length,
+  );
   assert.throws(
     () => selectProductionEntries(queue, { order: "random" }),
     /Unknown.*order/,

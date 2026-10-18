@@ -139,3 +139,36 @@ encoding records in `config/content.json`. Eight core artwork paths are
 referenced after visual review, with provider/version and exact image hashes.
 Other source records consulted for imagery are recorded as artwork-only
 references; their unrelated rules and statistics are not imported.
+
+## Ammunition, containers and Gonzo instrument profiles: 2026-10-17
+
+Physical-item group 3 adapts PF1 11.11 Sling Bullet, Firearm Bullet, Light Mace,
+Pistol, Greatsword and Sack native structures. Exact UUIDs, versions, source
+hashes, selected fields and final output hashes are recorded in
+`config/physical-item-reviews.json`. The Greatsword supplies only the native
+two-handed weapon layout; its damage, critical values, groups, price and weight
+are replaced by the named instrument's published data. The wiki remains the
+source for all named-item rules and physical values.
+
+`research/instrument-profiles.json` records the Rockstar class's instrument table
+from the already approved source snapshot, with page/table hashes, proficiency
+exception and the existing Gonzo OGL notice. Instrument-specific statistics are
+Open Game Content under the existing intake scope. Default exotic proficiency
+is retained; the Rockstar's martial treatment requires the relevant class.
+The existing PF1 OGL and GPL-3.0 record-format notices remain in force; no upstream
+program code or image bytes are packaged.
+
+Twelve generated WebP illustrations total 95,062 bytes. Prompts, original/output
+hashes, image-edit reference hash and encoding details are in
+`config/content.json`. Seven existing image paths cover eight entries, with
+visual review and inspected source records recorded individually. These are
+references only, including artwork selected from unrelated records whose rules
+are not imported. All new icons were inspected at inventory sizes.
+
+Issue [#20](https://github.com/sefaction/spheres-content/issues/20) removes
+publisher navigation from Sparkly's Glittergun using its same approved snapshot,
+without changing rules, construction requirements or identity. Issue
+[#22](https://github.com/sefaction/spheres-content/issues/22) tracks contradictory
+Gonzo slot headers; descriptions are preserved and no publisher errata are
+asserted. Native helpers and resource tracking remain subject to remote PF1
+acceptance; no world migration is included.

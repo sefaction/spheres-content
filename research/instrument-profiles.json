@@ -1,0 +1,70 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "url": "http://spheresofpower.wikidot.com/the-rockstar",
+    "pageSha256": "35d6f9f5bd97cf69b31a1c704572727c15e789e67ed3ea40b5905bbd0aab4262",
+    "tableSha256": "fa3527ee89d7a93645a94776828c31845e07958c50a825b7f0ee3d682750e665",
+    "license": "OGL-1.0a",
+    "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+    "scope": "Instrument statistics within the already approved Rockstar class rules; Gonzo copyright notice retained.",
+    "proficiency": "The rockstar may treat these instruments as martial rather than exotic weapons."
+  },
+  "instruments": {
+    "keytar": {
+      "name": "Keytar",
+      "cost": 25,
+      "small": "1d6",
+      "medium": "1d8",
+      "critRange": 19,
+      "critMult": 2,
+      "weight": 7,
+      "hands": 2,
+      "weaponSubtype": "2h",
+      "damageAlternatives": [["slashing"]],
+      "properties": [],
+      "tags": ["Instrument"]
+    },
+    "guitar": {
+      "name": "Guitar",
+      "cost": 10,
+      "small": "1d6",
+      "medium": "1d8",
+      "critRange": 19,
+      "critMult": 2,
+      "weight": 7,
+      "hands": 2,
+      "weaponSubtype": "2h",
+      "damageAlternatives": [["bludgeoning"], ["slashing"]],
+      "properties": [],
+      "tags": ["Instrument"]
+    },
+    "mic-and-cord": {
+      "name": "Mic & Cord",
+      "cost": 50,
+      "small": "1d4",
+      "medium": "1d6",
+      "critRange": 20,
+      "critMult": 2,
+      "weight": 3,
+      "hands": 2,
+      "weaponSubtype": "2h",
+      "damageAlternatives": [["bludgeoning"]],
+      "properties": ["rch", "trp", "grp"],
+      "tags": ["Instrument"]
+    },
+    "drumsticks-pair": {
+      "name": "Drumstick, pair",
+      "cost": 56,
+      "small": "1d2",
+      "medium": "1d4",
+      "critRange": 19,
+      "critMult": 2,
+      "weight": 1,
+      "quantity": 2,
+      "weaponSubtype": "light",
+      "damageAlternatives": [["piercing"]],
+      "tags": ["Instrument"],
+      "note": "When used as a pair, reduce the dual-wield penalty by 2 to a minimum of 0. The source provides a wearable drum."
+    }
+  }
+}

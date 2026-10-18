@@ -3,7 +3,7 @@
   "_key": "!items!90da9b5f1b1a55dc",
   "name": "Motif Bauble",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/commodities/currency/coin-inset-swirl-gold.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,19 +24,21 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "not-needed",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "motif-bauble",
+      "reviewedVariant": "specific motif not yet selected"
     }
   },
   "system": {
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 15,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "trs"
     },
     "hp": {},
     "broken": false,
@@ -84,14 +86,52 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "fc10c6989fe0cc56",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "type": "swift"
+          }
+        },
+        "name": "Attach Motif Bauble",
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Attach to a transformation trinket, losing access to current motif powers and gaining this bauble’s attuned motif powers and finishing-move bonus. Motif bonus spells cost two spell slots."
+          ]
+        }
+      },
+      {
+        "_id": "40e07426378d6522",
+        "activation": {
+          "type": "full",
+          "unchained": {
+            "type": "action",
+            "cost": 3
+          }
+        },
+        "name": "Destroy Bauble and Permanently Adopt Motif",
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "This full-round action provokes an attack of opportunity. Destroy the bauble and permanently adopt its attuned motif as an original motif."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 1,
+      "per": "single",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "1",
       "rechargeFormula": ""
     },
     "links": {

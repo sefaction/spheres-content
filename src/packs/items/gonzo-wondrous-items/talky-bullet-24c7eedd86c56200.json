@@ -2,8 +2,8 @@
   "_id": "24c7eedd86c56200",
   "_key": "!items!24c7eedd86c56200",
   "name": "“Talky” Bullet",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "loot",
+  "img": "systems/pf1/icons/items/weapons/bullet.png",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,18 +24,30 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "deferred",
+        "changes": "deferred",
+        "contextNotes": "deferred",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-ammunition",
+      "publishedEnhancement": 1,
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.w20dQkQPOe4sTiRT",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "45c1919ce314a0e102db54521128448c62bf43390af22dec7b6e3724a4fc7aeb",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
@@ -43,14 +55,17 @@
     "description": {
       "value": "<p><strong>AURA</strong> faint illusion; <strong>CL</strong> 5th <strong>SLOT</strong> neck; <strong>PRICE</strong> 200 gp; <strong>WEIGHT</strong> -</p>\n<p><strong>DESCRIPTION</strong><br>\nIf this +1 firearm bullet successfully lodges itself in the target it begins to talked excitedly and unendingly in a telepathic fashion from within the target. An afflicted creature can’t think straight with all that jibber-jabber going on inside its head. It must make a concentration check (DC 10 + spell level) to cast spells while a talky bullet is inside them. The constant, annoying, and absurd ranting last for 1 + 1d4 rounds. The player of the character who fired the bullet (or the GM) is encouraged to endlessly yammer on about random facts and “interesting observations” while it is the struck creature’s turn.</p>\n<p><strong>CONSTRUCTION REQUIREMENTS</strong><br>\nCraft Wondrous Item, magic mouth; <strong>COST</strong> 100 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/gonzo-wondrous-items#toc18\">Source: Spheres of Power Wiki</a></p>",
       "instructions": "",
-      "unidentified": ""
+      "unidentified": "<p>The ammunition of most one-handed and two-handed firearms, firearm bullets typically take the form of small balls of lead or some other metal. Thirty bullets weigh half a pound.</p>"
     },
     "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
     "quantity": 1,
     "weight": {
       "value": 0
     },
-    "equipped": true,
+    "equipped": false,
     "carried": true,
     "price": 200,
     "size": "med",
@@ -63,14 +78,23 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "ill"
     },
-    "hp": {},
+    "hp": {
+      "base": 1
+    },
     "broken": false,
-    "hardness": 0,
+    "hardness": 5,
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
     "changes": [],
     "changeFlags": {
       "immuneToMorale": false,
@@ -84,16 +108,6 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
-    "attackNotes": [],
-    "effectNotes": [],
-    "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
-      "rechargeFormula": ""
-    },
     "links": {
       "children": [],
       "charges": []
@@ -104,41 +118,15 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
-    "proficient": false,
-    "held": "1h",
-    "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
-    },
-    "subType": "wondrous",
-    "slot": "neck",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
-    },
-    "spellFailure": 0,
-    "showInQuickbar": false,
+    "subType": "ammo",
+    "extraType": "gunBullet",
+    "abundant": false,
+    "recoverChance": 0,
     "sources": [
+      {
+        "id": "PZO1123",
+        "pages": "41"
+      },
       {
         "title": "Spheres of Power Wiki",
         "url": "http://spheresofpower.wikidot.com/gonzo-wondrous-items#toc18"

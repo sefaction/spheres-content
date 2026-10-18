@@ -526,9 +526,14 @@
           "name": "Sparkly's Glittergun",
           "type": "equipment",
           "file": "src/packs/items/ethermagic-items/sparklys-glittergun-0829eb6deb2c2561.json",
-          "descriptionSha256": "917d8d17127a151eff8e7d37901c511064329c27e7e9b8bcb177bf6780356aed",
+          "descriptionSha256": "83c194a44ccd4bb5bdfddd5b4c14780b867d3e39f1fd2f27d7997395196cafc8",
           "initialImageState": "needed",
-          "status": "pending"
+          "status": "pending",
+          "sourceBoundaryCorrection": {
+            "issue": "https://github.com/sefaction/spheres-content/issues/20",
+            "previousDescriptionSha256": "917d8d17127a151eff8e7d37901c511064329c27e7e9b8bcb177bf6780356aed",
+            "reason": "Exclude trailing publisher navigation after complete construction requirements; source page, item ID and source key are unchanged."
+          }
         },
         {
           "sourceKey": "wiki:gonzo-wondrous-items:current:item:book-of-lewd-desires",

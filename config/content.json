@@ -74,7 +74,7 @@
       "licensePath": "LICENSES/OGL-1.0a-PF1-Content.txt",
       "licenseSha256": "10bcdc68296b48cc250f38e49de09c9a73645163d7ac7f76e77346a755c35cdc",
       "evidenceUrl": "https://foundryvtt.com/packages/pf1",
-      "scope": "PF1 11.11 Longsword, Trail Rations, Blunderbuss, Pistol and Musket native profiles adapted in config/physical-item-reviews.json; rules and native record data only, not upstream artwork or program code. Ultimate Combat attribution is retained in the existing PF1 OGL notice.",
+      "scope": "Reviewed PF1 11.11 Longsword, Trail Rations, Blunderbuss, Pistol, Musket, Sling Bullet, Firearm Bullet, Light Mace, Greatsword and Sack native data adapted in config/physical-item-reviews.json. Instrument-specific statistics come from the approved Rockstar class table recorded in research/instrument-profiles.json. No upstream artwork bytes or program code copied.",
       "review": "Selected weapon and food rules are Open Game Content. Retain PF1 OGL notices and GPL-3.0 for upstream record-format contributions. Referenced PF1 images were visually inspected and remain system dependencies; no image bytes are redistributed."
     }
   ],
@@ -1240,6 +1240,259 @@
         "bytes": 5476
       },
       "prompt": "Use case: stylized-concept. Asset type: square Pathfinder Foundry inventory icon readable at 64px. One plain black fingerless leather glove with a single narrow luminous white line along its lower edge, palm and all exposed finger openings clearly visible, a small restrained white kinetic-energy glow. Centered isolated object, dark neutral painterly vignette, stylized painted fantasy equipment, strong clean silhouette, no person, no hand wearing it, no writing, no symbols, no watermark, no frame. The glove is the sole subject, no extra props."
+    },
+    {
+      "path": "static/icons/items/ethermagic/sparklys-glittergun.webp",
+      "sha256": "7af8ee1ab3c2b458bd36dd755b90b11d27f7b9b66ddc25b363de2d3603a832e2",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "38ada86cb469d2c0bd3285aa6d870ad393013606db1ed6ab68db294cd64d8a7e",
+        "sourceBytes": 2065101,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 8498
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder Foundry inventory icon readable at 64px. A small fantasy flintlock PISTOL made of HARDENED GOLD, studded with tiny colorful crystals and gems, extravagantly sweet and sparkling, a restrained pink-and-gold magical glitter wisp. One empty weapon only. Centered isolated fantasy equipment, dark neutral painterly vignette, strong clean silhouette, polished painted materials, sparse detail, restrained rim light. No writing, labels, watermark, border, frame, UI or extra objects."
+    },
+    {
+      "path": "static/icons/items/kineticist-items/blasters-bearing.webp",
+      "sha256": "0bef94a4f2e747a201d05ff90114f01e131a4bfd6bc6b80e412db68c466e1c1b",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "d9ff485677b2f62a8a5e03586df2ed69115c3b90eb8afec44ce0714b8e2a8c4d",
+        "sourceBytes": 2135189,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 8186
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder Foundry inventory icon readable at 64px. One small rough STEEL SPHERE with many tiny perforations revealing a faint turquoise conductive crystal core inside. A magical sling bullet, not a cartridge, centered alone, no explosion. Centered isolated fantasy equipment, dark neutral painterly vignette, strong clean silhouette, polished painted materials, sparse detail, restrained rim light. No writing, labels, watermark, border, frame, UI or extra objects."
+    },
+    {
+      "path": "static/icons/items/gonzo-items/cans-of-talking.webp",
+      "sha256": "25a47380dd8ce173af71bdec31806e44a17aea07896abf652d05a781fd61ccaa",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "f3f491faa19fd44aca960191b00aa3fe48bf53e54f0b12fd1845a3d56bc54c7c",
+        "sourceBytes": 1945711,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 5992
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder Foundry inventory icon readable at 64px. Exactly TWO simple empty SILVERY TIN CANS linked by one faint intangible silvery string, arranged as a paired tin-can telephone. No food, no labels, no person. Centered isolated fantasy equipment, dark neutral painterly vignette, strong clean silhouette, polished painted materials, sparse detail, restrained rim light. No writing, labels, watermark, border, frame, UI or extra objects."
+    },
+    {
+      "path": "static/icons/items/gonzo-items/rust-stone.webp",
+      "sha256": "cc1e1be5abec51ae6719da65bbd8c26651630ad76758e3cc1a87f8904131076b",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "8eb2a832506ee46f82afba741a8fb6c18f8162d5841b30aa9d13930e05524eb4",
+        "sourceBytes": 2203388,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 8118
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder Foundry inventory icon readable at 64px. One small fist-sized RUSTY IRON SPHERE, deeply pitted reddish-brown oxidation, a few polished metal spots, a tiny hint of magical motion. No eyes, face, limbs, wearer or background props. Centered isolated fantasy equipment, dark neutral painterly vignette, strong clean silhouette, polished painted materials, sparse detail, restrained rim light. No writing, labels, watermark, border, frame, UI or extra objects."
+    },
+    {
+      "path": "static/icons/items/gonzo-items/head-pot-of-adequate-trash.webp",
+      "sha256": "0fc645eff5c35906d4429bbecbdf4564e1c05774e586cdaa12513326dbc71e07",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "e8fd53bd39079394e7feeebf1aadc61d2552c14d2353b9341a4d4432bfe15438",
+        "sourceBytes": 2054695,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 7068
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder Foundry inventory icon readable at 64px. One plain old COPPER COOKING POT presented upside down as an improvised wearable hat, rounded dull reddish copper with small handles and faint enchantment glints. No head or person, no armor body. Centered isolated fantasy equipment, dark neutral painterly vignette, strong clean silhouette, polished painted materials, sparse detail, restrained rim light. No writing, labels, watermark, border, frame, UI or extra objects."
+    },
+    {
+      "path": "static/icons/items/gonzo-items/heros-scarf.webp",
+      "sha256": "1cbe936cd8332adced520b95112d009a3329a320953b552cade29102bf8d61e9",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "97a0e9a49c8a8849b17b664989da2c0a2304cc820132621ecb005b771516f7cb",
+        "sourceBytes": 1832402,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 6278
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder Foundry inventory icon readable at 64px. One flowing CRIMSON RED SCARF dramatically billowing in an unseen wind, strong folded cloth silhouette, simple heroic fantasy scarf, no emblem, no character, no person. Centered isolated fantasy equipment, dark neutral painterly vignette, strong clean silhouette, polished painted materials, sparse detail, restrained rim light. No writing, labels, watermark, border, frame, UI or extra objects."
+    },
+    {
+      "path": "static/icons/items/gonzo-items/insanity-drive.webp",
+      "sha256": "0fe1337dffec4722d0861c1df3bbfcdefd74d7fa76dbacd981e0691ac0ce8fba",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "41ce3a06b708aa3bf7c51d293c6f969a7ceefbe44f92d8eff4510671735b9ae1",
+        "sourceBytes": 1887429,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 7520
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder Foundry inventory icon readable at 64px. One fantasy PARTY POPPER with two pull strings and a cone-shaped brightly colored casing, restrained rainbow magical light and a few sparkling notes of energy around it. No text, no person. Centered isolated fantasy equipment, dark neutral painterly vignette, strong clean silhouette, polished painted materials, sparse detail, restrained rim light. No writing, labels, watermark, border, frame, UI or extra objects."
+    },
+    {
+      "path": "static/icons/items/gonzo-items/prismatic-scepter.webp",
+      "sha256": "6472707caf97ed7b3450841fbfac1d29e97d42f110506b2ae5c1aed2754673a1",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "a71f999c49e06104ef2c67dc2580e992093b902f19aac4180bebd0a27e900e83",
+        "sourceBytes": 1952128,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 6172
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder Foundry inventory icon readable at 64px. One slender fantasy ROD with rainbow colors spiraling along its shaft, topped by a large clear DIAMOND CUT IN A HEART SHAPE. Subtle prismatic magical light. Full object shown diagonally, no person. Centered isolated fantasy equipment, dark neutral painterly vignette, strong clean silhouette, polished painted materials, sparse detail, restrained rim light. No writing, labels, watermark, border, frame, UI or extra objects."
+    },
+    {
+      "path": "static/icons/items/gonzo-items/firekeys.webp",
+      "sha256": "d07c0003ea2ce3548ef687122dee61ee397a5aacb8890cadc2e4832f88266693",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "5b559f6100491f48736bcd0ca88f1dd7838259e15e327a6130019d1b1a63d893",
+        "sourceBytes": 2085588,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 9410
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder Foundry inventory icon readable at 64px. One fantasy KEYTAR weapon: a shoulder keyboard instrument with clearly recognizable black and white keys, red and black body with metal edges, restrained orange magical flames along its silhouette. No hands, no player, no labels. Centered isolated fantasy equipment, dark neutral painterly vignette, strong clean silhouette, polished painted materials, sparse detail, restrained rim light. No writing, labels, watermark, border, frame, UI or extra objects."
+    },
+    {
+      "path": "static/icons/items/gonzo-items/thunder-and-fury.webp",
+      "sha256": "0210e5fed2e863625298129e883298fe5d605343d576f89b658c04ce46198cfc",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "47f2640643371c7ac1535f5df21fd1e2eba5f10f0d5ac4e49fbae05ed5399133",
+        "sourceBytes": 2120124,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 9542
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder Foundry inventory icon readable at 64px. One fantasy handheld METAL MICROPHONE attached to a long curling BLACK CORD, silver microphone grille, a restrained electric-blue and white sonic energy wisp. The mic and cord form a single instrument weapon. No stage, no performer. Centered isolated fantasy equipment, dark neutral painterly vignette, strong clean silhouette, polished painted materials, sparse detail, restrained rim light. No writing, labels, watermark, border, frame, UI or extra objects."
+    },
+    {
+      "path": "static/icons/items/gonzo-items/thunderbolt-axe.webp",
+      "sha256": "1365b95aadcf1a4edd8c5b8c1b57d44caea2fd38bd7f8be2d541e455af81066e",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "b8c578884b33813e11a873103eded18b16866e791c83931629f70fa17df932bc",
+        "sourceBytes": 2168143,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 8868
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder Foundry inventory icon readable at 64px. One fantasy ELECTRIC GUITAR instrument weapon with a dark wooden body, sharp metallic body edges and a long stringed neck, restrained blue-white lightning winding around it. A guitar, not a conventional battle axe. No player. Centered isolated fantasy equipment, dark neutral painterly vignette, strong clean silhouette, polished painted materials, sparse detail, restrained rim light. No writing, labels, watermark, border, frame, UI or extra objects."
+    },
+    {
+      "path": "static/icons/items/gonzo-items/thunderdrum.webp",
+      "sha256": "98fd064497dff3766e8b13e8721ab58a2e038cf01458fa0fbe67f7faa1a99c58",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "c16e6b1c77cbbec9063d80b630215d875d3e44ae195a6cce375aa02cc17fe7b8",
+        "sourceBytes": 2072862,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 9410,
+        "inputReferenceSha256": "0e9116675e0d7eca69eb506c0f4301d34149019e7a6aa32ce950330af9551413"
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder Foundry inventory icon readable at 64px. One small fantasy DRUM with TWO glowing drumsticks resting across it, dark wood shell, taut pale drumhead, restrained pale-blue sonic magic around the drumsticks. A single drum equipment set, no person. Centered isolated fantasy equipment, dark neutral painterly vignette, strong clean silhouette, polished painted materials, sparse detail, restrained rim light. No writing, labels, watermark, border, frame, UI or extra objects.\nRevision: Edit only the two drumsticks in this fantasy inventory icon. Replace their round mallet-like heads with narrow SPIKE-TIPPED drumstick ends: each stick should have one small pointed metal piercing tip, clearly a sharpened weapon tip rather than a round mallet. Keep the same two wooden shafts, same positions, drum, blue sonic glow, painterly style, lighting, composition and dark background. No person, no text, no new props."
     }
   ],
   "externalAssets": [
@@ -1410,6 +1663,62 @@
       "version": "13.351",
       "sha256": "f1191ba11657b2e20175bbab4d19495d6c43319dab52bac2e29ca97968baf352",
       "review": "Visually inspected 2026-10-17 for physical-item production group 2. Recognizable gun wood artwork selected after inspecting component records and alternatives; reference only, no upstream artwork bytes distributed."
+    },
+    {
+      "path": "icons/tools/scribal/spectacles-glasses.webp",
+      "kind": "reference",
+      "provider": "foundry",
+      "version": "13.351",
+      "sha256": "6b6f32cf9421c9936a9491778f25678d6045a8029a3659a5c6b51cbbc60962a7",
+      "review": "Visually inspected 2026-10-17 for physical item group 3. Selected suitable spectacles-glasses.webp artwork after inspecting Eyeglasses and alternatives; imagery only, no unrelated rules or upstream image bytes imported."
+    },
+    {
+      "path": "icons/sundries/books/book-rounded-clasp-red.webp",
+      "kind": "reference",
+      "provider": "foundry",
+      "version": "13.351",
+      "sha256": "95ec2eac5db5aae5a8b3fa02239717c0ceef572e2191f669efc47ec6ffa4f6b1",
+      "review": "Visually inspected 2026-10-17 for physical item group 3. Selected suitable book-rounded-clasp-red.webp artwork after inspecting Hollow Book and alternatives; imagery only, no unrelated rules or upstream image bytes imported."
+    },
+    {
+      "path": "icons/commodities/currency/coin-inset-swirl-gold.webp",
+      "kind": "reference",
+      "provider": "foundry",
+      "version": "13.351",
+      "sha256": "9d49bb6761001bff3d0480541a09cedc67ab9342aeff6457f57643216de31f2b",
+      "review": "Visually inspected 2026-10-17 for physical item group 3. Selected suitable coin-inset-swirl-gold.webp artwork after inspecting False Coin and alternatives; imagery only, no unrelated rules or upstream image bytes imported."
+    },
+    {
+      "path": "icons/commodities/stone/ore-chunk-black.webp",
+      "kind": "reference",
+      "provider": "foundry",
+      "version": "13.351",
+      "sha256": "d2f241c1721edca1b80e58f36fea121d82df9639f714294d72f4d9613406ea04",
+      "review": "Visually inspected 2026-10-17 for physical item group 3. Selected suitable ore-chunk-black.webp artwork after inspecting Onyx Rhomboid Ioun Stone, Thassilonian and alternatives; imagery only, no unrelated rules or upstream image bytes imported."
+    },
+    {
+      "path": "systems/pf1/icons/items/weapons/bullet.png",
+      "kind": "reference",
+      "provider": "pf1",
+      "version": "11.11",
+      "sha256": "28ad0cbfa0c0e69e45186b5a76d05b2e25bb2352ec8da9dc34859c0385755df2",
+      "review": "Visually inspected 2026-10-17 for physical item group 3. Selected suitable bullet.png artwork after inspecting Firearm Bullet and alternatives; imagery only, no unrelated rules or upstream image bytes imported."
+    },
+    {
+      "path": "systems/pf1/icons/items/weapons/mace-light.png",
+      "kind": "reference",
+      "provider": "pf1",
+      "version": "11.11",
+      "sha256": "4f18bde0b35f4e0dd20a7429bbf74b518977aaab3e629bc6130b48211344911a",
+      "review": "Visually inspected 2026-10-17 for physical item group 3. Selected suitable mace-light.png artwork after inspecting Light Mace and alternatives; imagery only, no unrelated rules or upstream image bytes imported."
+    },
+    {
+      "path": "icons/containers/bags/sack-cloth-heavy-brown.webp",
+      "kind": "reference",
+      "provider": "foundry",
+      "version": "13.351",
+      "sha256": "46f77de56a759c61f112d6d5400cccc5b618583ddf8e1b3a441b125c155df8dc",
+      "review": "Visually inspected 2026-10-17 for physical item group 3. Selected suitable sack-cloth-heavy-brown.webp artwork after inspecting Sack and alternatives; imagery only, no unrelated rules or upstream image bytes imported."
     }
   ]
 }

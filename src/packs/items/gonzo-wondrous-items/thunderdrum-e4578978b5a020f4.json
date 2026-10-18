@@ -3,7 +3,7 @@
   "_key": "!items!e4578978b5a020f4",
   "name": "Thunderdrum",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/gonzo-items/thunderdrum.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,19 +24,20 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "deferred",
+        "changes": "not-needed",
+        "contextNotes": "not-needed",
+        "usage": "deferred",
+        "links": "deferred",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 9,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "evo"
     },
     "hp": {},
     "broken": false,
@@ -84,7 +85,37 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "8d78b050aad7afcc",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "action",
+            "cost": 2
+          }
+        },
+        "name": "Base Cacophony after Perform",
+        "notes": {
+          "effect": [
+            "After a DC 18 Perform (percussion instruments) check, all creatures within 10 feet except the wielder take 5d6 sonic damage, Reflex DC 10 plus ranks in Perform (percussion instruments) for half. Each 4 points exceeding the check can add 5 feet or 1d6 damage. Each use increases the Perform DC by 4 until next day."
+          ]
+        },
+        "actionType": "other",
+        "damage": {
+          "parts": [
+            {
+              "formula": "5d6",
+              "types": ["sonic"]
+            }
+          ]
+        },
+        "measureTemplate": {
+          "type": "circle",
+          "size": "10"
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {

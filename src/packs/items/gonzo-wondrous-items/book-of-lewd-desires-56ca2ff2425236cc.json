@@ -3,7 +3,7 @@
   "_key": "!items!56ca2ff2425236cc",
   "name": "Book of Lewd Desires",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/sundries/books/book-rounded-clasp-red.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,19 +24,20 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "not-needed",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 3,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "div"
     },
     "hp": {},
     "broken": false,
@@ -88,10 +89,10 @@
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
+      "value": 50,
+      "per": "charges",
       "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "maxFormula": "50",
       "rechargeFormula": ""
     },
     "links": {
