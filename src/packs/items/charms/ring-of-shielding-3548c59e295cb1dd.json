@@ -3,7 +3,7 @@
   "_key": "!items!3548c59e295cb1dd",
   "name": "Ring of Shielding",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/finger/ring-shield-silver.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -15,7 +15,7 @@
       "sourceSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
       "descriptionSha256": "a8fcb588ca9a1e92088da9953c4bd575cf92cccc1a2d2657857e8dd227f25900",
       "phase": "descriptive",
-      "automation": "not-reviewed",
+      "automation": "reviewed",
       "edition": "ultimate",
       "category": "charms",
       "intake": {
@@ -24,25 +24,37 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "implemented",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "not-needed",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-charm-bonuses",
+      "selectedVariant": "base +1 deflection AC and +1 resistance saves, 3500 gp",
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint (+1), moderate (+2/+3), or strong (+4/+5) Protection; <strong>CL</strong> 3rd (+1), 6th (+2), 9th (+3), 12th (+4), or 15th (+5)<br>\n<strong>Slot</strong> ring; <strong>Price</strong> 3,500 gp (+1), 14,000 gp (+2), 31,500 gp (+3), 56,000 gp (+4), or 87,500 gp (+5); <strong>Weight</strong> 1&nbsp;lb.</p>\n<p>Often used by those with money to spare and a need to wear more magical items, these slender silver rings grant a deflection bonus to armor class and an equal resistance bonus to all saving throws.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Protection sphere (Energy Resistance (aegis, ward)); <strong>Cost</strong> 1,750 gp (+1), 7,000 gp (+2), 15,750 gp (+3), 28,000 gp (+4), or 43,750 gp (+5)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc39\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: base +1 deflection AC and +1 resistance saves, 3500 gp.</p><p>One slender silver ring grants +1 deflection AC and +1 resistance to all saves. Deflection inherits CMD through native AC mapping, without a second change; each bonus competes with its own type. No force shield, shield AC, energy resistance or free activation is borrowed from the alternate Ring of Force Shield.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,15 +75,32 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 3,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Protection"
     },
     "hp": {},
     "broken": false,
     "hardness": 0,
-    "changes": [],
+    "changes": [
+      {
+        "_id": "8b4537b9cdb3c5c1",
+        "formula": "1",
+        "operator": "add",
+        "target": "ac",
+        "type": "deflection",
+        "priority": 0
+      },
+      {
+        "_id": "b83899bb9727d81b",
+        "formula": "1",
+        "operator": "add",
+        "target": "allSavingThrows",
+        "type": "resist",
+        "priority": 0
+      }
+    ],
     "changeFlags": {
       "immuneToMorale": false,
       "loseDexToAC": false,
@@ -90,7 +119,7 @@
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

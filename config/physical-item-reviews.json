@@ -9199,5 +9199,1803 @@
       "type": "equipment",
       "sha256": "d3643526e2908bae17fb2fe48244b8792bfdf632a2b6766f61208496703e04fb"
     }
+  },
+  "wiki:charms:ultimate:item:aegis-ring": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "5cb9c4b1df86c4e6a522d042c1e800a1e1e03a275884d7ce69f269ebf87b5106",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "adapt",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. One iron ring grants +1 deflection to AC while worn. PF1 carries the same deflection bonus into touch/flat-footed AC and CMD; do not add another CMD change. Higher bonuses, caster levels and prices are separate selected tiers. Not a shield or a Ring of Force Shield.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Ring of Protection +1",
+        "candidates": [
+          {
+            "key": "ring-of-protection-1",
+            "name": "Ring of Protection +1",
+            "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/finger/ring-shield-silver.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "adapt",
+            "reason": "Reviewed native profile/bonus component only; override source name, body, tier, school, CL, price, weight and conditional rules."
+          }
+        ]
+      },
+      {
+        "name": "Ring of Protection, +1",
+        "candidates": [
+          {
+            "key": "ring-of-protection-1",
+            "name": "Ring of Protection +1",
+            "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/finger/ring-shield-silver.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "adapt",
+            "reason": "Reviewed native profile/bonus component only; override source name, body, tier, school, CL, price, weight and conditional rules."
+          }
+        ]
+      },
+      {
+        "name": "Ring of Protection",
+        "candidates": []
+      }
+    ],
+    "adaptationSource": {
+      "key": "ring-of-protection-1",
+      "name": "Ring of Protection +1",
+      "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "icons/equipment/finger/ring-shield-silver.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Use reviewed native data/bonus interface, with all Spheres source overrides and explicit manual limits above."
+    },
+    "artwork": {
+      "path": "icons/equipment/finger/ring-shield-silver.webp",
+      "source": {
+        "key": "ring-of-protection-1",
+        "name": "Ring of Protection +1",
+        "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/finger/ring-shield-silver.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Actual protective ring, cloak, glove or pendant illustration only; quantities and source-specific rules override unrelated record mechanics."
+    },
+    "output": {
+      "file": "src/packs/items/charms/aegis-ring-0dfb62a13236b518.json",
+      "id": "0dfb62a13236b518",
+      "type": "equipment",
+      "sourceUuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+      "sha256": "2572efbffd9daa4a6ed70696a9064b6a0c7e177b95089217349841a58c83a787"
+    }
+  },
+  "wiki:charms:ultimate:item:belt-of-avian-speed": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "5f71d43060bbb5036781807104f5293370ad92062f23a165bce6fc5e8af97e36",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "adapt",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. One two-pound bird-decorated belt grants +2 enhancement to Dexterity, not movement speed or flight. The native enhancement changes the current ability total while equipped, matching the inspected PF1 item. Treat it as temporary for the first twenty-four worn hours; timing, eligibility and any permanent-only consequences remain manual. No automatic clock, higher tier, extra skill ranks or permanent base-score edit.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Belt of Incredible Dexterity +2",
+        "candidates": [
+          {
+            "key": "belt-of-incredible-dexterity-2",
+            "name": "Belt of Incredible Dexterity +2",
+            "uuid": "Compendium.pf1.items.Item.PC3K6eeXRdUwJxLA",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/waist/belt-buckle-crescent.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "abd4041929db6a23462f9e0185330009d8464dde090bab44c5293f5bf7df8678",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "adapt",
+            "reason": "Reviewed native profile/bonus component only; override source name, body, tier, school, CL, price, weight and conditional rules."
+          }
+        ]
+      },
+      {
+        "name": "Belt of Incredible Dexterity",
+        "candidates": []
+      }
+    ],
+    "adaptationSource": {
+      "key": "belt-of-incredible-dexterity-2",
+      "name": "Belt of Incredible Dexterity +2",
+      "uuid": "Compendium.pf1.items.Item.PC3K6eeXRdUwJxLA",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "icons/equipment/waist/belt-buckle-crescent.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "abd4041929db6a23462f9e0185330009d8464dde090bab44c5293f5bf7df8678",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Use reviewed native data/bonus interface, with all Spheres source overrides and explicit manual limits above."
+    },
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/belt-of-avian-speed.webp",
+      "decision": "Full exact/alternate/component record and actual-art review found no adequate source-specific illustration; original art preserves the published physical form."
+    },
+    "output": {
+      "file": "src/packs/items/charms/belt-of-avian-speed-6710d1630453fed0.json",
+      "id": "6710d1630453fed0",
+      "type": "equipment",
+      "sourceUuid": "Compendium.pf1.items.Item.PC3K6eeXRdUwJxLA",
+      "sha256": "e7eac3bef22576c0ae7e2c5bf704c78224dee09bdbca3ed7368a034ae29b69ea"
+    }
+  },
+  "wiki:charms:ultimate:item:belt-of-mountains": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "0d6551ec4a301fc61c551d242830825b70694d37a2c5cc9e30cfe67c0fde00c9",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "adapt",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. One two-pound mountain-decorated leather belt grants +2 enhancement to Constitution. The native enhancement changes the current ability total while equipped, matching the inspected PF1 item. Treat it as temporary for the first twenty-four worn hours; timing, eligibility and any permanent-only consequences remain manual. No automatic clock, higher tier, extra skill ranks or permanent base-score edit.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Belt of Mighty Constitution +2",
+        "candidates": [
+          {
+            "key": "belt-of-mighty-constitution-2",
+            "name": "Belt of Mighty Constitution +2",
+            "uuid": "Compendium.pf1.items.Item.5ZivT8vBANjQLueE",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/equipment/belt-girdle.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "fb45503f907f3418143d0ea02d8580983ac7b2a97fb1908f4b004e87a20aa895",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "adapt",
+            "reason": "Reviewed native profile/bonus component only; override source name, body, tier, school, CL, price, weight and conditional rules."
+          }
+        ]
+      },
+      {
+        "name": "Belt of Mighty Constitution",
+        "candidates": []
+      }
+    ],
+    "adaptationSource": {
+      "key": "belt-of-mighty-constitution-2",
+      "name": "Belt of Mighty Constitution +2",
+      "uuid": "Compendium.pf1.items.Item.5ZivT8vBANjQLueE",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "systems/pf1/icons/items/equipment/belt-girdle.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "fb45503f907f3418143d0ea02d8580983ac7b2a97fb1908f4b004e87a20aa895",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Use reviewed native data/bonus interface, with all Spheres source overrides and explicit manual limits above."
+    },
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/belt-of-mountains.webp",
+      "decision": "Full exact/alternate/component record and actual-art review found no adequate source-specific illustration; original art preserves the published physical form."
+    },
+    "output": {
+      "file": "src/packs/items/charms/belt-of-mountains-c8fd0742a6cae48b.json",
+      "id": "c8fd0742a6cae48b",
+      "type": "equipment",
+      "sourceUuid": "Compendium.pf1.items.Item.5ZivT8vBANjQLueE",
+      "sha256": "e955a1f5d8b520480060c96d0ea33c9609e425b7b1794700889cd7609a835d57"
+    }
+  },
+  "wiki:charms:ultimate:item:belt-of-wild-might": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "0716ca7590a1b0bc12c7ab466a7be0b44182a2e0d829bea6d3c889364db60bed",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "adapt",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. One two-pound beast-decorated leather belt grants +2 enhancement to Strength. The native enhancement changes the current ability total while equipped, matching the inspected PF1 item. Treat it as temporary for the first twenty-four worn hours; timing, eligibility and any permanent-only consequences remain manual. No automatic clock, higher tier, extra skill ranks or permanent base-score edit.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Belt of Giant Strength +2",
+        "candidates": [
+          {
+            "key": "belt-of-giant-strength-2",
+            "name": "Belt of Giant Strength +2",
+            "uuid": "Compendium.pf1.items.Item.eIxzoEGDNZXWgnKk",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/equipment/belt-buckle.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "f1f9202cbb64f43f5ad320e5383098db2ec54d8a9a7d81af5ca473ad5dfde995",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "adapt",
+            "reason": "Reviewed native profile/bonus component only; override source name, body, tier, school, CL, price, weight and conditional rules."
+          }
+        ]
+      },
+      {
+        "name": "Belt of Giant Strength",
+        "candidates": []
+      }
+    ],
+    "adaptationSource": {
+      "key": "belt-of-giant-strength-2",
+      "name": "Belt of Giant Strength +2",
+      "uuid": "Compendium.pf1.items.Item.eIxzoEGDNZXWgnKk",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "systems/pf1/icons/items/equipment/belt-buckle.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "f1f9202cbb64f43f5ad320e5383098db2ec54d8a9a7d81af5ca473ad5dfde995",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Use reviewed native data/bonus interface, with all Spheres source overrides and explicit manual limits above."
+    },
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/belt-of-wild-might.webp",
+      "decision": "Full exact/alternate/component record and actual-art review found no adequate source-specific illustration; original art preserves the published physical form."
+    },
+    "output": {
+      "file": "src/packs/items/charms/belt-of-wild-might-2b1f45563b0647fb.json",
+      "id": "2b1f45563b0647fb",
+      "type": "equipment",
+      "sourceUuid": "Compendium.pf1.items.Item.eIxzoEGDNZXWgnKk",
+      "sha256": "f63146c93e8ad8c56f38003264858c5cd419c204740b3e2549265faf6eb15b30"
+    }
+  },
+  "wiki:charms:ultimate:item:blessing-of-the-fates": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "e1d350378d49c7efd305229106fae5607a2dd1404680b3e27b1920f9b95eb9f6",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "adapt",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. The paper-and-wax blessing grants +1 luck to AC, including CMD through PF1's native AC mapping. This crafted profile occupies neck; change to another permitted real worn slot if appropriate, rather than treating any as slotless. Luck is the selected bonus; insight, morale, profane and sacred variants require their corresponding source sphere and deliberate reconfiguration. Observe the source GM option concerning rare bonus stacking.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Blessing of Fates",
+        "candidates": []
+      },
+      {
+        "name": "Stone of Good Luck",
+        "candidates": []
+      },
+      {
+        "name": "Luckstone",
+        "candidates": []
+      },
+      {
+        "name": "Dusty Rose Prism Ioun Stone",
+        "candidates": [
+          {
+            "key": "dusty-rose-prism-ioun-stone",
+            "name": "Dusty Rose Prism Ioun Stone",
+            "uuid": "Compendium.pf1.items.Item.71VGp1a4z1BQFNXu",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/commodities/gems/gem-rough-rose-red.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "bad1ee0f3033a5ee364ac37f24b2a5920fce66cb001193773f18607aa28dea80",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      }
+    ],
+    "adaptationSource": {
+      "key": "ring-of-protection-1",
+      "name": "Ring of Protection +1",
+      "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "icons/equipment/finger/ring-shield-silver.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Use reviewed native data/bonus interface, with all Spheres source overrides and explicit manual limits above."
+    },
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/blessing-of-the-fates.webp",
+      "decision": "Full exact/alternate/component record and actual-art review found no adequate source-specific illustration; original art preserves the published physical form."
+    },
+    "output": {
+      "file": "src/packs/items/charms/blessing-of-the-fates-6f8b7c473fd8f9c4.json",
+      "id": "6f8b7c473fd8f9c4",
+      "type": "equipment",
+      "sourceUuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+      "sha256": "dea520f5a3bde67ec52491f62af023a042301ce551544ef5139feb521398984b"
+    }
+  },
+  "wiki:charms:ultimate:item:cape-of-resistance": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "0681d0723c6730e8b8c556d8c990982b5786f13af175e840de3114ea48956c92",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "adapt",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. One cape grants +1 resistance to Fortitude, Reflex and Will while worn. Native resistance bonuses do not stack with an equal resistance source. No armor class, skill or concealment bonus. Higher values require the matching source tier.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Cloak of Resistance +1",
+        "candidates": [
+          {
+            "key": "cloak-of-resistance-1",
+            "name": "Cloak of Resistance +1",
+            "uuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "969c634bf649ccc36e6f762af02572affadf7d56fc712649ca706b6d42b5320f",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "adapt",
+            "reason": "Reviewed native profile/bonus component only; override source name, body, tier, school, CL, price, weight and conditional rules."
+          }
+        ]
+      },
+      {
+        "name": "Cloak of Resistance",
+        "candidates": []
+      }
+    ],
+    "adaptationSource": {
+      "key": "cloak-of-resistance-1",
+      "name": "Cloak of Resistance +1",
+      "uuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "969c634bf649ccc36e6f762af02572affadf7d56fc712649ca706b6d42b5320f",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Use reviewed native data/bonus interface, with all Spheres source overrides and explicit manual limits above."
+    },
+    "artwork": {
+      "path": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
+      "source": {
+        "key": "cloak-of-resistance-1",
+        "name": "Cloak of Resistance +1",
+        "uuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "969c634bf649ccc36e6f762af02572affadf7d56fc712649ca706b6d42b5320f",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Actual protective ring, cloak, glove or pendant illustration only; quantities and source-specific rules override unrelated record mechanics."
+    },
+    "output": {
+      "file": "src/packs/items/charms/cape-of-resistance-35531f918224ef0a.json",
+      "id": "35531f918224ef0a",
+      "type": "equipment",
+      "sourceUuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
+      "sha256": "d961c19524d81b462224f85b59eaf3409d0b304d78a8f51d3ee605f03f16bd7a"
+    }
+  },
+  "wiki:charms:ultimate:item:fragment-of-destiny": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "c17f6ff0b5d5f4001630f897dae460ea22a11b5d6fefbdb471ec91cba9940d93",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "adapt",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. The cloth-woven crystal grants +1 luck to all saving throws, not skill checks, ability checks or armor class. It occupies the selected neck slot; another source-permitted real magical item slot may be chosen. It is not a slotless Luckstone. The related blessing's published bonus-type variants require deliberate selection and matching source sphere; this profile remains luck.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Stone of Good Luck",
+        "candidates": []
+      },
+      {
+        "name": "Luckstone",
+        "candidates": []
+      },
+      {
+        "name": "Destiny Fragment",
+        "candidates": []
+      }
+    ],
+    "adaptationSource": {
+      "key": "cloak-of-resistance-1",
+      "name": "Cloak of Resistance +1",
+      "uuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "969c634bf649ccc36e6f762af02572affadf7d56fc712649ca706b6d42b5320f",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Use reviewed native data/bonus interface, with all Spheres source overrides and explicit manual limits above."
+    },
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/fragment-of-destiny.webp",
+      "decision": "Full exact/alternate/component record and actual-art review found no adequate source-specific illustration; original art preserves the published physical form."
+    },
+    "output": {
+      "file": "src/packs/items/charms/fragment-of-destiny-ad3e337d581f72a8.json",
+      "id": "ad3e337d581f72a8",
+      "type": "equipment",
+      "sourceUuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
+      "sha256": "91f6cbb2127a31ce7ca409719ec4a67d8e5353b8da7a7b21bd78f433a41caa50"
+    }
+  },
+  "wiki:charms:ultimate:item:headband-of-alluring-magnetism": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "d376317be6a1e0690019cae61ee4c355d510cdad2371d6604d6a4c9f296b883f",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "adapt",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. One two-pound cloth headband grants +2 enhancement to Charisma. Reused cloth artwork grants no psionics or range features. The native enhancement changes the current ability total while equipped, matching the inspected PF1 item. Treat it as temporary for the first twenty-four worn hours; timing, eligibility and any permanent-only consequences remain manual. No automatic clock, higher tier, extra skill ranks or permanent base-score edit.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Headband of Alluring Charisma +2",
+        "candidates": [
+          {
+            "key": "headband-of-alluring-charisma-2",
+            "name": "Headband of Alluring Charisma +2",
+            "uuid": "Compendium.pf1.items.Item.sv1iKPTOpaiZMOWk",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/finger/ring-cabochon-silver-gold-red.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "fec7152e9a6e56409ff753a25cc15ea0d8acd0323b13b5901ef2491ab985603b",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "adapt",
+            "reason": "Reviewed native profile/bonus component only; override source name, body, tier, school, CL, price, weight and conditional rules."
+          }
+        ]
+      },
+      {
+        "name": "Headband of Alluring Charisma",
+        "candidates": []
+      }
+    ],
+    "adaptationSource": {
+      "key": "headband-of-alluring-charisma-2",
+      "name": "Headband of Alluring Charisma +2",
+      "uuid": "Compendium.pf1.items.Item.sv1iKPTOpaiZMOWk",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "icons/equipment/finger/ring-cabochon-silver-gold-red.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "fec7152e9a6e56409ff753a25cc15ea0d8acd0323b13b5901ef2491ab985603b",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Use reviewed native data/bonus interface, with all Spheres source overrides and explicit manual limits above."
+    },
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/apparatuses/headband-of-psionic-reach.webp",
+      "source": {
+        "uuid": "Compendium.additional-spheres-content.items.Item.096c7feffd2f43c3",
+        "provider": "additional-spheres-content",
+        "version": "0.1.0-alpha.6",
+        "sha256": "048f5c9f0980e996e7bbeb6af23ef52df0ab922e8233ab9f5295915744a2ca50"
+      },
+      "decision": "Reuse the inspected original cloth headband illustration; no psionics feature, power selection, range or caster-level behavior is imported."
+    },
+    "output": {
+      "file": "src/packs/items/charms/headband-of-alluring-magnetism-5d46d3f4b54aee10.json",
+      "id": "5d46d3f4b54aee10",
+      "type": "equipment",
+      "sourceUuid": "Compendium.pf1.items.Item.sv1iKPTOpaiZMOWk",
+      "sha256": "59cab81a47cbcb98b2ea3a2e77567df05fb2febd5f03388090835b895fa730a8"
+    }
+  },
+  "wiki:charms:ultimate:item:headband-of-genius": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "1469e5ebf4acdea41c439da0dd023199d57a51fa7c806a75920d187667e3557b",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "adapt",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. One two-pound cloth headband grants +2 enhancement to Intelligence. Its one associated skill must be chosen when crafted; the source grants ranks equal to character level. Do not substitute a random Knowledge skill, Hit Dice from another item, additive ranks or a broad skill bonus. Assign/track that selected skill deliberately. Reused artwork grants no psionics. The native enhancement changes the current ability total while equipped, matching the inspected PF1 item. Treat it as temporary for the first twenty-four worn hours; timing, eligibility and any permanent-only consequences remain manual. No automatic clock, higher tier, extra skill ranks or permanent base-score edit.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Headband of Vast Intelligence +2",
+        "candidates": [
+          {
+            "key": "headband-of-vast-intelligence-2",
+            "name": "Headband of Vast Intelligence +2",
+            "uuid": "Compendium.pf1.items.Item.lrKImXw2wiv8DCD1",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/waist/belt-thick-gemmed-gold-blue.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "0584675179d89c9de2666973c21de936b3743a72d0e7afbf1c178e24bce3af6e",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "adapt",
+            "reason": "Reviewed native profile/bonus component only; override source name, body, tier, school, CL, price, weight and conditional rules."
+          }
+        ]
+      },
+      {
+        "name": "Headband of Vast Intelligence",
+        "candidates": []
+      }
+    ],
+    "adaptationSource": {
+      "key": "headband-of-vast-intelligence-2",
+      "name": "Headband of Vast Intelligence +2",
+      "uuid": "Compendium.pf1.items.Item.lrKImXw2wiv8DCD1",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "icons/equipment/waist/belt-thick-gemmed-gold-blue.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "0584675179d89c9de2666973c21de936b3743a72d0e7afbf1c178e24bce3af6e",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Use reviewed native data/bonus interface, with all Spheres source overrides and explicit manual limits above."
+    },
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/apparatuses/headband-of-psionic-reach.webp",
+      "source": {
+        "uuid": "Compendium.additional-spheres-content.items.Item.096c7feffd2f43c3",
+        "provider": "additional-spheres-content",
+        "version": "0.1.0-alpha.6",
+        "sha256": "048f5c9f0980e996e7bbeb6af23ef52df0ab922e8233ab9f5295915744a2ca50"
+      },
+      "decision": "Reuse the inspected original cloth headband illustration; no psionics feature, power selection, range or caster-level behavior is imported."
+    },
+    "output": {
+      "file": "src/packs/items/charms/headband-of-genius-894b55737ce68619.json",
+      "id": "894b55737ce68619",
+      "type": "equipment",
+      "sourceUuid": "Compendium.pf1.items.Item.lrKImXw2wiv8DCD1",
+      "sha256": "97b12716619c20a15ba9d1b0b2e48fb1dbd5ecc1c181e758eca90c620e7f3767"
+    }
+  },
+  "wiki:charms:ultimate:item:headband-of-sages": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "f0e26ee1a673effea190316bde42f36cf6c5a89029aa5b92238e59b3878d3f9a",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "adapt",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. One two-pound cloth headband grants +2 enhancement to Wisdom. Reused artwork grants no psionics or range features. The native enhancement changes the current ability total while equipped, matching the inspected PF1 item. Treat it as temporary for the first twenty-four worn hours; timing, eligibility and any permanent-only consequences remain manual. No automatic clock, higher tier, extra skill ranks or permanent base-score edit.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Headband of Inspired Wisdom +2",
+        "candidates": [
+          {
+            "key": "headband-of-inspired-wisdom-2",
+            "name": "Headband of Inspired Wisdom +2",
+            "uuid": "Compendium.pf1.items.Item.lIPJinb2J7sEB0Ng",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/finger/ring-cabochon-spiral-gold-green.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "d68b218685dc90066fcb5327ef1f7aaabb6f1b585fc58a5fe9238077544acd91",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "adapt",
+            "reason": "Reviewed native profile/bonus component only; override source name, body, tier, school, CL, price, weight and conditional rules."
+          }
+        ]
+      },
+      {
+        "name": "Headband of Inspired Wisdom",
+        "candidates": []
+      }
+    ],
+    "adaptationSource": {
+      "key": "headband-of-inspired-wisdom-2",
+      "name": "Headband of Inspired Wisdom +2",
+      "uuid": "Compendium.pf1.items.Item.lIPJinb2J7sEB0Ng",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "icons/equipment/finger/ring-cabochon-spiral-gold-green.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "d68b218685dc90066fcb5327ef1f7aaabb6f1b585fc58a5fe9238077544acd91",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Use reviewed native data/bonus interface, with all Spheres source overrides and explicit manual limits above."
+    },
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/apparatuses/headband-of-psionic-reach.webp",
+      "source": {
+        "uuid": "Compendium.additional-spheres-content.items.Item.096c7feffd2f43c3",
+        "provider": "additional-spheres-content",
+        "version": "0.1.0-alpha.6",
+        "sha256": "048f5c9f0980e996e7bbeb6af23ef52df0ab922e8233ab9f5295915744a2ca50"
+      },
+      "decision": "Reuse the inspected original cloth headband illustration; no psionics feature, power selection, range or caster-level behavior is imported."
+    },
+    "output": {
+      "file": "src/packs/items/charms/headband-of-sages-9f9446b4b172fc16.json",
+      "id": "9f9446b4b172fc16",
+      "type": "equipment",
+      "sourceUuid": "Compendium.pf1.items.Item.lIPJinb2J7sEB0Ng",
+      "sha256": "e4b1f2451583bf0be1bf1f192040743afa7e9d0932147c5a72fcbd3754977dc6"
+    }
+  },
+  "wiki:charms:ultimate:item:ironside-ring": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "fff259f725c96d802a18de9435bafc3bd77e6bf49caf6d7484373e57ab050b5b",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "adapt",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. While worn: +4 enhancement Constitution, +2 natural armor and +4 enhancement CMD. The natural armor bonus uses native base natural armor, not an enhancement to natural armor; it competes with other base natural armor rather than adding to it. The CMD enhancement is separate from AC and does not improve CMB or touch AC. No added weapon, damage reduction or first-day restriction absent from this source.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Ring of Ironside",
+        "candidates": []
+      },
+      {
+        "name": "Belt of Mighty Constitution +4",
+        "candidates": [
+          {
+            "key": "belt-of-mighty-constitution-4",
+            "name": "Belt of Mighty Constitution +4",
+            "uuid": "Compendium.pf1.items.Item.SSgdlwKyAPjYQ8ak",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/equipment/belt-girdle.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "fd0976b8f8004ec60ae80725a27424dc978c2b2179eba67c80d3cf522f544705",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "adapt",
+            "reason": "Reviewed native profile/bonus component only; override source name, body, tier, school, CL, price, weight and conditional rules."
+          }
+        ]
+      },
+      {
+        "name": "Amulet of Natural Armor +2",
+        "candidates": [
+          {
+            "key": "amulet-of-natural-armor-2",
+            "name": "Amulet of Natural Armor +2",
+            "uuid": "Compendium.pf1.items.Item.5F06HJzeAlqTOot1",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/jewelry/pendant-green.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "65f4a564c20a1365eb93c401b1032e390c9273f444cffe79b85aa616c31e6ca9",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Ring of Protection +2",
+        "candidates": [
+          {
+            "key": "ring-of-protection-2",
+            "name": "Ring of Protection +2",
+            "uuid": "Compendium.pf1.items.Item.0AIz2Gk74uaiLQIh",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/finger/ring-shield-silver.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "e43ca845b89ec383a6ddbfef8343c471b002e275519ef2823d7dd0d3c27bdcdf",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      }
+    ],
+    "adaptationSource": {
+      "key": "belt-of-mighty-constitution-4",
+      "name": "Belt of Mighty Constitution +4",
+      "uuid": "Compendium.pf1.items.Item.SSgdlwKyAPjYQ8ak",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "systems/pf1/icons/items/equipment/belt-girdle.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "fd0976b8f8004ec60ae80725a27424dc978c2b2179eba67c80d3cf522f544705",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Use reviewed native data/bonus interface, with all Spheres source overrides and explicit manual limits above."
+    },
+    "artwork": {
+      "path": "icons/equipment/finger/ring-shield-silver.webp",
+      "source": {
+        "key": "ring-of-protection-1",
+        "name": "Ring of Protection +1",
+        "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/finger/ring-shield-silver.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Actual protective ring, cloak, glove or pendant illustration only; quantities and source-specific rules override unrelated record mechanics."
+    },
+    "output": {
+      "file": "src/packs/items/charms/ironside-ring-1978dfbbe5e4e583.json",
+      "id": "1978dfbbe5e4e583",
+      "type": "equipment",
+      "sourceUuid": "Compendium.pf1.items.Item.SSgdlwKyAPjYQ8ak",
+      "sha256": "e9248fe51cf2fa82d86d8c562d11ad34536af61a54074f66d732bb7fca2a9248"
+    }
+  },
+  "wiki:charms:ultimate:item:necklace-of-natural-armor": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "1b216ecacc03dd16b84f57d0f92f2f01e4c0c705b60cae46326d26408bc4cbe8",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "adapt",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. The iron neck ring grants a +1 natural armor bonus. This is base natural armor, not the conventional Amulet of Natural Armor's enhancement to natural armor. Native base natural armor takes the better competing value; enhancements to natural armor remain distinct. It does not improve touch AC or CMD. Higher tiers require matching values, CL and price.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Amulet of Natural Armor +1",
+        "candidates": [
+          {
+            "key": "amulet-of-natural-armor-1",
+            "name": "Amulet of Natural Armor +1",
+            "uuid": "Compendium.pf1.items.Item.9Uxwqax0pLPyT2j7",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/jewelry/pendant-green.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "784b8e544b518eee33b142eed8f7401ddc3720bb2d55d56378c567432da86053",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "adapt",
+            "reason": "Reviewed native profile/bonus component only; override source name, body, tier, school, CL, price, weight and conditional rules."
+          }
+        ]
+      },
+      {
+        "name": "Amulet of Natural Armor",
+        "candidates": []
+      },
+      {
+        "name": "Necklace of Natural Armour",
+        "candidates": []
+      }
+    ],
+    "adaptationSource": {
+      "key": "amulet-of-natural-armor-1",
+      "name": "Amulet of Natural Armor +1",
+      "uuid": "Compendium.pf1.items.Item.9Uxwqax0pLPyT2j7",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "systems/pf1/icons/items/jewelry/pendant-green.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "784b8e544b518eee33b142eed8f7401ddc3720bb2d55d56378c567432da86053",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Use reviewed native data/bonus interface, with all Spheres source overrides and explicit manual limits above."
+    },
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/necklace-of-natural-armor.webp",
+      "decision": "Full exact/alternate/component record and actual-art review found no adequate source-specific illustration; original art preserves the published physical form."
+    },
+    "output": {
+      "file": "src/packs/items/charms/necklace-of-natural-armor-2ffa9f4288a6964e.json",
+      "id": "2ffa9f4288a6964e",
+      "type": "equipment",
+      "sourceUuid": "Compendium.pf1.items.Item.9Uxwqax0pLPyT2j7",
+      "sha256": "5b5907547edfef31f81c9a59d08420a275efecd38880069f6aeb62401622ca2a"
+    }
+  },
+  "wiki:charms:ultimate:item:pugilists-charm": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "ed4ce842cef470d6b632f38ceb5990d02d4078f6e8838e967f4452eabb3d1798",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "adapt",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. The selected +1 grants enhancement to natural-weapon attack/damage and to natural armor. Unarmed strikes also qualify in the rules, but PF1's core Unarmed Strike has weapon subtype while nattack/ndamage cover natural subtype only. Its unarmed bonus remains an explicit manual step under issue #38; do not apply a global weapon bonus. The alternative weapon-property option is unselected and would replace the relevant attack/damage bonus as stated, not add free properties.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Amulet of Mighty Fists +1",
+        "candidates": [
+          {
+            "key": "amulet-of-mighty-fists-1",
+            "name": "Amulet of Mighty Fists +1",
+            "uuid": "Compendium.pf1.items.Item.z53icVRLBTR7A4Nq",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/neck/pendant-rough-silver-red.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "6fc818e6cf8828a0992426ca40ac044e6bf46052b3941f6d8f82e1b1141e5bf1",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "adapt",
+            "reason": "Reviewed native profile/bonus component only; override source name, body, tier, school, CL, price, weight and conditional rules."
+          }
+        ]
+      },
+      {
+        "name": "Amulet of Mighty Fists",
+        "candidates": []
+      },
+      {
+        "name": "Brawling",
+        "candidates": [
+          {
+            "key": "brawling",
+            "name": "Brawling",
+            "uuid": "Compendium.pf-content.pf-special-qualities.Item.7RZHBGxdecIbAqbz",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-special-qualities",
+            "type": "feat",
+            "subType": "misc",
+            "img": "systems/pf1/icons/skills/violet_04.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "247e347ad496844b9b89fe65fb2c97bf1dabfac0807c9792c6354dedc81dc6f7",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Pugilist Charm",
+        "candidates": []
+      }
+    ],
+    "adaptationSource": {
+      "key": "amulet-of-mighty-fists-1",
+      "name": "Amulet of Mighty Fists +1",
+      "uuid": "Compendium.pf1.items.Item.z53icVRLBTR7A4Nq",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "icons/equipment/neck/pendant-rough-silver-red.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "6fc818e6cf8828a0992426ca40ac044e6bf46052b3941f6d8f82e1b1141e5bf1",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Use reviewed native data/bonus interface, with all Spheres source overrides and explicit manual limits above."
+    },
+    "artwork": {
+      "path": "icons/equipment/neck/pendant-rough-silver-red.webp",
+      "source": {
+        "key": "amulet-of-mighty-fists-1",
+        "name": "Amulet of Mighty Fists +1",
+        "uuid": "Compendium.pf1.items.Item.z53icVRLBTR7A4Nq",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/neck/pendant-rough-silver-red.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "6fc818e6cf8828a0992426ca40ac044e6bf46052b3941f6d8f82e1b1141e5bf1",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Actual protective ring, cloak, glove or pendant illustration only; quantities and source-specific rules override unrelated record mechanics."
+    },
+    "output": {
+      "file": "src/packs/items/charms/pugilists-charm-2e0b56a6ec48473c.json",
+      "id": "2e0b56a6ec48473c",
+      "type": "equipment",
+      "sourceUuid": "Compendium.pf1.items.Item.z53icVRLBTR7A4Nq",
+      "sha256": "6926907b96c58bf99ffb3bd6fc13c34b60a1dc38fd76e09dbe89e8b5a4bda8ac"
+    }
+  },
+  "wiki:charms:ultimate:item:ring-of-shielding": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "a8fcb588ca9a1e92088da9953c4bd575cf92cccc1a2d2657857e8dd227f25900",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "adapt",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. One slender silver ring grants +1 deflection AC and +1 resistance to all saves. Deflection inherits CMD through native AC mapping, without a second change; each bonus competes with its own type. No force shield, shield AC, energy resistance or free activation is borrowed from the alternate Ring of Force Shield.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Ring of Protection +1",
+        "candidates": [
+          {
+            "key": "ring-of-protection-1",
+            "name": "Ring of Protection +1",
+            "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/finger/ring-shield-silver.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "adapt",
+            "reason": "Reviewed native profile/bonus component only; override source name, body, tier, school, CL, price, weight and conditional rules."
+          }
+        ]
+      },
+      {
+        "name": "Cloak of Resistance +1",
+        "candidates": [
+          {
+            "key": "cloak-of-resistance-1",
+            "name": "Cloak of Resistance +1",
+            "uuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "969c634bf649ccc36e6f762af02572affadf7d56fc712649ca706b6d42b5320f",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Ring of Force Shield",
+        "candidates": [
+          {
+            "key": "ring-of-force-shield",
+            "name": "Ring of Force Shield",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.JdacusHJuNlbDGR8",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "083ee329ea0aec2ed4567ca5c452334a09c2a472cc4f638a43c7943a4b0848ea",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      }
+    ],
+    "adaptationSource": {
+      "key": "ring-of-protection-1",
+      "name": "Ring of Protection +1",
+      "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "icons/equipment/finger/ring-shield-silver.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Use reviewed native data/bonus interface, with all Spheres source overrides and explicit manual limits above."
+    },
+    "artwork": {
+      "path": "icons/equipment/finger/ring-shield-silver.webp",
+      "source": {
+        "key": "ring-of-protection-1",
+        "name": "Ring of Protection +1",
+        "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/finger/ring-shield-silver.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Actual protective ring, cloak, glove or pendant illustration only; quantities and source-specific rules override unrelated record mechanics."
+    },
+    "output": {
+      "file": "src/packs/items/charms/ring-of-shielding-3548c59e295cb1dd.json",
+      "id": "3548c59e295cb1dd",
+      "type": "equipment",
+      "sourceUuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+      "sha256": "f0430d230c86fef1ae8742d7d3724740a4839cc19fa2727ab667afe2e21381f3"
+    }
+  },
+  "wiki:charms:ultimate:item:talisman-of-techniques": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "36f41d09ecca4b591c5bbbf8136495450ebb13fba328642a94542ea6f65ef6ad",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "original",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. The wood-and-leather talisman grants +1 enhancement to natural armor plus +1 competence to one crafted maneuver. The maneuver remains unselected and conditional; no global CMB bonus or CMD bonus is granted. In particular, do not inherit the Gauntlet of Maneuvers' separate defensive bonus. The natural-armor enhancement is distinct from a base natural armor bonus.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Gauntlet of the Skilled Maneuver",
+        "candidates": []
+      },
+      {
+        "name": "Gauntlets of the Skilled Maneuver",
+        "candidates": [
+          {
+            "key": "gauntlets-of-the-skilled-maneuver",
+            "name": "Gauntlets of the Skilled Maneuver",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.QyeFILlxijlAqLGT",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "2cf0361bbfdc76bffe8b09aaea9d3d7faa2ab2c85b342a88843c6074d385b85f",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Amulet of Natural Armor +1",
+        "candidates": [
+          {
+            "key": "amulet-of-natural-armor-1",
+            "name": "Amulet of Natural Armor +1",
+            "uuid": "Compendium.pf1.items.Item.9Uxwqax0pLPyT2j7",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/jewelry/pendant-green.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "784b8e544b518eee33b142eed8f7401ddc3720bb2d55d56378c567432da86053",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/talisman-of-techniques.webp",
+      "decision": "Full exact/alternate/component record and actual-art review found no adequate source-specific illustration; original art preserves the published physical form."
+    },
+    "output": {
+      "file": "src/packs/items/charms/talisman-of-techniques-05a71317aaef4c5f.json",
+      "id": "05a71317aaef4c5f",
+      "type": "equipment",
+      "sha256": "809d37f2faf3bcfa044a3062113f257a57c14aabf9938b9e766eb77d001f2452"
+    }
+  },
+  "wiki:charms:ultimate:item:gauntlet-of-maneuvers": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "edeb0368fba6a3c8f867bed6b4c3a37adbfd9d3fb49c520ad5db658727594835",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "original",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. Quantity one is a complete one-pound pair, and both gauntlets must be worn. One crafted combat maneuver is not yet selected. Apply +1 competence to that maneuver's CMB and defensive CMD only; no global CMB/CMD modifier, manufactured gauntlet attack, weapon enhancement or separately priced second glove.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Gauntlets of Maneuvers",
+        "candidates": []
+      },
+      {
+        "name": "Gauntlet of the Skilled Maneuver",
+        "candidates": []
+      },
+      {
+        "name": "Gauntlets of the Skilled Maneuver",
+        "candidates": [
+          {
+            "key": "gauntlets-of-the-skilled-maneuver",
+            "name": "Gauntlets of the Skilled Maneuver",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.QyeFILlxijlAqLGT",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "2cf0361bbfdc76bffe8b09aaea9d3d7faa2ab2c85b342a88843c6074d385b85f",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
+      "source": {
+        "key": "gauntlets-of-the-skilled-maneuver",
+        "name": "Gauntlets of the Skilled Maneuver",
+        "uuid": "Compendium.pf-content.pf-wondrous.Item.QyeFILlxijlAqLGT",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-wondrous",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "2cf0361bbfdc76bffe8b09aaea9d3d7faa2ab2c85b342a88843c6074d385b85f",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Actual protective ring, cloak, glove or pendant illustration only; quantities and source-specific rules override unrelated record mechanics."
+    },
+    "output": {
+      "file": "src/packs/items/charms/gauntlet-of-maneuvers-7d8836cf2143c917.json",
+      "id": "7d8836cf2143c917",
+      "type": "equipment",
+      "sha256": "544cc945c230e1dc4bb7041eee5621b4d14c58d8cbb21cb99c005d3c2b157714"
+    }
+  },
+  "wiki:charms:ultimate:item:energy-resisting-ring": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "a6fb6be4fd25afc917e96e28711509fb0e9c488d192fced97478094db9fc91a2",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "original",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. One iron ring grants resistance ten to exactly one of fire, cold, electricity, acid or sonic, chosen when crafted. No element is selected in this record; record that actual choice and resolve its resistance deliberately. Do not infer a red-image fire choice, all-energy resistance, immunity or the conventional ring's different CL/weight. Twenty/thirty are separate source tiers.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Ring of Energy Resistance (Minor)",
+        "candidates": [
+          {
+            "key": "ring-of-energy-resistance-minor",
+            "name": "Ring of Energy Resistance, Minor",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.KGn5Uhf1MK5NPKbL",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "5c82e69e0036232d2605cbbaffa5da1e41f02a326bd0c3d6bbd82346dafa00ac",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Ring of Energy Resistance, Minor",
+        "candidates": [
+          {
+            "key": "ring-of-energy-resistance-minor",
+            "name": "Ring of Energy Resistance, Minor",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.KGn5Uhf1MK5NPKbL",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "5c82e69e0036232d2605cbbaffa5da1e41f02a326bd0c3d6bbd82346dafa00ac",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Ring of Energy Resistance",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "icons/equipment/finger/ring-shield-silver.webp",
+      "source": {
+        "key": "ring-of-protection-1",
+        "name": "Ring of Protection +1",
+        "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/finger/ring-shield-silver.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Actual protective ring, cloak, glove or pendant illustration only; quantities and source-specific rules override unrelated record mechanics."
+    },
+    "output": {
+      "file": "src/packs/items/charms/energy-resisting-ring-c5864e1620102a43.json",
+      "id": "c5864e1620102a43",
+      "type": "equipment",
+      "sha256": "e501f3a34796e1565f59b7e65676469dba7b1f6de8bb61cbfeb0fdb4c89b0b0b"
+    }
+  },
+  "wiki:charms:ultimate:item:dimlight-veil": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "2261f333875bbef77c1d8074e7b9511ca1782752632b64467b3ccfe8dd0c61ff",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "original",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. A physical cloth veil using Light magic, not an Akashic veil. While worn, immune to dazzled and unaffected by light sensitivity; immunity and any condition removal remain manual. The +2 save bonus is only against Light effects. No general blindness immunity, darkvision, gaze protection, concealment or blanket save bonus is borrowed from inspected alternatives.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Dim Light Veil",
+        "candidates": []
+      },
+      {
+        "name": "Lenses of Darkness",
+        "candidates": [
+          {
+            "key": "lenses-of-darkness",
+            "name": "Lenses of Darkness",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.IauJ6kSLVBr0CtC1",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/head/goggles-leather-blue.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "486d062eb09cf2c7ae92fa4a8100b711957904631e33aedc7114e9cca4267482",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Goggles of Night",
+        "candidates": [
+          {
+            "key": "goggles-of-night",
+            "name": "Goggles of Night",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.gU2sAerAAKShlF7t",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/head/goggles-leather-blue.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "01576b538715a69697e950cf79fbdee2e435aa40684cc2035cce51a9bb6e4539",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Darksight Goggles",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "modules/additional-spheres-content/icons/items/charms/dimlight-veil.webp",
+      "decision": "Full exact/alternate/component record and actual-art review found no adequate source-specific illustration; original art preserves the published physical form."
+    },
+    "output": {
+      "file": "src/packs/items/charms/dimlight-veil-3f458ce0db259169.json",
+      "id": "3f458ce0db259169",
+      "type": "equipment",
+      "sha256": "7cc4fddc524e39697f3f70bdbd93f46c7eae973ab4ec98887795318d1d29df11"
+    }
+  },
+  "wiki:charms:ultimate:item:gloves-of-air-mastery": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "73fc07e5bcb659ee108af7f57cd16e0ae82287bf6fd374ecdc5e1dc69b164f15",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "original",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. Quantity one is a complete negligible-weight pair; both gloves must be worn. The lesser tier treats the wearer as having Improved Bull Rush only for using Air Blast, while its bull-rush CMD bonus is continuous. No global CMB/CMD bonus, ordinary feat grant, Greater Bull Rush, Swim/Climb bonus or glove weapon attack.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Air Mastery Gloves",
+        "candidates": []
+      },
+      {
+        "name": "Improved Bull Rush",
+        "candidates": [
+          {
+            "key": "improved-bull-rush",
+            "name": "Improved Bull Rush",
+            "uuid": "Compendium.pf1.feats.Item.dn2KgHFQRbuoNRx0",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "feats",
+            "type": "feat",
+            "subType": "feat",
+            "img": "systems/pf1/icons/feats/improved-bull-rush.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "f78ef13cf811303d190ec7bfa92bd3c56cceaf6f04a2d0d35c748c20b2c4b443",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Greater Bull Rush",
+        "candidates": [
+          {
+            "key": "greater-bull-rush",
+            "name": "Greater Bull Rush",
+            "uuid": "Compendium.pf1.feats.Item.XGvS0hHv58XAeQij",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "feats",
+            "type": "feat",
+            "subType": "feat",
+            "img": "systems/pf1/icons/feats/greater-bull-rush.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "6c6533f237fd14486762bcb7a3e8c96a1cbec50139542c45edd33c6dbb7f23ba",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
+      "source": {
+        "key": "gauntlets-of-the-skilled-maneuver",
+        "name": "Gauntlets of the Skilled Maneuver",
+        "uuid": "Compendium.pf-content.pf-wondrous.Item.QyeFILlxijlAqLGT",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-wondrous",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "2cf0361bbfdc76bffe8b09aaea9d3d7faa2ab2c85b342a88843c6074d385b85f",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Actual protective ring, cloak, glove or pendant illustration only; quantities and source-specific rules override unrelated record mechanics."
+    },
+    "output": {
+      "file": "src/packs/items/charms/gloves-of-air-mastery-c2db6277b7fd2236.json",
+      "id": "c2db6277b7fd2236",
+      "type": "equipment",
+      "sha256": "cff0c3168ec69d7acebdcac176aabca03277f725568f560a34115c46e05000cc"
+    }
+  },
+  "wiki:charms:ultimate:item:umbral-mantle": {
+    "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+    "descriptionSha256": "100cd27198ebbc62ff4f4b1f62243fc613814f1bfacb2acac03c8c6d8baa5f11",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-charms",
+    "decision": "adapt",
+    "reason": "Review the selected source tier, native bonus type and physical form individually. Selected base tier grants +1 resistance to all saves. The complete scaling schedule remains in the source; track attunement/progression and deliberately update the selected tier before using later benefits. No base-price concealment action or spell-point pool is granted. Higher-tier darkness concealment has sight-based exceptions and external spell-point costs. Source moderate aura at CL three differs from PF1's faint label; issue #31. No invented aura override.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Cloak of Resistance +1",
+        "candidates": [
+          {
+            "key": "cloak-of-resistance-1",
+            "name": "Cloak of Resistance +1",
+            "uuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "969c634bf649ccc36e6f762af02572affadf7d56fc712649ca706b6d42b5320f",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "adapt",
+            "reason": "Reviewed native profile/bonus component only; override source name, body, tier, school, CL, price, weight and conditional rules."
+          }
+        ]
+      },
+      {
+        "name": "Cloak of Resistance",
+        "candidates": []
+      },
+      {
+        "name": "Cloak of Displacement, Minor",
+        "candidates": [
+          {
+            "key": "cloak-of-displacement-minor",
+            "name": "Cloak of Displacement, Minor",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.mTIu6zVrfUnX7dV9",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/back/mantle-collared-brown.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "9970bb5778d7078239264ed49d823a4a24252feb5e1f255101f7586b9fb24384",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      },
+      {
+        "name": "Cloak of Minor Displacement",
+        "candidates": [
+          {
+            "key": "cloak-of-displacement-minor",
+            "name": "Cloak of Displacement, Minor",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.mTIu6zVrfUnX7dV9",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/equipment/back/mantle-collared-brown.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "9970bb5778d7078239264ed49d823a4a24252feb5e1f255101f7586b9fb24384",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "reordered-name",
+            "decision": "reject",
+            "reason": "Inspected alternate has a different full rules/version/type, chosen tier, bonus, slot or inadequate physical illustration. Do not import its unrelated mechanics."
+          }
+        ]
+      }
+    ],
+    "adaptationSource": {
+      "key": "cloak-of-resistance-1",
+      "name": "Cloak of Resistance +1",
+      "uuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "969c634bf649ccc36e6f762af02572affadf7d56fc712649ca706b6d42b5320f",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name",
+      "decision": "adapt",
+      "reason": "Use reviewed native data/bonus interface, with all Spheres source overrides and explicit manual limits above."
+    },
+    "artwork": {
+      "path": "icons/equipment/back/cloak-layered-grey-white.webp",
+      "source": {
+        "key": "cloak-of-elvenkind",
+        "name": "Cloak of Elvenkind",
+        "uuid": "Compendium.pf1.items.Item.HSF0j88RR9JeTaJi",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/back/cloak-layered-grey-white.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "74951cc5a7c9423f90d2678e7629a17ab4d1c3e917f18a5cceb638599faa2a75",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Actual grey cloth cloak illustration only; no Stealth bonus, camouflage or elven crafting requirement."
+    },
+    "output": {
+      "file": "src/packs/items/charms/umbral-mantle-f02af93c3ad1b65b.json",
+      "id": "f02af93c3ad1b65b",
+      "type": "equipment",
+      "sourceUuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
+      "sha256": "5050a2f9b1020c98b802ecf1b6a7b6026cd62762d8c061dbee66c5640e65b9a9"
+    }
   }
 }

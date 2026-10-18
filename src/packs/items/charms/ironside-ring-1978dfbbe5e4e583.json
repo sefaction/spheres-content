@@ -3,7 +3,7 @@
   "_key": "!items!1978dfbbe5e4e583",
   "name": "Ironside Ring",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/finger/ring-shield-silver.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -15,7 +15,7 @@
       "sourceSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
       "descriptionSha256": "fff259f725c96d802a18de9435bafc3bd77e6bf49caf6d7484373e57ab050b5b",
       "phase": "descriptive",
-      "automation": "not-reviewed",
+      "automation": "reviewed",
       "edition": "ultimate",
       "category": "charms",
       "intake": {
@@ -24,25 +24,37 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "implemented",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "not-needed",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-charm-bonuses",
+      "selectedVariant": "published cold-iron ring, 40000 gp",
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.items.Item.SSgdlwKyAPjYQ8ak",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "fd0976b8f8004ec60ae80725a27424dc978c2b2179eba67c80d3cf522f544705",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> moderate Alteration and Enhancement; <strong>CL</strong> 8th<br>\n<strong>Slot</strong> ring; <strong>Price</strong> 40,000 gp; <strong>Weight</strong> -</p>\n<p><strong>Description</strong><br>\nThis ring is carved from cold iron, and gives its wearer a sense of unbreakable stability. The wearer of the ring gains a +4 enhancement bonus to their Constitution, a +2 natural armor bonus, and a +4 enhancement bonus to their CMD.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Alteration sphere, Enhancement sphere; <strong>Cost</strong> 20,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc29\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: published cold-iron ring, 40000 gp.</p><p>While worn: +4 enhancement Constitution, +2 natural armor and +4 enhancement CMD. The natural armor bonus uses native base natural armor, not an enhancement to natural armor; it competes with other base natural armor rather than adding to it. The CMD enhancement is separate from AC and does not improve CMB or touch AC. No added weapon, damage reduction or first-day restriction absent from this source.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,15 +75,40 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 8,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Alteration and Enhancement"
     },
     "hp": {},
     "broken": false,
     "hardness": 0,
-    "changes": [],
+    "changes": [
+      {
+        "_id": "06d84a998688a93c",
+        "formula": "4",
+        "operator": "add",
+        "target": "con",
+        "type": "enh",
+        "priority": 0
+      },
+      {
+        "_id": "8e3b22010487ada8",
+        "formula": "2",
+        "operator": "add",
+        "target": "nac",
+        "type": "base",
+        "priority": 0
+      },
+      {
+        "_id": "7f4ad1aedcd29da5",
+        "formula": "4",
+        "operator": "add",
+        "target": "cmd",
+        "type": "enh",
+        "priority": 0
+      }
+    ],
     "changeFlags": {
       "immuneToMorale": false,
       "loseDexToAC": false,
@@ -90,7 +127,7 @@
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

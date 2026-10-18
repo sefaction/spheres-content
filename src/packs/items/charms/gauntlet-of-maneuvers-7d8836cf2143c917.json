@@ -3,7 +3,7 @@
   "_key": "!items!7d8836cf2143c917",
   "name": "Gauntlet of Maneuvers",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "implemented",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-charm-bonuses",
+      "selectedVariant": "base +1 competence; one maneuver not selected; one complete pair"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint (+1), moderate (+2/+3), or strong Enhancement (+4/+5); <strong>CL</strong> 3rd (+1), 6th (+2), 9th (+3), 12th (+4), or 15th (+5)<br>\n<strong>Slot</strong> hands; <strong>Price</strong> 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), or 25,000 gp (+5); <strong>Weight</strong> 1&nbsp;lb.</p>\n<p>This gauntlet always comes in pairs, both of which must be worn to obtain its effects. While worn, the gauntlet of maneuvers grants a +1 to +5 competence bonus to one combat maneuver. The wearer receives the same bonus to their CMD against the same combat maneuver.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Enhancement sphere; <strong>Cost</strong> 500 gp (+1), 2,000 gp (+2), 4,500 gp (+3), 8,000 gp (+4), or 12,500 gp (+5)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc22\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: base +1 competence; one maneuver not selected; one complete pair.</p><p>Quantity one is a complete one-pound pair, and both gauntlets must be worn. One crafted combat maneuver is not yet selected. Apply +1 competence to that maneuver's CMB and defensive CMD only; no global CMB/CMD modifier, manufactured gauntlet attack, weapon enhancement or separately priced second glove.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 3,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Enhancement"
     },
     "hp": {},
     "broken": false,
@@ -83,14 +85,23 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
+    "contextNotes": [
+      {
+        "target": "cmb",
+        "text": "Only the selected crafted maneuver, with both gauntlets worn: +1 competence to the maneuver check; choose the maneuver before applying."
+      },
+      {
+        "target": "cmd",
+        "text": "Against that same selected maneuver only, with both gauntlets worn: +1 competence to CMD, resolved manually."
+      }
+    ],
     "actions": [],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

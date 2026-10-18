@@ -8,19 +8,23 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   Both #35 Windows/Ubuntu jobs passed at that exact head. Issue #36 tracks the
   next frozen hundred: eleven apparatuses, forty-seven charms, forty-two compounds.
   Stable source-key order excludes earlier membership, legacy and Akashic work.
-  No source/ID changes or images assigned for this new group yet.
+  Twenty selected charm profiles are now authored with complete original bodies
+  and IDs preserved, twenty-one native Changes across sixteen records and bounded
+  conditional notes on five. Four records deliberately have no global modifier.
 - Selected twenty charms sharing ability/AC/save or related worn-item profiles.
   Full source bodies and metadata were read from `.local/batch3-charms-source-review.json`.
   Exact/alternate/component searches inspected 23 complete records; additional
   artwork searches inspected twelve more plus the full existing original cloth
   headband record. Twenty-six actual installed core/system candidate illustrations
   were downloaded, hashed and visually inspected on a 128 px contact sheet.
-- Proposed art: reuse twelve appropriate core/existing original illustrations;
-  make eight missing source-specific icons (three motif belts, paper/wax blessing,
-  cloth-wrapped crystal, iron neck ring, wood/leather talisman, eye-shading veil).
-  Do not reuse ring/crown/belt images merely because a source record says headband.
+- Art is complete and assigned: nine core/system references, three uses of the
+  existing original cloth headband, eight original 256 px WebPs (52,300 bytes total,
+  largest 8,164). All twenty were visually checked at 64/128 px. Prompts and hashes
+  are registered in config/content.json; source PNGs, full review caches and
+  `batch3-charms-all-art-review.png` remain ignored locally. Eighty images remain
+  in the frozen third hundred. No ring/crown/belt substitute for cloth headbands.
 - Issue #37 records six ability belts/headbands whose 4,000-gp market prices were
-  parsed as 2,000-gp crafting costs. Correct those six reviewed records only.
+  parsed as 2,000-gp crafting costs. Those six reviewed records now use 4,000 gp.
   Full original bodies/hashes stay intact. The broad parser fix is separate.
 - Natural armor bonuses must be distinct from enhancements to natural armor;
   PF1 native `nac`/`base` versus `nac`/`enh` is confirmed in core race/item data and
@@ -30,16 +34,19 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   Gauntlet/energy choices remain unselected; do not grant broad CMB/CMD/resistance.
 - Core PF1 Unarmed Strike is an attack with subtype weapon; native `nattack` and
   `ndamage` target natural-subtype attacks. Pugilist's Charm must explicitly keep
-  unarmed handling separate rather than silently claiming that interface covers
-  every unarmed strike. No broad manufactured-weapon enhancement is appropriate.
+  unarmed handling separate under issue #38 rather than claiming that interface
+  covers every unarmed strike. No broad manufactured-weapon enhancement is granted.
 - Umbral Mantle's base-tier moderate aura at CL3 conflicts with native faint;
   recorded under #31. Keep the full scaling source/CL and make the selected tier
   explicit; no invented aura override or higher-tier concealment at base price.
 - Last installed/tested build remains `c7743ad`, with final 6,788-record semantic
   pass and server in Setup. No live build/transfer/testing process remains.
-  Next: finalize eight artwork assets and reviewed native profiles, focused tests,
-  clean gate, guarded deployment, native acceptance and stacked draft PR. Preserve
-  existing reviews and all unmerged work; no merge/release approval.
+  Seven focused semantic tests and full source validation pass. An independent
+  comparison to #35's exact commit confirms unchanged complete bodies, IDs/source
+  keys, quantities and weights; only the six reviewed price corrections differ.
+  Next: clean gate, guarded deployment, native equip/stacking/roll acceptance,
+  final exact semantic audit and draft PR stacked on #35. Preserve existing reviews
+  and all unmerged work; no merge/release approval.
 
 ## Completed previous group: final twenty items in physical batch 2
 

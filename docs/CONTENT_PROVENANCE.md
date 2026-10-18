@@ -299,3 +299,28 @@ third-party image bytes are not packaged. Native interface evidence and source
 hashes are in research/physical-items-batch-2-final.json. Existing OGL/GPL notices
 cover the reviewed data profiles; no upstream program code is copied. Source
 aura contradictions remain explicit under issue #31. No compatibility claim.
+
+## Third-batch charm group: 2026-10-17
+
+Twenty charms retain complete approved OGL rules and page SHA
+c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be.
+Twenty exact/alternate/component searches inspected 23 complete records; further
+art searches inspected twelve more plus one complete existing module headband.
+Actual candidate images were inspected before choosing or generating artwork.
+The selected records, UUIDs, versions, source hashes and rejection/adaptation
+decisions are pinned in config/physical-item-reviews.json.
+
+Reviewed PF1 11.11 native bonus interfaces and source-file hashes are recorded in
+research/physical-items-batch-3-charms.json. They distinguish base natural armor,
+its enhancement, typed AC/CMD inheritance, saves, current ability totals and
+natural-subtype attacks. No upstream program code is copied. Existing native-data
+OGL/GPL notices remain applicable. Six corrected market prices are separate from
+the unmodified original source bodies and approved snapshot.
+
+Eight original generated 256 px WebPs total 52,300 bytes (largest 8,164). Built-in
+image generation prompts, original/output hashes and encoding are registered in
+config/content.json; originals remain ignored locally. Nine core/system image
+references and three uses of the previously generated cloth headband import no
+new third-party image bytes or unrelated item mechanics. The first group leaves
+eighty images pending in the frozen third hundred; mechanics/acceptance remain
+distinct. Akashic content is not selected.

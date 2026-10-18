@@ -3,7 +3,7 @@
   "_key": "!items!ad3e337d581f72a8",
   "name": "Fragment of Destiny",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/charms/fragment-of-destiny.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -15,7 +15,7 @@
       "sourceSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
       "descriptionSha256": "c17f6ff0b5d5f4001630f897dae460ea22a11b5d6fefbdb471ec91cba9940d93",
       "phase": "descriptive",
-      "automation": "not-reviewed",
+      "automation": "reviewed",
       "edition": "ultimate",
       "category": "charms",
       "intake": {
@@ -24,25 +24,37 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "implemented",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "not-needed",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-charm-bonuses",
+      "selectedVariant": "base +1 luck to all saves; neck chosen from any occupied magical item slot",
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "969c634bf649ccc36e6f762af02572affadf7d56fc712649ca706b6d42b5320f",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint (+1) or moderate (+2/+3) Fate; <strong>CL</strong> 3rd (+1), 6th (+2), or 9th (+3)<br>\n<strong>Slot</strong> any; <strong>Price</strong> 2,500 gp (+1), 10,000 gp (+2), or 22,500 (+3); <strong>Weight</strong> 1&nbsp;lb.</p>\n<p>This crystal has been carefully woven into cloth and is designed to be worn anywhere on the body. While worn, a fragment of destiny provides a +1 to +3 luck bonus to all saving throws.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Fate sphere, <strong>Cost</strong> 1,250 gp (+1), 5,000 gp (+2), or 11,250 gp (+3)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc20\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: base +1 luck to all saves; neck chosen from any occupied magical item slot.</p><p>The cloth-woven crystal grants +1 luck to all saving throws, not skill checks, ability checks or armor class. It occupies the selected neck slot; another source-permitted real magical item slot may be chosen. It is not a slotless Luckstone. The related blessing's published bonus-type variants require deliberate selection and matching source sphere; this profile remains luck.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,15 +75,24 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 3,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Fate"
     },
     "hp": {},
     "broken": false,
     "hardness": 0,
-    "changes": [],
+    "changes": [
+      {
+        "_id": "3a3140be426b201b",
+        "formula": "1",
+        "operator": "add",
+        "target": "allSavingThrows",
+        "type": "luck",
+        "priority": 0
+      }
+    ],
     "changeFlags": {
       "immuneToMorale": false,
       "loseDexToAC": false,
@@ -90,7 +111,7 @@
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },
@@ -115,7 +136,7 @@
       "explode": null
     },
     "subType": "wondrous",
-    "slot": "slotless",
+    "slot": "neck",
     "equipmentSubtype": "",
     "hands": 0,
     "baseTypes": [],
