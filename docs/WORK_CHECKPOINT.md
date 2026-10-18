@@ -5,8 +5,9 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
 ## Active work in progress: final twenty items in physical batch 2
 
 - Branch `codex/physical-items-batch-2-final`, based on tooling PR #34 head
-  `4d1277a`; issue #26. Both Windows/Ubuntu checks passed for #34. No canonical content or new art for
-  this group yet. All earlier PRs remain unmerged; no merge/release approval.
+  `4d1277a`; issue #26. Both Windows/Ubuntu checks passed for #34. No canonical
+  item-profile edits for this group yet. All earlier PRs remain unmerged;
+  no merge/release approval.
 - The twenty full source bodies and twenty exact/alternate/component searches
   have been read; 26 complete compendium records are cached and inspected in
   `.local/batch2-final-compendium-inspections.json`. The full artwork/component
@@ -14,7 +15,7 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   candidate images were visually inspected. Five parent images and one component
   illustration were selected in `.local/batch2-final-selected-art.json`; no
   unrelated source mechanics or optional module artwork will be imported.
-  Fifteen parent icons plus one clean standalone quill still need original art.
+  Fifteen parent icons plus one clean standalone quill now have original art.
   Full source/plan/search caches use
   the `.local/batch2-final-` prefix; detailed lookahead is in
   `.local/batch2-final-review-notes.md`.
@@ -26,10 +27,32 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
 - Issue #31 now also records the Lenses' faint/CL10 and Gentle Shade's faint/CL7
   conflicts; PF1 11.11 derives moderate at those levels. Preserve source headers
   and CL rather than inventing errata or aura overrides.
-- Next safe step: generate original art for the unmatched objects, then author
-  the coherent twenty-item group using the reviewed native profiles and explicit
-  container/component/resource limitations. Keep Akashic/legacy items deferred. Last deployed clean build
-  remains `eb14e78`; the dedicated server is in Setup.
+- All sixteen original illustrations were generated with the built-in image tool,
+  copied into ignored `.local/batch2-final-originals/`, converted to 256 px WebP
+  under `static/icons/items/apparatuses/`, and viewed at 64/128 px alongside the
+  six selected core/component images. Total new WebP size: 124,308 bytes; largest
+  12,136 bytes. Case art has exactly one quill and two empty positions; the separate
+  quill has no dripping ink. The black Patch Hole is cloth, not an active portal.
+  Complete prompts, original paths and source/output hashes are in ignored
+  `.local/batch2-final-image-prompts.json`, `-generated-paths.json` and
+  `-generated-registry.json`; final preview: `-all-art-review.png`.
+- The sixteen WebPs are currently untracked and not yet registered/assigned in
+  canonical content. Do not delete them, blindly rerun old author scripts or deploy
+  this partial state. Source descriptions/IDs and production audit counts are
+  still unchanged; the frozen image queue remains eighty assigned/twenty pending
+  until the new item profiles and registry are completed.
+- Reviewed native PF1 consumables do support Charges pools; the consumable class
+  only adjusts carried state inside containers. Inspect common charge handling
+  before setting any automatic deletion/refill behavior. Existing Trash Bag shows
+  a valid derived-source child schema with parent source UUID, approved page hash,
+  a distinct stable child key, no compiler key and an assembly-pinned action hash.
+- Next safe step: author the coherent twenty-item group and register its art using
+  the reviewed native profiles and explicit container/component/resource limits.
+  Preserve complete original text/IDs/snapshot hashes. Test the kit/case assemblies,
+  Patch Hole timing, conditional bonuses and separate resource units, then run the
+  clean gate, guarded deployment, native acceptance and final semantic audit.
+  Keep Akashic/legacy items deferred. Last deployed clean build remains `eb14e78`;
+  its last verified remote state is Setup.
 
 ## Prior tooling batch: committed reads for remote audits
 
