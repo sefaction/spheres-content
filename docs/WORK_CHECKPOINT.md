@@ -2,7 +2,36 @@
 
 Updated: 2026-10-17 (work began 2026-09-19 local time).
 
-## Active work in progress: batch committed reads for remote audits
+## Active work in progress: final twenty items in physical batch 2
+
+- Branch `codex/physical-items-batch-2-final`, based on tooling PR #34 head
+  `4d1277a`; issue #26. Both Windows/Ubuntu checks passed for #34. No canonical content or new art for
+  this group yet. All earlier PRs remain unmerged; no merge/release approval.
+- The twenty full source bodies and twenty exact/alternate/component searches
+  have been read; 26 complete compendium records are cached and inspected in
+  `.local/batch2-final-compendium-inspections.json`. The full artwork/component
+  shortlist adds 22 records (44 unique records overall); all twenty core/system
+  candidate images were visually inspected. Five parent images and one component
+  illustration were selected in `.local/batch2-final-selected-art.json`; no
+  unrelated source mechanics or optional module artwork will be imported.
+  Fifteen parent icons plus one clean standalone quill still need original art.
+  Full source/plan/search caches use
+  the `.local/batch2-final-` prefix; detailed lookahead is in
+  `.local/batch2-final-review-notes.md`.
+- Patch Hole is a temporary Create Gap, not persistent storage. Keyhome/Pocket
+  of Holding need separate spatial/capacity review. Medic Satchel needs separately
+  usable kit charges inside a native container; Quill of Endless Ink's usual
+  three-quill case must not be mistaken for three bundled quills. Reconcile
+  contents price/weight and retain stable top-level IDs.
+- Issue #31 now also records the Lenses' faint/CL10 and Gentle Shade's faint/CL7
+  conflicts; PF1 11.11 derives moderate at those levels. Preserve source headers
+  and CL rather than inventing errata or aura overrides.
+- Next safe step: generate original art for the unmatched objects, then author
+  the coherent twenty-item group using the reviewed native profiles and explicit
+  container/component/resource limitations. Keep Akashic/legacy items deferred. Last deployed clean build
+  remains `eb14e78`; the dedicated server is in Setup.
+
+## Prior tooling batch: committed reads for remote audits
 
 - Branch `codex/batch-remote-source-reads`, based on group-4 draft PR #33 head
   `7bc3fa2`; issue #32. Both #33 Windows/Ubuntu CI checks passed. All stacked PRs
@@ -31,8 +60,8 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   for all 6,788 documents, non-pack receipt bytes and external images, with
   unchanged remote snapshots. The instance remains in Setup.
 - Draft PR #34 is pushed, stacked on #33:
-  https://github.com/sefaction/spheres-content/pull/34. CI is pending; no merge
-  or release approval.
+  https://github.com/sefaction/spheres-content/pull/34. Both Windows/Ubuntu checks
+  passed at `4d1277a`; no merge or release approval.
 - Next safe step: check #34 CI, then create the final twenty-item feature branch
   from this one and continue the cached non-Akashic review below. Additional
   source/kit observations are in ignored `.local/batch2-final-review-notes.md`.
