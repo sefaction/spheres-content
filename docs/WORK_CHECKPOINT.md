@@ -2,7 +2,33 @@
 
 Updated: 2026-10-17 (work began 2026-09-19 local time).
 
-## Active work in progress: physical batch 2, group 4
+## Active work in progress: batch committed reads for remote audits
+
+- Branch `codex/batch-remote-source-reads`, based on group-4 draft PR #33 head
+  `7bc3fa2`; issue #32. Both #33 Windows/Ubuntu CI checks passed. All stacked PRs
+  remain unmerged. No merge/release approval.
+- The semantic audit previously launched one `git show` per source document.
+  A read-only trial fetched all 6,788 blobs in two Git calls in 922 ms; twenty
+  distributed samples matched individual reads exactly. The preceding complete
+  remote audit passed but took roughly ten minutes.
+- `scripts/git-sources.mjs` now batches exact receipt-commit sources, checks
+  byte-framed UTF-8 blobs and rejects unexpected modes/formats, malformed output
+  and duplicate document IDs. Full remote hashes, Setup/path guards, snapshot
+  immutability and exact pack comparison remain in place. Each pack reports its
+  verified count. No content, IDs, compatibility fields or world data changed.
+- Ten focused Git-source/remote tests passed, including older commits versus a
+  dirty checkout, Unicode/nested paths, duplicate/malformed sources, truncated
+  batch output, immutable source databases and existing deployment safeguards.
+- A complete optimized audit of the existing `443947e` installation passed in
+  121.92 seconds for all 6,788 documents, non-pack receipt bytes and referenced
+  images. The earlier audit took roughly ten minutes. Full clean gate,
+  branch-build deployment and tooling PR remain pending. The world stays in Setup.
+- Next safe step: commit, run the full
+  clean gate, perform the guarded module deployment and exact semantic audit,
+  then push/open a separate draft PR stacked on #33. Continue the final twenty
+  non-Akashic items afterward using the cached review below.
+
+## Prior reviewed content batch: physical batch 2, group 4
 
 - Branch `codex/physical-items-batch-2-group-4`, based on `a834991` from draft
   PR #30. Both Windows/Ubuntu CI checks passed for #30. Issue #26 remains active;
@@ -39,8 +65,8 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   Guarded dry-run, staged deployment and strict installed-byte checks passed on
   2026-10-17; ten recoverable module backups remain. Draft PR #33 is pushed,
   stacked on `codex/metamagic-apparatus-group-3` (#30):
-  https://github.com/sefaction/spheres-content/pull/33. CI is pending; no merge
-  or release approval.
+  https://github.com/sefaction/spheres-content/pull/33. Both Windows/Ubuntu CI
+  checks passed at `7bc3fa2`; no merge or release approval.
 - Batch 2 now has eighty reviewed images and twenty pending, all other apparatuses.
   Next ignored plan: `.local/batch2-final-plan.json`, beginning Field Researcher's
   Lenses, Force Hook and Gentle Shade Trinket. Akashic/legacy production stays
@@ -81,7 +107,7 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   two Git calls in 922 ms, matching twenty distributed individual reads exactly.
   Twenty individual reads took 1,915 ms (full old-read estimate ~650 seconds).
   Preserve the existing receipt/Setup/hash/snapshot/exact-comparison checks.
-- Next safe step: check #33 CI, then address #32 on its own feature branch before the final
+- Next safe step: address #32 on its own feature branch before the final
   twenty-item group. Preserve test copies; no campaign, merge or release work.
 
 ## Prior reviewed content batch: physical batch 2, group 3

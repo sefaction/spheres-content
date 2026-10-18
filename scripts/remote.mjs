@@ -15,6 +15,7 @@ import {
 import { execFileSync } from "node:child_process";
 import { createHash, randomUUID } from "node:crypto";
 import { extractPack } from "@foundryvtt/foundryvtt-cli";
+import { readCommittedPackSources } from "./git-sources.mjs";
 import {
   root,
   moduleId,
@@ -584,29 +585,21 @@ export async function smokeRemote(semantic = false) {
       "Installed non-pack bytes differ from receipt",
     );
     const auditRoot = path.join(root, ".local", "pack-audits", randomUUID());
+    const expectedPacks = readCommittedPackSources(
+      receipt.commit,
+      manifest.packs.map((pack) => pack.name),
+    );
     for (const pack of manifest.packs) {
       safeRelative(pack.path);
       safeRelative(pack.name);
-      const sources = git(
-        "ls-tree",
-        "-r",
-        "--name-only",
-        receipt.commit,
-        `src/packs/${pack.name}`,
-      )
-        .split("\n")
-        .filter(Boolean);
-      const expected = {};
-      for (const file of sources) {
-        assert(file.endsWith(".json"), "Unexpected canonical source format");
-        const doc = JSON.parse(git("show", `${receipt.commit}:${file}`));
-        assert(!expected[`${doc._id}.json`], "Duplicate canonical ID");
-        expected[`${doc._id}.json`] = doc;
-      }
+      const expected = expectedPacks[pack.name];
       await auditPackCopy(
         path.join(profile.target, pack.path),
         path.join(auditRoot, pack.name),
         expected,
+      );
+      console.log(
+        `Audited ${pack.name}: ${Object.keys(expected).length} documents match deployed sources.`,
       );
     }
     await checkSetup(profile.url);
