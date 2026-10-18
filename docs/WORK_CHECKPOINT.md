@@ -2,15 +2,23 @@
 
 Updated: 2026-10-18 (work began 2026-09-19 local time).
 
-## Stopped after the completed compound group
+## Approved integration; stop after the completed compound group
 
 - User direction: "Finish this group, then wrap up." The twenty-compound group
   and its prepared-oil correction are complete within their recorded review scope.
   No further batch is selected. Forty third-batch images remain for future work;
   Akashic remains deferred. Resume only on a new user request.
-- Branch codex/physical-items-batch-3-compounds; draft PR #45 depends on draft
-  #43 and targets its branch. Both remain unmerged pending their own approval.
-  No tag, release, stable-manifest update or world migration is authorized.
+- The user explicitly approved #45 and then separately approved its dependency
+  #43 on 2026-10-18. PR #43 merged into main as
+  0754bf8835cbc1cc7796a1e3842e07a94576cf17; its source tree exactly matches
+  reviewed f389be3. PR #45 now targets main. This checkpoint update is part of
+  its approved integration and changes no content or tested behavior.
+- Final merge state, merge commit and main CI are authoritative on GitHub at
+  https://github.com/sefaction/spheres-content/pull/45. Complete that approved
+  merge after its final checks, verify main CI, close #46 with the PR link if
+  GitHub has not closed it, then stop. On a later resume, fetch main and reconcile
+  those results before selecting any new work. No tag, release, stable-manifest
+  update, redeployment or world migration is part of this integration.
 
 ## Completed follow-up: prepared-oil contact window
 
@@ -48,7 +56,7 @@ Updated: 2026-10-18 (work began 2026-09-19 local time).
   remains open until its resolving PR merges. See TESTING.md and ignored
   .local/quintessential-window-* evidence. No test process remains running.
 
-## Active work: first twenty-compounds group in batch 3
+## Historical acceptance: first twenty-compounds group in batch 3
 
 - Branch codex/physical-items-batch-3-compounds starts at #43 head f389be3.
   #43 passed Windows/Ubuntu on its final head and remains draft/unmerged pending
@@ -84,7 +92,7 @@ Updated: 2026-10-18 (work began 2026-09-19 local time).
   stopping after this group. The oil annotation correction above supersedes the
   earlier deployment for that one item. No new merge or release approval.
 
-## Active work: second twenty-charms group in batch 3
+## Historical acceptance: second twenty-charms group in batch 3
 
 - Branch codex/physical-items-batch-3-charms-2 starts at main fba9a28.
   All twelve approved PRs are merged; final main Windows/Ubuntu CI passed.
