@@ -3,7 +3,7 @@
   "_key": "!items!a480f42f8c73de4b",
   "name": "Boots of Striding",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/feet/boots-armored-steel-purple.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -15,7 +15,7 @@
       "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
       "descriptionSha256": "9632935db7ce45cce12f7c8888485c251807e1b60c442d8c1a75c2183cde2c39",
       "phase": "descriptive",
-      "automation": "not-reviewed",
+      "automation": "reviewed",
       "edition": "ultimate",
       "category": "apparatuses",
       "intake": {
@@ -24,25 +24,26 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "implemented",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "boots-of-striding-land-speed"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Enhancement; <strong>CL</strong> 3rd<br>\n<strong>Slot</strong> feet; <strong>Price</strong> 3,000 gp; <strong>Weight</strong> 1 lbs.</p>\n<p>These boots provide a +10 enhancement bonus to the wearer’s base land speed.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Enhancement sphere (Alter Movement (enhance)); <strong>Cost</strong> 1,500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc10\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: published worn/held apparatus.</p><p>While worn, adds a +10 enhancement bonus to base land speed through PF1's landSpeed target. Enhancement bonuses obey native stacking. No fly, swim or climb speed and no Acrobatics/springing bonus is granted.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,15 +64,24 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 3,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Enhancement"
     },
     "hp": {},
     "broken": false,
     "hardness": 0,
-    "changes": [],
+    "changes": [
+      {
+        "_id": "08583bfceef09cdb",
+        "formula": "10",
+        "operator": "add",
+        "target": "landSpeed",
+        "type": "enh",
+        "priority": 0
+      }
+    ],
     "changeFlags": {
       "immuneToMorale": false,
       "loseDexToAC": false,

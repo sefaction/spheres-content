@@ -124,3 +124,24 @@ rod's fixed count. Studied bypasses only racial defenses after its racial-CR
 Knowledge check. Tricking uses Charisma for its dirty trick check. Conditional
 light/darkness, resistance, conditions and later saves remain effect-specific
 instructions, pending an actual casting/target interface and remote acceptance.
+
+## Second-batch storage and equipment profiles
+
+Empty native containers preserve separately usable user-added contents without
+bundling illustrated wands, grenades or flask liquids. The grenade bandolier is
+the base 900 gp, five-empty-slot variant; transient bomb generation starts at a
+separate upgrade. Bottomless Flask has five twenty-gallon spaces in the source;
+compartment/volume accounting and pouring stay manual, with no invented weight
+limit or weight exemption. PF1 container sheets do not expose activation actions.
+
+Bludgeoner's Rod is a native +2 light mace. Its normal attack does not always add
+the conditional 15d6; a move-action helper explains the next-first-attack limit.
+Boots of Striding add ten enhancement feet only to land speed, without inheriting
+the conventional Striding and Springing item's Acrobatics benefit. Soulreaving's
+external souls and free daily use are separate; Crimson Flask's two-point least
+variant starts empty and does not refresh daily. Paired notebooks/quills count as
+one complete priced set. Crafted choices and conditional defenses remain explicit.
+
+Spheres school names use PF1's native custom-school field. The two Weather cloaks
+retain published CL 5 and moderate-aura text while PF1 derives faint strength;
+issue #31 tracks this discrepancy. Do not silently rewrite the source or raise CL.

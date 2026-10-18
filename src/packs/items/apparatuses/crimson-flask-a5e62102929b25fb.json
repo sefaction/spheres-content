@@ -3,7 +3,7 @@
   "_key": "!items!a5e62102929b25fb",
   "name": "Crimson Flask",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/crimson-flask.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment",
+      "selectedVariant": "least flask; two-point storage; initially empty; 2000 gp"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Blood; <strong>CL</strong> 5th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 2,000 gp (least), 8,000 gp (lesser), 16,000 gp (greater); <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nCreatures with the Reservoir feat may spend a full-round action filling this flask with stolen blood, transferring blood points into the flask. The quality of the flask determines how many points it may hold: least - 2, lesser - 4, greater - 6. Reservoir points do not expire while in the crimson flask. A creature possessing the flask may open it as a move action. While holding an open flask, the holder may spend reservoir points as if those points were in its reserve.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Blood sphere; <strong>Cost</strong> 1,000 gp (least), 4,000 gp (lesser), 8,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc16\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: least flask; two-point storage; initially empty; 2000 gp.</p><p>Requires Reservoir. Fill as a full-round action by transferring actual blood points, up to two for the selected least variant; no points expire while stored. Open as a move action, then hold it to spend stored points as your reserve. The manual item counter starts empty, is not daily and does not generate or automatically transfer blood points. Lesser/greater capacities four/six are alternatives, not simultaneous extra pools.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Blood"
     },
     "hp": {},
     "broken": false,
@@ -84,14 +86,71 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "f82716a80d1ddd9f",
+        "name": "Fill Flask from Actual Reservoir",
+        "activation": {
+          "type": "full",
+          "unchained": {
+            "type": "action",
+            "cost": 3
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Requires Reservoir. Fill as a full-round action by transferring actual blood points, up to two for the selected least variant; no points expire while stored. Open as a move action, then hold it to spend stored points as your reserve. The manual item counter starts empty, is not daily and does not generate or automatically transfer blood points. Lesser/greater capacities four/six are alternatives, not simultaneous extra pools."
+          ]
+        }
+      },
+      {
+        "_id": "814399b76c754929",
+        "name": "Open Flask",
+        "activation": {
+          "type": "move",
+          "unchained": {
+            "type": "action",
+            "cost": 1
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Requires Reservoir. Fill as a full-round action by transferring actual blood points, up to two for the selected least variant; no points expire while stored. Open as a move action, then hold it to spend stored points as your reserve. The manual item counter starts empty, is not daily and does not generate or automatically transfer blood points. Lesser/greater capacities four/six are alternatives, not simultaneous extra pools."
+          ]
+        }
+      },
+      {
+        "_id": "df3bc9d75d46df66",
+        "name": "Spend One Stored Blood Point",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Requires Reservoir. Fill as a full-round action by transferring actual blood points, up to two for the selected least variant; no points expire while stored. Open as a move action, then hold it to spend stored points as your reserve. The manual item counter starts empty, is not daily and does not generate or automatically transfer blood points. Lesser/greater capacities four/six are alternatives, not simultaneous extra pools. The counter tracks one manually selected expenditure, not the casting action or an automatic actor-reserve change."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 0,
+      "per": "charges",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "2",
       "rechargeFormula": ""
     },
     "links": {

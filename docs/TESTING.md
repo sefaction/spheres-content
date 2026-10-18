@@ -305,3 +305,57 @@ module Foundry 13 manifest/deprecation warnings remain. The dedicated world was
 returned to Setup. The final semantic audit matched all 6,788 pack documents to
 canonical sources at the deployed commit and verified all non-pack receipt bytes
 using local copies of the installed LevelDB databases.
+
+## Alpha.6 second physical batch, group four
+
+Clean implementation `443947eada252c7600c114a0681ea34beaeb9299` passed all
+83 tests, all 6,788 compiler round trips and two identical 762-file builds.
+ZIP SHA-256:
+`c45d10cf498f2381c593635f73b05d419920c3c681dbb398d5926fd02c934033`.
+The guarded dry-run, staged SMB replacement and strict pre-load hashes passed.
+One authorized oldest module backup was rotated, retaining ten; no restart.
+
+Acceptance on 2026-10-17 used Foundry 13.351, PF1 11.11 and pf1spheres 0.9.0,
+with only ASC alpha.6 and the framework active in Additional Spheres Content
+Test. All five module packs appeared; Items contained 626 entries. Native
+compendium transfers created seven owned copies on the new blank PC
+`ASC Batch 2 Group 4 Acceptance`, without replacing existing actors or items.
+
+- Boots of Striding changed land speed from 30 to 40 when equipped and restored
+  30 when removed. No springing/Acrobatics modifier was added.
+- Bludgeoner's Rod exposed separate Attack and move-action charge helpers. The
+  ordinary melee roll produced a bludgeoning chat card with +2 Enhancement;
+  conditional 15d6 remains manual and is absent from its normal damage profile.
+- Reaching's two successive activations changed its counter 5 -> 4 -> 3.
+  Fleeting's application changed 3 -> 2; its later dismissal left 2. Still worked
+  carried but unequipped and changed 3 -> 2. These check resource helpers, not
+  automatic range/duration/target changes on an actual sphere casting.
+- Soulreaving's external-soul helper left the free daily counter at one; the
+  without-a-soul helper changed it to zero. Actual souls and target rolls remain
+  manual.
+- Crimson Flask began 0/2. Filling its helper created no points, and trying to
+  spend while empty was rejected. After manually setting the test copy to two,
+  opening preserved two and spending one left one. The sheet confirmed Charges,
+  rather than Per Day; no actual actor blood reserve was changed.
+- Animate Wand Bracers, Bandolier of Grenades and Bottomless Flask imported to
+  native container sheets with zero initial contents/value/currency and no
+  weight reduction. Their prices/weights were 4200/1, 900/1 and 1000/2 gp/lb.
+  Source-specific images, complete descriptions, source links and manual limits
+  rendered. The bracers accepted one separately created native zero-value test
+  marker. Container-to-actor transfer/removal and detailed capacity procedures
+  are not established by this check.
+
+The final browser capture contained zero errors, 59 PF1/framework deprecation
+warnings and the expected empty-flask warning; none referenced an ASC script.
+The current daily server debug log had 482 records, including two earlier
+authentication warnings. Its 176-record deployment/acceptance window had no
+warning/error, and there was no current daily error file. Native Return to Setup
+confirmed no active game. The final exact semantic audit passed for all 6,788
+documents, non-pack receipt bytes and referenced external images. Installed
+database snapshots remained unchanged; only local copies were opened.
+
+Advanced conditional effects, full enable/disable/non-GM regression and broader
+acceptance of the preceding content groups remain incomplete. No verified
+compatibility claim or world migration is made. Failed automated file-chooser
+attempts imported nothing; the prepared thirty-item actor fixture was never
+imported. Successful transfers above used actual native compendium dragging.

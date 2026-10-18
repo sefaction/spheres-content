@@ -3,7 +3,7 @@
   "_key": "!items!ea678ec88e551d55",
   "name": "Bracelet of Everlasting Friendship",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/wrist/bracer-orange-fancy.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,26 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> moderate Protection; <strong>CL</strong> 6th<br>\n<strong>Slot</strong> wrist; <strong>Price</strong> 72,000 gp; <strong>Weight</strong> 4 lbs.</p>\n<p>This gold bracelet grants its wearer the Friendship aegis, which allows all of their allies to exclude them from many sphere effects and supernatural abilities that affect an area. Casters often give this bracelet to their warrior friends, allowing them to cast their most destructive attacks with no fear of hitting their beefy barrier.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Protection sphere (Friendship (aegis)); <strong>Cost</strong> 36,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc12\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: published worn/held apparatus.</p><p>While worn, provides the Friendship aegis. Allies may exclude this wearer from qualifying area sphere effects and supernatural abilities. This is an ally-selected area exclusion, not general immunity to area damage or spells; no automatic target filtering or permanent talent grant.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 6,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Protection"
     },
     "hp": {},
     "broken": false,
@@ -115,7 +116,7 @@
       "explode": null
     },
     "subType": "wondrous",
-    "slot": "slotless",
+    "slot": "wrists",
     "equipmentSubtype": "",
     "hands": 0,
     "baseTypes": [],

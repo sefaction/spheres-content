@@ -109,5 +109,57 @@
         "actionsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
       }
     ]
+  },
+  "animate-wand-bracers": {
+    "containerId": "6fa65266baff7d95",
+    "sourceKey": "wiki:apparatuses:ultimate:item:animate-wand-bracers",
+    "totals": {
+      "price": 4200,
+      "weight": 1
+    },
+    "empty": {
+      "price": 4200,
+      "weight": 1
+    },
+    "contents": [],
+    "capacity": {
+      "specified": false
+    },
+    "review": "Empty wrist-worn native container; add actual owned wands separately. Drawing and stowing a stored wand is mentally directed and free even outside your turn. Source refers to a normal wand bracer without giving a numeric capacity; none is invented. PF1 container sheets do not expose activation actions, so retrieval remains a manual inventory procedure. Illustrated wands are examples, not bundled contents."
+  },
+  "bandolier-of-grenades": {
+    "containerId": "7a8d52329c5857b5",
+    "sourceKey": "wiki:apparatuses:ultimate:item:bandolier-of-grenades",
+    "totals": {
+      "price": 900,
+      "weight": 1
+    },
+    "empty": {
+      "price": 900,
+      "weight": 1
+    },
+    "contents": [],
+    "capacity": {
+      "slots": 5
+    },
+    "review": "Five empty object slots, one suitably shaped alchemical creation, dust, oil or potion each; retrieve one as a move action. Slot count is not a weight capacity. No consumables are bundled. Bomb generation begins only at the separate 6th-level 4800 gp upgrade; higher damage/price tiers are not active in this base variant. Transient bombs cannot be stockpiled or passed along; no unlimited grenade inventory or attack is granted."
+  },
+  "bottomless-flask": {
+    "containerId": "1971a8808a390a8f",
+    "sourceKey": "wiki:apparatuses:ultimate:item:bottomless-flask",
+    "totals": {
+      "price": 1000,
+      "weight": 2
+    },
+    "empty": {
+      "price": 1000,
+      "weight": 2
+    },
+    "contents": [],
+    "capacity": {
+      "compartments": 5,
+      "gallonsPerCompartment": 20
+    },
+    "review": "Empty two-pound container with five separate twenty-gallon extradimensional spaces. Twist the stopper as a swift action to select a space; pour at most one pint or one alchemical flask per round into a square within reach. Liquids remain separated, including volatile substances; breaking the flask loses all contents. Gallons are not converted to a guessed pound capacity. Compartment choice, volume and pouring are manual; the source gives no explicit carried-weight exemption, so automatic weight reduction remains deferred. No nested compartments or liquids are fabricated."
   }
 }

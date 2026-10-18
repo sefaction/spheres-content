@@ -2,8 +2,8 @@
   "_id": "b70fa152397ae33b",
   "_key": "!items!b70fa152397ae33b",
   "name": "Bludgeoner’s Rod",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "weapon",
+  "img": "systems/pf1/icons/items/weapons/mace-light.png",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,26 +24,37 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "deferred",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-light-mace",
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.Yeli1JRCgnmVyhWT",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "7724b41d8a7779cc346ae674c745cee82e31922ae9c0c35173817cde3681c591",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> strong Destruction; <strong>CL</strong> 15th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 72,305 gp; <strong>Weight</strong> 5 lbs.</p>\n<p><strong>Description</strong><br>\nThis rod functions as a +2 light mace, but also has a button that, when pressed (a move action), charges the mace head with magical force. The first attack made with this rod before the end of the wielder’s turn deals an extra 15d6 bludgeoning damage.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Smith Magical Weapons And Armor, Destruction sphere; <strong>Cost</strong> 36,305 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc6\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
-      "unidentified": ""
+      "instructions": "<p>Reviewed profile: source-defined +2 light mace.</p><p>Native +2 light mace attack. Press the button as a move action; the first attack before the end of the wielder's turn gains 15d6 bludgeoning damage. The normal attack never includes this conditional extra damage by default. Resolve and clear that one charged strike manually; there is no source-stated daily limit and no permanent extra-damage modifier.</p>",
+      "unidentified": "<p>A mace is made up of an ornate metal head attached to a simple wooden or metal shaft. The mace's head is usually flanged to cause more pain or damage. Some more primitive maces are made with stone bound to a wooden haft with leather straps.</p>"
     },
     "tags": [],
     "quantity": 1,
@@ -63,14 +74,16 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 15,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Destruction"
     },
-    "hp": {},
+    "hp": {
+      "base": 2
+    },
     "broken": false,
-    "hardness": 0,
+    "hardness": 10,
     "changes": [],
     "changeFlags": {
       "immuneToMorale": false,
@@ -84,7 +97,63 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "34c2b5214448b0d6",
+        "ability": {
+          "attack": "_default",
+          "damage": "str"
+        },
+        "actionType": "mwak",
+        "activation": {
+          "type": "attack",
+          "unchained": {
+            "type": "attack"
+          }
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "sizeRoll(1, 6, @size)",
+              "types": ["bludgeoning"]
+            }
+          ]
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "extraAttacks": {
+          "type": "standard"
+        },
+        "name": "Attack",
+        "range": {
+          "units": "melee",
+          "value": "0"
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        }
+      },
+      {
+        "_id": "266fc3607bbe71f7",
+        "name": "Charge Mace Head for Next Attack This Turn",
+        "activation": {
+          "type": "move",
+          "unchained": {
+            "type": "action",
+            "cost": 1
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Native +2 light mace attack. Press the button as a move action; the first attack before the end of the wielder's turn gains 15d6 bludgeoning damage. The normal attack never includes this conditional extra damage by default. Resolve and clear that one charged strike manually; there is no source-stated daily limit and no permanent extra-damage modifier."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
@@ -95,8 +164,7 @@
       "rechargeFormula": ""
     },
     "links": {
-      "children": [],
-      "charges": []
+      "children": []
     },
     "tag": "",
     "flags": {
@@ -104,8 +172,8 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
+    "masterwork": true,
+    "enh": 2,
     "proficient": false,
     "held": "1h",
     "ammo": {
@@ -114,30 +182,26 @@
       "misfire": null,
       "explode": null
     },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
+    "subType": "simple",
+    "weaponSubtype": "light",
+    "hands": 1,
+    "baseTypes": ["Light Mace"],
+    "weaponGroups": ["hammers"],
+    "material": {
+      "base": {
+        "value": "steel",
+        "custom": false
+      },
+      "normal": {
+        "value": "",
+        "custom": false
+      },
+      "addon": []
     },
-    "spellFailure": 0,
-    "showInQuickbar": false,
+    "properties": {
+      "fin": true
+    },
+    "showInQuickbar": true,
     "sources": [
       {
         "title": "Spheres of Power Wiki",

@@ -3,7 +3,7 @@
   "_key": "!items!fff0791aea00b615",
   "name": "Bonded Notebooks",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/bonded-notebooks.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "deferred",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment",
+      "selectedVariant": "one complete matched pair; set price and weight"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Divination; <strong>CL</strong> 5th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 5,000 gp; <strong>Weight</strong> 2 lbs. (set)</p>\n<p><strong>Description</strong><br>\nA set of two identical leather-bound books of modest size, permanently linked to each other when created. Whatever is written in one book instantaneously appears on the corresponding page of the other, so long as they are on the same plane. Each page can hold up to 100 words and each book contains 50 pages. The backs and fronts of pages can be written on. A bonded notebook cannot be fitted with new pages; once the space inside has been used, the bonded notebooks become virtually worthless.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Divination sphere; <strong>Cost</strong> 2,500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc8\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: one complete matched pair; set price and weight.</p><p>Quantity one is the complete two-book set: 5000 gp and two pounds total, not per notebook. Each book has fifty fixed pages, with both sides writable and one hundred words per page as stated. Writing reproduces on the corresponding page only on the same plane. Do not add pages or create a doubled set by setting quantity two; paired usage and remaining writing space are tracked manually.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Divination"
     },
     "hp": {},
     "broken": false,
