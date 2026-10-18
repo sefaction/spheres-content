@@ -597,6 +597,8 @@ No verified compatibility claim, automatic world-copy update or public release.
 
 ## First third-batch compound acceptance (2026-10-17)
 
+Draft PR #45 depends on #43. Final head CI results are recorded on GitHub.
+
 Implementation/deployed commit 414d5b44ee0de46b70f17dc3630702677ff22da2,
 module 0.1.0-alpha.6, dedicated Additional Spheres Content Test world,
 Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0. Clean full gate passed

@@ -31,9 +31,11 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   no warnings/errors or daily error file. Final Setup audit passed in 89.10
   seconds against immutable 414d5b4, all 6,788 records/receipt/image hashes,
   unchanged remote snapshots and local copies only; no active game at /auth.
-- Next: push evidence and open draft PR based on #43, confirm final CI. The
-  current group is complete for its bounded review scope; obtain user direction
-  before selecting another group. No approval to merge this new PR or release.
+- Draft PR #45 is open against #43's branch and attached to this chat. Its final
+  CI status is authoritative on GitHub; acceptance follow-ups change only docs
+  relative to tested 414d5b4. Keep #43/#45 unmerged until separately approved.
+  The current group is complete for its bounded review scope; user direction is
+  pending before selecting another group. No new merge or release approval.
 
 ## Active work: second twenty-charms group in batch 3
 
