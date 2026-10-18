@@ -30,8 +30,12 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   Last deployment is `eb14e78`; its final semantic audit passed in 95.22 seconds
   for all 6,788 documents, non-pack receipt bytes and external images, with
   unchanged remote snapshots. The instance remains in Setup.
-- Next safe step: push/open a separate draft PR stacked on #33. Continue the final twenty
-  non-Akashic items afterward using the cached review below.
+- Draft PR #34 is pushed, stacked on #33:
+  https://github.com/sefaction/spheres-content/pull/34. CI is pending; no merge
+  or release approval.
+- Next safe step: check #34 CI, then create the final twenty-item feature branch
+  from this one and continue the cached non-Akashic review below. Additional
+  source/kit observations are in ignored `.local/batch2-final-review-notes.md`.
 
 ## Prior reviewed content batch: physical batch 2, group 4
 
