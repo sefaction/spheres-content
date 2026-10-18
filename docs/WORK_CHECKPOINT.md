@@ -68,9 +68,11 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   effects remain incomplete. No content compatibility claim or world migration.
   Documentation successors are distinct from deployed/tested `9ba18da`; only
   docs/TESTING.md and this checkpoint changed after that implementation.
-  Next: push and open a draft PR stacked on #35, reconcile its CI, then continue
-  the remaining third-batch items. Preserve existing reviews and unmerged work;
-  no merge/release approval. Current browser is marked for handoff in Setup.
+  Draft PR https://github.com/sefaction/spheres-content/pull/39 is open and
+  attached, stacked on #35. CI at evidence head `6fef0d4` is pending; reconcile
+  the current head before continuing the remaining third-batch items.
+  Preserve existing reviews and unmerged work; no merge/release approval.
+  Current browser is marked for handoff in Setup.
 
 ## Completed previous group: final twenty items in physical batch 2
 
