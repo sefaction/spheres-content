@@ -2,7 +2,124 @@
 
 Updated: 2026-10-17 (work began 2026-09-19 local time).
 
-## Active work in progress: final twenty items in physical batch 2
+## Approved PR integration and cumulative acceptance
+
+- The user explicitly approved all ready PRs to merge. At approval, the stack
+  comprises #16, #19, #21, #23, #25, #28, #29, #30, #33, #34, #35 and #39.
+  Both CI platforms pass on every original head. #16, #19, #21, #23, #25, #28,
+  #29, #30, #33, #34 and #35 are now merged into main, preserving history and
+  retargeting each dependent PR to main before merging. #39 is the final approved
+  integration PR; its evidence follow-up changes documentation only after the
+  tested correction below. Consult GitHub for its live merge/check status.
+  This approval does not cover a public release, tag or compatibility claim.
+- Earlier pending remote notes are being reconciled against the exact cumulative
+  installed build and native checks. Five further real transfers passed. Dashing
+  Cloak's move helper spent two charges (5 -> 3), Null Bindi consumed quantity
+  (1 -> 0), Trash Bag showed five one-pound contents and 5 lb total, and the +2
+  buckler raised normal/flat-footed AC 14 -> 17 without changing touch/CMD.
+- Native testing found issue #40: four firearm spell-power/follow-up helpers
+  inherit the parent ammunition type when left blank. PF1 11.11 action preparation
+  explicitly supports `ammo.type: "none"` to opt out. Four canonical helpers now
+  select it, preserving ordinary bullet attacks, costs, IDs, full rules and all
+  other fields. Action identity hashes and a focused regression are updated.
+  Correction is in #39's approved integration follow-up. Complete-record comparison
+  confirms these four opt-outs are the only source-record differences.
+- Corrected deployed/tested commit `acac9b3aee40b61c4d454fb1dd6b860c8e5f906d`
+  passed 100 tests, all 6,788 compiler round trips, two identical 786-file packages
+  and Windows/Ubuntu CI. ZIP SHA-256:
+  `066abe52299e8498f37faa56de3601ae0a8f20060db91e58d4c1cf0b2f7288b7`.
+  Guarded preview, staged deployment and installed-byte checks passed; ten module
+  rollback copies retained, one authorized oldest copy rotated, no host restart.
+- A fresh corrected musket's no-ammo spell-power helper spent one daily use
+  (2 -> 1). Its ordinary shot still refused without bullets and left that pool
+  at one. Browser: one expected Out of Ammunition error from the negative test,
+  no other errors, 79 framework/PF1 or expected ammunition warnings. Server:
+  147 informational records since deployment, no warning/error or daily error file.
+  Returned to Setup. Final exact semantic audit passed in 105.89 seconds for all
+  6,788 documents, receipt bytes and external images; unchanged remote snapshots,
+  local copies only, no active game at `/auth`. No process remains running.
+- #18 closed after #19 merged. #20/#24 closed with links after #23/#25 merged;
+  #32 is resolved by merged #34 and #40 by final #39. Keep #3, #15, #26, #36 and
+  other gameplay/source-interpretation issues open for their unfinished scope.
+- Delivery branch is `codex/physical-items-batch-3-charms`. After #39's final
+  documentation checks pass, merge the approved PR, confirm main's identical
+  runtime sources and CI, and switch the clean local checkout to main. Then start
+  the next coherent group from updated main; eighty third-batch images remain.
+  Akashic stays deferred. No release, tag, compatibility change or world migration.
+
+## Current review group: third-batch charms
+
+- Branch `codex/physical-items-batch-3-charms`, based on #35 head `c5caa27`.
+  Both #35 Windows/Ubuntu jobs passed at that exact head. Issue #36 tracks the
+  next frozen hundred: eleven apparatuses, forty-seven charms, forty-two compounds.
+  Stable source-key order excludes earlier membership, legacy and Akashic work.
+  Twenty selected charm profiles are now authored with complete original bodies
+  and IDs preserved, twenty-one native Changes across sixteen records and bounded
+  conditional notes on five. Four records deliberately have no global modifier.
+- Selected twenty charms sharing ability/AC/save or related worn-item profiles.
+  Full source bodies and metadata were read from `.local/batch3-charms-source-review.json`.
+  Exact/alternate/component searches inspected 23 complete records; additional
+  artwork searches inspected twelve more plus the full existing original cloth
+  headband record. Twenty-six actual installed core/system candidate illustrations
+  were downloaded, hashed and visually inspected on a 128 px contact sheet.
+- Art is complete and assigned: nine core/system references, three uses of the
+  existing original cloth headband, eight original 256 px WebPs (52,300 bytes total,
+  largest 8,164). All twenty were visually checked at 64/128 px. Prompts and hashes
+  are registered in config/content.json; source PNGs, full review caches and
+  `batch3-charms-all-art-review.png` remain ignored locally. Eighty images remain
+  in the frozen third hundred. No ring/crown/belt substitute for cloth headbands.
+- Issue #37 records six ability belts/headbands whose 4,000-gp market prices were
+  parsed as 2,000-gp crafting costs. Those six reviewed records now use 4,000 gp.
+  Full original bodies/hashes stay intact. The broad parser fix is separate.
+- Natural armor bonuses must be distinct from enhancements to natural armor;
+  PF1 native `nac`/`base` versus `nac`/`enh` is confirmed in core race/item data and
+  apply-changes. Ability enhancements, AC bonus types/CMD inheritance and saves
+  have inspected native interfaces. First-day ability consequences and Genius'
+  crafted skill choice need explicit manual handling, with no invented skill.
+  Gauntlet/energy choices remain unselected; do not grant broad CMB/CMD/resistance.
+- Core PF1 Unarmed Strike is an attack with subtype weapon; native `nattack` and
+  `ndamage` target natural-subtype attacks. Pugilist's Charm must explicitly keep
+  unarmed handling separate under issue #38 rather than claiming that interface
+  covers every unarmed strike. No broad manufactured-weapon enhancement is granted.
+- Umbral Mantle's base-tier moderate aura at CL3 conflicts with native faint;
+  recorded under #31. Keep the full scaling source/CL and make the selected tier
+  explicit; no invented aura override or higher-tier concealment at base price.
+- Clean full gate on implementation `9ba18dac80b43fbda2274d82072e3635da76e3de`
+  passed all 99 tests, all 6,788 compiler round trips and two identical 786-file
+  packages. ZIP SHA-256:
+  `52fd4df8406be7201607a8a21a84fb1f81ab61d3574c69796b4b92a5f52a8f72`.
+  Guarded preview, staged deployment and installed-byte verification passed;
+  one authorized oldest module backup rotated, retaining ten. No host restart.
+  Dedicated-world native acceptance passed the representative bonus/roll checks
+  described in docs/TESTING.md. Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0;
+  native settings confirmed only ASC alpha.6 and pf1spheres enabled. Fifteen real
+  compendium drags to a fresh PC tested all six abilities, nonstacking typed
+  bonuses, luck stacking, natural-armor versus enhancement, CMD and saves.
+  A natural attack roll included Pugilist's +1 attack/damage; changing that same
+  control to weapon subtype removed both. Dimlight's save note appeared without
+  changing the roll bonus. The corrected 4,000-gp belt sheet and image opened.
+  Browser: zero errors, 84 framework/PF1 deprecations. Server: 165 informational
+  records since deployment, no warning/error or daily error file. Returned to
+  Setup; final exact semantic audit passed all 6,788 documents, non-pack receipt
+  bytes and external images in 116.60 seconds, unchanged remote snapshots and
+  local copies only. Helper confirmed no active game at `/auth`.
+  No build/transfer process remains. Seven focused semantic tests and full source
+  validation also pass. An independent
+  comparison to #35's exact commit confirms unchanged complete bodies, IDs/source
+  keys, quantities and weights; only the six reviewed price corrections differ.
+  Additional source-reviewed price follow-ups are recorded under #37; seven
+  records remain untouched, including separate pair accounting for Twin Caskets.
+  Full lifecycle/non-GM, crafted choices, first-day consequences and advanced
+  effects remain incomplete. No content compatibility claim or world migration.
+  Initial evidence successors changed documentation only after tested `9ba18da`;
+  the later four-firearm correction is independently tested/deployed as recorded
+  in the approved-integration section above. PR #39 is attached:
+  https://github.com/sefaction/spheres-content/pull/39. The user has now approved
+  all ready PRs to merge; historical no-approval notes below describe earlier work.
+  Preserve existing reviews. Public release approval remains separate.
+  Current browser is marked for handoff in Setup.
+
+## Completed previous group: final twenty items in physical batch 2
 
 - Branch `codex/physical-items-batch-2-final`, based on PR #34 head `4d1277a`;
   issue #26. All prior draft PRs remain unmerged; no merge/release approval.

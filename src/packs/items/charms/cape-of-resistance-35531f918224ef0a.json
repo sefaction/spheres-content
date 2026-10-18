@@ -3,7 +3,7 @@
   "_key": "!items!35531f918224ef0a",
   "name": "Cape of Resistance",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -15,7 +15,7 @@
       "sourceSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
       "descriptionSha256": "0681d0723c6730e8b8c556d8c990982b5786f13af175e840de3114ea48956c92",
       "phase": "descriptive",
-      "automation": "not-reviewed",
+      "automation": "reviewed",
       "edition": "ultimate",
       "category": "charms",
       "intake": {
@@ -24,25 +24,37 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "implemented",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "not-needed",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-charm-bonuses",
+      "selectedVariant": "base +1 resistance to all saves, 1000 gp",
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "969c634bf649ccc36e6f762af02572affadf7d56fc712649ca706b6d42b5320f",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint (+1), moderate (+2/+3), or strong Protection (+4/+5); <strong>CL</strong> 3rd (+1), 6th (+2), 9th (+3), 12th (+4), or 15th (+5)<br>\n<strong>Slot</strong> shoulders; <strong>Price</strong> 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), or 25,000 gp (+5); <strong>Weight</strong> 1&nbsp;lb.</p>\n<p>This well-made cape offers a +1 to +5 resistance bonus to all saving throws, chosen when the cape is woven. While simple in design, their protective qualities make them a favored garment among adventurers.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Protection sphere (Resistance (aegis)); <strong>Cost</strong> 500 gp (+1), 2,000 gp (+2), 4,500 gp (+3), 8,000 gp (+4), or 12,500 gp (+5)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc11\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: base +1 resistance to all saves, 1000 gp.</p><p>One cape grants +1 resistance to Fortitude, Reflex and Will while worn. Native resistance bonuses do not stack with an equal resistance source. No armor class, skill or concealment bonus. Higher values require the matching source tier.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,15 +75,24 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 3,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Protection"
     },
     "hp": {},
     "broken": false,
     "hardness": 0,
-    "changes": [],
+    "changes": [
+      {
+        "_id": "71015113dd8bfc8f",
+        "formula": "1",
+        "operator": "add",
+        "target": "allSavingThrows",
+        "type": "resist",
+        "priority": 0
+      }
+    ],
     "changeFlags": {
       "immuneToMorale": false,
       "loseDexToAC": false,
@@ -90,7 +111,7 @@
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

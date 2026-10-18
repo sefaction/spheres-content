@@ -1,0 +1,1170 @@
+{
+  "schemaVersion": 1,
+  "reviewed": "2026-10-17",
+  "system": "pf1",
+  "version": "11.11",
+  "sourceFiles": [
+    {
+      "file": "module/config.mjs",
+      "sha256": "61390dd525026dceb6267e5921d14f0077a0bf014e0b96d772f551341037dc29"
+    },
+    {
+      "file": "module/components/change.mjs",
+      "sha256": "c380577c631f3f48103d4283676e24bb8db3022f0c533dceb734695e7628f163"
+    },
+    {
+      "file": "module/components/action.mjs",
+      "sha256": "c2f020560bb0fa76cc98d2fa64fe72434f959be774baac2116d3ad9ceb64e3b1"
+    },
+    {
+      "file": "module/documents/actor/utils/apply-changes.mjs",
+      "sha256": "8ab60303027502902b50f6e2876796af67f7d9bb44845c1d21a18704c305c7f8"
+    },
+    {
+      "file": "module/documents/item/item-equipment.mjs",
+      "sha256": "a492c51f3c3f5185504c0f0d37ea3874fc6669048bba49b90939986bdcf48afa"
+    },
+    {
+      "file": "packs/races/changeling.9FBT6uqlRgaw9gug.yaml",
+      "sha256": "6700419a4cf957346b1c89ac61d3cd44404834378465b742b777bc7f5239bc67"
+    },
+    {
+      "file": "packs/monster-abilities/unarmed-strike.1sU57tRb1My6XZMC.yaml",
+      "sha256": "88397904381cc9435b8cb05fd8542b040674018718ecc43ed19750879868988b"
+    }
+  ],
+  "interfaces": {
+    "changes": "ItemChange native target/type/formula/add; typed bonuses use the highest matching value. Equipment is active while equipped.",
+    "ac": "ac with deflection/luck propagates to touch/flat-footed AC and CMD; never add a duplicate CMD change.",
+    "naturalArmor": "nac/base grants a competing base natural armor bonus; nac/enh improves natural armor separately, as reviewed in race/item data and apply-changes.",
+    "ability": "Core enhancement targets modify current total/undrained, not base. First 24 hours and permanent-only consequences remain explicit manual handling.",
+    "naturalAttack": "nattack/ndamage apply to natural-subtype attacks. Core unarmed Strike has weapon subtype; unarmed coverage is manual under #38 until a reviewed attack-specific interface exists.",
+    "conditionalNotes": "Maneuver, Light and unarmed notes do not add global bonuses; crafted choices remain unselected."
+  },
+  "sourceSnapshot": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+  "priceCorrections": {
+    "issue": 37,
+    "reason": "Missing gp in tiered purchase header made the draft parser accept later crafting Cost. Correct only these six reviewed base tiers to 4000 gp.",
+    "entries": [
+      {
+        "sourceKey": "wiki:charms:ultimate:item:belt-of-avian-speed",
+        "from": 2000,
+        "to": 4000
+      },
+      {
+        "sourceKey": "wiki:charms:ultimate:item:belt-of-mountains",
+        "from": 2000,
+        "to": 4000
+      },
+      {
+        "sourceKey": "wiki:charms:ultimate:item:belt-of-wild-might",
+        "from": 2000,
+        "to": 4000
+      },
+      {
+        "sourceKey": "wiki:charms:ultimate:item:headband-of-alluring-magnetism",
+        "from": 2000,
+        "to": 4000
+      },
+      {
+        "sourceKey": "wiki:charms:ultimate:item:headband-of-genius",
+        "from": 2000,
+        "to": 4000
+      },
+      {
+        "sourceKey": "wiki:charms:ultimate:item:headband-of-sages",
+        "from": 2000,
+        "to": 4000
+      }
+    ]
+  },
+  "entries": [
+    {
+      "sourceKey": "wiki:charms:ultimate:item:aegis-ring",
+      "id": "0dfb62a13236b518",
+      "originalBodySha256": "1d774ea102b56e9b04ba17fd2f1b9d31aba34ef01214a8d2b4bd7ec742814a34",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "5cb9c4b1df86c4e6a522d042c1e800a1e1e03a275884d7ce69f269ebf87b5106",
+      "selectedTier": "base +1 deflection, 2000 gp",
+      "cl": 3,
+      "school": "Protection",
+      "slot": "ring",
+      "price": 2000,
+      "previousDraftPrice": 2000,
+      "weight": 1,
+      "changes": [
+        {
+          "_id": "a46722e8e888319d",
+          "formula": "1",
+          "operator": "add",
+          "target": "ac",
+          "type": "deflection",
+          "priority": 0
+        }
+      ],
+      "contextNotes": [],
+      "limit": "One iron ring grants +1 deflection to AC while worn. PF1 carries the same deflection bonus into touch/flat-footed AC and CMD; do not add another CMD change. Higher bonuses, caster levels and prices are separate selected tiers. Not a shield or a Ring of Force Shield.",
+      "nativeSource": {
+        "key": "ring-of-protection-1",
+        "name": "Ring of Protection +1",
+        "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/finger/ring-shield-silver.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "artwork": {
+        "path": "icons/equipment/finger/ring-shield-silver.webp",
+        "source": {
+          "key": "ring-of-protection-1",
+          "name": "Ring of Protection +1",
+          "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+          "provider": "pf1",
+          "version": "11.11",
+          "pack": "items",
+          "type": "equipment",
+          "subType": "wondrous",
+          "img": "icons/equipment/finger/ring-shield-silver.webp",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+          "nativeActions": 0,
+          "hasChanges": true,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Actual protective ring, cloak, glove or pendant illustration only; quantities and source-specific rules override unrelated record mechanics."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:belt-of-avian-speed",
+      "id": "6710d1630453fed0",
+      "originalBodySha256": "04d91d9ec6884cc66cc7b14204a04b55d0ed669b2e77d3a0bee90519e0d97bb2",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "5f71d43060bbb5036781807104f5293370ad92062f23a165bce6fc5e8af97e36",
+      "selectedTier": "base +2 Dexterity, 4000 gp",
+      "cl": 4,
+      "school": "Enhancement",
+      "slot": "belt",
+      "price": 4000,
+      "previousDraftPrice": 2000,
+      "weight": 2,
+      "changes": [
+        {
+          "_id": "248d79a96d74e7be",
+          "formula": "2",
+          "operator": "add",
+          "target": "dex",
+          "type": "enh",
+          "priority": 0
+        }
+      ],
+      "contextNotes": [],
+      "limit": "One two-pound bird-decorated belt grants +2 enhancement to Dexterity, not movement speed or flight. The native enhancement changes the current ability total while equipped, matching the inspected PF1 item. Treat it as temporary for the first twenty-four worn hours; timing, eligibility and any permanent-only consequences remain manual. No automatic clock, higher tier, extra skill ranks or permanent base-score edit.",
+      "nativeSource": {
+        "key": "belt-of-incredible-dexterity-2",
+        "name": "Belt of Incredible Dexterity +2",
+        "uuid": "Compendium.pf1.items.Item.PC3K6eeXRdUwJxLA",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/waist/belt-buckle-crescent.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "abd4041929db6a23462f9e0185330009d8464dde090bab44c5293f5bf7df8678",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "artwork": {
+        "path": "modules/additional-spheres-content/icons/items/charms/belt-of-avian-speed.webp",
+        "decision": "Full exact/alternate/component record and actual-art review found no adequate source-specific illustration; original art preserves the published physical form."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:belt-of-mountains",
+      "id": "c8fd0742a6cae48b",
+      "originalBodySha256": "8ddb267bada000b46766043295d131d274a996447413de979e48c61a27d9e894",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "0d6551ec4a301fc61c551d242830825b70694d37a2c5cc9e30cfe67c0fde00c9",
+      "selectedTier": "base +2 Constitution, 4000 gp",
+      "cl": 4,
+      "school": "Enhancement",
+      "slot": "belt",
+      "price": 4000,
+      "previousDraftPrice": 2000,
+      "weight": 2,
+      "changes": [
+        {
+          "_id": "fb148a5af62e0b3b",
+          "formula": "2",
+          "operator": "add",
+          "target": "con",
+          "type": "enh",
+          "priority": 0
+        }
+      ],
+      "contextNotes": [],
+      "limit": "One two-pound mountain-decorated leather belt grants +2 enhancement to Constitution. The native enhancement changes the current ability total while equipped, matching the inspected PF1 item. Treat it as temporary for the first twenty-four worn hours; timing, eligibility and any permanent-only consequences remain manual. No automatic clock, higher tier, extra skill ranks or permanent base-score edit.",
+      "nativeSource": {
+        "key": "belt-of-mighty-constitution-2",
+        "name": "Belt of Mighty Constitution +2",
+        "uuid": "Compendium.pf1.items.Item.5ZivT8vBANjQLueE",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "systems/pf1/icons/items/equipment/belt-girdle.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "fb45503f907f3418143d0ea02d8580983ac7b2a97fb1908f4b004e87a20aa895",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "artwork": {
+        "path": "modules/additional-spheres-content/icons/items/charms/belt-of-mountains.webp",
+        "decision": "Full exact/alternate/component record and actual-art review found no adequate source-specific illustration; original art preserves the published physical form."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:belt-of-wild-might",
+      "id": "2b1f45563b0647fb",
+      "originalBodySha256": "739349ec6e966d963cb3e92026dbc4fbbf39b832531e75d4c556cd279383b1c2",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "0716ca7590a1b0bc12c7ab466a7be0b44182a2e0d829bea6d3c889364db60bed",
+      "selectedTier": "base +2 Strength, 4000 gp",
+      "cl": 4,
+      "school": "Enhancement",
+      "slot": "belt",
+      "price": 4000,
+      "previousDraftPrice": 2000,
+      "weight": 2,
+      "changes": [
+        {
+          "_id": "9b62b21c0a48bb9a",
+          "formula": "2",
+          "operator": "add",
+          "target": "str",
+          "type": "enh",
+          "priority": 0
+        }
+      ],
+      "contextNotes": [],
+      "limit": "One two-pound beast-decorated leather belt grants +2 enhancement to Strength. The native enhancement changes the current ability total while equipped, matching the inspected PF1 item. Treat it as temporary for the first twenty-four worn hours; timing, eligibility and any permanent-only consequences remain manual. No automatic clock, higher tier, extra skill ranks or permanent base-score edit.",
+      "nativeSource": {
+        "key": "belt-of-giant-strength-2",
+        "name": "Belt of Giant Strength +2",
+        "uuid": "Compendium.pf1.items.Item.eIxzoEGDNZXWgnKk",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "systems/pf1/icons/items/equipment/belt-buckle.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "f1f9202cbb64f43f5ad320e5383098db2ec54d8a9a7d81af5ca473ad5dfde995",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "artwork": {
+        "path": "modules/additional-spheres-content/icons/items/charms/belt-of-wild-might.webp",
+        "decision": "Full exact/alternate/component record and actual-art review found no adequate source-specific illustration; original art preserves the published physical form."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:blessing-of-the-fates",
+      "id": "6f8b7c473fd8f9c4",
+      "originalBodySha256": "9923e38ece7001c8a9f7d47051ae29df6ae1c1284201b2597022c802be9c5ee2",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "e1d350378d49c7efd305229106fae5607a2dd1404680b3e27b1920f9b95eb9f6",
+      "selectedTier": "base +1 luck to AC; neck chosen from any occupied magical item slot",
+      "cl": 3,
+      "school": "Fate",
+      "slot": "neck",
+      "price": 2500,
+      "previousDraftPrice": 2500,
+      "weight": 1,
+      "changes": [
+        {
+          "_id": "fd8778d80c65c234",
+          "formula": "1",
+          "operator": "add",
+          "target": "ac",
+          "type": "luck",
+          "priority": 0
+        }
+      ],
+      "contextNotes": [],
+      "limit": "The paper-and-wax blessing grants +1 luck to AC, including CMD through PF1's native AC mapping. This crafted profile occupies neck; change to another permitted real worn slot if appropriate, rather than treating any as slotless. Luck is the selected bonus; insight, morale, profane and sacred variants require their corresponding source sphere and deliberate reconfiguration. Observe the source GM option concerning rare bonus stacking.",
+      "nativeSource": {
+        "key": "ring-of-protection-1",
+        "name": "Ring of Protection +1",
+        "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/finger/ring-shield-silver.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "artwork": {
+        "path": "modules/additional-spheres-content/icons/items/charms/blessing-of-the-fates.webp",
+        "decision": "Full exact/alternate/component record and actual-art review found no adequate source-specific illustration; original art preserves the published physical form."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:cape-of-resistance",
+      "id": "35531f918224ef0a",
+      "originalBodySha256": "0913be4b020e52fb35dce62abf566ae0da17dc9b7c285ac9e4a565bd5ef8e604",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "0681d0723c6730e8b8c556d8c990982b5786f13af175e840de3114ea48956c92",
+      "selectedTier": "base +1 resistance to all saves, 1000 gp",
+      "cl": 3,
+      "school": "Protection",
+      "slot": "shoulders",
+      "price": 1000,
+      "previousDraftPrice": 1000,
+      "weight": 1,
+      "changes": [
+        {
+          "_id": "71015113dd8bfc8f",
+          "formula": "1",
+          "operator": "add",
+          "target": "allSavingThrows",
+          "type": "resist",
+          "priority": 0
+        }
+      ],
+      "contextNotes": [],
+      "limit": "One cape grants +1 resistance to Fortitude, Reflex and Will while worn. Native resistance bonuses do not stack with an equal resistance source. No armor class, skill or concealment bonus. Higher values require the matching source tier.",
+      "nativeSource": {
+        "key": "cloak-of-resistance-1",
+        "name": "Cloak of Resistance +1",
+        "uuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "969c634bf649ccc36e6f762af02572affadf7d56fc712649ca706b6d42b5320f",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "artwork": {
+        "path": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
+        "source": {
+          "key": "cloak-of-resistance-1",
+          "name": "Cloak of Resistance +1",
+          "uuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
+          "provider": "pf1",
+          "version": "11.11",
+          "pack": "items",
+          "type": "equipment",
+          "subType": "wondrous",
+          "img": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "969c634bf649ccc36e6f762af02572affadf7d56fc712649ca706b6d42b5320f",
+          "nativeActions": 0,
+          "hasChanges": true,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Actual protective ring, cloak, glove or pendant illustration only; quantities and source-specific rules override unrelated record mechanics."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:fragment-of-destiny",
+      "id": "ad3e337d581f72a8",
+      "originalBodySha256": "7e18d1cd7c9a18291b225a17d938d872637e7b4c5735e60a5b934d3022e8a789",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "c17f6ff0b5d5f4001630f897dae460ea22a11b5d6fefbdb471ec91cba9940d93",
+      "selectedTier": "base +1 luck to all saves; neck chosen from any occupied magical item slot",
+      "cl": 3,
+      "school": "Fate",
+      "slot": "neck",
+      "price": 2500,
+      "previousDraftPrice": 2500,
+      "weight": 1,
+      "changes": [
+        {
+          "_id": "3a3140be426b201b",
+          "formula": "1",
+          "operator": "add",
+          "target": "allSavingThrows",
+          "type": "luck",
+          "priority": 0
+        }
+      ],
+      "contextNotes": [],
+      "limit": "The cloth-woven crystal grants +1 luck to all saving throws, not skill checks, ability checks or armor class. It occupies the selected neck slot; another source-permitted real magical item slot may be chosen. It is not a slotless Luckstone. The related blessing's published bonus-type variants require deliberate selection and matching source sphere; this profile remains luck.",
+      "nativeSource": {
+        "key": "cloak-of-resistance-1",
+        "name": "Cloak of Resistance +1",
+        "uuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "969c634bf649ccc36e6f762af02572affadf7d56fc712649ca706b6d42b5320f",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "artwork": {
+        "path": "modules/additional-spheres-content/icons/items/charms/fragment-of-destiny.webp",
+        "decision": "Full exact/alternate/component record and actual-art review found no adequate source-specific illustration; original art preserves the published physical form."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:headband-of-alluring-magnetism",
+      "id": "5d46d3f4b54aee10",
+      "originalBodySha256": "c57ec6e85e760cce79822927d79909e0fb96543a53284aef47ca017a067399e2",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "d376317be6a1e0690019cae61ee4c355d510cdad2371d6604d6a4c9f296b883f",
+      "selectedTier": "base +2 Charisma, 4000 gp",
+      "cl": 4,
+      "school": "Enhancement",
+      "slot": "headband",
+      "price": 4000,
+      "previousDraftPrice": 2000,
+      "weight": 2,
+      "changes": [
+        {
+          "_id": "44378c58a2021ae8",
+          "formula": "2",
+          "operator": "add",
+          "target": "cha",
+          "type": "enh",
+          "priority": 0
+        }
+      ],
+      "contextNotes": [],
+      "limit": "One two-pound cloth headband grants +2 enhancement to Charisma. Reused cloth artwork grants no psionics or range features. The native enhancement changes the current ability total while equipped, matching the inspected PF1 item. Treat it as temporary for the first twenty-four worn hours; timing, eligibility and any permanent-only consequences remain manual. No automatic clock, higher tier, extra skill ranks or permanent base-score edit.",
+      "nativeSource": {
+        "key": "headband-of-alluring-charisma-2",
+        "name": "Headband of Alluring Charisma +2",
+        "uuid": "Compendium.pf1.items.Item.sv1iKPTOpaiZMOWk",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/finger/ring-cabochon-silver-gold-red.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "fec7152e9a6e56409ff753a25cc15ea0d8acd0323b13b5901ef2491ab985603b",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "artwork": {
+        "path": "modules/additional-spheres-content/icons/items/apparatuses/headband-of-psionic-reach.webp",
+        "source": {
+          "uuid": "Compendium.additional-spheres-content.items.Item.096c7feffd2f43c3",
+          "provider": "additional-spheres-content",
+          "version": "0.1.0-alpha.6",
+          "sha256": "048f5c9f0980e996e7bbeb6af23ef52df0ab922e8233ab9f5295915744a2ca50"
+        },
+        "decision": "Reuse the inspected original cloth headband illustration; no psionics feature, power selection, range or caster-level behavior is imported."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:headband-of-genius",
+      "id": "894b55737ce68619",
+      "originalBodySha256": "97245f7aa1d4a070b5ca4a8ec18b12e44fee962bbbed74875ca3dd375eceb521",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "1469e5ebf4acdea41c439da0dd023199d57a51fa7c806a75920d187667e3557b",
+      "selectedTier": "base +2 Intelligence, 4000 gp; one crafted skill not selected",
+      "cl": 4,
+      "school": "Enhancement",
+      "slot": "headband",
+      "price": 4000,
+      "previousDraftPrice": 2000,
+      "weight": 2,
+      "changes": [
+        {
+          "_id": "421c0e654349a6d8",
+          "formula": "2",
+          "operator": "add",
+          "target": "int",
+          "type": "enh",
+          "priority": 0
+        }
+      ],
+      "contextNotes": [],
+      "limit": "One two-pound cloth headband grants +2 enhancement to Intelligence. Its one associated skill must be chosen when crafted; the source grants ranks equal to character level. Do not substitute a random Knowledge skill, Hit Dice from another item, additive ranks or a broad skill bonus. Assign/track that selected skill deliberately. Reused artwork grants no psionics. The native enhancement changes the current ability total while equipped, matching the inspected PF1 item. Treat it as temporary for the first twenty-four worn hours; timing, eligibility and any permanent-only consequences remain manual. No automatic clock, higher tier, extra skill ranks or permanent base-score edit.",
+      "nativeSource": {
+        "key": "headband-of-vast-intelligence-2",
+        "name": "Headband of Vast Intelligence +2",
+        "uuid": "Compendium.pf1.items.Item.lrKImXw2wiv8DCD1",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/waist/belt-thick-gemmed-gold-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "0584675179d89c9de2666973c21de936b3743a72d0e7afbf1c178e24bce3af6e",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "artwork": {
+        "path": "modules/additional-spheres-content/icons/items/apparatuses/headband-of-psionic-reach.webp",
+        "source": {
+          "uuid": "Compendium.additional-spheres-content.items.Item.096c7feffd2f43c3",
+          "provider": "additional-spheres-content",
+          "version": "0.1.0-alpha.6",
+          "sha256": "048f5c9f0980e996e7bbeb6af23ef52df0ab922e8233ab9f5295915744a2ca50"
+        },
+        "decision": "Reuse the inspected original cloth headband illustration; no psionics feature, power selection, range or caster-level behavior is imported."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:headband-of-sages",
+      "id": "9f9446b4b172fc16",
+      "originalBodySha256": "ff961c68d851dd77845d5ed52c9632d3f1d528887753d76470bbc404dc890e65",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "f0e26ee1a673effea190316bde42f36cf6c5a89029aa5b92238e59b3878d3f9a",
+      "selectedTier": "base +2 Wisdom, 4000 gp",
+      "cl": 4,
+      "school": "Enhancement",
+      "slot": "headband",
+      "price": 4000,
+      "previousDraftPrice": 2000,
+      "weight": 2,
+      "changes": [
+        {
+          "_id": "3f3119b4413e4e67",
+          "formula": "2",
+          "operator": "add",
+          "target": "wis",
+          "type": "enh",
+          "priority": 0
+        }
+      ],
+      "contextNotes": [],
+      "limit": "One two-pound cloth headband grants +2 enhancement to Wisdom. Reused artwork grants no psionics or range features. The native enhancement changes the current ability total while equipped, matching the inspected PF1 item. Treat it as temporary for the first twenty-four worn hours; timing, eligibility and any permanent-only consequences remain manual. No automatic clock, higher tier, extra skill ranks or permanent base-score edit.",
+      "nativeSource": {
+        "key": "headband-of-inspired-wisdom-2",
+        "name": "Headband of Inspired Wisdom +2",
+        "uuid": "Compendium.pf1.items.Item.lIPJinb2J7sEB0Ng",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/finger/ring-cabochon-spiral-gold-green.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "d68b218685dc90066fcb5327ef1f7aaabb6f1b585fc58a5fe9238077544acd91",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "artwork": {
+        "path": "modules/additional-spheres-content/icons/items/apparatuses/headband-of-psionic-reach.webp",
+        "source": {
+          "uuid": "Compendium.additional-spheres-content.items.Item.096c7feffd2f43c3",
+          "provider": "additional-spheres-content",
+          "version": "0.1.0-alpha.6",
+          "sha256": "048f5c9f0980e996e7bbeb6af23ef52df0ab922e8233ab9f5295915744a2ca50"
+        },
+        "decision": "Reuse the inspected original cloth headband illustration; no psionics feature, power selection, range or caster-level behavior is imported."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:ironside-ring",
+      "id": "1978dfbbe5e4e583",
+      "originalBodySha256": "598743d08490efb2c283897bc126173a1fc9bb21d2e36fbdb83bbe60d5b7e82c",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "fff259f725c96d802a18de9435bafc3bd77e6bf49caf6d7484373e57ab050b5b",
+      "selectedTier": "published cold-iron ring, 40000 gp",
+      "cl": 8,
+      "school": "Alteration and Enhancement",
+      "slot": "ring",
+      "price": 40000,
+      "previousDraftPrice": 40000,
+      "weight": 0,
+      "changes": [
+        {
+          "_id": "06d84a998688a93c",
+          "formula": "4",
+          "operator": "add",
+          "target": "con",
+          "type": "enh",
+          "priority": 0
+        },
+        {
+          "_id": "8e3b22010487ada8",
+          "formula": "2",
+          "operator": "add",
+          "target": "nac",
+          "type": "base",
+          "priority": 0
+        },
+        {
+          "_id": "7f4ad1aedcd29da5",
+          "formula": "4",
+          "operator": "add",
+          "target": "cmd",
+          "type": "enh",
+          "priority": 0
+        }
+      ],
+      "contextNotes": [],
+      "limit": "While worn: +4 enhancement Constitution, +2 natural armor and +4 enhancement CMD. The natural armor bonus uses native base natural armor, not an enhancement to natural armor; it competes with other base natural armor rather than adding to it. The CMD enhancement is separate from AC and does not improve CMB or touch AC. No added weapon, damage reduction or first-day restriction absent from this source.",
+      "nativeSource": {
+        "key": "belt-of-mighty-constitution-4",
+        "name": "Belt of Mighty Constitution +4",
+        "uuid": "Compendium.pf1.items.Item.SSgdlwKyAPjYQ8ak",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "systems/pf1/icons/items/equipment/belt-girdle.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "fd0976b8f8004ec60ae80725a27424dc978c2b2179eba67c80d3cf522f544705",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "artwork": {
+        "path": "icons/equipment/finger/ring-shield-silver.webp",
+        "source": {
+          "key": "ring-of-protection-1",
+          "name": "Ring of Protection +1",
+          "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+          "provider": "pf1",
+          "version": "11.11",
+          "pack": "items",
+          "type": "equipment",
+          "subType": "wondrous",
+          "img": "icons/equipment/finger/ring-shield-silver.webp",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+          "nativeActions": 0,
+          "hasChanges": true,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Actual protective ring, cloak, glove or pendant illustration only; quantities and source-specific rules override unrelated record mechanics."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:necklace-of-natural-armor",
+      "id": "2ffa9f4288a6964e",
+      "originalBodySha256": "08c4715efd5dcef9b9be151bc1e474fdc4dc87f3867207f8da699986603b5b2a",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "1b216ecacc03dd16b84f57d0f92f2f01e4c0c705b60cae46326d26408bc4cbe8",
+      "selectedTier": "base +1 natural armor, 2000 gp",
+      "cl": 3,
+      "school": "Alteration",
+      "slot": "neck",
+      "price": 2000,
+      "previousDraftPrice": 2000,
+      "weight": 1,
+      "changes": [
+        {
+          "_id": "32e30b3b200725e7",
+          "formula": "1",
+          "operator": "add",
+          "target": "nac",
+          "type": "base",
+          "priority": 0
+        }
+      ],
+      "contextNotes": [],
+      "limit": "The iron neck ring grants a +1 natural armor bonus. This is base natural armor, not the conventional Amulet of Natural Armor's enhancement to natural armor. Native base natural armor takes the better competing value; enhancements to natural armor remain distinct. It does not improve touch AC or CMD. Higher tiers require matching values, CL and price.",
+      "nativeSource": {
+        "key": "amulet-of-natural-armor-1",
+        "name": "Amulet of Natural Armor +1",
+        "uuid": "Compendium.pf1.items.Item.9Uxwqax0pLPyT2j7",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "systems/pf1/icons/items/jewelry/pendant-green.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "784b8e544b518eee33b142eed8f7401ddc3720bb2d55d56378c567432da86053",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "artwork": {
+        "path": "modules/additional-spheres-content/icons/items/charms/necklace-of-natural-armor.webp",
+        "decision": "Full exact/alternate/component record and actual-art review found no adequate source-specific illustration; original art preserves the published physical form."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:pugilists-charm",
+      "id": "2e0b56a6ec48473c",
+      "originalBodySha256": "b5eab559b48135ed2d5c0f8a99aa3195c98950711999d556674ba99f3d426eac",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "ed4ce842cef470d6b632f38ceb5990d02d4078f6e8838e967f4452eabb3d1798",
+      "selectedTier": "base +1 enhancement, 6000 gp; no weapon special abilities selected",
+      "cl": 5,
+      "school": "Alteration and Enhancement",
+      "slot": "neck",
+      "price": 6000,
+      "previousDraftPrice": 6000,
+      "weight": 1,
+      "changes": [
+        {
+          "_id": "724b6db47cd818fd",
+          "formula": "1",
+          "operator": "add",
+          "target": "nattack",
+          "type": "enh",
+          "priority": 0
+        },
+        {
+          "_id": "3f5e29571f331fe4",
+          "formula": "1",
+          "operator": "add",
+          "target": "ndamage",
+          "type": "enh",
+          "priority": 0
+        },
+        {
+          "_id": "07d2f30266509e00",
+          "formula": "1",
+          "operator": "add",
+          "target": "nac",
+          "type": "enh",
+          "priority": 0
+        }
+      ],
+      "contextNotes": [
+        {
+          "target": "mattack",
+          "text": "Unarmed strikes only: manually apply the charm's +1 enhancement to attack and damage if no equal/higher enhancement already applies. Native natural-subtype attacks already receive these Changes; never add twice or improve an ordinary weapon. See issue #38."
+        }
+      ],
+      "limit": "The selected +1 grants enhancement to natural-weapon attack/damage and to natural armor. Unarmed strikes also qualify in the rules, but PF1's core Unarmed Strike has weapon subtype while nattack/ndamage cover natural subtype only. Its unarmed bonus remains an explicit manual step under issue #38; do not apply a global weapon bonus. The alternative weapon-property option is unselected and would replace the relevant attack/damage bonus as stated, not add free properties.",
+      "nativeSource": {
+        "key": "amulet-of-mighty-fists-1",
+        "name": "Amulet of Mighty Fists +1",
+        "uuid": "Compendium.pf1.items.Item.z53icVRLBTR7A4Nq",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/neck/pendant-rough-silver-red.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "6fc818e6cf8828a0992426ca40ac044e6bf46052b3941f6d8f82e1b1141e5bf1",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "artwork": {
+        "path": "icons/equipment/neck/pendant-rough-silver-red.webp",
+        "source": {
+          "key": "amulet-of-mighty-fists-1",
+          "name": "Amulet of Mighty Fists +1",
+          "uuid": "Compendium.pf1.items.Item.z53icVRLBTR7A4Nq",
+          "provider": "pf1",
+          "version": "11.11",
+          "pack": "items",
+          "type": "equipment",
+          "subType": "wondrous",
+          "img": "icons/equipment/neck/pendant-rough-silver-red.webp",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "6fc818e6cf8828a0992426ca40ac044e6bf46052b3941f6d8f82e1b1141e5bf1",
+          "nativeActions": 0,
+          "hasChanges": true,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Actual protective ring, cloak, glove or pendant illustration only; quantities and source-specific rules override unrelated record mechanics."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:ring-of-shielding",
+      "id": "3548c59e295cb1dd",
+      "originalBodySha256": "ae7ee3f353b4ef21e65a49b2b07e80db3bfc90c345f0c38978da66cfdd3afcbe",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "a8fcb588ca9a1e92088da9953c4bd575cf92cccc1a2d2657857e8dd227f25900",
+      "selectedTier": "base +1 deflection AC and +1 resistance saves, 3500 gp",
+      "cl": 3,
+      "school": "Protection",
+      "slot": "ring",
+      "price": 3500,
+      "previousDraftPrice": 3500,
+      "weight": 1,
+      "changes": [
+        {
+          "_id": "8b4537b9cdb3c5c1",
+          "formula": "1",
+          "operator": "add",
+          "target": "ac",
+          "type": "deflection",
+          "priority": 0
+        },
+        {
+          "_id": "b83899bb9727d81b",
+          "formula": "1",
+          "operator": "add",
+          "target": "allSavingThrows",
+          "type": "resist",
+          "priority": 0
+        }
+      ],
+      "contextNotes": [],
+      "limit": "One slender silver ring grants +1 deflection AC and +1 resistance to all saves. Deflection inherits CMD through native AC mapping, without a second change; each bonus competes with its own type. No force shield, shield AC, energy resistance or free activation is borrowed from the alternate Ring of Force Shield.",
+      "nativeSource": {
+        "key": "ring-of-protection-1",
+        "name": "Ring of Protection +1",
+        "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/equipment/finger/ring-shield-silver.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "artwork": {
+        "path": "icons/equipment/finger/ring-shield-silver.webp",
+        "source": {
+          "key": "ring-of-protection-1",
+          "name": "Ring of Protection +1",
+          "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+          "provider": "pf1",
+          "version": "11.11",
+          "pack": "items",
+          "type": "equipment",
+          "subType": "wondrous",
+          "img": "icons/equipment/finger/ring-shield-silver.webp",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+          "nativeActions": 0,
+          "hasChanges": true,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Actual protective ring, cloak, glove or pendant illustration only; quantities and source-specific rules override unrelated record mechanics."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:talisman-of-techniques",
+      "id": "05a71317aaef4c5f",
+      "originalBodySha256": "617dd245520dffbe6f8011f6d5916d4351ab192f5b47a545e4cb4f01d1340dd0",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "36f41d09ecca4b591c5bbbf8136495450ebb13fba328642a94542ea6f65ef6ad",
+      "selectedTier": "base +1; one crafted combat maneuver not selected",
+      "cl": 3,
+      "school": "Alteration and Enhancement",
+      "slot": "neck",
+      "price": 3500,
+      "previousDraftPrice": 3500,
+      "weight": 1,
+      "changes": [
+        {
+          "_id": "c11544389e56fb55",
+          "formula": "1",
+          "operator": "add",
+          "target": "nac",
+          "type": "enh",
+          "priority": 0
+        }
+      ],
+      "contextNotes": [
+        {
+          "target": "cmb",
+          "text": "Only the one maneuver chosen when this talisman was crafted: +1 competence on its combat maneuver check. No default maneuver is supplied; resolve that selection and modifier manually."
+        }
+      ],
+      "limit": "The wood-and-leather talisman grants +1 enhancement to natural armor plus +1 competence to one crafted maneuver. The maneuver remains unselected and conditional; no global CMB bonus or CMD bonus is granted. In particular, do not inherit the Gauntlet of Maneuvers' separate defensive bonus. The natural-armor enhancement is distinct from a base natural armor bonus.",
+      "artwork": {
+        "path": "modules/additional-spheres-content/icons/items/charms/talisman-of-techniques.webp",
+        "decision": "Full exact/alternate/component record and actual-art review found no adequate source-specific illustration; original art preserves the published physical form."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:gauntlet-of-maneuvers",
+      "id": "7d8836cf2143c917",
+      "originalBodySha256": "e22be702d85e6122de2e1fb9b438ad46e96ee70a3eedd2a4ce2423dba58450cf",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "edeb0368fba6a3c8f867bed6b4c3a37adbfd9d3fb49c520ad5db658727594835",
+      "selectedTier": "base +1 competence; one maneuver not selected; one complete pair",
+      "cl": 3,
+      "school": "Enhancement",
+      "slot": "hands",
+      "price": 1000,
+      "previousDraftPrice": 1000,
+      "weight": 1,
+      "changes": [],
+      "contextNotes": [
+        {
+          "target": "cmb",
+          "text": "Only the selected crafted maneuver, with both gauntlets worn: +1 competence to the maneuver check; choose the maneuver before applying."
+        },
+        {
+          "target": "cmd",
+          "text": "Against that same selected maneuver only, with both gauntlets worn: +1 competence to CMD, resolved manually."
+        }
+      ],
+      "limit": "Quantity one is a complete one-pound pair, and both gauntlets must be worn. One crafted combat maneuver is not yet selected. Apply +1 competence to that maneuver's CMB and defensive CMD only; no global CMB/CMD modifier, manufactured gauntlet attack, weapon enhancement or separately priced second glove.",
+      "artwork": {
+        "path": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
+        "source": {
+          "key": "gauntlets-of-the-skilled-maneuver",
+          "name": "Gauntlets of the Skilled Maneuver",
+          "uuid": "Compendium.pf-content.pf-wondrous.Item.QyeFILlxijlAqLGT",
+          "provider": "pf-content",
+          "version": "11.4.0",
+          "pack": "pf-wondrous",
+          "type": "equipment",
+          "subType": "wondrous",
+          "img": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "2cf0361bbfdc76bffe8b09aaea9d3d7faa2ab2c85b342a88843c6074d385b85f",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Actual protective ring, cloak, glove or pendant illustration only; quantities and source-specific rules override unrelated record mechanics."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:energy-resisting-ring",
+      "id": "c5864e1620102a43",
+      "originalBodySha256": "963aa483de52f60c7f16293e8a7a2724ef757bb00c70e7d7745b7a1a188b92b7",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "a6fb6be4fd25afc917e96e28711509fb0e9c488d192fced97478094db9fc91a2",
+      "selectedTier": "base resistance 10, 12000 gp; one crafted energy not selected",
+      "cl": 1,
+      "school": "Protection",
+      "slot": "ring",
+      "price": 12000,
+      "previousDraftPrice": 12000,
+      "weight": 1,
+      "changes": [],
+      "contextNotes": [],
+      "limit": "One iron ring grants resistance ten to exactly one of fire, cold, electricity, acid or sonic, chosen when crafted. No element is selected in this record; record that actual choice and resolve its resistance deliberately. Do not infer a red-image fire choice, all-energy resistance, immunity or the conventional ring's different CL/weight. Twenty/thirty are separate source tiers.",
+      "artwork": {
+        "path": "icons/equipment/finger/ring-shield-silver.webp",
+        "source": {
+          "key": "ring-of-protection-1",
+          "name": "Ring of Protection +1",
+          "uuid": "Compendium.pf1.items.Item.iCuo14damYkdjuD5",
+          "provider": "pf1",
+          "version": "11.11",
+          "pack": "items",
+          "type": "equipment",
+          "subType": "wondrous",
+          "img": "icons/equipment/finger/ring-shield-silver.webp",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "b842b0c69a4e20427dd5db7943aa0f1bd409b7c85c135141fcb095a0827abf58",
+          "nativeActions": 0,
+          "hasChanges": true,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Actual protective ring, cloak, glove or pendant illustration only; quantities and source-specific rules override unrelated record mechanics."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:dimlight-veil",
+      "id": "3f458ce0db259169",
+      "originalBodySha256": "1a8aae2d62b4469e644ec53569948fa578eea8ac8f84581fc738cea834af7c1d",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "2261f333875bbef77c1d8074e7b9511ca1782752632b64467b3ccfe8dd0c61ff",
+      "selectedTier": "published 1500 gp veil",
+      "cl": 5,
+      "school": "Light",
+      "slot": "head",
+      "price": 1500,
+      "previousDraftPrice": 1500,
+      "weight": 0,
+      "changes": [],
+      "contextNotes": [
+        {
+          "target": "allSavingThrows",
+          "text": "Against Light effects only: +2 on the saving throw, resolved manually. This is not a blanket save bonus."
+        }
+      ],
+      "limit": "A physical cloth veil using Light magic, not an Akashic veil. While worn, immune to dazzled and unaffected by light sensitivity; immunity and any condition removal remain manual. The +2 save bonus is only against Light effects. No general blindness immunity, darkvision, gaze protection, concealment or blanket save bonus is borrowed from inspected alternatives.",
+      "artwork": {
+        "path": "modules/additional-spheres-content/icons/items/charms/dimlight-veil.webp",
+        "decision": "Full exact/alternate/component record and actual-art review found no adequate source-specific illustration; original art preserves the published physical form."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:gloves-of-air-mastery",
+      "id": "c2db6277b7fd2236",
+      "originalBodySha256": "1124947036db51977a4c46f85b15b03dc803c5228b6fe4df41d9021aae309b46",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "73fc07e5bcb659ee108af7f57cd16e0ae82287bf6fd374ecdc5e1dc69b164f15",
+      "selectedTier": "lesser 4000 gp; one complete pair; Improved Bull Rush for Air Blast",
+      "cl": 5,
+      "school": "Destruction",
+      "slot": "hands",
+      "price": 4000,
+      "previousDraftPrice": 4000,
+      "weight": 0,
+      "changes": [],
+      "contextNotes": [
+        {
+          "target": "cmb",
+          "text": "Both gloves worn, using Air Blast only: treat as having Improved Bull Rush (+2 on bull rush checks and no provoked attack for that maneuver). Ordinary maneuvers gain no feat from these gloves."
+        },
+        {
+          "target": "cmd",
+          "text": "While both gloves are worn, Improved Bull Rush's +2 CMD applies against bull rush continuously, even when not using Air Blast. Resolve that specific defensive bonus manually."
+        }
+      ],
+      "limit": "Quantity one is a complete negligible-weight pair; both gloves must be worn. The lesser tier treats the wearer as having Improved Bull Rush only for using Air Blast, while its bull-rush CMD bonus is continuous. No global CMB/CMD bonus, ordinary feat grant, Greater Bull Rush, Swim/Climb bonus or glove weapon attack.",
+      "artwork": {
+        "path": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
+        "source": {
+          "key": "gauntlets-of-the-skilled-maneuver",
+          "name": "Gauntlets of the Skilled Maneuver",
+          "uuid": "Compendium.pf-content.pf-wondrous.Item.QyeFILlxijlAqLGT",
+          "provider": "pf-content",
+          "version": "11.4.0",
+          "pack": "pf-wondrous",
+          "type": "equipment",
+          "subType": "wondrous",
+          "img": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "2cf0361bbfdc76bffe8b09aaea9d3d7faa2ab2c85b342a88843c6074d385b85f",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Actual protective ring, cloak, glove or pendant illustration only; quantities and source-specific rules override unrelated record mechanics."
+      }
+    },
+    {
+      "sourceKey": "wiki:charms:ultimate:item:umbral-mantle",
+      "id": "f02af93c3ad1b65b",
+      "originalBodySha256": "7da55868170c95f14771fb2babcd15fa117106e42d47b64f0f1ff20d9c40d6bc",
+      "pageSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
+      "descriptionSha256": "100cd27198ebbc62ff4f4b1f62243fc613814f1bfacb2acac03c8c6d8baa5f11",
+      "selectedTier": "base scaling-wonder tier, 1500 gp, +1 resistance saves",
+      "cl": 3,
+      "school": "Dark",
+      "slot": "shoulders",
+      "price": 1500,
+      "previousDraftPrice": 1500,
+      "weight": 0.5,
+      "changes": [
+        {
+          "_id": "d72f7725543bbbd3",
+          "formula": "1",
+          "operator": "add",
+          "target": "allSavingThrows",
+          "type": "resist",
+          "priority": 0
+        }
+      ],
+      "contextNotes": [],
+      "limit": "Selected base tier grants +1 resistance to all saves. The complete scaling schedule remains in the source; track attunement/progression and deliberately update the selected tier before using later benefits. No base-price concealment action or spell-point pool is granted. Higher-tier darkness concealment has sight-based exceptions and external spell-point costs. Source moderate aura at CL three differs from PF1's faint label; issue #31. No invented aura override.",
+      "nativeSource": {
+        "key": "cloak-of-resistance-1",
+        "name": "Cloak of Resistance +1",
+        "uuid": "Compendium.pf1.items.Item.MrxwYWWezbJTZLog",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "systems/pf1/icons/items/equipment/cloak-plain.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "969c634bf649ccc36e6f762af02572affadf7d56fc712649ca706b6d42b5320f",
+        "nativeActions": 0,
+        "hasChanges": true,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "artwork": {
+        "path": "icons/equipment/back/cloak-layered-grey-white.webp",
+        "source": {
+          "key": "cloak-of-elvenkind",
+          "name": "Cloak of Elvenkind",
+          "uuid": "Compendium.pf1.items.Item.HSF0j88RR9JeTaJi",
+          "provider": "pf1",
+          "version": "11.11",
+          "pack": "items",
+          "type": "equipment",
+          "subType": "wondrous",
+          "img": "icons/equipment/back/cloak-layered-grey-white.webp",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "74951cc5a7c9423f90d2678e7629a17ab4d1c3e917f18a5cceb638599faa2a75",
+          "nativeActions": 0,
+          "hasChanges": true,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Actual grey cloth cloak illustration only; no Stealth bonus, camouflage or elven crafting requirement."
+      }
+    }
+  ]
+}

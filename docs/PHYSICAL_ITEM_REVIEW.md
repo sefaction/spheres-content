@@ -177,3 +177,30 @@ Gentle Shade also retain faint-aura/CL disagreements under issue #31.
 
 Updates affect compendia only. Existing imported world copies require deliberate
 reimport; no automatic type conversion or actor migration is performed.
+
+## Third-batch charm bonuses
+
+The first twenty third-batch charms retain full original rules, IDs and source
+snapshots. Six ability belts/headbands select +2 at CL4, correcting their draft
+construction-cost prices to the published 4,000-gp purchase tier under issue #37.
+Their first twenty-four worn hours remain temporary; permanent-only consequences
+and Genius' one crafted skill/rank assignment remain explicit manual steps.
+
+Native typed AC bonuses inherit CMD where appropriate without duplicate Changes.
+Luck and resistance saves are separate. Necklace of Natural Armor and Ironside
+Ring grant base natural armor; Pugilist's Charm and Talisman of Techniques enhance
+natural armor. These use different native fields and must not be interchanged.
+Any-slot charms select an actual occupied neck slot, rather than becoming slotless.
+Crafted maneuver/energy choices remain unselected; conditional notes do not grant
+global CMB, CMD, saves or resistance. One glove record means one complete pair.
+
+Pugilist's native natural-attack bonuses do not cover PF1's weapon-subtype Unarmed
+Strike. Manual unarmed handling remains explicit under issue #38 without improving
+ordinary weapons. Air Mastery's lesser tier grants Improved Bull Rush treatment
+only for Air Blast, while its specific defensive CMD bonus is continuous. The
+base Umbral Mantle grants +1 resistance saves; later scaling benefits require
+deliberate progression review. Its source aura discrepancy remains under #31.
+
+Eight original compact illustrations complement nine inspected core/system
+references and three uses of the existing original cloth headband image. Image
+reuse imports no unrelated item rules, stealth, psionics, or elemental choice.

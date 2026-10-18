@@ -3,7 +3,7 @@
   "_key": "!items!3f458ce0db259169",
   "name": "Dimlight Veil",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/charms/dimlight-veil.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "implemented",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-charm-bonuses",
+      "selectedVariant": "published 1500 gp veil"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Light; <strong>CL</strong> 5th<br>\n<strong>Slot</strong> head; <strong>Price</strong> 1,500 gp; <strong>Weight</strong> -</p>\n<p><strong>Description</strong><br>\nA dimlight veil cuts the glare of light and the sun, shielding the eyes. The wearer is immune the dazzled condition, and suffer no ill-effects from light sensitivity. In addition, the wearer gains a +2 bonus on saving throws against Light effects.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Light sphere; <strong>Cost</strong> 750 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc15\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: published 1500 gp veil.</p><p>A physical cloth veil using Light magic, not an Akashic veil. While worn, immune to dazzled and unaffected by light sensitivity; immunity and any condition removal remain manual. The +2 save bonus is only against Light effects. No general blindness immunity, darkvision, gaze protection, concealment or blanket save bonus is borrowed from inspected alternatives.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Light"
     },
     "hp": {},
     "broken": false,
@@ -83,14 +85,19 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
+    "contextNotes": [
+      {
+        "target": "allSavingThrows",
+        "text": "Against Light effects only: +2 on the saving throw, resolved manually. This is not a blanket save bonus."
+      }
+    ],
     "actions": [],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

@@ -3,7 +3,7 @@
   "_key": "!items!6710d1630453fed0",
   "name": "Belt of Avian Speed",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/charms/belt-of-avian-speed.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -15,7 +15,7 @@
       "sourceSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
       "descriptionSha256": "5f71d43060bbb5036781807104f5293370ad92062f23a165bce6fc5e8af97e36",
       "phase": "descriptive",
-      "automation": "not-reviewed",
+      "automation": "reviewed",
       "edition": "ultimate",
       "category": "charms",
       "intake": {
@@ -24,25 +24,37 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "implemented",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-charm-bonuses",
+      "selectedVariant": "base +2 Dexterity, 4000 gp",
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.items.Item.PC3K6eeXRdUwJxLA",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "abd4041929db6a23462f9e0185330009d8464dde090bab44c5293f5bf7df8678",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint (+2), moderate (+4), or strong (+6) Enhancement; <strong>CL</strong> 4th (+2), 8th (+4), or 12th (+6)<br>\n<strong>Slot</strong> belt; <strong>Price</strong> 4,000 (+2), 16,000 (+4), 36,000 (+6); <strong>Weight</strong> 2 lbs.</p>\n<p>This belt is decorated with symbols of swift birds. While worn, it grants a +2/+4/+6 enhancement bonus to Dexterity. Treat this as a temporary ability bonus for the first 24 hours the belt is worn.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Enhancement sphere (Physical Enhancement (enhance)); <strong>Cost</strong> 2,000 gp (+2), 8,000 gp (+4), or 18,000 gp (+6)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc6\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: base +2 Dexterity, 4000 gp.</p><p>One two-pound bird-decorated belt grants +2 enhancement to Dexterity, not movement speed or flight. The native enhancement changes the current ability total while equipped, matching the inspected PF1 item. Treat it as temporary for the first twenty-four worn hours; timing, eligibility and any permanent-only consequences remain manual. No automatic clock, higher tier, extra skill ranks or permanent base-score edit.</p><p>Purchase price corrected from the draft construction-cost value to the published four-thousand-gp base tier; issue #37. Full source text and snapshot hashes are unchanged.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -52,7 +64,7 @@
     },
     "equipped": true,
     "carried": true,
-    "price": 2000,
+    "price": 4000,
     "size": "med",
     "resizing": false,
     "timeworn": false,
@@ -63,15 +75,24 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 4,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Enhancement"
     },
     "hp": {},
     "broken": false,
     "hardness": 0,
-    "changes": [],
+    "changes": [
+      {
+        "_id": "248d79a96d74e7be",
+        "formula": "2",
+        "operator": "add",
+        "target": "dex",
+        "type": "enh",
+        "priority": 0
+      }
+    ],
     "changeFlags": {
       "immuneToMorale": false,
       "loseDexToAC": false,
@@ -90,7 +111,7 @@
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

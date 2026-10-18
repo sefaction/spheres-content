@@ -3,7 +3,7 @@
   "_key": "!items!c2db6277b7fd2236",
   "name": "Gloves of Air Mastery",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/hand/glove-cuffed-leather-grey.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "implemented",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-charm-bonuses",
+      "selectedVariant": "lesser 4000 gp; one complete pair; Improved Bull Rush for Air Blast"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Destruction; <strong>CL</strong> 5th;<br>\n<strong>Slot</strong> hands; <strong>Price</strong> 4,000 gp (lesser), 16,000 gp (greater); <strong>Weight</strong> —</p>\n<p><strong>Description</strong><br>\nThe wearer is treated as having the Improved Bull Rush (lesser) or the Improved Bull Rush and Greater Bull Rush (greater) feats for the purposes of using the Air Blast talent. Both gloves must be worn for the magic to be effective. The feat’s bonus to CMD applies continuously while the gloves are worn.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Destruction sphere (Air Blast (blast type, air)); <strong>Cost</strong> 2,000 gp (lesser), 8,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc23\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: lesser 4000 gp; one complete pair; Improved Bull Rush for Air Blast.</p><p>Quantity one is a complete negligible-weight pair; both gloves must be worn. The lesser tier treats the wearer as having Improved Bull Rush only for using Air Blast, while its bull-rush CMD bonus is continuous. No global CMB/CMD bonus, ordinary feat grant, Greater Bull Rush, Swim/Climb bonus or glove weapon attack.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Destruction"
     },
     "hp": {},
     "broken": false,
@@ -83,14 +85,23 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
+    "contextNotes": [
+      {
+        "target": "cmb",
+        "text": "Both gloves worn, using Air Blast only: treat as having Improved Bull Rush (+2 on bull rush checks and no provoked attack for that maneuver). Ordinary maneuvers gain no feat from these gloves."
+      },
+      {
+        "target": "cmd",
+        "text": "While both gloves are worn, Improved Bull Rush's +2 CMD applies against bull rush continuously, even when not using Air Blast. Resolve that specific defensive bonus manually."
+      }
+    ],
     "actions": [],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

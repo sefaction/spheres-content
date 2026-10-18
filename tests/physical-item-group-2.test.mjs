@@ -1,5 +1,6 @@
 import assert from "node:assert/strict";
 import test from "node:test";
+import { readdir } from "node:fs/promises";
 import { json } from "../scripts/lib.mjs";
 
 async function group() {
@@ -17,6 +18,33 @@ async function group() {
     ),
   );
 }
+
+test("firearm spell-power helpers opt out of inherited bullet requirements", async () => {
+  const directory = "src/packs/items/ethermagic-items";
+  const weapons = [];
+  for (const file of await readdir(directory)) {
+    const doc = await json(`${directory}/${file}`);
+    if (doc.type === "weapon" && doc.system.ammo?.type === "gunBullet")
+      weapons.push(doc);
+  }
+  assert.equal(weapons.length, 4);
+  for (const doc of weapons) {
+    const [attack, power] = doc.system.actions;
+    // PF1 11.11 inherits parent ammo on blank actions; its native "none"
+    // sentinel bypasses both the availability check and ammo deduction.
+    assert.equal(attack.ammo.type, "gunBullet", doc.name);
+    assert.equal(attack.actionType, "rwak", doc.name);
+    assert.equal(attack.uses.autoDeductChargesCost, "0", doc.name);
+    assert.equal(power.ammo.type, "none", doc.name);
+    assert.equal(power.damage, undefined, doc.name);
+    assert.equal(power.actionType, undefined, doc.name);
+    assert.equal(
+      power.uses.autoDeductChargesCost,
+      doc.name === "Sparkly's Glittergun" ? "0" : "1",
+      doc.name,
+    );
+  }
+});
 
 test("Ethermagic firearms retain native attacks independently of daily powers", async () => {
   const docs = await group();

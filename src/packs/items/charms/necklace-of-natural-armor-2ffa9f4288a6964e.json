@@ -3,7 +3,7 @@
   "_key": "!items!2ffa9f4288a6964e",
   "name": "Necklace of Natural Armor",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/charms/necklace-of-natural-armor.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -15,7 +15,7 @@
       "sourceSha256": "c048ba78478fe85c9bf496ac86978ca1c1737f2b24e6947bb2654d96870608be",
       "descriptionSha256": "1b216ecacc03dd16b84f57d0f92f2f01e4c0c705b60cae46326d26408bc4cbe8",
       "phase": "descriptive",
-      "automation": "not-reviewed",
+      "automation": "reviewed",
       "edition": "ultimate",
       "category": "charms",
       "intake": {
@@ -24,25 +24,37 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "implemented",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "not-needed",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-charm-bonuses",
+      "selectedVariant": "base +1 natural armor, 2000 gp",
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.items.Item.9Uxwqax0pLPyT2j7",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "784b8e544b518eee33b142eed8f7401ddc3720bb2d55d56378c567432da86053",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint (+1), moderate (+2/+3), or strong (+4/+5) Alteration; <strong>CL</strong> 3rd (+1), 6th (+2), 9th (+3), 12th (+4), or 15th (+5)<br>\n<strong>Slot</strong> neck; <strong>Price</strong> 2,000 gp (+1), 8,000 gp (+2), 18,000 (+3), 32,000 (+4), or 50,000 (+5); <strong>Weight</strong> 1&nbsp;lb.</p>\n<p>Extremely popular among adventurers for its protective qualities, this smooth iron neck ring is decorated with the symbol of a suit of armor on one side and a shield on the other. When worn, a necklace of natural armor provides a +1 to +5 natural armor bonus to armor class.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Alteration sphere, <strong>Cost</strong> 1,000 gp (+1), 4,000 gp (+2), 9,000 gp (+3), 16,000 gp (+4), or 25,000 gp (+5)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc32\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: base +1 natural armor, 2000 gp.</p><p>The iron neck ring grants a +1 natural armor bonus. This is base natural armor, not the conventional Amulet of Natural Armor's enhancement to natural armor. Native base natural armor takes the better competing value; enhancements to natural armor remain distinct. It does not improve touch AC or CMD. Higher tiers require matching values, CL and price.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,15 +75,24 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 3,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Alteration"
     },
     "hp": {},
     "broken": false,
     "hardness": 0,
-    "changes": [],
+    "changes": [
+      {
+        "_id": "32e30b3b200725e7",
+        "formula": "1",
+        "operator": "add",
+        "target": "nac",
+        "type": "base",
+        "priority": 0
+      }
+    ],
     "changeFlags": {
       "immuneToMorale": false,
       "loseDexToAC": false,
@@ -90,7 +111,7 @@
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

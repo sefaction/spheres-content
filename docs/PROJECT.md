@@ -62,6 +62,8 @@ mechanics and remote acceptance remain incomplete. The next batch (#26) freezes
 100 existing Ultimate-edition entries, excluding Akashic/legacy work. Its final
 twenty apparatus profiles finish image review for that hundred; specialized
 mechanics and broader acceptance remain incomplete. Both batches preserve stable
-source identities and snapshots.
+source identities and snapshots. The third batch (#36) freezes the next hundred
+Ultimate items: eleven apparatuses, forty-seven charms and forty-two compounds.
+Its first group reviews twenty charms with related native bonus profiles.
 See [the physical-item review](PHYSICAL_ITEM_REVIEW.md). The full catalog, artwork
 and mechanics remain unfinished.
