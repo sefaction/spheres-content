@@ -14171,7 +14171,7 @@
     "activation": {
       "state": "implemented",
       "sourceSha256": "18b304267952a43d7cd87360dcbe55509366bc9e8437ae20cd654d5bf01cb9e3",
-      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Expend the actually imbued dose when used on its first creature target, or mark it unusable if its four-hour window elapsed. The next creature to touch it receives the stored effect. It may be applied to a weapon as a contact poison. Actual application, target contact and stored effect resolution are manual; no automatic poison save or attack."
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Expend the actually imbued dose when used on its first creature target, or mark it unusable if its four-hour window elapsed. The next creature to touch it receives the stored effect. It may be applied to a weapon as a contact poison. Actual application, target contact and stored effect resolution are manual; no automatic poison save or attack. Correct stage labeling under #46: four-hour contact window starts after completed preparation; no duration is imposed on the stored effect."
     },
     "changes": {
       "state": "deferred",

@@ -96,8 +96,12 @@
         },
         "notes": {
           "effect": [
-            "An actual sphere caster supplies one sphere ability that affects a single creature, spending its real spell points and actual casting time. Imbuing does not expend this dose. Track preparation and the four-hour contact window manually; this helper invents no ability, free casting or stored-resource pool."
+            "An actual sphere caster supplies one sphere ability that affects a single creature, spending its real spell points and actual casting time. Imbuing does not expend this dose. Track preparation and the four-hour contact window manually; this helper invents no ability, free casting or stored-resource pool. The four-hour contact window starts after imbuing is complete."
           ]
+        },
+        "duration": {
+          "value": "4",
+          "units": "hour"
         }
       },
       {
@@ -114,12 +118,8 @@
         },
         "notes": {
           "effect": [
-            "Expend the actually imbued dose when used on its first creature target, or mark it unusable if its four-hour window elapsed. The next creature to touch it receives the stored effect. It may be applied to a weapon as a contact poison. Actual application, target contact and stored effect resolution are manual; no automatic poison save or attack."
+            "Expend the actually imbued dose when used on its first creature target, or mark it unusable if its four-hour window elapsed. The next creature to touch it receives the stored effect. It may be applied to a weapon as a contact poison. Actual application, target contact and stored effect resolution are manual; no automatic poison save or attack. Four hours is only the prepared oil's contact window; the stored ability retains its own duration."
           ]
-        },
-        "duration": {
-          "value": "4",
-          "units": "hour"
         }
       }
     ],

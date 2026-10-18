@@ -1,6 +1,25 @@
 # Work checkpoint
 
-Updated: 2026-10-17 (work began 2026-09-19 local time).
+Updated: 2026-10-18 (work began 2026-09-19 local time).
+
+## Active follow-up: prepared-oil contact window
+
+- PR #45 final head 629f3d8 passed Windows/Ubuntu; its deployed implementation
+  414d5b4 passed native dose checks and the complete installed audit in Setup.
+  Review then found #46: Quintessential Oil's four-hour duration label appears
+  on expenditure instead of preparation, implying a duration for the stored
+  ability. Original quantity acceptance did not check this label's stage.
+- Corrected only the two native helper annotations: preparation shows the
+  four-hour contact window starting after imbuing completes; expenditure has
+  no imposed stored-effect duration. Item/action IDs, original rules, dose costs,
+  price, weight and all other record fields remain unchanged. Identity/review
+  hashes and research are synchronized. A regression fails before and passes
+  after the correction; all six focused compound tests pass.
+- Full clean verification, guarded redeployment and focused native stage/counter
+  acceptance are pending. The previous tested build remains in Setup. Next:
+  finish those checks and the final installed audit, then update #45 with exact
+  evidence. No new batch selected while user direction is pending; no merge or
+  release approval for #43/#45.
 
 ## Active work: first twenty-compounds group in batch 3
 

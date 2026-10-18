@@ -83,6 +83,18 @@ test("tier and conditional limits do not import full spells or permanent bonuses
   assert.match(note("cleansing-potion"), /one round only/);
   assert.match(note("hallow-word-oil"), /#44/);
 });
+test("prepared oil expires four hours after imbuing without imposing a stored-effect duration", () => {
+  const [prepare, expend] = docs.get("quintessential-oil").system.actions;
+  assert.deepEqual(prepare.duration, { value: "4", units: "hour" });
+  assert.equal(expend.duration, undefined);
+  assert.match(prepare.notes.effect[0], /starts after imbuing is complete/);
+  assert.match(
+    expend.notes.effect[0],
+    /stored ability retains its own duration/,
+  );
+  assert.equal(prepare.uses.autoDeductChargesCost, "0");
+  assert.equal(expend.uses.autoDeductChargesCost, "1");
+});
 test("dispel helpers use fixed item MSB and source effect counts, preserving published prices", () => {
   const lesser = docs.get("spell-cleansing-elixir-lesser").system;
   const greater = docs.get("spell-cleansing-elixir-greater").system;

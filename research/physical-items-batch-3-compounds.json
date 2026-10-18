@@ -32,7 +32,8 @@
     "healing": "Common Cure fixed 1d8+1 positive healing; full Cure Life and Cure Light Wounds native action interfaces reviewed. No CL scaling or HP mutation hook.",
     "checks": "Fixed source MSB/check reminders are native inline rolls; actual targets/DCs/outcomes manual.",
     "temporaryEffects": "No persistent changes or automatic buff/world/token/actor edits. Selected base tiers and source caps override comparison components.",
-    "sourceAmbiguity": "Hallow wording under #44; preserve original text. Published lesser dispel purchase 250 and construction 175 remain distinct without deriving either."
+    "sourceAmbiguity": "Hallow wording under #44; preserve original text. Published lesser dispel purchase 250 and construction 175 remain distinct without deriving either.",
+    "preparedOilWindow": "Issue #46: four hours is the contact window after completed imbuing, shown on the preparation helper. Expenditure applies no generic duration to the stored ability."
   },
   "reuseEvidence": [
     {
@@ -1779,8 +1780,12 @@
           },
           "notes": {
             "effect": [
-              "An actual sphere caster supplies one sphere ability that affects a single creature, spending its real spell points and actual casting time. Imbuing does not expend this dose. Track preparation and the four-hour contact window manually; this helper invents no ability, free casting or stored-resource pool."
+              "An actual sphere caster supplies one sphere ability that affects a single creature, spending its real spell points and actual casting time. Imbuing does not expend this dose. Track preparation and the four-hour contact window manually; this helper invents no ability, free casting or stored-resource pool. The four-hour contact window starts after imbuing is complete."
             ]
+          },
+          "duration": {
+            "value": "4",
+            "units": "hour"
           }
         },
         {
@@ -1797,12 +1802,8 @@
           },
           "notes": {
             "effect": [
-              "Expend the actually imbued dose when used on its first creature target, or mark it unusable if its four-hour window elapsed. The next creature to touch it receives the stored effect. It may be applied to a weapon as a contact poison. Actual application, target contact and stored effect resolution are manual; no automatic poison save or attack."
+              "Expend the actually imbued dose when used on its first creature target, or mark it unusable if its four-hour window elapsed. The next creature to touch it receives the stored effect. It may be applied to a weapon as a contact poison. Actual application, target contact and stored effect resolution are manual; no automatic poison save or attack. Four hours is only the prepared oil's contact window; the stored ability retains its own duration."
             ]
-          },
-          "duration": {
-            "value": "4",
-            "units": "hour"
           }
         }
       ],
