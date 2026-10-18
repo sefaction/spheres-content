@@ -2,8 +2,8 @@
   "_id": "2f466bad84b23ca6",
   "_key": "!items!2f466bad84b23ca6",
   "name": "Leviathan Cross",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "weapon",
+  "img": "modules/additional-spheres-content/icons/items/kineticist-items/leviathan-cross.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,18 +24,29 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-light-crossbow",
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.RWbjRwSPsuPAUDhw",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "f124e5801602e201a76f9b453a650deb78d731f7e3d82ecc1224c68190bc3feb",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
@@ -43,7 +54,7 @@
     "description": {
       "value": "<p><strong>Aura</strong> strong conjuration; <strong>CL</strong> 12th; <strong>Weight</strong> 9 lbs.<br>\n<strong>Slot</strong> none; <strong>Cost</strong> 12,335 gp</p>\n<p><strong>Description</strong><br>\nThis +1 conductive light crossbow is designed with kinetic powers in mind. It is a solid steel blue weapon with thin conduits carved along the stock; these conduits glow brightly as a kineticist pours their kinetic power into it, usually in a color matching with the blast’s elements. If the weapon’s conductive property is used to deliver a kinetic blast, the bolt fired can twist and turn along its trajectory as if it was a kinetic blast affected by the snake infusion, except using the weapon’s range. This affects the crossbow bolt, not the blast, and the kineticist can still apply form infusions as normal.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Magic Arms and Armor, snake infusion; <strong>Cost</strong> 6,335 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/kineticist-magical-items#toc31\">Source: Spheres of Power Wiki</a></p>",
       "instructions": "",
-      "unidentified": ""
+      "unidentified": "<p>You draw a light crossbow back by pulling a lever. Loading a light crossbow is a move action that provokes attacks of opportunity. A light crossbow fires crossbow bolts.</p><p>Normally, operating a light crossbow requires two hands. However, you can shoot, but not load, a light crossbow with one hand at a -2 penalty on attack rolls. You can shoot a light crossbow with each hand, but you take a penalty on attack rolls as if attacking with two light weapons. This penalty is cumulative with the penalty for one-handed firing.</p>"
     },
     "tags": [],
     "quantity": 1,
@@ -63,14 +74,16 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 12,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "con"
     },
-    "hp": {},
+    "hp": {
+      "base": 5
+    },
     "broken": false,
-    "hardness": 0,
+    "hardness": 5,
     "changes": [],
     "changeFlags": {
       "immuneToMorale": false,
@@ -84,7 +97,45 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "9a1c96016130be02",
+        "ability": {
+          "attack": "_default",
+          "critRange": 19
+        },
+        "actionType": "rwak",
+        "activation": {
+          "type": "attack",
+          "unchained": {
+            "type": "attack"
+          }
+        },
+        "ammo": {
+          "type": "bolt"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "sizeRoll(1, 8, @size)",
+              "types": ["piercing"]
+            }
+          ]
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "extraAttacks": {
+          "type": "standard"
+        },
+        "name": "Attack",
+        "range": {
+          "maxIncrements": 10,
+          "units": "ft",
+          "value": "80"
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
@@ -95,8 +146,7 @@
       "rechargeFormula": ""
     },
     "links": {
-      "children": [],
-      "charges": []
+      "children": []
     },
     "tag": "",
     "flags": {
@@ -104,40 +154,34 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
+    "masterwork": true,
+    "enh": 1,
     "proficient": false,
     "held": "1h",
     "ammo": {
-      "type": "",
+      "type": "bolt",
       "capacity": null,
       "misfire": null,
       "explode": null
     },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
+    "subType": "simple",
+    "weaponSubtype": "ranged",
+    "hands": 2,
+    "baseTypes": ["Light Crossbow"],
+    "weaponGroups": ["crossbows"],
+    "material": {
+      "base": {
+        "value": "wood",
+        "custom": false
+      },
+      "normal": {
+        "value": "",
+        "custom": false
+      },
+      "addon": []
     },
-    "spellFailure": 0,
-    "showInQuickbar": false,
+    "properties": {},
+    "showInQuickbar": true,
     "sources": [
       {
         "title": "Spheres of Power Wiki",

@@ -3,7 +3,7 @@
   "_key": "!items!9a515f6dcf066b40",
   "name": "Burn Shard",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/kineticist-items/burn-shard.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment",
+      "selectedVariant": "lesser burn shard; one point of burn per day; 8000 gp"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> moderate transmutation; <strong>CL</strong> 8th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 8,000 gp (lesser), 32,000 gp (greater); <strong>Weight</strong> —</p>\n<p><strong>Description</strong><br>\nThis small sliver of crystal is completely translucent, although when attuned it flickers with a weak glow. A creature must attune themselves to a burn shard over 24 hours to use it. After a burn shard has been attuned, once per day it can accept 1 point of burn in place of its owner. A greater burn shard can instead accept 2 points of burn per day.<br>\nA creature can only attune themselves to one burn shard at a time.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Wondrous Item, creator must be an 8th level kineticist; <strong>Cost</strong> 4,000 gp (lesser), 16,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/kineticist-magical-items#toc28\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: lesser burn shard; one point of burn per day; 8000 gp. Other variants remain in the complete source description.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 8,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "trs"
     },
     "hp": {},
     "broken": false,
@@ -84,14 +86,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "69164fe3df79fa5a",
+        "name": "Accept One Point of Burn after Attunement",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Requires 24-hour attunement and at most one attuned shard. The daily counter records the lesser shard accepting one point of burn; actor burn and attunement are not changed automatically."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 1,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "1",
       "rechargeFormula": ""
     },
     "links": {

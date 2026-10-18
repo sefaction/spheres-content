@@ -172,3 +172,33 @@ without changing rules, construction requirements or identity. Issue
 Gonzo slot headers; descriptions are preserved and no publisher errata are
 asserted. Native helpers and resource tracking remain subject to remote PF1
 acceptance; no world migration is included.
+
+## Final first-batch item profiles: 2026-10-17
+
+The final fourteen entries adapt PF1 11.11 Light Crossbow and Buckler structures
+with exact input UUIDs, versions and hashes in `config/physical-item-reviews.json`.
+Native attack/ammunition and shield data are preserved; named magical prices,
+weights, enhancements, caster levels and complete wiki rules override mundane
+values. The existing PF1 OGL/GPL record-format notices remain applicable; no
+upstream program code or artwork bytes are copied.
+
+Trash Bag uses the already reviewed native Sack/container structure. Its
+source-defined zero-value trash is a separate quantity-bearing native Gear
+record under the same approved Gonzo snapshot. Its five-pound published full
+weight is reconciled in `config/containers.json`, with no extra mundane Sack
+weight. The child’s provenance resolves to the parent module item, and its
+source approval is validated with the same intake scope. No new external rules
+collection or specific improvised-weapon statistics are invented.
+
+Archmage’s Cube of Gaming inherits the published Wizard’s Cube rules and ebony
+card-box appearance; the inspected canonical base identity and source hashes
+are recorded as modeling evidence. No IDs are merged or new wiki snapshots
+imported. Source corrections under #20 and additive-price fixes under #24 retain
+original snapshots and complete rules. Armor upgrades are references rather than
+complete armor suits. These changes affect compendia, with no world migration.
+
+Thirteen generated illustrations total 105,780 bytes, with prompts, original and
+encoded hashes and 256 px WebP settings in `config/content.json`. One inspected
+core holy-symbol path is referenced for Divine Symbol; the unrelated mundane
+record’s rules and image bytes are not redistributed. All final illustrations
+were checked at 64 and 128 px and retain the per-icon size budget.

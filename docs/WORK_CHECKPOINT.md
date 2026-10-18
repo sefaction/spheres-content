@@ -2,7 +2,65 @@
 
 Updated: 2026-10-17 (work began 2026-09-19 local time).
 
-## Active work in progress: physical item group 3
+## Active work in progress: final physical-item group
+
+- Branch `codex/physical-items-final-group`, based on `c02a056` from draft PR #23.
+  Both CI platforms passed for #23. No PR has individual merge approval.
+- Fourteen remaining non-Akashic entries now have reviewed profiles and images.
+  The frozen 100-entry image queue reports zero pending. Thirteen new 256 px WebP
+  icons total 105,780 bytes; Divine Symbol references a visually reviewed core
+  image. Native profiles and specialized mechanics are not all remotely accepted
+  or fully automated. Existing Akashic work remains preserved and deferred.
+- Trash Bag is a native container with five one-pound zero-value trash units.
+  Its published full five-pound weight is represented by contents, so adding
+  mundane Sack weight would double count. The five-pound capacity is recorded
+  explicitly; drawing random improvised weapons and regeneration remain manual.
+- Disc of Rainbow Tears adapts PF1 11.11 Buckler (+2), and Leviathan Cross adapts
+  its Light Crossbow (+1). Complete base descriptions and named-item overrides
+  are retained. Conditional shield stacking, special abilities, stone sockets
+  and kineticist interfaces remain deferred. Armor qualities stay separate
+  zero-weight upgrade references, not fabricated complete armor suits.
+- Native helpers consume a basic Burn Fragment and a one-HD Dragon’s Tooth.
+  Burn Shard has one daily use after attunement. Cradle has three daily activations
+  and a separate manual four-point momentum pool; movement costs no daily use.
+  Archmage’s Cube uses a one-daily-wager counter, with inherited Wizard’s Cube
+  appearance/rules inspected. Variant and selection notes appear on the records.
+- Issue #20 also covers the corrected Trash Bag publisher boundary. Same page
+  SHA `9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e`;
+  old description `3bcaebe7496f80d3727a5843d3c4d4c8698701d20585b40a790f88d09b104407`
+  becomes `f556da03c6ce830c14166dd18f03769fac9101fe700128d018bcc8bc90379b82`.
+  Rules, construction, source footer and stable ID are preserved; frozen digest
+  and ledger are reconciled. Regression cases preserve legitimate rules tables.
+- Issue #24 tracks additive price parsing: both armor upgrades now use their
+  published +10,000 gp fee instead of 5,000 gp construction cost. The parser
+  accepts the plus sign. A non-Akashic catalog scan found these two explicit
+  numeric additive Price headers; both now agree. No broad intake refresh ran.
+- Implementation `23dc045a8f6d4094629d159efea5c39f74acd21b` passed clean full
+  verification: formatting, lint, all 60 tests, source/reference/provenance guards,
+  all 6,788 compiler round trips and two identical 753-file builds. ZIP SHA-256:
+  `01cccd5b9490b8aeb7b30cd72731055d0ba3eec922005af6582b4257f1a145d9`.
+- Draft PR #25 is pushed and stacked on `codex/physical-items-group-3` (#23):
+  https://github.com/sefaction/spheres-content/pull/25. CI remains pending until
+  checked. References #15, #20 and #24; none is closed and no merge is approved.
+  This documentation follow-up needs a fresh clean gate before deployment.
+- Remote last checked read-only: HTTP 200 at `/join`, unidentified world running,
+  PF1 11.11 / pf1spheres 0.9.0 / installed module alpha.6. Last deployment receipt
+  remains `fed942b`. No deployment, world switch or restart. A user status question
+  about Setup is pending; continue independent local work without assuming a reply.
+- Next safe step: check PR #25 CI, then accept the branch in the dedicated world
+  once Setup is confirmed, or start the next non-Akashic production branch.
+  First-batch image work is done; keep its status active while mechanics and
+  remote acceptance remain incomplete.
+- Independent next-batch research is cached in ignored
+  `.local/next-non-akashic-candidates.json` (521 unreviewed candidates before
+  edition/mechanics screening). Metamagic apparatus base rules are pinned in
+  `.local/metamagic-base-profile-research.json`: lesser CL 5, faint untyped aura,
+  effects up to CL 7, normally three daily uses as part of casting, held or worn
+  by form. Combination-apparatus exceptions and each effect require review.
+  Feat spell-point costs are not the physical apparatus's use cost. No next-batch
+  item, image or frozen membership has been authored. Preserve IDs/source hashes.
+
+## Prior reviewed content batch: physical item group 3
 
 - Branch `codex/physical-items-group-3`, based on `2714dad` from PR #21.
   Continue the user goal of processing as many non-Akashic items as practical.
@@ -26,7 +84,8 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   The planner test now permits a final group smaller than twenty; behavior is
   unchanged. Documentation follow-up needs a fresh clean gate before deployment.
 - Draft PR #23 is pushed and stacked on PR #21:
-  https://github.com/sefaction/spheres-content/pull/23. CI is pending until checked.
+  https://github.com/sefaction/spheres-content/pull/23. Windows/Ubuntu CI passed at
+  documentation commit `c02a056`.
   No remote acceptance, compatibility claim, merge or release is implied.
 - PR #21 remains draft with passing Windows/Ubuntu CI at `2714dad`.
   PR #23 targets `codex/physical-items-group-2` and references #15, #20 and #22.

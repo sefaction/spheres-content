@@ -2,8 +2,8 @@
   "_id": "7386e18af24c8c62",
   "_key": "!items!7386e18af24c8c62",
   "name": "Energizing (Armor Property)",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "loot",
+  "img": "modules/additional-spheres-content/icons/items/kineticist-items/energizing.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,19 +24,20 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "deferred",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "deferred",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "armor-upgrade-reference"
     }
   },
   "system": {
@@ -46,13 +47,16 @@
       "unidentified": ""
     },
     "tags": [],
+    "actions": [],
+    "attackNotes": [],
+    "effectNotes": [],
     "quantity": 1,
     "weight": {
       "value": 0
     },
-    "equipped": true,
+    "equipped": false,
     "carried": true,
-    "price": 5000,
+    "price": 10000,
     "size": "med",
     "resizing": false,
     "timeworn": false,
@@ -63,14 +67,21 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 7,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "abj"
     },
     "hp": {},
     "broken": false,
     "hardness": 0,
+    "uses": {
+      "value": null,
+      "per": "",
+      "autoDeductChargesCost": "",
+      "maxFormula": "",
+      "rechargeFormula": ""
+    },
     "changes": [],
     "changeFlags": {
       "immuneToMorale": false,
@@ -84,19 +95,8 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
-    "attackNotes": [],
-    "effectNotes": [],
-    "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
-      "rechargeFormula": ""
-    },
     "links": {
-      "children": [],
-      "charges": []
+      "children": []
     },
     "tag": "",
     "flags": {
@@ -104,40 +104,9 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
-    "proficient": false,
-    "held": "1h",
-    "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
-    },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
-    },
-    "spellFailure": 0,
-    "showInQuickbar": false,
+    "subType": "gear",
+    "extraType": "",
+    "abundant": false,
     "sources": [
       {
         "title": "Spheres of Power Wiki",

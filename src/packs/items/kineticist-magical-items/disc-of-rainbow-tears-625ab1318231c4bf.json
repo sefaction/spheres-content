@@ -3,7 +3,7 @@
   "_key": "!items!625ab1318231c4bf",
   "name": "Disc of Rainbow Tears",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/kineticist-items/disc-of-rainbow-tears.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,18 +24,29 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-buckler",
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.armors-and-shields.Item.gsE0PAOmCwivue5A",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "668651d98295af8dca6c804ff3fc3ec5e676c029b495178c5de08cae4766a112",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
@@ -43,7 +54,7 @@
     "description": {
       "value": "<p><strong>Aura</strong> strong evocation; <strong>CL</strong> 15th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 18,400 gp; <strong>Weight</strong> 7 lbs.</p>\n<p><strong>Description</strong><br>\nKineticists seldom utilize shields, as they tend to interfere with their ability to unleash their blasts, but this +2 impervious rebounding buckler is built to not only allow them to freely use their abilities, but enhance them. The shield has three slots on its inner surface designed to hold teardrop ioun stones (but cannot hold other ioun stones) and a port in the center through which a kineticist can fire their kinetic blast. They must take a full action to open this port, fire a blast through it, and close it once again, but doing so allows the blast to draw energy from the ioun stones set into it simultaneously, benefiting from all of the ones matching the blast’s elements. In addition, a portion of the shield bonus to AC from a disc of rainbow tears stacks with that provided by a wild talent, up to +1 per ioun stone set into the shield, so long as at least one of the ioun stones enhances the same element as that of the wild talent that provides their shield bonus.</p>\n<p><strong>Construction Requirement(s)</strong><br>\nCraft Magic Arms and Armor, kineticist of 15th level; <strong>Cost</strong> 9,200 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/kineticist-magical-items#toc30\">Source: Spheres of Power Wiki</a></p>",
       "instructions": "",
-      "unidentified": ""
+      "unidentified": "<p>This small metal shield is worn strapped to your forearm. You can use a bow or crossbow without penalty while carrying it. You can also use your shield arm to wield a weapon (whether you are using an off-hand weapon or using your off hand to help wield a two-handed weapon), but you take a –1 penalty on attack rolls while doing so. This penalty stacks with those that may apply for fighting with your off hand and for fighting with two weapons. In any case, if you use a weapon in your off hand, you lose the buckler’s AC bonus until your next turn. You can cast a spell with somatic components using your shield arm, but you lose the buckler’s AC bonus until your next turn. You can’t make a shield bash with a buckler.</p>"
     },
     "tags": [],
     "quantity": 1,
@@ -63,14 +74,16 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 15,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "evo"
     },
-    "hp": {},
+    "hp": {
+      "base": 5
+    },
     "broken": false,
-    "hardness": 0,
+    "hardness": 10,
     "changes": [],
     "changeFlags": {
       "immuneToMorale": false,
@@ -84,7 +97,27 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "0d64614bb7a2a2df",
+        "name": "Fire Kinetic Blast through Shield Port",
+        "activation": {
+          "type": "full",
+          "unchained": {
+            "type": "action",
+            "cost": 3
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Native +2 buckler armor statistics only. Impervious/rebounding behavior, three teardrop sockets, matching-element blast bonuses and conditional stacking with wild-talent shield bonuses require an explicit interface. No ioun stones or attacks are bundled. The full-round procedure opens the port, fires a blast and closes it. Resolve the known blast separately."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
@@ -104,7 +137,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
+    "masterwork": true,
     "enh": null,
     "proficient": false,
     "held": "1h",
@@ -114,19 +147,19 @@
       "misfire": null,
       "explode": null
     },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
+    "subType": "shield",
+    "slot": "shield",
+    "equipmentSubtype": "other",
     "hands": 0,
-    "baseTypes": [],
+    "baseTypes": ["Buckler"],
     "armor": {
-      "value": 0,
+      "value": 1,
       "dex": null,
-      "acp": 0,
-      "enh": 0,
+      "acp": 1,
+      "enh": 2,
       "material": {
         "base": {
-          "value": "",
+          "value": "steel",
           "custom": false
         },
         "normal": {
@@ -136,7 +169,7 @@
         "addon": []
       }
     },
-    "spellFailure": 0,
+    "spellFailure": 5,
     "showInQuickbar": false,
     "sources": [
       {

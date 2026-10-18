@@ -82,5 +82,32 @@
       "weight": 0
     },
     "contents": []
+  },
+  "trash-bag": {
+    "containerId": "f2a1e7526c8218ae",
+    "sourceKey": "wiki:gonzo-wondrous-items:current:item:trash-bag",
+    "maxWeight": 5,
+    "totals": {
+      "price": 500,
+      "weight": 5
+    },
+    "empty": {
+      "price": 500,
+      "weight": 0
+    },
+    "weightReason": "Published full weight five pounds minus explicitly five pounds of trash equals zero separately counted empty weight. Do not add the mundane Sack’s weight.",
+    "contents": [
+      {
+        "id": "4784dfd6785ccfa5",
+        "sourceKey": "wiki:gonzo-wondrous-items:current:item:trash-bag:contents:mundane-trash",
+        "sourceUuid": "Compendium.additional-spheres-content.items.Item.f2a1e7526c8218ae",
+        "sourceSha256": "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+        "type": "loot",
+        "quantity": 5,
+        "price": 0,
+        "weight": 1,
+        "actionsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ]
   }
 }

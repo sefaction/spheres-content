@@ -626,3 +626,47 @@ test("ammunition validation rejects wrong native profiles, infinite ammo and ine
     );
   }
 });
+
+test("reviewed shield and container profiles reject armor drift, invented capacity and unapproved child sources", async () => {
+  const { catalog, docs } = validatedCatalog;
+  const identities = await json("config/identities.json"),
+    containers = await json("config/containers.json"),
+    intakeSources = await json("config/intake-sources.json");
+  const sources = new Map(catalog.sources.map((s) => [s.key, s]));
+  const assets = new Map([
+    ...catalog.externalAssets.map((a) => [a.path, a]),
+    ...catalog.assets.map((a) => [
+      `modules/${moduleId}/${a.path.slice("static/".length)}`,
+      a,
+    ]),
+  ]);
+  for (const [name, mutate, expected] of [
+    ["Disc of Rainbow Tears", (d) => (d.system.armor.enh = 3), /3 !== 2/],
+    [
+      "Disc of Rainbow Tears",
+      (d) => (d.system.baseTypes = ["Heavy Shield"]),
+      /Buckler/,
+    ],
+    ["Trash Bag", (d) => (d.system.maxWeight = 6), /Unreviewed capacity/],
+    [
+      "Trash Bag",
+      (d) =>
+        (Object.values(d.system.items)[0].flags[moduleId].sourceSha256 =
+          "0".repeat(64)),
+      /Unreviewed intake snapshot/,
+    ],
+  ]) {
+    const original = docs.find(({ doc }) => doc.name === name).doc,
+      changed = structuredClone(original);
+    mutate(changed);
+    const identity = identities.find((i) => i.id === original._id);
+    assert.throws(
+      () =>
+        validateEntity(changed, identity, sources, assets, {
+          containers,
+          intakeSources,
+        }),
+      expected,
+    );
+  }
+});

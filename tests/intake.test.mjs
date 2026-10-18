@@ -198,3 +198,60 @@ test("corrected Glittergun source retains its identity, snapshot and constructio
     /Systems by Interjection Games|Get The Triggerman/,
   );
 });
+
+test("Gonzo publisher navigation is excluded without removing real Gonzo rules tables", () => {
+  const nav =
+    "<hr><table><tr><th>Gonzo 1 and 2 by Little Red Goblin Games</th></tr><tr><td>Get Gonzo 2</td></tr></table>";
+  const rules =
+    "<p>Aura moderate conjuration; CL 3rd; Price 500 gp; Weight 5 lbs.</p><p>It holds 5 lbs. of usable trash.</p><table><tr><th>Gonzo instrument statistics</th></tr><tr><td>Keytar 1d8</td></tr></table><p>Construction Requirements Craft Wondrous Item, mending; Cost 250 gp.</p>";
+  const clean = sanitize(rules + nav, url);
+  assert.match(clean, /Keytar 1d8/);
+  assert.match(clean, /250 gp/);
+  assert.doesNotMatch(clean, /Get Gonzo|Little Red Goblin/);
+  const item = extractPage(
+    wrap("<h2>Magic Items</h2><h3>Trash Bag</h3>" + rules + nav),
+    "http://spheresofpower.wikidot.com/gonzo-wondrous-items",
+  ).entities.find((e) => e.name === "Trash Bag");
+  assert(item);
+  assert.doesNotMatch(item.description, /Get Gonzo|Little Red Goblin/);
+  assert.match(item.description, /5 lbs/);
+});
+
+test("corrected Trash Bag preserves its approved snapshot, construction and stable identity", async () => {
+  const d = await json(
+    "src/packs/items/gonzo-wondrous-items/trash-bag-f2a1e7526c8218ae.json",
+  );
+  const m = d.flags["additional-spheres-content"];
+  assert.equal(d._id, "f2a1e7526c8218ae");
+  assert.equal(
+    m.sourceSha256,
+    "9b69cd677fd616fea875857afdec8ce0604e35a3a0f38e6e8118edf1488bc29e",
+  );
+  assert.match(d.system.description.value, /mending/);
+  assert.match(d.system.description.value, /250 gp/);
+  assert.match(d.system.description.value, /Source: Spheres of Power Wiki/);
+  assert.doesNotMatch(
+    d.system.description.value,
+    /Little Red Goblin Games|Get Gonzo/,
+  );
+  const b = await json("config/production-batches.json");
+  const e = b.batches["physical-items-batch-1"].entries.find(
+    (e) => e.id === d._id,
+  );
+  assert.equal(e.descriptionSha256, m.descriptionSha256);
+  assert.equal(
+    e.sourceBoundaryCorrection.previousDescriptionSha256,
+    "3bcaebe7496f80d3727a5843d3c4d4c8698701d20585b40a790f88d09b104407",
+  );
+});
+
+test("additive upgrade prices are not replaced by construction costs", () => {
+  const p = physicalProfile({
+    name: "Energizing (Armor Property)",
+    pageUrl: "http://spheresofpower.wikidot.com/kineticist-magical-items",
+    description:
+      "Aura moderate abjuration; CL 7th; Weight —; Price +10,000 gp. Construction Requirements Craft Magic Arms and Armor; Cost 5,000 gp.",
+  });
+  assert.equal(p.price, 10000);
+  assert.equal(p.weight, 0);
+});

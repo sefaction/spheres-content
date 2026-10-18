@@ -3,7 +3,7 @@
   "_key": "!items!d5791dac770b56cc",
   "name": "Dragon’s Tooth",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/marvelous-items/dragons-tooth.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "not-needed",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "single-use-wondrous",
+      "selectedVariant": "one-Hit-Die cohort price tier; race and tradition must be selected; 500 gp"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Creation; <strong>Caster Level</strong> 1st<br>\n<strong>Slot</strong> none; <strong>Price</strong> 500 gp; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThe origin of these items are shrouded in myth, tales of warriors springing from the ground were the teeth of a dragon are sown. You may place on of these teeth on a flat surface as a standard action; at the start of your next turn, it becomes a warrior cohort with 1 Hit Die. This is an instantaneous effect that destroys the item. You may recruit this warrior as a free action. If not recruited by the end of your next turn, it becomes hostile. The cohort has no recollection of any past prior to the item being activated. The cohort’s race and tradition are determined when the item is created.</p>\n<p>More powerful dragon’s teeth may be created, costing 500 gp per Hit Die of the cohort.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Wondrous Item, Leadership sphere; Cost 250 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/marvelous-items-2\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: one-Hit-Die cohort price tier; race and tradition must be selected; 500 gp. Other variants remain in the complete source description.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +65,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 1,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +86,34 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "064ea6e565eb6c3d",
+        "name": "Sow One-HD Dragon’s Tooth",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "action",
+            "cost": 2
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Place on a flat surface as a standard action; one-HD cohort appears at the start of the next turn. Recruiting is free; it becomes hostile if not recruited by the end of the following turn. No actor is created and no race/tradition is guessed."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 1,
+      "per": "single",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "1",
       "rechargeFormula": ""
     },
     "links": {
