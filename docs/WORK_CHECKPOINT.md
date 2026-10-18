@@ -1,4 +1,4 @@
-﻿# Work checkpoint
+# Work checkpoint
 
 Updated: 2026-10-17 (work began 2026-09-19 local time).
 
@@ -32,21 +32,56 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   and output hashes and encoding are registered. Eleven entries use visually
   reviewed core/system art; the actual full cloak image is used for the weather
   cloaks. No unrelated bonuses, conventional rules or upstream image bytes.
-- Six focused regressions and content validation passed. Full clean gate,
-  deterministic builds, deployment and UI acceptance are pending. No group-4 PR
-  yet; stack on `codex/metamagic-apparatus-group-3` (#30).
+- Clean implementation `443947eada252c7600c114a0681ea34beaeb9299` passed the full
+  gate: 83 tests, all 6,788 compiler round trips and two identical 762-file builds.
+  ZIP SHA-256:
+  `c45d10cf498f2381c593635f73b05d419920c3c681dbb398d5926fd02c934033`.
+  Guarded dry-run, staged deployment and strict installed-byte checks passed on
+  2026-10-17; ten recoverable module backups remain. No group-4 PR yet; stack on
+  `codex/metamagic-apparatus-group-3` (#30).
 - Batch 2 now has eighty reviewed images and twenty pending, all other apparatuses.
   Next ignored plan: `.local/batch2-final-plan.json`, beginning Field Researcher's
   Lenses, Force Hook and Gentle Shade Trinket. Akashic/legacy production stays
   deferred and existing sources/reviews are preserved.
-- The user supplied administrator authentication for the designated server.
-  Returned the identified zero-player test world to Setup through its native UI;
-  Setup is visibly confirmed. No credentials are recorded in repository files.
-  Current last deployment remains `fed942b`; no restart has occurred or is needed.
-- Next safe step: commit and run the full clean gate, guarded dry-run/staged
-  deployment, relevant native Foundry checks for this and earlier groups, return
-  to Setup and exact semantic audit. Record actual results, then push/open the
-  draft PR. Preserve all controlled test copies and avoid campaign worlds.
+- Final-group full source text and twenty exact/alternate/component searches are
+  cached in `.local/batch2-final-*.json`, with 26 complete matching records. No
+  final-group canonical edits or new art. Patch Hole resembles a Portable Hole
+  but creates a temporary gap through an existing surface; inspect Create Gap
+  rather than inheriting the other item's persistent storage/weight exemption.
+  Medic Satchel needs a separate native-container/component-charge design because
+  PF1 containers cannot activate. Keyhome and Pocket of Holding require individual
+  spatial/capacity review rather than blanket bag-of-holding defaults.
+- Native Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0 acceptance used only the
+  module and framework in the dedicated world. Seven items transferred to the new
+  `ASC Batch 2 Group 4 Acceptance` actor. Boots changed land speed 30 -> 40 while
+  worn and back to 30 removed. The mace rolled its normal attack with +2 enhancement.
+  Reaching spent two of five daily uses; Fleeting application spent one and later
+  dismissal none; carried, unequipped Still spent one. Soulreaving's external-soul
+  helper preserved its free daily use, and its free helper spent that use.
+  Crimson Flask began empty, rejected an empty expenditure, preserved a manually
+  set pool on opening and spent one stored point. No external souls/blood, target
+  effects or conditional damage were automatically supplied/applied.
+- All three containers imported to native world-item sheets with empty contents,
+  original images, correct prices/weights and visible limits. The bracers accepted
+  a separate native test marker. Container-to-actor transfer/removal, specialized
+  effects, full lifecycle/non-GM regression and broader prior-batch acceptance
+  remain incomplete; do not interpret these representative checks as full review.
+- Final browser capture: zero errors, 59 PF1/framework deprecations and the
+  expected empty-flask warning, with no module script reference. Current daily
+  server log: 482 records, two earlier authentication warnings; the 176-record
+  deployment/acceptance window has no warning or error. No current daily error
+  file. Native Return to Setup confirmed no active game. No restart occurred.
+  Last deployment is `443947e`; the final exact semantic audit passed for all
+  6,788 documents, non-pack receipt bytes and referenced external images. Only
+  local database copies were opened; installed snapshots stayed unchanged.
+- Issue #32 tracks the newly measured per-document Git subprocess bottleneck in
+  that audit. An ignored read-only trial fetched all 6,788 committed blobs using
+  two Git calls in 922 ms, matching twenty distributed individual reads exactly.
+  Twenty individual reads took 1,915 ms (full old-read estimate ~650 seconds).
+  Preserve the existing receipt/Setup/hash/snapshot/exact-comparison checks.
+- Next safe step: finish the semantic audit, record its actual result, push/open
+  the group-4 draft PR, then address #32 on its own feature branch before the final
+  twenty-item group. Preserve test copies; no campaign, merge or release work.
 
 ## Prior reviewed content batch: physical batch 2, group 3
 
