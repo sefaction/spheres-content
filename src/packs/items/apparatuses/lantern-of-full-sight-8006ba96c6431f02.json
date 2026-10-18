@@ -3,7 +3,7 @@
   "_key": "!items!8006ba96c6431f02",
   "name": "Lantern of Full Sight",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/sundries/lights/lantern-iron-lit-yellow.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,26 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> moderate Light; <strong>CL</strong> 9th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 54,000 gp; <strong>Weight</strong> 4 lbs.</p>\n<p><strong>Description</strong><br>\nThis lantern creates bright light in a 70-foot radius, and raises the light level by one step to a maximum of normal light for 70 feet beyond this. Any invisible creature within this area of bright light becomes immediately visible, losing all benefits of invisibility.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Light sphere; <strong>Cost</strong> 27,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc29\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: published apparatus with source-specific limits.</p><p>Creates bright light within seventy feet, with a further seventy-foot band raised one step to a maximum of normal light. Invisibility is negated only for creatures inside the bright area. No global see-invisibility flag, unrelated conventional lantern oil timer or automatic token/scene-light changes. Activation timing is not supplied by the source.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 9,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Light"
     },
     "hp": {},
     "broken": false,
@@ -90,7 +91,7 @@
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

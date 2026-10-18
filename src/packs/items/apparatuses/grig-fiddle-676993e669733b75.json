@@ -3,7 +3,7 @@
   "_key": "!items!676993e669733b75",
   "name": "Grig Fiddle",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/grig-fiddle.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,26 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Fallen Fey and Mind; <strong>CL</strong> 3rd<br>\n<strong>Slot</strong> none; <strong>Price</strong> 8,200 gp; <strong>Weight</strong> 2 lbs.</p>\n<p><strong>Description</strong><br>\nThis exquisitely made fiddle bears fine carvings depicting fey and mortals cavorting joyously. In addition to being a masterwork stringed instrument, a skilled player can mimic the enchanting music of the grig, compelling those around them to dance. As a standard action, the bearer may play, forcing all creatures within a 20-foot radius to dance and caper unless they succeed on a Will save with a DC equal to 10 + 1/2 the player’s rank in Perform (strings) + the player’s Charisma modifier. This effect lasts for as long as the creature remains within the area of effect. The bearer may continue to play as a standard action. Treat this effect as being staggered. Once a creature succeeds at the save against a grig fiddle, it is immune to that fiddle for 24 hours. This is a sonic mind-affecting compulsion effect.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Fallen Fey sphere, Mind sphere; <strong>Cost</strong> 4,200 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc26\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: published apparatus with source-specific limits.</p><p>Masterwork stringed instrument, not an instrument weapon. Playing or continuing is a standard action affecting all creatures within twenty feet. Will DC is ten plus half the player's actual Perform (strings) ranks plus Charisma modifier; do not substitute total skill bonus or item CL. The sonic mind-affecting compulsion is treated as staggered, lasts while the creature remains in the area and grants twenty-four-hour immunity to that fiddle after a successful save. Resolve music, saves, area and appropriate masterwork Perform bonus manually.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 3,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Fallen Fey and Mind"
     },
     "hp": {},
     "broken": false,
@@ -84,13 +85,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "9bdaf2ee608324b8",
+        "name": "Play or Continue Grig Fiddle",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "action",
+            "cost": 2
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Masterwork stringed instrument, not an instrument weapon. Playing or continuing is a standard action affecting all creatures within twenty feet. Will DC is ten plus half the player's actual Perform (strings) ranks plus Charisma modifier; do not substitute total skill bonus or item CL. The sonic mind-affecting compulsion is treated as staggered, lasts while the creature remains in the area and grants twenty-four-hour immunity to that fiddle after a successful save. Resolve music, saves, area and appropriate masterwork Perform bonus manually."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },
@@ -104,7 +125,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
+    "masterwork": true,
     "enh": null,
     "proficient": false,
     "held": "1h",

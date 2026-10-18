@@ -279,3 +279,23 @@ source/output hashes and encoding are in config/content.json; source PNGs and
 discarded previews remain ignored locally. Eleven reviewed core/system image
 references ship without copying their bytes or unrelated source rules. Weather
 aura/CL disagreement remains explicit under issue #31. No new compatibility claim.
+
+## Final second-batch apparatus group: 2026-10-17
+
+Twenty Ultimate apparatuses retain their complete approved OGL source bodies and
+page SHA 59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476.
+Exact, alternate and component searches precede authoring; full candidate records
+and actual images were inspected. The reviewed PF1 11.11 Sack contributes only
+native container structure. Two stable derived-source contents use their parent
+source UUID/hash: one ordinary-ink magical quill and one ten-use medical-supply
+bundle. Quantities, value/weight allocations and manual refill limits are pinned
+in config/containers.json. No unrelated record mechanics are imported.
+
+Sixteen original generated 256 px WebP icons total 124,308 bytes, with the largest
+12,136 bytes. The built-in image tool was used; prompts, source/output hashes and
+encoding live in config/content.json. Original PNGs remain ignored locally. Five
+parent illustrations and one supply image reference inspected core/system paths;
+third-party image bytes are not packaged. Native interface evidence and source
+hashes are in research/physical-items-batch-2-final.json. Existing OGL/GPL notices
+cover the reviewed data profiles; no upstream program code is copied. Source
+aura contradictions remain explicit under issue #31. No compatibility claim.

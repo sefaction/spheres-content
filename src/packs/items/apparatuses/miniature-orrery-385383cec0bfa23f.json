@@ -3,7 +3,7 @@
   "_key": "!items!385383cec0bfa23f",
   "name": "Miniature Orrery",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/miniature-orrery.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,26 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Divination; <strong>CL</strong> 4th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 1,000 gp; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThis small brass sphere fits easily into the hand, and with a command becomes transparent, revealing the motes of light moving within it. Each mote represents a celestial body, and put together the lights of a miniature orrery accurately depict their current positions in the sky. Using a miniature orrery you can always determine the precise time and which direction true north lies in relation to yourself. In addition, it grants a +4 circumstance bonus on Survival checks made to avoid getting lost, and with a DC 20 Knowledge (geography) check you can determine your approximate location in the world and the current date.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Divination sphere, Light sphere; <strong>Cost</strong> 500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc31\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: published apparatus with source-specific limits.</p><p>A hand-sized brass sphere becomes transparent with a command, revealing current celestial positions. Determines precise time and true north. The +4 circumstance Survival bonus applies only to avoiding getting lost; approximate world location and date require DC twenty Knowledge (geography). No general Survival/Knowledge bonus, magnetic-north substitution, larger mechanical orrery or invented command action time.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 4,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Divination"
     },
     "hp": {},
     "broken": false,
@@ -84,13 +85,32 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "c1968a5ec2f6dc2b",
+        "name": "Reveal Celestial Display by Command",
+        "activation": {
+          "type": "special",
+          "unchained": {
+            "type": "special"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "A hand-sized brass sphere becomes transparent with a command, revealing current celestial positions. Determines precise time and true north. The +4 circumstance Survival bonus applies only to avoiding getting lost; approximate world location and date require DC twenty Knowledge (geography). No general Survival/Knowledge bonus, magnetic-north substitution, larger mechanical orrery or invented command action time."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

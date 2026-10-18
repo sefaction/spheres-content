@@ -161,5 +161,102 @@
       "gallonsPerCompartment": 20
     },
     "review": "Empty two-pound container with five separate twenty-gallon extradimensional spaces. Twist the stopper as a swift action to select a space; pour at most one pint or one alchemical flask per round into a square within reach. Liquids remain separated, including volatile substances; breaking the flask loses all contents. Gallons are not converted to a guessed pound capacity. Compartment choice, volume and pouring are manual; the source gives no explicit carried-weight exemption, so automatic weight reduction remains deferred. No nested compartments or liquids are fabricated."
+  },
+  "keyhome": {
+    "containerId": "cb0093d85c798ec1",
+    "sourceKey": "wiki:apparatuses:ultimate:item:keyhome",
+    "totals": {
+      "price": 40000,
+      "weight": 0
+    },
+    "empty": {
+      "price": 40000,
+      "weight": 0
+    },
+    "contents": [],
+    "capacity": {
+      "tenFootCubes": 10,
+      "doorwayFeet": 10
+    },
+    "review": "Empty native container for actual stored objects. A standard action opens or closes a ten-foot-square doorway to ten contiguous ten-foot cubes whose arrangement is fixed when crafted. Contents persist with the key. Preserve the source Strength DC twenty-five / Escape Artist DC thirty exit rules, incoming air and forty-to-ninety Fahrenheit limits. Room layout, occupants, doorway movement and environmental influence remain manual. No fabricated room scene, nested compartments, pound limit or automatic weight exemption."
+  },
+  "medic-satchel": {
+    "containerId": "20dd46e704c0e12d",
+    "sourceKey": "wiki:apparatuses:ultimate:item:medic-satchel",
+    "totals": {
+      "price": 250,
+      "weight": 1
+    },
+    "empty": {
+      "price": 250,
+      "weight": 1
+    },
+    "contents": [
+      {
+        "id": "da73f4a844deba76",
+        "sourceKey": "wiki:apparatuses:ultimate:item:medic-satchel:contents:kit-use-supply",
+        "sourceUuid": "Compendium.additional-spheres-content.items.Item.20dd46e704c0e12d",
+        "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+        "type": "consumable",
+        "quantity": 1,
+        "price": 0,
+        "weight": 0,
+        "actionsSha256": "5da89d1ec9b4385c67816baa959e91bfc8f04217cf9cb0c6e0c333fe2414fff3"
+      }
+    ],
+    "capacity": {
+      "kitUses": 10
+    },
+    "review": "One supply bundle inside the white satchel tracks ten uses of a healer's kit, not ten physical bandages. The base grants +2 circumstance to Heal when appropriately using the kit and counts as a healer's kit. At the beginning of each day, or after manually spending one actual spell point for an instantaneous full refill, restore its contained counter to ten. Refill remains manual and bag-dependent; loose supplies do not automatically regenerate. No blanket Heal modifier, upgraded bonus, faster recharge or unlimited-use tier is active. The listed price and full one-pound weight are counted once on the parent; separate supply weights/values are unspecified and need manual allocation if split away.",
+    "allocationReason": "Published full one-pound weight and 250-gp value are recorded once on the satchel. The source specifies ten kit uses but no separate supply mass/value; child zeroes are included accounting, not a weightless-supplies ruling. Reallocate manually if separated."
+  },
+  "pocket-of-holding": {
+    "containerId": "e40620e704354733",
+    "sourceKey": "wiki:apparatuses:ultimate:item:pocket-of-holding",
+    "totals": {
+      "price": 200,
+      "weight": 0.5
+    },
+    "empty": {
+      "price": 200,
+      "weight": 0.5
+    },
+    "contents": [],
+    "maxWeight": 10,
+    "capacity": {
+      "cubicFeet": 1,
+      "pounds": 10
+    },
+    "review": "Empty hand-sized cloth bag or sewn-in pocket. Track both the one-cubic-foot and ten-pound storage limits; do not convert volume to an invented larger weight capacity. No contents are bundled. The source does not explicitly state a carried-weight exemption, so no automatic weight reduction is borrowed from a conventional Bag of Holding."
+  },
+  "quill-of-endless-ink": {
+    "containerId": "4d661a023597e811",
+    "sourceKey": "wiki:apparatuses:ultimate:item:quill-of-endless-ink",
+    "totals": {
+      "price": 80,
+      "weight": 0
+    },
+    "empty": {
+      "price": 0,
+      "weight": 0
+    },
+    "contents": [
+      {
+        "id": "0ac5ea98942b82dd",
+        "sourceKey": "wiki:apparatuses:ultimate:item:quill-of-endless-ink:contents:ordinary-ink-quill",
+        "sourceUuid": "Compendium.additional-spheres-content.items.Item.4d661a023597e811",
+        "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+        "type": "equipment",
+        "quantity": 1,
+        "price": 80,
+        "weight": 0,
+        "actionsSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+      }
+    ],
+    "capacity": {
+      "quillSlots": 3
+    },
+    "review": "The metal carrying case itself is mundane; the one contained feather quill is CL one Creation. Two positions remain empty. The published eighty-gp package value is allocated to its quill, with no additional case price or non-negligible weight invented. The quill writes continuously without dripping and uses one ink type. Special ink requires five vials when crafting a special-ink quill; no special ink or extra quills are supplied.",
+    "allocationReason": "The listed eighty-gp magical quill carries the package value; its usual included mundane case has zero incremental assigned value. Both are negligible weight as published. CL 1 Creation belongs to the quill, not its emptied CL 0 case."
   }
 }

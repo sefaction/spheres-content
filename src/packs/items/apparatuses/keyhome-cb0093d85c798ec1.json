@@ -2,8 +2,8 @@
   "_id": "cb0093d85c798ec1",
   "_key": "!items!cb0093d85c798ec1",
   "name": "Keyhome",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "container",
+  "img": "systems/pf1/icons/items/inventory/key-iron.jpg",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,54 +24,70 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "deferred",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "deferred",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-apparatus-assembly",
+      "assembly": "keyhome",
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.items.Item.utmeueljqhfoiihp",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "1e656d4348c5237f39939e96b826f3a08267e2c530af0deb499a419059b5a5af",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> strong Warp; <strong>CL</strong> 15th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 40,000 gp; <strong>Weight</strong> —</p>\n<p><strong>Description</strong><br>\nThough their shape and style can drastically differ, every keyhome takes the form of a key, typically attached to a chain or keyring. As a standard action the key can be turned as if in a lock to open a 10-foot square doorway to an extradimensional space unique to that key. The extradimensional space has a volume of ten 10-foot cubes arranged contiguously, with the exact layout being determined when the keyhome is made. Anything placed within the extradimensional space remains there even when the doorway is closed, and travels with the keyhome. The key can be used to close the doorway with a standard action.</p>\n<p>If the doorway is shut from the inside, the doorway remains visible where it was created, but without the key it must be forced open with a Strength check (DC 25) or slipped through with an Escape Artist check (DC 30). Anyone on the inside can force their way out with the same checks even if there is no doorway, appearing in the nearest open space to the key. The extradimensional space takes on some of the properties of the area the key itself is in even when the doorway is shut; air seeps in, and the light level and temperature of the space are often influenced by the outside, though the magic serves to dampen extremes, so that the temperature only ranges between 40 to 90 degrees Fahrenheit (4 to 32 degrees Celsius) and the normal light level is never less than dim or bright enough to prove blinding.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Warp sphere (Extradimensional Room (2x) (space), Extradimensional Storage (space)); <strong>Cost</strong> 20,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc28\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: published apparatus with source-specific limits.</p><p>Empty native container for actual stored objects. A standard action opens or closes a ten-foot-square doorway to ten contiguous ten-foot cubes whose arrangement is fixed when crafted. Contents persist with the key. Preserve the source Strength DC twenty-five / Escape Artist DC thirty exit rules, incoming air and forty-to-ninety Fahrenheit limits. Room layout, occupants, doorway movement and environmental influence remain manual. No fabricated room scene, nested compartments, pound limit or automatic weight exemption.</p>",
       "unidentified": ""
     },
-    "tags": [],
-    "quantity": 1,
-    "weight": {
-      "value": 0
-    },
-    "equipped": true,
-    "carried": true,
-    "price": 40000,
-    "size": "med",
-    "resizing": false,
-    "timeworn": false,
-    "artifact": false,
-    "identified": true,
-    "unidentified": {
-      "price": 0,
-      "name": ""
-    },
-    "cursed": false,
-    "cl": 0,
-    "aura": {
-      "custom": false,
-      "school": ""
-    },
-    "hp": {},
-    "broken": false,
-    "hardness": 0,
     "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "quantity": 1,
+    "price": 40000,
+    "weight": {
+      "value": 0,
+      "reduction": {
+        "value": 0,
+        "percent": 0
+      }
+    },
+    "carried": true,
+    "equipped": true,
+    "identified": true,
+    "size": "med",
+    "items": {},
+    "maxWeight": null,
+    "sellMultiplier": 0.5,
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
     "changeFlags": {
       "immuneToMorale": false,
       "loseDexToAC": false,
@@ -83,61 +99,29 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
-    "actions": [],
-    "attackNotes": [],
-    "effectNotes": [],
-    "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
-      "rechargeFormula": ""
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "unidentified": {
+      "price": 0,
+      "name": ""
     },
-    "links": {
-      "children": [],
-      "charges": []
+    "cursed": false,
+    "cl": 15,
+    "aura": {
+      "custom": true,
+      "school": "Warp"
     },
+    "hp": {
+      "base": 10
+    },
+    "broken": false,
+    "hardness": 0,
     "tag": "",
     "flags": {
       "boolean": {},
       "dictionary": {}
     },
-    "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
-    "proficient": false,
-    "held": "1h",
-    "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
-    },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
-    },
-    "spellFailure": 0,
-    "showInQuickbar": false,
     "sources": [
       {
         "title": "Spheres of Power Wiki",

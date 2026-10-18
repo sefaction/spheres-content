@@ -3,7 +3,7 @@
   "_key": "!items!cbd1edd853a0015c",
   "name": "Rod of Lifegiving",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/rod-of-lifegiving.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,26 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> moderate Life; <strong>CL</strong> 6th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 72,000 gp; <strong>Weight</strong> 4 lbs.</p>\n<p>This slender white rod is about three feet long and carved with symbols of life. Often dubbed “the healstick” by adventuring parties, it is far more expensive than most rookie groups can afford but held in high regard by adventuring parties who understand its true value. While held, the rod of lifegiving provides fast healing 1 to the holder.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Life sphere (Revitalize); <strong>Cost</strong> 36,000 gp</p>\n<h4>FAQ: Is That Price Correct? (Boots Of The Earth Are Cheap, Devs!)</h4>\n<p>Yes, the price is correct. The Rod of Lifegiving is in an interesting spot because of the way crafting rules work for ongoing healing effects. A lesser version of this item, granting temporary HP, would be approximately 50,000 gp. Yes, we are aware of the existence of Boots of the Earth, which are <em>absurdly</em> underpriced for the benefit they provide. (The Earth Warrior's Boots over in <a href=\"http://spheresofpower.wikidot.com/marvelous-items\">Marvelous Items</a> are a much more realistic version of that item.) This is a case where price-matching to a similar item is <em>not</em> actually appropriate. Instead, this item is intentionally expensive to make it difficult for people to craft earlier in their careers. It works much better when given out as treasure.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc38\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: published apparatus with source-specific limits.</p><p>Grants fast healing one only while actually held. Merely carrying or storing the rod is insufficient. Published price seventy-two thousand gp and the complete pricing FAQ are retained. No conventional healing-staff spells, automatic periodic HP changes, temporary HP variant or universal always-on healing modifier.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 6,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Life"
     },
     "hp": {},
     "broken": false,
@@ -90,7 +91,7 @@
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

@@ -3,7 +3,7 @@
   "_key": "!items!bbc214745a478b2b",
   "name": "Gremlin Bells",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/gremlin-bells.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment",
+      "selectedVariant": "one complete installed set; source gives no fixed bell count"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Fallen Fey and Protection; <strong>CL</strong> 3rd<br>\n<strong>Slot</strong> none; <strong>Price</strong> 1,000 gp; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThese delicate bells, no more than an inch high each, are crafted from bronze, brass, or other semi-precious metals and strung up over doors, windows, or objects which the owner wishes to keep from gremlins. Gremlins that comes within 20 feet of a set of bells affixed to an object are nauseated and prevented from using any supernatural or spell-like abilities.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Fallen Fey sphere, Protection sphere; <strong>Cost</strong> 500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc25\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: one complete installed set; source gives no fixed bell count.</p><p>Affix this set of small bells to a door, window or object. Only gremlins within twenty feet of that installed set are nauseated and unable to use supernatural or spell-like abilities. No source-stated installation action time, daily pool or general all-creature aura is invented; target conditions and positioning remain manual.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 3,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Fallen Fey and Protection"
     },
     "hp": {},
     "broken": false,
@@ -90,7 +92,7 @@
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

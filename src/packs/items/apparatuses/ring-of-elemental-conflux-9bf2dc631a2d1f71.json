@@ -3,7 +3,7 @@
   "_key": "!items!9bf2dc631a2d1f71",
   "name": "Ring of Elemental Conflux",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/finger/ring-cabochon-silver-gold-red.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment",
+      "selectedVariant": "one crafted blast-type talent not yet selected"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Destruction; <strong>CL</strong> 3rd<br>\n<strong>Slot</strong> ring; <strong>Price</strong> 18,000 gp; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p>This shiny silver ring contains a single (blast type) talent that the wearer can use as if it were their own while they are wearing it. When worn by a character with the favored element class feature, it changes their first favored element to the blast type group that the talent this ring contains belongs to. If the blast type talent does not belong to an existing group, the GM should create a new group for it. This bonus does not stack with any other favored elements a character has, and a character cannot wear more than one of these rings; if they try to, all of them stop functioning until a creature is only wearing one of them.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Destruction sphere (any (blast type) talent); <strong>Cost</strong> 9,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc37\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: one crafted blast-type talent not yet selected.</p><p>Contains one chosen blast-type talent for use while worn. For a wearer with favored element, changes only the first favored element to that talent's group; a GM-defined group may be needed. Does not stack with other favored elements. Wearing multiple such rings disables all of them until only one is worn. No Charisma/AC bonus, permanent talent grant or conventional elemental-command spell package.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 3,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Destruction"
     },
     "hp": {},
     "broken": false,
@@ -90,7 +92,7 @@
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

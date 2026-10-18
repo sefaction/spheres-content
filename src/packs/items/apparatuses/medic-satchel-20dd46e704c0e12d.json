@@ -2,8 +2,8 @@
   "_id": "20dd46e704c0e12d",
   "_key": "!items!20dd46e704c0e12d",
   "name": "Medic Satchel",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "container",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/medic-satchel.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,54 +24,225 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "deferred",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "deferred",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-apparatus-assembly",
+      "selectedVariant": "base 250 gp satchel; belt or chest attachment; ten kit uses",
+      "assembly": "medic-satchel",
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.items.Item.utmeueljqhfoiihp",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "1e656d4348c5237f39939e96b826f3a08267e2c530af0deb499a419059b5a5af",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Creation; <strong>CL</strong> 2nd; <strong>Scaling</strong> wonder<br>\n<strong>Slot</strong> belt or chest; <strong>Price</strong> 250 gp; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThis white leather satchel is embossed with a healer’s insignia (usually the symbol of a deity with the healing domain). The bag has clasps that allow it to be easily attached to either the waist or the chest. Inside the satchel are various bandages normally found inside a healer’s kit. A medic satchel has enough bandages for 10 uses of a healer’s kit (called charges). Unlike the kit however, this satchel regains all charges at the beginning of each day, and can be fully recharged instantaneously by spending 1 spell point. Also like the healer’s kit, the medic satchel grants a +2 circumstance bonus to Heal checks, and counts as a healer’s kit for the purpose of skills, feats, or abilities.</p>\n<p><strong>3rd Level – 750 gp:</strong> The medic satchel now grants a +4 circumstance bonus to Heal checks.<br>\n<strong>4th Level – 1,500 gp:</strong> The medic satchel now regains its charges 8 hours after the first charge is used.<br>\n<strong>5th Level – 2,625 gp:</strong> The medic satchel now grants a +6 circumstance bonus to Heal checks.<br>\n<strong>6th Level – 4,000 gp:</strong> The medic satchel now regains its charges 4 hours after the first charge is used.<br>\n<strong>7th Level – 5,875 gp:</strong> The medic satchel now grants a +8 circumstance bonus to Heal checks.<br>\n<strong>8th Level – 8,250 gp:</strong> The medic satchel now regains its charges 2 hours after the first charge is used.<br>\n<strong>9th Level – 11,500 gp:</strong> The medic satchel now grants a +10 circumstance bonus to Heal checks.<br>\n<strong>10th Level – 15,500 gp:</strong> The medic satchel now has unlimited charges.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Creation sphere; <strong>Cost</strong> 7,750 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc30\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: base 250 gp satchel; belt or chest attachment; ten kit uses.</p><p>One supply bundle inside the white satchel tracks ten uses of a healer's kit, not ten physical bandages. The base grants +2 circumstance to Heal when appropriately using the kit and counts as a healer's kit. At the beginning of each day, or after manually spending one actual spell point for an instantaneous full refill, restore its contained counter to ten. Refill remains manual and bag-dependent; loose supplies do not automatically regenerate. No blanket Heal modifier, upgraded bonus, faster recharge or unlimited-use tier is active. The listed price and full one-pound weight are counted once on the parent; separate supply weights/values are unspecified and need manual allocation if split away.</p>",
       "unidentified": ""
     },
-    "tags": [],
-    "quantity": 1,
-    "weight": {
-      "value": 1
-    },
-    "equipped": true,
-    "carried": true,
-    "price": 250,
-    "size": "med",
-    "resizing": false,
-    "timeworn": false,
-    "artifact": false,
-    "identified": true,
-    "unidentified": {
-      "price": 0,
-      "name": ""
-    },
-    "cursed": false,
-    "cl": 0,
-    "aura": {
-      "custom": false,
-      "school": ""
-    },
-    "hp": {},
-    "broken": false,
-    "hardness": 0,
     "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "quantity": 1,
+    "price": 250,
+    "weight": {
+      "value": 1,
+      "reduction": {
+        "value": 0,
+        "percent": 0
+      }
+    },
+    "carried": true,
+    "equipped": true,
+    "identified": true,
+    "size": "med",
+    "items": {
+      "da73f4a844deba76": {
+        "_id": "da73f4a844deba76",
+        "name": "Medic Satchel Supplies (10 Kit Uses)",
+        "type": "consumable",
+        "img": "icons/commodities/cloth/cloth-bolt-glow-white.webp",
+        "folder": null,
+        "effects": [],
+        "ownership": {
+          "default": 0
+        },
+        "_stats": {
+          "coreVersion": "13.351",
+          "systemId": null,
+          "systemVersion": null,
+          "createdTime": null,
+          "modifiedTime": null,
+          "lastModifiedBy": null,
+          "compendiumSource": null,
+          "duplicateSource": null,
+          "exportSource": null
+        },
+        "flags": {
+          "additional-spheres-content": {
+            "phase": "descriptive",
+            "sourceKey": "wiki:apparatuses:ultimate:item:medic-satchel:contents:kit-use-supply",
+            "sourceUuid": "Compendium.additional-spheres-content.items.Item.20dd46e704c0e12d",
+            "sourceUrl": "http://spheresofpower.wikidot.com/apparatuses#toc30",
+            "sourceSha256": "59c378a247ccf12d9c4a24c0d68daca55e3bd89856602ae810e6e4d482c03476",
+            "collection": "wiki-intake-open-rules",
+            "automation": "not-reviewed",
+            "intake": {
+              "status": "draft",
+              "auditKey": "wiki:apparatuses:ultimate:item:medic-satchel",
+              "kind": "item"
+            },
+            "audit": {
+              "image": "implemented",
+              "activation": "implemented",
+              "changes": "not-needed",
+              "contextNotes": "not-needed",
+              "usage": "deferred",
+              "links": "not-needed",
+              "advanced": "deferred",
+              "classFeatures": "not-applicable",
+              "compatibility": "deferred",
+              "reuse": "implemented",
+              "description": "implemented",
+              "rights": "implemented"
+            }
+          }
+        },
+        "system": {
+          "description": {
+            "value": "<p>A single bundle of medical supplies sufficient for ten uses of the Medic Satchel as a healer's kit. Appropriate use grants the base +2 circumstance bonus to Heal and counts as a healer's kit. Ten uses do not mean ten individual bandages. The parent satchel's full price and weight already include these supplies.</p>",
+            "instructions": "<p>Spend one counter point for one actual kit use; other Heal procedures may require more, resolved through those rules. This counter has no automatic daily refill away from its bag. While using the original satchel, manually restore it to ten at the beginning of each day, or after actually spending one spell point to refill the bag. Neither helper supplies that spell point or changes actor Heal rolls. If supplies are separated, assign any separate weight/value manually; zero here prevents double counting the parent's published one-pound full weight.</p>",
+            "unidentified": ""
+          },
+          "tags": [],
+          "quantity": 1,
+          "weight": {
+            "value": 0
+          },
+          "equipped": true,
+          "carried": true,
+          "price": 0,
+          "size": "med",
+          "resizing": false,
+          "timeworn": false,
+          "artifact": false,
+          "identified": true,
+          "unidentified": {
+            "price": 0,
+            "name": ""
+          },
+          "cursed": false,
+          "cl": 0,
+          "aura": {
+            "custom": false,
+            "school": ""
+          },
+          "hp": {},
+          "broken": false,
+          "hardness": 0,
+          "uses": {
+            "value": 10,
+            "per": "charges",
+            "autoDeductChargesCost": "1",
+            "maxFormula": "10",
+            "rechargeFormula": "",
+            "pricePerUse": 0
+          },
+          "actions": [
+            {
+              "_id": "19540160f080675b",
+              "name": "Record One Actual Kit Use",
+              "activation": {
+                "type": "nonaction",
+                "unchained": {
+                  "type": "nonaction"
+                }
+              },
+              "uses": {
+                "autoDeductChargesCost": "1"
+              },
+              "notes": {
+                "effect": [
+                  "Bookkeeping for one actual healer-kit use, not its action time or a Heal roll. Other procedures can require additional uses. One supply bundle inside the white satchel tracks ten uses of a healer's kit, not ten physical bandages. The base grants +2 circumstance to Heal when appropriately using the kit and counts as a healer's kit. At the beginning of each day, or after manually spending one actual spell point for an instantaneous full refill, restore its contained counter to ten. Refill remains manual and bag-dependent; loose supplies do not automatically regenerate. No blanket Heal modifier, upgraded bonus, faster recharge or unlimited-use tier is active. The listed price and full one-pound weight are counted once on the parent; separate supply weights/values are unspecified and need manual allocation if split away."
+                ]
+              }
+            },
+            {
+              "_id": "34914a908ce5bfbc",
+              "name": "Refill Original Satchel after Actual Spell Point or New Day",
+              "activation": {
+                "type": "special",
+                "unchained": {
+                  "type": "special"
+                }
+              },
+              "uses": {
+                "autoDeductChargesCost": "0"
+              },
+              "notes": {
+                "effect": [
+                  "After satisfying the original bag's daily or one-spell-point refill, manually restore this pool to ten. This helper spends no supply charge and creates no spell point or bandage stock. One supply bundle inside the white satchel tracks ten uses of a healer's kit, not ten physical bandages. The base grants +2 circumstance to Heal when appropriately using the kit and counts as a healer's kit. At the beginning of each day, or after manually spending one actual spell point for an instantaneous full refill, restore its contained counter to ten. Refill remains manual and bag-dependent; loose supplies do not automatically regenerate. No blanket Heal modifier, upgraded bonus, faster recharge or unlimited-use tier is active. The listed price and full one-pound weight are counted once on the parent; separate supply weights/values are unspecified and need manual allocation if split away."
+                ]
+              }
+            }
+          ],
+          "attackNotes": [],
+          "effectNotes": [],
+          "links": {
+            "children": [],
+            "charges": []
+          },
+          "tag": "",
+          "flags": {
+            "boolean": {},
+            "dictionary": {}
+          },
+          "scriptCalls": [],
+          "subType": "misc",
+          "showInQuickbar": false,
+          "changes": [],
+          "contextNotes": [],
+          "sources": [
+            {
+              "title": "Spheres of Power Wiki",
+              "url": "http://spheresofpower.wikidot.com/apparatuses#toc30"
+            }
+          ]
+        }
+      }
+    },
+    "maxWeight": null,
+    "sellMultiplier": 0.5,
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
     "changeFlags": {
       "immuneToMorale": false,
       "loseDexToAC": false,
@@ -83,61 +254,29 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
-    "actions": [],
-    "attackNotes": [],
-    "effectNotes": [],
-    "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
-      "rechargeFormula": ""
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "unidentified": {
+      "price": 0,
+      "name": ""
     },
-    "links": {
-      "children": [],
-      "charges": []
+    "cursed": false,
+    "cl": 2,
+    "aura": {
+      "custom": true,
+      "school": "Creation"
     },
+    "hp": {
+      "base": 10
+    },
+    "broken": false,
+    "hardness": 0,
     "tag": "",
     "flags": {
       "boolean": {},
       "dictionary": {}
     },
-    "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
-    "proficient": false,
-    "held": "1h",
-    "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
-    },
-    "subType": "wondrous",
-    "slot": "belt",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
-    },
-    "spellFailure": 0,
-    "showInQuickbar": false,
     "sources": [
       {
         "title": "Spheres of Power Wiki",

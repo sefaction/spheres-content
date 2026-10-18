@@ -2,8 +2,8 @@
   "_id": "e40620e704354733",
   "_key": "!items!e40620e704354733",
   "name": "Pocket of Holding",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "container",
+  "img": "icons/containers/bags/coinpouch-cloth-purple.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,54 +24,70 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "deferred",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "deferred",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-apparatus-assembly",
+      "assembly": "pocket-of-holding",
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.items.Item.utmeueljqhfoiihp",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "1e656d4348c5237f39939e96b826f3a08267e2c530af0deb499a419059b5a5af",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Warp; <strong>CL</strong> 3rd<br>\n<strong>Slot</strong> none; <strong>Price</strong> 200 gp; <strong>Weight</strong> 1/2&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThis small cloth bag easily fits in the hand, but opens into an extradimensional space that can store up to 1 cubic foot of material or 10 pounds. They can also be designed as pockets and sewn into normal or magical clothing.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Warp sphere (Extradimensional Storage (space)); <strong>Cost</strong> 100 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc34\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: published apparatus with source-specific limits.</p><p>Empty hand-sized cloth bag or sewn-in pocket. Track both the one-cubic-foot and ten-pound storage limits; do not convert volume to an invented larger weight capacity. No contents are bundled. The source does not explicitly state a carried-weight exemption, so no automatic weight reduction is borrowed from a conventional Bag of Holding.</p>",
       "unidentified": ""
     },
-    "tags": [],
-    "quantity": 1,
-    "weight": {
-      "value": 0.5
-    },
-    "equipped": true,
-    "carried": true,
-    "price": 200,
-    "size": "med",
-    "resizing": false,
-    "timeworn": false,
-    "artifact": false,
-    "identified": true,
-    "unidentified": {
-      "price": 0,
-      "name": ""
-    },
-    "cursed": false,
-    "cl": 0,
-    "aura": {
-      "custom": false,
-      "school": ""
-    },
-    "hp": {},
-    "broken": false,
-    "hardness": 0,
     "changes": [],
+    "contextNotes": [],
+    "actions": [],
+    "scriptCalls": [],
+    "tags": [],
+    "links": {
+      "children": [],
+      "charges": []
+    },
+    "quantity": 1,
+    "price": 200,
+    "weight": {
+      "value": 0.5,
+      "reduction": {
+        "value": 0,
+        "percent": 0
+      }
+    },
+    "carried": true,
+    "equipped": true,
+    "identified": true,
+    "size": "med",
+    "items": {},
+    "maxWeight": 10,
+    "sellMultiplier": 0.5,
+    "currency": {
+      "pp": 0,
+      "gp": 0,
+      "sp": 0,
+      "cp": 0
+    },
     "changeFlags": {
       "immuneToMorale": false,
       "loseDexToAC": false,
@@ -83,61 +99,29 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
-    "actions": [],
-    "attackNotes": [],
-    "effectNotes": [],
-    "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
-      "rechargeFormula": ""
+    "resizing": false,
+    "timeworn": false,
+    "artifact": false,
+    "unidentified": {
+      "price": 0,
+      "name": ""
     },
-    "links": {
-      "children": [],
-      "charges": []
+    "cursed": false,
+    "cl": 3,
+    "aura": {
+      "custom": true,
+      "school": "Warp"
     },
+    "hp": {
+      "base": 10
+    },
+    "broken": false,
+    "hardness": 0,
     "tag": "",
     "flags": {
       "boolean": {},
       "dictionary": {}
     },
-    "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
-    "proficient": false,
-    "held": "1h",
-    "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
-    },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
-    },
-    "spellFailure": 0,
-    "showInQuickbar": false,
     "sources": [
       {
         "title": "Spheres of Power Wiki",

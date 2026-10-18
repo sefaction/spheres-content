@@ -3,7 +3,7 @@
   "_key": "!items!c831d244b1ba707d",
   "name": "Scourging Symbol",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/scourging-symbol.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment",
+      "selectedVariant": "base cursed symbol; neck selected for native slot; current energy chosen manually"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> strong War; <strong>CL</strong> 20th<br>\n<strong>Slot</strong> any; <strong>Price</strong> 80,000 gp; <strong>Weight</strong> 2 lbs.</p>\n<p>This fearsome symbol is a controlled portal attuned to the elemental planes, marked onto a metal plate that can be worn in any of the bearer’s magical item slots. Whenever an enemy is within 50 feet, even if not detected by the wearer, this symbol pulses once each round and deals 10 acid, cold, electricity, or fire damage to all enemies within range. This is a spread effect and can go around corners, but does not penetrate solid barriers or damage objects (unless those objects are enemies).</p>\n<p>The wearer can change what type of damage a scourging symbol does as a standard action. However, the scourging symbol is also intensely cursed, causing drawbacks for its wearer that can only be alleviated by expending significantly more resources when creating it. While worn, the scourging symbol applies the effects of the Draining Casting, Magical Signs, Mental Focus, Painful Magic, and Rigorous Concentration casting tradition drawbacks to the wearer. The penalties from these drawbacks stack if the wearer already has the drawback. For example, the DC increase for Rigorous Concentration would become +20 instead of +10, while Mental Focus would require regaining focus twice. The scourging symbol must be worn by a spherecaster to function; non-casters are unable to manage its energies.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, War sphere (Scourging Totem (totem)); <strong>Cost</strong> 40,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc41\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: base cursed symbol; neck selected for native slot; current energy chosen manually.</p><p>A spherecaster must wear it in an actual magical item slot; this profile selects neck, which may be changed to another permitted worn slot. Once per round when enemies are within fifty feet, even undetected, its spread deals ten of the current acid/cold/electricity/fire type to enemies, going around corners but not solid barriers. Objects are not damaged unless enemies. Change the one current energy as a standard action. The five published casting drawbacks apply and stack with existing copies; no automatic aura damage, enemy classification, drawback grants or global concentration penalties.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -62,11 +64,11 @@
       "price": 0,
       "name": ""
     },
-    "cursed": false,
-    "cl": 0,
+    "cursed": true,
+    "cl": 20,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "War"
     },
     "hp": {},
     "broken": false,
@@ -84,13 +86,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "6342424a0a7e3e9d",
+        "name": "Change Current Energy Type",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "action",
+            "cost": 2
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "A spherecaster must wear it in an actual magical item slot; this profile selects neck, which may be changed to another permitted worn slot. Once per round when enemies are within fifty feet, even undetected, its spread deals ten of the current acid/cold/electricity/fire type to enemies, going around corners but not solid barriers. Objects are not damaged unless enemies. Change the one current energy as a standard action. The five published casting drawbacks apply and stack with existing copies; no automatic aura damage, enemy classification, drawback grants or global concentration penalties."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },
@@ -115,7 +137,7 @@
       "explode": null
     },
     "subType": "wondrous",
-    "slot": "slotless",
+    "slot": "neck",
     "equipmentSubtype": "",
     "hands": 0,
     "baseTypes": [],
