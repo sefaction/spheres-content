@@ -29,7 +29,8 @@
     "import:intake": "node scripts/wiki-promote.mjs --apply",
     "audit:content": "node scripts/audit-query.mjs",
     "audit:sync": "node scripts/audit-sync.mjs",
-    "audit:reuse": "node scripts/reuse-review.mjs"
+    "audit:reuse": "node scripts/reuse-review.mjs",
+    "plan:production": "node scripts/production-plan.mjs"
   },
   "devDependencies": {
     "@foundryvtt/foundryvtt-cli": "3.0.4",

@@ -257,3 +257,51 @@ acceptance run. The dedicated world was returned to Setup. Final semantic audit
 matched all 6,788 pack documents to canonical sources, all non-pack receipt bytes
 and all referenced image hashes using local copies of the installed LevelDB
 databases.
+
+## Alpha.6 Akashic wondrous-item slice
+
+Clean verification passed on `dd68c2885ccc782a9694e266f1453a61fb7ec64c`
+with 32 tests, complete reference validation and two identical 697-file builds.
+The staged SMB deployment verified exact installed bytes, pruned one oldest
+eligible backup and retained ten. Strict pre-load hashes passed without a host or
+container restart.
+
+Runtime checks used Foundry 13.351 and PF1 11.11 in the dedicated world. Blood
+Funnels, Refinement Charm, Ring of a Thousand Names and Suqur's Gift opened with
+their original compact WebP art, native wondrous profiles, prices, slots, caster
+levels, schools and complete source descriptions. The ring exposes its reviewed
+free action. PF1 derives Blood Funnels' visible `Necromancy (Faint)` label from
+its published CL 5 and has no separate aura-strength override; the source's
+moderate necromancy remains visible in the description and the Advanced audit is
+deferred. No module error was captured. The only browser error was a harmless
+join attempt before the Gamemaster user was selected.
+
+The world was returned to Setup. A fresh final semantic audit matched all 6,788
+pack documents to the deployed commit, all non-pack receipt bytes and referenced
+external images. An earlier attempt encountered an intermittent iterator-close
+error while extracting a local copy of the Classes pack; the unchanged snapshot
+immediately extracted all 117 records on isolation, and the complete retry passed.
+
+## Alpha.6 twenty-item production acceptance
+
+Clean committed verification passed on
+`fed942b697ca785abe7a54723d46b4943c4f30d0` with 37 tests, full reference
+validation and two identical 719-file builds. The ZIP SHA-256 is
+`e68a66d7c6472a120a023b0a53a8a270ebf64714c5b9d2dea1efa80f2b889f21`.
+The staged SMB deployment verified exact installed bytes, removed one oldest
+eligible rollback and retained ten. No host or container restart was performed.
+
+The Items pack displayed 626 entries in Foundry 13.351 / PF1 11.11. Alteration's
+Bane opened as a CL 14 evocation Potion/Oil with the complete description,
+Single Use setting and pinned Drink action. Apprentice Blastmage's Etherstaff
+opened as CL 8 evocation wondrous equipment with 10/10 native charges. Band of
+Grounded Realities opened with its finger slot and CL 12. Lightning Rod loaded
+its generated module image and showed 50 gp, 2 lb. and its complete conditional
+structure rule. Shared artwork for the four reality bands and related
+etherstaves loaded from the readable `items/ethermagic` folder.
+
+Browser capture found no ASC error. Existing PF1, pf1spheres and unrelated
+module Foundry 13 manifest/deprecation warnings remain. The dedicated world was
+returned to Setup. The final semantic audit matched all 6,788 pack documents to
+canonical sources at the deployed commit and verified all non-pack receipt bytes
+using local copies of the installed LevelDB databases.

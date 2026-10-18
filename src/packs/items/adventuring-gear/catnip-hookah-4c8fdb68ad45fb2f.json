@@ -1,6 +1,6 @@
 {
   "_id": "4c8fdb68ad45fb2f",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/adventuring-gear/catnip-hookah.webp",
   "name": "Catnip Hookah",
   "system": {
     "description": {
@@ -9,7 +9,23 @@
       "unidentified": ""
     },
     "tags": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "50d1013bf9cd16ef",
+        "activation": {
+          "cost": 1,
+          "type": "minute",
+          "unchained": {
+            "cost": 1,
+            "type": "minute"
+          }
+        },
+        "name": "Use Hookah",
+        "target": {
+          "value": "up to 4 creatures"
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "quantity": 1,
@@ -58,7 +74,13 @@
     },
     "contextNotes": [],
     "links": {
-      "children": []
+      "children": [],
+      "supplements": [
+        {
+          "name": "Catnip",
+          "uuid": "Compendium.additional-spheres-content.items.Item.0b214a71536b15c7"
+        }
+      ]
     },
     "tag": "",
     "flags": {
@@ -97,17 +119,17 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "not-needed",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "implemented",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "not-applicable",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
       }
     }

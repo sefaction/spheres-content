@@ -1,6 +1,6 @@
 {
   "_id": "4a3c09e5d3d105a0",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/containers/kitchenware/goblet-wood-engraved-brown.webp",
   "name": "Whiskey",
   "system": {
     "description": {
@@ -9,7 +9,18 @@
       "unidentified": ""
     },
     "tags": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "7dcb22b04339a5cd",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "name": "Use"
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "quantity": 1,
@@ -34,31 +45,24 @@
       "custom": false,
       "school": ""
     },
-    "hp": {},
+    "hp": {
+      "base": 10
+    },
     "broken": false,
     "hardness": 0,
     "uses": {
       "value": null,
-      "per": "",
+      "per": "single",
       "autoDeductChargesCost": "",
       "maxFormula": "",
-      "rechargeFormula": ""
+      "rechargeFormula": "",
+      "pricePerUse": 0
     },
     "changes": [],
-    "changeFlags": {
-      "immuneToMorale": false,
-      "loseDexToAC": false,
-      "noMediumEncumbrance": false,
-      "noHeavyEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "lowLightVision": false,
-      "seeInvisibility": false,
-      "seeInDarkness": false
-    },
     "contextNotes": [],
     "links": {
-      "children": []
+      "children": [],
+      "charges": []
     },
     "tag": "",
     "flags": {
@@ -66,7 +70,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "subType": "gear",
+    "subType": "misc",
     "extraType": "",
     "abundant": false,
     "sources": [
@@ -74,9 +78,10 @@
         "title": "Spheres of Power Wiki",
         "url": "http://spheresofpower.wikidot.com/adventuring-gear#toc37"
       }
-    ]
+    ],
+    "showInQuickbar": false
   },
-  "type": "loot",
+  "type": "consumable",
   "effects": [],
   "folder": null,
   "sort": 0,
@@ -97,18 +102,28 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "not-needed",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "implemented",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "not-applicable",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "reuse": {
+        "sourceUuid": "Compendium.pf-content.pf-goods-services.Item.JDi59JvjzgEsYIR5",
+        "sourcePackage": "pf-content",
+        "sourceVersion": "11.4.0",
+        "sourceSha256": "eaf042506784e03b9f21870e0266b576f59e7ac1ffa0909fc017abedc6b3f0de",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-mundane-gear"
       }
     }
   },

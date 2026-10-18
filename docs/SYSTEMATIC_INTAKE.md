@@ -5,6 +5,27 @@ entities. A successful crawl does not mean every heading is an entity or every
 imported record is finished. Raw HTML and full extraction candidates stay in
 ignored `.local/`; canonical compendium sources remain under `src/packs/`.
 
+Production order is physical items, feats, base classes and class features, then
+Guile talents. Guile remains in the catalog and audit tools, but bulk Guile review
+waits until the other collections have been worked through.
+
+## Production cadence
+
+Production review uses twenty-entry acceptance groups by default. Run
+`npm.cmd run plan:production -- --limit=20` to select the next entries whose
+image audit is still unresolved and group them by reusable modeling lane. A
+reviewed entry with deferred automation is not selected again merely because
+its production status remains pending.
+
+Within one group, resolve reuse candidates and shared native profiles first,
+then update canonical documents, compact artwork and every audit facet together.
+Use targeted tests while authoring. Run the complete clean verification,
+module-only deployment, representative Foundry sheet/behavior checks, remote
+semantic audit, documentation update and CI once at the end of the group. Split
+an entry out only when rights are unclear or its implementation would require a
+new schema or compatibility adapter; record the hold and continue the rest of
+the group.
+
 ## Repeatable workflow
 
 ```powershell
@@ -65,6 +86,7 @@ stale and keeps reasons for rejected namesakes. See [the review workflow](PHYSIC
 | `config/intake-overrides.json`        | Reasoned, snapshot-bound corrections and scope exclusions |
 | `config/audit-reviews.json`           | Durable per-facet decisions, bound to description hashes  |
 | `config/integrations.json`            | Versioned native/optional-module integration contracts    |
+| `config/production-batches.json`      | Frozen production membership and per-entry disposition    |
 
 Canonical sources use readable pack/page/entry filenames. Class-feature names
 include their parent class. Icons retain the separate human-readable hierarchy
@@ -80,7 +102,16 @@ npm.cmd run audit:content -- --imported --needs=image --limit=20
 npm.cmd run audit:content -- --kind=feat --needs=usage --json --limit=5
 npm.cmd run audit:content -- --held --kind=item --json --limit=10
 npm.cmd run audit:content -- --class=Incanter
+npm.cmd run audit:content -- --batch=physical-items-batch-1 --summary
+npm.cmd run audit:content -- --batch=physical-items-batch-1 --batch-status=pending --needs=changes --limit=20
 ```
+
+The batch filter follows the frozen manifest order and reports each entry's
+production status. Combine it with facet filters to work one review concern at a
+time without admitting records outside the batch. A manifest freezes source
+identity, document ID, name, path, edition and description hash. Its recorded
+type is the initial draft type because native PF1 review may legitimately change
+an inert draft into a weapon, consumable, equipment item or container.
 
 Use `--search=word`, `--pack=class-features`, `--needs=links` or another facet to
 narrow the queue. `audit:sync` adds canonical UUID/file references and resolves

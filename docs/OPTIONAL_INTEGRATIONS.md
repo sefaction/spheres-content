@@ -7,6 +7,12 @@ this intake batch.
 
 - **pf1spheres 0.9.0:** required framework for Spheres item types and actor data.
   Reuse its sphere/caster interfaces and avoid duplicate calculations.
+- **Akashic Magic 1.1.3:** current Foundry 13 module with a native veil type,
+  actor essence tracking and Akashic Change targets. Its available targets are
+  actor-wide, so they cannot represent Blood Funnels, Ring of a Thousand Names,
+  Refinement Charm or Suqur's Gift without incorrectly changing unrelated veils.
+  Test the combination and design a selected-veil/equipment-investment adapter
+  under issue #17 before declaring compatibility or adding a recommendation.
 - **Container Contents 0.4.1:** source reads PF1 native container contents. Our
   native `system.items` structure is the relevant contract; test display and
   withdrawals with this optional UI module enabled.

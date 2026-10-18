@@ -3,7 +3,7 @@
   "_key": "!items!44f94bdd0322d5a9",
   "name": "Band of Overlapping Realities",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/ethermagic/reality-bands.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,17 +24,17 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "deferred",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
       }
     }
@@ -63,10 +63,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 14,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "evo"
     },
     "hp": {},
     "broken": false,
@@ -115,7 +115,7 @@
       "explode": null
     },
     "subType": "wondrous",
-    "slot": "slotless",
+    "slot": "ring",
     "equipmentSubtype": "",
     "hands": 0,
     "baseTypes": [],

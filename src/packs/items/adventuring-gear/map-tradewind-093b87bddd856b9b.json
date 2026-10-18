@@ -1,6 +1,6 @@
 {
   "_id": "093b87bddd856b9b",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/adventuring-gear/map-tradewind.webp",
   "name": "Map, Tradewind",
   "system": {
     "description": {
@@ -19,7 +19,7 @@
     "equipped": true,
     "carried": true,
     "price": 30,
-    "size": "med",
+    "size": "tiny",
     "resizing": false,
     "timeworn": false,
     "artifact": false,
@@ -56,7 +56,12 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
+    "contextNotes": [
+      {
+        "target": "skill.sur",
+        "text": "+[[5]] circumstance bonus on exploration checks made using the Tradewind map."
+      }
+    ],
     "links": {
       "children": []
     },
@@ -97,17 +102,17 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-applicable",
+        "changes": "not-needed",
+        "contextNotes": "implemented",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "not-applicable",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
       }
     }

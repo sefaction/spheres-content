@@ -4,6 +4,8 @@ import { json, moduleId } from "../scripts/lib.mjs";
 import {
   validateEntity,
   validateContentCatalog,
+  validateProductionBatches,
+  validateSupplementLinks,
   containerTotals,
 } from "../scripts/content.mjs";
 
@@ -69,6 +71,30 @@ test("pilot source, pack, provenance and image inventories agree", async () => {
   });
 });
 
+test("physical production batch freezes 100 stable canonical identities", async () => {
+  const { docs } = await validateContentCatalog();
+  const inventory = await json("config/production-batches.json");
+  const batch = inventory.batches["physical-items-batch-1"];
+  assert.equal(batch.issue, 15);
+  assert.equal(batch.entries.length, 100);
+  assert.deepEqual(
+    batch.entries.map((entry) => entry.sourceKey),
+    batch.entries.map((entry) => entry.sourceKey).toSorted(),
+  );
+  assert.equal(new Set(batch.entries.map((entry) => entry.id)).size, 100);
+
+  const changed = structuredClone(inventory);
+  changed.batches["physical-items-batch-1"].entries[0].id = "0000000000000000";
+  assert.throws(
+    () => validateProductionBatches(changed, docs),
+    /Batch identity changed/,
+  );
+
+  const correctedType = structuredClone(inventory);
+  correctedType.batches["physical-items-batch-1"].entries[0].type = "weapon";
+  assert.doesNotThrow(() => validateProductionBatches(correctedType, docs));
+});
+
 test("descriptive-phase gate rejects premature mechanics, broken identity, unsafe HTML and missing art", async () => {
   const original = await json("src/packs/feats/extra-magic-talent.json");
   const identity = (await json("config/identities.json")).find(
@@ -118,6 +144,32 @@ test("descriptive-phase gate rejects premature mechanics, broken identity, unsaf
       expected,
     );
   }
+});
+
+test("reviewed context notes are pinned to their stable document identity", async () => {
+  const doc = await json(
+    "src/packs/items/adventuring-gear/map-tradewind-093b87bddd856b9b.json",
+  );
+  const identity = (await json("config/identities.json")).find(
+    (entry) => entry.id === doc._id,
+  );
+  const catalog = await json("config/content.json");
+  const sources = new Map(
+    catalog.sources.map((source) => [source.key, source]),
+  );
+  const assets = new Map(
+    [...catalog.assets, ...catalog.externalAssets].map((asset) => [
+      asset.path.replace(/^static\//, `modules/${moduleId}/`),
+      asset,
+    ]),
+  );
+  const intakeSources = await json("config/intake-sources.json");
+  const changed = structuredClone(doc);
+  changed.system.contextNotes[0].text = "+[[6]] circumstance bonus";
+  assert.throws(
+    () => validateEntity(changed, identity, sources, assets, { intakeSources }),
+    /Reviewed context notes changed/,
+  );
 });
 
 test("container validation rejects missing contents, double counting, broken child identity and unreviewed actions", async () => {
@@ -239,4 +291,293 @@ test("reviewed Hidden Blade and Trail Rations use pinned native PF1 profiles", a
       }),
     /Reviewed Changes changed/,
   );
+});
+
+test("reviewed Akashic wondrous items preserve native magic fields without global essence changes", async () => {
+  const { docs } = await validateContentCatalog();
+  const byId = new Map(docs.map(({ doc }) => [doc._id, doc]));
+  const expected = [
+    ["7b7a74c15e7ccc13", 5, "nec", "slotless"],
+    ["0c1c87ecdd107f28", 1, "uni", "slotless"],
+    ["1025cb3f8fc1661f", 5, "enc", "ring"],
+    ["1a6640960c79a399", 8, "trs", "slotless"],
+  ];
+
+  for (const [id, cl, school, slot] of expected) {
+    const item = byId.get(id);
+    assert.equal(item.type, "equipment");
+    assert.equal(item.system.subType, "wondrous");
+    assert.equal(item.system.cl, cl);
+    assert.equal(item.system.aura.school, school);
+    assert.equal(item.system.slot, slot);
+    assert.deepEqual(item.system.changes, []);
+  }
+
+  const bloodFunnels = byId.get("7b7a74c15e7ccc13");
+  assert.match(bloodFunnels.system.description.value, /moderate necromancy/i);
+  assert.equal(
+    bloodFunnels.flags["additional-spheres-content"].audit.advanced,
+    "deferred",
+  );
+
+  const ring = byId.get("1025cb3f8fc1661f");
+  assert.equal(ring.system.actions[0].name, "Designate Title Veil");
+  assert.equal(ring.system.actions[0].activation.type, "free");
+});
+
+test("reviewed alchemical items preserve PF1 consumable profiles and the Hookah supplement link", async () => {
+  const { docs } = await validateContentCatalog();
+  const byId = new Map(docs.map(({ doc }) => [doc._id, doc]));
+  const arcanis = byId.get("22090041e723f52f");
+  const blackPowder = byId.get("333c4e288cf41817");
+  const catnip = byId.get("0b214a71536b15c7");
+  const ethanol = byId.get("12f207bbdd808dd8");
+  const fishLiverGrog = byId.get("00090abdbf1b30de");
+  const kuoki = byId.get("b40afe6dad77c9e9");
+  const liquidLife = byId.get("16cf0db697ea710d");
+  const hookah = byId.get("4c8fdb68ad45fb2f");
+
+  assert.equal(arcanis.type, "consumable");
+  assert.equal(arcanis.system.subType, "poison");
+  assert.equal(arcanis.system.uses.per, "single");
+  assert.equal(arcanis.system.actions[0].actionType, "save");
+  assert.deepEqual(arcanis.system.actions[0].save, {
+    dc: "17",
+    type: "fort",
+  });
+  assert.match(
+    arcanis.system.actions[0].notes.effect[0],
+    /1\/round for 6 rounds/,
+  );
+
+  assert.equal(blackPowder.system.subType, "misc");
+  assert.equal(blackPowder.system.uses.per, "charges");
+  assert.equal(blackPowder.system.uses.value, 20);
+  assert.equal(blackPowder.system.uses.maxFormula, "20");
+  assert.equal(blackPowder.system.uses.pricePerUse, 10);
+  assert.equal(blackPowder.system.price, 0);
+  assert.equal(
+    blackPowder.system.price +
+      blackPowder.system.uses.value * blackPowder.system.uses.pricePerUse,
+    200,
+  );
+  assert.equal(blackPowder.system.actions[0].name, "Use Dose");
+  assert.equal(
+    blackPowder.img,
+    "icons/commodities/materials/powder-black.webp",
+  );
+  assert.equal(
+    blackPowder.flags["additional-spheres-content"].reuse.sourceUuid,
+    "Compendium.pf1.items.Item.trucdntfxjdukrox",
+  );
+
+  assert.equal(catnip.system.subType, "drug");
+  assert.equal(catnip.system.uses.per, "single");
+  assert.equal(catnip.system.actions[0].actionType, "save");
+  assert.deepEqual(catnip.system.actions[0].save, {
+    dc: "10",
+    type: "fort",
+  });
+  assert.equal(catnip.system.actions[0].notes.effect.length, 3);
+
+  assert.equal(ethanol.system.subType, "misc");
+  assert.equal(ethanol.system.uses.per, "single");
+  assert.equal(ethanol.system.actions[0].name, "Use as Fuel");
+
+  assert.equal(fishLiverGrog.system.subType, "misc");
+  assert.equal(fishLiverGrog.system.uses.per, "single");
+  assert.equal(fishLiverGrog.system.actions[0]._id, "943f57b9bab53077");
+  assert.equal(fishLiverGrog.system.actions[0].activation.type, "standard");
+  assert.match(fishLiverGrog.system.actions[0].notes.effect[0], /restore/i);
+  assert.match(fishLiverGrog.system.actions[0].notes.effect[1], /2d6/);
+  assert.equal(
+    fishLiverGrog.img,
+    "modules/additional-spheres-content/icons/items/alchemical-items/fish-liver-grog.webp",
+  );
+
+  assert.equal(kuoki.system.subType, "drug");
+  assert.equal(kuoki.system.uses.per, "single");
+  assert.equal(kuoki.system.actions[0]._id, "a3ff4cadfe783cef");
+  assert.equal(kuoki.system.actions[0].activation.type, "standard");
+  assert.match(kuoki.system.actions[0].notes.effect[1], /Spirit Sense/i);
+  assert.match(kuoki.system.actions[0].notes.effect[1], /1 hour/i);
+  assert.equal(
+    kuoki.img,
+    "modules/additional-spheres-content/icons/items/alchemical-items/kuoki.webp",
+  );
+
+  assert.equal(liquidLife.system.subType, "drug");
+  assert.equal(liquidLife.system.uses.per, "single");
+  assert.equal(liquidLife.system.actions[0]._id, "826ed675a56fd7ac");
+  assert.equal(liquidLife.system.actions[0].activation.type, "standard");
+  assert.match(liquidLife.system.actions[0].notes.effect[0], /3d6/);
+  assert.match(
+    liquidLife.system.actions[0].notes.effect[0],
+    /currently has in damage/i,
+  );
+  assert.match(liquidLife.system.actions[0].notes.effect[1], /fatigued/i);
+  assert.match(liquidLife.system.actions[0].notes.effect[2], /1 hour/i);
+  assert.equal(
+    liquidLife.img,
+    "modules/additional-spheres-content/icons/items/alchemical-items/liquid-life.webp",
+  );
+
+  for (const item of [
+    arcanis,
+    blackPowder,
+    catnip,
+    ethanol,
+    fishLiverGrog,
+    kuoki,
+    liquidLife,
+  ]) {
+    assert.deepEqual(item.system.changes, []);
+    assert.deepEqual(item.system.contextNotes, []);
+  }
+
+  assert.deepEqual(hookah.system.links.supplements, [
+    {
+      name: "Catnip",
+      uuid: "Compendium.additional-spheres-content.items.Item.0b214a71536b15c7",
+    },
+  ]);
+
+  const broken = structuredClone(docs);
+  broken.find(
+    ({ doc }) => doc._id === hookah._id,
+  ).doc.system.links.supplements[0].uuid =
+    "Compendium.additional-spheres-content.items.Item.0000000000000000";
+  assert.throws(() => validateSupplementLinks(broken), /Unresolved/);
+});
+
+test("reviewed planar power components preserve dose and focus rules without global modifiers", async () => {
+  const { docs } = await validateContentCatalog();
+  const byId = new Map(docs.map(({ doc }) => [doc._id, doc]));
+  const expected = [
+    [
+      "76bd3b56ee90b98f",
+      60,
+      "brimstone-briquette.webp",
+      /increase the burning damage dealt each round/i,
+    ],
+    [
+      "95cc514580cfdf9c",
+      75,
+      "inversion-prism.webp",
+      /dark or light descriptor/i,
+    ],
+    [
+      "7312577d2f2246b4",
+      100,
+      "iridium-jellenate.webp",
+      /increase the hardness of each created object/i,
+    ],
+  ];
+
+  for (const [id, price, imageName, rule] of expected) {
+    const item = byId.get(id);
+    assert.equal(item.type, "loot");
+    assert.equal(item.system.subType, "gear");
+    assert.equal(item.system.price, price);
+    assert.equal(item.system.weight.value, 0);
+    assert.equal(item.system.uses.per, "");
+    assert.deepEqual(item.system.actions, []);
+    assert.deepEqual(item.system.changes, []);
+    assert.deepEqual(item.system.contextNotes, []);
+    assert.match(item.system.description.value, /<strong>Doses<\/strong> 1/);
+    assert.match(item.system.description.value, /<strong>Focus<\/strong>/);
+    assert.match(item.system.description.value, rule);
+    assert.equal(
+      item.img,
+      `modules/additional-spheres-content/icons/items/equipment/${imageName}`,
+    );
+  }
+});
+
+test("twenty-item production lane applies shared PF1 profiles without inventing Ethermagic rolls", async () => {
+  const { docs } = await validateContentCatalog();
+  const bySource = new Map(
+    docs.map(({ doc }) => [
+      doc.flags["additional-spheres-content"].sourceKey,
+      doc,
+    ]),
+  );
+
+  const alteration = bySource.get(
+    "wiki:ethermagic-items:current:item:alterations-bane",
+  );
+  assert.equal(alteration.type, "consumable");
+  assert.equal(alteration.system.subType, "potion");
+  assert.equal(alteration.system.cl, 14);
+  assert.equal(alteration.system.aura.school, "evo");
+  assert.equal(alteration.system.uses.per, "single");
+  assert.equal(alteration.system.actions[0].activation.type, "standard");
+  assert.deepEqual(alteration.system.actions[0].save, {
+    dc: "13",
+    description: "Will negates (forced consumption only)",
+    type: "will",
+  });
+
+  const rings = new Map([
+    ["band-of-grounded-realities", 12],
+    ["band-of-overlapping-realities", 14],
+    ["band-of-shifting-realities", 7],
+    ["band-of-transient-realities", 9],
+  ]);
+  for (const [slug, casterLevel] of rings) {
+    const ring = bySource.get(`wiki:ethermagic-items:current:item:${slug}`);
+    assert.equal(ring.system.slot, "ring");
+    assert.equal(ring.system.cl, casterLevel);
+    assert.equal(ring.system.aura.school, "evo");
+    assert.equal(
+      ring.img,
+      "modules/additional-spheres-content/icons/items/ethermagic/reality-bands.webp",
+    );
+    assert.deepEqual(ring.system.actions, []);
+    assert.deepEqual(ring.system.changes, []);
+  }
+
+  const staves = new Map([
+    ["apprentice-blastmages-etherstaff", 8],
+    ["etherstaff-of-armageddons-form", 15],
+    ["etherstaff-of-mental-fixation", 16],
+    ["etherstaff-of-the-atomic-edge", 9],
+    ["etherstaff-of-the-canine-cliche", 14],
+    ["etherstaff-of-the-cosmic-roar", 13],
+    ["etherstaff-of-the-endless-congregation", 16],
+    ["etherstaff-of-the-fetching-sphere", 8],
+    ["etherstaff-of-the-modeling-enthusiast", 20],
+  ]);
+  for (const [slug, casterLevel] of staves) {
+    const staff = bySource.get(`wiki:ethermagic-items:current:item:${slug}`);
+    assert.equal(staff.system.cl, casterLevel);
+    assert.equal(staff.system.aura.school, "evo");
+    assert.equal(staff.system.uses.value, 10);
+    assert.equal(staff.system.uses.maxFormula, "10");
+    assert.equal(staff.system.uses.per, "charges");
+    assert.deepEqual(staff.system.actions, []);
+    assert.deepEqual(staff.system.changes, []);
+  }
+
+  for (const slug of [
+    "living-mossrock",
+    "lodestone-geode",
+    "mother-pearlite",
+    "warding-agate",
+  ]) {
+    const component = bySource.get(`wiki:equipment:current:item:${slug}`);
+    assert.equal(component.type, "loot");
+    assert.equal(component.system.subType, "gear");
+    assert.match(component.system.description.value, /<strong>Focus<\/strong>/);
+    assert.deepEqual(component.system.actions, []);
+    assert.deepEqual(component.system.changes, []);
+  }
+
+  for (const slug of ["lightning-rod", "storm-shelter"]) {
+    const structure = bySource.get(`wiki:equipment:current:item:${slug}`);
+    assert.equal(structure.type, "loot");
+    assert.equal(structure.system.subType, "gear");
+    assert.deepEqual(structure.system.actions, []);
+    assert.deepEqual(structure.system.changes, []);
+  }
 });

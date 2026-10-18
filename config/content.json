@@ -64,8 +64,8 @@
       "licensePath": "LICENSES/OGL-1.0a-PF1-Content.txt",
       "licenseSha256": "10bcdc68296b48cc250f38e49de09c9a73645163d7ac7f76e77346a755c35cdc",
       "evidenceUrl": "https://foundryvtt.com/packages/pf1",
-      "scope": "Only Adventurers Sash, Filter Scarf and Parasol Umbrella adaptations registered in config/physical-item-reviews.json; rules and native record data, not upstream artwork or program code.",
-      "review": "Selected mundane rules are OGL game content. Retain PF1 Content OGL and complete wiki notices, including Adventurers Armory 2, Adventurers Guide and Ultimate Equipment. Retain GPL-3.0 for upstream record-format contributions and ship adapted physical JSON in sources/items. Core scarf image is referenced only; sash and umbrella images are original generated art."
+      "scope": "Only Adventurers Sash, Filter Scarf, Parasol Umbrella and Whiskey (Cup) adaptations registered in config/physical-item-reviews.json; rules and native record data, not upstream artwork or program code.",
+      "review": "Selected mundane rules are OGL game content. Retain PF1 Content OGL and complete wiki notices, including Adventurers Armory 2, Adventurers Guide and Ultimate Equipment. Retain GPL-3.0 for upstream record-format contributions and ship adapted physical JSON in sources/items. Core scarf and goblet images are referenced only; sash and umbrella images are original generated art."
     },
     {
       "key": "pf1-reviewed-native-item-profiles",
@@ -278,9 +278,790 @@
         "bytes": 5416
       },
       "prompt": "Use case: stylized-concept. Asset type: square Foundry VTT fantasy inventory icon for a waterproof umbrella. Original painted equipment illustration. One open umbrella made of muted forest-green oiled cloth, visible wooden ribs and a curved wooden handle. Three-quarter side view, canopy and handle both fully visible within edge padding. Isolated on a dark navy background, warm wood and soft green highlights, bold clear silhouette with restrained detail, legible at 64px. Practical medieval-fantasy traveling gear, no person, no scenery, no magic, no cloth rolls, no extra objects. No text, letters, logos, watermark or decorative border."
+    },
+    {
+      "path": "static/icons/items/adventuring-gear/catnip-hookah.webp",
+      "sha256": "1974f9c3910e7c8aab7a451c978f46832a157743545afb725e848b28c2da133c",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "f25f66f7985e07eb361c291488f8c6f657f7a9832c980acfd8b4b5d65965a574",
+        "sourceBytes": 2508410,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 9660
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square item icon for a Pathfinder 1e Foundry VTT compendium. An intricate glass catnip hookah with a long flexible smoking stem and a small bowl of dried green catnip leaves, centered against a dark neutral vignette. Polished hand-painted fantasy inventory art with a crisp readable silhouette, teal glass, brass fittings and warm studio rim light. No characters, hands, branding, text, border or watermark; readable at 128 pixels."
+    },
+    {
+      "path": "static/icons/items/adventuring-gear/cider.webp",
+      "sha256": "67c8af5f1ed0d9722e6eed22efb4092459d7285bacaa3d58a3d9d37ac52f497e",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "0f27eca2ab09003b7a664487bceebb4501f8df457286c9fe4c0a630288a16572",
+        "sourceBytes": 2161777,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 9110
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square item icon for a Pathfinder 1e Foundry VTT compendium. A rustic wooden mug of amber apple cider beside a compact brown stoneware jug and one red apple, centered against a dark neutral vignette. Polished hand-painted fantasy inventory art with warm tavern light and a crisp readable silhouette. No characters, hands, labels, text, border or watermark; readable at 128 pixels."
+    },
+    {
+      "path": "static/icons/items/adventuring-gear/fruitcake.webp",
+      "sha256": "897754aad0f304477f9859993d5ab89db26f12c8c7fdf9a23548fb6c42329c99",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "26062c845563200161dc30fb513809b498610396630a5d761bbbdd1770e5b14d",
+        "sourceBytes": 2358221,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 12442
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square item icon for a Pathfinder 1e Foundry VTT compendium. A dense rustic fruitcake loaf cut to reveal dried fruit and nuts, with one clean slice on a simple wooden board against a dark neutral vignette. Polished hand-painted fantasy inventory art with warm hearth light and a crisp readable silhouette. No characters, hands, utensils, text, border or watermark; readable at 128 pixels."
+    },
+    {
+      "path": "static/icons/items/adventuring-gear/map-tradewind.webp",
+      "sha256": "bdcc2c30d9ebfa12780e5147b4a0dfd38ec15668bdd5dcbfd36ae15ff2108789",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "4f738ba115180ab64c75c2cc65253ae2fb7981444aa0680356e3cdb62d15346d",
+        "sourceBytes": 3046126,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 12482
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square item icon for a Pathfinder 1e Foundry VTT compendium. A partially unrolled, well-used regional parchment map with coastline, trade roads, compass rose and wind-current marks, centered against a dark neutral vignette. Polished hand-painted fantasy inventory art with warm directional light and no readable labels. No characters, hands, words, border or watermark; readable at 128 pixels."
+    },
+    {
+      "path": "static/icons/items/adventuring-gear/meat-pie.webp",
+      "sha256": "9c74f3897ed85e5934b763b3ed407702330a15d1282268915c4f323c1239dcfa",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "12dbff2b2a4be62a3190dd8d9ed2634c10a309c805ad6efde23cea92738f580f",
+        "sourceBytes": 2090081,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "top-left quadrant",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 10550
+      },
+      "prompt": "Use case: stylized-concept. Asset type: a clean 2-by-2 contact sheet of four separate square fantasy inventory icons for a Pathfinder 1e Foundry VTT compendium. Top left: a golden-brown rustic meat pie, one wedge cut to reveal minced beef and onion. Top right: a small plate with a plain highland scone and two shortbread biscuits. Bottom left: a coiled rustic sausage with one clean cut showing its filling. Bottom right: a wooden bowl of hearty vegetable and lamb soup with visible steam. Each subject centered alone against the same dark neutral vignette, polished hand-painted fantasy inventory art, warm hearth light, crisp silhouette, readable when cropped to 128 pixels. No characters, hands, utensils, labels, text, frames, borders, watermark, or decorative dividers."
+    },
+    {
+      "path": "static/icons/items/adventuring-gear/pastry.webp",
+      "sha256": "c583c8ee74110f9011a90a95abf8a7d8235625f1920fc5397779d1481185f2ef",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "12dbff2b2a4be62a3190dd8d9ed2634c10a309c805ad6efde23cea92738f580f",
+        "sourceBytes": 2090081,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "top-right quadrant",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 7536
+      },
+      "prompt": "Use case: stylized-concept. Asset type: a clean 2-by-2 contact sheet of four separate square fantasy inventory icons for a Pathfinder 1e Foundry VTT compendium. Top left: a golden-brown rustic meat pie, one wedge cut to reveal minced beef and onion. Top right: a small plate with a plain highland scone and two shortbread biscuits. Bottom left: a coiled rustic sausage with one clean cut showing its filling. Bottom right: a wooden bowl of hearty vegetable and lamb soup with visible steam. Each subject centered alone against the same dark neutral vignette, polished hand-painted fantasy inventory art, warm hearth light, crisp silhouette, readable when cropped to 128 pixels. No characters, hands, utensils, labels, text, frames, borders, watermark, or decorative dividers."
+    },
+    {
+      "path": "static/icons/items/adventuring-gear/sausage.webp",
+      "sha256": "42b1858201f96ea6e265b38ed15e0752911b10483a6d0650b4d0eada76ab4d89",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "12dbff2b2a4be62a3190dd8d9ed2634c10a309c805ad6efde23cea92738f580f",
+        "sourceBytes": 2090081,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "bottom-left quadrant",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 9156
+      },
+      "prompt": "Use case: stylized-concept. Asset type: a clean 2-by-2 contact sheet of four separate square fantasy inventory icons for a Pathfinder 1e Foundry VTT compendium. Top left: a golden-brown rustic meat pie, one wedge cut to reveal minced beef and onion. Top right: a small plate with a plain highland scone and two shortbread biscuits. Bottom left: a coiled rustic sausage with one clean cut showing its filling. Bottom right: a wooden bowl of hearty vegetable and lamb soup with visible steam. Each subject centered alone against the same dark neutral vignette, polished hand-painted fantasy inventory art, warm hearth light, crisp silhouette, readable when cropped to 128 pixels. No characters, hands, utensils, labels, text, frames, borders, watermark, or decorative dividers."
+    },
+    {
+      "path": "static/icons/items/adventuring-gear/soup.webp",
+      "sha256": "08aa150c4a7a53c8812d1182711ab95203d560f7b5bf0d8631edee2dd942f64d",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "12dbff2b2a4be62a3190dd8d9ed2634c10a309c805ad6efde23cea92738f580f",
+        "sourceBytes": 2090081,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "bottom-right quadrant",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 6198
+      },
+      "prompt": "Use case: stylized-concept. Asset type: a clean 2-by-2 contact sheet of four separate square fantasy inventory icons for a Pathfinder 1e Foundry VTT compendium. Top left: a golden-brown rustic meat pie, one wedge cut to reveal minced beef and onion. Top right: a small plate with a plain highland scone and two shortbread biscuits. Bottom left: a coiled rustic sausage with one clean cut showing its filling. Bottom right: a wooden bowl of hearty vegetable and lamb soup with visible steam. Each subject centered alone against the same dark neutral vignette, polished hand-painted fantasy inventory art, warm hearth light, crisp silhouette, readable when cropped to 128 pixels. No characters, hands, utensils, labels, text, frames, borders, watermark, or decorative dividers."
+    },
+    {
+      "path": "static/icons/items/adventuring-gear/outfit-eventide.webp",
+      "sha256": "dd2a5dbb3d88718a17ae90b59c8caf8ba4ec201718b7aec178ca36138612c605",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "c913139802146e6777e498c1cf8f1bb731e556ba7e96f0a542374fb54f0edee7",
+        "sourceBytes": 2692333,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "top-left quadrant",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 9916
+      },
+      "prompt": "Use case: stylized-concept. Asset type: a clean 2-by-2 contact sheet of separate square fantasy inventory icons for a Pathfinder 1e Foundry VTT compendium. Top left: an adaptable layered travel outfit laid flat, dark blue-gray cloth with removable warm fur-lined flaps and rolled-back ventilation panels. Top right: a cozy collapsible wooden sleeping box sized for a catfolk traveler, padded with a small folded blanket and cushion, no creature inside. Bottom left: a pair of small brass-and-leather instrument adjustment clips called toe-bean tuners beside the edge of a lute neck. Bottom right: an empty dark neutral vignette with no subject. Each actual subject centered alone, polished hand-painted fantasy inventory art, warm directional light, crisp silhouette, readable when cropped to 128 pixels. No characters, hands, paws, labels, text, frames, borders, watermark, or decorative dividers."
+    },
+    {
+      "path": "static/icons/items/adventuring-gear/sleeping-box.webp",
+      "sha256": "66aff49f774d51a6fef7023a59d447c8288be7a801a068d7dfdc6fc9fe9ae3ee",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "c913139802146e6777e498c1cf8f1bb731e556ba7e96f0a542374fb54f0edee7",
+        "sourceBytes": 2692333,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "top-right quadrant",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 8382
+      },
+      "prompt": "Use case: stylized-concept. Asset type: a clean 2-by-2 contact sheet of separate square fantasy inventory icons for a Pathfinder 1e Foundry VTT compendium. Top left: an adaptable layered travel outfit laid flat, dark blue-gray cloth with removable warm fur-lined flaps and rolled-back ventilation panels. Top right: a cozy collapsible wooden sleeping box sized for a catfolk traveler, padded with a small folded blanket and cushion, no creature inside. Bottom left: a pair of small brass-and-leather instrument adjustment clips called toe-bean tuners beside the edge of a lute neck. Bottom right: an empty dark neutral vignette with no subject. Each actual subject centered alone, polished hand-painted fantasy inventory art, warm directional light, crisp silhouette, readable when cropped to 128 pixels. No characters, hands, paws, labels, text, frames, borders, watermark, or decorative dividers."
+    },
+    {
+      "path": "static/icons/items/adventuring-gear/toe-bean-tuners.webp",
+      "sha256": "4fd76c642869be4a3dc46d1b6ba758abfef9a4ac9b929af188c4927a9d3ccc07",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "c913139802146e6777e498c1cf8f1bb731e556ba7e96f0a542374fb54f0edee7",
+        "sourceBytes": 2692333,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "bottom-left quadrant",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 10138
+      },
+      "prompt": "Use case: stylized-concept. Asset type: a clean 2-by-2 contact sheet of separate square fantasy inventory icons for a Pathfinder 1e Foundry VTT compendium. Top left: an adaptable layered travel outfit laid flat, dark blue-gray cloth with removable warm fur-lined flaps and rolled-back ventilation panels. Top right: a cozy collapsible wooden sleeping box sized for a catfolk traveler, padded with a small folded blanket and cushion, no creature inside. Bottom left: a pair of small brass-and-leather instrument adjustment clips called toe-bean tuners beside the edge of a lute neck. Bottom right: an empty dark neutral vignette with no subject. Each actual subject centered alone, polished hand-painted fantasy inventory art, warm directional light, crisp silhouette, readable when cropped to 128 pixels. No characters, hands, paws, labels, text, frames, borders, watermark, or decorative dividers."
+    },
+    {
+      "path": "static/icons/items/akashic-wondrous-items/blood-funnels.webp",
+      "sha256": "d8e7a35f5f90dd7c42b5e93643232a1c56dc7b9ce637437fa1aa678fdc924bcd",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "5e6e3aeeb77ebfefcef83d3d734323f06f3da857d1213b497cddfa8b5e238ea5",
+        "sourceBytes": 2576593,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "top-left quadrant",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 6746
+      },
+      "prompt": "Use case: stylized-concept. Asset type: a clean 2-by-2 contact sheet of four separate square fantasy inventory icons for a Pathfinder 1e Foundry VTT compendium. Top left: cruel paired blood funnels, narrow twisted dark-steel bands with small thornlike hooks and a restrained crimson glow, designed to clamp onto a sword hilt or natural weapon. Top right: a tiny refinement charm of titles, a delicate gold-and-ivory heraldic charm hanging from a short bracelet chain, subtle arcane spark. Bottom left: a gold and deep-red signet ring engraved with many tiny name-runes, the Ring of a Thousand Names, richly magical but still readable as a ring. Bottom right: Suqur's Gift, a single elegant falconlike feather of cream, russet, and gold floating in a soft airy glow. Each subject centered alone against the same dark neutral vignette, polished hand-painted fantasy inventory art, crisp silhouette, restrained akashic luminous accents, readable when cropped to 128 pixels. No characters, hands, blood splatter, labels, text, frames, borders, watermark, or decorative dividers."
+    },
+    {
+      "path": "static/icons/items/akashic-wondrous-items/refinement-charm.webp",
+      "sha256": "bc4f3224c87aaa0b2a586293b9d36ed751f3818ffccc2fcd87f42c31217b4196",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "5e6e3aeeb77ebfefcef83d3d734323f06f3da857d1213b497cddfa8b5e238ea5",
+        "sourceBytes": 2576593,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "top-right quadrant",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 5772
+      },
+      "prompt": "Use case: stylized-concept. Asset type: a clean 2-by-2 contact sheet of four separate square fantasy inventory icons for a Pathfinder 1e Foundry VTT compendium. Top left: cruel paired blood funnels, narrow twisted dark-steel bands with small thornlike hooks and a restrained crimson glow, designed to clamp onto a sword hilt or natural weapon. Top right: a tiny refinement charm of titles, a delicate gold-and-ivory heraldic charm hanging from a short bracelet chain, subtle arcane spark. Bottom left: a gold and deep-red signet ring engraved with many tiny name-runes, the Ring of a Thousand Names, richly magical but still readable as a ring. Bottom right: Suqur's Gift, a single elegant falconlike feather of cream, russet, and gold floating in a soft airy glow. Each subject centered alone against the same dark neutral vignette, polished hand-painted fantasy inventory art, crisp silhouette, restrained akashic luminous accents, readable when cropped to 128 pixels. No characters, hands, blood splatter, labels, text, frames, borders, watermark, or decorative dividers."
+    },
+    {
+      "path": "static/icons/items/akashic-wondrous-items/ring-of-a-thousand-names.webp",
+      "sha256": "fc0b82fd48601d7275ed9bf636e9d78f747742d16994e24b7c58a642ee252ad9",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "5e6e3aeeb77ebfefcef83d3d734323f06f3da857d1213b497cddfa8b5e238ea5",
+        "sourceBytes": 2576593,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "bottom-left quadrant",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 10212
+      },
+      "prompt": "Use case: stylized-concept. Asset type: a clean 2-by-2 contact sheet of four separate square fantasy inventory icons for a Pathfinder 1e Foundry VTT compendium. Top left: cruel paired blood funnels, narrow twisted dark-steel bands with small thornlike hooks and a restrained crimson glow, designed to clamp onto a sword hilt or natural weapon. Top right: a tiny refinement charm of titles, a delicate gold-and-ivory heraldic charm hanging from a short bracelet chain, subtle arcane spark. Bottom left: a gold and deep-red signet ring engraved with many tiny name-runes, the Ring of a Thousand Names, richly magical but still readable as a ring. Bottom right: Suqur's Gift, a single elegant falconlike feather of cream, russet, and gold floating in a soft airy glow. Each subject centered alone against the same dark neutral vignette, polished hand-painted fantasy inventory art, crisp silhouette, restrained akashic luminous accents, readable when cropped to 128 pixels. No characters, hands, blood splatter, labels, text, frames, borders, watermark, or decorative dividers."
+    },
+    {
+      "path": "static/icons/items/akashic-wondrous-items/suqurs-gift.webp",
+      "sha256": "a8a13c280846fc93216b97ea64f12eaa16897593ac4044b5452dfb2acdf87ad2",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "5e6e3aeeb77ebfefcef83d3d734323f06f3da857d1213b497cddfa8b5e238ea5",
+        "sourceBytes": 2576593,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "bottom-right quadrant",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 6976
+      },
+      "prompt": "Use case: stylized-concept. Asset type: a clean 2-by-2 contact sheet of four separate square fantasy inventory icons for a Pathfinder 1e Foundry VTT compendium. Top left: cruel paired blood funnels, narrow twisted dark-steel bands with small thornlike hooks and a restrained crimson glow, designed to clamp onto a sword hilt or natural weapon. Top right: a tiny refinement charm of titles, a delicate gold-and-ivory heraldic charm hanging from a short bracelet chain, subtle arcane spark. Bottom left: a gold and deep-red signet ring engraved with many tiny name-runes, the Ring of a Thousand Names, richly magical but still readable as a ring. Bottom right: Suqur's Gift, a single elegant falconlike feather of cream, russet, and gold floating in a soft airy glow. Each subject centered alone against the same dark neutral vignette, polished hand-painted fantasy inventory art, crisp silhouette, restrained akashic luminous accents, readable when cropped to 128 pixels. No characters, hands, blood splatter, labels, text, frames, borders, watermark, or decorative dividers."
+    },
+    {
+      "path": "static/icons/items/alchemical-items/arcanis-venenum.webp",
+      "sha256": "46daa03e92101d9341b5d30594604a0793a61ab467ff23ee7d28e5a8aaf451f2",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "e6a70b1c422de83cf25b59cc8c9adaddedff178f397de012871ad9ffee26a64e",
+        "sourceBytes": 2381255,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "top-left quadrant",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 17798
+      },
+      "prompt": "Use case: stylized-concept. Asset type: a clean 2-by-2 contact sheet of three separate square fantasy inventory icons for a Pathfinder 1e Foundry VTT compendium. Top left: Arcanis Venenum, a small sealed alchemical poison vial containing rust-colored liquid with a thin oily layer, subtle mold-spore motif in the glass, dangerous and clinical. Top right: one measured dose of catnip, a tidy bundle of green catmint leaves and tiny purple-white flowers beside a small paper packet, clearly an herb and not cannabis. Bottom left: ethanol fuel, a sturdy stoppered clear glass laboratory bottle filled with colorless liquid, beside a tiny blue-orange flame reflection to suggest flammability without showing an active fire. Bottom right: an empty dark neutral vignette with no subject. Each actual subject centered alone against the same dark charcoal vignette, polished hand-painted fantasy inventory art, crisp silhouette, restrained warm rim light, readable when cropped to 128 pixels. No characters, hands, cats, skull symbols, labels, text, frames, borders, watermark, or decorative dividers."
+    },
+    {
+      "path": "static/icons/items/alchemical-items/catnip.webp",
+      "sha256": "59456dfce7c1638d3034b9d1731e04a22692b22b99ad334c8c75f1185306da2e",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "e6a70b1c422de83cf25b59cc8c9adaddedff178f397de012871ad9ffee26a64e",
+        "sourceBytes": 2381255,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "top-right quadrant",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 19840
+      },
+      "prompt": "Use case: stylized-concept. Asset type: a clean 2-by-2 contact sheet of three separate square fantasy inventory icons for a Pathfinder 1e Foundry VTT compendium. Top left: Arcanis Venenum, a small sealed alchemical poison vial containing rust-colored liquid with a thin oily layer, subtle mold-spore motif in the glass, dangerous and clinical. Top right: one measured dose of catnip, a tidy bundle of green catmint leaves and tiny purple-white flowers beside a small paper packet, clearly an herb and not cannabis. Bottom left: ethanol fuel, a sturdy stoppered clear glass laboratory bottle filled with colorless liquid, beside a tiny blue-orange flame reflection to suggest flammability without showing an active fire. Bottom right: an empty dark neutral vignette with no subject. Each actual subject centered alone against the same dark charcoal vignette, polished hand-painted fantasy inventory art, crisp silhouette, restrained warm rim light, readable when cropped to 128 pixels. No characters, hands, cats, skull symbols, labels, text, frames, borders, watermark, or decorative dividers."
+    },
+    {
+      "path": "static/icons/items/alchemical-items/ethanol.webp",
+      "sha256": "0f98e7ea233f05a29f020d2949126ec0df5754595ee4fa115a9e7f4f0b63f9e5",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "e6a70b1c422de83cf25b59cc8c9adaddedff178f397de012871ad9ffee26a64e",
+        "sourceBytes": 2381255,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "bottom-left quadrant",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 17492
+      },
+      "prompt": "Use case: stylized-concept. Asset type: a clean 2-by-2 contact sheet of three separate square fantasy inventory icons for a Pathfinder 1e Foundry VTT compendium. Top left: Arcanis Venenum, a small sealed alchemical poison vial containing rust-colored liquid with a thin oily layer, subtle mold-spore motif in the glass, dangerous and clinical. Top right: one measured dose of catnip, a tidy bundle of green catmint leaves and tiny purple-white flowers beside a small paper packet, clearly an herb and not cannabis. Bottom left: ethanol fuel, a sturdy stoppered clear glass laboratory bottle filled with colorless liquid, beside a tiny blue-orange flame reflection to suggest flammability without showing an active fire. Bottom right: an empty dark neutral vignette with no subject. Each actual subject centered alone against the same dark charcoal vignette, polished hand-painted fantasy inventory art, crisp silhouette, restrained warm rim light, readable when cropped to 128 pixels. No characters, hands, cats, skull symbols, labels, text, frames, borders, watermark, or decorative dividers."
+    },
+    {
+      "path": "static/icons/items/alchemical-items/fish-liver-grog.webp",
+      "sha256": "2471a613ed8d2ad07bfd4f9c06baea27f091cd7ad22a5d29e8324ba679b65ded",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "6e08f9358b2c697fab48656d56ae7e1eeffe745c35b9d7494634473ae17e9bbf",
+        "sourceBytes": 1903776,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 6714
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder-style Foundry VTT item icon. Fish Liver Grog: a rough stoppered brown glass bottle of murky fermented fish-liver liquor, with a tiny fish-bone charm tied around its neck, isolated on a near-black warm vignette background. Polished painterly fantasy inventory illustration with realistic materials; one centered object, close crop, readable at 64 pixels, subtle amber rim light, dark brown glass, muddy amber liquid, muted bone and cord. No people, hands, labels, letters, text, watermark, frame, or UI border."
+    },
+    {
+      "path": "static/icons/items/alchemical-items/kuoki.webp",
+      "sha256": "5b76f8c60f3e758d30edf4b3b20bd87ce41e8f2eeda07be32b87694179e9acdf",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "24e3c126346477cfd6ed9b4a85525fa43de326a1288000b3c76c7c5652ef609a",
+        "sourceBytes": 1856075,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 6666
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder-style Foundry VTT item icon. Kuoki: a small elegant sealed rice-wine bottle with luminous golden liquid glowing softly through pale ceramic and a simple cork, isolated on a near-black cool vignette background. Polished painterly fantasy inventory illustration with realistic materials; one centered bottle, close crop, readable at 64 pixels, mystical candlelike golden glow, ivory ceramic, warm gold light, restrained indigo shadows. No people, hands, labels, letters, text, watermark, frame, or UI border."
+    },
+    {
+      "path": "static/icons/items/alchemical-items/liquid-life.webp",
+      "sha256": "9b6c7969065d36b0582baad81596e37cfe789feb9fa42144b51421493c1eabd9",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "908859063a793049f90a2b4fd3c43c522d110ce795d8e68ff97c40c51d7edffe",
+        "sourceBytes": 1987282,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 10154
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder-style Foundry VTT item icon. Liquid Life: a squat glass coffee-tonic vial filled with rich dark liquid, bright copper-red alchemical energy swirling inside, beside two roasted coffee beans, isolated on a near-black warm vignette background. Polished painterly fantasy inventory illustration with realistic materials; centered vial, close crop, readable at 64 pixels, espresso brown, copper red, warm cream highlights. No people, hands, labels, letters, text, watermark, frame, or UI border."
+    },
+    {
+      "path": "static/icons/items/equipment/brimstone-briquette.webp",
+      "sha256": "31b24c9d093139f6ed6edf2ccbf615b0de63d6fae0e83015013138bed96c5a4a",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "4fdef0f95a7b0c8477bcf47572e4e698da0dbf491cf70228e0f172ed5bca6a78",
+        "sourceBytes": 2257681,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 8236
+      },
+      "prompt": "Square fantasy tabletop inventory icon of a Brimstone Briquette: one compact rough cluster of extinguished infernal everburning coal, cracked black-red stone with subtle ember glow in crevices, small trace of sulfurous smoke, isolated centered object on a dark neutral painterly background, dramatic rim lighting, highly readable at 64 pixels, no hands, no character, no lettering, no symbols, no border, no frame, original digital painting."
+    },
+    {
+      "path": "static/icons/items/equipment/inversion-prism.webp",
+      "sha256": "2eb7624839452395498e52f9ed01b64a49ced56269f20de34b30ff443857c9ff",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "f65155873680ab4a829501c443032304e5efb0b1200b0d7eafc7dd945f9b5e0d",
+        "sourceBytes": 1847603,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 5612
+      },
+      "prompt": "Square fantasy tabletop inventory icon of an Inversion Prism: one wavy translucent glass-like mineral prism, one face swallowing light into deep violet-black while the opposite face emits a soft pearly gold glow, sparse positive and negative planar motes, isolated centered object on a dark neutral painterly background, dramatic rim lighting, highly readable at 64 pixels, no hands, no character, no lettering, no symbols, no border, no frame, original digital painting."
+    },
+    {
+      "path": "static/icons/items/equipment/iridium-jellenate.webp",
+      "sha256": "9df702ded59c3d9c556fb246dd49241e02ed0668331afce1658b5a65ec52f64c",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "fde1e222e999d72935416afd27f21ecce04f712b5ed12824625a5a17adc77897",
+        "sourceBytes": 2659249,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 13630
+      },
+      "prompt": "Square fantasy tabletop inventory icon of Iridium Jellenate: one dense metallic gel-mineral lump partly hardened into layered silver-iridescent plates, subtle blue and violet sheen, extremely heavy sturdy appearance, isolated centered object on a dark neutral painterly background, dramatic rim lighting, highly readable at 64 pixels, no hands, no character, no lettering, no symbols, no border, no frame, original digital painting."
+    },
+    {
+      "path": "static/icons/items/equipment/lightning-rod.webp",
+      "sha256": "2c135c7f40777c35fa5cf81f44f9b1ff07293a75181aa2229bccb7948770c798",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "637d628cc53c9859a2b8251f60146f4383c68e2709a8f9a3218f71822f777d0e",
+        "sourceBytes": 2028728,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 9120
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder-style Foundry VTT inventory icon. A copper lightning rod with a grounding cable fixed to a stone rooftop during a storm. One centered object or deliberately related set on a dark neutral painterly vignette, crisp silhouette, realistic fantasy materials, restrained dramatic rim light, readable at 64 pixels. No people, hands, labels, letters, text, watermark, frame, border, or UI."
+    },
+    {
+      "path": "static/icons/items/equipment/living-mossrock.webp",
+      "sha256": "2eac722e546d5e9fe191ceb8ae66f7ca374acc4e5c870714939b200022b20cf6",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "77fc1d5e0afc7b809aa297c99c669ffd361cbf5c4faecfa794d40519db2090e5",
+        "sourceBytes": 2228682,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 11866
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder-style Foundry VTT inventory icon. A moss-wrapped stone glowing with gentle fey green light. One centered object or deliberately related set on a dark neutral painterly vignette, crisp silhouette, realistic fantasy materials, restrained dramatic rim light, readable at 64 pixels. No people, hands, labels, letters, text, watermark, frame, border, or UI."
+    },
+    {
+      "path": "static/icons/items/equipment/lodestone-geode.webp",
+      "sha256": "b91fd614777ffca6021bda20fd0b5947dc3fb63fc80dfcc89f7fb1308c915d44",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "6428d19b0f944eea1f2121e5e56dcc46e3190d98cfc2781a8754f053197fbece",
+        "sourceBytes": 2562738,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 12798
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder-style Foundry VTT inventory icon. A black magnetic crystal geode attracting iron filings. One centered object or deliberately related set on a dark neutral painterly vignette, crisp silhouette, realistic fantasy materials, restrained dramatic rim light, readable at 64 pixels. No people, hands, labels, letters, text, watermark, frame, border, or UI."
+    },
+    {
+      "path": "static/icons/items/equipment/mother-pearlite.webp",
+      "sha256": "c9bae4e67a720339365426736f02705c851e0e8d3d120c54c496fe8907c3a7b3",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "681341ff18f59c4500c5517850861483a1e82f409c8419ac86f3a10aa7386c67",
+        "sourceBytes": 2907941,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 12056
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder-style Foundry VTT inventory icon. A fused opalescent shell-stone in soft aqua light. One centered object or deliberately related set on a dark neutral painterly vignette, crisp silhouette, realistic fantasy materials, restrained dramatic rim light, readable at 64 pixels. No people, hands, labels, letters, text, watermark, frame, border, or UI."
+    },
+    {
+      "path": "static/icons/items/equipment/storm-shelter.webp",
+      "sha256": "8746c96b5ad204dd84a6050ca1ab229455342f99cf7904e977d7be2ab1db6c7e",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "9692e5e92c10fc67ac7bdb7e7e0f88ad9aca805b656395dfcec733064177fb7b",
+        "sourceBytes": 3337450,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 19558
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder-style Foundry VTT inventory icon. A reinforced below-ground iron shelter door in a violent storm, with warm light inside. One centered object or deliberately related set on a dark neutral painterly vignette, crisp silhouette, realistic fantasy materials, restrained dramatic rim light, readable at 64 pixels. No people, hands, labels, letters, text, watermark, frame, border, or UI."
+    },
+    {
+      "path": "static/icons/items/equipment/warding-agate.webp",
+      "sha256": "3ec014cc6feada2c3fdb5d80edc3a6256862934a509546c5c7cb869cedf17de5",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "0dcbd13eaacc97d2c7e5b8891f07effce35fa9553659f61fbcbccce3805c00a4",
+        "sourceBytes": 2256106,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 11914
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder-style Foundry VTT inventory icon. A layered agate whose bands resemble luminous magical shields and citadel wards. One centered object or deliberately related set on a dark neutral painterly vignette, crisp silhouette, realistic fantasy materials, restrained dramatic rim light, readable at 64 pixels. No people, hands, labels, letters, text, watermark, frame, border, or UI."
+    },
+    {
+      "path": "static/icons/items/ethermagic/alterations-bane.webp",
+      "sha256": "6660f134f2dcf2a117dd514c1eb6d4848b522b86667dc41ae4f75b2ba3f5f680",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "a21ea9341d15daaf5c6e3b724f56af218d6fa56b43a8bc91c6b09bb736a8ba29",
+        "sourceBytes": 2064318,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 6918
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder-style Foundry VTT inventory icon. A potion vial of clear gray ash-water surrounded by a rigid stabilizing aura. One centered object or deliberately related set on a dark neutral painterly vignette, crisp silhouette, realistic fantasy materials, restrained dramatic rim light, readable at 64 pixels. No people, hands, labels, letters, text, watermark, frame, border, or UI."
+    },
+    {
+      "path": "static/icons/items/ethermagic/reality-bands.webp",
+      "sha256": "597a977b96aba86f4469f7dd07e9433c77590c418460a165071dbff0bbf133f0",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "6eb5aa1a714b134f35bdd4af7c26642d12cb4dd874e979b3805056af9098d64e",
+        "sourceBytes": 2598083,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 10372
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder-style Foundry VTT inventory icon. Four silver reality rings showing grounded, vanished, fire-and-frost, and bent-space magical variants. One centered object or deliberately related set on a dark neutral painterly vignette, crisp silhouette, realistic fantasy materials, restrained dramatic rim light, readable at 64 pixels. No people, hands, labels, letters, text, watermark, frame, border, or UI."
+    },
+    {
+      "path": "static/icons/items/ethermagic/blast-etherstaff.webp",
+      "sha256": "93fb8a62e72199a5a3d742c331a25e1de37f08252450a1f72f8d647ffc9d6244",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "35b67d57aae096ee5f8b124912a3e6baffc7f11a66ff8de001224e1de207413f",
+        "sourceBytes": 2380756,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 16688
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder-style Foundry VTT inventory icon. A pine etherstaff with dark crystalline splinters and a volatile orange-violet void core. One centered object or deliberately related set on a dark neutral painterly vignette, crisp silhouette, realistic fantasy materials, restrained dramatic rim light, readable at 64 pixels. No people, hands, labels, letters, text, watermark, frame, border, or UI."
+    },
+    {
+      "path": "static/icons/items/ethermagic/mental-focus-etherstaff.webp",
+      "sha256": "7a4b33d0fe3af2c08cc441423554ebbdb38161306ce2ae9346dafef06bce9476",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "3ef3f61d7af6411e92948700b0723ff2ad6efd52e16a81742c105d99ac86b9f5",
+        "sourceBytes": 2759420,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 11056
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder-style Foundry VTT inventory icon. A cinnamon-bark etherstaff with mint-metal rings and concentric focus waves. One centered object or deliberately related set on a dark neutral painterly vignette, crisp silhouette, realistic fantasy materials, restrained dramatic rim light, readable at 64 pixels. No people, hands, labels, letters, text, watermark, frame, border, or UI."
+    },
+    {
+      "path": "static/icons/items/ethermagic/gravity-etherstaff.webp",
+      "sha256": "c5e402d4687617d161fda117dcd8a14475bb696266ec3a87b44c9f03790c5432",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "fa858ce665e703dbc134f49d9b562a6291f4581ed311a1bcd911c8c71f7c75e5",
+        "sourceBytes": 1777421,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 6578
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder-style Foundry VTT inventory icon. A tooth-marked wooden etherstaff with small stones orbiting in a gravity field. One centered object or deliberately related set on a dark neutral painterly vignette, crisp silhouette, realistic fantasy materials, restrained dramatic rim light, readable at 64 pixels. No people, hands, labels, letters, text, watermark, frame, border, or UI."
+    },
+    {
+      "path": "static/icons/items/ethermagic/cosmic-etherstaff.webp",
+      "sha256": "e6234efcd34aeb5c4e1dba14c32f41fdf8d0bc2289260dade8b20ee0ebbe17d3",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "cc9fba255f57b7a7071f154d0f6b30b60ef7c102f005578d292cda8994a034ff",
+        "sourceBytes": 2878598,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 10712
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder-style Foundry VTT inventory icon. A silver and glass etherstaff containing miniature stars, planets, and luminous cosmic fluid. One centered object or deliberately related set on a dark neutral painterly vignette, crisp silhouette, realistic fantasy materials, restrained dramatic rim light, readable at 64 pixels. No people, hands, labels, letters, text, watermark, frame, border, or UI."
+    },
+    {
+      "path": "static/icons/items/ethermagic/endless-congregation-etherstaff.webp",
+      "sha256": "8901af91463de8d07020311217053eab2ce4459b67d824482db4c1062f92d37a",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "a8252bb04ae7b717745db4b41c583fde79f4277cc7349b58d7de9c8ceaf2bee9",
+        "sourceBytes": 1957529,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 78,
+        "method": 6,
+        "bytes": 7330
+      },
+      "prompt": "Use case: stylized-concept. Asset type: square Pathfinder-style Foundry VTT inventory icon. A huge femur etherstaff lit by restrained green-violet necromantic light. One centered object or deliberately related set on a dark neutral painterly vignette, crisp silhouette, realistic fantasy materials, restrained dramatic rim light, readable at 64 pixels. No people, hands, labels, letters, text, watermark, frame, border, or UI."
     }
   ],
   "externalAssets": [
+    {
+      "path": "icons/commodities/materials/powder-black.webp",
+      "kind": "reference",
+      "provider": "foundry",
+      "version": "13.351",
+      "sha256": "50dad50bbf679f86399385685ea3e39709c5b8f2e861b66b55a4ec2108eef40f",
+      "review": "Visually inspected 2026-09-20: a small container of dark powder is suitable for the reviewed 20-dose Black Powder profile. Reference only; no upstream image bytes redistributed. Selected from PF1 11.11 Black powder (dose)."
+    },
     {
       "path": "systems/pf1/icons/items/weapons/longsword.png",
       "kind": "reference",
@@ -368,6 +1149,14 @@
       "version": "13.351",
       "sha256": "155170269ca40c5e15f1eab22a28d80d8650131925adbcbe5e1d44fa13aa537a",
       "review": "Visually inspected 2026-09-20: folded teal neck scarf clearly depicts wearable cloth. Reference only; no upstream image bytes redistributed. Selected from PF1 Content filter scarf."
+    },
+    {
+      "path": "icons/containers/kitchenware/goblet-wood-engraved-brown.webp",
+      "kind": "reference",
+      "provider": "foundry",
+      "version": "13.351",
+      "sha256": "4ceb6147e24c269dacb842db70a48b4722ead9192e8947036a469593c69a2e98",
+      "review": "Visually inspected 2026-09-20: an engraved wooden goblet is suitable for the reviewed Whiskey cup profile. Reference only; no upstream image bytes redistributed. Selected from PF1 Content Whiskey (Cup)."
     }
   ]
 }

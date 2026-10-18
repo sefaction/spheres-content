@@ -16,6 +16,16 @@
       "status": "source-reviewed; pilot UI exercised"
     },
     {
+      "id": "akashic-magic",
+      "version": "1.1.3",
+      "role": "optional",
+      "url": "https://github.com/YastMe/akashic-magic",
+      "contract": "Native veil item type; actor essence and invested-essence tracking; akshessence, akshinvestedEssence, akshmaxCapacity and veilweaving Change targets",
+      "plan": "Test in a separate compatibility world and design a narrow adapter for equipment investment and selected-veil effects. Do not apply actor-wide essence targets to an item that modifies only one veil.",
+      "status": "source-reviewed at 1.1.3; runtime combination untested; adapter tracked by issue #17",
+      "sourceCommit": "0f95fd56e74653f7f8c59c86a4fc5b85e1d169ae"
+    },
+    {
       "id": "pf1-container-contents",
       "version": "0.4.1",
       "role": "optional",

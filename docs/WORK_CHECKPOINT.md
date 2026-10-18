@@ -1,8 +1,252 @@
 ﻿# Work checkpoint
 
-Updated: 2026-09-20 (work began 2026-09-19 local time).
+Updated: 2026-09-21 (work began 2026-09-19 local time).
 
-## Current batch: native weapon and consumable review
+## Current batch: first 100 physical items
+
+- Branch `content/physical-items-batch-1`; issue #15 and draft PR #16:
+  https://github.com/sefaction/spheres-content/issues/15 and
+  https://github.com/sefaction/spheres-content/pull/16.
+- User priority is physical items, feats, base classes and class features, with
+  Guile talents last. Guile remains in scope and in the existing pack/audit data.
+- The broad intake ledger has 940 appearances still reporting an image need;
+  246 canonical current-edition item documents had the same state when this
+  batch was selected. `config/production-batches.json` freezes the first 100 by
+  stable source key, with their IDs, source hashes and canonical paths.
+- For each manifest entry, review source boundaries, provenance, compendium reuse,
+  PF1 type and physical fields, actions/uses, Changes and context notes, links,
+  advanced settings, compatibility and artwork. Preserve stable IDs and record a
+  concrete blocked reason instead of guessing unsupported mechanics.
+- Production cadence changed on 2026-09-21 after the seven small acceptance
+  slices proved too costly. `npm.cmd run plan:production -- --limit=20` now
+  selects unresolved-image entries and groups shared profiles. Authoring uses
+  targeted checks; one clean build, deployment, representative Foundry
+  acceptance, semantic audit, documentation update and CI cycle covers the
+  complete twenty-entry group. Entries with already reviewed art are not
+  reselected simply because later automation remains deferred.
+- The completed twenty-entry plan covers Lightning Rod through Etherstaff of the
+  Modeling Enthusiast: one reuse decision, four planar power components, one
+  structure, one consumable, four related rings and nine etherstaves. The
+  etherstaves share the source-defined ten-charge capacity and recharge rules;
+  their individual manifestations and special actions remain in their complete
+  descriptions pending a compatible Ethermagic action interface.
+- Commit `fed942b697ca785abe7a54723d46b4943c4f30d0` implements that twenty-entry
+  group and the production planner. All 37 tests, reference validation and two
+  deterministic 719-file builds passed; ZIP SHA-256 is
+  `e68a66d7c6472a120a023b0a53a8a270ebf64714c5b9d2dea1efa80f2b889f21`.
+  The scoped deployment verified exact bytes, removed the oldest eligible
+  rollback and retained ten backups without restarting the host or container.
+- Foundry 13.351 / PF1 11.11 acceptance opened Alteration's Bane, Apprentice
+  Blastmage's Etherstaff, Band of Grounded Realities and Lightning Rod. Their
+  generated WebP art, complete descriptions and source links rendered. The
+  potion showed CL 14, evocation, Potion/Oil, Single Use and Drink; the staff
+  showed CL 8, evocation and 10/10 charges; the ring showed the finger slot and
+  CL 12; the rod showed 50 gp and 2 lb. No ASC error appeared. Existing PF1,
+  pf1spheres and unrelated-module Foundry 13 warnings remain. The world is back
+  in Setup and the final semantic audit matched all 6,788 documents.
+- The batch now has 46 reviewed reuse decisions, 46 implemented images and 54
+  unresolved images. Fourteen entries are complete; the others retain explicit
+  deferred automation or compatibility work. The next planner result begins
+  with Fjodor's (Relatively) Faithful Friend and groups two remaining
+  etherstaves with eighteen individual magic-item reviews.
+- The first two production slices review Catnip Hookah, Cider, Fruitcake (loaf
+  of), Map, Tradewind, Meat Pie, Pastry, Sausage and Soup. All eight have
+  original 256 px WebP icons in the readable
+  adventuring-gear folder. Cider and Fruitcake now use pinned single-use PF1
+  consumable profiles; Catnip Hookah has a pinned one-minute action; the map has
+  its source Tiny size and a pinned +5 Survival context note for exploration
+  checks. The hookah's supplement link was completed with the canonical Catnip
+  dose in the fifth slice. The batch audit at this point reported eight
+  implemented images and 92 remaining.
+- Meat Pie, Pastry, Sausage and Soup use pinned native single-use miscellaneous
+  consumable profiles. Their four distinct icons share one consistently styled
+  source contact sheet, with each crop and WebP encoding recorded separately.
+- The third production slice reviews Outfit, Eventide; Sleeping Box; Toe-Bean
+  Tuners; and Whiskey. Eventide is native clothing with a full-round
+  configuration action and a conditional all-saves note for its selected hot or
+  cold weather mode. Its mutually exclusive mode and nonlethal-only resistance
+  remain descriptive rather than an always-on Change. Sleeping Box and Toe-Bean
+  Tuners retain mundane gear profiles and original compact WebP art. Sleeping
+  Box's 1d4 temporary-hit-point benefit is deliberately deferred because PF1
+  11.11 loot actions do not execute from actors and a healing action would model
+  it incorrectly. Whiskey adapts the reviewed PF1 Content 11.4.0 Whiskey (Cup)
+  record into a single-use consumable, retains the wiki's bottle alternative,
+  and references Foundry's inspected core goblet art. The reuse audit now has 22
+  reviewed decisions and zero stale reviews.
+- Twelve entries have now been reviewed. Ten are complete; Catnip Hookah remains
+  pending for its Catnip-dose link and Sleeping Box remains pending for correct
+  temporary-hit-point activation support. The batch reports 12 implemented
+  images and 88 remaining; three new original icons are under the readable
+  `items/adventuring-gear` folder and Whiskey uses reviewed core art.
+- The fourth production slice reviews Blood Funnels, Refinement Charm, Ring of a
+  Thousand Names and Suqur's Gift. All four are native wondrous equipment with
+  correct caster levels, aura schools, slots, prices, complete source text and
+  original 256 px WebP icons under `items/akashic-wondrous-items`. Ring of a
+  Thousand Names has a pinned free-action designation reminder. The other three
+  effects trigger automatically or operate continuously and need no native
+  activation. The reuse ledger now has 26 reviewed decisions and no stale
+  reviews. Foundry UI acceptance also exposed a PF1 11.11 schema limitation:
+  Blood Funnels correctly stores CL 5 and the necromancy school, but PF1 derives
+  a Faint aura label from that caster level and offers no independent strength
+  override for the source's Moderate aura. The published aura remains explicit
+  in the description and the Advanced audit is deferred rather than overstated.
+- Akashic Magic 1.1.3 was source-reviewed at commit
+  `0f95fd56e74653f7f8c59c86a4fc5b85e1d169ae`. It supports Foundry 13, native
+  veils, actor essence and actor-wide Akashic Change targets. Those targets cannot
+  safely automate these four items because their benefits affect one selected
+  veil or essence invested in the equipment itself. Static Changes would also
+  misrepresent Suqur's Gift's scaled flight. The exact rules remain descriptive,
+  and compatibility/automation are deferred to issue #17 pending a separate
+  compatibility-world test and adapter design.
+- Sixteen entries have now been reviewed. Ten are complete; the four Akashic
+  items remain pending for the compatibility work above, alongside Catnip Hookah
+  and Sleeping Box. The batch reports 16 implemented images and 84 remaining.
+- The fifth production slice reviews Arcanis Venenum, Black Powder (20 doses),
+  Catnip and Ethanol. Arcanis is a native single-use poison with a pinned
+  Fortitude DC 17 action; its recurring rolled caster-level drain remains
+  descriptive because neither PF1 nor pf1spheres provides one safe actor-wide
+  Change for spells and all spheres. Catnip is a native single-use drug with a
+  pinned Fortitude DC 10 action; its ten-minute bonuses and later 1d3-hour fatigue
+  remain descriptive pending a two-stage buff design. Black Powder uses 20 native
+  charges at 10 gp each and adapts PF1 11.11's reviewed material identity and core
+  art. Ethanol uses a native single-use fuel action without inventing a duration.
+- PF1 11.11 source at commit `418761d2e16a6037c0156bb4a241f7cea5a2986d`
+  confirms that supplement links on unowned compendium documents import the
+  supplement and create the actor-side child relationship. Catnip Hookah now
+  links to the canonical Catnip UUID, and catalog validation rejects unresolved
+  module supplement UUIDs or name drift. Twenty entries are reviewed and thirteen
+  are complete. Sleeping Box, Arcanis Venenum, Catnip and the four Akashic items
+  retain explicit deferred work. The batch reports 20 implemented images and 80
+  remaining; the reuse ledger contains 30 decisions.
+- Fifth-slice implementation commit `51bddd0c8e12ebc408158d74b660169aefcc64b1`
+  passed the clean local gate with all 33 tests and two identical 700-file
+  builds. Runtime acceptance then exposed PF1's consumable price calculation:
+  a base price of 200 gp plus twenty charges worth 10 gp each displayed as
+  400 gp. Correction commit `2c7717f2e12de3f37c7e07834b38eb924138d5a1`
+  leaves the base price at zero so the twenty charges produce the published
+  200 gp total; a regression test pins that calculation.
+- The exact correction commit passed the full clean gate, deployed atomically,
+  verified installed bytes, pruned one oldest eligible module backup and
+  retained ten. Foundry 13.351 / PF1 11.11 displayed Black Powder at 200 gp,
+  20/20 charges and 10 gp per charge. Dragging it to the acceptance actor
+  preserved the profile; using one dose reduced it to 19/20 and lowered actor
+  inventory value by 10 gp. Catnip Hookah imported its linked Catnip child, and
+  Catnip's Single Use action reduced the actor copy to quantity zero. The only
+  browser error was a harmless login attempt before selecting Gamemaster;
+  scoped server logs contain the five expected ASC pack connections and no
+  warning or error. The world is back in Setup, and the final semantic audit
+  matched all 6,788 deployed documents to canonical sources at route `/auth`.
+- The sixth production slice reviews Fish Liver Grog, Kuoki and Liquid Life.
+  All three use native single-use consumable profiles with pinned standard-action
+  Drink actions and original 256 px WebP art under `items/alchemical-items`.
+  Fish Liver Grog is a miscellaneous remedy; Kuoki and Liquid Life are drugs.
+  Their reviewed action notes preserve the delayed base-Life-sphere restore and
+  2d6-round nausea, one-hour Spirit Sense, and 3d6 temporary hit points capped
+  by current damage plus fatigue removal and one-hour expiry, respectively.
+  Static Changes would misrepresent these timed, capped and stateful effects, so
+  their automation/compatibility audits remain explicitly deferred. No permanent
+  talent or ability is linked to an actor for a temporary consumable effect.
+- Twenty-three batch entries are reviewed and thirteen are complete. These three
+  remain pending only for the deferred automation above. The batch now has 23
+  implemented images and 77 remaining. The physical reuse report records 32
+  current reviewed decisions, one unrelated stale decision and one unavailable
+  provider pack; none of these three items had an exact or normalized candidate.
+- Implementation commit `537c5265dc678dcf28af29bf635737695572b5ff`
+  passed formatting, all 33 tests, source/reference validation and two identical
+  703-file clean builds; ZIP SHA-256 is
+  `2f798b9894da2cbd2357ba80bde7062381387f8d7cc7ee19d742b6e3a5c70d69`.
+  Atomic deployment verified exact installed bytes, pruned the oldest eligible
+  module backup and retained ten without a restart. Foundry 13.351 / PF1 11.11
+  opened all three sheets with their correct art, prices, complete descriptions,
+  subtypes, Drink actions and Single Use setting. Browser-controlled document
+  dragging again produced no transfer, so no new actor-use result is claimed.
+  The scoped server log shows all five ASC pack connections and no matching
+  warning, error or exception. The world is back in Setup and the final semantic
+  audit matched all 6,788 installed documents to canonical sources at `/auth`.
+- The seventh production slice reviews Brimstone Briquette, Inversion Prism and
+  Iridium Jellenate. Each is native zero-weight Gear with its published
+  single-dose price, complete source text and original 256 px WebP art under
+  `items/equipment`. Their descriptions preserve both consumable-dose and
+  reusable-focus quantities: 10 brimstone briquettes, 30 inversion prisms, or
+  10 doses of iridium jellenate form the respective focus. A destructive
+  Single Use action would incorrectly consume that reusable focus, so these
+  entries deliberately have no activation or native uses profile.
+- Their bonuses qualify individual effects: ongoing catch-fire damage and the
+  extinguish DC, the save DC of dark/light effects, or the hardness of objects
+  created by an effect. Static actor-wide Changes or context notes would apply
+  outside those boundaries. Changes, context notes, usage and compatibility
+  therefore remain explicitly deferred for a future qualifying-effect adapter;
+  the exact rules are retained in each description.
+- Twenty-six batch entries are reviewed and thirteen are complete. The batch
+  now has 26 implemented images and 74 remaining. The physical reuse report
+  records 35 current reviewed decisions, one unrelated stale decision and one
+  unavailable provider pack; none of these three items had an exact or
+  normalized candidate.
+- Implementation commit `b31886def592fc2e67bd4677928acde6b9e146f4`
+  passed formatting, all 34 tests, source/reference validation and two identical
+  706-file clean builds; ZIP SHA-256 is
+  `159252c71aabdd66a418163e0cec2be0b04978f58630a25dda1dab2f1447908f`.
+  Atomic deployment verified exact installed bytes, pruned the oldest eligible
+  module backup and retained ten without a restart. Foundry 13.351 / PF1 11.11
+  opened all three sheets with their correct original art, Gear subtype, zero
+  weight, prices, complete descriptions and source links. The empty Changes
+  view was confirmed on Iridium Jellenate. The latest server launch connected
+  all five ASC packs with no warning, error or exception in the acceptance
+  window. The world is back in Setup and the final semantic audit matched all
+  6,788 installed documents to canonical sources at `/auth`.
+- Clean correction commit `dd68c2885ccc782a9694e266f1453a61fb7ec64c`
+  passed formatting, all 32 tests, source/reference validation and two identical
+  697-file builds. Atomic deployment verified exact installed bytes, pruned the
+  oldest eligible module backup and retained ten. Pre-load package hashes and
+  the final semantic audit passed; all 6,788 deployed documents match canonical
+  sources at route `/auth`.
+- Foundry 13.351 / PF1 11.11 acceptance opened all four Akashic sheets. Their
+  images, native profiles, physical fields, descriptions and aura data rendered;
+  Ring of a Thousand Names exposes its pinned free action. Blood Funnels visibly
+  demonstrates the documented derived-aura limitation while retaining the source
+  wording. No module error occurred. One harmless rejected join before selecting
+  Gamemaster is the only captured browser error. The dedicated world is back in
+  Setup. The first semantic attempt hit an intermittent Foundry CLI iterator-close
+  error on a local Classes snapshot; that same snapshot then extracted all 117
+  documents, and a fresh complete semantic audit passed.
+- Commit `affb2f575e683121e31259ee02e21eac9f3b978d` passed all 31 tests,
+  source/reference validation and two identical 693-file clean builds. Atomic
+  deployment verified installed bytes, removed the oldest eligible backup and
+  retained ten. The remote semantic audit matched all 6,788 documents to the
+  canonical sources at route `/auth`.
+- Foundry 13.351 / PF1 11.11 UI acceptance opened all four third-slice sheets.
+  Their types, physical fields, complete descriptions and three module WebPs plus
+  the core goblet reference rendered correctly. Eventide exposes its pinned
+  Change Weather Configuration action and all-saving-throws context note;
+  Whiskey exposes its pinned Use action and single-use miscellaneous consumable
+  fields. Browser errors are empty. Existing PF1 and pf1spheres v13 deprecation
+  warnings remain. The dedicated world is back in Setup. Actor drag/use checks
+  for the grouped food and conditional-gear slices remain pending.
+- The production manifest allows reviewed PF1 type corrections while continuing
+  to pin identity, source key, path, edition and description hash. Batch-aware
+  audit queries and context-note hash validation have tests.
+- Clean commit `a4d731148993ecef2d9ff043927f4e444bcbba80` passed formatting,
+  31 tests, reference validation, deterministic pack compilation and the local
+  release gate, then deployed through the atomic SMB staging workflow. One old
+  backup was pruned after verification and ten remain. Exact package hashes
+  passed before world launch; the post-load semantic audit matched all 6,788
+  canonical documents and ignored only expected LevelDB housekeeping changes.
+- Commit `45c58743afaf88273d4e133ea058379b41538df0` adds the four
+  highland-food consumables. The clean gate passed all 31 tests and two
+  deterministic 690-file builds. Atomic deployment verified exact installed
+  bytes, pruned one oldest backup after replacement and retained ten. The remote
+  semantic audit again matched all 6,788 canonical documents at route `/auth`.
+  UI and actor-use checks for this second slice remain pending and can be grouped
+  with the next conditional-gear slice.
+- Foundry 13.351 / PF1 11.11 UI acceptance opened the four entries and confirmed
+  all WebP paths, Catnip Hookah's one-minute action, Cider's miscellaneous
+  consumable profile, and the map's +5 Survival context note with an empty
+  Changes list. There were no module-specific console errors or warnings. One
+  general error was the reviewer's harmless first login attempt before selecting
+  the Gamemaster user. Actor drag/use checks for Cider and Fruitcake remain for a
+  later slice. The dedicated world is back in Setup.
+
+## Prior completed batch: native weapon and consumable review
 
 - PRs #2, #4, #9 and #11 were merged into `main` with the user's explicit
   approval. Their resolved issues are closed; issue #3 remains the broad catalog
@@ -12,9 +256,10 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   PF1 11.11's reviewed attack action, weapon categories and system artwork plus
   the wiki's CL 10 and Illusion aura. Its +3 Illusion implement role now uses
   pf1spheres 0.9.0's `sphereclIllusion` target with PF1's uncapped `enh`
-  modifier; the stable Change ID and array hash are pinned. Glamered remains descriptive.
-  Trail Rations is native food with PF1's single-use action and
-  system artwork while retaining wiki text, price and weight.
+  modifier; the stable Change ID and array hash are pinned. Glamered remains
+  descriptive. Trail Rations is an activatable miscellaneous consumable with
+  PF1's single-use action and system artwork while retaining wiki text, price and
+  weight.
 - Exact source UUIDs/hashes, adaptation decisions, output hashes and action-array
   hashes are pinned. The two PF1 images were visually inspected and are referenced
   without redistributing bytes. The refreshed physical report has 963 entries,
@@ -36,17 +281,16 @@ Updated: 2026-09-20 (work began 2026-09-19 local time).
   action. A three-ration actor stack used one item, remained present at quantity
   two, and produced the expected chat card. Existing actor-owned copies are not
   migrated.
-- Draft PR #14 is open against `main`:
-  https://github.com/sefaction/spheres-content/pull/14. The dedicated world is
+- PR #14 merged into `main` with the user's explicit approval and issue #13
+  closed: https://github.com/sefaction/spheres-content/pull/14. The dedicated world is
   back in Setup. Final semantic audit matched all 6,788
   documents, non-pack receipt bytes and referenced images at the deployed commit.
   Browser acceptance recorded zero errors; 113 warnings are existing Foundry 13
   deprecations from PF1/pf1spheres. The current server log contains zero errors
   and only two earlier rejected-login warnings, with no new acceptance warning.
-  No release, world migration or container restart is included. Evidence commit
-  `dcc8f8d4885f8b145b7875a30b2f1b8f7488aa0e` and the refreshed PR #14/issue #13
-  text are pushed. CI is pending on the new head. The next safe step is to review
-  its results and leave the draft PR for the user's individual merge decision.
+  No release, world migration or container restart is included. Both PR checks
+  and both post-merge `main` checks passed at merge commit
+  `370584444db77a83f96e0b8f48741b6260a943bd`.
 
 ## Prior completed batch: systematic wiki intake
 

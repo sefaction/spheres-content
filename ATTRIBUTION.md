@@ -65,12 +65,12 @@ audit status; their image bytes are not redistributed.
 
 ## Reviewed mundane gear (alpha.5)
 
-Adventurer's Sash, Filter Scarf and Parasol, Umbrella adapt reviewed records from
-Pathfinder 1e Content 11.4.0, credited above, with wiki descriptions retained.
+Adventurer's Sash, Filter Scarf, Parasol, Umbrella and Whiskey adapt reviewed
+records from Pathfinder 1e Content 11.4.0, credited above, with wiki descriptions retained.
 Original rules and credited authors appear in Adventurer's Armory 2, Adventurer's
 Guide and Ultimate Equipment; their notices are in the retained wiki OGL list.
 OGL rules and GPL record-format notices continue to apply. Corresponding adapted
 JSON ships in `sources/items/`. Changes include native container/clothing profiles,
-normalized PF1 fields, original sash/umbrella artwork and a reviewed core scarf
-image reference. No upstream image bytes or program code are copied. The audit
+normalized PF1 fields, original sash/umbrella artwork and reviewed core scarf and
+goblet image references. No upstream image bytes or program code are copied. The audit
 and exact source UUIDs/versions/hashes are in `config/physical-item-reviews.json`.

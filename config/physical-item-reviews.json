@@ -147,9 +147,9 @@
   "wiki:equipment:current:item:lightning-rod": {
     "pageSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
     "descriptionSha256": "33320d942f30b18465b845697fa87b3d325f66dc9392ddd339e6b6467bb415bb",
-    "reviewed": "2026-09-20",
-    "decision": "reject-matches",
-    "reason": "Both matches are supernatural class/talent powers, not the physical building lightning conductor.",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "The exact-name matches are unrelated supernatural abilities; retain the physical building conductor as original gear with generated art.",
     "candidates": [
       {
         "name": "Lightning Rod",
@@ -192,7 +192,13 @@
         "changes": 0,
         "contextNotes": 0
       }
-    ]
+    ],
+    "output": {
+      "file": "src/packs/items/equipment/lightning-rod-25df7236c113a21d.json",
+      "id": "25df7236c113a21d",
+      "type": "loot",
+      "sha256": "995497b5ee6ee04b7e3d6b06c9dc397a8a03fde215bbb2ca6464a32ce71abb6f"
+    }
   },
   "wiki:implements:ultimate:item:hidden-blade": {
     "pageSha256": "f43beedae4d13c401a55e4c9a04c8211105875d4d83394920f539ca12edf879b",
@@ -456,6 +462,582 @@
       "type": "consumable",
       "sha256": "c4892711a26892b4c9c2ec972108925f438ac97130b26c64f906f5b3f415d1fc",
       "sourceUuid": "Compendium.pf1.items.Item.manvtbznrwjmnrua"
+    }
+  },
+  "wiki:adventuring-gear:current:item:catnip-hookah": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "d0644e73735b1ed8deb29da1622d8d8520e4d5414faf241e0926cc3dbe8f79b9",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Keep the wiki gear profile, add its one-minute action, and use original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/adventuring-gear/catnip-hookah-4c8fdb68ad45fb2f.json",
+      "id": "4c8fdb68ad45fb2f",
+      "type": "loot",
+      "sha256": "47b70471a590993aae8b680a26b91f79d52f997b351ceeffc4fca2a5c9f3c486"
+    }
+  },
+  "wiki:adventuring-gear:current:item:cider": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "a481b6e9bec8269b1627152a00e1c3167c25c9e8a118f7447cafa8668d87de36",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Specialty ciders are different products; use a native single-use mug profile and original generated art.",
+    "candidates": []
+  },
+  "wiki:adventuring-gear:current:item:fruitcake-loaf-of": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "fce3bc919b188dc541508a212504fc130f78e4ef2429faedaafc9c5f0cffbfd9",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Use a native single-use food profile and original generated art.",
+    "candidates": []
+  },
+  "wiki:adventuring-gear:current:item:map-tradewind": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "bbb46e4451d4a33575e3bc11dbe7e65dd9faff1c7e38429167f2ba210e115c75",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Generic maps do not include the Tradewind exploration benefit; keep the wiki profile and original generated art.",
+    "candidates": []
+  },
+  "wiki:adventuring-gear:current:item:meat-pie": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "5bc470daced6449d92e7c8c4d0bb5133ca686b68c337fd26b65758157a066db1",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Use a native single-use meal profile and original generated art.",
+    "candidates": []
+  },
+  "wiki:adventuring-gear:current:item:pastry": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "ee5f5c6921e214d4ebb16ac988de2ba0ca7604fdf91b87dae618b9edc07512d1",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Use a native single-use food profile and original generated art.",
+    "candidates": []
+  },
+  "wiki:adventuring-gear:current:item:sausage": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "aeaf3d38cb15dad34c3ee37c69d621c06d531b575fed48b2f1c2df1ef57795c7",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Use a native single-use food profile and original generated art.",
+    "candidates": []
+  },
+  "wiki:adventuring-gear:current:item:soup": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "ba19f2ee704d04066be0f83424ef0e1b356d13c11bbf1b833ad26880cb377747",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Use a native single-use meal profile and original generated art.",
+    "candidates": []
+  },
+  "wiki:adventuring-gear:current:item:outfit-eventide": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "977b63ddfbead2101f949d405c590f4c2898483ffae1b6daf80d2249dbb28364",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Use the reviewed PF1 clothing schema, conditional save note, configuration action and original generated art.",
+    "candidates": []
+  },
+  "wiki:adventuring-gear:current:item:sleeping-box": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "bcfc66eb5a2f91bf4c03344792008921191f028089b8da63c2c9afe7c8830c3e",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Generic bedrolls are materially different; retain mundane gear fields and original generated art while deferring a correct temporary-hit-point activation.",
+    "candidates": []
+  },
+  "wiki:adventuring-gear:current:item:toe-bean-tuners": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "fcd726c4e518588558041469637e3999d33df1d0a24e2d08468e8a7b379a8657",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain mundane gear fields and complete descriptive rules with original generated art.",
+    "candidates": []
+  },
+  "wiki:adventuring-gear:current:item:whiskey": {
+    "pageSha256": "25e8388e67ba034bf1a4a3311293235a6f8d8e29cafe5ea10f74a9e85a31f7e0",
+    "descriptionSha256": "27e7c6f6458e3edb8730704e1fa56ed4fc2780d7a0068bfd66ff7bc165a8fe39",
+    "reviewed": "2026-09-20",
+    "decision": "adapt",
+    "reason": "Adapt PF1 Content's exact Whiskey (Cup) price, weight, consumable profile and inspected core goblet image; retain the wiki's complete cup and bottle text and add the tested single-use action.",
+    "candidates": [],
+    "adaptationSource": {
+      "uuid": "Compendium.pf-content.pf-goods-services.Item.JDi59JvjzgEsYIR5",
+      "version": "11.4.0",
+      "sha256": "eaf042506784e03b9f21870e0266b576f59e7ac1ffa0909fc017abedc6b3f0de",
+      "decision": "adapt"
+    },
+    "output": {
+      "file": "src/packs/items/adventuring-gear/whiskey-4a3c09e5d3d105a0.json",
+      "id": "4a3c09e5d3d105a0",
+      "type": "consumable",
+      "sha256": "4dde3edd9e659bcc80de1b141d7c7366d8fbd14a45ed4306ae182efa0de6360c",
+      "sourceUuid": "Compendium.pf-content.pf-goods-services.Item.JDi59JvjzgEsYIR5"
+    }
+  },
+  "wiki:akashic-wondrous-items:current:item:blood-funnels": {
+    "pageSha256": "d3d836880f5fe3bd491b8b1eb9eaa95c19ac09e6aaa8114750c950a1e7fa96c4",
+    "descriptionSha256": "bda8ab8c44a54b4698b5344e8ee18b741849752c69598038e49853dc709c7a0b",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain the slotless wondrous-item profile and exact triggered Blood-veil rules with original generated art.",
+    "candidates": []
+  },
+  "wiki:akashic-wondrous-items:current:item:refinement-charm": {
+    "pageSha256": "d3d836880f5fe3bd491b8b1eb9eaa95c19ac09e6aaa8114750c950a1e7fa96c4",
+    "descriptionSha256": "329bdc4fd1ca45b473ed006c1d85c00eddea80123f87fd7b96fa69ed5abb3465",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain the stackable slotless charm and title-range rules with original generated art.",
+    "candidates": []
+  },
+  "wiki:akashic-wondrous-items:current:item:ring-of-a-thousand-names": {
+    "pageSha256": "d3d836880f5fe3bd491b8b1eb9eaa95c19ac09e6aaa8114750c950a1e7fa96c4",
+    "descriptionSha256": "b4e83b7204c7568f0cb8b82b5eef748bacc44cfb80230d88457ee8c4905100cb",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain the least ring profile, all three strengths, and a native free-action designation reminder with original generated art.",
+    "candidates": []
+  },
+  "wiki:akashic-wondrous-items:current:item:suqurs-gift": {
+    "pageSha256": "d3d836880f5fe3bd491b8b1eb9eaa95c19ac09e6aaa8114750c950a1e7fa96c4",
+    "descriptionSha256": "04b4121fe93e3cf0fde79b2b306f1b95cbf28c52f57972773920f958aeb91add",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain the gifted-owner restriction, automatic feather fall, and essence-scaled flight rules with original generated art.",
+    "candidates": []
+  },
+  "wiki:alchemical-items:current:item:arcanis-venenum": {
+    "pageSha256": "d6829196fa853eb27d6cbeb4f5c15e5cc5af7f2c6855cf328dc3f5154b24af9c",
+    "descriptionSha256": "64611d7de3740f2fde8c7f951430c26a0a06cc48b9f12ade6873d3e92f9e07b7",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain the ingested poison profile, recurring caster-level drain and recovery rules with a native save action and original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/alchemical-items/arcanis-venenum-22090041e723f52f.json",
+      "id": "22090041e723f52f",
+      "type": "consumable",
+      "sha256": "78c6bfafc229789c097230d17be07e3018311415c68c47425b310f70ab0d7b75"
+    }
+  },
+  "wiki:alchemical-items:current:item:black-powder-20-doses": {
+    "pageSha256": "d6829196fa853eb27d6cbeb4f5c15e5cc5af7f2c6855cf328dc3f5154b24af9c",
+    "descriptionSha256": "689dcfe8e205f619749bdc97f25f4816d90c325e81d43e178fbdcad0b77cfc7f",
+    "reviewed": "2026-09-20",
+    "decision": "adapt",
+    "reason": "Adapt PF1 11.11's reviewed Black powder (dose) material record and inspected core art to the wiki's 20-dose, 200 gp, one-pound batch with native charges and the complete recipe text. PF1 derives the total price from the 20 charges at 10 gp each, so the separate base price remains zero.",
+    "candidates": [
+      {
+        "name": "Black powder (dose)",
+        "uuid": "Compendium.pf1.items.Item.trucdntfxjdukrox",
+        "provider": "pf1",
+        "version": "11.11",
+        "sha256": "efe46f11408a4913c3fff8999ed62f6f6d8d0dbc678a79b8ba5c8ade1a00bfc3",
+        "type": "loot",
+        "decision": "adapt",
+        "reason": "Reuse the native material identity and suitable core artwork while preserving the wiki's batch quantity, weight, price and alchemical recipe.",
+        "descriptionFields": {
+          "value": 555,
+          "instructions": 0,
+          "unidentified": 0
+        },
+        "price": 10,
+        "weight": 0,
+        "img": "icons/commodities/materials/powder-black.webp",
+        "actions": 0,
+        "changes": 0,
+        "contextNotes": 0
+      }
+    ],
+    "output": {
+      "file": "src/packs/items/alchemical-items/black-powder-20-doses-333c4e288cf41817.json",
+      "id": "333c4e288cf41817",
+      "type": "consumable",
+      "sha256": "61923795995666d30d0940a3ba078440a1c79fe54bca10b0f7ba20e8307c0957",
+      "sourceUuid": "Compendium.pf1.items.Item.trucdntfxjdukrox"
+    }
+  },
+  "wiki:alchemical-items:current:item:catnip": {
+    "pageSha256": "d6829196fa853eb27d6cbeb4f5c15e5cc5af7f2c6855cf328dc3f5154b24af9c",
+    "descriptionSha256": "cfbdaf719fc7e51eaedd234a9d25be87060fdf7bbf03035e92dcddaf35a3ea8a",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain the drug profile, addiction save, timed bonuses, delayed fatigue and refining rules with a native action and original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/alchemical-items/catnip-0b214a71536b15c7.json",
+      "id": "0b214a71536b15c7",
+      "type": "consumable",
+      "sha256": "e9120bc4c4eb1f5d57c1e5a2ecb6608efec8511735cc9163a6c9e319dbeabca1"
+    }
+  },
+  "wiki:alchemical-items:current:item:ethanol": {
+    "pageSha256": "d6829196fa853eb27d6cbeb4f5c15e5cc5af7f2c6855cf328dc3f5154b24af9c",
+    "descriptionSha256": "ef9d3e9dfc42f69b113abfe9d7cce5cd7e2138a1a4b3975ce8dcf266e6a60d47",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain the propellant, lantern-fuel and recipe text with native single-use handling and original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/alchemical-items/ethanol-12f207bbdd808dd8.json",
+      "id": "12f207bbdd808dd8",
+      "type": "consumable",
+      "sha256": "81bc294ef6b73e78fd5c42b5ac173363b01a058112801896d5a7063197642b56"
+    }
+  },
+  "wiki:alchemical-items:current:item:fish-liver-grog": {
+    "pageSha256": "d6829196fa853eb27d6cbeb4f5c15e5cc5af7f2c6855cf328dc3f5154b24af9c",
+    "descriptionSha256": "2ad8554138dc352129b285c6947c2dca5bc9c3356ce1e3ad4413c974975e4478",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain the delayed Life restore and nausea sequence with a native single-use action and original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/alchemical-items/fish-liver-grog-00090abdbf1b30de.json",
+      "id": "00090abdbf1b30de",
+      "type": "consumable",
+      "sha256": "f610df3314c3b6e879269d18a15c6b74049b6d4458767b6d61968bdb5fcc8a45"
+    }
+  },
+  "wiki:alchemical-items:current:item:kuoki": {
+    "pageSha256": "d6829196fa853eb27d6cbeb4f5c15e5cc5af7f2c6855cf328dc3f5154b24af9c",
+    "descriptionSha256": "5843fc261c6c0014772d45e48ae77c15a60899ff3f58aef457435f265fdf1f84",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain the open-air glow and timed Spirit Sense effect with a native single-use drug action and original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/alchemical-items/kuoki-b40afe6dad77c9e9.json",
+      "id": "b40afe6dad77c9e9",
+      "type": "consumable",
+      "sha256": "e6e63fbf16342397cc842c3873f6c41f0afa46afce68b5050a91869ba4340e17"
+    }
+  },
+  "wiki:alchemical-items:current:item:liquid-life": {
+    "pageSha256": "d6829196fa853eb27d6cbeb4f5c15e5cc5af7f2c6855cf328dc3f5154b24af9c",
+    "descriptionSha256": "21324f21042e066484c8b2655177e819b54b44b3f9a776ba7897fd96df45f847",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain the capped temporary hit points, fatigue removal and duration with a native single-use drug action and original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/alchemical-items/liquid-life-16cf0db697ea710d.json",
+      "id": "16cf0db697ea710d",
+      "type": "consumable",
+      "sha256": "b37132f4a92eb252955a2deccf5666ca48859ded08c7b85e344a8d5002c0656b"
+    }
+  },
+  "wiki:equipment:current:item:brimstone-briquette": {
+    "pageSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
+    "descriptionSha256": "268e1e125c7fcb288bfb9ea19e3353101c4a8bedcc2fac20f75e6b75d53cd5d2",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain the dose/focus alternatives and conditional burning bonuses as native physical gear with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/equipment/brimstone-briquette-76bd3b56ee90b98f.json",
+      "id": "76bd3b56ee90b98f",
+      "type": "loot",
+      "sha256": "aa3eefc373376d58cff9e31d5f3fa6388c15c9ef83e4285bdf655c12b718e138"
+    }
+  },
+  "wiki:equipment:current:item:inversion-prism": {
+    "pageSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
+    "descriptionSha256": "2c30ff3208352f462daab5ccd5cfd8ad1be74876ad4e65d2d4a10ef92ee8708c",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain the dose/focus alternatives and descriptor-limited saving-throw DC bonus as native physical gear with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/equipment/inversion-prism-95cc514580cfdf9c.json",
+      "id": "95cc514580cfdf9c",
+      "type": "loot",
+      "sha256": "ddda97d23a7145b3e798bce68e4e9ae2b78f6e8c1dc2544058e4df7c3ed7f8b8"
+    }
+  },
+  "wiki:equipment:current:item:iridium-jellenate": {
+    "pageSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
+    "descriptionSha256": "674f8aa23fef566f4f81818b768d65e36b0b4f8850297294921a7fd95993bd7f",
+    "reviewed": "2026-09-20",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain the dose/focus alternatives and created-object hardness bonus as native physical gear with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/equipment/iridium-jellenate-7312577d2f2246b4.json",
+      "id": "7312577d2f2246b4",
+      "type": "loot",
+      "sha256": "b797e13c28e42d6240e14ef62a777b19eb9aeab1f187581cbf6f4a272077fd5c"
+    }
+  },
+  "wiki:equipment:current:item:living-mossrock": {
+    "pageSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
+    "descriptionSha256": "21e79074ed1c7dcd567bb0802a3bfb3c51b28f9564d4bad29f134b83b4a5ba74",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Living Mossrock as a reviewed native loot document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/equipment/living-mossrock-41ec42ec26106d0a.json",
+      "id": "41ec42ec26106d0a",
+      "type": "loot",
+      "sha256": "e2f5c5948f34d489ed38d21665b7c68fd9bd2d41015a74d7fd384eeb9c30e3be"
+    }
+  },
+  "wiki:equipment:current:item:lodestone-geode": {
+    "pageSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
+    "descriptionSha256": "72658feba6c23076faefb42f60bdfc52056db91ebc0f878f37123db461bf3764",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Lodestone Geode as a reviewed native loot document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/equipment/lodestone-geode-70df25670ce3e77e.json",
+      "id": "70df25670ce3e77e",
+      "type": "loot",
+      "sha256": "781ff52355a7df66b39a7ed551d63031c7aaf058a2f5d615d754bda9a54cf1a4"
+    }
+  },
+  "wiki:equipment:current:item:mother-pearlite": {
+    "pageSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
+    "descriptionSha256": "7d404bb60699eea94b428ca10c5d1f234153d7b15eddc09732d9479266b72a24",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Mother Pearlite as a reviewed native loot document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/equipment/mother-pearlite-551fc61ea1cc5eaa.json",
+      "id": "551fc61ea1cc5eaa",
+      "type": "loot",
+      "sha256": "41224d25c7dd35d069fc85bdcb950271d9ce48ad3e12fcc44ce97b518923e52c"
+    }
+  },
+  "wiki:equipment:current:item:storm-shelter": {
+    "pageSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
+    "descriptionSha256": "b8121d14ee4286123795fc07a2d03c46167ff5af6066d41d921520d4d8756ab8",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Storm Shelter as a reviewed native loot document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/equipment/storm-shelter-89bc8594a17835d1.json",
+      "id": "89bc8594a17835d1",
+      "type": "loot",
+      "sha256": "7d49bb4a6e972521891521043eeb79e70e599a30f3aac9b88d03a2529e8347fc"
+    }
+  },
+  "wiki:equipment:current:item:warding-agate": {
+    "pageSha256": "5bc5c3c51846209f7662d8b19df474c218a32da941db89db0682abfaaa145290",
+    "descriptionSha256": "fe70b601809936b87f1a076bf06bde295bfa8b485f80b0c93ec7e5e7b8c3cc90",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Warding Agate as a reviewed native loot document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/equipment/warding-agate-9761efad036222ed.json",
+      "id": "9761efad036222ed",
+      "type": "loot",
+      "sha256": "9d93511b5d02936366e1fc43f0f2a04a7fc1ab7edfbc62e9f4a13ee8893b3275"
+    }
+  },
+  "wiki:ethermagic-items:current:item:alterations-bane": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "4826f34908db39512115438022d399b0642c37c0a83df3ffa95952d7f95b2aad",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Alteration’s Bane as a reviewed native consumable document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/alterations-bane-8220f70cc4c50b24.json",
+      "id": "8220f70cc4c50b24",
+      "type": "consumable",
+      "sha256": "c85bb94b2b5d2ef7bca0b4e1473c0e71e638e252c6a907d6cd83d1267574ebdf"
+    }
+  },
+  "wiki:ethermagic-items:current:item:band-of-grounded-realities": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "fcbdcdd00f526a7982395f75aae8e2cf31d5829ee7d24a0b7f0b3450cb47d087",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Band of Grounded Realities as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/band-of-grounded-realities-a8fe0a1b8657d900.json",
+      "id": "a8fe0a1b8657d900",
+      "type": "equipment",
+      "sha256": "f17247dba327df089a0a3d4cd904d5dabe3535629b621af9587ebd75093fdc77"
+    }
+  },
+  "wiki:ethermagic-items:current:item:band-of-overlapping-realities": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "18a8454b528850f1638dc0f5c5f8df01974363def157ab8bbd7862db88212d0f",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Band of Overlapping Realities as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/band-of-overlapping-realities-44f94bdd0322d5a9.json",
+      "id": "44f94bdd0322d5a9",
+      "type": "equipment",
+      "sha256": "e680891b30ac5e581125f90ba70ce81eba1c1d169b2d367cfee5acb12333a55f"
+    }
+  },
+  "wiki:ethermagic-items:current:item:band-of-shifting-realities": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "3cc88612999f10771bb046f5681b7f5232dc5af71cd133631c4bd1b008283327",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Band of Shifting Realities as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/band-of-shifting-realities-9186a4201e9f8403.json",
+      "id": "9186a4201e9f8403",
+      "type": "equipment",
+      "sha256": "9e702bf2746941db9f68385b6bee27efae8c06a479e7978000eba6d73d2b9bf9"
+    }
+  },
+  "wiki:ethermagic-items:current:item:band-of-transient-realities": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "58a153b4deb84ae9231f41feceefef68e6ed92a9b1481ea418517868737ee482",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Band of Transient Realities as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/band-of-transient-realities-a4394e9767b374a2.json",
+      "id": "a4394e9767b374a2",
+      "type": "equipment",
+      "sha256": "42ed181154b3f04406eaa37bb86952f600ac031c3e84c85c614c2449beaee6d7"
+    }
+  },
+  "wiki:ethermagic-items:current:item:apprentice-blastmages-etherstaff": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "89207ead09fa40a588c3369f6d934c2335c6245f53e0cf7878fc8ec0f77d8ea8",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Apprentice Blastmage’s Etherstaff as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/apprentice-blastmages-etherstaff-316e2b2174c6424c.json",
+      "id": "316e2b2174c6424c",
+      "type": "equipment",
+      "sha256": "e13417a909b7670c5fa999b652583064d26976174131de2b08351aa1630e6b2f"
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-armageddons-form": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "6bbcd551cfdd3703b24dddf987e01a6c7879cb716a9fac5c2914635b79770513",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Etherstaff of Armageddon’s Form as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/etherstaff-of-armageddons-form-2796be283c49d8d3.json",
+      "id": "2796be283c49d8d3",
+      "type": "equipment",
+      "sha256": "663707b4e825b80ff2bd56397abab497991e1d17269dfedf9d4ba30109963b5b"
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-mental-fixation": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "d53a9718ebdc0201f4c4e66061d05d0f60f888e3bdf921d48fbc84b706aa64e9",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Etherstaff of Mental Fixation as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/etherstaff-of-mental-fixation-083124ed838398cd.json",
+      "id": "083124ed838398cd",
+      "type": "equipment",
+      "sha256": "30b387b47dc5e79b291b34cd0787a7e610a3addf8090205d39b0aba7d0619b6a"
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-atomic-edge": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "1426ee1585017634cda6a9037a7233900aa40de689847988dc23776d2acb527e",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Etherstaff of the Atomic Edge as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/etherstaff-of-the-atomic-edge-ca803d0f0db1a59c.json",
+      "id": "ca803d0f0db1a59c",
+      "type": "equipment",
+      "sha256": "02dcf9132a9e41de65d3c78331f5d5ce63ef3fd465602e7a873a0daecd2489c2"
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-canine-cliche": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "70534f0e977c104925f2f846e35d267978e4de145f4b6db767b871daeb81a670",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Etherstaff of the Canine Cliché as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/etherstaff-of-the-canine-cliche-b59ab72dddb95ccd.json",
+      "id": "b59ab72dddb95ccd",
+      "type": "equipment",
+      "sha256": "c8874c7fec6501d5dc8a8d0a7cdce9433104012e5523928fae8ff2a4b7573a42"
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-cosmic-roar": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "94db9e507ec763baa8091bbe61f519f80c3c814f23892176c7ee7171a74bbdcc",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Etherstaff of the Cosmic Roar as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/etherstaff-of-the-cosmic-roar-64252cf35d235d26.json",
+      "id": "64252cf35d235d26",
+      "type": "equipment",
+      "sha256": "bbd9a473979a3e35eea7001ea3d6067dc50b5e08c2fa915bc7ac2753dbd9d071"
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-endless-congregation": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "b0729f25c3fd45a244ea091541ddff8234eb4ebfc4821f3adc435f3ba76e0d8d",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Etherstaff of the Endless Congregation as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/etherstaff-of-the-endless-congregation-48f30cf69c982586.json",
+      "id": "48f30cf69c982586",
+      "type": "equipment",
+      "sha256": "34d43aea9b44328d4e2e1ca838372aa504ce6df625c8455ade75f8ca88643688"
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-fetching-sphere": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "ad347f96594e4200fbb4437ceaec7f9ed35190dbb3ce3b996016caacf321bad7",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Etherstaff of the Fetching Sphere as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/etherstaff-of-the-fetching-sphere-5f5698399634e2ad.json",
+      "id": "5f5698399634e2ad",
+      "type": "equipment",
+      "sha256": "2b04567acd9276bfe8a8ca3aadf2bcbd055618c77fb5d84c5630968db01ea95d"
+    }
+  },
+  "wiki:ethermagic-items:current:item:etherstaff-of-the-modeling-enthusiast": {
+    "pageSha256": "3610a46a542133b4f11e4701898b62e743d27206be2352bcfa921a66c65500b3",
+    "descriptionSha256": "9dfbbc6ec1e9d6d772c201f8df73312eb74eecd7d8c6e1d72c1bcca82e05c98b",
+    "reviewed": "2026-09-21",
+    "decision": "original",
+    "reason": "No exact or normalized-name compendium match exists. Retain Etherstaff of the Modeling Enthusiast as a reviewed native equipment document with original generated art.",
+    "candidates": [],
+    "output": {
+      "file": "src/packs/items/ethermagic-items/etherstaff-of-the-modeling-enthusiast-1700d3fcea743356.json",
+      "id": "1700d3fcea743356",
+      "type": "equipment",
+      "sha256": "ad63afc245270f83a64c13655ec29f36e2609c867d90f279c3c0a9e89b4be43e"
     }
   }
 }

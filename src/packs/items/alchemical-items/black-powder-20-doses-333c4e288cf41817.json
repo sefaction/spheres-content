@@ -3,7 +3,7 @@
   "_key": "!items!333c4e288cf41817",
   "name": "Black Powder (20 doses)",
   "type": "consumable",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/commodities/materials/powder-black.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,18 +24,28 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "not-needed",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "not-applicable",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.items.Item.trucdntfxjdukrox",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "efe46f11408a4913c3fff8999ed62f6f6d8d0dbc678a79b8ba5c8ade1a00bfc3",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
       }
     }
   },
@@ -52,7 +62,7 @@
     },
     "equipped": true,
     "carried": true,
-    "price": 200,
+    "price": 0,
     "size": "med",
     "resizing": false,
     "timeworn": false,
@@ -72,14 +82,26 @@
     "broken": false,
     "hardness": 0,
     "uses": {
-      "value": null,
-      "per": "",
+      "value": 20,
+      "per": "charges",
       "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "maxFormula": "20",
       "rechargeFormula": "",
-      "pricePerUse": 0
+      "pricePerUse": 10
     },
-    "actions": [],
+    "actions": [
+      {
+        "_id": "7a755b6fd928c6b3",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "img": "icons/commodities/materials/powder-black.webp",
+        "name": "Use Dose"
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "links": {

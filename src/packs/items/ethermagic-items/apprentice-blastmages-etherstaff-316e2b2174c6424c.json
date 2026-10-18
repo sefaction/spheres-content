@@ -3,7 +3,7 @@
   "_key": "!items!316e2b2174c6424c",
   "name": "Apprentice Blastmage’s Etherstaff",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/ethermagic/blast-etherstaff.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,17 +24,17 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "deferred",
+        "changes": "not-needed",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
       }
     }
@@ -63,10 +63,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 8,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "evo"
     },
     "hp": {},
     "broken": false,
@@ -88,10 +88,10 @@
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
+      "value": 10,
+      "per": "charges",
       "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "maxFormula": "10",
       "rechargeFormula": ""
     },
     "links": {
