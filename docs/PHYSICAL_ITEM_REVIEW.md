@@ -227,4 +227,6 @@ cost under #37. Its SR 15 requires source comparison under #41, not a stacking
 undefined target beneficiary under #42. Remnant and Skilled Casting aura
 contradictions join #31. Research, complete candidate provenance and focused
 regressions are recorded in research/physical-items-batch-3-charms-2.json.
-Relevant native acceptance remains pending; no compatibility claim is added.
+Representative native helper acceptance and the complete installed audit passed;
+see TESTING.md. Broader specialized outcomes remain deferred; no compatibility
+claim is added.

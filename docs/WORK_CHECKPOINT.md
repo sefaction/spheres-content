@@ -20,11 +20,23 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   deferred under #41; Forger bonus beneficiary explicitly ambiguous under #42.
   Two further aura contradictions are recorded under #31. Crafted selections,
   attunement, healing copies, temporary armor and target effects stay manual.
-- Focused source/profile checks pass. Full clean verification and new guarded
-  deployment/native acceptance are pending. Test installation remains acac9b3
-  in Setup from the previous fully tested merge integration; no restart planned.
-  Next: commit implementation, run full gate, deploy exact branch build, inspect
-  native helpers, return to Setup for full semantic audit, then open draft PR.
+- Draft PR #43 is open on main and attached to this chat; it requires its own
+  merge approval. Implementation/deployed commit b0a7e518ac4da68a16c9f0470de087a81aa98a6d.
+  Clean full gate: 105 tests, 6,788 round trips, two identical 797-file ZIPs.
+  ZIP SHA-256 2b1d6bb5007703db5173b727f69def52f64e4d34c4d84f1aad8db6cff36ed0b1.
+- Guarded preview/deployment/byte checks passed; ten backups retained, one oldest
+  authorized copy rotated, no restart. Eight native transfers passed. All four
+  counters spent correctly, with actual effects, attunement and reset timing manual.
+  Fox external-cost reminder, talisman price/SR note, cursed flag and Forger
+  ambiguity checked in native sheets/cards. See TESTING.md for exact scope.
+- Browser zero errors/82 framework deprecation warnings; server 160 informational
+  records, no warnings/errors or daily error file. Returned to Setup. Final full
+  installed semantic audit passed in 75.21 seconds for all 6,788 records, image
+  hashes and receipt bytes against immutable b0a7e51, unchanged remote snapshots,
+  local copies only, no active game at /auth. No process remains running.
+- Windows/Ubuntu PR checks are running. Next: confirm final documentation CI;
+  leave #43 unmerged pending individual approval, then continue the sixty
+  remaining images in the frozen third hundred. No public release authorization.
 
 ## Approved PR integration and cumulative acceptance
 
