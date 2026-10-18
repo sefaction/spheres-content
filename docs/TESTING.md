@@ -594,3 +594,44 @@ and only local database copies were opened. Audit confirmed route /auth.
 These checks cover the reviewed native helper scope. Broader lifecycle/non-GM,
 specialized casting, scene/target effects and source questions remain deferred.
 No verified compatibility claim, automatic world-copy update or public release.
+
+## First third-batch compound acceptance (2026-10-17)
+
+Implementation/deployed commit 414d5b44ee0de46b70f17dc3630702677ff22da2,
+module 0.1.0-alpha.6, dedicated Additional Spheres Content Test world,
+Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0. Clean full gate passed
+110 tests, all 6,788 compiler round trips and two identical 797-file ZIPs.
+ZIP SHA-256: 37ae464d47b5ff29e17594349cf734f523b211c8cfa5a2e59b6d894b17ed9569.
+
+Guarded preview, staged deployment and installed-byte verification passed.
+Ten rollback copies retained, one authorized oldest copy rotated, no host
+restart or world migration. Only the declared two modules were active.
+
+Five fresh native item transfers passed. Common Cure consumed quantity 1 -> 0
+and rolled 7 positive healing from fixed 1d8+1. The roll was verified; no actor
+HP application was simulated. Quintessential preparation retained quantity one;
+expenditure reduced it to zero. No real sphere spell/cost/contact was fabricated.
+Animate Object Oil consumed one dose and its chat card showed one-minute
+application and twenty-minute selected-tier duration, with the full source table
+and Tiny construct limits. No construct actor/token was created.
+
+Lesser Spell Cleansing and Renewal each consumed quantity 1 -> 0. The fixed
+1d20+5 link rolled 20 (die 15), without another dose. Actual target/DC/dispelling
+was manual. Renewal's two-point recovery cap, one-round daze and once-per-drinker
+daily restriction were visible; no spell-point pool was edited. Spent items
+remained at zero quantity. Full source text, images and source links rendered.
+Structured evidence and screenshot are ignored at .local/batch3-compounds-native.json
+and .local/batch3-compounds-accepted.png.
+
+Browser capture: zero errors and 77 framework deprecation warnings. Server:
+159 informational records since deployment, no warnings/errors or daily error
+file. Returned to Setup. Full installed semantic audit passed in 89.10 seconds
+for all 6,788 records, receipt bytes and image hashes against the immutable
+deployed commit, unchanged remote snapshots and local database copies only.
+The helper confirmed no active game at /auth.
+
+Native helper scope is verified; specialized target effects, temporary forms,
+elapsed preparation/expiry and broader lifecycle/non-GM acceptance remain
+deferred. No verified compatibility claim, public release or automatic update
+of existing world copies. The new draft depends on unmerged #43 and needs its
+own merge approval.

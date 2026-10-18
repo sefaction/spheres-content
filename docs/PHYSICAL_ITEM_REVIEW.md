@@ -250,5 +250,6 @@ ongoing-condition exceptions and Renewal's capped once-per-drinker daily benefit
 remain explicit. Hallow Word Oil's opposed-alignment wording discrepancy is
 manual under #44. Full bodies, tables, source hashes, IDs, prices and weights
 are preserved, including Lesser Spell Cleansing's published construction cost.
-Sixty of the frozen third hundred have reviewed images; forty remain. Native
-acceptance is pending, and no compatibility claim is added. Akashic is deferred.
+Sixty of the frozen third hundred have reviewed images; forty remain. Representative native consumption/healing checks and the complete installed
+audit passed; see TESTING.md. Broader target effects remain deferred, with no
+compatibility claim. Akashic is deferred.

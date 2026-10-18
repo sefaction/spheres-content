@@ -17,11 +17,23 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
 - Hallow wording discrepancy is explicit/manual under #44. Quintessential oil
   separates external preparation from expenditure; Renewal's cap/daily user limit,
   source size caps and selected tiers remain visible. No persistent actor bonuses.
-- Focused checks/full clean gate/new deployment/native acceptance are pending.
-  Previous test installation b0a7e51 remains in Setup after a complete 75.21-second
-  installed audit. Next: run focused/full gates, guarded deployment, dose/healing
-  native checks and final Setup audit, then draft PR based on #43. No merge or
-  release approval for this new group; preserve the tested previous checkpoint.
+- Deployed implementation 414d5b44ee0de46b70f17dc3630702677ff22da2 passed the
+  clean full gate: 110 tests, 6,788 round trips, two identical 797-file ZIPs.
+  ZIP SHA-256 37ae464d47b5ff29e17594349cf734f523b211c8cfa5a2e59b6d894b17ed9569.
+  Guarded preview/deployment/byte checks passed; ten backups retained, one oldest
+  authorized copy rotated, no restart. Five fresh native transfers passed.
+- Common Cure consumed one dose and rolled 7 positive healing. Quintessential
+  preparation left quantity one; expenditure consumed it. Animation displayed
+  one-minute application/twenty-minute duration; fixed MSB+5 rolled 20. All five
+  quantities reached zero without deleting their records. Actual target effects,
+  healing application, casting, contact, expiry and resource eligibility manual.
+- Browser zero errors/77 framework deprecation warnings; server 159 info,
+  no warnings/errors or daily error file. Final Setup audit passed in 89.10
+  seconds against immutable 414d5b4, all 6,788 records/receipt/image hashes,
+  unchanged remote snapshots and local copies only; no active game at /auth.
+- Next: push evidence and open draft PR based on #43, confirm final CI. The
+  current group is complete for its bounded review scope; obtain user direction
+  before selecting another group. No approval to merge this new PR or release.
 
 ## Active work: second twenty-charms group in batch 3
 
