@@ -202,3 +202,28 @@ encoded hashes and 256 px WebP settings in `config/content.json`. One inspected
 core holy-symbol path is referenced for Divine Symbol; the unrelated mundane
 record’s rules and image bytes are not redistributed. All final illustrations
 were checked at 64 and 128 px and retain the per-icon size budget.
+
+## Ultimate Spheres metamagic apparatus review: 2026-10-17
+
+Issue #26 freezes the next 100 existing Ultimate-edition canonical item entries,
+without replacing first-batch membership, merging edition identities or refreshing
+source snapshots. Akashic and legacy production remains excluded. The first
+twenty reviewed apparatuses retain their original descriptions, tier prices,
+construction text, source links and exact approved page hash.
+
+`research/metamagic-apparatus-profiles.json` records game-rule facts from the
+already approved OGL item page: tier caster levels, aura strength, sphere-effect
+caps, three daily uses, handling and casting/cost rules. It excludes editorial
+pricing commentary, ads and artwork. The existing complete Wiki OGL notice is
+retained. Cascading’s normal-only tier and combined-talent limits are separately
+reviewed. Taking a metamagic feat and using its physical apparatus remain
+different rules procedures; the item does not grant that feat permanently.
+
+PF1 Content 11.4.0 conventional rods were fully inspected via alternate names and
+rejected for complete reuse because their rules/prices differ. Their UUIDs,
+versions, hashes and rejection reasons are recorded in
+`config/physical-item-reviews.json`; their rules are not copied. One visually
+reviewed core rod image is referenced for the source-permitted held-rod form,
+with the inspected PF1 11.11 Logical Metamagic Rod, Lesser record retained as
+artwork evidence only. No third-party image bytes are packaged. Native defaults
+continue to use the existing PF1 11.11 profile and notice scope.

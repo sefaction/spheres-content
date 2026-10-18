@@ -124,6 +124,7 @@ test("shared groups prefer larger queues while preserving frozen membership", as
 test("category hints distinguish review work without inferring item mechanics", () => {
   for (const [category, lane] of [
     ["Ring Slot", "ring-profile"],
+    ["New Metamagic Apparatuses [TS]", "metamagic-apparatus-profile"],
     ["Specific Magic Weapons", "weapon-profile"],
     ["Hands Slot", "wearable-profile"],
     ["gonzo-wondrous-items", "wondrous-item-review"],
@@ -135,4 +136,25 @@ test("category hints distinguish review work without inferring item mechanics", 
       classifyProductionEntry({ category, audit: {} }, null).lane,
       lane,
     );
+});
+
+test("new production batch uses the shared metamagic lane without changing frozen membership", async () => {
+  const plan = await createProductionPlan({
+    batchId: "physical-items-batch-2",
+    limit: 20,
+  });
+  assert.equal(plan.batch, "physical-items-batch-2");
+  assert.equal(plan.selected, Math.min(20, plan.pending));
+  assert(plan.entries.every((e) => e.needs.image === "needed"));
+  assert.equal(
+    classifyProductionEntry(
+      {
+        sourceKey: "wiki:apparatuses-metamagic:ultimate:item:example",
+        category: "Other rules",
+        audit: {},
+      },
+      null,
+    ).lane,
+    "metamagic-apparatus-profile",
+  );
 });

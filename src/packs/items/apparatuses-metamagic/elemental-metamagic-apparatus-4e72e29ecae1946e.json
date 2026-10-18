@@ -3,7 +3,7 @@
   "_key": "!items!4e72e29ecae1946e",
   "name": "Elemental Metamagic Apparatus",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,35 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-metamagic-apparatus",
+      "selectedVariant": "lesser tier; held slender rod; energy not yet selected",
+      "metamagicApparatus": {
+        "profile": "research/metamagic-apparatus-profiles.json",
+        "tier": "lesser",
+        "dailyUses": 3,
+        "maxSphereEffectCasterLevel": 7,
+        "featSpellPointCost": 1,
+        "featSpellPointCostAppliesToItem": false
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 5,000 gp (lesser), 10,000 gp (normal), 20,000 gp (greater)<br>\n<strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 1 sp</p>\n<p>Choose one of the following energy types when crafting this apparatus or gaining this feat: acid, cold, electricity, or fire. You may replace a talent’s normal damage with that energy type or split the talent’s damage, so that half is of that energy type and half is of its normal type. If this is found as an apparatus, not crafted, roll 1d4 to determine (in alphabetical order) which element the metamagic apparatus is attuned to. These apparatuses are usually named with their elemental affinity in front.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Elemental Spell; <strong>Cost</strong> 2,500 gp (lesser), 5,000 gp (normal), 10,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc20\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: lesser tier; held slender rod; energy not yet selected. Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. Spend one of its three daily uses; only one metamagic apparatus may apply per casting. The apparatus does not require knowing its feat or paying that feat’s extra spell points/casting time. Normal sphere-effect costs and other known metamagic costs still apply. The chosen sphere effect must be caster level 7 or lower.</p><p>Choose and record acid, cold, electricity or fire before use. Replace all normal damage with it or split damage equally between the chosen and normal types. No energy choice is inferred from the icon.</p><p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic\">Shared metamagic apparatus rules</a>. The Feat Cost in the source applies to taking the feat instead of using the physical item.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +73,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +94,51 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "d697b60058506714",
+        "name": "Replace Damage with Selected Energy",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. Spend one of its three daily uses; only one metamagic apparatus may apply per casting. The apparatus does not require knowing its feat or paying that feat’s extra spell points/casting time. Normal sphere-effect costs and other known metamagic costs still apply. The chosen sphere effect must be caster level 7 or lower. Choose and record acid, cold, electricity or fire before use. Replace all normal damage with it or split damage equally between the chosen and normal types. No energy choice is inferred from the icon."
+          ]
+        }
+      },
+      {
+        "_id": "b7a719d5ea58e94f",
+        "name": "Split Damage with Selected Energy",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. Spend one of its three daily uses; only one metamagic apparatus may apply per casting. The apparatus does not require knowing its feat or paying that feat’s extra spell points/casting time. Normal sphere-effect costs and other known metamagic costs still apply. The chosen sphere effect must be caster level 7 or lower. Choose and record acid, cold, electricity or fire before use. Replace all normal damage with it or split damage equally between the chosen and normal types. No energy choice is inferred from the icon."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

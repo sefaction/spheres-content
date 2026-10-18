@@ -3,7 +3,7 @@
   "_key": "!items!62b80300d97e5b87",
   "name": "Dazing Metamagic Apparatus",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,35 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-metamagic-apparatus",
+      "selectedVariant": "lesser tier; held slender rod",
+      "metamagicApparatus": {
+        "profile": "research/metamagic-apparatus-profiles.json",
+        "tier": "lesser",
+        "dailyUses": 3,
+        "maxSphereEffectCasterLevel": 7,
+        "featSpellPointCost": 3,
+        "featSpellPointCostAppliesToItem": false
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 15,000 gp (lesser), 30,000 gp (normal), 60,000 gp (greater)<br>\n<strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 3 sp</p>\n<p>You can modify a talent to daze a creature damaged by it. When a creature takes damage from this spell, they become dazed for a number of rounds equal to half the caster level of the talent (minimum 1). If the talent allows a saving throw, a successful save negates the daze effect.</p>\n<p>If the talent does not allow a save, the target can attempt a Will save to negate the daze effect. If the talent effect also causes the creature to become dazed, the duration of this metamagic effect is added to the duration of the spell.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Dazing Spell; <strong>Cost</strong> 7,500 gp (lesser), 15,000 gp (normal), 30,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc16\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: lesser tier; held slender rod. Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. Spend one of its three daily uses; only one metamagic apparatus may apply per casting. The apparatus does not require knowing its feat or paying that feat’s extra spell points/casting time. Normal sphere-effect costs and other known metamagic costs still apply. The chosen sphere effect must be caster level 7 or lower.</p><p>Damage is required. An existing successful save negates the added daze; if the talent has no save, allow a Will save. Duration is half the sphere talent’s caster level, minimum one; add to an existing daze duration as described.</p><p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic\">Shared metamagic apparatus rules</a>. The Feat Cost in the source applies to taking the feat instead of using the physical item.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +73,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +94,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "626b9379a2cddc5e",
+        "name": "Apply Dazing Metamagic Apparatus",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Use as part of casting a qualifying sphere effect while holding this apparatus in at least one hand. Spend one of its three daily uses; only one metamagic apparatus may apply per casting. The apparatus does not require knowing its feat or paying that feat’s extra spell points/casting time. Normal sphere-effect costs and other known metamagic costs still apply. The chosen sphere effect must be caster level 7 or lower. Damage is required. An existing successful save negates the added daze; if the talent has no save, allow a Will save. Duration is half the sphere talent’s caster level, minimum one; add to an existing daze duration as described."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

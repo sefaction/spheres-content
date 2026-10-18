@@ -2,7 +2,68 @@
 
 Updated: 2026-10-17 (work began 2026-09-19 local time).
 
-## Active work in progress: final physical-item group
+## Active work in progress: physical batch 2, group 1
+
+- Branch `codex/physical-items-batch-2`, based on `cd3a52d` from draft PR #25.
+  Both Windows and Ubuntu checks passed for #25. All preceding PRs remain
+  unmerged; no individual merge approval or release approval has been given.
+- Issue #26 tracks the next frozen 100 canonical Ultimate-edition item records.
+  Existing first-batch membership remains intact and active while its mechanics
+  and remote acceptance are incomplete. Akashic and legacy production is excluded.
+  Original IDs, source keys, snapshots and descriptions are preserved.
+- Twenty apparatuses, Aligned through Encouraging, now have reviewed native
+  profiles and a suitable shared core rod icon. Exact-name/reordered searches and
+  conventional rod aliases were inspected before authoring. Conventional PF1
+  records have different rules/prices; no unrelated effects or image bytes were
+  imported. Selected profile, per-effect restrictions and source links are visible
+  in native instructions and action notes.
+- Shared approved source is pinned in `research/metamagic-apparatus-profiles.json`
+  at page SHA `b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091`.
+  Nineteen selected lesser tiers use CL 5, faint untyped aura, three daily uses
+  and sphere effects up to CL 7. Apply as part of casting while held; feat spell-
+  point cost is not an item cost. Normal effect/other-metamagic costs still apply.
+- Cascading is normal-only: CL 10, 20,000 gp, each talent CL <=7 and total <=9,
+  shortest duration/longest casting time, self-targeted persistent effects only.
+  It is one metamagic feat combining talents, so retains three daily uses.
+  Bouncing’s later swift redirection costs zero extra uses. Aligned/Elemental
+  choices share the item pool and remain unselected until the GM/user chooses.
+- Full rule outcomes need a qualifying casting/target interface. No actor-wide
+  damage, speed, DC, condition, morale or concentration modifiers were added.
+  Native sheets/use and actual integration await remote acceptance.
+- Clean implementation `7e02a2a82806b3bc0f8c650266b63ae143bca60a` passed formatting,
+  lint, all 68 tests, content/reference/provenance checks, all 6,788 compiler round
+  trips and two identical 753-file builds. ZIP SHA-256:
+  `3f17b9afb60fda336d75d2b4e2eb63c7184ac70416b60c77fb6a46ab628bfd23`.
+  Negative tests cover tier, daily-use, combined CL, caster-level and feat-cost
+  drift. A scheduling lane keeps the remaining apparatuses together.
+- Draft PR #28 is pushed, stacked on #25 and references #26:
+  https://github.com/sefaction/spheres-content/pull/28. CI remains pending until
+  checked; no merge approval. Documentation follow-up needs a fresh clean gate
+  before deployment.
+- Batch 2 now has twenty reviewed images and eighty pending: forty-one metamagic
+  apparatuses plus thirty-nine other apparatuses. Continue with
+  `node scripts/production-plan.mjs --batch=physical-items-batch-2 --limit=20`.
+  The next ignored plan is `.local/batch2-next-plan.json`, starting Enlarging,
+  Extending and Fearsome. Inspect each exception and compendium match first.
+- Last remote check still returned HTTP 200 at `/join`, unidentified world
+  running. Do not switch worlds, deploy or restart. User Setup-status question
+  remains unanswered; last deployment receipt is `fed942b`. Continue local work.
+- Next safe step: check PR #28 CI, create a new feature branch from this one,
+  inspect the next twenty compendium matches, then author group 2. The full source
+  review is cached in `.local/batch2-group2-source-review.json`, with exceptions
+  in `.local/batch2-group2-exceptions.json`. No group-2 source edits or new art yet.
+- Reaching explicitly has five daily uses and permits repeat activation with the
+  same apparatus for one casting. Extending/Fleeting may apply when paying to
+  persist a concentrated effect; Fleeting also has a later swift dismissal.
+  Preserve these exceptions instead of copying the first group’s common timing.
+- Issue #27 tracks Flaring’s confirmed source ambiguity: the descriptor lists
+  include light, the damage trigger names only fire/electricity, and its duration
+  phrase is malformed. Re-extraction from the same approved snapshot confirms
+  the wording. Preserve it and defer affected outcomes/advanced interpretation.
+- Remote route rechecked before push: still HTTP 200 at `/join`. Continue local
+  work without disrupting that world or assuming an answer to the Setup question.
+
+## Prior reviewed content batch: final first-batch group
 
 - Branch `codex/physical-items-final-group`, based on `c02a056` from draft PR #23.
   Both CI platforms passed for #23. No PR has individual merge approval.
@@ -40,8 +101,8 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   all 6,788 compiler round trips and two identical 753-file builds. ZIP SHA-256:
   `01cccd5b9490b8aeb7b30cd72731055d0ba3eec922005af6582b4257f1a145d9`.
 - Draft PR #25 is pushed and stacked on `codex/physical-items-group-3` (#23):
-  https://github.com/sefaction/spheres-content/pull/25. CI remains pending until
-  checked. References #15, #20 and #24; none is closed and no merge is approved.
+  https://github.com/sefaction/spheres-content/pull/25. Windows/Ubuntu CI passed at
+  documentation commit `cd3a52d`. References #15, #20 and #24; none is closed and no merge is approved.
   This documentation follow-up needs a fresh clean gate before deployment.
 - Remote last checked read-only: HTTP 200 at `/join`, unidentified world running,
   PF1 11.11 / pf1spheres 0.9.0 / installed module alpha.6. Last deployment receipt

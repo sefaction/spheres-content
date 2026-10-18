@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "license": "OGL-1.0a",
+    "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+    "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+  },
+  "tiers": {
+    "lesser": {
+      "casterLevel": 5,
+      "auraStrength": "faint",
+      "maxSphereEffectCasterLevel": 7
+    },
+    "normal": {
+      "casterLevel": 10,
+      "auraStrength": "moderate",
+      "maxSphereEffectCasterLevel": 13
+    },
+    "greater": {
+      "casterLevel": 15,
+      "auraStrength": "strong",
+      "maxSphereEffectCasterLevel": null
+    }
+  },
+  "shared": {
+    "dailyUses": 3,
+    "activation": "part of casting the sphere effect",
+    "handling": "Hold in at least one hand or wear as appropriate to the selected form.",
+    "form": "Held slender rod, a source-permitted appearance; no weapon attack or armor properties are implied.",
+    "school": "untyped",
+    "onlyOneApparatusPerCasting": true,
+    "metamagicFeatRequired": false,
+    "waiveOnlyAppliedApparatusMetamagicPointAndTimeCosts": true,
+    "otherKnownMetamagicKeepsNormalCosts": true,
+    "combinationException": "An apparatus applying multiple metamagic feats at once divides normal daily uses and cost by three, rounding uses up. Multiple talents combined by one metamagic feat are not automatically multiple feats."
+  },
+  "reviewedExceptions": {
+    "cascading-metamagic-apparatus": {
+      "tier": "normal",
+      "dailyUses": 3,
+      "price": 20000,
+      "requirements": "Only self-targeted effects of at least one round, persisting without concentration. Each talent CL <=7; sum CL <=9. Use shortest duration and longest casting time.",
+      "maxSphereEffectCasterLevel": 7,
+      "maxCombinedCasterLevel": 9
+    }
+  }
+}
