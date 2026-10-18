@@ -2,8 +2,8 @@
   "_id": "493ca2de1bb61bd8",
   "_key": "!items!493ca2de1bb61bd8",
   "name": "Fjodor's (Relatively) Faithful Friend",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "weapon",
+  "img": "icons/weapons/guns/gun-wood.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,28 +24,39 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "reuse": {
+        "sourceUuid": "Compendium.pf1.weapons-and-ammo.Item.PnCZEHzxpiz8NRSH",
+        "sourcePackage": "pf1",
+        "sourceVersion": "11.11",
+        "sourceSha256": "d3c92ad1252aa779878317b05a4e524bf72c69f2bc7c79cf355f6ebff0c180fe",
+        "decision": "adapt",
+        "review": "config/physical-item-reviews.json",
+        "license": "OGL-1.0a; GPL-3.0 record-format contributions",
+        "collection": "pf1-reviewed-native-item-profiles"
+      },
+      "nativeProfile": "ethermagic-blunderbuss"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> strong illusion and conjuration; <strong>CL</strong> 20th; <strong>Weight</strong> 8 lbs.; <strong>Price</strong> 50,302 gp</p>\n<p><strong>Description</strong><br>\nFjodor, shorthand for a name that would drive most mortals insane, was unlike all those other strange entities from beyond the infinite void of the Dark Tapestry. Yes, he/she/it may be a many-tentacled abomination with more eyes than most people have hair but the strange creature actually seems to have taken a liking to those puny, impotent mortals, in particular the ones that make these beautiful fireworks of blood, powder and ether!</p>\n<p>Sitting on his/her/its non-Euclidian divan, the entity dispersed a number of surprisingly useful, if disturbing +2 blunderbusses throughout the realms of men. Sporting incredibly-cute tentacle imagery, one of Fjodor's faithful friends has been the loyal companion of many a dabbler in etherslinging. Once per day, the wielder of Fjodor's faithful friend may call out to the creator of its weapon, thus manifesting the effects of the quantum leap alteration manifestation as an immediate action without paying its EP cost. It does not need to know this manifestation. Using this ability does not provoke attacks of opportunity, but the wielder is staggered for 1 round after using this ability, as Fjodor's enthusiastic cheers transcend the borders of reality and threaten to drive the wielder insane. Oops.</p>\n<p>The affection of Fjodor is also the reason for the stranger of the weapon's properties the weapon always finds its way into the hands of the wielder with at least one shot loaded at a convenient time, ready to wreck havoc. Imprisoned by Drow? Fjodor's faithful friend is in the owner’s cell once the guards are gone right there below the bunk. Sinking to the ocean's floor in chains? An impossible bubble of air and highly buoyant (yet stable) gas carries the weapon, locked, loaded and dry, right before the owner’s hands, overlapping with them without popping and perhaps, it can even painfully shoot itself to destroy the lock on its chains! No chain of events is too unlikely for Fjodor. This is treated as a conjuration [teleportation] effect.</p>\n<p>This said, the Fjodor's favor is notoriously fickle whenever the owner’s grit reaches 0, there is a 5% chance that the weapon vanishes immediately and ends up in the hands of a nearby enemy. This enemy is now considered the owner of the firearm. Killing the owner of the firearm allows an individual to reclaim the weapon and be considered the owner once more.</p>\n<p><strong>Construction Requirements</strong><br>\nNone. Fjodor makes these, not you.</p>\n<p><a href=\"http://spheresofpower.wikidot.com/ethermagic-items#toc42\">Source: Spheres of Power Wiki</a></p>",
       "instructions": "",
-      "unidentified": ""
+      "unidentified": "<h3>Statistics</h3><p><b>Damage</b> 1d6 (small), 1d8 (medium); <b>Critical</b> x2; <b>Range</b> special; <b>Type</b> B and P</p>\n<p><b>Misfire</b> 1-2 (10 ft.); <b>Capacity</b> 1</p>\n<h3>Description</h3>\n<p>This weapon fires pellets or a bullet from its trumpet-shaped barrel, making it an effective fowling weapon or closefighting personal defense weapon. The blunderbuss fires in a 15-foot cone when firing pellets, and has a 10-foot range increment when firing a bullet. A blunderbuss uses a bullet or pellets and a single dose of black powder or a single alchemical cartridge as ammunition.</p>"
     },
-    "tags": [],
+    "tags": ["Early Firearm"],
     "quantity": 1,
     "weight": {
       "value": 8
@@ -63,14 +74,16 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 20,
     "aura": {
       "custom": false,
       "school": ""
     },
-    "hp": {},
+    "hp": {
+      "base": 10
+    },
     "broken": false,
-    "hardness": 0,
+    "hardness": 10,
     "changes": [],
     "changeFlags": {
       "immuneToMorale": false,
@@ -84,14 +97,72 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "jph5llro47mqoq8c",
+        "ability": {
+          "attack": "_default"
+        },
+        "actionType": "rwak",
+        "activation": {
+          "type": "attack",
+          "unchained": {
+            "type": "attack"
+          }
+        },
+        "ammo": {
+          "type": "gunBullet"
+        },
+        "damage": {
+          "parts": [
+            {
+              "formula": "sizeRoll(1, 8, @size)",
+              "types": ["bludgeoning", "piercing"]
+            }
+          ]
+        },
+        "duration": {
+          "units": "inst"
+        },
+        "extraAttacks": {
+          "type": "standard"
+        },
+        "name": "Attack",
+        "range": {
+          "maxIncrements": 10,
+          "units": "ft",
+          "value": "10"
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        }
+      },
+      {
+        "_id": "ffeb2bbf5ffcc50e",
+        "activation": {
+          "type": "immediate",
+          "unchained": {
+            "type": "immediate"
+          }
+        },
+        "name": "Quantum Leap Alteration",
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Manifest quantum leap alteration without its EP cost or provoking attacks of opportunity. The wielder is staggered for one round afterward."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
+      "value": 1,
+      "per": "day",
       "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "maxFormula": "1",
       "rechargeFormula": ""
     },
     "links": {
@@ -104,41 +175,41 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
+    "masterwork": true,
+    "enh": 2,
     "proficient": false,
-    "held": "1h",
+    "held": "2h",
     "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
+      "type": "gunBullet",
+      "capacity": 1,
+      "misfire": 2,
+      "explode": 10
     },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
+    "subType": "exotic",
+    "weaponSubtype": "ranged",
+    "hands": 2,
+    "baseTypes": ["Blunderbuss"],
+    "weaponGroups": ["firearms"],
+    "material": {
+      "base": {
+        "value": "steel",
+        "custom": false
+      },
+      "normal": {
+        "value": "",
+        "custom": false
+      },
+      "addon": []
     },
-    "spellFailure": 0,
-    "showInQuickbar": false,
+    "properties": {
+      "sct": true
+    },
+    "showInQuickbar": true,
     "sources": [
+      {
+        "id": "PZO1123",
+        "pages": "43"
+      },
       {
         "title": "Spheres of Power Wiki",
         "url": "http://spheresofpower.wikidot.com/ethermagic-items#toc42"

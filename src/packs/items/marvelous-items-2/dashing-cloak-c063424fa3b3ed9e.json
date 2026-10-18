@@ -3,7 +3,7 @@
   "_key": "!items!c063424fa3b3ed9e",
   "name": "Dashing Cloak",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/marvelous-items/dashing-cloak.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,19 +24,20 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
@@ -63,7 +64,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +85,69 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "a6a4a09e30091930",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "standard"
+          }
+        },
+        "name": "Teleport (standard action)",
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Teleport up to 30 feet to a destination with both line of sight and line of effect. At dawn, restore this cloak to five charges."
+          ]
+        }
+      },
+      {
+        "_id": "363d3283509acfa0",
+        "activation": {
+          "type": "move",
+          "unchained": {
+            "type": "move"
+          }
+        },
+        "name": "Teleport (move action)",
+        "uses": {
+          "autoDeductChargesCost": "2"
+        },
+        "notes": {
+          "effect": [
+            "Teleport up to 30 feet to a destination with both line of sight and line of effect. At dawn, restore this cloak to five charges."
+          ]
+        }
+      },
+      {
+        "_id": "842219424effb2f9",
+        "activation": {
+          "type": "swift",
+          "unchained": {
+            "type": "swift"
+          }
+        },
+        "name": "Teleport (swift action)",
+        "uses": {
+          "autoDeductChargesCost": "3"
+        },
+        "notes": {
+          "effect": [
+            "Teleport up to 30 feet to a destination with both line of sight and line of effect. At dawn, restore this cloak to five charges."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
+      "value": 5,
+      "per": "charges",
       "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "maxFormula": "5",
       "rechargeFormula": ""
     },
     "links": {

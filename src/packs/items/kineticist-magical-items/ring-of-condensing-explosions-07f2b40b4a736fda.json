@@ -3,7 +3,7 @@
   "_key": "!items!07f2b40b4a736fda",
   "name": "Ring of Condensing Explosions",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/finger/ring-band-studded-silver.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,19 +24,21 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "deferred",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment",
+      "reviewedVariant": "normal (8500 gp)"
     }
   },
   "system": {
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 10,
     "aura": {
       "custom": false,
-      "school": ""
+      "school": "con"
     },
     "hp": {},
     "broken": false,
@@ -88,10 +90,10 @@
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
+      "value": 3,
+      "per": "day",
       "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

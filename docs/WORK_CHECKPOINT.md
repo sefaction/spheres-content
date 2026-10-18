@@ -1,8 +1,58 @@
 ﻿# Work checkpoint
 
-Updated: 2026-10-02 (work began 2026-09-19 local time).
+Updated: 2026-10-17 (work began 2026-09-19 local time).
 
-## Active tooling batch: production efficiency
+## Active content batch: physical item group 2
+
+- Branch `codex/physical-items-group-2`, based on `34a93b8` and tooling PR #19.
+  Issue #15 remains the physical-item umbrella. PR #16 and #19 remain open/draft;
+  no merge approval has been given. Draft PR #21 contains this content group:
+  https://github.com/sefaction/spheres-content/pull/21.
+- User goal: review as many items as practical before the usage reset. Akashic
+  items are temporarily deferred per the user’s 2026-10-17 direction. Preserve
+  their existing sources/reviews and skip further Akashic production.
+- Twenty non-Akashic entries now have reviewed profiles, images and explicit audit
+  decisions: two etherstaves, two rings, thirteen wearables and three firearms.
+  Nine generated 256 px WebP icons total 79,712 bytes; eight core image paths are
+  referenced after source-record and visual review. Body wraps share meaningful
+  family art. No third-party image bytes are packaged.
+- The firearms adapt PF1 11.11 Blunderbuss, Pistol and Musket, retaining native
+  attack data, ammo, misfire, published enhancement and source bibliography.
+  Base unidentified rules are retained separately from complete wiki descriptions.
+  Ordinary attacks cost zero daily special-power uses; the three special powers
+  use their separate 1/3/2 daily counters and immediate/swift activation reminders.
+- Dashing Cloak has standard/move/swift actions costing 1/2/3 of five charges.
+  Amulet of the Revealing Eye has three daily uses, a 60-foot cone and three-round
+  duration reminder; free reorientation costs zero uses. The crown starts
+  uncharged and tracks one manually gathered charge. No automatic teleportation,
+  secret-door revelation, burn application or conditional overflow bonus is inferred.
+- Full source descriptions and stable IDs are preserved. Alternative prices and
+  chosen base tiers are explicit. Conditional mechanics, optional integrations,
+  unselected special abilities and aura-strength/single-school limitations remain
+  deferred with specific reasons. The group is locally reviewed, not remotely accepted.
+- Implementation commit `2071c3cb0ca5ba52faea81e3873534aecef84289` passed
+  clean committed full verification: formatting, lint, all 43 tests, content,
+  reference/provenance checks, all 6,788 compiler round trips and two identical
+  728-file builds. ZIP SHA-256:
+  `aaa8dd8ccab46a81a626832687b8c5a53078463a4741bdd8d760eb7cb587a236`.
+  The branch is pushed. CI status is authoritative on PR #21; no CI result is
+  assumed from dispatch. This documentation-only follow-up requires a fresh
+  clean gate before any later deployment.
+- The batch now has 66 locally reviewed entries/images and 34 unresolved images.
+  None of the twenty new entries is claimed remotely accepted or fully automated.
+  Issue #20 tracks source-navigation spill in the next item, Sparkly’s Glittergun:
+  https://github.com/sefaction/spheres-content/issues/20. Correct its extraction
+  boundary, preserving IDs, before treating it as reviewed.
+- Remote status was rechecked read-only: `/join`, with a world running.
+  No deployment, world switch or restart occurred. The last saved receipt remains
+  `fed942b`. Do not disrupt an unidentified world; coordinate Setup before deployment.
+- Next safe step: inspect PR #21 CI, then continue the remaining 34 non-Akashic
+  entries. The next planner group begins with Sparkly’s Glittergun and Blaster’s
+  Bearing, followed by Gonzo equipment. Prepare source-boundary and native-type
+  corrections before images; musical weapons need their actual base statistics.
+  Continue independent local work while remote acceptance is unavailable.
+
+## Prior tooling batch: production efficiency
 
 - Branch `codex/production-efficiency`, based on `d70d7a5` from
   `content/physical-items-batch-1`. Issue #18:
