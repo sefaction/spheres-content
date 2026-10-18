@@ -2,8 +2,8 @@
   "_id": "a16159a52ca1e04b",
   "_key": "!items!a16159a52ca1e04b",
   "name": "Renewal Elixir",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-compound-consumable",
+      "selectedVariant": "250 gp"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Enhancement and Life; <strong>CL</strong> 1st<br>\n<strong>Slot</strong> none; <strong>Price</strong> 250 gp; <strong>Weight</strong> -</p>\n<p><strong>Description</strong><br>\nThis potion is much sought after not because of its power, but because of its legendary sweet taste which leaves the drinker euphoric afterward. Its low combustion temperature makes it unsuitable for use in baking, but it is often used to flavor the drinks of the very rich.</p>\n<p>When a person drinks the elixir, they regain 2 spell points that can only increase their current spell point pool to a maximum of 4 (or up to their true maximum, if that is lower). Drinking the elixir also causes the drinker to be dazed for one round. A drinker can only benefit from this potion once per day.</p>\n<p><strong>Construction Requirements</strong><br>\nDistill Compound, Enhancement sphere, Life sphere; <strong>Cost</strong> 125 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/compounds#toc92\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 250 gp.</p><p>One dose, negligible source weight. Consumption is a physical quantity, while once-per-day benefit is a separate per-drinker limit across copies. No maximum-pool increase, class/CAM assumption, automatic resource edit or baking use.</p><p>Single-dose quantity is consumed through the native helper. Target outcomes, temporary effects and any external eligibility remain deliberate; carrying the bottle grants no persistent bonus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,37 +65,45 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 1,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Enhancement and Life"
     },
     "hp": {},
     "broken": false,
     "hardness": 0,
-    "changes": [],
-    "changeFlags": {
-      "immuneToMorale": false,
-      "loseDexToAC": false,
-      "noMediumEncumbrance": false,
-      "noHeavyEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "lowLightVision": false,
-      "seeInvisibility": false,
-      "seeInDarkness": false
-    },
-    "contextNotes": [],
-    "actions": [],
-    "attackNotes": [],
-    "effectNotes": [],
     "uses": {
       "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
+      "per": "single",
+      "autoDeductChargesCost": "1",
       "maxFormula": "",
-      "rechargeFormula": ""
+      "rechargeFormula": "",
+      "pricePerUse": 0
     },
+    "actions": [
+      {
+        "_id": "457b33806f8ec8cf",
+        "name": "Drink Selected Dose",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "action",
+            "cost": 2
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Restore up to two actual spell points, never exceeding min(4, the drinker's true maximum), and become dazed for one round. A drinker can benefit only once per day across all doses. Resolve existing pool, cap, daily eligibility and dazed condition manually; no new resource pool or unlimited refills."
+          ]
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
     "links": {
       "children": [],
       "charges": []
@@ -104,40 +114,10 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
-    "proficient": false,
-    "held": "1h",
-    "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
-    },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
-    },
-    "spellFailure": 0,
+    "subType": "potion",
     "showInQuickbar": false,
+    "changes": [],
+    "contextNotes": [],
     "sources": [
       {
         "title": "Spheres of Power Wiki",

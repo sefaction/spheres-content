@@ -1,8 +1,98 @@
 # Work checkpoint
 
-Updated: 2026-10-17 (work began 2026-09-19 local time).
+Updated: 2026-10-18 (work began 2026-09-19 local time).
 
-## Active work: second twenty-charms group in batch 3
+## Approved integration; stop after the completed compound group
+
+- User direction: "Finish this group, then wrap up." The twenty-compound group
+  and its prepared-oil correction are complete within their recorded review scope.
+  No further batch is selected. Forty third-batch images remain for future work;
+  Akashic remains deferred. Resume only on a new user request.
+- The user explicitly approved #45 and then separately approved its dependency
+  #43 on 2026-10-18. PR #43 merged into main as
+  0754bf8835cbc1cc7796a1e3842e07a94576cf17; its source tree exactly matches
+  reviewed f389be3. PR #45 now targets main. This checkpoint update is part of
+  its approved integration and changes no content or tested behavior.
+- Final merge state, merge commit and main CI are authoritative on GitHub at
+  https://github.com/sefaction/spheres-content/pull/45. Complete that approved
+  merge after its final checks, verify main CI, close #46 with the PR link if
+  GitHub has not closed it, then stop. On a later resume, fetch main and reconcile
+  those results before selecting any new work. No tag, release, stable-manifest
+  update, redeployment or world migration is part of this integration.
+
+## Completed follow-up: prepared-oil contact window
+
+- PR #45 final head 629f3d8 passed Windows/Ubuntu; its deployed implementation
+  414d5b4 passed native dose checks and the complete installed audit in Setup.
+  Review then found #46: Quintessential Oil's four-hour duration label appears
+  on expenditure instead of preparation, implying a duration for the stored
+  ability. Original quantity acceptance did not check this label's stage.
+- Corrected only the two native helper annotations: preparation shows the
+  four-hour contact window starting after imbuing completes; expenditure has
+  no imposed stored-effect duration. Item/action IDs, original rules, dose costs,
+  price, weight and all other record fields remain unchanged. Identity/review
+  hashes and research are synchronized. A regression fails before and passes
+  after the correction; all six focused compound tests pass.
+- Corrected implementation/deployed commit
+  0f7f23b0c48f465309d69ff906f791ea4b47da32 passed the clean full gate:
+  111 tests, 6,788 compiler round trips, two identical 797-file ZIPs.
+  ZIP SHA-256 5397cc19f39143d0dbddce70e659a0c4a58a793f238ee51d9fa50a5d78c4450e.
+  Guarded preview/deployment/byte checks passed; ten rollback copies retained,
+  one authorized oldest copy rotated, no host restart.
+- Fresh native oil copy yGfNIsgBdr1SX5CG: preparation retained quantity one,
+  displayed Special / 4 Hours / Quantity: 1 and starts the window after imbuing.
+  Expenditure reduced quantity to zero without a four-hour duration label;
+  its note explicitly retains the stored ability's own duration. Existing copies
+  were preserved. Actual casting, spell-point costs, contact and elapsed expiry
+  remain manual. Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; two modules active.
+- Browser: zero errors, 77 framework deprecation warnings. Server: 156 info
+  records since deployment, no warnings/errors or daily error file. Returned
+  to Setup. Final complete installed audit passed in 46.58 seconds against
+  immutable 0f7f23b: all 6,788 documents, receipt bytes and external image hashes,
+  unchanged remote snapshots, local database copies only; route /auth.
+- Implementation 0f7f23b passed Windows/Ubuntu CI. Subsequent acceptance-only
+  documentation follows the same tested implementation; final-head CI is
+  authoritative on GitHub. PR #45 records #46 and the exact evidence. Issue #46
+  remains open until its resolving PR merges. See TESTING.md and ignored
+  .local/quintessential-window-* evidence. No test process remains running.
+
+## Historical acceptance: first twenty-compounds group in batch 3
+
+- Branch codex/physical-items-batch-3-compounds starts at #43 head f389be3.
+  #43 passed Windows/Ubuntu on its final head and remains draft/unmerged pending
+  separate approval. This branch's future PR must use #43's branch as its base
+  until that dependency merges. All earlier twelve approved PRs are merged.
+- Twenty compound profiles authored: native single-dose consumption, twenty-one
+  helpers, fixed Common Cure healing and source-specific temporary/manual limits.
+  Full original bodies, IDs, snapshots, prices/weights/quantities are unchanged.
+- Fifty-three full records inspected; six suitable existing illustrations serve
+  all twenty doses, viewed at 64/128 px. No new generated artwork or donor rules.
+  Sixty third-batch images reviewed; forty remain. Akashic deferred.
+- Hallow wording discrepancy is explicit/manual under #44. Quintessential oil
+  separates external preparation from expenditure; Renewal's cap/daily user limit,
+  source size caps and selected tiers remain visible. No persistent actor bonuses.
+- Deployed implementation 414d5b44ee0de46b70f17dc3630702677ff22da2 passed the
+  clean full gate: 110 tests, 6,788 round trips, two identical 797-file ZIPs.
+  ZIP SHA-256 37ae464d47b5ff29e17594349cf734f523b211c8cfa5a2e59b6d894b17ed9569.
+  Guarded preview/deployment/byte checks passed; ten backups retained, one oldest
+  authorized copy rotated, no restart. Five fresh native transfers passed.
+- Common Cure consumed one dose and rolled 7 positive healing. Quintessential
+  preparation left quantity one; expenditure consumed it. Animation displayed
+  one-minute application/twenty-minute duration; fixed MSB+5 rolled 20. All five
+  quantities reached zero without deleting their records. Actual target effects,
+  healing application, casting, contact, expiry and resource eligibility manual.
+- Browser zero errors/77 framework deprecation warnings; server 159 info,
+  no warnings/errors or daily error file. Final Setup audit passed in 89.10
+  seconds against immutable 414d5b4, all 6,788 records/receipt/image hashes,
+  unchanged remote snapshots and local copies only; no active game at /auth.
+- Draft PR #45 is open against #43's branch and attached to this chat. Its final
+  CI status is authoritative on GitHub; acceptance follow-ups change only docs
+  relative to tested 414d5b4. Keep #43/#45 unmerged until separately approved.
+  The current group is complete for its bounded review scope; the user requested
+  stopping after this group. The oil annotation correction above supersedes the
+  earlier deployment for that one item. No new merge or release approval.
+
+## Historical acceptance: second twenty-charms group in batch 3
 
 - Branch codex/physical-items-batch-3-charms-2 starts at main fba9a28.
   All twelve approved PRs are merged; final main Windows/Ubuntu CI passed.
@@ -34,7 +124,7 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   installed semantic audit passed in 75.21 seconds for all 6,788 records, image
   hashes and receipt bytes against immutable b0a7e51, unchanged remote snapshots,
   local copies only, no active game at /auth. No process remains running.
-- Windows/Ubuntu PR checks are running. Next: confirm final documentation CI;
+- Both final Windows/Ubuntu checks passed on f389be3. Next:
   leave #43 unmerged pending individual approval, then continue the sixty
   remaining images in the frozen third hundred. No public release authorization.
 

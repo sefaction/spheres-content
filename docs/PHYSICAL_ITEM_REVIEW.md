@@ -230,3 +230,26 @@ regressions are recorded in research/physical-items-batch-3-charms-2.json.
 Representative native helper acceptance and the complete installed audit passed;
 see TESTING.md. Broader specialized outcomes remain deferred; no compatibility
 claim is added.
+
+## First third-batch compound group
+
+Twenty potions, oils and elixirs now use native consumable sheets and actual
+single-dose quantities. Twenty-one helpers include Quintessential Oil's separate
+unimbued preparation and expenditure. Common Cure rolls fixed 1d8+1 positive
+healing; fixed spell-cleansing checks retain item MSB +5/+10 and one/three
+ongoing-effect limits. Actual target application and temporary effects stay
+manual, with no persistent benefit from carrying a bottle.
+
+Complete exact/alternate/component searches inspected 42 records, ten further
+art donors and the Life Cure component. Six suitable existing vial/flask images
+serve all twenty entries; final artwork reviewed at 64/128 px. No new image bytes
+or donor poison, drug, preservation or lamp-oil mechanics are imported.
+
+Selected base tiers, one-minute animation, ordinary potion/oil timing, size caps,
+ongoing-condition exceptions and Renewal's capped once-per-drinker daily benefit
+remain explicit. Hallow Word Oil's opposed-alignment wording discrepancy is
+manual under #44. Full bodies, tables, source hashes, IDs, prices and weights
+are preserved, including Lesser Spell Cleansing's published construction cost.
+Sixty of the frozen third hundred have reviewed images; forty remain. Representative native consumption/healing checks and the complete installed
+audit passed; see TESTING.md. Broader target effects remain deferred, with no
+compatibility claim. Akashic is deferred.

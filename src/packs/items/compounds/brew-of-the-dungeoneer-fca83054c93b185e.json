@@ -2,8 +2,8 @@
   "_id": "fca83054c93b185e",
   "_key": "!items!fca83054c93b185e",
   "name": "Brew of the Dungeoneer",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "img": "systems/pf1/icons/items/potions/minor-empty.jpg",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-compound-consumable",
+      "selectedVariant": "800 gp"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Divination; <strong>CL</strong> 4th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 800 gp; <strong>Weight</strong> -</p>\n<p><strong>Description</strong><br>\nThis milky grey substance has a musky smell and a taste of dirt and grime. Those that drink the potion gain a bonus of +2 to Disable Device and Perception checks related to traps, and the ability to disarm magic traps as if they possessed the trapfinding rogue class feature. The effects of the potion have a duration of 4 hours.</p>\n<p><strong>Construction Requirements</strong><br>\nDistill Compound, Divination sphere (See Hazard (sense), Trapfinding (advanced, sense)); <strong>Cost</strong> 400 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/compounds#toc17\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 800 gp.</p><p>One milky-grey dose with its published negligible weight. Temporary trap benefits require drinking; merely carrying the vial grants no skill bonus or rogue class feature.</p><p>Single-dose quantity is consumed through the native helper. Target outcomes, temporary effects and any external eligibility remain deliberate; carrying the bottle grants no persistent bonus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,37 +65,49 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 4,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Divination"
     },
     "hp": {},
     "broken": false,
     "hardness": 0,
-    "changes": [],
-    "changeFlags": {
-      "immuneToMorale": false,
-      "loseDexToAC": false,
-      "noMediumEncumbrance": false,
-      "noHeavyEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "lowLightVision": false,
-      "seeInvisibility": false,
-      "seeInDarkness": false
-    },
-    "contextNotes": [],
-    "actions": [],
-    "attackNotes": [],
-    "effectNotes": [],
     "uses": {
       "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
+      "per": "single",
+      "autoDeductChargesCost": "1",
       "maxFormula": "",
-      "rechargeFormula": ""
+      "rechargeFormula": "",
+      "pricePerUse": 0
     },
+    "actions": [
+      {
+        "_id": "33f1173cbd5dfe9f",
+        "name": "Drink Selected Dose",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "action",
+            "cost": 2
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "For four hours after drinking, gain +2 only to Disable Device and Perception checks related to traps, and permission to disarm magical traps as with trapfinding. Resolve actual qualifying checks manually; no class-level formula or all-Perception bonus."
+          ]
+        },
+        "duration": {
+          "value": "4",
+          "units": "hour"
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
     "links": {
       "children": [],
       "charges": []
@@ -104,40 +118,10 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
-    "proficient": false,
-    "held": "1h",
-    "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
-    },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
-    },
-    "spellFailure": 0,
+    "subType": "potion",
     "showInQuickbar": false,
+    "changes": [],
+    "contextNotes": [],
     "sources": [
       {
         "title": "Spheres of Power Wiki",

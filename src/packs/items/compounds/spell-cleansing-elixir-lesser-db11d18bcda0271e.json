@@ -2,8 +2,8 @@
   "_id": "db11d18bcda0271e",
   "_key": "!items!db11d18bcda0271e",
   "name": "Spell Cleansing Elixir, Lesser",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-compound-consumable",
+      "selectedVariant": "lesser, 250 gp"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Life; <strong>CL</strong> 5th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 250 gp; <strong>Weight</strong> -</p>\n<p><strong>Description</strong><br>\nAn emergency tool for removing enchantments in a hurry. When a person drinks the elixir, he may choose a single ongoing magical effect affecting him. The elixir attempts a magic skill check with an MSB of +5 to dispel the effect, as the Counterspell feat.</p>\n<p><strong>Construction Requirements</strong><br>\nDistill Compound, Life sphere (Break Enchantment); <strong>Cost</strong> 175 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/compounds#toc114\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: lesser, 250 gp.</p><p>Preserve the published 250 gp purchase price and original 175 gp construction figure without deriving one from the other. One dose affects a single chosen ongoing effect on the drinker, not all magic or a generic Break Enchantment spell.</p><p>Single-dose quantity is consumed through the native helper. Target outcomes, temporary effects and any external eligibility remain deliberate; carrying the bottle grants no persistent bonus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,37 +65,45 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Life"
     },
     "hp": {},
     "broken": false,
     "hardness": 0,
-    "changes": [],
-    "changeFlags": {
-      "immuneToMorale": false,
-      "loseDexToAC": false,
-      "noMediumEncumbrance": false,
-      "noHeavyEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "lowLightVision": false,
-      "seeInvisibility": false,
-      "seeInDarkness": false
-    },
-    "contextNotes": [],
-    "actions": [],
-    "attackNotes": [],
-    "effectNotes": [],
     "uses": {
       "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
+      "per": "single",
+      "autoDeductChargesCost": "1",
       "maxFormula": "",
-      "rechargeFormula": ""
+      "rechargeFormula": "",
+      "pricePerUse": 0
     },
+    "actions": [
+      {
+        "_id": "72be3037dd034b6f",
+        "name": "Drink Selected Dose",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "action",
+            "cost": 2
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Choose one ongoing magical effect on the drinker. Resolve the actual Counterspell procedure with fixed MSB +5: [[/r 1d20 + 5]]. Outcomes and applicable DCs remain manual; no automatic dispelling, arcanist reservoir/spell slot, actor MSB or multiple-effect upgrade."
+          ]
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
     "links": {
       "children": [],
       "charges": []
@@ -104,40 +114,10 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
-    "proficient": false,
-    "held": "1h",
-    "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
-    },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
-    },
-    "spellFailure": 0,
+    "subType": "potion",
     "showInQuickbar": false,
+    "changes": [],
+    "contextNotes": [],
     "sources": [
       {
         "title": "Spheres of Power Wiki",

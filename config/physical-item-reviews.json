@@ -12650,5 +12650,1969 @@
       "type": "equipment",
       "sha256": "82491c980e4fa7fd04dc098951a4581d25438f96a0828ab56a0514af234edbfc"
     }
+  },
+  "wiki:compounds:ultimate:item:animate-object-oil": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "ba15119179eeee4eae712d21583d8fcc08dab112a92acf84a39dfb78c5cd2bd3",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. The entire seven-tier table remains unchanged, but only the very-weak tier is selected. No stronger size, statistics or duration is supplied at the base price; no spell-point payment or permanent construct is invented.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Oil of Animate Objects",
+        "candidates": []
+      },
+      {
+        "name": "Animate Object",
+        "candidates": [
+          {
+            "key": "animate-object",
+            "name": "Animate Object",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.HREavKaqQZl2sGeJ",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/enhancement.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "da50a9b4d81ad92c2db4fcd9a1e9b10c4093dcf8cef0ef58a6dd8b5e97effece",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+      "source": {
+        "key": "oil",
+        "name": "Oil",
+        "uuid": "Compendium.pf1.items.Item.rohumljcegubpudf",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "loot",
+        "subType": "gear",
+        "img": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "7cff938e27f8110b772f1db840197201c9cd3a3caa768ee4cef4e423562eb780",
+        "nativeActions": 4,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/animate-object-oil-d453f3a2437a6dc3.json",
+      "id": "d453f3a2437a6dc3",
+      "type": "consumable",
+      "sha256": "d1c69cdf4f5e33f81970d1e5c4867baf371432e9e148557f5055ab747e9ca644"
+    }
+  },
+  "wiki:compounds:ultimate:item:brew-of-the-dungeoneer": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "9b99d982fe9194e09a3151f6fb2b185d4557efe3f7d93ba0f5c0aa74996c364e",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. One milky-grey dose with its published negligible weight. Temporary trap benefits require drinking; merely carrying the vial grants no skill bonus or rogue class feature.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Potion of Find Traps",
+        "candidates": []
+      },
+      {
+        "name": "Trapfinding",
+        "candidates": [
+          {
+            "key": "trapfinding",
+            "name": "Trapfinding",
+            "uuid": "Compendium.pf1.class-abilities.Item.pEODJDoTk7uhCZY7",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "class-abilities",
+            "type": "feat",
+            "subType": "classFeat",
+            "img": "systems/pf1/icons/items/inventory/lockpick.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "36bcd23cf22dd5a3a73c83296f8570c999584f25e58d437146d5fd8020ac6d93",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "trapfinding",
+            "name": "Trapfinding",
+            "uuid": "Compendium.pf1e-archetypes.pf-prestige-features.Item.m3Pkw4T28k30UPay",
+            "provider": "pf1e-archetypes",
+            "version": "11.0.1",
+            "pack": "pf-prestige-features",
+            "type": "feat",
+            "subType": "classFeat",
+            "img": "systems/pf1/icons/skills/mech_5.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "50447cb9b04d99549d0c645a8240acb4de8e27e4dff69ddbf072582fc9a3048c",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "trapfinding",
+            "name": "Trapfinding",
+            "uuid": "Compendium.pf1spheres.class-features.Item.7SsVqRA3clDyn0Cg",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "class-features",
+            "type": "feat",
+            "subType": "classFeat",
+            "img": "icons/svg/item-bag.svg",
+            "hasDescription": true,
+            "placeholderImage": true,
+            "sha256": "ee54d3c174a3ee3b809d9c845089ef4c9b75d6ce002e41ae049b92144c2a95b5",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "trapfinding",
+            "name": "Trapfinding",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.LkHrBp5kwSBCjkHy",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "28ec36a7badacaa713e396f8d13012118cb0da02a94cb0767684ccd7f7eb0c5a",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "See Hazard",
+        "candidates": [
+          {
+            "key": "see-hazard",
+            "name": "See Hazard",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.Hroca8BRYAbJshEV",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "5db9dafe7125d4fa9fa58d47cad4558cca3ef3c64f985c4beba3b1f0f3c27f9e",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/potions/minor-empty.jpg",
+      "source": {
+        "key": "dead-air-vial",
+        "name": "Dead Air (Vial)",
+        "uuid": "Compendium.pf-content.pf-items.Item.th5G4pZlNRuvINFM",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-items",
+        "type": "consumable",
+        "subType": "potion",
+        "img": "systems/pf1/icons/items/potions/minor-empty.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4a061c7ac008c0989c1aaa43dafae36a13f3dd3648cb892e86b6c25e73313ca8",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/brew-of-the-dungeoneer-fca83054c93b185e.json",
+      "id": "fca83054c93b185e",
+      "type": "consumable",
+      "sha256": "7e2e432c8d6493fd2d88750fad758846f555deb14d19f0429bee57e2e3783f18"
+    }
+  },
+  "wiki:compounds:ultimate:item:catfolk-guise-potion": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "780e0f6ce35655828d71364c6693f200446575d99a9307d7cfe38a6de50fc617",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. The moderate/superior tiers stay in the full body but are not active at the minor price. Do not copy a generic Alter Self spell, cosmetic Disguise trait, humanoid type restriction or permanent natural attacks.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Potion of Alter Self",
+        "candidates": []
+      },
+      {
+        "name": "Blank Transformation",
+        "candidates": [
+          {
+            "key": "blank-transformation",
+            "name": "Blank Transformation",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.6QFm0t7XngtWQTdX",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "effcfdaf654b129025f1e6bf6752be07710c8dc69dba48b7b5c8cd8bde512f2b",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Powerful Limbs",
+        "candidates": [
+          {
+            "key": "powerful-limbs",
+            "name": "Powerful Limbs",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.JP0ILDQePqsZGvjk",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "c7e33266b140dba2955798f76f9427d6241e84d46cb18709674139edb713ea00",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/potions/minor-green.jpg",
+      "source": {
+        "key": "oil-snake",
+        "name": "Oil, Snake",
+        "uuid": "Compendium.pf1.items.Item.3V5aC0PcNcsBCEPh",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "consumable",
+        "subType": "potion",
+        "img": "systems/pf1/icons/items/potions/minor-green.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "63434008c5a8b588022ad41b241eccca7c4d9d30faa80db06b305c07d5a735ba",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/catfolk-guise-potion-c8c713d2c58d594c.json",
+      "id": "c8c713d2c58d594c",
+      "type": "consumable",
+      "sha256": "677fffd33230176e5df17a7e5c9ad26836afcbb302b951de38b5a123e9507733"
+    }
+  },
+  "wiki:compounds:ultimate:item:cleansing-potion": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "c7c3f2b682657ea16d2f20a706da4a298dd0b35b9578b69a4a256754a1b28609",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. One blessed-water dose. Preserve the exact named conditions and ongoing-effect exception; no permanent active change, generic Lesser Restoration rules or automatic condition deletion.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Potion of Lesser Restoration",
+        "candidates": []
+      },
+      {
+        "name": "Lesser Restoration",
+        "candidates": [
+          {
+            "key": "restoration-lesser",
+            "name": "Restoration, Lesser",
+            "uuid": "Compendium.pf1.spells.Item.fxz69pwpqt9b6uss",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "spells",
+            "type": "spell",
+            "subType": null,
+            "img": "systems/pf1/icons/spells/heal-jade-1.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "a13878e40d1b7e15157b87ddcdb26b4c88fee235ec8137a92fcf7dc5a00ba7c4",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "reordered-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/potions/minor-empty.jpg",
+      "source": {
+        "key": "dead-air-vial",
+        "name": "Dead Air (Vial)",
+        "uuid": "Compendium.pf-content.pf-items.Item.th5G4pZlNRuvINFM",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-items",
+        "type": "consumable",
+        "subType": "potion",
+        "img": "systems/pf1/icons/items/potions/minor-empty.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4a061c7ac008c0989c1aaa43dafae36a13f3dd3648cb892e86b6c25e73313ca8",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/cleansing-potion-aca74438c351d0e5.json",
+      "id": "aca74438c351d0e5",
+      "type": "consumable",
+      "sha256": "4acff4f021c537435b75216baafd8ede155528e45077e826dc3776f62537a43e"
+    }
+  },
+  "wiki:compounds:ultimate:item:cleansing-potion-greater": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "bcd6749dc374c575e58c7fb54a43f3360aff0ead004ad2310827cbdaaa03060f",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. One greater blessed-water dose, not multiple doses. No conventional Restoration spell or invented save type is imported; the fixed +2 check belongs to the oil/potion effect, not the drinker's general saves.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Potion of Restoration",
+        "candidates": []
+      },
+      {
+        "name": "Restore Health",
+        "candidates": [
+          {
+            "key": "restore-health",
+            "name": "Restore Health",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.EolTtIx78D5XyOon",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/life.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "d896752cbcf7d7528df243f5a55f58c23931fc24e9de166c61419eb8ad9c276d",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/potions/minor-empty.jpg",
+      "source": {
+        "key": "dead-air-vial",
+        "name": "Dead Air (Vial)",
+        "uuid": "Compendium.pf-content.pf-items.Item.th5G4pZlNRuvINFM",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-items",
+        "type": "consumable",
+        "subType": "potion",
+        "img": "systems/pf1/icons/items/potions/minor-empty.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4a061c7ac008c0989c1aaa43dafae36a13f3dd3648cb892e86b6c25e73313ca8",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/cleansing-potion-greater-6e0c0cef584b755d.json",
+      "id": "6e0c0cef584b755d",
+      "type": "consumable",
+      "sha256": "43de5fd162a83e53c865474bc14a0f27067b0b976b0e282162a34391a5c1a70f"
+    }
+  },
+  "wiki:compounds:ultimate:item:common-cure": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "d6e34bf4284644025c419c8925ce821c1b4b3a040dd1f44213efc36f6be726fb",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. Only the source's single healing dose is represented. Fixed healing does not scale with the actor's CL or ability. Positive-energy handling follows the reviewed Life cure component; target application remains deliberate.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Potion of Cure Light Wounds",
+        "candidates": []
+      },
+      {
+        "name": "Cure Light Wounds",
+        "candidates": [
+          {
+            "key": "cure-light-wounds",
+            "name": "Cure Light Wounds",
+            "uuid": "Compendium.pf1.spells.Item.xoc3vhg3btmfjauq",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "spells",
+            "type": "spell",
+            "subType": null,
+            "img": "systems/pf1/icons/spells/heal-sky-1.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "238dec603892bb0228201e43b2392e1ef789b5f02cb666a5625e0edc9333a5e5",
+            "nativeActions": 2,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/potions/minor-empty.jpg",
+      "source": {
+        "key": "dead-air-vial",
+        "name": "Dead Air (Vial)",
+        "uuid": "Compendium.pf-content.pf-items.Item.th5G4pZlNRuvINFM",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-items",
+        "type": "consumable",
+        "subType": "potion",
+        "img": "systems/pf1/icons/items/potions/minor-empty.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4a061c7ac008c0989c1aaa43dafae36a13f3dd3648cb892e86b6c25e73313ca8",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/common-cure-c125dc8477e967ac.json",
+      "id": "c125dc8477e967ac",
+      "type": "consumable",
+      "sha256": "4e20677915096af6605ce5dc198628ce18b1a49c4eaef4db1789679254117302"
+    }
+  },
+  "wiki:compounds:ultimate:item:dark-sacrifice-potion": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "ef800fb46988ef9d3cb2041cde139e94d5a8d338279977850fdf12a953d7129b",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. Minor tier only: three rounds and thirty feet. No moderate/superior duration, automatic damage prevention, generic False Life or an extra spell-point payment borrowed from the talent. The bottle is consumed on drinking, not on the later conditional sacrifice.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Dark Sacrifice",
+        "candidates": [
+          {
+            "key": "dark-sacrifice",
+            "name": "Dark Sacrifice",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.KqLxOj4y7em5UMbo",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "f8c61ae5d4a234388612f2753257083f03255632667693d3b86b843714cad044",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Potion of False Life",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/potions/minor-red.jpg",
+      "source": {
+        "key": "fireskin-elixir",
+        "name": "Fireskin Elixir",
+        "uuid": "Compendium.pf-content.pf-items.Item.EeVSXeJcVtiDqy1r",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-items",
+        "type": "consumable",
+        "subType": "drug",
+        "img": "systems/pf1/icons/items/potions/minor-red.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "e9e0d276497cbcf5b3b5831b7a2d2f28528669102510709ca76045e89d53b614",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/dark-sacrifice-potion-675787cfd8855808.json",
+      "id": "675787cfd8855808",
+      "type": "consumable",
+      "sha256": "cc9170cb6b91f06a9d07e31a2e58bf4e150101303affbf3d5210e8f8e06fe6ff"
+    }
+  },
+  "wiki:compounds:ultimate:item:deathlessness-potion": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "2fee99d367ed7c2c855bfca76505c4f52dea85043dddf23b72beeb6942f320dc",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. One dose, negligible source weight; subtle pink hue is described in the source. No general +4 saves, permanent immunity, martial focus, negative-level armor chance or automatic target change.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Deathless",
+        "candidates": [
+          {
+            "key": "deathless",
+            "name": "Deathless",
+            "uuid": "Compendium.pf-content.pf-special-qualities.Item.wxVW11tOabmiFuLq",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-special-qualities",
+            "type": "feat",
+            "subType": "misc",
+            "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "25f869223f9cdd606cc8f7aa4f3053576149d2c471378ec1fe7a2f1712972871",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "deathless",
+            "name": "Deathless",
+            "uuid": "Compendium.pf1.spells.Item.axl8z3mae9ydejlt",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "spells",
+            "type": "spell",
+            "subType": null,
+            "img": "icons/magic/death/undead-skeleton-worn-blue.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "55a8179ed4dba972a28a47ef0ae495f2e4170505caddc0d4a36a4ebda884cc9b",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "deathless",
+            "name": "Deathless",
+            "uuid": "Compendium.pf1spheres.combat-talents.Item.rbfP5616p00CSwoc",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "combat-talents",
+            "type": "feat",
+            "subType": "combatTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/berserker.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "fff9bb4269b81333bcd33f162590906047f18c8c6dd74141b5ceec0ced8427be",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "deathless",
+            "name": "Deathless",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.76TaHNMQMGNNeoVd",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "c923f987924507547b77d9f89ae2c9d2f597014a158847359e37e14e15430284",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Potion of Death Ward",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/potions/minor-empty.jpg",
+      "source": {
+        "key": "dead-air-vial",
+        "name": "Dead Air (Vial)",
+        "uuid": "Compendium.pf-content.pf-items.Item.th5G4pZlNRuvINFM",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-items",
+        "type": "consumable",
+        "subType": "potion",
+        "img": "systems/pf1/icons/items/potions/minor-empty.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4a061c7ac008c0989c1aaa43dafae36a13f3dd3648cb892e86b6c25e73313ca8",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/deathlessness-potion-5b1f6cbc417c8465.json",
+      "id": "5b1f6cbc417c8465",
+      "type": "consumable",
+      "sha256": "3505a32faea53747fdf76b9079c5cb483effb4c5d789ea5975082759eced98c1"
+    }
+  },
+  "wiki:compounds:ultimate:item:electric-oil": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "29abd5eaded22d4fcf8f3454ed32927d62ca38b09725bdcb2c22c6cded986e7f",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. Minor tier only: +2d6, not +5d6/+10d6. The source oil grants +3 on the qualifying attack, not the installed Electric Blast talent's separate AC/save penalties. No weapon is bundled, and no permanent weapon enhancement is added.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Electric Blast",
+        "candidates": [
+          {
+            "key": "electric-blast",
+            "name": "Electric Blast",
+            "uuid": "Compendium.pf1.class-abilities.Item.xnjjIPQZ7hBsE8uB",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "class-abilities",
+            "type": "feat",
+            "subType": "classFeat",
+            "img": "systems/pf1/icons/spells/lighting-sky-1.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "445fd0055f51c7a0ddfbe0bef926b3dfeeecc4552db70693068093df60d3b756",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "electric-blast",
+            "name": "Electric Blast",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.vT54QIdZuL6aG0h8",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/destruction.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "54fcebba6fbf21c98c978c067e6079c516eee03e3b9ae33fc7772420f9b8d857",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Oil of Magic Weapon",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+      "source": {
+        "key": "oil",
+        "name": "Oil",
+        "uuid": "Compendium.pf1.items.Item.rohumljcegubpudf",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "loot",
+        "subType": "gear",
+        "img": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "7cff938e27f8110b772f1db840197201c9cd3a3caa768ee4cef4e423562eb780",
+        "nativeActions": 4,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/electric-oil-b39a945d0f78bdee.json",
+      "id": "b39a945d0f78bdee",
+      "type": "consumable",
+      "sha256": "5cba54df8f5dcc0b05e006cd2f64134098b0eff94b9ef9f7a256465d9254b840"
+    }
+  },
+  "wiki:compounds:ultimate:item:ghost-sight-potion": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "a6bebe9c9d5859b43e7a095e1600c657f8a64bbcd36add86ebf635b21a25ac11",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. Lesser tier only, with check/line-of-sight gates. No actor-CL scaling, all-Perception bonus, automatic detection or permanent sense.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Ghost Sight",
+        "candidates": [
+          {
+            "key": "ghost-sight",
+            "name": "Ghost Sight",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.zZyTJbfsBzQtEZpb",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "186d1d07521d8dc122e7801748285fa0062062f9e539e37c7b112340ab743ed6",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Potion of See Invisibility",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/potions/minor-blue.jpg",
+      "source": {
+        "key": "stillgut-vial",
+        "name": "Stillgut (Vial)",
+        "uuid": "Compendium.pf-content.pf-items.Item.ad7MsbLe5KbseILL",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-items",
+        "type": "consumable",
+        "subType": "potion",
+        "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "b2cd31acb232d447e4eba3ced4f99c3631eb67624513927fa1e5a67be84c1b8d",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/ghost-sight-potion-a722f57ad9248b4c.json",
+      "id": "a722f57ad9248b4c",
+      "type": "consumable",
+      "sha256": "0f87287428f12c94247c4faa709a2ca52d1e45a15238a6b3994feed1582b6785"
+    }
+  },
+  "wiki:compounds:ultimate:item:hallow-word-oil": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "e0b97a1ec5e9a42b74d988adad2a384b30b30df944ebc1ec51762dea9ba406f8",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. Preserve the complete source body and discrepancy under #44. No blanket +1, Protection from Evil's +2 deflection/resistance, arbitrary alignment selection or permanent immunity. Resolve possession/control and any suppression duration on the actual effect.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Hallow",
+        "candidates": [
+          {
+            "key": "hallow",
+            "name": "Hallow",
+            "uuid": "Compendium.pf1.spells.Item.vxmp5prgw5fj4h6f",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "spells",
+            "type": "spell",
+            "subType": null,
+            "img": "icons/magic/light/beam-rays-blue.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "1fe8692933e8f4d87199bf7cf96d8bbc6a61cc19aad259873919ebc44d9b99cf",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "hallow",
+            "name": "Hallow",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.ClSmrJC3xAdJGFmi",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "d5ddf225ad2b8e44f13aa9a3869d45ae6635077d68e12e998e6fc43edc469e52",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Protection from Evil",
+        "candidates": [
+          {
+            "key": "protection-from-evil",
+            "name": "Protection From Evil",
+            "uuid": "Compendium.pf-content.pf-buffs.Item.lDsREstT0RbVJ14v",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-buffs",
+            "type": "buff",
+            "subType": "spell",
+            "img": "systems/pf1/icons/spells/light-sky-2.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "056e253a8443f047ad96d7e959b1cc6ba0ac3c8da4b90ea0c42937cc4168d403",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "protection-from-evil",
+            "name": "Protection from Evil",
+            "uuid": "Compendium.pf1.spells.Item.skgjjub1hng29nwo",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "spells",
+            "type": "spell",
+            "subType": null,
+            "img": "icons/magic/defensive/barrier-shield-dome-deflect-blue.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "ad63241cde5ffdb91c17625bc6a6f6dca1d007e5bfdc8772d9b900952ba156b5",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Potion of Protection from Evil",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+      "source": {
+        "key": "oil",
+        "name": "Oil",
+        "uuid": "Compendium.pf1.items.Item.rohumljcegubpudf",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "loot",
+        "subType": "gear",
+        "img": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "7cff938e27f8110b772f1db840197201c9cd3a3caa768ee4cef4e423562eb780",
+        "nativeActions": 4,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/hallow-word-oil-46a0ca964289dafc.json",
+      "id": "46a0ca964289dafc",
+      "type": "consumable",
+      "sha256": "f94a2a92c47419946f5297b83f6bf10f2435ec5b69055669fbb3c04321a8ea28"
+    }
+  },
+  "wiki:compounds:ultimate:item:quintessential-oil": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "18b304267952a43d7cd87360dcbe55509366bc9e8437ae20cd654d5bf01cb9e3",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. Initially unimbued clear-ish oil; source-defined color depends on the selected sphere ability. Imbuing uses actual ability timing, so unspecified generic timing stays Special. Contact, four-hour expiry and potency are manually tracked; no effect is selected or permanently granted. The four-hour contact window belongs to completed preparation, not the stored effect after expenditure; #46.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Potion",
+        "candidates": []
+      },
+      {
+        "name": "Oil",
+        "candidates": [
+          {
+            "key": "oil",
+            "name": "Oil",
+            "uuid": "Compendium.pf-content.pf-items.Item.CrVb5bA2SCSatcUC",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-items",
+            "type": "consumable",
+            "subType": "adventuring",
+            "img": "icons/tools/laboratory/bowl-liquid-black.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "87c6b5a0e723de691987746030234a926c5002616f7cb9c293dbda8202f08987",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "oil",
+            "name": "Oil",
+            "uuid": "Compendium.pf1.items.Item.rohumljcegubpudf",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "loot",
+            "subType": "gear",
+            "img": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "7cff938e27f8110b772f1db840197201c9cd3a3caa768ee4cef4e423562eb780",
+            "nativeActions": 4,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Poison, Contact",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/potions/minor-empty.jpg",
+      "source": {
+        "key": "dead-air-vial",
+        "name": "Dead Air (Vial)",
+        "uuid": "Compendium.pf-content.pf-items.Item.th5G4pZlNRuvINFM",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-items",
+        "type": "consumable",
+        "subType": "potion",
+        "img": "systems/pf1/icons/items/potions/minor-empty.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4a061c7ac008c0989c1aaa43dafae36a13f3dd3648cb892e86b6c25e73313ca8",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/quintessential-oil-5efa2c8c575f4be1.json",
+      "id": "5efa2c8c575f4be1",
+      "type": "consumable",
+      "sha256": "154ea727b2c57fc6c320069a8631cb97d2e5957e014f4b0eab47692c1d009e18"
+    }
+  },
+  "wiki:compounds:ultimate:item:relic-blessing-oil": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "f766b2260b76fc83a1d447d5c1c54affef180babf1ecc545beaf8f6d979c6aa4",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. One oil dose, not a bundled weapon, permanent aligned object or four simultaneous alignments. The focus benefit applies to objects; the additional damage/DR benefit applies only to anointed weapons.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Align Object",
+        "candidates": [
+          {
+            "key": "align-object",
+            "name": "Align Object",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.JHhRNsd1KokSJfwQ",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "1826005631eb10358dccc3011bcf4858c29c96fbac15cd4e53bdab34eb769931",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Oil of Bless Weapon",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+      "source": {
+        "key": "oil",
+        "name": "Oil",
+        "uuid": "Compendium.pf1.items.Item.rohumljcegubpudf",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "loot",
+        "subType": "gear",
+        "img": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "7cff938e27f8110b772f1db840197201c9cd3a3caa768ee4cef4e423562eb780",
+        "nativeActions": 4,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/relic-blessing-oil-c7b43af99d5b2357.json",
+      "id": "c7b43af99d5b2357",
+      "type": "consumable",
+      "sha256": "c5bf36df17132c9dfb551c0f04f57b43b4786cfa7a39e35dbeb7470d4616394e"
+    }
+  },
+  "wiki:compounds:ultimate:item:renewal-elixir": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "6f4b6d998a42c6c7c87224a5e4f45b9112d0ff75848d898f7f67236c9442d221",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. One dose, negligible source weight. Consumption is a physical quantity, while once-per-day benefit is a separate per-drinker limit across copies. No maximum-pool increase, class/CAM assumption, automatic resource edit or baking use.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Elixir",
+        "candidates": [
+          {
+            "key": "elixir",
+            "name": "Elixir",
+            "uuid": "Compendium.pf1spheres.combat-talents.Item.AdCJZUQypighKmA1",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "combat-talents",
+            "type": "feat",
+            "subType": "combatTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "3953b160f64c2da5c28beda1777a5b858a4a24e1d22154b4d15a0199e7e3351a",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Potion of Cure Moderate Wounds",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+      "source": {
+        "key": "preserving-flask-1st-level",
+        "name": "Preserving Flask 1st-level",
+        "uuid": "Compendium.pf-content.pf-wondrous.Item.7XOyYOVj44kMUhSj",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-wondrous",
+        "type": "equipment",
+        "subType": "wondrous",
+        "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "ffeb11f02a9aa5845237cb6513d1b07a7015de7d5c2b972d082feda66ded4e23",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/renewal-elixir-a16159a52ca1e04b.json",
+      "id": "a16159a52ca1e04b",
+      "type": "consumable",
+      "sha256": "4d3fb45a4fab5b685a9eb5f8a907c9f074cfb0bc39b2797b461308c136bfe3b3"
+    }
+  },
+  "wiki:compounds:ultimate:item:see-hazard-potion": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "56fce891463f29728a38cb04f71f04972cee12e4c7360527fdd18218a08f4fef",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. Lesser tier only; no Trapfinding grant, automatic detection, general Perception modifier, Disable Device bonus or eight-hour duration.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "See Hazard",
+        "candidates": [
+          {
+            "key": "see-hazard",
+            "name": "See Hazard",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.Hroca8BRYAbJshEV",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "5db9dafe7125d4fa9fa58d47cad4558cca3ef3c64f985c4beba3b1f0f3c27f9e",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "See Hazards",
+        "candidates": []
+      },
+      {
+        "name": "Potion of Find Traps",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/potions/minor-blue.jpg",
+      "source": {
+        "key": "stillgut-vial",
+        "name": "Stillgut (Vial)",
+        "uuid": "Compendium.pf-content.pf-items.Item.ad7MsbLe5KbseILL",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-items",
+        "type": "consumable",
+        "subType": "potion",
+        "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "b2cd31acb232d447e4eba3ced4f99c3631eb67624513927fa1e5a67be84c1b8d",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/see-hazard-potion-5f009eedcc1b79bf.json",
+      "id": "5f009eedcc1b79bf",
+      "type": "consumable",
+      "sha256": "e64247b7c87d16706b101d70faff6615cb540afdcf462d838dd6241794190f83"
+    }
+  },
+  "wiki:compounds:ultimate:item:sidhe-visage-potion": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "f62b3c58bf3b87ce879d026167d341f1a2265c15908a14358c50c9f575e41c77",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. One dose. No permanent actor type rewrite, subtype removal, charm effect, broad +2 skills or automatic Fey Beauty/talent grant.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Fey Beauty",
+        "candidates": [
+          {
+            "key": "fey-beauty",
+            "name": "Fey Beauty",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.3Ka8fs2cnVqco5KC",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "183f56ad27f30fdf1f6125798d3411435a27e8f57ccd449e78ffbdaba0a5d82c",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Elixir of Love",
+        "candidates": [
+          {
+            "key": "elixir-of-love",
+            "name": "Elixir of Love",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.C8mnqqS7mw0qUh7H",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "wondrous",
+            "img": "icons/svg/item-bag.svg",
+            "hasDescription": true,
+            "placeholderImage": true,
+            "sha256": "0623eadaee977d92e56efa9a0bcaad3ebf70767864f18a126c8ba5929817b3ff",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/potions/minor-green.jpg",
+      "source": {
+        "key": "oil-snake",
+        "name": "Oil, Snake",
+        "uuid": "Compendium.pf1.items.Item.3V5aC0PcNcsBCEPh",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "consumable",
+        "subType": "potion",
+        "img": "systems/pf1/icons/items/potions/minor-green.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "63434008c5a8b588022ad41b241eccca7c4d9d30faa80db06b305c07d5a735ba",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/sidhe-visage-potion-89568626c1bcb612.json",
+      "id": "89568626c1bcb612",
+      "type": "consumable",
+      "sha256": "a8ccae9a96e0ddf6930533a38bef499fdde5a072b4f7831e855a51aaa7ca625c"
+    }
+  },
+  "wiki:compounds:ultimate:item:size-increase-potion": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "f266f75451f9213b8753ce8dea544ea2bbb207ec14ca3c59bffc235ee8a2567f",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. Source one-step cap remains authoritative. Do not import Vanara's fixed Small form or generic Enlarge Person restrictions wholesale. Temporary size/form resolution is manual.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Size Change",
+        "candidates": [
+          {
+            "key": "change-size",
+            "name": "Change Size",
+            "uuid": "Compendium.pf-content.pf-buffs.Item.v0qhJuc8F4ZPs4lZ",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-buffs",
+            "type": "buff",
+            "subType": "feat",
+            "img": "systems/pf1/icons/races/vanara.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "5c7b0ca71194386e0e5a9a0771736cc12871ecaafe243b5233a7d8914bba2318",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "reordered-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "change-size",
+            "name": "Change Size",
+            "uuid": "Compendium.pf-content.pf-racial-traits.Item.OrBsTYxtz2gkCF62",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-racial-traits",
+            "type": "feat",
+            "subType": "racial",
+            "img": "systems/pf1/icons/races/vanara.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "bba00e1a68e983b8aa46870ab384b07a035079d50a8eed20a5163f23f8b09a6a",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "reordered-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "size-change",
+            "name": "Size Change",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.Ece1ls8D7HFdXk7v",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "37ab120ca7bdb9ead4c0dda5c348551fcdf69d393aa6e5174ab04edecc0bea62",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Potion of Enlarge Person",
+        "candidates": []
+      },
+      {
+        "name": "Enlarge Person",
+        "candidates": [
+          {
+            "key": "enlarge-person",
+            "name": "Enlarge Person",
+            "uuid": "Compendium.pf1.buffs.Item.1ovEWVzSp5yZXeVm",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "buffs",
+            "type": "buff",
+            "subType": "spell",
+            "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "eb3e31125342a654ed2288adfb78e840dd35442f5d57199b5a89239553671d6e",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "enlarge-person",
+            "name": "Enlarge Person",
+            "uuid": "Compendium.pf1.spells.Item.jnlr9cuepka1l26e",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "spells",
+            "type": "spell",
+            "subType": null,
+            "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "a8481cd36086681be87a58564803ede2f5b12ea60657f35902bed829456d92b2",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/potions/minor-red.jpg",
+      "source": {
+        "key": "fireskin-elixir",
+        "name": "Fireskin Elixir",
+        "uuid": "Compendium.pf-content.pf-items.Item.EeVSXeJcVtiDqy1r",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-items",
+        "type": "consumable",
+        "subType": "drug",
+        "img": "systems/pf1/icons/items/potions/minor-red.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "e9e0d276497cbcf5b3b5831b7a2d2f28528669102510709ca76045e89d53b614",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/size-increase-potion-421ce46c582195b8.json",
+      "id": "421ce46c582195b8",
+      "type": "consumable",
+      "sha256": "8cb1536b4ea7bab3cfd7487c35ce280b2708df698801c14955e49d1176d9a528"
+    }
+  },
+  "wiki:compounds:ultimate:item:size-reduction-potion": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "cfd974edeca928deff9b91afd91a3498b16d74028a123cb3e3d9877d0b957c91",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. Source one-step cap remains authoritative. Do not import Vanara's fixed Small form or generic Reduce Person restrictions wholesale. Temporary size/form resolution is manual.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Size Change",
+        "candidates": [
+          {
+            "key": "change-size",
+            "name": "Change Size",
+            "uuid": "Compendium.pf-content.pf-buffs.Item.v0qhJuc8F4ZPs4lZ",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-buffs",
+            "type": "buff",
+            "subType": "feat",
+            "img": "systems/pf1/icons/races/vanara.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "5c7b0ca71194386e0e5a9a0771736cc12871ecaafe243b5233a7d8914bba2318",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "reordered-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "change-size",
+            "name": "Change Size",
+            "uuid": "Compendium.pf-content.pf-racial-traits.Item.OrBsTYxtz2gkCF62",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-racial-traits",
+            "type": "feat",
+            "subType": "racial",
+            "img": "systems/pf1/icons/races/vanara.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "bba00e1a68e983b8aa46870ab384b07a035079d50a8eed20a5163f23f8b09a6a",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "reordered-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "size-change",
+            "name": "Size Change",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.Ece1ls8D7HFdXk7v",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "37ab120ca7bdb9ead4c0dda5c348551fcdf69d393aa6e5174ab04edecc0bea62",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Potion of Reduce Person",
+        "candidates": []
+      },
+      {
+        "name": "Reduce Person",
+        "candidates": [
+          {
+            "key": "reduce-person",
+            "name": "Reduce Person",
+            "uuid": "Compendium.pf1.buffs.Item.Z140LMTwEKHQXdW5",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "buffs",
+            "type": "buff",
+            "subType": "spell",
+            "img": "icons/magic/control/silhouette-grow-shrink-blue.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "12d794ec923191401c23d1ad110091978da02b6435bdc9c21af2a9f0e1e4d0d1",
+            "nativeActions": 0,
+            "hasChanges": true,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "reduce-person",
+            "name": "Reduce Person",
+            "uuid": "Compendium.pf1.spells.Item.2y9e1l6zso9tdg0a",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "spells",
+            "type": "spell",
+            "subType": null,
+            "img": "icons/magic/control/silhouette-grow-shrink-blue.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "e76432d5d5510f63de58ac82eb2cc9451ba9228f62819edd5cb9248941f42498",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/potions/minor-blue.jpg",
+      "source": {
+        "key": "stillgut-vial",
+        "name": "Stillgut (Vial)",
+        "uuid": "Compendium.pf-content.pf-items.Item.ad7MsbLe5KbseILL",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-items",
+        "type": "consumable",
+        "subType": "potion",
+        "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "b2cd31acb232d447e4eba3ced4f99c3631eb67624513927fa1e5a67be84c1b8d",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/size-reduction-potion-56646af6a786c72e.json",
+      "id": "56646af6a786c72e",
+      "type": "consumable",
+      "sha256": "185e3022dc2ac65f5a8f36d4e87aeeab0b101be3634e00f408077157c44d20e0"
+    }
+  },
+  "wiki:compounds:ultimate:item:spell-cleansing-elixir-greater": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "8570f89eaebce445ff87a6e02c8cccf7905a80dc71bc1a3a7f39c8389ed866b3",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. One dose, no native daily pool. Use the Spheres component/version, not the conventional same-named feat or Break Enchantment spell. This elixir affects only chosen ongoing effects on the drinker.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Improved Counterspell",
+        "candidates": [
+          {
+            "key": "improved-counterspell",
+            "name": "Improved Counterspell",
+            "uuid": "Compendium.pf1.feats.Item.V8GIvVaAofyw9xIl",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "feats",
+            "type": "feat",
+            "subType": "feat",
+            "img": "systems/pf1/icons/feats/improved-counterspell.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "22468aea1d1212a7617a2195e214f321a1870182de6657b50cb4eb4fc0dbee4c",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "counterspell-improved",
+            "name": "Counterspell, Improved",
+            "uuid": "Compendium.pf1spheres.sphere-feats.Item.MPsuhxQcH8e0UkG5",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "sphere-feats",
+            "type": "feat",
+            "subType": "feat",
+            "img": "icons/svg/item-bag.svg",
+            "hasDescription": true,
+            "placeholderImage": true,
+            "sha256": "fa91ed8b19ae35604438062f2733d3f5368fd516f4c34243376aa034cce49e23",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "reordered-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Break Enchantment",
+        "candidates": [
+          {
+            "key": "break-enchantment",
+            "name": "Break Enchantment",
+            "uuid": "Compendium.pf1.spells.Item.myg2b9ww43nnlbr2",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "spells",
+            "type": "spell",
+            "subType": null,
+            "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "296c01bed19fbbfdb3cbe8cda3f888841089cabd3c9b8ec8c5540209d2512971",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "break-enchantment",
+            "name": "Break Enchantment",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.qTABv8DrVsDK50F8",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/life.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "9911a560eb81b0899780fb3ed3afa1d557ca400cf90ee4b6a59e038ad960f1db",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Potion of Dispel Magic",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/potions/minor-green.jpg",
+      "source": {
+        "key": "oil-snake",
+        "name": "Oil, Snake",
+        "uuid": "Compendium.pf1.items.Item.3V5aC0PcNcsBCEPh",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "consumable",
+        "subType": "potion",
+        "img": "systems/pf1/icons/items/potions/minor-green.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "63434008c5a8b588022ad41b241eccca7c4d9d30faa80db06b305c07d5a735ba",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/spell-cleansing-elixir-greater-bc38163c65f27655.json",
+      "id": "bc38163c65f27655",
+      "type": "consumable",
+      "sha256": "f2aada3475dd43b09bb7ccae8c746b2a9952769dc2d03bd452770a84016da6e0"
+    }
+  },
+  "wiki:compounds:ultimate:item:spell-cleansing-elixir-lesser": {
+    "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+    "descriptionSha256": "ae5535c90abfed1d9261882912916ccfc66e53de1adb36169efe97a90404d74a",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-3-compounds",
+    "decision": "original",
+    "reason": "No adequate same-rules complete record. Native single-dose profile with explicit tier and source-specific procedure. Preserve the published 250 gp purchase price and original 175 gp construction figure without deriving one from the other. One dose affects a single chosen ongoing effect on the drinker, not all magic or a generic Break Enchantment spell.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Counterspell",
+        "candidates": [
+          {
+            "key": "counterspell",
+            "name": "Counterspell",
+            "uuid": "Compendium.pf1.class-abilities.Item.IPJqsPrrMnudA70e",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "class-abilities",
+            "type": "feat",
+            "subType": "classFeat",
+            "img": "systems/pf1/icons/spells/runes-blue-2.jpg",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "935c3222cc1912261f3a558e2cacb37c1a80e1d3079bece1e22ad896b843a6fe",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "counterspell",
+            "name": "Counterspell",
+            "uuid": "Compendium.pf1spheres.sphere-feats.Item.2ZEXANYmRTJ8xOtn",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "sphere-feats",
+            "type": "feat",
+            "subType": "feat",
+            "img": "icons/svg/item-bag.svg",
+            "hasDescription": true,
+            "placeholderImage": true,
+            "sha256": "2781e7fcc55f4577603a71697928525f6a75f35b7f5056ada505d4b048bda21c",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Break Enchantment",
+        "candidates": [
+          {
+            "key": "break-enchantment",
+            "name": "Break Enchantment",
+            "uuid": "Compendium.pf1.spells.Item.myg2b9ww43nnlbr2",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "spells",
+            "type": "spell",
+            "subType": null,
+            "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "296c01bed19fbbfdb3cbe8cda3f888841089cabd3c9b8ec8c5540209d2512971",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          },
+          {
+            "key": "break-enchantment",
+            "name": "Break Enchantment",
+            "uuid": "Compendium.pf1spheres.magic-talents.Item.qTABv8DrVsDK50F8",
+            "provider": "pf1spheres",
+            "version": "0.9.0",
+            "pack": "magic-talents",
+            "type": "feat",
+            "subType": "magicTalent",
+            "img": "modules/pf1spheres/assets/icons/spheres/life.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "9911a560eb81b0899780fb3ed3afa1d557ca400cf90ee4b6a59e038ad960f1db",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Full record is another rules object, version, component, tier or physical form. Relevant native interface or artwork may be reused separately with source overrides; do not import its unrelated behavior."
+          }
+        ]
+      },
+      {
+        "name": "Potion of Dispel Magic",
+        "candidates": []
+      }
+    ],
+    "artwork": {
+      "path": "systems/pf1/icons/items/potions/minor-blue.jpg",
+      "source": {
+        "key": "stillgut-vial",
+        "name": "Stillgut (Vial)",
+        "uuid": "Compendium.pf-content.pf-items.Item.ad7MsbLe5KbseILL",
+        "provider": "pf-content",
+        "version": "11.4.0",
+        "pack": "pf-items",
+        "type": "consumable",
+        "subType": "potion",
+        "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "b2cd31acb232d447e4eba3ced4f99c3631eb67624513927fa1e5a67be84c1b8d",
+        "nativeActions": 0,
+        "hasChanges": false,
+        "hasContents": false,
+        "match": "normalized-name"
+      },
+      "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "output": {
+      "file": "src/packs/items/compounds/spell-cleansing-elixir-lesser-db11d18bcda0271e.json",
+      "id": "db11d18bcda0271e",
+      "type": "consumable",
+      "sha256": "e725df03cc1129470120a29ae8256db336308563c047ed21123b52931055a198"
+    }
   }
 }

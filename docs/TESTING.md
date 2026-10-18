@@ -594,3 +594,86 @@ and only local database copies were opened. Audit confirmed route /auth.
 These checks cover the reviewed native helper scope. Broader lifecycle/non-GM,
 specialized casting, scene/target effects and source questions remain deferred.
 No verified compatibility claim, automatic world-copy update or public release.
+
+## First third-batch compound acceptance (2026-10-17)
+
+Draft PR #45 depends on #43. Final head CI results are recorded on GitHub.
+
+Implementation/deployed commit 414d5b44ee0de46b70f17dc3630702677ff22da2,
+module 0.1.0-alpha.6, dedicated Additional Spheres Content Test world,
+Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0. Clean full gate passed
+110 tests, all 6,788 compiler round trips and two identical 797-file ZIPs.
+ZIP SHA-256: 37ae464d47b5ff29e17594349cf734f523b211c8cfa5a2e59b6d894b17ed9569.
+
+Guarded preview, staged deployment and installed-byte verification passed.
+Ten rollback copies retained, one authorized oldest copy rotated, no host
+restart or world migration. Only the declared two modules were active.
+
+Five fresh native item transfers passed. Common Cure consumed quantity 1 -> 0
+and rolled 7 positive healing from fixed 1d8+1. The roll was verified; no actor
+HP application was simulated. Quintessential preparation retained quantity one;
+expenditure reduced it to zero. No real sphere spell/cost/contact was fabricated.
+Animate Object Oil consumed one dose and its chat card showed one-minute
+application and twenty-minute selected-tier duration, with the full source table
+and Tiny construct limits. No construct actor/token was created.
+
+Lesser Spell Cleansing and Renewal each consumed quantity 1 -> 0. The fixed
+1d20+5 link rolled 20 (die 15), without another dose. Actual target/DC/dispelling
+was manual. Renewal's two-point recovery cap, one-round daze and once-per-drinker
+daily restriction were visible; no spell-point pool was edited. Spent items
+remained at zero quantity. Full source text, images and source links rendered.
+Structured evidence and screenshot are ignored at .local/batch3-compounds-native.json
+and .local/batch3-compounds-accepted.png.
+
+Browser capture: zero errors and 77 framework deprecation warnings. Server:
+159 informational records since deployment, no warnings/errors or daily error
+file. Returned to Setup. Full installed semantic audit passed in 89.10 seconds
+for all 6,788 records, receipt bytes and image hashes against the immutable
+deployed commit, unchanged remote snapshots and local database copies only.
+The helper confirmed no active game at /auth.
+
+Native helper scope is verified; specialized target effects, temporary forms,
+elapsed preparation/expiry and broader lifecycle/non-GM acceptance remain
+deferred. No verified compatibility claim, public release or automatic update
+of existing world copies. The new draft depends on unmerged #43 and needs its
+own merge approval.
+
+## Prepared-oil contact-window correction (2026-10-18)
+
+Issue #46 follows the twenty-compound acceptance above in draft PR #45.
+Quintessential Oil's four-hour label now belongs to preparation, starting after
+imbuing completes. Expenditure does not impose a duration on the stored ability.
+Only the two helper annotations and their review hashes changed; original rules,
+stable item/action IDs, price, weight, artwork and zero/one dose costs remain intact.
+The added regression failed before the correction and passed afterward.
+
+Corrected implementation/deployed commit
+0f7f23b0c48f465309d69ff906f791ea4b47da32, module 0.1.0-alpha.6,
+Additional Spheres Content Test, Foundry 13.351 / PF1 11.11 /
+pf1spheres 0.9.0. Clean full gate passed 111 tests, all 6,788 compiler
+round trips and two identical 797-file ZIPs. ZIP SHA-256:
+5397cc19f39143d0dbddce70e659a0c4a58a793f238ee51d9fa50a5d78c4450e.
+Guarded preview, staged deployment and installed-byte verification passed.
+Ten rollback copies retained, one authorized oldest copy rotated; no restart.
+
+A fresh compendium transfer to ASC Charm Bonus Acceptance produced item
+yGfNIsgBdr1SX5CG. Imbue Unprepared Oil left quantity 1 -> 1 and its native
+chat card showed Special / 4 Hours / Quantity: 1, with the window explicitly
+starting after imbuing. Expend Prepared Dose consumed quantity 1 -> 0 and
+showed Special / Quantity: 0 / Charge Cost: 1 without a four-hour duration
+label. Its note explicitly retains the stored ability's own duration. The spent
+copy and earlier comparison copy remain; no automatic world migration occurred.
+Both declared modules were active. Actual sphere casting, spell-point payment,
+first contact, elapsed expiry and stored-effect application remain manual.
+The other nineteen sources and earlier representative acceptance remain unchanged.
+
+Browser capture: zero errors, 77 framework deprecation warnings. Scoped server
+capture: 156 informational records, no warnings/errors or daily error file.
+Returned to Setup. Final complete installed semantic audit passed in 46.58
+seconds against immutable 0f7f23b: all 6,788 documents, non-pack receipt bytes
+and referenced external image hashes. Remote database snapshots remained unchanged;
+only local copies were opened. The helper confirmed route /auth. Evidence is
+ignored at .local/quintessential-window-native.json, preparation.png and
+accepted.png with the same prefix; audit, deployment and log summaries remain local.
+Windows and Ubuntu CI passed on implementation 0f7f23b; final documentation-head
+results are recorded on PR #45. No compatibility claim, tag or public release.

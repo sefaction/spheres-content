@@ -1,0 +1,2383 @@
+{
+  "schemaVersion": 1,
+  "reviewed": "2026-10-17",
+  "system": "pf1",
+  "version": "11.11",
+  "sourceFiles": [
+    {
+      "file": "module/components/action.mjs",
+      "sha256": "c2f020560bb0fa76cc98d2fa64fe72434f959be774baac2116d3ad9ceb64e3b1"
+    },
+    {
+      "file": "module/documents/item/item-pf.mjs",
+      "sha256": "efc62c8106ef10d9b6e04e6e1e84bbd45b84e32739ded4894178d589b85f5f66"
+    },
+    {
+      "file": "module/documents/item/item-consumable.mjs",
+      "sha256": "34edb8cddc96d0a37b82533814bd1c13e76e77f7eebd5463de725e7371b5052b"
+    },
+    {
+      "file": "module/action-use/action-use.mjs",
+      "sha256": "a87771ae46dce917e4001639bfd0175b7b02deb471a7792d7073ac1b7ecdd9ac"
+    },
+    {
+      "file": "packs/rules/combat.pq1DpUWzXjWih8g2.yaml",
+      "sha256": "bdb9f698bba24f1bd50066f99d7a3b3abf6f6a281a127bc47c64ae2b61696d67"
+    }
+  ],
+  "sourceSnapshot": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+  "interfaces": {
+    "quantity": "Native single-use consumes actual quantity; no daily item pool or infinite refills.",
+    "timing": "PF1 drinking a potion/applying an oil: standard/two acts. Animate Object Oil explicitly one minute; unimbued Quintessential preparation uses actual sphere timing, Special helper.",
+    "healing": "Common Cure fixed 1d8+1 positive healing; full Cure Life and Cure Light Wounds native action interfaces reviewed. No CL scaling or HP mutation hook.",
+    "checks": "Fixed source MSB/check reminders are native inline rolls; actual targets/DCs/outcomes manual.",
+    "temporaryEffects": "No persistent changes or automatic buff/world/token/actor edits. Selected base tiers and source caps override comparison components.",
+    "sourceAmbiguity": "Hallow wording under #44; preserve original text. Published lesser dispel purchase 250 and construction 175 remain distinct without deriving either.",
+    "preparedOilWindow": "Issue #46: four hours is the contact window after completed imbuing, shown on the preparation helper. Expenditure applies no generic duration to the stored ability."
+  },
+  "reuseEvidence": [
+    {
+      "key": "animate-object",
+      "name": "Animate Object",
+      "uuid": "Compendium.pf1spheres.magic-talents.Item.HREavKaqQZl2sGeJ",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "magic-talents",
+      "type": "feat",
+      "subType": "magicTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/enhancement.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "da50a9b4d81ad92c2db4fcd9a1e9b10c4093dcf8cef0ef58a6dd8b5e97effece",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "trapfinding",
+      "name": "Trapfinding",
+      "uuid": "Compendium.pf1.class-abilities.Item.pEODJDoTk7uhCZY7",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "class-abilities",
+      "type": "feat",
+      "subType": "classFeat",
+      "img": "systems/pf1/icons/items/inventory/lockpick.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "36bcd23cf22dd5a3a73c83296f8570c999584f25e58d437146d5fd8020ac6d93",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "trapfinding",
+      "name": "Trapfinding",
+      "uuid": "Compendium.pf1e-archetypes.pf-prestige-features.Item.m3Pkw4T28k30UPay",
+      "provider": "pf1e-archetypes",
+      "version": "11.0.1",
+      "pack": "pf-prestige-features",
+      "type": "feat",
+      "subType": "classFeat",
+      "img": "systems/pf1/icons/skills/mech_5.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "50447cb9b04d99549d0c645a8240acb4de8e27e4dff69ddbf072582fc9a3048c",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "trapfinding",
+      "name": "Trapfinding",
+      "uuid": "Compendium.pf1spheres.class-features.Item.7SsVqRA3clDyn0Cg",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "class-features",
+      "type": "feat",
+      "subType": "classFeat",
+      "img": "icons/svg/item-bag.svg",
+      "hasDescription": true,
+      "placeholderImage": true,
+      "sha256": "ee54d3c174a3ee3b809d9c845089ef4c9b75d6ce002e41ae049b92144c2a95b5",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "trapfinding",
+      "name": "Trapfinding",
+      "uuid": "Compendium.pf1spheres.magic-talents.Item.LkHrBp5kwSBCjkHy",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "magic-talents",
+      "type": "feat",
+      "subType": "magicTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "28ec36a7badacaa713e396f8d13012118cb0da02a94cb0767684ccd7f7eb0c5a",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "see-hazard",
+      "name": "See Hazard",
+      "uuid": "Compendium.pf1spheres.magic-talents.Item.Hroca8BRYAbJshEV",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "magic-talents",
+      "type": "feat",
+      "subType": "magicTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "5db9dafe7125d4fa9fa58d47cad4558cca3ef3c64f985c4beba3b1f0f3c27f9e",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "blank-transformation",
+      "name": "Blank Transformation",
+      "uuid": "Compendium.pf1spheres.magic-talents.Item.6QFm0t7XngtWQTdX",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "magic-talents",
+      "type": "feat",
+      "subType": "magicTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "effcfdaf654b129025f1e6bf6752be07710c8dc69dba48b7b5c8cd8bde512f2b",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "powerful-limbs",
+      "name": "Powerful Limbs",
+      "uuid": "Compendium.pf1spheres.magic-talents.Item.JP0ILDQePqsZGvjk",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "magic-talents",
+      "type": "feat",
+      "subType": "magicTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "c7e33266b140dba2955798f76f9427d6241e84d46cb18709674139edb713ea00",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "restoration-lesser",
+      "name": "Restoration, Lesser",
+      "uuid": "Compendium.pf1.spells.Item.fxz69pwpqt9b6uss",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "spells",
+      "type": "spell",
+      "subType": null,
+      "img": "systems/pf1/icons/spells/heal-jade-1.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "a13878e40d1b7e15157b87ddcdb26b4c88fee235ec8137a92fcf7dc5a00ba7c4",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "reordered-name"
+    },
+    {
+      "key": "restore-health",
+      "name": "Restore Health",
+      "uuid": "Compendium.pf1spheres.magic-talents.Item.EolTtIx78D5XyOon",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "magic-talents",
+      "type": "feat",
+      "subType": "magicTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/life.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "d896752cbcf7d7528df243f5a55f58c23931fc24e9de166c61419eb8ad9c276d",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "cure-light-wounds",
+      "name": "Cure Light Wounds",
+      "uuid": "Compendium.pf1.spells.Item.xoc3vhg3btmfjauq",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "spells",
+      "type": "spell",
+      "subType": null,
+      "img": "systems/pf1/icons/spells/heal-sky-1.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "238dec603892bb0228201e43b2392e1ef789b5f02cb666a5625e0edc9333a5e5",
+      "nativeActions": 2,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "dark-sacrifice",
+      "name": "Dark Sacrifice",
+      "uuid": "Compendium.pf1spheres.magic-talents.Item.KqLxOj4y7em5UMbo",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "magic-talents",
+      "type": "feat",
+      "subType": "magicTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/death.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "f8c61ae5d4a234388612f2753257083f03255632667693d3b86b843714cad044",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "deathless",
+      "name": "Deathless",
+      "uuid": "Compendium.pf-content.pf-special-qualities.Item.wxVW11tOabmiFuLq",
+      "provider": "pf-content",
+      "version": "11.4.0",
+      "pack": "pf-special-qualities",
+      "type": "feat",
+      "subType": "misc",
+      "img": "icons/equipment/chest/breastplate-cuirass-steel-grey.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "25f869223f9cdd606cc8f7aa4f3053576149d2c471378ec1fe7a2f1712972871",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "deathless",
+      "name": "Deathless",
+      "uuid": "Compendium.pf1.spells.Item.axl8z3mae9ydejlt",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "spells",
+      "type": "spell",
+      "subType": null,
+      "img": "icons/magic/death/undead-skeleton-worn-blue.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "55a8179ed4dba972a28a47ef0ae495f2e4170505caddc0d4a36a4ebda884cc9b",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "deathless",
+      "name": "Deathless",
+      "uuid": "Compendium.pf1spheres.combat-talents.Item.rbfP5616p00CSwoc",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "combat-talents",
+      "type": "feat",
+      "subType": "combatTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/berserker.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "fff9bb4269b81333bcd33f162590906047f18c8c6dd74141b5ceec0ced8427be",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "deathless",
+      "name": "Deathless",
+      "uuid": "Compendium.pf1spheres.magic-talents.Item.76TaHNMQMGNNeoVd",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "magic-talents",
+      "type": "feat",
+      "subType": "magicTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/protection.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "c923f987924507547b77d9f89ae2c9d2f597014a158847359e37e14e15430284",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "electric-blast",
+      "name": "Electric Blast",
+      "uuid": "Compendium.pf1.class-abilities.Item.xnjjIPQZ7hBsE8uB",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "class-abilities",
+      "type": "feat",
+      "subType": "classFeat",
+      "img": "systems/pf1/icons/spells/lighting-sky-1.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "445fd0055f51c7a0ddfbe0bef926b3dfeeecc4552db70693068093df60d3b756",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "electric-blast",
+      "name": "Electric Blast",
+      "uuid": "Compendium.pf1spheres.magic-talents.Item.vT54QIdZuL6aG0h8",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "magic-talents",
+      "type": "feat",
+      "subType": "magicTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/destruction.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "54fcebba6fbf21c98c978c067e6079c516eee03e3b9ae33fc7772420f9b8d857",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "ghost-sight",
+      "name": "Ghost Sight",
+      "uuid": "Compendium.pf1spheres.magic-talents.Item.zZyTJbfsBzQtEZpb",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "magic-talents",
+      "type": "feat",
+      "subType": "magicTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/divination.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "186d1d07521d8dc122e7801748285fa0062062f9e539e37c7b112340ab743ed6",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "hallow",
+      "name": "Hallow",
+      "uuid": "Compendium.pf1.spells.Item.vxmp5prgw5fj4h6f",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "spells",
+      "type": "spell",
+      "subType": null,
+      "img": "icons/magic/light/beam-rays-blue.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "1fe8692933e8f4d87199bf7cf96d8bbc6a61cc19aad259873919ebc44d9b99cf",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "hallow",
+      "name": "Hallow",
+      "uuid": "Compendium.pf1spheres.magic-talents.Item.ClSmrJC3xAdJGFmi",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "magic-talents",
+      "type": "feat",
+      "subType": "magicTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "d5ddf225ad2b8e44f13aa9a3869d45ae6635077d68e12e998e6fc43edc469e52",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "protection-from-evil",
+      "name": "Protection From Evil",
+      "uuid": "Compendium.pf-content.pf-buffs.Item.lDsREstT0RbVJ14v",
+      "provider": "pf-content",
+      "version": "11.4.0",
+      "pack": "pf-buffs",
+      "type": "buff",
+      "subType": "spell",
+      "img": "systems/pf1/icons/spells/light-sky-2.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "056e253a8443f047ad96d7e959b1cc6ba0ac3c8da4b90ea0c42937cc4168d403",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "protection-from-evil",
+      "name": "Protection from Evil",
+      "uuid": "Compendium.pf1.spells.Item.skgjjub1hng29nwo",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "spells",
+      "type": "spell",
+      "subType": null,
+      "img": "icons/magic/defensive/barrier-shield-dome-deflect-blue.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "ad63241cde5ffdb91c17625bc6a6f6dca1d007e5bfdc8772d9b900952ba156b5",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "oil",
+      "name": "Oil",
+      "uuid": "Compendium.pf-content.pf-items.Item.CrVb5bA2SCSatcUC",
+      "provider": "pf-content",
+      "version": "11.4.0",
+      "pack": "pf-items",
+      "type": "consumable",
+      "subType": "adventuring",
+      "img": "icons/tools/laboratory/bowl-liquid-black.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "87c6b5a0e723de691987746030234a926c5002616f7cb9c293dbda8202f08987",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "oil",
+      "name": "Oil",
+      "uuid": "Compendium.pf1.items.Item.rohumljcegubpudf",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "loot",
+      "subType": "gear",
+      "img": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "7cff938e27f8110b772f1db840197201c9cd3a3caa768ee4cef4e423562eb780",
+      "nativeActions": 4,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "align-object",
+      "name": "Align Object",
+      "uuid": "Compendium.pf1spheres.magic-talents.Item.JHhRNsd1KokSJfwQ",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "magic-talents",
+      "type": "feat",
+      "subType": "magicTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/fate.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "1826005631eb10358dccc3011bcf4858c29c96fbac15cd4e53bdab34eb769931",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "elixir",
+      "name": "Elixir",
+      "uuid": "Compendium.pf1spheres.combat-talents.Item.AdCJZUQypighKmA1",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "combat-talents",
+      "type": "feat",
+      "subType": "combatTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/alchemy.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "3953b160f64c2da5c28beda1777a5b858a4a24e1d22154b4d15a0199e7e3351a",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "fey-beauty",
+      "name": "Fey Beauty",
+      "uuid": "Compendium.pf1spheres.magic-talents.Item.3Ka8fs2cnVqco5KC",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "magic-talents",
+      "type": "feat",
+      "subType": "magicTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/fallen_fey.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "183f56ad27f30fdf1f6125798d3411435a27e8f57ccd449e78ffbdaba0a5d82c",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "elixir-of-love",
+      "name": "Elixir of Love",
+      "uuid": "Compendium.pf-content.pf-wondrous.Item.C8mnqqS7mw0qUh7H",
+      "provider": "pf-content",
+      "version": "11.4.0",
+      "pack": "pf-wondrous",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "icons/svg/item-bag.svg",
+      "hasDescription": true,
+      "placeholderImage": true,
+      "sha256": "0623eadaee977d92e56efa9a0bcaad3ebf70767864f18a126c8ba5929817b3ff",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "change-size",
+      "name": "Change Size",
+      "uuid": "Compendium.pf-content.pf-buffs.Item.v0qhJuc8F4ZPs4lZ",
+      "provider": "pf-content",
+      "version": "11.4.0",
+      "pack": "pf-buffs",
+      "type": "buff",
+      "subType": "feat",
+      "img": "systems/pf1/icons/races/vanara.png",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "5c7b0ca71194386e0e5a9a0771736cc12871ecaafe243b5233a7d8914bba2318",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "reordered-name"
+    },
+    {
+      "key": "change-size",
+      "name": "Change Size",
+      "uuid": "Compendium.pf-content.pf-racial-traits.Item.OrBsTYxtz2gkCF62",
+      "provider": "pf-content",
+      "version": "11.4.0",
+      "pack": "pf-racial-traits",
+      "type": "feat",
+      "subType": "racial",
+      "img": "systems/pf1/icons/races/vanara.png",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "bba00e1a68e983b8aa46870ab384b07a035079d50a8eed20a5163f23f8b09a6a",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "reordered-name"
+    },
+    {
+      "key": "size-change",
+      "name": "Size Change",
+      "uuid": "Compendium.pf1spheres.magic-talents.Item.Ece1ls8D7HFdXk7v",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "magic-talents",
+      "type": "feat",
+      "subType": "magicTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/alteration.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "37ab120ca7bdb9ead4c0dda5c348551fcdf69d393aa6e5174ab04edecc0bea62",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "enlarge-person",
+      "name": "Enlarge Person",
+      "uuid": "Compendium.pf1.buffs.Item.1ovEWVzSp5yZXeVm",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "buffs",
+      "type": "buff",
+      "subType": "spell",
+      "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "eb3e31125342a654ed2288adfb78e840dd35442f5d57199b5a89239553671d6e",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "enlarge-person",
+      "name": "Enlarge Person",
+      "uuid": "Compendium.pf1.spells.Item.jnlr9cuepka1l26e",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "spells",
+      "type": "spell",
+      "subType": null,
+      "img": "icons/magic/control/silhouette-grow-shrink-tan.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "a8481cd36086681be87a58564803ede2f5b12ea60657f35902bed829456d92b2",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "reduce-person",
+      "name": "Reduce Person",
+      "uuid": "Compendium.pf1.buffs.Item.Z140LMTwEKHQXdW5",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "buffs",
+      "type": "buff",
+      "subType": "spell",
+      "img": "icons/magic/control/silhouette-grow-shrink-blue.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "12d794ec923191401c23d1ad110091978da02b6435bdc9c21af2a9f0e1e4d0d1",
+      "nativeActions": 0,
+      "hasChanges": true,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "reduce-person",
+      "name": "Reduce Person",
+      "uuid": "Compendium.pf1.spells.Item.2y9e1l6zso9tdg0a",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "spells",
+      "type": "spell",
+      "subType": null,
+      "img": "icons/magic/control/silhouette-grow-shrink-blue.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "e76432d5d5510f63de58ac82eb2cc9451ba9228f62819edd5cb9248941f42498",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "improved-counterspell",
+      "name": "Improved Counterspell",
+      "uuid": "Compendium.pf1.feats.Item.V8GIvVaAofyw9xIl",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "feats",
+      "type": "feat",
+      "subType": "feat",
+      "img": "systems/pf1/icons/feats/improved-counterspell.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "22468aea1d1212a7617a2195e214f321a1870182de6657b50cb4eb4fc0dbee4c",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "counterspell-improved",
+      "name": "Counterspell, Improved",
+      "uuid": "Compendium.pf1spheres.sphere-feats.Item.MPsuhxQcH8e0UkG5",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "sphere-feats",
+      "type": "feat",
+      "subType": "feat",
+      "img": "icons/svg/item-bag.svg",
+      "hasDescription": true,
+      "placeholderImage": true,
+      "sha256": "fa91ed8b19ae35604438062f2733d3f5368fd516f4c34243376aa034cce49e23",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "reordered-name"
+    },
+    {
+      "key": "break-enchantment",
+      "name": "Break Enchantment",
+      "uuid": "Compendium.pf1.spells.Item.myg2b9ww43nnlbr2",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "spells",
+      "type": "spell",
+      "subType": null,
+      "img": "icons/magic/symbols/runes-star-pentagon-blue.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "296c01bed19fbbfdb3cbe8cda3f888841089cabd3c9b8ec8c5540209d2512971",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "break-enchantment",
+      "name": "Break Enchantment",
+      "uuid": "Compendium.pf1spheres.magic-talents.Item.qTABv8DrVsDK50F8",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "magic-talents",
+      "type": "feat",
+      "subType": "magicTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/life.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "9911a560eb81b0899780fb3ed3afa1d557ca400cf90ee4b6a59e038ad960f1db",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "counterspell",
+      "name": "Counterspell",
+      "uuid": "Compendium.pf1.class-abilities.Item.IPJqsPrrMnudA70e",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "class-abilities",
+      "type": "feat",
+      "subType": "classFeat",
+      "img": "systems/pf1/icons/spells/runes-blue-2.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "935c3222cc1912261f3a558e2cacb37c1a80e1d3079bece1e22ad896b843a6fe",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "counterspell",
+      "name": "Counterspell",
+      "uuid": "Compendium.pf1spheres.sphere-feats.Item.2ZEXANYmRTJ8xOtn",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "sphere-feats",
+      "type": "feat",
+      "subType": "feat",
+      "img": "icons/svg/item-bag.svg",
+      "hasDescription": true,
+      "placeholderImage": true,
+      "sha256": "2781e7fcc55f4577603a71697928525f6a75f35b7f5056ada505d4b048bda21c",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "oil-snake",
+      "name": "Oil, Snake",
+      "uuid": "Compendium.pf1.items.Item.3V5aC0PcNcsBCEPh",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "consumable",
+      "subType": "potion",
+      "img": "systems/pf1/icons/items/potions/minor-green.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "63434008c5a8b588022ad41b241eccca7c4d9d30faa80db06b305c07d5a735ba",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "fireskin-elixir",
+      "name": "Fireskin Elixir",
+      "uuid": "Compendium.pf-content.pf-items.Item.EeVSXeJcVtiDqy1r",
+      "provider": "pf-content",
+      "version": "11.4.0",
+      "pack": "pf-items",
+      "type": "consumable",
+      "subType": "drug",
+      "img": "systems/pf1/icons/items/potions/minor-red.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "e9e0d276497cbcf5b3b5831b7a2d2f28528669102510709ca76045e89d53b614",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "oil-of-taggit",
+      "name": "Oil of taggit",
+      "uuid": "Compendium.pf-content.pf-items.Item.AzwcpFHw6TaHbBSa",
+      "provider": "pf-content",
+      "version": "11.4.0",
+      "pack": "pf-items",
+      "type": "consumable",
+      "subType": "poison",
+      "img": "systems/pf1/icons/items/potions/unique-9.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "275d84c8415fa08d44c61e5520109f1ee4cbdb9f318c1a9c7217436defb503d7",
+      "nativeActions": 1,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "stillgut-vial",
+      "name": "Stillgut (Vial)",
+      "uuid": "Compendium.pf-content.pf-items.Item.ad7MsbLe5KbseILL",
+      "provider": "pf-content",
+      "version": "11.4.0",
+      "pack": "pf-items",
+      "type": "consumable",
+      "subType": "potion",
+      "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "b2cd31acb232d447e4eba3ced4f99c3631eb67624513927fa1e5a67be84c1b8d",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "deodorizing-agent-vial",
+      "name": "Deodorizing Agent (Vial)",
+      "uuid": "Compendium.pf-content.pf-items.Item.JF3auN9gNfDyqVR5",
+      "provider": "pf-content",
+      "version": "11.4.0",
+      "pack": "pf-items",
+      "type": "consumable",
+      "subType": "potion",
+      "img": "systems/pf1/icons/items/potions/unique-4.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "5d15a67599e5e7dfb0a19e340e571b8e7a8d35de44067d87325fd889875d4088",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "dead-air-vial",
+      "name": "Dead Air (Vial)",
+      "uuid": "Compendium.pf-content.pf-items.Item.th5G4pZlNRuvINFM",
+      "provider": "pf-content",
+      "version": "11.4.0",
+      "pack": "pf-items",
+      "type": "consumable",
+      "subType": "potion",
+      "img": "systems/pf1/icons/items/potions/minor-empty.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "4a061c7ac008c0989c1aaa43dafae36a13f3dd3648cb892e86b6c25e73313ca8",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "healing-potion",
+      "name": "Healing Potion",
+      "uuid": "Compendium.pf-content.pf-feats.Item.XoN7Y6KUcJvM7UfY",
+      "provider": "pf-content",
+      "version": "11.4.0",
+      "pack": "pf-feats",
+      "type": "feat",
+      "subType": "feat",
+      "img": "systems/pf1/icons/items/potions/magic-red.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "d703bf873a753853a522dd8f870f246b72d232bbd46bdd4cb0b28b8d81e3ba61",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "preserving-flask-1st-level",
+      "name": "Preserving Flask 1st-level",
+      "uuid": "Compendium.pf-content.pf-wondrous.Item.7XOyYOVj44kMUhSj",
+      "provider": "pf-content",
+      "version": "11.4.0",
+      "pack": "pf-wondrous",
+      "type": "equipment",
+      "subType": "wondrous",
+      "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "ffeb11f02a9aa5845237cb6513d1b07a7015de7d5c2b972d082feda66ded4e23",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "iron-vial",
+      "name": "Iron Vial",
+      "uuid": "Compendium.pf-content.pf-items.Item.GaWy6VAoV4D9IR3K",
+      "provider": "pf-content",
+      "version": "11.4.0",
+      "pack": "pf-items",
+      "type": "loot",
+      "subType": "adventuring",
+      "img": "icons/tools/laboratory/vial-orange.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "3e935285cf2707eada8bbb16b2e3ee8d243feda283d86986a8bac2a9df5d1bd9",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    },
+    {
+      "key": "vial-iron",
+      "name": "Vial, Iron",
+      "uuid": "Compendium.pf1.items.Item.odosbxmfnybnudah",
+      "provider": "pf1",
+      "version": "11.11",
+      "pack": "items",
+      "type": "loot",
+      "subType": "gear",
+      "img": "systems/pf1/icons/items/inventory/dice.jpg",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "904bc9eb91d43f6841fde0c87fb8aef28b1765138765aed97704155602d2dcb3",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "reordered-name"
+    },
+    {
+      "key": "cure",
+      "name": "Cure",
+      "uuid": "Compendium.pf1spheres.magic-talents.Item.It4KzowtHFNj74NR",
+      "provider": "pf1spheres",
+      "version": "0.9.0",
+      "pack": "magic-talents",
+      "type": "feat",
+      "subType": "magicTalent",
+      "img": "modules/pf1spheres/assets/icons/spheres/life.webp",
+      "hasDescription": true,
+      "placeholderImage": false,
+      "sha256": "4940cc00176de4ea03250e4b74b2477690e1cb7d354536a002bb8096a3891f63",
+      "nativeActions": 0,
+      "hasChanges": false,
+      "hasContents": false,
+      "match": "normalized-name"
+    }
+  ],
+  "entries": [
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:animate-object-oil",
+      "id": "d453f3a2437a6dc3",
+      "originalBodySha256": "e504bf3b66b0c91d525ea02f1d13a1c3fc17da1795fab0b2df2202364156e8e7",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "ba15119179eeee4eae712d21583d8fcc08dab112a92acf84a39dfb78c5cd2bd3",
+      "selectedTier": "very weak, 300 gp",
+      "cl": 2,
+      "school": "Enhancement",
+      "price": 300,
+      "weight": 0.1,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "5229496c2ed07b25",
+          "name": "Apply Selected Oil",
+          "activation": {
+            "type": "minute",
+            "unchained": {
+              "type": "minute"
+            },
+            "cost": 1
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "Rub one dose into an object for one minute. Selected very-weak tier animates at most Tiny size for twenty minutes: AC 18, hardness 5, HP 5, slam +1 (1d2-2). Resolve the actual controlled construct manually; this bottle does not create a creature, token or weapon attack."
+            ]
+          },
+          "duration": {
+            "value": "20",
+            "units": "minute"
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "The entire seven-tier table remains unchanged, but only the very-weak tier is selected. No stronger size, statistics or duration is supplied at the base price; no spell-point payment or permanent construct is invented.",
+      "artwork": {
+        "path": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+        "source": {
+          "key": "oil",
+          "name": "Oil",
+          "uuid": "Compendium.pf1.items.Item.rohumljcegubpudf",
+          "provider": "pf1",
+          "version": "11.11",
+          "pack": "items",
+          "type": "loot",
+          "subType": "gear",
+          "img": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "7cff938e27f8110b772f1db840197201c9cd3a3caa768ee4cef4e423562eb780",
+          "nativeActions": 4,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:brew-of-the-dungeoneer",
+      "id": "fca83054c93b185e",
+      "originalBodySha256": "ee55a2c02d2f241ffcf6857b9f83e7d06fdb1f5b3cd0d51d3bb6f0baf4579db6",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "9b99d982fe9194e09a3151f6fb2b185d4557efe3f7d93ba0f5c0aa74996c364e",
+      "selectedTier": "800 gp",
+      "cl": 4,
+      "school": "Divination",
+      "price": 800,
+      "weight": 0,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "33f1173cbd5dfe9f",
+          "name": "Drink Selected Dose",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "For four hours after drinking, gain +2 only to Disable Device and Perception checks related to traps, and permission to disarm magical traps as with trapfinding. Resolve actual qualifying checks manually; no class-level formula or all-Perception bonus."
+            ]
+          },
+          "duration": {
+            "value": "4",
+            "units": "hour"
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "One milky-grey dose with its published negligible weight. Temporary trap benefits require drinking; merely carrying the vial grants no skill bonus or rogue class feature.",
+      "artwork": {
+        "path": "systems/pf1/icons/items/potions/minor-empty.jpg",
+        "source": {
+          "key": "dead-air-vial",
+          "name": "Dead Air (Vial)",
+          "uuid": "Compendium.pf-content.pf-items.Item.th5G4pZlNRuvINFM",
+          "provider": "pf-content",
+          "version": "11.4.0",
+          "pack": "pf-items",
+          "type": "consumable",
+          "subType": "potion",
+          "img": "systems/pf1/icons/items/potions/minor-empty.jpg",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "4a061c7ac008c0989c1aaa43dafae36a13f3dd3648cb892e86b6c25e73313ca8",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:catfolk-guise-potion",
+      "id": "c8c713d2c58d594c",
+      "originalBodySha256": "bb7e38a454d10c0272247a2f62d3fd0a8a18ffe67fef5714faff47aea122d163",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "780e0f6ce35655828d71364c6693f200446575d99a9307d7cfe38a6de50fc617",
+      "selectedTier": "minor, 100 gp",
+      "cl": 1,
+      "school": "Alteration",
+      "price": 100,
+      "weight": 0.1,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "4da4436308255500",
+          "name": "Drink Selected Dose",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "Minor polymorph: Blank Transformation with two primary claw attacks for one minute (1d4 Medium, 1d3 Small; requires arms). Apply only the actual temporary form and attacks manually. No low-light vision, powerful legs, size change or carrying bonus at this tier."
+            ]
+          },
+          "duration": {
+            "value": "1",
+            "units": "minute"
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "The moderate/superior tiers stay in the full body but are not active at the minor price. Do not copy a generic Alter Self spell, cosmetic Disguise trait, humanoid type restriction or permanent natural attacks.",
+      "artwork": {
+        "path": "systems/pf1/icons/items/potions/minor-green.jpg",
+        "source": {
+          "key": "oil-snake",
+          "name": "Oil, Snake",
+          "uuid": "Compendium.pf1.items.Item.3V5aC0PcNcsBCEPh",
+          "provider": "pf1",
+          "version": "11.11",
+          "pack": "items",
+          "type": "consumable",
+          "subType": "potion",
+          "img": "systems/pf1/icons/items/potions/minor-green.jpg",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "63434008c5a8b588022ad41b241eccca7c4d9d30faa80db06b305c07d5a735ba",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:cleansing-potion",
+      "id": "aca74438c351d0e5",
+      "originalBodySha256": "75679eb2761934d455a1f8fedd29f678279b179a5d930a0b63adbfc699e23781",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "c7c3f2b682657ea16d2f20a706da4a298dd0b35b9578b69a4a256754a1b28609",
+      "selectedTier": "50 gp",
+      "cl": 1,
+      "school": "Life",
+      "price": 50,
+      "weight": 0.1,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "c8ba397d9e30de1b",
+          "name": "Drink Selected Dose",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "Remove fatigued, sickened and battered; lessen exhausted and nauseated one step. If a condition is part of an ongoing effect, suppress or reduce it for one round only. Resolve actual conditions manually; no HP healing, ability-damage restoration or universal condition removal."
+            ]
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "One blessed-water dose. Preserve the exact named conditions and ongoing-effect exception; no permanent active change, generic Lesser Restoration rules or automatic condition deletion.",
+      "artwork": {
+        "path": "systems/pf1/icons/items/potions/minor-empty.jpg",
+        "source": {
+          "key": "dead-air-vial",
+          "name": "Dead Air (Vial)",
+          "uuid": "Compendium.pf-content.pf-items.Item.th5G4pZlNRuvINFM",
+          "provider": "pf-content",
+          "version": "11.4.0",
+          "pack": "pf-items",
+          "type": "consumable",
+          "subType": "potion",
+          "img": "systems/pf1/icons/items/potions/minor-empty.jpg",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "4a061c7ac008c0989c1aaa43dafae36a13f3dd3648cb892e86b6c25e73313ca8",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:cleansing-potion-greater",
+      "id": "6e0c0cef584b755d",
+      "originalBodySha256": "8bf3dcc36e1fe69b3e0ba6bd7bc02cbdf2bcdb9911e2bc5b409add7a980d9209",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "bcd6749dc374c575e58c7fb54a43f3360aff0ead004ad2310827cbdaaa03060f",
+      "selectedTier": "greater, 200 gp",
+      "cl": 2,
+      "school": "Life",
+      "price": 200,
+      "weight": 0.1,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "ac1293a5aa015908",
+          "name": "Drink Selected Dose",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "Apply Cleansing Potion effects, fully remove exhausted and nauseated, and attempt the published check with +2 against each applicable poison/disease DC to remove it on success: [[/r 1d20 + 2]]. Keep the inherited ongoing-effect limitation (one round) and resolve outcomes manually. No automatic success or repair of prior ability damage."
+            ]
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "One greater blessed-water dose, not multiple doses. No conventional Restoration spell or invented save type is imported; the fixed +2 check belongs to the oil/potion effect, not the drinker's general saves.",
+      "artwork": {
+        "path": "systems/pf1/icons/items/potions/minor-empty.jpg",
+        "source": {
+          "key": "dead-air-vial",
+          "name": "Dead Air (Vial)",
+          "uuid": "Compendium.pf-content.pf-items.Item.th5G4pZlNRuvINFM",
+          "provider": "pf-content",
+          "version": "11.4.0",
+          "pack": "pf-items",
+          "type": "consumable",
+          "subType": "potion",
+          "img": "systems/pf1/icons/items/potions/minor-empty.jpg",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "4a061c7ac008c0989c1aaa43dafae36a13f3dd3648cb892e86b6c25e73313ca8",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:common-cure",
+      "id": "c125dc8477e967ac",
+      "originalBodySha256": "6a7e5223e3f4d033f6580003665cecb17012fbb41b9c8669169f065ce14ba009",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "d6e34bf4284644025c419c8925ce821c1b4b3a040dd1f44213efc36f6be726fb",
+      "selectedTier": "50 gp, 1d8+1 healing",
+      "cl": 1,
+      "school": "Life",
+      "price": 50,
+      "weight": 0.1,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "a049c5fe18300758",
+          "name": "Drink Common Cure",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "Drinking one enchanted-water dose heals exactly 1d8+1 HP. Native positive-energy healing roll uses the reviewed Life cure interface and fixed source amount; apply the result to the actual drinker. No actor-level scaling, temporary HP, extra casting cost or additional touch attack is granted."
+            ]
+          },
+          "actionType": "heal",
+          "damage": {
+            "parts": [
+              {
+                "formula": "1d8 + 1",
+                "types": ["positive"]
+              }
+            ]
+          },
+          "duration": {
+            "units": "inst"
+          },
+          "range": {
+            "units": "personal"
+          },
+          "target": {
+            "value": "actual drinker"
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "Only the source's single healing dose is represented. Fixed healing does not scale with the actor's CL or ability. Positive-energy handling follows the reviewed Life cure component; target application remains deliberate.",
+      "artwork": {
+        "path": "systems/pf1/icons/items/potions/minor-empty.jpg",
+        "source": {
+          "key": "dead-air-vial",
+          "name": "Dead Air (Vial)",
+          "uuid": "Compendium.pf-content.pf-items.Item.th5G4pZlNRuvINFM",
+          "provider": "pf-content",
+          "version": "11.4.0",
+          "pack": "pf-items",
+          "type": "consumable",
+          "subType": "potion",
+          "img": "systems/pf1/icons/items/potions/minor-empty.jpg",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "4a061c7ac008c0989c1aaa43dafae36a13f3dd3648cb892e86b6c25e73313ca8",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:dark-sacrifice-potion",
+      "id": "675787cfd8855808",
+      "originalBodySha256": "876f70cf12101befaed0a80a572b12fc97dca9d447e306b2ab1a67d768701e66",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "ef800fb46988ef9d3cb2041cde139e94d5a8d338279977850fdf12a953d7129b",
+      "selectedTier": "minor, 450 gp",
+      "cl": 3,
+      "school": "Death",
+      "price": 450,
+      "weight": 0.1,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "f2a41cea96fd28b7",
+          "name": "Drink Selected Dose",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "For three rounds, if incoming HP damage would reduce the drinker to zero HP or less, the drinker may use an immediate action to sacrifice one controlled mindless undead within thirty feet. Reduce that damage by its current HP, minimum zero, then end this potion's effect. Eligibility, current HP and sacrifice outcome are manual; no creature is deleted automatically."
+            ]
+          },
+          "duration": {
+            "value": "3",
+            "units": "round"
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "Minor tier only: three rounds and thirty feet. No moderate/superior duration, automatic damage prevention, generic False Life or an extra spell-point payment borrowed from the talent. The bottle is consumed on drinking, not on the later conditional sacrifice.",
+      "artwork": {
+        "path": "systems/pf1/icons/items/potions/minor-red.jpg",
+        "source": {
+          "key": "fireskin-elixir",
+          "name": "Fireskin Elixir",
+          "uuid": "Compendium.pf-content.pf-items.Item.EeVSXeJcVtiDqy1r",
+          "provider": "pf-content",
+          "version": "11.4.0",
+          "pack": "pf-items",
+          "type": "consumable",
+          "subType": "drug",
+          "img": "systems/pf1/icons/items/potions/minor-red.jpg",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "e9e0d276497cbcf5b3b5831b7a2d2f28528669102510709ca76045e89d53b614",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:deathlessness-potion",
+      "id": "5b1f6cbc417c8465",
+      "originalBodySha256": "389200852103dc4f015227f001df5d0dddb4b0dfd250c9df119cedb31d0cf354",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "2fee99d367ed7c2c855bfca76505c4f52dea85043dddf23b72beeb6942f320dc",
+      "selectedTier": "200 gp",
+      "cl": 2,
+      "school": "Protection",
+      "price": 200,
+      "weight": 0,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "316d9bbf59404342",
+          "name": "Drink Selected Dose",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "Gain the Protection sphere Deathless aegis for two hours. The reviewed aegis supplies +4 morale only to saves against its specified magical death and harmful healing/energy effects, and a Will save when normally none is allowed. Apply qualifying effects manually. This is not the Deathless spell's immunity to HP death, Death Ward, Deathless armor or Berserker talent."
+            ]
+          },
+          "duration": {
+            "value": "2",
+            "units": "hour"
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "One dose, negligible source weight; subtle pink hue is described in the source. No general +4 saves, permanent immunity, martial focus, negative-level armor chance or automatic target change.",
+      "artwork": {
+        "path": "systems/pf1/icons/items/potions/minor-empty.jpg",
+        "source": {
+          "key": "dead-air-vial",
+          "name": "Dead Air (Vial)",
+          "uuid": "Compendium.pf-content.pf-items.Item.th5G4pZlNRuvINFM",
+          "provider": "pf-content",
+          "version": "11.4.0",
+          "pack": "pf-items",
+          "type": "consumable",
+          "subType": "potion",
+          "img": "systems/pf1/icons/items/potions/minor-empty.jpg",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "4a061c7ac008c0989c1aaa43dafae36a13f3dd3648cb892e86b6c25e73313ca8",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:electric-oil",
+      "id": "b39a945d0f78bdee",
+      "originalBodySha256": "93b6445daf2ff0b8db0dd8e2e7fd6473affd6b4c6f5fe5e6907d428973338b0e",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "29abd5eaded22d4fcf8f3454ed32927d62ca38b09725bdcb2c22c6cded986e7f",
+      "selectedTier": "minor, 300 gp",
+      "cl": 2,
+      "school": "Destruction",
+      "price": 300,
+      "weight": 0.1,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "8662a3a85d0517cd",
+          "name": "Apply Selected Oil",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "Apply one dose to a weapon as a poison. A successful creature strike before one round passes deals additional [[/r 2d6]] electricity damage. Only attacks on targets made of metal or wearing metal armor gain +3. Resolve the qualifying actual weapon hit, expiry and damage manually; no general attack bonus or automatic poison save."
+            ]
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "Minor tier only: +2d6, not +5d6/+10d6. The source oil grants +3 on the qualifying attack, not the installed Electric Blast talent's separate AC/save penalties. No weapon is bundled, and no permanent weapon enhancement is added.",
+      "artwork": {
+        "path": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+        "source": {
+          "key": "oil",
+          "name": "Oil",
+          "uuid": "Compendium.pf1.items.Item.rohumljcegubpudf",
+          "provider": "pf1",
+          "version": "11.11",
+          "pack": "items",
+          "type": "loot",
+          "subType": "gear",
+          "img": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "7cff938e27f8110b772f1db840197201c9cd3a3caa768ee4cef4e423562eb780",
+          "nativeActions": 4,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:ghost-sight-potion",
+      "id": "a722f57ad9248b4c",
+      "originalBodySha256": "5618a54ff282859890e63e9503d8ae49500dbce7f90925745a337cdf1c683751",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "a6bebe9c9d5859b43e7a095e1600c657f8a64bbcd36add86ebf635b21a25ac11",
+      "selectedTier": "lesser, 200 gp",
+      "cl": 2,
+      "school": "Divination",
+      "price": 200,
+      "weight": 0.1,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "9f691e43eea563d3",
+          "name": "Drink Selected Dose",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "For two minutes, +2 Perception only to notice invisible or ethereal creatures. On an actual success, that creature's outline is visible and its normal invisibility attack/defense benefits are negated against you until line of sight is lost; then a new check is required. No unconditional See Invisibility."
+            ]
+          },
+          "duration": {
+            "value": "2",
+            "units": "minute"
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "Lesser tier only, with check/line-of-sight gates. No actor-CL scaling, all-Perception bonus, automatic detection or permanent sense.",
+      "artwork": {
+        "path": "systems/pf1/icons/items/potions/minor-blue.jpg",
+        "source": {
+          "key": "stillgut-vial",
+          "name": "Stillgut (Vial)",
+          "uuid": "Compendium.pf-content.pf-items.Item.ad7MsbLe5KbseILL",
+          "provider": "pf-content",
+          "version": "11.4.0",
+          "pack": "pf-items",
+          "type": "consumable",
+          "subType": "potion",
+          "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "b2cd31acb232d447e4eba3ced4f99c3631eb67624513927fa1e5a67be84c1b8d",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:hallow-word-oil",
+      "id": "46a0ca964289dafc",
+      "originalBodySha256": "99b97ca93bfbe5ebb2700a99a2b53d2239d5c204e1a4e3b9896bb8e062e98cbd",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "e0b97a1ec5e9a42b74d988adad2a384b30b30df944ebc1ec51762dea9ba406f8",
+      "selectedTier": "200 gp",
+      "cl": 2,
+      "school": "Fate",
+      "price": 200,
+      "weight": 0.1,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "516ae9516340a78f",
+          "name": "Apply Selected Oil",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "Apply one dose to a creature for the published Hallow word benefits for two minutes. The item's alignment-bonus wording (made by evil creatures) differs from its referenced word (against the opposed alignment); resolve under #44 before assigning +1 sacred attack/AC/save benefits. Its evil-origin mental-control protection and new save for existing possession remain conditional/manual."
+            ]
+          },
+          "duration": {
+            "value": "2",
+            "units": "minute"
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "Preserve the complete source body and discrepancy under #44. No blanket +1, Protection from Evil's +2 deflection/resistance, arbitrary alignment selection or permanent immunity. Resolve possession/control and any suppression duration on the actual effect.",
+      "artwork": {
+        "path": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+        "source": {
+          "key": "oil",
+          "name": "Oil",
+          "uuid": "Compendium.pf1.items.Item.rohumljcegubpudf",
+          "provider": "pf1",
+          "version": "11.11",
+          "pack": "items",
+          "type": "loot",
+          "subType": "gear",
+          "img": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "7cff938e27f8110b772f1db840197201c9cd3a3caa768ee4cef4e423562eb780",
+          "nativeActions": 4,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:quintessential-oil",
+      "id": "5efa2c8c575f4be1",
+      "originalBodySha256": "b81217c98a63c179ac69c27689c14ce1d1fffe7e084e1301b073a3a8818d5484",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "18b304267952a43d7cd87360dcbe55509366bc9e8437ae20cd654d5bf01cb9e3",
+      "selectedTier": "500 gp, unimbued",
+      "cl": 1,
+      "school": "Enhancement",
+      "price": 500,
+      "weight": 0,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "05dc74689dce5bbf",
+          "name": "Imbue Unprepared Oil",
+          "activation": {
+            "type": "special",
+            "unchained": {
+              "type": "special"
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "0"
+          },
+          "notes": {
+            "effect": [
+              "An actual sphere caster supplies one sphere ability that affects a single creature, spending its real spell points and actual casting time. Imbuing does not expend this dose. Track preparation and the four-hour contact window manually; this helper invents no ability, free casting or stored-resource pool. The four-hour contact window starts after imbuing is complete."
+            ]
+          },
+          "duration": {
+            "value": "4",
+            "units": "hour"
+          }
+        },
+        {
+          "_id": "1ad23cd5aa02e732",
+          "name": "Expend Prepared Dose",
+          "activation": {
+            "type": "special",
+            "unchained": {
+              "type": "special"
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "Expend the actually imbued dose when used on its first creature target, or mark it unusable if its four-hour window elapsed. The next creature to touch it receives the stored effect. It may be applied to a weapon as a contact poison. Actual application, target contact and stored effect resolution are manual; no automatic poison save or attack. Four hours is only the prepared oil's contact window; the stored ability retains its own duration."
+            ]
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "Initially unimbued clear-ish oil; source-defined color depends on the selected sphere ability. Imbuing uses actual ability timing, so unspecified generic timing stays Special. Contact, four-hour expiry and potency are manually tracked; no effect is selected or permanently granted.",
+      "artwork": {
+        "path": "systems/pf1/icons/items/potions/minor-empty.jpg",
+        "source": {
+          "key": "dead-air-vial",
+          "name": "Dead Air (Vial)",
+          "uuid": "Compendium.pf-content.pf-items.Item.th5G4pZlNRuvINFM",
+          "provider": "pf-content",
+          "version": "11.4.0",
+          "pack": "pf-items",
+          "type": "consumable",
+          "subType": "potion",
+          "img": "systems/pf1/icons/items/potions/minor-empty.jpg",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "4a061c7ac008c0989c1aaa43dafae36a13f3dd3648cb892e86b6c25e73313ca8",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:relic-blessing-oil",
+      "id": "c7b43af99d5b2357",
+      "originalBodySha256": "e27bf5ca0b7f17030c728e24873c1603988f34bd00db22bdb0a0c3537e7484d1",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "f766b2260b76fc83a1d447d5c1c54affef180babf1ecc545beaf8f6d979c6aa4",
+      "selectedTier": "200 gp",
+      "cl": 2,
+      "school": "Fate",
+      "price": 200,
+      "weight": 0.1,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "8ffcaaab0863b829",
+          "name": "Apply Selected Oil",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "Anoint one actual object for two minutes, making it a universal divine focus. If it is a weapon, choose chaotic, evil, good or lawful for this use; it overcomes the corresponding DR and deals additional [[/r 2d6]] only against the opposite alignment. Resolve actual target/choice/hit manually; no general damage or alignment change to the actor."
+            ]
+          },
+          "duration": {
+            "value": "2",
+            "units": "minute"
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "One oil dose, not a bundled weapon, permanent aligned object or four simultaneous alignments. The focus benefit applies to objects; the additional damage/DR benefit applies only to anointed weapons.",
+      "artwork": {
+        "path": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+        "source": {
+          "key": "oil",
+          "name": "Oil",
+          "uuid": "Compendium.pf1.items.Item.rohumljcegubpudf",
+          "provider": "pf1",
+          "version": "11.11",
+          "pack": "items",
+          "type": "loot",
+          "subType": "gear",
+          "img": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "7cff938e27f8110b772f1db840197201c9cd3a3caa768ee4cef4e423562eb780",
+          "nativeActions": 4,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:renewal-elixir",
+      "id": "a16159a52ca1e04b",
+      "originalBodySha256": "5b3dd6906bce54d4e7056bb9c0e577804465f06907d586e0ca3806b3633778d2",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "6f4b6d998a42c6c7c87224a5e4f45b9112d0ff75848d898f7f67236c9442d221",
+      "selectedTier": "250 gp",
+      "cl": 1,
+      "school": "Enhancement and Life",
+      "price": 250,
+      "weight": 0,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "457b33806f8ec8cf",
+          "name": "Drink Selected Dose",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "Restore up to two actual spell points, never exceeding min(4, the drinker's true maximum), and become dazed for one round. A drinker can benefit only once per day across all doses. Resolve existing pool, cap, daily eligibility and dazed condition manually; no new resource pool or unlimited refills."
+            ]
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "One dose, negligible source weight. Consumption is a physical quantity, while once-per-day benefit is a separate per-drinker limit across copies. No maximum-pool increase, class/CAM assumption, automatic resource edit or baking use.",
+      "artwork": {
+        "path": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+        "source": {
+          "key": "preserving-flask-1st-level",
+          "name": "Preserving Flask 1st-level",
+          "uuid": "Compendium.pf-content.pf-wondrous.Item.7XOyYOVj44kMUhSj",
+          "provider": "pf-content",
+          "version": "11.4.0",
+          "pack": "pf-wondrous",
+          "type": "equipment",
+          "subType": "wondrous",
+          "img": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "ffeb11f02a9aa5845237cb6513d1b07a7015de7d5c2b972d082feda66ded4e23",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:see-hazard-potion",
+      "id": "5f009eedcc1b79bf",
+      "originalBodySha256": "7993bbfe13fdf33d789c415d071206a52ed409eac00afc4c59e4a3f5ee333f30",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "56fce891463f29728a38cb04f71f04972cee12e4c7360527fdd18218a08f4fef",
+      "selectedTier": "lesser, 800 gp",
+      "cl": 4,
+      "school": "Divination",
+      "price": 800,
+      "weight": 0.1,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "9f35281ac33df2d1",
+          "name": "Drink Selected Dose",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "For four hours, gain a free Perception check when within ten feet of a mechanical, magical or natural trap/hazard. Resolve actual discovery manually. Lesser tier supplies no insight on bypassing/disabling it and no greater-tier 1d4+1 insight bonuses."
+            ]
+          },
+          "duration": {
+            "value": "4",
+            "units": "hour"
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "Lesser tier only; no Trapfinding grant, automatic detection, general Perception modifier, Disable Device bonus or eight-hour duration.",
+      "artwork": {
+        "path": "systems/pf1/icons/items/potions/minor-blue.jpg",
+        "source": {
+          "key": "stillgut-vial",
+          "name": "Stillgut (Vial)",
+          "uuid": "Compendium.pf-content.pf-items.Item.ad7MsbLe5KbseILL",
+          "provider": "pf-content",
+          "version": "11.4.0",
+          "pack": "pf-items",
+          "type": "consumable",
+          "subType": "potion",
+          "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "b2cd31acb232d447e4eba3ced4f99c3631eb67624513927fa1e5a67be84c1b8d",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:sidhe-visage-potion",
+      "id": "89568626c1bcb612",
+      "originalBodySha256": "e8e6ca6f81c4d688b240a795324591f281e5696b61bf54838d18b2577a6e1dc6",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "f62b3c58bf3b87ce879d026167d341f1a2265c15908a14358c50c9f575e41c77",
+      "selectedTier": "1000 gp",
+      "cl": 5,
+      "school": "Fallen Fey",
+      "price": 1000,
+      "weight": 0.1,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "847632f076cc4e38",
+          "name": "Drink Selected Dose",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "For five hours, count as fey instead of the previous creature type for relevant effects, retaining previous type benefits and subtypes without acquiring fey type benefits. Gain +2 only to Charisma-based skill and ability checks. Resolve the temporary type interaction and qualifying checks manually; no Charisma score increase."
+            ]
+          },
+          "duration": {
+            "value": "5",
+            "units": "hour"
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "One dose. No permanent actor type rewrite, subtype removal, charm effect, broad +2 skills or automatic Fey Beauty/talent grant.",
+      "artwork": {
+        "path": "systems/pf1/icons/items/potions/minor-green.jpg",
+        "source": {
+          "key": "oil-snake",
+          "name": "Oil, Snake",
+          "uuid": "Compendium.pf1.items.Item.3V5aC0PcNcsBCEPh",
+          "provider": "pf1",
+          "version": "11.11",
+          "pack": "items",
+          "type": "consumable",
+          "subType": "potion",
+          "img": "systems/pf1/icons/items/potions/minor-green.jpg",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "63434008c5a8b588022ad41b241eccca7c4d9d30faa80db06b305c07d5a735ba",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:size-increase-potion",
+      "id": "421ce46c582195b8",
+      "originalBodySha256": "2eb6056c5e580623e6cec0396b3422985642da5bd89eee4521411844cc926575",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "f266f75451f9213b8753ce8dea544ea2bbb207ec14ca3c59bffc235ee8a2567f",
+      "selectedTier": "100 gp",
+      "cl": 2,
+      "school": "Alteration",
+      "price": 100,
+      "weight": 0.1,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "519dcff694c37557",
+          "name": "Drink Selected Dose",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "Polymorph: increase the actual drinker one size category, maximum Large, for two minutes. Apply size, equipment and associated adjustments through the actual form procedure manually. No fixed final Large size, humanoid-only target restriction or permanent actor/token change."
+            ]
+          },
+          "duration": {
+            "value": "2",
+            "units": "minute"
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "Source one-step cap remains authoritative. Do not import Vanara's fixed Small form or generic Enlarge Person restrictions wholesale. Temporary size/form resolution is manual.",
+      "artwork": {
+        "path": "systems/pf1/icons/items/potions/minor-red.jpg",
+        "source": {
+          "key": "fireskin-elixir",
+          "name": "Fireskin Elixir",
+          "uuid": "Compendium.pf-content.pf-items.Item.EeVSXeJcVtiDqy1r",
+          "provider": "pf-content",
+          "version": "11.4.0",
+          "pack": "pf-items",
+          "type": "consumable",
+          "subType": "drug",
+          "img": "systems/pf1/icons/items/potions/minor-red.jpg",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "e9e0d276497cbcf5b3b5831b7a2d2f28528669102510709ca76045e89d53b614",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:size-reduction-potion",
+      "id": "56646af6a786c72e",
+      "originalBodySha256": "78bbb4c95f68dcdf8cd57d710a2724885649840cdd3f2c1143916a517daf989f",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "cfd974edeca928deff9b91afd91a3498b16d74028a123cb3e3d9877d0b957c91",
+      "selectedTier": "100 gp",
+      "cl": 2,
+      "school": "Alteration",
+      "price": 100,
+      "weight": 0.1,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "5fb97181c44a2d3e",
+          "name": "Drink Selected Dose",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "Polymorph: decrease the actual drinker one size category, minimum Tiny, for two minutes. Apply size, equipment and associated adjustments through the actual form procedure manually. No fixed final Tiny size, humanoid-only target restriction or permanent actor/token change."
+            ]
+          },
+          "duration": {
+            "value": "2",
+            "units": "minute"
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "Source one-step cap remains authoritative. Do not import Vanara's fixed Small form or generic Reduce Person restrictions wholesale. Temporary size/form resolution is manual.",
+      "artwork": {
+        "path": "systems/pf1/icons/items/potions/minor-blue.jpg",
+        "source": {
+          "key": "stillgut-vial",
+          "name": "Stillgut (Vial)",
+          "uuid": "Compendium.pf-content.pf-items.Item.ad7MsbLe5KbseILL",
+          "provider": "pf-content",
+          "version": "11.4.0",
+          "pack": "pf-items",
+          "type": "consumable",
+          "subType": "potion",
+          "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "b2cd31acb232d447e4eba3ced4f99c3631eb67624513927fa1e5a67be84c1b8d",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:spell-cleansing-elixir-greater",
+      "id": "bc38163c65f27655",
+      "originalBodySha256": "3a58e52635cd38495de2b19ff1a68856b9cce5dac452a24a92d1f3dbb419cc2f",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "8570f89eaebce445ff87a6e02c8cccf7905a80dc71bc1a3a7f39c8389ed866b3",
+      "selectedTier": "greater, 1000 gp",
+      "cl": 10,
+      "school": "Life",
+      "price": 1000,
+      "weight": 0,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "7ec701f02a401a69",
+          "name": "Drink Selected Dose",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "Choose up to three ongoing magical effects on the drinker. Resolve the actual Improved Counterspell procedure with fixed MSB +10: [[/r 1d20 + 10]]. Outcomes and applicable DCs remain manual; no automatic dispelling, unrelated burst, spell-slot cost, actor MSB or arbitrary number of targets."
+            ]
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "One dose, no native daily pool. Use the Spheres component/version, not the conventional same-named feat or Break Enchantment spell. This elixir affects only chosen ongoing effects on the drinker.",
+      "artwork": {
+        "path": "systems/pf1/icons/items/potions/minor-green.jpg",
+        "source": {
+          "key": "oil-snake",
+          "name": "Oil, Snake",
+          "uuid": "Compendium.pf1.items.Item.3V5aC0PcNcsBCEPh",
+          "provider": "pf1",
+          "version": "11.11",
+          "pack": "items",
+          "type": "consumable",
+          "subType": "potion",
+          "img": "systems/pf1/icons/items/potions/minor-green.jpg",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "63434008c5a8b588022ad41b241eccca7c4d9d30faa80db06b305c07d5a735ba",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    },
+    {
+      "sourceKey": "wiki:compounds:ultimate:item:spell-cleansing-elixir-lesser",
+      "id": "db11d18bcda0271e",
+      "originalBodySha256": "49744dc3b65f202b6b92e3d27ee598ea0506462cb86836b80f93daa5500b6a73",
+      "pageSha256": "364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f",
+      "descriptionSha256": "ae5535c90abfed1d9261882912916ccfc66e53de1adb36169efe97a90404d74a",
+      "selectedTier": "lesser, 250 gp",
+      "cl": 5,
+      "school": "Life",
+      "price": 250,
+      "weight": 0,
+      "quantity": 1,
+      "actions": [
+        {
+          "_id": "72be3037dd034b6f",
+          "name": "Drink Selected Dose",
+          "activation": {
+            "type": "standard",
+            "unchained": {
+              "type": "action",
+              "cost": 2
+            }
+          },
+          "uses": {
+            "autoDeductChargesCost": "1"
+          },
+          "notes": {
+            "effect": [
+              "Choose one ongoing magical effect on the drinker. Resolve the actual Counterspell procedure with fixed MSB +5: [[/r 1d20 + 5]]. Outcomes and applicable DCs remain manual; no automatic dispelling, arcanist reservoir/spell slot, actor MSB or multiple-effect upgrade."
+            ]
+          }
+        }
+      ],
+      "uses": {
+        "value": null,
+        "per": "single",
+        "autoDeductChargesCost": "1",
+        "maxFormula": "",
+        "rechargeFormula": "",
+        "pricePerUse": 0
+      },
+      "limit": "Preserve the published 250 gp purchase price and original 175 gp construction figure without deriving one from the other. One dose affects a single chosen ongoing effect on the drinker, not all magic or a generic Break Enchantment spell.",
+      "artwork": {
+        "path": "systems/pf1/icons/items/potions/minor-blue.jpg",
+        "source": {
+          "key": "stillgut-vial",
+          "name": "Stillgut (Vial)",
+          "uuid": "Compendium.pf-content.pf-items.Item.ad7MsbLe5KbseILL",
+          "provider": "pf-content",
+          "version": "11.4.0",
+          "pack": "pf-items",
+          "type": "consumable",
+          "subType": "potion",
+          "img": "systems/pf1/icons/items/potions/minor-blue.jpg",
+          "hasDescription": true,
+          "placeholderImage": false,
+          "sha256": "b2cd31acb232d447e4eba3ced4f99c3631eb67624513927fa1e5a67be84c1b8d",
+          "nativeActions": 0,
+          "hasChanges": false,
+          "hasContents": false,
+          "match": "normalized-name"
+        },
+        "decision": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+      }
+    }
+  ]
+}
