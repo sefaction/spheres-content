@@ -3,7 +3,7 @@
   "_key": "!items!0b0d1bd56677b1c8",
   "name": "Targeting Monocle",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/charms/targeting-monocle.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "implemented",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "8000 gp, one actual monocle"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Destruction; <strong>CL</strong> 5th<br>\n<strong>Slot</strong> eyes; <strong>Price</strong> 8,000 gp <strong>Weight</strong> —</p>\n<p><strong>Description</strong><br>\nThis monocle is worn over one eye, magically analyzing and highlighting the weaknesses of the wearer’s enemies. The wearer’s destructive blasts gain the benefit of the keen weapon special ability.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Destruction sphere; Deadly Targeting or Improved Critical; <strong>Cost</strong> 4,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc46\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 8000 gp, one actual monocle.</p><p>One monocle over one eye, not a pair of goggles or a handheld magnifying lens. Keen applies only to the wearer's destructive blasts. No blanket threat-range, critical-multiplier, attack, Perception, Craft or saving-throw bonus; no automatic Deadly Targeting or Improved Critical grant. Qualifying action integration remains manual.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Destruction"
     },
     "hp": {},
     "broken": false,
@@ -83,14 +85,19 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
+    "contextNotes": [
+      {
+        "target": "critical",
+        "text": "Destructive-blast attacks only gain the keen weapon special ability. Resolve its critical-threat rules on the actual qualifying blast action; this item changes no ordinary weapon or unrelated spell attack."
+      }
+    ],
     "actions": [],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

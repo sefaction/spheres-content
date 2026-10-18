@@ -3,7 +3,7 @@
   "_key": "!items!ce8b0f349bc7e8bf",
   "name": "Forger’s Gloves",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/charms/forgers-gloves.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "implemented",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "75000 gp, complete dirty leather pair"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> moderate Creation; <strong>CL</strong> 10th<br>\n<strong>Slot</strong> hands; <strong>Price</strong> 75,000 gp; <strong>Weight</strong> -</p>\n<p><strong>Description</strong><br>\nThese leather workman gloves perpetually look dirty, no matter how well they are cleaned. While worn, these gloves provide the wearer with the ability to forge metal with a touch, as the Forge Creation talent. The target also gains a +10 competence bonus to all Craft checks made involving metal objects.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Craft Apparatus, Creation sphere; <strong>Cost</strong> 37,500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc19\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 75000 gp, complete dirty leather pair.</p><p>Quantity one is a complete pair of perpetually dirty leather work gloves, negligible published weight. The source says the target gains +10 competence to metal Craft checks without defining the beneficiary; GM/source clarification is required before assigning the bonus. Forge Creation handling, target material/size and the appropriate procedure remain manual; no automatic wearer bonus, blanket +10 to skills or invented activation cost. Installed Forge is a comparison component, not a replacement rules version.</p><p>Unresolved source beneficiary: issue #42.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 10,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Creation"
     },
     "hp": {},
     "broken": false,
@@ -83,14 +85,38 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
-    "actions": [],
+    "contextNotes": [
+      {
+        "target": "skills",
+        "text": "Published wording grants the target +10 competence on Craft checks involving metal objects. The beneficiary is ambiguous; have the GM resolve who the target means before applying this to an actual qualifying check. No automatic wearer or all-skills bonus."
+      }
+    ],
+    "actions": [
+      {
+        "_id": "0e214e00d9bd49f5",
+        "name": "Forge Metal by Touch",
+        "activation": {
+          "type": "special",
+          "unchained": {
+            "type": "special"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Use the published Forge Creation procedure to shape metal by touch. Resolve its actual limitations and applicable casting procedure manually. The Craft-bonus beneficiary is ambiguous in the source; consult the instructions. This helper grants no generic Craft success, extra material, daily charges or automatic talent. Do not substitute the older installed Forge record's different material limits for the item's explicit metal ability."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

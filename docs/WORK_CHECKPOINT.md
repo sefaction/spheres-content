@@ -4,32 +4,27 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
 
 ## Active work: second twenty-charms group in batch 3
 
-- Branch `codex/physical-items-batch-3-charms-2` starts at main `fba9a28`.
-  All twelve previously approved PRs, including #39, are merged; both final main
-  CI jobs passed. Issues #18/#20/#24/#32/#40 are closed. The previous section's
-  final-merge instructions are historical and superseded by this confirmed state.
-- Issue #36 remains active. Eighty frozen third-batch images are pending. The
-  next coherent group selects twenty remaining charms, excluding six tattoos
-  and Magical Toolkit for a later group. No new Akashic production. Selection
-  and full original bodies are cached in `.local/batch3-charms-2-*.json`.
-- Full exact/alternate/component searches inspected 32 complete records plus
-  eleven additional component/parent records and the existing original cloth
-  headband. Twenty-one actual candidate images were visually inspected at 128 px.
-  Eight core/system image references and one existing original headband are
-  suitable; eleven source-specific illustrations are being generated. Wrong
-  physical forms (goggles for monocles, plate armor for cloth vests) are rejected.
-- Full source review confirms Talisman of Spell Resistance's purchase price
-  30,000 gp versus the draft's 15,000-gp crafting cost; part of #37. Further aura
-  contradictions and nonstacking SR handling need explicit evidence/deferral.
-  Base Academy Uniform grants no later scaling skill bonuses. Crafted choices,
-  mythic power, channel energy, target effects and conditional bonuses stay bounded.
-- Two illustrations (Academy Uniform, Alabaster Gloves) are generated and viewed;
-  remaining nine are pending. Prompts and per-pair original PNG paths are ignored
-  locally. No canonical source/asset changes yet, except this planning checkpoint.
-  The test module remains deployed at `acac9b3`, verified in Setup after the last
-  exact semantic audit. Next: finish art review, author all twenty profiles and
-  focused checks, then clean gate, guarded deployment/native acceptance and draft
-  PR on main. New PRs need their own merge approval; no release authorization.
+- Branch codex/physical-items-batch-3-charms-2 starts at main fba9a28.
+  All twelve approved PRs are merged; final main Windows/Ubuntu CI passed.
+  GitHub confirms no open PRs before this new group. Future PRs need new approval.
+- Issue #36 remains active. Twenty further charms now have reviewed profiles,
+  preserving complete source bodies and stable identities. Forty third-batch
+  images are reviewed, sixty remain. No Akashic work is selected.
+- Fourteen helpers, eleven notes and four resource counters implement bounded
+  reminders. Three daily pools and Remnant's manually restored rolling-24-hour
+  charge remain distinct. No blanket actor modifiers or external free resources.
+- Eleven new icons total 74,808 bytes; eight core/system references and one
+  existing original headband are selected. All final icons viewed at 64/128 px.
+  Full candidate records and image/source hashes precede authoring.
+- Talisman purchase price corrected to 30,000 gp under #37. SR source comparison
+  deferred under #41; Forger bonus beneficiary explicitly ambiguous under #42.
+  Two further aura contradictions are recorded under #31. Crafted selections,
+  attunement, healing copies, temporary armor and target effects stay manual.
+- Focused source/profile checks pass. Full clean verification and new guarded
+  deployment/native acceptance are pending. Test installation remains acac9b3
+  in Setup from the previous fully tested merge integration; no restart planned.
+  Next: commit implementation, run full gate, deploy exact branch build, inspect
+  native helpers, return to Setup for full semantic audit, then open draft PR.
 
 ## Approved PR integration and cumulative acceptance
 

@@ -3,7 +3,7 @@
   "_key": "!items!7de081901f2aa91e",
   "name": "Fox Medallion",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/charms/fox-medallion.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "180000 gp; occupied neck selection of any-slot medallion"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> strong Protection; <strong>CL</strong> 15th<br>\n<strong>Slot</strong> any; <strong>Price</strong> 180,000 gp; <strong>Weight</strong> 1&nbsp;lb.<br>\nThis silvery medallion is usually worn as a necklace, although it functions in any slot as long as it is touching the user’s skin and the user has no other items in that slot. While worn, the user can spend an immediate action and one use of mythic power to gain immunity to any one effect they would normally be affected by that can be stopped by an antimagic field; this immunity is automatic and does not require any checks, regardless of its source. This immunity ends at the end of the user’s next round. When worn by a mythic creature, this medallion also protects the bearer from all divination magic, as the effects of the Protection sphere Unplottable (aegis) talent.<br>\n<strong>Construction Requirements</strong><br>\nForge Charm, Mythic Crafter, Protection sphere (Antimagic Aura (advanced), Enduring Protection, Permanent Ward (advanced), Spell Ward (aegis, ward), Unplottable (advanced, aegis)); <strong>Cost</strong> 90,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc60\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 180000 gp; occupied neck selection of any-slot medallion.</p><p>One silvery medallion selects the usual neck slot, touching skin with no other item in that occupied slot. Other legal occupied-slot placements need deliberate selection; it is not slotless. Mythic creatures also receive the published Unplottable-style divination protection, resolved manually. No general spell immunity, generic spell-resistance number, free mythic power, talent grant or caster/world changes.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 15,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Protection"
     },
     "hp": {},
     "broken": false,
@@ -84,13 +86,36 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "8a1d04f259a6b4a5",
+        "name": "Invoke Mythic Protection",
+        "activation": {
+          "type": "immediate",
+          "unchained": {
+            "type": "reaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Manually spend one actual use of mythic power. Choose one effect that an antimagic field could stop; immunity to that effect is automatic without a check and ends at the end of your next round. This helper supplies no mythic-power pool and no blanket antimagic immunity."
+          ]
+        },
+        "duration": {
+          "value": "until the end of the user's next round",
+          "units": "spec"
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },
@@ -115,7 +140,7 @@
       "explode": null
     },
     "subType": "wondrous",
-    "slot": "slotless",
+    "slot": "neck",
     "equipmentSubtype": "",
     "hands": 0,
     "baseTypes": [],

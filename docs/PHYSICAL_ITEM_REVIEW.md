@@ -204,3 +204,27 @@ deliberate progression review. Its source aura discrepancy remains under #31.
 Eight original compact illustrations complement nine inspected core/system
 references and three uses of the existing original cloth headband image. Image
 reuse imports no unrelated item rules, stealth, psionics, or elemental choice.
+
+## Second third-batch charm group
+
+Twenty further charms preserve complete original bodies, stable IDs, quantities
+and source hashes. Eleven original compact WebPs (74,808 bytes total), eight
+core/system image references and one existing original headband finish image
+review for forty of the third hundred. Sixty images remain; Akashic is deferred.
+
+Fourteen native helpers across eleven items preserve source timing and costs.
+Clarity, Force Armor and Potential Realized track daily uses; Remnant tracks a
+single charge restored manually after an actual rolling twenty-four hours,
+including the separate per-user limit across all remnants. Eleven conditional
+notes grant no unconditional actor bonus. External mythic/channel resources,
+crafted choices, attunement, actual armor creation and copied healing remain
+manual. Academy Uniform selects only its ten-gp base tier. Constellation Belt
+keeps equipment form and object-size capacity, without invented storage weight.
+
+Talisman of Spell Resistance costs 30,000 gp, correcting the draft construction
+cost under #37. Its SR 15 requires source comparison under #41, not a stacking
++15 or an unconditional overwrite. Forger's Gloves explicitly retain the
+undefined target beneficiary under #42. Remnant and Skilled Casting aura
+contradictions join #31. Research, complete candidate provenance and focused
+regressions are recorded in research/physical-items-batch-3-charms-2.json.
+Relevant native acceptance remains pending; no compatibility claim is added.

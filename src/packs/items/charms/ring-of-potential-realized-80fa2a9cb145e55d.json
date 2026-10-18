@@ -3,7 +3,7 @@
   "_key": "!items!80fa2a9cb145e55d",
   "name": "Ring of Potential Realized",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "75000 gp, one tradition-limits exception per day after attunement"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> strong Fate; <strong>CL</strong> 12th<br>\n<strong>Slot</strong> ring; <strong>Price</strong> 75,000 gp; <strong>Weight</strong> -</p>\n<p><strong>Description</strong><br>\nThis ring looks like a simple piece of common iron until slipped onto the finger. Once there, it transmutes to a beautiful ring of precious metal with rare stones that reflect light in impossible ways, its appearance changing depending on who is wearing it.</p>\n<p>The ring remains inactive until worn for 24 hours, and remains inactive if the wearer is already wearing a similar ring. When the wearer recovers spell points, the wearer gains additional spell points equal to their casting ability modifier. If the ring is taken off during the day, these points are lost (the bonus spell points from this ring are always the last points spent).</p>\n<p>In addition, once per day the wearer can cast a spell that ignores all limitations placed on them by their casting traditions: a skilled caster does not need to attempt a check, a prepared caster can cast a spell spontaneously (giving up assigned spell points or other spells to do so), a focus caster can cast without their focus, and so forth.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm; <strong>Cost</strong> 37,500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc38\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 75000 gp, one tradition-limits exception per day after attunement.</p><p>One ring changes from common iron to wearer-specific precious metal/stones when worn. After twenty-four-hour attunement, spell-point recovery adds the actual casting ability modifier; keep these bonus points as the last points spent and remove them if the ring is removed. Recovery, similar-ring exclusion, tracking/removal of bonus points and tradition choices are manual, with no unconditional pool increase, guessed casting ability or permanent feat grant.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 12,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Fate"
     },
     "hp": {},
     "broken": false,
@@ -84,14 +86,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "89f1e2e6412d97ac",
+        "name": "Cast without Tradition Limitations",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "As part of an actual casting after the ring is active, ignore that casting tradition's limitations for this spell once per day. Normal casting action and other applicable costs remain. The ring must first be worn twenty-four hours and stays inactive if a similar ring is already worn; resolve those gates manually."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 1,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "1",
       "rechargeFormula": ""
     },
     "links": {

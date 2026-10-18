@@ -3,7 +3,7 @@
   "_key": "!items!c0b4fdf977d99e7b",
   "name": "Talisman of Spell Resistance",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/charms/talisman-of-spell-resistance.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "implemented",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "30000 gp, SR 15 silver-star talisman"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Protection; <strong>CL</strong> 5th<br>\n<strong>Slot</strong> neck; <strong>Price</strong> 30,000; <strong>Weight</strong> 2 lbs.</p>\n<p>This talisman features a five-pointed silver star surrounded by a circle of gold. In the center of the star is one of many magic runes. While worn, this talisman gives the wearer spell resistance 15. The talisman of spell resistance sheds light as a torch for one round whenever it successfully blocks a spell; the wearer can prevent it from doing so by speaking a command word, and it will not light up through this effect until the command word is spoken again. The user may speak a different command word to cause the talisman to shed (or stop shedding) light as a candle.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Protection sphere (Spell Ward (aegis, ward)); <strong>Cost</strong> 15,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc44\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 30000 gp, SR 15 silver-star talisman.</p><p>One two-pound silver five-pointed star inside a gold circle, rune unselected. While worn it grants SR fifteen, not a +15 stacking bonus; native source comparison remains manual under #41. Correct the draft fifteen-thousand construction cost to the published thirty-thousand purchase price under #37, without changing the full source body. Light commands spend no daily resource; successful-block flashes last one round only.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -52,7 +54,7 @@
     },
     "equipped": true,
     "carried": true,
-    "price": 15000,
+    "price": 30000,
     "size": "med",
     "resizing": false,
     "timeworn": false,
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Protection"
     },
     "hp": {},
     "broken": false,
@@ -83,14 +85,56 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
-    "actions": [],
+    "contextNotes": [
+      {
+        "target": "sr",
+        "text": "While worn, this talisman supplies spell resistance 15. Compare full applicable SR sources instead of adding fifteen to existing SR; resolve the applicable value manually under #41."
+      }
+    ],
+    "actions": [
+      {
+        "_id": "fc2f95f6c0d3117c",
+        "name": "Toggle Candle Glow",
+        "activation": {
+          "type": "special",
+          "unchained": {
+            "type": "special"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Speak the appropriate command word to make the talisman shed or stop shedding candle light. Resolve its actual light and placement manually; no scene or token change."
+          ]
+        }
+      },
+      {
+        "_id": "9ab8f1587088b0c5",
+        "name": "Toggle Reactive Torch Flash",
+        "activation": {
+          "type": "special",
+          "unchained": {
+            "type": "special"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "A separate command word prevents or re-enables the one-round torch-light flash when this talisman successfully blocks a spell. Resolve the actual successful block and one-round flash manually; no automatic immunity or permanent torch light."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

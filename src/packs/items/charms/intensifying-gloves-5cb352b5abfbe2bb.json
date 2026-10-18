@@ -3,7 +3,7 @@
   "_key": "!items!5cb352b5abfbe2bb",
   "name": "Intensifying Gloves",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/hand/glove-simple-cloth-white.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "implemented",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "lesser, 4000 gp, crafted energy not selected"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Destruction; <strong>CL</strong> 5th<br>\n<strong>Slot</strong> hands; <strong>Price</strong> 4,000 gp (lesser), 16,000 (greater); <strong>Weight</strong> —</p>\n<p><strong>Description</strong><br>\nEach pair of intensifying gloves are attuned to a single energy type, either acid, cold, fire, electricity, negative energy, or sonic damage. The wearer’s destructive blasts ignore either 5 points (lesser) or 10 points (greater) of energy resistance to that type. Both gloves must be worn for the magic to be effective.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Destruction sphere ((blast type) talent matching the chosen energy type); <strong>Cost</strong> 2,000 gp (lesser), 8,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc28\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: lesser, 4000 gp, crafted energy not selected.</p><p>Quantity one is a complete lesser pair, both gloves required, negligible source weight. Exactly one crafted energy remains unselected. Lesser ignores five resistance; greater ten is a separate tier. No default fire choice, positive-energy option, immunity bypass, broad damage bonus, Heal bonus or weapon attack is imported.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Destruction"
     },
     "hp": {},
     "broken": false,
@@ -83,14 +85,19 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
+    "contextNotes": [
+      {
+        "target": "spellEffect",
+        "text": "Both gloves worn; destructive blasts of this pair's single crafted energy only: ignore five points of resistance to that energy. Choose acid, cold, fire, electricity, negative energy or sonic when crafted. Does not ignore immunity or apply to other effects."
+      }
+    ],
     "actions": [],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

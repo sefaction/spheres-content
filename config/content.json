@@ -74,7 +74,7 @@
       "licensePath": "LICENSES/OGL-1.0a-PF1-Content.txt",
       "licenseSha256": "10bcdc68296b48cc250f38e49de09c9a73645163d7ac7f76e77346a755c35cdc",
       "evidenceUrl": "https://foundryvtt.com/packages/pf1",
-      "scope": "Reviewed PF1 11.11 Longsword, Trail Rations, Blunderbuss, Pistol, Musket, Sling Bullet, Firearm Bullet, Light Mace, Greatsword and Sack native data adapted in config/physical-item-reviews.json. Instrument-specific statistics come from the approved Rockstar class table recorded in research/instrument-profiles.json. No upstream artwork bytes or program code copied. Final group also adapts PF1 11.11 Light Crossbow and Buckler; Sack supplies native container structure, with wiki-defined trash contents and physical totals. Batch 2 group 4 adapts the previously reviewed Sack and Light Mace structures, with source-defined empty storage and +2 mace overrides. Boots use a reviewed native landSpeed enhancement target; custom school strings preserve Spheres labels. Batch 2 final group adapts the inspected empty Sack structure for physical storage and case/kit assemblies, with source-defined capacities and separately usable derived contents. Native equipment/consumable data profiles retain all original source text and manual conditional limits. Third-batch charms review native ability enhancements, typed AC/CMD inheritance, saves, base versus enhancement natural armor, and natural-only attack/damage fields against complete PF1 11.11 item records and versioned source. No program code copied; attack-specific unarmed handling remains manual.",
+      "scope": "Reviewed PF1 11.11 Longsword, Trail Rations, Blunderbuss, Pistol, Musket, Sling Bullet, Firearm Bullet, Light Mace, Greatsword and Sack native data adapted in config/physical-item-reviews.json. Instrument-specific statistics come from the approved Rockstar class table recorded in research/instrument-profiles.json. No upstream artwork bytes or program code copied. Final group also adapts PF1 11.11 Light Crossbow and Buckler; Sack supplies native container structure, with wiki-defined trash contents and physical totals. Batch 2 group 4 adapts the previously reviewed Sack and Light Mace structures, with source-defined empty storage and +2 mace overrides. Boots use a reviewed native landSpeed enhancement target; custom school strings preserve Spheres labels. Batch 2 final group adapts the inspected empty Sack structure for physical storage and case/kit assemblies, with source-defined capacities and separately usable derived contents. Native equipment/consumable data profiles retain all original source text and manual conditional limits. Third-batch charms review native ability enhancements, typed AC/CMD inheritance, saves, base versus enhancement natural armor, and natural-only attack/damage fields against complete PF1 11.11 item records and versioned source. No program code copied; attack-specific unarmed handling remains manual. Second third-batch charm group uses reviewed empty equipment, native activation, charge and conditional-note interfaces. No blanket conditional modifiers or program code copied. Highest-source SR and ambiguous Forger target remain manual (#41/#42).",
       "review": "Selected weapon and food rules are Open Game Content. Retain PF1 OGL notices and GPL-3.0 for upstream record-format contributions. Referenced PF1 images were visually inspected and remain system dependencies; no image bytes are redistributed."
     }
   ],
@@ -2459,6 +2459,237 @@
         "bytes": 7142
       },
       "prompt": "Create one square fantasy RPG inventory icon, painterly semi-realistic object illustration with a strong silhouette, fine material detail, soft rim lighting, centered large subject filling about 80 percent of the canvas, restrained dark charcoal background. Legible at 64 pixels. No text, letters, numbers, watermark, UI, person, face, head, mannequin, hands or unrelated props. One delicate smoke-grey cloth sun-shading veil displayed off the body. A soft narrow fabric brow band supports a clearly translucent dark mesh panel that hangs down to shield the eye area, with folded fabric and short tie ribbons visible. The main subject is the fine wearable veil and its mesh texture. No goggles, glass lenses, rigid helmet, eyes, religious markings or full opaque hood. Show the complete veil with comfortable margins."
+    },
+    {
+      "path": "static/icons/items/charms/academy-uniform.webp",
+      "sha256": "d2243c568711511c1a1e23ab2b3c7e57a2bdad3e81b268f403a7c057adfb8e63",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "162be10796e29a516b23919c8ab6596300c327df4da1979a72e23dfc52bea26a",
+        "sourceBytes": 2115334,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 5192
+      },
+      "prompt": "Create one square fantasy RPG inventory icon: painterly semi-realistic object illustration, strong clear silhouette, subtle rim lighting, centered large subject filling 80 percent of canvas on a restrained charcoal background, legible at 64 pixels. A single true-blue woolen scholar's robe hanging in a natural upright garment shape without a body, with long sleeves and a simple matching cloth waist tie. Soft wool texture, modest academic design, small tasteful stitched trim. Show the entire garment with comfortable margins. No person, face, hands, armor, metal breastplate, hat, wand, book, text, letters, watermark or UI."
+    },
+    {
+      "path": "static/icons/items/charms/alabaster-gloves.webp",
+      "sha256": "5559e876c1b24996fbd899cea6d51ea16241acae9c12e474c9d4b16804665960",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "f4e789040514895401746ef35823b510757cf7853de75f2dd02d2cde531b2847",
+        "sourceBytes": 2546792,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 10402
+      },
+      "prompt": "Create one square fantasy RPG inventory icon: painterly semi-realistic object illustration, strong silhouette, centered large subject, subtle rim lighting, charcoal background, legible at 64 pixels. One complete pair of supple white gloves, overlapping neatly with all ten fingers distinguishable, thin bright golden threads woven in elegant branching lines across the backs of both gloves. Gold woven strands and white fabric are the focal materials. A restrained warm golden glimmer follows these threads. Show both full gloves with margins. No hands wearing them, person, skin, heavy armor, metal gauntlets, green gems, religious lettering, text, numbers, watermark or UI."
+    },
+    {
+      "path": "static/icons/items/charms/amulet-of-emotional-weather.webp",
+      "sha256": "4599ba957ba85afdf88f0169cb6d1b7acc5bf6f4b266cc7dd9b9c4422b5104c8",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "c206fd4d4f60afa00946cce4d63fd260677feefeb426e493a7f7fa9a91881ef2",
+        "sourceBytes": 2020633,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 6692
+      },
+      "prompt": "Create one square fantasy RPG inventory icon, painterly semi-realistic, detailed materials and strong centered silhouette, soft rim lighting on a dark charcoal background, readable at 64 pixels. A beautiful compact necklace amulet crafted from multiple clear diamonds of different sizes, arranged around one larger central clear diamond, on a fine silver chain. All gems are colorless and translucent with subtle prismatic refraction. Show the entire pendant with a short loop of chain. No blue, red, green or yellow dominant gem color, no weather scene, clouds, human, body, hands, text, letters, watermark or UI."
+    },
+    {
+      "path": "static/icons/items/charms/forgers-gloves.webp",
+      "sha256": "0073a5eb127bcd9e92e8fee2b9c51883fe5238c7dd024d1b4c8ab6346fd93720",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "0279bd3ce0920b89054c5a5fa813977301b93a9f673db3ed6331f441f1cf98b4",
+        "sourceBytes": 2553884,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 9096
+      },
+      "prompt": "Create one square fantasy RPG inventory icon, painterly semi-realistic, strong centered silhouette and close material detail, dark charcoal background, clear at 64 pixels. One complete pair of heavily used brown leather workman's gloves, overlapping neatly, with full fingers, sturdy seams, short leather cuffs and permanent dark soot and grime across the palms and knuckles. Clearly flexible leather gloves used by a metalworker, not plate gauntlets. Show both full gloves with generous edge margins. No wearer, hands inside gloves, tools, anvil, hammer, metal armor, flames, gems, text, lettering, watermark or UI."
+    },
+    {
+      "path": "static/icons/items/charms/fox-medallion.webp",
+      "sha256": "2e17810e4e6d768fb7b2302813c60f1f10931ef67b64f86092c479a0e6b2058f",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "b25e187b259681355efe410049c0026e6486354a8112f40dec97465b35e1810e",
+        "sourceBytes": 2109524,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 6074
+      },
+      "prompt": "Create one square fantasy RPG inventory icon, painterly semi-realistic with crisp metal texture, soft rim lighting and a strong centered silhouette on a charcoal background, legible at 64 pixels. One round silvery medallion hanging from a short fine silver chain. Its face bears a simple elegant relief of a fox head with pointed ears, cut into polished silver, surrounded by an understated circular border. A refined protective talisman rather than an animal or mask. Show entire medallion and short chain with margins. No gold, colored gems, living animal, hands, wearer, text, numbers, writing, watermark or UI."
+    },
+    {
+      "path": "static/icons/items/charms/remnant-of-courage.webp",
+      "sha256": "aa8bd4d10edfd92c265bb1e9b684b6bfd5dab3392b4014856d3efdac27ff694a",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "568d09ed0e66b9bfeb38a0abf68c8500f08eeae6826b5fd72498ad4251fbdffe",
+        "sourceBytes": 2078709,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 6654
+      },
+      "prompt": "Create one square fantasy RPG inventory icon, painterly semi-realistic, centered close-up with a strong silhouette, detailed worn materials and soft rim light on a dark charcoal background, readable at 64 pixels. A small battered fragment of a bronze armor plate fastened to a short frayed crimson cloth ribbon with a simple practical pin. A keepsake of a fallen hero, with scratches and torn fabric, one compact wearable token. Show the full fragment, ribbon and fastening with generous margins. No full armor suit, large medal, wreath, gemstones, skull, living person, hands, text, lettering, watermark or UI."
+    },
+    {
+      "path": "static/icons/items/charms/ring-of-clarity.webp",
+      "sha256": "784202ad29eac1405fa6e49f538ff82c0bee9faa49ff486a5b1f775320522506",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "c7a30df25dac3e0bf7050ab032621b2a1b0eda4e008a5cd5193814ff971b67b4",
+        "sourceBytes": 2046854,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 6858
+      },
+      "prompt": "Create one square fantasy RPG inventory icon, painterly semi-realistic, centered macro object with crisp material detail and soft rim lighting on charcoal, legible at 64 pixels. One seamless ring carved entirely from transparent clear crystal, a simple smooth thick circular band, no metal setting and no separate gemstone. Pale highlights and delicate refraction make its otherwise almost invisible shape readable against the dark background. An unused clear crystal ring, not the opaque pink state. Show the full ring at three-quarter angle with comfortable margins. No gold, silver, colored gem, hand, person, text, lettering, watermark or UI."
+    },
+    {
+      "path": "static/icons/items/charms/skimmer.webp",
+      "sha256": "9db0961daba03e27e0a760de563817532c0e35f2f6289135c9fcc546f72088f5",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "1138de0bd34fd1f127d8a0d6d435b136962fb490407cb525ecb841c53bc81092",
+        "sourceBytes": 1865943,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 4094
+      },
+      "prompt": "Create one square fantasy RPG inventory icon, painterly semi-realistic object illustration with strong centered silhouette, soft rim light and restrained charcoal background, legible at 64 pixels. One low-profile solid oval disc platform broad enough for one adult to stand on, shown at three-quarter angle hovering a few inches above a small soft shadow. A single sturdy dark slate-gray disc with a subtly worked smooth surface and a thin silver rim. Clearly a physical standing platform, not a coin, ring, bowl or spell portal. Show the full oval with generous margins. No passenger, person, rider, feet, wheels, propellers, handles, seat, water scene, text, lettering, watermark or UI."
+    },
+    {
+      "path": "static/icons/items/charms/talisman-of-spell-resistance.webp",
+      "sha256": "2ca153d19f496a3bf5be35d0db850fe65a42f0617adec9ba489a713d1a372b7f",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "180f5ebf860d63f2fd684dec1772b023a9fbefb351d1bd110fa1f885f5de2787",
+        "sourceBytes": 2038477,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 6832
+      },
+      "prompt": "Create one square fantasy RPG inventory icon, painterly semi-realistic detailed jewelry, strong centered silhouette, soft rim lighting and dark charcoal background, readable at 64 pixels. One magical talisman on a short fine chain: a solid five-pointed silver star enclosed by a single circular gold border, with one small abstract magical rune engraved in the center of the star. The silver star has exactly five points; the gold circle completely surrounds it. Do not use a six-point star, pentagram linework or colored gemstone. Show the full pendant with comfortable margins. No hands, person, clothing, readable letters, words, numbers, watermark or UI."
+    },
+    {
+      "path": "static/icons/items/charms/targeting-monocle.webp",
+      "sha256": "aae48e8a2ba54fcf2010a8e2a83c2d466faf123f64af3e7af91dd55ca78954bb",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "5dccd55ad7d78eb2ca811e7da79cd45b1764e8ada9fe35b676aeef5e05cc1207",
+        "sourceBytes": 2094446,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 6738
+      },
+      "prompt": "Create one square fantasy RPG inventory icon, painterly semi-realistic object illustration, centered large subject, fine material detail and soft rim lighting on a charcoal background, legible at 64 pixels. A single circular monocle with one clear glass lens in a thin dark silver rim, attached to a short delicate retaining chain. Subtle pale geometric glints inside the glass suggest magical analysis, without an actual screen, diagram or target. Show exactly one lens and its full frame with generous edge margins. No second lens, goggles, glasses arms, mask, eye, wearer, face, hand, readable text, letters, watermark or UI."
+    },
+    {
+      "path": "static/icons/items/charms/vest-of-shape-stabilization.webp",
+      "sha256": "3ce2e42f1bec16efe701b8da146fcf567f4e41de4d5fedc8917a871dd70f9e78",
+      "kind": "generated",
+      "license": "MIT",
+      "tool": "image_gen",
+      "encoding": {
+        "sourceSha256": "fd4480ed17bb5ff7bc4921cf303921ace13fbd9ec4d0e1a7f10e1c943ca77711",
+        "sourceBytes": 2465477,
+        "encoder": "Pillow 12.3.0",
+        "resampling": "LANCZOS",
+        "crop": "none; square source",
+        "width": 256,
+        "height": 256,
+        "format": "webp",
+        "quality": 80,
+        "method": 6,
+        "bytes": 6176
+      },
+      "prompt": "Create one square fantasy RPG inventory icon, painterly semi-realistic with clear fabric texture, centered large subject and strong silhouette, soft rim lighting on a charcoal background, readable at 64 pixels. One unarmored sleeveless charcoal-gray cloth vest displayed upright without a wearer, with a fitted waist, soft folded collar edges, simple front fastening and restrained silver stitched geometric trim. Clearly a flexible woven garment with two armholes, not a metal breastplate or armored torso. Show the entire vest with comfortable margins. No person, skin, hands, sleeves, helmet, metal plates, weapons, animals, gems, readable text, letters, watermark or UI."
     }
   ],
   "externalAssets": [
@@ -2805,6 +3036,30 @@
       "version": "13.351",
       "sha256": "0d51e1cd863451b6f11f617f67b8624374cc194d38758b2cbf164f66e2024228",
       "review": "Full record and actual 64/128 px illustration reviewed 2026-10-17. Protective ring/glove/cloak/pendant artwork only; source-specific rules and quantities override unrelated item behavior. No external artwork bytes copied."
+    },
+    {
+      "path": "icons/commodities/gems/gem-faceted-round-white.webp",
+      "kind": "reference",
+      "provider": "foundry",
+      "version": "13.351",
+      "sha256": "bf04896322acb735eff91294fc078d8335b96daa0c452b1c5be739412385e9c2",
+      "review": "Full candidate record and actual 64/128 px illustration inspected 2026-10-17. Physical illustration only; no unrelated rules, values, quantities or upstream image bytes imported."
+    },
+    {
+      "path": "icons/equipment/waist/belt-buckle-crescent.webp",
+      "kind": "reference",
+      "provider": "foundry",
+      "version": "13.351",
+      "sha256": "e5150b2ed563c5cb29cfd85d0e5f20c42c0380986c2a5ca9f7fc1851ad716b92",
+      "review": "Full candidate record and actual 64/128 px illustration inspected 2026-10-17. Physical illustration only; no unrelated rules, values, quantities or upstream image bytes imported."
+    },
+    {
+      "path": "systems/pf1/icons/items/jewelry/ring-red.jpg",
+      "kind": "reference",
+      "provider": "pf1",
+      "version": "11.11",
+      "sha256": "2b5a63f1cdb87efd6675a5ebc0490545f80de4587cf29ca95ebbfb66d3c3161f",
+      "review": "Full candidate record and actual 64/128 px illustration inspected 2026-10-17. Physical illustration only; no unrelated rules, values, quantities or upstream image bytes imported."
     }
   ]
 }

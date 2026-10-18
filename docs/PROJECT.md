@@ -67,3 +67,8 @@ Ultimate items: eleven apparatuses, forty-seven charms and forty-two compounds.
 Its first group reviews twenty charms with related native bonus profiles.
 See [the physical-item review](PHYSICAL_ITEM_REVIEW.md). The full catalog, artwork
 and mechanics remain unfinished.
+
+The second third-batch group adds twenty conditional charm profiles with fourteen
+native usage helpers and reviewed artwork. Forty third-batch images are reviewed;
+sixty remain. Conditional effects, crafted choices and cross-item resource limits
+remain explicitly manual; no broad compatibility claim is added.

@@ -3,7 +3,7 @@
   "_key": "!items!c285ff9226aa2e2c",
   "name": "Ring of Skilled Casting",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "systems/pf1/icons/items/jewelry/ring-red.jpg",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "implemented",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "30000 gp passive metamagic cost reduction"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Fate; <strong>CL</strong> 8th<br>\n<strong>Slot</strong> ring; <strong>Price</strong> 30,000 gp; <strong>Weight</strong> -</p>\n<p><strong>Description</strong><br>\nThis heavy brass ring is usually worn on the creature’s middle (or largest) finger. Whenever the wearer casts a spell that uses a metamagic feat, they may reduce the cost of one metamagic feat by 1 spell point (minimum 0). Other metamagic cost-reducing abilities do not stack with this one.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm; <strong>Cost</strong> 15,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc40\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 30000 gp passive metamagic cost reduction.</p><p>One heavy brass ring. Its conditional reduction modifies one qualifying metamagic feat cost, not all casting costs or the actor's general spell-point maximum. No daily use or pool is invented. Source faint aura at CL 8 conflicts with native moderate; #31.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 8,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Fate"
     },
     "hp": {},
     "broken": false,
@@ -83,14 +85,19 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
+    "contextNotes": [
+      {
+        "target": "spellEffect",
+        "text": "When casting with metamagic, reduce exactly one metamagic feat's spell-point cost by one, minimum zero. Does not stack with other metamagic cost reductions. Normal spell and other feat costs remain; resolve on that actual casting."
+      }
+    ],
     "actions": [],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

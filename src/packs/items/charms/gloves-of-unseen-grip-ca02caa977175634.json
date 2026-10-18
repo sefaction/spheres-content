@@ -3,7 +3,7 @@
   "_key": "!items!ca02caa977175634",
   "name": "Gloves of Unseen Grip",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/equipment/hand/glove-simple-cloth-white.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "not-needed",
+        "changes": "deferred",
+        "contextNotes": "implemented",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-conditional-charm",
+      "selectedVariant": "8000 gp, complete pair"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> moderate Telekinesis; <strong>CL</strong> 8th<br>\n<strong>Slot</strong> hands; <strong>Price</strong> 8,000 gp; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThe wearer of these gloves improves the strength and grip of their telekinesis. Add a +2 bonus on their CMB and CMD checks when they use the Telekinetic Maneuver or Steal talents.</p>\n<p><strong>Construction Requirements</strong><br>\nForge Charm, Telekinesis sphere (Forceful Telekinesis, Telekinetic Maneuver); <strong>Cost</strong> 4,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/charms#toc24\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 8000 gp, complete pair.</p><p>One complete one-pound glove pair improves only the specified Telekinesis talent CMB/CMD procedures. The actual talents use their own CL/casting-ability calculations; do not add +2 to ordinary combat maneuvers, all CMD, lifting size, Strength, or Swim/Climb. No talent is automatically granted.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 8,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Telekinesis"
     },
     "hp": {},
     "broken": false,
@@ -83,14 +85,23 @@
       "seeInvisibility": false,
       "seeInDarkness": false
     },
-    "contextNotes": [],
+    "contextNotes": [
+      {
+        "target": "cmb",
+        "text": "Only Telekinetic Maneuver or Steal talent maneuvers: +2 on the actual telekinetic CMB check, resolved manually. No ordinary CMB or Sleight of Hand bonus."
+      },
+      {
+        "target": "cmd",
+        "text": "Only when using the Telekinetic Maneuver or Steal talents: +2 on the applicable telekinetic CMD, resolved manually. This is not global defensive CMD."
+      }
+    ],
     "actions": [],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },
