@@ -37,8 +37,10 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   ZIP SHA-256:
   `c45d10cf498f2381c593635f73b05d419920c3c681dbb398d5926fd02c934033`.
   Guarded dry-run, staged deployment and strict installed-byte checks passed on
-  2026-10-17; ten recoverable module backups remain. No group-4 PR yet; stack on
-  `codex/metamagic-apparatus-group-3` (#30).
+  2026-10-17; ten recoverable module backups remain. Draft PR #33 is pushed,
+  stacked on `codex/metamagic-apparatus-group-3` (#30):
+  https://github.com/sefaction/spheres-content/pull/33. CI is pending; no merge
+  or release approval.
 - Batch 2 now has eighty reviewed images and twenty pending, all other apparatuses.
   Next ignored plan: `.local/batch2-final-plan.json`, beginning Field Researcher's
   Lenses, Force Hook and Gentle Shade Trinket. Akashic/legacy production stays
@@ -79,8 +81,7 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   two Git calls in 922 ms, matching twenty distributed individual reads exactly.
   Twenty individual reads took 1,915 ms (full old-read estimate ~650 seconds).
   Preserve the existing receipt/Setup/hash/snapshot/exact-comparison checks.
-- Next safe step: finish the semantic audit, record its actual result, push/open
-  the group-4 draft PR, then address #32 on its own feature branch before the final
+- Next safe step: check #33 CI, then address #32 on its own feature branch before the final
   twenty-item group. Preserve test copies; no campaign, merge or release work.
 
 ## Prior reviewed content batch: physical batch 2, group 3
