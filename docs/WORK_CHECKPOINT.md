@@ -2,6 +2,27 @@
 
 Updated: 2026-10-17 (work began 2026-09-19 local time).
 
+## Active work: first twenty-compounds group in batch 3
+
+- Branch codex/physical-items-batch-3-compounds starts at #43 head f389be3.
+  #43 passed Windows/Ubuntu on its final head and remains draft/unmerged pending
+  separate approval. This branch's future PR must use #43's branch as its base
+  until that dependency merges. All earlier twelve approved PRs are merged.
+- Twenty compound profiles authored: native single-dose consumption, twenty-one
+  helpers, fixed Common Cure healing and source-specific temporary/manual limits.
+  Full original bodies, IDs, snapshots, prices/weights/quantities are unchanged.
+- Fifty-three full records inspected; six suitable existing illustrations serve
+  all twenty doses, viewed at 64/128 px. No new generated artwork or donor rules.
+  Sixty third-batch images reviewed; forty remain. Akashic deferred.
+- Hallow wording discrepancy is explicit/manual under #44. Quintessential oil
+  separates external preparation from expenditure; Renewal's cap/daily user limit,
+  source size caps and selected tiers remain visible. No persistent actor bonuses.
+- Focused checks/full clean gate/new deployment/native acceptance are pending.
+  Previous test installation b0a7e51 remains in Setup after a complete 75.21-second
+  installed audit. Next: run focused/full gates, guarded deployment, dose/healing
+  native checks and final Setup audit, then draft PR based on #43. No merge or
+  release approval for this new group; preserve the tested previous checkpoint.
+
 ## Active work: second twenty-charms group in batch 3
 
 - Branch codex/physical-items-batch-3-charms-2 starts at main fba9a28.
@@ -34,7 +55,7 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   installed semantic audit passed in 75.21 seconds for all 6,788 records, image
   hashes and receipt bytes against immutable b0a7e51, unchanged remote snapshots,
   local copies only, no active game at /auth. No process remains running.
-- Windows/Ubuntu PR checks are running. Next: confirm final documentation CI;
+- Both final Windows/Ubuntu checks passed on f389be3. Next:
   leave #43 unmerged pending individual approval, then continue the sixty
   remaining images in the frozen third hundred. No public release authorization.
 

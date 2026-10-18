@@ -2,8 +2,8 @@
   "_id": "5efa2c8c575f4be1",
   "_key": "!items!5efa2c8c575f4be1",
   "name": "Quintessential Oil",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "img": "systems/pf1/icons/items/potions/minor-empty.jpg",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-compound-consumable",
+      "selectedVariant": "500 gp, unimbued"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Enhancement; <strong>CL</strong> 1st<br>\n<strong>Slot</strong> none; <strong>Price</strong> 500 gp; <strong>Weight</strong> -</p>\n<p><strong>Description</strong><br>\nThis is a thick, clear-ish oil that takes on a color when imbued with a sphere ability. Any sphere caster can imbue this oil with a sphere ability that affects a single creature. Doing so uses any spell points required. The next creature to touch the oil becomes subject to that effect. Imbuing the oil takes as long as using the sphere ability, and once imbued, the oil remains effective for 4 hours; if not used on a target before the time expires, the oil congeals and becomes useless.</p>\n<p>The oil is thick enough and potent enough to be used as a contact poison, and may be applied to a weapon.</p>\n<p><strong>Construction Requirements</strong><br>\nDistill Compound; <strong>Cost</strong> 250 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/compounds#toc90\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 500 gp, unimbued.</p><p>Initially unimbued clear-ish oil; source-defined color depends on the selected sphere ability. Imbuing uses actual ability timing, so unspecified generic timing stays Special. Contact, four-hour expiry and potency are manually tracked; no effect is selected or permanently granted.</p><p>Single-dose quantity is consumed through the native helper. Target outcomes, temporary effects and any external eligibility remain deliberate; carrying the bottle grants no persistent bonus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,37 +65,66 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 1,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Enhancement"
     },
     "hp": {},
     "broken": false,
     "hardness": 0,
-    "changes": [],
-    "changeFlags": {
-      "immuneToMorale": false,
-      "loseDexToAC": false,
-      "noMediumEncumbrance": false,
-      "noHeavyEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "lowLightVision": false,
-      "seeInvisibility": false,
-      "seeInDarkness": false
-    },
-    "contextNotes": [],
-    "actions": [],
-    "attackNotes": [],
-    "effectNotes": [],
     "uses": {
       "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
+      "per": "single",
+      "autoDeductChargesCost": "1",
       "maxFormula": "",
-      "rechargeFormula": ""
+      "rechargeFormula": "",
+      "pricePerUse": 0
     },
+    "actions": [
+      {
+        "_id": "05dc74689dce5bbf",
+        "name": "Imbue Unprepared Oil",
+        "activation": {
+          "type": "special",
+          "unchained": {
+            "type": "special"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "An actual sphere caster supplies one sphere ability that affects a single creature, spending its real spell points and actual casting time. Imbuing does not expend this dose. Track preparation and the four-hour contact window manually; this helper invents no ability, free casting or stored-resource pool."
+          ]
+        }
+      },
+      {
+        "_id": "1ad23cd5aa02e732",
+        "name": "Expend Prepared Dose",
+        "activation": {
+          "type": "special",
+          "unchained": {
+            "type": "special"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Expend the actually imbued dose when used on its first creature target, or mark it unusable if its four-hour window elapsed. The next creature to touch it receives the stored effect. It may be applied to a weapon as a contact poison. Actual application, target contact and stored effect resolution are manual; no automatic poison save or attack."
+          ]
+        },
+        "duration": {
+          "value": "4",
+          "units": "hour"
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
     "links": {
       "children": [],
       "charges": []
@@ -104,40 +135,10 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
-    "proficient": false,
-    "held": "1h",
-    "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
-    },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
-    },
-    "spellFailure": 0,
+    "subType": "potion",
     "showInQuickbar": false,
+    "changes": [],
+    "contextNotes": [],
     "sources": [
       {
         "title": "Spheres of Power Wiki",

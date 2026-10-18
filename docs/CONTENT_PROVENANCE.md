@@ -342,3 +342,17 @@ headband require no new third-party image copies. Reviewed native empty equipmen
 activation, charge and note interfaces retain existing OGL/GPL data notices;
 no upstream program code is copied. Issues #31/#37/#41/#42 track the remaining
 source/aura/price and native-interface questions. Sixty third-batch images remain.
+
+## First third-batch compound group (2026-10-17)
+
+Twenty Ultimate compounds retain complete approved OGL bodies from snapshot
+364b8288268fe094544a24059329d1010c21745c680b8c3f23e6abc23e61698f.
+Fifty-three complete exact/alternate/component/art records were inspected.
+Research pins candidate UUIDs, versions, hashes and native interface source files.
+Six existing core/system illustrations are image-only references for twenty
+single vials/flasks, inspected at 64/128 px. No new artwork bytes, poison/drug
+rules or unrelated donor data are copied. Native empty consumable/healing data
+retain existing OGL/GPL notices; no upstream program code is copied.
+Hallow's unresolved source wording is recorded under #44 without rewriting the
+body. Quantity, price and weight remain source-defined; no extra empty bottle
+price/weight or constructed contents are added. Forty third-batch images remain.

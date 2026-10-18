@@ -72,3 +72,8 @@ The second third-batch group adds twenty conditional charm profiles with fourtee
 native usage helpers and reviewed artwork. Forty third-batch images are reviewed;
 sixty remain. Conditional effects, crafted choices and cross-item resource limits
 remain explicitly manual; no broad compatibility claim is added.
+
+The first twenty compounds in the third batch use native single-dose consumption,
+explicit source tiers and reviewed existing bottle art. Sixty third-batch images
+are reviewed; forty remain. Conditional target effects and temporary forms remain
+manual until their specific integration is reviewed.

@@ -74,7 +74,7 @@
       "licensePath": "LICENSES/OGL-1.0a-PF1-Content.txt",
       "licenseSha256": "10bcdc68296b48cc250f38e49de09c9a73645163d7ac7f76e77346a755c35cdc",
       "evidenceUrl": "https://foundryvtt.com/packages/pf1",
-      "scope": "Reviewed PF1 11.11 Longsword, Trail Rations, Blunderbuss, Pistol, Musket, Sling Bullet, Firearm Bullet, Light Mace, Greatsword and Sack native data adapted in config/physical-item-reviews.json. Instrument-specific statistics come from the approved Rockstar class table recorded in research/instrument-profiles.json. No upstream artwork bytes or program code copied. Final group also adapts PF1 11.11 Light Crossbow and Buckler; Sack supplies native container structure, with wiki-defined trash contents and physical totals. Batch 2 group 4 adapts the previously reviewed Sack and Light Mace structures, with source-defined empty storage and +2 mace overrides. Boots use a reviewed native landSpeed enhancement target; custom school strings preserve Spheres labels. Batch 2 final group adapts the inspected empty Sack structure for physical storage and case/kit assemblies, with source-defined capacities and separately usable derived contents. Native equipment/consumable data profiles retain all original source text and manual conditional limits. Third-batch charms review native ability enhancements, typed AC/CMD inheritance, saves, base versus enhancement natural armor, and natural-only attack/damage fields against complete PF1 11.11 item records and versioned source. No program code copied; attack-specific unarmed handling remains manual. Second third-batch charm group uses reviewed empty equipment, native activation, charge and conditional-note interfaces. No blanket conditional modifiers or program code copied. Highest-source SR and ambiguous Forger target remain manual (#41/#42).",
+      "scope": "Reviewed PF1 11.11 Longsword, Trail Rations, Blunderbuss, Pistol, Musket, Sling Bullet, Firearm Bullet, Light Mace, Greatsword and Sack native data adapted in config/physical-item-reviews.json. Instrument-specific statistics come from the approved Rockstar class table recorded in research/instrument-profiles.json. No upstream artwork bytes or program code copied. Final group also adapts PF1 11.11 Light Crossbow and Buckler; Sack supplies native container structure, with wiki-defined trash contents and physical totals. Batch 2 group 4 adapts the previously reviewed Sack and Light Mace structures, with source-defined empty storage and +2 mace overrides. Boots use a reviewed native landSpeed enhancement target; custom school strings preserve Spheres labels. Batch 2 final group adapts the inspected empty Sack structure for physical storage and case/kit assemblies, with source-defined capacities and separately usable derived contents. Native equipment/consumable data profiles retain all original source text and manual conditional limits. Third-batch charms review native ability enhancements, typed AC/CMD inheritance, saves, base versus enhancement natural armor, and natural-only attack/damage fields against complete PF1 11.11 item records and versioned source. No program code copied; attack-specific unarmed handling remains manual. Second third-batch charm group uses reviewed empty equipment, native activation, charge and conditional-note interfaces. No blanket conditional modifiers or program code copied. Highest-source SR and ambiguous Forger target remain manual (#41/#42). First third-batch compounds group uses empty consumable, single-dose quantity, native timing/healing and fixed-check reminders. Complete Cure/Cure Light Wounds and Spheres components inspected; no upstream program code or unrelated donor effects copied.",
       "review": "Selected weapon and food rules are Open Game Content. Retain PF1 OGL notices and GPL-3.0 for upstream record-format contributions. Referenced PF1 images were visually inspected and remain system dependencies; no image bytes are redistributed."
     }
   ],
@@ -3060,6 +3060,54 @@
       "version": "11.11",
       "sha256": "2b5a63f1cdb87efd6675a5ebc0490545f80de4587cf29ca95ebbfb66d3c3161f",
       "review": "Full candidate record and actual 64/128 px illustration inspected 2026-10-17. Physical illustration only; no unrelated rules, values, quantities or upstream image bytes imported."
+    },
+    {
+      "path": "icons/consumables/potions/potion-flask-corked-yellow.webp",
+      "kind": "reference",
+      "provider": "foundry",
+      "version": "13.351",
+      "sha256": "971ceb753d8c90e70247ca27c2c76052604d43c1ebd58a9c7504cda99c769003",
+      "review": "Complete donor records and actual 64/128 px vial/flask illustrations inspected. Image-only reuse; no poison, drug, preservation or lamp-oil mechanics, values or upstream image bytes copied."
+    },
+    {
+      "path": "systems/pf1/icons/items/potions/minor-empty.jpg",
+      "kind": "reference",
+      "provider": "pf1",
+      "version": "11.11",
+      "sha256": "5871d3f3b04a84d37640fbc134e86e72b89a4e5b9213261228d9508daa0bf572",
+      "review": "Complete donor records and actual 64/128 px vial/flask illustrations inspected. Image-only reuse; no poison, drug, preservation or lamp-oil mechanics, values or upstream image bytes copied."
+    },
+    {
+      "path": "systems/pf1/icons/items/potions/minor-green.jpg",
+      "kind": "reference",
+      "provider": "pf1",
+      "version": "11.11",
+      "sha256": "b9744d93a232ffece9a80d53ea771894d19cf75f6d35fedd68e6bcd71f158c0d",
+      "review": "Complete donor records and actual 64/128 px vial/flask illustrations inspected. Image-only reuse; no poison, drug, preservation or lamp-oil mechanics, values or upstream image bytes copied."
+    },
+    {
+      "path": "systems/pf1/icons/items/potions/minor-red.jpg",
+      "kind": "reference",
+      "provider": "pf1",
+      "version": "11.11",
+      "sha256": "ed13c7f65963cdac2f79888dffc69137b6f64acc50aaa9e4a862b86019815829",
+      "review": "Complete donor records and actual 64/128 px vial/flask illustrations inspected. Image-only reuse; no poison, drug, preservation or lamp-oil mechanics, values or upstream image bytes copied."
+    },
+    {
+      "path": "systems/pf1/icons/items/potions/minor-blue.jpg",
+      "kind": "reference",
+      "provider": "pf1",
+      "version": "11.11",
+      "sha256": "a3cada5338521ee2c38da81b6fd10e02d297f6e33a3a5d70f0fc138eaa634806",
+      "review": "Complete donor records and actual 64/128 px vial/flask illustrations inspected. Image-only reuse; no poison, drug, preservation or lamp-oil mechanics, values or upstream image bytes copied."
+    },
+    {
+      "path": "icons/consumables/potions/bottle-round-corked-orante-red.webp",
+      "kind": "reference",
+      "provider": "foundry",
+      "version": "13.351",
+      "sha256": "eea9959c877de55cf1fceda440c6fa55966d2bb4bff235f03db11c4ca276b62a",
+      "review": "Complete donor records and actual 64/128 px vial/flask illustrations inspected. Image-only reuse; no poison, drug, preservation or lamp-oil mechanics, values or upstream image bytes copied."
     }
   ]
 }

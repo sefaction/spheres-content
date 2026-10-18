@@ -2,8 +2,8 @@
   "_id": "c7b43af99d5b2357",
   "_key": "!items!c7b43af99d5b2357",
   "name": "Relic Blessing Oil",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "img": "icons/consumables/potions/potion-flask-corked-yellow.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-compound-consumable",
+      "selectedVariant": "200 gp"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Fate; <strong>CL</strong> 2nd<br>\n<strong>Slot</strong> none; <strong>Price</strong> 200 gp; <strong>Weight</strong> 0.1 lbs.</p>\n<p><strong>Description</strong><br>\nThis oil sanctifies an object temporarily with divine power, allowing the object to be treated as a universal divine focus for all purposes. Additionally, if the object annointed is a weapon, it becomes chaotic, evil, good, or lawful, as you choose. As an aligned object, it overcomes that type of damage reduction, and deals an additional 2d6 damage to creatures of the opposite chosen alignment. These benefits last 2 minutes after anointing.</p>\n<p><strong>Construction Requirements</strong><br>\nDistill Compound, Fate sphere (Align Object (word)); <strong>Cost</strong> 100 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/compounds#toc91\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: 200 gp.</p><p>One oil dose, not a bundled weapon, permanent aligned object or four simultaneous alignments. The focus benefit applies to objects; the additional damage/DR benefit applies only to anointed weapons.</p><p>Single-dose quantity is consumed through the native helper. Target outcomes, temporary effects and any external eligibility remain deliberate; carrying the bottle grants no persistent bonus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,37 +65,49 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 2,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Fate"
     },
     "hp": {},
     "broken": false,
     "hardness": 0,
-    "changes": [],
-    "changeFlags": {
-      "immuneToMorale": false,
-      "loseDexToAC": false,
-      "noMediumEncumbrance": false,
-      "noHeavyEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "lowLightVision": false,
-      "seeInvisibility": false,
-      "seeInDarkness": false
-    },
-    "contextNotes": [],
-    "actions": [],
-    "attackNotes": [],
-    "effectNotes": [],
     "uses": {
       "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
+      "per": "single",
+      "autoDeductChargesCost": "1",
       "maxFormula": "",
-      "rechargeFormula": ""
+      "rechargeFormula": "",
+      "pricePerUse": 0
     },
+    "actions": [
+      {
+        "_id": "8ffcaaab0863b829",
+        "name": "Apply Selected Oil",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "action",
+            "cost": 2
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Anoint one actual object for two minutes, making it a universal divine focus. If it is a weapon, choose chaotic, evil, good or lawful for this use; it overcomes the corresponding DR and deals additional [[/r 2d6]] only against the opposite alignment. Resolve actual target/choice/hit manually; no general damage or alignment change to the actor."
+          ]
+        },
+        "duration": {
+          "value": "2",
+          "units": "minute"
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
     "links": {
       "children": [],
       "charges": []
@@ -104,40 +118,10 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
-    "proficient": false,
-    "held": "1h",
-    "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
-    },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
-    },
-    "spellFailure": 0,
+    "subType": "potion",
     "showInQuickbar": false,
+    "changes": [],
+    "contextNotes": [],
     "sources": [
       {
         "title": "Spheres of Power Wiki",

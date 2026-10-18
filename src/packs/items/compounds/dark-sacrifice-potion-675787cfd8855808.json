@@ -2,8 +2,8 @@
   "_id": "675787cfd8855808",
   "_key": "!items!675787cfd8855808",
   "name": "Dark Sacrifice Potion",
-  "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "type": "consumable",
+  "img": "systems/pf1/icons/items/potions/minor-red.jpg",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-compound-consumable",
+      "selectedVariant": "minor, 450 gp"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Death; <strong>CL</strong> 3rd (minor), 5th (moderate), 12th (superior)<br>\n<strong>Slot</strong> none; <strong>Price</strong> 450 gp (minor), 1,000 gp (moderate), 3,000 gp (superior); <strong>Weight</strong> 0.1 lbs.</p>\n<p><strong>Description</strong><br>\nThis potion is usually only used by necromancers who believe that their end is nigh, but need just a few more seconds to accomplish their task. After imbibing this potion, if at any time during the potion’s duration, the drinker would take hit point damage that would reduce them to 0 hit points or less, they can as an immediate action sacrifice a mindless undead under their control within range, destroying it instantly; reduce the damage that the drinker would take by the sacrificed undead’s current hit points (to a minimum of 0). After sacrificing an undead, the potion’s duration immediately ends.</p>\n<ul>\n<li><strong>Minor:</strong> 3 round duration, 30 feet range</li>\n<li><strong>Moderate:</strong> 5 minute duration, 35 feet range</li>\n<li><strong>Superior:</strong> 2 hour duration, 55 feet range</li>\n</ul>\n<p><strong>Construction Requirements</strong><br>\nDistill Compound, Death sphere (Dark Sacrifice); <strong>Cost</strong> 225 gp (minor), 500 gp (moderate), 1,500 gp (superior)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/compounds#toc29\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed selection: minor, 450 gp.</p><p>Minor tier only: three rounds and thirty feet. No moderate/superior duration, automatic damage prevention, generic False Life or an extra spell-point payment borrowed from the talent. The bottle is consumed on drinking, not on the later conditional sacrifice.</p><p>Single-dose quantity is consumed through the native helper. Target outcomes, temporary effects and any external eligibility remain deliberate; carrying the bottle grants no persistent bonus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,37 +65,49 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 3,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Death"
     },
     "hp": {},
     "broken": false,
     "hardness": 0,
-    "changes": [],
-    "changeFlags": {
-      "immuneToMorale": false,
-      "loseDexToAC": false,
-      "noMediumEncumbrance": false,
-      "noHeavyEncumbrance": false,
-      "mediumArmorFullSpeed": false,
-      "heavyArmorFullSpeed": false,
-      "lowLightVision": false,
-      "seeInvisibility": false,
-      "seeInDarkness": false
-    },
-    "contextNotes": [],
-    "actions": [],
-    "attackNotes": [],
-    "effectNotes": [],
     "uses": {
       "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
+      "per": "single",
+      "autoDeductChargesCost": "1",
       "maxFormula": "",
-      "rechargeFormula": ""
+      "rechargeFormula": "",
+      "pricePerUse": 0
     },
+    "actions": [
+      {
+        "_id": "f2a41cea96fd28b7",
+        "name": "Drink Selected Dose",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "action",
+            "cost": 2
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "For three rounds, if incoming HP damage would reduce the drinker to zero HP or less, the drinker may use an immediate action to sacrifice one controlled mindless undead within thirty feet. Reduce that damage by its current HP, minimum zero, then end this potion's effect. Eligibility, current HP and sacrifice outcome are manual; no creature is deleted automatically."
+          ]
+        },
+        "duration": {
+          "value": "3",
+          "units": "round"
+        }
+      }
+    ],
+    "attackNotes": [],
+    "effectNotes": [],
     "links": {
       "children": [],
       "charges": []
@@ -104,40 +118,10 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
-    "enh": null,
-    "proficient": false,
-    "held": "1h",
-    "ammo": {
-      "type": "",
-      "capacity": null,
-      "misfire": null,
-      "explode": null
-    },
-    "subType": "wondrous",
-    "slot": "slotless",
-    "equipmentSubtype": "",
-    "hands": 0,
-    "baseTypes": [],
-    "armor": {
-      "value": 0,
-      "dex": null,
-      "acp": 0,
-      "enh": 0,
-      "material": {
-        "base": {
-          "value": "",
-          "custom": false
-        },
-        "normal": {
-          "value": "",
-          "custom": false
-        },
-        "addon": []
-      }
-    },
-    "spellFailure": 0,
+    "subType": "potion",
     "showInQuickbar": false,
+    "changes": [],
+    "contextNotes": [],
     "sources": [
       {
         "title": "Spheres of Power Wiki",

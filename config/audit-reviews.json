@@ -13534,5 +13534,1145 @@
       "sourceSha256": "69db1e7da16e252422ab41cac6f33825af6ef7d8296ea8756bf090aa04b2cce7",
       "reason": "Approved OGL charms snapshot; original artwork and inspected core/system image references only. No source-book artwork copied."
     }
+  },
+  "wiki:compounds:ultimate:item:animate-object-oil": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "ba15119179eeee4eae712d21583d8fcc08dab112a92acf84a39dfb78c5cd2bd3",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "ba15119179eeee4eae712d21583d8fcc08dab112a92acf84a39dfb78c5cd2bd3",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Rub one dose into an object for one minute. Selected very-weak tier animates at most Tiny size for twenty minutes: AC 18, hardness 5, HP 5, slam +1 (1d2-2). Resolve the actual controlled construct manually; this bottle does not create a creature, token or weapon attack."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "ba15119179eeee4eae712d21583d8fcc08dab112a92acf84a39dfb78c5cd2bd3",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. The entire seven-tier table remains unchanged, but only the very-weak tier is selected. No stronger size, statistics or duration is supplied at the base price; no spell-point payment or permanent construct is invented."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "ba15119179eeee4eae712d21583d8fcc08dab112a92acf84a39dfb78c5cd2bd3",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "ba15119179eeee4eae712d21583d8fcc08dab112a92acf84a39dfb78c5cd2bd3",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. The entire seven-tier table remains unchanged, but only the very-weak tier is selected. No stronger size, statistics or duration is supplied at the base price; no spell-point payment or permanent construct is invented."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "ba15119179eeee4eae712d21583d8fcc08dab112a92acf84a39dfb78c5cd2bd3",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "ba15119179eeee4eae712d21583d8fcc08dab112a92acf84a39dfb78c5cd2bd3",
+      "reason": "The entire seven-tier table remains unchanged, but only the very-weak tier is selected. No stronger size, statistics or duration is supplied at the base price; no spell-point payment or permanent construct is invented."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "ba15119179eeee4eae712d21583d8fcc08dab112a92acf84a39dfb78c5cd2bd3",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "ba15119179eeee4eae712d21583d8fcc08dab112a92acf84a39dfb78c5cd2bd3",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "ba15119179eeee4eae712d21583d8fcc08dab112a92acf84a39dfb78c5cd2bd3",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "ba15119179eeee4eae712d21583d8fcc08dab112a92acf84a39dfb78c5cd2bd3",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:brew-of-the-dungeoneer": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "9b99d982fe9194e09a3151f6fb2b185d4557efe3f7d93ba0f5c0aa74996c364e",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "9b99d982fe9194e09a3151f6fb2b185d4557efe3f7d93ba0f5c0aa74996c364e",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. For four hours after drinking, gain +2 only to Disable Device and Perception checks related to traps, and permission to disarm magical traps as with trapfinding. Resolve actual qualifying checks manually; no class-level formula or all-Perception bonus."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "9b99d982fe9194e09a3151f6fb2b185d4557efe3f7d93ba0f5c0aa74996c364e",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. One milky-grey dose with its published negligible weight. Temporary trap benefits require drinking; merely carrying the vial grants no skill bonus or rogue class feature."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "9b99d982fe9194e09a3151f6fb2b185d4557efe3f7d93ba0f5c0aa74996c364e",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "9b99d982fe9194e09a3151f6fb2b185d4557efe3f7d93ba0f5c0aa74996c364e",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. One milky-grey dose with its published negligible weight. Temporary trap benefits require drinking; merely carrying the vial grants no skill bonus or rogue class feature."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "9b99d982fe9194e09a3151f6fb2b185d4557efe3f7d93ba0f5c0aa74996c364e",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "9b99d982fe9194e09a3151f6fb2b185d4557efe3f7d93ba0f5c0aa74996c364e",
+      "reason": "One milky-grey dose with its published negligible weight. Temporary trap benefits require drinking; merely carrying the vial grants no skill bonus or rogue class feature."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "9b99d982fe9194e09a3151f6fb2b185d4557efe3f7d93ba0f5c0aa74996c364e",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "9b99d982fe9194e09a3151f6fb2b185d4557efe3f7d93ba0f5c0aa74996c364e",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "9b99d982fe9194e09a3151f6fb2b185d4557efe3f7d93ba0f5c0aa74996c364e",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "9b99d982fe9194e09a3151f6fb2b185d4557efe3f7d93ba0f5c0aa74996c364e",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:catfolk-guise-potion": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "780e0f6ce35655828d71364c6693f200446575d99a9307d7cfe38a6de50fc617",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "780e0f6ce35655828d71364c6693f200446575d99a9307d7cfe38a6de50fc617",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Minor polymorph: Blank Transformation with two primary claw attacks for one minute (1d4 Medium, 1d3 Small; requires arms). Apply only the actual temporary form and attacks manually. No low-light vision, powerful legs, size change or carrying bonus at this tier."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "780e0f6ce35655828d71364c6693f200446575d99a9307d7cfe38a6de50fc617",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. The moderate/superior tiers stay in the full body but are not active at the minor price. Do not copy a generic Alter Self spell, cosmetic Disguise trait, humanoid type restriction or permanent natural attacks."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "780e0f6ce35655828d71364c6693f200446575d99a9307d7cfe38a6de50fc617",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "780e0f6ce35655828d71364c6693f200446575d99a9307d7cfe38a6de50fc617",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. The moderate/superior tiers stay in the full body but are not active at the minor price. Do not copy a generic Alter Self spell, cosmetic Disguise trait, humanoid type restriction or permanent natural attacks."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "780e0f6ce35655828d71364c6693f200446575d99a9307d7cfe38a6de50fc617",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "780e0f6ce35655828d71364c6693f200446575d99a9307d7cfe38a6de50fc617",
+      "reason": "The moderate/superior tiers stay in the full body but are not active at the minor price. Do not copy a generic Alter Self spell, cosmetic Disguise trait, humanoid type restriction or permanent natural attacks."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "780e0f6ce35655828d71364c6693f200446575d99a9307d7cfe38a6de50fc617",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "780e0f6ce35655828d71364c6693f200446575d99a9307d7cfe38a6de50fc617",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "780e0f6ce35655828d71364c6693f200446575d99a9307d7cfe38a6de50fc617",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "780e0f6ce35655828d71364c6693f200446575d99a9307d7cfe38a6de50fc617",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:cleansing-potion": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "c7c3f2b682657ea16d2f20a706da4a298dd0b35b9578b69a4a256754a1b28609",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "c7c3f2b682657ea16d2f20a706da4a298dd0b35b9578b69a4a256754a1b28609",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Remove fatigued, sickened and battered; lessen exhausted and nauseated one step. If a condition is part of an ongoing effect, suppress or reduce it for one round only. Resolve actual conditions manually; no HP healing, ability-damage restoration or universal condition removal."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "c7c3f2b682657ea16d2f20a706da4a298dd0b35b9578b69a4a256754a1b28609",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. One blessed-water dose. Preserve the exact named conditions and ongoing-effect exception; no permanent active change, generic Lesser Restoration rules or automatic condition deletion."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "c7c3f2b682657ea16d2f20a706da4a298dd0b35b9578b69a4a256754a1b28609",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "c7c3f2b682657ea16d2f20a706da4a298dd0b35b9578b69a4a256754a1b28609",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. One blessed-water dose. Preserve the exact named conditions and ongoing-effect exception; no permanent active change, generic Lesser Restoration rules or automatic condition deletion."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "c7c3f2b682657ea16d2f20a706da4a298dd0b35b9578b69a4a256754a1b28609",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "c7c3f2b682657ea16d2f20a706da4a298dd0b35b9578b69a4a256754a1b28609",
+      "reason": "One blessed-water dose. Preserve the exact named conditions and ongoing-effect exception; no permanent active change, generic Lesser Restoration rules or automatic condition deletion."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "c7c3f2b682657ea16d2f20a706da4a298dd0b35b9578b69a4a256754a1b28609",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "c7c3f2b682657ea16d2f20a706da4a298dd0b35b9578b69a4a256754a1b28609",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "c7c3f2b682657ea16d2f20a706da4a298dd0b35b9578b69a4a256754a1b28609",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "c7c3f2b682657ea16d2f20a706da4a298dd0b35b9578b69a4a256754a1b28609",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:cleansing-potion-greater": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "bcd6749dc374c575e58c7fb54a43f3360aff0ead004ad2310827cbdaaa03060f",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "bcd6749dc374c575e58c7fb54a43f3360aff0ead004ad2310827cbdaaa03060f",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Apply Cleansing Potion effects, fully remove exhausted and nauseated, and attempt the published check with +2 against each applicable poison/disease DC to remove it on success: [[/r 1d20 + 2]]. Keep the inherited ongoing-effect limitation (one round) and resolve outcomes manually. No automatic success or repair of prior ability damage."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "bcd6749dc374c575e58c7fb54a43f3360aff0ead004ad2310827cbdaaa03060f",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. One greater blessed-water dose, not multiple doses. No conventional Restoration spell or invented save type is imported; the fixed +2 check belongs to the oil/potion effect, not the drinker's general saves."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "bcd6749dc374c575e58c7fb54a43f3360aff0ead004ad2310827cbdaaa03060f",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "bcd6749dc374c575e58c7fb54a43f3360aff0ead004ad2310827cbdaaa03060f",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. One greater blessed-water dose, not multiple doses. No conventional Restoration spell or invented save type is imported; the fixed +2 check belongs to the oil/potion effect, not the drinker's general saves."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "bcd6749dc374c575e58c7fb54a43f3360aff0ead004ad2310827cbdaaa03060f",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "bcd6749dc374c575e58c7fb54a43f3360aff0ead004ad2310827cbdaaa03060f",
+      "reason": "One greater blessed-water dose, not multiple doses. No conventional Restoration spell or invented save type is imported; the fixed +2 check belongs to the oil/potion effect, not the drinker's general saves."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "bcd6749dc374c575e58c7fb54a43f3360aff0ead004ad2310827cbdaaa03060f",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "bcd6749dc374c575e58c7fb54a43f3360aff0ead004ad2310827cbdaaa03060f",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "bcd6749dc374c575e58c7fb54a43f3360aff0ead004ad2310827cbdaaa03060f",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "bcd6749dc374c575e58c7fb54a43f3360aff0ead004ad2310827cbdaaa03060f",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:common-cure": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "d6e34bf4284644025c419c8925ce821c1b4b3a040dd1f44213efc36f6be726fb",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "d6e34bf4284644025c419c8925ce821c1b4b3a040dd1f44213efc36f6be726fb",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Drinking one enchanted-water dose heals exactly 1d8+1 HP. Native positive-energy healing roll uses the reviewed Life cure interface and fixed source amount; apply the result to the actual drinker. No actor-level scaling, temporary HP, extra casting cost or additional touch attack is granted."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "d6e34bf4284644025c419c8925ce821c1b4b3a040dd1f44213efc36f6be726fb",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. Only the source's single healing dose is represented. Fixed healing does not scale with the actor's CL or ability. Positive-energy handling follows the reviewed Life cure component; target application remains deliberate."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "d6e34bf4284644025c419c8925ce821c1b4b3a040dd1f44213efc36f6be726fb",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "d6e34bf4284644025c419c8925ce821c1b4b3a040dd1f44213efc36f6be726fb",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. Only the source's single healing dose is represented. Fixed healing does not scale with the actor's CL or ability. Positive-energy handling follows the reviewed Life cure component; target application remains deliberate."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "d6e34bf4284644025c419c8925ce821c1b4b3a040dd1f44213efc36f6be726fb",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "d6e34bf4284644025c419c8925ce821c1b4b3a040dd1f44213efc36f6be726fb",
+      "reason": "Only the source's single healing dose is represented. Fixed healing does not scale with the actor's CL or ability. Positive-energy handling follows the reviewed Life cure component; target application remains deliberate."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "d6e34bf4284644025c419c8925ce821c1b4b3a040dd1f44213efc36f6be726fb",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "d6e34bf4284644025c419c8925ce821c1b4b3a040dd1f44213efc36f6be726fb",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "d6e34bf4284644025c419c8925ce821c1b4b3a040dd1f44213efc36f6be726fb",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "d6e34bf4284644025c419c8925ce821c1b4b3a040dd1f44213efc36f6be726fb",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:dark-sacrifice-potion": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "ef800fb46988ef9d3cb2041cde139e94d5a8d338279977850fdf12a953d7129b",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "ef800fb46988ef9d3cb2041cde139e94d5a8d338279977850fdf12a953d7129b",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. For three rounds, if incoming HP damage would reduce the drinker to zero HP or less, the drinker may use an immediate action to sacrifice one controlled mindless undead within thirty feet. Reduce that damage by its current HP, minimum zero, then end this potion's effect. Eligibility, current HP and sacrifice outcome are manual; no creature is deleted automatically."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "ef800fb46988ef9d3cb2041cde139e94d5a8d338279977850fdf12a953d7129b",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. Minor tier only: three rounds and thirty feet. No moderate/superior duration, automatic damage prevention, generic False Life or an extra spell-point payment borrowed from the talent. The bottle is consumed on drinking, not on the later conditional sacrifice."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "ef800fb46988ef9d3cb2041cde139e94d5a8d338279977850fdf12a953d7129b",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "ef800fb46988ef9d3cb2041cde139e94d5a8d338279977850fdf12a953d7129b",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. Minor tier only: three rounds and thirty feet. No moderate/superior duration, automatic damage prevention, generic False Life or an extra spell-point payment borrowed from the talent. The bottle is consumed on drinking, not on the later conditional sacrifice."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "ef800fb46988ef9d3cb2041cde139e94d5a8d338279977850fdf12a953d7129b",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "ef800fb46988ef9d3cb2041cde139e94d5a8d338279977850fdf12a953d7129b",
+      "reason": "Minor tier only: three rounds and thirty feet. No moderate/superior duration, automatic damage prevention, generic False Life or an extra spell-point payment borrowed from the talent. The bottle is consumed on drinking, not on the later conditional sacrifice."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "ef800fb46988ef9d3cb2041cde139e94d5a8d338279977850fdf12a953d7129b",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "ef800fb46988ef9d3cb2041cde139e94d5a8d338279977850fdf12a953d7129b",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "ef800fb46988ef9d3cb2041cde139e94d5a8d338279977850fdf12a953d7129b",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "ef800fb46988ef9d3cb2041cde139e94d5a8d338279977850fdf12a953d7129b",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:deathlessness-potion": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "2fee99d367ed7c2c855bfca76505c4f52dea85043dddf23b72beeb6942f320dc",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "2fee99d367ed7c2c855bfca76505c4f52dea85043dddf23b72beeb6942f320dc",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Gain the Protection sphere Deathless aegis for two hours. The reviewed aegis supplies +4 morale only to saves against its specified magical death and harmful healing/energy effects, and a Will save when normally none is allowed. Apply qualifying effects manually. This is not the Deathless spell's immunity to HP death, Death Ward, Deathless armor or Berserker talent."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "2fee99d367ed7c2c855bfca76505c4f52dea85043dddf23b72beeb6942f320dc",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. One dose, negligible source weight; subtle pink hue is described in the source. No general +4 saves, permanent immunity, martial focus, negative-level armor chance or automatic target change."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "2fee99d367ed7c2c855bfca76505c4f52dea85043dddf23b72beeb6942f320dc",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "2fee99d367ed7c2c855bfca76505c4f52dea85043dddf23b72beeb6942f320dc",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. One dose, negligible source weight; subtle pink hue is described in the source. No general +4 saves, permanent immunity, martial focus, negative-level armor chance or automatic target change."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "2fee99d367ed7c2c855bfca76505c4f52dea85043dddf23b72beeb6942f320dc",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "2fee99d367ed7c2c855bfca76505c4f52dea85043dddf23b72beeb6942f320dc",
+      "reason": "One dose, negligible source weight; subtle pink hue is described in the source. No general +4 saves, permanent immunity, martial focus, negative-level armor chance or automatic target change."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "2fee99d367ed7c2c855bfca76505c4f52dea85043dddf23b72beeb6942f320dc",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "2fee99d367ed7c2c855bfca76505c4f52dea85043dddf23b72beeb6942f320dc",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "2fee99d367ed7c2c855bfca76505c4f52dea85043dddf23b72beeb6942f320dc",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "2fee99d367ed7c2c855bfca76505c4f52dea85043dddf23b72beeb6942f320dc",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:electric-oil": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "29abd5eaded22d4fcf8f3454ed32927d62ca38b09725bdcb2c22c6cded986e7f",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "29abd5eaded22d4fcf8f3454ed32927d62ca38b09725bdcb2c22c6cded986e7f",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Apply one dose to a weapon as a poison. A successful creature strike before one round passes deals additional [[/r 2d6]] electricity damage. Only attacks on targets made of metal or wearing metal armor gain +3. Resolve the qualifying actual weapon hit, expiry and damage manually; no general attack bonus or automatic poison save."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "29abd5eaded22d4fcf8f3454ed32927d62ca38b09725bdcb2c22c6cded986e7f",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. Minor tier only: +2d6, not +5d6/+10d6. The source oil grants +3 on the qualifying attack, not the installed Electric Blast talent's separate AC/save penalties. No weapon is bundled, and no permanent weapon enhancement is added."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "29abd5eaded22d4fcf8f3454ed32927d62ca38b09725bdcb2c22c6cded986e7f",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "29abd5eaded22d4fcf8f3454ed32927d62ca38b09725bdcb2c22c6cded986e7f",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. Minor tier only: +2d6, not +5d6/+10d6. The source oil grants +3 on the qualifying attack, not the installed Electric Blast talent's separate AC/save penalties. No weapon is bundled, and no permanent weapon enhancement is added."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "29abd5eaded22d4fcf8f3454ed32927d62ca38b09725bdcb2c22c6cded986e7f",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "29abd5eaded22d4fcf8f3454ed32927d62ca38b09725bdcb2c22c6cded986e7f",
+      "reason": "Minor tier only: +2d6, not +5d6/+10d6. The source oil grants +3 on the qualifying attack, not the installed Electric Blast talent's separate AC/save penalties. No weapon is bundled, and no permanent weapon enhancement is added."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "29abd5eaded22d4fcf8f3454ed32927d62ca38b09725bdcb2c22c6cded986e7f",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "29abd5eaded22d4fcf8f3454ed32927d62ca38b09725bdcb2c22c6cded986e7f",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "29abd5eaded22d4fcf8f3454ed32927d62ca38b09725bdcb2c22c6cded986e7f",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "29abd5eaded22d4fcf8f3454ed32927d62ca38b09725bdcb2c22c6cded986e7f",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:ghost-sight-potion": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "a6bebe9c9d5859b43e7a095e1600c657f8a64bbcd36add86ebf635b21a25ac11",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "a6bebe9c9d5859b43e7a095e1600c657f8a64bbcd36add86ebf635b21a25ac11",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. For two minutes, +2 Perception only to notice invisible or ethereal creatures. On an actual success, that creature's outline is visible and its normal invisibility attack/defense benefits are negated against you until line of sight is lost; then a new check is required. No unconditional See Invisibility."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "a6bebe9c9d5859b43e7a095e1600c657f8a64bbcd36add86ebf635b21a25ac11",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. Lesser tier only, with check/line-of-sight gates. No actor-CL scaling, all-Perception bonus, automatic detection or permanent sense."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "a6bebe9c9d5859b43e7a095e1600c657f8a64bbcd36add86ebf635b21a25ac11",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "a6bebe9c9d5859b43e7a095e1600c657f8a64bbcd36add86ebf635b21a25ac11",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. Lesser tier only, with check/line-of-sight gates. No actor-CL scaling, all-Perception bonus, automatic detection or permanent sense."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "a6bebe9c9d5859b43e7a095e1600c657f8a64bbcd36add86ebf635b21a25ac11",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "a6bebe9c9d5859b43e7a095e1600c657f8a64bbcd36add86ebf635b21a25ac11",
+      "reason": "Lesser tier only, with check/line-of-sight gates. No actor-CL scaling, all-Perception bonus, automatic detection or permanent sense."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "a6bebe9c9d5859b43e7a095e1600c657f8a64bbcd36add86ebf635b21a25ac11",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "a6bebe9c9d5859b43e7a095e1600c657f8a64bbcd36add86ebf635b21a25ac11",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "a6bebe9c9d5859b43e7a095e1600c657f8a64bbcd36add86ebf635b21a25ac11",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "a6bebe9c9d5859b43e7a095e1600c657f8a64bbcd36add86ebf635b21a25ac11",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:hallow-word-oil": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "e0b97a1ec5e9a42b74d988adad2a384b30b30df944ebc1ec51762dea9ba406f8",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "e0b97a1ec5e9a42b74d988adad2a384b30b30df944ebc1ec51762dea9ba406f8",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Apply one dose to a creature for the published Hallow word benefits for two minutes. The item's alignment-bonus wording (made by evil creatures) differs from its referenced word (against the opposed alignment); resolve under #44 before assigning +1 sacred attack/AC/save benefits. Its evil-origin mental-control protection and new save for existing possession remain conditional/manual."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "e0b97a1ec5e9a42b74d988adad2a384b30b30df944ebc1ec51762dea9ba406f8",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. Preserve the complete source body and discrepancy under #44. No blanket +1, Protection from Evil's +2 deflection/resistance, arbitrary alignment selection or permanent immunity. Resolve possession/control and any suppression duration on the actual effect."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "e0b97a1ec5e9a42b74d988adad2a384b30b30df944ebc1ec51762dea9ba406f8",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "e0b97a1ec5e9a42b74d988adad2a384b30b30df944ebc1ec51762dea9ba406f8",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. Preserve the complete source body and discrepancy under #44. No blanket +1, Protection from Evil's +2 deflection/resistance, arbitrary alignment selection or permanent immunity. Resolve possession/control and any suppression duration on the actual effect."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "e0b97a1ec5e9a42b74d988adad2a384b30b30df944ebc1ec51762dea9ba406f8",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "e0b97a1ec5e9a42b74d988adad2a384b30b30df944ebc1ec51762dea9ba406f8",
+      "reason": "Preserve the complete source body and discrepancy under #44. No blanket +1, Protection from Evil's +2 deflection/resistance, arbitrary alignment selection or permanent immunity. Resolve possession/control and any suppression duration on the actual effect."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "e0b97a1ec5e9a42b74d988adad2a384b30b30df944ebc1ec51762dea9ba406f8",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "e0b97a1ec5e9a42b74d988adad2a384b30b30df944ebc1ec51762dea9ba406f8",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "e0b97a1ec5e9a42b74d988adad2a384b30b30df944ebc1ec51762dea9ba406f8",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "e0b97a1ec5e9a42b74d988adad2a384b30b30df944ebc1ec51762dea9ba406f8",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:quintessential-oil": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "18b304267952a43d7cd87360dcbe55509366bc9e8437ae20cd654d5bf01cb9e3",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "18b304267952a43d7cd87360dcbe55509366bc9e8437ae20cd654d5bf01cb9e3",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Expend the actually imbued dose when used on its first creature target, or mark it unusable if its four-hour window elapsed. The next creature to touch it receives the stored effect. It may be applied to a weapon as a contact poison. Actual application, target contact and stored effect resolution are manual; no automatic poison save or attack."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "18b304267952a43d7cd87360dcbe55509366bc9e8437ae20cd654d5bf01cb9e3",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. Initially unimbued clear-ish oil; source-defined color depends on the selected sphere ability. Imbuing uses actual ability timing, so unspecified generic timing stays Special. Contact, four-hour expiry and potency are manually tracked; no effect is selected or permanently granted."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "18b304267952a43d7cd87360dcbe55509366bc9e8437ae20cd654d5bf01cb9e3",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "18b304267952a43d7cd87360dcbe55509366bc9e8437ae20cd654d5bf01cb9e3",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. Initially unimbued clear-ish oil; source-defined color depends on the selected sphere ability. Imbuing uses actual ability timing, so unspecified generic timing stays Special. Contact, four-hour expiry and potency are manually tracked; no effect is selected or permanently granted."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "18b304267952a43d7cd87360dcbe55509366bc9e8437ae20cd654d5bf01cb9e3",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "18b304267952a43d7cd87360dcbe55509366bc9e8437ae20cd654d5bf01cb9e3",
+      "reason": "Initially unimbued clear-ish oil; source-defined color depends on the selected sphere ability. Imbuing uses actual ability timing, so unspecified generic timing stays Special. Contact, four-hour expiry and potency are manually tracked; no effect is selected or permanently granted."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "18b304267952a43d7cd87360dcbe55509366bc9e8437ae20cd654d5bf01cb9e3",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "18b304267952a43d7cd87360dcbe55509366bc9e8437ae20cd654d5bf01cb9e3",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "18b304267952a43d7cd87360dcbe55509366bc9e8437ae20cd654d5bf01cb9e3",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "18b304267952a43d7cd87360dcbe55509366bc9e8437ae20cd654d5bf01cb9e3",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:relic-blessing-oil": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "f766b2260b76fc83a1d447d5c1c54affef180babf1ecc545beaf8f6d979c6aa4",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "f766b2260b76fc83a1d447d5c1c54affef180babf1ecc545beaf8f6d979c6aa4",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Anoint one actual object for two minutes, making it a universal divine focus. If it is a weapon, choose chaotic, evil, good or lawful for this use; it overcomes the corresponding DR and deals additional [[/r 2d6]] only against the opposite alignment. Resolve actual target/choice/hit manually; no general damage or alignment change to the actor."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "f766b2260b76fc83a1d447d5c1c54affef180babf1ecc545beaf8f6d979c6aa4",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. One oil dose, not a bundled weapon, permanent aligned object or four simultaneous alignments. The focus benefit applies to objects; the additional damage/DR benefit applies only to anointed weapons."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "f766b2260b76fc83a1d447d5c1c54affef180babf1ecc545beaf8f6d979c6aa4",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "f766b2260b76fc83a1d447d5c1c54affef180babf1ecc545beaf8f6d979c6aa4",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. One oil dose, not a bundled weapon, permanent aligned object or four simultaneous alignments. The focus benefit applies to objects; the additional damage/DR benefit applies only to anointed weapons."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "f766b2260b76fc83a1d447d5c1c54affef180babf1ecc545beaf8f6d979c6aa4",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "f766b2260b76fc83a1d447d5c1c54affef180babf1ecc545beaf8f6d979c6aa4",
+      "reason": "One oil dose, not a bundled weapon, permanent aligned object or four simultaneous alignments. The focus benefit applies to objects; the additional damage/DR benefit applies only to anointed weapons."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "f766b2260b76fc83a1d447d5c1c54affef180babf1ecc545beaf8f6d979c6aa4",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "f766b2260b76fc83a1d447d5c1c54affef180babf1ecc545beaf8f6d979c6aa4",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "f766b2260b76fc83a1d447d5c1c54affef180babf1ecc545beaf8f6d979c6aa4",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "f766b2260b76fc83a1d447d5c1c54affef180babf1ecc545beaf8f6d979c6aa4",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:renewal-elixir": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "6f4b6d998a42c6c7c87224a5e4f45b9112d0ff75848d898f7f67236c9442d221",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "6f4b6d998a42c6c7c87224a5e4f45b9112d0ff75848d898f7f67236c9442d221",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Restore up to two actual spell points, never exceeding min(4, the drinker's true maximum), and become dazed for one round. A drinker can benefit only once per day across all doses. Resolve existing pool, cap, daily eligibility and dazed condition manually; no new resource pool or unlimited refills."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "6f4b6d998a42c6c7c87224a5e4f45b9112d0ff75848d898f7f67236c9442d221",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. One dose, negligible source weight. Consumption is a physical quantity, while once-per-day benefit is a separate per-drinker limit across copies. No maximum-pool increase, class/CAM assumption, automatic resource edit or baking use."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "6f4b6d998a42c6c7c87224a5e4f45b9112d0ff75848d898f7f67236c9442d221",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "6f4b6d998a42c6c7c87224a5e4f45b9112d0ff75848d898f7f67236c9442d221",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. One dose, negligible source weight. Consumption is a physical quantity, while once-per-day benefit is a separate per-drinker limit across copies. No maximum-pool increase, class/CAM assumption, automatic resource edit or baking use."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "6f4b6d998a42c6c7c87224a5e4f45b9112d0ff75848d898f7f67236c9442d221",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "6f4b6d998a42c6c7c87224a5e4f45b9112d0ff75848d898f7f67236c9442d221",
+      "reason": "One dose, negligible source weight. Consumption is a physical quantity, while once-per-day benefit is a separate per-drinker limit across copies. No maximum-pool increase, class/CAM assumption, automatic resource edit or baking use."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "6f4b6d998a42c6c7c87224a5e4f45b9112d0ff75848d898f7f67236c9442d221",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "6f4b6d998a42c6c7c87224a5e4f45b9112d0ff75848d898f7f67236c9442d221",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "6f4b6d998a42c6c7c87224a5e4f45b9112d0ff75848d898f7f67236c9442d221",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "6f4b6d998a42c6c7c87224a5e4f45b9112d0ff75848d898f7f67236c9442d221",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:see-hazard-potion": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "56fce891463f29728a38cb04f71f04972cee12e4c7360527fdd18218a08f4fef",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "56fce891463f29728a38cb04f71f04972cee12e4c7360527fdd18218a08f4fef",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. For four hours, gain a free Perception check when within ten feet of a mechanical, magical or natural trap/hazard. Resolve actual discovery manually. Lesser tier supplies no insight on bypassing/disabling it and no greater-tier 1d4+1 insight bonuses."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "56fce891463f29728a38cb04f71f04972cee12e4c7360527fdd18218a08f4fef",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. Lesser tier only; no Trapfinding grant, automatic detection, general Perception modifier, Disable Device bonus or eight-hour duration."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "56fce891463f29728a38cb04f71f04972cee12e4c7360527fdd18218a08f4fef",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "56fce891463f29728a38cb04f71f04972cee12e4c7360527fdd18218a08f4fef",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. Lesser tier only; no Trapfinding grant, automatic detection, general Perception modifier, Disable Device bonus or eight-hour duration."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "56fce891463f29728a38cb04f71f04972cee12e4c7360527fdd18218a08f4fef",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "56fce891463f29728a38cb04f71f04972cee12e4c7360527fdd18218a08f4fef",
+      "reason": "Lesser tier only; no Trapfinding grant, automatic detection, general Perception modifier, Disable Device bonus or eight-hour duration."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "56fce891463f29728a38cb04f71f04972cee12e4c7360527fdd18218a08f4fef",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "56fce891463f29728a38cb04f71f04972cee12e4c7360527fdd18218a08f4fef",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "56fce891463f29728a38cb04f71f04972cee12e4c7360527fdd18218a08f4fef",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "56fce891463f29728a38cb04f71f04972cee12e4c7360527fdd18218a08f4fef",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:sidhe-visage-potion": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "f62b3c58bf3b87ce879d026167d341f1a2265c15908a14358c50c9f575e41c77",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "f62b3c58bf3b87ce879d026167d341f1a2265c15908a14358c50c9f575e41c77",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. For five hours, count as fey instead of the previous creature type for relevant effects, retaining previous type benefits and subtypes without acquiring fey type benefits. Gain +2 only to Charisma-based skill and ability checks. Resolve the temporary type interaction and qualifying checks manually; no Charisma score increase."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "f62b3c58bf3b87ce879d026167d341f1a2265c15908a14358c50c9f575e41c77",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. One dose. No permanent actor type rewrite, subtype removal, charm effect, broad +2 skills or automatic Fey Beauty/talent grant."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "f62b3c58bf3b87ce879d026167d341f1a2265c15908a14358c50c9f575e41c77",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "f62b3c58bf3b87ce879d026167d341f1a2265c15908a14358c50c9f575e41c77",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. One dose. No permanent actor type rewrite, subtype removal, charm effect, broad +2 skills or automatic Fey Beauty/talent grant."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "f62b3c58bf3b87ce879d026167d341f1a2265c15908a14358c50c9f575e41c77",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "f62b3c58bf3b87ce879d026167d341f1a2265c15908a14358c50c9f575e41c77",
+      "reason": "One dose. No permanent actor type rewrite, subtype removal, charm effect, broad +2 skills or automatic Fey Beauty/talent grant."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "f62b3c58bf3b87ce879d026167d341f1a2265c15908a14358c50c9f575e41c77",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "f62b3c58bf3b87ce879d026167d341f1a2265c15908a14358c50c9f575e41c77",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "f62b3c58bf3b87ce879d026167d341f1a2265c15908a14358c50c9f575e41c77",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "f62b3c58bf3b87ce879d026167d341f1a2265c15908a14358c50c9f575e41c77",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:size-increase-potion": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "f266f75451f9213b8753ce8dea544ea2bbb207ec14ca3c59bffc235ee8a2567f",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "f266f75451f9213b8753ce8dea544ea2bbb207ec14ca3c59bffc235ee8a2567f",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Polymorph: increase the actual drinker one size category, maximum Large, for two minutes. Apply size, equipment and associated adjustments through the actual form procedure manually. No fixed final Large size, humanoid-only target restriction or permanent actor/token change."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "f266f75451f9213b8753ce8dea544ea2bbb207ec14ca3c59bffc235ee8a2567f",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. Source one-step cap remains authoritative. Do not import Vanara's fixed Small form or generic Enlarge Person restrictions wholesale. Temporary size/form resolution is manual."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "f266f75451f9213b8753ce8dea544ea2bbb207ec14ca3c59bffc235ee8a2567f",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "f266f75451f9213b8753ce8dea544ea2bbb207ec14ca3c59bffc235ee8a2567f",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. Source one-step cap remains authoritative. Do not import Vanara's fixed Small form or generic Enlarge Person restrictions wholesale. Temporary size/form resolution is manual."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "f266f75451f9213b8753ce8dea544ea2bbb207ec14ca3c59bffc235ee8a2567f",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "f266f75451f9213b8753ce8dea544ea2bbb207ec14ca3c59bffc235ee8a2567f",
+      "reason": "Source one-step cap remains authoritative. Do not import Vanara's fixed Small form or generic Enlarge Person restrictions wholesale. Temporary size/form resolution is manual."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "f266f75451f9213b8753ce8dea544ea2bbb207ec14ca3c59bffc235ee8a2567f",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "f266f75451f9213b8753ce8dea544ea2bbb207ec14ca3c59bffc235ee8a2567f",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "f266f75451f9213b8753ce8dea544ea2bbb207ec14ca3c59bffc235ee8a2567f",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "f266f75451f9213b8753ce8dea544ea2bbb207ec14ca3c59bffc235ee8a2567f",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:size-reduction-potion": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "cfd974edeca928deff9b91afd91a3498b16d74028a123cb3e3d9877d0b957c91",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "cfd974edeca928deff9b91afd91a3498b16d74028a123cb3e3d9877d0b957c91",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Polymorph: decrease the actual drinker one size category, minimum Tiny, for two minutes. Apply size, equipment and associated adjustments through the actual form procedure manually. No fixed final Tiny size, humanoid-only target restriction or permanent actor/token change."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "cfd974edeca928deff9b91afd91a3498b16d74028a123cb3e3d9877d0b957c91",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. Source one-step cap remains authoritative. Do not import Vanara's fixed Small form or generic Reduce Person restrictions wholesale. Temporary size/form resolution is manual."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "cfd974edeca928deff9b91afd91a3498b16d74028a123cb3e3d9877d0b957c91",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "cfd974edeca928deff9b91afd91a3498b16d74028a123cb3e3d9877d0b957c91",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. Source one-step cap remains authoritative. Do not import Vanara's fixed Small form or generic Reduce Person restrictions wholesale. Temporary size/form resolution is manual."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "cfd974edeca928deff9b91afd91a3498b16d74028a123cb3e3d9877d0b957c91",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "cfd974edeca928deff9b91afd91a3498b16d74028a123cb3e3d9877d0b957c91",
+      "reason": "Source one-step cap remains authoritative. Do not import Vanara's fixed Small form or generic Reduce Person restrictions wholesale. Temporary size/form resolution is manual."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "cfd974edeca928deff9b91afd91a3498b16d74028a123cb3e3d9877d0b957c91",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "cfd974edeca928deff9b91afd91a3498b16d74028a123cb3e3d9877d0b957c91",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "cfd974edeca928deff9b91afd91a3498b16d74028a123cb3e3d9877d0b957c91",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "cfd974edeca928deff9b91afd91a3498b16d74028a123cb3e3d9877d0b957c91",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:spell-cleansing-elixir-greater": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "8570f89eaebce445ff87a6e02c8cccf7905a80dc71bc1a3a7f39c8389ed866b3",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "8570f89eaebce445ff87a6e02c8cccf7905a80dc71bc1a3a7f39c8389ed866b3",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Choose up to three ongoing magical effects on the drinker. Resolve the actual Improved Counterspell procedure with fixed MSB +10: [[/r 1d20 + 10]]. Outcomes and applicable DCs remain manual; no automatic dispelling, unrelated burst, spell-slot cost, actor MSB or arbitrary number of targets."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "8570f89eaebce445ff87a6e02c8cccf7905a80dc71bc1a3a7f39c8389ed866b3",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. One dose, no native daily pool. Use the Spheres component/version, not the conventional same-named feat or Break Enchantment spell. This elixir affects only chosen ongoing effects on the drinker."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "8570f89eaebce445ff87a6e02c8cccf7905a80dc71bc1a3a7f39c8389ed866b3",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "8570f89eaebce445ff87a6e02c8cccf7905a80dc71bc1a3a7f39c8389ed866b3",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. One dose, no native daily pool. Use the Spheres component/version, not the conventional same-named feat or Break Enchantment spell. This elixir affects only chosen ongoing effects on the drinker."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "8570f89eaebce445ff87a6e02c8cccf7905a80dc71bc1a3a7f39c8389ed866b3",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "8570f89eaebce445ff87a6e02c8cccf7905a80dc71bc1a3a7f39c8389ed866b3",
+      "reason": "One dose, no native daily pool. Use the Spheres component/version, not the conventional same-named feat or Break Enchantment spell. This elixir affects only chosen ongoing effects on the drinker."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "8570f89eaebce445ff87a6e02c8cccf7905a80dc71bc1a3a7f39c8389ed866b3",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "8570f89eaebce445ff87a6e02c8cccf7905a80dc71bc1a3a7f39c8389ed866b3",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "8570f89eaebce445ff87a6e02c8cccf7905a80dc71bc1a3a7f39c8389ed866b3",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "8570f89eaebce445ff87a6e02c8cccf7905a80dc71bc1a3a7f39c8389ed866b3",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
+  },
+  "wiki:compounds:ultimate:item:spell-cleansing-elixir-lesser": {
+    "image": {
+      "state": "implemented",
+      "sourceSha256": "ae5535c90abfed1d9261882912916ccfc66e53de1adb36169efe97a90404d74a",
+      "reason": "Full donor record and actual 64/128 px illustration reviewed. Reuse one plain corked vial or oil flask only; no donor poison, drug, preservation, energy or other mechanics, price, weight or quantity. The neutral pale vial does not select an energy or effect variant; published substance details remain in the complete source body."
+    },
+    "activation": {
+      "state": "implemented",
+      "sourceSha256": "ae5535c90abfed1d9261882912916ccfc66e53de1adb36169efe97a90404d74a",
+      "reason": "Native dose helper uses potion/oil timing, with explicit source exceptions and unspecified preparation timing Special. Choose one ongoing magical effect on the drinker. Resolve the actual Counterspell procedure with fixed MSB +5: [[/r 1d20 + 5]]. Outcomes and applicable DCs remain manual; no automatic dispelling, arcanist reservoir/spell slot, actor MSB or multiple-effect upgrade."
+    },
+    "changes": {
+      "state": "deferred",
+      "sourceSha256": "ae5535c90abfed1d9261882912916ccfc66e53de1adb36169efe97a90404d74a",
+      "reason": "No persistent modifier from merely carrying a temporary consumable. Preserve the published 250 gp purchase price and original 175 gp construction figure without deriving one from the other. One dose affects a single chosen ongoing effect on the drinker, not all magic or a generic Break Enchantment spell."
+    },
+    "contextNotes": {
+      "state": "not-needed",
+      "sourceSha256": "ae5535c90abfed1d9261882912916ccfc66e53de1adb36169efe97a90404d74a",
+      "reason": "Effects and restrictions are on the activation card, not permanent actor notes."
+    },
+    "usage": {
+      "state": "implemented",
+      "sourceSha256": "ae5535c90abfed1d9261882912916ccfc66e53de1adb36169efe97a90404d74a",
+      "reason": "Native single-dose quantity, cost one; no daily refill or invented internal resources. Preserve the published 250 gp purchase price and original 175 gp construction figure without deriving one from the other. One dose affects a single chosen ongoing effect on the drinker, not all magic or a generic Break Enchantment spell."
+    },
+    "links": {
+      "state": "deferred",
+      "sourceSha256": "ae5535c90abfed1d9261882912916ccfc66e53de1adb36169efe97a90404d74a",
+      "reason": "Complete component records inspected; no automatic talent grants, new world objects or inferred UUID links."
+    },
+    "advanced": {
+      "state": "deferred",
+      "sourceSha256": "ae5535c90abfed1d9261882912916ccfc66e53de1adb36169efe97a90404d74a",
+      "reason": "Preserve the published 250 gp purchase price and original 175 gp construction figure without deriving one from the other. One dose affects a single chosen ongoing effect on the drinker, not all magic or a generic Break Enchantment spell."
+    },
+    "compatibility": {
+      "state": "deferred",
+      "sourceSha256": "ae5535c90abfed1d9261882912916ccfc66e53de1adb36169efe97a90404d74a",
+      "reason": "Representative acceptance pending on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; no verified compatibility claim."
+    },
+    "reuse": {
+      "state": "implemented",
+      "sourceSha256": "ae5535c90abfed1d9261882912916ccfc66e53de1adb36169efe97a90404d74a",
+      "reason": "Exact, alternate and component full-record searches plus actual-image review precede authoring. No suitable complete same-rules donor; reuse native data interfaces and illustrations separately."
+    },
+    "description": {
+      "state": "implemented",
+      "sourceSha256": "ae5535c90abfed1d9261882912916ccfc66e53de1adb36169efe97a90404d74a",
+      "reason": "Full source body, approved snapshot hashes, IDs, source keys, price, weight and quantity unchanged. Selected tier explicit."
+    },
+    "rights": {
+      "state": "implemented",
+      "sourceSha256": "ae5535c90abfed1d9261882912916ccfc66e53de1adb36169efe97a90404d74a",
+      "reason": "Approved OGL compound snapshot and existing native-data notices; inspected core/system image references only. No new third-party bytes copied."
+    }
   }
 }
