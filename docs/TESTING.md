@@ -440,3 +440,62 @@ broader earlier-batch acceptance remain incomplete. No verified compatibility
 claim or world migration is made. Updates affect compendia, requiring deliberate
 reimport to change previously imported world copies. Documentation-only successor
 commits are distinct from this tested implementation.
+
+## First twenty third-batch charms
+
+Implementation `9ba18dac80b43fbda2274d82072e3635da76e3de` passed the clean full
+gate: 99 tests, all 6,788 compiler round trips and two identical 786-file packages.
+ZIP SHA-256: `52fd4df8406be7201607a8a21a84fb1f81ab61d3574c69796b4b92a5f52a8f72`.
+Guarded preview, staged deployment and installed-byte verification passed; one
+authorized oldest module backup rotated, retaining ten. No host restart.
+
+Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0 loaded the build in Additional
+Spheres Content Test. Native settings confirmed exactly ASC alpha.6 and
+pf1spheres enabled. All five packs appeared; the Items pack held 626 entries.
+A fresh blank PC, `ASC Charm Bonus Acceptance`, received fifteen actual native
+compendium transfers. No prepared actor fixture or application-global writes
+were used. Equipping, removing and comparing the transferred items established:
+
+- Aegis Ring raised normal, touch and flat-footed AC and CMD from 10 to 11.
+  Ring of Shielding's matching deflection bonus did not stack; its resistance
+  raised all saves to one. Cape of Resistance did not stack with that resistance,
+  while Fragment of Destiny's luck bonus raised saves to two.
+- Necklace of Natural Armor's base bonus competed with Ironside Ring's stronger
+  base bonus. Removing the weaker necklace left AC unchanged. Talisman of
+  Techniques added its distinct enhancement to natural armor: normal/flat-footed
+  AC rose from 13 to 14 while touch stayed 11 and CMD stayed 15. CMB stayed zero;
+  no unselected maneuver benefit leaked into global statistics.
+- All six ability belts/headbands raised the intended current score from ten to
+  twelve and restored it on removal. Ironside's Constitution enhancement took
+  precedence over the weaker belt: fourteen rather than sixteen. Removing
+  Ironside left twelve. Dexterity raised normal/touch AC, CMD and Reflex while
+  leaving flat-footed AC unchanged. Strength raised CMB and CMD by one.
+- Pugilist's Charm added one enhancement to natural armor. A native natural
+  attack control rolled `1d20 + 1[Strength] + 1[Pugilist's Charm]`; its damage
+  formula included the charm's one-point bonus. Changing that same native
+  control to weapon subtype and rolling again removed both charm bonuses.
+  The control's half-Strength damage setting remained; the weapon comparison
+  also applied its ordinary proficiency penalty. This establishes natural-attack scoping, not
+  complete unarmed coverage; core Unarmed Strike's weapon subtype remains the
+  explicit manual limitation tracked in issue #38.
+- Dimlight Veil left unconditional saves unchanged. A native Fortitude roll
+  used the existing +3 and displayed the Light-only +2 manual reminder in its
+  Notes, without silently adding two to the roll.
+- Belt of Wild Might's native sheet showed quantity one, weight two and corrected
+  purchase price 4,000 gp alongside the complete original tiered source text,
+  its separate construction costs, selected-tier instructions and original art.
+
+Browser capture since deployment contained zero errors and 84 PF1/framework
+deprecation warnings. All 165 deployment-window server records were informational,
+with no daily error file. Private raw logs and structured native evidence remain
+ignored under `.local/batch3-charms-*`. Native Return to Setup succeeded.
+The final exact semantic audit passed in 116.60 seconds for all 6,788 documents,
+non-pack receipt bytes and referenced external images. Remote database snapshots
+stayed unchanged; only ignored local copies were opened. The helper confirmed
+no active game at `/auth` and the exact deployed implementation above.
+
+Crafted maneuver/energy/skill choices, first-day ability consequences, unarmed
+automation, advanced conditional effects and full lifecycle/non-GM regression
+remain incomplete. No verified compatibility claim or world migration is made.
+Updates affect compendia; changing an older world copy requires deliberate
+reimport. Documentation-only successors are distinct from the tested build.

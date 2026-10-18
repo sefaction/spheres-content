@@ -2,7 +2,7 @@
 
 Updated: 2026-10-17 (work began 2026-09-19 local time).
 
-## Active work in progress: third-batch charm group
+## Current review group: third-batch charms
 
 - Branch `codex/physical-items-batch-3-charms`, based on #35 head `c5caa27`.
   Both #35 Windows/Ubuntu jobs passed at that exact head. Issue #36 tracks the
@@ -39,14 +39,38 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
 - Umbral Mantle's base-tier moderate aura at CL3 conflicts with native faint;
   recorded under #31. Keep the full scaling source/CL and make the selected tier
   explicit; no invented aura override or higher-tier concealment at base price.
-- Last installed/tested build remains `c7743ad`, with final 6,788-record semantic
-  pass and server in Setup. No live build/transfer/testing process remains.
-  Seven focused semantic tests and full source validation pass. An independent
+- Clean full gate on implementation `9ba18dac80b43fbda2274d82072e3635da76e3de`
+  passed all 99 tests, all 6,788 compiler round trips and two identical 786-file
+  packages. ZIP SHA-256:
+  `52fd4df8406be7201607a8a21a84fb1f81ab61d3574c69796b4b92a5f52a8f72`.
+  Guarded preview, staged deployment and installed-byte verification passed;
+  one authorized oldest module backup rotated, retaining ten. No host restart.
+  Dedicated-world native acceptance passed the representative bonus/roll checks
+  described in docs/TESTING.md. Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0;
+  native settings confirmed only ASC alpha.6 and pf1spheres enabled. Fifteen real
+  compendium drags to a fresh PC tested all six abilities, nonstacking typed
+  bonuses, luck stacking, natural-armor versus enhancement, CMD and saves.
+  A natural attack roll included Pugilist's +1 attack/damage; changing that same
+  control to weapon subtype removed both. Dimlight's save note appeared without
+  changing the roll bonus. The corrected 4,000-gp belt sheet and image opened.
+  Browser: zero errors, 84 framework/PF1 deprecations. Server: 165 informational
+  records since deployment, no warning/error or daily error file. Returned to
+  Setup; final exact semantic audit passed all 6,788 documents, non-pack receipt
+  bytes and external images in 116.60 seconds, unchanged remote snapshots and
+  local copies only. Helper confirmed no active game at `/auth`.
+  No build/transfer process remains. Seven focused semantic tests and full source
+  validation also pass. An independent
   comparison to #35's exact commit confirms unchanged complete bodies, IDs/source
   keys, quantities and weights; only the six reviewed price corrections differ.
-  Next: clean gate, guarded deployment, native equip/stacking/roll acceptance,
-  final exact semantic audit and draft PR stacked on #35. Preserve existing reviews
-  and all unmerged work; no merge/release approval.
+  Additional source-reviewed price follow-ups are recorded under #37; seven
+  records remain untouched, including separate pair accounting for Twin Caskets.
+  Full lifecycle/non-GM, crafted choices, first-day consequences and advanced
+  effects remain incomplete. No content compatibility claim or world migration.
+  Documentation successors are distinct from deployed/tested `9ba18da`; only
+  docs/TESTING.md and this checkpoint changed after that implementation.
+  Next: push and open a draft PR stacked on #35, reconcile its CI, then continue
+  the remaining third-batch items. Preserve existing reviews and unmerged work;
+  no merge/release approval. Current browser is marked for handoff in Setup.
 
 ## Completed previous group: final twenty items in physical batch 2
 
