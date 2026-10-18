@@ -2,7 +2,17 @@
 
 Updated: 2026-10-18 (work began 2026-09-19 local time).
 
-## Active follow-up: prepared-oil contact window
+## Stopped after the completed compound group
+
+- User direction: "Finish this group, then wrap up." The twenty-compound group
+  and its prepared-oil correction are complete within their recorded review scope.
+  No further batch is selected. Forty third-batch images remain for future work;
+  Akashic remains deferred. Resume only on a new user request.
+- Branch codex/physical-items-batch-3-compounds; draft PR #45 depends on draft
+  #43 and targets its branch. Both remain unmerged pending their own approval.
+  No tag, release, stable-manifest update or world migration is authorized.
+
+## Completed follow-up: prepared-oil contact window
 
 - PR #45 final head 629f3d8 passed Windows/Ubuntu; its deployed implementation
   414d5b4 passed native dose checks and the complete installed audit in Setup.
@@ -15,11 +25,28 @@ Updated: 2026-10-18 (work began 2026-09-19 local time).
   price, weight and all other record fields remain unchanged. Identity/review
   hashes and research are synchronized. A regression fails before and passes
   after the correction; all six focused compound tests pass.
-- Full clean verification, guarded redeployment and focused native stage/counter
-  acceptance are pending. The previous tested build remains in Setup. Next:
-  finish those checks and the final installed audit, then update #45 with exact
-  evidence. No new batch selected while user direction is pending; no merge or
-  release approval for #43/#45.
+- Corrected implementation/deployed commit
+  0f7f23b0c48f465309d69ff906f791ea4b47da32 passed the clean full gate:
+  111 tests, 6,788 compiler round trips, two identical 797-file ZIPs.
+  ZIP SHA-256 5397cc19f39143d0dbddce70e659a0c4a58a793f238ee51d9fa50a5d78c4450e.
+  Guarded preview/deployment/byte checks passed; ten rollback copies retained,
+  one authorized oldest copy rotated, no host restart.
+- Fresh native oil copy yGfNIsgBdr1SX5CG: preparation retained quantity one,
+  displayed Special / 4 Hours / Quantity: 1 and starts the window after imbuing.
+  Expenditure reduced quantity to zero without a four-hour duration label;
+  its note explicitly retains the stored ability's own duration. Existing copies
+  were preserved. Actual casting, spell-point costs, contact and elapsed expiry
+  remain manual. Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0; two modules active.
+- Browser: zero errors, 77 framework deprecation warnings. Server: 156 info
+  records since deployment, no warnings/errors or daily error file. Returned
+  to Setup. Final complete installed audit passed in 46.58 seconds against
+  immutable 0f7f23b: all 6,788 documents, receipt bytes and external image hashes,
+  unchanged remote snapshots, local database copies only; route /auth.
+- Implementation 0f7f23b passed Windows/Ubuntu CI. Subsequent acceptance-only
+  documentation follows the same tested implementation; final-head CI is
+  authoritative on GitHub. PR #45 records #46 and the exact evidence. Issue #46
+  remains open until its resolving PR merges. See TESTING.md and ignored
+  .local/quintessential-window-* evidence. No test process remains running.
 
 ## Active work: first twenty-compounds group in batch 3
 
@@ -53,8 +80,9 @@ Updated: 2026-10-18 (work began 2026-09-19 local time).
 - Draft PR #45 is open against #43's branch and attached to this chat. Its final
   CI status is authoritative on GitHub; acceptance follow-ups change only docs
   relative to tested 414d5b4. Keep #43/#45 unmerged until separately approved.
-  The current group is complete for its bounded review scope; user direction is
-  pending before selecting another group. No new merge or release approval.
+  The current group is complete for its bounded review scope; the user requested
+  stopping after this group. The oil annotation correction above supersedes the
+  earlier deployment for that one item. No new merge or release approval.
 
 ## Active work: second twenty-charms group in batch 3
 
