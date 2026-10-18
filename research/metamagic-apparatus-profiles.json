@@ -66,6 +66,16 @@
     "flaring-metamagic-apparatus": {
       "sourceAmbiguityIssue": 27,
       "requirements": "Preserve the light descriptor versus fire/electricity damage-trigger inconsistency and malformed duration wording. Do not supply an invented damage trigger or duration formula."
+    },
+    "still-metamagic-apparatus": {
+      "handling": "carried-or-worn",
+      "requiresHeld": false,
+      "activationMode": "mental",
+      "requirements": "Activate mentally while carried or worn; no holding or wielding required. Remove only the selected talent's somatic component, if it has one."
+    },
+    "suppressed-metamagic-apparatus": {
+      "weight": 3,
+      "requirements": "Published three-pound weight. Reduced manifestation uses Perception DC 15 + half caster level, with optional +2 per relevant sensory talent; suppressing a required sensation cannot preserve an effect that relies on it."
     }
   }
 }

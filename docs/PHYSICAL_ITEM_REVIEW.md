@@ -108,3 +108,19 @@ to reviewed armor before adding actor-dependent effects. Single-use items track
 quantity; the Cradle’s daily activations and momentum are distinct resources.
 Variant, deity/domain, utility-talent and cohort choices remain explicit. Native
 helpers do not create actors, change burn, apply broad bonuses or migrate worlds.
+
+## Metamagic apparatus handling and conditional effects
+
+The third twenty-entry group uses the reviewed lesser tier (CL 5; sphere-effect
+CL cap 7), three daily uses, and one native application helper per item. Still
+is mentally activated while carried or worn and does not require holding or
+wielding. Suppressed retains its three-pound published weight; the other nineteen
+retain their individual five-pound values. Full source text and prices are intact.
+
+Toxic consumes a separately supplied actual poison dose in the rules, but its
+helper spends only an apparatus daily use; the dose and two saving throws remain
+manual. Selective uses the casting ability modifier rather than a conventional
+rod's fixed count. Studied bypasses only racial defenses after its racial-CR
+Knowledge check. Tricking uses Charisma for its dirty trick check. Conditional
+light/darkness, resistance, conditions and later saves remain effect-specific
+instructions, pending an actual casting/target interface and remote acceptance.

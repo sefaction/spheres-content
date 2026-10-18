@@ -3,7 +3,7 @@
   "_key": "!items!ef86438e781d855f",
   "name": "Selective Metamagic Apparatus",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,35 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-metamagic-apparatus",
+      "selectedVariant": "lesser tier; held slender rod",
+      "metamagicApparatus": {
+        "profile": "research/metamagic-apparatus-profiles.json",
+        "tier": "lesser",
+        "dailyUses": 3,
+        "maxSphereEffectCasterLevel": 7,
+        "featSpellPointCost": 1,
+        "featSpellPointCostAppliesToItem": false
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 5,000 gp (lesser), 10,000 gp (normal), 20,000 gp (greater)<br>\n<strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 1 sp</p>\n<p>When casting a selective talent with an area effect and a duration of instantaneous, you can choose a number of targets in the area equal to your casting ability score modifier. These targets are excluded from the effects of your talent.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Selective Spell; <strong>Cost</strong> 2,500 gp (lesser), 5,000 gp (normal), 10,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc44\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: lesser tier; held slender rod. Apply as part of casting a qualifying sphere effect of caster level seven or lower. Hold this apparatus in at least one hand while applying it. Spend one of three daily uses; only one metamagic apparatus may apply per casting. Its feat's extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply.</p><p>Only instantaneous area effects qualify. Exclude chosen targets up to your casting ability score modifier; do not use a fixed four-target limit from a conventional rod.</p><p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic\">Shared metamagic apparatus rules</a>. Feat Cost applies to taking the feat, not using the physical apparatus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +73,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +94,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "8cfffff295159029",
+        "name": "Apply Selective Metamagic Apparatus",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Apply as part of casting a qualifying sphere effect of caster level seven or lower. Hold this apparatus in at least one hand while applying it. Spend one of three daily uses; only one metamagic apparatus may apply per casting. Its feat's extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply. Only instantaneous area effects qualify. Exclude chosen targets up to your casting ability score modifier; do not use a fixed four-target limit from a conventional rod."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

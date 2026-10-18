@@ -5462,5 +5462,1451 @@
       "type": "equipment",
       "sha256": "220f607e17eb0d9d081f6068dfdb466d3e2bf92ee99d67d985fb239a0c78ca46"
     }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:seeking-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "dac67924c8a996b75068f6f7cf4a5736ab28c093cc6a3abb78f70330bcb6355b",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Seeking Metamagic Rod",
+        "candidates": []
+      },
+      {
+        "name": "Seeking Metamagic Rod, Lesser",
+        "candidates": []
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/seeking-metamagic-apparatus-462b8aa60f867056.json",
+      "id": "462b8aa60f867056",
+      "type": "equipment",
+      "sha256": "089caf7a7391b6939fb79cb40e7ceed00c0f5042ba15a7392bf86b09a15e8738"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:selective-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "853b153cadef8115fb0420217abeb76e7144be577b2d7b5fb11a8e992178751e",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Selective Metamagic Rod",
+        "candidates": [
+          {
+            "key": "selective-metamagic-rod",
+            "name": "Selective Metamagic Rod",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.vaIimWMg7CY3opzy",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "other",
+            "img": "systems/pf1/icons/items/weapons/sword-cane.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "178032664c8362a8266f9479ae8d971ca793d0a2333a649e66ecb813e2d7f0d1",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      },
+      {
+        "name": "Selective Metamagic Rod, Lesser",
+        "candidates": [
+          {
+            "key": "selective-metamagic-rod-lesser",
+            "name": "Selective Metamagic Rod, Lesser",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.mie1ViuEqCkmHkiI",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "other",
+            "img": "systems/pf1/icons/items/weapons/sword-cane.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "70cda640fbb1101f70af4f8bd9c012212016786424e6bfe41866cb2470d49b7b",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/selective-metamagic-apparatus-ef86438e781d855f.json",
+      "id": "ef86438e781d855f",
+      "type": "equipment",
+      "sha256": "87990161ced33c6c2ff8fc1d2e3fb9f74bfb66602864219ae234e9ffb1150703"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:shadow-grasping-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "28a219c5cda06d2307612b25c681d9bf70d42136e8b53d1f3a59e724b3758f0a",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Shadow Grasping Metamagic Rod",
+        "candidates": []
+      },
+      {
+        "name": "Shadow Grasp Metamagic Rod, Lesser",
+        "candidates": []
+      },
+      {
+        "name": "Shadow Grasp Metamagic Rod",
+        "candidates": []
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/shadow-grasping-metamagic-apparatus-0b878ed157008a6e.json",
+      "id": "0b878ed157008a6e",
+      "type": "equipment",
+      "sha256": "e82d2fe39fb10e5c0d1040ded0e6609675ba624eddcd227a474eb5c9107be1ea"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:sickening-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "c3eac9c6fb6ba0068ae6832f34c1a63c3c5a9df770c6c674b525ff5db8841f9a",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Sickening Metamagic Rod",
+        "candidates": [
+          {
+            "key": "sickening-metamagic-rod",
+            "name": "Sickening Metamagic Rod",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.XNDgjio2RvAT6qLd",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "other",
+            "img": "systems/pf1/icons/items/weapons/sword-cane.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "43f45abbee6c76612e9584c54368e5b35af337a09cb9da0f84eaa925ad61456a",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      },
+      {
+        "name": "Sickening Metamagic Rod, Lesser",
+        "candidates": [
+          {
+            "key": "sickening-metamagic-rod-lesser",
+            "name": "Sickening Metamagic Rod, Lesser",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.vBdXScNzTZqcDm5S",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "other",
+            "img": "systems/pf1/icons/items/weapons/sword-cane.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "6fc1f360e8eba6549132c7b0da6ec5af5dc11db2ae7fd0cb3b72bbe50a8fe8ba",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/sickening-metamagic-apparatus-eff83a2689921abe.json",
+      "id": "eff83a2689921abe",
+      "type": "equipment",
+      "sha256": "36bccd0248229eb3363d06a8e8435b56419b95e0867036bf9b626281ddbc107d"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:silent-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "9e93781f8d262997614276658e3e2692a00d32a2313a480f12f5a894055ec049",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Silent Metamagic Rod",
+        "candidates": [
+          {
+            "key": "silent-metamagic-rod",
+            "name": "Silent Metamagic Rod",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.U2FMMuNSdGTa3Jqa",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "other",
+            "img": "systems/pf1/icons/items/weapons/sword-cane.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "c017f11a2b8f452f6303f421d38b9f22f610e34809920715dba225c6f4d0e618",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      },
+      {
+        "name": "Silent Metamagic Rod, Lesser",
+        "candidates": [
+          {
+            "key": "silent-metamagic-rod-lesser",
+            "name": "Silent Metamagic Rod, Lesser",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.BwTdYzr7lNpOrcyJ",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "other",
+            "img": "systems/pf1/icons/items/weapons/sword-cane.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "70980004e80843816565a4f16bd9bdf9b8bb710ebbba9ff4ae8aab0e9e3a636b",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/silent-metamagic-apparatus-70bd0161038ae5a8.json",
+      "id": "70bd0161038ae5a8",
+      "type": "equipment",
+      "sha256": "d8b0fa697fa19a9d992f8431a8960b5eddc61bde9e6ad2e715875f87b12e75e1"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:snuffing-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "2d19085ec8f238e3dd2d7502322e3d711ea10ad4107a63151a9630364e2cfe93",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Snuffing Metamagic Rod",
+        "candidates": [
+          {
+            "key": "snuffing-metamagic-rod",
+            "name": "Snuffing Metamagic Rod",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.0Kiw4m3LkLTzWJzz",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "other",
+            "img": "systems/pf1/icons/items/weapons/sword-cane.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "4b6fffc7e1dcec6e8d8fc4346acc1b8260849660c362f6b91a5942f5b0327990",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      },
+      {
+        "name": "Snuffing Metamagic Rod, Lesser",
+        "candidates": [
+          {
+            "key": "snuffing-metamagic-rod-lesser",
+            "name": "Snuffing Metamagic Rod, Lesser",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.cyoInxpwMPpUf7WE",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "other",
+            "img": "systems/pf1/icons/items/weapons/sword-cane.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "e5834d7f8e77c6e0fa2aa671c8d0527623f87532de2c6234d65775030240bec6",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/snuffing-metamagic-apparatus-4d6a0f18c6f674c4.json",
+      "id": "4d6a0f18c6f674c4",
+      "type": "equipment",
+      "sha256": "0534dbb7d85c25f05674b42fac3736ff4465e4210167be8b5eb2c05c64680f20"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:solar-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "91e10f1b495f52c90fc2a41baf3ad834a33dc06340bb50013a03c8ebe845be35",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Solar Metamagic Rod",
+        "candidates": []
+      },
+      {
+        "name": "Solar Metamagic Rod, Lesser",
+        "candidates": []
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/solar-metamagic-apparatus-6caaea3558c81866.json",
+      "id": "6caaea3558c81866",
+      "type": "equipment",
+      "sha256": "ea6b0ea9ca60dc829f1ed2628e32956fe285f92c2335eb1c350ef654cefe3eb4"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:still-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "d49afe6136b1047a61ff7569af39377a6b0762c48c481a50ae5c6a0ff33f2ab0",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Still Metamagic Rod",
+        "candidates": []
+      },
+      {
+        "name": "Still Metamagic Rod, Lesser",
+        "candidates": []
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/still-metamagic-apparatus-1607beaba229536a.json",
+      "id": "1607beaba229536a",
+      "type": "equipment",
+      "sha256": "e35636ab8b36721ca90dceb18d765688fd26efbf5fd5ed27b412ef413b9f3208"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:studied-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "78aa7cbb7706a7604de70ea7fc863bd6ebbec7b2cfedc5fcd6dac4f3b7194bda",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Studied Metamagic Rod",
+        "candidates": []
+      },
+      {
+        "name": "Studied Metamagic Rod, Lesser",
+        "candidates": []
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/studied-metamagic-apparatus-678175a50a706492.json",
+      "id": "678175a50a706492",
+      "type": "equipment",
+      "sha256": "d2cbe761b16ca92a5d37247a53e503e9688657fa2ab3f7ab8c350a711ae03fb7"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:suppressed-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "893f1e7d32f19244722579b158bf4becc768a1fddb9c0b7c36d6784bd8ced7e1",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Suppressed Metamagic Rod",
+        "candidates": []
+      },
+      {
+        "name": "Suppressed Metamagic Rod, Lesser",
+        "candidates": []
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/suppressed-metamagic-apparatus-07612a5058cff3f9.json",
+      "id": "07612a5058cff3f9",
+      "type": "equipment",
+      "sha256": "421f7b5269c50237437bb3792b01f41fffd808af06b4528e2c81512c34495f66"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:tenacious-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "2f4497ad934d9319de0b21ac508972e07ae73ade962857d644d5b03117e9e4fd",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Tenacious Metamagic Rod",
+        "candidates": []
+      },
+      {
+        "name": "Tenacious Metamagic Rod, Lesser",
+        "candidates": []
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/tenacious-metamagic-apparatus-b73674ad4c209594.json",
+      "id": "b73674ad4c209594",
+      "type": "equipment",
+      "sha256": "83a7acf3007dc8bd578353a173555fc976d8a3d925345d2ef7af09d002f870fd"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:tenebrous-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "50add4c9efe50441155a7371d93e524ceae6f2225800a894ac2dc2f5f51e6bc0",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Tenebrous Metamagic Rod",
+        "candidates": []
+      },
+      {
+        "name": "Tenebrous Metamagic Rod, Lesser",
+        "candidates": []
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/tenebrous-metamagic-apparatus-03884abe0f4efc63.json",
+      "id": "03884abe0f4efc63",
+      "type": "equipment",
+      "sha256": "06ce05338e905705d9e3fb16840ec5ebb79f4921e72346fe0326c90271b37bec"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:thanatopic-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "c46ae7da8d8e91830c0166c53f2b546002befcbf1c20d97201b661bef08ab7ee",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Thanatopic Metamagic Rod",
+        "candidates": [
+          {
+            "key": "thanatopic-metamagic-rod",
+            "name": "Thanatopic Metamagic Rod",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.jEhogAEXiZvZMCHB",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "other",
+            "img": "systems/pf1/icons/items/weapons/sword-cane.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "0fdf71b524021145f26bb4c53b901b4e7eb614525fa4f14da60aca737c852356",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      },
+      {
+        "name": "Thanatopic Metamagic Rod, Lesser",
+        "candidates": [
+          {
+            "key": "thanatopic-metamagic-rod-lesser",
+            "name": "Thanatopic Metamagic Rod, Lesser",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.9Cun5FYOFoNMck59",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "other",
+            "img": "systems/pf1/icons/items/weapons/sword-cane.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "868186a79cb8cad031270a8131474ee04aeedf8c941d1ce8974897ed59059cf4",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/thanatopic-metamagic-apparatus-fab20e417fa83e1b.json",
+      "id": "fab20e417fa83e1b",
+      "type": "equipment",
+      "sha256": "4db6860d9f073c15e72c7900503a6d82f15fa4e36bff1030029b239527aebf65"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:threnodic-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "b8d0dfdf955dffdabd9ec23a3652877c7ff611084359ba3b0abaa39d536f598a",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Threnodic Metamagic Rod",
+        "candidates": [
+          {
+            "key": "threnodic-metamagic-rod",
+            "name": "Threnodic Metamagic Rod",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.bdfGbKwahv69UMAz",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "other",
+            "img": "systems/pf1/icons/items/weapons/sword-cane.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "8363d987b391878ccdffd0f7b221f53647bbe15e8ce66dea1f6fa8e21225ec5a",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      },
+      {
+        "name": "Threnodic Metamagic Rod, Lesser",
+        "candidates": [
+          {
+            "key": "threnodic-metamagic-rod-lesser",
+            "name": "Threnodic Metamagic Rod, Lesser",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.W3E4zLD8EblkWhmZ",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "other",
+            "img": "systems/pf1/icons/items/weapons/sword-cane.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "c448cb436ef8a53a0662f403ab23e4b2fe9c939d4b51962454e17b7aaee30268",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/threnodic-metamagic-apparatus-a02c9880215cd2e3.json",
+      "id": "a02c9880215cd2e3",
+      "type": "equipment",
+      "sha256": "361650324f42c66a86695fa399985e9aeb6fbd2093a343065edd7b7a08dc2242"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:thundering-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "a8eac694bf8e7455608a477ffec5038b643b548ccd4db416a6e20357e2cce768",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Thundering Metamagic Rod",
+        "candidates": [
+          {
+            "key": "thundering-metamagic-rod",
+            "name": "Thundering Metamagic Rod",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.I2dewmG4R6Hracgv",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "other",
+            "img": "systems/pf1/icons/items/weapons/sword-cane.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "3e5b355f8c1a4283b70636d197bce84088782ebf6522866c7c1e603de39a036f",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      },
+      {
+        "name": "Thundering Metamagic Rod, Lesser",
+        "candidates": [
+          {
+            "key": "thundering-metamagic-rod-lesser",
+            "name": "Thundering Metamagic Rod, Lesser",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.Ws6CFJjIwVenf1iC",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "other",
+            "img": "systems/pf1/icons/items/weapons/sword-cane.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "3310edf351aa61cda60f9e59cb161c3ad4f7edabfee58867e48f8ae72452f5de",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/thundering-metamagic-apparatus-d2eada399f067f5b.json",
+      "id": "d2eada399f067f5b",
+      "type": "equipment",
+      "sha256": "3f53d2bd56dadeb9148709dd1b82cb2e86e626750fb3c5424e3a5372bc1192fd"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:toppling-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "d30356a94580ceeb0f4566cdc83d151980fca1ef828618c02412c117fc81e4f9",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Toppling Metamagic Rod",
+        "candidates": [
+          {
+            "key": "toppling-metamagic-rod",
+            "name": "Toppling Metamagic Rod",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.2LxNuUfIqnHri61W",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "other",
+            "img": "systems/pf1/icons/items/weapons/sword-cane.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "efce8f4c6e5f32d32e3512dfc833b209ed341a751586ae85ef215478b3dea7ea",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      },
+      {
+        "name": "Toppling Metamagic Rod, Lesser",
+        "candidates": [
+          {
+            "key": "toppling-metamagic-rod-lesser",
+            "name": "Toppling Metamagic Rod, Lesser",
+            "uuid": "Compendium.pf-content.pf-wondrous.Item.f903FHwxrUfveCtH",
+            "provider": "pf-content",
+            "version": "11.4.0",
+            "pack": "pf-wondrous",
+            "type": "equipment",
+            "subType": "other",
+            "img": "systems/pf1/icons/items/weapons/sword-cane.png",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "914f171f9e390dcda932514385b0c402306b3ebf3de1e2900575cde4107b4d68",
+            "nativeActions": 0,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/toppling-metamagic-apparatus-558f550d79661b2c.json",
+      "id": "558f550d79661b2c",
+      "type": "equipment",
+      "sha256": "f1b2528f3406d85be7931dbed05951579e93ab79ad01d7f40ff1211bc5f417f4"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:toxic-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "f0ebefeeb69eea4c5870bcbc9eb547e481b57ae669eae051b2f8c6f4cdb2084a",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Toxic Metamagic Rod",
+        "candidates": []
+      },
+      {
+        "name": "Toxic Metamagic Rod, Lesser",
+        "candidates": []
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/toxic-metamagic-apparatus-63a55ce2a4335760.json",
+      "id": "63a55ce2a4335760",
+      "type": "equipment",
+      "sha256": "41df9a9f5ce9c48c424e25240eaaaab01f7687a1e2860b6e2cabc91e9bbb62b5"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:traumatic-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "25071d37cb38667a9a15fd4ed139fe5b02de6d2921d3713eb56873caa9a0f32d",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Traumatic Metamagic Rod",
+        "candidates": [
+          {
+            "key": "traumatic-metamagic-rod",
+            "name": "Traumatic Metamagic Rod",
+            "uuid": "Compendium.pf1.items.Item.3X5eQAn1loq3zLoa",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "other",
+            "img": "icons/weapons/staves/staff-ornate-eye.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "30e9f52e2565d2326aadfa464f4b50db54fd302840e97dc5a1c02ba8b52fe5bd",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      },
+      {
+        "name": "Traumatic Metamagic Rod, Lesser",
+        "candidates": [
+          {
+            "key": "traumatic-metamagic-rod-lesser",
+            "name": "Traumatic Metamagic Rod, Lesser",
+            "uuid": "Compendium.pf1.items.Item.7akkjTZmcW9TIqTr",
+            "provider": "pf1",
+            "version": "11.11",
+            "pack": "items",
+            "type": "equipment",
+            "subType": "other",
+            "img": "icons/weapons/staves/staff-ornate-eye.webp",
+            "hasDescription": true,
+            "placeholderImage": false,
+            "sha256": "34be710f7e67a00e7fbf10efdb2cbf515e301e0766ca43fd68ce79767768eebd",
+            "nativeActions": 1,
+            "hasChanges": false,
+            "hasContents": false,
+            "match": "normalized-name",
+            "decision": "reject",
+            "reason": "Conventional spell rod, not the Ultimate Spheres apparatus; differing prices, conventional spell rules and native settings. Full record inspected before authoring."
+          }
+        ]
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/traumatic-metamagic-apparatus-aca25ade3156f1cb.json",
+      "id": "aca25ade3156f1cb",
+      "type": "equipment",
+      "sha256": "ea7b0785c692d75e76d1b343099dc6e2cf0b5e1574ff86d46f75f8a0572a8696"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:tricking-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "46ab15d500fe404ffdb25ba398147e856302a9244404865ec4d3d482e61cb2c3",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Tricking Metamagic Rod",
+        "candidates": []
+      },
+      {
+        "name": "Trick Metamagic Rod, Lesser",
+        "candidates": []
+      },
+      {
+        "name": "Trick Metamagic Rod",
+        "candidates": []
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/tricking-metamagic-apparatus-cc2aea6cb6d06b02.json",
+      "id": "cc2aea6cb6d06b02",
+      "type": "equipment",
+      "sha256": "1f4cf43dd88a37050b8b1d7784e55f4eebe04c9388aa24c73056681bef3912e1"
+    }
+  },
+  "wiki:apparatuses-metamagic:ultimate:item:umbral-metamagic-apparatus": {
+    "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+    "descriptionSha256": "04bd7c8c25e5ce2df3ce50a5ef564565cc063cc83d35c54d1e64c894f4a9cf92",
+    "reviewed": "2026-10-17",
+    "productionGroup": "physical-items-batch-2-group-3",
+    "decision": "original",
+    "reason": "Full-name/reordered apparatus searches found no suitable complete record. Alternate conventional rod records were inspected and rejected for different rules, prices and native settings; suitable previously reviewed core art only is referenced.",
+    "candidates": [],
+    "alternateSearches": [
+      {
+        "name": "Umbral Metamagic Rod",
+        "candidates": []
+      },
+      {
+        "name": "Umbral Metamagic Rod, Lesser",
+        "candidates": []
+      }
+    ],
+    "modelingSource": {
+      "url": "http://spheresofpower.wikidot.com/apparatuses-metamagic",
+      "pageSha256": "b199c2959cd7059a7634d4aa0480c10be7f41ab821ec7b8461ad1344f81d1091",
+      "license": "OGL-1.0a",
+      "notice": "LICENSES/OGL-1.0a-and-Wiki-Notices.txt",
+      "scope": "Shared metamagic apparatus game rules in the already approved item snapshot; exclude editorial pricing discussion, advertisements and artwork."
+    },
+    "artwork": {
+      "path": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+      "source": {
+        "key": "logical-metamagic-rod-lesser",
+        "name": "Logical Metamagic Rod, Lesser",
+        "uuid": "Compendium.pf1.items.Item.nQWPtu5SMMxEmeOK",
+        "provider": "pf1",
+        "version": "11.11",
+        "pack": "items",
+        "type": "equipment",
+        "subType": "other",
+        "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
+        "hasDescription": true,
+        "placeholderImage": false,
+        "sha256": "4020e4bd685705d19f62eeb6914f87a0875568c5b2d9f49af1fa614263b571dd",
+        "nativeActions": 1,
+        "hasChanges": false,
+        "hasContents": false
+      },
+      "decision": "Inspected native rod record and image; use the neutral ornamented rod illustration only. Do not import its Logical Spell effect, one-pound weight, conventional spell limits or original price."
+    },
+    "output": {
+      "file": "src/packs/items/apparatuses-metamagic/umbral-metamagic-apparatus-0dd94acd5c33d4c7.json",
+      "id": "0dd94acd5c33d4c7",
+      "type": "equipment",
+      "sha256": "a27bba5179ad2e79583c0d6fc95b194667cb4625a5bb6ba2687f9ac0ad071acb"
+    }
   }
 }

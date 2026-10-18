@@ -242,3 +242,18 @@ later dismissal. They share the same pinned profile table and native validation.
 Flaring’s source-trigger/duration ambiguity remains under issue #27, with its
 wording preserved and outcome interpretation deferred. No new license collection,
 world migration or compatibility claim is introduced.
+
+## Third metamagic apparatus group: 2026-10-17
+
+Twenty entries, Seeking through Umbral, retain the same approved OGL snapshot,
+complete source descriptions, original physical values and stable identities.
+Eighteen full conventional-rod alternatives were inspected and recorded with
+UUIDs, versions, hashes and rejection reasons; their different rules and prices
+are not substituted. Previously reviewed neutral core rod artwork is referenced
+for each selected rod form without importing image bytes.
+
+The profile table now pins Still's mental carried/worn activation and Suppressed's
+three-pound source weight. Toxic's additional poison dose is separately supplied;
+no bundled poison or external inventory mutation is inferred. Conditional
+creature, save, descriptor, duration and lighting outcomes remain explicit in
+source and instructions. No new license collection or compatibility claim.

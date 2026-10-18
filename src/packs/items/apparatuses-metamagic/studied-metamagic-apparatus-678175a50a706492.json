@@ -3,7 +3,7 @@
   "_key": "!items!678175a50a706492",
   "name": "Studied Metamagic Apparatus",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,35 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-metamagic-apparatus",
+      "selectedVariant": "lesser tier; held slender rod",
+      "metamagicApparatus": {
+        "profile": "research/metamagic-apparatus-profiles.json",
+        "tier": "lesser",
+        "dailyUses": 3,
+        "maxSphereEffectCasterLevel": 7,
+        "featSpellPointCost": 2,
+        "featSpellPointCostAppliesToItem": false
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 10,000 gp (lesser), 20,000 gp (normal), 40,000 gp (greater)<br>\n<strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 2 sp</p>\n<p>When casting a studied talent, designate one target affected by the spell. Attempt an appropriate Knowledge check based on that target’s creature type as you cast the talent. The DC for this check is equal to 20 + the creature’s CR based on its race and not including any class levels or templates (a creature that is defined by class levels has an effective CR of 0 for this ability). If you succeed, your studied talent ignores any energy resistance or damage reduction the target has because of its race as well as any bonuses on saving throws against the talent granted by the target’s race (such as the bonus from a dwarf’s hardy ability or a halfling’s halfling luck ability). Your studied talent does not ignore energy resistance, damage reduction, or saving throw bonuses granted by other talents and effects. If you fail the Knowledge check, the talent still has its normal effects.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Studied Spell; <strong>Cost</strong> 5,000 gp (lesser), 10,000 gp (normal), 20,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc51\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: lesser tier; held slender rod. Apply as part of casting a qualifying sphere effect of caster level seven or lower. Hold this apparatus in at least one hand while applying it. Spend one of three daily uses; only one metamagic apparatus may apply per casting. Its feat's extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply.</p><p>Designate one affected target and make the appropriate Knowledge check against DC 20 + its racial CR, excluding class levels and templates; class-defined creatures count as CR zero. Success bypasses only racial energy resistance, damage reduction and saving-throw bonuses for this talent, not defenses from other effects. Failure leaves the normal talent effect.</p><p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic\">Shared metamagic apparatus rules</a>. Feat Cost applies to taking the feat, not using the physical apparatus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +73,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +94,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "59313b814ecec184",
+        "name": "Apply Studied Metamagic Apparatus",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Apply as part of casting a qualifying sphere effect of caster level seven or lower. Hold this apparatus in at least one hand while applying it. Spend one of three daily uses; only one metamagic apparatus may apply per casting. Its feat's extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply. Designate one affected target and make the appropriate Knowledge check against DC 20 + its racial CR, excluding class levels and templates; class-defined creatures count as CR zero. Success bypasses only racial energy resistance, damage reduction and saving-throw bonuses for this talent, not defenses from other effects. Failure leaves the normal talent effect."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

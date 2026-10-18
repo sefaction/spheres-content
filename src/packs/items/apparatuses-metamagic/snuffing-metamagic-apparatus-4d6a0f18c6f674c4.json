@@ -3,7 +3,7 @@
   "_key": "!items!4d6a0f18c6f674c4",
   "name": "Snuffing Metamagic Apparatus",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/weapons/staves/staff-ornate-jeweled-blue.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,35 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "implemented",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
+      },
+      "nativeProfile": "reviewed-metamagic-apparatus",
+      "selectedVariant": "lesser tier; held slender rod",
+      "metamagicApparatus": {
+        "profile": "research/metamagic-apparatus-profiles.json",
+        "tier": "lesser",
+        "dailyUses": 3,
+        "maxSphereEffectCasterLevel": 7,
+        "featSpellPointCost": 2,
+        "featSpellPointCostAppliesToItem": false
       }
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Slot</strong> none; <strong>Price</strong> 10,000 gp (lesser), 20,000 gp (normal), 40,000 gp (greater); <strong>Weight</strong> 5 lbs.; <strong>Feat Cost</strong> 2 sp</p>\n<p>You can modify a talent to extinguish magical any non-magical light sources that the target has. The first time a creature takes damage from or fails a saving throw against a snuffing talent, any non-magical light sources it has are immediately extinguished and you can attempt to dispel any active sphere effects with the light descriptor that are affecting the target as if you had also cast the targeted version of Counterspell (as the feat). Talents that do not target creatures cannot be snuffing talents.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Snuffing Spell; <strong>Cost</strong> 5,000 gp (lesser), 10,000 gp (normal), 20,000 gp (greater)</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic#toc48\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Selected profile: lesser tier; held slender rod. Apply as part of casting a qualifying sphere effect of caster level seven or lower. Hold this apparatus in at least one hand while applying it. Spend one of three daily uses; only one metamagic apparatus may apply per casting. Its feat's extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply.</p><p>Only talents targeting creatures qualify. The first time each creature takes damage or fails its saving throw, extinguish its nonmagical light sources and attempt targeted Counterspell against active light-descriptor sphere effects affecting it. Resolve the dispel check rather than automatically removing magical light or changing all scene lights.</p><p><a href=\"http://spheresofpower.wikidot.com/apparatuses-metamagic\">Shared metamagic apparatus rules</a>. Feat Cost applies to taking the feat, not using the physical apparatus.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,7 +73,7 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
       "custom": false,
       "school": ""
@@ -84,14 +94,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "c88fc23ca84c624f",
+        "name": "Apply Snuffing Metamagic Apparatus",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "Apply as part of casting a qualifying sphere effect of caster level seven or lower. Hold this apparatus in at least one hand while applying it. Spend one of three daily uses; only one metamagic apparatus may apply per casting. Its feat's extra spell-point and casting-time costs are waived, but normal effect and other-metamagic costs still apply. Only talents targeting creatures qualify. The first time each creature takes damage or fails its saving throw, extinguish its nonmagical light sources and attempt targeted Counterspell against active light-descriptor sphere effects affecting it. Resolve the dispel check rather than automatically removing magical light or changing all scene lights."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {
