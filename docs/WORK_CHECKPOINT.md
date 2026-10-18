@@ -4,55 +4,49 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
 
 ## Active work in progress: final twenty items in physical batch 2
 
-- Branch `codex/physical-items-batch-2-final`, based on tooling PR #34 head
-  `4d1277a`; issue #26. Both Windows/Ubuntu checks passed for #34. No canonical
-  item-profile edits for this group yet. All earlier PRs remain unmerged;
-  no merge/release approval.
-- The twenty full source bodies and twenty exact/alternate/component searches
-  have been read; 26 complete compendium records are cached and inspected in
-  `.local/batch2-final-compendium-inspections.json`. The full artwork/component
-  shortlist adds 22 records (44 unique records overall); all twenty core/system
-  candidate images were visually inspected. Five parent images and one component
-  illustration were selected in `.local/batch2-final-selected-art.json`; no
-  unrelated source mechanics or optional module artwork will be imported.
-  Fifteen parent icons plus one clean standalone quill now have original art.
-  Full source/plan/search caches use
-  the `.local/batch2-final-` prefix; detailed lookahead is in
-  `.local/batch2-final-review-notes.md`.
-- Patch Hole is a temporary Create Gap, not persistent storage. Keyhome/Pocket
-  of Holding need separate spatial/capacity review. Medic Satchel needs separately
-  usable kit charges inside a native container; Quill of Endless Ink's usual
-  three-quill case must not be mistaken for three bundled quills. Reconcile
-  contents price/weight and retain stable top-level IDs.
-- Issue #31 now also records the Lenses' faint/CL10 and Gentle Shade's faint/CL7
-  conflicts; PF1 11.11 derives moderate at those levels. Preserve source headers
-  and CL rather than inventing errata or aura overrides.
-- All sixteen original illustrations were generated with the built-in image tool,
-  copied into ignored `.local/batch2-final-originals/`, converted to 256 px WebP
-  under `static/icons/items/apparatuses/`, and viewed at 64/128 px alongside the
-  six selected core/component images. Total new WebP size: 124,308 bytes; largest
-  12,136 bytes. Case art has exactly one quill and two empty positions; the separate
-  quill has no dripping ink. The black Patch Hole is cloth, not an active portal.
-  Complete prompts, original paths and source/output hashes are in ignored
-  `.local/batch2-final-image-prompts.json`, `-generated-paths.json` and
-  `-generated-registry.json`; final preview: `-all-art-review.png`.
-- The sixteen WebPs are currently untracked and not yet registered/assigned in
-  canonical content. Do not delete them, blindly rerun old author scripts or deploy
-  this partial state. Source descriptions/IDs and production audit counts are
-  still unchanged; the frozen image queue remains eighty assigned/twenty pending
-  until the new item profiles and registry are completed.
-- Reviewed native PF1 consumables do support Charges pools; the consumable class
-  only adjusts carried state inside containers. Inspect common charge handling
-  before setting any automatic deletion/refill behavior. Existing Trash Bag shows
-  a valid derived-source child schema with parent source UUID, approved page hash,
-  a distinct stable child key, no compiler key and an assembly-pinned action hash.
-- Next safe step: author the coherent twenty-item group and register its art using
-  the reviewed native profiles and explicit container/component/resource limits.
-  Preserve complete original text/IDs/snapshot hashes. Test the kit/case assemblies,
-  Patch Hole timing, conditional bonuses and separate resource units, then run the
-  clean gate, guarded deployment, native acceptance and final semantic audit.
-  Keep Akashic/legacy items deferred. Last deployed clean build remains `eb14e78`;
-  its last verified remote state is Setup.
+- Branch `codex/physical-items-batch-2-final`, based on PR #34 head `4d1277a`;
+  issue #26. All prior draft PRs remain unmerged; no merge/release approval.
+- Implementation `c7743adbc4f448c29414099599cea95610d3c26e` authors twenty
+  source-specific profiles, four native containers and two usable derived contents.
+  Complete original bodies, top-level IDs/source keys and quantities independently
+  match the prior commit. Approved snapshot hashes are preserved.
+- Sixteen original WebPs (124,308 bytes total; largest 12,136) and six inspected
+  core/system references are registered. Prompts/hashes: config/content.json.
+  Exact/alternate/component searches and 44 unique complete candidates were read
+  before authoring. No unrelated candidate mechanics or image bytes imported.
+- The frozen second hundred now has zero pending images in the production planner.
+  This completes image review only; mechanics and broader acceptance remain
+  incomplete. Akashic/legacy production stays deferred.
+- Clean full gate passed all 92 tests, all 6,788 compiler round trips and two
+  identical 778-file packages. ZIP SHA-256:
+  `d5e3639d935f49c907ea1c9d8866082a95824b383a44c8a9f434a43ee906d228`.
+  Guarded preview, staged deployment and installed-byte verification passed.
+  One authorized oldest module backup rotated; ten retained. No host restart.
+- Native PF1 containers lack activation actions; handling/refill remains manual.
+  Supplies use ten Charges, not quantity/single-use or a daily pool. Child zero
+  weight/price avoid double counting full source totals; separated allocation is
+  unspecified. The mundane case holds one CL1 quill, with 80 gp on that quill.
+  Patch Hole is temporary equipment; Cuffs' counter records feet, not activations.
+  Lenses/Gentle Shade aura discrepancies remain explicit under issue #31.
+- Representative native acceptance passed on deployed `c7743ad`, Foundry 13.351 /
+  PF1 11.11 / pf1spheres 0.9.0, with only the two declared modules active. Four
+  actual transfers created Patch Hole (3 -> 2), satchel (contained uses 10 -> 9,
+  refill helper unchanged), quill case (one separately removable 80-gp quill) and
+  cuffs (helper leaves 400 feet). Native Take emptied both containers; separated
+  supply quantity one persisted at zero and refused another use. Empty spatial
+  container sheets and complete rules/images opened. See docs/TESTING.md.
+- Browser: zero errors, 81 PF1/framework deprecations and one expected empty-supply
+  warning, no ASC script warning. Server window: 154 informational records, no
+  warning/error or daily error file. Full lifecycle/non-GM and specialized
+  class/target/spatial behavior remain incomplete; no compatibility claim.
+- Returned to Setup. Final exact semantic audit passed in 98.35 seconds for all
+  6,788 documents, non-pack receipt bytes and referenced images; remote snapshots
+  unchanged, local copies only. Helper confirmed no active game at `/auth`.
+  Screenshot proof and structured evidence remain ignored under
+  `.local/batch2-final-*`; new Chrome tab is marked for handoff.
+- Next: open draft PR stacked on #34, attach it and reconcile CI. Documentation
+  successors are distinct from deployed/tested `c7743ad`. No campaign, system,
+  service or world-filesystem changes are authorized; no merge/release approval.
 
 ## Prior tooling batch: committed reads for remote audits
 

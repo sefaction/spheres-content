@@ -59,7 +59,9 @@ explicit core placeholders until existing artwork is reviewed or art is generate
 Physical production uses frozen 100-entry inventories with coherent twenty-entry
 review groups. The first batch (#15) has reviewed images for all 100 entries;
 mechanics and remote acceptance remain incomplete. The next batch (#26) freezes
-100 existing Ultimate-edition entries, excluding Akashic/legacy work, and starts
-with metamagic apparatuses. Both preserve stable source identities and snapshots.
+100 existing Ultimate-edition entries, excluding Akashic/legacy work. Its final
+twenty apparatus profiles finish image review for that hundred; specialized
+mechanics and broader acceptance remain incomplete. Both batches preserve stable
+source identities and snapshots.
 See [the physical-item review](PHYSICAL_ITEM_REVIEW.md). The full catalog, artwork
 and mechanics remain unfinished.
