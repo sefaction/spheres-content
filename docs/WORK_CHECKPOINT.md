@@ -2,13 +2,16 @@
 
 Updated: 2026-10-17 (work began 2026-09-19 local time).
 
-## Approved PR integration in progress
+## Approved PR integration and cumulative acceptance
 
 - The user explicitly approved all ready PRs to merge. At approval, the stack
   comprises #16, #19, #21, #23, #25, #28, #29, #30, #33, #34, #35 and #39.
-  Both CI platforms pass on every original head. #16 and #19 are now merged
-  into main, preserving history; #21 is retargeted to main. Other merges await
-  the cumulative pre-merge acceptance correction below. No release approval.
+  Both CI platforms pass on every original head. #16, #19, #21, #23, #25, #28,
+  #29, #30, #33, #34 and #35 are now merged into main, preserving history and
+  retargeting each dependent PR to main before merging. #39 is the final approved
+  integration PR; its evidence follow-up changes documentation only after the
+  tested correction below. Consult GitHub for its live merge/check status.
+  This approval does not cover a public release, tag or compatibility claim.
 - Earlier pending remote notes are being reconciled against the exact cumulative
   installed build and native checks. Five further real transfers passed. Dashing
   Cloak's move helper spent two charges (5 -> 3), Null Bindi consumed quantity
@@ -19,12 +22,30 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   explicitly supports `ammo.type: "none"` to opt out. Four canonical helpers now
   select it, preserving ordinary bullet attacks, costs, IDs, full rules and all
   other fields. Action identity hashes and a focused regression are updated.
-  Correction remains on #39's branch for cumulative validation before completing
-  the approved stack. Return to Setup requested; reconcile browser before deploy.
-- Next: clean full gate, deploy/reimport corrected firearm, prove a no-ammo power
-  spends its daily use and ordinary attacks still require ammo, return to Setup
-  and audit. Then finish approved merges and verify final main. Akashic stays
-  deferred; no release, tag, compatibility change or world migration.
+  Correction is in #39's approved integration follow-up. Complete-record comparison
+  confirms these four opt-outs are the only source-record differences.
+- Corrected deployed/tested commit `acac9b3aee40b61c4d454fb1dd6b860c8e5f906d`
+  passed 100 tests, all 6,788 compiler round trips, two identical 786-file packages
+  and Windows/Ubuntu CI. ZIP SHA-256:
+  `066abe52299e8498f37faa56de3601ae0a8f20060db91e58d4c1cf0b2f7288b7`.
+  Guarded preview, staged deployment and installed-byte checks passed; ten module
+  rollback copies retained, one authorized oldest copy rotated, no host restart.
+- A fresh corrected musket's no-ammo spell-power helper spent one daily use
+  (2 -> 1). Its ordinary shot still refused without bullets and left that pool
+  at one. Browser: one expected Out of Ammunition error from the negative test,
+  no other errors, 79 framework/PF1 or expected ammunition warnings. Server:
+  147 informational records since deployment, no warning/error or daily error file.
+  Returned to Setup. Final exact semantic audit passed in 105.89 seconds for all
+  6,788 documents, receipt bytes and external images; unchanged remote snapshots,
+  local copies only, no active game at `/auth`. No process remains running.
+- #18 closed after #19 merged. #20/#24 closed with links after #23/#25 merged;
+  #32 is resolved by merged #34 and #40 by final #39. Keep #3, #15, #26, #36 and
+  other gameplay/source-interpretation issues open for their unfinished scope.
+- Delivery branch is `codex/physical-items-batch-3-charms`. After #39's final
+  documentation checks pass, merge the approved PR, confirm main's identical
+  runtime sources and CI, and switch the clean local checkout to main. Then start
+  the next coherent group from updated main; eighty third-batch images remain.
+  Akashic stays deferred. No release, tag, compatibility change or world migration.
 
 ## Current review group: third-batch charms
 
@@ -90,12 +111,12 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   records remain untouched, including separate pair accounting for Twin Caskets.
   Full lifecycle/non-GM, crafted choices, first-day consequences and advanced
   effects remain incomplete. No content compatibility claim or world migration.
-  Documentation successors are distinct from deployed/tested `9ba18da`; only
-  docs/TESTING.md and this checkpoint changed after that implementation.
-  Draft PR https://github.com/sefaction/spheres-content/pull/39 is open and
-  attached, stacked on #35. CI at evidence head `6fef0d4` is pending; reconcile
-  the current head before continuing the remaining third-batch items.
-  Preserve existing reviews and unmerged work; no merge/release approval.
+  Initial evidence successors changed documentation only after tested `9ba18da`;
+  the later four-firearm correction is independently tested/deployed as recorded
+  in the approved-integration section above. PR #39 is attached:
+  https://github.com/sefaction/spheres-content/pull/39. The user has now approved
+  all ready PRs to merge; historical no-approval notes below describe earlier work.
+  Preserve existing reviews. Public release approval remains separate.
   Current browser is marked for handoff in Setup.
 
 ## Completed previous group: final twenty items in physical batch 2

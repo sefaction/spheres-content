@@ -499,3 +499,56 @@ automation, advanced conditional effects and full lifecycle/non-GM regression
 remain incomplete. No verified compatibility claim or world migration is made.
 Updates affect compendia; changing an older world copy requires deliberate
 reimport. Documentation-only successors are distinct from the tested build.
+
+## Approved-stack pre-merge acceptance and firearm correction
+
+The user approved all ready PRs on 2026-10-17. Older PRs' pending remote notes
+were reconciled against the cumulative tested build rather than claiming that
+each historical head had been deployed separately. Additional native transfers
+on Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0 established:
+
+- Dashing Cloak's move helper spent two of five charges, leaving three.
+- Null Bindi's single use reduced quantity from one to zero.
+- Trash Bag opened as a native container with five one-pound, zero-value trash
+  units, five pounds total, 500 gp purchase price and no weight exemption.
+- Disc of Rainbow Tears' +2 buckler statistics raised normal and flat-footed AC
+  from 14 to 17 while touch AC stayed 11 and CMD stayed 16.
+
+The firearm check found issue #40: a special action with no explicit ammunition
+type inherits its weapon's bullet requirement in PF1 11.11. Ultraviolet Shift
+therefore refused use and preserved its daily pool on an actor without bullets.
+The native action preparation recognizes `ammo.type: "none"` as an explicit
+opt-out. Apply that only to the four separate firearm spell-power/follow-up
+helpers, preserving ordinary gunBullet attacks, daily costs and all stable IDs.
+Independent complete-record comparison confirms these opt-outs are the only
+source-record differences; action identities and reviewed output hashes match.
+
+Corrected implementation `acac9b3aee40b61c4d454fb1dd6b860c8e5f906d` passed the
+clean full gate: 100 tests, 6,788 compiler round trips and two identical 786-file
+packages. ZIP SHA-256:
+`066abe52299e8498f37faa56de3601ae0a8f20060db91e58d4c1cf0b2f7288b7`.
+Both Windows and Ubuntu CI passed this exact head. Guarded preview, staged test
+deployment and installed-byte checks passed; ten module rollback copies remain,
+one authorized oldest copy rotated, no host restart.
+
+A fresh corrected musket was dragged from the compendium onto the existing test
+actor, retaining the earlier copy as a comparison. Without any ammunition, its
+Ultraviolet Shift helper succeeded and spent one daily use (2 -> 1). Its ordinary
+attack still refused without bullets, leaving the daily pool at one. This verifies
+resource separation; it does not cast an etherspell or grant its conditional
+outcomes. Older imported world copies are not automatically migrated.
+
+Browser capture after the corrected deployment contained one expected
+`Out of Ammunition!` error from that negative attack test, no other errors and
+79 PF1/framework or expected ammunition warnings. All 147 scoped server records
+were informational, with no daily error file. Structured native evidence and
+screenshot proof remain ignored in `.local/merge-*`. Returned to Setup.
+Final exact semantic audit passed in 105.89 seconds for all 6,788 documents,
+non-pack receipt bytes and referenced external images. Remote database snapshots
+stayed unchanged; only local copies were opened. The helper confirmed no active
+game at /auth and the exact corrected deployment commit above.
+
+These representative checks, the preceding native acceptance and full installed
+audit support integrating the reviewed partial-content scope. Full lifecycle,
+non-GM and specialized class/target/scene outcomes remain deferred. No verified
+compatibility claim, world migration or public release is included.
