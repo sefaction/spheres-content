@@ -3,7 +3,7 @@
   "_key": "!items!096c7feffd2f43c3",
   "name": "Headband of Psionic Reach",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/headband-of-psionic-reach.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment",
+      "selectedVariant": "two qualifying psionic powers not yet selected"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Mind; CL 3rd<br>\n<strong>Slot</strong> headband; <strong>Price</strong> 18,000 gp; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p>This ornate cloth headband has strange runes sewn into it. When worn by a character with the psionics class feature - usually symbiats - it increases the range of two of the character’s psionic powers by 30 feet. The psionic powers that benefit from this item can be changed whenever the user regains spell points, but must have an initial range of at least 60 feet.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Mind sphere; <strong>Cost</strong> 9,000 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc27\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: two qualifying psionic powers not yet selected.</p><p>Requires the psionics class feature. Choose two actual psionic powers whose initial range is at least sixty feet; increase only those ranges by thirty feet while worn. Reselect when the wearer regains spell points. No global casting-range increase, Charisma bonus, new powers or permanent grants.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 3,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Mind"
     },
     "hp": {},
     "broken": false,
@@ -84,13 +86,32 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "f478e27e7164e2bd",
+        "name": "Reselect Two Powers when Spell Points Return",
+        "activation": {
+          "type": "special",
+          "unchained": {
+            "type": "special"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Requires the psionics class feature. Choose two actual psionic powers whose initial range is at least sixty feet; increase only those ranges by thirty feet while worn. Reselect when the wearer regains spell points. No global casting-range increase, Charisma bonus, new powers or permanent grants."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

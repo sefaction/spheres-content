@@ -391,3 +391,52 @@ stayed unchanged and only local copies were opened. The server remains in Setup.
 Its canonical content
 is unchanged from the preceding runtime-tested build; additional in-game behavior
 checks are not claimed for this tooling-only change.
+
+## Final twenty second-batch apparatuses
+
+Implementation `c7743adbc4f448c29414099599cea95610d3c26e` passed the clean full
+gate: 92 tests, all 6,788 compiler round trips and two identical 778-file packages.
+ZIP SHA-256: `d5e3639d935f49c907ea1c9d8866082a95824b383a44c8a9f434a43ee906d228`.
+The guarded preview, staged deployment and installed-byte verification passed;
+one authorized oldest module backup was rotated, retaining ten. No host restart.
+
+Foundry 13.351 / PF1 11.11 / pf1spheres 0.9.0 loaded the build in Additional
+Spheres Content Test with only ASC alpha.6 and pf1spheres active. All five packs
+appeared. A fresh blank PC, `ASC Batch 2 Final Acceptance`, received four actual
+native compendium transfers, without importing prepared JSON fixtures:
+
+- Patch Hole opened as equipment; using Create Temporary Gap changed 3/3 to 2/3.
+  This tests its resource helper, not automatic geometry or Create Gap outcomes.
+- Medic Satchel imported with one ten-use supply bundle. A contained use changed
+  ten to nine; its refill reminder left nine. Native Take moved the same usable
+  supplies onto the actor and emptied the bag. After setting the test copy to
+  zero through Details, closing/reopening preserved zero and quantity one; a
+  further use was rejected with the expected insufficient-charges warning.
+  Its full one-pound/250-gp package was counted once. No automatic refill or
+  separate supply mass/value is established by this accounting.
+- Quill of Endless Ink imported as a mundane case with one separate ordinary-ink
+  magical quill. Case price was zero and contents value 80 gp. Native Take emptied
+  the case and created one independently usable quill with price 80, negligible
+  weight, faint Creation aura and CL 1 instructions. Actor total stayed 80 gp
+  higher after removal; no duplicate quills or prices appeared.
+- Seamstress Cuffs opened with 400/400 remaining daily feet. Its Special helper
+  left 400, allowing actual produced thread length to be recorded manually.
+
+Read-only compendium Keyhome and Pocket of Holding opened as empty native
+containers with complete source/instructions, prices/weights 40000/0 and 200/0.5,
+zero contents/currency and zero weight reduction. Keyhome's actual system icon
+loaded. Spatial volume, doorway and ten-pound/one-cubic-foot restrictions remain
+manual; no automatic capacity enforcement or scene/occupant storage is claimed.
+
+Browser capture contained zero errors and 82 warnings: PF1/framework deprecations
+plus the expected empty-supplies warning; none referenced an ASC script. The
+154 server-log records since deployment were all informational, with no current
+daily error file. Native Return to Setup succeeded. The final exact semantic audit
+passed in 98.35 seconds: all 6,788 documents, non-pack receipt bytes and referenced
+external images matched; remote snapshots stayed unchanged and only local database
+copies were opened. The helper confirmed no active game at route `/auth`.
+Specialized class/target/scene automation, full lifecycle/non-GM regression and
+broader earlier-batch acceptance remain incomplete. No verified compatibility
+claim or world migration is made. Updates affect compendia, requiring deliberate
+reimport to change previously imported world copies. Documentation-only successor
+commits are distinct from this tested implementation.

@@ -3,7 +3,7 @@
   "_key": "!items!80637c78827ab1a6",
   "name": "Patch Hole",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/patch-hole.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,26 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "implemented",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> moderate Warp; <strong>CL</strong> 6th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 7,500 gp; <strong>Weight</strong> —</p>\n<p><strong>Description</strong><br>\nA patch hole is a black circle of cloth nearly identical in appearance to a portable hole. It is 6 feet in diameter, can be folded as small a pocket handkerchief, and lightly adheres to surfaces it is spread against, allowing it to easily be placed on ceilings and walls. When fully spread on a surface it bends space, creating a cylindrical hole 10 feet deep in whatever surface it was placed on. The created hole lasts for 1 minute before reverting to cloth, and may be activated three times per day as a standard action. A patch hole otherwise functions as Create Gap.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Warp sphere (Create Gap (space)); <strong>Cost</strong> 3,750 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc32\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: published apparatus with source-specific limits.</p><p>As a standard action, spread the six-foot cloth disk on a surface to create a cylindrical ten-foot-deep gap lasting one minute; three activations per day. Otherwise use Create Gap, including its structural-integrity, falling-creature save and expiry/shunting procedure. This is a temporary gap through an existing surface, not persistent storage. No contents, weight reduction, portable-hole air supply, permanent room or bag-of-holding destruction rule is inherited.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 6,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Warp"
     },
     "hp": {},
     "broken": false,
@@ -84,14 +85,38 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "b0b42bd4da471ba7",
+        "name": "Create Temporary Gap",
+        "activation": {
+          "type": "standard",
+          "unchained": {
+            "type": "action",
+            "cost": 2
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "1"
+        },
+        "notes": {
+          "effect": [
+            "As a standard action, spread the six-foot cloth disk on a surface to create a cylindrical ten-foot-deep gap lasting one minute; three activations per day. Otherwise use Create Gap, including its structural-integrity, falling-creature save and expiry/shunting procedure. This is a temporary gap through an existing surface, not persistent storage. No contents, weight reduction, portable-hole air supply, permanent room or bag-of-holding destruction rule is inherited."
+          ]
+        },
+        "duration": {
+          "value": "1",
+          "units": "minute"
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 3,
+      "per": "day",
+      "autoDeductChargesCost": "1",
+      "maxFormula": "3",
       "rechargeFormula": ""
     },
     "links": {

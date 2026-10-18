@@ -3,7 +3,7 @@
   "_key": "!items!37e688379066ed2a",
   "name": "Force Hook",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/force-hook.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,26 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Telekinesis; <strong>CL</strong> 4th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 1,000 gp; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThis short metal rod fits well into the hand and is small enough that it is barely longer than a clenched fist. You may activate it as a move action and cause it to telekinetically hook on to a solid, inanimate surface within 200 feet, allowing it to act as if you had a rope securely linked between the rod and that surface. A second move action causes the hook to retract, drawing the rod and its wielder towards the surface at a rate of 50 feet per round. You may also use a free action to disconnect the hook from any surface it is attached to. The hook can support a load of up to Huge size.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Telekinesis sphere (Tether); <strong>Cost</strong> 500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc21\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: published apparatus with source-specific limits.</p><p>Move action to attach the telekinetic hook to a solid inanimate surface within two hundred feet; a second move action retracts the rod and wielder toward it at fifty feet per round. Free action to disconnect. Supports a load up to Huge size, not an invented pound limit. Movement, anchor choice and load remain manual; no physical rope or grappling weapon attack is bundled.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 4,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Telekinesis"
     },
     "hp": {},
     "broken": false,
@@ -84,13 +85,70 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "e8829df2836856d4",
+        "name": "Attach Telekinetic Hook",
+        "activation": {
+          "type": "move",
+          "unchained": {
+            "type": "action",
+            "cost": 1
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Move action to attach the telekinetic hook to a solid inanimate surface within two hundred feet; a second move action retracts the rod and wielder toward it at fifty feet per round. Free action to disconnect. Supports a load up to Huge size, not an invented pound limit. Movement, anchor choice and load remain manual; no physical rope or grappling weapon attack is bundled."
+          ]
+        }
+      },
+      {
+        "_id": "de3ec851255c22be",
+        "name": "Retract toward Anchor",
+        "activation": {
+          "type": "move",
+          "unchained": {
+            "type": "action",
+            "cost": 1
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Move action to attach the telekinetic hook to a solid inanimate surface within two hundred feet; a second move action retracts the rod and wielder toward it at fifty feet per round. Free action to disconnect. Supports a load up to Huge size, not an invented pound limit. Movement, anchor choice and load remain manual; no physical rope or grappling weapon attack is bundled."
+          ]
+        }
+      },
+      {
+        "_id": "ece65e46fe322dc9",
+        "name": "Disconnect Telekinetic Hook",
+        "activation": {
+          "type": "free",
+          "unchained": {
+            "type": "free"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Move action to attach the telekinetic hook to a solid inanimate surface within two hundred feet; a second move action retracts the rod and wielder toward it at fifty feet per round. Free action to disconnect. Supports a load up to Huge size, not an invented pound limit. Movement, anchor choice and load remain manual; no physical rope or grappling weapon attack is bundled."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

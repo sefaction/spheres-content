@@ -145,3 +145,35 @@ one complete priced set. Crafted choices and conditional defenses remain explici
 Spheres school names use PF1's native custom-school field. The two Weather cloaks
 retain published CL 5 and moderate-aura text while PF1 derives faint strength;
 issue #31 tracks this discrepancy. Do not silently rewrite the source or raise CL.
+
+## Final second-batch apparatus group
+
+The final twenty records finish image review for the frozen second hundred,
+while conditional mechanics and broader acceptance remain incomplete. All twenty
+retain full original source bodies, top-level IDs and approved snapshot hashes.
+Sixteen original icons include a separately usable quill; five parent images and
+one supply illustration reuse visually reviewed core/system paths.
+
+Keyhome and Pocket of Holding are empty native containers. Their ten ten-foot
+cubes and one-cubic-foot/ten-pound limits stay separate; neither borrows an
+unstated weight exemption. Patch Hole is equipment with three daily standard
+activations lasting one minute, following Create Gap rather than portable-hole
+storage rules. Spatial and scene outcomes remain manual.
+
+The mundane Quill of Endless Ink case holds one CL 1 magical quill and has room
+for two more; it does not supply three. Its 80 gp total is allocated to the quill.
+Medic Satchel holds one usable supply bundle with ten kit-use charges. Daily or
+spell-point refill is manual and depends on the original bag. The published full
+one-pound weight and 250 gp value are counted once on the parent; zero child
+values prevent double counting, rather than defining weightless loose supplies.
+Separate supplies require a manual allocation because the source gives none.
+
+Seamstress Cuffs track remaining daily feet, not activations. Their helper spends
+zero and actual produced length is subtracted manually. Unspecified command or
+handling timing uses Special. Conditional class features, crafted talent choices,
+enemy targeting, healing while held, scene light and source-specific checks stay
+explicit without global modifiers or automated world changes. The Lenses and
+Gentle Shade also retain faint-aura/CL disagreements under issue #31.
+
+Updates affect compendia only. Existing imported world copies require deliberate
+reimport; no automatic type conversion or actor migration is performed.

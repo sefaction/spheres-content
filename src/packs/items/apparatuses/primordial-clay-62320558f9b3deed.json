@@ -3,7 +3,7 @@
   "_key": "!items!62320558f9b3deed",
   "name": "Primordial Clay",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/primordial-clay.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment",
+      "selectedVariant": "one reusable one-pound unit; 150 gp per pound"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Creation; <strong>CL</strong> 5th<br>\n<strong>Slot</strong> none; <strong>Price</strong> 150 gp per pound; <strong>Weight</strong> 1&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThis substance has a light gray color and is frequently found in hardened balls. Characters with the Creation sphere quickly recognize what it is. Primordial clay is extremely easy to manipulate with magic, and a sphere caster can use it in concert with their Creation sphere abilities. Whenever the sphere caster creates an object with weight equal to or less than the amount of primordial clay they possess (and wish to use), they may use the clay, forming it into whatever they wish to create.</p>\n<p>The clay changes shape and even changes what type of matter it is - it can become any material the caster can manipulate, but it can not transform into anything biologically reactive or chemically explosive (like alchemical components or food) or any form of gemstone. When the caster uses the clay this way, it retains its shape indefinitely, or until they use it again. It is trivial for a Creation caster to transform the clay into something wearable, so it is always a free action to draw the clay into their hand.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus; <strong>Cost</strong> 75 gp per pound</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc35\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: one reusable one-pound unit; 150 gp per pound.</p><p>Requires a Creation sphere caster using actual Creation abilities. Selected clay mass must equal or exceed the created object's weight. It may become only materials the caster can manipulate, never biologically reactive or chemically explosive substances, alchemical components, food or gemstones. The form persists until reused. Drawing it into the hand is free; shaping follows the actual Creation ability's action and cost. No quantity is consumed, free extra mass generated or ordinary clay-container stock bundled.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 5,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Creation"
     },
     "hp": {},
     "broken": false,
@@ -84,13 +86,32 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "0f394f0033c1347d",
+        "name": "Draw Existing Clay into Hand",
+        "activation": {
+          "type": "free",
+          "unchained": {
+            "type": "free"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Requires a Creation sphere caster using actual Creation abilities. Selected clay mass must equal or exceed the created object's weight. It may become only materials the caster can manipulate, never biologically reactive or chemically explosive substances, alchemical components, food or gemstones. The form persists until reused. Drawing it into the hand is free; shaping follows the actual Creation ability's action and cost. No quantity is consumed, free extra mass generated or ordinary clay-container stock bundled."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

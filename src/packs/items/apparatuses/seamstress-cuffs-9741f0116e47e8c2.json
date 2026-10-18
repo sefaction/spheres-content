@@ -3,7 +3,7 @@
   "_key": "!items!9741f0116e47e8c2",
   "name": "Seamstress Cuffs",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/seamstress-cuffs.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,27 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "deferred",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment",
+      "selectedVariant": "base 150 gp cuffs; pins/needles and four-hundred-foot daily thread allowance"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Creation; <strong>CL</strong> 2nd; <strong>Scaling</strong> prize<br>\n<strong>Slot</strong> wrists; <strong>Price</strong> 150 gp; <strong>Weight</strong> 1/2&nbsp;lb.</p>\n<p><strong>Description</strong><br>\nThese intricately made cuffs veil a collection of pearl-headed pins behind beautiful embroidery, and spare needles between the seams. If a pin or needle becomes damaged, or otherwise distances itself from the cuffs for more than 400 feet, the old pin or needle becomes destroyed, and a new one is instantaneously created on the cuff. Pulling on a single thread of the embroidery will cause it to slowly unravel itself until cut, although no more than 400 feet of thread may be produced by the cuffs per day.<br>\n<strong>5th Level – 1,825 gp:</strong> The wearer may as a standard action (or immediate action if he spends a spell point) activate the cuffs to create or modify a non-magical set of clothing whose total value cannot exceed that of 10 gp. The seamstress cuffs may only create or modify the clothing of a willing creature within range of touch. The created or modified clothing is permanent, but the seamstress cuffs can only have up to 2 suits of clothing created or modified in this manner at a time; creating or modifying a suit of clothing beyond this limit causes the oldest suit of clothing to return to disappear/return to its original state.<br>\n<strong>7th Level – 3,825 gp:</strong> The seamstress cuffs can now create or modify clothing whose total value cannot exceed that of 50 gp, and may have up to 4 suits of created or modified clothing at a time.<br>\n<strong>9th Level – 6,225 gp:</strong> The seamstress cuffs can now create or modify clothing whose total value cannot exceed that of 100 gp, and may have up to 6 suits of created or modified clothing at a time.<br>\n<strong>11th Level – 12,225 gp:</strong> The seamstress cuffs can now create or modify clothing whose total value cannot exceed that of 500 gp, and may have up to 8 suits of created or modified clothing at a time.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Creation sphere (Expanded Materials (material), Exquisite Detail); <strong>Cost</strong> 6,112 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc42\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: base 150 gp cuffs; pins/needles and four-hundred-foot daily thread allowance.</p><p>Pearl-headed pins and spare needles are replaced if damaged or more than four hundred feet from the cuffs, destroying the old one. Pulling thread unravels it until cut, up to four hundred feet per day. The manual counter is remaining feet, not activations or a fixed needle count; after producing thread, manually subtract its actual length. The helper costs zero and creates no inventory objects. Clothing creation starts only at the separate fifth-level upgrade; no base suit creation or invented pull action time.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +65,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 2,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Creation"
     },
     "hp": {},
     "broken": false,
@@ -84,14 +86,33 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "c141008284bfd7d2",
+        "name": "Unravel Thread; Record Actual Feet Manually",
+        "activation": {
+          "type": "special",
+          "unchained": {
+            "type": "special"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Pearl-headed pins and spare needles are replaced if damaged or more than four hundred feet from the cuffs, destroying the old one. Pulling thread unravels it until cut, up to four hundred feet per day. The manual counter is remaining feet, not activations or a fixed needle count; after producing thread, manually subtract its actual length. The helper costs zero and creates no inventory objects. Clothing creation starts only at the separate fifth-level upgrade; no base suit creation or invented pull action time."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
-      "value": null,
-      "per": "",
-      "autoDeductChargesCost": "",
-      "maxFormula": "",
+      "value": 400,
+      "per": "day",
+      "autoDeductChargesCost": "0",
+      "maxFormula": "400",
       "rechargeFormula": ""
     },
     "links": {

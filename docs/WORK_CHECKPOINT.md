@@ -2,7 +2,59 @@
 
 Updated: 2026-10-17 (work began 2026-09-19 local time).
 
-## Active work in progress: batch committed reads for remote audits
+## Active work in progress: final twenty items in physical batch 2
+
+- Branch `codex/physical-items-batch-2-final`, based on PR #34 head `4d1277a`;
+  issue #26. All prior draft PRs remain unmerged; no merge/release approval.
+- Implementation `c7743adbc4f448c29414099599cea95610d3c26e` authors twenty
+  source-specific profiles, four native containers and two usable derived contents.
+  Complete original bodies, top-level IDs/source keys and quantities independently
+  match the prior commit. Approved snapshot hashes are preserved.
+- Sixteen original WebPs (124,308 bytes total; largest 12,136) and six inspected
+  core/system references are registered. Prompts/hashes: config/content.json.
+  Exact/alternate/component searches and 44 unique complete candidates were read
+  before authoring. No unrelated candidate mechanics or image bytes imported.
+- The frozen second hundred now has zero pending images in the production planner.
+  This completes image review only; mechanics and broader acceptance remain
+  incomplete. Akashic/legacy production stays deferred.
+- Clean full gate passed all 92 tests, all 6,788 compiler round trips and two
+  identical 778-file packages. ZIP SHA-256:
+  `d5e3639d935f49c907ea1c9d8866082a95824b383a44c8a9f434a43ee906d228`.
+  Guarded preview, staged deployment and installed-byte verification passed.
+  One authorized oldest module backup rotated; ten retained. No host restart.
+- Native PF1 containers lack activation actions; handling/refill remains manual.
+  Supplies use ten Charges, not quantity/single-use or a daily pool. Child zero
+  weight/price avoid double counting full source totals; separated allocation is
+  unspecified. The mundane case holds one CL1 quill, with 80 gp on that quill.
+  Patch Hole is temporary equipment; Cuffs' counter records feet, not activations.
+  Lenses/Gentle Shade aura discrepancies remain explicit under issue #31.
+- Representative native acceptance passed on deployed `c7743ad`, Foundry 13.351 /
+  PF1 11.11 / pf1spheres 0.9.0, with only the two declared modules active. Four
+  actual transfers created Patch Hole (3 -> 2), satchel (contained uses 10 -> 9,
+  refill helper unchanged), quill case (one separately removable 80-gp quill) and
+  cuffs (helper leaves 400 feet). Native Take emptied both containers; separated
+  supply quantity one persisted at zero and refused another use. Empty spatial
+  container sheets and complete rules/images opened. See docs/TESTING.md.
+- Browser: zero errors, 81 PF1/framework deprecations and one expected empty-supply
+  warning, no ASC script warning. Server window: 154 informational records, no
+  warning/error or daily error file. Full lifecycle/non-GM and specialized
+  class/target/spatial behavior remain incomplete; no compatibility claim.
+- Returned to Setup. Final exact semantic audit passed in 98.35 seconds for all
+  6,788 documents, non-pack receipt bytes and referenced images; remote snapshots
+  unchanged, local copies only. Helper confirmed no active game at `/auth`.
+  Screenshot proof and structured evidence remain ignored under
+  `.local/batch2-final-*`; new Chrome tab is marked for handoff.
+- Draft PR https://github.com/sefaction/spheres-content/pull/35 is open and
+  attached, stacked on #34. Initial Windows/Ubuntu CI at evidence head `45c093e`
+  was running when recorded; check the PR for the current head's results.
+  Documentation successors are distinct from deployed/tested `c7743ad`.
+- Next safe step: reconcile #35 CI, then select another coherent non-Akashic
+  physical-item group or remaining mechanics checks. Keep image completion
+  separate from full content/automation acceptance. No campaign, system, service
+  or world-filesystem changes; no merge/release approval. All older PRs remain
+  unmerged and issues remain open pending individual merge approval.
+
+## Prior tooling batch: committed reads for remote audits
 
 - Branch `codex/batch-remote-source-reads`, based on group-4 draft PR #33 head
   `7bc3fa2`; issue #32. Both #33 Windows/Ubuntu CI checks passed. All stacked PRs
@@ -31,8 +83,8 @@ Updated: 2026-10-17 (work began 2026-09-19 local time).
   for all 6,788 documents, non-pack receipt bytes and external images, with
   unchanged remote snapshots. The instance remains in Setup.
 - Draft PR #34 is pushed, stacked on #33:
-  https://github.com/sefaction/spheres-content/pull/34. CI is pending; no merge
-  or release approval.
+  https://github.com/sefaction/spheres-content/pull/34. Both Windows/Ubuntu checks
+  passed at `4d1277a`; no merge or release approval.
 - Next safe step: check #34 CI, then create the final twenty-item feature branch
   from this one and continue the cached non-Akashic review below. Additional
   source/kit observations are in ignored `.local/batch2-final-review-notes.md`.

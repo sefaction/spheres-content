@@ -3,7 +3,7 @@
   "_key": "!items!f3fd1649e73b18a0",
   "name": "Field Researcher’s Lenses",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "icons/tools/scribal/spectacles-glasses.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,26 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "deferred",
+        "links": "deferred",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Divination and Destruction; <strong>CL</strong> 10th<br>\n<strong>Slot</strong> eyes; <strong>Price</strong> 15,000 gp; <strong>Weight</strong> -</p>\n<p><strong>Description</strong><br>\nThese glasses are sturdier than they look, and stay unnaturally clean as grime slides off them. When worn by someone with the studied strike class feature (such as an investigator), the damage from his or her studied strike increases by 1d6. In addition, whenever they make a studied strike, they may spend a spell point to double the number of dice rolled.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus; <strong>Cost</strong> 7,500 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc19\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: published apparatus with source-specific limits.</p><p>Requires the studied strike class feature. Add 1d6 to that feature's damage; when making a studied strike the wearer may spend one actual spell point to double its dice as stated. No ordinary weapon/spell damage bonus, feature grant or automatic spell-point expenditure. Published faint aura at CL ten conflicts with the native moderate label; preserve both facts under issue #31.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 10,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Divination and Destruction"
     },
     "hp": {},
     "broken": false,
@@ -84,13 +85,32 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "9c918b50ad916050",
+        "name": "Double Studied Strike Dice with Actual Spell Point",
+        "activation": {
+          "type": "nonaction",
+          "unchained": {
+            "type": "nonaction"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "Requires the studied strike class feature. Add 1d6 to that feature's damage; when making a studied strike the wearer may spend one actual spell point to double its dice as stated. No ordinary weapon/spell damage bonus, feature grant or automatic spell-point expenditure. Published faint aura at CL ten conflicts with the native moderate label; preserve both facts under issue #31."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },

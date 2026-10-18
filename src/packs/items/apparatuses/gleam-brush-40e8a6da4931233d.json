@@ -3,7 +3,7 @@
   "_key": "!items!40e8a6da4931233d",
   "name": "Gleam Brush",
   "type": "equipment",
-  "img": "icons/svg/item-bag.svg",
+  "img": "modules/additional-spheres-content/icons/items/apparatuses/gleam-brush.webp",
   "folder": null,
   "sort": 0,
   "effects": [],
@@ -24,25 +24,26 @@
         "kind": "item"
       },
       "audit": {
-        "image": "needed",
-        "activation": "needs-review",
-        "changes": "needs-review",
-        "contextNotes": "needs-review",
-        "usage": "needs-review",
-        "links": "needs-review",
-        "advanced": "needs-review",
+        "image": "implemented",
+        "activation": "implemented",
+        "changes": "deferred",
+        "contextNotes": "not-needed",
+        "usage": "not-needed",
+        "links": "not-needed",
+        "advanced": "deferred",
         "classFeatures": "not-applicable",
-        "compatibility": "needs-review",
-        "reuse": "needs-review",
-        "description": "needs-review",
+        "compatibility": "deferred",
+        "reuse": "implemented",
+        "description": "implemented",
         "rights": "implemented"
-      }
+      },
+      "nativeProfile": "reviewed-wondrous-equipment"
     }
   },
   "system": {
     "description": {
       "value": "<p><strong>Aura</strong> faint Light; <strong>CL</strong> 3rd<br>\n<strong>Slot</strong> none; <strong>Price</strong> 200 gp; <strong>Weight</strong> —</p>\n<p><strong>Description</strong><br>\nA gleam brush takes the form of a handheld brush with a wooden handle decorated with colored whorls and spirals. This magic brush is considered a masterwork tool for appropriate Craft skills (such as calligraphy or painting) and creates ink of any color, changing to any color the user imagines as a free action; the ink glows, increasing the light level by one step 5 feet around it. The ink created by a gleam brush is nonmagical and permanent, and may be cleaned up or removed from surfaces as normal ink can. A gleam brush never runs out of ink. Different styles of brush can be found and produced, ranging from fine tipped ink brushes to wide, thick paintbrushes, but they are always small enough to be held in one hand.</p>\n<p><strong>Construction Requirements</strong><br>\nCraft Apparatus, Light sphere (Style); <strong>Cost</strong> 100 gp</p>\n<p><a href=\"http://spheresofpower.wikidot.com/apparatuses#toc23\">Source: Spheres of Power Wiki</a></p>",
-      "instructions": "",
+      "instructions": "<p>Reviewed profile: published apparatus with source-specific limits.</p><p>One handheld brush, a masterwork tool only for appropriate Craft uses such as calligraphy or painting. Produces permanent nonmagical ink of a chosen color without running out; change color as a free action. Its ink raises light by one step within five feet and can be removed like ordinary ink. No global Craft bonus, inventory ink stock or automatic scene-light changes.</p>",
       "unidentified": ""
     },
     "tags": [],
@@ -63,10 +64,10 @@
       "name": ""
     },
     "cursed": false,
-    "cl": 0,
+    "cl": 3,
     "aura": {
-      "custom": false,
-      "school": ""
+      "custom": true,
+      "school": "Light"
     },
     "hp": {},
     "broken": false,
@@ -84,13 +85,32 @@
       "seeInDarkness": false
     },
     "contextNotes": [],
-    "actions": [],
+    "actions": [
+      {
+        "_id": "4ffaf068ebbd316d",
+        "name": "Change Ink Color",
+        "activation": {
+          "type": "free",
+          "unchained": {
+            "type": "free"
+          }
+        },
+        "uses": {
+          "autoDeductChargesCost": "0"
+        },
+        "notes": {
+          "effect": [
+            "One handheld brush, a masterwork tool only for appropriate Craft uses such as calligraphy or painting. Produces permanent nonmagical ink of a chosen color without running out; change color as a free action. Its ink raises light by one step within five feet and can be removed like ordinary ink. No global Craft bonus, inventory ink stock or automatic scene-light changes."
+          ]
+        }
+      }
+    ],
     "attackNotes": [],
     "effectNotes": [],
     "uses": {
       "value": null,
       "per": "",
-      "autoDeductChargesCost": "",
+      "autoDeductChargesCost": "0",
       "maxFormula": "",
       "rechargeFormula": ""
     },
@@ -104,7 +124,7 @@
       "dictionary": {}
     },
     "scriptCalls": [],
-    "masterwork": false,
+    "masterwork": true,
     "enh": null,
     "proficient": false,
     "held": "1h",
